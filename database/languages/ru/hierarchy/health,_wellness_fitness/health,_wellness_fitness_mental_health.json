@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_mental_health",
+  "name": "Психическое здоровье",
+  "skills": [
+    {
+      "id": "skill_2758",
+      "name": "Уменьшение беспокойства",
+      "difficulty_level": 2,
+      "description": "Learn and master Anxiety Reduction",
+      "tags": [
+        "anxiety",
+        "reduction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2759",
+      "name": "Когнитивные поведенческие методы",
+      "difficulty_level": 3,
+      "description": "Learn and master Cognitive Behavioral Techniques",
+      "tags": [
+        "cognitive",
+        "behavioral",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2760",
+      "name": "Эмоциональный интеллект",
+      "difficulty_level": 4,
+      "description": "Learn and master Emotional Intelligence",
+      "tags": [
+        "emotional",
+        "intelligence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2761",
+      "name": "Журналирование для психического здоровья",
+      "difficulty_level": 3,
+      "description": "Learn and master Journaling for Mental Health",
+      "tags": [
+        "journaling",
+        "mental",
+        "health"
+      ]
+    },
+    {
+      "id": "skill_2762",
+      "name": "Обучение умственной устойчивости",
+      "difficulty_level": 5,
+      "description": "Learn and master Mental Resilience Training",
+      "tags": [
+        "mental",
+        "resilience",
+        "training"
+      ]
+    },
+    {
+      "id": "skill_2763",
+      "name": "Практика внимательности",
+      "difficulty_level": 5,
+      "description": "Learn and master Mindfulness Practices",
+      "tags": [
+        "mindfulness",
+        "practices",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2764",
+      "name": "Позитивные психологические инструменты",
+      "difficulty_level": 3,
+      "description": "Learn and master Positive Psychology Tools",
+      "tags": [
+        "positive",
+        "psychology",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2765",
+      "name": "Упражнения для самосознания",
+      "difficulty_level": 2,
+      "description": "Learn and master Self-awareness Exercises",
+      "tags": [
+        "self-awareness",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2766",
+      "name": "Управление стрессом",
+      "difficulty_level": 5,
+      "description": "Learn and master Stress Management",
+      "tags": [
+        "stress",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2767",
+      "name": "Терапевтическое слушание",
+      "difficulty_level": 4,
+      "description": "Learn and master Therapeutic Listening",
+      "tags": [
+        "therapeutic",
+        "listening",
+        "skill"
+      ]
+    }
+  ]
+}

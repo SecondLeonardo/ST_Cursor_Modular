@@ -1,0 +1,327 @@
+1. Chat Communication Overview
+- Real-time voice & text messaging
+- Technologies: WebSockets, AI-based Speech Recognition, Agora for voice
+
+
+2. Chat Data Models
+- MessageModel: messageId, senderId, receiverId, content, timestamp, type, translatedText
+- VoiceNoteModel: noteId, senderId, receiverId, audioFilePath, duration, timestamp
+
+
+3. Chat API Contracts
+- Send Message: POST /api/messages
+- Receive Message: GET /api/messages/{userId}
+
+
+- **Main App Navigation**:
+  - SkillTalk (Messages) Page: List of ongoing conversations, real-time messaging.
+  - Match / Discover Page: View suggested user matches based on languages and skills.
+  - Posts Page: Browse and create posts, interact with content.
+  - VoiceRoom Page: Join or host group voice rooms and liverooms.
+  - My Profile Page: Complete user info, access settings.
+
+# Wireframes
+- **Pages**:
+  1. SkillTalk
+  2. Match
+  3. Posts
+  4. voiceroom/liveroom
+  5. Profile & settings
+
+- **Sub Pages**:
+  - Approximately 133 sub pages, including elements like chat settings, group chat, and profile management.
+
+
+
+4. Chat UI/UX Design
+
+## 4. SkillTalk Page
+- **Description**: The main chat interface where users can manage conversations and connect with others.
+- **UI/UX Design**:
+  - **Header Section**: Title "SkillTalk", icons for chat selection, adding contacts, and upgrading to VIP.
+  - **Search Bar**: Rounded with placeholder text "See who's online".
+  - **Feature Buttons Row**: Quick access to courses, pro partner, translation, and AI tutor.
+  - **Chat List Section**: Displays profile pictures, contact names, message previews, and unread message counts.
+  - **Pop-Up from Add Contact**: Options for group chat, adding partners, and scanning QR codes.
+### 4.1 Chat Selection
+- **Description**: Allows users to select multiple chats for batch actions.
+- **UI/UX Design**:
+  - **Title & Status Bar**: Updates dynamically based on selected conversations.
+  - **Promotional Banner**: Displays VIP offers with a countdown timer.
+  - **Chat List Section**: Includes selection circles and VIP badges.
+  - **Bottom Toolbar**: Options for reading, archiving, and deleting chats.
+
+### 4.2 Chat Conversation Screen
+- **Description**: One-on-one message thread between users.
+- **UI/UX Design**:
+  - **Top Bar**: User info, call and settings icons.
+  - **Chat Body**: Displays messages with status notifications and translation options.
+  - **Message Input**: Includes icons for attachments, emojis, and voice messages.
+  - **Expanded Action Menu**: Offers options like voice calls, gifts, and location sharing.
+
+### 4.3 Sticker Gallery of Keyboard
+- **Description**: Allows users to browse and add stickers to their chats.
+- **UI/UX Design**:
+  - **Visual Style**: Whimsical and playful with rounded card layouts.
+  - **Functionality**: Users can add free sticker packs or purchase premium ones with ST coins.
+  - **User Interaction**: Browse vertically, tap to add or buy stickers, and manage settings.
+
+### 4.3 Chat Settings
+- **Description**: Allows users to customize and manage settings for a specific chat.
+- **UI/UX Design**:
+  - **Top Bar**: Includes a back arrow and title "Chat Settings".
+  - **User Profile Section**: Displays profile picture, country flag, and editable username.
+  - **Main Settings Sections**: Includes notification settings, chat content management, conversation management, chat appearance, privacy controls, communication settings, and safety features.
+
+### 4.4 Chat Files
+- **Description**: Displays shared media between users in a private chat.
+- **UI/UX Design**:
+  - **Navigation Bar**: Includes a back arrow and page title "Chat Files".
+  - **Media Type Toggle Tabs**: Allows switching between image/video and voice categories.
+  - **Content Area**: Displays thumbnails of shared media.
+
+### 4.5 Search History
+- **Description**: Allows users to search through their entire chat history with specific filters.
+- **UI/UX Design**:
+  - **Navigation Bar**: Includes a back arrow and search bar.
+  - **Filter Buttons**: Allows filtering by date and type.
+  - **Search Result Area**: Displays user info and search results with translations.
+
+### 4.6 Set Chat Background
+- **Description**: Enables users to customize the chat background.
+- **UI/UX Design**:
+  - **Navigation Bar**: Includes a back arrow and title "Set chat background".
+  - **VIP Promotion Banner**: Promotes exclusive features for VIP members.
+  - **Upload from Device Option**: Allows selecting a custom image.
+  - **Preset Background Grid**: Displays available backgrounds for selection.
+
+### 9.7 Clear Chat History
+- **Description**: Confirms the action to permanently delete chat history.
+- **UI/UX Design**:
+  - **Background Screen**: Dimmed to focus on the popup.
+  - **Modal Popup**: Includes a title, primary action button, and cancel option.
+
+### 4.8 Block
+- **Description**: Allows users to block a specific contact.
+- **UI/UX Design**:
+  - **Background Layer**: Dimmed to focus on the popup.
+  - **Modal Dialog Container**: Includes a title, description, and action buttons.
+
+### 9.9 Report Page
+- **Description**: Interface for reporting a contact with predefined categories.
+- **UI/UX Design**:
+  - **Navigation & Header**: Includes a back arrow and title "Report".
+  - **Report Reasons List**: Selectable radio button items.
+  - **Additional Description Field**: Allows adding context to the report.
+  - **Block Option**: Checkbox to block the user while reporting.
+
+### 4.10 Choose
+- **Description**: Allows selecting users to create a group chat.
+- **UI/UX Design**:
+  - **Page Title & Navigation**: Includes a back button and "OK" button.
+  - **Tabs**: Switch between recent and partner users.
+  - **Search Bar**: Allows filtering users by name or language.
+  - **User List Item**: Displays user info and selection indicators.
+
+### 4.11 Group Chat
+- **Description**: Interface for group conversations with multiple participants.
+- **UI/UX Design**:
+  - **Top Navigation Bar**: Includes back arrow, chat title, subtitle, search, and settings icons.
+  - **Chat Content Area**: Displays message bubbles, system messages, and disclaimers.
+  - **Input Toolbar**: Includes text input field and action buttons for attachments, media, emojis, translation, and voice messages.
+
+### 4.12 Group Chat Search
+- **Description**: Allows searching messages within a group chat.
+- **UI/UX Design**:
+  - **Top Navigation Bar**: Includes back arrow and search input field.
+  - **Filter Buttons**: Allows filtering by date, members, and type.
+  - **Search Results Section**: Displays user info, message previews, and timestamps.
+
+### 4.13 Group Chat Settings
+- **Description**: Manage group chat settings and preferences.
+- **UI/UX Design**:
+  - **Page Header**: Includes title and navigation options.
+  - **Top Section**: Editable group name and member management.
+  - **Group Functions**: Includes group notice, QR code, and approval settings.
+  - **Chat Settings**: Includes chat files, search history, notifications, and personalization options.
+  - **Bottom Section**: Critical actions like reporting, clearing history, and leaving group.
+
+### 4.14 Group Name
+- **Description**: Allows editing the group chat name.
+- **UI/UX Design**:
+  - **Navigation Bar**: Includes back button and "OK" button.
+  - **Editable Group Name Field**: Allows typing a custom group name.
+
+### 4.15 Group Members
+- **Description**: Manage group members and their roles.
+- **UI/UX Design**:
+  - **Top Section**: Includes navigation and edit options.
+  - **Member List**: Displays profile pictures, names, skills, and proficiency indicators.
+  - **Edit Mode**: Allows removing members with visual indicators.
+
+### 4.16 Add Members to the Group
+- **Description**: Interface for selecting and adding new members to a group.
+- **UI/UX Design**:
+  - **Top Navigation Bar**: Includes back arrow and "OK" button.
+  - **Tab Selector**: Switch between recent and partner users.
+  - **User Card**: Displays user info and selection indicators.
+
+### 4.17 Group QR Code
+- **Description**: Allows inviting others to join the group via a QR code.
+- **UI/UX Design**:
+  - **Top Navigation Bar**: Includes back arrow and title.
+  - **Group Profile Preview**: Displays member avatars and group name.
+  - **QR Code**: Centered for easy scanning.
+
+### 4.18 Leave Group & Delete Chat
+- **Description**: Confirms the action to leave a group and delete chat history.
+- **UI/UX Design**:
+  - **Background Layer**: Dimmed to focus on the popup.
+  - **Modal Popup**: Includes title and action buttons for confirmation and cancellation.
+
+
+### 4.19 SkillTalk VIP Subscription Page
+- **Description**: Offers a comparison between VIP and Non-VIP privileges, subscription plans, and a seamless purchase flow.
+- **UI/UX Design**:
+  - **Top Section**: Includes a back arrow for navigation, title "Get SkillTalk VIP", and a tab selector for "Comparison" and "Details".
+  - **Comparison Table**: Highlights privileges for Non-VIP and VIP users with icons and checkmarks.
+  - **Subscription Plans**: Displayed in card-like boxes with pricing and discount information.
+  - **Bottom Section**: Features a "Continue" button leading to the App Store.
+  - **Detailed Design**: 
+    - **Comparison Table**: 
+      - Non-VIP (Gray Crown) vs VIP (Gold Crown) privileges.
+      - Features like "Unlock Visitors page", "Learn/Teach more Skills", "Extra Profile Exposure", etc.
+      - Table Design: Light gray borders, crown icons, and availability symbols (❌/✅).
+    - **Subscription Plans**:
+      - 1 Month Plan (€9.99), 12 Months Plan (€59.99 - Most Popular), Lifetime Plan (€149.99 - Best Value).
+      - Pricing Layout: Discounts shown using strikethrough pricing and teal savings text.
+
+### 4.20 App Store Subscribe Popup
+- **Description**: The Apple system modal that appears when users tap "Continue" on the SkillTalk VIP Subscription Page.
+- **UI/UX Design**:
+  - **Visual Style**: System-native modal with a clear, minimal, and neutral-toned design.
+  - **Structure & Visual Hierarchy**: Includes App Store title, subscription info block, policy & terms, account email, and subscribe button.
+  - **Functionality**: Confirms the purchase and initiates payment.
+  - **Detailed Analysis**:
+    - **Design Elements**: Rounded popup window, bold subscribe button, generous spacing.
+    - **Text & Typography**: Bold header, large price highlight, clear subscription policy.
+    - **Usability & Accessibility**: Touch-friendly, consistent with Apple's system UI, likely VoiceOver friendly.
+    - **User Flow**: User reviews membership title, pricing, terms, and can subscribe or dismiss.
+
+### 4.21 Classes Page
+- **Description**: Displays all available courses under the SkillTalk platform.
+- **UI/UX Design**:
+  - **Design Elements**: Clean white background, consistent icon use, and engaging promotional banners.
+  - **Structure & Hierarchy**: Includes top tabs, language and skill filter tabs, and a tutor grid.
+  - **Functionality**: Users can book tutors, filter by language and skill, and view promotional deals.
+  - **Detailed Analysis**:
+    - **Design Elements**: Clean white background, soft shadows, rounded cards.
+    - **Structure & Hierarchy**: Top Tabs (Learn vs Classes), Language Filter Tabs, Skill Filter Tabs.
+    - **Usability & Accessibility**: Simple booking flow, touch-friendly buttons, color-coded flags and symbols.
+    - **Functionality Explanation**: Book Tutor button, Calendar Filter, Skill and Language Tabs, Spring Sale banner.
+
+### 4.22 Payment Pop-up
+- **Description**: Provides a detailed breakdown of payment options for classes.
+- **UI/UX Design**:
+  - **Color Scheme**: Soft peach/light beige background with bright orange for CTAs.
+  - **Typography**: Bolded prices and plans for emphasis.
+  - **Functionality**: Users can select session plans and proceed with payment.
+  - **Detailed Analysis**:
+    - **Design Elements**: Rounded pill buttons, session blocks with soft-rounded borders.
+    - **Functionality Explanation**: Duration Tabs, Session Cards, Buy Now button, Support Icon, Tooltip.
+    - **Interaction Flow**: User chooses session length, selects session count, clicks "Buy Now" to proceed.
+
+### 4.23 Top-up to Chat with Paid Partner
+- **Description**: Encourages users to top up coins to chat with paid practice partners.
+- **UI/UX Design**:
+  - **Colors**: Dark mode background with gradient highlights for key elements.
+  - **Shapes**: Card-style elements with rounded corners.
+  - **Functionality**: Users can choose top-up amounts and receive bonus rewards.
+  - **Detailed Analysis**:
+    - **Design Elements**: Dark mode background, gradient highlights, card-style elements.
+    - **Functionality Explanation**: Gift Graphic, Reward Badges, Title & Body Copy, ST Coin Packages, CTA Button.
+    - **User Flow**: Prompted due to insufficient coins, chooses coin tier, taps CTA to complete purchase.
+
+### 4.24 Calls Page
+- **Description**: Interface for managing calls and contacts.
+- **UI/UX Design**:
+  - **General Layout**: Clean, modern appearance with bold typography and intuitive icons.
+  - **Main Content**: Includes search bar, favorites section, and recent calls section.
+  - **Functionality**: Users can initiate new calls, add favorites, and view call details.
+- **Detailed Analysis**:
+  - **Design Elements**: Clean white background, bold typography, intuitive icons.
+  - **Functionality Explanation**: Search Bar, Favorites Section, Recent Calls Section, Bottom Navigation Bar.
+  - **User Flow**: User can search, add favorites, initiate calls, and view call details.
+
+### 4.25 New Call
+- **Description**: Allows users to start a new call with up to 31 people.
+- **UI/UX Design**:
+  - **Header Section**: Includes a cancel button, title, and subtitle indicating selected users.
+  - **Quick Action Buttons**: Options for creating a call link, calling a number, and adding new contacts.
+  - **Contact List Section**: Displays frequently contacted users with selection options.
+- **Detailed Analysis**:
+  - **Design Elements**: Header Section, Search Bar, Quick Action Buttons, Contact List Section.
+  - **Functionality Explanation**: Cancel button, Search bar, New call link, Call a number, New contact.
+  - **User Flow**: User can start a new call, create a call link, call a number, or add new contacts.
+
+### 4.26 New Call Link
+- **Description**: Generates a shareable call link for video or audio calls.
+- **UI/UX Design**:
+  - **Call Link Card**: Displays call type icon, link text, and info text.
+  - **Call Type Section**: Allows selection between video and audio calls.
+  - **Call Link Action List**: Options for sending, copying, sharing, and adding to calendar.
+- **Detailed Analysis**:
+  - **Design Elements**: Call Link Card, Call Type Section, Call Link Action List.
+  - **Functionality Explanation**: Send link via SkillTalk, Copy link, Share link, Add to calendar.
+  - **User Flow**: User can generate a call link, choose call type, and share or add to calendar.
+
+### 4.27 Add Favorite
+- **Description**: Lets users select contacts to add to their favorites for quick access.
+- **UI/UX Design**:
+  - **Top Navigation Bar**: Includes cancel and done buttons.
+  - **Search Bar**: Filters contact list in real-time.
+  - **Contact List Items**: Displays profile pictures, names, and selection circles.
+- **Detailed Analysis**:
+  - **Design Elements**: Top Navigation Bar, Search Bar, Contact List Items.
+  - **Functionality Explanation**: Cancel button, Search bar, Contact selection, Done button.
+  - **User Flow**: User can search contacts, select favorites, and save changes.
+
+
+### 4.28 Group QR Code
+- **Description**: Allows users to invite others to join a group via a scannable QR code.
+- **Design Elements**: Features a top navigation bar, group profile preview, and a centered QR code.
+- **Functionality**: Users can easily share group access through QR codes.
+
+### 4.29 Chat Files Page
+- **Description**: Displays shared media between users in a private chat, segmented into images/videos and voice messages.
+- **Design Elements**: Includes a navigation bar, media type toggle tabs, and a content area for media display.
+- **Functionality**: Users can organize and manage chat media efficiently.
+
+### 4.30 Search History Page
+- **Description**: Allows users to search through their entire chat history with specific filters.
+- **Design Elements**: Features a navigation bar, search bar, filter buttons, and a search result area.
+- **Functionality**: Users can quickly locate past messages using text queries and filters.
+
+### 4.31 Set Chat Background
+- **Description**: Enables users to customize the background of their chat conversation.
+- **Design Elements**: Includes a navigation bar, VIP promotion banner, upload option, and preset background grid.
+- **Functionality**: Users can select from preset themes or upload custom images for chat backgrounds.
+
+### 4.32 Payment Pop-up
+- **Description**: Provides a detailed breakdown of payment options for classes, with a focus on user engagement and conversion.
+- **Design Elements**: Features a warm color scheme, rounded buttons, and clear typography.
+- **Functionality**: Users can select session plans and proceed with payment through a clear and engaging interface.
+
+### 4.33 Top-up to Chat with Paid Partner
+- **Description**: Encourages users to top up coins to chat with paid practice partners.
+- **Design Elements**: Includes a dark mode background, gift pack visuals, and coin package cards.
+- **Functionality**: Users can choose top-up amounts and receive bonus rewards, enhancing the gamified experience.
+
+
+
+5. Implementation Patterns
+- Service/provider pattern, multi-provider strategy, usage tracking, fallback system
+
+
+6. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 

@@ -1,0 +1,46 @@
+{
+  "id": "academic_intellectual",
+  "name": "学术与知识分子",
+  "subcategories": [
+    {
+      "id": "academic_intellectual_economics",
+      "name": "经济学"
+    },
+    {
+      "id": "academic_intellectual_geography",
+      "name": "地理"
+    },
+    {
+      "id": "academic_intellectual_history",
+      "name": "历史"
+    },
+    {
+      "id": "academic_intellectual_language_linguistics",
+      "name": "语言和语言学"
+    },
+    {
+      "id": "academic_intellectual_literature",
+      "name": "文学"
+    },
+    {
+      "id": "academic_intellectual_mathematics",
+      "name": "数学"
+    },
+    {
+      "id": "academic_intellectual_philosophy",
+      "name": "哲学"
+    },
+    {
+      "id": "academic_intellectual_psychology",
+      "name": "心理学"
+    },
+    {
+      "id": "academic_intellectual_science",
+      "name": "科学"
+    },
+    {
+      "id": "academic_intellectual_sociology",
+      "name": "社会学"
+    }
+  ]
+}

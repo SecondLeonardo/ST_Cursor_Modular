@@ -1,0 +1,215 @@
+{
+  "id": "tech_digital_skills_cybersecurity",
+  "name": "இணைய பாதுகாப்பு",
+  "skills": [
+    {
+      "id": "skill_4367",
+      "name": "குறியாக்கவியல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Cryptography",
+      "tags": [
+        "cryptography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4368",
+      "name": "சைபர் அச்சுறுத்தல் நுண்ணறிவு",
+      "difficulty_level": 3,
+      "description": "Learn and master Cyber Threat Intelligence",
+      "tags": [
+        "cyber",
+        "threat",
+        "intelligence"
+      ]
+    },
+    {
+      "id": "skill_4369",
+      "name": "நெறிமுறை ஹேக்கிங்",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Hacking",
+      "tags": [
+        "ethical",
+        "hacking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4370",
+      "name": "ஃபயர்வால்ஸ் & ஐடிஎஸ்",
+      "difficulty_level": 2,
+      "description": "Learn and master Firewalls & IDS",
+      "tags": [
+        "firewalls",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4371",
+      "name": "சம்பவ பதில்",
+      "difficulty_level": 5,
+      "description": "Learn and master Incident Response",
+      "tags": [
+        "incident",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4372",
+      "name": "தீம்பொருள் பகுப்பாய்வு",
+      "difficulty_level": 5,
+      "description": "Learn and master Malware Analysis",
+      "tags": [
+        "malware",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4373",
+      "name": "பிணைய கண்காணிப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Monitoring",
+      "tags": [
+        "network",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4374",
+      "name": "பிணைய பாதுகாப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Security",
+      "tags": [
+        "network",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4375",
+      "name": "கடவுச்சொல் மேலாண்மை",
+      "difficulty_level": 2,
+      "description": "Learn and master Password Management",
+      "tags": [
+        "password",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4376",
+      "name": "ஊடுருவல் சோதனை",
+      "difficulty_level": 5,
+      "description": "Learn and master Penetration Testing",
+      "tags": [
+        "penetration",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4377",
+      "name": "ஊடுருவல் சோதனை அடிப்படைகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Penetration Testing Basics",
+      "tags": [
+        "penetration",
+        "testing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4378",
+      "name": "ஃபிஷிங் அடையாளம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Phishing Identification",
+      "tags": [
+        "phishing",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4379",
+      "name": "ஃபிஷிங் தடுப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4380",
+      "name": "பாதுகாப்பான குறியீட்டு நடைமுறைகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Secure Coding Practices",
+      "tags": [
+        "secure",
+        "coding",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4381",
+      "name": "பாதுகாப்பான மென்பொருள் மேம்பாடு",
+      "difficulty_level": 2,
+      "description": "Learn and master Secure Software Development",
+      "tags": [
+        "secure",
+        "software",
+        "development"
+      ]
+    },
+    {
+      "id": "skill_4382",
+      "name": "பாதுகாப்பு இணக்கம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Security Compliance",
+      "tags": [
+        "security",
+        "compliance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4383",
+      "name": "2FA ஐ அமைத்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Setting Up 2FA",
+      "tags": [
+        "setting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4384",
+      "name": "தீம்பொருள் வகைகளைப் புரிந்துகொள்வது",
+      "difficulty_level": 5,
+      "description": "Learn and master Understanding Malware Types",
+      "tags": [
+        "understanding",
+        "malware",
+        "types"
+      ]
+    },
+    {
+      "id": "skill_4385",
+      "name": "பாதிப்பு மதிப்பீடு",
+      "difficulty_level": 5,
+      "description": "Learn and master Vulnerability Assessment",
+      "tags": [
+        "vulnerability",
+        "assessment",
+        "skill"
+      ]
+    }
+  ]
+}

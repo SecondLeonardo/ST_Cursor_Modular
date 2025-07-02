@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_handmade_goods",
+  "name": "हस्तनिर्मित वस्तू",
+  "skills": [
+    {
+      "id": "skill_4885",
+      "name": "मेणबत्ती बनविणे",
+      "difficulty_level": 5,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4886",
+      "name": "ग्लास एचिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Glass Etching",
+      "tags": [
+        "glass",
+        "etching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4887",
+      "name": "ज्वेलरी वायर रॅपिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Jewelry Wire Wrapping",
+      "tags": [
+        "jewelry",
+        "wire",
+        "wrapping"
+      ]
+    },
+    {
+      "id": "skill_4888",
+      "name": "विणकाम मूलभूत गोष्टी",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting Basics",
+      "tags": [
+        "knitting",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4889",
+      "name": "मॅक्रॅम नॉट्स",
+      "difficulty_level": 4,
+      "description": "Learn and master Macrame Knots",
+      "tags": [
+        "macrame",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4890",
+      "name": "राळ कला बनविणे",
+      "difficulty_level": 3,
+      "description": "Learn and master Making Resin Art",
+      "tags": [
+        "making",
+        "resin",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4891",
+      "name": "कुंभारकामाचा चाक वापर",
+      "difficulty_level": 4,
+      "description": "Learn and master Pottery Wheel Use",
+      "tags": [
+        "pottery",
+        "wheel",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4892",
+      "name": "साबण हस्तकला",
+      "difficulty_level": 3,
+      "description": "Learn and master Soap Crafting",
+      "tags": [
+        "soap",
+        "crafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4893",
+      "name": "टाइल मोज़ाइक",
+      "difficulty_level": 1,
+      "description": "Learn and master Tile Mosaics",
+      "tags": [
+        "tile",
+        "mosaics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4894",
+      "name": "वुडबर्निंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Woodburning",
+      "tags": [
+        "woodburning",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

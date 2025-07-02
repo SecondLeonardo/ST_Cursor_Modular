@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_music_creation",
+  "name": "إنشاء الموسيقى",
+  "skills": [
+    {
+      "id": "skill_1604",
+      "name": "خلط الصوت",
+      "difficulty_level": 3,
+      "description": "Learn and master Audio Mixing",
+      "tags": [
+        "audio",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1605",
+      "name": "ضرب",
+      "difficulty_level": 2,
+      "description": "Learn and master Beat Making",
+      "tags": [
+        "beat",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1606",
+      "name": "تأليف الألحان",
+      "difficulty_level": 3,
+      "description": "Learn and master Composing Melodies",
+      "tags": [
+        "composing",
+        "melodies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1607",
+      "name": "تسجيل المنزل",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Recording",
+      "tags": [
+        "home",
+        "recording",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1608",
+      "name": "أخذ عينات حلقة",
+      "difficulty_level": 1,
+      "description": "Learn and master Loop Sampling",
+      "tags": [
+        "loop",
+        "sampling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1609",
+      "name": "الكتابة الغنائية",
+      "difficulty_level": 3,
+      "description": "Learn and master Lyric Writing",
+      "tags": [
+        "lyric",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1610",
+      "name": "أساسيات نظرية الموسيقى",
+      "difficulty_level": 1,
+      "description": "Learn and master Music Theory Basics",
+      "tags": [
+        "music",
+        "theory",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1611",
+      "name": "العزف على الغيتار",
+      "difficulty_level": 1,
+      "description": "Learn and master Playing Guitar",
+      "tags": [
+        "playing",
+        "guitar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1612",
+      "name": "لعب البيانو",
+      "difficulty_level": 1,
+      "description": "Learn and master Playing Piano",
+      "tags": [
+        "playing",
+        "piano",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1613",
+      "name": "تأليف الأغاني",
+      "difficulty_level": 1,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

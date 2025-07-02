@@ -1,0 +1,116 @@
+{
+  "id": "business_finance_customer_support",
+  "name": "Support client",
+  "skills": [
+    {
+      "id": "skill_790",
+      "name": "Outils CRM (par exemple, Zendesk)",
+      "difficulty_level": 5,
+      "description": "Learn and master CRM Tools (e.g., Zendesk)",
+      "tags": [
+        "tools",
+        "(e.g.,",
+        "zendesk)"
+      ]
+    },
+    {
+      "id": "skill_791",
+      "name": "Résolution des plaintes",
+      "difficulty_level": 2,
+      "description": "Learn and master Complaint Resolution",
+      "tags": [
+        "complaint",
+        "resolution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_792",
+      "name": "Analyse des commentaires des clients",
+      "difficulty_level": 2,
+      "description": "Learn and master Customer Feedback Analysis",
+      "tags": [
+        "customer",
+        "feedback",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_793",
+      "name": "Empathie en service",
+      "difficulty_level": 3,
+      "description": "Learn and master Empathy in Service",
+      "tags": [
+        "empathy",
+        "service",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_794",
+      "name": "Gestion d'assistance",
+      "difficulty_level": 5,
+      "description": "Learn and master Helpdesk Management",
+      "tags": [
+        "helpdesk",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_795",
+      "name": "Création de base de connaissances",
+      "difficulty_level": 2,
+      "description": "Learn and master Knowledge Base Creation",
+      "tags": [
+        "knowledge",
+        "base",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_796",
+      "name": "Support de chat en direct",
+      "difficulty_level": 3,
+      "description": "Learn and master Live Chat Support",
+      "tags": [
+        "live",
+        "chat",
+        "support"
+      ]
+    },
+    {
+      "id": "skill_797",
+      "name": "Étiquette téléphonique",
+      "difficulty_level": 5,
+      "description": "Learn and master Phone Etiquette",
+      "tags": [
+        "phone",
+        "etiquette",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_798",
+      "name": "Soutenir les mesures",
+      "difficulty_level": 4,
+      "description": "Learn and master Support Metrics",
+      "tags": [
+        "support",
+        "metrics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_799",
+      "name": "Soutenir les systèmes de billetterie",
+      "difficulty_level": 4,
+      "description": "Learn and master Support Ticketing Systems",
+      "tags": [
+        "support",
+        "ticketing",
+        "systems"
+      ]
+    }
+  ]
+}

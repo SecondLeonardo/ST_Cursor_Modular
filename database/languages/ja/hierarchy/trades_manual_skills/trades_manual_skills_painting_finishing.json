@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_painting_finishing",
+  "name": "絵画と仕上げ",
+  "skills": [
+    {
+      "id": "skill_5135",
+      "name": "ブラシ＆ローラーテクニック",
+      "difficulty_level": 2,
+      "description": "Learn and master Brush & Roller Techniques",
+      "tags": [
+        "brush",
+        "roller",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_5136",
+      "name": "カラーマッチング",
+      "difficulty_level": 5,
+      "description": "Learn and master Color Matching",
+      "tags": [
+        "color",
+        "matching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5137",
+      "name": "外装絵",
+      "difficulty_level": 3,
+      "description": "Learn and master Exterior Painting",
+      "tags": [
+        "exterior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5138",
+      "name": "テクスチャリングを完了します",
+      "difficulty_level": 4,
+      "description": "Learn and master Finish Texturing",
+      "tags": [
+        "finish",
+        "texturing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5139",
+      "name": "インテリア絵",
+      "difficulty_level": 3,
+      "description": "Learn and master Interior Painting",
+      "tags": [
+        "interior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5140",
+      "name": "保護コーティング",
+      "difficulty_level": 3,
+      "description": "Learn and master Protective Coatings",
+      "tags": [
+        "protective",
+        "coatings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5141",
+      "name": "スプレーペインティング",
+      "difficulty_level": 4,
+      "description": "Learn and master Spray Painting",
+      "tags": [
+        "spray",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5142",
+      "name": "染色技術",
+      "difficulty_level": 3,
+      "description": "Learn and master Staining Techniques",
+      "tags": [
+        "staining",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5143",
+      "name": "表面の準備",
+      "difficulty_level": 5,
+      "description": "Learn and master Surface Preparation",
+      "tags": [
+        "surface",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5144",
+      "name": "壁紙の設置",
+      "difficulty_level": 3,
+      "description": "Learn and master Wallpaper Installation",
+      "tags": [
+        "wallpaper",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

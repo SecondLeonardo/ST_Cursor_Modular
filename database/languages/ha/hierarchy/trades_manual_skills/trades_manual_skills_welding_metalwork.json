@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_welding_metalwork",
+  "name": "Welding & M karfe",
+  "skills": [
+    {
+      "id": "skill_5165",
+      "name": "ARC Welding",
+      "difficulty_level": 1,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5166",
+      "name": "Fassarar Blueppin",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Interpretation",
+      "tags": [
+        "blueprint",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5167",
+      "name": "Yankan Torch",
+      "difficulty_level": 2,
+      "description": "Learn and master Cutting Torch Use",
+      "tags": [
+        "cutting",
+        "torch",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5168",
+      "name": "Mig Welding",
+      "difficulty_level": 1,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5169",
+      "name": "M karfe",
+      "difficulty_level": 3,
+      "description": "Learn and master Metal Grinding",
+      "tags": [
+        "metal",
+        "grinding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5170",
+      "name": "Aminiya Gear Gear",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Gear Use",
+      "tags": [
+        "safety",
+        "gear",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5171",
+      "name": "Tsarin ƙarfe",
+      "difficulty_level": 4,
+      "description": "Learn and master Sheet Metal Fabrication",
+      "tags": [
+        "sheet",
+        "metal",
+        "fabrication"
+      ]
+    },
+    {
+      "id": "skill_5172",
+      "name": "Stick Welding",
+      "difficulty_level": 1,
+      "description": "Learn and master Stick Welding",
+      "tags": [
+        "stick",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5173",
+      "name": "Tig Welding",
+      "difficulty_level": 5,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5174",
+      "name": "Weld dubawa",
+      "difficulty_level": 4,
+      "description": "Learn and master Weld Inspection",
+      "tags": [
+        "weld",
+        "inspection",
+        "skill"
+      ]
+    }
+  ]
+}

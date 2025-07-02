@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_automotive_maintenance",
+  "name": "Bảo trì ô tô",
+  "skills": [
+    {
+      "id": "skill_3508",
+      "name": "Thay pin",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3509",
+      "name": "Kiểm tra phanh",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Inspection",
+      "tags": [
+        "brake",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3510",
+      "name": "Chi tiết xe hơi",
+      "difficulty_level": 4,
+      "description": "Learn and master Car Detailing",
+      "tags": [
+        "detailing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3511",
+      "name": "Sử dụng giắc cắm xe",
+      "difficulty_level": 2,
+      "description": "Learn and master Car Jack Use",
+      "tags": [
+        "jack",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3512",
+      "name": "Thay đổi đèn pha",
+      "difficulty_level": 2,
+      "description": "Learn and master Changing Headlights",
+      "tags": [
+        "changing",
+        "headlights",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3513",
+      "name": "Fluid Top-off",
+      "difficulty_level": 1,
+      "description": "Learn and master Fluid Top-off",
+      "tags": [
+        "fluid",
+        "top-off",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3514",
+      "name": "Thay dầu",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3515",
+      "name": "Đọc mã lỗi",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Error Codes",
+      "tags": [
+        "reading",
+        "error",
+        "codes"
+      ]
+    },
+    {
+      "id": "skill_3516",
+      "name": "Thay thế các bộ lọc không khí",
+      "difficulty_level": 1,
+      "description": "Learn and master Replacing Air Filters",
+      "tags": [
+        "replacing",
+        "filters",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3517",
+      "name": "Xoay lốp",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    }
+  ]
+}

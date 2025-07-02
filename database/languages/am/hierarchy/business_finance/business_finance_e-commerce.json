@@ -1,0 +1,117 @@
+{
+  "id": "business_finance_e-commerce",
+  "name": "ኢ-ኮሜርስ",
+  "skills": [
+    {
+      "id": "skill_800",
+      "name": "የደንበኛ ማቆያ ዘዴዎች",
+      "difficulty_level": 3,
+      "description": "Learn and master Customer Retention Strategies",
+      "tags": [
+        "customer",
+        "retention",
+        "strategies"
+      ]
+    },
+    {
+      "id": "skill_801",
+      "name": "የኢ-ኮሜርስ ትንታኔዎች",
+      "difficulty_level": 4,
+      "description": "Learn and master E-commerce Analytics",
+      "tags": [
+        "e-commerce",
+        "analytics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_802",
+      "name": "የፍትህ ማኔጅመንት",
+      "difficulty_level": 2,
+      "description": "Learn and master Inventory Management",
+      "tags": [
+        "inventory",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_803",
+      "name": "የገቢያ ቦታ መሸጥ (ኢቢይ, አማዞን)",
+      "difficulty_level": 3,
+      "description": "Learn and master Marketplace Selling (eBay, Amazon)",
+      "tags": [
+        "marketplace",
+        "selling",
+        "(ebay,",
+        "amazon)"
+      ]
+    },
+    {
+      "id": "skill_804",
+      "name": "የመስመር ላይ የክፍያ ውህደት",
+      "difficulty_level": 1,
+      "description": "Learn and master Online Payment Integration",
+      "tags": [
+        "online",
+        "payment",
+        "integration"
+      ]
+    },
+    {
+      "id": "skill_805",
+      "name": "የትዕዛዝ ፍጻሜ",
+      "difficulty_level": 2,
+      "description": "Learn and master Order Fulfillment",
+      "tags": [
+        "order",
+        "fulfillment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_806",
+      "name": "የምርት ዝርዝር ማመቻቸት",
+      "difficulty_level": 4,
+      "description": "Learn and master Product Listing Optimization",
+      "tags": [
+        "product",
+        "listing",
+        "optimization"
+      ]
+    },
+    {
+      "id": "skill_807",
+      "name": "የመመዛመድ ፖሊሲ አያያዝ",
+      "difficulty_level": 1,
+      "description": "Learn and master Return Policy Handling",
+      "tags": [
+        "return",
+        "policy",
+        "handling"
+      ]
+    },
+    {
+      "id": "skill_808",
+      "name": "መደብር ማዋቀሪያ ማዋቀር",
+      "difficulty_level": 5,
+      "description": "Learn and master Shopify Store Setup",
+      "tags": [
+        "shopify",
+        "store",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_809",
+      "name": "የማቀናበያ ቴክኒኮች",
+      "difficulty_level": 2,
+      "description": "Learn and master Upselling Techniques",
+      "tags": [
+        "upselling",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

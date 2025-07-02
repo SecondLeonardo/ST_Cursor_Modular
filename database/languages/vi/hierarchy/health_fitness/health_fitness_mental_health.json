@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_mental_health",
+  "name": "Sức khỏe tâm thần",
+  "skills": [
+    {
+      "id": "skill_2463",
+      "name": "Thực hành khẳng định",
+      "difficulty_level": 3,
+      "description": "Learn and master Affirmation Practice",
+      "tags": [
+        "affirmation",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2464",
+      "name": "Giảm lo lắng",
+      "difficulty_level": 4,
+      "description": "Learn and master Anxiety Reduction",
+      "tags": [
+        "anxiety",
+        "reduction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2465",
+      "name": "Công cụ hành vi nhận thức",
+      "difficulty_level": 1,
+      "description": "Learn and master Cognitive Behavioral Tools",
+      "tags": [
+        "cognitive",
+        "behavioral",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2466",
+      "name": "Sức khỏe kỹ thuật số",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Wellness",
+      "tags": [
+        "digital",
+        "wellness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2467",
+      "name": "Viết nhật ký cho tinh thần rõ ràng",
+      "difficulty_level": 1,
+      "description": "Learn and master Journaling for Mental Clarity",
+      "tags": [
+        "journaling",
+        "mental",
+        "clarity"
+      ]
+    },
+    {
+      "id": "skill_2468",
+      "name": "Thực hành nghỉ ngơi tinh thần",
+      "difficulty_level": 1,
+      "description": "Learn and master Mental Rest Practices",
+      "tags": [
+        "mental",
+        "rest",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_2469",
+      "name": "Thiền chánh niệm",
+      "difficulty_level": 3,
+      "description": "Learn and master Mindfulness Meditation",
+      "tags": [
+        "mindfulness",
+        "meditation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2470",
+      "name": "Vệ sinh ngủ",
+      "difficulty_level": 1,
+      "description": "Learn and master Sleep Hygiene",
+      "tags": [
+        "sleep",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2471",
+      "name": "Quản lý căng thẳng",
+      "difficulty_level": 1,
+      "description": "Learn and master Stress Management",
+      "tags": [
+        "stress",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2472",
+      "name": "Kỹ thuật trị liệu",
+      "difficulty_level": 3,
+      "description": "Learn and master Therapeutic Techniques",
+      "tags": [
+        "therapeutic",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_metalwork_welding",
+  "name": "உலோக வேலைகள் மற்றும் வெல்டிங்",
+  "skills": [
+    {
+      "id": "skill_4985",
+      "name": "வில் வெல்டிங்",
+      "difficulty_level": 3,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4986",
+      "name": "புளூபிரிண்ட் வாசிப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4987",
+      "name": "ஃபார்ஜிங் அடிப்படைகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Forging Basics",
+      "tags": [
+        "forging",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4988",
+      "name": "லேண்ட் செயல்பாடு",
+      "difficulty_level": 1,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4989",
+      "name": "மிக் வெல்டிங்",
+      "difficulty_level": 2,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4990",
+      "name": "உலோக வெட்டுதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Cutting",
+      "tags": [
+        "metal",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4991",
+      "name": "குழாய் வெல்டிங்",
+      "difficulty_level": 1,
+      "description": "Learn and master Pipe Welding",
+      "tags": [
+        "pipe",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4992",
+      "name": "தாள் உலோக புனைகதை",
+      "difficulty_level": 1,
+      "description": "Learn and master Sheet Metal Fabrication",
+      "tags": [
+        "sheet",
+        "metal",
+        "fabrication"
+      ]
+    },
+    {
+      "id": "skill_4993",
+      "name": "சாலிடரிங் உலோகம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Soldering Metal",
+      "tags": [
+        "soldering",
+        "metal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4994",
+      "name": "டிக் வெல்டிங்",
+      "difficulty_level": 1,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

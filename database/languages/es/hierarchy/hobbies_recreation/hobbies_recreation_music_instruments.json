@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_music_instruments",
+  "name": "Música e instrumentos",
+  "skills": [
+    {
+      "id": "skill_5355",
+      "name": "Guitar",
+      "difficulty_level": 2,
+      "description": "Learn and master Guitar Playing",
+      "tags": [
+        "guitar",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5356",
+      "name": "Piano jugando",
+      "difficulty_level": 3,
+      "description": "Learn and master Piano Playing",
+      "tags": [
+        "piano",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5357",
+      "name": "Tamboril",
+      "difficulty_level": 4,
+      "description": "Learn and master Drumming",
+      "tags": [
+        "drumming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5358",
+      "name": "Cantando",
+      "difficulty_level": 2,
+      "description": "Learn and master Singing",
+      "tags": [
+        "singing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5359",
+      "name": "Teoría musical",
+      "difficulty_level": 2,
+      "description": "Learn and master Music Theory",
+      "tags": [
+        "music",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5360",
+      "name": "Composición de canciones",
+      "difficulty_level": 2,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5361",
+      "name": "Producción musical",
+      "difficulty_level": 4,
+      "description": "Learn and master Music Production",
+      "tags": [
+        "music",
+        "production",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5362",
+      "name": "Djing",
+      "difficulty_level": 2,
+      "description": "Learn and master DJing",
+      "tags": [
+        "djing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5363",
+      "name": "Violín jugando",
+      "difficulty_level": 1,
+      "description": "Learn and master Violin Playing",
+      "tags": [
+        "violin",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5364",
+      "name": "Lectura de la vista",
+      "difficulty_level": 2,
+      "description": "Learn and master Sight Reading",
+      "tags": [
+        "sight",
+        "reading",
+        "skill"
+      ]
+    }
+  ]
+}

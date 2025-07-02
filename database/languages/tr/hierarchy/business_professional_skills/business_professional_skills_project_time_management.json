@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_project_time_management",
+  "name": "Proje ve Zaman Yönetimi",
+  "skills": [
+    {
+      "id": "skill_1028",
+      "name": "Çevik Metodoloji",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Methodology",
+      "tags": [
+        "agile",
+        "methodology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1029",
+      "name": "Gantt grafik oluşturma",
+      "difficulty_level": 1,
+      "description": "Learn and master Gantt Chart Creation",
+      "tags": [
+        "gantt",
+        "chart",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_1030",
+      "name": "Toplantı Kolaylaştırma",
+      "difficulty_level": 4,
+      "description": "Learn and master Meeting Facilitation",
+      "tags": [
+        "meeting",
+        "facilitation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1031",
+      "name": "Önceliklendirme teknikleri",
+      "difficulty_level": 2,
+      "description": "Learn and master Prioritization Techniques",
+      "tags": [
+        "prioritization",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1032",
+      "name": "Kaynak tahsisi",
+      "difficulty_level": 2,
+      "description": "Learn and master Resource Allocation",
+      "tags": [
+        "resource",
+        "allocation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1033",
+      "name": "Scrum uygulamaları",
+      "difficulty_level": 4,
+      "description": "Learn and master Scrum Practices",
+      "tags": [
+        "scrum",
+        "practices",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1034",
+      "name": "Akıllı Hedefler Belirleme",
+      "difficulty_level": 1,
+      "description": "Learn and master Setting SMART Goals",
+      "tags": [
+        "setting",
+        "smart",
+        "goals"
+      ]
+    },
+    {
+      "id": "skill_1035",
+      "name": "Görev delegasyonu",
+      "difficulty_level": 2,
+      "description": "Learn and master Task Delegation",
+      "tags": [
+        "task",
+        "delegation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1036",
+      "name": "Zaman Engelleme",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Blocking",
+      "tags": [
+        "time",
+        "blocking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1037",
+      "name": "Trello/Asana Kullanma",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Trello/Asana",
+      "tags": [
+        "using",
+        "trello/asana",
+        "skill"
+      ]
+    }
+  ]
+}

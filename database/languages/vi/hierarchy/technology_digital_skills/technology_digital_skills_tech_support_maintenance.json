@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_tech_support_maintenance",
+  "name": "Hỗ trợ & Bảo trì Kỹ thuật",
+  "skills": [
+    {
+      "id": "skill_4835",
+      "name": "Kịch bản cơ bản để bảo trì",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Scripting for Maintenance",
+      "tags": [
+        "basic",
+        "scripting",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_4836",
+      "name": "Hỗ trợ kỹ thuật khách hàng",
+      "difficulty_level": 2,
+      "description": "Learn and master Customer Tech Support",
+      "tags": [
+        "customer",
+        "tech",
+        "support"
+      ]
+    },
+    {
+      "id": "skill_4837",
+      "name": "Cài đặt trình điều khiển",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Drivers",
+      "tags": [
+        "installing",
+        "drivers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4838",
+      "name": "Giám sát sức khỏe hệ thống",
+      "difficulty_level": 3,
+      "description": "Learn and master Monitoring System Health",
+      "tags": [
+        "monitoring",
+        "system",
+        "health"
+      ]
+    },
+    {
+      "id": "skill_4839",
+      "name": "Xử lý sự cố từ xa",
+      "difficulty_level": 4,
+      "description": "Learn and master Remote Troubleshooting",
+      "tags": [
+        "remote",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4840",
+      "name": "Cập nhật phần mềm",
+      "difficulty_level": 3,
+      "description": "Learn and master Software Updates",
+      "tags": [
+        "software",
+        "updates",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4841",
+      "name": "Làm sạch hệ thống",
+      "difficulty_level": 4,
+      "description": "Learn and master System Cleanup",
+      "tags": [
+        "system",
+        "cleanup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4842",
+      "name": "Thiết lập thiết bị công nghệ",
+      "difficulty_level": 4,
+      "description": "Learn and master Tech Device Setup",
+      "tags": [
+        "tech",
+        "device",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4843",
+      "name": "Truyền thông hỗ trợ công nghệ",
+      "difficulty_level": 1,
+      "description": "Learn and master Tech Support Communication",
+      "tags": [
+        "tech",
+        "support",
+        "communication"
+      ]
+    },
+    {
+      "id": "skill_4844",
+      "name": "Khắc phục sự cố phần cứng",
+      "difficulty_level": 3,
+      "description": "Learn and master Troubleshooting Hardware",
+      "tags": [
+        "troubleshooting",
+        "hardware",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_fashion_textile_arts",
+  "name": "هنرهای مد و نساجی",
+  "skills": [
+    {
+      "id": "skill_450",
+      "name": "طراحی لوازم جانبی",
+      "difficulty_level": 5,
+      "description": "Learn and master Accessory Design",
+      "tags": [
+        "accessory",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_451",
+      "name": "طراحی لباس",
+      "difficulty_level": 1,
+      "description": "Learn and master Costume Design",
+      "tags": [
+        "costume",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_452",
+      "name": "طراحی گلدوزی",
+      "difficulty_level": 5,
+      "description": "Learn and master Embroidery Design",
+      "tags": [
+        "embroidery",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_453",
+      "name": "انتخاب پارچه",
+      "difficulty_level": 1,
+      "description": "Learn and master Fabric Selection",
+      "tags": [
+        "fabric",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_454",
+      "name": "مد لباس",
+      "difficulty_level": 4,
+      "description": "Learn and master Fashion Draping",
+      "tags": [
+        "fashion",
+        "draping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_455",
+      "name": "تصویر مد",
+      "difficulty_level": 5,
+      "description": "Learn and master Fashion Illustration",
+      "tags": [
+        "fashion",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_456",
+      "name": "ساخت پوشاک",
+      "difficulty_level": 4,
+      "description": "Learn and master Garment Construction",
+      "tags": [
+        "garment",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_457",
+      "name": "الگوی ساخت",
+      "difficulty_level": 2,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_458",
+      "name": "اصول خیاطی",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewing Basics",
+      "tags": [
+        "sewing",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_459",
+      "name": "چاپ نساجی",
+      "difficulty_level": 2,
+      "description": "Learn and master Textile Printing",
+      "tags": [
+        "textile",
+        "printing",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_heavy_equipment_operation",
+  "name": "Aiki mai nauyi",
+  "skills": [
+    {
+      "id": "skill_5105",
+      "name": "Backhoe Tuki",
+      "difficulty_level": 1,
+      "description": "Learn and master Backhoe Driving",
+      "tags": [
+        "backhoe",
+        "driving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5106",
+      "name": "Craute Operation",
+      "difficulty_level": 1,
+      "description": "Learn and master Crane Operation",
+      "tags": [
+        "crane",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5107",
+      "name": "Ikon",
+      "difficulty_level": 2,
+      "description": "Learn and master Excavator Control",
+      "tags": [
+        "excavator",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5108",
+      "name": "Forklift",
+      "difficulty_level": 5,
+      "description": "Learn and master Forklift Operation",
+      "tags": [
+        "forklift",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5109",
+      "name": "GPS Guest Guest",
+      "difficulty_level": 2,
+      "description": "Learn and master GPS Guided Operation",
+      "tags": [
+        "guided",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5110",
+      "name": "Daidaita daidaitawa",
+      "difficulty_level": 2,
+      "description": "Learn and master Load Balancing",
+      "tags": [
+        "load",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5111",
+      "name": "Binciken aminci",
+      "difficulty_level": 1,
+      "description": "Learn and master Safety Inspections",
+      "tags": [
+        "safety",
+        "inspections",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5112",
+      "name": "Kewayawa shafin",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Navigation",
+      "tags": [
+        "site",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5113",
+      "name": "Skid Mereer Amfani",
+      "difficulty_level": 3,
+      "description": "Learn and master Skid Steer Use",
+      "tags": [
+        "skid",
+        "steer",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5114",
+      "name": "Trencher amfani",
+      "difficulty_level": 3,
+      "description": "Learn and master Trencher Use",
+      "tags": [
+        "trencher",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

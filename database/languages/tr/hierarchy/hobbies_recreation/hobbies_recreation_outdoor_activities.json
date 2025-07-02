@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_outdoor_activities",
+  "name": "Açık hava etkinlikleri",
+  "skills": [
+    {
+      "id": "skill_5365",
+      "name": "Doğa yürüyüşü",
+      "difficulty_level": 4,
+      "description": "Learn and master Hiking",
+      "tags": [
+        "hiking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5366",
+      "name": "Kamp",
+      "difficulty_level": 5,
+      "description": "Learn and master Camping",
+      "tags": [
+        "camping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5367",
+      "name": "Kuş gözlemciliği",
+      "difficulty_level": 4,
+      "description": "Learn and master Bird Watching",
+      "tags": [
+        "bird",
+        "watching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5368",
+      "name": "Balık tutma",
+      "difficulty_level": 3,
+      "description": "Learn and master Fishing",
+      "tags": [
+        "fishing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5369",
+      "name": "Kayalıklara tırmanma",
+      "difficulty_level": 3,
+      "description": "Learn and master Rock Climbing",
+      "tags": [
+        "rock",
+        "climbing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5370",
+      "name": "Kano",
+      "difficulty_level": 2,
+      "description": "Learn and master Kayaking",
+      "tags": [
+        "kayaking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5371",
+      "name": "Bisikletçilik",
+      "difficulty_level": 4,
+      "description": "Learn and master Cycling",
+      "tags": [
+        "cycling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5372",
+      "name": "Stargazing",
+      "difficulty_level": 4,
+      "description": "Learn and master Stargazing",
+      "tags": [
+        "stargazing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5373",
+      "name": "Coğrafi işleme",
+      "difficulty_level": 5,
+      "description": "Learn and master Geocaching",
+      "tags": [
+        "geocaching",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5374",
+      "name": "Doğa Fotoğrafçılığı",
+      "difficulty_level": 5,
+      "description": "Learn and master Nature Photography",
+      "tags": [
+        "nature",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

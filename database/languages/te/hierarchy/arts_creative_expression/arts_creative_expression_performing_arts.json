@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_performing_arts",
+  "name": "ప్రదర్శన కళలు",
+  "skills": [
+    {
+      "id": "skill_390",
+      "name": "నటన పద్ధతులు",
+      "difficulty_level": 2,
+      "description": "Learn and master Acting Techniques",
+      "tags": [
+        "acting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_391",
+      "name": "డ్యాన్స్ కొరియోగ్రఫీ",
+      "difficulty_level": 2,
+      "description": "Learn and master Dance Choreography",
+      "tags": [
+        "dance",
+        "choreography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_392",
+      "name": "మెరుగుదల",
+      "difficulty_level": 5,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_393",
+      "name": "లైవ్ థియేటర్ ప్రొడక్షన్",
+      "difficulty_level": 2,
+      "description": "Learn and master Live Theatre Production",
+      "tags": [
+        "live",
+        "theatre",
+        "production"
+      ]
+    },
+    {
+      "id": "skill_394",
+      "name": "మైమ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_395",
+      "name": "మోనోలాగ్ పనితీరు",
+      "difficulty_level": 4,
+      "description": "Learn and master Monologue Performance",
+      "tags": [
+        "monologue",
+        "performance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_396",
+      "name": "స్క్రిప్ట్ విశ్లేషణ",
+      "difficulty_level": 3,
+      "description": "Learn and master Script Analysis",
+      "tags": [
+        "script",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_397",
+      "name": "స్టేజ్ కంబాట్",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Combat",
+      "tags": [
+        "stage",
+        "combat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_398",
+      "name": "స్టేజ్ ఉనికి",
+      "difficulty_level": 4,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_399",
+      "name": "వాయిస్ మాడ్యులేషన్",
+      "difficulty_level": 4,
+      "description": "Learn and master Voice Modulation",
+      "tags": [
+        "voice",
+        "modulation",
+        "skill"
+      ]
+    }
+  ]
+}

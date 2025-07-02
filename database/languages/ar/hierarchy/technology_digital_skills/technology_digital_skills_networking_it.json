@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_networking_it",
+  "name": "الشبكات و IT",
+  "skills": [
+    {
+      "id": "skill_4785",
+      "name": "إعداد الأجهزة",
+      "difficulty_level": 1,
+      "description": "Learn and master Hardware Setup",
+      "tags": [
+        "hardware",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4786",
+      "name": "عنوان IP",
+      "difficulty_level": 4,
+      "description": "Learn and master IP Addressing",
+      "tags": [
+        "addressing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4787",
+      "name": "استكشاف الأخطاء وإصلاحها",
+      "difficulty_level": 3,
+      "description": "Learn and master IT Troubleshooting",
+      "tags": [
+        "troubleshooting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4788",
+      "name": "الإعداد LAN/WAN",
+      "difficulty_level": 1,
+      "description": "Learn and master LAN/WAN Setup",
+      "tags": [
+        "lan/wan",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4789",
+      "name": "مراقبة الشبكة",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Monitoring",
+      "tags": [
+        "network",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4790",
+      "name": "بروتوكولات الشبكة",
+      "difficulty_level": 3,
+      "description": "Learn and master Network Protocols",
+      "tags": [
+        "network",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4791",
+      "name": "إعداد الوصول عن بُعد",
+      "difficulty_level": 2,
+      "description": "Learn and master Remote Access Setup",
+      "tags": [
+        "remote",
+        "access",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4792",
+      "name": "تكوين جهاز التوجيه",
+      "difficulty_level": 5,
+      "description": "Learn and master Router Configuration",
+      "tags": [
+        "router",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4793",
+      "name": "صيانة الخادم",
+      "difficulty_level": 1,
+      "description": "Learn and master Server Maintenance",
+      "tags": [
+        "server",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4794",
+      "name": "تكوين VPN",
+      "difficulty_level": 1,
+      "description": "Learn and master VPN Configuration",
+      "tags": [
+        "configuration",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

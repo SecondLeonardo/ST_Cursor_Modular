@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "Academic & Research Skills",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "Academic Presentation"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "Data Analysis"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "Language & Writing"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "Mathematics & Statistics"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "Scientific Research"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "Study & Test Prep"
+    }
+  ]
+}

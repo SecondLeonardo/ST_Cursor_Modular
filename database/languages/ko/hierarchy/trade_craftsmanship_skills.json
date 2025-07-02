@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "무역 및 장인 정신 기술",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "건설 및 목공"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "전기 및 배관"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "수제 상품"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "금속 공사 및 용접"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "섬유 및 가죽 크래프트"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "전통 공예품"
+    }
+  ]
+}

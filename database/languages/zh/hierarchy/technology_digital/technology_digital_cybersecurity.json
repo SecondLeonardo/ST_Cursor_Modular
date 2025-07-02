@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_cybersecurity",
+  "name": "网络安全",
+  "skills": [
+    {
+      "id": "skill_4616",
+      "name": "加密标准",
+      "difficulty_level": 4,
+      "description": "Learn and master Encryption Standards",
+      "tags": [
+        "encryption",
+        "standards",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4617",
+      "name": "道德黑客",
+      "difficulty_level": 5,
+      "description": "Learn and master Ethical Hacking",
+      "tags": [
+        "ethical",
+        "hacking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4618",
+      "name": "事件响应",
+      "difficulty_level": 1,
+      "description": "Learn and master Incident Response",
+      "tags": [
+        "incident",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4619",
+      "name": "恶意软件分析",
+      "difficulty_level": 3,
+      "description": "Learn and master Malware Analysis",
+      "tags": [
+        "malware",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4620",
+      "name": "网络安全",
+      "difficulty_level": 1,
+      "description": "Learn and master Network Security",
+      "tags": [
+        "network",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4621",
+      "name": "穿透测试",
+      "difficulty_level": 4,
+      "description": "Learn and master Penetration Testing",
+      "tags": [
+        "penetration",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4622",
+      "name": "预防网络钓鱼",
+      "difficulty_level": 2,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4623",
+      "name": "SIEM工具",
+      "difficulty_level": 3,
+      "description": "Learn and master SIEM Tools",
+      "tags": [
+        "siem",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4624",
+      "name": "脆弱性评估",
+      "difficulty_level": 3,
+      "description": "Learn and master Vulnerability Assessment",
+      "tags": [
+        "vulnerability",
+        "assessment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4625",
+      "name": "零信任体系结构",
+      "difficulty_level": 5,
+      "description": "Learn and master Zero Trust Architecture",
+      "tags": [
+        "zero",
+        "trust",
+        "architecture"
+      ]
+    }
+  ]
+}

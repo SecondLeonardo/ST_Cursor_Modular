@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "مهارات العلوم والتكنولوجيا",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "علم الفلك"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "التكنولوجيا الحيوية"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "كيمياء"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "علوم الكمبيوتر"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "علم البيانات و AI"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "علوم الأرض والبيئة"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "الإلكترونيات"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "هندسة"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "الرياضيات والإحصاءات"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "الفيزياء"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_photography",
+  "name": "Nhiếp ảnh",
+  "skills": [
+    {
+      "id": "skill_1843",
+      "name": "Nhiếp ảnh đen trắng",
+      "difficulty_level": 4,
+      "description": "Learn and master Black & White Photography",
+      "tags": [
+        "black",
+        "white",
+        "photography"
+      ]
+    },
+    {
+      "id": "skill_1844",
+      "name": "Phân loại màu",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Grading",
+      "tags": [
+        "color",
+        "grading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1845",
+      "name": "Kỹ thuật sáng tác",
+      "difficulty_level": 5,
+      "description": "Learn and master Composition Techniques",
+      "tags": [
+        "composition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1846",
+      "name": "Chỉnh sửa với Lightroom",
+      "difficulty_level": 5,
+      "description": "Learn and master Editing with Lightroom",
+      "tags": [
+        "editing",
+        "with",
+        "lightroom"
+      ]
+    },
+    {
+      "id": "skill_1847",
+      "name": "Chụp ảnh phong cảnh",
+      "difficulty_level": 4,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1848",
+      "name": "Kỹ thuật chiếu sáng",
+      "difficulty_level": 3,
+      "description": "Learn and master Lighting Techniques",
+      "tags": [
+        "lighting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1849",
+      "name": "Nhiếp ảnh vĩ mô",
+      "difficulty_level": 1,
+      "description": "Learn and master Macro Photography",
+      "tags": [
+        "macro",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1850",
+      "name": "Nhiếp ảnh ban đêm",
+      "difficulty_level": 3,
+      "description": "Learn and master Night Photography",
+      "tags": [
+        "night",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1851",
+      "name": "Chụp ảnh chân dung",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1852",
+      "name": "Sử dụng máy ảnh DSLR",
+      "difficulty_level": 3,
+      "description": "Learn and master Using a DSLR Camera",
+      "tags": [
+        "using",
+        "dslr",
+        "camera"
+      ]
+    }
+  ]
+}

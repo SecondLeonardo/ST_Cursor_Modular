@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "技术和机械技能",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "汽车技能"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "建筑与建筑"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "电气工作"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "能源与环境"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "工业技能"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "机械维修"
+    }
+  ]
+}

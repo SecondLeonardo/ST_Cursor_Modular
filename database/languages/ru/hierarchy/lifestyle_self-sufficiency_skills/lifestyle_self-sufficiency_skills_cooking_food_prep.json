@@ -1,0 +1,116 @@
+{
+  "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+  "name": "Приготовление пищи и питания",
+  "skills": [
+    {
+      "id": "skill_3348",
+      "name": "Основы выпечки",
+      "difficulty_level": 4,
+      "description": "Learn and master Baking Basics",
+      "tags": [
+        "baking",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3349",
+      "name": "Приготовление пищи с ограниченным бюджетом",
+      "difficulty_level": 2,
+      "description": "Learn and master Cooking on a Budget",
+      "tags": [
+        "cooking",
+        "budget",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3350",
+      "name": "Ферментирование овощей",
+      "difficulty_level": 3,
+      "description": "Learn and master Fermenting Vegetables",
+      "tags": [
+        "fermenting",
+        "vegetables",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3351",
+      "name": "Безопасность пищи",
+      "difficulty_level": 3,
+      "description": "Learn and master Food Safety",
+      "tags": [
+        "food",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3352",
+      "name": "Техники гриля",
+      "difficulty_level": 3,
+      "description": "Learn and master Grilling Techniques",
+      "tags": [
+        "grilling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3353",
+      "name": "Навыки ножа",
+      "difficulty_level": 2,
+      "description": "Learn and master Knife Skills",
+      "tags": [
+        "knife",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3354",
+      "name": "Приготовление домашнего хлеба",
+      "difficulty_level": 5,
+      "description": "Learn and master Making Homemade Bread",
+      "tags": [
+        "making",
+        "homemade",
+        "bread"
+      ]
+    },
+    {
+      "id": "skill_3355",
+      "name": "Делать соусы",
+      "difficulty_level": 3,
+      "description": "Learn and master Making Sauces",
+      "tags": [
+        "making",
+        "sauces",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3356",
+      "name": "Приготовление еды",
+      "difficulty_level": 4,
+      "description": "Learn and master Meal Prepping",
+      "tags": [
+        "meal",
+        "prepping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3357",
+      "name": "Супы и тушеные мясо",
+      "difficulty_level": 1,
+      "description": "Learn and master Soups & Stews",
+      "tags": [
+        "soups",
+        "stews",
+        "skill"
+      ]
+    }
+  ]
+}

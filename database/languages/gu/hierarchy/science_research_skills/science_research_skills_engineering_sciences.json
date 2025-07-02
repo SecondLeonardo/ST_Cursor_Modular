@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_engineering_sciences",
+  "name": "ઈજનેરી વિજ્ scાન",
+  "skills": [
+    {
+      "id": "skill_4088",
+      "name": "સીએડી -મોડેલિંગ",
+      "difficulty_level": 5,
+      "description": "Learn and master CAD Modeling",
+      "tags": [
+        "modeling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4089",
+      "name": "સરકીટ રચના",
+      "difficulty_level": 1,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4090",
+      "name": "અંકુશ",
+      "difficulty_level": 3,
+      "description": "Learn and master Control Systems",
+      "tags": [
+        "control",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4091",
+      "name": "પ્રવાહીની ગતિશીલતા",
+      "difficulty_level": 1,
+      "description": "Learn and master Fluid Dynamics",
+      "tags": [
+        "fluid",
+        "dynamics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4092",
+      "name": "ઉત્પાદન પ્રક્રિયા",
+      "difficulty_level": 3,
+      "description": "Learn and master Manufacturing Processes",
+      "tags": [
+        "manufacturing",
+        "processes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4093",
+      "name": "પડતર પરીક્ષણ",
+      "difficulty_level": 3,
+      "description": "Learn and master Material Testing",
+      "tags": [
+        "material",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4094",
+      "name": "યાંત્રિક મુસદ્દો",
+      "difficulty_level": 4,
+      "description": "Learn and master Mechanical Drafting",
+      "tags": [
+        "mechanical",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4095",
+      "name": "રોબોટિક્સ ઈજનેરી",
+      "difficulty_level": 2,
+      "description": "Learn and master Robotics Engineering",
+      "tags": [
+        "robotics",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4096",
+      "name": "સંરચનાત્મક વિશ્લેષણ",
+      "difficulty_level": 1,
+      "description": "Learn and master Structural Analysis",
+      "tags": [
+        "structural",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4097",
+      "name": "થર્મોડાયનેમિક્સ ઇજનેરી",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermodynamics Engineering",
+      "tags": [
+        "thermodynamics",
+        "engineering",
+        "skill"
+      ]
+    }
+  ]
+}

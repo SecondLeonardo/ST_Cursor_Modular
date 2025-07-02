@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_ai_machine_learning",
+  "name": "AI & Machine Learning",
+  "skills": [
+    {
+      "id": "skill_4347",
+      "name": "Dataförbehandling för ML",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Preprocessing for ML",
+      "tags": [
+        "data",
+        "preprocessing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4348",
+      "name": "Distribuera AI -modeller",
+      "difficulty_level": 3,
+      "description": "Learn and master Deploying AI Models",
+      "tags": [
+        "deploying",
+        "models",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4349",
+      "name": "Bildigenkänning",
+      "difficulty_level": 5,
+      "description": "Learn and master Image Recognition",
+      "tags": [
+        "image",
+        "recognition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4350",
+      "name": "Modellbedömning",
+      "difficulty_level": 2,
+      "description": "Learn and master Model Evaluation",
+      "tags": [
+        "model",
+        "evaluation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4351",
+      "name": "Neural Network Basics",
+      "difficulty_level": 5,
+      "description": "Learn and master Neural Network Basics",
+      "tags": [
+        "neural",
+        "network",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4352",
+      "name": "Övervakad vs oövervakad lärande",
+      "difficulty_level": 2,
+      "description": "Learn and master Supervised vs Unsupervised Learning",
+      "tags": [
+        "supervised",
+        "unsupervised",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4353",
+      "name": "Textklassificering",
+      "difficulty_level": 4,
+      "description": "Learn and master Text Classification",
+      "tags": [
+        "text",
+        "classification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4354",
+      "name": "Träning ML -modeller",
+      "difficulty_level": 3,
+      "description": "Learn and master Training ML Models",
+      "tags": [
+        "training",
+        "models",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4355",
+      "name": "Använder scikit-learn",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Scikit-learn",
+      "tags": [
+        "using",
+        "scikit-learn",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4356",
+      "name": "Använda tensorflöde",
+      "difficulty_level": 4,
+      "description": "Learn and master Using TensorFlow",
+      "tags": [
+        "using",
+        "tensorflow",
+        "skill"
+      ]
+    }
+  ]
+}

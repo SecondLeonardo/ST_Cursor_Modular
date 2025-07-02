@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Наука и исследовательские навыки",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Академическое письмо"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Биологические науки"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Компьютер и наука о данных"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Земля и экологические науки"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Инженерные науки"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Математика и статистика"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Медицинские и медицинские науки"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Физические науки"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Методы исследования"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Социальные науки"
+    }
+  ]
+}

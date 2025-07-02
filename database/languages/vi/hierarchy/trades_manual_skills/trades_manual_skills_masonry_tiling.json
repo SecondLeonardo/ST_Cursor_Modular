@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_masonry_tiling",
+  "name": "Masonry & ốp lát",
+  "skills": [
+    {
+      "id": "skill_5115",
+      "name": "Gạch",
+      "difficulty_level": 3,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5116",
+      "name": "Trộn xi măng",
+      "difficulty_level": 4,
+      "description": "Learn and master Cement Mixing",
+      "tags": [
+        "cement",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5117",
+      "name": "Khối bê tông đặt",
+      "difficulty_level": 5,
+      "description": "Learn and master Concrete Block Laying",
+      "tags": [
+        "concrete",
+        "block",
+        "laying"
+      ]
+    },
+    {
+      "id": "skill_5118",
+      "name": "Vữa",
+      "difficulty_level": 3,
+      "description": "Learn and master Grouting",
+      "tags": [
+        "grouting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5119",
+      "name": "Sửa chữa Masonry",
+      "difficulty_level": 1,
+      "description": "Learn and master Masonry Repair",
+      "tags": [
+        "masonry",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5120",
+      "name": "Masonry ngoài trời",
+      "difficulty_level": 1,
+      "description": "Learn and master Outdoor Masonry",
+      "tags": [
+        "outdoor",
+        "masonry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5121",
+      "name": "Thiết lập đá",
+      "difficulty_level": 5,
+      "description": "Learn and master Stone Setting",
+      "tags": [
+        "stone",
+        "setting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5122",
+      "name": "Surfaning bề mặt",
+      "difficulty_level": 5,
+      "description": "Learn and master Surface Leveling",
+      "tags": [
+        "surface",
+        "leveling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5123",
+      "name": "Cắt gạch",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Cutting",
+      "tags": [
+        "tile",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5124",
+      "name": "Mẫu gạch",
+      "difficulty_level": 4,
+      "description": "Learn and master Tile Patterns",
+      "tags": [
+        "tile",
+        "patterns",
+        "skill"
+      ]
+    }
+  ]
+}

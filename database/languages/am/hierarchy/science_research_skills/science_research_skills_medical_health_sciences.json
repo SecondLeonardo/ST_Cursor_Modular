@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_medical_health_sciences",
+  "name": "የህክምና እና የጤና ሳይንስ",
+  "skills": [
+    {
+      "id": "skill_4108",
+      "name": "አናቶሚ",
+      "difficulty_level": 3,
+      "description": "Learn and master Anatomy",
+      "tags": [
+        "anatomy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4109",
+      "name": "ክሊኒካዊ ምርምር",
+      "difficulty_level": 1,
+      "description": "Learn and master Clinical Research",
+      "tags": [
+        "clinical",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4110",
+      "name": "ኤፒዲቢዮሎጂ",
+      "difficulty_level": 2,
+      "description": "Learn and master Epidemiology",
+      "tags": [
+        "epidemiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4111",
+      "name": "የመጀመሪያ እርዳታ",
+      "difficulty_level": 1,
+      "description": "Learn and master First Aid",
+      "tags": [
+        "first",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4112",
+      "name": "ታሪካዊነት",
+      "difficulty_level": 3,
+      "description": "Learn and master Histology",
+      "tags": [
+        "histology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4113",
+      "name": "የህክምና ሥነ ምግባር",
+      "difficulty_level": 4,
+      "description": "Learn and master Medical Ethics",
+      "tags": [
+        "medical",
+        "ethics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4114",
+      "name": "የህክምና ምስል",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Imaging",
+      "tags": [
+        "medical",
+        "imaging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4115",
+      "name": "ፓቶሎጂ",
+      "difficulty_level": 3,
+      "description": "Learn and master Pathology",
+      "tags": [
+        "pathology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4116",
+      "name": "ፋርማኮሎጂ",
+      "difficulty_level": 4,
+      "description": "Learn and master Pharmacology",
+      "tags": [
+        "pharmacology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4117",
+      "name": "የህዝብ ጤና",
+      "difficulty_level": 3,
+      "description": "Learn and master Public Health",
+      "tags": [
+        "public",
+        "health",
+        "skill"
+      ]
+    }
+  ]
+}

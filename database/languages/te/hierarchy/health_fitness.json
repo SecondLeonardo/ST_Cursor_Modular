@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "ఆరోగ్యం & ఫిట్‌నెస్",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "శరీర సంరక్షణ & ఆరోగ్యం"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "ప్రథమ చికిత్స & భద్రత"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "మానసిక ఆరోగ్యం"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "పోషకాహారం & ఆహారం"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "శారీరక శిక్షణ"
+    }
+  ]
+}

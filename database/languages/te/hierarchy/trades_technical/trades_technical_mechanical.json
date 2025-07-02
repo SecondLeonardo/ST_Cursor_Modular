@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_mechanical",
+  "name": "యాంత్రిక",
+  "skills": [
+    {
+      "id": "skill_5235",
+      "name": "అసెంబ్లీ లైన్ పని",
+      "difficulty_level": 5,
+      "description": "Learn and master Assembly Line Work",
+      "tags": [
+        "assembly",
+        "line",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_5236",
+      "name": "సంస్థాపనను కలిగి ఉంటుంది",
+      "difficulty_level": 2,
+      "description": "Learn and master Bearing Installation",
+      "tags": [
+        "bearing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5237",
+      "name": "గేర్ సిస్టమ్స్",
+      "difficulty_level": 2,
+      "description": "Learn and master Gear Systems",
+      "tags": [
+        "gear",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5238",
+      "name": "హైడ్రాలిక్స్",
+      "difficulty_level": 3,
+      "description": "Learn and master Hydraulics",
+      "tags": [
+        "hydraulics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5239",
+      "name": "సరళత పద్ధతులు",
+      "difficulty_level": 5,
+      "description": "Learn and master Lubrication Techniques",
+      "tags": [
+        "lubrication",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5240",
+      "name": "యంత్ర నిర్వహణ",
+      "difficulty_level": 4,
+      "description": "Learn and master Machine Maintenance",
+      "tags": [
+        "machine",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5241",
+      "name": "మెకానికల్ డ్రాయింగ్ రీడింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Mechanical Drawing Reading",
+      "tags": [
+        "mechanical",
+        "drawing",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_5242",
+      "name": "న్యూమాటిక్స్",
+      "difficulty_level": 5,
+      "description": "Learn and master Pneumatics",
+      "tags": [
+        "pneumatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5243",
+      "name": "షాఫ్ట్ అమరిక",
+      "difficulty_level": 4,
+      "description": "Learn and master Shaft Alignment",
+      "tags": [
+        "shaft",
+        "alignment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5244",
+      "name": "సాధన నిర్వహణ",
+      "difficulty_level": 1,
+      "description": "Learn and master Tool Maintenance",
+      "tags": [
+        "tool",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Handel en handmatige vaardigheden",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Auto -reparatie"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Timmerwerk en houtwerk"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Bouw"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Bouw en timmerwerk"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Vakmanschap en reparaties"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Elektrisch en mechanisch"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Elektrisch werk"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC & koeling"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Werk van zwaar apparatuur"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Metselwerk en tegels"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Metaal- en houtwerk"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Schilderen en afwerken"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Sanitair"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Onderhoud van voertuigen en machine"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Lassen & metaalwerk"
+    }
+  ]
+}

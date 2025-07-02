@@ -1,0 +1,117 @@
+{
+  "id": "technology_digital_software_development",
+  "name": "소프트웨어 개발",
+  "skills": [
+    {
+      "id": "skill_4656",
+      "name": "민첩한 방법론",
+      "difficulty_level": 2,
+      "description": "Learn and master Agile Methodologies",
+      "tags": [
+        "agile",
+        "methodologies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4657",
+      "name": "CI/CD 파이프 라인",
+      "difficulty_level": 2,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4658",
+      "name": "코드 검토 모범 사례",
+      "difficulty_level": 3,
+      "description": "Learn and master Code Review Best Practices",
+      "tags": [
+        "code",
+        "review",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4659",
+      "name": "디버깅 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4660",
+      "name": "디자인 패턴",
+      "difficulty_level": 1,
+      "description": "Learn and master Design Patterns",
+      "tags": [
+        "design",
+        "patterns",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4661",
+      "name": "모바일 앱 개발",
+      "difficulty_level": 4,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4662",
+      "name": "객체 지향 프로그래밍",
+      "difficulty_level": 5,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4663",
+      "name": "편안한 API 개발",
+      "difficulty_level": 1,
+      "description": "Learn and master RESTful API Development",
+      "tags": [
+        "restful",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4664",
+      "name": "단위 테스트",
+      "difficulty_level": 2,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4665",
+      "name": "git로 버전 제어",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

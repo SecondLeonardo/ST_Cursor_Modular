@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_electrical_work",
+  "name": "Электрическая работа",
+  "skills": [
+    {
+      "id": "skill_3428",
+      "name": "Настройка панели выключателя",
+      "difficulty_level": 1,
+      "description": "Learn and master Breaker Panel Setup",
+      "tags": [
+        "breaker",
+        "panel",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_3429",
+      "name": "Тестирование схемы",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Testing",
+      "tags": [
+        "circuit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3430",
+      "name": "Изгиб трубопровода",
+      "difficulty_level": 4,
+      "description": "Learn and master Conduit Bending",
+      "tags": [
+        "conduit",
+        "bending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3431",
+      "name": "Домашняя автоматизация проводка",
+      "difficulty_level": 3,
+      "description": "Learn and master Home Automation Wiring",
+      "tags": [
+        "home",
+        "automation",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_3432",
+      "name": "Системы освещения",
+      "difficulty_level": 2,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3433",
+      "name": "Замена розетки",
+      "difficulty_level": 1,
+      "description": "Learn and master Outlet Replacement",
+      "tags": [
+        "outlet",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3434",
+      "name": "Настройка детектора дыма",
+      "difficulty_level": 2,
+      "description": "Learn and master Smoke Detector Setup",
+      "tags": [
+        "smoke",
+        "detector",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_3435",
+      "name": "Установка солнечной батареи",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Installation",
+      "tags": [
+        "solar",
+        "panel",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_3436",
+      "name": "Защита от скачки",
+      "difficulty_level": 2,
+      "description": "Learn and master Surge Protection",
+      "tags": [
+        "surge",
+        "protection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3437",
+      "name": "Установка проводки",
+      "difficulty_level": 3,
+      "description": "Learn and master Wiring Installation",
+      "tags": [
+        "wiring",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

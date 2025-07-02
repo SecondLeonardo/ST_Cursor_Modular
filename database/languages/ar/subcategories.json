@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "الاقتصاد"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "الجغرافيا"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "تاريخ"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "اللغة واللغويات"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "الأدب"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "الرياضيات"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "فلسفة"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "علم النفس"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "علوم"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "علم الاجتماع"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "التفكير النقدي"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "التاريخ والثقافة"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "التاريخ والعلوم الاجتماعية"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "اللغة واللغويات"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "اللغات"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "الأدب والكتابة"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "المنطق والمنطق"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "الرياضيات"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "الفلسفة والتفكير النقدي"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "الخطابة والنقاش"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "البحث والتحليل"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "علوم"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "العلم والطبيعة"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "تقنيات الدراسة"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "التكنولوجيا والحوسبة"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "العرض الأكاديمي"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "تحليل البيانات"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "اللغة والكتابة"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "الرياضيات والإحصاءات"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "البحث العلمي"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "دراسة واختبار الإعدادية"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "الرسوم المتحركة"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "الحرف اليدوية و DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "الكتابة الإبداعية"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "الرسم والتوضيح"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "تصميم الأزياء"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "تلوين"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "الفنون المسرحية"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "النحت"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "الرسوم المتحركة والرسومات المتحركة"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "الحرف اليدوية و DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "الرسم والتوضيح"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "فنون الأزياء والنسيج"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "الفيلم والفيديو"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "الرسم والوسائط المختلطة"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "الفنون المسرحية"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "الكتابة والأدب"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "النمذجة ثلاثية الأبعاد"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "تصميم العمارة"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "الحرف"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "الموضة والمنسوجات"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "الفيلم والفيديو"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "التصميم الداخلي"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "الفنون المسرحية"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "الفنون البصرية"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "الخط"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "الحرف"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "الفن الرقمي والرسوم المتحركة"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "تصميم الأزياء"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "التوضيح والرسم"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "التصميم الداخلي"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "فنون النسيج"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "الفنون البصرية"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "الحرف اليدوية و DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "الكتابة الإبداعية"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "التصميم والفن الرقمي"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "الفنون المسرحية"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "الفنون البصرية"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "محاسبة"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "استراتيجية العمل"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "دعم العملاء"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "التجارة الإلكترونية"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "ريادة الأعمال"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "تمويل"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "التمويل والمحاسبة"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "الموارد البشرية والتوظيف"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "الموارد البشرية"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "الاستثمار والتداول"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "القيادة والإدارة"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "التسويق والمبيعات"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "إدارة المشروع"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "المبيعات و CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "الاتصالات التجارية"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "خدمة العملاء"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "ريادة الأعمال"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "التمويل والمحاسبة"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "الموارد البشرية"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "القيادة والإدارة"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "القانونية والامتثال"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "التسويق والعلامات التجارية"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "إنتاجية المكتب"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "إدارة المشروع والوقت"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "إدارة المشروع"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "المبيعات والتسويق"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "المبيعات والتفاوض"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "التفكير النقدي"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "اللغة واللغويات"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "الرياضيات والمنطق"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "الذاكرة والتركيز"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "العلوم والبحث"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "مهارات الدراسة والتعلم"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "التركيز والتركيز"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "التفكير النقدي"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "معالجة المعلومات"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "استراتيجيات التعلم"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "الذاكرة والاحتفاظ"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "حل المشكلات"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "اللغات الأجنبية"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "مهارات التعامل مع الآخرين"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "التواصل غير اللفظي"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "العرض ورواية القصص"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "الخطابة"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "الكتابة والتحرير"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "الحرف اليدوية و DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "التفكير الإبداعي"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "التصميم والجمال"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "الموضة والتصميم"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "الفيلم والفيديو"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "تصميم اللعبة وبناء العالم"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "الموسيقى والصوت"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "أداء الموسيقى"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "إنتاج الموسيقى"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "الفنون المسرحية"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "التصوير الفوتوغرافي والفيديو"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "الفنون البصرية"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "الكتابة والأدب"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "التمثيل والأداء"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "الرسوم المتحركة"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "صياغة و DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "الحرف اليدوية و DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "الفنون المصنوعة يدويًا"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "التكنولوجيا الإبداعية"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "الكتابة الإبداعية"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "فنون الطهي"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "التصميم والجمال"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "الرسم والتوضيح"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "الموضة والتصميم"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "الموضة والفن النسيج"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "صناعة الأفلام والفيديو"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "تصميم الداخلية والزهور"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "الموسيقى والآلات"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "إنشاء الموسيقى"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "تلوين"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "الرسم والفنون الجميلة"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "الفنون المسرحية"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "التصوير الفوتوغرافي والفيديو"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "النحت والفن ثلاثي الأبعاد"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "الفنون البصرية"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "الكتابة ورواية القصص"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D والرسوم المتحركة"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "واجهة المستخدم/UX"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "إنتاج الفيديو"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "الخط والحروف اليدوية"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "صياغة و DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "الكتابة الإبداعية"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "الرسم والتوضيح"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "صنع المجوهرات"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "تلوين"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "سكرابوكينغ واللفاء"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "النحت والطين"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "فنون النسيج والألياف"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "الحرف اليدوية و DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "الفنون الرقمية والرسوم المتحركة"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "الداخلية والأزياء"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "الفنون البصرية"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "اللغات القديمة"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "الوعي الثقافي"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "لهجة التدريب"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "التواصل بين الثقافات"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "تقنيات تعلم اللغة"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "اللغات"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "اللغويات"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "تسجيل اللغات"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "الترجمة والتفسير"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "أنظمة الكتابة"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "النمذجة ثلاثية الأبعاد والرسوم المتحركة"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "العلامة التجارية والهوية"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "توضيح"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "تصميم UX/UI"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D والرسوم المتحركة"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "إنشاء المحتوى"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "التسويق الرقمي"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "وسائل التواصل الاجتماعي"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "البث والبث"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "تصميم UI/UX"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "إنتاج الفيديو"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "تصميم الويب والتطبيق"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "الأمن السيبراني"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "البيانات و AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "انها والشبكات"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "البرمجة والتطوير"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "الويب والجوال"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "الدروس الأكاديمية"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "تعليم الطفولة المبكرة"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "التعليم العالي"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "تدريس اللغة"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "اللغات"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "تقنيات التعلم"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "محو الأمية والكتابة"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "التعليم الخاص"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "مهارات الدراسة"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "اختبار الإعدادية"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "السيارات والنقل"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "الهندسة المدنية"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "الهندسة الكهربائية"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "أنظمة الطاقة والطاقة"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC والأنظمة"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "التصميم الصناعي"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "التصنيع والإنتاج"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "الهندسة الميكانيكية"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "الروبوتات والأتمتة"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "التصميم الهيكلي"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "رعاية الجسم والعافية"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "الإسعافات الأولية والسلامة"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "الصحة العقلية"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "التغذية والنظام الغذائي"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "التدريب البدني"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "الطب البديل"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "الإسعافات الأولية والطوارئ"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "تدريب اللياقة"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "صحة شاملة"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "المعرفة الطبية"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "المهارات الطبية"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "الصحة العقلية"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "ممارسات الصحة العقلية"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "الذهن والتأمل"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "التغذية والنظام الغذائي"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "العناية الشخصية"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "اللياقة البدنية"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "إعادة التأهيل والعلاج"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "الصحة الإنجابية"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "الرعاية الذاتية والنظافة"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "النوم والانتعاش"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "إدارة الإجهاد"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "اليوغا والتأمل"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "تدريب اللياقة"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "تَغذِيَة"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "في الهواء الطلق والمغامرة"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "المهارات الرياضية"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "العافية والانتعاش"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "الطب البديل"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "المعرفة الطبية"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "الصحة العقلية"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "تَغذِيَة"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "التدريب الشخصي"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "اللياقة البدنية"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "إعادة التأهيل والعلاج"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "التدريب الرياضي"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "تدريب العافية"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "اليوغا والعقل"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "صيانة الأجهزة"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "التنظيف والتنظيم"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "الحرف والديكور"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "العمل الكهربائي"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "البستنة والمناظر الطبيعية"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "أتمتة المنزل"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "إصلاح المنزل"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "التصميم الداخلي"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "أساسيات السباكة"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "النجارة والنجارة"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "وضع الميزانية والتمويل المنزلي"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "رعاية الأطفال"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "الطبخ والإعداد وجبة"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "تسوق البقالة"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "تنظيف المنزل"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "صيانة المنزل"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "رعاية الغسيل والملابس"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "تنظيم وتراجع"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "رعاية الحيوانات الأليفة"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "إدارة الوقت"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "التواصل بين الثقافات"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "اللغات الأجنبية"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "الاستماع والفهم"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "الترجمة والتفسير"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "مهارات الكتابة"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "تعلم اللغة"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "التواصل غير اللفظي"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "الخطابة"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "سرد القصص والسرد"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "التواصل اللفظي"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "الكتابة والتحرير"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "تعلم اللغة"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "الرياضيات"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "العلوم والبحث"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "تقنيات الدراسة"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "إعداد اختبار"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "الدروس الأكاديمية"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "الأدوات والمهارات التعليمية"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "تعلم اللغة"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "التعلم مدى الحياة"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "إعداد اختبار"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "الطبخ والطعام"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "صيانة المنزل"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "التمويل الشخصي"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "إدارة الوقت"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "السفر والملاحة"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "التواصل والعلاقات"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "الذكاء العاطفي"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "المرونة والنمو"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "الانضباط الذاتي"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "إدارة الوقت والهدف"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "الطبخ والطعام الإعدادية"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY والإصلاحات"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "البستنة والاستدامة"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "إدارة المنزل"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "التمويل الشخصي"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "مهارات البقاء"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "إصلاح السيارات"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "صفقات البناء"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "العمل الكهربائي"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "الأثاث والمفروشات"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "أدوات اليد إتقان"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "تجديد المنزل"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "عمل المعادن"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "السباكة والتدفئة"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "النسيج والجلد"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "النجارة"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "صيانة السيارات"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "أساسيات الهندسة"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "إصلاح المنزل والتركيب"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "تشغيل الآلة"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "استخدام الأداة والسلامة"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "عمل الخشب والمعادن"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "التفكير النقدي"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "الجغرافيا والبيئة"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "التاريخ والثقافة"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "اللغات"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "الرياضيات"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "مهارات الذاكرة والتعلم"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "الفلسفة والأخلاق"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "علم النفس والسلوك"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "العلوم والبحث"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "تقنيات الدراسة"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "المرونة المعرفية"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "التفكير النقدي"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "تعلم اللغة"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "الذاكرة والتركيز"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "مهارات الدراسة"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "الثقة واحترام الذات"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "الذكاء العاطفي"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "تحديد الأهداف والتخطيط"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "العادات والانضباط"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "مهارات التعامل مع الآخرين"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "القيادة والتأثير"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "اليقظة والرفاهية"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "الخطابة"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "الانعكاس الذاتي"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "الوقت والإنتاجية"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "قيادة"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "العافية العقلية"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "إنتاجية"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "الخطابة"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "تحسين الذات"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "الذكاء العاطفي"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "تحديد الأهداف والإنجاز"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "العادات والإنتاجية"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "الذهن والعافية"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "الخطابة والاتصالات"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "الانضباط الذاتي والتركيز"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "اللياقة والتكييف"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "العمل اليدوي والتداول"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "الترفيه في الهواء الطلق"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "الدفاع عن النفس وفنون القتال"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "الرياضة وألعاب القوى"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "البقاء على قيد الحياة و bushcraft"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "اللياقة والقوة"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "الرياضة الفردية"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "فنون القتال"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "في الهواء الطلق والمغامرة"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "الأنشطة الترفيهية"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "الرياضة الجماعية"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "الكتابة الأكاديمية"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "العلوم البيولوجية"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "علم الكمبيوتر والبيانات"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "العلوم الأرضية والبيئية"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "العلوم الهندسية"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "الرياضيات والإحصاءات"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "العلوم الطبية والصحية"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "العلوم الفيزيائية"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "طرق البحث"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "العلوم الاجتماعية"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "علم الفلك"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "علم الأحياء وعلوم الحياة"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "كيمياء"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "علوم الكمبيوتر"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "علم البيانات و AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "العلوم الأرضية والبيئية"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "التخصصات الهندسية"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "الرياضيات والإحصاءات"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "الفيزياء والميكانيكا"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "الروبوتات والأتمتة"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "علم الفلك"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "التكنولوجيا الحيوية"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "كيمياء"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "علوم الكمبيوتر"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "علم البيانات و AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "علوم الأرض والبيئة"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "الإلكترونيات"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "هندسة"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "الرياضيات والإحصاءات"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "الفيزياء"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "منظمة العفو الدولية والتعلم الآلي"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "الحوسبة السحابية"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "الأمن السيبراني"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "البيانات والتحليلات"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "علم البيانات و AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps والأتمتة"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "تطوير اللعبة"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "انها والشبكات"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "دعمها وشبكاتها"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "تطوير تطبيقات الهاتف المحمول"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "البرمجة وتطوير البرمجيات"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "تطوير البرمجيات"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "أجهزة التكنولوجيا والإصلاح"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "الدعم الفني واستكشاف الأخطاء وإصلاحها"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "تطوير الويب"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "المدني والهيكلي"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "الهندسة الكهربائية"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "التصنيع والتصنيع"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "الهندسة الميكانيكية"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "البرمجيات والأنظمة"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "مهارات السيارات"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "البناء والبناء"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "العمل الكهربائي"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "الطاقة والبيئة"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "المهارات الصناعية"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "الإصلاحات الميكانيكية"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "الأمن السيبراني"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "البيانات و AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "التسويق الرقمي"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "انها والشبكات"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "تطوير البرمجيات"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "الذكاء الاصطناعي"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "الحوسبة السحابية"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "أساسيات الكمبيوتر"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "الأمن السيبراني"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "البيانات و AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "البيانات والتحليلات"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "محو الأمية الرقمية"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "التسويق الرقمي"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "التكنولوجيا الناشئة"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "الأجهزة والإلكترونيات"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "انها والشبكات"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "الشبكات و IT"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "البرمجة والتطوير"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "البرمجة وتطوير البرمجيات"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "أدوات البرمجيات"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "إنتاجية التكنولوجيا"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "الدعم الفني والصيانة"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "الدعم الفني واستكشاف الأخطاء وإصلاحها"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "تطوير الويب والتطبيق"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "البناء والنجارة"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "الكهربائية والسباكة"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "البضائع المصنوعة يدويا"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "المعادن واللحام"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "النسيج والجلد"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "الحرف التقليدية"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "إصلاح السيارات"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "النجارة والعمل الخشبي"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "البناء والبناء"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "العمل الكهربائي"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC والتبريد"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "صنع المجوهرات"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "المعادن واللحام"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "الرسم والتزيين"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "السباكة"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "الخياطة والخياطة"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "إصلاح السيارات"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "النجارة والأعمال الخشبية"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "بناء"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "البناء والنجارة"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "الحرفية والإصلاحات"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "الكهربائية والميكانيكية"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "العمل الكهربائي"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC والتبريد"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "تشغيل المعدات الثقيلة"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "البناء والبلاط"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "المعادن والأعمال الخشبية"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "الرسم والتشطيب"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "السباكة"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "صيانة المركبات والآلات"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "اللحام والأعمال المعدنية"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "السيارات"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "نجارة"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "بناء"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "كهربائي"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "البناء"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "ميكانيكي"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "الرسم والتزيين"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "السباكة"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "اللحام"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "إنتاج الفيديو"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "إنتاج الصوت"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "التصوير الفوتوغرافي"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "تصميم الجرافيك"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "التمثيل والأداء"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "الكتابة وكتابة السيناريو"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "البث"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "الفنون والحرف"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "الموسيقى والآلات"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "الأنشطة في الهواء الطلق"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "جمع"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "اللياقة والعافية"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "البستنة"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "مشاريع DIY"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "المطبخ الإيطالي"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "المطبخ الياباني"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "المطبخ المكسيكي"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "المطبخ الهندي"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "المطبخ الفرنسي"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "المطبخ الصيني"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "المطبخ الشرق الأوسط"
+  }
+]

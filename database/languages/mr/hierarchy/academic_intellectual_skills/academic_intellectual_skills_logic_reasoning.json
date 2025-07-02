@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_logic_reasoning",
+  "name": "तर्कशास्त्र आणि तर्क",
+  "skills": [
+    {
+      "id": "skill_160",
+      "name": "अमूर्त तर्क",
+      "difficulty_level": 4,
+      "description": "Learn and master Abstract Reasoning",
+      "tags": [
+        "abstract",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_161",
+      "name": "कपात करणारा तर्क",
+      "difficulty_level": 1,
+      "description": "Learn and master Deductive Reasoning",
+      "tags": [
+        "deductive",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_162",
+      "name": "चुकीची ओळख",
+      "difficulty_level": 2,
+      "description": "Learn and master Fallacy Identification",
+      "tags": [
+        "fallacy",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_163",
+      "name": "प्रेरक तर्कशास्त्र",
+      "difficulty_level": 4,
+      "description": "Learn and master Inductive Logic",
+      "tags": [
+        "inductive",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_164",
+      "name": "तर्कशास्त्र कोडी",
+      "difficulty_level": 1,
+      "description": "Learn and master Logic Puzzles",
+      "tags": [
+        "logic",
+        "puzzles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_165",
+      "name": "गणिताचे तर्कशास्त्र",
+      "difficulty_level": 4,
+      "description": "Learn and master Mathematical Logic",
+      "tags": [
+        "mathematical",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_166",
+      "name": "नमुना ओळख",
+      "difficulty_level": 3,
+      "description": "Learn and master Pattern Recognition",
+      "tags": [
+        "pattern",
+        "recognition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_167",
+      "name": "समस्या विघटन",
+      "difficulty_level": 4,
+      "description": "Learn and master Problem Decomposition",
+      "tags": [
+        "problem",
+        "decomposition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_168",
+      "name": "कोडे सोडवणे",
+      "difficulty_level": 2,
+      "description": "Learn and master Puzzle Solving",
+      "tags": [
+        "puzzle",
+        "solving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_169",
+      "name": "सिस्टम विचार",
+      "difficulty_level": 2,
+      "description": "Learn and master Systems Thinking",
+      "tags": [
+        "systems",
+        "thinking",
+        "skill"
+      ]
+    }
+  ]
+}

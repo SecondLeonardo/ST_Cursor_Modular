@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "Fysiska och utomhusfärdigheter",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "Fitness och konditionering"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "Manuell arbetskraft och handel"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "Utomhusrekreation"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "Självförsvar och kampsport"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "Sport och friidrott"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "Överlevnad & bushcraft"
+    }
+  ]
+}

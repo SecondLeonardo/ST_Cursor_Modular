@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_metalworking",
+  "name": "Metalworking",
+  "skills": [
+    {
+      "id": "skill_3468",
+      "name": "Pandai besi",
+      "difficulty_level": 5,
+      "description": "Learn and master Blacksmithing",
+      "tags": [
+        "blacksmithing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3469",
+      "name": "Pemesinan CNC",
+      "difficulty_level": 2,
+      "description": "Learn and master CNC Machining",
+      "tags": [
+        "machining",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3470",
+      "name": "Operasi mesin bubut",
+      "difficulty_level": 5,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3471",
+      "name": "Pengecoran logam",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Casting",
+      "tags": [
+        "metal",
+        "casting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3472",
+      "name": "Fabrikasi logam",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Fabrication",
+      "tags": [
+        "metal",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3473",
+      "name": "Pemolesan logam",
+      "difficulty_level": 5,
+      "description": "Learn and master Metal Polishing",
+      "tags": [
+        "metal",
+        "polishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3474",
+      "name": "Pekerjaan lembaran logam",
+      "difficulty_level": 1,
+      "description": "Learn and master Sheet Metal Work",
+      "tags": [
+        "sheet",
+        "metal",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_3475",
+      "name": "Pematerian",
+      "difficulty_level": 1,
+      "description": "Learn and master Soldering",
+      "tags": [
+        "soldering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3476",
+      "name": "Tool & Die Making",
+      "difficulty_level": 2,
+      "description": "Learn and master Tool & Die Making",
+      "tags": [
+        "tool",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3477",
+      "name": "Pengelasan (mig/tig/stick)",
+      "difficulty_level": 5,
+      "description": "Learn and master Welding (MIG/TIG/Stick)",
+      "tags": [
+        "welding",
+        "(mig/tig/stick)",
+        "skill"
+      ]
+    }
+  ]
+}

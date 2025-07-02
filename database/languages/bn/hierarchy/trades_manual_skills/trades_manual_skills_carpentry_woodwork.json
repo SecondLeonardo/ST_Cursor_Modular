@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_carpentry_woodwork",
+  "name": "ছুতার এবং কাঠের কাজ",
+  "skills": [
+    {
+      "id": "skill_5035",
+      "name": "ব্লুপ্রিন্ট রিডিং",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5036",
+      "name": "মন্ত্রিপরিষদ ইনস্টলেশন",
+      "difficulty_level": 1,
+      "description": "Learn and master Cabinet Installation",
+      "tags": [
+        "cabinet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5037",
+      "name": "ডেক বিল্ডিং",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5038",
+      "name": "ফ্রেমিং কার্পেন্ট্রি",
+      "difficulty_level": 5,
+      "description": "Learn and master Framing Carpentry",
+      "tags": [
+        "framing",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5039",
+      "name": "আসবাবপত্র তৈরি",
+      "difficulty_level": 5,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5040",
+      "name": "জোড়ারি কৌশল",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery Techniques",
+      "tags": [
+        "joinery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5041",
+      "name": "সরঞ্জাম সুরক্ষা",
+      "difficulty_level": 5,
+      "description": "Learn and master Tool Safety",
+      "tags": [
+        "tool",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5042",
+      "name": "ট্রিম কার্পেন্ট্রি",
+      "difficulty_level": 4,
+      "description": "Learn and master Trim Carpentry",
+      "tags": [
+        "trim",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5043",
+      "name": "কাঠ সমাপ্তি",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5044",
+      "name": "কাঠ বাঁক",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Turning",
+      "tags": [
+        "wood",
+        "turning",
+        "skill"
+      ]
+    }
+  ]
+}

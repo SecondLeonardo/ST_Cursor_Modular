@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "సాంకేతిక & యాంత్రిక నైపుణ్యాలు",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "ఆటోమోటివ్ నైపుణ్యాలు"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "నిర్మాణం & భవనం"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "విద్యుత్ పని"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "శక్తి & పర్యావరణం"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "పారిశ్రామిక నైపుణ్యాలు"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "యాంత్రిక మరమ్మతులు"
+    }
+  ]
+}

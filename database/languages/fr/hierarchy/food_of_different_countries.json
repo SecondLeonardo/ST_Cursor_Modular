@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "Nourriture de différents pays",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "Cuisine italienne"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "Cuisine japonaise"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "Cuisine mexicaine"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "Cuisine indienne"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "Cuisine française"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "Cuisine chinoise"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "Cuisine du Moyen-Orient"
+    }
+  ]
+}

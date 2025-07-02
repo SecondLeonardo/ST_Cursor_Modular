@@ -1,0 +1,116 @@
+{
+  "id": "academic_research_skills_mathematics_statistics",
+  "name": "ሂሳብ እና ስታቲስቲክስ",
+  "skills": [
+    {
+      "id": "skill_290",
+      "name": "አልጄብራቲክ ማጉደል",
+      "difficulty_level": 4,
+      "description": "Learn and master Algebraic Manipulation",
+      "tags": [
+        "algebraic",
+        "manipulation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_291",
+      "name": "ግራፎችን እና ገበታዎችን መፍጠር",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Graphs & Charts",
+      "tags": [
+        "creating",
+        "graphs",
+        "charts"
+      ]
+    },
+    {
+      "id": "skill_292",
+      "name": "ገላጭ ስታቲስቲክስ",
+      "difficulty_level": 2,
+      "description": "Learn and master Descriptive Statistics",
+      "tags": [
+        "descriptive",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_293",
+      "name": "ጉድለት ስታቲስቲክስ",
+      "difficulty_level": 3,
+      "description": "Learn and master Inferential Statistics",
+      "tags": [
+        "inferential",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_294",
+      "name": "መስመራዊ አልጄብራ ፅንሰ-ሀሳቦች",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra Concepts",
+      "tags": [
+        "linear",
+        "algebra",
+        "concepts"
+      ]
+    },
+    {
+      "id": "skill_295",
+      "name": "የሂሳብ ማረጋገጫዎች",
+      "difficulty_level": 4,
+      "description": "Learn and master Mathematical Proofs",
+      "tags": [
+        "mathematical",
+        "proofs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_296",
+      "name": "የካልኩለስ ችግሮችን መፍታት",
+      "difficulty_level": 2,
+      "description": "Learn and master Solving Calculus Problems",
+      "tags": [
+        "solving",
+        "calculus",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_297",
+      "name": "የስታቲስቲክስ ሶፍትዌር አጠቃቀም",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Software Use",
+      "tags": [
+        "statistical",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_298",
+      "name": "የመረዳት ችሎታ",
+      "difficulty_level": 2,
+      "description": "Learn and master Understanding Probability",
+      "tags": [
+        "understanding",
+        "probability",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_299",
+      "name": "የግራፊክ ማስያዎችን በመጠቀም",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Graphing Calculators",
+      "tags": [
+        "using",
+        "graphing",
+        "calculators"
+      ]
+    }
+  ]
+}

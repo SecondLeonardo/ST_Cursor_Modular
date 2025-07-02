@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_engineering_sciences",
+  "name": "วิทยาศาสตร์วิศวกรรมศาสตร์",
+  "skills": [
+    {
+      "id": "skill_4088",
+      "name": "การสร้างแบบจำลอง CAD",
+      "difficulty_level": 5,
+      "description": "Learn and master CAD Modeling",
+      "tags": [
+        "modeling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4089",
+      "name": "การออกแบบวงจร",
+      "difficulty_level": 1,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4090",
+      "name": "ระบบควบคุม",
+      "difficulty_level": 3,
+      "description": "Learn and master Control Systems",
+      "tags": [
+        "control",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4091",
+      "name": "พลวัตของเหลว",
+      "difficulty_level": 1,
+      "description": "Learn and master Fluid Dynamics",
+      "tags": [
+        "fluid",
+        "dynamics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4092",
+      "name": "กระบวนการผลิต",
+      "difficulty_level": 3,
+      "description": "Learn and master Manufacturing Processes",
+      "tags": [
+        "manufacturing",
+        "processes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4093",
+      "name": "การทดสอบวัสดุ",
+      "difficulty_level": 3,
+      "description": "Learn and master Material Testing",
+      "tags": [
+        "material",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4094",
+      "name": "การร่างเชิงกล",
+      "difficulty_level": 4,
+      "description": "Learn and master Mechanical Drafting",
+      "tags": [
+        "mechanical",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4095",
+      "name": "วิศวกรรมหุ่นยนต์",
+      "difficulty_level": 2,
+      "description": "Learn and master Robotics Engineering",
+      "tags": [
+        "robotics",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4096",
+      "name": "การวิเคราะห์โครงสร้าง",
+      "difficulty_level": 1,
+      "description": "Learn and master Structural Analysis",
+      "tags": [
+        "structural",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4097",
+      "name": "วิศวกรรมอุณหพลศาสตร์",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermodynamics Engineering",
+      "tags": [
+        "thermodynamics",
+        "engineering",
+        "skill"
+      ]
+    }
+  ]
+}

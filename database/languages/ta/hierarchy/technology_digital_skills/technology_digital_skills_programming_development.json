@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_programming_development",
+  "name": "நிரலாக்க மற்றும் மேம்பாடு",
+  "skills": [
+    {
+      "id": "skill_4795",
+      "name": "API கள் & வெப்ஹூக்ஸ்",
+      "difficulty_level": 3,
+      "description": "Learn and master APIs & Webhooks",
+      "tags": [
+        "apis",
+        "webhooks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4796",
+      "name": "பின்தளத்தில் வளர்ச்சி",
+      "difficulty_level": 2,
+      "description": "Learn and master Backend Development",
+      "tags": [
+        "backend",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4797",
+      "name": "குறியீடு பிழைத்திருத்தம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Code Debugging",
+      "tags": [
+        "code",
+        "debugging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4798",
+      "name": "விளையாட்டு வளர்ச்சி",
+      "difficulty_level": 5,
+      "description": "Learn and master Game Development",
+      "tags": [
+        "game",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4799",
+      "name": "HTML & CSS",
+      "difficulty_level": 3,
+      "description": "Learn and master HTML & CSS",
+      "tags": [
+        "html",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4800",
+      "name": "ஜாவா",
+      "difficulty_level": 1,
+      "description": "Learn and master Java",
+      "tags": [
+        "java",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4801",
+      "name": "ஜாவாஸ்கிரிப்ட்",
+      "difficulty_level": 3,
+      "description": "Learn and master JavaScript",
+      "tags": [
+        "javascript",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4802",
+      "name": "மொபைல் பயன்பாட்டு மேம்பாடு",
+      "difficulty_level": 3,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4803",
+      "name": "பைதான்",
+      "difficulty_level": 1,
+      "description": "Learn and master Python",
+      "tags": [
+        "python",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4804",
+      "name": "பதிப்பு கட்டுப்பாடு (கிட்)",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control (Git)",
+      "tags": [
+        "version",
+        "control",
+        "(git)"
+      ]
+    }
+  ]
+}

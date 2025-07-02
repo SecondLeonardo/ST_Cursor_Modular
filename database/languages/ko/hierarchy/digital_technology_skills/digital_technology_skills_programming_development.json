@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_programming_development",
+  "name": "프로그래밍 및 개발",
+  "skills": [
+    {
+      "id": "skill_2223",
+      "name": "C ++ 기초",
+      "difficulty_level": 5,
+      "description": "Learn and master C++ Fundamentals",
+      "tags": [
+        "fundamentals",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2224",
+      "name": "데이터 구조 및 알고리즘",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Structures & Algorithms",
+      "tags": [
+        "data",
+        "structures",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "skill_2225",
+      "name": "디버깅 기술",
+      "difficulty_level": 3,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2226",
+      "name": "자바 개발",
+      "difficulty_level": 3,
+      "description": "Learn and master Java Development",
+      "tags": [
+        "java",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2227",
+      "name": "모바일 앱 개발",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2228",
+      "name": "객체 지향 프로그래밍",
+      "difficulty_level": 2,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2229",
+      "name": "파이썬 프로그래밍",
+      "difficulty_level": 4,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2230",
+      "name": "API 개발을 쉬십시오",
+      "difficulty_level": 1,
+      "description": "Learn and master REST API Development",
+      "tags": [
+        "rest",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2231",
+      "name": "단위 테스트",
+      "difficulty_level": 1,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2232",
+      "name": "git로 버전 제어",
+      "difficulty_level": 2,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

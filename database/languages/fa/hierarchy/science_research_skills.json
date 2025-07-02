@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "مهارت های علمی و تحقیقاتی",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "نوشتن دانشگاهی"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "علوم زیست شناسی"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "علوم کامپیوتر و داده"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "علوم زمین و محیط زیست"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "علوم مهندسی"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "ریاضیات و آمار"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "علوم پزشکی و بهداشتی"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "علوم فیزیکی"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "روشهای تحقیق"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "علوم اجتماعی"
+    }
+  ]
+}

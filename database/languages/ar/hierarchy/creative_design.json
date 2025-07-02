@@ -1,0 +1,26 @@
+{
+  "id": "creative_design",
+  "name": "الإبداع والتصميم",
+  "subcategories": [
+    {
+      "id": "creative_design_3d_animation",
+      "name": "3D والرسوم المتحركة"
+    },
+    {
+      "id": "creative_design_graphic_design",
+      "name": "تصميم الجرافيك"
+    },
+    {
+      "id": "creative_design_photography",
+      "name": "التصوير الفوتوغرافي"
+    },
+    {
+      "id": "creative_design_ui/ux",
+      "name": "واجهة المستخدم/UX"
+    },
+    {
+      "id": "creative_design_video_production",
+      "name": "إنتاج الفيديو"
+    }
+  ]
+}

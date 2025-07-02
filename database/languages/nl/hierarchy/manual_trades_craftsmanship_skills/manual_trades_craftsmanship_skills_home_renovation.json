@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_home_renovation",
+  "name": "Home Renovatie",
+  "skills": [
+    {
+      "id": "skill_3458",
+      "name": "Kelderafwerking",
+      "difficulty_level": 1,
+      "description": "Learn and master Basement Finishing",
+      "tags": [
+        "basement",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3459",
+      "name": "Caulking & afdichting",
+      "difficulty_level": 4,
+      "description": "Learn and master Caulking & Sealing",
+      "tags": [
+        "caulking",
+        "sealing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3460",
+      "name": "Dekgebouw",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3461",
+      "name": "Gipsplaten reparatie",
+      "difficulty_level": 3,
+      "description": "Learn and master Drywall Repair",
+      "tags": [
+        "drywall",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3462",
+      "name": "Keukenvernieuwing",
+      "difficulty_level": 1,
+      "description": "Learn and master Kitchen Remodeling",
+      "tags": [
+        "kitchen",
+        "remodeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3463",
+      "name": "Laminaatvloeren",
+      "difficulty_level": 2,
+      "description": "Learn and master Laminate Flooring",
+      "tags": [
+        "laminate",
+        "flooring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3464",
+      "name": "Schilderen en decoreren",
+      "difficulty_level": 2,
+      "description": "Learn and master Painting & Decorating",
+      "tags": [
+        "painting",
+        "decorating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3465",
+      "name": "Tegel leggen",
+      "difficulty_level": 2,
+      "description": "Learn and master Tile Laying",
+      "tags": [
+        "tile",
+        "laying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3466",
+      "name": "Behang hangen",
+      "difficulty_level": 2,
+      "description": "Learn and master Wallpaper Hanging",
+      "tags": [
+        "wallpaper",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3467",
+      "name": "Vervanging van het venster",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Replacement",
+      "tags": [
+        "window",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

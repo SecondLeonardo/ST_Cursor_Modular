@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_electronics",
+  "name": "الإلكترونيات",
+  "skills": [
+    {
+      "id": "skill_4308",
+      "name": "الدوائر التناظرية",
+      "difficulty_level": 4,
+      "description": "Learn and master Analog Circuits",
+      "tags": [
+        "analog",
+        "circuits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4309",
+      "name": "دائرة استكشاف الأخطاء وإصلاحها",
+      "difficulty_level": 5,
+      "description": "Learn and master Circuit Troubleshooting",
+      "tags": [
+        "circuit",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4310",
+      "name": "تصميم المنطق الرقمي",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Logic Design",
+      "tags": [
+        "digital",
+        "logic",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4311",
+      "name": "أنظمة مضمنة",
+      "difficulty_level": 2,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4312",
+      "name": "برمجة متحكم",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Programming",
+      "tags": [
+        "microcontroller",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4313",
+      "name": "تصميم ثنائي الفينيل متعدد الكلور",
+      "difficulty_level": 4,
+      "description": "Learn and master PCB Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4314",
+      "name": "تصميم إمدادات الطاقة",
+      "difficulty_level": 1,
+      "description": "Learn and master Power Supply Design",
+      "tags": [
+        "power",
+        "supply",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4315",
+      "name": "تكامل المستشعر",
+      "difficulty_level": 4,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4316",
+      "name": "معالجة الإشارة",
+      "difficulty_level": 5,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4317",
+      "name": "مهارات اللحام",
+      "difficulty_level": 1,
+      "description": "Learn and master Soldering Skills",
+      "tags": [
+        "soldering",
+        "skills",
+        "skill"
+      ]
+    }
+  ]
+}

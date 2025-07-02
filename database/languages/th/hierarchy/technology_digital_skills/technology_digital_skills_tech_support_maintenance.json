@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_tech_support_maintenance",
+  "name": "การสนับสนุนด้านเทคนิคและการบำรุงรักษา",
+  "skills": [
+    {
+      "id": "skill_4835",
+      "name": "สคริปต์พื้นฐานสำหรับการบำรุงรักษา",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Scripting for Maintenance",
+      "tags": [
+        "basic",
+        "scripting",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_4836",
+      "name": "ฝ่ายสนับสนุนด้านเทคนิคของลูกค้า",
+      "difficulty_level": 2,
+      "description": "Learn and master Customer Tech Support",
+      "tags": [
+        "customer",
+        "tech",
+        "support"
+      ]
+    },
+    {
+      "id": "skill_4837",
+      "name": "การติดตั้งไดรเวอร์",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Drivers",
+      "tags": [
+        "installing",
+        "drivers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4838",
+      "name": "สุขภาพของระบบการตรวจสอบ",
+      "difficulty_level": 3,
+      "description": "Learn and master Monitoring System Health",
+      "tags": [
+        "monitoring",
+        "system",
+        "health"
+      ]
+    },
+    {
+      "id": "skill_4839",
+      "name": "การแก้ไขปัญหาระยะไกล",
+      "difficulty_level": 4,
+      "description": "Learn and master Remote Troubleshooting",
+      "tags": [
+        "remote",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4840",
+      "name": "การอัปเดตซอฟต์แวร์",
+      "difficulty_level": 3,
+      "description": "Learn and master Software Updates",
+      "tags": [
+        "software",
+        "updates",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4841",
+      "name": "การทำความสะอาดระบบ",
+      "difficulty_level": 4,
+      "description": "Learn and master System Cleanup",
+      "tags": [
+        "system",
+        "cleanup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4842",
+      "name": "การตั้งค่าอุปกรณ์เทคโนโลยี",
+      "difficulty_level": 4,
+      "description": "Learn and master Tech Device Setup",
+      "tags": [
+        "tech",
+        "device",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4843",
+      "name": "การสื่อสารสนับสนุนด้านเทคนิค",
+      "difficulty_level": 1,
+      "description": "Learn and master Tech Support Communication",
+      "tags": [
+        "tech",
+        "support",
+        "communication"
+      ]
+    },
+    {
+      "id": "skill_4844",
+      "name": "การแก้ไขปัญหาฮาร์ดแวร์",
+      "difficulty_level": 3,
+      "description": "Learn and master Troubleshooting Hardware",
+      "tags": [
+        "troubleshooting",
+        "hardware",
+        "skill"
+      ]
+    }
+  ]
+}

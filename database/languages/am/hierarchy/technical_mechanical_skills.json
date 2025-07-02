@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "ቴክኒካዊ እና ሜካኒካል ችሎታዎች",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "አውቶሞቲቭ ችሎታዎች"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "ግንባታ እና ህንፃ"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "የኤሌክትሪክ ሥራ"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "ኢነርጂ እና አከባቢ"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "የኢንዱስትሪ ችሎታዎች"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "ሜካኒካዊ ጥገና"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_software_development",
+  "name": "ソフトウェア開発",
+  "skills": [
+    {
+      "id": "skill_4466",
+      "name": "アジャイル開発",
+      "difficulty_level": 1,
+      "description": "Learn and master Agile Development",
+      "tags": [
+        "agile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4467",
+      "name": "C ++プログラミング",
+      "difficulty_level": 4,
+      "description": "Learn and master C++ Programming",
+      "tags": [
+        "programming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4468",
+      "name": "コードレビュープラクティス",
+      "difficulty_level": 4,
+      "description": "Learn and master Code Review Practices",
+      "tags": [
+        "code",
+        "review",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4469",
+      "name": "デバッグテクニック",
+      "difficulty_level": 2,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4470",
+      "name": "gitバージョンコントロール",
+      "difficulty_level": 5,
+      "description": "Learn and master Git Version Control",
+      "tags": [
+        "version",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4471",
+      "name": "Javaプログラミング",
+      "difficulty_level": 4,
+      "description": "Learn and master Java Programming",
+      "tags": [
+        "java",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4472",
+      "name": "OOP原則",
+      "difficulty_level": 3,
+      "description": "Learn and master OOP Principles",
+      "tags": [
+        "principles",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4473",
+      "name": "Pythonプログラミング",
+      "difficulty_level": 2,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4474",
+      "name": "ソフトウェアアーキテクチャ",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Architecture",
+      "tags": [
+        "software",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4475",
+      "name": "単体テスト",
+      "difficulty_level": 1,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_data_science_ai",
+  "name": "วิทยาศาสตร์ข้อมูลและ AI",
+  "skills": [
+    {
+      "id": "skill_4396",
+      "name": "การปรับใช้โมเดล AI",
+      "difficulty_level": 2,
+      "description": "Learn and master AI Model Deployment",
+      "tags": [
+        "model",
+        "deployment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4397",
+      "name": "เครื่องมือข้อมูลขนาดใหญ่ (Spark)",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Tools (Spark)",
+      "tags": [
+        "data",
+        "tools",
+        "(spark)"
+      ]
+    },
+    {
+      "id": "skill_4398",
+      "name": "วิสัยทัศน์คอมพิวเตอร์",
+      "difficulty_level": 3,
+      "description": "Learn and master Computer Vision",
+      "tags": [
+        "computer",
+        "vision",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4399",
+      "name": "การวิเคราะห์ข้อมูลด้วย Python",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Analysis with Python",
+      "tags": [
+        "data",
+        "analysis",
+        "with",
+        "python"
+      ]
+    },
+    {
+      "id": "skill_4400",
+      "name": "การสร้างภาพข้อมูล",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4401",
+      "name": "การเรียนรู้อย่างลึกซึ้ง",
+      "difficulty_level": 2,
+      "description": "Learn and master Deep Learning",
+      "tags": [
+        "deep",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4402",
+      "name": "การเรียนรู้ของเครื่องจักร",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning",
+      "tags": [
+        "machine",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4403",
+      "name": "ตัวชี้วัดการประเมินผลแบบจำลอง",
+      "difficulty_level": 2,
+      "description": "Learn and master Model Evaluation Metrics",
+      "tags": [
+        "model",
+        "evaluation",
+        "metrics"
+      ]
+    },
+    {
+      "id": "skill_4404",
+      "name": "การประมวลผลภาษาธรรมชาติ",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4405",
+      "name": "Pandas & Numpy",
+      "difficulty_level": 5,
+      "description": "Learn and master Pandas & NumPy",
+      "tags": [
+        "pandas",
+        "numpy",
+        "skill"
+      ]
+    }
+  ]
+}

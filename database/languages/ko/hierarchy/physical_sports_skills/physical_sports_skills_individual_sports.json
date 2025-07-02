@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_individual_sports",
+  "name": "개별 스포츠",
+  "skills": [
+    {
+      "id": "skill_3998",
+      "name": "배드민턴 스매싱",
+      "difficulty_level": 3,
+      "description": "Learn and master Badminton Smashing",
+      "tags": [
+        "badminton",
+        "smashing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3999",
+      "name": "볼링 형태",
+      "difficulty_level": 5,
+      "description": "Learn and master Bowling Form",
+      "tags": [
+        "bowling",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4000",
+      "name": "권투 발판",
+      "difficulty_level": 5,
+      "description": "Learn and master Boxing Footwork",
+      "tags": [
+        "boxing",
+        "footwork",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4001",
+      "name": "펜싱 기술",
+      "difficulty_level": 3,
+      "description": "Learn and master Fencing Techniques",
+      "tags": [
+        "fencing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4002",
+      "name": "골프 스윙",
+      "difficulty_level": 3,
+      "description": "Learn and master Golf Swing",
+      "tags": [
+        "golf",
+        "swing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4003",
+      "name": "체조 텀블링",
+      "difficulty_level": 4,
+      "description": "Learn and master Gymnastics Tumbling",
+      "tags": [
+        "gymnastics",
+        "tumbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4004",
+      "name": "수영 스트로크",
+      "difficulty_level": 5,
+      "description": "Learn and master Swimming Strokes",
+      "tags": [
+        "swimming",
+        "strokes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4005",
+      "name": "탁구 집회",
+      "difficulty_level": 5,
+      "description": "Learn and master Table Tennis Rallying",
+      "tags": [
+        "table",
+        "tennis",
+        "rallying"
+      ]
+    },
+    {
+      "id": "skill_4006",
+      "name": "테니스 포핸드",
+      "difficulty_level": 5,
+      "description": "Learn and master Tennis Forehand",
+      "tags": [
+        "tennis",
+        "forehand",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4007",
+      "name": "트랙 스프린팅",
+      "difficulty_level": 2,
+      "description": "Learn and master Track Sprinting",
+      "tags": [
+        "track",
+        "sprinting",
+        "skill"
+      ]
+    }
+  ]
+}

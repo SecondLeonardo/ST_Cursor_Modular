@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "Gesundheit & Wellness",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "Alternative Medizin"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "Erste Hilfe und Notfall"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "Fitnesstraining"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "Ganzheitliche Gesundheit"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "Medizinisches Wissen"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "Medizinische Fähigkeiten"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "Psychische Gesundheit"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "Psychische Gesundheitspraktiken"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "Achtsamkeit und Meditation"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "Ernährung und Diät"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "Persönliche Fürsorge"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "Körperliche Fitness"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "Rehabilitation & Therapie"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "Reproduktive Gesundheit"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "Selbstpflege & Hygiene"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "Schlaf & Genesung"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "Stressmanagement"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "Yoga & Meditation"
+    }
+  ]
+}

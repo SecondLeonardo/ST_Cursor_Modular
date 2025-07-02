@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "Technisch en technisch",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "Burgerlijk en structureel"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "Elektrotechniek"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "Productie en fabricage"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "Werktuigbouwkunde"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "Software en systemen"
+    }
+  ]
+}

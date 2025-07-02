@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_biotechnology",
+  "name": "Биотехнология",
+  "skills": [
+    {
+      "id": "skill_4258",
+      "name": "Биоинформатика",
+      "difficulty_level": 3,
+      "description": "Learn and master Bioinformatics",
+      "tags": [
+        "bioinformatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4259",
+      "name": "Биомедицинские исследования",
+      "difficulty_level": 2,
+      "description": "Learn and master Biomedical Research",
+      "tags": [
+        "biomedical",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4260",
+      "name": "Биостатистика",
+      "difficulty_level": 4,
+      "description": "Learn and master Biostatistics",
+      "tags": [
+        "biostatistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4261",
+      "name": "CRISPR Technology",
+      "difficulty_level": 1,
+      "description": "Learn and master CRISPR Technology",
+      "tags": [
+        "crispr",
+        "technology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4262",
+      "name": "Методы клеточной культуры",
+      "difficulty_level": 1,
+      "description": "Learn and master Cell Culture Techniques",
+      "tags": [
+        "cell",
+        "culture",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_4263",
+      "name": "Секвенирование ДНК",
+      "difficulty_level": 4,
+      "description": "Learn and master DNA Sequencing",
+      "tags": [
+        "sequencing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4264",
+      "name": "Генетическая инженерия",
+      "difficulty_level": 5,
+      "description": "Learn and master Genetic Engineering",
+      "tags": [
+        "genetic",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4265",
+      "name": "Молекулярное клонирование",
+      "difficulty_level": 1,
+      "description": "Learn and master Molecular Cloning",
+      "tags": [
+        "molecular",
+        "cloning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4266",
+      "name": "Анализ ПЦР",
+      "difficulty_level": 5,
+      "description": "Learn and master PCR Analysis",
+      "tags": [
+        "analysis",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4267",
+      "name": "Очистка белка",
+      "difficulty_level": 5,
+      "description": "Learn and master Protein Purification",
+      "tags": [
+        "protein",
+        "purification",
+        "skill"
+      ]
+    }
+  ]
+}

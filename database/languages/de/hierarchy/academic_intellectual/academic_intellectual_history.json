@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_history",
+  "name": "Geschichte",
+  "skills": [
+    {
+      "id": "skill_20",
+      "name": "Amerikanische Geschichte",
+      "difficulty_level": 5,
+      "description": "Learn and master American History",
+      "tags": [
+        "american",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_21",
+      "name": "Alte Zivilisationen",
+      "difficulty_level": 5,
+      "description": "Learn and master Ancient Civilizations",
+      "tags": [
+        "ancient",
+        "civilizations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_22",
+      "name": "Kulturgeschichte",
+      "difficulty_level": 1,
+      "description": "Learn and master Cultural History",
+      "tags": [
+        "cultural",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_23",
+      "name": "Wirtschaftsgeschichte",
+      "difficulty_level": 3,
+      "description": "Learn and master Economic History",
+      "tags": [
+        "economic",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_24",
+      "name": "Historische Forschung",
+      "difficulty_level": 4,
+      "description": "Learn and master Historical Research",
+      "tags": [
+        "historical",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_25",
+      "name": "Geschichte der Wissenschaft",
+      "difficulty_level": 1,
+      "description": "Learn and master History of Science",
+      "tags": [
+        "history",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_26",
+      "name": "Militärgeschichte",
+      "difficulty_level": 3,
+      "description": "Learn and master Military History",
+      "tags": [
+        "military",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_27",
+      "name": "Moderne Geschichte",
+      "difficulty_level": 1,
+      "description": "Learn and master Modern History",
+      "tags": [
+        "modern",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_28",
+      "name": "Politische Geschichte",
+      "difficulty_level": 4,
+      "description": "Learn and master Political History",
+      "tags": [
+        "political",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_29",
+      "name": "Weltgeschichte",
+      "difficulty_level": 4,
+      "description": "Learn and master World History",
+      "tags": [
+        "world",
+        "history",
+        "skill"
+      ]
+    }
+  ]
+}

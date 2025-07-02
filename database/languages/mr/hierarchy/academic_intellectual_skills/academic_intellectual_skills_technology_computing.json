@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_technology_computing",
+  "name": "तंत्रज्ञान आणि संगणन",
+  "skills": [
+    {
+      "id": "skill_250",
+      "name": "मूलभूत प्रोग्रामिंग लॉजिक",
+      "difficulty_level": 4,
+      "description": "Learn and master Basic Programming Logic",
+      "tags": [
+        "basic",
+        "programming",
+        "logic"
+      ]
+    },
+    {
+      "id": "skill_251",
+      "name": "सादरीकरणे तयार करणे",
+      "difficulty_level": 2,
+      "description": "Learn and master Creating Presentations",
+      "tags": [
+        "creating",
+        "presentations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_252",
+      "name": "सायबरसुरक्षा जागरूकता",
+      "difficulty_level": 5,
+      "description": "Learn and master Cybersecurity Awareness",
+      "tags": [
+        "cybersecurity",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_253",
+      "name": "इंट्रो टू एआय",
+      "difficulty_level": 2,
+      "description": "Learn and master Intro to AI",
+      "tags": [
+        "intro",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_254",
+      "name": "ऑनलाइन संशोधन",
+      "difficulty_level": 1,
+      "description": "Learn and master Online Research",
+      "tags": [
+        "online",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_255",
+      "name": "समस्यानिवारण तंत्रज्ञानाचे मुद्दे",
+      "difficulty_level": 5,
+      "description": "Learn and master Troubleshooting Tech Issues",
+      "tags": [
+        "troubleshooting",
+        "tech",
+        "issues"
+      ]
+    },
+    {
+      "id": "skill_256",
+      "name": "टायपिंग कौशल्ये",
+      "difficulty_level": 4,
+      "description": "Learn and master Typing Skills",
+      "tags": [
+        "typing",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_257",
+      "name": "अल्गोरिदम समजून घेणे",
+      "difficulty_level": 3,
+      "description": "Learn and master Understanding Algorithms",
+      "tags": [
+        "understanding",
+        "algorithms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_258",
+      "name": "शैक्षणिक साधने वापरणे",
+      "difficulty_level": 1,
+      "description": "Learn and master Using Educational Tools",
+      "tags": [
+        "using",
+        "educational",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_259",
+      "name": "स्प्रेडशीट वापरणे",
+      "difficulty_level": 5,
+      "description": "Learn and master Using Spreadsheets",
+      "tags": [
+        "using",
+        "spreadsheets",
+        "skill"
+      ]
+    }
+  ]
+}

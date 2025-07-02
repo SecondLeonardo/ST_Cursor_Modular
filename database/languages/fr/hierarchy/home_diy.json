@@ -1,0 +1,46 @@
+{
+  "id": "home_diy",
+  "name": "Accueil et bricolage",
+  "subcategories": [
+    {
+      "id": "home_diy_appliance_maintenance",
+      "name": "Maintenance de l'appareil"
+    },
+    {
+      "id": "home_diy_cleaning_organizing",
+      "name": "Nettoyage et organisation"
+    },
+    {
+      "id": "home_diy_crafts_decor",
+      "name": "Artisanat et décoration"
+    },
+    {
+      "id": "home_diy_electrical_work",
+      "name": "Travail électrique"
+    },
+    {
+      "id": "home_diy_gardening_landscaping",
+      "name": "Jardinage et aménagement paysager"
+    },
+    {
+      "id": "home_diy_home_automation",
+      "name": "Automatisation"
+    },
+    {
+      "id": "home_diy_home_repair",
+      "name": "Réparation d'une maison"
+    },
+    {
+      "id": "home_diy_interior_design",
+      "name": "Design d'intérieur"
+    },
+    {
+      "id": "home_diy_plumbing_basics",
+      "name": "Bases de la plomberie"
+    },
+    {
+      "id": "home_diy_woodworking_carpentry",
+      "name": "Travail du bois et menuiserie"
+    }
+  ]
+}

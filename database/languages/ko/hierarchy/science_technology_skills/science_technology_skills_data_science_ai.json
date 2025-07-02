@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_data_science_ai",
+  "name": "데이터 과학 및 ai",
+  "skills": [
+    {
+      "id": "skill_4288",
+      "name": "AI 윤리",
+      "difficulty_level": 3,
+      "description": "Learn and master AI Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4289",
+      "name": "빅 데이터 도구",
+      "difficulty_level": 3,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4290",
+      "name": "데이터 청소",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4291",
+      "name": "데이터 시각화",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4292",
+      "name": "기계 학습 모델링",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning Modeling",
+      "tags": [
+        "machine",
+        "learning",
+        "modeling"
+      ]
+    },
+    {
+      "id": "skill_4293",
+      "name": "자연어 처리",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4294",
+      "name": "신경망",
+      "difficulty_level": 3,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4295",
+      "name": "예측 분석",
+      "difficulty_level": 1,
+      "description": "Learn and master Predictive Analytics",
+      "tags": [
+        "predictive",
+        "analytics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4296",
+      "name": "데이터 과학을위한 파이썬",
+      "difficulty_level": 5,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_4297",
+      "name": "SQL 쿼리",
+      "difficulty_level": 2,
+      "description": "Learn and master SQL Querying",
+      "tags": [
+        "querying",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

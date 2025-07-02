@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_computer_science",
+  "name": "கணினி அறிவியல்",
+  "skills": [
+    {
+      "id": "skill_4278",
+      "name": "ஏபிஐ ஒருங்கிணைப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master API Integration",
+      "tags": [
+        "integration",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4279",
+      "name": "சுறுசுறுப்பான வளர்ச்சி",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Development",
+      "tags": [
+        "agile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4280",
+      "name": "வழிமுறைகள் வடிவமைப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Algorithms Design",
+      "tags": [
+        "algorithms",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4281",
+      "name": "பின்தளத்தில் வளர்ச்சி",
+      "difficulty_level": 2,
+      "description": "Learn and master Backend Development",
+      "tags": [
+        "backend",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4282",
+      "name": "கிளவுட் கம்ப்யூட்டிங்",
+      "difficulty_level": 4,
+      "description": "Learn and master Cloud Computing",
+      "tags": [
+        "cloud",
+        "computing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4283",
+      "name": "இணைய பாதுகாப்பு அடிப்படைகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Cybersecurity Fundamentals",
+      "tags": [
+        "cybersecurity",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4284",
+      "name": "தரவுத்தள மேலாண்மை",
+      "difficulty_level": 5,
+      "description": "Learn and master Database Management",
+      "tags": [
+        "database",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4285",
+      "name": "ஃபிரான்டென்ட் வளர்ச்சி",
+      "difficulty_level": 2,
+      "description": "Learn and master Frontend Development",
+      "tags": [
+        "frontend",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4286",
+      "name": "பொருள் சார்ந்த நிரலாக்க",
+      "difficulty_level": 4,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4287",
+      "name": "மென்பொருள் சோதனை",
+      "difficulty_level": 2,
+      "description": "Learn and master Software Testing",
+      "tags": [
+        "software",
+        "testing",
+        "skill"
+      ]
+    }
+  ]
+}

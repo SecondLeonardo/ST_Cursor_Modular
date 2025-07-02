@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "المهارات اليدوية والمهارات اليدوية",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "إصلاح السيارات"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "النجارة والأعمال الخشبية"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "بناء"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "البناء والنجارة"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "الحرفية والإصلاحات"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "الكهربائية والميكانيكية"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "العمل الكهربائي"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC والتبريد"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "تشغيل المعدات الثقيلة"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "البناء والبلاط"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "المعادن والأعمال الخشبية"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "الرسم والتشطيب"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "السباكة"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "صيانة المركبات والآلات"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "اللحام والأعمال المعدنية"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "engineering_mechanical",
+  "name": "エンジニアリングと機械",
+  "subcategories": [
+    {
+      "id": "engineering_mechanical_automotive_transportation",
+      "name": "自動車と輸送"
+    },
+    {
+      "id": "engineering_mechanical_civil_engineering",
+      "name": "土木工学"
+    },
+    {
+      "id": "engineering_mechanical_electrical_engineering",
+      "name": "電気工学"
+    },
+    {
+      "id": "engineering_mechanical_energy_power_systems",
+      "name": "エネルギーと電力システム"
+    },
+    {
+      "id": "engineering_mechanical_hvac_systems",
+      "name": "HVAC＆Systems"
+    },
+    {
+      "id": "engineering_mechanical_industrial_design",
+      "name": "工業デザイン"
+    },
+    {
+      "id": "engineering_mechanical_manufacturing_production",
+      "name": "製造と生産"
+    },
+    {
+      "id": "engineering_mechanical_mechanical_engineering",
+      "name": "機械工学"
+    },
+    {
+      "id": "engineering_mechanical_robotics_automation",
+      "name": "ロボット工学と自動化"
+    },
+    {
+      "id": "engineering_mechanical_structural_design",
+      "name": "構造設計"
+    }
+  ]
+}

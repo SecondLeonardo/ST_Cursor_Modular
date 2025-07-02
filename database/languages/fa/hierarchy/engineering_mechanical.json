@@ -1,0 +1,46 @@
+{
+  "id": "engineering_mechanical",
+  "name": "مهندسی و مکانیکی",
+  "subcategories": [
+    {
+      "id": "engineering_mechanical_automotive_transportation",
+      "name": "خودرو و حمل و نقل"
+    },
+    {
+      "id": "engineering_mechanical_civil_engineering",
+      "name": "مهندسی عمران"
+    },
+    {
+      "id": "engineering_mechanical_electrical_engineering",
+      "name": "مهندسی برق"
+    },
+    {
+      "id": "engineering_mechanical_energy_power_systems",
+      "name": "سیستم های انرژی و برق"
+    },
+    {
+      "id": "engineering_mechanical_hvac_systems",
+      "name": "HVAC و سیستم ها"
+    },
+    {
+      "id": "engineering_mechanical_industrial_design",
+      "name": "طراحی صنعتی"
+    },
+    {
+      "id": "engineering_mechanical_manufacturing_production",
+      "name": "تولید و تولید"
+    },
+    {
+      "id": "engineering_mechanical_mechanical_engineering",
+      "name": "مهندسی مکانیکی"
+    },
+    {
+      "id": "engineering_mechanical_robotics_automation",
+      "name": "روباتیک و اتوماسیون"
+    },
+    {
+      "id": "engineering_mechanical_structural_design",
+      "name": "طراحی ساختاری"
+    }
+  ]
+}

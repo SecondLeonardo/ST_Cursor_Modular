@@ -1,0 +1,116 @@
+{
+  "id": "health,_fitness_sports_sports_skills",
+  "name": "Habilidades esportivas",
+  "skills": [
+    {
+      "id": "skill_2718",
+      "name": "Tiro de basquete",
+      "difficulty_level": 4,
+      "description": "Learn and master Basketball Shooting",
+      "tags": [
+        "basketball",
+        "shooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2719",
+      "name": "Combinações de boxe",
+      "difficulty_level": 2,
+      "description": "Learn and master Boxing Combinations",
+      "tags": [
+        "boxing",
+        "combinations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2720",
+      "name": "Técnicas de artes marciais",
+      "difficulty_level": 3,
+      "description": "Learn and master Martial Arts Techniques",
+      "tags": [
+        "martial",
+        "arts",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2721",
+      "name": "Truques de skate",
+      "difficulty_level": 4,
+      "description": "Learn and master Skateboarding Tricks",
+      "tags": [
+        "skateboarding",
+        "tricks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2722",
+      "name": "Drible de futebol",
+      "difficulty_level": 5,
+      "description": "Learn and master Soccer Dribbling",
+      "tags": [
+        "soccer",
+        "dribbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2723",
+      "name": "Golpes de natação",
+      "difficulty_level": 3,
+      "description": "Learn and master Swimming Strokes",
+      "tags": [
+        "swimming",
+        "strokes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2724",
+      "name": "Reflexos de tênis de mesa",
+      "difficulty_level": 5,
+      "description": "Learn and master Table Tennis Reflexes",
+      "tags": [
+        "table",
+        "tennis",
+        "reflexes"
+      ]
+    },
+    {
+      "id": "skill_2725",
+      "name": "Tênis serve",
+      "difficulty_level": 4,
+      "description": "Learn and master Tennis Serve",
+      "tags": [
+        "tennis",
+        "serve",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2726",
+      "name": "Pista correndo",
+      "difficulty_level": 5,
+      "description": "Learn and master Track Sprinting",
+      "tags": [
+        "track",
+        "sprinting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2727",
+      "name": "Serviço de vôlei",
+      "difficulty_level": 5,
+      "description": "Learn and master Volleyball Serving",
+      "tags": [
+        "volleyball",
+        "serving",
+        "skill"
+      ]
+    }
+  ]
+}

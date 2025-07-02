@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_philosophy",
+  "name": "Filosofia",
+  "skills": [
+    {
+      "id": "skill_60",
+      "name": "Estetica",
+      "difficulty_level": 5,
+      "description": "Learn and master Aesthetics",
+      "tags": [
+        "aesthetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_61",
+      "name": "Pensiero critico",
+      "difficulty_level": 5,
+      "description": "Learn and master Critical Thinking",
+      "tags": [
+        "critical",
+        "thinking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_62",
+      "name": "Epistemologia",
+      "difficulty_level": 1,
+      "description": "Learn and master Epistemology",
+      "tags": [
+        "epistemology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_63",
+      "name": "Etica",
+      "difficulty_level": 1,
+      "description": "Learn and master Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_64",
+      "name": "Esistenzialismo",
+      "difficulty_level": 2,
+      "description": "Learn and master Existentialism",
+      "tags": [
+        "existentialism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_65",
+      "name": "Logica",
+      "difficulty_level": 3,
+      "description": "Learn and master Logic",
+      "tags": [
+        "logic",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_66",
+      "name": "Metafisica",
+      "difficulty_level": 4,
+      "description": "Learn and master Metaphysics",
+      "tags": [
+        "metaphysics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_67",
+      "name": "Filosofia della mente",
+      "difficulty_level": 5,
+      "description": "Learn and master Philosophy of Mind",
+      "tags": [
+        "philosophy",
+        "mind",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_68",
+      "name": "Filosofia della scienza",
+      "difficulty_level": 3,
+      "description": "Learn and master Philosophy of Science",
+      "tags": [
+        "philosophy",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_69",
+      "name": "Filosofia politica",
+      "difficulty_level": 5,
+      "description": "Learn and master Political Philosophy",
+      "tags": [
+        "political",
+        "philosophy",
+        "skill"
+      ]
+    }
+  ]
+}

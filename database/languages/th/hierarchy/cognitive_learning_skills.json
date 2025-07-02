@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_learning_skills",
+  "name": "ทักษะความรู้ความเข้าใจและการเรียนรู้",
+  "subcategories": [
+    {
+      "id": "cognitive_learning_skills_concentration_focus",
+      "name": "สมาธิและโฟกัส"
+    },
+    {
+      "id": "cognitive_learning_skills_critical_thinking",
+      "name": "การคิดเชิงวิพากษ์"
+    },
+    {
+      "id": "cognitive_learning_skills_information_processing",
+      "name": "การประมวลผลข้อมูล"
+    },
+    {
+      "id": "cognitive_learning_skills_learning_strategies",
+      "name": "กลยุทธ์การเรียนรู้"
+    },
+    {
+      "id": "cognitive_learning_skills_memory_retention",
+      "name": "หน่วยความจำและการเก็บรักษา"
+    },
+    {
+      "id": "cognitive_learning_skills_problem_solving",
+      "name": "การแก้ปัญหา"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_design_visual_arts",
+  "name": "Arti visive",
+  "skills": [
+    {
+      "id": "skill_1923",
+      "name": "Abilità di critica artistica",
+      "difficulty_level": 2,
+      "description": "Learn and master Art Critique Skills",
+      "tags": [
+        "critique",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1924",
+      "name": "Disegno a carbone",
+      "difficulty_level": 5,
+      "description": "Learn and master Charcoal Drawing",
+      "tags": [
+        "charcoal",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1925",
+      "name": "Pratica della teoria dei colori",
+      "difficulty_level": 4,
+      "description": "Learn and master Color Theory Practice",
+      "tags": [
+        "color",
+        "theory",
+        "practice"
+      ]
+    },
+    {
+      "id": "skill_1926",
+      "name": "Schizzo della figura",
+      "difficulty_level": 1,
+      "description": "Learn and master Figure Sketching",
+      "tags": [
+        "figure",
+        "sketching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1927",
+      "name": "Dipinto di lavaggio a inchiostro",
+      "difficulty_level": 5,
+      "description": "Learn and master Ink Wash Painting",
+      "tags": [
+        "wash",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1928",
+      "name": "Nozioni di base per la pittura ad olio",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Painting Basics",
+      "tags": [
+        "painting",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1929",
+      "name": "Disegno prospettico",
+      "difficulty_level": 3,
+      "description": "Learn and master Perspective Drawing",
+      "tags": [
+        "perspective",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1930",
+      "name": "Ritratto dipinto",
+      "difficulty_level": 3,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1931",
+      "name": "Composizione della natura morta",
+      "difficulty_level": 2,
+      "description": "Learn and master Still Life Composition",
+      "tags": [
+        "still",
+        "life",
+        "composition"
+      ]
+    },
+    {
+      "id": "skill_1932",
+      "name": "Tecniche ad acquerello",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

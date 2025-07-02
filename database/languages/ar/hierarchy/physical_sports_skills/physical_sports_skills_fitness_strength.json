@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_fitness_strength",
+  "name": "اللياقة والقوة",
+  "skills": [
+    {
+      "id": "skill_3988",
+      "name": "تقنيات كمال الأجسام",
+      "difficulty_level": 2,
+      "description": "Learn and master Bodybuilding Techniques",
+      "tags": [
+        "bodybuilding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3989",
+      "name": "تمارين التاليثين",
+      "difficulty_level": 4,
+      "description": "Learn and master Calisthenics Exercises",
+      "tags": [
+        "calisthenics",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3990",
+      "name": "تمارين القلب",
+      "difficulty_level": 3,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3991",
+      "name": "تعزيز الأساس",
+      "difficulty_level": 5,
+      "description": "Learn and master Core Strengthening",
+      "tags": [
+        "core",
+        "strengthening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3992",
+      "name": "تدريبات CrossFit",
+      "difficulty_level": 4,
+      "description": "Learn and master CrossFit Drills",
+      "tags": [
+        "crossfit",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3993",
+      "name": "تدريب plyometric",
+      "difficulty_level": 4,
+      "description": "Learn and master Plyometric Training",
+      "tags": [
+        "plyometric",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3994",
+      "name": "التدريبات الفرقة المقاومة",
+      "difficulty_level": 3,
+      "description": "Learn and master Resistance Band Workouts",
+      "tags": [
+        "resistance",
+        "band",
+        "workouts"
+      ]
+    },
+    {
+      "id": "skill_3995",
+      "name": "روتين تمتد",
+      "difficulty_level": 2,
+      "description": "Learn and master Stretching Routines",
+      "tags": [
+        "stretching",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3996",
+      "name": "شكل رفع الأثقال",
+      "difficulty_level": 4,
+      "description": "Learn and master Weightlifting Form",
+      "tags": [
+        "weightlifting",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3997",
+      "name": "يوجا يطرح",
+      "difficulty_level": 5,
+      "description": "Learn and master Yoga Poses",
+      "tags": [
+        "yoga",
+        "poses",
+        "skill"
+      ]
+    }
+  ]
+}

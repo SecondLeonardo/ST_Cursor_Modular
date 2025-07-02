@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_physical_fitness",
+  "name": "Thể lực thể chất",
+  "skills": [
+    {
+      "id": "skill_2788",
+      "name": "Bài tập thể hình",
+      "difficulty_level": 1,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2789",
+      "name": "Tập luyện tim mạch",
+      "difficulty_level": 5,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2790",
+      "name": "Đào tạo sức bền",
+      "difficulty_level": 4,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2791",
+      "name": "Kế hoạch thể dục",
+      "difficulty_level": 2,
+      "description": "Learn and master Fitness Planning",
+      "tags": [
+        "fitness",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2792",
+      "name": "Chuyển động chức năng",
+      "difficulty_level": 3,
+      "description": "Learn and master Functional Movement",
+      "tags": [
+        "functional",
+        "movement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2793",
+      "name": "HIIT thói quen",
+      "difficulty_level": 5,
+      "description": "Learn and master HIIT Routines",
+      "tags": [
+        "hiit",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2794",
+      "name": "Tập luyện ấm đun nước",
+      "difficulty_level": 5,
+      "description": "Learn and master Kettlebell Workouts",
+      "tags": [
+        "kettlebell",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2795",
+      "name": "Plyometrics",
+      "difficulty_level": 2,
+      "description": "Learn and master Plyometrics",
+      "tags": [
+        "plyometrics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2796",
+      "name": "Đào tạo sức mạnh",
+      "difficulty_level": 1,
+      "description": "Learn and master Strength Training",
+      "tags": [
+        "strength",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2797",
+      "name": "Kỹ thuật kéo dài",
+      "difficulty_level": 4,
+      "description": "Learn and master Stretching Techniques",
+      "tags": [
+        "stretching",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_software_systems",
+  "name": "软件和系统",
+  "skills": [
+    {
+      "id": "skill_4546",
+      "name": "API和集成",
+      "difficulty_level": 1,
+      "description": "Learn and master APIs and Integration",
+      "tags": [
+        "apis",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4547",
+      "name": "敏捷发展实践",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Development Practices",
+      "tags": [
+        "agile",
+        "development",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4548",
+      "name": "CI/CD管道",
+      "difficulty_level": 1,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4549",
+      "name": "云基础架构（AWS/GCP）",
+      "difficulty_level": 3,
+      "description": "Learn and master Cloud Infrastructure (AWS/GCP)",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "(aws/gcp)"
+      ]
+    },
+    {
+      "id": "skill_4550",
+      "name": "调试技术",
+      "difficulty_level": 1,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4551",
+      "name": "软件测试基础知识",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Testing Basics",
+      "tags": [
+        "software",
+        "testing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4552",
+      "name": "系统架构设计",
+      "difficulty_level": 1,
+      "description": "Learn and master System Architecture Design",
+      "tags": [
+        "system",
+        "architecture",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4553",
+      "name": "技术文档",
+      "difficulty_level": 1,
+      "description": "Learn and master Technical Documentation",
+      "tags": [
+        "technical",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4554",
+      "name": "UML图",
+      "difficulty_level": 5,
+      "description": "Learn and master UML Diagramming",
+      "tags": [
+        "diagramming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4555",
+      "name": "使用git的版本控制",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

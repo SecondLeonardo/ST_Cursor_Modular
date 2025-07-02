@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "Fiziksel ve Spor Becerileri",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "Fitness ve Güç"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "Bireysel spor"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "Dövüş sanatları"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "Açık hava ve macera"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "Eğlence faaliyetleri"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "Takım sporları"
+    }
+  ]
+}

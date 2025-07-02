@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_electrical_work",
+  "name": "విద్యుత్ పని",
+  "skills": [
+    {
+      "id": "skill_3428",
+      "name": "బ్రేకర్ ప్యానెల్ సెటప్",
+      "difficulty_level": 1,
+      "description": "Learn and master Breaker Panel Setup",
+      "tags": [
+        "breaker",
+        "panel",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_3429",
+      "name": "సర్క్యూట్ పరీక్ష",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Testing",
+      "tags": [
+        "circuit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3430",
+      "name": "కండ్యూట్ బెండింగ్",
+      "difficulty_level": 4,
+      "description": "Learn and master Conduit Bending",
+      "tags": [
+        "conduit",
+        "bending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3431",
+      "name": "హోమ్ ఆటోమేషన్ వైరింగ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Home Automation Wiring",
+      "tags": [
+        "home",
+        "automation",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_3432",
+      "name": "లైటింగ్ సిస్టమ్స్",
+      "difficulty_level": 2,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3433",
+      "name": "అవుట్లెట్ పున ment స్థాపన",
+      "difficulty_level": 1,
+      "description": "Learn and master Outlet Replacement",
+      "tags": [
+        "outlet",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3434",
+      "name": "పొగ డిటెక్టర్ సెటప్",
+      "difficulty_level": 2,
+      "description": "Learn and master Smoke Detector Setup",
+      "tags": [
+        "smoke",
+        "detector",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_3435",
+      "name": "సోలార్ ప్యానెల్ సంస్థాపన",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Installation",
+      "tags": [
+        "solar",
+        "panel",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_3436",
+      "name": "ఉప్పెన రక్షణ",
+      "difficulty_level": 2,
+      "description": "Learn and master Surge Protection",
+      "tags": [
+        "surge",
+        "protection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3437",
+      "name": "వైరింగ్ సంస్థాపన",
+      "difficulty_level": 3,
+      "description": "Learn and master Wiring Installation",
+      "tags": [
+        "wiring",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

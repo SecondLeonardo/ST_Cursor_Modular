@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_programming_software_development",
+  "name": "编程和软件开发",
+  "skills": [
+    {
+      "id": "skill_4456",
+      "name": "构建REST API",
+      "difficulty_level": 5,
+      "description": "Learn and master Building REST APIs",
+      "tags": [
+        "building",
+        "rest",
+        "apis"
+      ]
+    },
+    {
+      "id": "skill_4457",
+      "name": "调试JavaScript",
+      "difficulty_level": 3,
+      "description": "Learn and master Debugging JavaScript",
+      "tags": [
+        "debugging",
+        "javascript",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4458",
+      "name": "全栈网络开发",
+      "difficulty_level": 4,
+      "description": "Learn and master Full-Stack Web Development",
+      "tags": [
+        "full-stack",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4459",
+      "name": "移动应用程序开发",
+      "difficulty_level": 4,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4460",
+      "name": "面向对象的编程",
+      "difficulty_level": 5,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4461",
+      "name": "反应开发",
+      "difficulty_level": 3,
+      "description": "Learn and master React Development",
+      "tags": [
+        "react",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4462",
+      "name": "使用git的版本控制",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    },
+    {
+      "id": "skill_4463",
+      "name": "使用数据库",
+      "difficulty_level": 4,
+      "description": "Learn and master Working with Databases",
+      "tags": [
+        "working",
+        "with",
+        "databases"
+      ]
+    },
+    {
+      "id": "skill_4464",
+      "name": "编写Python代码",
+      "difficulty_level": 4,
+      "description": "Learn and master Writing Python Code",
+      "tags": [
+        "writing",
+        "python",
+        "code"
+      ]
+    },
+    {
+      "id": "skill_4465",
+      "name": "编写单元测试",
+      "difficulty_level": 1,
+      "description": "Learn and master Writing Unit Tests",
+      "tags": [
+        "writing",
+        "unit",
+        "tests"
+      ]
+    }
+  ]
+}

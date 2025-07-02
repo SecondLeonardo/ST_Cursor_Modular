@@ -1,0 +1,46 @@
+{
+  "id": "manual_trades_craftsmanship_skills",
+  "name": "ทักษะการซื้อขายและงานฝีมือด้วยตนเอง",
+  "subcategories": [
+    {
+      "id": "manual_trades_craftsmanship_skills_automotive_repair",
+      "name": "ซ่อมยานยนต์"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_construction_trades",
+      "name": "การซื้อขายก่อสร้าง"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_electrical_work",
+      "name": "งานไฟฟ้า"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+      "name": "เฟอร์นิเจอร์และเบาะ"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+      "name": "เครื่องมือมืออาชีพ"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_home_renovation",
+      "name": "การปรับปรุงบ้าน"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_metalworking",
+      "name": "งานโลหะ"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+      "name": "ประปาและเครื่องทำความร้อน"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+      "name": "สิ่งทอและหนัง"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_woodworking",
+      "name": "งานไม้"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "贸易和工艺技能",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "建筑与木工"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "电气和管道"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "手工制品"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "金属制品和焊接"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "纺织品和皮革"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "传统手工艺品"
+    }
+  ]
+}

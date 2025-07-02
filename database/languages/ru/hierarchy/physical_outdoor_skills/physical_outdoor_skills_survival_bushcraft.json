@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_survival_bushcraft",
+  "name": "Выживание и Бушкрафт",
+  "skills": [
+    {
+      "id": "skill_3978",
+      "name": "Камуфляжные методы",
+      "difficulty_level": 3,
+      "description": "Learn and master Camouflage Techniques",
+      "tags": [
+        "camouflage",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3979",
+      "name": "Поиск питьевой воды",
+      "difficulty_level": 2,
+      "description": "Learn and master Finding Potable Water",
+      "tags": [
+        "finding",
+        "potable",
+        "water"
+      ]
+    },
+    {
+      "id": "skill_3980",
+      "name": "Огонь начинается",
+      "difficulty_level": 3,
+      "description": "Learn and master Fire Starting",
+      "tags": [
+        "fire",
+        "starting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3981",
+      "name": "Рыбалка без снаряжения",
+      "difficulty_level": 1,
+      "description": "Learn and master Fishing Without Gear",
+      "tags": [
+        "fishing",
+        "without",
+        "gear"
+      ]
+    },
+    {
+      "id": "skill_3982",
+      "name": "Навигация без GPS",
+      "difficulty_level": 5,
+      "description": "Learn and master Navigating Without GPS",
+      "tags": [
+        "navigating",
+        "without",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3983",
+      "name": "Чтение погоды",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading the Weather",
+      "tags": [
+        "reading",
+        "weather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3984",
+      "name": "Укрытие здания",
+      "difficulty_level": 4,
+      "description": "Learn and master Shelter Building",
+      "tags": [
+        "shelter",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3985",
+      "name": "Отслеживание животных",
+      "difficulty_level": 2,
+      "description": "Learn and master Tracking Animals",
+      "tags": [
+        "tracking",
+        "animals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3986",
+      "name": "Привязывая узлы",
+      "difficulty_level": 4,
+      "description": "Learn and master Tying Knots",
+      "tags": [
+        "tying",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3987",
+      "name": "Дикая кулинария",
+      "difficulty_level": 2,
+      "description": "Learn and master Wilderness Cooking",
+      "tags": [
+        "wilderness",
+        "cooking",
+        "skill"
+      ]
+    }
+  ]
+}

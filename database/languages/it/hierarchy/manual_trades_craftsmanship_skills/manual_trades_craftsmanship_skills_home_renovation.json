@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_home_renovation",
+  "name": "Rinnovamento della casa",
+  "skills": [
+    {
+      "id": "skill_3458",
+      "name": "Finitura del seminterrato",
+      "difficulty_level": 1,
+      "description": "Learn and master Basement Finishing",
+      "tags": [
+        "basement",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3459",
+      "name": "Calafataggio e sigillatura",
+      "difficulty_level": 4,
+      "description": "Learn and master Caulking & Sealing",
+      "tags": [
+        "caulking",
+        "sealing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3460",
+      "name": "Building del mazzo",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3461",
+      "name": "Riparazione del muro a secco",
+      "difficulty_level": 3,
+      "description": "Learn and master Drywall Repair",
+      "tags": [
+        "drywall",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3462",
+      "name": "Rimodellamento della cucina",
+      "difficulty_level": 1,
+      "description": "Learn and master Kitchen Remodeling",
+      "tags": [
+        "kitchen",
+        "remodeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3463",
+      "name": "Pavimenti in laminato",
+      "difficulty_level": 2,
+      "description": "Learn and master Laminate Flooring",
+      "tags": [
+        "laminate",
+        "flooring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3464",
+      "name": "Dipinto e decorazione",
+      "difficulty_level": 2,
+      "description": "Learn and master Painting & Decorating",
+      "tags": [
+        "painting",
+        "decorating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3465",
+      "name": "Piastrella di piastrelle",
+      "difficulty_level": 2,
+      "description": "Learn and master Tile Laying",
+      "tags": [
+        "tile",
+        "laying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3466",
+      "name": "Sfondi sospeso",
+      "difficulty_level": 2,
+      "description": "Learn and master Wallpaper Hanging",
+      "tags": [
+        "wallpaper",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3467",
+      "name": "Sostituzione della finestra",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Replacement",
+      "tags": [
+        "window",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

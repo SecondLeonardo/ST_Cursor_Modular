@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "رسانه و سرگرمی",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "تولید ویدیو"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "تولید صدا"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "عکاسی"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "طراحی گرافیک"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "بازیگری و عملکرد"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "نوشتن و فیلمنامه نویسی"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "پخش"
+    }
+  ]
+}

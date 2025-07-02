@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "Gesundheit, Fitness und Sport",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "Fitnesstraining"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "Ernährung"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "Outdoor & Abenteuer"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "Sportkenntnisse"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "Wellness & Genesung"
+    }
+  ]
+}

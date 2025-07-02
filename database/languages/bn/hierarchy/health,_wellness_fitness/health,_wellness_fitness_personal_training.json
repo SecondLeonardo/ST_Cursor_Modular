@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_personal_training",
+  "name": "ব্যক্তিগত প্রশিক্ষণ",
+  "skills": [
+    {
+      "id": "skill_2778",
+      "name": "ক্লায়েন্ট লক্ষ্য সেটিং",
+      "difficulty_level": 3,
+      "description": "Learn and master Client Goal Setting",
+      "tags": [
+        "client",
+        "goal",
+        "setting"
+      ]
+    },
+    {
+      "id": "skill_2779",
+      "name": "ক্লায়েন্ট অনুপ্রেরণা",
+      "difficulty_level": 1,
+      "description": "Learn and master Client Motivation",
+      "tags": [
+        "client",
+        "motivation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2780",
+      "name": "কাস্টম ওয়ার্কআউট পরিকল্পনা",
+      "difficulty_level": 4,
+      "description": "Learn and master Custom Workout Plans",
+      "tags": [
+        "custom",
+        "workout",
+        "plans"
+      ]
+    },
+    {
+      "id": "skill_2781",
+      "name": "অনুশীলন সংশোধন",
+      "difficulty_level": 1,
+      "description": "Learn and master Exercise Correction",
+      "tags": [
+        "exercise",
+        "correction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2782",
+      "name": "ফিটনেস মূল্যায়ন",
+      "difficulty_level": 3,
+      "description": "Learn and master Fitness Assessments",
+      "tags": [
+        "fitness",
+        "assessments",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2783",
+      "name": "ফিটনেস ট্র্যাকিং সরঞ্জাম",
+      "difficulty_level": 5,
+      "description": "Learn and master Fitness Tracking Tools",
+      "tags": [
+        "fitness",
+        "tracking",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2784",
+      "name": "জিম সরঞ্জাম জ্ঞান",
+      "difficulty_level": 5,
+      "description": "Learn and master Gym Equipment Knowledge",
+      "tags": [
+        "equipment",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2785",
+      "name": "অনলাইন প্রশিক্ষণ বিতরণ",
+      "difficulty_level": 2,
+      "description": "Learn and master Online Training Delivery",
+      "tags": [
+        "online",
+        "training",
+        "delivery"
+      ]
+    },
+    {
+      "id": "skill_2786",
+      "name": "ব্যক্তিগত কোচিং",
+      "difficulty_level": 3,
+      "description": "Learn and master Personal Coaching",
+      "tags": [
+        "personal",
+        "coaching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2787",
+      "name": "ওয়ার্ম-আপ এবং শীতল-ডাউন",
+      "difficulty_level": 5,
+      "description": "Learn and master Warm-up & Cool-down",
+      "tags": [
+        "warm-up",
+        "cool-down",
+        "skill"
+      ]
+    }
+  ]
+}

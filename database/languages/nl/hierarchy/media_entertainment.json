@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "Media en entertainment",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "Videoproductie"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "Audioproductie"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "Fotografie"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "Grafisch ontwerp"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "Handelen en prestaties"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "Schrijven en scriptschrijven"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "Uitzending"
+    }
+  ]
+}

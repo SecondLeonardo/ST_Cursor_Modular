@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "ሜካኒካል እና ቴክኒካዊ ችሎታዎች",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "አውቶሞቲቭ ጥገና"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "የምህንድስና መሰረታዊ ነገሮች"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "የቤት ጥገና እና ጭነት"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "ማሽን ክወና"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "የመሳሪያ አጠቃቀም እና ደህንነት"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "እንጨትና የብረት ሥራ"
+    }
+  ]
+}

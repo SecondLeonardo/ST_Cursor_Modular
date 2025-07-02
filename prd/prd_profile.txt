@@ -1,0 +1,215 @@
+1. Profile & Settings Overview
+- User profile management, profile editing, privacy controls, account management
+- Profile stats: posts, following, followers, visitors
+
+2. Profile Data Models
+- UserModel: userId, name, email, phone, skills, languages, profilePicture, vip, joinedAt, stats
+
+3. Profile & Settings UI/UX Design
+
+### 3.1 Profile Design
+- **User Stats Section**:
+  - Posts count
+  - Following count
+  - Followers count
+  - Visitors count
+- **Share Popup**:
+  - Share card view
+  - QR code view for profile sharing
+- **Sub Profile Page Elements**:
+  - Profile picture
+  - Name
+  - Self-introduction
+  - Username
+  - Languages
+  - Expertise
+  - Target skills
+  - City
+  - Gender
+  - Birthday
+  - Occupation
+  - School
+
+
+#### 3.1.2 Profile Page Design Guidelines
+- **Color Usage**:
+  - Primary actions: Teal (#00D8C0)
+  - Critical actions: Red (#E53935)
+  - Background: White (#FFFFFF)
+  - Text: Black (#000000) for primary, Gray (#757575) for secondary
+- **Typography**:
+  - Headers: Bold sans-serif
+  - Body text: Regular sans-serif
+  - Stats: Large bold numbers
+- **Layout Principles**:
+  - Consistent padding and margins
+  - Clear visual hierarchy
+  - Responsive grid system
+  - Touch-friendly targets
+- **Interactive Elements**:
+  - Rounded corners for buttons
+  - Clear hover/active states
+  - Consistent iconography
+  - Accessible touch targets
+ 
+### 3.2 Streak Page
+- **UI/UX Design**:
+  - **Colors & Theme**:
+    - Light/white background for readability
+    - Pastel gradients (blues, teals, oranges) for warmth
+    - Black and gray for typography
+    - Blue/pink for interactive elements
+  - **Typography**:
+    - Large bold fonts for streak count
+    - Medium-weight for section headers
+    - Lighter fonts for supporting details
+    - Consistent sans-serif fonts
+  - **Layout Structure**:
+    1. Header/Hero Area
+       - Current streak count
+       - Motivational tagline
+       - User icon/avatar
+    2. Streak Progress Section
+       - Horizontal scroll calendar
+       - Achievement indicators
+       - Progress bars/dots
+    3. Streak Stats Section
+       - Audience Total
+       - Events Hosted
+       - Gift Income
+    4. Call-to-Actions
+       - Share streak
+       - Host new event
+       - View analytics
+
+### 3.3 Freeze Card Popup
+- **UI/UX Design**:
+  - **Colors**:
+    - White popup overlay
+    - Warm orange-yellow for purchase button
+    - Light blue for Freeze Card icon
+    - Light grey for secondary text
+  - **Layout**:
+    - Rounded edges
+    - Centered title
+    - Icon with padding
+    - Clear action button
+    - Footnote text
+  - **Functionality**:
+    - Purchase Freeze Card (20 ST Coins)
+    - Automatic consumption
+    - Streak preservation
+
+### 3.4 Lottery Reward Popup
+- **UI/UX Design**:
+  - **Colors**:
+    - Warm celebratory tones (gold, orange, beige)
+    - Grey/silver for CTA button
+    - Light flares and sparkles
+  - **Layout**:
+    - 3x3 reward grid
+    - Achievement banner
+    - Clear CTA button
+  - **Rewards**:
+    - Freeze Cards
+    - ST Coins
+    - Comment Bubbles
+    - Other virtual items
+
+### 3.5 ST Coins Shop
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "ST Coins"
+    - Back arrow
+    - Menu/Settings icon
+    - Currency icon
+  - **Balance Section**:
+    - ST Coins balance
+    - Diamond balance
+    - Navigation arrow
+  - **Bonus Section**:
+    - Gift package rewards
+    - Time limit indicator
+  - **Purchase Options**:
+    - Multiple coin packages
+    - Clear pricing
+    - Visual coin icons
+  - **Usage Section**:
+    - Gift sending
+    - Stickers
+    - Profile boost
+    - Post boost
+    - Stage pass
+    - Call subtitles
+
+### 3.6 Shopping Center
+- **UI/UX Design**:
+  - **Color Scheme**:
+    - Dark-themed gradient background
+    - Teal for CTAs
+    - Yellow for ST Coin icon
+  - **Layout**:
+    - Top navigation bar
+    - Tab menu (Popular, Bubbles, Gift Banner, Profile Frame)
+    - Item grid
+    - Bottom utility row
+  - **Features**:
+    - Item previews
+    - Cost and duration display
+    - Buy buttons
+    - Top-up option
+    - Balance display
+
+### 3.7 Account Overview
+- **UI/UX Design**:
+  - **Layout**:
+    - Clean white background
+    - ST Coin/Diamonds tabs
+    - Metrics display
+    - Time range filter
+  - **Features**:
+    - Transaction history
+    - Balance tracking
+    - Payment records
+    - Date filtering
+
+### 3.8 Other User Profile
+- **UI/UX Design**:
+  - **Three-Dot Menu Popup**:
+    - Clean white background
+    - Rounded corners
+    - Vertical list format
+    - Red for critical actions
+    - Teal for cancel button
+  - **Options**:
+    - Add Nickname/Notes
+    - Share to Partner
+    - Hide Posts
+    - Privacy Controls
+    - Post Alerts
+    - Unblock/Report
+    - Cancel
+
+
+## 3.9 VIP Subscription Page
+- **Description**: Offers a comparison between VIP and Non-VIP privileges, subscription plans, and a seamless purchase flow.
+- **UI/UX Design**:
+  - **Top Section**: Includes a back arrow for navigation, title "Get SkillTalk VIP", and a tab selector for "Comparison" and "Details".
+  - **Comparison Table**: Highlights privileges for Non-VIP and VIP users with icons and checkmarks.
+  - **Subscription Plans**: Displayed in card-like boxes with pricing and discount information.
+  - **Bottom Section**: Features a "Continue" button leading to the App Store.
+  - **Detailed Design**: 
+    - **Comparison Table**: 
+      - Non-VIP (Gray Crown) vs VIP (Gold Crown) privileges.
+      - Features like "Unlock Visitors page", "Learn/Teach more Skills", "Extra Profile Exposure", etc.
+      - Table Design: Light gray borders, crown icons, and availability symbols (❌/✅).
+    - **Subscription Plans**:
+      - 1 Month Plan (€9.99), 12 Months Plan (€59.99 - Most Popular), Lifetime Plan (€149.99 - Best Value).
+      - Pricing Layout: Discounts shown using strikethrough pricing and teal savings text.
+
+
+4. Implementation Patterns
+- Service/provider pattern, multi-provider strategy, usage tracking, fallback system
+
+5. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 

@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_rehabilitation_therapy",
+  "name": "リハビリテーションとセラピー",
+  "skills": [
+    {
+      "id": "skill_2619",
+      "name": "支援デバイスの使用",
+      "difficulty_level": 2,
+      "description": "Learn and master Assistive Device Use",
+      "tags": [
+        "assistive",
+        "device",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2620",
+      "name": "共同強化",
+      "difficulty_level": 5,
+      "description": "Learn and master Joint Strengthening",
+      "tags": [
+        "joint",
+        "strengthening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2621",
+      "name": "モビリティ支援",
+      "difficulty_level": 5,
+      "description": "Learn and master Mobility Assistance",
+      "tags": [
+        "mobility",
+        "assistance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2622",
+      "name": "作業療法の基本",
+      "difficulty_level": 5,
+      "description": "Learn and master Occupational Therapy Basics",
+      "tags": [
+        "occupational",
+        "therapy",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2623",
+      "name": "理学療法運動",
+      "difficulty_level": 2,
+      "description": "Learn and master Physical Therapy Exercises",
+      "tags": [
+        "physical",
+        "therapy",
+        "exercises"
+      ]
+    },
+    {
+      "id": "skill_2624",
+      "name": "負傷後の回復",
+      "difficulty_level": 3,
+      "description": "Learn and master Post-Injury Recovery",
+      "tags": [
+        "post-injury",
+        "recovery",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2625",
+      "name": "動きの範囲",
+      "difficulty_level": 5,
+      "description": "Learn and master Range of Motion Work",
+      "tags": [
+        "range",
+        "motion",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_2626",
+      "name": "言語療法技術",
+      "difficulty_level": 3,
+      "description": "Learn and master Speech Therapy Techniques",
+      "tags": [
+        "speech",
+        "therapy",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2627",
+      "name": "脳卒中リハビリテーション",
+      "difficulty_level": 5,
+      "description": "Learn and master Stroke Rehabilitation",
+      "tags": [
+        "stroke",
+        "rehabilitation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2628",
+      "name": "治療マッサージ",
+      "difficulty_level": 3,
+      "description": "Learn and master Therapeutic Massage",
+      "tags": [
+        "therapeutic",
+        "massage",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "engineering_mechanical",
+  "name": "Инженерный и механический",
+  "subcategories": [
+    {
+      "id": "engineering_mechanical_automotive_transportation",
+      "name": "Автомобиль и транспорт"
+    },
+    {
+      "id": "engineering_mechanical_civil_engineering",
+      "name": "Гражданское строительство"
+    },
+    {
+      "id": "engineering_mechanical_electrical_engineering",
+      "name": "Электротехника"
+    },
+    {
+      "id": "engineering_mechanical_energy_power_systems",
+      "name": "Энергетические и энергетические системы"
+    },
+    {
+      "id": "engineering_mechanical_hvac_systems",
+      "name": "HVAC & Systems"
+    },
+    {
+      "id": "engineering_mechanical_industrial_design",
+      "name": "Промышленный дизайн"
+    },
+    {
+      "id": "engineering_mechanical_manufacturing_production",
+      "name": "Производство и производство"
+    },
+    {
+      "id": "engineering_mechanical_mechanical_engineering",
+      "name": "Машиностроение"
+    },
+    {
+      "id": "engineering_mechanical_robotics_automation",
+      "name": "Робототехника и автоматизация"
+    },
+    {
+      "id": "engineering_mechanical_structural_design",
+      "name": "Структурный дизайн"
+    }
+  ]
+}

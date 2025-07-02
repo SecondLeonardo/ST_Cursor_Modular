@@ -1,0 +1,120 @@
+{
+  "id": "technology_digital_data_ai",
+  "name": "Data & Ai",
+  "skills": [
+    {
+      "id": "skill_4626",
+      "name": "Big Data -verktyg",
+      "difficulty_level": 4,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4627",
+      "name": "Rengöring av data med pandor",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning with Pandas",
+      "tags": [
+        "data",
+        "cleaning",
+        "with",
+        "pandas"
+      ]
+    },
+    {
+      "id": "skill_4628",
+      "name": "Datavisualisering med matplotlib",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Visualization with Matplotlib",
+      "tags": [
+        "data",
+        "visualization",
+        "with",
+        "matplotlib"
+      ]
+    },
+    {
+      "id": "skill_4629",
+      "name": "Djup inlärning med tensorflöde",
+      "difficulty_level": 1,
+      "description": "Learn and master Deep Learning with TensorFlow",
+      "tags": [
+        "deep",
+        "learning",
+        "with",
+        "tensorflow"
+      ]
+    },
+    {
+      "id": "skill_4630",
+      "name": "Maskininlärning med scikit-learn",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning with Scikit-Learn",
+      "tags": [
+        "machine",
+        "learning",
+        "with",
+        "scikit-learn"
+      ]
+    },
+    {
+      "id": "skill_4631",
+      "name": "Naturligt språkbehandling",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4632",
+      "name": "Neurala nätverk",
+      "difficulty_level": 3,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4633",
+      "name": "Prediktiv modellering",
+      "difficulty_level": 2,
+      "description": "Learn and master Predictive Modeling",
+      "tags": [
+        "predictive",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4634",
+      "name": "SQL för dataanalys",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL for Data Analysis",
+      "tags": [
+        "data",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4635",
+      "name": "Statistik för datavetenskap",
+      "difficulty_level": 1,
+      "description": "Learn and master Statistics for Data Science",
+      "tags": [
+        "statistics",
+        "data",
+        "science"
+      ]
+    }
+  ]
+}

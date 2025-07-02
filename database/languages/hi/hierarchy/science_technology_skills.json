@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "विज्ञान और प्रौद्योगिकी कौशल",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "खगोल"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "जैव प्रौद्योगिकी"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "रसायन विज्ञान"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "कंप्यूटर विज्ञान"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "डेटा विज्ञान और एआई"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "पृथ्वी और पर्यावरण विज्ञान"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "इलेक्ट्रानिक्स"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "अभियांत्रिकी"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "गणित और सांख्यिकी"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "भौतिक विज्ञान"
+    }
+  ]
+}

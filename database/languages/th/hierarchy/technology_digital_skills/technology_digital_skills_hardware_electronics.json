@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_hardware_electronics",
+  "name": "ฮาร์ดแวร์และอิเล็กทรอนิกส์",
+  "skills": [
+    {
+      "id": "skill_4765",
+      "name": "การตั้งค่าการพิมพ์ 3 มิติ",
+      "difficulty_level": 1,
+      "description": "Learn and master 3D Printing Setup",
+      "tags": [
+        "printing",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4766",
+      "name": "การเขียนโปรแกรม Arduino",
+      "difficulty_level": 2,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4767",
+      "name": "ระบบการจัดการแบตเตอรี่",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Management Systems",
+      "tags": [
+        "battery",
+        "management",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_4768",
+      "name": "การออกแบบวงจร",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4769",
+      "name": "ระบบฝังตัว",
+      "difficulty_level": 5,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4770",
+      "name": "การตั้งค่าอุปกรณ์ IoT",
+      "difficulty_level": 4,
+      "description": "Learn and master IoT Device Setup",
+      "tags": [
+        "device",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4771",
+      "name": "การออกแบบ PCB",
+      "difficulty_level": 1,
+      "description": "Learn and master PCB Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4772",
+      "name": "โครงการ Raspberry Pi",
+      "difficulty_level": 1,
+      "description": "Learn and master Raspberry Pi Projects",
+      "tags": [
+        "raspberry",
+        "projects",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4773",
+      "name": "การรวมเซ็นเซอร์",
+      "difficulty_level": 1,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4774",
+      "name": "การบัดกรี",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering",
+      "tags": [
+        "soldering",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

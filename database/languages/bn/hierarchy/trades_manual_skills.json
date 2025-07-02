@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "ট্রেডস এবং ম্যানুয়াল দক্ষতা",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "স্বয়ংচালিত মেরামত"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "ছুতার এবং কাঠের কাজ"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "নির্মাণ"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "নির্মাণ ও ছুতার"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "কারুশিল্প এবং মেরামত"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "বৈদ্যুতিক এবং যান্ত্রিক"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "বৈদ্যুতিক কাজ"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "এইচভিএসি এবং রেফ্রিজারেশন"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "ভারী সরঞ্জাম অপারেশন"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "রাজমিস্ত্রি ও টাইলিং"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "ধাতু এবং কাঠের কাজ"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "পেইন্টিং এবং সমাপ্তি"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "নদীর গভীরতানির্ণয়"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "যানবাহন ও মেশিন রক্ষণাবেক্ষণ"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "ওয়েল্ডিং এবং ধাতব কাজ"
+    }
+  ]
+}

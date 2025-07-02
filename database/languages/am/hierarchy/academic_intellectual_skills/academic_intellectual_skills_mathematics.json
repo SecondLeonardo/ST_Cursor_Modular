@@ -1,0 +1,226 @@
+{
+  "id": "academic_intellectual_skills_mathematics",
+  "name": "ሂሳብ",
+  "skills": [
+    {
+      "id": "skill_170",
+      "name": "አልጄብራ",
+      "difficulty_level": 1,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_171",
+      "name": "የአልጄቢክ እኩልታዎች",
+      "difficulty_level": 3,
+      "description": "Learn and master Algebraic Equations",
+      "tags": [
+        "algebraic",
+        "equations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_172",
+      "name": "መሰረታዊ የሂሳብ መዝገብ",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Arithmetic",
+      "tags": [
+        "basic",
+        "arithmetic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_173",
+      "name": "ካልኩለስ",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_174",
+      "name": "ካልኩለስ መሰረታዊ ነገሮች",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus Fundamentals",
+      "tags": [
+        "calculus",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_175",
+      "name": "ክፍልፋዮች እና አስርዮሽዎች",
+      "difficulty_level": 1,
+      "description": "Learn and master Fractions & Decimals",
+      "tags": [
+        "fractions",
+        "decimals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_176",
+      "name": "ጂኦሜትሪ",
+      "difficulty_level": 5,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_177",
+      "name": "የጂኦሜትሪ ፅንሰ-ሀሳቦች",
+      "difficulty_level": 4,
+      "description": "Learn and master Geometry Concepts",
+      "tags": [
+        "geometry",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_178",
+      "name": "መስመራዊ አልጄብራ",
+      "difficulty_level": 5,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_179",
+      "name": "የሂሳብ ችግር መፍታት",
+      "difficulty_level": 1,
+      "description": "Learn and master Math Problem Solving",
+      "tags": [
+        "math",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_180",
+      "name": "የሂሳብ ቃል ችግሮች",
+      "difficulty_level": 5,
+      "description": "Learn and master Math Word Problems",
+      "tags": [
+        "math",
+        "word",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_181",
+      "name": "የሂሳብ ሞዴሊንግ",
+      "difficulty_level": 1,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_182",
+      "name": "የአእምሮ ሂሳብ",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_183",
+      "name": "የአእምሮ የሂሳብ ዘዴዎች",
+      "difficulty_level": 2,
+      "description": "Learn and master Mental Math Tricks",
+      "tags": [
+        "mental",
+        "math",
+        "tricks"
+      ]
+    },
+    {
+      "id": "skill_184",
+      "name": "ቁጥር ፅንሰ-ሀሳብ",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_185",
+      "name": "ይሁንታ እና ስታቲስቲክስ",
+      "difficulty_level": 2,
+      "description": "Learn and master Probability & Statistics",
+      "tags": [
+        "probability",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_186",
+      "name": "መስመራዊ እኩልታዎችን መፍታት",
+      "difficulty_level": 5,
+      "description": "Learn and master Solving Linear Equations",
+      "tags": [
+        "solving",
+        "linear",
+        "equations"
+      ]
+    },
+    {
+      "id": "skill_187",
+      "name": "ስታቲስቲክስ",
+      "difficulty_level": 2,
+      "description": "Learn and master Statistics",
+      "tags": [
+        "statistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_188",
+      "name": "ትሪግኖሜትሪ",
+      "difficulty_level": 4,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_189",
+      "name": "የግራፊክ ካልኩሌተር በመጠቀም",
+      "difficulty_level": 3,
+      "description": "Learn and master Using a Graphing Calculator",
+      "tags": [
+        "using",
+        "graphing",
+        "calculator"
+      ]
+    }
+  ]
+}

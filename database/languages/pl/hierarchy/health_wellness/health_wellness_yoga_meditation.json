@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_yoga_meditation",
+  "name": "Joga i medytacja",
+  "skills": [
+    {
+      "id": "skill_2678",
+      "name": "Ćwiczenia oddechowe",
+      "difficulty_level": 4,
+      "description": "Learn and master Breathing Exercises",
+      "tags": [
+        "breathing",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2679",
+      "name": "Balansowanie czakry",
+      "difficulty_level": 4,
+      "description": "Learn and master Chakra Balancing",
+      "tags": [
+        "chakra",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2680",
+      "name": "Medytacja z przewodnikiem",
+      "difficulty_level": 1,
+      "description": "Learn and master Guided Meditation",
+      "tags": [
+        "guided",
+        "meditation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2681",
+      "name": "Hatha Yoga",
+      "difficulty_level": 2,
+      "description": "Learn and master Hatha Yoga",
+      "tags": [
+        "hatha",
+        "yoga",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2682",
+      "name": "Planowanie medytacji",
+      "difficulty_level": 1,
+      "description": "Learn and master Meditation Scheduling",
+      "tags": [
+        "meditation",
+        "scheduling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2683",
+      "name": "Uważny ruch",
+      "difficulty_level": 3,
+      "description": "Learn and master Mindful Movement",
+      "tags": [
+        "mindful",
+        "movement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2684",
+      "name": "Vinyasa Flow",
+      "difficulty_level": 4,
+      "description": "Learn and master Vinyasa Flow",
+      "tags": [
+        "vinyasa",
+        "flow",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2685",
+      "name": "Joga nidra",
+      "difficulty_level": 5,
+      "description": "Learn and master Yoga Nidra",
+      "tags": [
+        "yoga",
+        "nidra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2686",
+      "name": "Joga pozami (asan)",
+      "difficulty_level": 1,
+      "description": "Learn and master Yoga Poses (Asanas)",
+      "tags": [
+        "yoga",
+        "poses",
+        "(asanas)"
+      ]
+    },
+    {
+      "id": "skill_2687",
+      "name": "Joga dla elastyczności",
+      "difficulty_level": 5,
+      "description": "Learn and master Yoga for Flexibility",
+      "tags": [
+        "yoga",
+        "flexibility",
+        "skill"
+      ]
+    }
+  ]
+}

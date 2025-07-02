@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "取引と職人技",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "自動車修理"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "大工＆木工"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "建設と石積み"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "電気工事"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC＆冷蔵"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "ジュエリーメーカー"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "金属細工と溶接"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "絵画と装飾"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "配管"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "仕立てと縫製"
+    }
+  ]
+}

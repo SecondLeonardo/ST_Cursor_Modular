@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_construction",
+  "name": "بناء",
+  "skills": [
+    {
+      "id": "skill_5195",
+      "name": "قراءة مخطط",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5196",
+      "name": "الانتهاء من الخرسانة",
+      "difficulty_level": 3,
+      "description": "Learn and master Concrete Finishing",
+      "tags": [
+        "concrete",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5197",
+      "name": "هدم",
+      "difficulty_level": 5,
+      "description": "Learn and master Demolition",
+      "tags": [
+        "demolition",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5198",
+      "name": "شنق دريوال",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Hanging",
+      "tags": [
+        "drywall",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5199",
+      "name": "تأطير",
+      "difficulty_level": 3,
+      "description": "Learn and master Framing",
+      "tags": [
+        "framing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5200",
+      "name": "تثبيت العزل",
+      "difficulty_level": 4,
+      "description": "Learn and master Insulation Installation",
+      "tags": [
+        "insulation",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5201",
+      "name": "تركيب تسقيف",
+      "difficulty_level": 1,
+      "description": "Learn and master Roofing Installation",
+      "tags": [
+        "roofing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5202",
+      "name": "إعداد السقالات",
+      "difficulty_level": 3,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5203",
+      "name": "سلامة الموقع",
+      "difficulty_level": 3,
+      "description": "Learn and master Site Safety",
+      "tags": [
+        "site",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5204",
+      "name": "المسح",
+      "difficulty_level": 4,
+      "description": "Learn and master Surveying",
+      "tags": [
+        "surveying",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

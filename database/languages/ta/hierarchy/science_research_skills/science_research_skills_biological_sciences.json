@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_biological_sciences",
+  "name": "உயிரியல் அறிவியல்",
+  "skills": [
+    {
+      "id": "skill_4058",
+      "name": "பயோஸ்டாடிஸ்டிக்ஸ்",
+      "difficulty_level": 4,
+      "description": "Learn and master Biostatistics",
+      "tags": [
+        "biostatistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4059",
+      "name": "தாவரவியல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Botany",
+      "tags": [
+        "botany",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4060",
+      "name": "செல் கலாச்சாரம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Cell Culture",
+      "tags": [
+        "cell",
+        "culture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4061",
+      "name": "சூழலியல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Ecology",
+      "tags": [
+        "ecology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4062",
+      "name": "கள ஆராய்ச்சி",
+      "difficulty_level": 5,
+      "description": "Learn and master Field Research",
+      "tags": [
+        "field",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4063",
+      "name": "மரபியல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Genetics",
+      "tags": [
+        "genetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4064",
+      "name": "ஆய்வக பாதுகாப்பு நெறிமுறைகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Lab Safety Protocols",
+      "tags": [
+        "safety",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4065",
+      "name": "நுண்ணுயிரியல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Microbiology",
+      "tags": [
+        "microbiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4066",
+      "name": "மூலக்கூறு உயிரியல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Molecular Biology",
+      "tags": [
+        "molecular",
+        "biology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4067",
+      "name": "விலங்கியல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Zoology",
+      "tags": [
+        "zoology",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

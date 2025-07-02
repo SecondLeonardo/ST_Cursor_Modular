@@ -1,0 +1,116 @@
+{
+  "id": "arts,_crafts_design_crafts",
+  "name": "工芸品",
+  "skills": [
+    {
+      "id": "skill_630",
+      "name": "ろうそく作り",
+      "difficulty_level": 1,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_631",
+      "name": "DIYホームデコール",
+      "difficulty_level": 3,
+      "description": "Learn and master DIY Home Décor",
+      "tags": [
+        "home",
+        "décor",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_632",
+      "name": "ジュエリーメーカー",
+      "difficulty_level": 3,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_633",
+      "name": "マクラメ",
+      "difficulty_level": 2,
+      "description": "Learn and master Macramé",
+      "tags": [
+        "macramé",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_634",
+      "name": "折り紙",
+      "difficulty_level": 1,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_635",
+      "name": "ペーパークラフト",
+      "difficulty_level": 4,
+      "description": "Learn and master Paper Crafts",
+      "tags": [
+        "paper",
+        "crafts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_636",
+      "name": "陶器のテクニック",
+      "difficulty_level": 5,
+      "description": "Learn and master Pottery Techniques",
+      "tags": [
+        "pottery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_637",
+      "name": "スクラップブッキング",
+      "difficulty_level": 3,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_638",
+      "name": "石鹸作り",
+      "difficulty_level": 1,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_639",
+      "name": "木彫り",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    }
+  ]
+}

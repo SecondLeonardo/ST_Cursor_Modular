@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_engineering_basics",
+  "name": "工程基础知识",
+  "skills": [
+    {
+      "id": "skill_3518",
+      "name": "基本电路",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Circuitry",
+      "tags": [
+        "basic",
+        "circuitry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3519",
+      "name": "桥梁设计基础",
+      "difficulty_level": 2,
+      "description": "Learn and master Bridge Design Basics",
+      "tags": [
+        "bridge",
+        "design",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_3520",
+      "name": "CAD设计",
+      "difficulty_level": 3,
+      "description": "Learn and master CAD Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3521",
+      "name": "流体力学介绍",
+      "difficulty_level": 4,
+      "description": "Learn and master Fluid Mechanics Intro",
+      "tags": [
+        "fluid",
+        "mechanics",
+        "intro"
+      ]
+    },
+    {
+      "id": "skill_3522",
+      "name": "齿轮和滑轮",
+      "difficulty_level": 4,
+      "description": "Learn and master Gears & Pulleys",
+      "tags": [
+        "gears",
+        "pulleys",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3523",
+      "name": "阅读蓝图",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Blueprints",
+      "tags": [
+        "reading",
+        "blueprints",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3524",
+      "name": "简单的机器",
+      "difficulty_level": 1,
+      "description": "Learn and master Simple Machines",
+      "tags": [
+        "simple",
+        "machines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3525",
+      "name": "静态原则",
+      "difficulty_level": 5,
+      "description": "Learn and master Statics Principles",
+      "tags": [
+        "statics",
+        "principles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3526",
+      "name": "拉伸强度测试",
+      "difficulty_level": 2,
+      "description": "Learn and master Tensile Strength Testing",
+      "tags": [
+        "tensile",
+        "strength",
+        "testing"
+      ]
+    },
+    {
+      "id": "skill_3527",
+      "name": "热力学概念",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermodynamics Concepts",
+      "tags": [
+        "thermodynamics",
+        "concepts",
+        "skill"
+      ]
+    }
+  ]
+}

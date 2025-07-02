@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_writing_literature",
+  "name": "రచన & సాహిత్యం",
+  "skills": [
+    {
+      "id": "skill_510",
+      "name": "బ్లాగ్ రచన",
+      "difficulty_level": 2,
+      "description": "Learn and master Blog Writing",
+      "tags": [
+        "blog",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_511",
+      "name": "సృజనాత్మక రచన",
+      "difficulty_level": 3,
+      "description": "Learn and master Creative Writing",
+      "tags": [
+        "creative",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_512",
+      "name": "ఎడిటింగ్ & ప్రూఫ్ రీడింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Editing & Proofreading",
+      "tags": [
+        "editing",
+        "proofreading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_513",
+      "name": "కల్పిత రచన",
+      "difficulty_level": 2,
+      "description": "Learn and master Fiction Writing",
+      "tags": [
+        "fiction",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_514",
+      "name": "సాహిత్య విశ్లేషణ",
+      "difficulty_level": 2,
+      "description": "Learn and master Literary Analysis",
+      "tags": [
+        "literary",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_515",
+      "name": "నాన్-ఫిక్షన్ రచన",
+      "difficulty_level": 3,
+      "description": "Learn and master Non-fiction Writing",
+      "tags": [
+        "non-fiction",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_516",
+      "name": "కవితా రచన",
+      "difficulty_level": 3,
+      "description": "Learn and master Poetry Writing",
+      "tags": [
+        "poetry",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_517",
+      "name": "స్క్రీన్ రైటింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Screenwriting",
+      "tags": [
+        "screenwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_518",
+      "name": "చిన్న కథ రచన",
+      "difficulty_level": 2,
+      "description": "Learn and master Short Story Writing",
+      "tags": [
+        "short",
+        "story",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_519",
+      "name": "డైలాగ్ రాయడం",
+      "difficulty_level": 5,
+      "description": "Learn and master Writing Dialogue",
+      "tags": [
+        "writing",
+        "dialogue",
+        "skill"
+      ]
+    }
+  ]
+}

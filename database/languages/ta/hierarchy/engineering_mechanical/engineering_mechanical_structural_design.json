@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_structural_design",
+  "name": "கட்டமைப்பு வடிவமைப்பு",
+  "skills": [
+    {
+      "id": "skill_2433",
+      "name": "பாலம் வடிவமைப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Bridge Design",
+      "tags": [
+        "bridge",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2434",
+      "name": "பூகம்ப பொறியியல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Earthquake Engineering",
+      "tags": [
+        "earthquake",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2435",
+      "name": "அடித்தள வடிவமைப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Foundation Design",
+      "tags": [
+        "foundation",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2436",
+      "name": "கணக்கீடுகளை ஏற்றவும்",
+      "difficulty_level": 1,
+      "description": "Learn and master Load Calculations",
+      "tags": [
+        "load",
+        "calculations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2437",
+      "name": "கொத்து கட்டமைப்புகள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Masonry Structures",
+      "tags": [
+        "masonry",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2438",
+      "name": "சுவர் வடிவமைப்பு தக்கவைத்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Retaining Wall Design",
+      "tags": [
+        "retaining",
+        "wall",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_2439",
+      "name": "கூரை டிரஸ்",
+      "difficulty_level": 3,
+      "description": "Learn and master Roof Trusses",
+      "tags": [
+        "roof",
+        "trusses",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2440",
+      "name": "எஃகு கட்டமைப்புகள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Steel Structures",
+      "tags": [
+        "steel",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2441",
+      "name": "கட்டமைப்பு பாதுகாப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Structural Safety",
+      "tags": [
+        "structural",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2442",
+      "name": "காற்று சுமை பகுப்பாய்வு",
+      "difficulty_level": 4,
+      "description": "Learn and master Wind Load Analysis",
+      "tags": [
+        "wind",
+        "load",
+        "analysis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_office_productivity",
+  "name": "Kontorsproduktivitet",
+  "skills": [
+    {
+      "id": "skill_1018",
+      "name": "Digitala arkivsystem",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Filing Systems",
+      "tags": [
+        "digital",
+        "filing",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_1019",
+      "name": "Excelformuler",
+      "difficulty_level": 3,
+      "description": "Learn and master Excel Formulas",
+      "tags": [
+        "excel",
+        "formulas",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1020",
+      "name": "Arkivorganisation",
+      "difficulty_level": 1,
+      "description": "Learn and master File Organization",
+      "tags": [
+        "file",
+        "organization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1021",
+      "name": "Google Workspace -användning",
+      "difficulty_level": 4,
+      "description": "Learn and master Google Workspace Usage",
+      "tags": [
+        "google",
+        "workspace",
+        "usage"
+      ]
+    },
+    {
+      "id": "skill_1022",
+      "name": "Kortkommandon",
+      "difficulty_level": 2,
+      "description": "Learn and master Keyboard Shortcuts",
+      "tags": [
+        "keyboard",
+        "shortcuts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1023",
+      "name": "Möte agenda skapelse",
+      "difficulty_level": 2,
+      "description": "Learn and master Meeting Agenda Creation",
+      "tags": [
+        "meeting",
+        "agenda",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_1024",
+      "name": "Anteckningen effektivt",
+      "difficulty_level": 3,
+      "description": "Learn and master Note-Taking Effectively",
+      "tags": [
+        "note-taking",
+        "effectively",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1025",
+      "name": "Schemaläggning med Outlook",
+      "difficulty_level": 2,
+      "description": "Learn and master Scheduling with Outlook",
+      "tags": [
+        "scheduling",
+        "with",
+        "outlook"
+      ]
+    },
+    {
+      "id": "skill_1026",
+      "name": "Tidspårningsverktyg",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Tracking Tools",
+      "tags": [
+        "time",
+        "tracking",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_1027",
+      "name": "Grundernas versionskontroll",
+      "difficulty_level": 5,
+      "description": "Learn and master Version Control Basics",
+      "tags": [
+        "version",
+        "control",
+        "basics"
+      ]
+    }
+  ]
+}

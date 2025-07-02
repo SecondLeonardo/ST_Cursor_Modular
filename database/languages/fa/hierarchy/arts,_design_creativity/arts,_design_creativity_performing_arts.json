@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_performing_arts",
+  "name": "هنرهای نمایشی",
+  "skills": [
+    {
+      "id": "skill_750",
+      "name": "رقص رقص",
+      "difficulty_level": 1,
+      "description": "Learn and master Choreography",
+      "tags": [
+        "choreography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_751",
+      "name": "اجرای",
+      "difficulty_level": 1,
+      "description": "Learn and master Dance Performance",
+      "tags": [
+        "dance",
+        "performance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_752",
+      "name": "کمدی بداهه",
+      "difficulty_level": 3,
+      "description": "Learn and master Improv Comedy",
+      "tags": [
+        "improv",
+        "comedy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_753",
+      "name": "تقلید",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_754",
+      "name": "عروسک",
+      "difficulty_level": 1,
+      "description": "Learn and master Puppetry",
+      "tags": [
+        "puppetry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_755",
+      "name": "کارگردانی مرحله",
+      "difficulty_level": 5,
+      "description": "Learn and master Stage Directing",
+      "tags": [
+        "stage",
+        "directing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_756",
+      "name": "حضور صحنه",
+      "difficulty_level": 1,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_757",
+      "name": "قصه گویی",
+      "difficulty_level": 2,
+      "description": "Learn and master Storytelling",
+      "tags": [
+        "storytelling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_758",
+      "name": "بازیگری تئاتر",
+      "difficulty_level": 2,
+      "description": "Learn and master Theater Acting",
+      "tags": [
+        "theater",
+        "acting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_759",
+      "name": "صدا بازیگری",
+      "difficulty_level": 5,
+      "description": "Learn and master Voice Acting",
+      "tags": [
+        "voice",
+        "acting",
+        "skill"
+      ]
+    }
+  ]
+}

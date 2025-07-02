@@ -1,0 +1,116 @@
+{
+  "id": "cognitive_academic_skills_mathematics_logic",
+  "name": "คณิตศาสตร์และตรรกะ",
+  "skills": [
+    {
+      "id": "skill_1088",
+      "name": "การแก้ปัญหาพีชคณิต",
+      "difficulty_level": 1,
+      "description": "Learn and master Algebra Problem Solving",
+      "tags": [
+        "algebra",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_1089",
+      "name": "อนุพันธ์แคลคูลัส",
+      "difficulty_level": 4,
+      "description": "Learn and master Calculus Derivatives",
+      "tags": [
+        "calculus",
+        "derivatives",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1090",
+      "name": "หลักฐานเรขาคณิต",
+      "difficulty_level": 1,
+      "description": "Learn and master Geometry Proofs",
+      "tags": [
+        "geometry",
+        "proofs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1091",
+      "name": "เกมลอจิก",
+      "difficulty_level": 2,
+      "description": "Learn and master Logic Games",
+      "tags": [
+        "logic",
+        "games",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1092",
+      "name": "การแก้ปริศนาคณิตศาสตร์",
+      "difficulty_level": 2,
+      "description": "Learn and master Math Puzzle Solving",
+      "tags": [
+        "math",
+        "puzzle",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_1093",
+      "name": "การสร้างแบบจำลองทางคณิตศาสตร์",
+      "difficulty_level": 1,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1094",
+      "name": "เทคนิคคณิตศาสตร์จิต",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math Techniques",
+      "tags": [
+        "mental",
+        "math",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_1095",
+      "name": "การเพิ่มจำนวนความรู้สึก",
+      "difficulty_level": 3,
+      "description": "Learn and master Number Sense Enhancement",
+      "tags": [
+        "number",
+        "sense",
+        "enhancement"
+      ]
+    },
+    {
+      "id": "skill_1096",
+      "name": "การวิเคราะห์ความน่าจะเป็น",
+      "difficulty_level": 5,
+      "description": "Learn and master Probability Analysis",
+      "tags": [
+        "probability",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1097",
+      "name": "การตีความทางสถิติ",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Interpretation",
+      "tags": [
+        "statistical",
+        "interpretation",
+        "skill"
+      ]
+    }
+  ]
+}

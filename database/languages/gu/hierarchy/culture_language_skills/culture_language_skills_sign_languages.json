@@ -1,0 +1,119 @@
+{
+  "id": "culture_language_skills_sign_languages",
+  "name": "સાઇન લેંગ્વેજ",
+  "skills": [
+    {
+      "id": "skill_2003",
+      "name": "અમેરિકન સાઇન લેંગ્વેજ (એએસએલ)",
+      "difficulty_level": 4,
+      "description": "Learn and master American Sign Language (ASL)",
+      "tags": [
+        "american",
+        "sign",
+        "language",
+        "(asl)"
+      ]
+    },
+    {
+      "id": "skill_2004",
+      "name": "Fluષધ",
+      "difficulty_level": 3,
+      "description": "Learn and master Auslan Fluency",
+      "tags": [
+        "auslan",
+        "fluency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2005",
+      "name": "બ્રિટીશ સાઇન લેંગ્વેજ (બીએસએલ)",
+      "difficulty_level": 3,
+      "description": "Learn and master British Sign Language (BSL)",
+      "tags": [
+        "british",
+        "sign",
+        "language",
+        "(bsl)"
+      ]
+    },
+    {
+      "id": "skill_2006",
+      "name": "બહેરા સંસ્કૃતિ સમજણ",
+      "difficulty_level": 5,
+      "description": "Learn and master Deaf Culture Understanding",
+      "tags": [
+        "deaf",
+        "culture",
+        "understanding"
+      ]
+    },
+    {
+      "id": "skill_2007",
+      "name": "ચહેરાના અભિવ્યક્તિ",
+      "difficulty_level": 3,
+      "description": "Learn and master Facial Expression Communication",
+      "tags": [
+        "facial",
+        "expression",
+        "communication"
+      ]
+    },
+    {
+      "id": "skill_2008",
+      "name": "આંગળીઓ",
+      "difficulty_level": 2,
+      "description": "Learn and master Fingerspelling",
+      "tags": [
+        "fingerspelling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2009",
+      "name": "આંતરરાષ્ટ્રીય ચિહ્ન નિપુણતા",
+      "difficulty_level": 2,
+      "description": "Learn and master International Sign Proficiency",
+      "tags": [
+        "international",
+        "sign",
+        "proficiency"
+      ]
+    },
+    {
+      "id": "skill_2010",
+      "name": "હસ્તાક્ષર અર્થઘટન",
+      "difficulty_level": 5,
+      "description": "Learn and master Sign-to-Voice Interpretation",
+      "tags": [
+        "sign-to-voice",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2011",
+      "name": "ચોક્કસ અંગ્રેજી (જુઓ) પર હસ્તાક્ષર કર્યા",
+      "difficulty_level": 4,
+      "description": "Learn and master Signed Exact English (SEE)",
+      "tags": [
+        "signed",
+        "exact",
+        "english",
+        "(see)"
+      ]
+    },
+    {
+      "id": "skill_2012",
+      "name": "સ્પર્શેન્દ્રિય",
+      "difficulty_level": 4,
+      "description": "Learn and master Tactile Signing",
+      "tags": [
+        "tactile",
+        "signing",
+        "skill"
+      ]
+    }
+  ]
+}

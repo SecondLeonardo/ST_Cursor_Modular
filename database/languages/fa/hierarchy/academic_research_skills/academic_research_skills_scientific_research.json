@@ -1,0 +1,116 @@
+{
+  "id": "academic_research_skills_scientific_research",
+  "name": "تحقیقات علمی",
+  "skills": [
+    {
+      "id": "skill_300",
+      "name": "روزنامه نگاری",
+      "difficulty_level": 5,
+      "description": "Learn and master Academic Journaling",
+      "tags": [
+        "academic",
+        "journaling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_301",
+      "name": "با استناد به منابع به درستی",
+      "difficulty_level": 3,
+      "description": "Learn and master Citing Sources Properly",
+      "tags": [
+        "citing",
+        "sources",
+        "properly"
+      ]
+    },
+    {
+      "id": "skill_302",
+      "name": "انجام بررسی ادبیات",
+      "difficulty_level": 5,
+      "description": "Learn and master Conducting Literature Reviews",
+      "tags": [
+        "conducting",
+        "literature",
+        "reviews"
+      ]
+    },
+    {
+      "id": "skill_303",
+      "name": "روش های جمع آوری داده ها",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Collection Methods",
+      "tags": [
+        "data",
+        "collection",
+        "methods"
+      ]
+    },
+    {
+      "id": "skill_304",
+      "name": "طراحی آزمایشات",
+      "difficulty_level": 5,
+      "description": "Learn and master Designing Experiments",
+      "tags": [
+        "designing",
+        "experiments",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_305",
+      "name": "شیوه های تحقیقات اخلاقی",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Research Practices",
+      "tags": [
+        "ethical",
+        "research",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_306",
+      "name": "تدوین فرضیه ها",
+      "difficulty_level": 5,
+      "description": "Learn and master Formulating Hypotheses",
+      "tags": [
+        "formulating",
+        "hypotheses",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_307",
+      "name": "روند بررسی همسالان",
+      "difficulty_level": 2,
+      "description": "Learn and master Peer Review Process",
+      "tags": [
+        "peer",
+        "review",
+        "process"
+      ]
+    },
+    {
+      "id": "skill_308",
+      "name": "با استفاده از تجهیزات آزمایشگاهی",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Lab Equipment",
+      "tags": [
+        "using",
+        "equipment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_309",
+      "name": "نوشتن مقالات تحقیقاتی",
+      "difficulty_level": 4,
+      "description": "Learn and master Writing Research Papers",
+      "tags": [
+        "writing",
+        "research",
+        "papers"
+      ]
+    }
+  ]
+}

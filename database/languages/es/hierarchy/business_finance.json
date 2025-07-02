@@ -1,0 +1,62 @@
+{
+  "id": "business_finance",
+  "name": "Negocio y finanzas",
+  "subcategories": [
+    {
+      "id": "business_finance_accounting",
+      "name": "Contabilidad"
+    },
+    {
+      "id": "business_finance_business_strategy",
+      "name": "Estrategia comercial"
+    },
+    {
+      "id": "business_finance_customer_support",
+      "name": "Soporte al cliente"
+    },
+    {
+      "id": "business_finance_e-commerce",
+      "name": "Comercio electrónico"
+    },
+    {
+      "id": "business_finance_entrepreneurship",
+      "name": "Emprendimiento"
+    },
+    {
+      "id": "business_finance_finance",
+      "name": "Finanzas"
+    },
+    {
+      "id": "business_finance_finance_accounting",
+      "name": "Finanzas y contabilidad"
+    },
+    {
+      "id": "business_finance_hr_recruiting",
+      "name": "RRHH y reclutamiento"
+    },
+    {
+      "id": "business_finance_human_resources",
+      "name": "Recursos humanos"
+    },
+    {
+      "id": "business_finance_investment_trading",
+      "name": "Inversión y comercio"
+    },
+    {
+      "id": "business_finance_leadership_management",
+      "name": "Liderazgo y gestión"
+    },
+    {
+      "id": "business_finance_marketing_sales",
+      "name": "Marketing y ventas"
+    },
+    {
+      "id": "business_finance_project_management",
+      "name": "Gestión de proyectos"
+    },
+    {
+      "id": "business_finance_sales_crm",
+      "name": "Ventas y CRM"
+    }
+  ]
+}

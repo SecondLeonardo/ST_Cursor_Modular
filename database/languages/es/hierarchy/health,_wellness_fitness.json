@@ -1,0 +1,46 @@
+{
+  "id": "health,_wellness_fitness",
+  "name": "Salud, bienestar y estado físico",
+  "subcategories": [
+    {
+      "id": "health,_wellness_fitness_alternative_medicine",
+      "name": "Medicina alternativa"
+    },
+    {
+      "id": "health,_wellness_fitness_medical_knowledge",
+      "name": "Conocimiento médico"
+    },
+    {
+      "id": "health,_wellness_fitness_mental_health",
+      "name": "Salud mental"
+    },
+    {
+      "id": "health,_wellness_fitness_nutrition",
+      "name": "Nutrición"
+    },
+    {
+      "id": "health,_wellness_fitness_personal_training",
+      "name": "Entrenamiento personal"
+    },
+    {
+      "id": "health,_wellness_fitness_physical_fitness",
+      "name": "Aptitud física"
+    },
+    {
+      "id": "health,_wellness_fitness_rehabilitation_therapy",
+      "name": "Rehabilitación y terapia"
+    },
+    {
+      "id": "health,_wellness_fitness_sports_coaching",
+      "name": "Entrenamiento deportivo"
+    },
+    {
+      "id": "health,_wellness_fitness_wellness_coaching",
+      "name": "Entrenamiento de bienestar"
+    },
+    {
+      "id": "health,_wellness_fitness_yoga_mindfulness",
+      "name": "Yoga y atención plena"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "Farklı ülkelerin yiyecekleri",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "İtalyan mutfağı"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "Japon mutfağı"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "Meksika mutfağı"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "Hint mutfağı"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "Fransız mutfağı"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "Çin mutfağı"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "Orta Doğu mutfağı"
+    }
+  ]
+}

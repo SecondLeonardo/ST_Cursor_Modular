@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_music_performance",
+  "name": "음악 공연",
+  "skills": [
+    {
+      "id": "skill_1342",
+      "name": "베이스 기타",
+      "difficulty_level": 2,
+      "description": "Learn and master Bass Guitar",
+      "tags": [
+        "bass",
+        "guitar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1343",
+      "name": "드럼 연주",
+      "difficulty_level": 5,
+      "description": "Learn and master Drumming",
+      "tags": [
+        "drumming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1344",
+      "name": "플루트 연주",
+      "difficulty_level": 2,
+      "description": "Learn and master Flute Playing",
+      "tags": [
+        "flute",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1345",
+      "name": "기타 연주",
+      "difficulty_level": 4,
+      "description": "Learn and master Guitar Playing",
+      "tags": [
+        "guitar",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1346",
+      "name": "즉흥",
+      "difficulty_level": 2,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1347",
+      "name": "피아노 연주",
+      "difficulty_level": 3,
+      "description": "Learn and master Piano Playing",
+      "tags": [
+        "piano",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1348",
+      "name": "시력 읽기 음악",
+      "difficulty_level": 1,
+      "description": "Learn and master Sight Reading Music",
+      "tags": [
+        "sight",
+        "reading",
+        "music"
+      ]
+    },
+    {
+      "id": "skill_1349",
+      "name": "명음",
+      "difficulty_level": 3,
+      "description": "Learn and master Singing",
+      "tags": [
+        "singing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1350",
+      "name": "무대 성능",
+      "difficulty_level": 2,
+      "description": "Learn and master Stage Performance",
+      "tags": [
+        "stage",
+        "performance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1351",
+      "name": "바이올린 연주",
+      "difficulty_level": 2,
+      "description": "Learn and master Violin Playing",
+      "tags": [
+        "violin",
+        "playing",
+        "skill"
+      ]
+    }
+  ]
+}

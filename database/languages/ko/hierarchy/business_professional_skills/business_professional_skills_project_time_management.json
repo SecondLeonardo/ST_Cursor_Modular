@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_project_time_management",
+  "name": "프로젝트 및 시간 관리",
+  "skills": [
+    {
+      "id": "skill_1028",
+      "name": "민첩한 방법론",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Methodology",
+      "tags": [
+        "agile",
+        "methodology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1029",
+      "name": "간트 차트 제작",
+      "difficulty_level": 1,
+      "description": "Learn and master Gantt Chart Creation",
+      "tags": [
+        "gantt",
+        "chart",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_1030",
+      "name": "회의 촉진",
+      "difficulty_level": 4,
+      "description": "Learn and master Meeting Facilitation",
+      "tags": [
+        "meeting",
+        "facilitation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1031",
+      "name": "우선 순위 기술",
+      "difficulty_level": 2,
+      "description": "Learn and master Prioritization Techniques",
+      "tags": [
+        "prioritization",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1032",
+      "name": "자원 할당",
+      "difficulty_level": 2,
+      "description": "Learn and master Resource Allocation",
+      "tags": [
+        "resource",
+        "allocation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1033",
+      "name": "스크럼 연습",
+      "difficulty_level": 4,
+      "description": "Learn and master Scrum Practices",
+      "tags": [
+        "scrum",
+        "practices",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1034",
+      "name": "현명한 목표 설정",
+      "difficulty_level": 1,
+      "description": "Learn and master Setting SMART Goals",
+      "tags": [
+        "setting",
+        "smart",
+        "goals"
+      ]
+    },
+    {
+      "id": "skill_1035",
+      "name": "작업 대표단",
+      "difficulty_level": 2,
+      "description": "Learn and master Task Delegation",
+      "tags": [
+        "task",
+        "delegation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1036",
+      "name": "시간 차단",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Blocking",
+      "tags": [
+        "time",
+        "blocking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1037",
+      "name": "Trello/Asana 사용",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Trello/Asana",
+      "tags": [
+        "using",
+        "trello/asana",
+        "skill"
+      ]
+    }
+  ]
+}

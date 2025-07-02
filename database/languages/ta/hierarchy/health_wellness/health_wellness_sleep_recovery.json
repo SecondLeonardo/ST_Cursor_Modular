@@ -1,0 +1,215 @@
+{
+  "id": "health_wellness_sleep_recovery",
+  "name": "தூக்கம் & மீட்பு",
+  "skills": [
+    {
+      "id": "skill_2649",
+      "name": "படுக்கை நேர நடைமுறைகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Bedtime Routines",
+      "tags": [
+        "bedtime",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2650",
+      "name": "நீல ஒளி தவிர்ப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Blue Light Avoidance",
+      "tags": [
+        "blue",
+        "light",
+        "avoidance"
+      ]
+    },
+    {
+      "id": "skill_2651",
+      "name": "நீல ஒளி தடுப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Blue Light Blocking",
+      "tags": [
+        "blue",
+        "light",
+        "blocking"
+      ]
+    },
+    {
+      "id": "skill_2652",
+      "name": "சர்க்காடியன் ரிதம் அறிவு",
+      "difficulty_level": 5,
+      "description": "Learn and master Circadian Rhythm Knowledge",
+      "tags": [
+        "circadian",
+        "rhythm",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_2653",
+      "name": "படுக்கைக்கு முன் ஆழமான சுவாசம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Deep Breathing Before Bed",
+      "tags": [
+        "deep",
+        "breathing",
+        "before"
+      ]
+    },
+    {
+      "id": "skill_2654",
+      "name": "ஆழமான தூக்க நுட்பங்கள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Deep Sleep Techniques",
+      "tags": [
+        "deep",
+        "sleep",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2655",
+      "name": "கனவு பத்திரிகை",
+      "difficulty_level": 5,
+      "description": "Learn and master Dream Journaling",
+      "tags": [
+        "dream",
+        "journaling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2656",
+      "name": "NAP தேர்வுமுறை",
+      "difficulty_level": 5,
+      "description": "Learn and master Nap Optimization",
+      "tags": [
+        "optimization",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2657",
+      "name": "துடைக்கும் நுட்பங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Napping Techniques",
+      "tags": [
+        "napping",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2658",
+      "name": "மீட்பு உடற்பயிற்சிகளும்",
+      "difficulty_level": 3,
+      "description": "Learn and master Recovery Workouts",
+      "tags": [
+        "recovery",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2659",
+      "name": "தளர்வு நுட்பங்கள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Relaxation Techniques",
+      "tags": [
+        "relaxation",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2660",
+      "name": "ஓய்வு மற்றும் மீட்டமை பழக்கவழக்கங்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Rest & Reset Habits",
+      "tags": [
+        "rest",
+        "reset",
+        "habits"
+      ]
+    },
+    {
+      "id": "skill_2661",
+      "name": "மறுசீரமைப்பு யோகா",
+      "difficulty_level": 5,
+      "description": "Learn and master Restorative Yoga",
+      "tags": [
+        "restorative",
+        "yoga",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2662",
+      "name": "தூக்க சூழல் அமைப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Sleep Environment Setup",
+      "tags": [
+        "sleep",
+        "environment",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_2663",
+      "name": "ஸ்லீப் சுகாதாரம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Sleep Hygiene",
+      "tags": [
+        "sleep",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2664",
+      "name": "தூக்க அட்டவணை திட்டமிடல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Sleep Schedule Planning",
+      "tags": [
+        "sleep",
+        "schedule",
+        "planning"
+      ]
+    },
+    {
+      "id": "skill_2665",
+      "name": "தூக்க கண்காணிப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Sleep Tracking",
+      "tags": [
+        "sleep",
+        "tracking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2666",
+      "name": "தூக்க சுழற்சிகளைக் கண்காணித்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Tracking Sleep Cycles",
+      "tags": [
+        "tracking",
+        "sleep",
+        "cycles"
+      ]
+    },
+    {
+      "id": "skill_2667",
+      "name": "பழக்கவழக்கங்களை முறுக்குகிறது",
+      "difficulty_level": 2,
+      "description": "Learn and master Winding Down Habits",
+      "tags": [
+        "winding",
+        "down",
+        "habits"
+      ]
+    }
+  ]
+}

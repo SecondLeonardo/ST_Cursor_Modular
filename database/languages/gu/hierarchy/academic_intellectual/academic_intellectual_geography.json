@@ -1,0 +1,117 @@
+{
+  "id": "academic_intellectual_geography",
+  "name": "ભૂગોળ",
+  "skills": [
+    {
+      "id": "skill_10",
+      "name": "નકશો",
+      "difficulty_level": 5,
+      "description": "Learn and master Cartography",
+      "tags": [
+        "cartography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_11",
+      "name": "આબોહવાવિજ્ologyાન",
+      "difficulty_level": 5,
+      "description": "Learn and master Climatology",
+      "tags": [
+        "climatology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_12",
+      "name": "પર્યાવરણ ભૂગોળ",
+      "difficulty_level": 4,
+      "description": "Learn and master Environmental Geography",
+      "tags": [
+        "environmental",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_13",
+      "name": "ભૌગોલિક માહિતી સિસ્ટમ્સ (જીઆઈએસ)",
+      "difficulty_level": 1,
+      "description": "Learn and master Geographical Information Systems (GIS)",
+      "tags": [
+        "geographical",
+        "information",
+        "systems",
+        "(gis)"
+      ]
+    },
+    {
+      "id": "skill_14",
+      "name": "ભૂસ્તર સંબંધી વિશ્લેષણ",
+      "difficulty_level": 4,
+      "description": "Learn and master Geospatial Analysis",
+      "tags": [
+        "geospatial",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_15",
+      "name": "માનવ ભૂગોળ",
+      "difficulty_level": 5,
+      "description": "Learn and master Human Geography",
+      "tags": [
+        "human",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_16",
+      "name": "ભૌતિક ભૂગોળ",
+      "difficulty_level": 1,
+      "description": "Learn and master Physical Geography",
+      "tags": [
+        "physical",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_17",
+      "name": "પ્રાદેશિક અભ્યાસ",
+      "difficulty_level": 4,
+      "description": "Learn and master Regional Studies",
+      "tags": [
+        "regional",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_18",
+      "name": "સ્થળનું ચિત્ર",
+      "difficulty_level": 1,
+      "description": "Learn and master Topography",
+      "tags": [
+        "topography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_19",
+      "name": "શહેરી ભૂગોળ",
+      "difficulty_level": 2,
+      "description": "Learn and master Urban Geography",
+      "tags": [
+        "urban",
+        "geography",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "ቴክኒካዊ እና ኢንጂነሪንግ",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "ሲቪል እና መዋቅራዊ"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "ኤሌክትሪክ ምህንድስና"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "ማምረቻ እና ማምረቻ"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "ሜካኒካል ምህንድስና"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "ሶፍትዌር እና ስርዓቶች"
+    }
+  ]
+}

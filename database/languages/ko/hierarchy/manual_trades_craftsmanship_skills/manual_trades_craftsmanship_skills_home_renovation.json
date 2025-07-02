@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_home_renovation",
+  "name": "주택 리노베이션",
+  "skills": [
+    {
+      "id": "skill_3458",
+      "name": "지하실 마무리",
+      "difficulty_level": 1,
+      "description": "Learn and master Basement Finishing",
+      "tags": [
+        "basement",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3459",
+      "name": "코킹 및 밀봉",
+      "difficulty_level": 4,
+      "description": "Learn and master Caulking & Sealing",
+      "tags": [
+        "caulking",
+        "sealing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3460",
+      "name": "갑판 빌딩",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3461",
+      "name": "건식 벽체 수리",
+      "difficulty_level": 3,
+      "description": "Learn and master Drywall Repair",
+      "tags": [
+        "drywall",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3462",
+      "name": "주방 리모델링",
+      "difficulty_level": 1,
+      "description": "Learn and master Kitchen Remodeling",
+      "tags": [
+        "kitchen",
+        "remodeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3463",
+      "name": "라미네이트 바닥",
+      "difficulty_level": 2,
+      "description": "Learn and master Laminate Flooring",
+      "tags": [
+        "laminate",
+        "flooring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3464",
+      "name": "그림과 장식",
+      "difficulty_level": 2,
+      "description": "Learn and master Painting & Decorating",
+      "tags": [
+        "painting",
+        "decorating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3465",
+      "name": "타일 ​​레이 링",
+      "difficulty_level": 2,
+      "description": "Learn and master Tile Laying",
+      "tags": [
+        "tile",
+        "laying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3466",
+      "name": "벽지 교수형",
+      "difficulty_level": 2,
+      "description": "Learn and master Wallpaper Hanging",
+      "tags": [
+        "wallpaper",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3467",
+      "name": "창 교체",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Replacement",
+      "tags": [
+        "window",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

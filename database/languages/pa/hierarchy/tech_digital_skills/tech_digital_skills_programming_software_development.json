@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_programming_software_development",
+  "name": "ਪ੍ਰੋਗਰਾਮਿੰਗ ਅਤੇ ਸਾੱਫਟਵੇਅਰ ਡਿਵੈਲਪਮੈਂਟ",
+  "skills": [
+    {
+      "id": "skill_4456",
+      "name": "ਬਾਕੀ ਅਪੀਲ ਬਣਾਉਣਾ",
+      "difficulty_level": 5,
+      "description": "Learn and master Building REST APIs",
+      "tags": [
+        "building",
+        "rest",
+        "apis"
+      ]
+    },
+    {
+      "id": "skill_4457",
+      "name": "ਜਾਵਾ ਸਕ੍ਰਿਪਟ ਡੀਬੱਗਿੰਗ",
+      "difficulty_level": 3,
+      "description": "Learn and master Debugging JavaScript",
+      "tags": [
+        "debugging",
+        "javascript",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4458",
+      "name": "ਪੂਰਾ-ਸਟੈਕ ਵੈੱਬ ਵਿਕਾਸ",
+      "difficulty_level": 4,
+      "description": "Learn and master Full-Stack Web Development",
+      "tags": [
+        "full-stack",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4459",
+      "name": "ਮੋਬਾਈਲ ਐਪ ਡਿਵੈਲਪਮੈਂਟ",
+      "difficulty_level": 4,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4460",
+      "name": "ਆਬਜੈਕਟ-ਮੁਖੀ ਪ੍ਰੋਗਰਾਮਿੰਗ",
+      "difficulty_level": 5,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4461",
+      "name": "ਪ੍ਰਤੀਕ੍ਰਿਆ ਦਾ ਪ੍ਰਤੀਕ੍ਰਿਆ",
+      "difficulty_level": 3,
+      "description": "Learn and master React Development",
+      "tags": [
+        "react",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4462",
+      "name": "Git ਨਾਲ ਵਰਜਨ ਨਿਯੰਤਰਣ",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    },
+    {
+      "id": "skill_4463",
+      "name": "ਡਾਟਾਬੇਸ ਨਾਲ ਕੰਮ ਕਰਨਾ",
+      "difficulty_level": 4,
+      "description": "Learn and master Working with Databases",
+      "tags": [
+        "working",
+        "with",
+        "databases"
+      ]
+    },
+    {
+      "id": "skill_4464",
+      "name": "ਪਾਈਥਨ ਕੋਡ ਲਿਖ ਰਿਹਾ ਹੈ",
+      "difficulty_level": 4,
+      "description": "Learn and master Writing Python Code",
+      "tags": [
+        "writing",
+        "python",
+        "code"
+      ]
+    },
+    {
+      "id": "skill_4465",
+      "name": "ਯੂਨਿਟ ਟੈਸਟ ਲਿਖਣਾ",
+      "difficulty_level": 1,
+      "description": "Learn and master Writing Unit Tests",
+      "tags": [
+        "writing",
+        "unit",
+        "tests"
+      ]
+    }
+  ]
+}

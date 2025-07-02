@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_literature_writing",
+  "name": "문학 및 글쓰기",
+  "skills": [
+    {
+      "id": "skill_150",
+      "name": "학문적 글쓰기",
+      "difficulty_level": 3,
+      "description": "Learn and master Academic Writing",
+      "tags": [
+        "academic",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_151",
+      "name": "창의적인 글쓰기",
+      "difficulty_level": 1,
+      "description": "Learn and master Creative Writing",
+      "tags": [
+        "creative",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_152",
+      "name": "편집 및 교정",
+      "difficulty_level": 1,
+      "description": "Learn and master Editing and Proofreading",
+      "tags": [
+        "editing",
+        "proofreading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_153",
+      "name": "에세이 쓰기",
+      "difficulty_level": 4,
+      "description": "Learn and master Essay Writing",
+      "tags": [
+        "essay",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_154",
+      "name": "문법과 구문",
+      "difficulty_level": 4,
+      "description": "Learn and master Grammar and Syntax",
+      "tags": [
+        "grammar",
+        "syntax",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_155",
+      "name": "문학적 비판",
+      "difficulty_level": 1,
+      "description": "Learn and master Literary Criticism",
+      "tags": [
+        "literary",
+        "criticism",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_156",
+      "name": "이야기 구조",
+      "difficulty_level": 4,
+      "description": "Learn and master Narrative Structure",
+      "tags": [
+        "narrative",
+        "structure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_157",
+      "name": "시 분석",
+      "difficulty_level": 3,
+      "description": "Learn and master Poetry Analysis",
+      "tags": [
+        "poetry",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_158",
+      "name": "스토리 텔링",
+      "difficulty_level": 5,
+      "description": "Learn and master Storytelling",
+      "tags": [
+        "storytelling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_159",
+      "name": "글쓰기 스타일 개발",
+      "difficulty_level": 5,
+      "description": "Learn and master Writing Style Development",
+      "tags": [
+        "writing",
+        "style",
+        "development"
+      ]
+    }
+  ]
+}

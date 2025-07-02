@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_physical_training",
+  "name": "Đào tạo thể chất",
+  "skills": [
+    {
+      "id": "skill_2483",
+      "name": "Đào tạo trọng lượng cơ thể",
+      "difficulty_level": 4,
+      "description": "Learn and master Bodyweight Training",
+      "tags": [
+        "bodyweight",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2484",
+      "name": "Kỹ thuật thở",
+      "difficulty_level": 5,
+      "description": "Learn and master Breathing Techniques",
+      "tags": [
+        "breathing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2485",
+      "name": "Tập luyện tim mạch",
+      "difficulty_level": 4,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2486",
+      "name": "Đào tạo sức bền",
+      "difficulty_level": 3,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2487",
+      "name": "Đào tạo linh hoạt",
+      "difficulty_level": 4,
+      "description": "Learn and master Flexibility Training",
+      "tags": [
+        "flexibility",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2488",
+      "name": "HIIT",
+      "difficulty_level": 3,
+      "description": "Learn and master HIIT",
+      "tags": [
+        "hiit",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2489",
+      "name": "Tay đua di động",
+      "difficulty_level": 2,
+      "description": "Learn and master Mobility Drills",
+      "tags": [
+        "mobility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2490",
+      "name": "Hình thức chạy",
+      "difficulty_level": 1,
+      "description": "Learn and master Running Form",
+      "tags": [
+        "running",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2491",
+      "name": "Lập trình sức mạnh",
+      "difficulty_level": 2,
+      "description": "Learn and master Strength Programming",
+      "tags": [
+        "strength",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2492",
+      "name": "Cử tạ",
+      "difficulty_level": 3,
+      "description": "Learn and master Weightlifting",
+      "tags": [
+        "weightlifting",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

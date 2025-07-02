@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_software_development",
+  "name": "सॉफ्टवेअर विकास",
+  "skills": [
+    {
+      "id": "skill_4466",
+      "name": "चपळ विकास",
+      "difficulty_level": 1,
+      "description": "Learn and master Agile Development",
+      "tags": [
+        "agile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4467",
+      "name": "सी ++ प्रोग्रामिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master C++ Programming",
+      "tags": [
+        "programming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4468",
+      "name": "कोड पुनरावलोकन पद्धती",
+      "difficulty_level": 4,
+      "description": "Learn and master Code Review Practices",
+      "tags": [
+        "code",
+        "review",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4469",
+      "name": "डीबगिंग तंत्र",
+      "difficulty_level": 2,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4470",
+      "name": "गिट आवृत्ती नियंत्रण",
+      "difficulty_level": 5,
+      "description": "Learn and master Git Version Control",
+      "tags": [
+        "version",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4471",
+      "name": "जावा प्रोग्रामिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Java Programming",
+      "tags": [
+        "java",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4472",
+      "name": "ओओपी तत्त्वे",
+      "difficulty_level": 3,
+      "description": "Learn and master OOP Principles",
+      "tags": [
+        "principles",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4473",
+      "name": "पायथन प्रोग्रामिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4474",
+      "name": "सॉफ्टवेअर आर्किटेक्चर",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Architecture",
+      "tags": [
+        "software",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4475",
+      "name": "युनिट चाचणी",
+      "difficulty_level": 1,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    }
+  ]
+}

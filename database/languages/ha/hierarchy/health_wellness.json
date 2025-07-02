@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "Kiwon lafiya da Lafiya",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "Madadin magani"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "Taimakon farko da gaggawa"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "Horar da motsa jiki"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "Kiwan lafiya mai kyau"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "Ilimin likita"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "Kwarewar likita"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "Lafiyar kwakwalwa"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "Ayyukan lafiyar kwakwalwa"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "Tunani da tunani"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "Abinci da abinci"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "Kulawa"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "Motsa jiki"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "Gyara & Torapy"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "Lafiyar haihuwa"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "Kulawa da Kai da Hygiene"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "Barci & Maidowa"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "Gudanar da Damuwa"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "Yoga & tunani"
+    }
+  ]
+}

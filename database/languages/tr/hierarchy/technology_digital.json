@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "Teknoloji ve Dijital",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "Siber güvenlik"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "Veri ve AI"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "Dijital pazarlama"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "IT & Networking"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "Yazılım Geliştirme"
+    }
+  ]
+}

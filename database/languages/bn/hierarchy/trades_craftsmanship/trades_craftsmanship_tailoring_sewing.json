@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_tailoring_sewing",
+  "name": "টেইলারিং এবং সেলাই",
+  "skills": [
+    {
+      "id": "skill_5015",
+      "name": "বোতামহোল সেলাই",
+      "difficulty_level": 5,
+      "description": "Learn and master Buttonhole Sewing",
+      "tags": [
+        "buttonhole",
+        "sewing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5016",
+      "name": "পোশাক পরিবর্তন",
+      "difficulty_level": 4,
+      "description": "Learn and master Clothing Alterations",
+      "tags": [
+        "clothing",
+        "alterations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5017",
+      "name": "পোশাক তৈরি",
+      "difficulty_level": 4,
+      "description": "Learn and master Costume Making",
+      "tags": [
+        "costume",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5018",
+      "name": "সূচিকর্ম",
+      "difficulty_level": 4,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5019",
+      "name": "ফ্যাব্রিক কাটা",
+      "difficulty_level": 2,
+      "description": "Learn and master Fabric Cutting",
+      "tags": [
+        "fabric",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5020",
+      "name": "হাত সেলাই",
+      "difficulty_level": 2,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5021",
+      "name": "প্যাটার্ন খসড়া",
+      "difficulty_level": 5,
+      "description": "Learn and master Pattern Drafting",
+      "tags": [
+        "pattern",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5022",
+      "name": "Quilting",
+      "difficulty_level": 3,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5023",
+      "name": "সেলাই মেশিনের ব্যবহার",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Machine Use",
+      "tags": [
+        "sewing",
+        "machine",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5024",
+      "name": "জিপার প্রতিস্থাপন",
+      "difficulty_level": 1,
+      "description": "Learn and master Zipper Replacement",
+      "tags": [
+        "zipper",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

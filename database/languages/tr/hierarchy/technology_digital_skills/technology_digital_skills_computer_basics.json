@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_computer_basics",
+  "name": "Bilgisayar Temelleri",
+  "skills": [
+    {
+      "id": "skill_4686",
+      "name": "Temel Sorun Giderme",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Troubleshooting",
+      "tags": [
+        "basic",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4687",
+      "name": "Bilgisayar güvenliği",
+      "difficulty_level": 5,
+      "description": "Learn and master Computer Safety",
+      "tags": [
+        "computer",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4688",
+      "name": "Dosya Yönetimi",
+      "difficulty_level": 5,
+      "description": "Learn and master File Management",
+      "tags": [
+        "file",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4689",
+      "name": "Klavye kısayolları",
+      "difficulty_level": 5,
+      "description": "Learn and master Keyboard Shortcuts",
+      "tags": [
+        "keyboard",
+        "shortcuts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4690",
+      "name": "İşletim sistemleri",
+      "difficulty_level": 2,
+      "description": "Learn and master Operating Systems",
+      "tags": [
+        "operating",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4691",
+      "name": "Yazılım Kurulumu",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Installation",
+      "tags": [
+        "software",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4692",
+      "name": "Sistem gezinme",
+      "difficulty_level": 2,
+      "description": "Learn and master System Navigation",
+      "tags": [
+        "system",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4693",
+      "name": "Görev Otomasyonu",
+      "difficulty_level": 3,
+      "description": "Learn and master Task Automation",
+      "tags": [
+        "task",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4694",
+      "name": "Çevre birimlerini kullanmak",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Peripherals",
+      "tags": [
+        "using",
+        "peripherals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4695",
+      "name": "PDF'lerle çalışmak",
+      "difficulty_level": 5,
+      "description": "Learn and master Working with PDFs",
+      "tags": [
+        "working",
+        "with",
+        "pdfs"
+      ]
+    }
+  ]
+}

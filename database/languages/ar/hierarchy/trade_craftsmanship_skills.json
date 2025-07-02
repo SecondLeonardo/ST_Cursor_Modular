@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "مهارات التجارة والحرفية",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "البناء والنجارة"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "الكهربائية والسباكة"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "البضائع المصنوعة يدويا"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "المعادن واللحام"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "النسيج والجلد"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "الحرف التقليدية"
+    }
+  ]
+}

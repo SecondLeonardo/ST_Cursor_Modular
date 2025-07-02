@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_it_networking",
+  "name": "Det & nätverk",
+  "skills": [
+    {
+      "id": "skill_2213",
+      "name": "Molnlagringshantering",
+      "difficulty_level": 5,
+      "description": "Learn and master Cloud Storage Management",
+      "tags": [
+        "cloud",
+        "storage",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_2214",
+      "name": "Datormaskinvaruinställning",
+      "difficulty_level": 4,
+      "description": "Learn and master Computer Hardware Setup",
+      "tags": [
+        "computer",
+        "hardware",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_2215",
+      "name": "DNS -ledning",
+      "difficulty_level": 1,
+      "description": "Learn and master DNS Management",
+      "tags": [
+        "management",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2216",
+      "name": "Det stöder grunderna",
+      "difficulty_level": 5,
+      "description": "Learn and master IT Support Basics",
+      "tags": [
+        "support",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2217",
+      "name": "Linux kommandorad",
+      "difficulty_level": 1,
+      "description": "Learn and master Linux Command Line",
+      "tags": [
+        "linux",
+        "command",
+        "line"
+      ]
+    },
+    {
+      "id": "skill_2218",
+      "name": "Nätverkskonfiguration",
+      "difficulty_level": 3,
+      "description": "Learn and master Network Configuration",
+      "tags": [
+        "network",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2219",
+      "name": "Felsökning av nätverk",
+      "difficulty_level": 1,
+      "description": "Learn and master Network Troubleshooting",
+      "tags": [
+        "network",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2220",
+      "name": "Systemadministration",
+      "difficulty_level": 2,
+      "description": "Learn and master System Administration",
+      "tags": [
+        "system",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2221",
+      "name": "Virtualisering",
+      "difficulty_level": 3,
+      "description": "Learn and master Virtualization",
+      "tags": [
+        "virtualization",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2222",
+      "name": "Wi-Fi-optimering",
+      "difficulty_level": 2,
+      "description": "Learn and master Wi-Fi Optimization",
+      "tags": [
+        "wi-fi",
+        "optimization",
+        "skill"
+      ]
+    }
+  ]
+}

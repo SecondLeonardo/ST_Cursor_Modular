@@ -1,0 +1,119 @@
+{
+  "id": "culture_language_skills_sign_languages",
+  "name": "ภาษาลายเซ็น",
+  "skills": [
+    {
+      "id": "skill_2003",
+      "name": "ภาษามืออเมริกัน (ASL)",
+      "difficulty_level": 4,
+      "description": "Learn and master American Sign Language (ASL)",
+      "tags": [
+        "american",
+        "sign",
+        "language",
+        "(asl)"
+      ]
+    },
+    {
+      "id": "skill_2004",
+      "name": "Auslan Fluency",
+      "difficulty_level": 3,
+      "description": "Learn and master Auslan Fluency",
+      "tags": [
+        "auslan",
+        "fluency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2005",
+      "name": "ภาษามืออังกฤษ (BSL)",
+      "difficulty_level": 3,
+      "description": "Learn and master British Sign Language (BSL)",
+      "tags": [
+        "british",
+        "sign",
+        "language",
+        "(bsl)"
+      ]
+    },
+    {
+      "id": "skill_2006",
+      "name": "ความเข้าใจทางวัฒนธรรมของคนหูหนวก",
+      "difficulty_level": 5,
+      "description": "Learn and master Deaf Culture Understanding",
+      "tags": [
+        "deaf",
+        "culture",
+        "understanding"
+      ]
+    },
+    {
+      "id": "skill_2007",
+      "name": "การสื่อสารการแสดงออกทางสีหน้า",
+      "difficulty_level": 3,
+      "description": "Learn and master Facial Expression Communication",
+      "tags": [
+        "facial",
+        "expression",
+        "communication"
+      ]
+    },
+    {
+      "id": "skill_2008",
+      "name": "การพูด",
+      "difficulty_level": 2,
+      "description": "Learn and master Fingerspelling",
+      "tags": [
+        "fingerspelling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2009",
+      "name": "ความสามารถในการลงนามระหว่างประเทศ",
+      "difficulty_level": 2,
+      "description": "Learn and master International Sign Proficiency",
+      "tags": [
+        "international",
+        "sign",
+        "proficiency"
+      ]
+    },
+    {
+      "id": "skill_2010",
+      "name": "การตีความลงชื่อเข้าใช้",
+      "difficulty_level": 5,
+      "description": "Learn and master Sign-to-Voice Interpretation",
+      "tags": [
+        "sign-to-voice",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2011",
+      "name": "ลงนามภาษาอังกฤษที่แน่นอน (ดู)",
+      "difficulty_level": 4,
+      "description": "Learn and master Signed Exact English (SEE)",
+      "tags": [
+        "signed",
+        "exact",
+        "english",
+        "(see)"
+      ]
+    },
+    {
+      "id": "skill_2012",
+      "name": "การลงนามสัมผัส",
+      "difficulty_level": 4,
+      "description": "Learn and master Tactile Signing",
+      "tags": [
+        "tactile",
+        "signing",
+        "skill"
+      ]
+    }
+  ]
+}

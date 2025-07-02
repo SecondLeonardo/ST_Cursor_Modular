@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_computer_science",
+  "name": "संगणक विज्ञान",
+  "skills": [
+    {
+      "id": "skill_4278",
+      "name": "एपीआय एकत्रीकरण",
+      "difficulty_level": 2,
+      "description": "Learn and master API Integration",
+      "tags": [
+        "integration",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4279",
+      "name": "चपळ विकास",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Development",
+      "tags": [
+        "agile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4280",
+      "name": "अल्गोरिदम डिझाइन",
+      "difficulty_level": 1,
+      "description": "Learn and master Algorithms Design",
+      "tags": [
+        "algorithms",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4281",
+      "name": "बॅकएंड विकास",
+      "difficulty_level": 2,
+      "description": "Learn and master Backend Development",
+      "tags": [
+        "backend",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4282",
+      "name": "क्लाऊड कंप्यूटिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Cloud Computing",
+      "tags": [
+        "cloud",
+        "computing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4283",
+      "name": "सायबरसुरक्षा मूलतत्त्वे",
+      "difficulty_level": 3,
+      "description": "Learn and master Cybersecurity Fundamentals",
+      "tags": [
+        "cybersecurity",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4284",
+      "name": "डेटाबेस व्यवस्थापन",
+      "difficulty_level": 5,
+      "description": "Learn and master Database Management",
+      "tags": [
+        "database",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4285",
+      "name": "फ्रंटएंड डेव्हलपमेंट",
+      "difficulty_level": 2,
+      "description": "Learn and master Frontend Development",
+      "tags": [
+        "frontend",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4286",
+      "name": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4287",
+      "name": "सॉफ्टवेअर चाचणी",
+      "difficulty_level": 2,
+      "description": "Learn and master Software Testing",
+      "tags": [
+        "software",
+        "testing",
+        "skill"
+      ]
+    }
+  ]
+}

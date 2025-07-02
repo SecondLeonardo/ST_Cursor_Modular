@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_appliance_maintenance",
+  "name": "Matengenezo ya vifaa",
+  "skills": [
+    {
+      "id": "skill_2838",
+      "name": "Uingizwaji wa chujio cha AC",
+      "difficulty_level": 4,
+      "description": "Learn and master AC Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2839",
+      "name": "Mashine ya kahawa ya kukagua",
+      "difficulty_level": 4,
+      "description": "Learn and master De-scaling Coffee Machines",
+      "tags": [
+        "de-scaling",
+        "coffee",
+        "machines"
+      ]
+    },
+    {
+      "id": "skill_2840",
+      "name": "Kusafisha kichujio cha Dishwasher",
+      "difficulty_level": 3,
+      "description": "Learn and master Dishwasher Filter Cleaning",
+      "tags": [
+        "dishwasher",
+        "filter",
+        "cleaning"
+      ]
+    },
+    {
+      "id": "skill_2841",
+      "name": "Kuondolewa kwa kavu",
+      "difficulty_level": 3,
+      "description": "Learn and master Dryer Lint Removal",
+      "tags": [
+        "dryer",
+        "lint",
+        "removal"
+      ]
+    },
+    {
+      "id": "skill_2842",
+      "name": "Kusafisha kwa microwave",
+      "difficulty_level": 1,
+      "description": "Learn and master Microwave Cleaning",
+      "tags": [
+        "microwave",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2843",
+      "name": "Calibration ya oveni",
+      "difficulty_level": 3,
+      "description": "Learn and master Oven Calibration",
+      "tags": [
+        "oven",
+        "calibration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2844",
+      "name": "Kusafisha jokofu",
+      "difficulty_level": 3,
+      "description": "Learn and master Refrigerator Cleaning",
+      "tags": [
+        "refrigerator",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2845",
+      "name": "Shida ndogo ya vifaa",
+      "difficulty_level": 4,
+      "description": "Learn and master Small Appliance Troubleshooting",
+      "tags": [
+        "small",
+        "appliance",
+        "troubleshooting"
+      ]
+    },
+    {
+      "id": "skill_2846",
+      "name": "Urekebishaji wa utupu",
+      "difficulty_level": 3,
+      "description": "Learn and master Vacuum Repair",
+      "tags": [
+        "vacuum",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2847",
+      "name": "Matengenezo ya washer",
+      "difficulty_level": 5,
+      "description": "Learn and master Washer Maintenance",
+      "tags": [
+        "washer",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

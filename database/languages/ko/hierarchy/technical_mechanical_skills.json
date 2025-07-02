@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "기술 및 기계 기술",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "자동차 기술"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "건축 및 건물"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "전기 작업"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "에너지 및 환경"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "산업 기술"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "기계적 수리"
+    }
+  ]
+}

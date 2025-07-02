@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_science_research",
+  "name": "科学与研究",
+  "skills": [
+    {
+      "id": "skill_3648",
+      "name": "生物学基础",
+      "difficulty_level": 2,
+      "description": "Learn and master Biology Basics",
+      "tags": [
+        "biology",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3649",
+      "name": "化学基础",
+      "difficulty_level": 2,
+      "description": "Learn and master Chemistry Fundamentals",
+      "tags": [
+        "chemistry",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3650",
+      "name": "数据分析",
+      "difficulty_level": 2,
+      "description": "Learn and master Data Analysis",
+      "tags": [
+        "data",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3651",
+      "name": "环境科学",
+      "difficulty_level": 1,
+      "description": "Learn and master Environmental Science",
+      "tags": [
+        "environmental",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3652",
+      "name": "实验设计",
+      "difficulty_level": 3,
+      "description": "Learn and master Experimental Design",
+      "tags": [
+        "experimental",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3653",
+      "name": "实验室安全",
+      "difficulty_level": 5,
+      "description": "Learn and master Lab Safety",
+      "tags": [
+        "safety",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3654",
+      "name": "显微镜",
+      "difficulty_level": 2,
+      "description": "Learn and master Microscopy",
+      "tags": [
+        "microscopy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3655",
+      "name": "物理概念",
+      "difficulty_level": 4,
+      "description": "Learn and master Physics Concepts",
+      "tags": [
+        "physics",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3656",
+      "name": "科学方法",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3657",
+      "name": "科学写作",
+      "difficulty_level": 1,
+      "description": "Learn and master Scientific Writing",
+      "tags": [
+        "scientific",
+        "writing",
+        "skill"
+      ]
+    }
+  ]
+}

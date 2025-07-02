@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+  "name": "Plubling & alapapo",
+  "skills": [
+    {
+      "id": "skill_3478",
+      "name": "Ẹrọ iwẹ",
+      "difficulty_level": 2,
+      "description": "Learn and master Boiler Maintenance",
+      "tags": [
+        "boiler",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3479",
+      "name": "Fasilẹ ninu",
+      "difficulty_level": 3,
+      "description": "Learn and master Drain Cleaning",
+      "tags": [
+        "drain",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3480",
+      "name": "Iṣẹ gaasi",
+      "difficulty_level": 2,
+      "description": "Learn and master Gas Line Work",
+      "tags": [
+        "line",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3481",
+      "name": "Iṣawari",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3482",
+      "name": "Paipu ibamu",
+      "difficulty_level": 2,
+      "description": "Learn and master Pipe Fitting",
+      "tags": [
+        "pipe",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3483",
+      "name": "Ẹjẹ ti radiator",
+      "difficulty_level": 2,
+      "description": "Learn and master Radiator Bleeding",
+      "tags": [
+        "radiator",
+        "bleeding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3484",
+      "name": "Ayẹwo nkan",
+      "difficulty_level": 1,
+      "description": "Learn and master Sewer Inspection",
+      "tags": [
+        "sewer",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3485",
+      "name": "Sisun iwẹ",
+      "difficulty_level": 5,
+      "description": "Learn and master Shower Fitting",
+      "tags": [
+        "shower",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3486",
+      "name": "Fi sori ile",
+      "difficulty_level": 5,
+      "description": "Learn and master Toilet Installation",
+      "tags": [
+        "toilet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3487",
+      "name": "Fifi sori ẹrọ ti ngbona omi",
+      "difficulty_level": 2,
+      "description": "Learn and master Water Heater Installation",
+      "tags": [
+        "water",
+        "heater",
+        "installation"
+      ]
+    }
+  ]
+}

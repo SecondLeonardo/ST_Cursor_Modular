@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "विज्ञान आणि संशोधन कौशल्ये",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "शैक्षणिक लेखन"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "जैविक विज्ञान"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "संगणक आणि डेटा विज्ञान"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "पृथ्वी आणि पर्यावरण विज्ञान"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "अभियांत्रिकी विज्ञान"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "गणित आणि आकडेवारी"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "वैद्यकीय आणि आरोग्य विज्ञान"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "भौतिक विज्ञान"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "संशोधन पद्धती"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "सामाजिक विज्ञान"
+    }
+  ]
+}

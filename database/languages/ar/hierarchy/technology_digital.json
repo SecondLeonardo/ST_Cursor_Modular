@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "التكنولوجيا والرقمية",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "الأمن السيبراني"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "البيانات و AI"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "التسويق الرقمي"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "انها والشبكات"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "تطوير البرمجيات"
+    }
+  ]
+}

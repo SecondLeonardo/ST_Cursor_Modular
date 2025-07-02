@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_electrical_engineering",
+  "name": "மின் பொறியியல்",
+  "skills": [
+    {
+      "id": "skill_4516",
+      "name": "அர்டுயினோ நிரலாக்க",
+      "difficulty_level": 2,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4517",
+      "name": "சுற்று வடிவமைப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4518",
+      "name": "டிஜிட்டல் லாஜிக் வடிவமைப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Digital Logic Design",
+      "tags": [
+        "digital",
+        "logic",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4519",
+      "name": "மின் பாதுகாப்பு தரநிலைகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Safety Standards",
+      "tags": [
+        "electrical",
+        "safety",
+        "standards"
+      ]
+    },
+    {
+      "id": "skill_4520",
+      "name": "உட்பொதிக்கப்பட்ட அமைப்புகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4521",
+      "name": "மைக்ரோகண்ட்ரோலர் நிரலாக்க",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Programming",
+      "tags": [
+        "microcontroller",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4522",
+      "name": "அலைக்காட்டி பயன்பாடு",
+      "difficulty_level": 4,
+      "description": "Learn and master Oscilloscope Usage",
+      "tags": [
+        "oscilloscope",
+        "usage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4523",
+      "name": "பிசிபி தளவமைப்பு வடிவமைப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master PCB Layout Design",
+      "tags": [
+        "layout",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4524",
+      "name": "சக்தி விநியோகம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4525",
+      "name": "சிக்னல் செயலாக்கம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "home_diy",
+  "name": "Home & DIY",
+  "subcategories": [
+    {
+      "id": "home_diy_appliance_maintenance",
+      "name": "การบำรุงรักษาเครื่องใช้"
+    },
+    {
+      "id": "home_diy_cleaning_organizing",
+      "name": "การทำความสะอาดและการจัดระเบียบ"
+    },
+    {
+      "id": "home_diy_crafts_decor",
+      "name": "งานฝีมือและการตกแต่ง"
+    },
+    {
+      "id": "home_diy_electrical_work",
+      "name": "งานไฟฟ้า"
+    },
+    {
+      "id": "home_diy_gardening_landscaping",
+      "name": "การทำสวนและการจัดสวน"
+    },
+    {
+      "id": "home_diy_home_automation",
+      "name": "ระบบอัตโนมัติในบ้าน"
+    },
+    {
+      "id": "home_diy_home_repair",
+      "name": "ซ่อมบ้าน"
+    },
+    {
+      "id": "home_diy_interior_design",
+      "name": "การออกแบบภายใน"
+    },
+    {
+      "id": "home_diy_plumbing_basics",
+      "name": "พื้นฐานการประปา"
+    },
+    {
+      "id": "home_diy_woodworking_carpentry",
+      "name": "งานไม้และช่างไม้"
+    }
+  ]
+}

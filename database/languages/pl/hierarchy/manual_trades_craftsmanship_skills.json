@@ -1,0 +1,46 @@
+{
+  "id": "manual_trades_craftsmanship_skills",
+  "name": "Umiejętności ręczne i umiejętności rzemieślnicze",
+  "subcategories": [
+    {
+      "id": "manual_trades_craftsmanship_skills_automotive_repair",
+      "name": "Naprawa samochodowa"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_construction_trades",
+      "name": "Transakcje budowlane"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_electrical_work",
+      "name": "Praca elektryczna"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+      "name": "Meble i tapicerka"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+      "name": "Mistrzostwo narzędzia ręcznego"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_home_renovation",
+      "name": "Renowacja domu"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_metalworking",
+      "name": "Obróbka metali"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+      "name": "Handlowe i ogrzewanie"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+      "name": "Tekstylia i skóra"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_woodworking",
+      "name": "Obróbka drewna"
+    }
+  ]
+}

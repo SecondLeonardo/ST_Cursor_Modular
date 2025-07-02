@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_it_networking",
+  "name": "இது & நெட்வொர்க்கிங்",
+  "skills": [
+    {
+      "id": "skill_4426",
+      "name": "டி.என்.எஸ் மேலாண்மை",
+      "difficulty_level": 2,
+      "description": "Learn and master DNS Management",
+      "tags": [
+        "management",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4427",
+      "name": "ஃபயர்வால் உள்ளமைவு",
+      "difficulty_level": 5,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4428",
+      "name": "விண்டோஸ் சேவையகங்களை நிர்வகித்தல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Managing Windows Servers",
+      "tags": [
+        "managing",
+        "windows",
+        "servers"
+      ]
+    },
+    {
+      "id": "skill_4429",
+      "name": "நெட்வொர்க் பாதுகாப்பு அடிப்படைகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Security Basics",
+      "tags": [
+        "network",
+        "security",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4430",
+      "name": "தொலைநிலை டெஸ்க்டாப் அமைப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Remote Desktop Setup",
+      "tags": [
+        "remote",
+        "desktop",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4431",
+      "name": "ரவுட்டர்களை அமைத்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Setting Up Routers",
+      "tags": [
+        "setting",
+        "routers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4432",
+      "name": "கணினி உள்ளமைவு",
+      "difficulty_level": 2,
+      "description": "Learn and master System Configuration",
+      "tags": [
+        "system",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4433",
+      "name": "சரிசெய்தல் நெட்வொர்க்குகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Troubleshooting Networks",
+      "tags": [
+        "troubleshooting",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4434",
+      "name": "ஐபி முகவரியைப் புரிந்துகொள்வது",
+      "difficulty_level": 1,
+      "description": "Learn and master Understanding IP Addressing",
+      "tags": [
+        "understanding",
+        "addressing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4435",
+      "name": "கட்டளை வரி கருவிகளைப் பயன்படுத்துதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Command Line Tools",
+      "tags": [
+        "using",
+        "command",
+        "line",
+        "tools"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_automotive_repair",
+  "name": "Réparation automobile",
+  "skills": [
+    {
+      "id": "skill_3408",
+      "name": "Systèmes électriques automobiles",
+      "difficulty_level": 1,
+      "description": "Learn and master Auto Electrical Systems",
+      "tags": [
+        "auto",
+        "electrical",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_3409",
+      "name": "Remplacement de la batterie",
+      "difficulty_level": 5,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3410",
+      "name": "Réparation des freins",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Repair",
+      "tags": [
+        "brake",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3411",
+      "name": "Diagnostic de moteur",
+      "difficulty_level": 3,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3412",
+      "name": "Réparation du système d'échappement",
+      "difficulty_level": 5,
+      "description": "Learn and master Exhaust System Repair",
+      "tags": [
+        "exhaust",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_3413",
+      "name": "Vidange",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3414",
+      "name": "Maintenance du radiateur",
+      "difficulty_level": 4,
+      "description": "Learn and master Radiator Maintenance",
+      "tags": [
+        "radiator",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3415",
+      "name": "Équilibrage des pneus",
+      "difficulty_level": 5,
+      "description": "Learn and master Tire Balancing",
+      "tags": [
+        "tire",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3416",
+      "name": "Service de transmission",
+      "difficulty_level": 3,
+      "description": "Learn and master Transmission Servicing",
+      "tags": [
+        "transmission",
+        "servicing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3417",
+      "name": "Alignement des roues",
+      "difficulty_level": 5,
+      "description": "Learn and master Wheel Alignment",
+      "tags": [
+        "wheel",
+        "alignment",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_mathematics_statistics",
+  "name": "கணிதம் மற்றும் புள்ளிவிவரங்கள்",
+  "skills": [
+    {
+      "id": "skill_4218",
+      "name": "இயற்கணிதம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4219",
+      "name": "கால்குலஸ்",
+      "difficulty_level": 4,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4220",
+      "name": "விளக்க புள்ளிவிவரங்கள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Descriptive Statistics",
+      "tags": [
+        "descriptive",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4221",
+      "name": "வடிவியல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4222",
+      "name": "அனுமான புள்ளிவிவரங்கள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Inferential Statistics",
+      "tags": [
+        "inferential",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4223",
+      "name": "நேரியல் இயற்கணிதம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4224",
+      "name": "எண் கோட்பாடு",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4225",
+      "name": "நிகழ்தகவு",
+      "difficulty_level": 3,
+      "description": "Learn and master Probability",
+      "tags": [
+        "probability",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4226",
+      "name": "கோட்பாடு",
+      "difficulty_level": 5,
+      "description": "Learn and master Set Theory",
+      "tags": [
+        "theory",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4227",
+      "name": "முக்கோணவியல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

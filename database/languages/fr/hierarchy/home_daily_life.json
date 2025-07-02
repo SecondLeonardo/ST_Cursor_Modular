@@ -1,0 +1,46 @@
+{
+  "id": "home_daily_life",
+  "name": "Accueil et vie quotidienne",
+  "subcategories": [
+    {
+      "id": "home_daily_life_budgeting_household_finance",
+      "name": "Budgétisation et financement des ménages"
+    },
+    {
+      "id": "home_daily_life_childcare",
+      "name": "Services de garde"
+    },
+    {
+      "id": "home_daily_life_cooking_meal_prep",
+      "name": "Cuisine et préparation des repas"
+    },
+    {
+      "id": "home_daily_life_grocery_shopping",
+      "name": "Épicerie"
+    },
+    {
+      "id": "home_daily_life_home_cleaning",
+      "name": "Nettoyage à domicile"
+    },
+    {
+      "id": "home_daily_life_home_maintenance",
+      "name": "Entretien domestique"
+    },
+    {
+      "id": "home_daily_life_laundry_clothing_care",
+      "name": "Soins à la blanchisse et aux vêtements"
+    },
+    {
+      "id": "home_daily_life_organizing_decluttering",
+      "name": "Organiser et désencombrement"
+    },
+    {
+      "id": "home_daily_life_pet_care",
+      "name": "Soins aux animaux de compagnie"
+    },
+    {
+      "id": "home_daily_life_time_management",
+      "name": "Gestion du temps"
+    }
+  ]
+}

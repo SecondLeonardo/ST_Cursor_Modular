@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_creative_writing",
+  "name": "창의적인 글쓰기",
+  "skills": [
+    {
+      "id": "skill_340",
+      "name": "캐릭터 개발",
+      "difficulty_level": 2,
+      "description": "Learn and master Character Development",
+      "tags": [
+        "character",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_341",
+      "name": "창의적인 저널링",
+      "difficulty_level": 4,
+      "description": "Learn and master Creative Journaling",
+      "tags": [
+        "creative",
+        "journaling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_342",
+      "name": "플래시 소설",
+      "difficulty_level": 2,
+      "description": "Learn and master Flash Fiction",
+      "tags": [
+        "flash",
+        "fiction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_343",
+      "name": "이야기 목소리",
+      "difficulty_level": 1,
+      "description": "Learn and master Narrative Voice",
+      "tags": [
+        "narrative",
+        "voice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_344",
+      "name": "플롯 구조",
+      "difficulty_level": 4,
+      "description": "Learn and master Plot Structure",
+      "tags": [
+        "plot",
+        "structure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_345",
+      "name": "시 쓰기",
+      "difficulty_level": 4,
+      "description": "Learn and master Poetry Writing",
+      "tags": [
+        "poetry",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_346",
+      "name": "스크립트 작성",
+      "difficulty_level": 1,
+      "description": "Learn and master Scriptwriting",
+      "tags": [
+        "scriptwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_347",
+      "name": "단편 소설 쓰기",
+      "difficulty_level": 5,
+      "description": "Learn and master Short Story Writing",
+      "tags": [
+        "short",
+        "story",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_348",
+      "name": "쓰기 대화",
+      "difficulty_level": 2,
+      "description": "Learn and master Writing Dialogue",
+      "tags": [
+        "writing",
+        "dialogue",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_349",
+      "name": "블로그 작성",
+      "difficulty_level": 1,
+      "description": "Learn and master Writing for Blogs",
+      "tags": [
+        "writing",
+        "blogs",
+        "skill"
+      ]
+    }
+  ]
+}

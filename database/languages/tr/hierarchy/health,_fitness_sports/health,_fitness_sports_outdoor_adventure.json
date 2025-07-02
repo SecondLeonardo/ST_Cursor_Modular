@@ -1,0 +1,116 @@
+{
+  "id": "health,_fitness_sports_outdoor_adventure",
+  "name": "Açık hava ve macera",
+  "skills": [
+    {
+      "id": "skill_2708",
+      "name": "Kamp kurulumu",
+      "difficulty_level": 1,
+      "description": "Learn and master Camping Setup",
+      "tags": [
+        "camping",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2709",
+      "name": "Bisiklete binme dayanıklılığı",
+      "difficulty_level": 3,
+      "description": "Learn and master Cycling Endurance",
+      "tags": [
+        "cycling",
+        "endurance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2710",
+      "name": "Balıkçılık becerileri",
+      "difficulty_level": 2,
+      "description": "Learn and master Fishing Skills",
+      "tags": [
+        "fishing",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2711",
+      "name": "Yürüyüş Navigasyonu",
+      "difficulty_level": 1,
+      "description": "Learn and master Hiking Navigation",
+      "tags": [
+        "hiking",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2712",
+      "name": "Kayak teknikleri",
+      "difficulty_level": 3,
+      "description": "Learn and master Kayaking Techniques",
+      "tags": [
+        "kayaking",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2713",
+      "name": "Oryantu",
+      "difficulty_level": 5,
+      "description": "Learn and master Orienteering",
+      "tags": [
+        "orienteering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2714",
+      "name": "Kaya Tırmanma Temelleri",
+      "difficulty_level": 1,
+      "description": "Learn and master Rock Climbing Basics",
+      "tags": [
+        "rock",
+        "climbing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2715",
+      "name": "Tüplü dalış güvenliği",
+      "difficulty_level": 3,
+      "description": "Learn and master Scuba Diving Safety",
+      "tags": [
+        "scuba",
+        "diving",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_2716",
+      "name": "Snowboard kontrolü",
+      "difficulty_level": 5,
+      "description": "Learn and master Snowboarding Control",
+      "tags": [
+        "snowboarding",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2717",
+      "name": "Hayatta kalma becerileri",
+      "difficulty_level": 5,
+      "description": "Learn and master Survival Skills",
+      "tags": [
+        "survival",
+        "skills",
+        "skill"
+      ]
+    }
+  ]
+}

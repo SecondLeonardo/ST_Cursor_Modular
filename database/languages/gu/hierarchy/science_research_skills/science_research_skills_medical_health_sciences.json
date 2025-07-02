@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_medical_health_sciences",
+  "name": "તબીબી અને આરોગ્ય વિજ્iાન",
+  "skills": [
+    {
+      "id": "skill_4108",
+      "name": "શરીરરચના",
+      "difficulty_level": 3,
+      "description": "Learn and master Anatomy",
+      "tags": [
+        "anatomy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4109",
+      "name": "નખ સંશોધન",
+      "difficulty_level": 1,
+      "description": "Learn and master Clinical Research",
+      "tags": [
+        "clinical",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4110",
+      "name": "રોગચાળા",
+      "difficulty_level": 2,
+      "description": "Learn and master Epidemiology",
+      "tags": [
+        "epidemiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4111",
+      "name": "પ્રાથમિક સહાય",
+      "difficulty_level": 1,
+      "description": "Learn and master First Aid",
+      "tags": [
+        "first",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4112",
+      "name": "હિંસાવિજ્ologyાન",
+      "difficulty_level": 3,
+      "description": "Learn and master Histology",
+      "tags": [
+        "histology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4113",
+      "name": "તબીબી નીતિશાસ્ત્ર",
+      "difficulty_level": 4,
+      "description": "Learn and master Medical Ethics",
+      "tags": [
+        "medical",
+        "ethics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4114",
+      "name": "તબીબી છબી",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Imaging",
+      "tags": [
+        "medical",
+        "imaging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4115",
+      "name": "રોગવિજ્ologyાન",
+      "difficulty_level": 3,
+      "description": "Learn and master Pathology",
+      "tags": [
+        "pathology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4116",
+      "name": "Pharmષધ -વિજ્ologyાન",
+      "difficulty_level": 4,
+      "description": "Learn and master Pharmacology",
+      "tags": [
+        "pharmacology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4117",
+      "name": "જાહેર આરોગ્ય",
+      "difficulty_level": 3,
+      "description": "Learn and master Public Health",
+      "tags": [
+        "public",
+        "health",
+        "skill"
+      ]
+    }
+  ]
+}

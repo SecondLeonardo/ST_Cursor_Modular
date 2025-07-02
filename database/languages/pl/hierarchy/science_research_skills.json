@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Umiejętności nauki i badań",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Pismo akademickie"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Nauki biologiczne"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Nauka komputerowa i danych"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Nauk o ziemi i środowiska"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Nauki inżynieryjne"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Matematyka i statystyki"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Nauk o medycynie i zdrowia"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Nauki fizyczne"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Metody badawcze"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Nauki społeczne"
+    }
+  ]
+}

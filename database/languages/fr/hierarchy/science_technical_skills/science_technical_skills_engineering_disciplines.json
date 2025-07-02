@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_engineering_disciplines",
+  "name": "Disciplines d'ingénierie",
+  "skills": [
+    {
+      "id": "skill_4208",
+      "name": "Design CAO",
+      "difficulty_level": 4,
+      "description": "Learn and master CAD Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4209",
+      "name": "Génie chimique",
+      "difficulty_level": 4,
+      "description": "Learn and master Chemical Engineering",
+      "tags": [
+        "chemical",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4210",
+      "name": "Génie civil",
+      "difficulty_level": 3,
+      "description": "Learn and master Civil Engineering",
+      "tags": [
+        "civil",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4211",
+      "name": "Systèmes de contrôle",
+      "difficulty_level": 5,
+      "description": "Learn and master Control Systems",
+      "tags": [
+        "control",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4212",
+      "name": "Génie électrique",
+      "difficulty_level": 4,
+      "description": "Learn and master Electrical Engineering",
+      "tags": [
+        "electrical",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4213",
+      "name": "Matériaux d'ingénierie",
+      "difficulty_level": 3,
+      "description": "Learn and master Engineering Materials",
+      "tags": [
+        "engineering",
+        "materials",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4214",
+      "name": "Génie mécanique",
+      "difficulty_level": 4,
+      "description": "Learn and master Mechanical Engineering",
+      "tags": [
+        "mechanical",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4215",
+      "name": "Mécatronique",
+      "difficulty_level": 5,
+      "description": "Learn and master Mechatronics",
+      "tags": [
+        "mechatronics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4216",
+      "name": "Analyse structurelle",
+      "difficulty_level": 3,
+      "description": "Learn and master Structural Analysis",
+      "tags": [
+        "structural",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4217",
+      "name": "Thermodynamique pour les ingénieurs",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermodynamics for Engineers",
+      "tags": [
+        "thermodynamics",
+        "engineers",
+        "skill"
+      ]
+    }
+  ]
+}

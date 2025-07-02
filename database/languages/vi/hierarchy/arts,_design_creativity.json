@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "Nghệ thuật, Thiết kế & Sáng tạo",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "Thủ công & DIY"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "Viết sáng tạo"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "Thiết kế & Nghệ thuật kỹ thuật số"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "Biểu diễn nghệ thuật"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "Nghệ thuật thị giác"
+    }
+  ]
+}

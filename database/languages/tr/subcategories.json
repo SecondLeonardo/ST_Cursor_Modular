@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "Ekonomi"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "Coğrafya"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "Tarih"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "Dil ve Dilbilim"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "Edebiyat"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "Matematik"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "Felsefe"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "Psikoloji"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "Bilim"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "Sosyoloji"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "Eleştirel düşünme"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "Tarih ve Kültür"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "Tarih ve Sosyal Bilimler"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "Dil ve Dilbilim"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "Diller"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "Edebiyat ve Yazma"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "Mantık ve Akıl Yürütme"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "Matematik"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "Felsefe ve Eleştirel Düşünme"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "Topluluk önünde konuşma ve tartışma"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "Araştırma ve Analiz"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "Bilim"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "Bilim ve Doğa"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "Çalışma teknikleri"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "Teknoloji ve Hesaplama"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "Akademik sunum"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "Veri analizi"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "Dil ve Yazma"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "Matematik ve İstatistik"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "Bilimsel araştırma"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "Çalışma ve Test Hazırlığı"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "Animasyon"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "El Sanatları ve DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "Yaratıcı yazı"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "Çizim ve İllüstrasyon"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "Moda tasarımı"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "Tablo"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "Sahne Sanatları"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "Heykel"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "Animasyon ve Hareket Grafikleri"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "El Sanatları ve DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "Çizim ve İllüstrasyon"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "Moda ve Tekstil Sanatları"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "Film ve Video"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "Resim ve karışık medya"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "Sahne Sanatları"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "Yazma ve Edebiyat"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3D Modelleme"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "Mimarlık tasarımı"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "El sanatları"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "Moda ve Tekstil"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "Film ve Video"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "İç tasarım"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "Sahne Sanatları"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "Görsel sanatlar"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "Kaligrafi"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "El sanatları"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "Dijital Sanat ve Animasyon"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "Moda tasarımı"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "İllüstrasyon ve Çizim"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "İç tasarım"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "Tekstil sanatları"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "Görsel sanatlar"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "El Sanatları ve DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "Yaratıcı yazı"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "Tasarım ve Dijital Sanat"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "Sahne Sanatları"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "Görsel sanatlar"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "Muhasebe"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "İş stratejisi"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "Müşteri Desteği"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "E-ticaret"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "Girişimcilik"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "Finans"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "Finans ve Muhasebe"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "İK ve İşe Alım"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "İnsan kaynakları"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "Yatırım ve Ticaret"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "Liderlik ve Yönetim"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "Pazarlama ve Satış"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "Proje yönetimi"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "Satış ve CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "İş iletişimi"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "Müşteri Hizmetleri"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "Girişimcilik"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "Finans ve Muhasebe"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "İnsan kaynakları"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "Liderlik ve Yönetim"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "Yasal ve Uyum"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "Pazarlama ve Markalaşma"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "Ofis verimliliği"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "Proje ve Zaman Yönetimi"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "Proje yönetimi"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "Satış ve Pazarlama"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "Satış ve Müzakere"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "Eleştirel düşünme"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "Dil ve Dilbilim"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "Matematik ve Mantık"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "Hafıza ve Odaklanma"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "Bilim ve Araştırma"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "Çalışma ve Öğrenme Becerileri"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "Konsantrasyon ve Odaklanma"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "Eleştirel düşünme"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "Bilgi işleme"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "Öğrenme Stratejileri"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "Hafıza ve Tutma"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "Problem çözme"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "Yabancı diller"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "Kişilerarası beceriler"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "Sözsüz iletişim"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "Sunum ve hikaye anlatımı"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "Topluluk önünde konuşma"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "Yazma ve Düzenleme"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "El Sanatları ve DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "Yaratıcı Düşünce"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "Tasarım ve Estetik"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "Moda ve Stil"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "Film ve Video"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "Oyun Tasarımı ve Dünya Yapımı"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "Müzik ve Ses"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "Müzik performansı"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "Müzik yapımı"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "Sahne Sanatları"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "Fotoğraf ve Videografi"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "Görsel sanatlar"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "Yazma ve Edebiyat"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "Oyunculuk ve Performans"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "Animasyon"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "Üretim ve DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "El Sanatları ve DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "El Sanatları ve El Yapımı Sanatlar"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "Yaratıcı Teknoloji"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "Yaratıcı yazı"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "Mutfak sanatları"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "Tasarım ve Estetik"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "Çizim ve İllüstrasyon"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "Moda ve Stil"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "Moda ve Tekstil Sanatı"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "Film yapımı ve video"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "İç ve çiçek tasarımı"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "Müzik ve Enstrümanlar"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "Müzik yaratma"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "Tablo"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "Resim ve Güzel Sanatlar"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "Sahne Sanatları"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "Fotoğraf ve Videografi"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "Heykel ve 3d Sanat"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "Görsel sanatlar"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "Yazma ve hikaye anlatımı"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D ve Animasyon"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "UI/UX"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "Video yapımı"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "Kaligrafi ve el yazısı"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "Üretim ve DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "Yaratıcı yazı"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "Çizim ve İllüstrasyon"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "Mücevher yapımı"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "Tablo"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "Scrapbooking ve Kolaj"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "Heykel ve kil"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "Tekstil ve Fiber Sanatları"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "El Sanatları ve DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "Dijital Sanat ve Animasyon"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "İç ve moda"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "Görsel sanatlar"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "Eski diller"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "Kültürel farkındalık"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "Lehçe koçluğu"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "Kültürlerarası iletişim"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "Dil öğrenme teknikleri"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "Diller"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "Dilbilim"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "İşaret dilleri"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "Çeviri ve Yorum"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "Yazma sistemleri"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3D Modelleme ve Animasyon"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "Marka ve Kimlik"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "Gösterim"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "UX/UI Tasarımı"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D ve Animasyon"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "İçerik oluşturma"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "Dijital pazarlama"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "Sosyal medya"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "Akış ve yayıncılık"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "UI/UX Tasarım"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "Video yapımı"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "Web ve Uygulama Tasarımı"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "Siber güvenlik"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "Veri ve AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "IT & Networking"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "Programlama ve Geliştirme"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "Web ve Mobile"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "Akademik ders"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "Erken Çocukluk Eğitimi"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "Yüksek öğrenim"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "Dil öğretimi"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "Diller"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "Öğrenme Teknolojileri"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "Okuryazarlık ve Yazma"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "Özel Eğitim"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "Çalışma becerileri"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "Test hazırlığı"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "Otomotiv ve Ulaşım"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "İnşaat mühendisliği"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "Elektrik mühendisliği"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "Enerji ve Güç Sistemleri"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC ve Sistemler"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "Endüstriyel tasarım"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "Üretim ve Üretim"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "Makine Mühendisliği"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "Robot ve Otomasyon"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "Yapısal tasarım"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "Vücut Bakımı ve Sağlık"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "İlk Yardım ve Güvenlik"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "Akıl sağlığı"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "Beslenme ve Diyet"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "Beden eğitimi"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "Alternatif ilaç"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "İlk Yardım ve Acil Durum"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "Fitness eğitimi"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "Bütünsel sağlık"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "Tıbbi bilgi"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "Tıbbi beceriler"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "Akıl sağlığı"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "Ruh Sağlığı Uygulamaları"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "Farkındalık ve Meditasyon"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "Beslenme ve Diyet"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "Kişisel bakım"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "Fiziksel uygunluk"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "Rehabilitasyon ve terapi"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "Üreme sağlığı"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "Öz bakım ve hijyen"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "Uyku ve Kurtarma"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "Stres yönetimi"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "Yoga ve Meditasyon"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "Fitness eğitimi"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "Beslenme"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "Açık hava ve macera"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "Spor becerileri"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "Sağlık ve İyileşme"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "Alternatif ilaç"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "Tıbbi bilgi"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "Akıl sağlığı"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "Beslenme"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "Kişisel eğitim"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "Fiziksel uygunluk"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "Rehabilitasyon ve terapi"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "Spor koçluğu"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "Sağlık Koçluğu"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "Yoga ve Farkındalık"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "Cihaz bakımı"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "Temizlik ve Organizasyon"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "El Sanatları ve Dekor"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "Elektrik işleri"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "Bahçecilik ve peyzaj"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "Ev otomasyonu"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "Ev onarımı"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "İç tasarım"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "Sıhhi tesisat temelleri"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "Ahşap ve Marangozluk"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "Bütçeleme ve Hanehalkı Finansmanı"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "Çocuk bakımı"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "Yemek ve Yemek Hazırlığı"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "Bakkal alışverişi"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "Ev temizliği"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "Ev bakımı"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "Çamaşır ve Giyim Bakımı"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "Organizasyon ve Durdurucu"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "Evcil hayvan bakımı"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "Zaman yönetimi"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "Kültürlerarası iletişim"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "Yabancı diller"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "Dinleme ve Anlama"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "Çeviri ve Yorum"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "Yazma becerileri"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "Dil öğrenimi"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "Sözsüz iletişim"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "Topluluk önünde konuşma"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "Hikaye Anlatma ve Anlatım"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "Sözlü iletişim"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "Yazma ve Düzenleme"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "Dil öğrenimi"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "Matematik"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "Bilim ve Araştırma"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "Çalışma teknikleri"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "Test hazırlama"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "Akademik ders"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "Eğitim Araçları ve Becerileri"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "Dil öğrenimi"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "Hayat boyu öğrenme"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "Test hazırlama"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "Yemek ve Yemek"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "Ev bakımı"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "Kişisel finans"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "Zaman yönetimi"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "Seyahat ve Navigasyon"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "İletişim ve İlişkiler"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "Duygusal zeka"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "Dayanıklılık ve Büyüme"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "Öz disiplin"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "Zaman ve Hedef Yönetimi"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "Yemek ve Yemek Hazırlığı"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY ve Onarım"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "Bahçecilik ve Sürdürülebilirlik"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "Ev yönetimi"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "Kişisel finans"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "Hayatta kalma becerileri"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "Otomotiv onarımı"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "İnşaat işlemleri"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "Elektrik işleri"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "Mobilya ve Döşeme"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "El Aracı Ustası"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "Ev Yenilemesi"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "Metal işleme"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "Sıhhi Tesisat ve Isıtma"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "Tekstil ve Leathercraft"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "Ahşap işleme"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "Otomotiv bakımı"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "Mühendislik Temelleri"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "Ev Onarımı ve Kurulumu"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "Makine işlemi"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "Araç Kullanımı ve Güvenliği"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "Ahşap ve Metal İşi"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "Eleştirel düşünme"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "Coğrafya ve Çevre"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "Tarih ve Kültür"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "Diller"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "Matematik"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "Hafıza ve Öğrenme Becerileri"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "Felsefe ve Etik"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "Psikoloji ve Davranış"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "Bilim ve Araştırma"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "Çalışma teknikleri"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "Bilişsel esneklik"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "Eleştirel düşünme"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "Dil öğrenimi"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "Hafıza ve Odaklanma"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "Çalışma becerileri"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "Güven ve Benlik Saygısı"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "Duygusal zeka"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "Hedef belirleme ve planlama"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "Alışkanlıklar ve Disiplin"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "Kişilerarası beceriler"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "Liderlik ve Etki"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "Farkındalık ve Refah"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "Topluluk önünde konuşma"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "Kendini yansıtma"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "Zaman ve Verimlilik"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "Liderlik"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "Zihinsel sağlık"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "Verimlilik"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "Topluluk önünde konuşma"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "Kendini geliştirme"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "Duygusal zeka"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "Hedef belirleme ve başarı"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "Alışkanlıklar ve Verimlilik"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "Farkındalık ve Sağlık"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "Topluluk önünde konuşma ve iletişim"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "Öz disiplin ve odak"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "Fitness ve Condition"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "Manuel İşçi ve İşlemler"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "Açık hava rekreasyonu"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "Kendini savunma ve dövüş sanatları"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "Spor ve Atletizm"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "Hayatta Kalma ve Bushcraft"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "Fitness ve Güç"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "Bireysel spor"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "Dövüş sanatları"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "Açık hava ve macera"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "Eğlence faaliyetleri"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "Takım sporları"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "Akademik yazı"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "Biyolojik bilimler"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "Bilgisayar ve Veri Bilimi"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "Dünya ve Çevre Bilimleri"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "Mühendislik Bilimleri"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "Matematik ve İstatistik"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "Tıp ve Sağlık Bilimleri"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "Fizik bilimleri"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "Araştırma Yöntemleri"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "Sosyal Bilimler"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "Astronomi"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "Biyoloji ve Yaşam Bilimleri"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "Kimya"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "Bilgisayar Bilimi"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "Veri Bilimi ve AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "Dünya ve Çevre Bilimleri"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "Mühendislik Disiplinleri"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "Matematik ve İstatistik"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "Fizik ve Mekanik"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "Robot ve Otomasyon"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "Astronomi"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "Biyoteknoloji"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "Kimya"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "Bilgisayar Bilimi"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "Veri Bilimi ve AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "Dünya ve Çevre Bilimi"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "Elektronik"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "Mühendislik"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "Matematik ve İstatistik"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "Fizik"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI ve Makine Öğrenimi"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "Bulut bilişim"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "Siber güvenlik"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "Veri ve Analytics"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "Veri Bilimi ve AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps & Otomasyon"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "Oyun geliştirme"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "IT & Networking"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "BT Destek ve Ağ"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "Mobil Uygulama Geliştirme"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "Programlama ve Yazılım Geliştirme"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "Yazılım Geliştirme"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "Teknik Donanım ve Onarım"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "Teknik Destek ve Sorun Giderme"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "Web Geliştirme"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "Sivil ve yapısal"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "Elektrik mühendisliği"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "Üretim ve İmalat"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "Makine Mühendisliği"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "Yazılım ve Sistemler"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "Otomotiv becerileri"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "İnşaat ve Bina"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "Elektrik işleri"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "Enerji ve Çevre"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "Endüstriyel beceriler"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "Mekanik onarım"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "Siber güvenlik"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "Veri ve AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "Dijital pazarlama"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "IT & Networking"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "Yazılım Geliştirme"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "Yapay zeka"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "Bulut bilişim"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "Bilgisayar Temelleri"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "Siber güvenlik"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "Veri ve AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "Veri ve Analytics"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "Dijital okuryazarlık"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "Dijital pazarlama"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "Gelişmekte olan teknoloji"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "Donanım ve Elektronik"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "IT & Networking"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "Ağ ve BT"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "Programlama ve Geliştirme"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "Programlama ve Yazılım Geliştirme"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "Yazılım Araçları"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "Teknoloji verimliliği"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "Teknik Destek ve Bakım"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "Teknik Destek ve Sorun Giderme"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "Web ve Uygulama Geliştirme"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "İnşaat ve Marangozluk"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "Elektrik ve Sıhhi Tesisat"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "El yapımı mallar"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "Metal İşçilik ve Kaynak"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "Tekstil ve Leathercraft"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "Geleneksel El Sanatları"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "Otomotiv onarımı"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "Marangozluk ve Ağaç İşleme"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "İnşaat ve Duvarcılık"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "Elektrik işleri"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC ve Soğutma"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "Mücevher yapımı"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "Metal İşçilik ve Kaynak"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "Resim ve dekorasyon"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "Sıhhi tesisat"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "Terzilik ve Dikiş"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "Otomotiv onarımı"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "Marangozluk ve ahşap işleri"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "Yapı"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "İnşaat ve Marangozluk"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "İşçilik ve Onarım"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "Elektrik ve Mekanik"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "Elektrik işleri"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC ve Soğutma"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "Ağır Ekipman Operasyonu"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "Duvarcılık ve Fayans"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "Metal ve Ahşap"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "Resim ve bitirme"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "Sıhhi tesisat"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "Araç ve Makine Bakımı"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "Kaynak ve Metal İşleri"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "Otomotiv"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "Marangozluk"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "Yapı"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "Elektrik"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "Duvarcılık"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "Mekanik"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "Resim ve dekorasyon"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "Sıhhi tesisat"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "Kaynak"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "Video yapımı"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "Ses üretimi"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "Fotoğrafçılık"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "Grafik tasarım"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "Oyunculuk ve Performans"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "Yazma ve senaryo yazma"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "Yayıncılık"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "Sanat ve El Sanatları"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "Müzik ve Enstrümanlar"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "Açık hava etkinlikleri"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "Toplama"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "Fitness ve Wellness"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "Bahçecilik"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "DIY projeleri"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "İtalyan mutfağı"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "Japon mutfağı"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "Meksika mutfağı"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "Hint mutfağı"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "Fransız mutfağı"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "Çin mutfağı"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "Orta Doğu mutfağı"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_painting",
+  "name": "Bức vẽ",
+  "skills": [
+    {
+      "id": "skill_1833",
+      "name": "Tranh vẽ trừu tượng",
+      "difficulty_level": 3,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1834",
+      "name": "Tranh acrylic",
+      "difficulty_level": 4,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1835",
+      "name": "Kỹ thuật cọ",
+      "difficulty_level": 5,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1836",
+      "name": "Bức tranh thu nhỏ",
+      "difficulty_level": 4,
+      "description": "Learn and master Miniature Painting",
+      "tags": [
+        "miniature",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1837",
+      "name": "Trộn màu",
+      "difficulty_level": 3,
+      "description": "Learn and master Mixing Colors",
+      "tags": [
+        "mixing",
+        "colors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1838",
+      "name": "Bức tranh sơn dầu",
+      "difficulty_level": 3,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1839",
+      "name": "Vẽ cảnh quan",
+      "difficulty_level": 5,
+      "description": "Learn and master Painting Landscapes",
+      "tags": [
+        "painting",
+        "landscapes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1840",
+      "name": "Vẽ trên vải",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting on Fabric",
+      "tags": [
+        "painting",
+        "fabric",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1841",
+      "name": "Tranh chân dung",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1842",
+      "name": "Kỹ thuật màu nước",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_languages",
+  "name": "Языки",
+  "skills": [
+    {
+      "id": "skill_1983",
+      "name": "Арабское письмо",
+      "difficulty_level": 3,
+      "description": "Learn and master Arabic Writing",
+      "tags": [
+        "arabic",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1984",
+      "name": "Флактика английского языка",
+      "difficulty_level": 3,
+      "description": "Learn and master English Fluency",
+      "tags": [
+        "english",
+        "fluency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1985",
+      "name": "Французская грамматическая мастерство",
+      "difficulty_level": 2,
+      "description": "Learn and master French Grammar Mastery",
+      "tags": [
+        "french",
+        "grammar",
+        "mastery"
+      ]
+    },
+    {
+      "id": "skill_1986",
+      "name": "Немецкое чтение",
+      "difficulty_level": 3,
+      "description": "Learn and master German Reading",
+      "tags": [
+        "german",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1987",
+      "name": "Словарь хинди",
+      "difficulty_level": 3,
+      "description": "Learn and master Hindi Vocabulary",
+      "tags": [
+        "hindi",
+        "vocabulary",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1988",
+      "name": "Японские навыки слушания",
+      "difficulty_level": 3,
+      "description": "Learn and master Japanese Listening Skills",
+      "tags": [
+        "japanese",
+        "listening",
+        "skills"
+      ]
+    },
+    {
+      "id": "skill_1989",
+      "name": "Мандарин говорит",
+      "difficulty_level": 2,
+      "description": "Learn and master Mandarin Speaking",
+      "tags": [
+        "mandarin",
+        "speaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1990",
+      "name": "Португальский разговор",
+      "difficulty_level": 1,
+      "description": "Learn and master Portuguese Conversation",
+      "tags": [
+        "portuguese",
+        "conversation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1991",
+      "name": "Русское произношение",
+      "difficulty_level": 5,
+      "description": "Learn and master Russian Pronunciation",
+      "tags": [
+        "russian",
+        "pronunciation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1992",
+      "name": "Испанское общение",
+      "difficulty_level": 3,
+      "description": "Learn and master Spanish Communication",
+      "tags": [
+        "spanish",
+        "communication",
+        "skill"
+      ]
+    }
+  ]
+}

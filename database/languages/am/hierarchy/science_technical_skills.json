@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "የሳይንስ እና ቴክኒካዊ ችሎታዎች",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "ሥነ ፈለክ"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "ባዮሎጂ እና የህይወት ሳይንስ"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "ኬሚስትሪ"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "የኮምፒተር ሳይንስ"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "የውሂብ ሳይንስ እና አይ"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "ምድር እና አካባቢያዊ ሳይንስ"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "የምህንድስና ሥነ-ምግባር"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "ሂሳብ እና ስታቲስቲክስ"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "ፊዚክስ እና ሜካኒክስ"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "ሮቦትቲክስ እና ራስ-ሰር"
+    }
+  ]
+}

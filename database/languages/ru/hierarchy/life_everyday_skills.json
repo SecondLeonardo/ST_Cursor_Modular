@@ -1,0 +1,26 @@
+{
+  "id": "life_everyday_skills",
+  "name": "Жизнь и повседневные навыки",
+  "subcategories": [
+    {
+      "id": "life_everyday_skills_cooking_food",
+      "name": "Приготовление пищи и еда"
+    },
+    {
+      "id": "life_everyday_skills_home_maintenance",
+      "name": "Домашнее обслуживание"
+    },
+    {
+      "id": "life_everyday_skills_personal_finance",
+      "name": "Личные финансы"
+    },
+    {
+      "id": "life_everyday_skills_time_management",
+      "name": "Управление временем"
+    },
+    {
+      "id": "life_everyday_skills_travel_navigation",
+      "name": "Путешествие и навигация"
+    }
+  ]
+}

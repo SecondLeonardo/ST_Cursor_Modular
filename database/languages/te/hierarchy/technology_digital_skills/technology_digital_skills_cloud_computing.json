@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_cloud_computing",
+  "name": "క్లౌడ్ కంప్యూటింగ్",
+  "skills": [
+    {
+      "id": "skill_4676",
+      "name": "అమెజాన్ వెబ్ సర్వీసెస్ (AWS)",
+      "difficulty_level": 1,
+      "description": "Learn and master Amazon Web Services (AWS)",
+      "tags": [
+        "amazon",
+        "services",
+        "(aws)"
+      ]
+    },
+    {
+      "id": "skill_4677",
+      "name": "CI/CD పైప్‌లైన్‌లు",
+      "difficulty_level": 1,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4678",
+      "name": "క్లౌడ్ సెక్యూరిటీ బేసిక్స్",
+      "difficulty_level": 4,
+      "description": "Learn and master Cloud Security Basics",
+      "tags": [
+        "cloud",
+        "security",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4679",
+      "name": "క్లౌడ్ నిల్వ",
+      "difficulty_level": 1,
+      "description": "Learn and master Cloud Storage",
+      "tags": [
+        "cloud",
+        "storage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4680",
+      "name": "అనువర్తనాలను అమలు చేయడం",
+      "difficulty_level": 1,
+      "description": "Learn and master Deploying Applications",
+      "tags": [
+        "deploying",
+        "applications",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4681",
+      "name": "గూగుల్ క్లౌడ్ ప్లాట్‌ఫాం",
+      "difficulty_level": 5,
+      "description": "Learn and master Google Cloud Platform",
+      "tags": [
+        "google",
+        "cloud",
+        "platform"
+      ]
+    },
+    {
+      "id": "skill_4682",
+      "name": "హైబ్రిడ్ క్లౌడ్ కాన్సెప్ట్స్",
+      "difficulty_level": 3,
+      "description": "Learn and master Hybrid Cloud Concepts",
+      "tags": [
+        "hybrid",
+        "cloud",
+        "concepts"
+      ]
+    },
+    {
+      "id": "skill_4683",
+      "name": "మైక్రోసాఫ్ట్ అజూర్",
+      "difficulty_level": 2,
+      "description": "Learn and master Microsoft Azure",
+      "tags": [
+        "microsoft",
+        "azure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4684",
+      "name": "సర్వర్‌లెస్ ఆర్కిటెక్చర్",
+      "difficulty_level": 1,
+      "description": "Learn and master Serverless Architecture",
+      "tags": [
+        "serverless",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4685",
+      "name": "వర్చువల్ యంత్రాలు",
+      "difficulty_level": 2,
+      "description": "Learn and master Virtual Machines",
+      "tags": [
+        "virtual",
+        "machines",
+        "skill"
+      ]
+    }
+  ]
+}

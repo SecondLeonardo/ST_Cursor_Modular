@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_it_support_networking",
+  "name": "Soporte de TI y redes",
+  "skills": [
+    {
+      "id": "skill_4436",
+      "name": "DNS y DHCP",
+      "difficulty_level": 1,
+      "description": "Learn and master DNS & DHCP",
+      "tags": [
+        "dhcp",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4437",
+      "name": "Configuración del servidor de correo electrónico",
+      "difficulty_level": 5,
+      "description": "Learn and master Email Server Configuration",
+      "tags": [
+        "email",
+        "server",
+        "configuration"
+      ]
+    },
+    {
+      "id": "skill_4438",
+      "name": "Gestión de la mesa de ayuda",
+      "difficulty_level": 4,
+      "description": "Learn and master Help Desk Management",
+      "tags": [
+        "help",
+        "desk",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_4439",
+      "name": "Administrador del sistema Linux",
+      "difficulty_level": 3,
+      "description": "Learn and master Linux System Admin",
+      "tags": [
+        "linux",
+        "system",
+        "admin"
+      ]
+    },
+    {
+      "id": "skill_4440",
+      "name": "Configuración de red",
+      "difficulty_level": 3,
+      "description": "Learn and master Network Configuration",
+      "tags": [
+        "network",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4441",
+      "name": "Solución de problemas de impresora",
+      "difficulty_level": 2,
+      "description": "Learn and master Printer Troubleshooting",
+      "tags": [
+        "printer",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4442",
+      "name": "Herramientas de soporte remoto",
+      "difficulty_level": 3,
+      "description": "Learn and master Remote Support Tools",
+      "tags": [
+        "remote",
+        "support",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_4443",
+      "name": "Resolución de hardware",
+      "difficulty_level": 2,
+      "description": "Learn and master Troubleshooting Hardware",
+      "tags": [
+        "troubleshooting",
+        "hardware",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4444",
+      "name": "Configuración de VPN",
+      "difficulty_level": 1,
+      "description": "Learn and master VPN Setup",
+      "tags": [
+        "setup",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4445",
+      "name": "Administrador del sistema de Windows",
+      "difficulty_level": 1,
+      "description": "Learn and master Windows System Admin",
+      "tags": [
+        "windows",
+        "system",
+        "admin"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "การซื้อขายและทักษะการใช้คู่มือ",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "ซ่อมยานยนต์"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "ช่างไม้และงานไม้"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "การก่อสร้าง"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "การก่อสร้างและช่างไม้"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "งานฝีมือและการซ่อมแซม"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "ไฟฟ้าและเครื่องกล"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "งานไฟฟ้า"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC และเครื่องทำความเย็น"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "การใช้งานเครื่องจักรกลหนัก"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "การก่ออิฐและการปูกระเบื้อง"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "โลหะและไม้"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "ภาพวาดและการตกแต่ง"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "ประปา"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "การบำรุงรักษายานพาหนะและเครื่องจักร"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "การเชื่อมและโลหะ"
+    }
+  ]
+}

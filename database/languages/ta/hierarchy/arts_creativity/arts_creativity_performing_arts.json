@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_performing_arts",
+  "name": "கலை நிகழ்ச்சிகள்",
+  "skills": [
+    {
+      "id": "skill_490",
+      "name": "நடிப்பு நுட்பங்கள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Acting Techniques",
+      "tags": [
+        "acting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_491",
+      "name": "நடன நடன அமைப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Dance Choreography",
+      "tags": [
+        "dance",
+        "choreography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_492",
+      "name": "மேம்படுத்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_493",
+      "name": "மைம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_494",
+      "name": "இசை அரங்கம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Musical Theater",
+      "tags": [
+        "musical",
+        "theater",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_495",
+      "name": "பொது பேச்சு",
+      "difficulty_level": 1,
+      "description": "Learn and master Public Speaking",
+      "tags": [
+        "public",
+        "speaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_496",
+      "name": "மேடை போர்",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Combat",
+      "tags": [
+        "stage",
+        "combat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_497",
+      "name": "மேடை இருப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_498",
+      "name": "தியேட்டர் திசை",
+      "difficulty_level": 3,
+      "description": "Learn and master Theater Direction",
+      "tags": [
+        "theater",
+        "direction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_499",
+      "name": "குரல் பயிற்சி",
+      "difficulty_level": 3,
+      "description": "Learn and master Voice Training",
+      "tags": [
+        "voice",
+        "training",
+        "skill"
+      ]
+    }
+  ]
+}

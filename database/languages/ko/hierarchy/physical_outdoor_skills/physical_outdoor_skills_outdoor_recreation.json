@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_outdoor_recreation",
+  "name": "야외 레크리에이션",
+  "skills": [
+    {
+      "id": "skill_3948",
+      "name": "양궁 양식",
+      "difficulty_level": 2,
+      "description": "Learn and master Archery Form",
+      "tags": [
+        "archery",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3949",
+      "name": "캠핑 설정",
+      "difficulty_level": 2,
+      "description": "Learn and master Camping Setup",
+      "tags": [
+        "camping",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3950",
+      "name": "하이킹 내비게이션",
+      "difficulty_level": 3,
+      "description": "Learn and master Hiking Navigation",
+      "tags": [
+        "hiking",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3951",
+      "name": "카약 기본",
+      "difficulty_level": 4,
+      "description": "Learn and master Kayaking Basics",
+      "tags": [
+        "kayaking",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3952",
+      "name": "산악 자전거",
+      "difficulty_level": 2,
+      "description": "Learn and master Mountain Biking",
+      "tags": [
+        "mountain",
+        "biking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3953",
+      "name": "암벽 등반 안전",
+      "difficulty_level": 5,
+      "description": "Learn and master Rock Climbing Safety",
+      "tags": [
+        "rock",
+        "climbing",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3954",
+      "name": "스키 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Skiing Techniques",
+      "tags": [
+        "skiing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3955",
+      "name": "스노우 보드 기술",
+      "difficulty_level": 2,
+      "description": "Learn and master Snowboarding Techniques",
+      "tags": [
+        "snowboarding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3956",
+      "name": "트레일 마킹",
+      "difficulty_level": 5,
+      "description": "Learn and master Trail Marking",
+      "tags": [
+        "trail",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3957",
+      "name": "나침반 사용",
+      "difficulty_level": 3,
+      "description": "Learn and master Using a Compass",
+      "tags": [
+        "using",
+        "compass",
+        "skill"
+      ]
+    }
+  ]
+}

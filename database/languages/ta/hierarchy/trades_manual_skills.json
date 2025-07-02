@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "வர்த்தகங்கள் மற்றும் கையேடு திறன்கள்",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "வாகன பழுது"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "தச்சு & மரவேலை"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "கட்டுமானம்"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "கட்டுமானம் மற்றும் தச்சு"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "கைவினைத்திறன் மற்றும் பழுது"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "மின் மற்றும் இயந்திர"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "மின் வேலை"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "எச்.வி.ஐ.சி & குளிர்பதன"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "கனரக உபகரணங்கள் செயல்பாடு"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "கொத்து & டைலிங்"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "உலோகம் & மரவேலை"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "ஓவியம் மற்றும் முடித்தல்"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "பிளம்பிங்"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "வாகனம் மற்றும் இயந்திர பராமரிப்பு"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "வெல்டிங் & உலோக வேலைகள்"
+    }
+  ]
+}

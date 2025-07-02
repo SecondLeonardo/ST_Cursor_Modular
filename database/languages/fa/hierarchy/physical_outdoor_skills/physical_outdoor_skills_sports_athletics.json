@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_sports_athletics",
+  "name": "ورزش و دو و میدانی",
+  "skills": [
+    {
+      "id": "skill_3968",
+      "name": "مته های چابکی",
+      "difficulty_level": 4,
+      "description": "Learn and master Agility Drills",
+      "tags": [
+        "agility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3969",
+      "name": "بسکتبال",
+      "difficulty_level": 2,
+      "description": "Learn and master Basketball Shooting",
+      "tags": [
+        "basketball",
+        "shooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3970",
+      "name": "تکنیک های دوچرخه سواری",
+      "difficulty_level": 1,
+      "description": "Learn and master Cycling Techniques",
+      "tags": [
+        "cycling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3971",
+      "name": "استقامت دویدن",
+      "difficulty_level": 1,
+      "description": "Learn and master Running Endurance",
+      "tags": [
+        "running",
+        "endurance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3972",
+      "name": "دریبل فوتبال",
+      "difficulty_level": 3,
+      "description": "Learn and master Soccer Dribbling",
+      "tags": [
+        "soccer",
+        "dribbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3973",
+      "name": "سکته های شنا",
+      "difficulty_level": 3,
+      "description": "Learn and master Swimming Strokes",
+      "tags": [
+        "swimming",
+        "strokes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3974",
+      "name": "تنیس خدمت",
+      "difficulty_level": 2,
+      "description": "Learn and master Tennis Serving",
+      "tags": [
+        "tennis",
+        "serving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3975",
+      "name": "رویدادهای پیگیری و میدانی",
+      "difficulty_level": 1,
+      "description": "Learn and master Track & Field Events",
+      "tags": [
+        "track",
+        "field",
+        "events"
+      ]
+    },
+    {
+      "id": "skill_3976",
+      "name": "تنظیم والیبال",
+      "difficulty_level": 1,
+      "description": "Learn and master Volleyball Setting",
+      "tags": [
+        "volleyball",
+        "setting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3977",
+      "name": "تمرین وزنه برداری",
+      "difficulty_level": 2,
+      "description": "Learn and master Weight Training",
+      "tags": [
+        "weight",
+        "training",
+        "skill"
+      ]
+    }
+  ]
+}

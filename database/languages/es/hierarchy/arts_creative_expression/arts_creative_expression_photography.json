@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_photography",
+  "name": "Fotografía",
+  "skills": [
+    {
+      "id": "skill_400",
+      "name": "Fotografía en blanco y negro",
+      "difficulty_level": 1,
+      "description": "Learn and master Black & White Photography",
+      "tags": [
+        "black",
+        "white",
+        "photography"
+      ]
+    },
+    {
+      "id": "skill_401",
+      "name": "Configuración de cámara",
+      "difficulty_level": 1,
+      "description": "Learn and master Camera Settings",
+      "tags": [
+        "camera",
+        "settings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_402",
+      "name": "Técnicas de composición",
+      "difficulty_level": 2,
+      "description": "Learn and master Composition Techniques",
+      "tags": [
+        "composition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_403",
+      "name": "Fotografía de eventos",
+      "difficulty_level": 4,
+      "description": "Learn and master Event Photography",
+      "tags": [
+        "event",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_404",
+      "name": "Fotografía de paisaje",
+      "difficulty_level": 2,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_405",
+      "name": "Fotografía macro",
+      "difficulty_level": 1,
+      "description": "Learn and master Macro Photography",
+      "tags": [
+        "macro",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_406",
+      "name": "Edición de fotos",
+      "difficulty_level": 3,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_407",
+      "name": "Fotografía de retratos",
+      "difficulty_level": 5,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_408",
+      "name": "Fotografía de productos",
+      "difficulty_level": 4,
+      "description": "Learn and master Product Photography",
+      "tags": [
+        "product",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_409",
+      "name": "Iluminación de estudio",
+      "difficulty_level": 2,
+      "description": "Learn and master Studio Lighting",
+      "tags": [
+        "studio",
+        "lighting",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "food_of_different_countries_japanese_cuisine",
+  "name": "Ẩm thực Nhật Bản",
+  "skills": [
+    {
+      "id": "skill_5425",
+      "name": "Sushi lăn",
+      "difficulty_level": 2,
+      "description": "Learn and master Sushi Rolling",
+      "tags": [
+        "sushi",
+        "rolling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5426",
+      "name": "Tempura chiên",
+      "difficulty_level": 4,
+      "description": "Learn and master Tempura Frying",
+      "tags": [
+        "tempura",
+        "frying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5427",
+      "name": "Chuẩn bị súp miso",
+      "difficulty_level": 1,
+      "description": "Learn and master Miso Soup Preparation",
+      "tags": [
+        "miso",
+        "soup",
+        "preparation"
+      ]
+    },
+    {
+      "id": "skill_5428",
+      "name": "Ramen nấu ăn",
+      "difficulty_level": 4,
+      "description": "Learn and master Ramen Cooking",
+      "tags": [
+        "ramen",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5429",
+      "name": "Sashimi cắt",
+      "difficulty_level": 4,
+      "description": "Learn and master Sashimi Cutting",
+      "tags": [
+        "sashimi",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5430",
+      "name": "Teriyaki Sốt làm",
+      "difficulty_level": 4,
+      "description": "Learn and master Teriyaki Sauce Making",
+      "tags": [
+        "teriyaki",
+        "sauce",
+        "making"
+      ]
+    },
+    {
+      "id": "skill_5431",
+      "name": "Kỹ thuật ngâm",
+      "difficulty_level": 3,
+      "description": "Learn and master Pickling Techniques",
+      "tags": [
+        "pickling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5432",
+      "name": "Nấu cơm",
+      "difficulty_level": 1,
+      "description": "Learn and master Rice Cooking",
+      "tags": [
+        "rice",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5433",
+      "name": "Kỹ năng dao",
+      "difficulty_level": 2,
+      "description": "Learn and master Knife Skills",
+      "tags": [
+        "knife",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5434",
+      "name": "Tea Ceremony Basics",
+      "difficulty_level": 3,
+      "description": "Learn and master Tea Ceremony Basics",
+      "tags": [
+        "ceremony",
+        "basics",
+        "skill"
+      ]
+    }
+  ]
+}

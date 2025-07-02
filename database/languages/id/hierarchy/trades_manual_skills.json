@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Keterampilan Perdagangan & Manual",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Perbaikan Otomotif"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Pertukangan & kayu"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Konstruksi"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Konstruksi & Pertukangan"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Keahlian & perbaikan"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Listrik & Mekanik"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Pekerjaan listrik"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC & Refrigerasi"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Operasi alat berat"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Masonry & Tiling"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Logam & Woodwork"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Lukisan & Finishing"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Pipa saluran air"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Perawatan Kendaraan & Mesin"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Pengelasan & logam"
+    }
+  ]
+}

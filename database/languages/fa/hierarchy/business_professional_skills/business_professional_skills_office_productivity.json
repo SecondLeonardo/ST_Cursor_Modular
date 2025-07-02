@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_office_productivity",
+  "name": "بهره وری دفتر",
+  "skills": [
+    {
+      "id": "skill_1018",
+      "name": "سیستم های تشکیل پرونده دیجیتال",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Filing Systems",
+      "tags": [
+        "digital",
+        "filing",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_1019",
+      "name": "فرمول های اکسل",
+      "difficulty_level": 3,
+      "description": "Learn and master Excel Formulas",
+      "tags": [
+        "excel",
+        "formulas",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1020",
+      "name": "سازمان پرونده",
+      "difficulty_level": 1,
+      "description": "Learn and master File Organization",
+      "tags": [
+        "file",
+        "organization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1021",
+      "name": "استفاده از فضای کاری Google",
+      "difficulty_level": 4,
+      "description": "Learn and master Google Workspace Usage",
+      "tags": [
+        "google",
+        "workspace",
+        "usage"
+      ]
+    },
+    {
+      "id": "skill_1022",
+      "name": "میانبرهای صفحه کلید",
+      "difficulty_level": 2,
+      "description": "Learn and master Keyboard Shortcuts",
+      "tags": [
+        "keyboard",
+        "shortcuts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1023",
+      "name": "جلسه ایجاد برنامه",
+      "difficulty_level": 2,
+      "description": "Learn and master Meeting Agenda Creation",
+      "tags": [
+        "meeting",
+        "agenda",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_1024",
+      "name": "یادداشت برداری به طور موثر",
+      "difficulty_level": 3,
+      "description": "Learn and master Note-Taking Effectively",
+      "tags": [
+        "note-taking",
+        "effectively",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1025",
+      "name": "برنامه ریزی با چشم انداز",
+      "difficulty_level": 2,
+      "description": "Learn and master Scheduling with Outlook",
+      "tags": [
+        "scheduling",
+        "with",
+        "outlook"
+      ]
+    },
+    {
+      "id": "skill_1026",
+      "name": "ابزارهای ردیابی زمان",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Tracking Tools",
+      "tags": [
+        "time",
+        "tracking",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_1027",
+      "name": "مبانی کنترل نسخه",
+      "difficulty_level": 5,
+      "description": "Learn and master Version Control Basics",
+      "tags": [
+        "version",
+        "control",
+        "basics"
+      ]
+    }
+  ]
+}

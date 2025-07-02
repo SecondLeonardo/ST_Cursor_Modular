@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_traditional_crafts",
+  "name": "பாரம்பரிய கைவினைப்பொருட்கள்",
+  "skills": [
+    {
+      "id": "skill_4915",
+      "name": "கூடை நெசவு",
+      "difficulty_level": 2,
+      "description": "Learn and master Basket Weaving",
+      "tags": [
+        "basket",
+        "weaving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4916",
+      "name": "புத்தக பிணைப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Bookbinding",
+      "tags": [
+        "bookbinding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4917",
+      "name": "கையெழுத்து",
+      "difficulty_level": 3,
+      "description": "Learn and master Calligraphy",
+      "tags": [
+        "calligraphy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4918",
+      "name": "எம்பிராய்டரி",
+      "difficulty_level": 3,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4919",
+      "name": "காகித தயாரித்தல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Paper Making",
+      "tags": [
+        "paper",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4920",
+      "name": "குயில்டிங்",
+      "difficulty_level": 4,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4921",
+      "name": "நூற்பு நூல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Spinning Yarn",
+      "tags": [
+        "spinning",
+        "yarn",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4922",
+      "name": "படிந்த கண்ணாடி சட்டசபை",
+      "difficulty_level": 1,
+      "description": "Learn and master Stained Glass Assembly",
+      "tags": [
+        "stained",
+        "glass",
+        "assembly"
+      ]
+    },
+    {
+      "id": "skill_4923",
+      "name": "நாடா உருவாக்கம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Tapestry Creation",
+      "tags": [
+        "tapestry",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4924",
+      "name": "தறி அடிப்படைகள் நெசவு",
+      "difficulty_level": 3,
+      "description": "Learn and master Weaving Loom Basics",
+      "tags": [
+        "weaving",
+        "loom",
+        "basics"
+      ]
+    }
+  ]
+}

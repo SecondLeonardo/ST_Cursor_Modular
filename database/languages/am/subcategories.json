@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "ኢኮኖሚክስ"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "ጂኦግራፊ"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "ታሪክ"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "ቋንቋ እና Linguits"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "ሥነ ጽሑፍ"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "ሂሳብ"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "ፍልስፍና"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "ሳይኮሎጂ"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "ሳይንስ"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "ሶሺዮሎጂ"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "ወሳኝ አስተሳሰብ"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "ታሪክ እና ባህል"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "ታሪክ እና ማህበራዊ ሳይንስ"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "ቋንቋ እና Linguits"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "ቋንቋዎች"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "ሥነ ጽሑፍ እና ጽሑፍ"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "አመክንዮ እና አመክንዮ"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "ሂሳብ"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "ፍልስፍና እና ወሳኝ አስተሳሰብ"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "የህዝብ ንግግር እና ክርክር"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "ምርምር እና ትንተና"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "ሳይንስ"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "ሳይንስ እና ተፈጥሮ"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "የጥናት ቴክኒኮች"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "ቴክኖሎጂ እና ኮምፒተር"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "አካዴሚያዊ አቀራረብ"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "የመረጃ ትንተና"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "ቋንቋ እና ጽሑፍ"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "ሂሳብ እና ስታቲስቲክስ"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "ሳይንሳዊ ምርምር"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "የጥናት እና የሙከራ ቅድመ ዝግጅት"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "እነማ"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "የእጅ ሥራዎች እና DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "የፈጠራ ጽሑፍ"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "ስዕል እና ምሳሌ"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "የፋሽን ዲዛይን"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "ሥዕል"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "ሥነ-ጥበባት ማከናወን"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "ቅርፃቅርፅ"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "እነማ እና እንቅስቃሴ ግራፊክስ"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "የእጅ ሥራዎች እና DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "ስዕል እና ምሳሌ"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "ፋሽን እና የጨርቃጨርቅ ሥነ-ጥበባት"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "ፊልም እና ቪዲዮ"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "ሥዕል እና የተቀላቀለ ሚዲያ"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "ሥነ-ጥበባት ማከናወን"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "ጽሑፍ እና ጽሑፎች"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3 ዲ አምሳያ"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "የሕንፃ ንድፍ"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "የእጅ ሥራዎች"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "ፋሽን እና ጨርቆች"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "ፊልም እና ቪዲዮ"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "የውስጥ ዲዛይን"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "ሥነ-ጥበባት ማከናወን"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "የእይታ ጥበባት"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "ጥሪ"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "የእጅ ሥራዎች"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "ዲጂታል ሥነ-ጥበብ እና አኒሜሽን"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "የፋሽን ዲዛይን"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "ምሳሌ እና ስዕል"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "የውስጥ ዲዛይን"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "የጨርቃጨርቅ ሥነ-ጥበባት"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "የእይታ ጥበባት"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "የእጅ ሥራዎች እና DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "የፈጠራ ጽሑፍ"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "ዲዛይን እና ዲጂታል አርት"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "ሥነ-ጥበባት ማከናወን"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "የእይታ ጥበባት"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "የሂሳብ አያያዝ"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "የንግድ ሥራ ስትራቴጂ"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "የደንበኛ ድጋፍ"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "ኢ-ኮሜርስ"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "ሥራ ፈጣሪ"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "ፋይናንስ"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "ፋይናንስ እና አካውንቲንግ"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "ኤች.አይ. እና ምልመላ"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "የሰው ኃይል"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "ኢንቨስትመንት እና ትሬዲንግ"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "አመራር እና አስተዳደር"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "ግብይት እና ሽያጭ"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "የፕሮጀክት አስተዳደር"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "ሽያጮች እና CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "የንግድ ሥራ ግንኙነቶች"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "የደንበኞች አገልግሎት"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "ሥራ ፈጣሪ"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "ፋይናንስ እና አካውንቲንግ"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "የሰው ኃይል"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "አመራር እና አስተዳደር"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "ህጋዊ እና ተገ citiancer"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "ግብይት እና የምርት ስም"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "የቢሮ ምርታማነት"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "የፕሮጀክት እና የጊዜ አያያዝ"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "የፕሮጀክት አስተዳደር"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "ሽያጮች እና ግብይት"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "ሽያጮች እና ድርድር"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "ወሳኝ አስተሳሰብ"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "ቋንቋ እና Linguits"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "ሂሳብ እና ሎጂክ"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "ማህደረ ትውስታ እና ትኩረት"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "ሳይንስ እና ምርምር"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "የጥናት እና የመማር ችሎታዎች"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "ትኩረት እና ትኩረት"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "ወሳኝ አስተሳሰብ"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "የመረጃ ማቀነባበሪያ"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "የመማር ስልቶች"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "ማህደረ ትውስታ እና ማቆየት"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "ችግር መፍታት"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "የውጭ ቋንቋዎች"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "የግለሰባዊ ችሎታ ችሎታ"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "ንግግር ያልሆነ ግንኙነት"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "አቀራረብ & ተረት"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "የህዝብ ንግግር"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "መጻፍ & ማርትዕ"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "የእጅ ሥራዎች እና DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "የፈጠራ አስተሳሰብ"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "ዲዛይን እና ማዮኔቲክስ"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "ፋሽን እና ዘመናዊነት"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "ፊልም እና ቪዲዮ"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "የጨዋታ ዲዛይን እና የዓለም አቀባበል"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "ሙዚቃ እና ድምጽ"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "የሙዚቃ አፈፃፀም"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "የሙዚቃ ምርት"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "ሥነ-ጥበባት ማከናወን"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "ፎቶግራፍ እና ቪዲዮግራፊ"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "የእይታ ጥበባት"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "ጽሑፍ እና ጽሑፎች"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "እርምጃ እና አፈፃፀም"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "እነማ"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "ብልሹ እና DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "የእጅ ሥራዎች እና DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "የእጅ ሥራዎች እና የእጅ / እጅ"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "ፈጠራ ቴክ"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "የፈጠራ ጽሑፍ"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "የባህሪ ጥበባት"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "ዲዛይን እና ማዮኔቲክስ"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "ስዕል እና ምሳሌ"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "ፋሽን እና ዘመናዊነት"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "ፋሽን እና የጨርቃጨርቅ ሥነጥበብ"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "የፊሊንግንግ እና ቪዲዮ"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "የውስጥ እና የአበባያ ንድፍ"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "ሙዚቃ እና መሣሪያዎች"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "የሙዚቃ ፍጥረት"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "ሥዕል"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "ሥዕል እና ጥሩ ጥበብ"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "ሥነ-ጥበባት ማከናወን"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "ፎቶግራፍ እና ቪዲዮግራፊ"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "ቅርፃቅርፅ እና 3 ዲ ስነጥበብ"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "የእይታ ጥበባት"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "ጽሑፍ እና ተረት"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3 ዲ እና አኒሜሽን"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "Ui / ux"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "የቪዲዮ ምርት"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "የጥሪ ወረቀት እና የእጅ ደብዳቤ"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "ብልሹ እና DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "የፈጠራ ጽሑፍ"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "ስዕል እና ምሳሌ"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "የጌጣጌጥ ሥራ"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "ሥዕል"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "መጸዳጃ ቤት እና ኮላጅ"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "Sculsing & Cyysy"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "ጨርቃ ጨርቅ እና ፋይበር ሥነጥበብ"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "የእጅ ሥራዎች እና DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "ዲጂታል ሥነ-ጥበባት እና አኒሜሽን"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "የውስጥ እና ፋሽን"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "የእይታ ጥበባት"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "የጥንት ቋንቋዎች"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "ባህላዊ ግንዛቤ"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "ቀበሌዎች"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "የመገናኛ ግንኙነት"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "የቋንቋ ትምህርት ቴክኒኮች"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "ቋንቋዎች"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "Lingucations"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "የምልክት ቋንቋዎች"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "ትርጉም እና ትርጓሜ"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "የመጻፍ ስርዓቶች"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3 ዲ አምሳያ እና አኒሜሽን"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "የንግድ እና ማንነት"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "ምሳሌ"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "UX / UI ንድፍ"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3 ዲ እና አኒሜሽን"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "የይዘት መፍጠር"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "ዲጂታል ግብይት"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "ማህበራዊ ሚዲያ"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "ዥረት እና ስርጭት"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "Ui / ux ንድፍ"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "የቪዲዮ ምርት"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "የድር እና የመተግበሪያ ንድፍ"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "የሳይበር ፅንስ"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "ውሂብ & Ai"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "እሱ እና አውታረመረብ"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "መርሃግብሮች እና ልማት"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "ድር እና ሞባይል"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "አካዴሚያዊ ትምህርት"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "የልጅነት ትምህርት"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "ከፍተኛ ትምህርት"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "ቋንቋ ማስተማር"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "ቋንቋዎች"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "ቴክኖሎጂ ቴክኖሎጂዎች"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "ማንበብና መጻፍ"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "ልዩ ትምህርት"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "የጥናት ችሎታ"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "የሙከራ ዝግጅት"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "አውቶሞቲቭ እና ትራንስፖርት"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "ሲቪል ምህንድስና"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "ኤሌክትሪክ ምህንድስና"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "የኃይል እና የኃይል ሲስተምስ"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC እና ስርዓቶች"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "የኢንዱስትሪ ንድፍ"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "ማምረቻ እና ምርት"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "ሜካኒካል ምህንድስና"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "ሮቦትቲክስ እና ራስ-ሰር"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "መዋቅራዊ ንድፍ"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "የሰውነት እንክብካቤ እና ደህንነት"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "የመጀመሪያ እርዳታ እና ደህንነት"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "የአእምሮ ጤንነት"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "የአመጋገብ እና አመጋገብ"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "የአካል ስልጠና"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "አማራጭ መድሃኒት"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "የመጀመሪያ እርዳታ እና ድንገተኛ አደጋ"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "የአካል ብቃት እንቅስቃሴ ስልጠና"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "አጠቃላይ ጤና"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "የህክምና እውቀት"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "የህክምና ችሎታዎች"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "የአእምሮ ጤንነት"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "የአእምሮ ጤና ልምዶች"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "አእምሮ እና ማሰላሰል"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "የአመጋገብ እና አመጋገብ"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "የግል እንክብካቤ"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "የአካል ብቃት እንቅስቃሴ"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "ተሃድሶ እና ሕክምና"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "የመራቢያ ጤና"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "ራስን መሰባበር እና ንፅህና"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "እንቅልፍ እና ማገገም"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "ውጥረት አያያዝ"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "ዮጋ እና ማሰላሰል"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "የአካል ብቃት እንቅስቃሴ ስልጠና"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "የአመጋገብ ስርዓት"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "ከቤት ውጭ እና ጀብዱ"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "የስፖርት ችሎታ"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "ጤንነት እና ማገገም"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "አማራጭ መድሃኒት"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "የህክምና እውቀት"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "የአእምሮ ጤንነት"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "የአመጋገብ ስርዓት"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "የግል ስልጠና"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "የአካል ብቃት እንቅስቃሴ"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "ተሃድሶ እና ሕክምና"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "የስፖርት ስልጠና"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "ደህንነት ማሰልጠኛ"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "ዮጋ እና አሳቢነት"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "የመሣሪያ ጥገና ጥገና"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "ማጽዳት እና ማደራጀት"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "የእጅ ሥራዎች እና ዲፕስ"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "የኤሌክትሪክ ሥራ"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "የአትክልት እና የመሬት አቀማመጥ"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "የቤት አውቶማቲክ"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "የቤት ጥገና"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "የውስጥ ዲዛይን"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "ጠርዞች መሰረታዊ ነገሮችን"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "ከእንጨት የተሠራ እና አናጢነት"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "የበጀት እና የቤተሰብ ፋይናንስ"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "የሕፃናት እንክብካቤ"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "ምግብ ማብሰል እና የምግብ ዕቅድ"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "የሸቀጣሸቀጥ ግ shopping"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "ቤት ማጽዳት"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "የቤት ጥገና"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "የልብስ ማጠቢያ እና የልብስ እንክብካቤ"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "ማደራጀት እና ማሽቆልቆል"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "የቤት እንስሳ እንክብካቤ"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "የጊዜ አያያዝ"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "የባህል ባህላዊ ግንኙነት"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "የውጭ ቋንቋዎች"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "የማዳመጥ እና የመረዳት ችሎታ"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "ትርጉም እና ትርጓሜ"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "ችሎታዎች"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "የቋንቋ ትምህርት"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "የቃል ያልሆነ ግንኙነት"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "የህዝብ ንግግር"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "ተረት እና ትረካ"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "የቃል ግንኙነት"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "መጻፍ & ማርትዕ"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "የቋንቋ ትምህርት"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "ሂሳብ"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "ሳይንስ እና ምርምር"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "የጥናት ቴክኒኮች"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "የሙከራ ዝግጅት"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "አካዴሚያዊ ትምህርት"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "የትምህርት መሣሪያዎች እና ችሎታዎች"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "የቋንቋ ትምህርት"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "የዕድሜ ልክ ትምህርት"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "የሙከራ ዝግጅት"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "ምግብ ማብሰል እና ምግብ"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "የቤት ጥገና"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "የግል ፋይናንስ"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "የጊዜ አያያዝ"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "ጉዞ እና አሰሳ"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "የግንኙነት እና ግንኙነቶች"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "ስሜታዊ ብልህነት"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "የመቋቋም እና እድገት"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "ራስን መግዛት"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "የጊዜ እና ግብ አስተዳደር"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "ምግብ ማብሰል እና የምግብ ዝግጅት"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY እና ጥገናዎች"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "የአትክልት እና ዘላቂነት"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "የቤት አስተዳደር"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "የግል ፋይናንስ"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "የመቋቋም ችሎታ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "አውቶሞቲቭ ጥገና"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "የግንባታ ንግድ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "የኤሌክትሪክ ሥራ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "የቤት ዕቃዎች እና ቸልተኞች"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "የእጅ መሣሪያ ችሎታ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "የቤት ልማት"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "የብረት ስራ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "ቧንቧ እና ማሞቂያ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "ጨርቃ ጨርቅ እና ቆዳ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "የእንጨት ሥራ"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "አውቶሞቲቭ ጥገና"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "የምህንድስና መሰረታዊ ነገሮች"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "የቤት ጥገና እና ጭነት"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "ማሽን ክወና"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "የመሳሪያ አጠቃቀም እና ደህንነት"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "እንጨትና የብረት ሥራ"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "ወሳኝ አስተሳሰብ"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "ጂኦግራፊ እና አከባቢ"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "ታሪክ እና ባህል"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "ቋንቋዎች"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "ሂሳብ"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "ማህደረ ትውስታ እና የትምህርት ችሎታዎች"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "ፍልስፍና እና ሥነምግባር"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "ሳይኮሎጂ እና ባህሪ"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "ሳይንስ እና ምርምር"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "የጥናት ቴክኒኮች"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "የግንዛቤ ተለዋዋጭነት"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "ወሳኝ አስተሳሰብ"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "የቋንቋ ትምህርት"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "ማህደረ ትውስታ እና ትኩረት"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "የጥናት ችሎታ"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "በራስ መተማመን እና በራስ መተማመን"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "ስሜታዊ ብልህነት"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "ግብ አቀማመጥ እና ዕቅድ"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "ልምዶች እና ተግሣጽ"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "የግለሰባዊ ችሎታ ችሎታ"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "አመራር እና ተጽዕኖ"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "አእምሮ እና ደህንነት"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "የህዝብ ንግግር"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "ራስን ማሰላሰል"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "ጊዜ እና ምርታማነት"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "መሪነት"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "የአእምሮ ደህንነት"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "ምርታማነት"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "የህዝብ ንግግር"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "ራስን ማሻሻል"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "ስሜታዊ ብልህነት"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "የግብ ቅንብር እና ስኬት"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "ልምዶች እና ምርታማነት"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "አእምሮ እና ደህንነት"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "የህዝብ ንግግር እና መግባባት"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "ራስን መግዛት እና ትኩረት"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "የአካል ብቃት እና ሁኔታ"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "የጉልበት ሥራ እና ነጋዴዎች"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "ከቤት ውጭ መዝናኛ"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "ራስን መከላከል እና ማርሻል አርት"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "ስፖርት እና አትሌቲክስ"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "ከጥፋት መትረፍ እና ቁጥቋጦ"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "የአካል ብቃት እና ጥንካሬ"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "የግለሰብ ስፖርት"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "የማርሻል አርት"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "ከቤት ውጭ እና ጀብዱ"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "መዝናኛ እንቅስቃሴዎች"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "የቡድን ስፖርት"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "አካዴሚያዊ ጽሑፍ"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "ባዮሎጂያዊ ሳይንስ"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "የኮምፒተር እና የውሂብ ሳይንስ"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "ምድር እና አካባቢያዊ ሳይንስ"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "የምህንድስና ሳይንስ"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "ሂሳብ እና ስታቲስቲክስ"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "የህክምና እና የጤና ሳይንስ"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "አካላዊ ሳይንስ"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "የምርምር ዘዴዎች"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "ማህበራዊ ሳይንስ"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "ሥነ ፈለክ"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "ባዮሎጂ እና የህይወት ሳይንስ"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "ኬሚስትሪ"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "የኮምፒተር ሳይንስ"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "የውሂብ ሳይንስ እና አይ"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "ምድር እና አካባቢያዊ ሳይንስ"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "የምህንድስና ሥነ-ምግባር"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "ሂሳብ እና ስታቲስቲክስ"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "ፊዚክስ እና ሜካኒክስ"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "ሮቦትቲክስ እና ራስ-ሰር"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "ሥነ ፈለክ"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "የባዮቴክኖሎጂ"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "ኬሚስትሪ"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "የኮምፒተር ሳይንስ"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "የውሂብ ሳይንስ እና አይ"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "ምድር እና አካባቢያዊ ሳይንስ"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "ኤሌክትሮኒክስ"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "ኢንጂነሪንግ"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "ሂሳብ እና ስታቲስቲክስ"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "ፊዚክስ"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "የአይ እና ማሽን ትምህርት"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "ደመና ስሌት"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "የሳይበር ፅንስ"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "ውሂብ እና ትንታኔዎች"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "የውሂብ ሳይንስ እና አይ"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "ያርቁ እና ራስ-ሰር"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "የጨዋታ ልማት"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "እሱ እና አውታረመረብ"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "እሱ ይደግፋል እና አውታረመረብ"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "የሞባይል መተግበሪያ ልማት"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "የፕሮግራም እና የሶፍትዌር ልማት"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "የሶፍትዌር ልማት"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "ቴክኖሎጂ ሃርድዌር እና ጥገና"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "የቴክኖሎጂ ድጋፍ እና መላ ፍለጋ"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "የድር ልማት"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "ሲቪል እና መዋቅራዊ"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "ኤሌክትሪክ ምህንድስና"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "ማምረቻ እና ማምረቻ"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "ሜካኒካል ምህንድስና"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "ሶፍትዌር እና ስርዓቶች"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "አውቶሞቲቭ ችሎታዎች"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "ግንባታ እና ህንፃ"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "የኤሌክትሪክ ሥራ"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "ኢነርጂ እና አከባቢ"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "የኢንዱስትሪ ችሎታዎች"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "ሜካኒካዊ ጥገና"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "የሳይበር ፅንስ"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "ውሂብ & Ai"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "ዲጂታል ግብይት"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "እሱ እና አውታረመረብ"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "የሶፍትዌር ልማት"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "ሰው ሰራሽ የማሰብ ችሎታ"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "ደመና ስሌት"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "የኮምፒተር መሰረታዊ ነገሮች"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "የሳይበር ፅንስ"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "ውሂብ & Ai"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "ውሂብ እና ትንታኔዎች"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "ዲጂታል ማንበብ"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "ዲጂታል ግብይት"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "ብቅ ያለው ቴክ"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "ሃርድዌር እና ኤሌክትሮኒክስ"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "እሱ እና አውታረመረብ"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "አውታረመረብ እና እሱ"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "መርሃግብሮች እና ልማት"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "የፕሮግራም እና የሶፍትዌር ልማት"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "የሶፍትዌር መሣሪያዎች"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "ቴክ ምርታማነት"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "የቴክኖሎጂ ድጋፍ እና ጥገና"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "የቴክኖሎጂ ድጋፍ እና መላ ፍለጋ"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "የድር እና የመተግበሪያ ልማት"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "ኮንስትራክሽን እና አናጢነት"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "ኤሌክትሪክ እና ቧንቧዎች"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "በእጅ የተሠሩ ዕቃዎች"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "ብረት ሥራ እና ሽርሽር"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "ጨርቃ ጨርቅ እና ቆዳ"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "ባህላዊ የእጅ ሥራዎች"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "አውቶሞቲቭ ጥገና"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "አናጢ እና የእንጨት ሥራ"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "ግንባታ እና ማሶሪ"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "የኤሌክትሪክ ሥራ"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC እና ማቀዝቀዣ"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "የጌጣጌጥ ሥራ"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "ብረት ሥራ እና ሽርሽር"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "ቀለም መቀባት እና ማስጌጥ"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "ቧንቧ"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "ታክሲ እና ስፌት"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "አውቶሞቲቭ ጥገና"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "አናጢ እና የእንጨት ሥራ"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "ግንባታ"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "ኮንስትራክሽን እና አናጢነት"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "የእጅ ጥበብ እና ጥገናዎች"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "ኤሌክትሪክ እና ሜካኒካል"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "የኤሌክትሪክ ሥራ"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC እና ማቀዝቀዣ"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "ከባድ የመሳሪያ ክወና"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "Massysy & treat"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "ብረት እና የእንጨት ሥራ"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "ቀለም መቀባት እና ማጠናቀቅ"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "ቧንቧ"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "የተሽከርካሪ እና የማሽን ጥገና"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "መጫኛ እና ብረት ሥራ"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "አውቶሞቲቭ"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "አናጢነት"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "ግንባታ"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "ኤሌክትሪክ"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "Hvac"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "ማሳዎች"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "ሜካኒካዊ"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "ቀለም መቀባት እና ማስጌጥ"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "ቧንቧ"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "ዌልስ"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "የቪዲዮ ምርት"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "የድምፅ ማምረት"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "ፎቶግራፍ"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "ግራፊክ ዲዛይን"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "እርምጃ እና አፈፃፀም"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "ጽሑፍ እና ስክሪፕትሪፕት"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "ስርጭት"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "ሥነጥበብ እና የእጅ ሥራዎች"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "ሙዚቃ እና መሣሪያዎች"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "ከቤት ውጭ እንቅስቃሴዎች"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "መሰብሰብ"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "የአካል ብቃት እና ደህንነት"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "የአትክልት ስፍራ"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "DIY ፕሮጄክቶች"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "የጣሊያን ምግብ"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "የጃፓን ምግብ"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "የሜክሲኮ ምግብ"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "የህንድ ምግብ"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "የፈረንሳይ ምግብ"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "የቻይንኛ ምግብ"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "የመካከለኛው ምስራቅ ምግብ"
+  }
+]

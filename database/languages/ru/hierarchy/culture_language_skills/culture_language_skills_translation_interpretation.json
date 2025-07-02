@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_translation_interpretation",
+  "name": "Перевод и интерпретация",
+  "skills": [
+    {
+      "id": "skill_2013",
+      "name": "Культурный контекст интерпретация",
+      "difficulty_level": 3,
+      "description": "Learn and master Cultural Context Interpretation",
+      "tags": [
+        "cultural",
+        "context",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "skill_2014",
+      "name": "Юридический перевод",
+      "difficulty_level": 1,
+      "description": "Learn and master Legal Translation",
+      "tags": [
+        "legal",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2015",
+      "name": "Медицинская интерпретация",
+      "difficulty_level": 2,
+      "description": "Learn and master Medical Interpretation",
+      "tags": [
+        "medical",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2016",
+      "name": "Многоязычная поддержка",
+      "difficulty_level": 3,
+      "description": "Learn and master Multilingual Support",
+      "tags": [
+        "multilingual",
+        "support",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2017",
+      "name": "Одновременная интерпретация",
+      "difficulty_level": 3,
+      "description": "Learn and master Simultaneous Interpretation",
+      "tags": [
+        "simultaneous",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2018",
+      "name": "Субтитры",
+      "difficulty_level": 2,
+      "description": "Learn and master Subtitling",
+      "tags": [
+        "subtitling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2019",
+      "name": "Перевод технического документа",
+      "difficulty_level": 4,
+      "description": "Learn and master Technical Document Translation",
+      "tags": [
+        "technical",
+        "document",
+        "translation"
+      ]
+    },
+    {
+      "id": "skill_2020",
+      "name": "Транскрипционный перевод",
+      "difficulty_level": 5,
+      "description": "Learn and master Transcription Translation",
+      "tags": [
+        "transcription",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2021",
+      "name": "Локализация веб -сайта",
+      "difficulty_level": 2,
+      "description": "Learn and master Website Localization",
+      "tags": [
+        "website",
+        "localization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2022",
+      "name": "Письменный перевод",
+      "difficulty_level": 3,
+      "description": "Learn and master Written Translation",
+      "tags": [
+        "written",
+        "translation",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "learning_academic_skills_mathematics",
+  "name": "数学",
+  "skills": [
+    {
+      "id": "skill_3158",
+      "name": "代数の基本",
+      "difficulty_level": 1,
+      "description": "Learn and master Algebra Basics",
+      "tags": [
+        "algebra",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3159",
+      "name": "微積分誘導体",
+      "difficulty_level": 2,
+      "description": "Learn and master Calculus Derivatives",
+      "tags": [
+        "calculus",
+        "derivatives",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3160",
+      "name": "ジオメトリプルーフ",
+      "difficulty_level": 3,
+      "description": "Learn and master Geometry Proofs",
+      "tags": [
+        "geometry",
+        "proofs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3161",
+      "name": "線形方程式",
+      "difficulty_level": 5,
+      "description": "Learn and master Linear Equations",
+      "tags": [
+        "linear",
+        "equations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3162",
+      "name": "数学の問題の問題",
+      "difficulty_level": 3,
+      "description": "Learn and master Math Word Problems",
+      "tags": [
+        "math",
+        "word",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_3163",
+      "name": "メンタル数学",
+      "difficulty_level": 1,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3164",
+      "name": "番号理論",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3165",
+      "name": "確率理論",
+      "difficulty_level": 2,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3166",
+      "name": "統計分析",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistics Analysis",
+      "tags": [
+        "statistics",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3167",
+      "name": "三角法のアイデンティティ",
+      "difficulty_level": 1,
+      "description": "Learn and master Trigonometric Identities",
+      "tags": [
+        "trigonometric",
+        "identities",
+        "skill"
+      ]
+    }
+  ]
+}

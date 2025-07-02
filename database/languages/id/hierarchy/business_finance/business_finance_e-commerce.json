@@ -1,0 +1,117 @@
+{
+  "id": "business_finance_e-commerce",
+  "name": "E-commerce",
+  "skills": [
+    {
+      "id": "skill_800",
+      "name": "Strategi retensi pelanggan",
+      "difficulty_level": 3,
+      "description": "Learn and master Customer Retention Strategies",
+      "tags": [
+        "customer",
+        "retention",
+        "strategies"
+      ]
+    },
+    {
+      "id": "skill_801",
+      "name": "Analitik e-commerce",
+      "difficulty_level": 4,
+      "description": "Learn and master E-commerce Analytics",
+      "tags": [
+        "e-commerce",
+        "analytics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_802",
+      "name": "Manajemen inventaris",
+      "difficulty_level": 2,
+      "description": "Learn and master Inventory Management",
+      "tags": [
+        "inventory",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_803",
+      "name": "Penjualan Marketplace (eBay, Amazon)",
+      "difficulty_level": 3,
+      "description": "Learn and master Marketplace Selling (eBay, Amazon)",
+      "tags": [
+        "marketplace",
+        "selling",
+        "(ebay,",
+        "amazon)"
+      ]
+    },
+    {
+      "id": "skill_804",
+      "name": "Integrasi pembayaran online",
+      "difficulty_level": 1,
+      "description": "Learn and master Online Payment Integration",
+      "tags": [
+        "online",
+        "payment",
+        "integration"
+      ]
+    },
+    {
+      "id": "skill_805",
+      "name": "Pemenuhan perintah",
+      "difficulty_level": 2,
+      "description": "Learn and master Order Fulfillment",
+      "tags": [
+        "order",
+        "fulfillment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_806",
+      "name": "Optimasi daftar produk",
+      "difficulty_level": 4,
+      "description": "Learn and master Product Listing Optimization",
+      "tags": [
+        "product",
+        "listing",
+        "optimization"
+      ]
+    },
+    {
+      "id": "skill_807",
+      "name": "Pengembalian Penanganan Kebijakan",
+      "difficulty_level": 1,
+      "description": "Learn and master Return Policy Handling",
+      "tags": [
+        "return",
+        "policy",
+        "handling"
+      ]
+    },
+    {
+      "id": "skill_808",
+      "name": "Pengaturan toko Shopify",
+      "difficulty_level": 5,
+      "description": "Learn and master Shopify Store Setup",
+      "tags": [
+        "shopify",
+        "store",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_809",
+      "name": "Teknik upselling",
+      "difficulty_level": 2,
+      "description": "Learn and master Upselling Techniques",
+      "tags": [
+        "upselling",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

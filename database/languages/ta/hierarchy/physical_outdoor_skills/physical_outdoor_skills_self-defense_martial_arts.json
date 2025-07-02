@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_self-defense_martial_arts",
+  "name": "தற்காப்பு மற்றும் தற்காப்பு கலைகள்",
+  "skills": [
+    {
+      "id": "skill_3958",
+      "name": "அடிப்படை ஜியு-ஜிட்சு",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Jiu-Jitsu",
+      "tags": [
+        "basic",
+        "jiu-jitsu",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3959",
+      "name": "குத்துச்சண்டை நுட்பங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Boxing Techniques",
+      "tags": [
+        "boxing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3960",
+      "name": "முறிவு நுட்பங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Breakfall Techniques",
+      "tags": [
+        "breakfall",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3961",
+      "name": "கராத்தே கட்டா",
+      "difficulty_level": 1,
+      "description": "Learn and master Karate Kata",
+      "tags": [
+        "karate",
+        "kata",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3962",
+      "name": "கிக் பாதுகாப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Kick Defense",
+      "tags": [
+        "kick",
+        "defense",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3963",
+      "name": "கிராவ் மாகா அடிப்படைகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Krav Maga Basics",
+      "tags": [
+        "krav",
+        "maga",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_3964",
+      "name": "முய் தாய் உதைக்கிறார்",
+      "difficulty_level": 3,
+      "description": "Learn and master Muay Thai Kicks",
+      "tags": [
+        "muay",
+        "thai",
+        "kicks"
+      ]
+    },
+    {
+      "id": "skill_3965",
+      "name": "தற்காப்பு விழிப்புணர்வு",
+      "difficulty_level": 3,
+      "description": "Learn and master Self-Defense Awareness",
+      "tags": [
+        "self-defense",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3966",
+      "name": "தரமிறக்குதல் பாதுகாப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Takedown Defense",
+      "tags": [
+        "takedown",
+        "defense",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3967",
+      "name": "மணிக்கட்டு பூட்டு தப்பிக்கிறது",
+      "difficulty_level": 5,
+      "description": "Learn and master Wrist Lock Escapes",
+      "tags": [
+        "wrist",
+        "lock",
+        "escapes"
+      ]
+    }
+  ]
+}

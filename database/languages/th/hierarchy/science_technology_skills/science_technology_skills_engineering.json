@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_engineering",
+  "name": "วิศวกรรม",
+  "skills": [
+    {
+      "id": "skill_4318",
+      "name": "ซอฟต์แวร์ CAD",
+      "difficulty_level": 2,
+      "description": "Learn and master CAD Software",
+      "tags": [
+        "software",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4319",
+      "name": "การวางแผนการก่อสร้างพลเรือน",
+      "difficulty_level": 2,
+      "description": "Learn and master Civil Construction Planning",
+      "tags": [
+        "civil",
+        "construction",
+        "planning"
+      ]
+    },
+    {
+      "id": "skill_4320",
+      "name": "การออกแบบวงจรไฟฟ้า",
+      "difficulty_level": 2,
+      "description": "Learn and master Electrical Circuit Design",
+      "tags": [
+        "electrical",
+        "circuit",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4321",
+      "name": "กลไกของเหลว",
+      "difficulty_level": 2,
+      "description": "Learn and master Fluid Mechanics",
+      "tags": [
+        "fluid",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4322",
+      "name": "วิทยาศาสตร์วัสดุ",
+      "difficulty_level": 3,
+      "description": "Learn and master Materials Science",
+      "tags": [
+        "materials",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4323",
+      "name": "การร่างเชิงกล",
+      "difficulty_level": 4,
+      "description": "Learn and master Mechanical Drafting",
+      "tags": [
+        "mechanical",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4324",
+      "name": "เมคคาทรอนิกส์",
+      "difficulty_level": 3,
+      "description": "Learn and master Mechatronics",
+      "tags": [
+        "mechatronics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4325",
+      "name": "การวิเคราะห์โครงสร้าง",
+      "difficulty_level": 4,
+      "description": "Learn and master Structural Analysis",
+      "tags": [
+        "structural",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4326",
+      "name": "วิศวกรรมระบบ",
+      "difficulty_level": 5,
+      "description": "Learn and master Systems Engineering",
+      "tags": [
+        "systems",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4327",
+      "name": "อุณหพลศาสตร์",
+      "difficulty_level": 3,
+      "description": "Learn and master Thermodynamics",
+      "tags": [
+        "thermodynamics",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_mathematics_statistics",
+  "name": "Wiskunde en statistieken",
+  "skills": [
+    {
+      "id": "skill_4328",
+      "name": "Calculus",
+      "difficulty_level": 5,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4329",
+      "name": "Discrete wiskunde",
+      "difficulty_level": 5,
+      "description": "Learn and master Discrete Math",
+      "tags": [
+        "discrete",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4330",
+      "name": "Speltheorie",
+      "difficulty_level": 1,
+      "description": "Learn and master Game Theory",
+      "tags": [
+        "game",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4331",
+      "name": "Graph -theorie",
+      "difficulty_level": 5,
+      "description": "Learn and master Graph Theory",
+      "tags": [
+        "graph",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4332",
+      "name": "Lineaire algebra",
+      "difficulty_level": 1,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4333",
+      "name": "Wiskundig bewijs schrijven",
+      "difficulty_level": 5,
+      "description": "Learn and master Mathematical Proof Writing",
+      "tags": [
+        "mathematical",
+        "proof",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_4334",
+      "name": "Aantal theorie",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4335",
+      "name": "Waarschijnlijkheidstheorie",
+      "difficulty_level": 1,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4336",
+      "name": "Regressieanalyse",
+      "difficulty_level": 3,
+      "description": "Learn and master Regression Analysis",
+      "tags": [
+        "regression",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4337",
+      "name": "Statistische modellering",
+      "difficulty_level": 5,
+      "description": "Learn and master Statistical Modeling",
+      "tags": [
+        "statistical",
+        "modeling",
+        "skill"
+      ]
+    }
+  ]
+}

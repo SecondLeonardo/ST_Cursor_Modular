@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "المهارات الأكاديمية والبحثية",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "العرض الأكاديمي"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "تحليل البيانات"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "اللغة والكتابة"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "الرياضيات والإحصاءات"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "البحث العلمي"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "دراسة واختبار الإعدادية"
+    }
+  ]
+}

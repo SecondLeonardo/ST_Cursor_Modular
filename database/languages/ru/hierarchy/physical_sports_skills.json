@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "Физические и спортивные навыки",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "Фитнес и сила"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "Отдельные виды спорта"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "Боевые искусства"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "Outdoor & Adventure"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "Развлекательная деятельность"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "Командные виды спорта"
+    }
+  ]
+}

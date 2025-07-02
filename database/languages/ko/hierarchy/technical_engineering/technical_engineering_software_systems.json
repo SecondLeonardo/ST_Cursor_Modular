@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_software_systems",
+  "name": "소프트웨어 및 시스템",
+  "skills": [
+    {
+      "id": "skill_4546",
+      "name": "API 및 통합",
+      "difficulty_level": 1,
+      "description": "Learn and master APIs and Integration",
+      "tags": [
+        "apis",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4547",
+      "name": "민첩한 개발 관행",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Development Practices",
+      "tags": [
+        "agile",
+        "development",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4548",
+      "name": "CI/CD 파이프 라인",
+      "difficulty_level": 1,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4549",
+      "name": "클라우드 인프라 (AWS/GCP)",
+      "difficulty_level": 3,
+      "description": "Learn and master Cloud Infrastructure (AWS/GCP)",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "(aws/gcp)"
+      ]
+    },
+    {
+      "id": "skill_4550",
+      "name": "디버깅 기술",
+      "difficulty_level": 1,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4551",
+      "name": "소프트웨어 테스트 기본",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Testing Basics",
+      "tags": [
+        "software",
+        "testing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4552",
+      "name": "시스템 아키텍처 설계",
+      "difficulty_level": 1,
+      "description": "Learn and master System Architecture Design",
+      "tags": [
+        "system",
+        "architecture",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4553",
+      "name": "기술 문서",
+      "difficulty_level": 1,
+      "description": "Learn and master Technical Documentation",
+      "tags": [
+        "technical",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4554",
+      "name": "UML 다이어그램",
+      "difficulty_level": 5,
+      "description": "Learn and master UML Diagramming",
+      "tags": [
+        "diagramming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4555",
+      "name": "git로 버전 제어",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

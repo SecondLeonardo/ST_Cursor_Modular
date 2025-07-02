@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_metalwork_welding",
+  "name": "ብረት ሥራ እና ሽርሽር",
+  "skills": [
+    {
+      "id": "skill_4895",
+      "name": "አርክ ዌልዲንግ",
+      "difficulty_level": 2,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4896",
+      "name": "ብረት መፍጨት",
+      "difficulty_level": 5,
+      "description": "Learn and master Grinding Metal",
+      "tags": [
+        "grinding",
+        "metal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4897",
+      "name": "አረብ ብረት ማከም",
+      "difficulty_level": 5,
+      "description": "Learn and master Heat Treating Steel",
+      "tags": [
+        "heat",
+        "treating",
+        "steel"
+      ]
+    },
+    {
+      "id": "skill_4898",
+      "name": "መሸሽ",
+      "difficulty_level": 2,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4899",
+      "name": "የብረት መለኪያ እና ምልክት ማድረጊያ",
+      "difficulty_level": 4,
+      "description": "Learn and master Metal Measuring & Marking",
+      "tags": [
+        "metal",
+        "measuring",
+        "marking"
+      ]
+    },
+    {
+      "id": "skill_4900",
+      "name": "ፕላዝማ መቆረጥ",
+      "difficulty_level": 4,
+      "description": "Learn and master Plasma Cutting",
+      "tags": [
+        "plasma",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4901",
+      "name": "ሉህ ብረት ማጠፊያ",
+      "difficulty_level": 4,
+      "description": "Learn and master Sheet Metal Bending",
+      "tags": [
+        "sheet",
+        "metal",
+        "bending"
+      ]
+    },
+    {
+      "id": "skill_4902",
+      "name": "የሸክላ ቴክኒኮች",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering Techniques",
+      "tags": [
+        "soldering",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4903",
+      "name": "አንድ አንግል ፍርግርግ በመጠቀም",
+      "difficulty_level": 5,
+      "description": "Learn and master Using an Angle Grinder",
+      "tags": [
+        "using",
+        "angle",
+        "grinder"
+      ]
+    },
+    {
+      "id": "skill_4904",
+      "name": "የመገጣጠሚያ ዓይነቶች",
+      "difficulty_level": 3,
+      "description": "Learn and master Welding Joint Types",
+      "tags": [
+        "welding",
+        "joint",
+        "types"
+      ]
+    }
+  ]
+}

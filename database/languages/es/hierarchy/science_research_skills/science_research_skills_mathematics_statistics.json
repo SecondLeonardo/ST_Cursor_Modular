@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_mathematics_statistics",
+  "name": "Matemáticas y estadísticas",
+  "skills": [
+    {
+      "id": "skill_4098",
+      "name": "Inferencia bayesiana",
+      "difficulty_level": 1,
+      "description": "Learn and master Bayesian Inference",
+      "tags": [
+        "bayesian",
+        "inference",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4099",
+      "name": "Cálculo",
+      "difficulty_level": 1,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4100",
+      "name": "Combinatorio",
+      "difficulty_level": 4,
+      "description": "Learn and master Combinatorics",
+      "tags": [
+        "combinatorics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4101",
+      "name": "Visualización de datos",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4102",
+      "name": "Álgebra lineal",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4103",
+      "name": "Modelado matemático",
+      "difficulty_level": 1,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4104",
+      "name": "Teoría de números",
+      "difficulty_level": 5,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4105",
+      "name": "Teoría de la probabilidad",
+      "difficulty_level": 4,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4106",
+      "name": "Análisis de regresión",
+      "difficulty_level": 1,
+      "description": "Learn and master Regression Analysis",
+      "tags": [
+        "regression",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4107",
+      "name": "Análisis estadístico",
+      "difficulty_level": 4,
+      "description": "Learn and master Statistical Analysis",
+      "tags": [
+        "statistical",
+        "analysis",
+        "skill"
+      ]
+    }
+  ]
+}

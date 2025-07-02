@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "물리 및 야외 기술",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "피트니스 및 컨디셔닝"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "수동 노동 및 거래"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "야외 레크리에이션"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "자기 방어 및 무술"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "스포츠 및 운동"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "생존 및 부시 크래프트"
+    }
+  ]
+}

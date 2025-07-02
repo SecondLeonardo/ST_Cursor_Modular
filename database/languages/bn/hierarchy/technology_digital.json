@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "প্রযুক্তি এবং ডিজিটাল",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "সাইবারসিকিউরিটি"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "ডেটা এবং এআই"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "ডিজিটাল বিপণন"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "এটি এবং নেটওয়ার্কিং"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "সফ্টওয়্যার বিকাশ"
+    }
+  ]
+}

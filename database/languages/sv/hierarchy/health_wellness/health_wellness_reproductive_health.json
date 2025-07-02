@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_reproductive_health",
+  "name": "Reproduktiv hälsa",
+  "skills": [
+    {
+      "id": "skill_2629",
+      "name": "Födelsekontrollmetoder",
+      "difficulty_level": 1,
+      "description": "Learn and master Birth Control Methods",
+      "tags": [
+        "birth",
+        "control",
+        "methods"
+      ]
+    },
+    {
+      "id": "skill_2630",
+      "name": "Fertilitetsmedvetenhet",
+      "difficulty_level": 3,
+      "description": "Learn and master Fertility Awareness",
+      "tags": [
+        "fertility",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2631",
+      "name": "Hormonell medvetenhet",
+      "difficulty_level": 4,
+      "description": "Learn and master Hormonal Awareness",
+      "tags": [
+        "hormonal",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2632",
+      "name": "Intimitetskommunikation",
+      "difficulty_level": 3,
+      "description": "Learn and master Intimacy Communication",
+      "tags": [
+        "intimacy",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2633",
+      "name": "Menstruationscykelspårning",
+      "difficulty_level": 3,
+      "description": "Learn and master Menstrual Cycle Tracking",
+      "tags": [
+        "menstrual",
+        "cycle",
+        "tracking"
+      ]
+    },
+    {
+      "id": "skill_2634",
+      "name": "Grunder om graviditetsvård",
+      "difficulty_level": 5,
+      "description": "Learn and master Pregnancy Care Basics",
+      "tags": [
+        "pregnancy",
+        "care",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2635",
+      "name": "Prenatalövningar",
+      "difficulty_level": 3,
+      "description": "Learn and master Prenatal Exercises",
+      "tags": [
+        "prenatal",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2636",
+      "name": "STD -förebyggande",
+      "difficulty_level": 3,
+      "description": "Learn and master STD Prevention",
+      "tags": [
+        "prevention",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2637",
+      "name": "Säker praxis utbildning",
+      "difficulty_level": 4,
+      "description": "Learn and master Safe Practices Education",
+      "tags": [
+        "safe",
+        "practices",
+        "education"
+      ]
+    },
+    {
+      "id": "skill_2638",
+      "name": "Sexuell hälsopraxis",
+      "difficulty_level": 2,
+      "description": "Learn and master Sexual Health Practices",
+      "tags": [
+        "sexual",
+        "health",
+        "practices"
+      ]
+    }
+  ]
+}

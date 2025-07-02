@@ -1,0 +1,105 @@
+{
+  "id": "science_technology_skills_physics",
+  "name": "భౌతికశాస్త్రం",
+  "skills": [
+    {
+      "id": "skill_4338",
+      "name": "ఆస్ట్రోఫిజిక్స్ బేసిక్స్",
+      "difficulty_level": 4,
+      "description": "Learn and master Astrophysics Basics",
+      "tags": [
+        "astrophysics",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4339",
+      "name": "క్లాసికల్ మెకానిక్స్",
+      "difficulty_level": 5,
+      "description": "Learn and master Classical Mechanics",
+      "tags": [
+        "classical",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4340",
+      "name": "విద్యుదయస్కాంతత్వం",
+      "difficulty_level": 1,
+      "description": "Learn and master Electromagnetism",
+      "tags": [
+        "electromagnetism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4341",
+      "name": "ప్రయోగాత్మక భౌతిక శాస్త్రం",
+      "difficulty_level": 3,
+      "description": "Learn and master Experimental Physics",
+      "tags": [
+        "experimental",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4342",
+      "name": "అణు భౌతిక శాస్త్రం",
+      "difficulty_level": 5,
+      "description": "Learn and master Nuclear Physics",
+      "tags": [
+        "nuclear",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4343",
+      "name": "ఆప్టిక్స్ & లైట్",
+      "difficulty_level": 2,
+      "description": "Learn and master Optics & Light",
+      "tags": [
+        "optics",
+        "light",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4344",
+      "name": "క్వాంటం ఫిజిక్స్",
+      "difficulty_level": 2,
+      "description": "Learn and master Quantum Physics",
+      "tags": [
+        "quantum",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4345",
+      "name": "సాపేక్షత",
+      "difficulty_level": 3,
+      "description": "Learn and master Relativity",
+      "tags": [
+        "relativity",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4346",
+      "name": "వేవ్ సిద్ధాంతం",
+      "difficulty_level": 1,
+      "description": "Learn and master Wave Theory",
+      "tags": [
+        "wave",
+        "theory",
+        "skill"
+      ]
+    }
+  ]
+}

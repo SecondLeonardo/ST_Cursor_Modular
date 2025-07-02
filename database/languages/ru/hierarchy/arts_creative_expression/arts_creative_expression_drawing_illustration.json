@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_drawing_illustration",
+  "name": "Рисунок и иллюстрация",
+  "skills": [
+    {
+      "id": "skill_350",
+      "name": "Мультипликация",
+      "difficulty_level": 4,
+      "description": "Learn and master Cartooning",
+      "tags": [
+        "cartooning",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_351",
+      "name": "Дизайн персонажа",
+      "difficulty_level": 3,
+      "description": "Learn and master Character Design",
+      "tags": [
+        "character",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_352",
+      "name": "Цифровая иллюстрация",
+      "difficulty_level": 2,
+      "description": "Learn and master Digital Illustration",
+      "tags": [
+        "digital",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_353",
+      "name": "Рисунок фигуры",
+      "difficulty_level": 4,
+      "description": "Learn and master Figure Drawing",
+      "tags": [
+        "figure",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_354",
+      "name": "Нажатие",
+      "difficulty_level": 1,
+      "description": "Learn and master Inking",
+      "tags": [
+        "inking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_355",
+      "name": "Линейное искусство",
+      "difficulty_level": 2,
+      "description": "Learn and master Line Art",
+      "tags": [
+        "line",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_356",
+      "name": "Карандашные наброски",
+      "difficulty_level": 3,
+      "description": "Learn and master Pencil Sketching",
+      "tags": [
+        "pencil",
+        "sketching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_357",
+      "name": "Перспективный рисунок",
+      "difficulty_level": 1,
+      "description": "Learn and master Perspective Drawing",
+      "tags": [
+        "perspective",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_358",
+      "name": "Методы затенения",
+      "difficulty_level": 4,
+      "description": "Learn and master Shading Techniques",
+      "tags": [
+        "shading",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_359",
+      "name": "Создание раскадровки",
+      "difficulty_level": 4,
+      "description": "Learn and master Storyboard Creation",
+      "tags": [
+        "storyboard",
+        "creation",
+        "skill"
+      ]
+    }
+  ]
+}

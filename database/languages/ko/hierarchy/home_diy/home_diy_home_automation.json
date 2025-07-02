@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_home_automation",
+  "name": "홈 자동화",
+  "skills": [
+    {
+      "id": "skill_2888",
+      "name": "앱 기반 자동화",
+      "difficulty_level": 3,
+      "description": "Learn and master App-Based Automation",
+      "tags": [
+        "app-based",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2889",
+      "name": "홈 네트워크 기본",
+      "difficulty_level": 4,
+      "description": "Learn and master Home Network Basics",
+      "tags": [
+        "home",
+        "network",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2890",
+      "name": "홈 Wi-Fi 최적화",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Wi-Fi Optimization",
+      "tags": [
+        "home",
+        "wi-fi",
+        "optimization"
+      ]
+    },
+    {
+      "id": "skill_2891",
+      "name": "IFTTT 설정",
+      "difficulty_level": 4,
+      "description": "Learn and master IFTTT Setup",
+      "tags": [
+        "ifttt",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2892",
+      "name": "일상적인 스크립팅",
+      "difficulty_level": 5,
+      "description": "Learn and master Routine Scripting",
+      "tags": [
+        "routine",
+        "scripting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2893",
+      "name": "보안 카메라 설치",
+      "difficulty_level": 5,
+      "description": "Learn and master Security Camera Installation",
+      "tags": [
+        "security",
+        "camera",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_2894",
+      "name": "스마트 전구 설정",
+      "difficulty_level": 4,
+      "description": "Learn and master Smart Bulb Setup",
+      "tags": [
+        "smart",
+        "bulb",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_2895",
+      "name": "스마트 잠금 설정",
+      "difficulty_level": 5,
+      "description": "Learn and master Smart Lock Setup",
+      "tags": [
+        "smart",
+        "lock",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_2896",
+      "name": "스마트 온도 조절 장치 사용",
+      "difficulty_level": 5,
+      "description": "Learn and master Smart Thermostat Use",
+      "tags": [
+        "smart",
+        "thermostat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2897",
+      "name": "음성 보조 통합",
+      "difficulty_level": 2,
+      "description": "Learn and master Voice Assistant Integration",
+      "tags": [
+        "voice",
+        "assistant",
+        "integration"
+      ]
+    }
+  ]
+}

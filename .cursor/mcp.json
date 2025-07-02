@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "R0.0": "MANDATORY UIUX Document Reference",
+    "R0.1": "New File Creation Protocol",
+    "R0.2": "iOS 15.1 Deployment Target",
+    "R0.3": "MANDATORY Error Resolution After Task Completion",
+    "R0.4": "MANDATORY Minimal Change Debugging Protocol",
+    "R0.8": "MANDATORY iPhone 16 Pro Max Simulator Target"
+  },
+  "version": "1.0"
+}

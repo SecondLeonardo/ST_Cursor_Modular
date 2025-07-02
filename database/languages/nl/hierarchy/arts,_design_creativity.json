@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "Kunst, ontwerp en creativiteit",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "Crafts & DIY"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "Creatief schrijven"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "Ontwerp en digitale kunst"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "Uitvoerende kunsten"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "Beeldende kunst"
+    }
+  ]
+}

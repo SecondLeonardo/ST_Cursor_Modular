@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_performing_arts",
+  "name": "Sahne Sanatları",
+  "skills": [
+    {
+      "id": "skill_390",
+      "name": "Oyunculuk teknikleri",
+      "difficulty_level": 2,
+      "description": "Learn and master Acting Techniques",
+      "tags": [
+        "acting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_391",
+      "name": "Dans koreografisi",
+      "difficulty_level": 2,
+      "description": "Learn and master Dance Choreography",
+      "tags": [
+        "dance",
+        "choreography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_392",
+      "name": "Doğaçlama",
+      "difficulty_level": 5,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_393",
+      "name": "Canlı Tiyatro Yapımı",
+      "difficulty_level": 2,
+      "description": "Learn and master Live Theatre Production",
+      "tags": [
+        "live",
+        "theatre",
+        "production"
+      ]
+    },
+    {
+      "id": "skill_394",
+      "name": "Mim",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_395",
+      "name": "Monolog performansı",
+      "difficulty_level": 4,
+      "description": "Learn and master Monologue Performance",
+      "tags": [
+        "monologue",
+        "performance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_396",
+      "name": "Komut dosyası analizi",
+      "difficulty_level": 3,
+      "description": "Learn and master Script Analysis",
+      "tags": [
+        "script",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_397",
+      "name": "Sahne savaşı",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Combat",
+      "tags": [
+        "stage",
+        "combat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_398",
+      "name": "Sahne varlığı",
+      "difficulty_level": 4,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_399",
+      "name": "Ses modülasyonu",
+      "difficulty_level": 4,
+      "description": "Learn and master Voice Modulation",
+      "tags": [
+        "voice",
+        "modulation",
+        "skill"
+      ]
+    }
+  ]
+}

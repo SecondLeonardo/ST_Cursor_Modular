@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_survival_bushcraft",
+  "name": "Survival & Bushcraft",
+  "skills": [
+    {
+      "id": "skill_3978",
+      "name": "Camouflage Techniques",
+      "difficulty_level": 3,
+      "description": "Learn and master Camouflage Techniques",
+      "tags": [
+        "camouflage",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3979",
+      "name": "Finding Potable Water",
+      "difficulty_level": 2,
+      "description": "Learn and master Finding Potable Water",
+      "tags": [
+        "finding",
+        "potable",
+        "water"
+      ]
+    },
+    {
+      "id": "skill_3980",
+      "name": "Fire Starting",
+      "difficulty_level": 3,
+      "description": "Learn and master Fire Starting",
+      "tags": [
+        "fire",
+        "starting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3981",
+      "name": "Fishing Without Gear",
+      "difficulty_level": 1,
+      "description": "Learn and master Fishing Without Gear",
+      "tags": [
+        "fishing",
+        "without",
+        "gear"
+      ]
+    },
+    {
+      "id": "skill_3982",
+      "name": "Navigating Without GPS",
+      "difficulty_level": 5,
+      "description": "Learn and master Navigating Without GPS",
+      "tags": [
+        "navigating",
+        "without",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3983",
+      "name": "Reading the Weather",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading the Weather",
+      "tags": [
+        "reading",
+        "weather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3984",
+      "name": "Shelter Building",
+      "difficulty_level": 4,
+      "description": "Learn and master Shelter Building",
+      "tags": [
+        "shelter",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3985",
+      "name": "Tracking Animals",
+      "difficulty_level": 2,
+      "description": "Learn and master Tracking Animals",
+      "tags": [
+        "tracking",
+        "animals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3986",
+      "name": "Tying Knots",
+      "difficulty_level": 4,
+      "description": "Learn and master Tying Knots",
+      "tags": [
+        "tying",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3987",
+      "name": "Wilderness Cooking",
+      "difficulty_level": 2,
+      "description": "Learn and master Wilderness Cooking",
+      "tags": [
+        "wilderness",
+        "cooking",
+        "skill"
+      ]
+    }
+  ]
+}

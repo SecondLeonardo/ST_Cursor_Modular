@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "Operazioni e tecnici",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "Automobile"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "Carpenteria"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "Costruzione"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "Elettrico"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "Hvac"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "Massoneria"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "Meccanico"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "Dipinto e decorazione"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "Impianto idraulico"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "Saldatura"
+    }
+  ]
+}

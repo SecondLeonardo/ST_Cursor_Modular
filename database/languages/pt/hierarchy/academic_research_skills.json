@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "Habilidades acadêmicas e de pesquisa",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "Apresentação acadêmica"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "Análise de dados"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "Idioma e escrita"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "Matemática e Estatística"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "Pesquisa científica"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "Estudo e preparação de teste"
+    }
+  ]
+}

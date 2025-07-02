@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "ዲጂታል እና የቴክኖሎጂ ችሎታዎች",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "የሳይበር ፅንስ"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "ውሂብ & Ai"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "እሱ እና አውታረመረብ"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "መርሃግብሮች እና ልማት"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "ድር እና ሞባይል"
+    }
+  ]
+}

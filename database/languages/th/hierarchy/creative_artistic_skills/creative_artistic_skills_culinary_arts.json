@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_culinary_arts",
+  "name": "ศิลปะการทำอาหาร",
+  "skills": [
+    {
+      "id": "skill_1509",
+      "name": "การอบ",
+      "difficulty_level": 1,
+      "description": "Learn and master Baking",
+      "tags": [
+        "baking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1510",
+      "name": "การหมัก",
+      "difficulty_level": 3,
+      "description": "Learn and master Fermentation",
+      "tags": [
+        "fermentation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1511",
+      "name": "การชุบอาหาร",
+      "difficulty_level": 4,
+      "description": "Learn and master Food Plating",
+      "tags": [
+        "food",
+        "plating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1512",
+      "name": "การย่าง",
+      "difficulty_level": 3,
+      "description": "Learn and master Grilling",
+      "tags": [
+        "grilling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1513",
+      "name": "อาหารนานาชาติ",
+      "difficulty_level": 5,
+      "description": "Learn and master International Cuisines",
+      "tags": [
+        "international",
+        "cuisines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1514",
+      "name": "ทักษะมีด",
+      "difficulty_level": 3,
+      "description": "Learn and master Knife Skills",
+      "tags": [
+        "knife",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1515",
+      "name": "การเตรียมอาหาร",
+      "difficulty_level": 2,
+      "description": "Learn and master Meal Prepping",
+      "tags": [
+        "meal",
+        "prepping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1516",
+      "name": "มิกซ์วิทยา",
+      "difficulty_level": 3,
+      "description": "Learn and master Mixology",
+      "tags": [
+        "mixology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1517",
+      "name": "ทำขนม",
+      "difficulty_level": 4,
+      "description": "Learn and master Pastry Making",
+      "tags": [
+        "pastry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1518",
+      "name": "การเตรียมซอส",
+      "difficulty_level": 1,
+      "description": "Learn and master Sauce Preparation",
+      "tags": [
+        "sauce",
+        "preparation",
+        "skill"
+      ]
+    }
+  ]
+}

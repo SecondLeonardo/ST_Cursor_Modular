@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "வர்த்தகங்கள் மற்றும் கைவினைத்திறன்",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "வாகன பழுது"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "தச்சு & மரவேலை"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "கட்டுமானம் & கொத்து"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "மின் வேலை"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "எச்.வி.ஐ.சி & குளிர்பதன"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "நகைகள் தயாரித்தல்"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "உலோக வேலைகள் மற்றும் வெல்டிங்"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "ஓவியம் மற்றும் அலங்கரித்தல்"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "பிளம்பிங்"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "தையல் மற்றும் தையல்"
+    }
+  ]
+}

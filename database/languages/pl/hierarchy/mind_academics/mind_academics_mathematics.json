@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_mathematics",
+  "name": "Matematyka",
+  "skills": [
+    {
+      "id": "skill_3608",
+      "name": "Algebra",
+      "difficulty_level": 5,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3609",
+      "name": "Rachunek różniczkowy",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3610",
+      "name": "Geometria",
+      "difficulty_level": 4,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3611",
+      "name": "Rozwiązywanie problemów matematycznych",
+      "difficulty_level": 1,
+      "description": "Learn and master Math Problem Solving",
+      "tags": [
+        "math",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_3612",
+      "name": "Matematyka dla finansów",
+      "difficulty_level": 1,
+      "description": "Learn and master Math for Finance",
+      "tags": [
+        "math",
+        "finance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3613",
+      "name": "Logika matematyczna",
+      "difficulty_level": 3,
+      "description": "Learn and master Mathematical Logic",
+      "tags": [
+        "mathematical",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3614",
+      "name": "Matematyka mentalna",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3615",
+      "name": "Teoria liczb",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3616",
+      "name": "Prawdopodobieństwo i statystyki",
+      "difficulty_level": 4,
+      "description": "Learn and master Probability & Statistics",
+      "tags": [
+        "probability",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3617",
+      "name": "Trygonometria",
+      "difficulty_level": 4,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

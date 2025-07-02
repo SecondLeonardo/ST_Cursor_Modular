@@ -1,0 +1,105 @@
+{
+  "id": "science_technology_skills_physics",
+  "name": "物理",
+  "skills": [
+    {
+      "id": "skill_4338",
+      "name": "天体物理学の基本",
+      "difficulty_level": 4,
+      "description": "Learn and master Astrophysics Basics",
+      "tags": [
+        "astrophysics",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4339",
+      "name": "古典的なメカニズム",
+      "difficulty_level": 5,
+      "description": "Learn and master Classical Mechanics",
+      "tags": [
+        "classical",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4340",
+      "name": "電磁気",
+      "difficulty_level": 1,
+      "description": "Learn and master Electromagnetism",
+      "tags": [
+        "electromagnetism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4341",
+      "name": "実験物理学",
+      "difficulty_level": 3,
+      "description": "Learn and master Experimental Physics",
+      "tags": [
+        "experimental",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4342",
+      "name": "核物理学",
+      "difficulty_level": 5,
+      "description": "Learn and master Nuclear Physics",
+      "tags": [
+        "nuclear",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4343",
+      "name": "光学と光",
+      "difficulty_level": 2,
+      "description": "Learn and master Optics & Light",
+      "tags": [
+        "optics",
+        "light",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4344",
+      "name": "量子物理学",
+      "difficulty_level": 2,
+      "description": "Learn and master Quantum Physics",
+      "tags": [
+        "quantum",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4345",
+      "name": "相対性理論",
+      "difficulty_level": 3,
+      "description": "Learn and master Relativity",
+      "tags": [
+        "relativity",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4346",
+      "name": "波の理論",
+      "difficulty_level": 1,
+      "description": "Learn and master Wave Theory",
+      "tags": [
+        "wave",
+        "theory",
+        "skill"
+      ]
+    }
+  ]
+}

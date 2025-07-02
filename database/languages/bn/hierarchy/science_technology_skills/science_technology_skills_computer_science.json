@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_computer_science",
+  "name": "কম্পিউটার বিজ্ঞান",
+  "skills": [
+    {
+      "id": "skill_4278",
+      "name": "এপিআই ইন্টিগ্রেশন",
+      "difficulty_level": 2,
+      "description": "Learn and master API Integration",
+      "tags": [
+        "integration",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4279",
+      "name": "চতুর বিকাশ",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Development",
+      "tags": [
+        "agile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4280",
+      "name": "অ্যালগরিদম ডিজাইন",
+      "difficulty_level": 1,
+      "description": "Learn and master Algorithms Design",
+      "tags": [
+        "algorithms",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4281",
+      "name": "ব্যাকএন্ড বিকাশ",
+      "difficulty_level": 2,
+      "description": "Learn and master Backend Development",
+      "tags": [
+        "backend",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4282",
+      "name": "ক্লাউড কম্পিউটিং",
+      "difficulty_level": 4,
+      "description": "Learn and master Cloud Computing",
+      "tags": [
+        "cloud",
+        "computing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4283",
+      "name": "সাইবারসিকিউরিটি ফান্ডামেন্টালস",
+      "difficulty_level": 3,
+      "description": "Learn and master Cybersecurity Fundamentals",
+      "tags": [
+        "cybersecurity",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4284",
+      "name": "ডাটাবেস পরিচালনা",
+      "difficulty_level": 5,
+      "description": "Learn and master Database Management",
+      "tags": [
+        "database",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4285",
+      "name": "ফ্রন্টএন্ড ডেভলপমেন্ট",
+      "difficulty_level": 2,
+      "description": "Learn and master Frontend Development",
+      "tags": [
+        "frontend",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4286",
+      "name": "অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং",
+      "difficulty_level": 4,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4287",
+      "name": "সফ্টওয়্যার পরীক্ষা",
+      "difficulty_level": 2,
+      "description": "Learn and master Software Testing",
+      "tags": [
+        "software",
+        "testing",
+        "skill"
+      ]
+    }
+  ]
+}

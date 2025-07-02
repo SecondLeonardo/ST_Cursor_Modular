@@ -1,0 +1,117 @@
+{
+  "id": "technology_digital_software_development",
+  "name": "Softwareontwikkeling",
+  "skills": [
+    {
+      "id": "skill_4656",
+      "name": "Agile -methoden",
+      "difficulty_level": 2,
+      "description": "Learn and master Agile Methodologies",
+      "tags": [
+        "agile",
+        "methodologies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4657",
+      "name": "CI/CD -pijpleidingen",
+      "difficulty_level": 2,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4658",
+      "name": "Code Review Best Practices",
+      "difficulty_level": 3,
+      "description": "Learn and master Code Review Best Practices",
+      "tags": [
+        "code",
+        "review",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4659",
+      "name": "Debugging -technieken",
+      "difficulty_level": 5,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4660",
+      "name": "Ontwerppatronen",
+      "difficulty_level": 1,
+      "description": "Learn and master Design Patterns",
+      "tags": [
+        "design",
+        "patterns",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4661",
+      "name": "Ontwikkeling van mobiele apps",
+      "difficulty_level": 4,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4662",
+      "name": "Objectgeoriënteerd programmeren",
+      "difficulty_level": 5,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4663",
+      "name": "Restful API -ontwikkeling",
+      "difficulty_level": 1,
+      "description": "Learn and master RESTful API Development",
+      "tags": [
+        "restful",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4664",
+      "name": "Eenheidstest",
+      "difficulty_level": 2,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4665",
+      "name": "Versiebesturing met git",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

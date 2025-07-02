@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_3d_modeling",
+  "name": "การสร้างแบบจำลอง 3 มิติ",
+  "skills": [
+    {
+      "id": "skill_520",
+      "name": "พื้นผิว 3 มิติ",
+      "difficulty_level": 1,
+      "description": "Learn and master 3D Texturing",
+      "tags": [
+        "texturing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_521",
+      "name": "พื้นฐานเครื่องปั่น",
+      "difficulty_level": 5,
+      "description": "Learn and master Blender Basics",
+      "tags": [
+        "blender",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_522",
+      "name": "การสร้างแบบจำลองตัวละคร",
+      "difficulty_level": 5,
+      "description": "Learn and master Character Modeling",
+      "tags": [
+        "character",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_523",
+      "name": "การสร้างแบบจำลองสภาพแวดล้อม",
+      "difficulty_level": 1,
+      "description": "Learn and master Environment Modeling",
+      "tags": [
+        "environment",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_524",
+      "name": "การสร้างแบบจำลองพื้นผิวแข็ง",
+      "difficulty_level": 5,
+      "description": "Learn and master Hard Surface Modeling",
+      "tags": [
+        "hard",
+        "surface",
+        "modeling"
+      ]
+    },
+    {
+      "id": "skill_525",
+      "name": "การออกแบบโพลีต่ำ",
+      "difficulty_level": 5,
+      "description": "Learn and master Low Poly Design",
+      "tags": [
+        "poly",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_526",
+      "name": "การแสดงผล",
+      "difficulty_level": 1,
+      "description": "Learn and master Rendering",
+      "tags": [
+        "rendering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_527",
+      "name": "เสื้อผ้า",
+      "difficulty_level": 1,
+      "description": "Learn and master Rigging",
+      "tags": [
+        "rigging",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_528",
+      "name": "การแกะสลักใน zbrush",
+      "difficulty_level": 3,
+      "description": "Learn and master Sculpting in ZBrush",
+      "tags": [
+        "sculpting",
+        "zbrush",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_529",
+      "name": "การทำแผนที่ UV",
+      "difficulty_level": 3,
+      "description": "Learn and master UV Mapping",
+      "tags": [
+        "mapping",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

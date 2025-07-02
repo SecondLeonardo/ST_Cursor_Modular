@@ -1,0 +1,116 @@
+{
+  "id": "business_finance_project_management",
+  "name": "프로젝트 관리",
+  "skills": [
+    {
+      "id": "skill_894",
+      "name": "민첩한 방법론",
+      "difficulty_level": 2,
+      "description": "Learn and master Agile Methodologies",
+      "tags": [
+        "agile",
+        "methodologies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_895",
+      "name": "간트 차트",
+      "difficulty_level": 5,
+      "description": "Learn and master Gantt Charts",
+      "tags": [
+        "gantt",
+        "charts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_896",
+      "name": "프로젝트 예산",
+      "difficulty_level": 4,
+      "description": "Learn and master Project Budgeting",
+      "tags": [
+        "project",
+        "budgeting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_897",
+      "name": "프로젝트 문서",
+      "difficulty_level": 3,
+      "description": "Learn and master Project Documentation",
+      "tags": [
+        "project",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_898",
+      "name": "위험 관리",
+      "difficulty_level": 2,
+      "description": "Learn and master Risk Management",
+      "tags": [
+        "risk",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_899",
+      "name": "스크럼 프레임 워크",
+      "difficulty_level": 3,
+      "description": "Learn and master Scrum Framework",
+      "tags": [
+        "scrum",
+        "framework",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_900",
+      "name": "이해 관계자 커뮤니케이션",
+      "difficulty_level": 1,
+      "description": "Learn and master Stakeholder Communication",
+      "tags": [
+        "stakeholder",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_901",
+      "name": "작업 예약",
+      "difficulty_level": 3,
+      "description": "Learn and master Task Scheduling",
+      "tags": [
+        "task",
+        "scheduling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_902",
+      "name": "Trello & Asana",
+      "difficulty_level": 1,
+      "description": "Learn and master Trello & Asana",
+      "tags": [
+        "trello",
+        "asana",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_903",
+      "name": "폭포 프로젝트 계획",
+      "difficulty_level": 1,
+      "description": "Learn and master Waterfall Project Planning",
+      "tags": [
+        "waterfall",
+        "project",
+        "planning"
+      ]
+    }
+  ]
+}

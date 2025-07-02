@@ -1,0 +1,116 @@
+{
+  "id": "academic_research_skills_scientific_research",
+  "name": "科学研究",
+  "skills": [
+    {
+      "id": "skill_300",
+      "name": "アカデミックジャーナリング",
+      "difficulty_level": 5,
+      "description": "Learn and master Academic Journaling",
+      "tags": [
+        "academic",
+        "journaling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_301",
+      "name": "ソースを適切に引用します",
+      "difficulty_level": 3,
+      "description": "Learn and master Citing Sources Properly",
+      "tags": [
+        "citing",
+        "sources",
+        "properly"
+      ]
+    },
+    {
+      "id": "skill_302",
+      "name": "文献レビューの実施",
+      "difficulty_level": 5,
+      "description": "Learn and master Conducting Literature Reviews",
+      "tags": [
+        "conducting",
+        "literature",
+        "reviews"
+      ]
+    },
+    {
+      "id": "skill_303",
+      "name": "データ収集方法",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Collection Methods",
+      "tags": [
+        "data",
+        "collection",
+        "methods"
+      ]
+    },
+    {
+      "id": "skill_304",
+      "name": "実験の設計",
+      "difficulty_level": 5,
+      "description": "Learn and master Designing Experiments",
+      "tags": [
+        "designing",
+        "experiments",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_305",
+      "name": "倫理的研究慣行",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Research Practices",
+      "tags": [
+        "ethical",
+        "research",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_306",
+      "name": "仮説の策定",
+      "difficulty_level": 5,
+      "description": "Learn and master Formulating Hypotheses",
+      "tags": [
+        "formulating",
+        "hypotheses",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_307",
+      "name": "ピアレビュープロセス",
+      "difficulty_level": 2,
+      "description": "Learn and master Peer Review Process",
+      "tags": [
+        "peer",
+        "review",
+        "process"
+      ]
+    },
+    {
+      "id": "skill_308",
+      "name": "ラボ機器の使用",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Lab Equipment",
+      "tags": [
+        "using",
+        "equipment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_309",
+      "name": "研究論文を書く",
+      "difficulty_level": 4,
+      "description": "Learn and master Writing Research Papers",
+      "tags": [
+        "writing",
+        "research",
+        "papers"
+      ]
+    }
+  ]
+}

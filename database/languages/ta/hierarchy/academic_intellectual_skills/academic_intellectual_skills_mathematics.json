@@ -1,0 +1,226 @@
+{
+  "id": "academic_intellectual_skills_mathematics",
+  "name": "கணிதம்",
+  "skills": [
+    {
+      "id": "skill_170",
+      "name": "இயற்கணிதம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_171",
+      "name": "இயற்கணித சமன்பாடுகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Algebraic Equations",
+      "tags": [
+        "algebraic",
+        "equations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_172",
+      "name": "அடிப்படை எண்கணிதம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Arithmetic",
+      "tags": [
+        "basic",
+        "arithmetic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_173",
+      "name": "கால்குலஸ்",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_174",
+      "name": "கால்குலஸ் அடிப்படைகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus Fundamentals",
+      "tags": [
+        "calculus",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_175",
+      "name": "பின்னங்கள் & தசமங்கள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Fractions & Decimals",
+      "tags": [
+        "fractions",
+        "decimals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_176",
+      "name": "வடிவியல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_177",
+      "name": "வடிவியல் கருத்துக்கள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Geometry Concepts",
+      "tags": [
+        "geometry",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_178",
+      "name": "நேரியல் இயற்கணிதம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_179",
+      "name": "கணித சிக்கல் தீர்க்கும்",
+      "difficulty_level": 1,
+      "description": "Learn and master Math Problem Solving",
+      "tags": [
+        "math",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_180",
+      "name": "கணித சொல் சிக்கல்கள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Math Word Problems",
+      "tags": [
+        "math",
+        "word",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_181",
+      "name": "கணித மாடலிங்",
+      "difficulty_level": 1,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_182",
+      "name": "மன கணிதம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_183",
+      "name": "மன கணித தந்திரங்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Mental Math Tricks",
+      "tags": [
+        "mental",
+        "math",
+        "tricks"
+      ]
+    },
+    {
+      "id": "skill_184",
+      "name": "எண் கோட்பாடு",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_185",
+      "name": "நிகழ்தகவு மற்றும் புள்ளிவிவரங்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Probability & Statistics",
+      "tags": [
+        "probability",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_186",
+      "name": "நேரியல் சமன்பாடுகளைத் தீர்ப்பது",
+      "difficulty_level": 5,
+      "description": "Learn and master Solving Linear Equations",
+      "tags": [
+        "solving",
+        "linear",
+        "equations"
+      ]
+    },
+    {
+      "id": "skill_187",
+      "name": "புள்ளிவிவரங்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Statistics",
+      "tags": [
+        "statistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_188",
+      "name": "முக்கோணவியல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_189",
+      "name": "வரைபட கால்குலேட்டரைப் பயன்படுத்துதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Using a Graphing Calculator",
+      "tags": [
+        "using",
+        "graphing",
+        "calculator"
+      ]
+    }
+  ]
+}

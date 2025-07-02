@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_electrical",
+  "name": "Umeme",
+  "skills": [
+    {
+      "id": "skill_5205",
+      "name": "Ubunifu wa mzunguko",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5206",
+      "name": "Kufuata usalama wa umeme",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Safety Compliance",
+      "tags": [
+        "electrical",
+        "safety",
+        "compliance"
+      ]
+    },
+    {
+      "id": "skill_5207",
+      "name": "Utatuzi wa umeme",
+      "difficulty_level": 1,
+      "description": "Learn and master Electrical Troubleshooting",
+      "tags": [
+        "electrical",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5208",
+      "name": "Usanidi wa automatisering nyumbani",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Automation Setup",
+      "tags": [
+        "home",
+        "automation",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_5209",
+      "name": "Mifumo ya taa",
+      "difficulty_level": 4,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5210",
+      "name": "Kuboresha jopo",
+      "difficulty_level": 1,
+      "description": "Learn and master Panel Upgrading",
+      "tags": [
+        "panel",
+        "upgrading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5211",
+      "name": "Usambazaji wa nguvu",
+      "difficulty_level": 3,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5212",
+      "name": "Kusoma Schematics",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Schematics",
+      "tags": [
+        "reading",
+        "schematics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5213",
+      "name": "Ufungaji wa jopo la jua",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Installation",
+      "tags": [
+        "solar",
+        "panel",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5214",
+      "name": "Ufungaji wa wiring",
+      "difficulty_level": 4,
+      "description": "Learn and master Wiring Installation",
+      "tags": [
+        "wiring",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "Gezondheid en welzijn",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "Alternatieve geneeskunde"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "Eerste hulp en noodsituatie"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "Fitnesstraining"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "Holistische gezondheid"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "Medische kennis"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "Medische vaardigheden"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "Geestelijke gezondheid"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "Geestelijke gezondheidspraktijken"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "Mindfulness & meditatie"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "Voeding en dieet"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "Persoonlijke zorg"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "Fysieke fitheid"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "Revalidatie en therapie"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "Reproductieve gezondheid"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "Zelfzorg en hygiëne"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "Slaap en herstel"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "Stressmanagement"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "Yoga & meditatie"
+    }
+  ]
+}

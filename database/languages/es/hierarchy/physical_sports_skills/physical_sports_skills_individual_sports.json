@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_individual_sports",
+  "name": "Deportes individuales",
+  "skills": [
+    {
+      "id": "skill_3998",
+      "name": "Bádminton Smashing",
+      "difficulty_level": 3,
+      "description": "Learn and master Badminton Smashing",
+      "tags": [
+        "badminton",
+        "smashing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3999",
+      "name": "Forma de bolos",
+      "difficulty_level": 5,
+      "description": "Learn and master Bowling Form",
+      "tags": [
+        "bowling",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4000",
+      "name": "Juego de pies",
+      "difficulty_level": 5,
+      "description": "Learn and master Boxing Footwork",
+      "tags": [
+        "boxing",
+        "footwork",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4001",
+      "name": "Técnicas de esgrima",
+      "difficulty_level": 3,
+      "description": "Learn and master Fencing Techniques",
+      "tags": [
+        "fencing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4002",
+      "name": "Swing de golf",
+      "difficulty_level": 3,
+      "description": "Learn and master Golf Swing",
+      "tags": [
+        "golf",
+        "swing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4003",
+      "name": "Gimnasia caída",
+      "difficulty_level": 4,
+      "description": "Learn and master Gymnastics Tumbling",
+      "tags": [
+        "gymnastics",
+        "tumbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4004",
+      "name": "Trazos de natación",
+      "difficulty_level": 5,
+      "description": "Learn and master Swimming Strokes",
+      "tags": [
+        "swimming",
+        "strokes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4005",
+      "name": "Rallying de tenis de mesa",
+      "difficulty_level": 5,
+      "description": "Learn and master Table Tennis Rallying",
+      "tags": [
+        "table",
+        "tennis",
+        "rallying"
+      ]
+    },
+    {
+      "id": "skill_4006",
+      "name": "Palanca de derecha de tenis",
+      "difficulty_level": 5,
+      "description": "Learn and master Tennis Forehand",
+      "tags": [
+        "tennis",
+        "forehand",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4007",
+      "name": "Sprint de seguimiento",
+      "difficulty_level": 2,
+      "description": "Learn and master Track Sprinting",
+      "tags": [
+        "track",
+        "sprinting",
+        "skill"
+      ]
+    }
+  ]
+}

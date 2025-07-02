@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "技術とエンジニアリング",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "市民および構造"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "電気工学"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "製造と製造"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "機械工学"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "ソフトウェアとシステム"
+    }
+  ]
+}

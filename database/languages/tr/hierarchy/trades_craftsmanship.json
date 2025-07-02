@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "Esnaf ve işçilik",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "Otomotiv onarımı"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "Marangozluk ve Ağaç İşleme"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "İnşaat ve Duvarcılık"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "Elektrik işleri"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC ve Soğutma"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "Mücevher yapımı"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "Metal İşçilik ve Kaynak"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "Resim ve dekorasyon"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "Sıhhi tesisat"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "Terzilik ve Dikiş"
+    }
+  ]
+}

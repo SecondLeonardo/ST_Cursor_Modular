@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "الصفقات والتقنية",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "السيارات"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "نجارة"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "بناء"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "كهربائي"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "البناء"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "ميكانيكي"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "الرسم والتزيين"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "السباكة"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "اللحام"
+    }
+  ]
+}

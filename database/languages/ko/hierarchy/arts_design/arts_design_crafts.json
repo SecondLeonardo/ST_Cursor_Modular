@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_crafts",
+  "name": "공예",
+  "skills": [
+    {
+      "id": "skill_540",
+      "name": "비즈 장식",
+      "difficulty_level": 2,
+      "description": "Learn and master Beadwork",
+      "tags": [
+        "beadwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_541",
+      "name": "촛불 만들기",
+      "difficulty_level": 1,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_542",
+      "name": "보석 제작",
+      "difficulty_level": 4,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_543",
+      "name": "마크라메",
+      "difficulty_level": 1,
+      "description": "Learn and master Macrame",
+      "tags": [
+        "macrame",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_544",
+      "name": "종이 접기",
+      "difficulty_level": 1,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_545",
+      "name": "종이 마하",
+      "difficulty_level": 2,
+      "description": "Learn and master Paper Mache",
+      "tags": [
+        "paper",
+        "mache",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_546",
+      "name": "도기류",
+      "difficulty_level": 2,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_547",
+      "name": "스크랩북",
+      "difficulty_level": 4,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_548",
+      "name": "비누 만들기",
+      "difficulty_level": 4,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_549",
+      "name": "목재 공예",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Crafting",
+      "tags": [
+        "wood",
+        "crafting",
+        "skill"
+      ]
+    }
+  ]
+}

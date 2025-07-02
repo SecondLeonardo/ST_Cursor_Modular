@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "مهارت های فنی و دیجیتال",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "هوش مصنوعی و یادگیری ماشین"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "محاسبات ابری"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "امنیت سایبری"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "داده ها و تجزیه و تحلیل"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "علوم داده و هوش مصنوعی"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "Devops & Automation"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "توسعه بازی"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "آن و شبکه سازی"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "پشتیبانی و شبکه سازی"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "توسعه برنامه سیار"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "برنامه نویسی و توسعه نرم افزار"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "توسعه نرم افزاری"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "سخت افزار فنی و تعمیر"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "پشتیبانی فنی و عیب یابی"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "توسعه وب"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+
+4. Terminology & Naming Consistency
+- Always use `targetSkill` and `targetSkillId` (never `wishSkill` or `wishSkillId`)
+- Use `expertSkill` and `expertSkillId` for skills to teach
+- Use `proficiencyLevel` for skill level (not `level` or `skillLevel`)
+
+## 4.2 Variable Names, Class Names, Returns, Signatures
+- **Variable Naming**: Use camelCase for variables and functions, e.g., userId, sendMessage().
+- **Class Naming**: Use PascalCase for classes, e.g., UserModel, ChatService.
+- **Function Signatures**: Clearly define input parameters and return types, e.g., Future<Message> sendMessage(String senderId, String receiverId, String content).
+
+
+5. Color Palette & Visual Identity
+- Primary Color: #00D8C0
+- Mid Color 65%: #4dffea
+- Light Color 95%: #e6fffc
+- Semantic Colors:
+  - Primary T: Color(0xFFFFFFFF)
+  - Error: Color(0xFFE53935)
+  - Warning: Color(0xFFFFA000)
+  - Success: Color(0xFF43A047)
+  - Information: Color(0xFF1E88E5)
+- Dark Theme Colors:
+  - Background: Color(0xFF121212)
+  - Surface: Color(0xFF1E1E1E)
+  - Text Primary: Color(0xFFFFFFFF)
+  - Text Secondaryext: Color(0xFF000000)
+  - Secondary Text: Color(0xFF757575)
+  - Disabled Elements: Color(0xFFBDBDBD)
+  - Background: Color(0xFFB3B3B3)
+- UI Elements: Incorporate design elements such as progress bars, navigation buttons, and interactive elements from the UI/UX documents.
+- UI/UX Details: The design incorporates rounded corners, pill-shaped buttons, and a clean, modern aesthetic. The use of color and typography is consistent with the brand's visual identity, ensuring a cohesive user experience across all features.
+
+6. Shared Data Models
+- UserModel: Contains userId, name, email, skills, languages, profilePicture.
+- SkillModel: Contains skillId, name, category, proficiencyLevel.
+- MatchModel: Contains matchId, userAId, userBId, skillExchangeDetails.
+
+7. API Contracts (Shared)
+- **User Registration**: POST /api/users/register
+  - Request: { "name": "string", "email": "string", "password": "string" }
+  - Response: { "status": "success", "userId": "string" }
+- **User Login**: POST /api/users/login
+  - Request: { "email": "string", "password": "string" }
+  - Response: { "status": "success", "token": "string" }
+
+
+9. Shared Implementation Patterns
+- Multi-provider strategy, service usage tracking, fallback system, caching, and performance best practices.
+
+10. Placeholder Notes for Feature-Specific Content
+- For details on authentication and onboarding, see PRD 2: Auth & Onboarding.
+- For skills and matching, see PRD 3: Skills & Matching.
+- For chat and communication, see PRD 4: Chat Communication.
+- For posts and social feed, see PRD 5: Posts & Social Feed.
+- For VoiceRoom & LiveRoom, see PRD 6: VoiceRoom & LiveRoom.
+- For monetization and payment, see PRD 7: Monetization & Payment.
+- For profile and settings, see PRD 8: Profile & Settings.
+- For analytics and gamification, see PRD 9: Analytics & Gamification.
+- For moderation, safety, and localization, see PRD 10: Moderation, Safety & Localization. 

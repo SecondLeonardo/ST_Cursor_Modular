@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_laundry_clothing_care",
+  "name": "세탁 및 의류 관리",
+  "skills": [
+    {
+      "id": "skill_2998",
+      "name": "의류 수리",
+      "difficulty_level": 5,
+      "description": "Learn and master Clothing Repairs",
+      "tags": [
+        "clothing",
+        "repairs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2999",
+      "name": "의류 저장",
+      "difficulty_level": 5,
+      "description": "Learn and master Clothing Storage",
+      "tags": [
+        "clothing",
+        "storage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3000",
+      "name": "옷을 건조합니다",
+      "difficulty_level": 5,
+      "description": "Learn and master Drying Clothes",
+      "tags": [
+        "drying",
+        "clothes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3001",
+      "name": "접는 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Folding Techniques",
+      "tags": [
+        "folding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3002",
+      "name": "다리미질",
+      "difficulty_level": 2,
+      "description": "Learn and master Ironing",
+      "tags": [
+        "ironing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3003",
+      "name": "직물 레이블을 읽습니다",
+      "difficulty_level": 3,
+      "description": "Learn and master Reading Fabric Labels",
+      "tags": [
+        "reading",
+        "fabric",
+        "labels"
+      ]
+    },
+    {
+      "id": "skill_3004",
+      "name": "바느질 버튼",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing Buttons",
+      "tags": [
+        "sewing",
+        "buttons",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3005",
+      "name": "세탁소 분류",
+      "difficulty_level": 3,
+      "description": "Learn and master Sorting Laundry",
+      "tags": [
+        "sorting",
+        "laundry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3006",
+      "name": "얼룩 처리",
+      "difficulty_level": 1,
+      "description": "Learn and master Stain Treatment",
+      "tags": [
+        "stain",
+        "treatment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3007",
+      "name": "세척 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Washing Techniques",
+      "tags": [
+        "washing",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

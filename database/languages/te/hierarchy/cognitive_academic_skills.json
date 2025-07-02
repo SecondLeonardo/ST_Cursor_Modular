@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "అభిజ్ఞాత్వ నైపుణ్యాలు",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "విమర్శనాత్మక ఆలోచన"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "భాష & భాషాశాస్త్రం"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "గణితం & తర్కం"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "మెమరీ & ఫోకస్"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "సైన్స్ & రీసెర్చ్"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "అధ్యయనం & అభ్యాస నైపుణ్యాలు"
+    }
+  ]
+}

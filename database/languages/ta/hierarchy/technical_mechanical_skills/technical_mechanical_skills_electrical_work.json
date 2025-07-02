@@ -1,0 +1,117 @@
+{
+  "id": "technical_mechanical_skills_electrical_work",
+  "name": "மின் வேலை",
+  "skills": [
+    {
+      "id": "skill_4576",
+      "name": "அடிப்படை சாலிடரிங்",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Soldering",
+      "tags": [
+        "basic",
+        "soldering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4577",
+      "name": "சர்க்யூட் பிரேக்கர் பாதுகாப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Breaker Safety",
+      "tags": [
+        "circuit",
+        "breaker",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_4578",
+      "name": "ஒளிரும் விளக்குகளை சரிசெய்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Fixing Flickering Lights",
+      "tags": [
+        "fixing",
+        "flickering",
+        "lights"
+      ]
+    },
+    {
+      "id": "skill_4579",
+      "name": "வீட்டு மின் பழுதுபார்ப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Home Electrical Repairs",
+      "tags": [
+        "home",
+        "electrical",
+        "repairs"
+      ]
+    },
+    {
+      "id": "skill_4580",
+      "name": "விற்பனை நிலையங்களை நிறுவுதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Installing Outlets",
+      "tags": [
+        "installing",
+        "outlets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4581",
+      "name": "சுவிட்சுகளை நிறுவுதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Switches",
+      "tags": [
+        "installing",
+        "switches",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4582",
+      "name": "சுற்று வரைபடங்களைப் படித்தல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Circuit Diagrams",
+      "tags": [
+        "reading",
+        "circuit",
+        "diagrams"
+      ]
+    },
+    {
+      "id": "skill_4583",
+      "name": "மின் நாடாவை சரியாகப் பயன்படுத்துதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Electrical Tape Properly",
+      "tags": [
+        "using",
+        "electrical",
+        "tape",
+        "properly"
+      ]
+    },
+    {
+      "id": "skill_4584",
+      "name": "வோல்ட்மீட்டரைப் பயன்படுத்துதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Voltmeter",
+      "tags": [
+        "using",
+        "voltmeter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4585",
+      "name": "கம்பி அகற்றுதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Wire Stripping",
+      "tags": [
+        "wire",
+        "stripping",
+        "skill"
+      ]
+    }
+  ]
+}

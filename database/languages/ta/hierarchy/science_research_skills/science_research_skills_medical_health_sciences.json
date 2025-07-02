@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_medical_health_sciences",
+  "name": "மருத்துவ மற்றும் சுகாதார அறிவியல்",
+  "skills": [
+    {
+      "id": "skill_4108",
+      "name": "உடற்கூறியல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Anatomy",
+      "tags": [
+        "anatomy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4109",
+      "name": "மருத்துவ ஆராய்ச்சி",
+      "difficulty_level": 1,
+      "description": "Learn and master Clinical Research",
+      "tags": [
+        "clinical",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4110",
+      "name": "தொற்றுநோயியல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Epidemiology",
+      "tags": [
+        "epidemiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4111",
+      "name": "முதல் உதவி",
+      "difficulty_level": 1,
+      "description": "Learn and master First Aid",
+      "tags": [
+        "first",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4112",
+      "name": "வரலாறு",
+      "difficulty_level": 3,
+      "description": "Learn and master Histology",
+      "tags": [
+        "histology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4113",
+      "name": "மருத்துவ நெறிமுறைகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Medical Ethics",
+      "tags": [
+        "medical",
+        "ethics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4114",
+      "name": "மருத்துவ இமேஜிங்",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Imaging",
+      "tags": [
+        "medical",
+        "imaging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4115",
+      "name": "நோயியல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Pathology",
+      "tags": [
+        "pathology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4116",
+      "name": "மருந்தியல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Pharmacology",
+      "tags": [
+        "pharmacology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4117",
+      "name": "பொது சுகாதாரம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Public Health",
+      "tags": [
+        "public",
+        "health",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_data_science_ai",
+  "name": "数据科学与AI",
+  "skills": [
+    {
+      "id": "skill_4288",
+      "name": "人工智能道德",
+      "difficulty_level": 3,
+      "description": "Learn and master AI Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4289",
+      "name": "大数据工具",
+      "difficulty_level": 3,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4290",
+      "name": "数据清洁",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4291",
+      "name": "数据可视化",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4292",
+      "name": "机器学习建模",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning Modeling",
+      "tags": [
+        "machine",
+        "learning",
+        "modeling"
+      ]
+    },
+    {
+      "id": "skill_4293",
+      "name": "自然语言处理",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4294",
+      "name": "神经网络",
+      "difficulty_level": 3,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4295",
+      "name": "预测分析",
+      "difficulty_level": 1,
+      "description": "Learn and master Predictive Analytics",
+      "tags": [
+        "predictive",
+        "analytics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4296",
+      "name": "数据科学的Python",
+      "difficulty_level": 5,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_4297",
+      "name": "SQL查询",
+      "difficulty_level": 2,
+      "description": "Learn and master SQL Querying",
+      "tags": [
+        "querying",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

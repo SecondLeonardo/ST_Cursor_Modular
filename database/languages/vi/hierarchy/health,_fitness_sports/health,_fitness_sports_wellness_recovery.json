@@ -1,0 +1,116 @@
+{
+  "id": "health,_fitness_sports_wellness_recovery",
+  "name": "Sức khỏe & phục hồi",
+  "skills": [
+    {
+      "id": "skill_2728",
+      "name": "Thói quen lao dốc",
+      "difficulty_level": 2,
+      "description": "Learn and master Cold Plunge Routine",
+      "tags": [
+        "cold",
+        "plunge",
+        "routine"
+      ]
+    },
+    {
+      "id": "skill_2729",
+      "name": "Thở sâu",
+      "difficulty_level": 3,
+      "description": "Learn and master Deep Breathing",
+      "tags": [
+        "deep",
+        "breathing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2730",
+      "name": "Kỹ thuật lăn bọt",
+      "difficulty_level": 2,
+      "description": "Learn and master Foam Rolling Techniques",
+      "tags": [
+        "foam",
+        "rolling",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2731",
+      "name": "Massage trị liệu cơ bản",
+      "difficulty_level": 4,
+      "description": "Learn and master Massage Therapy Basics",
+      "tags": [
+        "massage",
+        "therapy",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2732",
+      "name": "Thực hành thiền định",
+      "difficulty_level": 4,
+      "description": "Learn and master Meditation Practice",
+      "tags": [
+        "meditation",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2733",
+      "name": "Thể lực tinh thần",
+      "difficulty_level": 5,
+      "description": "Learn and master Mental Fitness",
+      "tags": [
+        "mental",
+        "fitness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2734",
+      "name": "Giao thức phục hồi",
+      "difficulty_level": 2,
+      "description": "Learn and master Recovery Protocols",
+      "tags": [
+        "recovery",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2735",
+      "name": "Sử dụng phòng tắm hơi",
+      "difficulty_level": 4,
+      "description": "Learn and master Sauna Usage",
+      "tags": [
+        "sauna",
+        "usage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2736",
+      "name": "Vệ sinh ngủ",
+      "difficulty_level": 3,
+      "description": "Learn and master Sleep Hygiene",
+      "tags": [
+        "sleep",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2737",
+      "name": "Quản lý căng thẳng",
+      "difficulty_level": 2,
+      "description": "Learn and master Stress Management",
+      "tags": [
+        "stress",
+        "management",
+        "skill"
+      ]
+    }
+  ]
+}

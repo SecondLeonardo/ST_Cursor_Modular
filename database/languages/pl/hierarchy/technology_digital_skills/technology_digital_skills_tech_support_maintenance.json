@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_tech_support_maintenance",
+  "name": "Wsparcie techniczne i konserwacja",
+  "skills": [
+    {
+      "id": "skill_4835",
+      "name": "Podstawowe skrypty do konserwacji",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Scripting for Maintenance",
+      "tags": [
+        "basic",
+        "scripting",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_4836",
+      "name": "Wsparcie techniczne klienta",
+      "difficulty_level": 2,
+      "description": "Learn and master Customer Tech Support",
+      "tags": [
+        "customer",
+        "tech",
+        "support"
+      ]
+    },
+    {
+      "id": "skill_4837",
+      "name": "Instalowanie sterowników",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Drivers",
+      "tags": [
+        "installing",
+        "drivers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4838",
+      "name": "Zdrowie systemu monitorowania",
+      "difficulty_level": 3,
+      "description": "Learn and master Monitoring System Health",
+      "tags": [
+        "monitoring",
+        "system",
+        "health"
+      ]
+    },
+    {
+      "id": "skill_4839",
+      "name": "Rozwiązywanie problemów zdalnych",
+      "difficulty_level": 4,
+      "description": "Learn and master Remote Troubleshooting",
+      "tags": [
+        "remote",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4840",
+      "name": "Aktualizacje oprogramowania",
+      "difficulty_level": 3,
+      "description": "Learn and master Software Updates",
+      "tags": [
+        "software",
+        "updates",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4841",
+      "name": "Oczyszczanie systemu",
+      "difficulty_level": 4,
+      "description": "Learn and master System Cleanup",
+      "tags": [
+        "system",
+        "cleanup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4842",
+      "name": "Konfiguracja urządzeń technologicznych",
+      "difficulty_level": 4,
+      "description": "Learn and master Tech Device Setup",
+      "tags": [
+        "tech",
+        "device",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4843",
+      "name": "Komunikacja wsparcia technicznego",
+      "difficulty_level": 1,
+      "description": "Learn and master Tech Support Communication",
+      "tags": [
+        "tech",
+        "support",
+        "communication"
+      ]
+    },
+    {
+      "id": "skill_4844",
+      "name": "Rozwiązywanie problemów",
+      "difficulty_level": 3,
+      "description": "Learn and master Troubleshooting Hardware",
+      "tags": [
+        "troubleshooting",
+        "hardware",
+        "skill"
+      ]
+    }
+  ]
+}

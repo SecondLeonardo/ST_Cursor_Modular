@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_self-care_hygiene",
+  "name": "자기 관리 및 위생",
+  "skills": [
+    {
+      "id": "skill_2639",
+      "name": "목욕 의식",
+      "difficulty_level": 4,
+      "description": "Learn and master Bath Rituals",
+      "tags": [
+        "bath",
+        "rituals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2640",
+      "name": "발 관리",
+      "difficulty_level": 5,
+      "description": "Learn and master Foot Care",
+      "tags": [
+        "foot",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2641",
+      "name": "손질 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Grooming Techniques",
+      "tags": [
+        "grooming",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2642",
+      "name": "헤어 케어 관행",
+      "difficulty_level": 3,
+      "description": "Learn and master Hair Care Practices",
+      "tags": [
+        "hair",
+        "care",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_2643",
+      "name": "위생 제품 선택",
+      "difficulty_level": 3,
+      "description": "Learn and master Hygiene Product Selection",
+      "tags": [
+        "hygiene",
+        "product",
+        "selection"
+      ]
+    },
+    {
+      "id": "skill_2644",
+      "name": "매니큐어 및 페디큐어",
+      "difficulty_level": 3,
+      "description": "Learn and master Manicure & Pedicure",
+      "tags": [
+        "manicure",
+        "pedicure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2645",
+      "name": "구강 위생",
+      "difficulty_level": 1,
+      "description": "Learn and master Oral Hygiene",
+      "tags": [
+        "oral",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2646",
+      "name": "개인 위생 습관",
+      "difficulty_level": 1,
+      "description": "Learn and master Personal Hygiene Habits",
+      "tags": [
+        "personal",
+        "hygiene",
+        "habits"
+      ]
+    },
+    {
+      "id": "skill_2647",
+      "name": "일상적인 건물",
+      "difficulty_level": 2,
+      "description": "Learn and master Routine Building",
+      "tags": [
+        "routine",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2648",
+      "name": "스킨 케어 루틴",
+      "difficulty_level": 4,
+      "description": "Learn and master Skincare Routines",
+      "tags": [
+        "skincare",
+        "routines",
+        "skill"
+      ]
+    }
+  ]
+}

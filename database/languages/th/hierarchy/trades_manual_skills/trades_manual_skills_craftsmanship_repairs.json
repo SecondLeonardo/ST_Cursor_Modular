@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_craftsmanship_repairs",
+  "name": "งานฝีมือและการซ่อมแซม",
+  "skills": [
+    {
+      "id": "skill_5065",
+      "name": "ซ่อมเครื่องใช้ไฟฟ้า",
+      "difficulty_level": 4,
+      "description": "Learn and master Appliance Repair",
+      "tags": [
+        "appliance",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5066",
+      "name": "แก้ไขก๊อกน้ำรั่วไหล",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Leaky Faucets",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucets"
+      ]
+    },
+    {
+      "id": "skill_5067",
+      "name": "การฟื้นฟูเฟอร์นิเจอร์",
+      "difficulty_level": 4,
+      "description": "Learn and master Furniture Restoration",
+      "tags": [
+        "furniture",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5068",
+      "name": "เทคนิคการติดกาว",
+      "difficulty_level": 5,
+      "description": "Learn and master Gluing Techniques",
+      "tags": [
+        "gluing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5069",
+      "name": "แทนที่บานพับ",
+      "difficulty_level": 1,
+      "description": "Learn and master Replacing Hinges",
+      "tags": [
+        "replacing",
+        "hinges",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5070",
+      "name": "ซ่อมเย็บผ้า",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Repairs",
+      "tags": [
+        "sewing",
+        "repairs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5071",
+      "name": "เครื่องมือลับคม",
+      "difficulty_level": 3,
+      "description": "Learn and master Sharpening Tools",
+      "tags": [
+        "sharpening",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5072",
+      "name": "การอัดฉีดกระเบื้อง",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Grouting",
+      "tags": [
+        "tile",
+        "grouting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5073",
+      "name": "การปะติดผนัง",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5074",
+      "name": "การปิดผนึกหน้าต่าง",
+      "difficulty_level": 1,
+      "description": "Learn and master Window Sealing",
+      "tags": [
+        "window",
+        "sealing",
+        "skill"
+      ]
+    }
+  ]
+}

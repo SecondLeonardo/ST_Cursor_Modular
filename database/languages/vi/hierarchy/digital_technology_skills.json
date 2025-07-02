@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "Kỹ năng kỹ thuật số & công nghệ",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "An ninh mạng"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "Dữ liệu & AI"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "Nó & mạng"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "Lập trình & Phát triển"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "Web & Mobile"
+    }
+  ]
+}

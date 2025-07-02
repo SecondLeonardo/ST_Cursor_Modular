@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_computer_science",
+  "name": "கணினி அறிவியல்",
+  "skills": [
+    {
+      "id": "skill_4178",
+      "name": "வழிமுறைகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Algorithms",
+      "tags": [
+        "algorithms",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4179",
+      "name": "கணக்கீட்டு சிந்தனை",
+      "difficulty_level": 3,
+      "description": "Learn and master Computational Thinking",
+      "tags": [
+        "computational",
+        "thinking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4180",
+      "name": "கணினி கட்டமைப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Computer Architecture",
+      "tags": [
+        "computer",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4181",
+      "name": "இணைய பாதுகாப்பு அடிப்படைகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Cybersecurity Basics",
+      "tags": [
+        "cybersecurity",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4182",
+      "name": "தரவு கட்டமைப்புகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Structures",
+      "tags": [
+        "data",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4183",
+      "name": "தரவுத்தள வடிவமைப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Database Design",
+      "tags": [
+        "database",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4184",
+      "name": "நெட்வொர்க்குகள் மற்றும் நெறிமுறைகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Networks & Protocols",
+      "tags": [
+        "networks",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4185",
+      "name": "இயக்க முறைமைகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Operating Systems",
+      "tags": [
+        "operating",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4186",
+      "name": "நிரலாக்க முன்னுதாரணங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Programming Paradigms",
+      "tags": [
+        "programming",
+        "paradigms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4187",
+      "name": "மென்பொருள் பொறியியல் கோட்பாடுகள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Software Engineering Principles",
+      "tags": [
+        "software",
+        "engineering",
+        "principles"
+      ]
+    }
+  ]
+}

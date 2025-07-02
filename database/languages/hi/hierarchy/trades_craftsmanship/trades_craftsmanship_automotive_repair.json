@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_automotive_repair",
+  "name": "मोटर वाहन मरम्मत",
+  "skills": [
+    {
+      "id": "skill_4925",
+      "name": "बैटरी परीक्षण",
+      "difficulty_level": 5,
+      "description": "Learn and master Battery Testing",
+      "tags": [
+        "battery",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4926",
+      "name": "ब्रेक रिप्लेसमेंट",
+      "difficulty_level": 5,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4927",
+      "name": "शीतलन प्रणाली मरम्मत",
+      "difficulty_level": 5,
+      "description": "Learn and master Cooling System Repair",
+      "tags": [
+        "cooling",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_4928",
+      "name": "इंजन निदान",
+      "difficulty_level": 5,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4929",
+      "name": "निकास मरम्मत",
+      "difficulty_level": 2,
+      "description": "Learn and master Exhaust Repair",
+      "tags": [
+        "exhaust",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4930",
+      "name": "तेल परिवर्तन",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4931",
+      "name": "निलंबन मरम्मत",
+      "difficulty_level": 4,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4932",
+      "name": "टायर माउंटिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Tire Mounting",
+      "tags": [
+        "tire",
+        "mounting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4933",
+      "name": "संचरण कार्य",
+      "difficulty_level": 5,
+      "description": "Learn and master Transmission Work",
+      "tags": [
+        "transmission",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4934",
+      "name": "वील अलाइनमेंट",
+      "difficulty_level": 2,
+      "description": "Learn and master Wheel Alignment",
+      "tags": [
+        "wheel",
+        "alignment",
+        "skill"
+      ]
+    }
+  ]
+}

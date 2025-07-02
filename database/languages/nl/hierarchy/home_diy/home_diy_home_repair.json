@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_home_repair",
+  "name": "Huisreparatie",
+  "skills": [
+    {
+      "id": "skill_2898",
+      "name": "Basisgereedschapsgebruik",
+      "difficulty_level": 4,
+      "description": "Learn and master Basic Tool Use",
+      "tags": [
+        "basic",
+        "tool",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2899",
+      "name": "Het beëindigen",
+      "difficulty_level": 4,
+      "description": "Learn and master Caulking",
+      "tags": [
+        "caulking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2900",
+      "name": "Deurscharnieren",
+      "difficulty_level": 2,
+      "description": "Learn and master Door Hinge Fixing",
+      "tags": [
+        "door",
+        "hinge",
+        "fixing"
+      ]
+    },
+    {
+      "id": "skill_2901",
+      "name": "Dywall -installatie",
+      "difficulty_level": 2,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2902",
+      "name": "Vloerbordreparatie",
+      "difficulty_level": 5,
+      "description": "Learn and master Floorboard Repair",
+      "tags": [
+        "floorboard",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2903",
+      "name": "Meubelreparatie",
+      "difficulty_level": 5,
+      "description": "Learn and master Furniture Repair",
+      "tags": [
+        "furniture",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2904",
+      "name": "Schilderwanden",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2905",
+      "name": "Daklekpatching",
+      "difficulty_level": 3,
+      "description": "Learn and master Roof Leak Patching",
+      "tags": [
+        "roof",
+        "leak",
+        "patching"
+      ]
+    },
+    {
+      "id": "skill_2906",
+      "name": "Muurpatching",
+      "difficulty_level": 4,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2907",
+      "name": "Raamafdichtingsbevestiging",
+      "difficulty_level": 3,
+      "description": "Learn and master Window Seal Fixing",
+      "tags": [
+        "window",
+        "seal",
+        "fixing"
+      ]
+    }
+  ]
+}

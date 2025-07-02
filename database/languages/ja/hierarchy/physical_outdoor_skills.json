@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "物理的および屋外スキル",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "フィットネスとコンディショニング"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "手動労働と取引"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "屋外レクリエーション"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "自衛と武道"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "スポーツと陸上競技"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "サバイバル＆ブッシュクラフト"
+    }
+  ]
+}

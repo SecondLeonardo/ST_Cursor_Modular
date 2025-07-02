@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "科学技术技能",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "天文学"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "生物技术"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "化学"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "计算机科学"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "数据科学与AI"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "地球与环境科学"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "电子产品"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "工程"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "数学与统计"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "物理"
+    }
+  ]
+}

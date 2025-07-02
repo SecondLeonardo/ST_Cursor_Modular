@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "Kỹ năng nhận thức & học tập",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "Tư duy phê phán"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "Ngôn ngữ & Ngôn ngữ học"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "Toán học & Logic"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "Bộ nhớ & tập trung"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "Khoa học & Nghiên cứu"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "Kỹ năng học tập và học tập"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "tech_digital_skills_cybersecurity",
+  "name": "ਸਾਈਬਰਸੁਰਟੀ",
+  "skills": [
+    {
+      "id": "skill_4367",
+      "name": "ਕ੍ਰਿਪਟੋਗ੍ਰਾਫੀ",
+      "difficulty_level": 5,
+      "description": "Learn and master Cryptography",
+      "tags": [
+        "cryptography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4368",
+      "name": "ਸਾਈਬਰ ਦਾ ਖਤਰਾ ਅਕਲ",
+      "difficulty_level": 3,
+      "description": "Learn and master Cyber Threat Intelligence",
+      "tags": [
+        "cyber",
+        "threat",
+        "intelligence"
+      ]
+    },
+    {
+      "id": "skill_4369",
+      "name": "ਨੈਤਿਕ ਹੈਕਿੰਗ",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Hacking",
+      "tags": [
+        "ethical",
+        "hacking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4370",
+      "name": "ਫਾਇਰਵਾਲ ਅਤੇ ਆਈਡੀ",
+      "difficulty_level": 2,
+      "description": "Learn and master Firewalls & IDS",
+      "tags": [
+        "firewalls",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4371",
+      "name": "ਘਟਨਾ ਦਾ ਜਵਾਬ",
+      "difficulty_level": 5,
+      "description": "Learn and master Incident Response",
+      "tags": [
+        "incident",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4372",
+      "name": "ਮਾਲਵੇਅਰ ਵਿਸ਼ਲੇਸ਼ਣ",
+      "difficulty_level": 5,
+      "description": "Learn and master Malware Analysis",
+      "tags": [
+        "malware",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4373",
+      "name": "ਨੈੱਟਵਰਕ ਨਿਗਰਾਨੀ",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Monitoring",
+      "tags": [
+        "network",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4374",
+      "name": "ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Security",
+      "tags": [
+        "network",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4375",
+      "name": "ਪਾਸਵਰਡ ਪ੍ਰਬੰਧਨ",
+      "difficulty_level": 2,
+      "description": "Learn and master Password Management",
+      "tags": [
+        "password",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4376",
+      "name": "ਪ੍ਰਵੇਸ਼ ਟੈਸਟਿੰਗ",
+      "difficulty_level": 5,
+      "description": "Learn and master Penetration Testing",
+      "tags": [
+        "penetration",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4377",
+      "name": "ਪ੍ਰਵੇਸ਼ ਕਰਨਾ ਟੈਸਟਿੰਗ ਬੇਸਿਕਸ",
+      "difficulty_level": 1,
+      "description": "Learn and master Penetration Testing Basics",
+      "tags": [
+        "penetration",
+        "testing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4378",
+      "name": "ਫਿਸ਼ਿੰਗ ਪਛਾਣ",
+      "difficulty_level": 4,
+      "description": "Learn and master Phishing Identification",
+      "tags": [
+        "phishing",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4379",
+      "name": "ਫਿਸ਼ਿੰਗ ਰੋਕਥਾਮ",
+      "difficulty_level": 5,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4380",
+      "name": "ਸੁਰੱਖਿਅਤ ਕੋਡਿੰਗ ਅਭਿਆਸਾਂ",
+      "difficulty_level": 1,
+      "description": "Learn and master Secure Coding Practices",
+      "tags": [
+        "secure",
+        "coding",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4381",
+      "name": "ਸੁਰੱਖਿਅਤ ਸਾਫਟਵੇਅਰ ਡਿਵੈਲਪਮੈਂਟ",
+      "difficulty_level": 2,
+      "description": "Learn and master Secure Software Development",
+      "tags": [
+        "secure",
+        "software",
+        "development"
+      ]
+    },
+    {
+      "id": "skill_4382",
+      "name": "ਸੁਰੱਖਿਆ ਦੀ ਪਾਲਣਾ",
+      "difficulty_level": 3,
+      "description": "Learn and master Security Compliance",
+      "tags": [
+        "security",
+        "compliance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4383",
+      "name": "2FA ਸਥਾਪਤ ਕਰਨਾ",
+      "difficulty_level": 5,
+      "description": "Learn and master Setting Up 2FA",
+      "tags": [
+        "setting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4384",
+      "name": "ਮਾਲਵੇਅਰ ਕਿਸਮਾਂ ਨੂੰ ਸਮਝਣਾ",
+      "difficulty_level": 5,
+      "description": "Learn and master Understanding Malware Types",
+      "tags": [
+        "understanding",
+        "malware",
+        "types"
+      ]
+    },
+    {
+      "id": "skill_4385",
+      "name": "ਕਮਜ਼ੋਰੀ ਦਾ ਮੁਲਾਂਕਣ",
+      "difficulty_level": 5,
+      "description": "Learn and master Vulnerability Assessment",
+      "tags": [
+        "vulnerability",
+        "assessment",
+        "skill"
+      ]
+    }
+  ]
+}

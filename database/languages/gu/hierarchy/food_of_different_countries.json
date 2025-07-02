@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "વિવિધ દેશોનો ખોરાક",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "ઇટાલિયન ભોજન"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "જાપાની ભોજન"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "મેક્સીકન ભોજન"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "ભોજન પ્રાસંગિક"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "ભોજન"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "ચીન"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "મધ્ય પૂર્વીય ભોજન"
+    }
+  ]
+}

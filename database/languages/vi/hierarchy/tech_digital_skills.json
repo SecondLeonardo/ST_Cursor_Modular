@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "Kỹ năng công nghệ & kỹ thuật số",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "AI & Machine Learning"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "Điện toán đám mây"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "An ninh mạng"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "Dữ liệu & Phân tích"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "Khoa học dữ liệu & AI"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "DevOps & tự động hóa"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "Phát triển trò chơi"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "Nó & mạng"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "Nó hỗ trợ & kết nối mạng"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "Phát triển ứng dụng di động"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "Lập trình & Phát triển phần mềm"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "Phát triển phần mềm"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "Phần cứng và sửa chữa công nghệ"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "Hỗ trợ kỹ thuật & Khắc phục sự cố"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "Phát triển web"
+    }
+  ]
+}

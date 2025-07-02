@@ -1,0 +1,30 @@
+{
+  "id": "design_visual_skills",
+  "name": "디자인 및 시각적 기술",
+  "subcategories": [
+    {
+      "id": "design_visual_skills_3d_modeling_animation",
+      "name": "3D 모델링 및 애니메이션"
+    },
+    {
+      "id": "design_visual_skills_branding_identity",
+      "name": "브랜딩 및 아이덴티티"
+    },
+    {
+      "id": "design_visual_skills_graphic_design",
+      "name": "그래픽 디자인"
+    },
+    {
+      "id": "design_visual_skills_illustration",
+      "name": "삽화"
+    },
+    {
+      "id": "design_visual_skills_photography",
+      "name": "사진술"
+    },
+    {
+      "id": "design_visual_skills_ux/ui_design",
+      "name": "UX/UI 디자인"
+    }
+  ]
+}

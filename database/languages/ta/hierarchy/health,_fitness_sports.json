@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "உடல்நலம், உடற்பயிற்சி மற்றும் விளையாட்டு",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "உடற்பயிற்சி பயிற்சி"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "ஊட்டச்சத்து"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "வெளிப்புற மற்றும் சாகச"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "விளையாட்டு திறன்கள்"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "ஆரோக்கியம் மற்றும் மீட்பு"
+    }
+  ]
+}

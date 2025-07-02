@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_cybersecurity",
+  "name": "సైబర్‌ సెక్యూరిటీ",
+  "skills": [
+    {
+      "id": "skill_4616",
+      "name": "ఎన్క్రిప్షన్ ప్రమాణాలు",
+      "difficulty_level": 4,
+      "description": "Learn and master Encryption Standards",
+      "tags": [
+        "encryption",
+        "standards",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4617",
+      "name": "నైతిక హ్యాకింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Ethical Hacking",
+      "tags": [
+        "ethical",
+        "hacking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4618",
+      "name": "సంఘటన ప్రతిస్పందన",
+      "difficulty_level": 1,
+      "description": "Learn and master Incident Response",
+      "tags": [
+        "incident",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4619",
+      "name": "మాల్వేర్ విశ్లేషణ",
+      "difficulty_level": 3,
+      "description": "Learn and master Malware Analysis",
+      "tags": [
+        "malware",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4620",
+      "name": "నెట్‌వర్క్ భద్రత",
+      "difficulty_level": 1,
+      "description": "Learn and master Network Security",
+      "tags": [
+        "network",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4621",
+      "name": "చొచ్చుకుపోయే పరీక్ష",
+      "difficulty_level": 4,
+      "description": "Learn and master Penetration Testing",
+      "tags": [
+        "penetration",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4622",
+      "name": "ఫిషింగ్ నివారణ",
+      "difficulty_level": 2,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4623",
+      "name": "SIEM సాధనాలు",
+      "difficulty_level": 3,
+      "description": "Learn and master SIEM Tools",
+      "tags": [
+        "siem",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4624",
+      "name": "దుర్బలత్వ అంచనా",
+      "difficulty_level": 3,
+      "description": "Learn and master Vulnerability Assessment",
+      "tags": [
+        "vulnerability",
+        "assessment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4625",
+      "name": "జీరో ట్రస్ట్ ఆర్కిటెక్చర్",
+      "difficulty_level": 5,
+      "description": "Learn and master Zero Trust Architecture",
+      "tags": [
+        "zero",
+        "trust",
+        "architecture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_performing_arts",
+  "name": "공연 예술",
+  "skills": [
+    {
+      "id": "skill_390",
+      "name": "연기 기술",
+      "difficulty_level": 2,
+      "description": "Learn and master Acting Techniques",
+      "tags": [
+        "acting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_391",
+      "name": "댄스 안무",
+      "difficulty_level": 2,
+      "description": "Learn and master Dance Choreography",
+      "tags": [
+        "dance",
+        "choreography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_392",
+      "name": "즉흥",
+      "difficulty_level": 5,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_393",
+      "name": "라이브 극장 제작",
+      "difficulty_level": 2,
+      "description": "Learn and master Live Theatre Production",
+      "tags": [
+        "live",
+        "theatre",
+        "production"
+      ]
+    },
+    {
+      "id": "skill_394",
+      "name": "몸짓 광대극",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_395",
+      "name": "독백 성능",
+      "difficulty_level": 4,
+      "description": "Learn and master Monologue Performance",
+      "tags": [
+        "monologue",
+        "performance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_396",
+      "name": "스크립트 분석",
+      "difficulty_level": 3,
+      "description": "Learn and master Script Analysis",
+      "tags": [
+        "script",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_397",
+      "name": "무대 전투",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Combat",
+      "tags": [
+        "stage",
+        "combat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_398",
+      "name": "무대 존재",
+      "difficulty_level": 4,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_399",
+      "name": "음성 변조",
+      "difficulty_level": 4,
+      "description": "Learn and master Voice Modulation",
+      "tags": [
+        "voice",
+        "modulation",
+        "skill"
+      ]
+    }
+  ]
+}

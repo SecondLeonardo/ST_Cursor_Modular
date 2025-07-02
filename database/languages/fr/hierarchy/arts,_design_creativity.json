@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "Arts, design et créativité",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "Artisanat et bricolage"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "Écriture créative"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "Design et de l'art numérique"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "Arts du spectacle"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "Arts visuels"
+    }
+  ]
+}

@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "经济学"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "地理"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "历史"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "语言和语言学"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "文学"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "数学"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "哲学"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "心理学"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "科学"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "社会学"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "批判性思维"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "历史与文化"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "历史与社会科学"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "语言和语言学"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "语言"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "文学和写作"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "逻辑与推理"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "数学"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "哲学与批判性思维"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "公开演讲与辩论"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "研究与分析"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "科学"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "科学与自然"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "学习技术"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "技术与计算"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "学术介绍"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "数据分析"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "语言和写作"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "数学与统计"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "科学研究"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "学习和测试准备"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "动画片"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "手工艺品和DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "创意写作"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "绘画和插图"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "时装设计"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "绘画"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "表演艺术"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "雕塑"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "动画与运动图形"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "手工艺品和DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "绘画和插图"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "时尚与纺织艺术"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "电影和视频"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "绘画和混合媒体"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "表演艺术"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "写作和文学"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3D建模"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "建筑设计"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "工艺"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "时尚和纺织品"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "电影和视频"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "室内设计"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "表演艺术"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "视觉艺术"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "书法"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "工艺"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "数字艺术和动画"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "时装设计"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "插图和绘画"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "室内设计"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "纺织艺术"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "视觉艺术"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "手工艺品和DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "创意写作"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "设计与数字艺术"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "表演艺术"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "视觉艺术"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "会计"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "业务策略"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "客户支持"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "电子商务"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "企业家精神"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "金融"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "财务与会计"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "人力资源和招聘"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "人力资源"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "投资与交易"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "领导力与管理"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "营销与销售"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "项目管理"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "销售与CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "商业沟通"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "客户服务"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "企业家精神"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "财务与会计"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "人力资源"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "领导力与管理"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "法律与合规性"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "营销和品牌"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "办公生产率"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "项目与时间管理"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "项目管理"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "销售与营销"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "销售与谈判"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "批判性思维"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "语言和语言学"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "数学和逻辑"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "内存与焦点"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "科学与研究"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "学习与学习技能"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "集中和专注"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "批判性思维"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "信息处理"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "学习策略"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "记忆与保留"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "解决问题"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "外语"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "人际交往能力"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "非语言交流"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "演讲与讲故事"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "公开演讲"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "写作和编辑"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "手工艺品和DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "创意思维"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "设计和美学"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "时尚与造型"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "电影和视频"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "游戏设计与世界建设"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "音乐和声音"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "音乐表演"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "音乐制作"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "表演艺术"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "摄影和摄影"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "视觉艺术"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "写作和文学"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "表演与表演"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "动画片"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "手工艺和DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "手工艺品和DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "手工艺艺术"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "创意技术"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "创意写作"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "烹饪艺术"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "设计和美学"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "绘画和插图"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "时尚与造型"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "时装艺术"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "电影制作和视频"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "内饰和花卉设计"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "音乐与乐器"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "音乐创作"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "绘画"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "绘画与美术"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "表演艺术"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "摄影和摄影"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "雕塑和3D艺术"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "视觉艺术"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "写作和讲故事"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D和动画"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "UI/UX"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "视频制作"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "书法和手工字母"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "手工艺和DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "创意写作"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "绘画和插图"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "珠宝制作"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "绘画"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "剪贴簿和拼贴"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "雕刻和粘土"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "纺织品和纤维艺术"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "手工艺品和DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "数字艺术与动画"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "内饰和时尚"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "视觉艺术"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "古代语言"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "文化意识"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "方言教练"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "跨文化交流"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "语言学习技巧"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "语言"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "语言学"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "标志语言"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "翻译与解释"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "写作系统"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3D建模和动画"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "品牌和身份"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "插图"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "UX/UI设计"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D和动画"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "内容创建"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "数字营销"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "社交媒体"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "流和广播"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "UI/UX设计"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "视频制作"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "Web＆App Design"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "网络安全"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "数据和AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "IT和网络"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "编程与开发"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "Web＆Mobile"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "学术补习"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "幼儿教育"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "高等教育"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "语言教学"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "语言"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "学习技术"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "识字和写作"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "特殊教育"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "学习技能"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "测试准备"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "汽车和运输"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "土木工程"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "电气工程"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "能源和电力系统"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC和系统"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "工业设计"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "制造与生产"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "机械工业"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "机器人和自动化"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "结构设计"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "身体护理与健康"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "急救与安全"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "心理健康"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "营养与饮食"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "体育"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "替代医学"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "急救和紧急"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "健身训练"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "整体健康"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "医学知识"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "医疗技能"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "心理健康"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "心理健康实践"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "正念和冥想"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "营养与饮食"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "个人护理"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "身体素质"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "康复与治疗"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "生殖健康"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "自我护理和卫生"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "睡眠与恢复"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "压力管理"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "瑜伽和冥想"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "健身训练"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "营养"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "户外冒险"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "运动技能"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "健康与恢复"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "替代医学"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "医学知识"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "心理健康"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "营养"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "私人培训"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "身体素质"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "康复与治疗"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "体育教练"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "健康教练"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "瑜伽和正念"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "设备维护"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "清洁与组织"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "手工艺品和装饰"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "电气工作"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "园艺和美化环境"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "家庭自动化"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "家庭维修"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "室内设计"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "管道基础"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "木工和木工"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "预算与家庭融资"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "育儿"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "烹饪和进餐准备"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "杂货店购物"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "家庭清洁"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "家庭维护"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "洗衣和服装"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "组织和整理"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "宠物护理"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "时间管理"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "跨文化交流"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "外语"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "听力与理解"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "翻译与解释"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "写作技巧"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "语言学习"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "非语言交流"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "公开演讲"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "讲故事和叙述"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "口头交流"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "写作和编辑"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "语言学习"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "数学"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "科学与研究"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "学习技术"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "测试准备"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "学术补习"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "教育工具和技能"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "语言学习"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "终身学习"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "测试准备"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "烹饪和食物"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "家庭维护"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "个人理财"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "时间管理"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "旅行与导航"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "沟通与关系"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "情商"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "弹性和增长"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "自律"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "时间和目标管理"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "烹饪和食物准备"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY和维修"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "园艺与可持续性"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "家庭管理"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "个人理财"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "生存技巧"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "汽车维修"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "建筑行业"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "电气工作"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "家具和内饰"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "手工工具的精通"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "家庭翻新"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "金工"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "管道和加热"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "纺织品和皮革"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "木工"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "汽车维护"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "工程基础知识"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "家庭维修和安装"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "机器操作"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "工具使用与安全"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "木材和金属工作"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "批判性思维"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "地理与环境"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "历史与文化"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "语言"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "数学"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "记忆和学习技能"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "哲学与道德"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "心理与行为"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "科学与研究"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "学习技术"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "认知灵活性"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "批判性思维"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "语言学习"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "内存与焦点"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "学习技能"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "自信与自尊"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "情商"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "目标设定和计划"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "习惯和纪律"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "人际交往能力"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "领导力和影响力"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "正念和福祉"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "公开演讲"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "自我反思"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "时间和生产力"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "领导"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "精神健康"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "生产率"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "公开演讲"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "自我完善"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "情商"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "目标设定和成就"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "习惯和生产力"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "正念与健康"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "公开演讲与沟通"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "自律和重点"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "健身和调节"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "手动劳动和交易"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "户外娱乐"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "自卫和武术"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "运动与田径运动"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "生存和灌木丛"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "健身和力量"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "个人运动"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "武术"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "户外冒险"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "娱乐活动"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "团队运动"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "学术写作"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "生物科学"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "计算机与数据科学"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "地球与环境科学"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "工程科学"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "数学与统计"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "医学与健康科学"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "物理科学"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "研究方法"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "社会科学"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "天文学"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "生物学与生命科学"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "化学"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "计算机科学"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "数据科学与AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "地球与环境科学"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "工程学科"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "数学与统计"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "物理与力学"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "机器人和自动化"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "天文学"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "生物技术"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "化学"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "计算机科学"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "数据科学与AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "地球与环境科学"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "电子产品"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "工程"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "数学与统计"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "物理"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI和机器学习"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "云计算"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "网络安全"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "数据和分析"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "数据科学与AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps＆Automation"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "游戏开发"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "IT和网络"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "它支持和网络"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "移动应用程序开发"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "编程和软件开发"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "软件开发"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "技术硬件和维修"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "技术支持和故障排除"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "网络开发"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "民用与结构"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "电气工程"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "制造与制造"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "机械工业"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "软件和系统"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "汽车技能"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "建筑与建筑"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "电气工作"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "能源与环境"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "工业技能"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "机械维修"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "网络安全"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "数据和AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "数字营销"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "IT和网络"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "软件开发"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "人工智能"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "云计算"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "计算机基础"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "网络安全"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "数据和AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "数据和分析"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "数字素养"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "数字营销"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "新兴技术"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "硬件和电子产品"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "IT和网络"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "网络及IT"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "编程与开发"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "编程和软件开发"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "软件工具"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "技术生产力"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "技术支持和维护"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "技术支持和故障排除"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "网络和应用程序开发"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "建筑与木工"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "电气和管道"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "手工制品"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "金属制品和焊接"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "纺织品和皮革"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "传统手工艺品"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "汽车维修"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "木工和木工"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "建筑与砌体"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "电气工作"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC和制冷"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "珠宝制作"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "金属制品和焊接"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "绘画和装饰"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "管道"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "裁缝和缝纫"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "汽车维修"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "木工和木制品"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "建造"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "建筑与木工"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "工艺和维修"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "电气和机械"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "电气工作"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC和制冷"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "重型设备操作"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "砌体和瓷砖"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "金属和木制品"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "绘画和精加工"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "管道"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "车辆和机器维护"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "焊接和金属制品"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "汽车"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "木工"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "建造"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "电气"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "石工"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "机械的"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "绘画和装饰"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "管道"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "焊接"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "视频制作"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "音频产生"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "摄影"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "图形设计"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "表演与表演"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "写作和剧本"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "广播"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "手工艺品"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "音乐与乐器"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "户外活动"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "收集"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "健身与健康"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "园艺"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "DIY项目"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "意大利美食"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "日本美食"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "墨西哥美食"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "印度美食"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "法国美食"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "中国美食"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "中东美食"
+  }
+]

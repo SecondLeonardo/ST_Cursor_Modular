@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "เศรษฐศาสตร์"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "ภูมิศาสตร์"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "ประวัติศาสตร์"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "ภาษาและภาษาศาสตร์"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "วรรณกรรม"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "คณิตศาสตร์"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "ปรัชญา"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "จิตวิทยา"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "ศาสตร์"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "สังคมวิทยา"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "การคิดเชิงวิพากษ์"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "ประวัติศาสตร์และวัฒนธรรม"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "ประวัติศาสตร์และสังคมศาสตร์"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "ภาษาและภาษาศาสตร์"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "ภาษา"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "วรรณกรรมและการเขียน"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "ตรรกะและการใช้เหตุผล"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "คณิตศาสตร์"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "ปรัชญาและการคิดเชิงวิพากษ์"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "การพูดและการอภิปรายสาธารณะ"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "การวิจัยและการวิเคราะห์"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "ศาสตร์"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "วิทยาศาสตร์และธรรมชาติ"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "เทคนิคการศึกษา"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "เทคโนโลยีและคอมพิวเตอร์"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "งานนำเสนอ"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "การวิเคราะห์ข้อมูล"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "ภาษาและการเขียน"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "คณิตศาสตร์และสถิติ"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "การวิจัยทางวิทยาศาสตร์"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "การศึกษาและทดสอบการเตรียมการ"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "ความเคลื่อนไหว"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "งานฝีมือและ DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "การเขียนเชิงสร้างสรรค์"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "ภาพวาดและภาพประกอบ"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "การออกแบบแฟชั่น"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "จิตรกรรม"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "ศิลปะการแสดง"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "ประติมากรรม"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "ภาพเคลื่อนไหวและกราฟิก"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "งานฝีมือและ DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "ภาพวาดและภาพประกอบ"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "ศิลปะแฟชั่นและสิ่งทอ"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "ภาพยนตร์และวิดีโอ"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "ภาพวาดและสื่อผสม"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "ศิลปะการแสดง"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "การเขียนและวรรณกรรม"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "การสร้างแบบจำลอง 3 มิติ"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "การออกแบบสถาปัตยกรรม"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "งานฝีมือ"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "แฟชั่นและสิ่งทอ"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "ภาพยนตร์และวิดีโอ"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "การออกแบบภายใน"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "ศิลปะการแสดง"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "ทัศนศิลป์"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "การประดิษฐ์ตัวอักษร"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "งานฝีมือ"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "ศิลปะและภาพเคลื่อนไหวดิจิทัล"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "การออกแบบแฟชั่น"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "ภาพประกอบและภาพวาด"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "การออกแบบภายใน"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "ศิลปะสิ่งทอ"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "ทัศนศิลป์"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "งานฝีมือและ DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "การเขียนเชิงสร้างสรรค์"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "การออกแบบและศิลปะดิจิทัล"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "ศิลปะการแสดง"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "ทัศนศิลป์"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "การบัญชี"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "กลยุทธ์ทางธุรกิจ"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "ฝ่ายสนับสนุนลูกค้า"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "อีคอมเมิร์ซ"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "ผู้ประกอบการ"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "การเงิน"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "การเงินและการบัญชี"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "ฝ่ายทรัพยากรบุคคลและการสรรหา"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "ทรัพยากรมนุษย์"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "การลงทุนและการซื้อขาย"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "ความเป็นผู้นำและการจัดการ"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "การตลาดและการขาย"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "การบริหารโครงการ"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "การขายและ CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "การสื่อสารทางธุรกิจ"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "ฝ่ายบริการลูกค้า"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "ผู้ประกอบการ"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "การเงินและการบัญชี"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "ทรัพยากรมนุษย์"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "ความเป็นผู้นำและการจัดการ"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "กฎหมายและการปฏิบัติตามกฎระเบียบ"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "การตลาดและการสร้างแบรนด์"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "ผลผลิตสำนักงาน"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "การจัดการโครงการและเวลา"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "การบริหารโครงการ"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "การขายและการตลาด"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "การขายและการเจรจาต่อรอง"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "การคิดเชิงวิพากษ์"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "ภาษาและภาษาศาสตร์"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "คณิตศาสตร์และตรรกะ"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "หน่วยความจำและโฟกัส"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "วิทยาศาสตร์และการวิจัย"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "ทักษะการเรียนและการเรียนรู้"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "สมาธิและโฟกัส"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "การคิดเชิงวิพากษ์"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "การประมวลผลข้อมูล"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "กลยุทธ์การเรียนรู้"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "หน่วยความจำและการเก็บรักษา"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "การแก้ปัญหา"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "ภาษาต่างประเทศ"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "ทักษะความสัมพันธ์ระหว่างบุคคล"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "การสื่อสารอวัจนภาษา"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "การนำเสนอและการเล่าเรื่อง"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "การพูดในที่สาธารณะ"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "การเขียนและแก้ไข"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "งานฝีมือและ DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "ความคิดสร้างสรรค์"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "การออกแบบและความงาม"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "แฟชั่นและสไตล์"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "ภาพยนตร์และวิดีโอ"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "การออกแบบเกมและการสร้างโลก"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "เพลงและเสียง"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "การแสดงดนตรี"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "การผลิตเพลง"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "ศิลปะการแสดง"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "การถ่ายภาพและวิดีโอ"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "ทัศนศิลป์"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "การเขียนและวรรณกรรม"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "การแสดงและประสิทธิภาพ"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "ความเคลื่อนไหว"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "งานฝีมือและ DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "งานฝีมือและ DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "งานฝีมือและงานศิลปะทำด้วยมือ"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "เทคโนโลยีสร้างสรรค์"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "การเขียนเชิงสร้างสรรค์"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "ศิลปะการทำอาหาร"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "การออกแบบและความงาม"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "ภาพวาดและภาพประกอบ"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "แฟชั่นและสไตล์"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "ศิลปะแฟชั่นและสิ่งทอ"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "การสร้างภาพยนตร์และวิดีโอ"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "การออกแบบตกแต่งภายในและดอกไม้"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "ดนตรีและเครื่องดนตรี"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "การสร้างดนตรี"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "จิตรกรรม"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "ภาพวาดและศิลปะ"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "ศิลปะการแสดง"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "การถ่ายภาพและวิดีโอ"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "รูปปั้นและศิลปะ 3 มิติ"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "ทัศนศิลป์"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "การเขียนและการเล่าเรื่อง"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D & Animation"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "ui/ux"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "การผลิตวิดีโอ"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "การประดิษฐ์ตัวอักษรและตัวอักษรมือ"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "งานฝีมือและ DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "การเขียนเชิงสร้างสรรค์"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "ภาพวาดและภาพประกอบ"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "การทำเครื่องประดับ"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "จิตรกรรม"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "การจองและภาพตัดปะ"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "การแกะสลักและดินเหนียว"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "ศิลปะสิ่งทอและเส้นใย"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "งานฝีมือและ DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "ศิลปะและแอนิเมชั่นดิจิทัล"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "การตกแต่งภายในและแฟชั่น"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "ทัศนศิลป์"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "ภาษาโบราณ"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "การรับรู้ทางวัฒนธรรม"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "การฝึกภาษาถิ่น"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "การสื่อสารระหว่างวัฒนธรรม"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "เทคนิคการเรียนรู้ภาษา"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "ภาษา"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "ภาษาศาสตร์"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "ภาษาลายเซ็น"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "การแปลและการตีความ"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "ระบบการเขียน"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "การสร้างแบบจำลองและภาพเคลื่อนไหว 3 มิติ"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "การสร้างแบรนด์และอัตลักษณ์"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "ภาพประกอบ"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "การออกแบบ UX/UI"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D & Animation"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "การสร้างเนื้อหา"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "การตลาดดิจิทัล"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "โซเชียลมีเดีย"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "สตรีมมิ่งและการออกอากาศ"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "การออกแบบ UI/UX"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "การผลิตวิดีโอ"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "การออกแบบเว็บและแอพ"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "ความปลอดภัยทางไซเบอร์"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "ข้อมูล & AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "ไอทีและเครือข่าย"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "การเขียนโปรแกรมและการพัฒนา"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "เว็บและมือถือ"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "การสอนทางวิชาการ"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "การศึกษาปฐมวัย"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "อุดมศึกษา"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "การสอนภาษา"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "ภาษา"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "เทคโนโลยีการเรียนรู้"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "การรู้หนังสือและการเขียน"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "การศึกษาพิเศษ"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "ทักษะการเรียนรู้"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "เตรียมทดสอบ"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "ยานยนต์และการขนส่ง"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "วิศวกรรมโยธา"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "วิศวกรรมไฟฟ้า"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "ระบบพลังงานและพลังงาน"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC & Systems"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "การออกแบบอุตสาหกรรม"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "การผลิตและการผลิต"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "วิศวกรรมเครื่องกล"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "หุ่นยนต์และระบบอัตโนมัติ"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "การออกแบบโครงสร้าง"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "การดูแลร่างกายและสุขภาพ"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "การปฐมพยาบาลและความปลอดภัย"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "สุขภาพจิต"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "โภชนาการและอาหาร"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "การฝึกทางกายภาพ"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "ยาทางเลือก"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "การปฐมพยาบาลและฉุกเฉิน"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "การฝึกออกกำลังกาย"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "สุขภาพแบบองค์รวม"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "ความรู้ทางการแพทย์"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "ทักษะการแพทย์"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "สุขภาพจิต"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "การปฏิบัติสุขภาพจิต"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "สติและการทำสมาธิ"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "โภชนาการและอาหาร"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "การดูแลส่วนตัว"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "สมรรถภาพทางกาย"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "การฟื้นฟูและบำบัด"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "สุขภาพการเจริญพันธุ์"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "การดูแลตนเองและสุขอนามัย"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "การนอนหลับและการกู้คืน"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "การจัดการความเครียด"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "โยคะและการทำสมาธิ"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "การฝึกออกกำลังกาย"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "โภชนาการ"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "กลางแจ้งและผจญภัย"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "ทักษะการกีฬา"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "สุขภาพและการกู้คืน"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "ยาทางเลือก"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "ความรู้ทางการแพทย์"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "สุขภาพจิต"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "โภชนาการ"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "การฝึกอบรมส่วนตัว"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "สมรรถภาพทางกาย"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "การฟื้นฟูและบำบัด"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "การฝึกกีฬา"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "การฝึกสอนสุขภาพ"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "โยคะและสติ"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "การบำรุงรักษาเครื่องใช้"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "การทำความสะอาดและการจัดระเบียบ"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "งานฝีมือและการตกแต่ง"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "งานไฟฟ้า"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "การทำสวนและการจัดสวน"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "ระบบอัตโนมัติในบ้าน"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "ซ่อมบ้าน"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "การออกแบบภายใน"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "พื้นฐานการประปา"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "งานไม้และช่างไม้"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "การจัดทำงบประมาณและการเงินของครัวเรือน"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "ดูแลเด็ก"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "เตรียมการทำอาหารและอาหาร"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "ช้อปปิ้งร้านขายของชำ"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "การทำความสะอาดบ้าน"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "การบำรุงรักษาบ้าน"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "ซักรีดและดูแลเสื้อผ้า"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "การจัดระเบียบและการปฏิเสธ"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "การดูแลสัตว์เลี้ยง"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "การจัดการเวลา"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "การสื่อสารข้ามวัฒนธรรม"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "ภาษาต่างประเทศ"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "การฟังและความเข้าใจ"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "การแปลและการตีความ"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "ทักษะการเขียน"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "การเรียนรู้ภาษา"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "การสื่อสารที่ไม่ใช่คำพูด"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "การพูดในที่สาธารณะ"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "การเล่าเรื่องและการบรรยาย"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "การสื่อสารด้วยวาจา"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "การเขียนและแก้ไข"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "การเรียนรู้ภาษา"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "คณิตศาสตร์"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "วิทยาศาสตร์และการวิจัย"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "เทคนิคการศึกษา"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "เตรียมทดสอบ"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "การสอนทางวิชาการ"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "เครื่องมือและทักษะการศึกษา"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "การเรียนรู้ภาษา"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "การเรียนรู้ตลอดชีวิต"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "เตรียมทดสอบ"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "การทำอาหารและอาหาร"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "การบำรุงรักษาบ้าน"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "การเงินส่วนบุคคล"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "การจัดการเวลา"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "การเดินทางและการนำทาง"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "การสื่อสารและความสัมพันธ์"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "ความฉลาดทางอารมณ์"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "ความยืดหยุ่นและการเติบโต"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "การมีวินัยในตนเอง"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "การจัดการเวลาและเป้าหมาย"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "การทำอาหารและการเตรียมอาหาร"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY & ซ่อมแซม"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "การทำสวนและความยั่งยืน"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "การจัดการบ้าน"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "การเงินส่วนบุคคล"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "ทักษะการอยู่รอด"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "ซ่อมยานยนต์"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "การซื้อขายก่อสร้าง"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "งานไฟฟ้า"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "เฟอร์นิเจอร์และเบาะ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "เครื่องมือมืออาชีพ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "การปรับปรุงบ้าน"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "งานโลหะ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "ประปาและเครื่องทำความร้อน"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "สิ่งทอและหนัง"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "งานไม้"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "การบำรุงรักษายานยนต์"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "พื้นฐานด้านวิศวกรรม"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "การซ่อมแซมและติดตั้งบ้าน"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "การทำงานของเครื่องจักร"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "การใช้เครื่องมือและความปลอดภัย"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "งานไม้และโลหะ"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "การคิดเชิงวิพากษ์"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "ภูมิศาสตร์และสิ่งแวดล้อม"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "ประวัติศาสตร์และวัฒนธรรม"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "ภาษา"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "คณิตศาสตร์"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "ทักษะความจำและการเรียนรู้"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "ปรัชญาและจริยธรรม"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "จิตวิทยาและพฤติกรรม"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "วิทยาศาสตร์และการวิจัย"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "เทคนิคการศึกษา"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "ความยืดหยุ่นทางปัญญา"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "การคิดเชิงวิพากษ์"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "การเรียนรู้ภาษา"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "หน่วยความจำและโฟกัส"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "ทักษะการเรียนรู้"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "ความมั่นใจและการเห็นคุณค่าในตนเอง"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "ความฉลาดทางอารมณ์"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "การตั้งค่าเป้าหมายและการวางแผน"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "นิสัยและวินัย"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "ทักษะความสัมพันธ์ระหว่างบุคคล"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "ความเป็นผู้นำและอิทธิพล"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "สติและความเป็นอยู่ที่ดี"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "การพูดในที่สาธารณะ"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "การสะท้อนตนเอง"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "เวลาและผลผลิต"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "ความเป็นผู้นำ"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "สุขภาพจิต"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "การผลิต"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "การพูดในที่สาธารณะ"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "การพัฒนาตนเอง"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "ความฉลาดทางอารมณ์"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "การตั้งค่าเป้าหมายและความสำเร็จ"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "นิสัยและผลผลิต"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "สติและสุขภาพ"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "การพูดและการสื่อสารในที่สาธารณะ"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "การมีวินัยในตนเองและโฟกัส"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "ฟิตเนสและปรับอากาศ"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "แรงงานและการค้าด้วยตนเอง"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "นันทนาการกลางแจ้ง"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "ศิลปะการป้องกันตนเองและศิลปะการต่อสู้"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "กีฬาและกรีฑา"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "Survival & Bushcraft"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "ฟิตเนสและความแข็งแกร่ง"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "กีฬาส่วนตัว"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "ศิลปะการต่อสู้"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "กลางแจ้งและผจญภัย"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "กิจกรรมสันทนาการ"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "กีฬาทีม"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "การเขียนเชิงวิชาการ"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "วิทยาศาสตร์ชีวภาพ"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "คอมพิวเตอร์และวิทยาศาสตร์ข้อมูล"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "วิทยาศาสตร์โลกและสิ่งแวดล้อม"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "วิทยาศาสตร์วิศวกรรมศาสตร์"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "คณิตศาสตร์และสถิติ"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "วิทยาศาสตร์การแพทย์และสุขภาพ"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "วิทยาศาสตร์กายภาพ"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "วิธีการวิจัย"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "สังคมศาสตร์"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "ดาราศาสตร์"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "ชีววิทยาและวิทยาศาสตร์เพื่อชีวิต"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "เคมี"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "วิทยาศาสตร์คอมพิวเตอร์"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "วิทยาศาสตร์ข้อมูลและ AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "วิทยาศาสตร์โลกและสิ่งแวดล้อม"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "สาขาวิชาวิศวกรรม"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "คณิตศาสตร์และสถิติ"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "ฟิสิกส์และกลไก"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "หุ่นยนต์และระบบอัตโนมัติ"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "ดาราศาสตร์"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "เทคโนโลยีชีวภาพ"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "เคมี"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "วิทยาศาสตร์คอมพิวเตอร์"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "วิทยาศาสตร์ข้อมูลและ AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "วิทยาศาสตร์โลกและสิ่งแวดล้อม"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "อิเล็กทรอนิกส์"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "วิศวกรรม"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "คณิตศาสตร์และสถิติ"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "ฟิสิกส์"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "การเรียนรู้ AI & Machine"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "คลาวด์คอมพิวติ้ง"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "ความปลอดภัยทางไซเบอร์"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "ข้อมูลและการวิเคราะห์"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "วิทยาศาสตร์ข้อมูลและ AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "Devops & Automation"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "การพัฒนาเกม"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "ไอทีและเครือข่าย"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "สนับสนุนและเครือข่าย"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "การพัฒนาแอพมือถือ"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "การพัฒนาโปรแกรมและซอฟต์แวร์"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "การพัฒนาซอฟต์แวร์"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "ฮาร์ดแวร์และการซ่อมแซมเทคโนโลยี"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "การสนับสนุนด้านเทคนิคและการแก้ไขปัญหา"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "การพัฒนาเว็บ"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "พลเรือนและมีโครงสร้าง"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "วิศวกรรมไฟฟ้า"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "การผลิตและการผลิต"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "วิศวกรรมเครื่องกล"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "ซอฟต์แวร์และระบบ"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "ทักษะยานยนต์"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "การก่อสร้างและอาคาร"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "งานไฟฟ้า"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "พลังงานและสิ่งแวดล้อม"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "ทักษะอุตสาหกรรม"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "การซ่อมแซมเชิงกล"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "ความปลอดภัยทางไซเบอร์"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "ข้อมูล & AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "การตลาดดิจิทัล"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "ไอทีและเครือข่าย"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "การพัฒนาซอฟต์แวร์"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "ปัญญาประดิษฐ์"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "คลาวด์คอมพิวติ้ง"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "พื้นฐานคอมพิวเตอร์"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "ความปลอดภัยทางไซเบอร์"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "ข้อมูล & AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "ข้อมูลและการวิเคราะห์"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "การรู้หนังสือดิจิทัล"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "การตลาดดิจิทัล"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "เทคโนโลยีที่เกิดขึ้นใหม่"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "ฮาร์ดแวร์และอิเล็กทรอนิกส์"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "ไอทีและเครือข่าย"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "เครือข่าย & มัน"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "การเขียนโปรแกรมและการพัฒนา"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "การพัฒนาโปรแกรมและซอฟต์แวร์"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "เครื่องมือซอฟต์แวร์"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "ผลผลิตด้านเทคโนโลยี"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "การสนับสนุนด้านเทคนิคและการบำรุงรักษา"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "การสนับสนุนด้านเทคนิคและการแก้ไขปัญหา"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "การพัฒนาเว็บและแอพ"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "การก่อสร้างและช่างไม้"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "ไฟฟ้าและประปา"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "สินค้าที่ทำด้วยมือ"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "งานโลหะและการเชื่อม"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "สิ่งทอและหนัง"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "งานฝีมือแบบดั้งเดิม"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "ซ่อมยานยนต์"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "ช่างไม้และงานไม้"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "การก่อสร้างและการก่ออิฐ"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "งานไฟฟ้า"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC และเครื่องทำความเย็น"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "การทำเครื่องประดับ"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "งานโลหะและการเชื่อม"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "ภาพวาดและตกแต่ง"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "ประปา"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "การตัดเย็บและเย็บผ้า"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "ซ่อมยานยนต์"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "ช่างไม้และงานไม้"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "การก่อสร้าง"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "การก่อสร้างและช่างไม้"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "งานฝีมือและการซ่อมแซม"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "ไฟฟ้าและเครื่องกล"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "งานไฟฟ้า"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC และเครื่องทำความเย็น"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "การใช้งานเครื่องจักรกลหนัก"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "การก่ออิฐและการปูกระเบื้อง"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "โลหะและไม้"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "ภาพวาดและการตกแต่ง"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "ประปา"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "การบำรุงรักษายานพาหนะและเครื่องจักร"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "การเชื่อมและโลหะ"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "เกี่ยวกับยานยนต์"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "ช่างไม้"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "การก่อสร้าง"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "เกี่ยวกับไฟฟ้า"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "การก่ออิฐ"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "เกี่ยวกับกลไก"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "ภาพวาดและตกแต่ง"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "ประปา"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "การเชื่อม"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "การผลิตวิดีโอ"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "การผลิตเสียง"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "การถ่ายภาพ"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "การออกแบบกราฟิก"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "การแสดงและประสิทธิภาพ"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "การเขียนและการเขียนบท"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "การออกอากาศ"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "ศิลปะและงานฝีมือ"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "ดนตรีและเครื่องดนตรี"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "กิจกรรมกลางแจ้ง"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "การเก็บรวบรวม"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "ฟิตเนสและสุขภาพ"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "การทำสวน"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "โครงการ DIY"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "อาหารอิตาเลียน"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "อาหารญี่ปุ่น"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "อาหารเม็กซิกัน"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "อาหารอินเดีย"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "อาหารฝรั่งเศส"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "อาหารจีน"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "อาหารตะวันออกกลาง"
+  }
+]

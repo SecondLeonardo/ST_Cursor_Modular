@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "اقتصاد"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "جغرافیا"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "تاریخ"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "زبان و زبان شناسی"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "ادبیات"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "ریاضیات"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "فلسفه"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "روانشناسی"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "علم"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "جامعه شناسی"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "تفکر انتقادی"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "تاریخ و فرهنگ"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "تاریخ و علوم اجتماعی"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "زبان و زبان شناسی"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "زبانها"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "ادبیات و نوشتن"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "منطق و استدلال"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "ریاضیات"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "فلسفه و تفکر انتقادی"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "سخنرانی عمومی و بحث"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "تحقیق و تجزیه و تحلیل"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "علم"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "علم و طبیعت"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "تکنیک های مطالعه"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "فناوری و محاسبات"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "ارائه علمی"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "تجزیه و تحلیل"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "زبان و نوشتن"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "ریاضیات و آمار"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "تحقیقات علمی"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "آمادگی مطالعه و آزمون"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "انیمیشن"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "صنایع دستی و DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "نوشتن خلاق"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "نقاشی و تصویر"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "طراحی مد"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "نقاشی"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "هنرهای نمایشی"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "مجسمه سازی"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "گرافیک انیمیشن و حرکت"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "صنایع دستی و DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "نقاشی و تصویر"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "هنرهای مد و نساجی"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "فیلم و فیلم"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "نقاشی و رسانه مختلط"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "هنرهای نمایشی"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "نوشتن و ادبیات"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "مدل سازی سه بعدی"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "طراحی معماری"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "صنایع دستی"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "مد و منسوجات"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "فیلم و فیلم"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "طراحی داخلی"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "هنرهای نمایشی"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "هنرهای تجسمی"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "خوشنویسی"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "صنایع دستی"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "هنر و انیمیشن دیجیتال"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "طراحی مد"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "تصویر و نقاشی"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "طراحی داخلی"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "هنرهای نساجی"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "هنرهای تجسمی"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "صنایع دستی و DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "نوشتن خلاق"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "طراحی و هنر دیجیتال"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "هنرهای نمایشی"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "هنرهای تجسمی"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "حسابداری"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "استراتژی تجاری"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "پشتیبانی مشتری"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "تجارت الکترونیکی"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "کارآفرینی"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "دارایی"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "امور مالی و حسابداری"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "منابع انسانی و استخدام"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "منابع انسانی"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "سرمایه گذاری و تجارت"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "رهبری و مدیریت"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "بازاریابی و فروش"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "مدیریت پروژه"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "فروش و CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "ارتباط تجاری"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "خدمات مشتری"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "کارآفرینی"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "امور مالی و حسابداری"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "منابع انسانی"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "رهبری و مدیریت"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "انطباق قانونی و"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "بازاریابی و مارک تجاری"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "بهره وری دفتر"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "مدیریت پروژه و زمان"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "مدیریت پروژه"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "فروش و بازاریابی"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "فروش و مذاکره"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "تفکر انتقادی"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "زبان و زبان شناسی"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "ریاضیات و منطق"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "حافظه و تمرکز"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "علم و تحقیقات"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "مهارت های مطالعه و یادگیری"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "تمرکز و تمرکز"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "تفکر انتقادی"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "اطلاعات"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "استراتژی های یادگیری"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "حافظه و حفظ"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "حل مسئله"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "زبانهای خارجی"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "مهارت های بین فردی"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "ارتباط غیر کلامی"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "ارائه و قصه گویی"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "صحبت عمومی"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "نوشتن و ویرایش"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "صنایع دستی و DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "تفکر خلاق"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "طراحی و زیبایی شناسی"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "مد و یک ظاهر طراحی شده"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "فیلم و فیلم"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "طراحی بازی و ساخت جهانی"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "موسیقی و صدا"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "اجرای موسیقی"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "موسیقی"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "هنرهای نمایشی"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "عکاسی و فیلمبرداری"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "هنرهای تجسمی"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "نوشتن و ادبیات"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "بازیگری و عملکرد"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "انیمیشن"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "کاردستی و DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "صنایع دستی و DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "صنایع دستی و هنرهای دست ساز"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "فناوری خلاق"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "نوشتن خلاق"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "هنرهای آشپزی"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "طراحی و زیبایی شناسی"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "نقاشی و تصویر"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "مد و یک ظاهر طراحی شده"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "هنر مد و نساجی"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "فیلم سازی و فیلم"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "طراحی داخلی و گل"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "موسیقی و سازها"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "ایجاد موسیقی"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "نقاشی"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "نقاشی و هنر زیبا"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "هنرهای نمایشی"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "عکاسی و فیلمبرداری"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "مجسمه و هنر سه بعدی"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "هنرهای تجسمی"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "نوشتن و داستان پردازی"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "سه بعدی و انیمیشن"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "ui/ux"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "تولید ویدیو"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "خوشنویسی و حروف دستی"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "کاردستی و DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "نوشتن خلاق"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "نقاشی و تصویر"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "جواهرات"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "نقاشی"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "دفترچه گذاری و کولاژ"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "مجسمه سازی و خاک رس"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "هنرهای نساجی و فیبر"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "صنایع دستی و DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "هنرهای دیجیتال و انیمیشن"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "داخلی و مد"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "هنرهای تجسمی"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "زبانهای باستانی"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "آگاهی فرهنگی"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "مربیگری گویش"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "ارتباط بین فرهنگی"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "تکنیک های یادگیری زبان"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "زبانها"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "زبان شناسی"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "زبانها را امضا کنید"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "ترجمه و تفسیر"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "سیستم های نوشتن"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "مدل سازی و انیمیشن سه بعدی"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "برندسازی و هویت"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "تصویر"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "طراحی UX/UI"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "سه بعدی و انیمیشن"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "محتوا"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "بازاریابی دیجیتالی"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "رسانه های اجتماعی"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "پخش و پخش"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "طراحی UI/UX"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "تولید ویدیو"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "طراحی وب و برنامه"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "امنیت سایبری"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "داده ها و هوش مصنوعی"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "آن و شبکه سازی"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "برنامه نویسی و توسعه"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "وب و تلفن همراه"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "تدریس دانشگاهی"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "تحصیلات در اوایل کودکی"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "آموزش عالی"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "آموزش زبان"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "زبانها"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "فن آوری های یادگیری"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "سوادآموزی و نوشتن"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "آموزش ویژه"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "مهارت های مطالعه"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "تست آمادگی"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "خودرو و حمل و نقل"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "مهندسی عمران"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "مهندسی برق"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "سیستم های انرژی و برق"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC و سیستم ها"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "طراحی صنعتی"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "تولید و تولید"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "مهندسی مکانیکی"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "روباتیک و اتوماسیون"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "طراحی ساختاری"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "مراقبت از بدن و سلامتی"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "کمک های اولیه و ایمنی"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "سلامت روانی"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "تغذیه و رژیم غذایی"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "تمرین بدنی"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "داروی جایگزین"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "کمک های اولیه و اضطراری"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "آموزش تناسب اندام"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "سلامت کل نگر"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "دانش پزشکی"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "مهارت های پزشکی"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "سلامت روانی"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "روشهای بهداشت روانی"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "ذهن آگاهی و مراقبه"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "تغذیه و رژیم غذایی"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "مراقبت شخصی"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "آمادگی جسمانی"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "توانبخشی و درمانی"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "سلامت تولید مثل"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "مراقبت از خود و بهداشت"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "خواب و بازیابی"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "مدیریت استرس"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "یوگا و مراقبه"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "آموزش تناسب اندام"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "تغذیه"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "در فضای باز و ماجراجویی"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "مهارت های ورزشی"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "سلامتی و بازیابی"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "داروی جایگزین"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "دانش پزشکی"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "سلامت روانی"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "تغذیه"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "آموزش شخصی"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "آمادگی جسمانی"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "توانبخشی و درمانی"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "مربیگری"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "مربیگری سلامتی"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "یوگا و ذهن آگاهی"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "لوازم خانگی"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "تمیز کردن و سازماندهی"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "صنایع دستی و دکوراسیون"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "کار برقی"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "باغبانی و محوطه سازی"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "اتوماسیون خانگی"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "تعمیر خانه"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "طراحی داخلی"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "مبانی لوله کشی"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "نجاری و نجاری"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "بودجه بندی و تأمین مالی خانوار"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "مراقبت از کودکان"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "پخت و پز و وعده غذایی"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "خرید مواد غذایی"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "نظافت"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "نگهداری در منزل"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "مراقبت از لباس و لباس"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "سازماندهی و تجزیه"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "مراقبت از حیوانات خانگی"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "مدیریت زمان"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "ارتباط متقابل فرهنگی"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "زبانهای خارجی"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "گوش دادن و درک"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "ترجمه و تفسیر"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "مهارت نوشتن"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "یادگیری زبانی"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "ارتباط غیر کلامی"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "صحبت عمومی"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "قصه گویی و روایت"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "ارتباط کلامی"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "نوشتن و ویرایش"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "یادگیری زبانی"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "ریاضیات"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "علم و تحقیقات"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "تکنیک های مطالعه"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "آماده سازی آزمون"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "تدریس دانشگاهی"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "ابزارها و مهارتهای آموزشی"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "یادگیری زبانی"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "یادگیری مادام العمر"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "آماده سازی آزمون"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "پخت و پز و غذا"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "نگهداری در منزل"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "دارایی شخصی"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "مدیریت زمان"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "سفر و پیمایش"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "ارتباطات و روابط"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "هوش هیجانی"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "مقاومت و رشد"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "خود نظم"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "مدیریت زمان و هدف"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "پخت و پز و تهیه غذا"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY و تعمیرات"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "باغبانی و پایداری"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "مدیریت خانه"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "دارایی شخصی"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "مهارت بقا"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "تعمیر خودرو"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "معاملات ساختمانی"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "کار برقی"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "مبلمان و اثاثه یا لوازم داخلی"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "تسلط بر ابزار دستی"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "نوسازی خانه"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "کار فلزکاری"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "لوله کشی و گرمایش"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "پارچه های نساجی و چرمی"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "چوب"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "نگهداری خودرو"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "مبانی مهندسی"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "تعمیر و نصب خانگی"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "عمل دستگاه"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "استفاده از ابزار و ایمنی"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "کار چوب و فلز"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "تفکر انتقادی"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "جغرافیا و محیط"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "تاریخ و فرهنگ"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "زبانها"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "ریاضیات"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "مهارت های حافظه و یادگیری"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "فلسفه و اخلاق"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "روانشناسی و رفتار"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "علم و تحقیقات"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "تکنیک های مطالعه"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "انعطاف پذیری شناختی"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "تفکر انتقادی"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "یادگیری زبانی"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "حافظه و تمرکز"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "مهارت های مطالعه"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "اعتماد به نفس و عزت نفس"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "هوش هیجانی"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "تنظیم هدف و برنامه ریزی"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "عادات و نظم و انضباط"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "مهارت های بین فردی"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "رهبری و نفوذ"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "ذهن آگاهی و رفاه"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "صحبت عمومی"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "بازتاب نفس"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "زمان و بهره وری"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "رهبری"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "سلامتی روانی"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "بهره وری"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "صحبت عمومی"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "بهبود نفس"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "هوش هیجانی"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "تنظیم هدف و دستاورد"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "عادات و بهره وری"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "ذهن آگاهی و سلامتی"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "صحبت کردن و ارتباطات عمومی"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "خود نظم و تمرکز خود"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "تناسب اندام و تهویه"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "کار و معاملات دستی"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "تفریح ​​در فضای باز"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "دفاع از خود و هنرهای رزمی"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "ورزش و دو و میدانی"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "Survival & Bushcraft"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "تناسب اندام و قدرت"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "ورزش های فردی"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "هنرهای رزمی"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "در فضای باز و ماجراجویی"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "فعالیت های تفریحی"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "ورزش تیمی"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "نوشتن دانشگاهی"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "علوم زیست شناسی"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "علوم کامپیوتر و داده"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "علوم زمین و محیط زیست"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "علوم مهندسی"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "ریاضیات و آمار"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "علوم پزشکی و بهداشتی"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "علوم فیزیکی"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "روشهای تحقیق"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "علوم اجتماعی"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "نجوم"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "زیست شناسی و علوم زندگی"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "شیمی"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "علوم کامپیوتر"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "علوم داده و هوش مصنوعی"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "علوم زمین و محیط زیست"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "رشته های مهندسی"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "ریاضیات و آمار"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "فیزیک و مکانیک"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "روباتیک و اتوماسیون"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "نجوم"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "بیوتکنولوژی"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "شیمی"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "علوم کامپیوتر"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "علوم داده و هوش مصنوعی"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "علوم زمین و محیط زیست"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "الکترونیک"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "مهندسی"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "ریاضیات و آمار"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "فیزیک"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "هوش مصنوعی و یادگیری ماشین"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "محاسبات ابری"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "امنیت سایبری"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "داده ها و تجزیه و تحلیل"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "علوم داده و هوش مصنوعی"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "Devops & Automation"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "توسعه بازی"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "آن و شبکه سازی"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "پشتیبانی و شبکه سازی"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "توسعه برنامه سیار"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "برنامه نویسی و توسعه نرم افزار"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "توسعه نرم افزاری"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "سخت افزار فنی و تعمیر"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "پشتیبانی فنی و عیب یابی"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "توسعه وب"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "مدنی و ساختاری"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "مهندسی برق"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "ساخت و ساخت"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "مهندسی مکانیکی"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "نرم افزاری و سیستم ها"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "مهارت های خودرو"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "ساخت و ساز و ساختمان"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "کار برقی"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "انرژی و محیط"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "مهارت های صنعتی"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "تعمیر مکانیکی"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "امنیت سایبری"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "داده ها و هوش مصنوعی"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "بازاریابی دیجیتالی"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "آن و شبکه سازی"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "توسعه نرم افزاری"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "هوش مصنوعی"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "محاسبات ابری"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "مبانی رایانه"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "امنیت سایبری"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "داده ها و هوش مصنوعی"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "داده ها و تجزیه و تحلیل"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "سواد دیجیتالی"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "بازاریابی دیجیتالی"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "فناوری نوظهور"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "سخت افزار و الکترونیک"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "آن و شبکه سازی"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "شبکه سازی و آن"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "برنامه نویسی و توسعه"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "برنامه نویسی و توسعه نرم افزار"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "ابزارهای نرم افزاری"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "بهره وری فنی"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "پشتیبانی و نگهداری فناوری"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "پشتیبانی فنی و عیب یابی"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "توسعه وب و برنامه"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "ساخت و ساز و نجاری"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "برق و لوله کشی"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "کالاهای دست ساز"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "فلزکاری و جوشکاری"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "پارچه های نساجی و چرمی"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "صنایع دستی سنتی"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "تعمیر خودرو"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "نجاری و نجاری"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "ساخت و ساز و سنگ تراشی"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "کار برقی"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC و یخچال"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "جواهرات"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "فلزکاری و جوشکاری"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "نقاشی و تزئین"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "لوله کشی"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "خیاطی و خیاطی"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "تعمیر خودرو"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "نجاری و نجاری"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "ساخت و ساز"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "ساخت و ساز و نجاری"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "صنایع دستی و تعمیرات"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "برقی و مکانیکی"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "کار برقی"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC و یخچال"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "عملکرد تجهیزات سنگین"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "سنگ تراشی و کاشی کاری"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "فلز و چوب"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "نقاشی و اتمام"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "لوله کشی"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "تعمیر و نگهداری وسیله نقلیه و ماشین"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "جوشکاری و فلزکاری"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "خودرو"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "نجاری"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "ساخت و ساز"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "برق"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "سنگ تراشی"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "مکانیکی"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "نقاشی و تزئین"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "لوله کشی"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "جوش"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "تولید ویدیو"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "تولید صدا"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "عکاسی"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "طراحی گرافیک"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "بازیگری و عملکرد"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "نوشتن و فیلمنامه نویسی"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "پخش"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "هنر و صنایع دستی"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "موسیقی و سازها"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "فعالیت های در فضای باز"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "جمع آوری"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "تناسب اندام و سلامتی"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "باغبانی"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "پروژه های DIY"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "غذاهای ایتالیایی"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "غذاهای ژاپنی"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "غذاهای مکزیکی"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "غذاهای هندی"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "غذاهای فرانسوی"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "غذاهای چینی"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "غذاهای خاورمیانه"
+  }
+]

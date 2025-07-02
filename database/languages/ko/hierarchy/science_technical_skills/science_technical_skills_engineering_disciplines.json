@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_engineering_disciplines",
+  "name": "엔지니어링 분야",
+  "skills": [
+    {
+      "id": "skill_4208",
+      "name": "CAD 디자인",
+      "difficulty_level": 4,
+      "description": "Learn and master CAD Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4209",
+      "name": "화학 공학",
+      "difficulty_level": 4,
+      "description": "Learn and master Chemical Engineering",
+      "tags": [
+        "chemical",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4210",
+      "name": "토목 공학",
+      "difficulty_level": 3,
+      "description": "Learn and master Civil Engineering",
+      "tags": [
+        "civil",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4211",
+      "name": "제어 시스템",
+      "difficulty_level": 5,
+      "description": "Learn and master Control Systems",
+      "tags": [
+        "control",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4212",
+      "name": "전기 공학",
+      "difficulty_level": 4,
+      "description": "Learn and master Electrical Engineering",
+      "tags": [
+        "electrical",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4213",
+      "name": "엔지니어링 자료",
+      "difficulty_level": 3,
+      "description": "Learn and master Engineering Materials",
+      "tags": [
+        "engineering",
+        "materials",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4214",
+      "name": "기계 공학",
+      "difficulty_level": 4,
+      "description": "Learn and master Mechanical Engineering",
+      "tags": [
+        "mechanical",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4215",
+      "name": "메카트로닉스",
+      "difficulty_level": 5,
+      "description": "Learn and master Mechatronics",
+      "tags": [
+        "mechatronics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4216",
+      "name": "구조 분석",
+      "difficulty_level": 3,
+      "description": "Learn and master Structural Analysis",
+      "tags": [
+        "structural",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4217",
+      "name": "엔지니어를위한 열역학",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermodynamics for Engineers",
+      "tags": [
+        "thermodynamics",
+        "engineers",
+        "skill"
+      ]
+    }
+  ]
+}

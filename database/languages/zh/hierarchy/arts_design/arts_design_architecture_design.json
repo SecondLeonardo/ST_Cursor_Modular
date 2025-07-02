@@ -1,0 +1,117 @@
+{
+  "id": "arts_design_architecture_design",
+  "name": "建筑设计",
+  "skills": [
+    {
+      "id": "skill_530",
+      "name": "3D平面图",
+      "difficulty_level": 5,
+      "description": "Learn and master 3D Floor Plans",
+      "tags": [
+        "floor",
+        "plans",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_531",
+      "name": "建筑渲染",
+      "difficulty_level": 4,
+      "description": "Learn and master Architectural Rendering",
+      "tags": [
+        "architectural",
+        "rendering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_532",
+      "name": "建筑信息建模（BIM）",
+      "difficulty_level": 4,
+      "description": "Learn and master Building Information Modeling (BIM)",
+      "tags": [
+        "building",
+        "information",
+        "modeling",
+        "(bim)"
+      ]
+    },
+    {
+      "id": "skill_533",
+      "name": "CAD图",
+      "difficulty_level": 1,
+      "description": "Learn and master CAD Drawing",
+      "tags": [
+        "drawing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_534",
+      "name": "材料分析",
+      "difficulty_level": 3,
+      "description": "Learn and master Material Analysis",
+      "tags": [
+        "material",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_535",
+      "name": "模型构建",
+      "difficulty_level": 3,
+      "description": "Learn and master Model Building",
+      "tags": [
+        "model",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_536",
+      "name": "站点分析",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Analysis",
+      "tags": [
+        "site",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_537",
+      "name": "素描结构",
+      "difficulty_level": 4,
+      "description": "Learn and master Sketching Architecture",
+      "tags": [
+        "sketching",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_538",
+      "name": "可持续设计",
+      "difficulty_level": 5,
+      "description": "Learn and master Sustainable Design",
+      "tags": [
+        "sustainable",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_539",
+      "name": "城市规划基础知识",
+      "difficulty_level": 1,
+      "description": "Learn and master Urban Planning Basics",
+      "tags": [
+        "urban",
+        "planning",
+        "basics"
+      ]
+    }
+  ]
+}

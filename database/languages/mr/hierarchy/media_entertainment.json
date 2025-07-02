@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "मीडिया आणि करमणूक",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "व्हिडिओ उत्पादन"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "ऑडिओ उत्पादन"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "छायाचित्रण"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "ग्राफिक डिझाइन"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "अभिनय आणि कामगिरी"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "लेखन आणि पटकथा लिहिणे"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "प्रसारण"
+    }
+  ]
+}

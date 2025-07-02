@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_mathematics",
+  "name": "数学",
+  "skills": [
+    {
+      "id": "skill_50",
+      "name": "代数",
+      "difficulty_level": 3,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_51",
+      "name": "结石",
+      "difficulty_level": 1,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_52",
+      "name": "微分方程",
+      "difficulty_level": 4,
+      "description": "Learn and master Differential Equations",
+      "tags": [
+        "differential",
+        "equations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_53",
+      "name": "离散数学",
+      "difficulty_level": 3,
+      "description": "Learn and master Discrete Math",
+      "tags": [
+        "discrete",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_54",
+      "name": "几何学",
+      "difficulty_level": 2,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_55",
+      "name": "线性代数",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_56",
+      "name": "数学建模",
+      "difficulty_level": 3,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_57",
+      "name": "概率理论",
+      "difficulty_level": 3,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_58",
+      "name": "统计数据",
+      "difficulty_level": 2,
+      "description": "Learn and master Statistics",
+      "tags": [
+        "statistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_59",
+      "name": "三角学",
+      "difficulty_level": 5,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+  "name": "Impianto idraulico e riscaldamento",
+  "skills": [
+    {
+      "id": "skill_3478",
+      "name": "Manutenzione della caldaia",
+      "difficulty_level": 2,
+      "description": "Learn and master Boiler Maintenance",
+      "tags": [
+        "boiler",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3479",
+      "name": "Scolare la pulizia",
+      "difficulty_level": 3,
+      "description": "Learn and master Drain Cleaning",
+      "tags": [
+        "drain",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3480",
+      "name": "Lavoro della linea del gas",
+      "difficulty_level": 2,
+      "description": "Learn and master Gas Line Work",
+      "tags": [
+        "line",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3481",
+      "name": "Rilevamento delle perdite",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3482",
+      "name": "Raccordo per tubi",
+      "difficulty_level": 2,
+      "description": "Learn and master Pipe Fitting",
+      "tags": [
+        "pipe",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3483",
+      "name": "Sanguinamento del radiatore",
+      "difficulty_level": 2,
+      "description": "Learn and master Radiator Bleeding",
+      "tags": [
+        "radiator",
+        "bleeding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3484",
+      "name": "Ispezione delle fogne",
+      "difficulty_level": 1,
+      "description": "Learn and master Sewer Inspection",
+      "tags": [
+        "sewer",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3485",
+      "name": "Adattamento della doccia",
+      "difficulty_level": 5,
+      "description": "Learn and master Shower Fitting",
+      "tags": [
+        "shower",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3486",
+      "name": "Installazione di servizi igienici",
+      "difficulty_level": 5,
+      "description": "Learn and master Toilet Installation",
+      "tags": [
+        "toilet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3487",
+      "name": "Installazione dello scaldabagno",
+      "difficulty_level": 2,
+      "description": "Learn and master Water Heater Installation",
+      "tags": [
+        "water",
+        "heater",
+        "installation"
+      ]
+    }
+  ]
+}

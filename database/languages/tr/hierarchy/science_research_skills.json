@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Bilim ve Araştırma Becerileri",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Akademik yazı"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Biyolojik bilimler"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Bilgisayar ve Veri Bilimi"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Dünya ve Çevre Bilimleri"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Mühendislik Bilimleri"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Matematik ve İstatistik"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Tıp ve Sağlık Bilimleri"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Fizik bilimleri"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Araştırma Yöntemleri"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Sosyal Bilimler"
+    }
+  ]
+}

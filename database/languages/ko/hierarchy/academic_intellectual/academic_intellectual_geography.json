@@ -1,0 +1,117 @@
+{
+  "id": "academic_intellectual_geography",
+  "name": "지리학",
+  "skills": [
+    {
+      "id": "skill_10",
+      "name": "지도 작성",
+      "difficulty_level": 5,
+      "description": "Learn and master Cartography",
+      "tags": [
+        "cartography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_11",
+      "name": "기후학",
+      "difficulty_level": 5,
+      "description": "Learn and master Climatology",
+      "tags": [
+        "climatology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_12",
+      "name": "환경 지리",
+      "difficulty_level": 4,
+      "description": "Learn and master Environmental Geography",
+      "tags": [
+        "environmental",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_13",
+      "name": "지리 정보 시스템 (GIS)",
+      "difficulty_level": 1,
+      "description": "Learn and master Geographical Information Systems (GIS)",
+      "tags": [
+        "geographical",
+        "information",
+        "systems",
+        "(gis)"
+      ]
+    },
+    {
+      "id": "skill_14",
+      "name": "지리 공간 분석",
+      "difficulty_level": 4,
+      "description": "Learn and master Geospatial Analysis",
+      "tags": [
+        "geospatial",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_15",
+      "name": "인간 지리",
+      "difficulty_level": 5,
+      "description": "Learn and master Human Geography",
+      "tags": [
+        "human",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_16",
+      "name": "물리적 지리",
+      "difficulty_level": 1,
+      "description": "Learn and master Physical Geography",
+      "tags": [
+        "physical",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_17",
+      "name": "지역 연구",
+      "difficulty_level": 4,
+      "description": "Learn and master Regional Studies",
+      "tags": [
+        "regional",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_18",
+      "name": "지형",
+      "difficulty_level": 1,
+      "description": "Learn and master Topography",
+      "tags": [
+        "topography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_19",
+      "name": "도시 지리",
+      "difficulty_level": 2,
+      "description": "Learn and master Urban Geography",
+      "tags": [
+        "urban",
+        "geography",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_mathematics_statistics",
+  "name": "गणित आणि आकडेवारी",
+  "skills": [
+    {
+      "id": "skill_4218",
+      "name": "बीजगणित",
+      "difficulty_level": 4,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4219",
+      "name": "कॅल्क्युलस",
+      "difficulty_level": 4,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4220",
+      "name": "वर्णनात्मक आकडेवारी",
+      "difficulty_level": 5,
+      "description": "Learn and master Descriptive Statistics",
+      "tags": [
+        "descriptive",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4221",
+      "name": "भूमिती",
+      "difficulty_level": 1,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4222",
+      "name": "अनुमानित आकडेवारी",
+      "difficulty_level": 5,
+      "description": "Learn and master Inferential Statistics",
+      "tags": [
+        "inferential",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4223",
+      "name": "रेखीय बीजगणित",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4224",
+      "name": "क्रमांक सिद्धांत",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4225",
+      "name": "संभाव्यता",
+      "difficulty_level": 3,
+      "description": "Learn and master Probability",
+      "tags": [
+        "probability",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4226",
+      "name": "सिद्धांत सेट करा",
+      "difficulty_level": 5,
+      "description": "Learn and master Set Theory",
+      "tags": [
+        "theory",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4227",
+      "name": "त्रिकोणमिती",
+      "difficulty_level": 5,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

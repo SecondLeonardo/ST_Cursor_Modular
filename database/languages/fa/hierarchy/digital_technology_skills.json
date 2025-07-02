@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "مهارت های دیجیتال و فناوری",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "امنیت سایبری"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "داده ها و هوش مصنوعی"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "آن و شبکه سازی"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "برنامه نویسی و توسعه"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "وب و تلفن همراه"
+    }
+  ]
+}

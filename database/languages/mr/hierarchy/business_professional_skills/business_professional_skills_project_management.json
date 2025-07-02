@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_project_management",
+  "name": "प्रकल्प व्यवस्थापन",
+  "skills": [
+    {
+      "id": "skill_1038",
+      "name": "चपळ नियोजन",
+      "difficulty_level": 1,
+      "description": "Learn and master Agile Planning",
+      "tags": [
+        "agile",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1039",
+      "name": "पेरणी तयार करणे",
+      "difficulty_level": 1,
+      "description": "Learn and master Creating SOWs",
+      "tags": [
+        "creating",
+        "sows",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1040",
+      "name": "गंभीर पथ विश्लेषण",
+      "difficulty_level": 4,
+      "description": "Learn and master Critical Path Analysis",
+      "tags": [
+        "critical",
+        "path",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_1041",
+      "name": "प्रोजेक्ट लाइफसायकल व्यवस्थापन",
+      "difficulty_level": 5,
+      "description": "Learn and master Project Lifecycle Management",
+      "tags": [
+        "project",
+        "lifecycle",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_1042",
+      "name": "प्रकल्प पूर्वगामी",
+      "difficulty_level": 3,
+      "description": "Learn and master Project Retrospectives",
+      "tags": [
+        "project",
+        "retrospectives",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1043",
+      "name": "जोखीम मूल्यांकन",
+      "difficulty_level": 3,
+      "description": "Learn and master Risk Assessment",
+      "tags": [
+        "risk",
+        "assessment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1044",
+      "name": "स्क्रॅम पद्धत",
+      "difficulty_level": 2,
+      "description": "Learn and master SCRUM Methodology",
+      "tags": [
+        "scrum",
+        "methodology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1045",
+      "name": "स्प्रिंट नियोजन",
+      "difficulty_level": 2,
+      "description": "Learn and master Sprint Planning",
+      "tags": [
+        "sprint",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1046",
+      "name": "भागधारक संप्रेषण",
+      "difficulty_level": 5,
+      "description": "Learn and master Stakeholder Communication",
+      "tags": [
+        "stakeholder",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1047",
+      "name": "Gantt चार्ट वापरणे",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Gantt Charts",
+      "tags": [
+        "using",
+        "gantt",
+        "charts"
+      ]
+    }
+  ]
+}

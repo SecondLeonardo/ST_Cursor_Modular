@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_science",
+  "name": "Nauka",
+  "skills": [
+    {
+      "id": "skill_220",
+      "name": "Astronomia",
+      "difficulty_level": 1,
+      "description": "Learn and master Astronomy",
+      "tags": [
+        "astronomy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_221",
+      "name": "Wiedza biologiczna",
+      "difficulty_level": 1,
+      "description": "Learn and master Biology Knowledge",
+      "tags": [
+        "biology",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_222",
+      "name": "Podstawy chemii",
+      "difficulty_level": 3,
+      "description": "Learn and master Chemistry Basics",
+      "tags": [
+        "chemistry",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_223",
+      "name": "Nauk o środowisku",
+      "difficulty_level": 3,
+      "description": "Learn and master Environmental Science",
+      "tags": [
+        "environmental",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_224",
+      "name": "Geologia",
+      "difficulty_level": 3,
+      "description": "Learn and master Geology",
+      "tags": [
+        "geology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_225",
+      "name": "Anatomia człowieka",
+      "difficulty_level": 5,
+      "description": "Learn and master Human Anatomy",
+      "tags": [
+        "human",
+        "anatomy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_226",
+      "name": "Techniki laboratoryjne",
+      "difficulty_level": 1,
+      "description": "Learn and master Laboratory Techniques",
+      "tags": [
+        "laboratory",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_227",
+      "name": "Podstawy fizyki",
+      "difficulty_level": 4,
+      "description": "Learn and master Physics Fundamentals",
+      "tags": [
+        "physics",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_228",
+      "name": "Komunikacja naukowa",
+      "difficulty_level": 3,
+      "description": "Learn and master Science Communication",
+      "tags": [
+        "science",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_229",
+      "name": "Metoda naukowa",
+      "difficulty_level": 4,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    }
+  ]
+}

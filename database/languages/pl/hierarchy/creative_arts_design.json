@@ -1,0 +1,26 @@
+{
+  "id": "creative_arts_design",
+  "name": "Kreatywne sztuki i projektowanie",
+  "subcategories": [
+    {
+      "id": "creative_arts_design_crafts_diy",
+      "name": "Rzemiosło i majsterkowanie"
+    },
+    {
+      "id": "creative_arts_design_digital_arts_animation",
+      "name": "Sztuka cyfrowa i animacja"
+    },
+    {
+      "id": "creative_arts_design_graphic_design",
+      "name": "Projekt graficzny"
+    },
+    {
+      "id": "creative_arts_design_interior_fashion",
+      "name": "Wnętrza i moda"
+    },
+    {
+      "id": "creative_arts_design_visual_arts",
+      "name": "Sztuki wizualne"
+    }
+  ]
+}

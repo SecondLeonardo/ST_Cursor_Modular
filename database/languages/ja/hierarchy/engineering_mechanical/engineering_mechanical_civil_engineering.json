@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_civil_engineering",
+  "name": "土木工学",
+  "skills": [
+    {
+      "id": "skill_2353",
+      "name": "建築基準",
+      "difficulty_level": 3,
+      "description": "Learn and master Building Codes",
+      "tags": [
+        "building",
+        "codes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2354",
+      "name": "民事起草",
+      "difficulty_level": 5,
+      "description": "Learn and master Civil Drafting",
+      "tags": [
+        "civil",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2355",
+      "name": "建設管理",
+      "difficulty_level": 3,
+      "description": "Learn and master Construction Management",
+      "tags": [
+        "construction",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2356",
+      "name": "油圧工学",
+      "difficulty_level": 3,
+      "description": "Learn and master Hydraulic Engineering",
+      "tags": [
+        "hydraulic",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2357",
+      "name": "鉄筋コンクリートデザイン",
+      "difficulty_level": 1,
+      "description": "Learn and master Reinforced Concrete Design",
+      "tags": [
+        "reinforced",
+        "concrete",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_2358",
+      "name": "道路設計",
+      "difficulty_level": 4,
+      "description": "Learn and master Roadway Design",
+      "tags": [
+        "roadway",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2359",
+      "name": "土壌力学",
+      "difficulty_level": 4,
+      "description": "Learn and master Soil Mechanics",
+      "tags": [
+        "soil",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2360",
+      "name": "構造分析",
+      "difficulty_level": 2,
+      "description": "Learn and master Structural Analysis",
+      "tags": [
+        "structural",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2361",
+      "name": "測量",
+      "difficulty_level": 1,
+      "description": "Learn and master Surveying",
+      "tags": [
+        "surveying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2362",
+      "name": "都市排水",
+      "difficulty_level": 5,
+      "description": "Learn and master Urban Drainage",
+      "tags": [
+        "urban",
+        "drainage",
+        "skill"
+      ]
+    }
+  ]
+}

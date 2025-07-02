@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_translation_interpretation",
+  "name": "भाषांतर आणि व्याख्या",
+  "skills": [
+    {
+      "id": "skill_2013",
+      "name": "सांस्कृतिक संदर्भ व्याख्या",
+      "difficulty_level": 3,
+      "description": "Learn and master Cultural Context Interpretation",
+      "tags": [
+        "cultural",
+        "context",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "skill_2014",
+      "name": "कायदेशीर अनुवाद",
+      "difficulty_level": 1,
+      "description": "Learn and master Legal Translation",
+      "tags": [
+        "legal",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2015",
+      "name": "वैद्यकीय व्याख्या",
+      "difficulty_level": 2,
+      "description": "Learn and master Medical Interpretation",
+      "tags": [
+        "medical",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2016",
+      "name": "बहुभाषिक समर्थन",
+      "difficulty_level": 3,
+      "description": "Learn and master Multilingual Support",
+      "tags": [
+        "multilingual",
+        "support",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2017",
+      "name": "एकाचवेळी व्याख्या",
+      "difficulty_level": 3,
+      "description": "Learn and master Simultaneous Interpretation",
+      "tags": [
+        "simultaneous",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2018",
+      "name": "उपशीर्षक",
+      "difficulty_level": 2,
+      "description": "Learn and master Subtitling",
+      "tags": [
+        "subtitling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2019",
+      "name": "तांत्रिक दस्तऐवज भाषांतर",
+      "difficulty_level": 4,
+      "description": "Learn and master Technical Document Translation",
+      "tags": [
+        "technical",
+        "document",
+        "translation"
+      ]
+    },
+    {
+      "id": "skill_2020",
+      "name": "लिप्यंतरण भाषांतर",
+      "difficulty_level": 5,
+      "description": "Learn and master Transcription Translation",
+      "tags": [
+        "transcription",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2021",
+      "name": "वेबसाइट स्थानिकीकरण",
+      "difficulty_level": 2,
+      "description": "Learn and master Website Localization",
+      "tags": [
+        "website",
+        "localization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2022",
+      "name": "लेखी भाषांतर",
+      "difficulty_level": 3,
+      "description": "Learn and master Written Translation",
+      "tags": [
+        "written",
+        "translation",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_design_crafts_diy",
+  "name": "手工艺品和DIY",
+  "skills": [
+    {
+      "id": "skill_1883",
+      "name": "珠子和珠宝制作",
+      "difficulty_level": 4,
+      "description": "Learn and master Beadwork & Jewelry Making",
+      "tags": [
+        "beadwork",
+        "jewelry",
+        "making"
+      ]
+    },
+    {
+      "id": "skill_1884",
+      "name": "蜡烛制作",
+      "difficulty_level": 5,
+      "description": "Learn and master Candle Crafting",
+      "tags": [
+        "candle",
+        "crafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1885",
+      "name": "刺绣针迹",
+      "difficulty_level": 3,
+      "description": "Learn and master Embroidery Stitches",
+      "tags": [
+        "embroidery",
+        "stitches",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1886",
+      "name": "手工制作的肥皂制作",
+      "difficulty_level": 3,
+      "description": "Learn and master Handmade Soap Making",
+      "tags": [
+        "handmade",
+        "soap",
+        "making"
+      ]
+    },
+    {
+      "id": "skill_1887",
+      "name": "编织技术",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting Techniques",
+      "tags": [
+        "knitting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1888",
+      "name": "折纸折叠",
+      "difficulty_level": 2,
+      "description": "Learn and master Origami Folding",
+      "tags": [
+        "origami",
+        "folding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1889",
+      "name": "纸雕刻",
+      "difficulty_level": 2,
+      "description": "Learn and master Paper Mache Sculpting",
+      "tags": [
+        "paper",
+        "mache",
+        "sculpting"
+      ]
+    },
+    {
+      "id": "skill_1890",
+      "name": "陶器与粘土",
+      "difficulty_level": 3,
+      "description": "Learn and master Pottery with Clay",
+      "tags": [
+        "pottery",
+        "with",
+        "clay"
+      ]
+    },
+    {
+      "id": "skill_1891",
+      "name": "剪贴簿",
+      "difficulty_level": 1,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1892",
+      "name": "升级家具",
+      "difficulty_level": 2,
+      "description": "Learn and master Upcycling Furniture",
+      "tags": [
+        "upcycling",
+        "furniture",
+        "skill"
+      ]
+    }
+  ]
+}

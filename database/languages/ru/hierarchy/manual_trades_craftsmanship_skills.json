@@ -1,0 +1,46 @@
+{
+  "id": "manual_trades_craftsmanship_skills",
+  "name": "Ручные сделки и мастерские навыки мастерства",
+  "subcategories": [
+    {
+      "id": "manual_trades_craftsmanship_skills_automotive_repair",
+      "name": "Автомобильный ремонт"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_construction_trades",
+      "name": "Строительные сделки"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_electrical_work",
+      "name": "Электрическая работа"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+      "name": "Мебель и обивка"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+      "name": "Мастерство ручного инструмента"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_home_renovation",
+      "name": "Ремонт дома"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_metalworking",
+      "name": "Металлообработка"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+      "name": "Сантехника и отопление"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+      "name": "Текстиль и кожа"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_woodworking",
+      "name": "Деревообработка"
+    }
+  ]
+}

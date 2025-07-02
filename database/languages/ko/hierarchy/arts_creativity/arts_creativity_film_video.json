@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_film_video",
+  "name": "영화 및 비디오",
+  "skills": [
+    {
+      "id": "skill_460",
+      "name": "영화 촬영법",
+      "difficulty_level": 5,
+      "description": "Learn and master Cinematography",
+      "tags": [
+        "cinematography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_461",
+      "name": "컬러 등급",
+      "difficulty_level": 5,
+      "description": "Learn and master Color Grading",
+      "tags": [
+        "color",
+        "grading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_462",
+      "name": "지시",
+      "difficulty_level": 3,
+      "description": "Learn and master Directing",
+      "tags": [
+        "directing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_463",
+      "name": "다큐멘터리 영화 제작",
+      "difficulty_level": 2,
+      "description": "Learn and master Documentary Filmmaking",
+      "tags": [
+        "documentary",
+        "filmmaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_464",
+      "name": "스크립트 작성",
+      "difficulty_level": 5,
+      "description": "Learn and master Scriptwriting",
+      "tags": [
+        "scriptwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_465",
+      "name": "단편 영화 제작",
+      "difficulty_level": 1,
+      "description": "Learn and master Short Film Production",
+      "tags": [
+        "short",
+        "film",
+        "production"
+      ]
+    },
+    {
+      "id": "skill_466",
+      "name": "사운드 디자인",
+      "difficulty_level": 4,
+      "description": "Learn and master Sound Design",
+      "tags": [
+        "sound",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_467",
+      "name": "스토리 보딩",
+      "difficulty_level": 3,
+      "description": "Learn and master Storyboarding",
+      "tags": [
+        "storyboarding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_468",
+      "name": "비디오 편집",
+      "difficulty_level": 3,
+      "description": "Learn and master Video Editing",
+      "tags": [
+        "video",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_469",
+      "name": "비디오 전환 및 효과",
+      "difficulty_level": 3,
+      "description": "Learn and master Video Transitions & Effects",
+      "tags": [
+        "video",
+        "transitions",
+        "effects"
+      ]
+    }
+  ]
+}

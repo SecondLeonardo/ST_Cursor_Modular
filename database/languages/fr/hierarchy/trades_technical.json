@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "Métiers et techniques",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "Automobile"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "Charpenterie"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "Construction"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "Électrique"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "Maçonnerie"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "Mécanique"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "Peinture et décoration"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "Plomberie"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "Soudage"
+    }
+  ]
+}

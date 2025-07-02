@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_painting",
+  "name": "चित्रकारी",
+  "skills": [
+    {
+      "id": "skill_380",
+      "name": "सार चित्रकला",
+      "difficulty_level": 5,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_381",
+      "name": "ऐक्रेलिक पेंटिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_382",
+      "name": "ब्रश तकनीक",
+      "difficulty_level": 3,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_383",
+      "name": "कैनवस तैयारी",
+      "difficulty_level": 3,
+      "description": "Learn and master Canvas Preparation",
+      "tags": [
+        "canvas",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_384",
+      "name": "रंग मिश्रण",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_385",
+      "name": "प्रभाववाद",
+      "difficulty_level": 2,
+      "description": "Learn and master Impressionism",
+      "tags": [
+        "impressionism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_386",
+      "name": "तैल चित्र",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_387",
+      "name": "प्लीइन एयर पेंटिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Plein Air Painting",
+      "tags": [
+        "plein",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_388",
+      "name": "चित्र -चित्रण",
+      "difficulty_level": 2,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_389",
+      "name": "जल रंग तकनीक",
+      "difficulty_level": 2,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

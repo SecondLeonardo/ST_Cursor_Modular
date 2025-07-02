@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "Dijital ve Teknoloji Becerileri",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "Siber güvenlik"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "Veri ve AI"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "IT & Networking"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "Programlama ve Geliştirme"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "Web ve Mobile"
+    }
+  ]
+}

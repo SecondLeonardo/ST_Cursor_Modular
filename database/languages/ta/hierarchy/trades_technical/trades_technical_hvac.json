@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_hvac",
+  "name": "HVAC",
+  "skills": [
+    {
+      "id": "skill_5215",
+      "name": "ஏசி பழுது",
+      "difficulty_level": 2,
+      "description": "Learn and master AC Repair",
+      "tags": [
+        "repair",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5216",
+      "name": "காற்று குழாய் சுத்தம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Air Duct Cleaning",
+      "tags": [
+        "duct",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5217",
+      "name": "அமுக்கி பழுது",
+      "difficulty_level": 4,
+      "description": "Learn and master Compressor Repair",
+      "tags": [
+        "compressor",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5218",
+      "name": "வடிகட்டி மாற்றீடு",
+      "difficulty_level": 3,
+      "description": "Learn and master Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5219",
+      "name": "HVAC சரிசெய்தல்",
+      "difficulty_level": 1,
+      "description": "Learn and master HVAC Troubleshooting",
+      "tags": [
+        "hvac",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5220",
+      "name": "வெப்ப பம்ப் சேவை",
+      "difficulty_level": 4,
+      "description": "Learn and master Heat Pump Servicing",
+      "tags": [
+        "heat",
+        "pump",
+        "servicing"
+      ]
+    },
+    {
+      "id": "skill_5221",
+      "name": "குளிர்பதன அமைப்புகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Refrigeration Systems",
+      "tags": [
+        "refrigeration",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5222",
+      "name": "வெப்ப சுமை கணக்கீடுகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermal Load Calculations",
+      "tags": [
+        "thermal",
+        "load",
+        "calculations"
+      ]
+    },
+    {
+      "id": "skill_5223",
+      "name": "தெர்மோஸ்டாட் நிறுவல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Thermostat Installation",
+      "tags": [
+        "thermostat",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5224",
+      "name": "காற்றோட்டம் சமநிலை",
+      "difficulty_level": 5,
+      "description": "Learn and master Ventilation Balancing",
+      "tags": [
+        "ventilation",
+        "balancing",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_chemistry",
+  "name": "Chimie",
+  "skills": [
+    {
+      "id": "skill_4168",
+      "name": "Chimie acide-base",
+      "difficulty_level": 1,
+      "description": "Learn and master Acid-Base Chemistry",
+      "tags": [
+        "acid-base",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4169",
+      "name": "Réactions chimiques",
+      "difficulty_level": 3,
+      "description": "Learn and master Chemical Reactions",
+      "tags": [
+        "chemical",
+        "reactions",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4170",
+      "name": "Chimie inorganique",
+      "difficulty_level": 4,
+      "description": "Learn and master Inorganic Chemistry",
+      "tags": [
+        "inorganic",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4171",
+      "name": "Sécurité de laboratoire",
+      "difficulty_level": 5,
+      "description": "Learn and master Lab Safety",
+      "tags": [
+        "safety",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4172",
+      "name": "Chimie organique",
+      "difficulty_level": 5,
+      "description": "Learn and master Organic Chemistry",
+      "tags": [
+        "organic",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4173",
+      "name": "Connaissances de la table périodique",
+      "difficulty_level": 2,
+      "description": "Learn and master Periodic Table Knowledge",
+      "tags": [
+        "periodic",
+        "table",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_4174",
+      "name": "Spectroscopie",
+      "difficulty_level": 4,
+      "description": "Learn and master Spectroscopy",
+      "tags": [
+        "spectroscopy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4175",
+      "name": "Stoechiométrie",
+      "difficulty_level": 5,
+      "description": "Learn and master Stoichiometry",
+      "tags": [
+        "stoichiometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4176",
+      "name": "Thermochimie",
+      "difficulty_level": 4,
+      "description": "Learn and master Thermochemistry",
+      "tags": [
+        "thermochemistry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4177",
+      "name": "Techniques de titrage",
+      "difficulty_level": 2,
+      "description": "Learn and master Titration Techniques",
+      "tags": [
+        "titration",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

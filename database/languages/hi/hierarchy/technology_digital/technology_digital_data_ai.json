@@ -1,0 +1,120 @@
+{
+  "id": "technology_digital_data_ai",
+  "name": "डेटा और एआई",
+  "skills": [
+    {
+      "id": "skill_4626",
+      "name": "बड़ा डेटा उपकरण",
+      "difficulty_level": 4,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4627",
+      "name": "पंडों के साथ डेटा सफाई",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning with Pandas",
+      "tags": [
+        "data",
+        "cleaning",
+        "with",
+        "pandas"
+      ]
+    },
+    {
+      "id": "skill_4628",
+      "name": "मैटप्लोटलिब के साथ डेटा विज़ुअलाइज़ेशन",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Visualization with Matplotlib",
+      "tags": [
+        "data",
+        "visualization",
+        "with",
+        "matplotlib"
+      ]
+    },
+    {
+      "id": "skill_4629",
+      "name": "Tensorflow के साथ गहरी सीख",
+      "difficulty_level": 1,
+      "description": "Learn and master Deep Learning with TensorFlow",
+      "tags": [
+        "deep",
+        "learning",
+        "with",
+        "tensorflow"
+      ]
+    },
+    {
+      "id": "skill_4630",
+      "name": "स्किकिट-लर्न के साथ मशीन लर्निंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning with Scikit-Learn",
+      "tags": [
+        "machine",
+        "learning",
+        "with",
+        "scikit-learn"
+      ]
+    },
+    {
+      "id": "skill_4631",
+      "name": "प्राकृतिक भाषा प्रसंस्करण",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4632",
+      "name": "तंत्रिका - तंत्र",
+      "difficulty_level": 3,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4633",
+      "name": "भविष्य कहनेवाला मॉडलिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Predictive Modeling",
+      "tags": [
+        "predictive",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4634",
+      "name": "डेटा विश्लेषण के लिए SQL",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL for Data Analysis",
+      "tags": [
+        "data",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4635",
+      "name": "डेटा विज्ञान के लिए सांख्यिकी",
+      "difficulty_level": 1,
+      "description": "Learn and master Statistics for Data Science",
+      "tags": [
+        "statistics",
+        "data",
+        "science"
+      ]
+    }
+  ]
+}

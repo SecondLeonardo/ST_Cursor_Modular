@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "Kỹ năng thương mại & thủ công",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "Xây dựng & Nghề mộc"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "Điện & Hệ thống nước"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "Hàng thủ công"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "Metalwork & Hàn"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "Dệt may & Leathercraft"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "Thủ công truyền thống"
+    }
+  ]
+}

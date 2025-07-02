@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "Habilidades mecânicas e técnicas",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "Manutenção automotiva"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "Noções básicas de engenharia"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "Reparação e instalação doméstica"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "Operação da máquina"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "Uso e segurança da ferramenta"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "Trabalho de madeira e metal"
+    }
+  ]
+}

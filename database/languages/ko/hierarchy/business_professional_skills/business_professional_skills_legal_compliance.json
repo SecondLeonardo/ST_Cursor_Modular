@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_legal_compliance",
+  "name": "법률 및 준수",
+  "skills": [
+    {
+      "id": "skill_998",
+      "name": "비즈니스 라이센스",
+      "difficulty_level": 5,
+      "description": "Learn and master Business Licensing",
+      "tags": [
+        "business",
+        "licensing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_999",
+      "name": "데이터 개인 정보 보호 정책",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Privacy Policies",
+      "tags": [
+        "data",
+        "privacy",
+        "policies"
+      ]
+    },
+    {
+      "id": "skill_1000",
+      "name": "문서 보존",
+      "difficulty_level": 4,
+      "description": "Learn and master Document Retention",
+      "tags": [
+        "document",
+        "retention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1001",
+      "name": "GDPR 준수",
+      "difficulty_level": 3,
+      "description": "Learn and master GDPR Compliance",
+      "tags": [
+        "gdpr",
+        "compliance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1002",
+      "name": "지적 재산 기본",
+      "difficulty_level": 5,
+      "description": "Learn and master Intellectual Property Basics",
+      "tags": [
+        "intellectual",
+        "property",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1003",
+      "name": "노동법 기본 사항",
+      "difficulty_level": 5,
+      "description": "Learn and master Labor Law Basics",
+      "tags": [
+        "labor",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1004",
+      "name": "비 공개 계약",
+      "difficulty_level": 5,
+      "description": "Learn and master Non-Disclosure Agreements",
+      "tags": [
+        "non-disclosure",
+        "agreements",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1005",
+      "name": "규제 연구",
+      "difficulty_level": 3,
+      "description": "Learn and master Regulatory Research",
+      "tags": [
+        "regulatory",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1006",
+      "name": "위험 준수 감사",
+      "difficulty_level": 1,
+      "description": "Learn and master Risk Compliance Audits",
+      "tags": [
+        "risk",
+        "compliance",
+        "audits"
+      ]
+    },
+    {
+      "id": "skill_1007",
+      "name": "계약 이해",
+      "difficulty_level": 1,
+      "description": "Learn and master Understanding Contracts",
+      "tags": [
+        "understanding",
+        "contracts",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_ai_machine_learning",
+  "name": "AI & Machine Learning",
+  "skills": [
+    {
+      "id": "skill_4347",
+      "name": "Tiền xử lý dữ liệu cho ML",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Preprocessing for ML",
+      "tags": [
+        "data",
+        "preprocessing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4348",
+      "name": "Triển khai các mô hình AI",
+      "difficulty_level": 3,
+      "description": "Learn and master Deploying AI Models",
+      "tags": [
+        "deploying",
+        "models",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4349",
+      "name": "Nhận dạng hình ảnh",
+      "difficulty_level": 5,
+      "description": "Learn and master Image Recognition",
+      "tags": [
+        "image",
+        "recognition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4350",
+      "name": "Đánh giá mô hình",
+      "difficulty_level": 2,
+      "description": "Learn and master Model Evaluation",
+      "tags": [
+        "model",
+        "evaluation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4351",
+      "name": "Khái niệm cơ bản về mạng lưới thần kinh",
+      "difficulty_level": 5,
+      "description": "Learn and master Neural Network Basics",
+      "tags": [
+        "neural",
+        "network",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4352",
+      "name": "Được giám sát so với học tập không giám sát",
+      "difficulty_level": 2,
+      "description": "Learn and master Supervised vs Unsupervised Learning",
+      "tags": [
+        "supervised",
+        "unsupervised",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4353",
+      "name": "Phân loại văn bản",
+      "difficulty_level": 4,
+      "description": "Learn and master Text Classification",
+      "tags": [
+        "text",
+        "classification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4354",
+      "name": "Đào tạo mô hình ML",
+      "difficulty_level": 3,
+      "description": "Learn and master Training ML Models",
+      "tags": [
+        "training",
+        "models",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4355",
+      "name": "Sử dụng Scikit-learn",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Scikit-learn",
+      "tags": [
+        "using",
+        "scikit-learn",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4356",
+      "name": "Sử dụng tenorflow",
+      "difficulty_level": 4,
+      "description": "Learn and master Using TensorFlow",
+      "tags": [
+        "using",
+        "tensorflow",
+        "skill"
+      ]
+    }
+  ]
+}

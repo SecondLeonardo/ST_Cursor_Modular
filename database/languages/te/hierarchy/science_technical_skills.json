@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "సైన్స్",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "ఖగోళ శాస్త్రం"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "జీవశాస్త్రం"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "కెమిస్ట్రీ"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "కంప్యూటర్ సైన్స్"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "డేటా సైన్స్ & AI"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "భూమి & పర్యావరణ శాస్త్రాలు"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "ఇంజనీరింగ్ విభాగాలు"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "గణితం & గణాంకాలు"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "ఫిజిక్స్ & మెకానిక్స్"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "రోబోటిక్స్ & ఆటోమేషన్"
+    }
+  ]
+}

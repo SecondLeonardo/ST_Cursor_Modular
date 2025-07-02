@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "Kesehatan & Kebugaran",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "Obat alternatif"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "Pertolongan Pertama & Darurat"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "Pelatihan kebugaran"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "Kesehatan holistik"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "Pengetahuan Medis"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "Keterampilan medis"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "Kesehatan mental"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "Praktik kesehatan mental"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "Mindfulness & Meditasi"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "Nutrisi & Diet"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "Perawatan pribadi"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "Kebugaran fisik"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "Rehabilitasi & Terapi"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "Kesehatan reproduksi"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "Perawatan diri & Kebersihan"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "Tidur & Pemulihan"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "Manajemen stres"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "Yoga & Meditasi"
+    }
+  ]
+}

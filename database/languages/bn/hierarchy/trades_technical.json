@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "বাণিজ্য এবং প্রযুক্তিগত",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "স্বয়ংচালিত"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "ছুতার"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "নির্মাণ"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "বৈদ্যুতিক"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "এইচভিএসি"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "রাজমিস্ত্রি"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "যান্ত্রিক"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "পেইন্টিং এবং সাজসজ্জা"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "নদীর গভীরতানির্ণয়"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "ওয়েল্ডিং"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "Teknik ve Mekanik Beceriler",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "Otomotiv becerileri"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "İnşaat ve Bina"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "Elektrik işleri"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "Enerji ve Çevre"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "Endüstriyel beceriler"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "Mekanik onarım"
+    }
+  ]
+}

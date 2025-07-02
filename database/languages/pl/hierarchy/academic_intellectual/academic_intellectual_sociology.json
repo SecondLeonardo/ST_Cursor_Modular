@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_sociology",
+  "name": "Socjologia",
+  "skills": [
+    {
+      "id": "skill_90",
+      "name": "Klasa i stratyfikacja",
+      "difficulty_level": 1,
+      "description": "Learn and master Class and Stratification",
+      "tags": [
+        "class",
+        "stratification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_91",
+      "name": "Studia kulturowe",
+      "difficulty_level": 2,
+      "description": "Learn and master Cultural Studies",
+      "tags": [
+        "cultural",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_92",
+      "name": "Studia rodzinne",
+      "difficulty_level": 5,
+      "description": "Learn and master Family Studies",
+      "tags": [
+        "family",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_93",
+      "name": "Studia płci",
+      "difficulty_level": 4,
+      "description": "Learn and master Gender Studies",
+      "tags": [
+        "gender",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_94",
+      "name": "Badania rasowe i pochodzenia etnicznego",
+      "difficulty_level": 5,
+      "description": "Learn and master Race and Ethnicity Studies",
+      "tags": [
+        "race",
+        "ethnicity",
+        "studies"
+      ]
+    },
+    {
+      "id": "skill_95",
+      "name": "Metody badań społecznych",
+      "difficulty_level": 4,
+      "description": "Learn and master Social Research Methods",
+      "tags": [
+        "social",
+        "research",
+        "methods"
+      ]
+    },
+    {
+      "id": "skill_96",
+      "name": "Teoria społeczna",
+      "difficulty_level": 1,
+      "description": "Learn and master Social Theory",
+      "tags": [
+        "social",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_97",
+      "name": "Pisanie socjologiczne",
+      "difficulty_level": 4,
+      "description": "Learn and master Sociological Writing",
+      "tags": [
+        "sociological",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_98",
+      "name": "Socjologia religii",
+      "difficulty_level": 3,
+      "description": "Learn and master Sociology of Religion",
+      "tags": [
+        "sociology",
+        "religion",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_99",
+      "name": "Socjologia miejska",
+      "difficulty_level": 2,
+      "description": "Learn and master Urban Sociology",
+      "tags": [
+        "urban",
+        "sociology",
+        "skill"
+      ]
+    }
+  ]
+}

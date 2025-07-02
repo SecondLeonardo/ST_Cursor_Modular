@@ -1,0 +1,34 @@
+{
+  "id": "hobbies_recreation",
+  "name": "Hobbyer och rekreation",
+  "subcategories": [
+    {
+      "id": "hobbies_recreation_arts_crafts",
+      "name": "Konst och hantverk"
+    },
+    {
+      "id": "hobbies_recreation_music_instruments",
+      "name": "Musik och instrument"
+    },
+    {
+      "id": "hobbies_recreation_outdoor_activities",
+      "name": "Utomhusaktiviteter"
+    },
+    {
+      "id": "hobbies_recreation_collecting",
+      "name": "Samlande"
+    },
+    {
+      "id": "hobbies_recreation_fitness_wellness",
+      "name": "Fitness & Wellness"
+    },
+    {
+      "id": "hobbies_recreation_gardening",
+      "name": "Trädgårdsarbete"
+    },
+    {
+      "id": "hobbies_recreation_diy_projects",
+      "name": "DIY -projekt"
+    }
+  ]
+}

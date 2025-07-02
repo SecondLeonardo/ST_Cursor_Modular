@@ -1,0 +1,117 @@
+{
+  "id": "academic_intellectual_geography",
+  "name": "الجغرافيا",
+  "skills": [
+    {
+      "id": "skill_10",
+      "name": "رسم الخرائط",
+      "difficulty_level": 5,
+      "description": "Learn and master Cartography",
+      "tags": [
+        "cartography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_11",
+      "name": "علم المناخ",
+      "difficulty_level": 5,
+      "description": "Learn and master Climatology",
+      "tags": [
+        "climatology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_12",
+      "name": "الجغرافيا البيئية",
+      "difficulty_level": 4,
+      "description": "Learn and master Environmental Geography",
+      "tags": [
+        "environmental",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_13",
+      "name": "أنظمة المعلومات الجغرافية (GIS)",
+      "difficulty_level": 1,
+      "description": "Learn and master Geographical Information Systems (GIS)",
+      "tags": [
+        "geographical",
+        "information",
+        "systems",
+        "(gis)"
+      ]
+    },
+    {
+      "id": "skill_14",
+      "name": "التحليل الجغرافي المكاني",
+      "difficulty_level": 4,
+      "description": "Learn and master Geospatial Analysis",
+      "tags": [
+        "geospatial",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_15",
+      "name": "الجغرافيا البشرية",
+      "difficulty_level": 5,
+      "description": "Learn and master Human Geography",
+      "tags": [
+        "human",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_16",
+      "name": "الجغرافيا المادية",
+      "difficulty_level": 1,
+      "description": "Learn and master Physical Geography",
+      "tags": [
+        "physical",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_17",
+      "name": "الدراسات الإقليمية",
+      "difficulty_level": 4,
+      "description": "Learn and master Regional Studies",
+      "tags": [
+        "regional",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_18",
+      "name": "التضاريس",
+      "difficulty_level": 1,
+      "description": "Learn and master Topography",
+      "tags": [
+        "topography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_19",
+      "name": "الجغرافيا الحضرية",
+      "difficulty_level": 2,
+      "description": "Learn and master Urban Geography",
+      "tags": [
+        "urban",
+        "geography",
+        "skill"
+      ]
+    }
+  ]
+}

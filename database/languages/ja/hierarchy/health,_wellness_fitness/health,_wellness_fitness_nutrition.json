@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_nutrition",
+  "name": "栄養",
+  "skills": [
+    {
+      "id": "skill_2768",
+      "name": "バランスの取れたダイエットコーチング",
+      "difficulty_level": 2,
+      "description": "Learn and master Balanced Diet Coaching",
+      "tags": [
+        "balanced",
+        "diet",
+        "coaching"
+      ]
+    },
+    {
+      "id": "skill_2769",
+      "name": "カロリーカウント",
+      "difficulty_level": 5,
+      "description": "Learn and master Calorie Counting",
+      "tags": [
+        "calorie",
+        "counting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2770",
+      "name": "水分補給戦略",
+      "difficulty_level": 3,
+      "description": "Learn and master Hydration Strategies",
+      "tags": [
+        "hydration",
+        "strategies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2771",
+      "name": "断続的な断食コーチング",
+      "difficulty_level": 1,
+      "description": "Learn and master Intermittent Fasting Coaching",
+      "tags": [
+        "intermittent",
+        "fasting",
+        "coaching"
+      ]
+    },
+    {
+      "id": "skill_2772",
+      "name": "主要な追跡",
+      "difficulty_level": 4,
+      "description": "Learn and master Macronutrient Tracking",
+      "tags": [
+        "macronutrient",
+        "tracking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2773",
+      "name": "食事計画",
+      "difficulty_level": 1,
+      "description": "Learn and master Meal Planning",
+      "tags": [
+        "meal",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2774",
+      "name": "栄養ラベルの読書",
+      "difficulty_level": 2,
+      "description": "Learn and master Nutritional Labels Reading",
+      "tags": [
+        "nutritional",
+        "labels",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_2775",
+      "name": "スポーツ栄養",
+      "difficulty_level": 3,
+      "description": "Learn and master Sports Nutrition",
+      "tags": [
+        "sports",
+        "nutrition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2776",
+      "name": "サプリメントガイダンス",
+      "difficulty_level": 1,
+      "description": "Learn and master Supplement Guidance",
+      "tags": [
+        "supplement",
+        "guidance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2777",
+      "name": "ベジタリアン/ビーガン栄養",
+      "difficulty_level": 3,
+      "description": "Learn and master Vegetarian/Vegan Nutrition",
+      "tags": [
+        "vegetarian/vegan",
+        "nutrition",
+        "skill"
+      ]
+    }
+  ]
+}

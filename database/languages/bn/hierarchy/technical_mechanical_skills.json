@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "প্রযুক্তিগত ও যান্ত্রিক দক্ষতা",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "স্বয়ংচালিত দক্ষতা"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "নির্মাণ ও বিল্ডিং"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "বৈদ্যুতিক কাজ"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "শক্তি এবং পরিবেশ"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "শিল্প দক্ষতা"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "যান্ত্রিক মেরামত"
+    }
+  ]
+}

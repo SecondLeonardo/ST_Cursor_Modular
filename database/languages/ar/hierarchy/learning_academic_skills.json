@@ -1,0 +1,26 @@
+{
+  "id": "learning_academic_skills",
+  "name": "التعلم والمهارات الأكاديمية",
+  "subcategories": [
+    {
+      "id": "learning_academic_skills_language_learning",
+      "name": "تعلم اللغة"
+    },
+    {
+      "id": "learning_academic_skills_mathematics",
+      "name": "الرياضيات"
+    },
+    {
+      "id": "learning_academic_skills_science_research",
+      "name": "العلوم والبحث"
+    },
+    {
+      "id": "learning_academic_skills_study_techniques",
+      "name": "تقنيات الدراسة"
+    },
+    {
+      "id": "learning_academic_skills_test_preparation",
+      "name": "إعداد اختبار"
+    }
+  ]
+}

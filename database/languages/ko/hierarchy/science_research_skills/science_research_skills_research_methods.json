@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_research_methods",
+  "name": "연구 방법",
+  "skills": [
+    {
+      "id": "skill_4128",
+      "name": "데이터 수집 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Collection Techniques",
+      "tags": [
+        "data",
+        "collection",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_4129",
+      "name": "실험 설계",
+      "difficulty_level": 2,
+      "description": "Learn and master Experimental Design",
+      "tags": [
+        "experimental",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4130",
+      "name": "가설 테스트",
+      "difficulty_level": 2,
+      "description": "Learn and master Hypothesis Testing",
+      "tags": [
+        "hypothesis",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4131",
+      "name": "문헌 검토",
+      "difficulty_level": 1,
+      "description": "Learn and master Literature Review",
+      "tags": [
+        "literature",
+        "review",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4132",
+      "name": "메타 분석",
+      "difficulty_level": 4,
+      "description": "Learn and master Meta-Analysis",
+      "tags": [
+        "meta-analysis",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4133",
+      "name": "동료 검토",
+      "difficulty_level": 2,
+      "description": "Learn and master Peer Review",
+      "tags": [
+        "peer",
+        "review",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4134",
+      "name": "질적 연구",
+      "difficulty_level": 3,
+      "description": "Learn and master Qualitative Research",
+      "tags": [
+        "qualitative",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4135",
+      "name": "정량적 연구",
+      "difficulty_level": 3,
+      "description": "Learn and master Quantitative Research",
+      "tags": [
+        "quantitative",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4136",
+      "name": "과학적 글쓰기",
+      "difficulty_level": 4,
+      "description": "Learn and master Scientific Writing",
+      "tags": [
+        "scientific",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4137",
+      "name": "설문 조사 분석",
+      "difficulty_level": 1,
+      "description": "Learn and master Survey Analysis",
+      "tags": [
+        "survey",
+        "analysis",
+        "skill"
+      ]
+    }
+  ]
+}

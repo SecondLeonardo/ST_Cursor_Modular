@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+  "name": "Têxtil e Leathercraft",
+  "skills": [
+    {
+      "id": "skill_3488",
+      "name": "Fabricação de bolsas",
+      "difficulty_level": 5,
+      "description": "Learn and master Bag Making",
+      "tags": [
+        "making",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3489",
+      "name": "Técnicas de tingimento",
+      "difficulty_level": 1,
+      "description": "Learn and master Dyeing Techniques",
+      "tags": [
+        "dyeing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3490",
+      "name": "Bordado",
+      "difficulty_level": 1,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3491",
+      "name": "Tecelagem de tecido",
+      "difficulty_level": 3,
+      "description": "Learn and master Fabric Weaving",
+      "tags": [
+        "fabric",
+        "weaving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3492",
+      "name": "Ferramentas de couro",
+      "difficulty_level": 3,
+      "description": "Learn and master Leather Tooling",
+      "tags": [
+        "leather",
+        "tooling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3493",
+      "name": "Patchwork",
+      "difficulty_level": 1,
+      "description": "Learn and master Patchwork",
+      "tags": [
+        "patchwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3494",
+      "name": "Fabricação de padrões",
+      "difficulty_level": 3,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3495",
+      "name": "Quilting",
+      "difficulty_level": 4,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3496",
+      "name": "Costura de sela",
+      "difficulty_level": 2,
+      "description": "Learn and master Saddle Stitching",
+      "tags": [
+        "saddle",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3497",
+      "name": "Operação da máquina de costura",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Machine Operation",
+      "tags": [
+        "sewing",
+        "machine",
+        "operation"
+      ]
+    }
+  ]
+}

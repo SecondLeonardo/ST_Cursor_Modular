@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "Academische en onderzoeksvaardigheden",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "Academische presentatie"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "Gegevensanalyse"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "Taal- en schrijven"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "Wiskunde en statistieken"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "Wetenschappelijk onderzoek"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "Studie- en testvoorbereiding"
+    }
+  ]
+}

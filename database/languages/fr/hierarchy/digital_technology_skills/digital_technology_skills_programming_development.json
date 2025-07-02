@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_programming_development",
+  "name": "Programmation et développement",
+  "skills": [
+    {
+      "id": "skill_2223",
+      "name": "Fondamentaux C ++",
+      "difficulty_level": 5,
+      "description": "Learn and master C++ Fundamentals",
+      "tags": [
+        "fundamentals",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2224",
+      "name": "Structures de données et algorithmes",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Structures & Algorithms",
+      "tags": [
+        "data",
+        "structures",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "skill_2225",
+      "name": "Techniques de débogage",
+      "difficulty_level": 3,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2226",
+      "name": "Développement Java",
+      "difficulty_level": 3,
+      "description": "Learn and master Java Development",
+      "tags": [
+        "java",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2227",
+      "name": "Développement d'applications mobiles",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2228",
+      "name": "Programmation orientée objet",
+      "difficulty_level": 2,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2229",
+      "name": "Programmation Python",
+      "difficulty_level": 4,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2230",
+      "name": "Développement de l'API REST",
+      "difficulty_level": 1,
+      "description": "Learn and master REST API Development",
+      "tags": [
+        "rest",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2231",
+      "name": "Tests unitaires",
+      "difficulty_level": 1,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2232",
+      "name": "Contrôle de version avec git",
+      "difficulty_level": 2,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

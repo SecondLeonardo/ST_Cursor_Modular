@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_web_mobile",
+  "name": "Internet i telefon komórkowy",
+  "skills": [
+    {
+      "id": "skill_2233",
+      "name": "Użycie devtools przeglądarki",
+      "difficulty_level": 2,
+      "description": "Learn and master Browser DevTools Usage",
+      "tags": [
+        "browser",
+        "devtools",
+        "usage"
+      ]
+    },
+    {
+      "id": "skill_2234",
+      "name": "Aplikacje międzyplatformowe",
+      "difficulty_level": 5,
+      "description": "Learn and master Cross-Platform Apps",
+      "tags": [
+        "cross-platform",
+        "apps",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2235",
+      "name": "Rozwój trzepotania",
+      "difficulty_level": 4,
+      "description": "Learn and master Flutter Development",
+      "tags": [
+        "flutter",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2236",
+      "name": "HTML i CSS",
+      "difficulty_level": 2,
+      "description": "Learn and master HTML & CSS",
+      "tags": [
+        "html",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2237",
+      "name": "Podstawy JavaScript",
+      "difficulty_level": 5,
+      "description": "Learn and master JavaScript Fundamentals",
+      "tags": [
+        "javascript",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2238",
+      "name": "Projekt mobilny UX",
+      "difficulty_level": 4,
+      "description": "Learn and master Mobile UX Design",
+      "tags": [
+        "mobile",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2239",
+      "name": "Progresywne aplikacje internetowe",
+      "difficulty_level": 4,
+      "description": "Learn and master Progressive Web Apps",
+      "tags": [
+        "progressive",
+        "apps",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2240",
+      "name": "React Development",
+      "difficulty_level": 5,
+      "description": "Learn and master React Development",
+      "tags": [
+        "react",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2241",
+      "name": "Responsywny projekt",
+      "difficulty_level": 3,
+      "description": "Learn and master Responsive Design",
+      "tags": [
+        "responsive",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2242",
+      "name": "Hosting",
+      "difficulty_level": 2,
+      "description": "Learn and master Web Hosting",
+      "tags": [
+        "hosting",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

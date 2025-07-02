@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_first_aid_safety",
+  "name": "急救与安全",
+  "skills": [
+    {
+      "id": "skill_2453",
+      "name": "过敏反应",
+      "difficulty_level": 2,
+      "description": "Learn and master Allergy Response",
+      "tags": [
+        "allergy",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2454",
+      "name": "基本急救套件使用",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic First Aid Kit Use",
+      "tags": [
+        "basic",
+        "first",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2455",
+      "name": "出血控制",
+      "difficulty_level": 5,
+      "description": "Learn and master Bleeding Control",
+      "tags": [
+        "bleeding",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2456",
+      "name": "烧伤",
+      "difficulty_level": 2,
+      "description": "Learn and master Burn Treatment",
+      "tags": [
+        "burn",
+        "treatment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2457",
+      "name": "CPR",
+      "difficulty_level": 2,
+      "description": "Learn and master CPR",
+      "tags": [
+        "skill",
+        "learning",
+        "education"
+      ]
+    },
+    {
+      "id": "skill_2458",
+      "name": "窒息反应",
+      "difficulty_level": 5,
+      "description": "Learn and master Choking Response",
+      "tags": [
+        "choking",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2459",
+      "name": "紧急撤离",
+      "difficulty_level": 5,
+      "description": "Learn and master Emergency Evacuation",
+      "tags": [
+        "emergency",
+        "evacuation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2460",
+      "name": "断裂固定",
+      "difficulty_level": 3,
+      "description": "Learn and master Fracture Immobilization",
+      "tags": [
+        "fracture",
+        "immobilization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2461",
+      "name": "预防中风",
+      "difficulty_level": 3,
+      "description": "Learn and master Heat Stroke Prevention",
+      "tags": [
+        "heat",
+        "stroke",
+        "prevention"
+      ]
+    },
+    {
+      "id": "skill_2462",
+      "name": "伤口护理",
+      "difficulty_level": 3,
+      "description": "Learn and master Wound Care",
+      "tags": [
+        "wound",
+        "care",
+        "skill"
+      ]
+    }
+  ]
+}

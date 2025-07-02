@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_ai_machine_learning",
+  "name": "AI和机器学习",
+  "skills": [
+    {
+      "id": "skill_4347",
+      "name": "ML的数据预处理",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Preprocessing for ML",
+      "tags": [
+        "data",
+        "preprocessing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4348",
+      "name": "部署AI模型",
+      "difficulty_level": 3,
+      "description": "Learn and master Deploying AI Models",
+      "tags": [
+        "deploying",
+        "models",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4349",
+      "name": "图像识别",
+      "difficulty_level": 5,
+      "description": "Learn and master Image Recognition",
+      "tags": [
+        "image",
+        "recognition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4350",
+      "name": "模型评估",
+      "difficulty_level": 2,
+      "description": "Learn and master Model Evaluation",
+      "tags": [
+        "model",
+        "evaluation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4351",
+      "name": "神经网络基础知识",
+      "difficulty_level": 5,
+      "description": "Learn and master Neural Network Basics",
+      "tags": [
+        "neural",
+        "network",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4352",
+      "name": "监督与无监督的学习",
+      "difficulty_level": 2,
+      "description": "Learn and master Supervised vs Unsupervised Learning",
+      "tags": [
+        "supervised",
+        "unsupervised",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4353",
+      "name": "文本分类",
+      "difficulty_level": 4,
+      "description": "Learn and master Text Classification",
+      "tags": [
+        "text",
+        "classification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4354",
+      "name": "培训ML模型",
+      "difficulty_level": 3,
+      "description": "Learn and master Training ML Models",
+      "tags": [
+        "training",
+        "models",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4355",
+      "name": "使用Scikit-Learn",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Scikit-learn",
+      "tags": [
+        "using",
+        "scikit-learn",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4356",
+      "name": "使用TensorFlow",
+      "difficulty_level": 4,
+      "description": "Learn and master Using TensorFlow",
+      "tags": [
+        "using",
+        "tensorflow",
+        "skill"
+      ]
+    }
+  ]
+}

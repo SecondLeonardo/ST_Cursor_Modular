@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_writing_literature",
+  "name": "글쓰기 및 문학",
+  "skills": [
+    {
+      "id": "skill_510",
+      "name": "블로그 쓰기",
+      "difficulty_level": 2,
+      "description": "Learn and master Blog Writing",
+      "tags": [
+        "blog",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_511",
+      "name": "창의적인 글쓰기",
+      "difficulty_level": 3,
+      "description": "Learn and master Creative Writing",
+      "tags": [
+        "creative",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_512",
+      "name": "편집 및 교정",
+      "difficulty_level": 1,
+      "description": "Learn and master Editing & Proofreading",
+      "tags": [
+        "editing",
+        "proofreading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_513",
+      "name": "소설 쓰기",
+      "difficulty_level": 2,
+      "description": "Learn and master Fiction Writing",
+      "tags": [
+        "fiction",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_514",
+      "name": "문학적 분석",
+      "difficulty_level": 2,
+      "description": "Learn and master Literary Analysis",
+      "tags": [
+        "literary",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_515",
+      "name": "논픽션 쓰기",
+      "difficulty_level": 3,
+      "description": "Learn and master Non-fiction Writing",
+      "tags": [
+        "non-fiction",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_516",
+      "name": "시 쓰기",
+      "difficulty_level": 3,
+      "description": "Learn and master Poetry Writing",
+      "tags": [
+        "poetry",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_517",
+      "name": "시나리오",
+      "difficulty_level": 2,
+      "description": "Learn and master Screenwriting",
+      "tags": [
+        "screenwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_518",
+      "name": "단편 소설 쓰기",
+      "difficulty_level": 2,
+      "description": "Learn and master Short Story Writing",
+      "tags": [
+        "short",
+        "story",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_519",
+      "name": "쓰기 대화",
+      "difficulty_level": 5,
+      "description": "Learn and master Writing Dialogue",
+      "tags": [
+        "writing",
+        "dialogue",
+        "skill"
+      ]
+    }
+  ]
+}

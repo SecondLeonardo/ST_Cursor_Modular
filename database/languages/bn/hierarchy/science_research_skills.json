@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "বিজ্ঞান ও গবেষণা দক্ষতা",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "একাডেমিক লেখা"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "জৈবিক বিজ্ঞান"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "কম্পিউটার ও ডেটা বিজ্ঞান"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "পৃথিবী ও পরিবেশগত বিজ্ঞান"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "ইঞ্জিনিয়ারিং সায়েন্সেস"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "গণিত ও পরিসংখ্যান"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "চিকিত্সা ও স্বাস্থ্য বিজ্ঞান"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "শারীরিক বিজ্ঞান"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "গবেষণা পদ্ধতি"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "সামাজিক বিজ্ঞান"
+    }
+  ]
+}

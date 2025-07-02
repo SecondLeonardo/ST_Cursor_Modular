@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "உடல்நலம் & ஆரோக்கியம்",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "மாற்று மருந்து"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "முதலுதவி மற்றும் அவசரநிலை"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "உடற்பயிற்சி பயிற்சி"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "முழுமையான ஆரோக்கியம்"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "மருத்துவ அறிவு"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "மருத்துவ திறன்"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "மன ஆரோக்கியம்"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "மனநல நடைமுறைகள்"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "மனம் மற்றும் தியானம்"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "ஊட்டச்சத்து & உணவு"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "தனிப்பட்ட பராமரிப்பு"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "உடல் தகுதி"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "புனர்வாழ்வு மற்றும் சிகிச்சை"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "இனப்பெருக்க ஆரோக்கியம்"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "சுய பாதுகாப்பு & சுகாதாரம்"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "தூக்கம் & மீட்பு"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "மன அழுத்த மேலாண்மை"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "யோகா & தியானம்"
+    }
+  ]
+}

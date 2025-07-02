@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "Salud, estado físico y deportes",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "Entrenamiento físico"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "Nutrición"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "Al aire libre y aventura"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "Habilidades deportivas"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "Bienestar y recuperación"
+    }
+  ]
+}

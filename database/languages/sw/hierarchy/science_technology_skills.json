@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "Ujuzi wa Sayansi na Teknolojia",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "Unajimu"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "Baiolojia"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "Kemia"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "Sayansi ya Kompyuta"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "Sayansi ya data & AI"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "Sayansi ya Dunia na Mazingira"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "Elektroniki"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "Uhandisi"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "Hisabati na Takwimu"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "Fizikia"
+    }
+  ]
+}

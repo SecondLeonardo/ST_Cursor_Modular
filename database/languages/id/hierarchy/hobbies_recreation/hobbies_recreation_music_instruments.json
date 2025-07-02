@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_music_instruments",
+  "name": "Musik & Instrumen",
+  "skills": [
+    {
+      "id": "skill_5355",
+      "name": "Bermain gitar",
+      "difficulty_level": 2,
+      "description": "Learn and master Guitar Playing",
+      "tags": [
+        "guitar",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5356",
+      "name": "Bermain piano",
+      "difficulty_level": 3,
+      "description": "Learn and master Piano Playing",
+      "tags": [
+        "piano",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5357",
+      "name": "Drum",
+      "difficulty_level": 4,
+      "description": "Learn and master Drumming",
+      "tags": [
+        "drumming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5358",
+      "name": "Nyanyian",
+      "difficulty_level": 2,
+      "description": "Learn and master Singing",
+      "tags": [
+        "singing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5359",
+      "name": "Teori musik",
+      "difficulty_level": 2,
+      "description": "Learn and master Music Theory",
+      "tags": [
+        "music",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5360",
+      "name": "Penulisan lagu",
+      "difficulty_level": 2,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5361",
+      "name": "Produksi musik",
+      "difficulty_level": 4,
+      "description": "Learn and master Music Production",
+      "tags": [
+        "music",
+        "production",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5362",
+      "name": "DJ",
+      "difficulty_level": 2,
+      "description": "Learn and master DJing",
+      "tags": [
+        "djing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5363",
+      "name": "Bermain biola",
+      "difficulty_level": 1,
+      "description": "Learn and master Violin Playing",
+      "tags": [
+        "violin",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5364",
+      "name": "Bacaan penglihatan",
+      "difficulty_level": 2,
+      "description": "Learn and master Sight Reading",
+      "tags": [
+        "sight",
+        "reading",
+        "skill"
+      ]
+    }
+  ]
+}

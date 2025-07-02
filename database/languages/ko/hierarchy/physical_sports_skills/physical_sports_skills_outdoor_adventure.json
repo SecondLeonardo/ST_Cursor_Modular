@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_outdoor_adventure",
+  "name": "야외 및 모험",
+  "skills": [
+    {
+      "id": "skill_4018",
+      "name": "배낭 계획",
+      "difficulty_level": 1,
+      "description": "Learn and master Backpacking Planning",
+      "tags": [
+        "backpacking",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4019",
+      "name": "캠핑 설정",
+      "difficulty_level": 3,
+      "description": "Learn and master Camping Setup",
+      "tags": [
+        "camping",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4020",
+      "name": "하이킹 내비게이션",
+      "difficulty_level": 3,
+      "description": "Learn and master Hiking Navigation",
+      "tags": [
+        "hiking",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4021",
+      "name": "카약 기술",
+      "difficulty_level": 3,
+      "description": "Learn and master Kayaking Techniques",
+      "tags": [
+        "kayaking",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4022",
+      "name": "산악 자전거",
+      "difficulty_level": 3,
+      "description": "Learn and master Mountain Biking",
+      "tags": [
+        "mountain",
+        "biking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4023",
+      "name": "자연 트레일 달리기",
+      "difficulty_level": 2,
+      "description": "Learn and master Nature Trail Running",
+      "tags": [
+        "nature",
+        "trail",
+        "running"
+      ]
+    },
+    {
+      "id": "skill_4024",
+      "name": "오리엔티어링",
+      "difficulty_level": 5,
+      "description": "Learn and master Orienteering",
+      "tags": [
+        "orienteering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4025",
+      "name": "래퍼 펠링 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Rappelling Skills",
+      "tags": [
+        "rappelling",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4026",
+      "name": "암벽 등반 기본",
+      "difficulty_level": 5,
+      "description": "Learn and master Rock Climbing Basics",
+      "tags": [
+        "rock",
+        "climbing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4027",
+      "name": "황야 생존",
+      "difficulty_level": 5,
+      "description": "Learn and master Wilderness Survival",
+      "tags": [
+        "wilderness",
+        "survival",
+        "skill"
+      ]
+    }
+  ]
+}

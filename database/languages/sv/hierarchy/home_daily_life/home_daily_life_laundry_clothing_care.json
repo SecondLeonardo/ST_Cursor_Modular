@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_laundry_clothing_care",
+  "name": "Tvätt- och klädvård",
+  "skills": [
+    {
+      "id": "skill_2998",
+      "name": "Klädreparationer",
+      "difficulty_level": 5,
+      "description": "Learn and master Clothing Repairs",
+      "tags": [
+        "clothing",
+        "repairs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2999",
+      "name": "Klädförvaring",
+      "difficulty_level": 5,
+      "description": "Learn and master Clothing Storage",
+      "tags": [
+        "clothing",
+        "storage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3000",
+      "name": "Torkning",
+      "difficulty_level": 5,
+      "description": "Learn and master Drying Clothes",
+      "tags": [
+        "drying",
+        "clothes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3001",
+      "name": "Fälltekniker",
+      "difficulty_level": 4,
+      "description": "Learn and master Folding Techniques",
+      "tags": [
+        "folding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3002",
+      "name": "Strykning",
+      "difficulty_level": 2,
+      "description": "Learn and master Ironing",
+      "tags": [
+        "ironing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3003",
+      "name": "Läser tygetiketter",
+      "difficulty_level": 3,
+      "description": "Learn and master Reading Fabric Labels",
+      "tags": [
+        "reading",
+        "fabric",
+        "labels"
+      ]
+    },
+    {
+      "id": "skill_3004",
+      "name": "Sömknappar",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing Buttons",
+      "tags": [
+        "sewing",
+        "buttons",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3005",
+      "name": "Sorteringstvätt",
+      "difficulty_level": 3,
+      "description": "Learn and master Sorting Laundry",
+      "tags": [
+        "sorting",
+        "laundry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3006",
+      "name": "Fläckbehandling",
+      "difficulty_level": 1,
+      "description": "Learn and master Stain Treatment",
+      "tags": [
+        "stain",
+        "treatment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3007",
+      "name": "Tvättstekniker",
+      "difficulty_level": 5,
+      "description": "Learn and master Washing Techniques",
+      "tags": [
+        "washing",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

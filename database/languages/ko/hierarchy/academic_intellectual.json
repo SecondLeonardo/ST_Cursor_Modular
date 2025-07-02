@@ -1,0 +1,46 @@
+{
+  "id": "academic_intellectual",
+  "name": "학업 및 지적",
+  "subcategories": [
+    {
+      "id": "academic_intellectual_economics",
+      "name": "경제학"
+    },
+    {
+      "id": "academic_intellectual_geography",
+      "name": "지리학"
+    },
+    {
+      "id": "academic_intellectual_history",
+      "name": "역사"
+    },
+    {
+      "id": "academic_intellectual_language_linguistics",
+      "name": "언어 및 언어학"
+    },
+    {
+      "id": "academic_intellectual_literature",
+      "name": "문학"
+    },
+    {
+      "id": "academic_intellectual_mathematics",
+      "name": "수학"
+    },
+    {
+      "id": "academic_intellectual_philosophy",
+      "name": "철학"
+    },
+    {
+      "id": "academic_intellectual_psychology",
+      "name": "심리학"
+    },
+    {
+      "id": "academic_intellectual_science",
+      "name": "과학"
+    },
+    {
+      "id": "academic_intellectual_sociology",
+      "name": "사회학"
+    }
+  ]
+}

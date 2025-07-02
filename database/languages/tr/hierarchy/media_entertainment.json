@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "Medya ve Eğlence",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "Video yapımı"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "Ses üretimi"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "Fotoğrafçılık"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "Grafik tasarım"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "Oyunculuk ve Performans"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "Yazma ve senaryo yazma"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "Yayıncılık"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "தொழில்நுட்ப மற்றும் இயந்திர திறன்கள்",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "வாகன திறன்கள்"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "கட்டுமானம் மற்றும் கட்டிடம்"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "மின் வேலை"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "ஆற்றல் மற்றும் சூழல்"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "தொழில்துறை திறன்கள்"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "இயந்திர பழுது"
+    }
+  ]
+}

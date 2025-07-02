@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_physical_fitness",
+  "name": "शारीरिक तंदुरुस्ती",
+  "skills": [
+    {
+      "id": "skill_2609",
+      "name": "बॉडीवेट व्यायाम",
+      "difficulty_level": 4,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2610",
+      "name": "कार्डिओ वर्कआउट्स",
+      "difficulty_level": 2,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2611",
+      "name": "सहनशक्ती प्रशिक्षण",
+      "difficulty_level": 1,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2612",
+      "name": "एचआयआयटी रूटीन",
+      "difficulty_level": 4,
+      "description": "Learn and master HIIT Routines",
+      "tags": [
+        "hiit",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2613",
+      "name": "गतिशीलता कवच",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobility Drills",
+      "tags": [
+        "mobility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2614",
+      "name": "प्लायओमेट्रिक्स",
+      "difficulty_level": 2,
+      "description": "Learn and master Plyometrics",
+      "tags": [
+        "plyometrics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2615",
+      "name": "सामर्थ्य कंडिशनिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Strength Conditioning",
+      "tags": [
+        "strength",
+        "conditioning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2616",
+      "name": "स्ट्रेचिंग तंत्र",
+      "difficulty_level": 5,
+      "description": "Learn and master Stretching Techniques",
+      "tags": [
+        "stretching",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2617",
+      "name": "वजन प्रशिक्षण",
+      "difficulty_level": 1,
+      "description": "Learn and master Weight Training",
+      "tags": [
+        "weight",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2618",
+      "name": "योगा सराव",
+      "difficulty_level": 3,
+      "description": "Learn and master Yoga Practice",
+      "tags": [
+        "yoga",
+        "practice",
+        "skill"
+      ]
+    }
+  ]
+}

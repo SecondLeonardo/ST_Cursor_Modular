@@ -1,0 +1,46 @@
+{
+  "id": "education_language",
+  "name": "Eğitim ve Dil",
+  "subcategories": [
+    {
+      "id": "education_language_academic_tutoring",
+      "name": "Akademik ders"
+    },
+    {
+      "id": "education_language_early_childhood_education",
+      "name": "Erken Çocukluk Eğitimi"
+    },
+    {
+      "id": "education_language_higher_education",
+      "name": "Yüksek öğrenim"
+    },
+    {
+      "id": "education_language_language_teaching",
+      "name": "Dil öğretimi"
+    },
+    {
+      "id": "education_language_languages",
+      "name": "Diller"
+    },
+    {
+      "id": "education_language_learning_technologies",
+      "name": "Öğrenme Teknolojileri"
+    },
+    {
+      "id": "education_language_literacy_writing",
+      "name": "Okuryazarlık ve Yazma"
+    },
+    {
+      "id": "education_language_special_education",
+      "name": "Özel Eğitim"
+    },
+    {
+      "id": "education_language_study_skills",
+      "name": "Çalışma becerileri"
+    },
+    {
+      "id": "education_language_test_prep",
+      "name": "Test hazırlığı"
+    }
+  ]
+}

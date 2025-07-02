@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_programming_development",
+  "name": "การเขียนโปรแกรมและการพัฒนา",
+  "skills": [
+    {
+      "id": "skill_4795",
+      "name": "APIS & WebHooks",
+      "difficulty_level": 3,
+      "description": "Learn and master APIs & Webhooks",
+      "tags": [
+        "apis",
+        "webhooks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4796",
+      "name": "การพัฒนาแบ็กเอนด์",
+      "difficulty_level": 2,
+      "description": "Learn and master Backend Development",
+      "tags": [
+        "backend",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4797",
+      "name": "การดีบักรหัส",
+      "difficulty_level": 2,
+      "description": "Learn and master Code Debugging",
+      "tags": [
+        "code",
+        "debugging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4798",
+      "name": "การพัฒนาเกม",
+      "difficulty_level": 5,
+      "description": "Learn and master Game Development",
+      "tags": [
+        "game",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4799",
+      "name": "HTML & CSS",
+      "difficulty_level": 3,
+      "description": "Learn and master HTML & CSS",
+      "tags": [
+        "html",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4800",
+      "name": "ชวา",
+      "difficulty_level": 1,
+      "description": "Learn and master Java",
+      "tags": [
+        "java",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4801",
+      "name": "จาวาสคริปต์",
+      "difficulty_level": 3,
+      "description": "Learn and master JavaScript",
+      "tags": [
+        "javascript",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4802",
+      "name": "การพัฒนาแอพมือถือ",
+      "difficulty_level": 3,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4803",
+      "name": "งูหลาม",
+      "difficulty_level": 1,
+      "description": "Learn and master Python",
+      "tags": [
+        "python",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4804",
+      "name": "การควบคุมเวอร์ชัน (GIT)",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control (Git)",
+      "tags": [
+        "version",
+        "control",
+        "(git)"
+      ]
+    }
+  ]
+}

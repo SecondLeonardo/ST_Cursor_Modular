@@ -1,0 +1,215 @@
+{
+  "id": "tech_digital_skills_cybersecurity",
+  "name": "사이버 보안",
+  "skills": [
+    {
+      "id": "skill_4367",
+      "name": "암호화",
+      "difficulty_level": 5,
+      "description": "Learn and master Cryptography",
+      "tags": [
+        "cryptography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4368",
+      "name": "사이버 위협 지능",
+      "difficulty_level": 3,
+      "description": "Learn and master Cyber Threat Intelligence",
+      "tags": [
+        "cyber",
+        "threat",
+        "intelligence"
+      ]
+    },
+    {
+      "id": "skill_4369",
+      "name": "윤리적 해킹",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Hacking",
+      "tags": [
+        "ethical",
+        "hacking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4370",
+      "name": "방화벽 및 ID",
+      "difficulty_level": 2,
+      "description": "Learn and master Firewalls & IDS",
+      "tags": [
+        "firewalls",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4371",
+      "name": "사고 대응",
+      "difficulty_level": 5,
+      "description": "Learn and master Incident Response",
+      "tags": [
+        "incident",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4372",
+      "name": "맬웨어 분석",
+      "difficulty_level": 5,
+      "description": "Learn and master Malware Analysis",
+      "tags": [
+        "malware",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4373",
+      "name": "네트워크 모니터링",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Monitoring",
+      "tags": [
+        "network",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4374",
+      "name": "네트워크 보안",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Security",
+      "tags": [
+        "network",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4375",
+      "name": "비밀번호 관리",
+      "difficulty_level": 2,
+      "description": "Learn and master Password Management",
+      "tags": [
+        "password",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4376",
+      "name": "침투 테스트",
+      "difficulty_level": 5,
+      "description": "Learn and master Penetration Testing",
+      "tags": [
+        "penetration",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4377",
+      "name": "침투 테스트 기본",
+      "difficulty_level": 1,
+      "description": "Learn and master Penetration Testing Basics",
+      "tags": [
+        "penetration",
+        "testing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4378",
+      "name": "피싱 식별",
+      "difficulty_level": 4,
+      "description": "Learn and master Phishing Identification",
+      "tags": [
+        "phishing",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4379",
+      "name": "피싱 방지",
+      "difficulty_level": 5,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4380",
+      "name": "안전한 코딩 관행",
+      "difficulty_level": 1,
+      "description": "Learn and master Secure Coding Practices",
+      "tags": [
+        "secure",
+        "coding",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4381",
+      "name": "안전한 소프트웨어 개발",
+      "difficulty_level": 2,
+      "description": "Learn and master Secure Software Development",
+      "tags": [
+        "secure",
+        "software",
+        "development"
+      ]
+    },
+    {
+      "id": "skill_4382",
+      "name": "보안 준수",
+      "difficulty_level": 3,
+      "description": "Learn and master Security Compliance",
+      "tags": [
+        "security",
+        "compliance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4383",
+      "name": "2FA 설정",
+      "difficulty_level": 5,
+      "description": "Learn and master Setting Up 2FA",
+      "tags": [
+        "setting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4384",
+      "name": "맬웨어 유형 이해",
+      "difficulty_level": 5,
+      "description": "Learn and master Understanding Malware Types",
+      "tags": [
+        "understanding",
+        "malware",
+        "types"
+      ]
+    },
+    {
+      "id": "skill_4385",
+      "name": "취약성 평가",
+      "difficulty_level": 5,
+      "description": "Learn and master Vulnerability Assessment",
+      "tags": [
+        "vulnerability",
+        "assessment",
+        "skill"
+      ]
+    }
+  ]
+}

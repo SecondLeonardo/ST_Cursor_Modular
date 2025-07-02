@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_plumbing",
+  "name": "연관",
+  "skills": [
+    {
+      "id": "skill_5145",
+      "name": "막힘 제거",
+      "difficulty_level": 3,
+      "description": "Learn and master Clog Removal",
+      "tags": [
+        "clog",
+        "removal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5146",
+      "name": "배수 시스템",
+      "difficulty_level": 3,
+      "description": "Learn and master Drainage Systems",
+      "tags": [
+        "drainage",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5147",
+      "name": "비품 설치",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixture Installation",
+      "tags": [
+        "fixture",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5148",
+      "name": "그레이 워터 시스템",
+      "difficulty_level": 5,
+      "description": "Learn and master Greywater Systems",
+      "tags": [
+        "greywater",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5149",
+      "name": "누출 감지",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5150",
+      "name": "PEX 설치",
+      "difficulty_level": 1,
+      "description": "Learn and master PEX Installation",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5151",
+      "name": "파이프 피팅",
+      "difficulty_level": 3,
+      "description": "Learn and master Pipe Fitting",
+      "tags": [
+        "pipe",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5152",
+      "name": "납땜 파이프",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering Pipes",
+      "tags": [
+        "soldering",
+        "pipes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5153",
+      "name": "화장실 수리",
+      "difficulty_level": 4,
+      "description": "Learn and master Toilet Repair",
+      "tags": [
+        "toilet",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5154",
+      "name": "온수기 설정",
+      "difficulty_level": 5,
+      "description": "Learn and master Water Heater Setup",
+      "tags": [
+        "water",
+        "heater",
+        "setup"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_sculpture",
+  "name": "النحت",
+  "skills": [
+    {
+      "id": "skill_410",
+      "name": "3D طباعة النحت",
+      "difficulty_level": 2,
+      "description": "Learn and master 3D Printing Sculpting",
+      "tags": [
+        "printing",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_411",
+      "name": "نمذجة الطين",
+      "difficulty_level": 3,
+      "description": "Learn and master Clay Modeling",
+      "tags": [
+        "clay",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_412",
+      "name": "فن التثبيت",
+      "difficulty_level": 2,
+      "description": "Learn and master Installation Art",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_413",
+      "name": "النحت المعدني",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Sculpture",
+      "tags": [
+        "metal",
+        "sculpture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_414",
+      "name": "النحت المصغر",
+      "difficulty_level": 1,
+      "description": "Learn and master Miniature Sculpting",
+      "tags": [
+        "miniature",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_415",
+      "name": "النحت وسائل الإعلام المختلطة",
+      "difficulty_level": 4,
+      "description": "Learn and master Mixed Media Sculpture",
+      "tags": [
+        "mixed",
+        "media",
+        "sculpture"
+      ]
+    },
+    {
+      "id": "skill_416",
+      "name": "صب الجص",
+      "difficulty_level": 3,
+      "description": "Learn and master Plaster Casting",
+      "tags": [
+        "plaster",
+        "casting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_417",
+      "name": "نحت الحجر",
+      "difficulty_level": 3,
+      "description": "Learn and master Stone Carving",
+      "tags": [
+        "stone",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_418",
+      "name": "فن السلك",
+      "difficulty_level": 2,
+      "description": "Learn and master Wire Art",
+      "tags": [
+        "wire",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_419",
+      "name": "النحت الخشب",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Sculpture",
+      "tags": [
+        "wood",
+        "sculpture",
+        "skill"
+      ]
+    }
+  ]
+}

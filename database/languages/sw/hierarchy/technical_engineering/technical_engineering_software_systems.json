@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_software_systems",
+  "name": "Programu na mifumo",
+  "skills": [
+    {
+      "id": "skill_4546",
+      "name": "API na ujumuishaji",
+      "difficulty_level": 1,
+      "description": "Learn and master APIs and Integration",
+      "tags": [
+        "apis",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4547",
+      "name": "Mazoea ya Maendeleo ya Agile",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Development Practices",
+      "tags": [
+        "agile",
+        "development",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4548",
+      "name": "Bomba za CI/CD",
+      "difficulty_level": 1,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4549",
+      "name": "Miundombinu ya Wingu (AWS/GCP)",
+      "difficulty_level": 3,
+      "description": "Learn and master Cloud Infrastructure (AWS/GCP)",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "(aws/gcp)"
+      ]
+    },
+    {
+      "id": "skill_4550",
+      "name": "Mbinu za Debugging",
+      "difficulty_level": 1,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4551",
+      "name": "Misingi ya upimaji wa programu",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Testing Basics",
+      "tags": [
+        "software",
+        "testing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4552",
+      "name": "Ubunifu wa usanifu wa mfumo",
+      "difficulty_level": 1,
+      "description": "Learn and master System Architecture Design",
+      "tags": [
+        "system",
+        "architecture",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4553",
+      "name": "Nyaraka za kiufundi",
+      "difficulty_level": 1,
+      "description": "Learn and master Technical Documentation",
+      "tags": [
+        "technical",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4554",
+      "name": "UML DIAGRAMMING",
+      "difficulty_level": 5,
+      "description": "Learn and master UML Diagramming",
+      "tags": [
+        "diagramming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4555",
+      "name": "Udhibiti wa toleo na GIT",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

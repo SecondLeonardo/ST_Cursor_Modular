@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "Handel i kunszt",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "Naprawa samochodowa"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "Stolarka i obróbka drewna"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "Konstrukcja i mur"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "Praca elektryczna"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC i chłodzenie"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "Tworzenie biżuterii"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "Metalowanie i spawanie"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "Malowanie i dekorowanie"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "Instalacja wodociągowa"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "Dostosowanie i szycie"
+    }
+  ]
+}

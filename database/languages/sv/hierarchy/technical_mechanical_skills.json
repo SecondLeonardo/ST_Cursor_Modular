@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "Tekniska och mekaniska färdigheter",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "Bilfärdigheter"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "Byggnad och byggnad"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "Elektriskt arbete"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "Energi och miljö"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "Industriförmåga"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "Mekaniska reparationer"
+    }
+  ]
+}

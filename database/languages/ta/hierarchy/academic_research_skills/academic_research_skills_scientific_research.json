@@ -1,0 +1,116 @@
+{
+  "id": "academic_research_skills_scientific_research",
+  "name": "அறிவியல் ஆராய்ச்சி",
+  "skills": [
+    {
+      "id": "skill_300",
+      "name": "கல்வி பத்திரிகை",
+      "difficulty_level": 5,
+      "description": "Learn and master Academic Journaling",
+      "tags": [
+        "academic",
+        "journaling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_301",
+      "name": "ஆதாரங்களை சரியாக மேற்கோள் காட்டி",
+      "difficulty_level": 3,
+      "description": "Learn and master Citing Sources Properly",
+      "tags": [
+        "citing",
+        "sources",
+        "properly"
+      ]
+    },
+    {
+      "id": "skill_302",
+      "name": "இலக்கிய மதிப்புரைகளை நடத்துதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Conducting Literature Reviews",
+      "tags": [
+        "conducting",
+        "literature",
+        "reviews"
+      ]
+    },
+    {
+      "id": "skill_303",
+      "name": "தரவு சேகரிப்பு முறைகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Collection Methods",
+      "tags": [
+        "data",
+        "collection",
+        "methods"
+      ]
+    },
+    {
+      "id": "skill_304",
+      "name": "சோதனைகளை வடிவமைத்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Designing Experiments",
+      "tags": [
+        "designing",
+        "experiments",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_305",
+      "name": "நெறிமுறை ஆராய்ச்சி நடைமுறைகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Research Practices",
+      "tags": [
+        "ethical",
+        "research",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_306",
+      "name": "கருதுகோள்களை உருவாக்குதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Formulating Hypotheses",
+      "tags": [
+        "formulating",
+        "hypotheses",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_307",
+      "name": "சக மதிப்பாய்வு செயல்முறை",
+      "difficulty_level": 2,
+      "description": "Learn and master Peer Review Process",
+      "tags": [
+        "peer",
+        "review",
+        "process"
+      ]
+    },
+    {
+      "id": "skill_308",
+      "name": "ஆய்வக உபகரணங்களைப் பயன்படுத்துதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Lab Equipment",
+      "tags": [
+        "using",
+        "equipment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_309",
+      "name": "ஆய்வுக் கட்டுரைகளை எழுதுதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Writing Research Papers",
+      "tags": [
+        "writing",
+        "research",
+        "papers"
+      ]
+    }
+  ]
+}

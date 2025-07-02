@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "संज्ञानात्मक और शैक्षणिक कौशल",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "महत्वपूर्ण सोच"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "भाषा और भाषाविज्ञान"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "गणित और तर्क"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "स्मृति और फोकस"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "विज्ञान और अनुसंधान"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "अध्ययन और सीखने के कौशल"
+    }
+  ]
+}

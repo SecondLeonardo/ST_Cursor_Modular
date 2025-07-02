@@ -1,0 +1,120 @@
+{
+  "id": "food_of_different_countries_italian_cuisine",
+  "name": "意大利美食",
+  "skills": [
+    {
+      "id": "skill_5415",
+      "name": "面食制作",
+      "difficulty_level": 4,
+      "description": "Learn and master Pasta Making",
+      "tags": [
+        "pasta",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5416",
+      "name": "披萨面团准备",
+      "difficulty_level": 2,
+      "description": "Learn and master Pizza Dough Preparation",
+      "tags": [
+        "pizza",
+        "dough",
+        "preparation"
+      ]
+    },
+    {
+      "id": "skill_5417",
+      "name": "意大利调味饭",
+      "difficulty_level": 3,
+      "description": "Learn and master Risotto Cooking",
+      "tags": [
+        "risotto",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5418",
+      "name": "提拉米苏的创作",
+      "difficulty_level": 1,
+      "description": "Learn and master Tiramisu Creation",
+      "tags": [
+        "tiramisu",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5419",
+      "name": "酱汁制作（例如Marinara，Alfredo）",
+      "difficulty_level": 1,
+      "description": "Learn and master Sauce Making (e.g., Marinara, Alfredo)",
+      "tags": [
+        "sauce",
+        "making",
+        "(e.g.,",
+        "marinara,",
+        "alfredo)"
+      ]
+    },
+    {
+      "id": "skill_5420",
+      "name": "反植物电镀",
+      "difficulty_level": 1,
+      "description": "Learn and master Antipasto Plating",
+      "tags": [
+        "antipasto",
+        "plating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5421",
+      "name": "冰淇淋制作",
+      "difficulty_level": 2,
+      "description": "Learn and master Gelato Making",
+      "tags": [
+        "gelato",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5422",
+      "name": "意大利面包烘烤",
+      "difficulty_level": 1,
+      "description": "Learn and master Italian Bread Baking",
+      "tags": [
+        "italian",
+        "bread",
+        "baking"
+      ]
+    },
+    {
+      "id": "skill_5423",
+      "name": "草药的使用（例如，罗勒，牛至）",
+      "difficulty_level": 2,
+      "description": "Learn and master Herb Usage (e.g., Basil, Oregano)",
+      "tags": [
+        "herb",
+        "usage",
+        "(e.g.,",
+        "basil,",
+        "oregano)"
+      ]
+    },
+    {
+      "id": "skill_5424",
+      "name": "葡萄酒配对",
+      "difficulty_level": 5,
+      "description": "Learn and master Wine Pairing",
+      "tags": [
+        "wine",
+        "pairing",
+        "skill"
+      ]
+    }
+  ]
+}

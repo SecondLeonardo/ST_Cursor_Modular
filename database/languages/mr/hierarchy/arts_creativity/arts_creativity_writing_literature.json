@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_writing_literature",
+  "name": "लेखन आणि साहित्य",
+  "skills": [
+    {
+      "id": "skill_510",
+      "name": "ब्लॉग लेखन",
+      "difficulty_level": 2,
+      "description": "Learn and master Blog Writing",
+      "tags": [
+        "blog",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_511",
+      "name": "सर्जनशील लेखन",
+      "difficulty_level": 3,
+      "description": "Learn and master Creative Writing",
+      "tags": [
+        "creative",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_512",
+      "name": "संपादन आणि प्रूफरीडिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Editing & Proofreading",
+      "tags": [
+        "editing",
+        "proofreading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_513",
+      "name": "काल्पनिक लेखन",
+      "difficulty_level": 2,
+      "description": "Learn and master Fiction Writing",
+      "tags": [
+        "fiction",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_514",
+      "name": "साहित्यिक विश्लेषण",
+      "difficulty_level": 2,
+      "description": "Learn and master Literary Analysis",
+      "tags": [
+        "literary",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_515",
+      "name": "कल्पित लेखन",
+      "difficulty_level": 3,
+      "description": "Learn and master Non-fiction Writing",
+      "tags": [
+        "non-fiction",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_516",
+      "name": "कविता लेखन",
+      "difficulty_level": 3,
+      "description": "Learn and master Poetry Writing",
+      "tags": [
+        "poetry",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_517",
+      "name": "पटकथालेखन",
+      "difficulty_level": 2,
+      "description": "Learn and master Screenwriting",
+      "tags": [
+        "screenwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_518",
+      "name": "लघुकथा लेखन",
+      "difficulty_level": 2,
+      "description": "Learn and master Short Story Writing",
+      "tags": [
+        "short",
+        "story",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_519",
+      "name": "लेखन संवाद",
+      "difficulty_level": 5,
+      "description": "Learn and master Writing Dialogue",
+      "tags": [
+        "writing",
+        "dialogue",
+        "skill"
+      ]
+    }
+  ]
+}

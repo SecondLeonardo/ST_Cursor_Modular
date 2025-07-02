@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_automotive_maintenance",
+  "name": "வாகன பராமரிப்பு",
+  "skills": [
+    {
+      "id": "skill_3508",
+      "name": "பேட்டரி மாற்று",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3509",
+      "name": "பிரேக் ஆய்வு",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Inspection",
+      "tags": [
+        "brake",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3510",
+      "name": "கார் விவரம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Car Detailing",
+      "tags": [
+        "detailing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3511",
+      "name": "கார் பலா பயன்பாடு",
+      "difficulty_level": 2,
+      "description": "Learn and master Car Jack Use",
+      "tags": [
+        "jack",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3512",
+      "name": "ஹெட்லைட்களை மாற்றுதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Changing Headlights",
+      "tags": [
+        "changing",
+        "headlights",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3513",
+      "name": "திரவ மேல்-ஆஃப்",
+      "difficulty_level": 1,
+      "description": "Learn and master Fluid Top-off",
+      "tags": [
+        "fluid",
+        "top-off",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3514",
+      "name": "எண்ணெய் மாற்றம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3515",
+      "name": "பிழைக் குறியீடுகளைப் படித்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Error Codes",
+      "tags": [
+        "reading",
+        "error",
+        "codes"
+      ]
+    },
+    {
+      "id": "skill_3516",
+      "name": "காற்று வடிப்பான்களை மாற்றுகிறது",
+      "difficulty_level": 1,
+      "description": "Learn and master Replacing Air Filters",
+      "tags": [
+        "replacing",
+        "filters",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3517",
+      "name": "டயர் சுழற்சி",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    }
+  ]
+}

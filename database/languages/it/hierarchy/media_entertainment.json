@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "Media e intrattenimento",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "Produzione video"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "Produzione audio"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "Fotografia"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "Graphic design"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "Recitazione e prestazioni"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "Scrittura e sceneggiatura"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "Trasmissione"
+    }
+  ]
+}

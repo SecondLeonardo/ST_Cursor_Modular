@@ -1,0 +1,117 @@
+{
+  "id": "technology_digital_software_development",
+  "name": "மென்பொருள் மேம்பாடு",
+  "skills": [
+    {
+      "id": "skill_4656",
+      "name": "சுறுசுறுப்பான முறைகள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Agile Methodologies",
+      "tags": [
+        "agile",
+        "methodologies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4657",
+      "name": "சிஐ/சிடி பைப்லைன்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4658",
+      "name": "குறியீடு மதிப்பாய்வு சிறந்த நடைமுறைகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Code Review Best Practices",
+      "tags": [
+        "code",
+        "review",
+        "best",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4659",
+      "name": "பிழைத்திருத்த நுட்பங்கள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4660",
+      "name": "வடிவமைப்பு வடிவங்கள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Design Patterns",
+      "tags": [
+        "design",
+        "patterns",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4661",
+      "name": "மொபைல் பயன்பாட்டு மேம்பாடு",
+      "difficulty_level": 4,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4662",
+      "name": "பொருள் சார்ந்த நிரலாக்க",
+      "difficulty_level": 5,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4663",
+      "name": "RESTFUL API வளர்ச்சி",
+      "difficulty_level": 1,
+      "description": "Learn and master RESTful API Development",
+      "tags": [
+        "restful",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4664",
+      "name": "அலகு சோதனை",
+      "difficulty_level": 2,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4665",
+      "name": "GIT உடன் பதிப்பு கட்டுப்பாடு",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

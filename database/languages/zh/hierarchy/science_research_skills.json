@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "科学与研究技能",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "学术写作"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "生物科学"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "计算机与数据科学"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "地球与环境科学"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "工程科学"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "数学与统计"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "医学与健康科学"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "物理科学"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "研究方法"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "社会科学"
+    }
+  ]
+}

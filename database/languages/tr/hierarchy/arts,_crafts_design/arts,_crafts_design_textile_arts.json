@@ -1,0 +1,116 @@
+{
+  "id": "arts,_crafts_design_textile_arts",
+  "name": "Tekstil sanatları",
+  "skills": [
+    {
+      "id": "skill_700",
+      "name": "Tığ işi teknikleri",
+      "difficulty_level": 1,
+      "description": "Learn and master Crochet Techniques",
+      "tags": [
+        "crochet",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_701",
+      "name": "Nakış",
+      "difficulty_level": 3,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_702",
+      "name": "Kumaş boyama",
+      "difficulty_level": 5,
+      "description": "Learn and master Fabric Painting",
+      "tags": [
+        "fabric",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_703",
+      "name": "El dikişi",
+      "difficulty_level": 4,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_704",
+      "name": "Örgü örmek",
+      "difficulty_level": 3,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_705",
+      "name": "İğne Noktası",
+      "difficulty_level": 2,
+      "description": "Learn and master Needlepoint",
+      "tags": [
+        "needlepoint",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_706",
+      "name": "Yama işçiliği",
+      "difficulty_level": 1,
+      "description": "Learn and master Patchwork",
+      "tags": [
+        "patchwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_707",
+      "name": "Kapitone",
+      "difficulty_level": 2,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_708",
+      "name": "Tekstil boyama",
+      "difficulty_level": 3,
+      "description": "Learn and master Textile Dyeing",
+      "tags": [
+        "textile",
+        "dyeing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_709",
+      "name": "Dokuma",
+      "difficulty_level": 3,
+      "description": "Learn and master Weaving",
+      "tags": [
+        "weaving",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

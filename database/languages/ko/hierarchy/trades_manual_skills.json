@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "거래 및 매뉴얼 기술",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "자동차 수리"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "목공 및 목공"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "건설"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "건설 및 목공"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "장인 정신과 수리"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "전기 및 기계"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "전기 작업"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC 및 냉장"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "중장비 작동"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "벽돌 및 타일링"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "금속 및 목공"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "그림과 마무리"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "연관"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "차량 및 기계 유지 보수"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "용접 및 금속 가공"
+    }
+  ]
+}

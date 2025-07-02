@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "Ekonomi"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "Geografi"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "Historia"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "Språk och lingvistik"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "Litteratur"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "Matematik"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "Filosofi"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "Psykologi"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "Vetenskap"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "Sociologi"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "Kritiskt tänkande"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "Historia och kultur"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "Historia och samhällsvetenskap"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "Språk och lingvistik"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "Språk"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "Litteratur och skrivande"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "Logik och resonemang"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "Matematik"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "Filosofi och kritiskt tänkande"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "Offentligt talande och debatt"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "Forskning och analys"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "Vetenskap"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "Vetenskap och natur"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "Studietekniker"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "Teknik och dator"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "Akademisk presentation"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "Dataanalys"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "Språk och skrivande"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "Matematik och statistik"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "Vetenskaplig forskning"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "Studie & Test Prep"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "Animation"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "Hantverk & diy"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "Kreativ skrivning"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "Ritning och illustration"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "Modedesign"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "Målning"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "Scenkonst"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "Skulptur"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "Animation & rörelsegrafik"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "Hantverk & diy"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "Ritning och illustration"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "Mode- och textilkonst"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "Film & video"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "Målning och blandat media"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "Scenkonst"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "Skrivning och litteratur"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3D -modellering"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "Arkitekturdesign"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "Hantverk"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "Mode och textilier"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "Film & video"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "Inredning"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "Scenkonst"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "Bildkonst"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "Kalligrafi"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "Hantverk"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "Digital Art & Animation"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "Modedesign"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "Illustration och ritning"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "Inredning"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "Textilkonst"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "Bildkonst"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "Hantverk & diy"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "Kreativ skrivning"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "Design och digital konst"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "Scenkonst"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "Bildkonst"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "Bokföring"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "Affärsstrategi"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "Kundsupport"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "E-handel"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "Entreprenörskap"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "Finansiera"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "Finansiering och redovisning"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "HR & rekrytering"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "Mänskliga resurser"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "Investering & Trading"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "Ledarskap och ledning"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "Marknadsföring och försäljning"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "Projektledning"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "SALES & CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "Affärskommunikation"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "Kundservice"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "Entreprenörskap"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "Finansiering och redovisning"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "Mänskliga resurser"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "Ledarskap och ledning"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "Juridisk och efterlevnad"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "Marknadsföring och varumärke"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "Kontorsproduktivitet"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "Projekt och tidshantering"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "Projektledning"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "Försäljning och marknadsföring"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "Försäljning och förhandling"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "Kritiskt tänkande"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "Språk och lingvistik"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "Matematik och logik"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "Minne och fokus"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "Vetenskap och forskning"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "Studie- och inlärningsförmåga"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "Koncentration och fokus"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "Kritiskt tänkande"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "Informationsbehandling"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "Inlärningsstrategier"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "Minne och behållning"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "Problemlösning"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "Främmande språk"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "Interpersonella färdigheter"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "Icke -verbal kommunikation"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "Presentation och berättelse"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "Offentligt talande"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "Skrivande och redigering"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "Hantverk & diy"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "Kreativt tänkande"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "Design & estetik"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "Mode & styling"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "Film & video"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "Speldesign och världsbyggnad"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "Musik och ljud"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "Musikföreställning"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "Musikproduktion"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "Scenkonst"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "Fotografi och videografi"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "Bildkonst"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "Skrivning och litteratur"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "Skådespelare och prestanda"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "Animation"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "Hantverk & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "Hantverk & diy"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "Hantverk & handgjorda konst"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "Kreativ teknik"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "Kreativ skrivning"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "Kulinarisk konst"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "Design & estetik"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "Ritning och illustration"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "Mode & styling"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "Mode och textilkonst"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "Filmskapande och video"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "Interiör- och blommig design"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "Musik och instrument"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "Musikskapande"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "Målning"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "Målning och konst"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "Scenkonst"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "Fotografi och videografi"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "Skulptur & 3D -konst"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "Bildkonst"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "Skrivande och berättelse"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D & Animation"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "Ui/ux"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "Videoproduktion"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "Kalligrafi och handbokstäver"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "Hantverk & DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "Kreativ skrivning"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "Ritning och illustration"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "Smycken"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "Målning"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "Scrapbooking & collage"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "Skulptur och lera"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "Textil- och fiberkonst"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "Hantverk & diy"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "Digital Arts & Animation"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "Interiör och mode"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "Bildkonst"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "Forntida språk"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "Kulturell medvetenhet"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "Dialektcoaching"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "Interkulturell kommunikation"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "Språkinlärningstekniker"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "Språk"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "Lingvistik"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "Teckna språk"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "Översättning och tolkning"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "Skrivsystem"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3D -modellering och animering"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "Varumärke och identitet"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "Illustration"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "UX/UI -design"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D & Animation"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "Skapande av innehåll"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "Digitalmarknadsföring"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "Sociala medier"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "Streaming och sändning"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "UI/UX -design"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "Videoproduktion"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "Web & App Design"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "Cybersäkerhet"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "Data & Ai"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "Det & nätverk"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "Programmering och utveckling"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "Web & Mobile"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "Akademisk handledning"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "Tidig barndomsutbildning"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "Högre utbildning"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "Språkundervisning"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "Språk"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "Inlärningsteknik"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "Läskunnighet och skrivande"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "Specialundervisning"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "Studiekompetens"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "Testförberedelse"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "Bil och transport"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "Anläggningsteknik"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "Elektroteknik"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "Energi och kraftsystem"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC & Systems"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "Industriell formgivning"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "Tillverkning och produktion"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "Maskinteknik"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "Robotik och automatisering"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "Strukturell design"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "Kroppsvård och wellness"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "Första hjälpen och säkerheten"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "Mental hälsa"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "Näring och diet"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "Gymnastik"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "Alternativmedicin"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "Första hjälpen och nödsituation"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "Fitnessträning"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "Holistisk hälsa"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "Medicinsk kunskap"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "Medicinska färdigheter"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "Mental hälsa"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "Mental hälsopraxis"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "Mindfulness & Meditation"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "Näring och diet"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "Personlig vård"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "Fysisk kondition"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "Rehabilitering och terapi"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "Reproduktiv hälsa"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "Egenvård och hygien"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "Sleep & Recovery"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "Stresshantering"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "Yoga & meditation"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "Fitnessträning"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "Näring"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "Utomhus- och äventyr"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "Idrottsförmåga"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "Wellness & Recovery"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "Alternativmedicin"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "Medicinsk kunskap"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "Mental hälsa"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "Näring"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "Personlig utbildning"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "Fysisk kondition"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "Rehabilitering och terapi"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "Idrottscoaching"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "Wellness coaching"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "Yoga och mindfulness"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "Underhåll av apparater"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "Rengöring och organisering"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "Hantverk och dekor"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "Elektriskt arbete"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "Trädgårdsarkitektur"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "Hemautomation"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "Hemreparation"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "Inredning"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "VVS -grunder"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "Träbearbetning och snickeri"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "Budgetering och hushållsfinansiering"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "Barnomsorg"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "Matlagning och måltid"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "Livsmedelsaffär"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "Hemrengöring"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "Hemunderhåll"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "Tvätt- och klädvård"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "Organisering och decluttering"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "Husdjursvård"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "Tidshantering"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "Tvärkulturell kommunikation"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "Främmande språk"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "Lyssning och förståelse"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "Översättning och tolkning"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "Skrivfärdigheter"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "Språkinlärning"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "Icke-verbal kommunikation"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "Offentligt talande"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "Berättelse och berättelse"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "Muntlig kommunikation"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "Skrivande och redigering"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "Språkinlärning"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "Matematik"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "Vetenskap och forskning"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "Studietekniker"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "Testförberedelse"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "Akademisk handledning"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "Utbildningsverktyg och färdigheter"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "Språkinlärning"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "Livslångt lärande"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "Testförberedelse"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "Matlagning och mat"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "Hemunderhåll"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "Personlig ekonomi"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "Tidshantering"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "Resor och navigering"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "Kommunikation och relationer"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "Emotionell intelligens"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "Motståndskraft och tillväxt"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "Självdisciplin"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "Tid och målhantering"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "Matlagning och matberedning"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY & reparationer"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "Trädgårdsarbete och hållbarhet"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "Hemförvaltning"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "Personlig ekonomi"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "Överlevnadsförmåga"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "Fordonsreparation"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "Bygghandel"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "Elektriskt arbete"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "Möbler och klädsel"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "Handverktygsbehörighet"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "Hemrenovering"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "Metallbearbetning"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "VVS och uppvärmning"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "Textil & Leathercraft"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "Träbearbetning"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "Fordonsunderhåll"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "Grunders grunder"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "Hemreparation och installation"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "Maskinoperation"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "Verktygsanvändning och säkerhet"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "Trä- och metallarbete"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "Kritiskt tänkande"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "Geografi och miljö"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "Historia och kultur"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "Språk"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "Matematik"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "Minnes- och inlärningsförmåga"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "Filosofi och etik"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "Psykologi och beteende"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "Vetenskap och forskning"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "Studietekniker"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "Kognitiv flexibilitet"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "Kritiskt tänkande"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "Språkinlärning"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "Minne och fokus"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "Studiekompetens"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "Förtroende och självkänsla"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "Emotionell intelligens"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "Målinställning och planering"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "Vanor och disciplin"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "Interpersonella färdigheter"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "Ledarskap och inflytande"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "Mindfulness & Wellbeing"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "Offentligt talande"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "Självreflektion"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "Tid och produktivitet"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "Ledarskap"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "Mental välbefinnande"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "Produktivitet"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "Offentligt talande"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "Självförbättring"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "Emotionell intelligens"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "Målinställning och prestation"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "Vanor och produktivitet"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "Mindfulness & Wellness"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "Offentligt talande och kommunikation"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "Självdisciplin och fokus"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "Fitness och konditionering"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "Manuell arbetskraft och handel"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "Utomhusrekreation"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "Självförsvar och kampsport"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "Sport och friidrott"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "Överlevnad & bushcraft"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "Fitness och styrka"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "Individuella sporter"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "Kampsport"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "Utomhus- och äventyr"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "Fritidsaktiviteter"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "Lagsport"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "Akademisk skrivning"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "Biologiska vetenskaper"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "Dator- och datavetenskap"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "Jord- och miljövetenskap"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "Ingenjörsvetenskap"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "Matematik och statistik"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "Medicinska och hälsovetenskap"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "Fysisk vetenskap"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "Forskningsmetoder"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "Samhällsvetenskap"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "Astronomi"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "Biologi och livsvetenskap"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "Kemi"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "Datavetenskap"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "Data Science & AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "Jord- och miljövetenskap"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "Teknisk discipliner"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "Matematik och statistik"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "Fysik och mekanik"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "Robotik och automatisering"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "Astronomi"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "Bioteknik"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "Kemi"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "Datavetenskap"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "Data Science & AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "Jord- och miljövetenskap"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "Elektronik"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "Teknik"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "Matematik och statistik"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "Fysik"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI & Machine Learning"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "Molnberäkning"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "Cybersäkerhet"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "Data & Analytics"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "Data Science & AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps & Automation"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "Spelutveckling"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "Det & nätverk"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "Det stöder och nätverk"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "Mobilapputveckling"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "Programmering och mjukvaruutveckling"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "Mjukvaruutveckling"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "Teknisk hårdvara och reparation"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "Teknisk support och felsökning"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "Webbutveckling"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "Civil- och strukturell"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "Elektroteknik"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "Tillverkning och tillverkning"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "Maskinteknik"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "Programvara och system"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "Bilfärdigheter"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "Byggnad och byggnad"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "Elektriskt arbete"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "Energi och miljö"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "Industriförmåga"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "Mekaniska reparationer"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "Cybersäkerhet"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "Data & Ai"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "Digitalmarknadsföring"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "Det & nätverk"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "Mjukvaruutveckling"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "Konstgjorda intelligens"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "Molnberäkning"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "Datorgrunder"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "Cybersäkerhet"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "Data & Ai"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "Data & Analytics"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "Digitalkunskap"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "Digitalmarknadsföring"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "Emerging Tech"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "Hårdvara och elektronik"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "Det & nätverk"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "Nätverk och det"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "Programmering och utveckling"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "Programmering och mjukvaruutveckling"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "Programverktyg"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "Teknisk produktivitet"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "Tekniskt stöd och underhåll"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "Teknisk support och felsökning"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "Webb- och apputveckling"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "Konstruktion och snickeri"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "Elektriskt och VVS"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "Handgjorda varor"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "Metallverk och svetsning"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "Textil & Leathercraft"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "Traditionella hantverk"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "Fordonsreparation"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "Snickeri och träbearbetning"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "Konstruktion och murverk"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "Elektriskt arbete"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC & kylning"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "Smycken"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "Metallverk och svetsning"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "Målning och dekorering"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "Rörledare"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "Skräddarsydd och sömnad"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "Fordonsreparation"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "Snickeri och träverk"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "Konstruktion"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "Konstruktion och snickeri"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "Hantverk och reparationer"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "Elektrisk och mekanisk"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "Elektriskt arbete"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC & kylning"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "Tung utrustning"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "Murverk"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "Metall- och träverk"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "Målning och efterbehandling"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "Rörledare"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "Fordons- och maskinunderhåll"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "Svetsning och metallarbete"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "Bil"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "Snickeri"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "Konstruktion"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "Elektrisk"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "Hvac"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "Murverk"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "Mekanisk"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "Målning och dekorering"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "Rörledare"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "Svetsning"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "Videoproduktion"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "Ljudproduktion"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "Grafisk design"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "Skådespelare och prestanda"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "Skrivande och manusförfattare"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "Sändning"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "Konst och hantverk"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "Musik och instrument"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "Utomhusaktiviteter"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "Samlande"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "Fitness & Wellness"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "Trädgårdsarbete"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "DIY -projekt"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "Italiensk mat"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "Japansk mat"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "Mexikansk mat"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "Indisk mat"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "Fransk mat"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "Kinesisk mat"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "Mellanöstern"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "Trades & Craftsmanship",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "Automotive Repair"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "Carpentry & Woodworking"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "Construction & Masonry"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "Electrical Work"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC & Refrigeration"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "Jewelry Making"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "Metalwork & Welding"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "Painting & Decorating"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "Plumbing"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "Tailoring & Sewing"
+    }
+  ]
+}

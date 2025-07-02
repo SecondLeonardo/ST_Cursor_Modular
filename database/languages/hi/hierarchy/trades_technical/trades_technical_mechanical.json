@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_mechanical",
+  "name": "यांत्रिक",
+  "skills": [
+    {
+      "id": "skill_5235",
+      "name": "विधानसभा लाइन कार्य",
+      "difficulty_level": 5,
+      "description": "Learn and master Assembly Line Work",
+      "tags": [
+        "assembly",
+        "line",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_5236",
+      "name": "असर स्थापना",
+      "difficulty_level": 2,
+      "description": "Learn and master Bearing Installation",
+      "tags": [
+        "bearing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5237",
+      "name": "गियर सिस्टम",
+      "difficulty_level": 2,
+      "description": "Learn and master Gear Systems",
+      "tags": [
+        "gear",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5238",
+      "name": "जलगति विज्ञान",
+      "difficulty_level": 3,
+      "description": "Learn and master Hydraulics",
+      "tags": [
+        "hydraulics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5239",
+      "name": "स्नेहन तकनीक",
+      "difficulty_level": 5,
+      "description": "Learn and master Lubrication Techniques",
+      "tags": [
+        "lubrication",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5240",
+      "name": "मशीन का रखरखाव",
+      "difficulty_level": 4,
+      "description": "Learn and master Machine Maintenance",
+      "tags": [
+        "machine",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5241",
+      "name": "यांत्रिक ड्राइंग रीडिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Mechanical Drawing Reading",
+      "tags": [
+        "mechanical",
+        "drawing",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_5242",
+      "name": "वायु-विद्या",
+      "difficulty_level": 5,
+      "description": "Learn and master Pneumatics",
+      "tags": [
+        "pneumatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5243",
+      "name": "शाफ्ट संरेखण",
+      "difficulty_level": 4,
+      "description": "Learn and master Shaft Alignment",
+      "tags": [
+        "shaft",
+        "alignment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5244",
+      "name": "औजार रखरखाव",
+      "difficulty_level": 1,
+      "description": "Learn and master Tool Maintenance",
+      "tags": [
+        "tool",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_psychology",
+  "name": "Психология",
+  "skills": [
+    {
+      "id": "skill_70",
+      "name": "Аномальная психология",
+      "difficulty_level": 1,
+      "description": "Learn and master Abnormal Psychology",
+      "tags": [
+        "abnormal",
+        "psychology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_71",
+      "name": "Поведенческая психология",
+      "difficulty_level": 5,
+      "description": "Learn and master Behavioral Psychology",
+      "tags": [
+        "behavioral",
+        "psychology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_72",
+      "name": "Когнитивная психология",
+      "difficulty_level": 4,
+      "description": "Learn and master Cognitive Psychology",
+      "tags": [
+        "cognitive",
+        "psychology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_73",
+      "name": "Методы консультирования",
+      "difficulty_level": 1,
+      "description": "Learn and master Counseling Techniques",
+      "tags": [
+        "counseling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_74",
+      "name": "Психология развития",
+      "difficulty_level": 2,
+      "description": "Learn and master Developmental Psychology",
+      "tags": [
+        "developmental",
+        "psychology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_75",
+      "name": "Нейропсихология",
+      "difficulty_level": 2,
+      "description": "Learn and master Neuropsychology",
+      "tags": [
+        "neuropsychology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_76",
+      "name": "Личностная психология",
+      "difficulty_level": 5,
+      "description": "Learn and master Personality Psychology",
+      "tags": [
+        "personality",
+        "psychology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_77",
+      "name": "Психологические исследования",
+      "difficulty_level": 1,
+      "description": "Learn and master Psychological Research",
+      "tags": [
+        "psychological",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_78",
+      "name": "Психологическое тестирование",
+      "difficulty_level": 4,
+      "description": "Learn and master Psychological Testing",
+      "tags": [
+        "psychological",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_79",
+      "name": "Социальная психология",
+      "difficulty_level": 2,
+      "description": "Learn and master Social Psychology",
+      "tags": [
+        "social",
+        "psychology",
+        "skill"
+      ]
+    }
+  ]
+}

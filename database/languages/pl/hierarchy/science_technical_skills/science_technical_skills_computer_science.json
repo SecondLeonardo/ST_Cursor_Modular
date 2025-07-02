@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_computer_science",
+  "name": "Informatyka",
+  "skills": [
+    {
+      "id": "skill_4178",
+      "name": "Algorytmy",
+      "difficulty_level": 3,
+      "description": "Learn and master Algorithms",
+      "tags": [
+        "algorithms",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4179",
+      "name": "Myślenie obliczeniowe",
+      "difficulty_level": 3,
+      "description": "Learn and master Computational Thinking",
+      "tags": [
+        "computational",
+        "thinking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4180",
+      "name": "Architektura komputera",
+      "difficulty_level": 1,
+      "description": "Learn and master Computer Architecture",
+      "tags": [
+        "computer",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4181",
+      "name": "Podstawy bezpieczeństwa cybernetycznego",
+      "difficulty_level": 1,
+      "description": "Learn and master Cybersecurity Basics",
+      "tags": [
+        "cybersecurity",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4182",
+      "name": "Struktury danych",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Structures",
+      "tags": [
+        "data",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4183",
+      "name": "Projektowanie bazy danych",
+      "difficulty_level": 1,
+      "description": "Learn and master Database Design",
+      "tags": [
+        "database",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4184",
+      "name": "Sieci i protokoły",
+      "difficulty_level": 1,
+      "description": "Learn and master Networks & Protocols",
+      "tags": [
+        "networks",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4185",
+      "name": "Systemy operacyjne",
+      "difficulty_level": 4,
+      "description": "Learn and master Operating Systems",
+      "tags": [
+        "operating",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4186",
+      "name": "Paradygmaty programowania",
+      "difficulty_level": 3,
+      "description": "Learn and master Programming Paradigms",
+      "tags": [
+        "programming",
+        "paradigms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4187",
+      "name": "Zasady inżynierii oprogramowania",
+      "difficulty_level": 2,
+      "description": "Learn and master Software Engineering Principles",
+      "tags": [
+        "software",
+        "engineering",
+        "principles"
+      ]
+    }
+  ]
+}

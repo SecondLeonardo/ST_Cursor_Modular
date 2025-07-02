@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_rehabilitation_therapy",
+  "name": "Revalidatie en therapie",
+  "skills": [
+    {
+      "id": "skill_2619",
+      "name": "Assistent apparaatgebruik",
+      "difficulty_level": 2,
+      "description": "Learn and master Assistive Device Use",
+      "tags": [
+        "assistive",
+        "device",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2620",
+      "name": "Gewrichtsversterking",
+      "difficulty_level": 5,
+      "description": "Learn and master Joint Strengthening",
+      "tags": [
+        "joint",
+        "strengthening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2621",
+      "name": "Mobiliteitshulp",
+      "difficulty_level": 5,
+      "description": "Learn and master Mobility Assistance",
+      "tags": [
+        "mobility",
+        "assistance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2622",
+      "name": "Basisprincipes van ergotherapie",
+      "difficulty_level": 5,
+      "description": "Learn and master Occupational Therapy Basics",
+      "tags": [
+        "occupational",
+        "therapy",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2623",
+      "name": "Fysiotherapieoefeningen",
+      "difficulty_level": 2,
+      "description": "Learn and master Physical Therapy Exercises",
+      "tags": [
+        "physical",
+        "therapy",
+        "exercises"
+      ]
+    },
+    {
+      "id": "skill_2624",
+      "name": "Herstel na de verwonding",
+      "difficulty_level": 3,
+      "description": "Learn and master Post-Injury Recovery",
+      "tags": [
+        "post-injury",
+        "recovery",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2625",
+      "name": "Bereik van bewegingswerk",
+      "difficulty_level": 5,
+      "description": "Learn and master Range of Motion Work",
+      "tags": [
+        "range",
+        "motion",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_2626",
+      "name": "Spraaktherapietechnieken",
+      "difficulty_level": 3,
+      "description": "Learn and master Speech Therapy Techniques",
+      "tags": [
+        "speech",
+        "therapy",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2627",
+      "name": "Revalidatie van een beroerte",
+      "difficulty_level": 5,
+      "description": "Learn and master Stroke Rehabilitation",
+      "tags": [
+        "stroke",
+        "rehabilitation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2628",
+      "name": "Therapeutische massage",
+      "difficulty_level": 3,
+      "description": "Learn and master Therapeutic Massage",
+      "tags": [
+        "therapeutic",
+        "massage",
+        "skill"
+      ]
+    }
+  ]
+}

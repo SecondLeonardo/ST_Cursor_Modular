@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "مهارت های جسمی و ورزشی",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "تناسب اندام و قدرت"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "ورزش های فردی"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "هنرهای رزمی"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "در فضای باز و ماجراجویی"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "فعالیت های تفریحی"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "ورزش تیمی"
+    }
+  ]
+}

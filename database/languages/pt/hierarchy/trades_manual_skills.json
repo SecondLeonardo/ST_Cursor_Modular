@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Comércio e habilidades manuais",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Reparo automotivo"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Carpintaria e madeira"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Construção"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Construção e carpintaria"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Artesanato e reparos"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Elétrico e mecânico"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Trabalho elétrico"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC e refrigeração"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Operação de equipamentos pesados"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Maçonaria e ladrilhos"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Metal e madeira"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Pintura e acabamento"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Encanamento"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Manutenção de veículos e máquinas"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Soldagem e metalwork"
+    }
+  ]
+}

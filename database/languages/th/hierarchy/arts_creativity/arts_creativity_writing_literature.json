@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_writing_literature",
+  "name": "การเขียนและวรรณกรรม",
+  "skills": [
+    {
+      "id": "skill_510",
+      "name": "การเขียนบล็อก",
+      "difficulty_level": 2,
+      "description": "Learn and master Blog Writing",
+      "tags": [
+        "blog",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_511",
+      "name": "การเขียนเชิงสร้างสรรค์",
+      "difficulty_level": 3,
+      "description": "Learn and master Creative Writing",
+      "tags": [
+        "creative",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_512",
+      "name": "การแก้ไขและการพิสูจน์อักษร",
+      "difficulty_level": 1,
+      "description": "Learn and master Editing & Proofreading",
+      "tags": [
+        "editing",
+        "proofreading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_513",
+      "name": "การเขียนนิยาย",
+      "difficulty_level": 2,
+      "description": "Learn and master Fiction Writing",
+      "tags": [
+        "fiction",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_514",
+      "name": "การวิเคราะห์วรรณกรรม",
+      "difficulty_level": 2,
+      "description": "Learn and master Literary Analysis",
+      "tags": [
+        "literary",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_515",
+      "name": "การเขียนที่ไม่ใช่นิยาย",
+      "difficulty_level": 3,
+      "description": "Learn and master Non-fiction Writing",
+      "tags": [
+        "non-fiction",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_516",
+      "name": "การเขียนบทกวี",
+      "difficulty_level": 3,
+      "description": "Learn and master Poetry Writing",
+      "tags": [
+        "poetry",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_517",
+      "name": "การเขียนบทภาพยนตร์",
+      "difficulty_level": 2,
+      "description": "Learn and master Screenwriting",
+      "tags": [
+        "screenwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_518",
+      "name": "การเขียนเรื่องสั้น",
+      "difficulty_level": 2,
+      "description": "Learn and master Short Story Writing",
+      "tags": [
+        "short",
+        "story",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_519",
+      "name": "การเขียนบทสนทนา",
+      "difficulty_level": 5,
+      "description": "Learn and master Writing Dialogue",
+      "tags": [
+        "writing",
+        "dialogue",
+        "skill"
+      ]
+    }
+  ]
+}

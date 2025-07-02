@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_hvac_systems",
+  "name": "HVAC والأنظمة",
+  "skills": [
+    {
+      "id": "skill_2383",
+      "name": "أنظمة المرجل",
+      "difficulty_level": 5,
+      "description": "Learn and master Boiler Systems",
+      "tags": [
+        "boiler",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2384",
+      "name": "أنظمة إدارة المباني",
+      "difficulty_level": 5,
+      "description": "Learn and master Building Management Systems",
+      "tags": [
+        "building",
+        "management",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_2385",
+      "name": "المبردات وأبراج التبريد",
+      "difficulty_level": 3,
+      "description": "Learn and master Chillers & Cooling Towers",
+      "tags": [
+        "chillers",
+        "cooling",
+        "towers"
+      ]
+    },
+    {
+      "id": "skill_2386",
+      "name": "تخطيط مجاري",
+      "difficulty_level": 3,
+      "description": "Learn and master Ductwork Layout",
+      "tags": [
+        "ductwork",
+        "layout",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2387",
+      "name": "كفاءة الطاقة",
+      "difficulty_level": 2,
+      "description": "Learn and master Energy Efficiency",
+      "tags": [
+        "energy",
+        "efficiency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2388",
+      "name": "تصميم HVAC",
+      "difficulty_level": 3,
+      "description": "Learn and master HVAC Design",
+      "tags": [
+        "hvac",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2389",
+      "name": "صيانة HVAC",
+      "difficulty_level": 3,
+      "description": "Learn and master HVAC Maintenance",
+      "tags": [
+        "hvac",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2390",
+      "name": "مضخات الحرارة",
+      "difficulty_level": 1,
+      "description": "Learn and master Heat Pumps",
+      "tags": [
+        "heat",
+        "pumps",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2391",
+      "name": "أنظمة التبريد",
+      "difficulty_level": 5,
+      "description": "Learn and master Refrigeration Systems",
+      "tags": [
+        "refrigeration",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2392",
+      "name": "حساب الحمل الحراري",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermal Load Calculation",
+      "tags": [
+        "thermal",
+        "load",
+        "calculation"
+      ]
+    }
+  ]
+}

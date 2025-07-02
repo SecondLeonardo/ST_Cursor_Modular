@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_cybersecurity",
+  "name": "இணைய பாதுகாப்பு",
+  "skills": [
+    {
+      "id": "skill_4616",
+      "name": "குறியாக்க தரநிலைகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Encryption Standards",
+      "tags": [
+        "encryption",
+        "standards",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4617",
+      "name": "நெறிமுறை ஹேக்கிங்",
+      "difficulty_level": 5,
+      "description": "Learn and master Ethical Hacking",
+      "tags": [
+        "ethical",
+        "hacking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4618",
+      "name": "சம்பவ பதில்",
+      "difficulty_level": 1,
+      "description": "Learn and master Incident Response",
+      "tags": [
+        "incident",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4619",
+      "name": "தீம்பொருள் பகுப்பாய்வு",
+      "difficulty_level": 3,
+      "description": "Learn and master Malware Analysis",
+      "tags": [
+        "malware",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4620",
+      "name": "பிணைய பாதுகாப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Network Security",
+      "tags": [
+        "network",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4621",
+      "name": "ஊடுருவல் சோதனை",
+      "difficulty_level": 4,
+      "description": "Learn and master Penetration Testing",
+      "tags": [
+        "penetration",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4622",
+      "name": "ஃபிஷிங் தடுப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4623",
+      "name": "SIEM கருவிகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master SIEM Tools",
+      "tags": [
+        "siem",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4624",
+      "name": "பாதிப்பு மதிப்பீடு",
+      "difficulty_level": 3,
+      "description": "Learn and master Vulnerability Assessment",
+      "tags": [
+        "vulnerability",
+        "assessment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4625",
+      "name": "பூஜ்ஜிய நம்பிக்கை கட்டிடக்கலை",
+      "difficulty_level": 5,
+      "description": "Learn and master Zero Trust Architecture",
+      "tags": [
+        "zero",
+        "trust",
+        "architecture"
+      ]
+    }
+  ]
+}

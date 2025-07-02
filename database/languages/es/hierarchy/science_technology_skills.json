@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "Habilidades de ciencia y tecnología",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "Astronomía"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "Biotecnología"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "Química"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "Ciencias de la Computación"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "Ciencia de datos y AI"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "Ciencias de la Tierra y Ambiental"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "Electrónica"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "Ingeniería"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "Matemáticas y estadísticas"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "Física"
+    }
+  ]
+}

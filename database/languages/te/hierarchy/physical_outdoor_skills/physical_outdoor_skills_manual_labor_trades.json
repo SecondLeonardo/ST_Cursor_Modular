@@ -1,0 +1,117 @@
+{
+  "id": "physical_outdoor_skills_manual_labor_trades",
+  "name": "మాన్యువల్ లేబర్ & ట్రేడ్స్",
+  "skills": [
+    {
+      "id": "skill_3938",
+      "name": "ప్రాథమిక వెల్డింగ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Welding",
+      "tags": [
+        "basic",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3939",
+      "name": "బ్రిక్లేయింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3940",
+      "name": "త్రవ్వడం పద్ధతులు",
+      "difficulty_level": 1,
+      "description": "Learn and master Digging Techniques",
+      "tags": [
+        "digging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3941",
+      "name": "భారీ లోడ్లను సురక్షితంగా ఎత్తడం",
+      "difficulty_level": 3,
+      "description": "Learn and master Lifting Heavy Loads Safely",
+      "tags": [
+        "lifting",
+        "heavy",
+        "loads",
+        "safely"
+      ]
+    },
+    {
+      "id": "skill_3942",
+      "name": "మిక్సింగ్ కాంక్రీటు",
+      "difficulty_level": 5,
+      "description": "Learn and master Mixing Concrete",
+      "tags": [
+        "mixing",
+        "concrete",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3943",
+      "name": "ఆపరేటింగ్ పవర్ టూల్స్",
+      "difficulty_level": 5,
+      "description": "Learn and master Operating Power Tools",
+      "tags": [
+        "operating",
+        "power",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_3944",
+      "name": "పెయింటింగ్ గోడలు",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3945",
+      "name": "పైకప్పు టైలింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Roof Tiling",
+      "tags": [
+        "roof",
+        "tiling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3946",
+      "name": "చేతి సాధనాలను ఉపయోగించడం",
+      "difficulty_level": 1,
+      "description": "Learn and master Using Hand Tools",
+      "tags": [
+        "using",
+        "hand",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_3947",
+      "name": "కలప విభజన",
+      "difficulty_level": 3,
+      "description": "Learn and master Wood Splitting",
+      "tags": [
+        "wood",
+        "splitting",
+        "skill"
+      ]
+    }
+  ]
+}

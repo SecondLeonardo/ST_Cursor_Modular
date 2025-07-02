@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_metalwork_welding",
+  "name": "Metalwork & kulehemu",
+  "skills": [
+    {
+      "id": "skill_4985",
+      "name": "Arc kulehemu",
+      "difficulty_level": 3,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4986",
+      "name": "Usomaji wa Blueprint",
+      "difficulty_level": 2,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4987",
+      "name": "Kuunda misingi",
+      "difficulty_level": 5,
+      "description": "Learn and master Forging Basics",
+      "tags": [
+        "forging",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4988",
+      "name": "Lathe Operesheni",
+      "difficulty_level": 1,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4989",
+      "name": "Kulehemu ya Mig",
+      "difficulty_level": 2,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4990",
+      "name": "Kukata chuma",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Cutting",
+      "tags": [
+        "metal",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4991",
+      "name": "Bomba la kulehemu",
+      "difficulty_level": 1,
+      "description": "Learn and master Pipe Welding",
+      "tags": [
+        "pipe",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4992",
+      "name": "Karatasi ya chuma ya karatasi",
+      "difficulty_level": 1,
+      "description": "Learn and master Sheet Metal Fabrication",
+      "tags": [
+        "sheet",
+        "metal",
+        "fabrication"
+      ]
+    },
+    {
+      "id": "skill_4993",
+      "name": "Chuma cha kuuza",
+      "difficulty_level": 4,
+      "description": "Learn and master Soldering Metal",
+      "tags": [
+        "soldering",
+        "metal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4994",
+      "name": "TIG kulehemu",
+      "difficulty_level": 1,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "ነጋዴዎች እና ቴክኒካዊ",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "አውቶሞቲቭ"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "አናጢነት"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "ግንባታ"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "ኤሌክትሪክ"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "Hvac"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "ማሳዎች"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "ሜካኒካዊ"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "ቀለም መቀባት እና ማስጌጥ"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "ቧንቧ"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "ዌልስ"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "engineering_mechanical",
+  "name": "Engenharia e Mecânica",
+  "subcategories": [
+    {
+      "id": "engineering_mechanical_automotive_transportation",
+      "name": "Automotivo e transporte"
+    },
+    {
+      "id": "engineering_mechanical_civil_engineering",
+      "name": "Engenharia Civil"
+    },
+    {
+      "id": "engineering_mechanical_electrical_engineering",
+      "name": "Engenharia Elétrica"
+    },
+    {
+      "id": "engineering_mechanical_energy_power_systems",
+      "name": "Sistemas de energia e energia"
+    },
+    {
+      "id": "engineering_mechanical_hvac_systems",
+      "name": "HVAC & Systems"
+    },
+    {
+      "id": "engineering_mechanical_industrial_design",
+      "name": "Design Industrial"
+    },
+    {
+      "id": "engineering_mechanical_manufacturing_production",
+      "name": "Fabricação e produção"
+    },
+    {
+      "id": "engineering_mechanical_mechanical_engineering",
+      "name": "Engenharia Mecânica"
+    },
+    {
+      "id": "engineering_mechanical_robotics_automation",
+      "name": "Robótica e automação"
+    },
+    {
+      "id": "engineering_mechanical_structural_design",
+      "name": "Projeto estrutural"
+    }
+  ]
+}

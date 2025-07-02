@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "التقنية والهندسية",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "المدني والهيكلي"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "الهندسة الكهربائية"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "التصنيع والتصنيع"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "الهندسة الميكانيكية"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "البرمجيات والأنظمة"
+    }
+  ]
+}

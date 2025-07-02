@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_painting",
+  "name": "Cuadro",
+  "skills": [
+    {
+      "id": "skill_1833",
+      "name": "Pintura abstracta",
+      "difficulty_level": 3,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1834",
+      "name": "Pintura acrílica",
+      "difficulty_level": 4,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1835",
+      "name": "Técnicas de cepillo",
+      "difficulty_level": 5,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1836",
+      "name": "Pintura en miniatura",
+      "difficulty_level": 4,
+      "description": "Learn and master Miniature Painting",
+      "tags": [
+        "miniature",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1837",
+      "name": "Mezclar colores",
+      "difficulty_level": 3,
+      "description": "Learn and master Mixing Colors",
+      "tags": [
+        "mixing",
+        "colors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1838",
+      "name": "Pintura al óleo",
+      "difficulty_level": 3,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1839",
+      "name": "Paisajes de pintura",
+      "difficulty_level": 5,
+      "description": "Learn and master Painting Landscapes",
+      "tags": [
+        "painting",
+        "landscapes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1840",
+      "name": "Pintar en tela",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting on Fabric",
+      "tags": [
+        "painting",
+        "fabric",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1841",
+      "name": "Pintura de retratos",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1842",
+      "name": "Técnicas de acuarela",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

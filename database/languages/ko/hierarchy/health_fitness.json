@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "건강 및 피트니스",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "바디 케어 및 웰빙"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "응급 처치 및 안전"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "정신 건강"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "영양 및 다이어트"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "신체 훈련"
+    }
+  ]
+}

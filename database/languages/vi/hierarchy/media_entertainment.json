@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "Truyền thông & Giải trí",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "Sản xuất video"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "Sản xuất âm thanh"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "Nhiếp ảnh"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "Thiết kế đồ họa"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "Diễn xuất & Hiệu suất"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "Viết & viết kịch bản"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "Phát sóng"
+    }
+  ]
+}

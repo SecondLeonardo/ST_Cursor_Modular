@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "ทักษะวิทยาศาสตร์และเทคโนโลยี",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "ดาราศาสตร์"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "เทคโนโลยีชีวภาพ"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "เคมี"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "วิทยาศาสตร์คอมพิวเตอร์"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "วิทยาศาสตร์ข้อมูลและ AI"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "วิทยาศาสตร์โลกและสิ่งแวดล้อม"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "อิเล็กทรอนิกส์"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "วิศวกรรม"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "คณิตศาสตร์และสถิติ"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "ฟิสิกส์"
+    }
+  ]
+}

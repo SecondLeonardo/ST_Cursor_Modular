@@ -1,0 +1,26 @@
+{
+  "id": "life_everyday_skills",
+  "name": "வாழ்க்கை & அன்றாட திறன்கள்",
+  "subcategories": [
+    {
+      "id": "life_everyday_skills_cooking_food",
+      "name": "சமையல் & உணவு"
+    },
+    {
+      "id": "life_everyday_skills_home_maintenance",
+      "name": "வீட்டு பராமரிப்பு"
+    },
+    {
+      "id": "life_everyday_skills_personal_finance",
+      "name": "தனிப்பட்ட நிதி"
+    },
+    {
+      "id": "life_everyday_skills_time_management",
+      "name": "நேர மேலாண்மை"
+    },
+    {
+      "id": "life_everyday_skills_travel_navigation",
+      "name": "பயணம் மற்றும் வழிசெலுத்தல்"
+    }
+  ]
+}

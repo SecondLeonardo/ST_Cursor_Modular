@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_hvac_systems",
+  "name": "HVAC & Systems",
+  "skills": [
+    {
+      "id": "skill_2383",
+      "name": "Sistemi di caldaia",
+      "difficulty_level": 5,
+      "description": "Learn and master Boiler Systems",
+      "tags": [
+        "boiler",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2384",
+      "name": "Sistemi di gestione dell'edificio",
+      "difficulty_level": 5,
+      "description": "Learn and master Building Management Systems",
+      "tags": [
+        "building",
+        "management",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_2385",
+      "name": "Chiller e torri di raffreddamento",
+      "difficulty_level": 3,
+      "description": "Learn and master Chillers & Cooling Towers",
+      "tags": [
+        "chillers",
+        "cooling",
+        "towers"
+      ]
+    },
+    {
+      "id": "skill_2386",
+      "name": "Layout di condotte",
+      "difficulty_level": 3,
+      "description": "Learn and master Ductwork Layout",
+      "tags": [
+        "ductwork",
+        "layout",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2387",
+      "name": "Efficienza energetica",
+      "difficulty_level": 2,
+      "description": "Learn and master Energy Efficiency",
+      "tags": [
+        "energy",
+        "efficiency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2388",
+      "name": "Design HVAC",
+      "difficulty_level": 3,
+      "description": "Learn and master HVAC Design",
+      "tags": [
+        "hvac",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2389",
+      "name": "Manutenzione HVAC",
+      "difficulty_level": 3,
+      "description": "Learn and master HVAC Maintenance",
+      "tags": [
+        "hvac",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2390",
+      "name": "Pompe di calore",
+      "difficulty_level": 1,
+      "description": "Learn and master Heat Pumps",
+      "tags": [
+        "heat",
+        "pumps",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2391",
+      "name": "Sistemi di refrigerazione",
+      "difficulty_level": 5,
+      "description": "Learn and master Refrigeration Systems",
+      "tags": [
+        "refrigeration",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2392",
+      "name": "Calcolo del carico termico",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermal Load Calculation",
+      "tags": [
+        "thermal",
+        "load",
+        "calculation"
+      ]
+    }
+  ]
+}

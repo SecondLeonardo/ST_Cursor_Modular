@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "Технологии и цифровые",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "Кибербезопасность"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "Данные и AI"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "Цифровой маркетинг"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "Это и сетевое взаимодействие"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "Разработка программного обеспечения"
+    }
+  ]
+}

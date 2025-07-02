@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "Tattalin arziki"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "Labarin ƙasa"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "Tarihi"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "Harshen & Yare"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "Litattafai"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "Ilmin lissafi"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "Ilmin filosofi"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "Halin dan Adam"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "Ilmin kimiyya"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "Ilmin dabbobi lafiya"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "Tunani mai mahimmanci"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "Tarihi & Al'adu"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "Tarihi & Kimiyyar zamantakewa"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "Harshen & Yare"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "Yare"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "Littattafai & Rubuta"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "Dabaru & tunani"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "Ilmin lissafi"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "Falsafa & mai mahimmanci tunani"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "Magana ta Jama'a & Muhawara"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "Bincike & Bincike"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "Ilmin kimiyya"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "Kimiyya & Yanayi"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "Dabarun karatu"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "Fasaha & computing"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "Gabatarwa"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "Bincike na bayanai"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "Harshe & Rubuta"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "Ilmin lissafi da ƙididdiga"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "Binciken kimiyya"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "Nazari & gwaji na gwaji"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "Tashin hankali"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "Crafts & Diy"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "Rubutun ƙirƙirar"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "Zane & Misali"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "Tsarin Fashion"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "Zane"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "Yin Arts Arts"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "Sassaƙa"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "Zane-zane & motsi zane"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "Crafts & Diy"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "Zane & Misali"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "Fashion Fashion & Tarihi"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "Film & bidiyo"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "Zanen & hade da kafofin watsa labarai"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "Yin Arts Arts"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "Rubuta & Littattafai"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3D Modeling"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "Mairallin Tsarin gine ginawa"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "Kayan yaƙi"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "Fashion & Textiles"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "Film & bidiyo"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "Tsarin ciki"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "Yin Arts Arts"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "Arts Arts"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "Kissigraphy"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "Kayan yaƙi"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "Digital Art & Animation"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "Tsarin Fashion"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "Hoto & zane"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "Tsarin ciki"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "Matalauta zane-zane"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "Arts Arts"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "Crafts & Diy"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "Rubutun ƙirƙirar"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "Tsarin Tsara & dijital"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "Yin Arts Arts"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "Arts Arts"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "Asusun ajiya"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "Tsarin Kasuwanci"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "Tallafin Abokin Ciniki"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "E-kasuwanci"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "Kasuwanci"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "Biya kuɗi"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "Finance & Accounting"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "Hr & daukar ma'aikata"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "Albarkatun ɗan adam"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "Zuba Jari & ciniki"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "Jagoranci & Gudanarwa"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "Kasuwanci & tallace-tallace"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "Sarrafa aikin"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "Siyarwa & CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "Sadarwa ta kasuwanci"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "Sabis ɗin Abokin Ciniki"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "Kasuwanci"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "Finance & Accounting"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "Albarkatun ɗan adam"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "Jagoranci & Gudanarwa"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "Doka & yarda"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "Kasuwanci & Alamar"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "Ofishin Ofishin"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "Aiki da Gudanar da Lokaci"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "Sarrafa aikin"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "Tallace-tallace & Kasuwanci"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "Talla & Santatawa"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "Tunani mai mahimmanci"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "Harshen & Yare"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "Ilmin lissafi & dabaru"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "Memorywalwa & mayar da hankali"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "Kimiyya & Bincike"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "Kwarewar & Koli"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "Taro & Mayar da hankali"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "Tunani mai mahimmanci"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "Sarrafa bayani"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "Dabarun koyo"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "Ƙwaƙwalwar ajiya & riƙewa"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "Warware matsalar"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "Harsunan kasashen waje"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "Kwarewar Intanet"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "Sadarwar Nononbal"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "Gabatarwa & Labari"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "Magana da jama'a"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "Rubuta & Gyara"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "Crafts & Diy"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "Tunani"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "Tsara & Aesthyics"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "Fashion & Styling"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "Film & bidiyo"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "Game Design & Kasancewa"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "Music & sauti"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "Aikin kiɗa"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "Samar da kiɗa"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "Yin Arts Arts"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "Hoto & Hoto"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "Arts Arts"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "Rubuta & Littattafai"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "Aiki & Ayyuka"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "Tashin hankali"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "Crafting & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "Crafts & Diy"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "Fasaho & kayan fasaha"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "Tech"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "Rubutun ƙirƙirar"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "Arban"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "Tsara & Aesthyics"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "Zane & Misali"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "Fashion & Styling"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "Fashion & matani art"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "Fasali da bidiyo"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "Tsarin ciki & na fure"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "Kiɗa & kayan aiki"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "Halittar kiɗan"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "Zane"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "Zanen & lafiya fasaha"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "Yin Arts Arts"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "Hoto & Hoto"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "Zane-zane & 3D Art"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "Arts Arts"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "Rubuce-rubuce & labaru"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3d & tashin hankali"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "UI / UX"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "Otin Bidiyo"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "Fayilolin CligraGra"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "Crafting & DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "Rubutun ƙirƙirar"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "Zane & Misali"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "Kayan ado"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "Zane"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "Scrapbooking da Clan"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "Sculpting & Clay"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "Taro & fiber Arts"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "Crafts & Diy"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "Digital arts & tashin hankali"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "Inji & Fashion"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "Arts Arts"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "Tsoffin yare"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "Canjin hankali"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "Yare horarwa"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "Sadarwa ta hannu"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "Dabarun koyon harshe"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "Yare"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "Ilmin harsuna"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "Harshen Harshen"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "Fassara & fassarar"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "Tsarin rubutu"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3D Siyarwa & tashin hankali"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "Raba & ainihi"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "Hoto"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "Ux / UI Design"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3d & tashin hankali"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "Tsarin abun ciki"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "Talla na dijital"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "Kafofin watsa labarun"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "Tasiri & Watsa shirye-tafiye"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "Tsarin UI / UX"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "Otin Bidiyo"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "Shafin yanar gizo & App zane"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "Wasan zagayawa"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "Data & Ai"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "Yana & hanyar sadarwa"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "Shirye-shirye & ci gaba"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "Yanar gizo & Mobile"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "Koyawa"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "Ilimin Kanan Yara"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "Ilimi mai girma"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "Koyarwa na harshe"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "Yare"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "Koyo na fasaha"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "Lissafi & Rubuta"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "Ilimi na musamman"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "Kwarewar karatu"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "Gwajin gwaji"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "Automotive & sufuri"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "Injiniyan Fasaha"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "Injiniyan lantarki"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "Tsarin Ikon"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC & Tsarin"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "Tsarin masana'antu"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "Masana'antu & samarwa"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "Ininiyan inji"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "Robotics & Automation"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "Tsarin tsari"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "Kula da Jiki & Lafiya"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "Taimakon farko & aminci"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "Lafiyar kwakwalwa"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "Abinci da abinci"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "Horo na jiki"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "Madadin magani"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "Taimakon farko da gaggawa"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "Horar da motsa jiki"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "Kiwan lafiya mai kyau"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "Ilimin likita"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "Kwarewar likita"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "Lafiyar kwakwalwa"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "Ayyukan lafiyar kwakwalwa"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "Tunani da tunani"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "Abinci da abinci"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "Kulawa"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "Motsa jiki"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "Gyara & Torapy"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "Lafiyar haihuwa"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "Kulawa da Kai da Hygiene"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "Barci & Maidowa"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "Gudanar da Damuwa"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "Yoga & tunani"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "Horar da motsa jiki"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "Abinci"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "A waje & kasada"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "Kwarewar Wasanni"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "Lafiya & Maidowa"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "Madadin magani"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "Ilimin likita"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "Lafiyar kwakwalwa"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "Abinci"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "Horo na mutum"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "Motsa jiki"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "Gyara & Torapy"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "Koyar da Koyawa"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "Lafiya"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "Yoga & Mindfulenness"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "Ganawar kayan aiki"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "Tsaftacewa & Shirya"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "Crafts & kayan ado"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "Aikin lantarki"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "Kayan lambu & shimfidar wuri"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "Gida motoci"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "Gyara gida"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "Tsarin ciki"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "Yashi kwayoyin halitta"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "Woodworking & Carpopery"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "Kudaden kudi & Gida"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "Yaro"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "Dafa abinci & abinci shirya"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "Sayayya"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "Tsabtace gida"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "Kulawa na Gida"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "Laungiyar wanki & sutura"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "Shirya & mara nauyi"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "Bet"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "Ajiyan lokaci"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "Sadarwar al'adu"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "Harsunan kasashen waje"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "Sauraro da fahimta"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "Fassara & fassarar"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "Kwarewar rubutu"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "Karatun harshe"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "Sadarwa mara magana"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "Magana da jama'a"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "Labari da labarin"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "Sadarwa ta baki"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "Rubuta & Gyara"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "Karatun harshe"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "Ilmin lissafi"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "Kimiyya & Bincike"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "Dabarun karatu"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "Shirye-shiryen gwaji"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "Koyawa"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "Kayan aikin Ilimi & Kwarewa"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "Karatun harshe"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "Lafiya na Liinelong"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "Shirye-shiryen gwaji"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "Dafa abinci & abinci"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "Kulawa na Gida"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "FASAHA"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "Ajiyan lokaci"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "Tafiya & Kewayawa"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "Sadarwa & dangantaka"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "Senementententswarewarwar"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "Komawa & Girma"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "Da kai mai horo"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "Lokaci & gudanarwar manufa"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "Kayan abinci & Abincin Abinci"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY & gyara"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "Aikin lambu & dorewa"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "Gudanar da Gida"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "FASAHA"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "Dabarun rayuwa"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "Gyara motoci"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "Ciniki"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "Aikin lantarki"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "Fasaha & Fasaha"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "Mastery kayan aikin hannu"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "Gyaran gida"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "Aikin ƙarfe"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "PLumbing & Hauki"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "Rubutun rubutu & fata"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "Aikin katako"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "Kulawa da kayan aiki"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "Kayan haɓaka injiniya"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "Gyara gida & shigarwa"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "Aikin inji"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "Amfani da kayan aiki & aminci"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "Itace da Karfe Aiki"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "Tunani mai mahimmanci"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "Gealography & Yanayi"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "Tarihi & Al'adu"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "Yare"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "Ilmin lissafi"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "Kwarewar ƙwaƙwalwar ajiya & koyon koyo"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "Falsafa & xa'a"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "Ilimin halin dan Adam & Halabiji"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "Kimiyya & Bincike"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "Dabarun karatu"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "Sassauƙa sassauƙa"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "Tunani mai mahimmanci"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "Karatun harshe"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "Memorywalwa & mayar da hankali"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "Kwarewar karatu"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "Amincewa & girman kai"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "Senementententswarewarwar"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "League League & Tsara"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "Habits & horo"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "Kwarewar Intanet"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "Jagoranci & Tasiri"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "Tunani da kyau"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "Magana da jama'a"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "Da kai"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "Lokaci & Kayan aiki"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "Jagoranci"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "Lafiyar Zuciya"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "Himmar aiki"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "Magana da jama'a"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "Inganta kai"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "Senementententswarewarwar"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "Kafa na ci gaba"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "Habits & Aiwatarwa"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "Hankali & Lafiya"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "Bayanin Jama'a & Sadarwa"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "Kai da kanka da hankali & mai da hankali"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "Fitness da ANA"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "Ma'aikata na Aiki da Kasuwanci"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "Nishaɗin waje"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "Kiyaye kansa da Art"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "Wasanni & Attletics"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "Survival & Bushcraft"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "Lafiya & Turi"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "Kowace wasanni"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "Martial Arts"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "A waje & kasada"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "Ayyukan nishaɗi"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "Wasanni"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "Rubutun Ilimi"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "Ilimin kimiyyar halitta"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "Kimiyya na kwamfuta & Data"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "Kimiyya da Kimiyya na Mahalli"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "Kimiyyar Injiniya"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "Ilmin lissafi da ƙididdiga"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "Kimiyya ta likita da lafiya"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "Kimiyya ta jiki"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "Hanyoyin bincike"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "Kimiyyar zamantakewa"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "Ilmin taurari"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "Ilimin halitta & rayuwa"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "Ilmin kemistri"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "Kimiyyan na'urar kwamfuta"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "Kimiyyar Data & AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "Kimiyya da Kimiyya na Mahalli"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "Horo na injiniya"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "Ilmin lissafi da ƙididdiga"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "Ilimin kimiyyar lissafi & na inji"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "Robotics & Automation"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "Ilmin taurari"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "Ilmin kimiya"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "Ilmin kemistri"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "Kimiyyan na'urar kwamfuta"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "Kimiyyar Data & AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "Kimiyya da Kimiyyar Kimiyya"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "Kayan lantarki"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "Hanyar injiniya"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "Ilmin lissafi da ƙididdiga"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "Ilmin kimiyyar lissafi"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "Ilimin AI & Motoci"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "Computing girgije"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "Wasan zagayawa"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "Bayanai & Nazarin"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "Kimiyyar Data & AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "Na'urori & Aiki"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "Ci gaban Game"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "Yana & hanyar sadarwa"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "Yana tallafawa & Networking"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "Aikin App na Waya"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "Shirye-shiryen software & software"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "Kayan software"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "Hardware na fasaha & Gyara"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "Taimako na Tech & Shirya matsala"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "Ci gaban yanar gizo"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "Civilungiyoyin Civilungiyoyin"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "Injiniyan lantarki"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "Masana'antu & masana'antu"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "Ininiyan inji"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "Software & tsarin"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "Kwarewar mota"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "Gina & Ginin"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "Aikin lantarki"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "Makamashi & Muhalli"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "Kwarewar Masana'antu"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "Gyare-gyare na inji"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "Wasan zagayawa"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "Data & Ai"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "Talla na dijital"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "Yana & hanyar sadarwa"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "Kayan software"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "Hankali da hankali"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "Computing girgije"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "Kayan yau da kullun"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "Wasan zagayawa"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "Data & Ai"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "Bayanai & Nazarin"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "Littalin Dijital"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "Talla na dijital"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "Emerging Tech"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "Hardware & Lantarki"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "Yana & hanyar sadarwa"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "Networking & shi"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "Shirye-shirye & ci gaba"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "Shirye-shiryen software & software"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "Kayan aikin software"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "Yawan aiki"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "Taimako na Tech & Kulawa"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "Taimako na Tech & Shirya matsala"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "Yanar gizo & app ci gaban"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "Gini & sassaƙa"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "Lantarki & butukana"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "Kayan hannu"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "Petwork & Welding"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "Rubutun rubutu & fata"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "Gargajiya na gargajiya"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "Gyara motoci"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "Carpoly & Woodorking"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "Mai Gina & Masonry"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "Aikin lantarki"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC & Sanfi"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "Kayan ado"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "Petwork & Welding"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "Zanen & ado"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "Zafanya"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "Injin dinki & dinki"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "Gyara motoci"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "Kayan aikin kaya & katako"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "Shiri"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "Gini & sassaƙa"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "Craftsmanship"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "Lantarki & na inji"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "Aikin lantarki"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC & Sanfi"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "Aiki mai nauyi"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "Masonry & Tinging"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "Karfe & katako"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "Zanen & gama"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "Zafanya"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "Motar motoci & Motoci"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "Welding & M karfe"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "Mayarwa"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "Sassaƙa"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "Shiri"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "Na lantarki"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "Hvac"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "Kyonry"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "Na inji"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "Zanen & ado"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "Zafanya"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "Walda"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "Otin Bidiyo"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "AUDIN HARDIO"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "Daukar hoto"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "Tsarin zane mai hoto"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "Aiki & Ayyuka"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "Rubuta & rubutun rubutun"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "Watsa shirye-shirye"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "Arts & Crafts"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "Kiɗa & kayan aiki"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "Ayyukan waje"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "Tattara"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "Fitness & Lafiya"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "Aikin lambu"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "Ayyukan DIY"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "Kayayyakin Italiya"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "Abinci na Jafananci"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "Cushin abinci na Mexico"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "Abincin Cikin Indiya"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "Abincin Faransa"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "Abincin Sinawa"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "Cutar Gabas ta Tsakiya"
+  }
+]

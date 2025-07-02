@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_chemistry",
+  "name": "Kemia",
+  "skills": [
+    {
+      "id": "skill_4268",
+      "name": "Kemia ya msingi wa asidi",
+      "difficulty_level": 1,
+      "description": "Learn and master Acid-Base Chemistry",
+      "tags": [
+        "acid-base",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4269",
+      "name": "Kemia ya uchambuzi",
+      "difficulty_level": 5,
+      "description": "Learn and master Analytical Chemistry",
+      "tags": [
+        "analytical",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4270",
+      "name": "Athari za kemikali",
+      "difficulty_level": 2,
+      "description": "Learn and master Chemical Reactions",
+      "tags": [
+        "chemical",
+        "reactions",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4271",
+      "name": "Chromatografia",
+      "difficulty_level": 2,
+      "description": "Learn and master Chromatography",
+      "tags": [
+        "chromatography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4272",
+      "name": "Kemia ya isokaboni",
+      "difficulty_level": 1,
+      "description": "Learn and master Inorganic Chemistry",
+      "tags": [
+        "inorganic",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4273",
+      "name": "Usalama wa maabara",
+      "difficulty_level": 3,
+      "description": "Learn and master Laboratory Safety",
+      "tags": [
+        "laboratory",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4274",
+      "name": "Mchanganyiko wa kikaboni",
+      "difficulty_level": 4,
+      "description": "Learn and master Organic Synthesis",
+      "tags": [
+        "organic",
+        "synthesis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4275",
+      "name": "Mastery ya meza ya mara kwa mara",
+      "difficulty_level": 1,
+      "description": "Learn and master Periodic Table Mastery",
+      "tags": [
+        "periodic",
+        "table",
+        "mastery"
+      ]
+    },
+    {
+      "id": "skill_4276",
+      "name": "Thermochemistry",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermochemistry",
+      "tags": [
+        "thermochemistry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4277",
+      "name": "Mbinu za kueneza",
+      "difficulty_level": 1,
+      "description": "Learn and master Titration Techniques",
+      "tags": [
+        "titration",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

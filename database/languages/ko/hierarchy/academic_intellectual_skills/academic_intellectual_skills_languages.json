@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_languages",
+  "name": "언어",
+  "skills": [
+    {
+      "id": "skill_140",
+      "name": "영어 문법",
+      "difficulty_level": 1,
+      "description": "Learn and master English Grammar",
+      "tags": [
+        "english",
+        "grammar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_141",
+      "name": "프랑스어 기초",
+      "difficulty_level": 4,
+      "description": "Learn and master French Language Basics",
+      "tags": [
+        "french",
+        "language",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_142",
+      "name": "독일 어휘",
+      "difficulty_level": 2,
+      "description": "Learn and master German Vocabulary",
+      "tags": [
+        "german",
+        "vocabulary",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_143",
+      "name": "언어 침수",
+      "difficulty_level": 1,
+      "description": "Learn and master Language Immersion",
+      "tags": [
+        "language",
+        "immersion",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_144",
+      "name": "만다린 발음",
+      "difficulty_level": 3,
+      "description": "Learn and master Mandarin Pronunciation",
+      "tags": [
+        "mandarin",
+        "pronunciation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_145",
+      "name": "다국어 커뮤니케이션",
+      "difficulty_level": 5,
+      "description": "Learn and master Multilingual Communication",
+      "tags": [
+        "multilingual",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_146",
+      "name": "발음 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Pronunciation Skills",
+      "tags": [
+        "pronunciation",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_147",
+      "name": "스페인 유창함",
+      "difficulty_level": 5,
+      "description": "Learn and master Spanish Fluency",
+      "tags": [
+        "spanish",
+        "fluency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_148",
+      "name": "번역 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Translation Skills",
+      "tags": [
+        "translation",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_149",
+      "name": "어휘 개발",
+      "difficulty_level": 5,
+      "description": "Learn and master Vocabulary Development",
+      "tags": [
+        "vocabulary",
+        "development",
+        "skill"
+      ]
+    }
+  ]
+}

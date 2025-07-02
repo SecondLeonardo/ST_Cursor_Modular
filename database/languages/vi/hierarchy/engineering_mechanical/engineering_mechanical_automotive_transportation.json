@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_automotive_transportation",
+  "name": "Ô tô & Giao thông vận tải",
+  "skills": [
+    {
+      "id": "skill_2343",
+      "name": "Hệ thống điện tự động",
+      "difficulty_level": 3,
+      "description": "Learn and master Auto Electrical Systems",
+      "tags": [
+        "auto",
+        "electrical",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_2344",
+      "name": "Phần mềm ô tô",
+      "difficulty_level": 3,
+      "description": "Learn and master Automotive Software",
+      "tags": [
+        "automotive",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2345",
+      "name": "Hệ thống phanh",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Systems",
+      "tags": [
+        "brake",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2346",
+      "name": "Cơ học động cơ",
+      "difficulty_level": 1,
+      "description": "Learn and master Engine Mechanics",
+      "tags": [
+        "engine",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2347",
+      "name": "Hệ thống nhiên liệu",
+      "difficulty_level": 1,
+      "description": "Learn and master Fuel Systems",
+      "tags": [
+        "fuel",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2348",
+      "name": "Xe hybrid",
+      "difficulty_level": 1,
+      "description": "Learn and master Hybrid Vehicles",
+      "tags": [
+        "hybrid",
+        "vehicles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2349",
+      "name": "Điều chỉnh đình chỉ",
+      "difficulty_level": 3,
+      "description": "Learn and master Suspension Tuning",
+      "tags": [
+        "suspension",
+        "tuning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2350",
+      "name": "Liên kết lốp",
+      "difficulty_level": 1,
+      "description": "Learn and master Tire Alignment",
+      "tags": [
+        "tire",
+        "alignment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2351",
+      "name": "Hệ thống truyền tải",
+      "difficulty_level": 3,
+      "description": "Learn and master Transmission Systems",
+      "tags": [
+        "transmission",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2352",
+      "name": "Chẩn đoán xe",
+      "difficulty_level": 1,
+      "description": "Learn and master Vehicle Diagnostics",
+      "tags": [
+        "vehicle",
+        "diagnostics",
+        "skill"
+      ]
+    }
+  ]
+}

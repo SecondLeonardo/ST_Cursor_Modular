@@ -1,0 +1,117 @@
+{
+  "id": "business_finance_e-commerce",
+  "name": "eコマース",
+  "skills": [
+    {
+      "id": "skill_800",
+      "name": "顧客維持戦略",
+      "difficulty_level": 3,
+      "description": "Learn and master Customer Retention Strategies",
+      "tags": [
+        "customer",
+        "retention",
+        "strategies"
+      ]
+    },
+    {
+      "id": "skill_801",
+      "name": "eコマース分析",
+      "difficulty_level": 4,
+      "description": "Learn and master E-commerce Analytics",
+      "tags": [
+        "e-commerce",
+        "analytics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_802",
+      "name": "在庫管理",
+      "difficulty_level": 2,
+      "description": "Learn and master Inventory Management",
+      "tags": [
+        "inventory",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_803",
+      "name": "市場販売（eBay、Amazon）",
+      "difficulty_level": 3,
+      "description": "Learn and master Marketplace Selling (eBay, Amazon)",
+      "tags": [
+        "marketplace",
+        "selling",
+        "(ebay,",
+        "amazon)"
+      ]
+    },
+    {
+      "id": "skill_804",
+      "name": "オンライン支払い統合",
+      "difficulty_level": 1,
+      "description": "Learn and master Online Payment Integration",
+      "tags": [
+        "online",
+        "payment",
+        "integration"
+      ]
+    },
+    {
+      "id": "skill_805",
+      "name": "注文の履行",
+      "difficulty_level": 2,
+      "description": "Learn and master Order Fulfillment",
+      "tags": [
+        "order",
+        "fulfillment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_806",
+      "name": "製品リストの最適化",
+      "difficulty_level": 4,
+      "description": "Learn and master Product Listing Optimization",
+      "tags": [
+        "product",
+        "listing",
+        "optimization"
+      ]
+    },
+    {
+      "id": "skill_807",
+      "name": "ポリシー処理を返します",
+      "difficulty_level": 1,
+      "description": "Learn and master Return Policy Handling",
+      "tags": [
+        "return",
+        "policy",
+        "handling"
+      ]
+    },
+    {
+      "id": "skill_808",
+      "name": "Shopifyストアのセットアップ",
+      "difficulty_level": 5,
+      "description": "Learn and master Shopify Store Setup",
+      "tags": [
+        "shopify",
+        "store",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_809",
+      "name": "アップセリングテクニック",
+      "difficulty_level": 2,
+      "description": "Learn and master Upselling Techniques",
+      "tags": [
+        "upselling",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

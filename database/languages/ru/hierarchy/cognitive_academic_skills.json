@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "Когнитивные и академические навыки",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "Критическое мышление"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "Язык и лингвистика"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "Математика и логика"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "Память и фокус"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "Наука и исследования"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "Навыки обучения и обучения"
+    }
+  ]
+}

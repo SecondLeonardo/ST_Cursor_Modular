@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "মিডিয়া এবং বিনোদন",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "ভিডিও উত্পাদন"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "অডিও উত্পাদন"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "ফটোগ্রাফি"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "গ্রাফিক ডিজাইন"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "অভিনয় এবং পারফরম্যান্স"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "লেখা এবং স্ক্রিপ্ট রাইটিং"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "সম্প্রচার"
+    }
+  ]
+}

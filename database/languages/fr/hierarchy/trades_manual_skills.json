@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Métiers et compétences manuelles",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Réparation automobile"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Menuiserie et boiseries"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Construction"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Construction et menuiserie"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Artisanat et réparations"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Électrique et mécanique"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Travail électrique"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "CVC et réfrigération"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Fonctionnement de l'équipement lourd"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Maçonnerie et carrelage"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Métal et boiseries"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Peinture et finition"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Plomberie"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Entretien des véhicules et des machines"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Soudage et métallurgie"
+    }
+  ]
+}

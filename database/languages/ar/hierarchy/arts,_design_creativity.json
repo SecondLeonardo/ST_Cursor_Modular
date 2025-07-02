@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "الفنون والتصميم والإبداع",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "الحرف اليدوية و DIY"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "الكتابة الإبداعية"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "التصميم والفن الرقمي"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "الفنون المسرحية"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "الفنون البصرية"
+    }
+  ]
+}

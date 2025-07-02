@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_plumbing",
+  "name": "配管",
+  "skills": [
+    {
+      "id": "skill_5255",
+      "name": "逆流防止",
+      "difficulty_level": 4,
+      "description": "Learn and master Backflow Prevention",
+      "tags": [
+        "backflow",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5256",
+      "name": "排水システム",
+      "difficulty_level": 5,
+      "description": "Learn and master Drainage Systems",
+      "tags": [
+        "drainage",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5257",
+      "name": "フィクスチャのインストール",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixture Installation",
+      "tags": [
+        "fixture",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5258",
+      "name": "ガスラインの設置",
+      "difficulty_level": 5,
+      "description": "Learn and master Gas Line Installation",
+      "tags": [
+        "line",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5259",
+      "name": "リーク検出",
+      "difficulty_level": 3,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5260",
+      "name": "パイプフィット",
+      "difficulty_level": 1,
+      "description": "Learn and master Pipefitting",
+      "tags": [
+        "pipefitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5261",
+      "name": "配管コード",
+      "difficulty_level": 2,
+      "description": "Learn and master Plumbing Codes",
+      "tags": [
+        "plumbing",
+        "codes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5262",
+      "name": "下水道のメンテナンス",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewer Line Maintenance",
+      "tags": [
+        "sewer",
+        "line",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5263",
+      "name": "トイレの設置",
+      "difficulty_level": 5,
+      "description": "Learn and master Toilet Installation",
+      "tags": [
+        "toilet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5264",
+      "name": "給湯器の修理",
+      "difficulty_level": 4,
+      "description": "Learn and master Water Heater Repair",
+      "tags": [
+        "water",
+        "heater",
+        "repair"
+      ]
+    }
+  ]
+}

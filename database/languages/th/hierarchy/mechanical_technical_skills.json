@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "ทักษะเชิงกลและเทคนิค",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "การบำรุงรักษายานยนต์"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "พื้นฐานด้านวิศวกรรม"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "การซ่อมแซมและติดตั้งบ้าน"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "การทำงานของเครื่องจักร"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "การใช้เครื่องมือและความปลอดภัย"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "งานไม้และโลหะ"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "academic_research_skills_data_analysis",
+  "name": "데이터 분석",
+  "skills": [
+    {
+      "id": "skill_270",
+      "name": "상관 관계 대 원인",
+      "difficulty_level": 4,
+      "description": "Learn and master Correlation vs Causation",
+      "tags": [
+        "correlation",
+        "causation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_271",
+      "name": "피벗 테이블 생성",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Pivot Tables",
+      "tags": [
+        "creating",
+        "pivot",
+        "tables"
+      ]
+    },
+    {
+      "id": "skill_272",
+      "name": "데이터 청소",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_273",
+      "name": "데이터 시각화",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_274",
+      "name": "데이터에서 결론을 도출합니다",
+      "difficulty_level": 5,
+      "description": "Learn and master Drawing Conclusions from Data",
+      "tags": [
+        "drawing",
+        "conclusions",
+        "from",
+        "data"
+      ]
+    },
+    {
+      "id": "skill_275",
+      "name": "그래프 해석",
+      "difficulty_level": 1,
+      "description": "Learn and master Interpreting Graphs",
+      "tags": [
+        "interpreting",
+        "graphs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_276",
+      "name": "통계적 해석",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Interpretation",
+      "tags": [
+        "statistical",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_277",
+      "name": "데이터에 Excel 사용",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Excel for Data",
+      "tags": [
+        "using",
+        "excel",
+        "data"
+      ]
+    },
+    {
+      "id": "skill_278",
+      "name": "분석을 위해 R을 사용합니다",
+      "difficulty_level": 1,
+      "description": "Learn and master Using R for Analysis",
+      "tags": [
+        "using",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_279",
+      "name": "SPSS 사용",
+      "difficulty_level": 4,
+      "description": "Learn and master Using SPSS",
+      "tags": [
+        "using",
+        "spss",
+        "skill"
+      ]
+    }
+  ]
+}

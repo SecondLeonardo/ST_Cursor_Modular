@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "経済"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "地理"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "歴史"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "言語と言語学"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "文学"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "数学"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "哲学"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "心理学"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "科学"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "社会学"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "批判的思考"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "歴史と文化"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "歴史と社会科学"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "言語と言語学"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "言語"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "文学と執筆"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "論理と推論"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "数学"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "哲学と批判的思考"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "人前で話すことと議論"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "研究と分析"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "科学"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "科学と自然"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "学習テクニック"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "テクノロジーとコンピューティング"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "アカデミックプレゼンテーション"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "データ分析"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "言語と執筆"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "数学と統計"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "科学研究"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "研究とテストの準備"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "アニメーション"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "クラフト＆DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "創造的な執筆"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "描画とイラスト"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "ファッションデザイン"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "絵画"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "舞台芸術"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "写真"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "彫刻"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "アニメーションとモーショングラフィックス"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "クラフト＆DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "描画とイラスト"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "ファッション＆テキスタイルアーツ"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "映画とビデオ"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "絵画とミックスメディア"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "舞台芸術"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "写真"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "執筆と文学"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3Dモデリング"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "アーキテクチャデザイン"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "工芸品"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "ファッションとテキスタイル"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "映画とビデオ"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "インテリアデザイン"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "舞台芸術"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "写真"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "視覚芸術"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "書道"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "工芸品"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "デジタルアートとアニメーション"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "ファッションデザイン"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "イラストと図面"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "インテリアデザイン"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "写真"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "テキスタイルアーツ"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "視覚芸術"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "クラフト＆DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "創造的な執筆"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "デザインとデジタルアート"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "舞台芸術"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "視覚芸術"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "会計"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "ビジネス戦略"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "カスタマーサポート"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "eコマース"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "起業家精神"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "ファイナンス"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "財務および会計"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "HR＆採用"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "人事"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "投資と取引"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "リーダーシップと管理"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "マーケティングと販売"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "プロジェクト管理"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "販売＆CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "ビジネスコミュニケーション"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "顧客サービス"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "起業家精神"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "財務および会計"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "人事"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "リーダーシップと管理"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "法律とコンプライアンス"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "マーケティングとブランディング"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "オフィスの生産性"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "プロジェクトと時間管理"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "プロジェクト管理"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "セールスとマーケティング"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "販売と交渉"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "批判的思考"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "言語と言語学"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "数学と論理"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "メモリとフォーカス"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "科学と研究"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "学習スキルと学習スキル"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "集中と焦点"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "批判的思考"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "情報処理"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "学習戦略"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "メモリと保持"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "問題解決"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "外国語"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "対人スキル"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "非言語的コミュニケーション"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "プレゼンテーションとストーリーテリング"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "人前で話す"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "書き込みと編集"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "クラフト＆DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "創造的な思考"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "デザインと美学"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "ファッションとスタイリング"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "映画とビデオ"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "ゲームデザインとワールドビルディング"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "音楽とサウンド"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "音楽パフォーマンス"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "音楽制作"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "舞台芸術"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "写真"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "写真とビデオ撮影"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "視覚芸術"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "執筆と文学"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "演技とパフォーマンス"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "アニメーション"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "クラフト＆DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "クラフト＆DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "工芸品と手作りの芸術"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "クリエイティブテクノロジー"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "創造的な執筆"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "料理芸術"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "デザインと美学"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "描画とイラスト"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "ファッションとスタイリング"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "ファッション＆テキスタイルアート"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "映画製作とビデオ"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "インテリアとフローラルデザイン"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "音楽と楽器"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "音楽の作成"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "絵画"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "絵画＆ファインアート"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "舞台芸術"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "写真"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "写真とビデオ撮影"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "彫刻と3Dアート"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "視覚芸術"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "執筆とストーリーテリング"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D＆アニメーション"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "写真"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "UI/UX"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "ビデオ制作"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "書道と手紙"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "クラフト＆DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "創造的な執筆"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "描画とイラスト"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "ジュエリーメーカー"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "絵画"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "写真"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "スクラップブッキングとコラージュ"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "彫刻と粘土"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "テキスタイル＆ファイバーアーツ"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "クラフト＆DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "デジタルアーツ＆アニメーション"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "インテリアとファッション"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "視覚芸術"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "古代の言語"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "文化的意識"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "方言コーチング"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "異文化間のコミュニケーション"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "言語学習テクニック"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "言語"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "言語学"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "看板言語"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "翻訳と解釈"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "ライティングシステム"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3Dモデリングとアニメーション"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "ブランディングとアイデンティティ"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "図"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "写真"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "UX/UIデザイン"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D＆アニメーション"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "コンテンツ作成"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "デジタルマーケティング"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "写真"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "ソーシャルメディア"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "ストリーミングと放送"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "UI/UXデザイン"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "ビデオ制作"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "Web＆App Design"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "サイバーセキュリティ"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "データ＆ai"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "それとネットワーキング"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "プログラミングと開発"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "Web＆Mobile"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "アカデミックな家庭教師"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "幼児教育"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "高等教育"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "言語教育"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "言語"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "学習技術"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "リテラシーとライティング"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "特別教育"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "学習スキル"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "テスト準備"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "自動車と輸送"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "土木工学"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "電気工学"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "エネルギーと電力システム"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC＆Systems"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "工業デザイン"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "製造と生産"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "機械工学"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "ロボット工学と自動化"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "構造設計"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "ボディケアとウェルネス"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "応急処置と安全"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "メンタルヘルス"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "栄養と食事"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "身体訓練"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "代替医療"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "応急処置と緊急事態"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "フィットネストレーニング"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "全体的な健康"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "医学知識"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "医療スキル"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "メンタルヘルス"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "メンタルヘルスの実践"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "マインドフルネスと瞑想"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "栄養と食事"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "パーソナルケア"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "体力"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "リハビリテーションとセラピー"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "生殖健康"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "セルフケアと衛生"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "睡眠と回復"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "ストレス管理"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "ヨガと瞑想"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "フィットネストレーニング"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "栄養"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "屋外＆アドベンチャー"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "スポーツスキル"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "ウェルネスと回復"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "代替医療"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "医学知識"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "メンタルヘルス"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "栄養"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "パーソナルトレーニング"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "体力"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "リハビリテーションとセラピー"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "スポーツコーチング"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "ウェルネスコーチング"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "ヨガとマインドフルネス"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "アプライアンスメンテナンス"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "クリーニングと整理"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "工芸品と装飾"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "電気工事"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "ガーデニングと造園"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "ホームオートメーション"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "家の修理"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "インテリアデザイン"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "配管の基本"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "木工と大工の"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "予算編成と家庭金融"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "育児"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "料理と食事の準備"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "食料品の買い物"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "ホームクリーニング"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "家のメンテナンス"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "ランドリーと衣料品のケア"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "整理と整頓"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "ペットケア"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "時間管理"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "異文化コミュニケーション"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "外国語"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "リスニングと理解"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "翻訳と解釈"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "ライティングスキル"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "言語学習"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "非言語的コミュニケーション"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "人前で話す"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "ストーリーテリングとナレーション"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "口頭でのコミュニケーション"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "書き込みと編集"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "言語学習"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "数学"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "科学と研究"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "学習テクニック"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "テスト準備"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "アカデミックな家庭教師"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "教育ツールとスキル"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "言語学習"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "生涯学習"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "テスト準備"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "料理と食べ物"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "家のメンテナンス"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "パーソナルファイナンス"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "時間管理"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "旅行とナビゲーション"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "コミュニケーションと関係"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "感情的な知性"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "回復力と成長"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "自己規律"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "時間と目標の管理"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "料理と食品の準備"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY＆修理"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "ガーデニングと持続可能性"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "ホーム管理"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "パーソナルファイナンス"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "サバイバルスキル"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "自動車修理"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "建設取引"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "電気工事"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "家具と室内装飾品"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "ハンドツールの習得"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "家の改修"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "金属加工"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "配管と暖房"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "テキスタイル＆レザークラフト"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "木工"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "自動車メンテナンス"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "エンジニアリングの基本"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "家の修理と設置"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "機械操作"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "ツールの使用と安全"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "木材＆メタルワーク"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "批判的思考"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "地理と環境"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "歴史と文化"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "言語"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "数学"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "記憶と学習スキル"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "哲学と倫理"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "心理学と行動"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "科学と研究"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "学習テクニック"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "認知的柔軟性"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "批判的思考"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "言語学習"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "メモリとフォーカス"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "学習スキル"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "自信と自尊心"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "感情的な知性"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "目標設定と計画"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "習慣と規律"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "対人スキル"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "リーダーシップと影響力"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "マインドフルネスと幸福"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "人前で話す"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "自己反省"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "時間と生産性"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "リーダーシップ"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "メンタルウェルネス"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "生産性"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "人前で話す"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "自己改善"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "感情的な知性"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "目標設定と達成"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "習慣と生産性"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "マインドフルネスとウェルネス"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "人前で話すとコミュニケーション"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "自己規律とフォーカス"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "フィットネスとコンディショニング"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "手動労働と取引"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "屋外レクリエーション"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "自衛と武道"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "スポーツと陸上競技"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "サバイバル＆ブッシュクラフト"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "フィットネスと強さ"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "個々のスポーツ"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "武道"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "屋外＆アドベンチャー"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "レクリエーション活動"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "チームスポーツ"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "アカデミックライティング"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "生物科学"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "コンピューターとデータサイエンス"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "地球と環境科学"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "工学科学"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "数学と統計"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "医学および健康科学"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "物理科学"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "研究方法"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "社会科学"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "天文学"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "生物学と生命科学"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "化学"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "コンピュータサイエンス"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "データサイエンス＆AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "地球と環境科学"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "エンジニアリング分野"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "数学と統計"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "物理学と力学"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "ロボット工学と自動化"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "天文学"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "バイオテクノロジー"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "化学"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "コンピュータサイエンス"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "データサイエンス＆AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "地球と環境科学"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "エレクトロニクス"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "エンジニアリング"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "数学と統計"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "物理"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI＆機械学習"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "クラウドコンピューティング"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "サイバーセキュリティ"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "データと分析"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "データサイエンス＆AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps＆Automation"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "ゲーム開発"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "それとネットワーキング"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "サポートとネットワーキング"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "モバイルアプリ開発"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "プログラミングとソフトウェア開発"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "ソフトウェア開発"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "ハイテクハードウェアと修理"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "技術サポートとトラブルシューティング"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "Web開発"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "市民および構造"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "電気工学"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "製造と製造"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "機械工学"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "ソフトウェアとシステム"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "自動車スキル"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "建設と建物"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "電気工事"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "エネルギーと環境"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "産業スキル"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "機械的修理"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "サイバーセキュリティ"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "データ＆ai"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "デジタルマーケティング"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "それとネットワーキング"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "ソフトウェア開発"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "人工知能"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "クラウドコンピューティング"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "コンピューターの基本"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "サイバーセキュリティ"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "データ＆ai"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "データと分析"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "デジタルリテラシー"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "デジタルマーケティング"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "新興技術"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "ハードウェアとエレクトロニクス"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "それとネットワーキング"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "ネットワーキングとそれ"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "プログラミングと開発"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "プログラミングとソフトウェア開発"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "ソフトウェアツール"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "技術生産性"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "技術サポートとメンテナンス"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "技術サポートとトラブルシューティング"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "Webとアプリの開発"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "建設と大工"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "電気＆配管"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "手作りの商品"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "金属細工と溶接"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "テキスタイル＆レザークラフト"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "伝統的な工芸品"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "自動車修理"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "大工＆木工"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "建設と石積み"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "電気工事"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC＆冷蔵"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "ジュエリーメーカー"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "金属細工と溶接"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "絵画と装飾"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "配管"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "仕立てと縫製"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "自動車修理"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "大工＆木工"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "工事"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "建設と大工"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "職人技と修理"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "電気および機械"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "電気工事"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC＆冷蔵"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "重機の操作"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "石工＆タイル"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "金属＆木工"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "絵画と仕上げ"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "配管"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "車両と機械のメンテナンス"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "溶接と金属細工"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "自動車"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "大工仕事"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "工事"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "電気"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "石工"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "機械"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "絵画と装飾"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "配管"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "溶接"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "ビデオ制作"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "オーディオ制作"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "写真"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "グラフィックデザイン"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "演技とパフォーマンス"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "執筆と脚本"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "放送"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "アート＆クラフト"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "音楽と楽器"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "屋外アクティビティ"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "収集"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "フィットネスとウェルネス"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "園芸"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "DIYプロジェクト"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "イタリア料理"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "日本料理"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "メキシコ料理"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "インド料理"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "フランス料理"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "中国料理"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "中東料理"
+  }
+]

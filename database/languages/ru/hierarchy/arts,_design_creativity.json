@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "Искусство, дизайн и творчество",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "Ремесла и DIY"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "Творческое письмо"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "Дизайн и цифровое искусство"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "Исполнительское искусство"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "Визуальное искусство"
+    }
+  ]
+}

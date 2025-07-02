@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "Technologie en digitaal",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "Cybersecurity"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "Data & AI"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "Digitale marketing"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "IT & netwerken"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "Softwareontwikkeling"
+    }
+  ]
+}

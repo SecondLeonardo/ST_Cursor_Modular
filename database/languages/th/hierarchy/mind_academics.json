@@ -1,0 +1,46 @@
+{
+  "id": "mind_academics",
+  "name": "จิตใจและนักวิชาการ",
+  "subcategories": [
+    {
+      "id": "mind_academics_critical_thinking",
+      "name": "การคิดเชิงวิพากษ์"
+    },
+    {
+      "id": "mind_academics_geography_environment",
+      "name": "ภูมิศาสตร์และสิ่งแวดล้อม"
+    },
+    {
+      "id": "mind_academics_history_culture",
+      "name": "ประวัติศาสตร์และวัฒนธรรม"
+    },
+    {
+      "id": "mind_academics_languages",
+      "name": "ภาษา"
+    },
+    {
+      "id": "mind_academics_mathematics",
+      "name": "คณิตศาสตร์"
+    },
+    {
+      "id": "mind_academics_memory_learning_skills",
+      "name": "ทักษะความจำและการเรียนรู้"
+    },
+    {
+      "id": "mind_academics_philosophy_ethics",
+      "name": "ปรัชญาและจริยธรรม"
+    },
+    {
+      "id": "mind_academics_psychology_behavior",
+      "name": "จิตวิทยาและพฤติกรรม"
+    },
+    {
+      "id": "mind_academics_science_research",
+      "name": "วิทยาศาสตร์และการวิจัย"
+    },
+    {
+      "id": "mind_academics_study_techniques",
+      "name": "เทคนิคการศึกษา"
+    }
+  ]
+}

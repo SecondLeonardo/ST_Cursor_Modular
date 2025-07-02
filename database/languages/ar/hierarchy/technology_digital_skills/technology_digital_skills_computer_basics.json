@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_computer_basics",
+  "name": "أساسيات الكمبيوتر",
+  "skills": [
+    {
+      "id": "skill_4686",
+      "name": "استكشاف الأخطاء وإصلاحها الأساسية",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Troubleshooting",
+      "tags": [
+        "basic",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4687",
+      "name": "سلامة الكمبيوتر",
+      "difficulty_level": 5,
+      "description": "Learn and master Computer Safety",
+      "tags": [
+        "computer",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4688",
+      "name": "إدارة الملفات",
+      "difficulty_level": 5,
+      "description": "Learn and master File Management",
+      "tags": [
+        "file",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4689",
+      "name": "اختصارات لوحة المفاتيح",
+      "difficulty_level": 5,
+      "description": "Learn and master Keyboard Shortcuts",
+      "tags": [
+        "keyboard",
+        "shortcuts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4690",
+      "name": "أنظمة التشغيل",
+      "difficulty_level": 2,
+      "description": "Learn and master Operating Systems",
+      "tags": [
+        "operating",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4691",
+      "name": "تثبيت البرامج",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Installation",
+      "tags": [
+        "software",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4692",
+      "name": "التنقل في النظام",
+      "difficulty_level": 2,
+      "description": "Learn and master System Navigation",
+      "tags": [
+        "system",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4693",
+      "name": "أتمتة المهام",
+      "difficulty_level": 3,
+      "description": "Learn and master Task Automation",
+      "tags": [
+        "task",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4694",
+      "name": "باستخدام الأجهزة الطرفية",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Peripherals",
+      "tags": [
+        "using",
+        "peripherals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4695",
+      "name": "العمل مع PDFs",
+      "difficulty_level": 5,
+      "description": "Learn and master Working with PDFs",
+      "tags": [
+        "working",
+        "with",
+        "pdfs"
+      ]
+    }
+  ]
+}

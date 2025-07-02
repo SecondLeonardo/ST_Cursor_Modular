@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "ነጋዴዎች እና የእጅ ጥበብ ባለሙያ",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "አውቶሞቲቭ ጥገና"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "አናጢ እና የእንጨት ሥራ"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "ግንባታ እና ማሶሪ"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "የኤሌክትሪክ ሥራ"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC እና ማቀዝቀዣ"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "የጌጣጌጥ ሥራ"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "ብረት ሥራ እና ሽርሽር"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "ቀለም መቀባት እና ማስጌጥ"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "ቧንቧ"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "ታክሲ እና ስፌት"
+    }
+  ]
+}

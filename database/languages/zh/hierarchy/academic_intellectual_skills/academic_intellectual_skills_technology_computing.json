@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_technology_computing",
+  "name": "技术与计算",
+  "skills": [
+    {
+      "id": "skill_250",
+      "name": "基本编程逻辑",
+      "difficulty_level": 4,
+      "description": "Learn and master Basic Programming Logic",
+      "tags": [
+        "basic",
+        "programming",
+        "logic"
+      ]
+    },
+    {
+      "id": "skill_251",
+      "name": "创建演示文稿",
+      "difficulty_level": 2,
+      "description": "Learn and master Creating Presentations",
+      "tags": [
+        "creating",
+        "presentations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_252",
+      "name": "网络安全意识",
+      "difficulty_level": 5,
+      "description": "Learn and master Cybersecurity Awareness",
+      "tags": [
+        "cybersecurity",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_253",
+      "name": "AI的简介",
+      "difficulty_level": 2,
+      "description": "Learn and master Intro to AI",
+      "tags": [
+        "intro",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_254",
+      "name": "在线研究",
+      "difficulty_level": 1,
+      "description": "Learn and master Online Research",
+      "tags": [
+        "online",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_255",
+      "name": "解决技术问题",
+      "difficulty_level": 5,
+      "description": "Learn and master Troubleshooting Tech Issues",
+      "tags": [
+        "troubleshooting",
+        "tech",
+        "issues"
+      ]
+    },
+    {
+      "id": "skill_256",
+      "name": "打字技能",
+      "difficulty_level": 4,
+      "description": "Learn and master Typing Skills",
+      "tags": [
+        "typing",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_257",
+      "name": "了解算法",
+      "difficulty_level": 3,
+      "description": "Learn and master Understanding Algorithms",
+      "tags": [
+        "understanding",
+        "algorithms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_258",
+      "name": "使用教育工具",
+      "difficulty_level": 1,
+      "description": "Learn and master Using Educational Tools",
+      "tags": [
+        "using",
+        "educational",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_259",
+      "name": "使用电子表格",
+      "difficulty_level": 5,
+      "description": "Learn and master Using Spreadsheets",
+      "tags": [
+        "using",
+        "spreadsheets",
+        "skill"
+      ]
+    }
+  ]
+}

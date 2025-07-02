@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "Ticaret ve Teknik",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "Otomotiv"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "Marangozluk"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "Yapı"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "Elektrik"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "Duvarcılık"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "Mekanik"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "Resim ve dekorasyon"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "Sıhhi tesisat"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "Kaynak"
+    }
+  ]
+}

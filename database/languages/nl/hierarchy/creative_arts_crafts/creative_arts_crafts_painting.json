@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_painting",
+  "name": "Schilderen",
+  "skills": [
+    {
+      "id": "skill_1833",
+      "name": "Abstract schilderij",
+      "difficulty_level": 3,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1834",
+      "name": "Acryl schilderij",
+      "difficulty_level": 4,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1835",
+      "name": "Borsteltechnieken",
+      "difficulty_level": 5,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1836",
+      "name": "Miniatuurschildering",
+      "difficulty_level": 4,
+      "description": "Learn and master Miniature Painting",
+      "tags": [
+        "miniature",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1837",
+      "name": "Mengkleuren mengen",
+      "difficulty_level": 3,
+      "description": "Learn and master Mixing Colors",
+      "tags": [
+        "mixing",
+        "colors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1838",
+      "name": "Olieverfschilderij",
+      "difficulty_level": 3,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1839",
+      "name": "Schilderlandschappen",
+      "difficulty_level": 5,
+      "description": "Learn and master Painting Landscapes",
+      "tags": [
+        "painting",
+        "landscapes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1840",
+      "name": "Schilderen op stof",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting on Fabric",
+      "tags": [
+        "painting",
+        "fabric",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1841",
+      "name": "Portret schilderij",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1842",
+      "name": "Waterverftechnieken",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

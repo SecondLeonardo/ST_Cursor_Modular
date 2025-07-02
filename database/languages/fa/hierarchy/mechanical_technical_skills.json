@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "مهارت های مکانیکی و فنی",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "نگهداری خودرو"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "مبانی مهندسی"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "تعمیر و نصب خانگی"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "عمل دستگاه"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "استفاده از ابزار و ایمنی"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "کار چوب و فلز"
+    }
+  ]
+}

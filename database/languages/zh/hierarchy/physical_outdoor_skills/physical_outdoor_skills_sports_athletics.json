@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_sports_athletics",
+  "name": "运动与田径运动",
+  "skills": [
+    {
+      "id": "skill_3968",
+      "name": "敏捷训练",
+      "difficulty_level": 4,
+      "description": "Learn and master Agility Drills",
+      "tags": [
+        "agility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3969",
+      "name": "篮球射击",
+      "difficulty_level": 2,
+      "description": "Learn and master Basketball Shooting",
+      "tags": [
+        "basketball",
+        "shooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3970",
+      "name": "骑自行车技术",
+      "difficulty_level": 1,
+      "description": "Learn and master Cycling Techniques",
+      "tags": [
+        "cycling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3971",
+      "name": "跑步耐力",
+      "difficulty_level": 1,
+      "description": "Learn and master Running Endurance",
+      "tags": [
+        "running",
+        "endurance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3972",
+      "name": "足球运球",
+      "difficulty_level": 3,
+      "description": "Learn and master Soccer Dribbling",
+      "tags": [
+        "soccer",
+        "dribbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3973",
+      "name": "游泳中风",
+      "difficulty_level": 3,
+      "description": "Learn and master Swimming Strokes",
+      "tags": [
+        "swimming",
+        "strokes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3974",
+      "name": "网球服务",
+      "difficulty_level": 2,
+      "description": "Learn and master Tennis Serving",
+      "tags": [
+        "tennis",
+        "serving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3975",
+      "name": "田径事件",
+      "difficulty_level": 1,
+      "description": "Learn and master Track & Field Events",
+      "tags": [
+        "track",
+        "field",
+        "events"
+      ]
+    },
+    {
+      "id": "skill_3976",
+      "name": "排球设置",
+      "difficulty_level": 1,
+      "description": "Learn and master Volleyball Setting",
+      "tags": [
+        "volleyball",
+        "setting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3977",
+      "name": "体重训练",
+      "difficulty_level": 2,
+      "description": "Learn and master Weight Training",
+      "tags": [
+        "weight",
+        "training",
+        "skill"
+      ]
+    }
+  ]
+}

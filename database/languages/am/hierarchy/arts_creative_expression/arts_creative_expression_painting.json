@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_painting",
+  "name": "ሥዕል",
+  "skills": [
+    {
+      "id": "skill_380",
+      "name": "አይራፊ ቀለም",
+      "difficulty_level": 5,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_381",
+      "name": "ኤሲሪሊክ ሥዕል",
+      "difficulty_level": 3,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_382",
+      "name": "ብሩሽ ቴክኒኮች",
+      "difficulty_level": 3,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_383",
+      "name": "የሸራ ዝግጅት",
+      "difficulty_level": 3,
+      "description": "Learn and master Canvas Preparation",
+      "tags": [
+        "canvas",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_384",
+      "name": "ቀለም መቀባት",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_385",
+      "name": "ስሜት",
+      "difficulty_level": 2,
+      "description": "Learn and master Impressionism",
+      "tags": [
+        "impressionism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_386",
+      "name": "የዘይት ቀለም",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_387",
+      "name": "የቅንጦት አየር ሥዕል",
+      "difficulty_level": 1,
+      "description": "Learn and master Plein Air Painting",
+      "tags": [
+        "plein",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_388",
+      "name": "ሥዕል ሥዕል ሥዕል",
+      "difficulty_level": 2,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_389",
+      "name": "የውሃ ቆጠራ ቴክኒኮች",
+      "difficulty_level": 2,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

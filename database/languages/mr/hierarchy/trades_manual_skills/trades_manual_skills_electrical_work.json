@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_electrical_work",
+  "name": "विद्युत काम",
+  "skills": [
+    {
+      "id": "skill_5085",
+      "name": "ब्रेकर पॅनेल सेटअप",
+      "difficulty_level": 1,
+      "description": "Learn and master Breaker Panel Setup",
+      "tags": [
+        "breaker",
+        "panel",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_5086",
+      "name": "सर्किट स्थापना",
+      "difficulty_level": 5,
+      "description": "Learn and master Circuit Installation",
+      "tags": [
+        "circuit",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5087",
+      "name": "नाली वाकणे",
+      "difficulty_level": 2,
+      "description": "Learn and master Conduit Bending",
+      "tags": [
+        "conduit",
+        "bending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5088",
+      "name": "विद्युत कोड ज्ञान",
+      "difficulty_level": 2,
+      "description": "Learn and master Electrical Code Knowledge",
+      "tags": [
+        "electrical",
+        "code",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5089",
+      "name": "प्रकाश प्रणाली",
+      "difficulty_level": 5,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5090",
+      "name": "आउटलेट स्थापना",
+      "difficulty_level": 5,
+      "description": "Learn and master Outlet Installation",
+      "tags": [
+        "outlet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5091",
+      "name": "सुरक्षा प्रोटोकॉल",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Protocols",
+      "tags": [
+        "safety",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5092",
+      "name": "सौर पॅनेल वायरिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Wiring",
+      "tags": [
+        "solar",
+        "panel",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_5093",
+      "name": "व्होल्टेज चाचणी",
+      "difficulty_level": 3,
+      "description": "Learn and master Voltage Testing",
+      "tags": [
+        "voltage",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5094",
+      "name": "वायरिंग आणि रीवायरिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Wiring & Rewiring",
+      "tags": [
+        "wiring",
+        "rewiring",
+        "skill"
+      ]
+    }
+  ]
+}

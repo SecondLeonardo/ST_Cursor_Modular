@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_mechanical",
+  "name": "ميكانيكي",
+  "skills": [
+    {
+      "id": "skill_5235",
+      "name": "عمل خط التجميع",
+      "difficulty_level": 5,
+      "description": "Learn and master Assembly Line Work",
+      "tags": [
+        "assembly",
+        "line",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_5236",
+      "name": "تحمل التثبيت",
+      "difficulty_level": 2,
+      "description": "Learn and master Bearing Installation",
+      "tags": [
+        "bearing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5237",
+      "name": "أنظمة التروس",
+      "difficulty_level": 2,
+      "description": "Learn and master Gear Systems",
+      "tags": [
+        "gear",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5238",
+      "name": "الهيدروليكية",
+      "difficulty_level": 3,
+      "description": "Learn and master Hydraulics",
+      "tags": [
+        "hydraulics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5239",
+      "name": "تقنيات التشحيم",
+      "difficulty_level": 5,
+      "description": "Learn and master Lubrication Techniques",
+      "tags": [
+        "lubrication",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5240",
+      "name": "صيانة الماكينة",
+      "difficulty_level": 4,
+      "description": "Learn and master Machine Maintenance",
+      "tags": [
+        "machine",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5241",
+      "name": "قراءة الرسم الميكانيكي",
+      "difficulty_level": 2,
+      "description": "Learn and master Mechanical Drawing Reading",
+      "tags": [
+        "mechanical",
+        "drawing",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_5242",
+      "name": "الهادئات الهوائية",
+      "difficulty_level": 5,
+      "description": "Learn and master Pneumatics",
+      "tags": [
+        "pneumatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5243",
+      "name": "محاذاة رمح",
+      "difficulty_level": 4,
+      "description": "Learn and master Shaft Alignment",
+      "tags": [
+        "shaft",
+        "alignment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5244",
+      "name": "صيانة الأدوات",
+      "difficulty_level": 1,
+      "description": "Learn and master Tool Maintenance",
+      "tags": [
+        "tool",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

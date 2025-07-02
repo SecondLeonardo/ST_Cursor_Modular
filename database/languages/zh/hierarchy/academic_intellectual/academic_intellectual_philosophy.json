@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_philosophy",
+  "name": "哲学",
+  "skills": [
+    {
+      "id": "skill_60",
+      "name": "美学",
+      "difficulty_level": 5,
+      "description": "Learn and master Aesthetics",
+      "tags": [
+        "aesthetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_61",
+      "name": "批判性思维",
+      "difficulty_level": 5,
+      "description": "Learn and master Critical Thinking",
+      "tags": [
+        "critical",
+        "thinking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_62",
+      "name": "认识论",
+      "difficulty_level": 1,
+      "description": "Learn and master Epistemology",
+      "tags": [
+        "epistemology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_63",
+      "name": "伦理",
+      "difficulty_level": 1,
+      "description": "Learn and master Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_64",
+      "name": "存在主义",
+      "difficulty_level": 2,
+      "description": "Learn and master Existentialism",
+      "tags": [
+        "existentialism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_65",
+      "name": "逻辑",
+      "difficulty_level": 3,
+      "description": "Learn and master Logic",
+      "tags": [
+        "logic",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_66",
+      "name": "形而上学",
+      "difficulty_level": 4,
+      "description": "Learn and master Metaphysics",
+      "tags": [
+        "metaphysics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_67",
+      "name": "心理哲学",
+      "difficulty_level": 5,
+      "description": "Learn and master Philosophy of Mind",
+      "tags": [
+        "philosophy",
+        "mind",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_68",
+      "name": "科学哲学",
+      "difficulty_level": 3,
+      "description": "Learn and master Philosophy of Science",
+      "tags": [
+        "philosophy",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_69",
+      "name": "政治哲学",
+      "difficulty_level": 5,
+      "description": "Learn and master Political Philosophy",
+      "tags": [
+        "political",
+        "philosophy",
+        "skill"
+      ]
+    }
+  ]
+}

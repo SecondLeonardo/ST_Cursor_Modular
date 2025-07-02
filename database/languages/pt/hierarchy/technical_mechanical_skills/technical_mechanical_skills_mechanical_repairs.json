@@ -1,0 +1,116 @@
+{
+  "id": "technical_mechanical_skills_mechanical_repairs",
+  "name": "Reparos mecânicos",
+  "skills": [
+    {
+      "id": "skill_4606",
+      "name": "Desmontagem de equipamentos",
+      "difficulty_level": 2,
+      "description": "Learn and master Disassembling Equipment",
+      "tags": [
+        "disassembling",
+        "equipment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4607",
+      "name": "Máquinas lubrificantes",
+      "difficulty_level": 3,
+      "description": "Learn and master Lubricating Machines",
+      "tags": [
+        "lubricating",
+        "machines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4608",
+      "name": "Técnicas de corte de metal",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Cutting Techniques",
+      "tags": [
+        "metal",
+        "cutting",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_4609",
+      "name": "Medição de precisão",
+      "difficulty_level": 2,
+      "description": "Learn and master Precision Measurement",
+      "tags": [
+        "precision",
+        "measurement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4610",
+      "name": "Reparando pequenos motores",
+      "difficulty_level": 1,
+      "description": "Learn and master Repairing Small Engines",
+      "tags": [
+        "repairing",
+        "small",
+        "engines"
+      ]
+    },
+    {
+      "id": "skill_4611",
+      "name": "Substituindo rolamentos",
+      "difficulty_level": 3,
+      "description": "Learn and master Replacing Bearings",
+      "tags": [
+        "replacing",
+        "bearings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4612",
+      "name": "Solução de problemas de dispositivos mecânicos",
+      "difficulty_level": 1,
+      "description": "Learn and master Troubleshooting Mechanical Devices",
+      "tags": [
+        "troubleshooting",
+        "mechanical",
+        "devices"
+      ]
+    },
+    {
+      "id": "skill_4613",
+      "name": "Entendendo as engrenagens",
+      "difficulty_level": 4,
+      "description": "Learn and master Understanding Gears",
+      "tags": [
+        "understanding",
+        "gears",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4614",
+      "name": "Usando um multímetro",
+      "difficulty_level": 2,
+      "description": "Learn and master Using a Multimeter",
+      "tags": [
+        "using",
+        "multimeter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4615",
+      "name": "Usando uma chave de torque",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Torque Wrench",
+      "tags": [
+        "using",
+        "torque",
+        "wrench"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_mechanical_engineering",
+  "name": "기계 공학",
+  "skills": [
+    {
+      "id": "skill_2413",
+      "name": "CAD 모델링 (solidworks)",
+      "difficulty_level": 5,
+      "description": "Learn and master CAD Modeling (SolidWorks)",
+      "tags": [
+        "modeling",
+        "(solidworks)",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2414",
+      "name": "제어 시스템",
+      "difficulty_level": 2,
+      "description": "Learn and master Control Systems",
+      "tags": [
+        "control",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2415",
+      "name": "유체 역학",
+      "difficulty_level": 3,
+      "description": "Learn and master Fluid Mechanics",
+      "tags": [
+        "fluid",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2416",
+      "name": "운동학",
+      "difficulty_level": 1,
+      "description": "Learn and master Kinematics",
+      "tags": [
+        "kinematics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2417",
+      "name": "기계 설계",
+      "difficulty_level": 5,
+      "description": "Learn and master Machine Design",
+      "tags": [
+        "machine",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2418",
+      "name": "재료 과학",
+      "difficulty_level": 4,
+      "description": "Learn and master Material Science",
+      "tags": [
+        "material",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2419",
+      "name": "기계식 제도",
+      "difficulty_level": 4,
+      "description": "Learn and master Mechanical Drafting",
+      "tags": [
+        "mechanical",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2420",
+      "name": "기학",
+      "difficulty_level": 3,
+      "description": "Learn and master Pneumatics",
+      "tags": [
+        "pneumatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2421",
+      "name": "스트레스 분석",
+      "difficulty_level": 4,
+      "description": "Learn and master Stress Analysis",
+      "tags": [
+        "stress",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2422",
+      "name": "열역학",
+      "difficulty_level": 3,
+      "description": "Learn and master Thermodynamics",
+      "tags": [
+        "thermodynamics",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

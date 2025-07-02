@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "માધ્યમો",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "વિડિઓ નિર્માણ"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "Audio ડિઓ ઉત્પાદન"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "ફોટોગ્રાફી"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "ગ્રાફિક રચના"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "અભિનય અને કામગીરી"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "લેખન અને સ્ક્રિપ્ટરાઇટીંગ"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "પ્રસારણ"
+    }
+  ]
+}

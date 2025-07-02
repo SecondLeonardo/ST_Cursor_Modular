@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_welding_metalwork",
+  "name": "వెల్డింగ్ & మెటల్ వర్క్",
+  "skills": [
+    {
+      "id": "skill_5165",
+      "name": "ఆర్క్ వెల్డింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5166",
+      "name": "బ్లూప్రింట్ వ్యాఖ్యానం",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Interpretation",
+      "tags": [
+        "blueprint",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5167",
+      "name": "కట్టింగ్ టార్చ్ వాడకం",
+      "difficulty_level": 2,
+      "description": "Learn and master Cutting Torch Use",
+      "tags": [
+        "cutting",
+        "torch",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5168",
+      "name": "మిగ్ వెల్డింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5169",
+      "name": "మెటల్ గ్రౌండింగ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Metal Grinding",
+      "tags": [
+        "metal",
+        "grinding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5170",
+      "name": "భద్రతా గేర్ వాడకం",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Gear Use",
+      "tags": [
+        "safety",
+        "gear",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5171",
+      "name": "షీట్ మెటల్ ఫాబ్రికేషన్",
+      "difficulty_level": 4,
+      "description": "Learn and master Sheet Metal Fabrication",
+      "tags": [
+        "sheet",
+        "metal",
+        "fabrication"
+      ]
+    },
+    {
+      "id": "skill_5172",
+      "name": "స్టిక్ వెల్డింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Stick Welding",
+      "tags": [
+        "stick",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5173",
+      "name": "టిగ్ వెల్డింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5174",
+      "name": "వెల్డ్ తనిఖీ",
+      "difficulty_level": 4,
+      "description": "Learn and master Weld Inspection",
+      "tags": [
+        "weld",
+        "inspection",
+        "skill"
+      ]
+    }
+  ]
+}

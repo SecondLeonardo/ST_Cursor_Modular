@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_grocery_shopping",
+  "name": "食料品の買い物",
+  "skills": [
+    {
+      "id": "skill_2968",
+      "name": "インパルス購入を避けます",
+      "difficulty_level": 5,
+      "description": "Learn and master Avoiding Impulse Buys",
+      "tags": [
+        "avoiding",
+        "impulse",
+        "buys"
+      ]
+    },
+    {
+      "id": "skill_2969",
+      "name": "予算の買い物",
+      "difficulty_level": 3,
+      "description": "Learn and master Budget Shopping",
+      "tags": [
+        "budget",
+        "shopping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2970",
+      "name": "一括購入",
+      "difficulty_level": 4,
+      "description": "Learn and master Buying in Bulk",
+      "tags": [
+        "buying",
+        "bulk",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2971",
+      "name": "新鮮な農産物を選ぶ",
+      "difficulty_level": 4,
+      "description": "Learn and master Choosing Fresh Produce",
+      "tags": [
+        "choosing",
+        "fresh",
+        "produce"
+      ]
+    },
+    {
+      "id": "skill_2972",
+      "name": "価格の比較",
+      "difficulty_level": 5,
+      "description": "Learn and master Comparing Prices",
+      "tags": [
+        "comparing",
+        "prices",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2973",
+      "name": "買い物リストの作成",
+      "difficulty_level": 5,
+      "description": "Learn and master Creating a Shopping List",
+      "tags": [
+        "creating",
+        "shopping",
+        "list"
+      ]
+    },
+    {
+      "id": "skill_2974",
+      "name": "割引を見つける",
+      "difficulty_level": 4,
+      "description": "Learn and master Finding Discounts",
+      "tags": [
+        "finding",
+        "discounts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2975",
+      "name": "食料品の通路をナビゲートします",
+      "difficulty_level": 5,
+      "description": "Learn and master Navigating Grocery Aisles",
+      "tags": [
+        "navigating",
+        "grocery",
+        "aisles"
+      ]
+    },
+    {
+      "id": "skill_2976",
+      "name": "食べ物のラベルを読む",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Food Labels",
+      "tags": [
+        "reading",
+        "food",
+        "labels"
+      ]
+    },
+    {
+      "id": "skill_2977",
+      "name": "ストッキングエッセンシャル",
+      "difficulty_level": 1,
+      "description": "Learn and master Stocking Essentials",
+      "tags": [
+        "stocking",
+        "essentials",
+        "skill"
+      ]
+    }
+  ]
+}

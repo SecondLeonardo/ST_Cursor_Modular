@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_fitness_strength",
+  "name": "Fitness et force",
+  "skills": [
+    {
+      "id": "skill_3988",
+      "name": "Techniques de musculation",
+      "difficulty_level": 2,
+      "description": "Learn and master Bodybuilding Techniques",
+      "tags": [
+        "bodybuilding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3989",
+      "name": "Exercices de la gymnastique",
+      "difficulty_level": 4,
+      "description": "Learn and master Calisthenics Exercises",
+      "tags": [
+        "calisthenics",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3990",
+      "name": "Entraînements cardio",
+      "difficulty_level": 3,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3991",
+      "name": "Renforcement du noyau",
+      "difficulty_level": 5,
+      "description": "Learn and master Core Strengthening",
+      "tags": [
+        "core",
+        "strengthening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3992",
+      "name": "Exercices croisés",
+      "difficulty_level": 4,
+      "description": "Learn and master CrossFit Drills",
+      "tags": [
+        "crossfit",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3993",
+      "name": "Formation pliométrique",
+      "difficulty_level": 4,
+      "description": "Learn and master Plyometric Training",
+      "tags": [
+        "plyometric",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3994",
+      "name": "Entraîneurs de bande de résistance",
+      "difficulty_level": 3,
+      "description": "Learn and master Resistance Band Workouts",
+      "tags": [
+        "resistance",
+        "band",
+        "workouts"
+      ]
+    },
+    {
+      "id": "skill_3995",
+      "name": "Routines d'étirement",
+      "difficulty_level": 2,
+      "description": "Learn and master Stretching Routines",
+      "tags": [
+        "stretching",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3996",
+      "name": "Haltérophilier",
+      "difficulty_level": 4,
+      "description": "Learn and master Weightlifting Form",
+      "tags": [
+        "weightlifting",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3997",
+      "name": "Pose de yoga",
+      "difficulty_level": 5,
+      "description": "Learn and master Yoga Poses",
+      "tags": [
+        "yoga",
+        "poses",
+        "skill"
+      ]
+    }
+  ]
+}

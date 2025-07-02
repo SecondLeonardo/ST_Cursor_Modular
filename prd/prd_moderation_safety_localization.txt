@@ -1,0 +1,164 @@
+1. Moderation, Safety & Localization Overview
+- Safety, moderation, abuse prevention, privacy, localization strategy
+- Profanity filters, content moderation, user blocking/reporting
+- Regional customization, translation management, cultural adaptation
+
+2. Moderation & Safety Data Models
+- FeedbackModel: For reporting and moderation
+- PermissionModel: For privacy and access control
+
+3. Moderation, Safety & Localization UI/UX Design
+
+### 3.1 Unacceptable Behaviors Popup
+- **Description**: Warning popup listing prohibited behaviors.
+- **UI/UX Design**:
+  - **Content**:
+    - Header: "SkillTalk is an app focused on Skill learning. The following unacceptable behaviors will lead to permanent account removal."
+    - Unacceptable Behaviors List:
+      - Attempted/committed fraud
+      - Fraud and misinformation
+      - Pornography
+      - Harassment
+      - Religious/racial discrimination
+      - Religion, politics, and other controversial topics
+      - Social media marketing or advertising
+    - Action Button: "I understand" (bright teal color)
+  - **Design Elements**:
+    - Clean white background
+    - Bold black text for header
+    - Blue "X" icons for each behavior
+    - Large, prominent action button
+
+### 3.2 Report Page
+- **Description**: Interface for reporting a contact with predefined categories.
+- **UI/UX Design**:
+  - **Navigation & Header**: Includes a back arrow and title "Report".
+  - **Report Reasons List**: Selectable radio button items.
+  - **Additional Description Field**: Allows adding context to the report.
+  - **Block Option**: Checkbox to block the user while reporting.
+
+### 3.3 Blocked Users
+- **Description**: Manages blocked contacts list.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Blocked"
+    - Back Button
+    - Edit Button
+  - **Blocked Contact List**:
+    - Profile icons
+    - Phone numbers
+    - Contact names
+    - Navigation arrows
+  - **Additional Features**:
+    - Add new contact option
+    - Explanatory text
+  - **Color Scheme**:
+    - White background
+    - Black for primary text
+    - Gray for secondary text
+    - Green for action text
+
+### 3.4 Privacy Settings
+- **Description**: Comprehensive privacy control interface.
+- **UI/UX Design**:
+  - **Location & Visibility Settings**:
+    - Show Country/Region
+    - Show City
+    - Update Location
+    - Show Age
+    - Show Online Status
+    - Show Gifting Level
+  - **Communication Preferences**:
+    - Birthday Notification
+    - Display Skill Partner Tags
+    - Personalized Ads
+    - Receive Voice Calls
+    - Show Following/Followers
+    - Find Me by SkillTalk ID
+  - **VIP Features**:
+    - Hide My Visits (VIP badge)
+    - Who Can Find Me
+  - **Interactive Elements**:
+    - bright teal toggle switches
+    - Right arrows for submenus
+    - VIP badges for premium features
+
+### 3.5 Who Can Find Me Settings
+- **Description**: Controls visibility and matching preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Who Can Find Me"
+    - Back Button
+  - **Main Settings**:
+    1. Exact Language Match
+    2. Same Gender Only
+    3. Age Range Selector
+    4. Don't Expose Me Through People Nearby
+    5. Hide from Search
+  - **Interactive Elements**:
+    - Toggle switches
+    - Age range slider
+    - Navigation arrows
+
+### 3.6 Last Seen Settings
+- **Description**: Controls visibility of online status and last seen information.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Last seen & online"
+    - Back Button
+  - **Privacy Options**:
+    1. Who can see my Last Seen
+       - Everyone
+       - My contacts
+       - My contacts except...
+       - Nobody
+    2. Who can see when I'm online
+       - Everyone
+       - Same as last seen
+  - **Informational Text**:
+    - Gray text explaining consequences
+    - Bold styling for key terms
+
+### 3.7 Translation Language Selection Popups
+- **Description**: Language selection interfaces for message translation.
+- **UI/UX Design**:
+  - **Common Elements**:
+    - Back Button (<) in top left corner
+    - Title "Language" centered
+    - List of languages with checkmarks
+  - **Two Variants**:
+    1. "Translate messages received to:"
+       - Language list with selection indicators
+       - Search functionality
+       - Native language names
+    2. "Translate messages sent to:"
+       - Similar layout to received messages
+       - Partner's language preferences
+       - Selection persistence
+
+### 3.8 Feature Tutorial Popups
+- **Description**: Instructional popups for app features.
+- **UI/UX Design**:
+  - **Common Elements**:
+    - Visual tutorial images
+    - Clear, concise instructions
+    - Dismissible interface
+  - **Feature Tutorials**:
+    1. Press and Hold Message Options
+    2. Tap and Hold to Translate
+    3. Input Text & Translate
+    4. Transcription
+    5. Correct Sentences
+  - **Design Elements**:
+    - Screenshot-based tutorials
+    - Highlighted interaction points
+    - Step-by-step instructions
+    - Easy dismissal
+
+
+4. Implementation Patterns
+- Service/provider pattern, moderation provider, usage tracking, fallback system
+
+5. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 
+

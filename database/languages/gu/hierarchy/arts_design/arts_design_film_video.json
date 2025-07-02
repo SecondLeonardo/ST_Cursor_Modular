@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_film_video",
+  "name": "ફિલ્મ અને વિડિઓ",
+  "skills": [
+    {
+      "id": "skill_560",
+      "name": "સિનેમેટનું",
+      "difficulty_level": 2,
+      "description": "Learn and master Cinematography",
+      "tags": [
+        "cinematography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_561",
+      "name": "રંગબેરૂપ",
+      "difficulty_level": 3,
+      "description": "Learn and master Color Correction",
+      "tags": [
+        "color",
+        "correction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_562",
+      "name": "નિર્દેશ",
+      "difficulty_level": 2,
+      "description": "Learn and master Directing",
+      "tags": [
+        "directing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_563",
+      "name": "ફિલ્મ -સ્કોરિંગ",
+      "difficulty_level": 4,
+      "description": "Learn and master Film Scoring",
+      "tags": [
+        "film",
+        "scoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_564",
+      "name": "ફિલ્મ માટે લાઇટિંગ",
+      "difficulty_level": 5,
+      "description": "Learn and master Lighting for Film",
+      "tags": [
+        "lighting",
+        "film",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_565",
+      "name": "સ્ક્રિપ્ટરાબિંગ",
+      "difficulty_level": 1,
+      "description": "Learn and master Scriptwriting",
+      "tags": [
+        "scriptwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_566",
+      "name": "ધ્વનિ -સંપાદન",
+      "difficulty_level": 3,
+      "description": "Learn and master Sound Editing",
+      "tags": [
+        "sound",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_567",
+      "name": "મક્કમ",
+      "difficulty_level": 4,
+      "description": "Learn and master Storyboarding",
+      "tags": [
+        "storyboarding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_568",
+      "name": "વિડિઓ સંપાદન",
+      "difficulty_level": 2,
+      "description": "Learn and master Video Editing",
+      "tags": [
+        "video",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_569",
+      "name": "વિડિઓ અસરો",
+      "difficulty_level": 3,
+      "description": "Learn and master Video Effects",
+      "tags": [
+        "video",
+        "effects",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "technology_digital_skills_it_networking",
+  "name": "IT & Networking",
+  "skills": [
+    {
+      "id": "skill_4775",
+      "name": "Cloud Computing (AWS, Azure)",
+      "difficulty_level": 5,
+      "description": "Learn and master Cloud Computing (AWS, Azure)",
+      "tags": [
+        "cloud",
+        "computing",
+        "(aws,",
+        "azure)"
+      ]
+    },
+    {
+      "id": "skill_4776",
+      "name": "Fehlerbehebung bei Computer",
+      "difficulty_level": 2,
+      "description": "Learn and master Computer Troubleshooting",
+      "tags": [
+        "computer",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4777",
+      "name": "DNS -Management",
+      "difficulty_level": 3,
+      "description": "Learn and master DNS Management",
+      "tags": [
+        "management",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4778",
+      "name": "Datenbankverwaltung",
+      "difficulty_level": 3,
+      "description": "Learn and master Database Administration",
+      "tags": [
+        "database",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4779",
+      "name": "E -Mail -Server -Setup",
+      "difficulty_level": 4,
+      "description": "Learn and master Email Server Setup",
+      "tags": [
+        "email",
+        "server",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4780",
+      "name": "Linux -Befehlszeile",
+      "difficulty_level": 3,
+      "description": "Learn and master Linux Command Line",
+      "tags": [
+        "linux",
+        "command",
+        "line"
+      ]
+    },
+    {
+      "id": "skill_4781",
+      "name": "Netzwerkkonfiguration",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Configuration",
+      "tags": [
+        "network",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4782",
+      "name": "Serververwaltung",
+      "difficulty_level": 2,
+      "description": "Learn and master Server Management",
+      "tags": [
+        "server",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4783",
+      "name": "Systemverwaltung",
+      "difficulty_level": 1,
+      "description": "Learn and master System Administration",
+      "tags": [
+        "system",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4784",
+      "name": "Virtualisierung",
+      "difficulty_level": 3,
+      "description": "Learn and master Virtualization",
+      "tags": [
+        "virtualization",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

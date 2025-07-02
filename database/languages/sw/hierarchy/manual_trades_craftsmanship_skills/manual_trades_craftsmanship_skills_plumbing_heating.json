@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+  "name": "Mabomba na inapokanzwa",
+  "skills": [
+    {
+      "id": "skill_3478",
+      "name": "Matengenezo ya boiler",
+      "difficulty_level": 2,
+      "description": "Learn and master Boiler Maintenance",
+      "tags": [
+        "boiler",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3479",
+      "name": "Kusafisha kusafisha",
+      "difficulty_level": 3,
+      "description": "Learn and master Drain Cleaning",
+      "tags": [
+        "drain",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3480",
+      "name": "Kazi ya mstari wa gesi",
+      "difficulty_level": 2,
+      "description": "Learn and master Gas Line Work",
+      "tags": [
+        "line",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3481",
+      "name": "Ugunduzi wa kuvuja",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3482",
+      "name": "Bomba linalofaa",
+      "difficulty_level": 2,
+      "description": "Learn and master Pipe Fitting",
+      "tags": [
+        "pipe",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3483",
+      "name": "Kutokwa na damu kwa radiator",
+      "difficulty_level": 2,
+      "description": "Learn and master Radiator Bleeding",
+      "tags": [
+        "radiator",
+        "bleeding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3484",
+      "name": "Ukaguzi wa maji taka",
+      "difficulty_level": 1,
+      "description": "Learn and master Sewer Inspection",
+      "tags": [
+        "sewer",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3485",
+      "name": "Shower inafaa",
+      "difficulty_level": 5,
+      "description": "Learn and master Shower Fitting",
+      "tags": [
+        "shower",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3486",
+      "name": "Ufungaji wa choo",
+      "difficulty_level": 5,
+      "description": "Learn and master Toilet Installation",
+      "tags": [
+        "toilet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3487",
+      "name": "Ufungaji wa heater ya maji",
+      "difficulty_level": 2,
+      "description": "Learn and master Water Heater Installation",
+      "tags": [
+        "water",
+        "heater",
+        "installation"
+      ]
+    }
+  ]
+}

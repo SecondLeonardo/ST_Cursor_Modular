@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_philosophy",
+  "name": "தத்துவம்",
+  "skills": [
+    {
+      "id": "skill_60",
+      "name": "அழகியல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Aesthetics",
+      "tags": [
+        "aesthetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_61",
+      "name": "விமர்சன சிந்தனை",
+      "difficulty_level": 5,
+      "description": "Learn and master Critical Thinking",
+      "tags": [
+        "critical",
+        "thinking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_62",
+      "name": "எபிஸ்டெமோலஜி",
+      "difficulty_level": 1,
+      "description": "Learn and master Epistemology",
+      "tags": [
+        "epistemology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_63",
+      "name": "நெறிமுறைகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_64",
+      "name": "இருத்தலியல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Existentialism",
+      "tags": [
+        "existentialism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_65",
+      "name": "தர்க்கம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Logic",
+      "tags": [
+        "logic",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_66",
+      "name": "மெட்டாபிசிக்ஸ்",
+      "difficulty_level": 4,
+      "description": "Learn and master Metaphysics",
+      "tags": [
+        "metaphysics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_67",
+      "name": "மன தத்துவம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Philosophy of Mind",
+      "tags": [
+        "philosophy",
+        "mind",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_68",
+      "name": "அறிவியலின் தத்துவம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Philosophy of Science",
+      "tags": [
+        "philosophy",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_69",
+      "name": "அரசியல் தத்துவம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Political Philosophy",
+      "tags": [
+        "political",
+        "philosophy",
+        "skill"
+      ]
+    }
+  ]
+}

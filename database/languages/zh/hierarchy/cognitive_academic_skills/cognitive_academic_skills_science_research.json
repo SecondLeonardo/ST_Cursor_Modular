@@ -1,0 +1,116 @@
+{
+  "id": "cognitive_academic_skills_science_research",
+  "name": "科学与研究",
+  "skills": [
+    {
+      "id": "skill_1108",
+      "name": "数据收集技术",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Collection Techniques",
+      "tags": [
+        "data",
+        "collection",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_1109",
+      "name": "道德研究实践",
+      "difficulty_level": 4,
+      "description": "Learn and master Ethical Research Practices",
+      "tags": [
+        "ethical",
+        "research",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_1110",
+      "name": "实验对照",
+      "difficulty_level": 4,
+      "description": "Learn and master Experimental Controls",
+      "tags": [
+        "experimental",
+        "controls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1111",
+      "name": "现场观察",
+      "difficulty_level": 2,
+      "description": "Learn and master Field Observation",
+      "tags": [
+        "field",
+        "observation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1112",
+      "name": "假设检验",
+      "difficulty_level": 5,
+      "description": "Learn and master Hypothesis Testing",
+      "tags": [
+        "hypothesis",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1113",
+      "name": "实验实验设计",
+      "difficulty_level": 2,
+      "description": "Learn and master Lab Experiment Design",
+      "tags": [
+        "experiment",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1114",
+      "name": "阅读科学期刊",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Scientific Journals",
+      "tags": [
+        "reading",
+        "scientific",
+        "journals"
+      ]
+    },
+    {
+      "id": "skill_1115",
+      "name": "研究写作",
+      "difficulty_level": 1,
+      "description": "Learn and master Research Writing",
+      "tags": [
+        "research",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1116",
+      "name": "科学图",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Drawing",
+      "tags": [
+        "scientific",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1117",
+      "name": "科学方法应用",
+      "difficulty_level": 4,
+      "description": "Learn and master Scientific Method Application",
+      "tags": [
+        "scientific",
+        "method",
+        "application"
+      ]
+    }
+  ]
+}

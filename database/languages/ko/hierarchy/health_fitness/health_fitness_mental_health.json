@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_mental_health",
+  "name": "정신 건강",
+  "skills": [
+    {
+      "id": "skill_2463",
+      "name": "긍정 관행",
+      "difficulty_level": 3,
+      "description": "Learn and master Affirmation Practice",
+      "tags": [
+        "affirmation",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2464",
+      "name": "불안 감소",
+      "difficulty_level": 4,
+      "description": "Learn and master Anxiety Reduction",
+      "tags": [
+        "anxiety",
+        "reduction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2465",
+      "name": "인지 행동 도구",
+      "difficulty_level": 1,
+      "description": "Learn and master Cognitive Behavioral Tools",
+      "tags": [
+        "cognitive",
+        "behavioral",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2466",
+      "name": "디지털 웰빙",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Wellness",
+      "tags": [
+        "digital",
+        "wellness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2467",
+      "name": "정신 선명도를위한 저널링",
+      "difficulty_level": 1,
+      "description": "Learn and master Journaling for Mental Clarity",
+      "tags": [
+        "journaling",
+        "mental",
+        "clarity"
+      ]
+    },
+    {
+      "id": "skill_2468",
+      "name": "정신적 휴식 관행",
+      "difficulty_level": 1,
+      "description": "Learn and master Mental Rest Practices",
+      "tags": [
+        "mental",
+        "rest",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_2469",
+      "name": "마음 챙김 명상",
+      "difficulty_level": 3,
+      "description": "Learn and master Mindfulness Meditation",
+      "tags": [
+        "mindfulness",
+        "meditation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2470",
+      "name": "수면 위생",
+      "difficulty_level": 1,
+      "description": "Learn and master Sleep Hygiene",
+      "tags": [
+        "sleep",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2471",
+      "name": "스트레스 관리",
+      "difficulty_level": 1,
+      "description": "Learn and master Stress Management",
+      "tags": [
+        "stress",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2472",
+      "name": "치료 기술",
+      "difficulty_level": 3,
+      "description": "Learn and master Therapeutic Techniques",
+      "tags": [
+        "therapeutic",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "معاملات و فنی",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "خودرو"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "نجاری"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "ساخت و ساز"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "برق"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "سنگ تراشی"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "مکانیکی"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "نقاشی و تزئین"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "لوله کشی"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "جوش"
+    }
+  ]
+}

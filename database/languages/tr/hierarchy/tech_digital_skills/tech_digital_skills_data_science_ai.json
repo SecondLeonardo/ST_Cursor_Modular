@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_data_science_ai",
+  "name": "Veri Bilimi ve AI",
+  "skills": [
+    {
+      "id": "skill_4396",
+      "name": "AI Model Dağıtım",
+      "difficulty_level": 2,
+      "description": "Learn and master AI Model Deployment",
+      "tags": [
+        "model",
+        "deployment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4397",
+      "name": "Büyük Veri Araçları (Spark)",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Tools (Spark)",
+      "tags": [
+        "data",
+        "tools",
+        "(spark)"
+      ]
+    },
+    {
+      "id": "skill_4398",
+      "name": "Bilgisayar Görüşü",
+      "difficulty_level": 3,
+      "description": "Learn and master Computer Vision",
+      "tags": [
+        "computer",
+        "vision",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4399",
+      "name": "Python ile veri analizi",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Analysis with Python",
+      "tags": [
+        "data",
+        "analysis",
+        "with",
+        "python"
+      ]
+    },
+    {
+      "id": "skill_4400",
+      "name": "Veri görselleştirme",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4401",
+      "name": "Derin öğrenme",
+      "difficulty_level": 2,
+      "description": "Learn and master Deep Learning",
+      "tags": [
+        "deep",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4402",
+      "name": "Makine öğrenimi",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning",
+      "tags": [
+        "machine",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4403",
+      "name": "Model Değerlendirme Metrikleri",
+      "difficulty_level": 2,
+      "description": "Learn and master Model Evaluation Metrics",
+      "tags": [
+        "model",
+        "evaluation",
+        "metrics"
+      ]
+    },
+    {
+      "id": "skill_4404",
+      "name": "Doğal dil işleme",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4405",
+      "name": "Pandalar ve Numpy",
+      "difficulty_level": 5,
+      "description": "Learn and master Pandas & NumPy",
+      "tags": [
+        "pandas",
+        "numpy",
+        "skill"
+      ]
+    }
+  ]
+}

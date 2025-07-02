@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_automotive_repair",
+  "name": "ऑटोमोटिव्ह दुरुस्ती",
+  "skills": [
+    {
+      "id": "skill_5025",
+      "name": "वातानुकूलन दुरुस्ती",
+      "difficulty_level": 3,
+      "description": "Learn and master Air Conditioning Repair",
+      "tags": [
+        "conditioning",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5026",
+      "name": "बॅटरी बदलण्याची शक्यता",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5027",
+      "name": "ब्रेक रिप्लेसमेंट",
+      "difficulty_level": 2,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5028",
+      "name": "इंजिन डायग्नोस्टिक्स",
+      "difficulty_level": 4,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5029",
+      "name": "द्रव तपासणी",
+      "difficulty_level": 5,
+      "description": "Learn and master Fluid Checks",
+      "tags": [
+        "fluid",
+        "checks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5030",
+      "name": "तेल बदल",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5031",
+      "name": "स्पार्क प्लग रिप्लेसमेंट",
+      "difficulty_level": 2,
+      "description": "Learn and master Spark Plug Replacement",
+      "tags": [
+        "spark",
+        "plug",
+        "replacement"
+      ]
+    },
+    {
+      "id": "skill_5032",
+      "name": "निलंबन दुरुस्ती",
+      "difficulty_level": 3,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5033",
+      "name": "टायर रोटेशन",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5034",
+      "name": "प्रसारण देखभाल",
+      "difficulty_level": 2,
+      "description": "Learn and master Transmission Maintenance",
+      "tags": [
+        "transmission",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

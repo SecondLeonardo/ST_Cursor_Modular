@@ -1,0 +1,117 @@
+{
+  "id": "business_finance_e-commerce",
+  "name": "Thương mại điện tử",
+  "skills": [
+    {
+      "id": "skill_800",
+      "name": "Chiến lược giữ chân khách hàng",
+      "difficulty_level": 3,
+      "description": "Learn and master Customer Retention Strategies",
+      "tags": [
+        "customer",
+        "retention",
+        "strategies"
+      ]
+    },
+    {
+      "id": "skill_801",
+      "name": "Phân tích thương mại điện tử",
+      "difficulty_level": 4,
+      "description": "Learn and master E-commerce Analytics",
+      "tags": [
+        "e-commerce",
+        "analytics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_802",
+      "name": "Quản lý hàng tồn kho",
+      "difficulty_level": 2,
+      "description": "Learn and master Inventory Management",
+      "tags": [
+        "inventory",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_803",
+      "name": "Bán hàng thị trường (eBay, Amazon)",
+      "difficulty_level": 3,
+      "description": "Learn and master Marketplace Selling (eBay, Amazon)",
+      "tags": [
+        "marketplace",
+        "selling",
+        "(ebay,",
+        "amazon)"
+      ]
+    },
+    {
+      "id": "skill_804",
+      "name": "Tích hợp thanh toán trực tuyến",
+      "difficulty_level": 1,
+      "description": "Learn and master Online Payment Integration",
+      "tags": [
+        "online",
+        "payment",
+        "integration"
+      ]
+    },
+    {
+      "id": "skill_805",
+      "name": "Thực hiện đơn đặt hàng",
+      "difficulty_level": 2,
+      "description": "Learn and master Order Fulfillment",
+      "tags": [
+        "order",
+        "fulfillment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_806",
+      "name": "Tối ưu hóa danh sách sản phẩm",
+      "difficulty_level": 4,
+      "description": "Learn and master Product Listing Optimization",
+      "tags": [
+        "product",
+        "listing",
+        "optimization"
+      ]
+    },
+    {
+      "id": "skill_807",
+      "name": "Trả lại xử lý chính sách",
+      "difficulty_level": 1,
+      "description": "Learn and master Return Policy Handling",
+      "tags": [
+        "return",
+        "policy",
+        "handling"
+      ]
+    },
+    {
+      "id": "skill_808",
+      "name": "Cửa hàng thiết lập cửa hàng",
+      "difficulty_level": 5,
+      "description": "Learn and master Shopify Store Setup",
+      "tags": [
+        "shopify",
+        "store",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_809",
+      "name": "Kỹ thuật bán hàng",
+      "difficulty_level": 2,
+      "description": "Learn and master Upselling Techniques",
+      "tags": [
+        "upselling",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

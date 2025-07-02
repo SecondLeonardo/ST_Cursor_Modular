@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_networking_it",
+  "name": "เครือข่าย & มัน",
+  "skills": [
+    {
+      "id": "skill_4785",
+      "name": "การตั้งค่าฮาร์ดแวร์",
+      "difficulty_level": 1,
+      "description": "Learn and master Hardware Setup",
+      "tags": [
+        "hardware",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4786",
+      "name": "การระบุที่อยู่ IP",
+      "difficulty_level": 4,
+      "description": "Learn and master IP Addressing",
+      "tags": [
+        "addressing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4787",
+      "name": "มันแก้ไขปัญหา",
+      "difficulty_level": 3,
+      "description": "Learn and master IT Troubleshooting",
+      "tags": [
+        "troubleshooting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4788",
+      "name": "การตั้งค่า LAN/WAN",
+      "difficulty_level": 1,
+      "description": "Learn and master LAN/WAN Setup",
+      "tags": [
+        "lan/wan",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4789",
+      "name": "การตรวจสอบเครือข่าย",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Monitoring",
+      "tags": [
+        "network",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4790",
+      "name": "โปรโตคอลเครือข่าย",
+      "difficulty_level": 3,
+      "description": "Learn and master Network Protocols",
+      "tags": [
+        "network",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4791",
+      "name": "การตั้งค่าการเข้าถึงระยะไกล",
+      "difficulty_level": 2,
+      "description": "Learn and master Remote Access Setup",
+      "tags": [
+        "remote",
+        "access",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4792",
+      "name": "การกำหนดค่าเราเตอร์",
+      "difficulty_level": 5,
+      "description": "Learn and master Router Configuration",
+      "tags": [
+        "router",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4793",
+      "name": "การบำรุงรักษาเซิร์ฟเวอร์",
+      "difficulty_level": 1,
+      "description": "Learn and master Server Maintenance",
+      "tags": [
+        "server",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4794",
+      "name": "การกำหนดค่า VPN",
+      "difficulty_level": 1,
+      "description": "Learn and master VPN Configuration",
+      "tags": [
+        "configuration",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

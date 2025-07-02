@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "ทักษะวิทยาศาสตร์และการวิจัย",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "การเขียนเชิงวิชาการ"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "วิทยาศาสตร์ชีวภาพ"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "คอมพิวเตอร์และวิทยาศาสตร์ข้อมูล"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "วิทยาศาสตร์โลกและสิ่งแวดล้อม"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "วิทยาศาสตร์วิศวกรรมศาสตร์"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "คณิตศาสตร์และสถิติ"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "วิทยาศาสตร์การแพทย์และสุขภาพ"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "วิทยาศาสตร์กายภาพ"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "วิธีการวิจัย"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "สังคมศาสตร์"
+    }
+  ]
+}

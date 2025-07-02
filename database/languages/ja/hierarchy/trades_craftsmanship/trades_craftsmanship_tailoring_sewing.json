@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_tailoring_sewing",
+  "name": "仕立てと縫製",
+  "skills": [
+    {
+      "id": "skill_5015",
+      "name": "ボタンホールの縫製",
+      "difficulty_level": 5,
+      "description": "Learn and master Buttonhole Sewing",
+      "tags": [
+        "buttonhole",
+        "sewing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5016",
+      "name": "衣服の変更",
+      "difficulty_level": 4,
+      "description": "Learn and master Clothing Alterations",
+      "tags": [
+        "clothing",
+        "alterations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5017",
+      "name": "コスチューム作り",
+      "difficulty_level": 4,
+      "description": "Learn and master Costume Making",
+      "tags": [
+        "costume",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5018",
+      "name": "刺繍",
+      "difficulty_level": 4,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5019",
+      "name": "生地切断",
+      "difficulty_level": 2,
+      "description": "Learn and master Fabric Cutting",
+      "tags": [
+        "fabric",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5020",
+      "name": "手縫い",
+      "difficulty_level": 2,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5021",
+      "name": "パターンドラフト",
+      "difficulty_level": 5,
+      "description": "Learn and master Pattern Drafting",
+      "tags": [
+        "pattern",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5022",
+      "name": "キルティング",
+      "difficulty_level": 3,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5023",
+      "name": "ミシンの使用",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Machine Use",
+      "tags": [
+        "sewing",
+        "machine",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5024",
+      "name": "ジッパー交換",
+      "difficulty_level": 1,
+      "description": "Learn and master Zipper Replacement",
+      "tags": [
+        "zipper",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

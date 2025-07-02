@@ -1,0 +1,116 @@
+{
+  "id": "technical_mechanical_skills_automotive_skills",
+  "name": "ทักษะยานยนต์",
+  "skills": [
+    {
+      "id": "skill_4556",
+      "name": "การบำรุงรักษาแบตเตอรี่",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Maintenance",
+      "tags": [
+        "battery",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4557",
+      "name": "การเปลี่ยนฟิลเตอร์อากาศ",
+      "difficulty_level": 2,
+      "description": "Learn and master Changing Air Filters",
+      "tags": [
+        "changing",
+        "filters",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4558",
+      "name": "เปลี่ยนน้ำมัน",
+      "difficulty_level": 3,
+      "description": "Learn and master Changing Oil",
+      "tags": [
+        "changing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4559",
+      "name": "การวินิจฉัยปัญหารถยนต์",
+      "difficulty_level": 2,
+      "description": "Learn and master Diagnosing Car Issues",
+      "tags": [
+        "diagnosing",
+        "issues",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4560",
+      "name": "ซ่อมยางแบน",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Flat Tires",
+      "tags": [
+        "fixing",
+        "flat",
+        "tires"
+      ]
+    },
+    {
+      "id": "skill_4561",
+      "name": "การเติมสารหล่อเย็น",
+      "difficulty_level": 2,
+      "description": "Learn and master Refilling Coolant",
+      "tags": [
+        "refilling",
+        "coolant",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4562",
+      "name": "แทนที่ผ้าเบรก",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing Brake Pads",
+      "tags": [
+        "replacing",
+        "brake",
+        "pads"
+      ]
+    },
+    {
+      "id": "skill_4563",
+      "name": "การเปลี่ยนไฟหน้า",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing Headlights",
+      "tags": [
+        "replacing",
+        "headlights",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4564",
+      "name": "ทำความเข้าใจส่วนประกอบเครื่องยนต์",
+      "difficulty_level": 4,
+      "description": "Learn and master Understanding Engine Components",
+      "tags": [
+        "understanding",
+        "engine",
+        "components"
+      ]
+    },
+    {
+      "id": "skill_4565",
+      "name": "ใช้เครื่องสแกน OBD2",
+      "difficulty_level": 4,
+      "description": "Learn and master Using OBD2 Scanners",
+      "tags": [
+        "using",
+        "obd2",
+        "scanners"
+      ]
+    }
+  ]
+}

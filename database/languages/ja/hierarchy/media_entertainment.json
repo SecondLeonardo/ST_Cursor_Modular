@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "メディアとエンターテイメント",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "ビデオ制作"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "オーディオ制作"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "写真"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "グラフィックデザイン"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "演技とパフォーマンス"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "執筆と脚本"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "放送"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "Salud y bienestar",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "Medicina alternativa"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "Primeros auxilios y emergencia"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "Entrenamiento físico"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "Salud holística"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "Conocimiento médico"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "Habilidades médicas"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "Salud mental"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "Prácticas de salud mental"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "Mindfulness y meditación"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "Nutrición y dieta"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "Cuidado personal"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "Aptitud física"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "Rehabilitación y terapia"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "Salud reproductiva"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "Autocuidado e higiene"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "Sueño y recuperación"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "Manejo del estrés"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "Yoga y meditación"
+    }
+  ]
+}

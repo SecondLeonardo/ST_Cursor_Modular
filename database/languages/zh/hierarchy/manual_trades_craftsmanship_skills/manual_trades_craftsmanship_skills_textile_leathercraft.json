@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+  "name": "纺织品和皮革",
+  "skills": [
+    {
+      "id": "skill_3488",
+      "name": "袋子制作",
+      "difficulty_level": 5,
+      "description": "Learn and master Bag Making",
+      "tags": [
+        "making",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3489",
+      "name": "染色技术",
+      "difficulty_level": 1,
+      "description": "Learn and master Dyeing Techniques",
+      "tags": [
+        "dyeing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3490",
+      "name": "刺绣",
+      "difficulty_level": 1,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3491",
+      "name": "织物编织",
+      "difficulty_level": 3,
+      "description": "Learn and master Fabric Weaving",
+      "tags": [
+        "fabric",
+        "weaving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3492",
+      "name": "皮革工具",
+      "difficulty_level": 3,
+      "description": "Learn and master Leather Tooling",
+      "tags": [
+        "leather",
+        "tooling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3493",
+      "name": "拼布",
+      "difficulty_level": 1,
+      "description": "Learn and master Patchwork",
+      "tags": [
+        "patchwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3494",
+      "name": "模式制作",
+      "difficulty_level": 3,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3495",
+      "name": "缝",
+      "difficulty_level": 4,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3496",
+      "name": "马鞍缝",
+      "difficulty_level": 2,
+      "description": "Learn and master Saddle Stitching",
+      "tags": [
+        "saddle",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3497",
+      "name": "缝纫机操作",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Machine Operation",
+      "tags": [
+        "sewing",
+        "machine",
+        "operation"
+      ]
+    }
+  ]
+}

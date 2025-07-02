@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "Afya na Usawa",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "Utunzaji wa mwili na ustawi"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "Msaada wa Kwanza na Usalama"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "Afya ya akili"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "Lishe na lishe"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "Mafunzo ya mwili"
+    }
+  ]
+}

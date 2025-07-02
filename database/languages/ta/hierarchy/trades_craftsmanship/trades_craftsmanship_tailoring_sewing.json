@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_tailoring_sewing",
+  "name": "தையல் மற்றும் தையல்",
+  "skills": [
+    {
+      "id": "skill_5015",
+      "name": "பொத்தான்ஹோல் தையல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Buttonhole Sewing",
+      "tags": [
+        "buttonhole",
+        "sewing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5016",
+      "name": "ஆடை மாற்றங்கள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Clothing Alterations",
+      "tags": [
+        "clothing",
+        "alterations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5017",
+      "name": "ஆடை தயாரித்தல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Costume Making",
+      "tags": [
+        "costume",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5018",
+      "name": "எம்பிராய்டரி",
+      "difficulty_level": 4,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5019",
+      "name": "துணி வெட்டுதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Fabric Cutting",
+      "tags": [
+        "fabric",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5020",
+      "name": "கை தையல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5021",
+      "name": "முறை வரைவு",
+      "difficulty_level": 5,
+      "description": "Learn and master Pattern Drafting",
+      "tags": [
+        "pattern",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5022",
+      "name": "குயில்டிங்",
+      "difficulty_level": 3,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5023",
+      "name": "தையல் இயந்திர பயன்பாடு",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Machine Use",
+      "tags": [
+        "sewing",
+        "machine",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5024",
+      "name": "ஜிப்பர் மாற்று",
+      "difficulty_level": 1,
+      "description": "Learn and master Zipper Replacement",
+      "tags": [
+        "zipper",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

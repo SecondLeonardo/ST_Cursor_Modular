@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_electrical_work",
+  "name": "மின் வேலை",
+  "skills": [
+    {
+      "id": "skill_4955",
+      "name": "சுற்று நிறுவல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Circuit Installation",
+      "tags": [
+        "circuit",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4956",
+      "name": "வழித்தட வளைவு",
+      "difficulty_level": 4,
+      "description": "Learn and master Conduit Bending",
+      "tags": [
+        "conduit",
+        "bending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4957",
+      "name": "மின் குறியீடு இணக்கம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Electrical Code Compliance",
+      "tags": [
+        "electrical",
+        "code",
+        "compliance"
+      ]
+    },
+    {
+      "id": "skill_4958",
+      "name": "மின் குழு மேம்படுத்தல்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Panel Upgrades",
+      "tags": [
+        "electrical",
+        "panel",
+        "upgrades"
+      ]
+    },
+    {
+      "id": "skill_4959",
+      "name": "ஜெனரேட்டர் ஹூக்கப்",
+      "difficulty_level": 1,
+      "description": "Learn and master Generator Hookup",
+      "tags": [
+        "generator",
+        "hookup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4960",
+      "name": "வீட்டு ஆட்டோமேஷன்",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Automation",
+      "tags": [
+        "home",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4961",
+      "name": "லைட்டிங் நிறுவல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Lighting Installation",
+      "tags": [
+        "lighting",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4962",
+      "name": "மல்டிமீட்டர் பயன்பாடு",
+      "difficulty_level": 2,
+      "description": "Learn and master Multimeter Use",
+      "tags": [
+        "multimeter",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4963",
+      "name": "சரிசெய்தல் சுற்றுகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Troubleshooting Circuits",
+      "tags": [
+        "troubleshooting",
+        "circuits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4964",
+      "name": "வயரிங் பழுது",
+      "difficulty_level": 3,
+      "description": "Learn and master Wiring Repair",
+      "tags": [
+        "wiring",
+        "repair",
+        "skill"
+      ]
+    }
+  ]
+}

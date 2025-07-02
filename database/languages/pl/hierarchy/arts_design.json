@@ -1,0 +1,46 @@
+{
+  "id": "arts_design",
+  "name": "Sztuka i projekt",
+  "subcategories": [
+    {
+      "id": "arts_design_3d_modeling",
+      "name": "Modelowanie 3D"
+    },
+    {
+      "id": "arts_design_architecture_design",
+      "name": "Projekt architektury"
+    },
+    {
+      "id": "arts_design_crafts",
+      "name": "Rzemieślnictwo"
+    },
+    {
+      "id": "arts_design_fashion_textiles",
+      "name": "Moda i tekstylia"
+    },
+    {
+      "id": "arts_design_film_video",
+      "name": "Film i wideo"
+    },
+    {
+      "id": "arts_design_graphic_design",
+      "name": "Projekt graficzny"
+    },
+    {
+      "id": "arts_design_interior_design",
+      "name": "Architektura wnętrz"
+    },
+    {
+      "id": "arts_design_performing_arts",
+      "name": "Performing Arts"
+    },
+    {
+      "id": "arts_design_photography",
+      "name": "Fotografia"
+    },
+    {
+      "id": "arts_design_visual_arts",
+      "name": "Sztuki wizualne"
+    }
+  ]
+}

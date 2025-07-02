@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "Tekniska och digitala färdigheter",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "AI & Machine Learning"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "Molnberäkning"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "Cybersäkerhet"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "Data & Analytics"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "Data Science & AI"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "DevOps & Automation"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "Spelutveckling"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "Det & nätverk"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "Det stöder och nätverk"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "Mobilapputveckling"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "Programmering och mjukvaruutveckling"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "Mjukvaruutveckling"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "Teknisk hårdvara och reparation"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "Teknisk support och felsökning"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "Webbutveckling"
+    }
+  ]
+}

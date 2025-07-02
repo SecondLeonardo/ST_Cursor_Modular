@@ -1,0 +1,117 @@
+{
+  "id": "technology_digital_skills_it_networking",
+  "name": "இது & நெட்வொர்க்கிங்",
+  "skills": [
+    {
+      "id": "skill_4775",
+      "name": "கிளவுட் கம்ப்யூட்டிங் (AWS, Azure)",
+      "difficulty_level": 5,
+      "description": "Learn and master Cloud Computing (AWS, Azure)",
+      "tags": [
+        "cloud",
+        "computing",
+        "(aws,",
+        "azure)"
+      ]
+    },
+    {
+      "id": "skill_4776",
+      "name": "கணினி சரிசெய்தல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Computer Troubleshooting",
+      "tags": [
+        "computer",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4777",
+      "name": "டி.என்.எஸ் மேலாண்மை",
+      "difficulty_level": 3,
+      "description": "Learn and master DNS Management",
+      "tags": [
+        "management",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4778",
+      "name": "தரவுத்தள நிர்வாகம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Database Administration",
+      "tags": [
+        "database",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4779",
+      "name": "மின்னஞ்சல் சேவையக அமைப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Email Server Setup",
+      "tags": [
+        "email",
+        "server",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4780",
+      "name": "லினக்ஸ் கட்டளை வரி",
+      "difficulty_level": 3,
+      "description": "Learn and master Linux Command Line",
+      "tags": [
+        "linux",
+        "command",
+        "line"
+      ]
+    },
+    {
+      "id": "skill_4781",
+      "name": "பிணைய உள்ளமைவு",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Configuration",
+      "tags": [
+        "network",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4782",
+      "name": "சேவையக மேலாண்மை",
+      "difficulty_level": 2,
+      "description": "Learn and master Server Management",
+      "tags": [
+        "server",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4783",
+      "name": "கணினி நிர்வாகம்",
+      "difficulty_level": 1,
+      "description": "Learn and master System Administration",
+      "tags": [
+        "system",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4784",
+      "name": "மெய்நிகராக்கம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Virtualization",
+      "tags": [
+        "virtualization",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

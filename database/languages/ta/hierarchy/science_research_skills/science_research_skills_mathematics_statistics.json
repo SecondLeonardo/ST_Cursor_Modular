@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_mathematics_statistics",
+  "name": "கணிதம் மற்றும் புள்ளிவிவரங்கள்",
+  "skills": [
+    {
+      "id": "skill_4098",
+      "name": "பேய்சியன் அனுமானம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Bayesian Inference",
+      "tags": [
+        "bayesian",
+        "inference",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4099",
+      "name": "கால்குலஸ்",
+      "difficulty_level": 1,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4100",
+      "name": "காம்பினடோரிக்ஸ்",
+      "difficulty_level": 4,
+      "description": "Learn and master Combinatorics",
+      "tags": [
+        "combinatorics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4101",
+      "name": "தரவு காட்சிப்படுத்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4102",
+      "name": "நேரியல் இயற்கணிதம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4103",
+      "name": "கணித மாடலிங்",
+      "difficulty_level": 1,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4104",
+      "name": "எண் கோட்பாடு",
+      "difficulty_level": 5,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4105",
+      "name": "நிகழ்தகவு கோட்பாடு",
+      "difficulty_level": 4,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4106",
+      "name": "பின்னடைவு பகுப்பாய்வு",
+      "difficulty_level": 1,
+      "description": "Learn and master Regression Analysis",
+      "tags": [
+        "regression",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4107",
+      "name": "புள்ளிவிவர பகுப்பாய்வு",
+      "difficulty_level": 4,
+      "description": "Learn and master Statistical Analysis",
+      "tags": [
+        "statistical",
+        "analysis",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "आरोग्य, फिटनेस आणि क्रीडा",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "फिटनेस प्रशिक्षण"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "पोषण"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "मैदानी आणि साहसी"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "क्रीडा कौशल्ये"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "निरोगीपणा आणि पुनर्प्राप्ती"
+    }
+  ]
+}

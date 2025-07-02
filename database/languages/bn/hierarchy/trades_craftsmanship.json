@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "বাণিজ্য ও কারুশিল্প",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "স্বয়ংচালিত মেরামত"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "ছুতার এবং কাঠের কাজ"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "নির্মাণ ও রাজমিস্ত্রি"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "বৈদ্যুতিক কাজ"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "এইচভিএসি এবং রেফ্রিজারেশন"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "গহনা তৈরি"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "ধাতব কাজ এবং ওয়েল্ডিং"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "পেইন্টিং এবং সাজসজ্জা"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "নদীর গভীরতানির্ণয়"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "টেইলারিং এবং সেলাই"
+    }
+  ]
+}

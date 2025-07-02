@@ -1,0 +1,30 @@
+{
+  "id": "language_communication_skills",
+  "name": "भाषा आणि संप्रेषण कौशल्य",
+  "subcategories": [
+    {
+      "id": "language_communication_skills_language_learning",
+      "name": "भाषा शिक्षण"
+    },
+    {
+      "id": "language_communication_skills_non-verbal_communication",
+      "name": "गैर-शाब्दिक संप्रेषण"
+    },
+    {
+      "id": "language_communication_skills_public_speaking",
+      "name": "सार्वजनिक बोलणे"
+    },
+    {
+      "id": "language_communication_skills_storytelling_narration",
+      "name": "कथाकथन आणि कथन"
+    },
+    {
+      "id": "language_communication_skills_verbal_communication",
+      "name": "तोंडी संप्रेषण"
+    },
+    {
+      "id": "language_communication_skills_writing_editing",
+      "name": "लेखन आणि संपादन"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "Kỹ năng thể chất & ngoài trời",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "Thể hình & điều hòa"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "Lao động và giao dịch thủ công"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "Giải trí ngoài trời"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "Tự vệ & Võ thuật"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "Thể thao & Thể thao"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "Survival & Bushcraft"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "वेगवेगळ्या देशांचे अन्न",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "इटालियन पाककृती"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "जपानी पाककृती"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "मेक्सिकन पाककृती"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "भारतीय पाककृती"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "फ्रेंच पाककृती"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "चिनी पाककृती"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "मध्य पूर्व पाककृती"
+    }
+  ]
+}

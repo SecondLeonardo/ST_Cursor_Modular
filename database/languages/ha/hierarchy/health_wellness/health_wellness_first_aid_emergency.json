@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_first_aid_emergency",
+  "name": "Taimakon farko da gaggawa",
+  "skills": [
+    {
+      "id": "skill_2503",
+      "name": "Hanyar bandaging",
+      "difficulty_level": 2,
+      "description": "Learn and master Bandaging Techniques",
+      "tags": [
+        "bandaging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2504",
+      "name": "Asalin CPR",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic CPR",
+      "tags": [
+        "basic",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2505",
+      "name": "Gudanar da jini",
+      "difficulty_level": 2,
+      "description": "Learn and master Bleeding Control",
+      "tags": [
+        "bleeding",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2506",
+      "name": "Yi ƙonawa",
+      "difficulty_level": 2,
+      "description": "Learn and master Burn Treatment",
+      "tags": [
+        "burn",
+        "treatment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2507",
+      "name": "Kira don Taimako",
+      "difficulty_level": 5,
+      "description": "Learn and master Calling for Help",
+      "tags": [
+        "calling",
+        "help",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2508",
+      "name": "Amsar Choki",
+      "difficulty_level": 2,
+      "description": "Learn and master Choking Response",
+      "tags": [
+        "choking",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2509",
+      "name": "Shirin gaggawa",
+      "difficulty_level": 5,
+      "description": "Learn and master Emergency Planning",
+      "tags": [
+        "emergency",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2510",
+      "name": "Amfani da Kit ɗin Taimako na Farko",
+      "difficulty_level": 4,
+      "description": "Learn and master First Aid Kit Use",
+      "tags": [
+        "first",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2511",
+      "name": "Gudanar da Guungar Shake",
+      "difficulty_level": 3,
+      "description": "Learn and master Shock Management",
+      "tags": [
+        "shock",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2512",
+      "name": "Flinting raunin da ya faru",
+      "difficulty_level": 4,
+      "description": "Learn and master Splinting Injuries",
+      "tags": [
+        "splinting",
+        "injuries",
+        "skill"
+      ]
+    }
+  ]
+}

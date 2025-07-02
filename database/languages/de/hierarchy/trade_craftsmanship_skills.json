@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "Handels- und Handwerkskunstfähigkeiten",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "Bau & Schreinerei"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "Elektrik und Sanitär"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "Handgefertigte Waren"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "Metallarbeiten und Schweißen"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "Textile & Ledercraft"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "Traditionelles Handwerk"
+    }
+  ]
+}

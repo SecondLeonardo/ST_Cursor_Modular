@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_game_development",
+  "name": "Desenvolvimento de jogos",
+  "skills": [
+    {
+      "id": "skill_4416",
+      "name": "Design de jogo 2D",
+      "difficulty_level": 4,
+      "description": "Learn and master 2D Game Design",
+      "tags": [
+        "game",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4417",
+      "name": "Design de jogo 3D",
+      "difficulty_level": 4,
+      "description": "Learn and master 3D Game Design",
+      "tags": [
+        "game",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4418",
+      "name": "Animação de jogo",
+      "difficulty_level": 3,
+      "description": "Learn and master Game Animation",
+      "tags": [
+        "game",
+        "animation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4419",
+      "name": "Design de mecânica de jogo",
+      "difficulty_level": 2,
+      "description": "Learn and master Game Mechanics Design",
+      "tags": [
+        "game",
+        "mechanics",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4420",
+      "name": "Script de jogo (C#)",
+      "difficulty_level": 3,
+      "description": "Learn and master Game Scripting (C#)",
+      "tags": [
+        "game",
+        "scripting",
+        "(c#)"
+      ]
+    },
+    {
+      "id": "skill_4421",
+      "name": "Design de nível",
+      "difficulty_level": 2,
+      "description": "Learn and master Level Design",
+      "tags": [
+        "level",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4422",
+      "name": "Dev multiplayer Game",
+      "difficulty_level": 3,
+      "description": "Learn and master Multiplayer Game Dev",
+      "tags": [
+        "multiplayer",
+        "game",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4423",
+      "name": "Desenvolvimento de unidades",
+      "difficulty_level": 2,
+      "description": "Learn and master Unity Development",
+      "tags": [
+        "unity",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4424",
+      "name": "Motor irreal",
+      "difficulty_level": 5,
+      "description": "Learn and master Unreal Engine",
+      "tags": [
+        "unreal",
+        "engine",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4425",
+      "name": "Desenvolvimento de jogos em VR",
+      "difficulty_level": 2,
+      "description": "Learn and master VR Game Development",
+      "tags": [
+        "game",
+        "development",
+        "skill"
+      ]
+    }
+  ]
+}

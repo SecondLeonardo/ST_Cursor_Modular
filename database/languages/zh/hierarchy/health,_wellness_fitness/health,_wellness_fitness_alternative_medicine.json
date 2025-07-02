@@ -1,0 +1,117 @@
+{
+  "id": "health,_wellness_fitness_alternative_medicine",
+  "name": "替代医学",
+  "skills": [
+    {
+      "id": "skill_2738",
+      "name": "启动技术",
+      "difficulty_level": 5,
+      "description": "Learn and master Acupressure Techniques",
+      "tags": [
+        "acupressure",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2739",
+      "name": "芳香疗法",
+      "difficulty_level": 5,
+      "description": "Learn and master Aromatherapy",
+      "tags": [
+        "aromatherapy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2740",
+      "name": "阿育吠陀节食",
+      "difficulty_level": 5,
+      "description": "Learn and master Ayurvedic Dieting",
+      "tags": [
+        "ayurvedic",
+        "dieting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2741",
+      "name": "脉轮平衡",
+      "difficulty_level": 4,
+      "description": "Learn and master Chakra Balancing",
+      "tags": [
+        "chakra",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2742",
+      "name": "水晶愈合",
+      "difficulty_level": 1,
+      "description": "Learn and master Crystal Healing",
+      "tags": [
+        "crystal",
+        "healing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2743",
+      "name": "草药疗法",
+      "difficulty_level": 1,
+      "description": "Learn and master Herbal Remedies",
+      "tags": [
+        "herbal",
+        "remedies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2744",
+      "name": "顺势疗法基础",
+      "difficulty_level": 5,
+      "description": "Learn and master Homeopathy Basics",
+      "tags": [
+        "homeopathy",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2745",
+      "name": "反射学",
+      "difficulty_level": 1,
+      "description": "Learn and master Reflexology",
+      "tags": [
+        "reflexology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2746",
+      "name": "灵气能量康复",
+      "difficulty_level": 4,
+      "description": "Learn and master Reiki Energy Healing",
+      "tags": [
+        "reiki",
+        "energy",
+        "healing"
+      ]
+    },
+    {
+      "id": "skill_2747",
+      "name": "传统中医概念",
+      "difficulty_level": 2,
+      "description": "Learn and master Traditional Chinese Medicine Concepts",
+      "tags": [
+        "traditional",
+        "chinese",
+        "medicine",
+        "concepts"
+      ]
+    }
+  ]
+}

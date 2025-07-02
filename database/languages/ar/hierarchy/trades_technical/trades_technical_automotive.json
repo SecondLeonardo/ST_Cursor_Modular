@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_automotive",
+  "name": "السيارات",
+  "skills": [
+    {
+      "id": "skill_5175",
+      "name": "فحص المحاذاة",
+      "difficulty_level": 4,
+      "description": "Learn and master Alignment Checking",
+      "tags": [
+        "alignment",
+        "checking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5176",
+      "name": "اختبار البطارية",
+      "difficulty_level": 2,
+      "description": "Learn and master Battery Testing",
+      "tags": [
+        "battery",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5177",
+      "name": "استبدال الفرامل",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5178",
+      "name": "تشخيصات المحرك",
+      "difficulty_level": 3,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5179",
+      "name": "إصلاح نظام العادم",
+      "difficulty_level": 5,
+      "description": "Learn and master Exhaust System Repair",
+      "tags": [
+        "exhaust",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_5180",
+      "name": "تغيير الزيت",
+      "difficulty_level": 5,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5181",
+      "name": "إصلاح التعليق",
+      "difficulty_level": 5,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5182",
+      "name": "دوران الإطارات",
+      "difficulty_level": 5,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5183",
+      "name": "إصلاح الإرسال",
+      "difficulty_level": 1,
+      "description": "Learn and master Transmission Repair",
+      "tags": [
+        "transmission",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5184",
+      "name": "فحص المركبات",
+      "difficulty_level": 5,
+      "description": "Learn and master Vehicle Inspection",
+      "tags": [
+        "vehicle",
+        "inspection",
+        "skill"
+      ]
+    }
+  ]
+}

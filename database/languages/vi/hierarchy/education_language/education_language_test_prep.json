@@ -1,0 +1,116 @@
+{
+  "id": "education_language_test_prep",
+  "name": "Thử nghiệm chuẩn bị",
+  "skills": [
+    {
+      "id": "skill_2333",
+      "name": "Hành động tiếng Anh",
+      "difficulty_level": 3,
+      "description": "Learn and master ACT English",
+      "tags": [
+        "english",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2334",
+      "name": "Huấn luyện thi AP",
+      "difficulty_level": 1,
+      "description": "Learn and master AP Exam Coaching",
+      "tags": [
+        "exam",
+        "coaching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2335",
+      "name": "Số lượng GMAT",
+      "difficulty_level": 5,
+      "description": "Learn and master GMAT Quant",
+      "tags": [
+        "gmat",
+        "quant",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2336",
+      "name": "GRE bằng lời nói",
+      "difficulty_level": 5,
+      "description": "Learn and master GRE Verbal",
+      "tags": [
+        "verbal",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2337",
+      "name": "Ielts nói",
+      "difficulty_level": 3,
+      "description": "Learn and master IELTS Speaking",
+      "tags": [
+        "ielts",
+        "speaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2338",
+      "name": "Trò chơi logic LSAT",
+      "difficulty_level": 2,
+      "description": "Learn and master LSAT Logic Games",
+      "tags": [
+        "lsat",
+        "logic",
+        "games"
+      ]
+    },
+    {
+      "id": "skill_2339",
+      "name": "Bài kiểm tra trình độ ngôn ngữ",
+      "difficulty_level": 4,
+      "description": "Learn and master Language Proficiency Exams",
+      "tags": [
+        "language",
+        "proficiency",
+        "exams"
+      ]
+    },
+    {
+      "id": "skill_2340",
+      "name": "MCAT Sinh học",
+      "difficulty_level": 3,
+      "description": "Learn and master MCAT Biology",
+      "tags": [
+        "mcat",
+        "biology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2341",
+      "name": "Sat Math",
+      "difficulty_level": 1,
+      "description": "Learn and master SAT Math",
+      "tags": [
+        "math",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2342",
+      "name": "Viết TOEFL",
+      "difficulty_level": 5,
+      "description": "Learn and master TOEFL Writing",
+      "tags": [
+        "toefl",
+        "writing",
+        "skill"
+      ]
+    }
+  ]
+}

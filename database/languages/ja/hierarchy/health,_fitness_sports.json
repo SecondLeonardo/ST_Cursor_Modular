@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "健康、フィットネス、スポーツ",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "フィットネストレーニング"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "栄養"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "屋外＆アドベンチャー"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "スポーツスキル"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "ウェルネスと回復"
+    }
+  ]
+}

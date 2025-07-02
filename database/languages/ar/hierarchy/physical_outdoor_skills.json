@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "المهارات المادية والخارجية",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "اللياقة والتكييف"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "العمل اليدوي والتداول"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "الترفيه في الهواء الطلق"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "الدفاع عن النفس وفنون القتال"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "الرياضة وألعاب القوى"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "البقاء على قيد الحياة و bushcraft"
+    }
+  ]
+}

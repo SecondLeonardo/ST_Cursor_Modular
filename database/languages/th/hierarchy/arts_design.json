@@ -1,0 +1,46 @@
+{
+  "id": "arts_design",
+  "name": "ศิลปะและการออกแบบ",
+  "subcategories": [
+    {
+      "id": "arts_design_3d_modeling",
+      "name": "การสร้างแบบจำลอง 3 มิติ"
+    },
+    {
+      "id": "arts_design_architecture_design",
+      "name": "การออกแบบสถาปัตยกรรม"
+    },
+    {
+      "id": "arts_design_crafts",
+      "name": "งานฝีมือ"
+    },
+    {
+      "id": "arts_design_fashion_textiles",
+      "name": "แฟชั่นและสิ่งทอ"
+    },
+    {
+      "id": "arts_design_film_video",
+      "name": "ภาพยนตร์และวิดีโอ"
+    },
+    {
+      "id": "arts_design_graphic_design",
+      "name": "การออกแบบกราฟิก"
+    },
+    {
+      "id": "arts_design_interior_design",
+      "name": "การออกแบบภายใน"
+    },
+    {
+      "id": "arts_design_performing_arts",
+      "name": "ศิลปะการแสดง"
+    },
+    {
+      "id": "arts_design_photography",
+      "name": "การถ่ายภาพ"
+    },
+    {
+      "id": "arts_design_visual_arts",
+      "name": "ทัศนศิลป์"
+    }
+  ]
+}

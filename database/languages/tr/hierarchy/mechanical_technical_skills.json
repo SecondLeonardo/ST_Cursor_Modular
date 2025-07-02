@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "Mekanik ve Teknik Beceriler",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "Otomotiv bakımı"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "Mühendislik Temelleri"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "Ev Onarımı ve Kurulumu"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "Makine işlemi"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "Araç Kullanımı ve Güvenliği"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "Ahşap ve Metal İşi"
+    }
+  ]
+}

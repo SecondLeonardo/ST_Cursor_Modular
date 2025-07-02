@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "Teknisk teknik",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "Civil- och strukturell"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "Elektroteknik"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "Tillverkning och tillverkning"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "Maskinteknik"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "Programvara och system"
+    }
+  ]
+}

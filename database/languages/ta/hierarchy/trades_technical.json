@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "வர்த்தகங்கள் & தொழில்நுட்ப",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "தானியங்கி"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "தச்சு"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "கட்டுமானம்"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "மின்"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "கொத்து"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "இயந்திர"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "ஓவியம் மற்றும் அலங்கரித்தல்"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "பிளம்பிங்"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "வெல்டிங்"
+    }
+  ]
+}

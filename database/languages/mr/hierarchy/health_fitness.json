@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "आरोग्य आणि तंदुरुस्ती",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "शरीर काळजी आणि निरोगीपणा"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "प्रथमोपचार आणि सुरक्षा"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "मानसिक आरोग्य"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "पोषण आणि आहार"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "शारीरिक प्रशिक्षण"
+    }
+  ]
+}

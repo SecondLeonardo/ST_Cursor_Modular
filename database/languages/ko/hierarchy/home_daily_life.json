@@ -1,0 +1,46 @@
+{
+  "id": "home_daily_life",
+  "name": "가정 및 일상 생활",
+  "subcategories": [
+    {
+      "id": "home_daily_life_budgeting_household_finance",
+      "name": "예산 및 가계 금융"
+    },
+    {
+      "id": "home_daily_life_childcare",
+      "name": "보육"
+    },
+    {
+      "id": "home_daily_life_cooking_meal_prep",
+      "name": "요리 및 식사 준비"
+    },
+    {
+      "id": "home_daily_life_grocery_shopping",
+      "name": "식료품 쇼핑"
+    },
+    {
+      "id": "home_daily_life_home_cleaning",
+      "name": "가정 청소"
+    },
+    {
+      "id": "home_daily_life_home_maintenance",
+      "name": "가정 유지 보수"
+    },
+    {
+      "id": "home_daily_life_laundry_clothing_care",
+      "name": "세탁 및 의류 관리"
+    },
+    {
+      "id": "home_daily_life_organizing_decluttering",
+      "name": "조직 및 정리"
+    },
+    {
+      "id": "home_daily_life_pet_care",
+      "name": "애완 동물 관리"
+    },
+    {
+      "id": "home_daily_life_time_management",
+      "name": "시간 관리"
+    }
+  ]
+}

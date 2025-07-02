@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_visual_arts",
+  "name": "视觉艺术",
+  "skills": [
+    {
+      "id": "skill_760",
+      "name": "丙烯酸绘画",
+      "difficulty_level": 1,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_761",
+      "name": "木炭图",
+      "difficulty_level": 2,
+      "description": "Learn and master Charcoal Drawing",
+      "tags": [
+        "charcoal",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_762",
+      "name": "颜色理论",
+      "difficulty_level": 3,
+      "description": "Learn and master Color Theory",
+      "tags": [
+        "color",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_763",
+      "name": "图形图",
+      "difficulty_level": 5,
+      "description": "Learn and master Figure Drawing",
+      "tags": [
+        "figure",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_764",
+      "name": "混合媒体艺术",
+      "difficulty_level": 2,
+      "description": "Learn and master Mixed Media Art",
+      "tags": [
+        "mixed",
+        "media",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_765",
+      "name": "透视图",
+      "difficulty_level": 1,
+      "description": "Learn and master Perspective Drawing",
+      "tags": [
+        "perspective",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_766",
+      "name": "肖像插图",
+      "difficulty_level": 3,
+      "description": "Learn and master Portrait Illustration",
+      "tags": [
+        "portrait",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_767",
+      "name": "素描",
+      "difficulty_level": 3,
+      "description": "Learn and master Sketching",
+      "tags": [
+        "sketching",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_768",
+      "name": "静物绘画",
+      "difficulty_level": 1,
+      "description": "Learn and master Still Life Painting",
+      "tags": [
+        "still",
+        "life",
+        "painting"
+      ]
+    },
+    {
+      "id": "skill_769",
+      "name": "水彩画",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Painting",
+      "tags": [
+        "watercolor",
+        "painting",
+        "skill"
+      ]
+    }
+  ]
+}

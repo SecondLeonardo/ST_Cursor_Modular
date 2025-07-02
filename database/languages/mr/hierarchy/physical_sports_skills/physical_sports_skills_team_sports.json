@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_team_sports",
+  "name": "संघ खेळ",
+  "skills": [
+    {
+      "id": "skill_4038",
+      "name": "बेसबॉल पिचिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Baseball Pitching",
+      "tags": [
+        "baseball",
+        "pitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4039",
+      "name": "बास्केटबॉल ड्रिबलिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Basketball Dribbling",
+      "tags": [
+        "basketball",
+        "dribbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4040",
+      "name": "क्रिकेट फलंदाजी",
+      "difficulty_level": 2,
+      "description": "Learn and master Cricket Batting",
+      "tags": [
+        "cricket",
+        "batting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4041",
+      "name": "हॉकी स्टिक हाताळणी",
+      "difficulty_level": 3,
+      "description": "Learn and master Hockey Stick Handling",
+      "tags": [
+        "hockey",
+        "stick",
+        "handling"
+      ]
+    },
+    {
+      "id": "skill_4042",
+      "name": "रग्बी टॅकलिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Rugby Tackling",
+      "tags": [
+        "rugby",
+        "tackling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4043",
+      "name": "सॉकर पासिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Soccer Passing",
+      "tags": [
+        "soccer",
+        "passing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4044",
+      "name": "सॉफ्टबॉल पकड",
+      "difficulty_level": 3,
+      "description": "Learn and master Softball Catching",
+      "tags": [
+        "softball",
+        "catching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4045",
+      "name": "कार्यसंघ रणनीती समजून घेणे",
+      "difficulty_level": 1,
+      "description": "Learn and master Team Strategy Understanding",
+      "tags": [
+        "team",
+        "strategy",
+        "understanding"
+      ]
+    },
+    {
+      "id": "skill_4046",
+      "name": "अल्टिमेट फ्रिसबी फेकणे",
+      "difficulty_level": 3,
+      "description": "Learn and master Ultimate Frisbee Throwing",
+      "tags": [
+        "ultimate",
+        "frisbee",
+        "throwing"
+      ]
+    },
+    {
+      "id": "skill_4047",
+      "name": "व्हॉलीबॉल सर्व्हिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Volleyball Serving",
+      "tags": [
+        "volleyball",
+        "serving",
+        "skill"
+      ]
+    }
+  ]
+}

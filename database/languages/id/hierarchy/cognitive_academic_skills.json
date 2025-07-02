@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "Keterampilan kognitif & akademik",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "Pemikiran kritis"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "Bahasa & Linguistik"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "Matematika & Logika"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "Memori & Fokus"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "Sains & Penelitian"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "Keterampilan belajar & belajar"
+    }
+  ]
+}

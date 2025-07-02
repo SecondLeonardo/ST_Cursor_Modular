@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "Sztuka, design i kreatywność",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "Rzemiosło i majsterkowanie"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "Kreatywne pisanie"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "Projektowanie i sztuka cyfrowa"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "Performing Arts"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "Sztuki wizualne"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "ጤና, የአካል ብቃት እና ስፖርቶች",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "የአካል ብቃት እንቅስቃሴ ስልጠና"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "የአመጋገብ ስርዓት"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "ከቤት ውጭ እና ጀብዱ"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "የስፖርት ችሎታ"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "ጤንነት እና ማገገም"
+    }
+  ]
+}

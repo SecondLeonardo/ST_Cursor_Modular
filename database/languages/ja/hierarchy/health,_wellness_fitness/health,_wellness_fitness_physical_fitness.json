@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_physical_fitness",
+  "name": "体力",
+  "skills": [
+    {
+      "id": "skill_2788",
+      "name": "体重エクササイズ",
+      "difficulty_level": 1,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2789",
+      "name": "有酸素運動",
+      "difficulty_level": 5,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2790",
+      "name": "持久力トレーニング",
+      "difficulty_level": 4,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2791",
+      "name": "フィットネス計画",
+      "difficulty_level": 2,
+      "description": "Learn and master Fitness Planning",
+      "tags": [
+        "fitness",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2792",
+      "name": "機能的な動き",
+      "difficulty_level": 3,
+      "description": "Learn and master Functional Movement",
+      "tags": [
+        "functional",
+        "movement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2793",
+      "name": "hiitルーチン",
+      "difficulty_level": 5,
+      "description": "Learn and master HIIT Routines",
+      "tags": [
+        "hiit",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2794",
+      "name": "ケトルベルワークアウト",
+      "difficulty_level": 5,
+      "description": "Learn and master Kettlebell Workouts",
+      "tags": [
+        "kettlebell",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2795",
+      "name": "プライメトリクス",
+      "difficulty_level": 2,
+      "description": "Learn and master Plyometrics",
+      "tags": [
+        "plyometrics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2796",
+      "name": "筋力トレーニング",
+      "difficulty_level": 1,
+      "description": "Learn and master Strength Training",
+      "tags": [
+        "strength",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2797",
+      "name": "ストレッチテクニック",
+      "difficulty_level": 4,
+      "description": "Learn and master Stretching Techniques",
+      "tags": [
+        "stretching",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

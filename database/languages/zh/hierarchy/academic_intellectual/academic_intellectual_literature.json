@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_literature",
+  "name": "文学",
+  "skills": [
+    {
+      "id": "skill_40",
+      "name": "古典文学",
+      "difficulty_level": 3,
+      "description": "Learn and master Classical Literature",
+      "tags": [
+        "classical",
+        "literature",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_41",
+      "name": "比较文献",
+      "difficulty_level": 4,
+      "description": "Learn and master Comparative Literature",
+      "tags": [
+        "comparative",
+        "literature",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_42",
+      "name": "当代小说",
+      "difficulty_level": 4,
+      "description": "Learn and master Contemporary Fiction",
+      "tags": [
+        "contemporary",
+        "fiction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_43",
+      "name": "创意非小说",
+      "difficulty_level": 4,
+      "description": "Learn and master Creative Nonfiction",
+      "tags": [
+        "creative",
+        "nonfiction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_44",
+      "name": "流派研究",
+      "difficulty_level": 3,
+      "description": "Learn and master Genre Studies",
+      "tags": [
+        "genre",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_45",
+      "name": "文学分析",
+      "difficulty_level": 3,
+      "description": "Learn and master Literary Analysis",
+      "tags": [
+        "literary",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_46",
+      "name": "叙事理论",
+      "difficulty_level": 1,
+      "description": "Learn and master Narrative Theory",
+      "tags": [
+        "narrative",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_47",
+      "name": "诗歌分析",
+      "difficulty_level": 2,
+      "description": "Learn and master Poetry Analysis",
+      "tags": [
+        "poetry",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_48",
+      "name": "莎士比亚研究",
+      "difficulty_level": 2,
+      "description": "Learn and master Shakespeare Studies",
+      "tags": [
+        "shakespeare",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_49",
+      "name": "世界文学",
+      "difficulty_level": 2,
+      "description": "Learn and master World Literature",
+      "tags": [
+        "world",
+        "literature",
+        "skill"
+      ]
+    }
+  ]
+}

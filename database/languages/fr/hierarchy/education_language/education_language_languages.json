@@ -1,0 +1,116 @@
+{
+  "id": "education_language_languages",
+  "name": "Langues",
+  "skills": [
+    {
+      "id": "skill_2283",
+      "name": "Lecture du script arabe",
+      "difficulty_level": 4,
+      "description": "Learn and master Arabic Script Reading",
+      "tags": [
+        "arabic",
+        "script",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_2284",
+      "name": "Maîtrise de l'anglais",
+      "difficulty_level": 5,
+      "description": "Learn and master English Fluency",
+      "tags": [
+        "english",
+        "fluency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2285",
+      "name": "Prononciation française",
+      "difficulty_level": 5,
+      "description": "Learn and master French Pronunciation",
+      "tags": [
+        "french",
+        "pronunciation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2286",
+      "name": "Grammaire allemande",
+      "difficulty_level": 5,
+      "description": "Learn and master German Grammar",
+      "tags": [
+        "german",
+        "grammar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2287",
+      "name": "Écriture kanji japonaise",
+      "difficulty_level": 2,
+      "description": "Learn and master Japanese Kanji Writing",
+      "tags": [
+        "japanese",
+        "kanji",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_2288",
+      "name": "Lecture de hangul coréen",
+      "difficulty_level": 5,
+      "description": "Learn and master Korean Hangul Reading",
+      "tags": [
+        "korean",
+        "hangul",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_2289",
+      "name": "Bases du mandarin",
+      "difficulty_level": 2,
+      "description": "Learn and master Mandarin Basics",
+      "tags": [
+        "mandarin",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2290",
+      "name": "Vocabulaire portugais",
+      "difficulty_level": 2,
+      "description": "Learn and master Portuguese Vocabulary",
+      "tags": [
+        "portuguese",
+        "vocabulary",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2291",
+      "name": "Compréhension de l'écoute russe",
+      "difficulty_level": 1,
+      "description": "Learn and master Russian Listening Comprehension",
+      "tags": [
+        "russian",
+        "listening",
+        "comprehension"
+      ]
+    },
+    {
+      "id": "skill_2292",
+      "name": "Conversation espagnole",
+      "difficulty_level": 3,
+      "description": "Learn and master Spanish Conversation",
+      "tags": [
+        "spanish",
+        "conversation",
+        "skill"
+      ]
+    }
+  ]
+}

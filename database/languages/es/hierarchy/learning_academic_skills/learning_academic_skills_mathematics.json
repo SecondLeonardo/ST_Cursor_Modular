@@ -1,0 +1,116 @@
+{
+  "id": "learning_academic_skills_mathematics",
+  "name": "Matemáticas",
+  "skills": [
+    {
+      "id": "skill_3158",
+      "name": "Conceptos básicos de álgebra",
+      "difficulty_level": 1,
+      "description": "Learn and master Algebra Basics",
+      "tags": [
+        "algebra",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3159",
+      "name": "Derivados del cálculo",
+      "difficulty_level": 2,
+      "description": "Learn and master Calculus Derivatives",
+      "tags": [
+        "calculus",
+        "derivatives",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3160",
+      "name": "Pruebas de geometría",
+      "difficulty_level": 3,
+      "description": "Learn and master Geometry Proofs",
+      "tags": [
+        "geometry",
+        "proofs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3161",
+      "name": "Ecuaciones lineales",
+      "difficulty_level": 5,
+      "description": "Learn and master Linear Equations",
+      "tags": [
+        "linear",
+        "equations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3162",
+      "name": "Problemas de palabras matemáticas",
+      "difficulty_level": 3,
+      "description": "Learn and master Math Word Problems",
+      "tags": [
+        "math",
+        "word",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_3163",
+      "name": "Matemáticas mental",
+      "difficulty_level": 1,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3164",
+      "name": "Teoría de números",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3165",
+      "name": "Teoría de la probabilidad",
+      "difficulty_level": 2,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3166",
+      "name": "Análisis de estadística",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistics Analysis",
+      "tags": [
+        "statistics",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3167",
+      "name": "Identidades trigonométricas",
+      "difficulty_level": 1,
+      "description": "Learn and master Trigonometric Identities",
+      "tags": [
+        "trigonometric",
+        "identities",
+        "skill"
+      ]
+    }
+  ]
+}

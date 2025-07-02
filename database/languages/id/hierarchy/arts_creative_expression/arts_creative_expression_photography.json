@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_photography",
+  "name": "Fotografi",
+  "skills": [
+    {
+      "id": "skill_400",
+      "name": "Fotografi Hitam",
+      "difficulty_level": 1,
+      "description": "Learn and master Black & White Photography",
+      "tags": [
+        "black",
+        "white",
+        "photography"
+      ]
+    },
+    {
+      "id": "skill_401",
+      "name": "Pengaturan Kamera",
+      "difficulty_level": 1,
+      "description": "Learn and master Camera Settings",
+      "tags": [
+        "camera",
+        "settings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_402",
+      "name": "Teknik komposisi",
+      "difficulty_level": 2,
+      "description": "Learn and master Composition Techniques",
+      "tags": [
+        "composition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_403",
+      "name": "Fotografi Acara",
+      "difficulty_level": 4,
+      "description": "Learn and master Event Photography",
+      "tags": [
+        "event",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_404",
+      "name": "Fotografi Lansekap",
+      "difficulty_level": 2,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_405",
+      "name": "Fotografi makro",
+      "difficulty_level": 1,
+      "description": "Learn and master Macro Photography",
+      "tags": [
+        "macro",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_406",
+      "name": "Pengeditan foto",
+      "difficulty_level": 3,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_407",
+      "name": "Fotografi Potret",
+      "difficulty_level": 5,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_408",
+      "name": "Fotografi produk",
+      "difficulty_level": 4,
+      "description": "Learn and master Product Photography",
+      "tags": [
+        "product",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_409",
+      "name": "Pencahayaan studio",
+      "difficulty_level": 2,
+      "description": "Learn and master Studio Lighting",
+      "tags": [
+        "studio",
+        "lighting",
+        "skill"
+      ]
+    }
+  ]
+}

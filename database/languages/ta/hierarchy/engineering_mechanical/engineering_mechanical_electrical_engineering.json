@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_electrical_engineering",
+  "name": "மின் பொறியியல்",
+  "skills": [
+    {
+      "id": "skill_2363",
+      "name": "அனலாக் வடிவமைப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Analog Design",
+      "tags": [
+        "analog",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2364",
+      "name": "சுற்று பகுப்பாய்வு",
+      "difficulty_level": 3,
+      "description": "Learn and master Circuit Analysis",
+      "tags": [
+        "circuit",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2365",
+      "name": "கட்டுப்பாட்டு பொறியியல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Control Engineering",
+      "tags": [
+        "control",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2366",
+      "name": "டிஜிட்டல் எலக்ட்ரானிக்ஸ்",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Electronics",
+      "tags": [
+        "digital",
+        "electronics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2367",
+      "name": "மின்சார மோட்டார்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Electric Motors",
+      "tags": [
+        "electric",
+        "motors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2368",
+      "name": "உட்பொதிக்கப்பட்ட அமைப்புகள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2369",
+      "name": "சக்தி விநியோகம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2370",
+      "name": "சக்தி மின்னணுவியல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Power Electronics",
+      "tags": [
+        "power",
+        "electronics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2371",
+      "name": "குறைக்கடத்தி சாதனங்கள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Semiconductor Devices",
+      "tags": [
+        "semiconductor",
+        "devices",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2372",
+      "name": "சிக்னல் செயலாக்கம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "不同国家的食物",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "意大利美食"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "日本美食"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "墨西哥美食"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "印度美食"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "法国美食"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "中国美食"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "中东美食"
+    }
+  ]
+}

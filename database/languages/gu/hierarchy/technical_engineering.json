@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "તકનિકી",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "મુકામ અને સંરચનાત્મક"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "વિદ્યુત ઈજનેરી"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "ઉત્પાદન અને બનાવટ"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "યાંત્રિક ઈજનેરી"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "સ Software ફ્ટવેર અને સિસ્ટમો"
+    }
+  ]
+}

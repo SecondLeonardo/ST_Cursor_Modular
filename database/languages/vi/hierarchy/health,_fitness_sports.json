@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "Sức khỏe, Thể hình & Thể thao",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "Đào tạo thể dục"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "Dinh dưỡng"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "Ngoài trời & phiêu lưu"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "Kỹ năng thể thao"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "Sức khỏe & phục hồi"
+    }
+  ]
+}

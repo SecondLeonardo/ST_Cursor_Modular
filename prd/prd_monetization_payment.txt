@@ -1,0 +1,116 @@
+1. Monetization & Payment Overview
+- VIP memberships, in-app currency (ST Coins), virtual gifts, paid skill tutoring sessions
+- Payment gateway integration: Stripe, PayPal, Google Play, Apple Pay
+
+2. Payment Data Models
+- VIPSubscriptionModel: userId, plan, startDate, endDate, status
+- CoinTransactionModel: userId, amount, type, timestamp
+
+3. Payment API Contracts
+- Purchase VIP: POST /api/payments/vip
+- Buy Coins: POST /api/payments/coins
+- Redeem Diamonds: POST /api/payments/redeem
+
+4. Monetization & Payment UI/UX Design
+
+### 4.1 SkillTalk VIP Subscription Page
+- **Description**: Offers a comparison between VIP and Non-VIP privileges, subscription plans, and a seamless purchase flow.
+- **UI/UX Design**:
+  - **Top Section**: Includes a back arrow for navigation, title "Get SkillTalk VIP", and a tab selector for "Comparison" and "Details".
+  - **Comparison Table**: Highlights privileges for Non-VIP and VIP users with icons and checkmarks.
+  - **Subscription Plans**: Displayed in card-like boxes with pricing and discount information.
+  - **Bottom Section**: Features a "Continue" button leading to the App Store.
+  - **Detailed Design**: 
+    - **Comparison Table**: 
+      - Non-VIP (Gray Crown) vs VIP (Gold Crown) privileges.
+      - Features like "Unlock Visitors page", "Learn/Teach more Skills", "Extra Profile Exposure", etc.
+      - Table Design: Light gray borders, crown icons, and availability symbols (❌/✅).
+    - **Subscription Plans**:
+      - 1 Month Plan (€9.99), 12 Months Plan (€59.99 - Most Popular), Lifetime Plan (€149.99 - Best Value).
+      - Pricing Layout: Discounts shown using strikethrough pricing and teal savings text.
+
+### 4.2 App Store Subscribe Popup
+- **Description**: The Apple system modal that appears when users tap "Continue" on the SkillTalk VIP Subscription Page.
+- **UI/UX Design**:
+  - **Visual Style**: System-native modal with a clear, minimal, and neutral-toned design.
+  - **Structure & Visual Hierarchy**: Includes App Store title, subscription info block, policy & terms, account email, and subscribe button.
+  - **Functionality**: Confirms the purchase and initiates payment.
+  - **Detailed Analysis**:
+    - **Design Elements**: Rounded popup window, bold subscribe button, generous spacing.
+    - **Text & Typography**: Bold header, large price highlight, clear subscription policy.
+    - **Usability & Accessibility**: Touch-friendly, consistent with Apple's system UI, likely VoiceOver friendly.
+    - **User Flow**: User reviews membership title, pricing, terms, and can subscribe or dismiss.
+
+### 4.3 ST Coins Shop
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "ST Coins"
+    - Back arrow
+    - Menu/Settings icon
+    - Currency icon
+  - **Balance Section**:
+    - ST Coins balance
+    - Diamond balance
+    - Navigation arrow
+  - **Bonus Section**:
+    - Gift package rewards
+    - Time limit indicator
+  - **Purchase Options**:
+    - Multiple coin packages
+    - Clear pricing
+    - Visual coin icons
+  - **Usage Section**:
+    - Gift sending
+    - Stickers
+    - Profile boost
+    - Post boost
+    - Stage pass
+    - Call subtitles
+
+### 4.4 Shopping Center
+- **UI/UX Design**:
+  - **Color Scheme**:
+    - Dark-themed gradient background
+    - Teal for CTAs
+    - Yellow for ST Coin icon
+  - **Layout**:
+    - Top navigation bar
+    - Tab menu (Popular, Bubbles, Gift Banner, Profile Frame)
+    - Item grid
+    - Bottom utility row
+  - **Features**:
+    - Item previews
+    - Cost and duration display
+    - Buy buttons
+    - Top-up option
+    - Balance display
+
+### 4.5 Payment Pop-up
+- **Description**: Provides a detailed breakdown of payment options for classes.
+- **UI/UX Design**:
+  - **Color Scheme**: Soft peach/light beige background with bright orange for CTAs.
+  - **Typography**: Bolded prices and plans for emphasis.
+  - **Functionality**: Users can select session plans and proceed with payment.
+  - **Detailed Analysis**:
+    - **Design Elements**: Rounded pill buttons, session blocks with soft-rounded borders.
+    - **Functionality Explanation**: Duration Tabs, Session Cards, Buy Now button, Support Icon, Tooltip.
+    - **Interaction Flow**: User chooses session length, selects session count, clicks "Buy Now" to proceed.
+
+### 4.6 Top-up to Chat with Paid Partner
+- **Description**: Encourages users to top up coins to chat with paid practice partners.
+- **UI/UX Design**:
+  - **Colors**: Dark mode background with gradient highlights for key elements.
+  - **Shapes**: Card-style elements with rounded corners.
+  - **Functionality**: Users can choose top-up amounts and receive bonus rewards.
+  - **Detailed Analysis**:
+    - **Design Elements**: Dark mode background, gradient highlights, card-style elements.
+    - **Functionality Explanation**: Gift Graphic, Reward Badges, Title & Body Copy, ST Coin Packages, CTA Button.
+    - **User Flow**: Prompted due to insufficient coins, chooses coin tier, taps CTA to complete purchase.
+
+5. Implementation Patterns
+- Service/provider pattern, multi-provider strategy, usage tracking, fallback system
+
+6. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 
+
+

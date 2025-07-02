@@ -1,0 +1,116 @@
+{
+  "id": "technical_mechanical_skills_automotive_skills",
+  "name": "வாகன திறன்கள்",
+  "skills": [
+    {
+      "id": "skill_4556",
+      "name": "பேட்டரி பராமரிப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Maintenance",
+      "tags": [
+        "battery",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4557",
+      "name": "காற்று வடிப்பான்களை மாற்றுதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Changing Air Filters",
+      "tags": [
+        "changing",
+        "filters",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4558",
+      "name": "எண்ணெயை மாற்றுதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Changing Oil",
+      "tags": [
+        "changing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4559",
+      "name": "கார் சிக்கல்களைக் கண்டறிதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Diagnosing Car Issues",
+      "tags": [
+        "diagnosing",
+        "issues",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4560",
+      "name": "தட்டையான டயர்களை சரிசெய்தல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Flat Tires",
+      "tags": [
+        "fixing",
+        "flat",
+        "tires"
+      ]
+    },
+    {
+      "id": "skill_4561",
+      "name": "குளிரூட்டியை மீண்டும் நிரப்புதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Refilling Coolant",
+      "tags": [
+        "refilling",
+        "coolant",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4562",
+      "name": "பிரேக் பேட்களை மாற்றுகிறது",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing Brake Pads",
+      "tags": [
+        "replacing",
+        "brake",
+        "pads"
+      ]
+    },
+    {
+      "id": "skill_4563",
+      "name": "ஹெட்லைட்களை மாற்றுகிறது",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing Headlights",
+      "tags": [
+        "replacing",
+        "headlights",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4564",
+      "name": "இயந்திர கூறுகளைப் புரிந்துகொள்வது",
+      "difficulty_level": 4,
+      "description": "Learn and master Understanding Engine Components",
+      "tags": [
+        "understanding",
+        "engine",
+        "components"
+      ]
+    },
+    {
+      "id": "skill_4565",
+      "name": "OBD2 ஸ்கேனர்களைப் பயன்படுத்துதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Using OBD2 Scanners",
+      "tags": [
+        "using",
+        "obd2",
+        "scanners"
+      ]
+    }
+  ]
+}

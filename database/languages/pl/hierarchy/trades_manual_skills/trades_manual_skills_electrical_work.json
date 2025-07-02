@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_electrical_work",
+  "name": "Praca elektryczna",
+  "skills": [
+    {
+      "id": "skill_5085",
+      "name": "Konfiguracja panelu Breaker",
+      "difficulty_level": 1,
+      "description": "Learn and master Breaker Panel Setup",
+      "tags": [
+        "breaker",
+        "panel",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_5086",
+      "name": "Instalacja obwodu",
+      "difficulty_level": 5,
+      "description": "Learn and master Circuit Installation",
+      "tags": [
+        "circuit",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5087",
+      "name": "Zginanie przewodów",
+      "difficulty_level": 2,
+      "description": "Learn and master Conduit Bending",
+      "tags": [
+        "conduit",
+        "bending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5088",
+      "name": "Wiedza o kodzie elektrycznym",
+      "difficulty_level": 2,
+      "description": "Learn and master Electrical Code Knowledge",
+      "tags": [
+        "electrical",
+        "code",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5089",
+      "name": "Systemy oświetleniowe",
+      "difficulty_level": 5,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5090",
+      "name": "Instalacja gniazdka",
+      "difficulty_level": 5,
+      "description": "Learn and master Outlet Installation",
+      "tags": [
+        "outlet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5091",
+      "name": "Protokoły bezpieczeństwa",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Protocols",
+      "tags": [
+        "safety",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5092",
+      "name": "Okablowanie panelu słonecznego",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Wiring",
+      "tags": [
+        "solar",
+        "panel",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_5093",
+      "name": "Testowanie napięcia",
+      "difficulty_level": 3,
+      "description": "Learn and master Voltage Testing",
+      "tags": [
+        "voltage",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5094",
+      "name": "Okablowanie i przegląd",
+      "difficulty_level": 4,
+      "description": "Learn and master Wiring & Rewiring",
+      "tags": [
+        "wiring",
+        "rewiring",
+        "skill"
+      ]
+    }
+  ]
+}

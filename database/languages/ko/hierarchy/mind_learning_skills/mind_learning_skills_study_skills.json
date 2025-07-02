@@ -1,0 +1,116 @@
+{
+  "id": "mind_learning_skills_study_skills",
+  "name": "학습 기술",
+  "skills": [
+    {
+      "id": "skill_3708",
+      "name": "적극적인 리콜",
+      "difficulty_level": 2,
+      "description": "Learn and master Active Recall",
+      "tags": [
+        "active",
+        "recall",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3709",
+      "name": "시험 준비",
+      "difficulty_level": 1,
+      "description": "Learn and master Exam Preparation",
+      "tags": [
+        "exam",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3710",
+      "name": "플래시 카드 생성",
+      "difficulty_level": 1,
+      "description": "Learn and master Flashcard Creation",
+      "tags": [
+        "flashcard",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3711",
+      "name": "목표 지향 연구",
+      "difficulty_level": 5,
+      "description": "Learn and master Goal-Oriented Studying",
+      "tags": [
+        "goal-oriented",
+        "studying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3712",
+      "name": "그룹 연구 조정",
+      "difficulty_level": 2,
+      "description": "Learn and master Group Study Coordination",
+      "tags": [
+        "group",
+        "study",
+        "coordination"
+      ]
+    },
+    {
+      "id": "skill_3713",
+      "name": "비디오에서 배우기",
+      "difficulty_level": 2,
+      "description": "Learn and master Learning from Videos",
+      "tags": [
+        "learning",
+        "from",
+        "videos"
+      ]
+    },
+    {
+      "id": "skill_3714",
+      "name": "메모 작성 전략",
+      "difficulty_level": 5,
+      "description": "Learn and master Note-Taking Strategies",
+      "tags": [
+        "note-taking",
+        "strategies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3715",
+      "name": "연구 자료 조직",
+      "difficulty_level": 5,
+      "description": "Learn and master Organizing Study Materials",
+      "tags": [
+        "organizing",
+        "study",
+        "materials"
+      ]
+    },
+    {
+      "id": "skill_3716",
+      "name": "간격 반복",
+      "difficulty_level": 2,
+      "description": "Learn and master Spaced Repetition",
+      "tags": [
+        "spaced",
+        "repetition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3717",
+      "name": "공부 시간 정기",
+      "difficulty_level": 4,
+      "description": "Learn and master Study Timetabling",
+      "tags": [
+        "study",
+        "timetabling",
+        "skill"
+      ]
+    }
+  ]
+}

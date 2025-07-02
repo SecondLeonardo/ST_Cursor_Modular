@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_science_research",
+  "name": "Khoa học & Nghiên cứu",
+  "skills": [
+    {
+      "id": "skill_3648",
+      "name": "Cơ bản sinh học",
+      "difficulty_level": 2,
+      "description": "Learn and master Biology Basics",
+      "tags": [
+        "biology",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3649",
+      "name": "Nguyên tắc cơ bản hóa học",
+      "difficulty_level": 2,
+      "description": "Learn and master Chemistry Fundamentals",
+      "tags": [
+        "chemistry",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3650",
+      "name": "Phân tích dữ liệu",
+      "difficulty_level": 2,
+      "description": "Learn and master Data Analysis",
+      "tags": [
+        "data",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3651",
+      "name": "Khoa học môi trường",
+      "difficulty_level": 1,
+      "description": "Learn and master Environmental Science",
+      "tags": [
+        "environmental",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3652",
+      "name": "Thiết kế thử nghiệm",
+      "difficulty_level": 3,
+      "description": "Learn and master Experimental Design",
+      "tags": [
+        "experimental",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3653",
+      "name": "An toàn phòng thí nghiệm",
+      "difficulty_level": 5,
+      "description": "Learn and master Lab Safety",
+      "tags": [
+        "safety",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3654",
+      "name": "Kính hiển vi",
+      "difficulty_level": 2,
+      "description": "Learn and master Microscopy",
+      "tags": [
+        "microscopy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3655",
+      "name": "Khái niệm vật lý",
+      "difficulty_level": 4,
+      "description": "Learn and master Physics Concepts",
+      "tags": [
+        "physics",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3656",
+      "name": "Phương pháp khoa học",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3657",
+      "name": "Viết khoa học",
+      "difficulty_level": 1,
+      "description": "Learn and master Scientific Writing",
+      "tags": [
+        "scientific",
+        "writing",
+        "skill"
+      ]
+    }
+  ]
+}

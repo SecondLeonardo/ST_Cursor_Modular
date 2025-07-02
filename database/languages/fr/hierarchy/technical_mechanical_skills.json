@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "Compétences techniques et mécaniques",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "Compétences automobiles"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "Construction et bâtiment"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "Travail électrique"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "Énergie et environnement"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "Compétences industrielles"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "Réparations mécaniques"
+    }
+  ]
+}

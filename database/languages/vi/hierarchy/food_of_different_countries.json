@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "Thực phẩm của các quốc gia khác nhau",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "Ẩm thực Ý"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "Ẩm thực Nhật Bản"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "Ẩm thực Mexico"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "Ẩm thực Ấn Độ"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "Ẩm thực Pháp"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "Ẩm thực Trung Quốc"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "Ẩm thực Trung Đông"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "அறிவியல் மற்றும் தொழில்நுட்ப திறன்கள்",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "வானியல்"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "உயிரி தொழில்நுட்பம்"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "வேதியியல்"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "கணினி அறிவியல்"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "தரவு அறிவியல் & AI"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "பூமி மற்றும் சுற்றுச்சூழல் அறிவியல்"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "மின்னணுவியல்"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "பொறியியல்"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "கணிதம் மற்றும் புள்ளிவிவரங்கள்"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "இயற்பியல்"
+    }
+  ]
+}

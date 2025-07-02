@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_craftsmanship_repairs",
+  "name": "कारागिरी आणि दुरुस्ती",
+  "skills": [
+    {
+      "id": "skill_5065",
+      "name": "उपकरण दुरुस्ती",
+      "difficulty_level": 4,
+      "description": "Learn and master Appliance Repair",
+      "tags": [
+        "appliance",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5066",
+      "name": "गळती नळ निश्चित करणे",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Leaky Faucets",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucets"
+      ]
+    },
+    {
+      "id": "skill_5067",
+      "name": "फर्निचर जीर्णोद्धार",
+      "difficulty_level": 4,
+      "description": "Learn and master Furniture Restoration",
+      "tags": [
+        "furniture",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5068",
+      "name": "ग्लूइंग तंत्र",
+      "difficulty_level": 5,
+      "description": "Learn and master Gluing Techniques",
+      "tags": [
+        "gluing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5069",
+      "name": "बिजागर बदलणे",
+      "difficulty_level": 1,
+      "description": "Learn and master Replacing Hinges",
+      "tags": [
+        "replacing",
+        "hinges",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5070",
+      "name": "शिवणकामाची दुरुस्ती",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Repairs",
+      "tags": [
+        "sewing",
+        "repairs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5071",
+      "name": "तीक्ष्ण साधने",
+      "difficulty_level": 3,
+      "description": "Learn and master Sharpening Tools",
+      "tags": [
+        "sharpening",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5072",
+      "name": "टाइल ग्राउटिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Grouting",
+      "tags": [
+        "tile",
+        "grouting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5073",
+      "name": "भिंत पॅचिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5074",
+      "name": "विंडो सीलिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Window Sealing",
+      "tags": [
+        "window",
+        "sealing",
+        "skill"
+      ]
+    }
+  ]
+}

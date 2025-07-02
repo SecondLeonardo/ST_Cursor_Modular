@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "认知和学术技能",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "批判性思维"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "语言和语言学"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "数学和逻辑"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "内存与焦点"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "科学与研究"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "学习与学习技能"
+    }
+  ]
+}

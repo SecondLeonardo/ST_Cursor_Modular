@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_writing_systems",
+  "name": "أنظمة الكتابة",
+  "skills": [
+    {
+      "id": "skill_2023",
+      "name": "كتابة النص العربي",
+      "difficulty_level": 2,
+      "description": "Learn and master Arabic Script Writing",
+      "tags": [
+        "arabic",
+        "script",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_2024",
+      "name": "الشخصيات الصينية (هانزي)",
+      "difficulty_level": 5,
+      "description": "Learn and master Chinese Characters (Hanzi)",
+      "tags": [
+        "chinese",
+        "characters",
+        "(hanzi)"
+      ]
+    },
+    {
+      "id": "skill_2025",
+      "name": "الكفاءة الأبجدية السيريلية",
+      "difficulty_level": 1,
+      "description": "Learn and master Cyrillic Alphabet Proficiency",
+      "tags": [
+        "cyrillic",
+        "alphabet",
+        "proficiency"
+      ]
+    },
+    {
+      "id": "skill_2026",
+      "name": "ممارسة Devanagari",
+      "difficulty_level": 4,
+      "description": "Learn and master Devanagari Practice",
+      "tags": [
+        "devanagari",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2027",
+      "name": "الأبجدية الجورجية",
+      "difficulty_level": 3,
+      "description": "Learn and master Georgian Alphabet",
+      "tags": [
+        "georgian",
+        "alphabet",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2028",
+      "name": "الأبجدية اليونانية",
+      "difficulty_level": 4,
+      "description": "Learn and master Greek Alphabet",
+      "tags": [
+        "greek",
+        "alphabet",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2029",
+      "name": "هانغول إتقان",
+      "difficulty_level": 4,
+      "description": "Learn and master Hangul Mastery",
+      "tags": [
+        "hangul",
+        "mastery",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2030",
+      "name": "طلاقة السيناريو العبرية",
+      "difficulty_level": 4,
+      "description": "Learn and master Hebrew Script Fluency",
+      "tags": [
+        "hebrew",
+        "script",
+        "fluency"
+      ]
+    },
+    {
+      "id": "skill_2031",
+      "name": "كانا اليابانية (هيراجانا/كاتاكانا)",
+      "difficulty_level": 2,
+      "description": "Learn and master Japanese Kana (Hiragana/Katakana)",
+      "tags": [
+        "japanese",
+        "kana",
+        "(hiragana/katakana)"
+      ]
+    },
+    {
+      "id": "skill_2032",
+      "name": "قراءة النص التايلاندي",
+      "difficulty_level": 5,
+      "description": "Learn and master Thai Script Reading",
+      "tags": [
+        "thai",
+        "script",
+        "reading"
+      ]
+    }
+  ]
+}

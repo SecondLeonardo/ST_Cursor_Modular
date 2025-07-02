@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "Keterampilan Mekanik & Teknis",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "Pemeliharaan otomotif"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "Dasar -dasar Teknik"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "Perbaikan & Pemasangan Rumah"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "Operasi mesin"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "Penggunaan Alat & Keamanan"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "Pekerjaan kayu & logam"
+    }
+  ]
+}

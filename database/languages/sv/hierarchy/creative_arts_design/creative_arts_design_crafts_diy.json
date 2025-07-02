@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_design_crafts_diy",
+  "name": "Hantverk & diy",
+  "skills": [
+    {
+      "id": "skill_1883",
+      "name": "Beadwork & Jewelry Making",
+      "difficulty_level": 4,
+      "description": "Learn and master Beadwork & Jewelry Making",
+      "tags": [
+        "beadwork",
+        "jewelry",
+        "making"
+      ]
+    },
+    {
+      "id": "skill_1884",
+      "name": "Ljus hantverk",
+      "difficulty_level": 5,
+      "description": "Learn and master Candle Crafting",
+      "tags": [
+        "candle",
+        "crafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1885",
+      "name": "Broderstygn",
+      "difficulty_level": 3,
+      "description": "Learn and master Embroidery Stitches",
+      "tags": [
+        "embroidery",
+        "stitches",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1886",
+      "name": "Handgjord tvåltillverkning",
+      "difficulty_level": 3,
+      "description": "Learn and master Handmade Soap Making",
+      "tags": [
+        "handmade",
+        "soap",
+        "making"
+      ]
+    },
+    {
+      "id": "skill_1887",
+      "name": "Stickningstekniker",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting Techniques",
+      "tags": [
+        "knitting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1888",
+      "name": "Origami -vikning",
+      "difficulty_level": 2,
+      "description": "Learn and master Origami Folding",
+      "tags": [
+        "origami",
+        "folding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1889",
+      "name": "Pappersmaskin skulptur",
+      "difficulty_level": 2,
+      "description": "Learn and master Paper Mache Sculpting",
+      "tags": [
+        "paper",
+        "mache",
+        "sculpting"
+      ]
+    },
+    {
+      "id": "skill_1890",
+      "name": "Keramik med lera",
+      "difficulty_level": 3,
+      "description": "Learn and master Pottery with Clay",
+      "tags": [
+        "pottery",
+        "with",
+        "clay"
+      ]
+    },
+    {
+      "id": "skill_1891",
+      "name": "Urklippsbokning",
+      "difficulty_level": 1,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1892",
+      "name": "Möbler",
+      "difficulty_level": 2,
+      "description": "Learn and master Upcycling Furniture",
+      "tags": [
+        "upcycling",
+        "furniture",
+        "skill"
+      ]
+    }
+  ]
+}

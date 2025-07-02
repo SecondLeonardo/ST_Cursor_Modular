@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "สุขภาพการออกกำลังกายและกีฬา",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "การฝึกออกกำลังกาย"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "โภชนาการ"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "กลางแจ้งและผจญภัย"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "ทักษะการกีฬา"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "สุขภาพและการกู้คืน"
+    }
+  ]
+}

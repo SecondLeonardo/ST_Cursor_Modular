@@ -1,0 +1,118 @@
+{
+  "id": "food_of_different_countries_chinese_cuisine",
+  "name": "중국 요리",
+  "skills": [
+    {
+      "id": "skill_5465",
+      "name": "볶음",
+      "difficulty_level": 4,
+      "description": "Learn and master Stir-Frying",
+      "tags": [
+        "stir-frying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5466",
+      "name": "만두 만들기",
+      "difficulty_level": 3,
+      "description": "Learn and master Dumpling Making",
+      "tags": [
+        "dumpling",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5467",
+      "name": "국수 준비",
+      "difficulty_level": 2,
+      "description": "Learn and master Noodle Preparation",
+      "tags": [
+        "noodle",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5468",
+      "name": "냄비 처리",
+      "difficulty_level": 2,
+      "description": "Learn and master Wok Handling",
+      "tags": [
+        "handling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5469",
+      "name": "딤섬 요리",
+      "difficulty_level": 5,
+      "description": "Learn and master Dim Sum Cooking",
+      "tags": [
+        "cooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5470",
+      "name": "달콤하고 신맛이 나는 소스 제작",
+      "difficulty_level": 3,
+      "description": "Learn and master Sweet and Sour Sauce Making",
+      "tags": [
+        "sweet",
+        "sour",
+        "sauce",
+        "making"
+      ]
+    },
+    {
+      "id": "skill_5471",
+      "name": "증기 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Steaming Techniques",
+      "tags": [
+        "steaming",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5472",
+      "name": "뜨거운 냄비 준비",
+      "difficulty_level": 4,
+      "description": "Learn and master Hot Pot Preparation",
+      "tags": [
+        "preparation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5473",
+      "name": "차 양조",
+      "difficulty_level": 5,
+      "description": "Learn and master Tea Brewing",
+      "tags": [
+        "brewing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5474",
+      "name": "향신료 사용량 (예 : 5 개)",
+      "difficulty_level": 4,
+      "description": "Learn and master Spice Usage (e.g., Five-Spice)",
+      "tags": [
+        "spice",
+        "usage",
+        "(e.g.,",
+        "five-spice)"
+      ]
+    }
+  ]
+}

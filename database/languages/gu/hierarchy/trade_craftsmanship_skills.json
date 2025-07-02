@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "વેપાર અને કારીગરી કુશળતા",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "બાંધકામ અને સુથારકામ"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "વિદ્યુત અને પ્લમ્બિંગ"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "હાથબાળી માલ"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "ધાતુકામ અને વેલ્ડીંગ"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "કાપડ અને ચામડાની કાપડ"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "પરંપરાગત હસ્તકલા"
+    }
+  ]
+}

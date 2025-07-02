@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_engineering",
+  "name": "பொறியியல்",
+  "skills": [
+    {
+      "id": "skill_4318",
+      "name": "கேட் மென்பொருள்",
+      "difficulty_level": 2,
+      "description": "Learn and master CAD Software",
+      "tags": [
+        "software",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4319",
+      "name": "சிவில் கட்டுமான திட்டமிடல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Civil Construction Planning",
+      "tags": [
+        "civil",
+        "construction",
+        "planning"
+      ]
+    },
+    {
+      "id": "skill_4320",
+      "name": "மின் சுற்று வடிவமைப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Electrical Circuit Design",
+      "tags": [
+        "electrical",
+        "circuit",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4321",
+      "name": "திரவ இயக்கவியல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Fluid Mechanics",
+      "tags": [
+        "fluid",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4322",
+      "name": "பொருட்கள் அறிவியல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Materials Science",
+      "tags": [
+        "materials",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4323",
+      "name": "இயந்திர வரைவு",
+      "difficulty_level": 4,
+      "description": "Learn and master Mechanical Drafting",
+      "tags": [
+        "mechanical",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4324",
+      "name": "மெகாட்ரானிக்ஸ்",
+      "difficulty_level": 3,
+      "description": "Learn and master Mechatronics",
+      "tags": [
+        "mechatronics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4325",
+      "name": "கட்டமைப்பு பகுப்பாய்வு",
+      "difficulty_level": 4,
+      "description": "Learn and master Structural Analysis",
+      "tags": [
+        "structural",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4326",
+      "name": "சிஸ்டம்ஸ் இன்ஜினியரிங்",
+      "difficulty_level": 5,
+      "description": "Learn and master Systems Engineering",
+      "tags": [
+        "systems",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4327",
+      "name": "வெப்ப இயக்கவியல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Thermodynamics",
+      "tags": [
+        "thermodynamics",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

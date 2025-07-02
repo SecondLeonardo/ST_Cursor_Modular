@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_creative_writing",
+  "name": "रचनात्मक लेखन",
+  "skills": [
+    {
+      "id": "skill_730",
+      "name": "ब्लॉग लेखन",
+      "difficulty_level": 2,
+      "description": "Learn and master Blog Writing",
+      "tags": [
+        "blog",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_731",
+      "name": "चरित्र विकास",
+      "difficulty_level": 1,
+      "description": "Learn and master Character Development",
+      "tags": [
+        "character",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_732",
+      "name": "कथा संपादन",
+      "difficulty_level": 1,
+      "description": "Learn and master Fiction Editing",
+      "tags": [
+        "fiction",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_733",
+      "name": "संस्मरण लेखन",
+      "difficulty_level": 1,
+      "description": "Learn and master Memoir Writing",
+      "tags": [
+        "memoir",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_734",
+      "name": "नाटक लेखन",
+      "difficulty_level": 1,
+      "description": "Learn and master Playwriting",
+      "tags": [
+        "playwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_735",
+      "name": "कविता",
+      "difficulty_level": 3,
+      "description": "Learn and master Poetry",
+      "tags": [
+        "poetry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_736",
+      "name": "पटकथा लेखन",
+      "difficulty_level": 2,
+      "description": "Learn and master Screenwriting",
+      "tags": [
+        "screenwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_737",
+      "name": "लघु कहानी लेखन",
+      "difficulty_level": 4,
+      "description": "Learn and master Short Story Writing",
+      "tags": [
+        "short",
+        "story",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_738",
+      "name": "गीत लेखन",
+      "difficulty_level": 1,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_739",
+      "name": "दुनिया के निर्माण",
+      "difficulty_level": 4,
+      "description": "Learn and master World-Building",
+      "tags": [
+        "world-building",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

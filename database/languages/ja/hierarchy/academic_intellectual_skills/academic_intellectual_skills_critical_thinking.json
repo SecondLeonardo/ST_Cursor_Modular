@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_critical_thinking",
+  "name": "批判的思考",
+  "skills": [
+    {
+      "id": "skill_100",
+      "name": "ニュースソースの分析",
+      "difficulty_level": 5,
+      "description": "Learn and master Analyzing News Sources",
+      "tags": [
+        "analyzing",
+        "news",
+        "sources"
+      ]
+    },
+    {
+      "id": "skill_101",
+      "name": "議論の構築",
+      "difficulty_level": 3,
+      "description": "Learn and master Constructing Arguments",
+      "tags": [
+        "constructing",
+        "arguments",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_102",
+      "name": "議論のテクニック",
+      "difficulty_level": 2,
+      "description": "Learn and master Debate Techniques",
+      "tags": [
+        "debate",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_103",
+      "name": "意思決定",
+      "difficulty_level": 2,
+      "description": "Learn and master Decision Making",
+      "tags": [
+        "decision",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_104",
+      "name": "演ductive的な推論",
+      "difficulty_level": 4,
+      "description": "Learn and master Deductive Reasoning",
+      "tags": [
+        "deductive",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_105",
+      "name": "証拠評価",
+      "difficulty_level": 3,
+      "description": "Learn and master Evidence Evaluation",
+      "tags": [
+        "evidence",
+        "evaluation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_106",
+      "name": "バイアスの識別",
+      "difficulty_level": 2,
+      "description": "Learn and master Identifying Bias",
+      "tags": [
+        "identifying",
+        "bias",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_107",
+      "name": "論理的推論",
+      "difficulty_level": 1,
+      "description": "Learn and master Logical Reasoning",
+      "tags": [
+        "logical",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_108",
+      "name": "問題解決戦略",
+      "difficulty_level": 3,
+      "description": "Learn and master Problem Solving Strategies",
+      "tags": [
+        "problem",
+        "solving",
+        "strategies"
+      ]
+    },
+    {
+      "id": "skill_109",
+      "name": "ソクラテスの質問",
+      "difficulty_level": 5,
+      "description": "Learn and master Socratic Questioning",
+      "tags": [
+        "socratic",
+        "questioning",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_woodworking_carpentry",
+  "name": "Деревообработка и плотницы",
+  "skills": [
+    {
+      "id": "skill_2928",
+      "name": "Создание кабинета",
+      "difficulty_level": 5,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2929",
+      "name": "Создание мебели",
+      "difficulty_level": 5,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2930",
+      "name": "Совместные методы",
+      "difficulty_level": 2,
+      "description": "Learn and master Joint Techniques",
+      "tags": [
+        "joint",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2931",
+      "name": "Измерение и маркировка",
+      "difficulty_level": 4,
+      "description": "Learn and master Measuring & Marking",
+      "tags": [
+        "measuring",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2932",
+      "name": "Управляя",
+      "difficulty_level": 2,
+      "description": "Learn and master Saw Handling",
+      "tags": [
+        "handling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2933",
+      "name": "Стеллажи строительство",
+      "difficulty_level": 4,
+      "description": "Learn and master Shelving Construction",
+      "tags": [
+        "shelving",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2934",
+      "name": "Обслуживание инструмента",
+      "difficulty_level": 5,
+      "description": "Learn and master Tool Maintenance",
+      "tags": [
+        "tool",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2935",
+      "name": "Деревянная отделка",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2936",
+      "name": "Выбор дерева",
+      "difficulty_level": 2,
+      "description": "Learn and master Wood Selection",
+      "tags": [
+        "wood",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2937",
+      "name": "Деревянные игрушки крафта",
+      "difficulty_level": 2,
+      "description": "Learn and master Wooden Toys Crafting",
+      "tags": [
+        "wooden",
+        "toys",
+        "crafting"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "शारीरिक और खेल कौशल",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "फिटनेस और शक्ति"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "एकल खेल"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "मार्शल आर्ट्स"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "घर के बाहर होने वाला साहसिक कार्य"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "मनोरंजक गतिविधियों"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "टीम के खेल"
+    }
+  ]
+}

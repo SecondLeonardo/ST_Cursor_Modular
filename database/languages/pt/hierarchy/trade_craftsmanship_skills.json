@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "Habilidades de comércio e artesanato",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "Construção e carpintaria"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "Elétrica e encanamento"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "Bens feitos à mão"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "Metalwork e soldagem"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "Têxtil e Leathercraft"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "Artesanato tradicional"
+    }
+  ]
+}

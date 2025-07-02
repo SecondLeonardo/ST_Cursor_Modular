@@ -1,0 +1,26 @@
+{
+  "id": "learning_academic_skills",
+  "name": "학습 및 학업 기술",
+  "subcategories": [
+    {
+      "id": "learning_academic_skills_language_learning",
+      "name": "언어 학습"
+    },
+    {
+      "id": "learning_academic_skills_mathematics",
+      "name": "수학"
+    },
+    {
+      "id": "learning_academic_skills_science_research",
+      "name": "과학 및 연구"
+    },
+    {
+      "id": "learning_academic_skills_study_techniques",
+      "name": "공부 기술"
+    },
+    {
+      "id": "learning_academic_skills_test_preparation",
+      "name": "테스트 준비"
+    }
+  ]
+}

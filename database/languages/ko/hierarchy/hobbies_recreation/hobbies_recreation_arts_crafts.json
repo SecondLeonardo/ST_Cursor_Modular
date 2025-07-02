@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_arts_crafts",
+  "name": "예술 및 공예품",
+  "skills": [
+    {
+      "id": "skill_5345",
+      "name": "그림",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5346",
+      "name": "그림",
+      "difficulty_level": 1,
+      "description": "Learn and master Drawing",
+      "tags": [
+        "drawing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5347",
+      "name": "조각",
+      "difficulty_level": 2,
+      "description": "Learn and master Sculpting",
+      "tags": [
+        "sculpting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5348",
+      "name": "편물",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5349",
+      "name": "크로 셰 뜨개질",
+      "difficulty_level": 4,
+      "description": "Learn and master Crocheting",
+      "tags": [
+        "crocheting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5350",
+      "name": "스크랩북",
+      "difficulty_level": 1,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5351",
+      "name": "종이 접기",
+      "difficulty_level": 5,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5352",
+      "name": "도기류",
+      "difficulty_level": 3,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5353",
+      "name": "달필",
+      "difficulty_level": 5,
+      "description": "Learn and master Calligraphy",
+      "tags": [
+        "calligraphy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5354",
+      "name": "보석 제작",
+      "difficulty_level": 5,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    }
+  ]
+}

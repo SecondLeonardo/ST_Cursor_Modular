@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "科学と研究のスキル",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "アカデミックライティング"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "生物科学"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "コンピューターとデータサイエンス"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "地球と環境科学"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "工学科学"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "数学と統計"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "医学および健康科学"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "物理科学"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "研究方法"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "社会科学"
+    }
+  ]
+}

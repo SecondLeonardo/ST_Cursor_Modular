@@ -1,0 +1,143 @@
+1. VoiceRoom & LiveRoom Overview
+- Public & private voice rooms for group discussions
+- Live streaming for skill practice and academic discussions
+- Technologies: WebRTC, Agora, cloud-based audio streaming
+
+2. Room Data Models
+- VoiceRoomModel: roomId, hostId, participants, isPrivate, createdAt
+- LiveRoomModel: roomId, hostId, topic, members, createdAt, isLive
+
+3. Room API Contracts
+- Create Room: POST /api/voicerooms
+- Join Room: POST /api/voicerooms/{roomId}/join
+
+4. 
+
+### 4.18 Liveroom
+- **Description**: Public & private liverooms for live streaming and skill practice.
+- **UI/UX Design**:
+  - **Colors & Theme**: White background with deep Teal cards for live rooms, gold, orange, and pink highlights for VIP, hot, and ranking status.
+  - **Elements & Layout**:
+    - **Top Navigation Bar**: Tabs for "Voice", "Live", "Drama".
+    - **Language & Skill Filters**: Options to filter content by language and skill.
+    - **Hall of Honor Banner**: Highlights top-performing hosts or events.
+    - **Live Room Cards**: Display host info, room title, audience count, and ranking.
+    - **Bottom Navigation Bar**: Includes SkillTalk, Match, Posts, Voiceroom, Me.
+  - **Functionality & UX Flow**:
+    - **Navigation**: Switching between tabs, filtering by language and skill.
+    - **Live Room Interaction**: Joining sessions, viewing host details, and engaging with content.
+
+### 4.19 Liveroom Three-Dot Menu
+- **Description**: Context menu for additional options in liverooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark transparent background, white text, red text for critical actions.
+  - **Elements & Layout**:
+    - **Menu Options**: Share, Minimize Live, Exit Live Event, End Live Event, Cancel.
+  - **Functionality & UX Flow**:
+    - **Menu Actions**: Sharing sessions, minimizing live view, exiting or ending events.
+
+### 4.20 Liveroom Camera Permission Popup
+- **Description**: Permission request for camera access in liverooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: White background, black text, blue action buttons.
+  - **Elements & Layout**:
+    - **Popup Modal**: Title, body text, "Don't Allow" and "OK" buttons.
+  - **Functionality & UX Flow**:
+    - **Permission Request**: Users grant or deny camera access for live features.
+
+### 4.21 Live Room Guideline Popup
+- **Description**: Agreement prompt for SkillTalk's Live Stream Guidelines.
+- **UI/UX Design**:
+  - **Colors & Theme**: White background, black bold title, gray body text, blue hyperlink and "Agree" button.
+  - **Elements & Layout**:
+    - **Popup Modal**: Title, body text, hyperlink, "Agree" and "Decline" buttons.
+  - **Functionality & UX Flow**:
+    - **User Agreement**: Users agree to guidelines before accessing live features.
+
+### 4.22 Create Liveroom Page
+- **Description**: Setup page for creating a live skill practice room.
+- **UI/UX Design**:
+  - **Colors & Theme**: Black translucent modal, white text, teal primary button.
+  - **Elements & Layout**:
+    - **Room Configuration**: Skill, language, visibility, topic selection.
+    - **Shareable URL**: Copyable link for inviting participants.
+    - **Action Buttons**: Share and Enter Room.
+  - **Functionality & UX Flow**:
+    - **Room Setup**: Users configure room settings and share the room link.
+
+### 4.23 Liveroom Creation Skill Selection Popup
+- **Description**: Popup for selecting skills during liveroom creation.
+- **UI/UX Design**:
+  - **Colors & Theme**: Black background, dark rounded buttons, teal highlight for selected skills.
+  - **Elements & Layout**:
+    - **Skill Selection Grid**: Scrollable list of skills with selection indicators.
+    - **Action Button**: "Done" to confirm selection.
+  - **Functionality & UX Flow**:
+    - **Skill Selection**: Users choose skills relevant to the live session.
+
+### 4.24 Liveroom Creation Language Selection Popup
+- **Description**: Popup for selecting languages during liveroom creation.
+- **UI/UX Design**:
+  - **Colors & Theme**: Black background, dark rounded buttons, teal highlight for selected languages.
+  - **Elements & Layout**:
+    - **Language Selection Grid**: Scrollable list of languages with selection indicators.
+    - **Action Button**: "Done" to confirm selection.
+  - **Functionality & UX Flow**:
+    - **Language Selection**: Users choose languages relevant to the live session.
+
+### 4.25 Liveroom Creation Select a Topic Popup
+- **Description**: Popup for selecting topics during liveroom creation.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark background, white and teal text, red fire icon for popular topics.
+  - **Elements & Layout**:
+    - **Topic Selection Grid**: List of topics with popularity indicators.
+    - **Action Button**: "Yes" to confirm selection.
+  - **Functionality & UX Flow**:
+    - **Topic Selection**: Users choose topics to guide the live session.
+
+### 4.26 Liveroom Creation Visible to All Popup
+- **Description**: Popup for setting visibility options during liveroom creation.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark modal background, white text, teal "Cancel" button.
+  - **Elements & Layout**:
+    - **Visibility Options**: Public, non-English native speakers, private.
+    - **Action Button**: "Cancel" to exit without changes.
+  - **Functionality & UX Flow**:
+    - **Visibility Settings**: Users set who can see the live session.
+
+### 4.27 Live Room Created by User
+- **Description**: Interface for users to create and manage live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Darkened, blurred background with soft, rounded buttons and gradient effects.
+  - **Elements & Layout**:
+    - **Host Information**: Displays host profile, room name, primary skill, and language.
+    - **Targetlist Section**: Shows host's targetlist for virtual gifts.
+    - **Chat & Interaction Section**: Text-based communication with quick message buttons.
+    - **Poll Feature**: Allows polls for engagement.
+    - **Bottom Navigation**: Icons for different features like messaging, events, and voice chat.
+  - **Functionality & UX Flow**:
+    - **User Interaction**: Audience count, engagement features, and gifting system.
+
+### 4.28 Liveroom 3-Dot Popup
+- **Description**: Menu for additional options in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Black background with white text and red text for critical actions.
+  - **Elements & Layout**:
+    - **Menu Options**: Share, Minimize Live, Exit Live Event, End Live Event, Cancel.
+  - **Functionality & UX Flow**:
+    - **Menu Actions**: Sharing sessions, minimizing live view, exiting or ending events.
+
+### 4.29 Liveroom Share Popup
+- **Description**: Popup for sharing live room sessions.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark theme with black background and white text.
+  - **Elements & Layout**:
+    - **Share Options**: Share to chat, share to posts, copy link, cancel.
+  - **Functionality & UX Flow**:
+    - **Sharing Actions**: Direct sharing, social sharing, and external sharing.
+
+5. Implementation Patterns
+- Service/provider pattern, multi-provider strategy, usage tracking, fallback system
+
+6. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 

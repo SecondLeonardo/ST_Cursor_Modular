@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_hvac_systems",
+  "name": "HVAC ve Sistemler",
+  "skills": [
+    {
+      "id": "skill_2383",
+      "name": "Kazan sistemleri",
+      "difficulty_level": 5,
+      "description": "Learn and master Boiler Systems",
+      "tags": [
+        "boiler",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2384",
+      "name": "Bina Yönetim Sistemleri",
+      "difficulty_level": 5,
+      "description": "Learn and master Building Management Systems",
+      "tags": [
+        "building",
+        "management",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_2385",
+      "name": "Soğutucular ve soğutma kuleleri",
+      "difficulty_level": 3,
+      "description": "Learn and master Chillers & Cooling Towers",
+      "tags": [
+        "chillers",
+        "cooling",
+        "towers"
+      ]
+    },
+    {
+      "id": "skill_2386",
+      "name": "Kanal düzeni",
+      "difficulty_level": 3,
+      "description": "Learn and master Ductwork Layout",
+      "tags": [
+        "ductwork",
+        "layout",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2387",
+      "name": "Enerji verimliliği",
+      "difficulty_level": 2,
+      "description": "Learn and master Energy Efficiency",
+      "tags": [
+        "energy",
+        "efficiency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2388",
+      "name": "HVAC Tasarımı",
+      "difficulty_level": 3,
+      "description": "Learn and master HVAC Design",
+      "tags": [
+        "hvac",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2389",
+      "name": "HVAC bakımı",
+      "difficulty_level": 3,
+      "description": "Learn and master HVAC Maintenance",
+      "tags": [
+        "hvac",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2390",
+      "name": "Isı pompaları",
+      "difficulty_level": 1,
+      "description": "Learn and master Heat Pumps",
+      "tags": [
+        "heat",
+        "pumps",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2391",
+      "name": "Soğutma sistemleri",
+      "difficulty_level": 5,
+      "description": "Learn and master Refrigeration Systems",
+      "tags": [
+        "refrigeration",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2392",
+      "name": "Termal yük hesaplaması",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermal Load Calculation",
+      "tags": [
+        "thermal",
+        "load",
+        "calculation"
+      ]
+    }
+  ]
+}

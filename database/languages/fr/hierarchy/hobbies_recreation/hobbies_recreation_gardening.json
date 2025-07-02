@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_gardening",
+  "name": "Jardinage",
+  "skills": [
+    {
+      "id": "skill_5395",
+      "name": "Techniques de plantation",
+      "difficulty_level": 5,
+      "description": "Learn and master Planting Techniques",
+      "tags": [
+        "planting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5396",
+      "name": "Préparation du sol",
+      "difficulty_level": 3,
+      "description": "Learn and master Soil Preparation",
+      "tags": [
+        "soil",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5397",
+      "name": "Compostage",
+      "difficulty_level": 1,
+      "description": "Learn and master Composting",
+      "tags": [
+        "composting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5398",
+      "name": "Taille",
+      "difficulty_level": 3,
+      "description": "Learn and master Pruning",
+      "tags": [
+        "pruning",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5399",
+      "name": "Lutte antiparasitaire",
+      "difficulty_level": 3,
+      "description": "Learn and master Pest Control",
+      "tags": [
+        "pest",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5400",
+      "name": "Jardinage biologique",
+      "difficulty_level": 1,
+      "description": "Learn and master Organic Gardening",
+      "tags": [
+        "organic",
+        "gardening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5401",
+      "name": "Hydroponique",
+      "difficulty_level": 5,
+      "description": "Learn and master Hydroponics",
+      "tags": [
+        "hydroponics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5402",
+      "name": "Plantation de saison",
+      "difficulty_level": 1,
+      "description": "Learn and master Seasonal Planting",
+      "tags": [
+        "seasonal",
+        "planting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5403",
+      "name": "Jardin",
+      "difficulty_level": 2,
+      "description": "Learn and master Garden Design",
+      "tags": [
+        "garden",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5404",
+      "name": "Systèmes d'irrigation",
+      "difficulty_level": 2,
+      "description": "Learn and master Irrigation Systems",
+      "tags": [
+        "irrigation",
+        "systems",
+        "skill"
+      ]
+    }
+  ]
+}

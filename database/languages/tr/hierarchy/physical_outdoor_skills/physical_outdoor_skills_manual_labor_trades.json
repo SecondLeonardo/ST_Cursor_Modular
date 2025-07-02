@@ -1,0 +1,117 @@
+{
+  "id": "physical_outdoor_skills_manual_labor_trades",
+  "name": "Manuel İşçi ve İşlemler",
+  "skills": [
+    {
+      "id": "skill_3938",
+      "name": "Temel Kaynak",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Welding",
+      "tags": [
+        "basic",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3939",
+      "name": "Tuğla tabakası",
+      "difficulty_level": 2,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3940",
+      "name": "Kazma Teknikleri",
+      "difficulty_level": 1,
+      "description": "Learn and master Digging Techniques",
+      "tags": [
+        "digging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3941",
+      "name": "Ağır yükleri güvenli bir şekilde kaldırmak",
+      "difficulty_level": 3,
+      "description": "Learn and master Lifting Heavy Loads Safely",
+      "tags": [
+        "lifting",
+        "heavy",
+        "loads",
+        "safely"
+      ]
+    },
+    {
+      "id": "skill_3942",
+      "name": "Betonu Karıştırma",
+      "difficulty_level": 5,
+      "description": "Learn and master Mixing Concrete",
+      "tags": [
+        "mixing",
+        "concrete",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3943",
+      "name": "İşletim elektrikli aletler",
+      "difficulty_level": 5,
+      "description": "Learn and master Operating Power Tools",
+      "tags": [
+        "operating",
+        "power",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_3944",
+      "name": "Boyama Duvarları",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3945",
+      "name": "Çatı döşeme",
+      "difficulty_level": 5,
+      "description": "Learn and master Roof Tiling",
+      "tags": [
+        "roof",
+        "tiling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3946",
+      "name": "El Araçlarını Kullanma",
+      "difficulty_level": 1,
+      "description": "Learn and master Using Hand Tools",
+      "tags": [
+        "using",
+        "hand",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_3947",
+      "name": "Ahşap bölme",
+      "difficulty_level": 3,
+      "description": "Learn and master Wood Splitting",
+      "tags": [
+        "wood",
+        "splitting",
+        "skill"
+      ]
+    }
+  ]
+}

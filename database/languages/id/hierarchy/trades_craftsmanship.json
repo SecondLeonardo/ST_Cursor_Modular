@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "Perdagangan & keahlian",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "Perbaikan Otomotif"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "Pertukangan & kayu"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "Konstruksi & Masonry"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "Pekerjaan listrik"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC & Refrigerasi"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "Pembuatan perhiasan"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "Metal & Pengelasan"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "Lukisan & Dekorasi"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "Pipa saluran air"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "Menjahit & menjahit"
+    }
+  ]
+}

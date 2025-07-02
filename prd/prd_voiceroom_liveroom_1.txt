@@ -1,0 +1,131 @@
+1. VoiceRoom & LiveRoom Overview
+- Public & private voice rooms for group discussions
+- Live streaming for skill practice and academic discussions
+- Technologies: WebRTC, Agora, cloud-based audio streaming
+
+2. Room Data Models
+- VoiceRoomModel: roomId, hostId, participants, isPrivate, createdAt
+- LiveRoomModel: roomId, hostId, topic, members, createdAt, isLive
+
+3. Room API Contracts
+- Create Room: POST /api/voicerooms
+- Join Room: POST /api/voicerooms/{roomId}/join
+
+4. VoiceRoom & LiveRoom UI/UX Design
+
+## 4. Voiceroom/Liveroom
+### 4.1 Voicerooms & Live Streaming
+- **Description**: Public & private voicerooms for group discussions and live streaming for skill practice.
+- **Technologies**: WebRTC for real-time communication, Agora for streaming.
+- **Dependencies**: Cloud-based audio streaming services.
+- **UI/UX Design**:
+  - **Colors & Theme**: Gradient blue background, dark-themed cards for chat rooms, icons and buttons in white, yellow, and blue.
+  - **Elements & Layout**:
+    - **Top Navigation Bar**: Categories for "Voice", "Live", "Drama".
+    - **Language Filter Tabs**: Options for All, English, French, with a "+" button for more.
+    - **Skill Filter Tabs**: Options for All, guitar, chess, with a "+" button for more.
+    - **Banner (Ad Section)**: Promotes events like "Spring Mega Sale".
+    - **Voice Rooms (Cards)**: Display language label, category label, room title, host info, participant avatars, and count.
+    - **Bottom Navigation Bar**: Includes SkillTalk, Match, Posts, Voiceroom, Me.
+  - **Functionality & UX Flow**:
+    - **Navigation**: Switching between tabs, filtering by language and skill.
+    - **Banner Ads**: Redirects to purchase pages.
+    - **Voice Room Functionality**: Entering rooms, viewing room info, participant interaction.
+    - **Participant Interaction**: User avatars, room types like "Strange Stories", "Fun Debate", "Tutor".
+
+### 4.2 Voiceroom Agreement Popup
+- **Description**: Popup for first-time users entering the Voiceroom page.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dimmed background, white popup, blue "Agree" button, gray "Decline" button.
+  - **Elements & Layout**: Popup modal with title, agreement details, and buttons.
+  - **Functionality & UX Flow**: Users must agree to terms before accessing Voicerooms.
+
+### 4.3 Create Voiceroom
+- **Description**: Page for creating and customizing a Voiceroom.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark mode interface, white text, teal buttons.
+  - **Elements & Layout**: Input fields for topic, language, skill, room type, toggles for private room and boost, change background button.
+  - **Functionality & UX Flow**: Users customize room settings and start the Voiceroom.
+
+### 4.4 Voiceroom Creation Popups
+- **Skill Selection Popup**:
+  - **UI/UX Design**: Black background, teal "Done" button, white text.
+  - **Functionality**: Users select skills for the room.
+- **Language Selection Popup**:
+  - **UI/UX Design**: Similar to skill selection, with language options.
+  - **Functionality**: Users select language for the room.
+- **Room Type Selection Popup**:
+  - **UI/UX Design**: Black background, teal for selected options.
+  - **Functionality**: Users select room type like Music, Study, Chat, Interaction.
+
+### 4.5 Choose Background for Voiceroom
+- **Description**: Shopping center for selecting room backgrounds.
+- **UI/UX Design**: Semi-transparent blur, vibrant thumbnails, teal buy buttons.
+- **Functionality**: Users purchase and apply backgrounds using ST coins.
+
+### 4.6 Boost Popup
+- **Description**: Popup for boosting room visibility.
+- **UI/UX Design**: Dark mode, teal "Buy Boost" button, pricing details.
+- **Functionality**: Users purchase boosts to increase room visibility.
+
+### 4.7 Voiceroom Management
+- **Description**: Host view for managing Voicerooms.
+- **UI/UX Design**: Dark gradient background, rounded icons, clear typography.
+- **Functionality**: Host manages participants, polls, chat, and gifts.
+
+### 4.8 Voiceroom Three-Dot Menu
+- **Description**: Menu for additional room options.
+- **UI/UX Design**: Dark overlay, rounded popup, white text.
+- **Functionality**: Options to share, minimize, leave, or close the room.
+
+### 4.9 Share Voiceroom
+- **Description**: Popup for sharing the Voiceroom link.
+- **UI/UX Design**: Dark overlay, centered modal, white text.
+- **Functionality**: Options to share to chat or posts.
+
+### 4.10 Leave Voiceroom Reminder
+- **Description**: Reminder popup when attempting to leave a Voiceroom.
+- **UI/UX Design**: Centered modal with rounded corners, dark semi-transparent overlay.
+- **Functionality**: Notifies users of consequences of leaving and offers to set moderators.
+
+### 4.11 End Voiceroom
+- **Description**: Page displayed when a Voiceroom ends.
+- **UI/UX Design**: Dark gradient background, bold text for session end notification.
+- **Functionality**: Displays session stats and offers navigation to Host Center.
+
+### 4.12 Host Center
+- **Description**: Dashboard for managing Voicerooms and viewing performance metrics.
+- **UI/UX Design**: Structured layout with performance metrics and promotional banners.
+- **Functionality**: Allows hosts to track performance and manage events.
+
+### 4.13 Redeem Diamond
+- **Description**: Page for redeeming in-app currency.
+- **UI/UX Design**: White background, teal CTA buttons, diamond icons.
+- **Functionality**: Users can withdraw diamonds or exchange them for ST Coins.
+
+### 4.14 Diamond Validity Period Popup
+- **Description**: Popup explaining diamond expiration rules.
+- **UI/UX Design**: White background, teal "OK" button.
+- **Functionality**: Informs users about diamond expiration and prioritizes usage.
+
+### 4.15 Voiceroom Participation
+- **Description**: Interface for participating in Voicerooms.
+- **UI/UX Design**: Dark-themed background, bright colors for interaction elements.
+- **Functionality**: Allows users to join as listeners or speakers, send comments, and follow hosts.
+
+### 4.16 Voiceroom Three-Dot Menu
+- **Description**: Additional options for Voiceroom participants.
+- **UI/UX Design**: Dark theme, white text, interactive icons.
+- **Functionality**: Provides options to share, expand, or close the menu.
+
+### 4.17 Gift Page
+- **Description**: Interface for purchasing and sending gifts in Voicerooms.
+- **UI/UX Design**: Dark background, colorful gift icons, rounded buttons.
+- **Functionality**: Users can select and send gifts using in-app currency.
+
+
+5. Implementation Patterns
+- Service/provider pattern, multi-provider strategy, usage tracking, fallback system
+
+6. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 

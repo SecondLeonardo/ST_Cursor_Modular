@@ -1,0 +1,116 @@
+{
+  "id": "cognitive_academic_skills_science_research",
+  "name": "Ciencia e investigación",
+  "skills": [
+    {
+      "id": "skill_1108",
+      "name": "Técnicas de recopilación de datos",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Collection Techniques",
+      "tags": [
+        "data",
+        "collection",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_1109",
+      "name": "Prácticas de investigación ética",
+      "difficulty_level": 4,
+      "description": "Learn and master Ethical Research Practices",
+      "tags": [
+        "ethical",
+        "research",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_1110",
+      "name": "Controles experimentales",
+      "difficulty_level": 4,
+      "description": "Learn and master Experimental Controls",
+      "tags": [
+        "experimental",
+        "controls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1111",
+      "name": "Observación de campo",
+      "difficulty_level": 2,
+      "description": "Learn and master Field Observation",
+      "tags": [
+        "field",
+        "observation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1112",
+      "name": "Prueba de hipótesis",
+      "difficulty_level": 5,
+      "description": "Learn and master Hypothesis Testing",
+      "tags": [
+        "hypothesis",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1113",
+      "name": "Diseño de experimentos de laboratorio",
+      "difficulty_level": 2,
+      "description": "Learn and master Lab Experiment Design",
+      "tags": [
+        "experiment",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1114",
+      "name": "Lectura de revistas científicas",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Scientific Journals",
+      "tags": [
+        "reading",
+        "scientific",
+        "journals"
+      ]
+    },
+    {
+      "id": "skill_1115",
+      "name": "Escritura de investigación",
+      "difficulty_level": 1,
+      "description": "Learn and master Research Writing",
+      "tags": [
+        "research",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1116",
+      "name": "Dibujo científico",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Drawing",
+      "tags": [
+        "scientific",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1117",
+      "name": "Aplicación del método científico",
+      "difficulty_level": 4,
+      "description": "Learn and master Scientific Method Application",
+      "tags": [
+        "scientific",
+        "method",
+        "application"
+      ]
+    }
+  ]
+}

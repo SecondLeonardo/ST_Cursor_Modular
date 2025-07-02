@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_software_systems",
+  "name": "সফ্টওয়্যার এবং সিস্টেম",
+  "skills": [
+    {
+      "id": "skill_4546",
+      "name": "এপিআই এবং ইন্টিগ্রেশন",
+      "difficulty_level": 1,
+      "description": "Learn and master APIs and Integration",
+      "tags": [
+        "apis",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4547",
+      "name": "চতুর উন্নয়ন অনুশীলন",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Development Practices",
+      "tags": [
+        "agile",
+        "development",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4548",
+      "name": "সিআই/সিডি পাইপলাইন",
+      "difficulty_level": 1,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4549",
+      "name": "ক্লাউড অবকাঠামো (এডাব্লুএস/জিসিপি)",
+      "difficulty_level": 3,
+      "description": "Learn and master Cloud Infrastructure (AWS/GCP)",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "(aws/gcp)"
+      ]
+    },
+    {
+      "id": "skill_4550",
+      "name": "ডিবাগিং কৌশল",
+      "difficulty_level": 1,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4551",
+      "name": "সফ্টওয়্যার পরীক্ষার বেসিকগুলি",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Testing Basics",
+      "tags": [
+        "software",
+        "testing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4552",
+      "name": "সিস্টেম আর্কিটেকচার ডিজাইন",
+      "difficulty_level": 1,
+      "description": "Learn and master System Architecture Design",
+      "tags": [
+        "system",
+        "architecture",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4553",
+      "name": "প্রযুক্তিগত ডকুমেন্টেশন",
+      "difficulty_level": 1,
+      "description": "Learn and master Technical Documentation",
+      "tags": [
+        "technical",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4554",
+      "name": "ইউএমএল ডায়াগ্রামিং",
+      "difficulty_level": 5,
+      "description": "Learn and master UML Diagramming",
+      "tags": [
+        "diagramming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4555",
+      "name": "গিট সহ সংস্করণ নিয়ন্ত্রণ",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

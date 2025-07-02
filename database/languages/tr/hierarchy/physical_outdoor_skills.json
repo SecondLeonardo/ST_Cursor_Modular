@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "Fiziksel ve dış mekan becerileri",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "Fitness ve Condition"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "Manuel İşçi ve İşlemler"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "Açık hava rekreasyonu"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "Kendini savunma ve dövüş sanatları"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "Spor ve Atletizm"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "Hayatta Kalma ve Bushcraft"
+    }
+  ]
+}

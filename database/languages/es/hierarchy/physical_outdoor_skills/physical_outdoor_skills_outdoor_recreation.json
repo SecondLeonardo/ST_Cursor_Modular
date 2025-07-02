@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_outdoor_recreation",
+  "name": "Recreación al aire libre",
+  "skills": [
+    {
+      "id": "skill_3948",
+      "name": "Forma de tiro con arco",
+      "difficulty_level": 2,
+      "description": "Learn and master Archery Form",
+      "tags": [
+        "archery",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3949",
+      "name": "Configuración de campamento",
+      "difficulty_level": 2,
+      "description": "Learn and master Camping Setup",
+      "tags": [
+        "camping",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3950",
+      "name": "Navegación de senderismo",
+      "difficulty_level": 3,
+      "description": "Learn and master Hiking Navigation",
+      "tags": [
+        "hiking",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3951",
+      "name": "Conceptos básicos de kayak",
+      "difficulty_level": 4,
+      "description": "Learn and master Kayaking Basics",
+      "tags": [
+        "kayaking",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3952",
+      "name": "Ciclismo de montaña",
+      "difficulty_level": 2,
+      "description": "Learn and master Mountain Biking",
+      "tags": [
+        "mountain",
+        "biking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3953",
+      "name": "Seguridad de escalada en roca",
+      "difficulty_level": 5,
+      "description": "Learn and master Rock Climbing Safety",
+      "tags": [
+        "rock",
+        "climbing",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3954",
+      "name": "Técnicas de esquí",
+      "difficulty_level": 4,
+      "description": "Learn and master Skiing Techniques",
+      "tags": [
+        "skiing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3955",
+      "name": "Técnicas de snowboard",
+      "difficulty_level": 2,
+      "description": "Learn and master Snowboarding Techniques",
+      "tags": [
+        "snowboarding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3956",
+      "name": "Marcado de senderos",
+      "difficulty_level": 5,
+      "description": "Learn and master Trail Marking",
+      "tags": [
+        "trail",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3957",
+      "name": "Usando una brújula",
+      "difficulty_level": 3,
+      "description": "Learn and master Using a Compass",
+      "tags": [
+        "using",
+        "compass",
+        "skill"
+      ]
+    }
+  ]
+}

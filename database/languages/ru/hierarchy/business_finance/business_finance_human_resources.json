@@ -1,0 +1,116 @@
+{
+  "id": "business_finance_human_resources",
+  "name": "Человеческие ресурсы",
+  "skills": [
+    {
+      "id": "skill_855",
+      "name": "Управление льготами",
+      "difficulty_level": 3,
+      "description": "Learn and master Benefits Administration",
+      "tags": [
+        "benefits",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_856",
+      "name": "Разрешение конфликта",
+      "difficulty_level": 4,
+      "description": "Learn and master Conflict Resolution",
+      "tags": [
+        "conflict",
+        "resolution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_857",
+      "name": "Вовлечение сотрудников",
+      "difficulty_level": 3,
+      "description": "Learn and master Employee Engagement",
+      "tags": [
+        "employee",
+        "engagement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_858",
+      "name": "Сотрудник",
+      "difficulty_level": 1,
+      "description": "Learn and master Employee Onboarding",
+      "tags": [
+        "employee",
+        "onboarding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_859",
+      "name": "Соблюдение кадров",
+      "difficulty_level": 4,
+      "description": "Learn and master HR Compliance",
+      "tags": [
+        "compliance",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_860",
+      "name": "Методы интервьюирования",
+      "difficulty_level": 5,
+      "description": "Learn and master Interviewing Techniques",
+      "tags": [
+        "interviewing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_861",
+      "name": "Управление заработной платой",
+      "difficulty_level": 4,
+      "description": "Learn and master Payroll Management",
+      "tags": [
+        "payroll",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_862",
+      "name": "Отзывы о производительности",
+      "difficulty_level": 4,
+      "description": "Learn and master Performance Reviews",
+      "tags": [
+        "performance",
+        "reviews",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_863",
+      "name": "Стратегии найма",
+      "difficulty_level": 3,
+      "description": "Learn and master Recruitment Strategies",
+      "tags": [
+        "recruitment",
+        "strategies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_864",
+      "name": "Культура на рабочем месте",
+      "difficulty_level": 4,
+      "description": "Learn and master Workplace Culture",
+      "tags": [
+        "workplace",
+        "culture",
+        "skill"
+      ]
+    }
+  ]
+}

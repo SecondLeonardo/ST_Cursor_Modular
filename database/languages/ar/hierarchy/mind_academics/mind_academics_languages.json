@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_languages",
+  "name": "اللغات",
+  "skills": [
+    {
+      "id": "skill_3598",
+      "name": "مهارات المحادثة",
+      "difficulty_level": 1,
+      "description": "Learn and master Conversational Skills",
+      "tags": [
+        "conversational",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3599",
+      "name": "قواعد اللغة الإنجليزية",
+      "difficulty_level": 4,
+      "description": "Learn and master English Grammar",
+      "tags": [
+        "english",
+        "grammar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3600",
+      "name": "تعلم اللغة الأجنبية",
+      "difficulty_level": 5,
+      "description": "Learn and master Foreign Language Learning",
+      "tags": [
+        "foreign",
+        "language",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3601",
+      "name": "ترجمة اللغة",
+      "difficulty_level": 3,
+      "description": "Learn and master Language Translation",
+      "tags": [
+        "language",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3602",
+      "name": "التحليل اللغوي",
+      "difficulty_level": 3,
+      "description": "Learn and master Linguistic Analysis",
+      "tags": [
+        "linguistic",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3603",
+      "name": "الاستماع الفهم",
+      "difficulty_level": 5,
+      "description": "Learn and master Listening Comprehension",
+      "tags": [
+        "listening",
+        "comprehension",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3604",
+      "name": "الصوتيات",
+      "difficulty_level": 4,
+      "description": "Learn and master Phonetics",
+      "tags": [
+        "phonetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3605",
+      "name": "ممارسة النطق",
+      "difficulty_level": 4,
+      "description": "Learn and master Pronunciation Practice",
+      "tags": [
+        "pronunciation",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3606",
+      "name": "مبنى المفردات",
+      "difficulty_level": 2,
+      "description": "Learn and master Vocabulary Building",
+      "tags": [
+        "vocabulary",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3607",
+      "name": "الكتابة بلغة أخرى",
+      "difficulty_level": 3,
+      "description": "Learn and master Writing in Another Language",
+      "tags": [
+        "writing",
+        "another",
+        "language"
+      ]
+    }
+  ]
+}

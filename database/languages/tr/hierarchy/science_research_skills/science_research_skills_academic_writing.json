@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_academic_writing",
+  "name": "Akademik yazı",
+  "skills": [
+    {
+      "id": "skill_4048",
+      "name": "APA alıntı",
+      "difficulty_level": 4,
+      "description": "Learn and master APA Citation",
+      "tags": [
+        "citation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4049",
+      "name": "Akademik düzeltme",
+      "difficulty_level": 1,
+      "description": "Learn and master Academic Proofreading",
+      "tags": [
+        "academic",
+        "proofreading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4050",
+      "name": "El yazmaları düzenleme",
+      "difficulty_level": 4,
+      "description": "Learn and master Editing Manuscripts",
+      "tags": [
+        "editing",
+        "manuscripts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4051",
+      "name": "Hibe Teklif Yazımı",
+      "difficulty_level": 4,
+      "description": "Learn and master Grant Proposal Writing",
+      "tags": [
+        "grant",
+        "proposal",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_4052",
+      "name": "Dergi Gönderme Süreci",
+      "difficulty_level": 3,
+      "description": "Learn and master Journal Submission Process",
+      "tags": [
+        "journal",
+        "submission",
+        "process"
+      ]
+    },
+    {
+      "id": "skill_4053",
+      "name": "İntihal Kontrolü",
+      "difficulty_level": 2,
+      "description": "Learn and master Plagiarism Checking",
+      "tags": [
+        "plagiarism",
+        "checking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4054",
+      "name": "Sunum tasarımı",
+      "difficulty_level": 5,
+      "description": "Learn and master Presentation Design",
+      "tags": [
+        "presentation",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4055",
+      "name": "Araştırma kağıdı yapılandırması",
+      "difficulty_level": 2,
+      "description": "Learn and master Research Paper Structuring",
+      "tags": [
+        "research",
+        "paper",
+        "structuring"
+      ]
+    },
+    {
+      "id": "skill_4056",
+      "name": "Bilimsel soyut yazı",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Abstract Writing",
+      "tags": [
+        "scientific",
+        "abstract",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_4057",
+      "name": "Tez yazma",
+      "difficulty_level": 1,
+      "description": "Learn and master Thesis Writing",
+      "tags": [
+        "thesis",
+        "writing",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "life_everyday_skills",
+  "name": "Hayat ve Günlük Beceriler",
+  "subcategories": [
+    {
+      "id": "life_everyday_skills_cooking_food",
+      "name": "Yemek ve Yemek"
+    },
+    {
+      "id": "life_everyday_skills_home_maintenance",
+      "name": "Ev bakımı"
+    },
+    {
+      "id": "life_everyday_skills_personal_finance",
+      "name": "Kişisel finans"
+    },
+    {
+      "id": "life_everyday_skills_time_management",
+      "name": "Zaman yönetimi"
+    },
+    {
+      "id": "life_everyday_skills_travel_navigation",
+      "name": "Seyahat ve Navigasyon"
+    }
+  ]
+}

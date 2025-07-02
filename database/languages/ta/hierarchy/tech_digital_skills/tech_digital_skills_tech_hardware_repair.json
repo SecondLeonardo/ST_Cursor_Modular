@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_tech_hardware_repair",
+  "name": "தொழில்நுட்ப வன்பொருள் மற்றும் பழுது",
+  "skills": [
+    {
+      "id": "skill_4476",
+      "name": "பயாஸ் உள்ளமைவு",
+      "difficulty_level": 3,
+      "description": "Learn and master BIOS Configuration",
+      "tags": [
+        "bios",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4477",
+      "name": "பேட்டரி மாற்று",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4478",
+      "name": "கேபிள் மேலாண்மை",
+      "difficulty_level": 2,
+      "description": "Learn and master Cable Management",
+      "tags": [
+        "cable",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4479",
+      "name": "கணினி சட்டசபை",
+      "difficulty_level": 1,
+      "description": "Learn and master Computer Assembly",
+      "tags": [
+        "computer",
+        "assembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4480",
+      "name": "காட்சி பழுதுபார்க்கும்",
+      "difficulty_level": 5,
+      "description": "Learn and master Display Repair",
+      "tags": [
+        "display",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4481",
+      "name": "வன் குளோனிங்",
+      "difficulty_level": 2,
+      "description": "Learn and master Hard Drive Cloning",
+      "tags": [
+        "hard",
+        "drive",
+        "cloning"
+      ]
+    },
+    {
+      "id": "skill_4482",
+      "name": "மடிக்கணினி பிரித்தெடுத்தல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Laptop Disassembly",
+      "tags": [
+        "laptop",
+        "disassembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4483",
+      "name": "மதர்போர்டு கண்டறிதல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Motherboard Diagnostics",
+      "tags": [
+        "motherboard",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4484",
+      "name": "புற சோதனை",
+      "difficulty_level": 3,
+      "description": "Learn and master Peripheral Testing",
+      "tags": [
+        "peripheral",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4485",
+      "name": "வெப்ப பேஸ்ட் பயன்பாடு",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermal Paste Application",
+      "tags": [
+        "thermal",
+        "paste",
+        "application"
+      ]
+    }
+  ]
+}

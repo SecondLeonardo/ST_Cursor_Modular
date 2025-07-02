@@ -1,0 +1,226 @@
+{
+  "id": "academic_intellectual_skills_mathematics",
+  "name": "ਗਣਿਤ",
+  "skills": [
+    {
+      "id": "skill_170",
+      "name": "ਐਲਜਬਰਾ",
+      "difficulty_level": 1,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_171",
+      "name": "ਅਲਜਬ੍ਰਿਕ ਸਮੀਕਰਨ",
+      "difficulty_level": 3,
+      "description": "Learn and master Algebraic Equations",
+      "tags": [
+        "algebraic",
+        "equations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_172",
+      "name": "ਮੁੱ it ਲਾ ਹਿਸਾਬ",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Arithmetic",
+      "tags": [
+        "basic",
+        "arithmetic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_173",
+      "name": "ਕੈਲਕੂਲਸ",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_174",
+      "name": "ਕੈਲਕੂਲਸ ਬੁਨਿਆਦ",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus Fundamentals",
+      "tags": [
+        "calculus",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_175",
+      "name": "ਭੰਡਾਰ ਅਤੇ ਦਸ਼ਮਲਵ",
+      "difficulty_level": 1,
+      "description": "Learn and master Fractions & Decimals",
+      "tags": [
+        "fractions",
+        "decimals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_176",
+      "name": "ਜਿਓਮੈਟਰੀ",
+      "difficulty_level": 5,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_177",
+      "name": "ਜਿਓਮੈਟਰੀ ਸੰਕਲਪ",
+      "difficulty_level": 4,
+      "description": "Learn and master Geometry Concepts",
+      "tags": [
+        "geometry",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_178",
+      "name": "ਲੀਨੀਅਰ ਐਲਜਬਰਾ",
+      "difficulty_level": 5,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_179",
+      "name": "ਗਣਿਤ ਦੀ ਸਮੱਸਿਆ ਹੱਲ ਕਰਨਾ",
+      "difficulty_level": 1,
+      "description": "Learn and master Math Problem Solving",
+      "tags": [
+        "math",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_180",
+      "name": "ਗਣਿਤ ਸ਼ਬਦ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ",
+      "difficulty_level": 5,
+      "description": "Learn and master Math Word Problems",
+      "tags": [
+        "math",
+        "word",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_181",
+      "name": "ਗਣਿਤ ਦਾ ਮਾਡਲਿੰਗ",
+      "difficulty_level": 1,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_182",
+      "name": "ਮਾਨਸਿਕ ਗਣਿਤ",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_183",
+      "name": "ਮਾਨਸਿਕ ਮੈਥ ਟ੍ਰਿਕਸ",
+      "difficulty_level": 2,
+      "description": "Learn and master Mental Math Tricks",
+      "tags": [
+        "mental",
+        "math",
+        "tricks"
+      ]
+    },
+    {
+      "id": "skill_184",
+      "name": "ਨੰਬਰ ਸਿਧਾਂਤ",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_185",
+      "name": "ਸੰਭਾਵਨਾ ਅਤੇ ਅੰਕੜੇ",
+      "difficulty_level": 2,
+      "description": "Learn and master Probability & Statistics",
+      "tags": [
+        "probability",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_186",
+      "name": "ਲੀਨੀਅਰ ਸਮੀਕਰਣਾਂ ਨੂੰ ਹੱਲ ਕਰਨਾ",
+      "difficulty_level": 5,
+      "description": "Learn and master Solving Linear Equations",
+      "tags": [
+        "solving",
+        "linear",
+        "equations"
+      ]
+    },
+    {
+      "id": "skill_187",
+      "name": "ਅੰਕੜੇ",
+      "difficulty_level": 2,
+      "description": "Learn and master Statistics",
+      "tags": [
+        "statistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_188",
+      "name": "ਟ੍ਰਾਈਗੋਮੈਟਰੀ",
+      "difficulty_level": 4,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_189",
+      "name": "ਗ੍ਰਾਫਿੰਗ ਕੈਲਕੁਲੇਟਰ ਦੀ ਵਰਤੋਂ ਕਰਨਾ",
+      "difficulty_level": 3,
+      "description": "Learn and master Using a Graphing Calculator",
+      "tags": [
+        "using",
+        "graphing",
+        "calculator"
+      ]
+    }
+  ]
+}

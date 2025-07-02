@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_performing_arts",
+  "name": "कला प्रदर्शन",
+  "skills": [
+    {
+      "id": "skill_590",
+      "name": "ऑडिशन तैयारी",
+      "difficulty_level": 2,
+      "description": "Learn and master Audition Preparation",
+      "tags": [
+        "audition",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_591",
+      "name": "चरित्र विकास",
+      "difficulty_level": 3,
+      "description": "Learn and master Character Development",
+      "tags": [
+        "character",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_592",
+      "name": "नृत्यकला",
+      "difficulty_level": 3,
+      "description": "Learn and master Choreography",
+      "tags": [
+        "choreography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_593",
+      "name": "आशुरचना",
+      "difficulty_level": 1,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_594",
+      "name": "अंगविक्षेप",
+      "difficulty_level": 5,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_595",
+      "name": "मोनोलॉग डिलीवरी",
+      "difficulty_level": 3,
+      "description": "Learn and master Monologue Delivery",
+      "tags": [
+        "monologue",
+        "delivery",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_596",
+      "name": "मंच प्रबंधन",
+      "difficulty_level": 4,
+      "description": "Learn and master Stage Management",
+      "tags": [
+        "stage",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_597",
+      "name": "मंच पर उपस्थिति",
+      "difficulty_level": 1,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_598",
+      "name": "थिएटर अभिनय",
+      "difficulty_level": 4,
+      "description": "Learn and master Theater Acting",
+      "tags": [
+        "theater",
+        "acting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_599",
+      "name": "आवाज का प्रक्षेपण",
+      "difficulty_level": 3,
+      "description": "Learn and master Voice Projection",
+      "tags": [
+        "voice",
+        "projection",
+        "skill"
+      ]
+    }
+  ]
+}

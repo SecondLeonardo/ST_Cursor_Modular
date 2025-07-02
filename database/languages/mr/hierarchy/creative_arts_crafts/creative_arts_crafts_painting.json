@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_painting",
+  "name": "चित्रकला",
+  "skills": [
+    {
+      "id": "skill_1833",
+      "name": "अमूर्त चित्रकला",
+      "difficulty_level": 3,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1834",
+      "name": "Ry क्रेलिक पेंटिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1835",
+      "name": "ब्रश तंत्र",
+      "difficulty_level": 5,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1836",
+      "name": "लघु चित्रकला",
+      "difficulty_level": 4,
+      "description": "Learn and master Miniature Painting",
+      "tags": [
+        "miniature",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1837",
+      "name": "रंग मिसळणे",
+      "difficulty_level": 3,
+      "description": "Learn and master Mixing Colors",
+      "tags": [
+        "mixing",
+        "colors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1838",
+      "name": "तेल चित्रकला",
+      "difficulty_level": 3,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1839",
+      "name": "पेंटिंग लँडस्केप्स",
+      "difficulty_level": 5,
+      "description": "Learn and master Painting Landscapes",
+      "tags": [
+        "painting",
+        "landscapes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1840",
+      "name": "फॅब्रिक वर चित्रकला",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting on Fabric",
+      "tags": [
+        "painting",
+        "fabric",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1841",
+      "name": "पोर्ट्रेट पेंटिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1842",
+      "name": "वॉटर कलर तंत्र",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

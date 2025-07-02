@@ -1,0 +1,117 @@
+{
+  "id": "technical_mechanical_skills_electrical_work",
+  "name": "बिजली का काम",
+  "skills": [
+    {
+      "id": "skill_4576",
+      "name": "बेसिक सोल्डरिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Soldering",
+      "tags": [
+        "basic",
+        "soldering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4577",
+      "name": "सर्किट ब्रेकर सुरक्षा",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Breaker Safety",
+      "tags": [
+        "circuit",
+        "breaker",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_4578",
+      "name": "टिमटिमाती रोशनी को ठीक करना",
+      "difficulty_level": 5,
+      "description": "Learn and master Fixing Flickering Lights",
+      "tags": [
+        "fixing",
+        "flickering",
+        "lights"
+      ]
+    },
+    {
+      "id": "skill_4579",
+      "name": "गृह विद्युत मरम्मत",
+      "difficulty_level": 2,
+      "description": "Learn and master Home Electrical Repairs",
+      "tags": [
+        "home",
+        "electrical",
+        "repairs"
+      ]
+    },
+    {
+      "id": "skill_4580",
+      "name": "आउटलेट स्थापित करना",
+      "difficulty_level": 5,
+      "description": "Learn and master Installing Outlets",
+      "tags": [
+        "installing",
+        "outlets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4581",
+      "name": "स्विच स्थापित करना",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Switches",
+      "tags": [
+        "installing",
+        "switches",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4582",
+      "name": "पठन सर्किट आरेख",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Circuit Diagrams",
+      "tags": [
+        "reading",
+        "circuit",
+        "diagrams"
+      ]
+    },
+    {
+      "id": "skill_4583",
+      "name": "विद्युत टेप का ठीक से उपयोग करना",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Electrical Tape Properly",
+      "tags": [
+        "using",
+        "electrical",
+        "tape",
+        "properly"
+      ]
+    },
+    {
+      "id": "skill_4584",
+      "name": "एक वोल्टमीटर का उपयोग करना",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Voltmeter",
+      "tags": [
+        "using",
+        "voltmeter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4585",
+      "name": "वायर स्ट्रिपिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Wire Stripping",
+      "tags": [
+        "wire",
+        "stripping",
+        "skill"
+      ]
+    }
+  ]
+}

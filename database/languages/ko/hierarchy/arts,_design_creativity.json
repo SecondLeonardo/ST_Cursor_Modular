@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "예술, 디자인 및 창의성",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "공예품 및 DIY"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "창의적인 글쓰기"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "디자인 및 디지털 아트"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "공연 예술"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "시각 예술"
+    }
+  ]
+}

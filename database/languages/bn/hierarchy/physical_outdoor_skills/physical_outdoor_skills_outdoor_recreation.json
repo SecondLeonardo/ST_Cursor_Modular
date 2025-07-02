@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_outdoor_recreation",
+  "name": "বহিরঙ্গন বিনোদন",
+  "skills": [
+    {
+      "id": "skill_3948",
+      "name": "তীরন্দাজ ফর্ম",
+      "difficulty_level": 2,
+      "description": "Learn and master Archery Form",
+      "tags": [
+        "archery",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3949",
+      "name": "ক্যাম্পিং সেটআপ",
+      "difficulty_level": 2,
+      "description": "Learn and master Camping Setup",
+      "tags": [
+        "camping",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3950",
+      "name": "হাইকিং নেভিগেশন",
+      "difficulty_level": 3,
+      "description": "Learn and master Hiking Navigation",
+      "tags": [
+        "hiking",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3951",
+      "name": "কায়াকিং বেসিক",
+      "difficulty_level": 4,
+      "description": "Learn and master Kayaking Basics",
+      "tags": [
+        "kayaking",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3952",
+      "name": "মাউন্টেন বাইকিং",
+      "difficulty_level": 2,
+      "description": "Learn and master Mountain Biking",
+      "tags": [
+        "mountain",
+        "biking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3953",
+      "name": "রক ক্লাইম্বিং সুরক্ষা",
+      "difficulty_level": 5,
+      "description": "Learn and master Rock Climbing Safety",
+      "tags": [
+        "rock",
+        "climbing",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3954",
+      "name": "স্কিইং কৌশল",
+      "difficulty_level": 4,
+      "description": "Learn and master Skiing Techniques",
+      "tags": [
+        "skiing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3955",
+      "name": "স্নোবোর্ডিং কৌশল",
+      "difficulty_level": 2,
+      "description": "Learn and master Snowboarding Techniques",
+      "tags": [
+        "snowboarding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3956",
+      "name": "ট্রেইল চিহ্নিত",
+      "difficulty_level": 5,
+      "description": "Learn and master Trail Marking",
+      "tags": [
+        "trail",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3957",
+      "name": "একটি কম্পাস ব্যবহার করে",
+      "difficulty_level": 3,
+      "description": "Learn and master Using a Compass",
+      "tags": [
+        "using",
+        "compass",
+        "skill"
+      ]
+    }
+  ]
+}

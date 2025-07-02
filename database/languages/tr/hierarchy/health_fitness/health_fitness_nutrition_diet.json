@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_nutrition_diet",
+  "name": "Beslenme ve Diyet",
+  "skills": [
+    {
+      "id": "skill_2473",
+      "name": "Dengeli diyet yaratma",
+      "difficulty_level": 3,
+      "description": "Learn and master Balanced Diet Creation",
+      "tags": [
+        "balanced",
+        "diet",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_2474",
+      "name": "Sağlıklı Yemek",
+      "difficulty_level": 2,
+      "description": "Learn and master Healthy Cooking",
+      "tags": [
+        "healthy",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2475",
+      "name": "Hidrasyon yönetimi",
+      "difficulty_level": 2,
+      "description": "Learn and master Hydration Management",
+      "tags": [
+        "hydration",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2476",
+      "name": "Aralıklı oruç",
+      "difficulty_level": 2,
+      "description": "Learn and master Intermittent Fasting",
+      "tags": [
+        "intermittent",
+        "fasting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2477",
+      "name": "Düşük karbonhidrat yemek",
+      "difficulty_level": 1,
+      "description": "Learn and master Low-Carb Eating",
+      "tags": [
+        "low-carb",
+        "eating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2478",
+      "name": "Makro sayımı",
+      "difficulty_level": 3,
+      "description": "Learn and master Macro Counting",
+      "tags": [
+        "macro",
+        "counting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2479",
+      "name": "Yemek planlaması",
+      "difficulty_level": 1,
+      "description": "Learn and master Meal Planning",
+      "tags": [
+        "meal",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2480",
+      "name": "Bitki bazlı yemek hazırlığı",
+      "difficulty_level": 5,
+      "description": "Learn and master Plant-Based Meal Prep",
+      "tags": [
+        "plant-based",
+        "meal",
+        "prep"
+      ]
+    },
+    {
+      "id": "skill_2481",
+      "name": "Beslenme Etiketlerini Okumak",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Nutrition Labels",
+      "tags": [
+        "reading",
+        "nutrition",
+        "labels"
+      ]
+    },
+    {
+      "id": "skill_2482",
+      "name": "Takviyeler bilgisi",
+      "difficulty_level": 2,
+      "description": "Learn and master Supplements Knowledge",
+      "tags": [
+        "supplements",
+        "knowledge",
+        "skill"
+      ]
+    }
+  ]
+}

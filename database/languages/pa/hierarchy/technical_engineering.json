@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "ਤਕਨੀਕੀ ਅਤੇ ਇੰਜੀਨੀਅਰਿੰਗ",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "ਸਿਵਲ ਐਂਡ struct ਾਂਚਨ"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "ਇਲੈਕਟ੍ਰੀਕਲ ਇੰਜੀਨੀਅਰਿੰਗ"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "ਨਿਰਮਾਣ ਅਤੇ ਮਨਘੜਤ"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "ਜੰਤਰਿਕ ਇੰਜੀਨਿਅਰੀ"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "ਸਾਫਟਵੇਅਰ ਅਤੇ ਸਿਸਟਮ"
+    }
+  ]
+}

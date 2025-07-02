@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_animation",
+  "name": "动画片",
+  "skills": [
+    {
+      "id": "skill_320",
+      "name": "2D动画",
+      "difficulty_level": 2,
+      "description": "Learn and master 2D Animation",
+      "tags": [
+        "animation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_321",
+      "name": "3D动画",
+      "difficulty_level": 5,
+      "description": "Learn and master 3D Animation",
+      "tags": [
+        "animation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_322",
+      "name": "动画软件使用",
+      "difficulty_level": 5,
+      "description": "Learn and master Animation Software Use",
+      "tags": [
+        "animation",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_323",
+      "name": "动画时机",
+      "difficulty_level": 5,
+      "description": "Learn and master Animation Timing",
+      "tags": [
+        "animation",
+        "timing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_324",
+      "name": "角色索具",
+      "difficulty_level": 3,
+      "description": "Learn and master Character Rigging",
+      "tags": [
+        "character",
+        "rigging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_325",
+      "name": "嘴唇同步动画",
+      "difficulty_level": 2,
+      "description": "Learn and master Lip Sync Animation",
+      "tags": [
+        "sync",
+        "animation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_326",
+      "name": "运动图形",
+      "difficulty_level": 3,
+      "description": "Learn and master Motion Graphics",
+      "tags": [
+        "motion",
+        "graphics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_327",
+      "name": "停止运动",
+      "difficulty_level": 3,
+      "description": "Learn and master Stop Motion",
+      "tags": [
+        "stop",
+        "motion",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_328",
+      "name": "故事板",
+      "difficulty_level": 5,
+      "description": "Learn and master Storyboarding",
+      "tags": [
+        "storyboarding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_329",
+      "name": "视觉效果",
+      "difficulty_level": 1,
+      "description": "Learn and master Visual Effects",
+      "tags": [
+        "visual",
+        "effects",
+        "skill"
+      ]
+    }
+  ]
+}

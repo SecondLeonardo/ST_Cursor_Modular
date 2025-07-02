@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Habilidades de ciencia e investigación",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Escritura académica"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Ciencias biológicas"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Ciencia de la computadora y datos"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Ciencias de la Tierra y Ambiental"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Ciencias de la ingeniería"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Matemáticas y estadísticas"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Ciencias de la Medicina y Salud"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Ciencias físicas"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Métodos de investigación"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Ciencias sociales"
+    }
+  ]
+}

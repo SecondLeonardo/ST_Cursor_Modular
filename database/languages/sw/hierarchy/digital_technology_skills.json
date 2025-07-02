@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "Ujuzi wa dijiti na teknolojia",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "Cybersecurity"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "Takwimu & AI"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "Ni na mitandao"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "Programu na Maendeleo"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "Wavuti na Simu"
+    }
+  ]
+}

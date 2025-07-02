@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "Fysieke en sportvaardigheden",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "Fitness en kracht"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "Individuele sporten"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "Vechtsporten"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "Buiten en avontuur"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "Recreatieve activiteiten"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "Teamsporten"
+    }
+  ]
+}

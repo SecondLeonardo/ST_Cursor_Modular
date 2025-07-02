@@ -1,0 +1,26 @@
+{
+  "id": "life_everyday_skills",
+  "name": "Życie i umiejętności codzienne",
+  "subcategories": [
+    {
+      "id": "life_everyday_skills_cooking_food",
+      "name": "Gotowanie i jedzenie"
+    },
+    {
+      "id": "life_everyday_skills_home_maintenance",
+      "name": "Konserwacja domu"
+    },
+    {
+      "id": "life_everyday_skills_personal_finance",
+      "name": "Finanse osobiste"
+    },
+    {
+      "id": "life_everyday_skills_time_management",
+      "name": "Zarządzanie czasem"
+    },
+    {
+      "id": "life_everyday_skills_travel_navigation",
+      "name": "Podróż i nawigacja"
+    }
+  ]
+}

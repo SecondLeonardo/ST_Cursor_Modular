@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_masonry",
+  "name": "石工",
+  "skills": [
+    {
+      "id": "skill_5225",
+      "name": "ブロックワーク",
+      "difficulty_level": 1,
+      "description": "Learn and master Blockwork",
+      "tags": [
+        "blockwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5226",
+      "name": "bricklaying",
+      "difficulty_level": 1,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5227",
+      "name": "煙突構造",
+      "difficulty_level": 3,
+      "description": "Learn and master Chimney Construction",
+      "tags": [
+        "chimney",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5228",
+      "name": "コンクリートブロックのインストール",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Block Installation",
+      "tags": [
+        "concrete",
+        "block",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5229",
+      "name": "装飾的な石積み",
+      "difficulty_level": 1,
+      "description": "Learn and master Decorative Masonry",
+      "tags": [
+        "decorative",
+        "masonry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5230",
+      "name": "石積みの修復",
+      "difficulty_level": 3,
+      "description": "Learn and master Masonry Restoration",
+      "tags": [
+        "masonry",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5231",
+      "name": "モルタル混合",
+      "difficulty_level": 1,
+      "description": "Learn and master Mortar Mixing",
+      "tags": [
+        "mortar",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5232",
+      "name": "石の切断",
+      "difficulty_level": 5,
+      "description": "Learn and master Stone Cutting",
+      "tags": [
+        "stone",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5233",
+      "name": "タックポイント",
+      "difficulty_level": 3,
+      "description": "Learn and master Tuckpointing",
+      "tags": [
+        "tuckpointing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5234",
+      "name": "壁の補強",
+      "difficulty_level": 3,
+      "description": "Learn and master Wall Reinforcement",
+      "tags": [
+        "wall",
+        "reinforcement",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "lifestyle_self-sufficiency_skills_survival_skills",
+  "name": "생존 기술",
+  "skills": [
+    {
+      "id": "skill_3398",
+      "name": "대피소 만들기",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Shelter",
+      "tags": [
+        "creating",
+        "shelter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3399",
+      "name": "안전한 식수 찾기",
+      "difficulty_level": 1,
+      "description": "Learn and master Finding Safe Drinking Water",
+      "tags": [
+        "finding",
+        "safe",
+        "drinking",
+        "water"
+      ]
+    },
+    {
+      "id": "skill_3400",
+      "name": "소방 건물",
+      "difficulty_level": 5,
+      "description": "Learn and master Fire Building",
+      "tags": [
+        "fire",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3401",
+      "name": "응급 처치 기본",
+      "difficulty_level": 4,
+      "description": "Learn and master First Aid Basics",
+      "tags": [
+        "first",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3402",
+      "name": "식용 식물 식별",
+      "difficulty_level": 3,
+      "description": "Learn and master Identifying Edible Plants",
+      "tags": [
+        "identifying",
+        "edible",
+        "plants"
+      ]
+    },
+    {
+      "id": "skill_3403",
+      "name": "GPS없이 내비게이션",
+      "difficulty_level": 5,
+      "description": "Learn and master Navigation Without GPS",
+      "tags": [
+        "navigation",
+        "without",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3404",
+      "name": "나침반을 읽습니다",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading a Compass",
+      "tags": [
+        "reading",
+        "compass",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3405",
+      "name": "도움을위한 신호",
+      "difficulty_level": 1,
+      "description": "Learn and master Signaling for Help",
+      "tags": [
+        "signaling",
+        "help",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3406",
+      "name": "매듭을 묶습니다",
+      "difficulty_level": 4,
+      "description": "Learn and master Tying Knots",
+      "tags": [
+        "tying",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3407",
+      "name": "일기 예보 기술",
+      "difficulty_level": 2,
+      "description": "Learn and master Weather Forecasting Skills",
+      "tags": [
+        "weather",
+        "forecasting",
+        "skills"
+      ]
+    }
+  ]
+}

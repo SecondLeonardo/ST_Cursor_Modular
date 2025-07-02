@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_heavy_equipment_operation",
+  "name": "중장비 작동",
+  "skills": [
+    {
+      "id": "skill_5105",
+      "name": "백호 운전",
+      "difficulty_level": 1,
+      "description": "Learn and master Backhoe Driving",
+      "tags": [
+        "backhoe",
+        "driving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5106",
+      "name": "크레인 작동",
+      "difficulty_level": 1,
+      "description": "Learn and master Crane Operation",
+      "tags": [
+        "crane",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5107",
+      "name": "굴삭기 제어",
+      "difficulty_level": 2,
+      "description": "Learn and master Excavator Control",
+      "tags": [
+        "excavator",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5108",
+      "name": "지게차 작업",
+      "difficulty_level": 5,
+      "description": "Learn and master Forklift Operation",
+      "tags": [
+        "forklift",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5109",
+      "name": "GPS 가이드 작업",
+      "difficulty_level": 2,
+      "description": "Learn and master GPS Guided Operation",
+      "tags": [
+        "guided",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5110",
+      "name": "로드 밸런싱",
+      "difficulty_level": 2,
+      "description": "Learn and master Load Balancing",
+      "tags": [
+        "load",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5111",
+      "name": "안전 검사",
+      "difficulty_level": 1,
+      "description": "Learn and master Safety Inspections",
+      "tags": [
+        "safety",
+        "inspections",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5112",
+      "name": "사이트 탐색",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Navigation",
+      "tags": [
+        "site",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5113",
+      "name": "스키드 조향 용도",
+      "difficulty_level": 3,
+      "description": "Learn and master Skid Steer Use",
+      "tags": [
+        "skid",
+        "steer",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5114",
+      "name": "트렌치 사용",
+      "difficulty_level": 3,
+      "description": "Learn and master Trencher Use",
+      "tags": [
+        "trencher",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_outdoor_recreation",
+  "name": "வெளிப்புற பொழுதுபோக்கு",
+  "skills": [
+    {
+      "id": "skill_3948",
+      "name": "வில்வித்தை வடிவம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Archery Form",
+      "tags": [
+        "archery",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3949",
+      "name": "முகாம் அமைப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Camping Setup",
+      "tags": [
+        "camping",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3950",
+      "name": "ஹைக்கிங் வழிசெலுத்தல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Hiking Navigation",
+      "tags": [
+        "hiking",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3951",
+      "name": "கயாக்கிங் அடிப்படைகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Kayaking Basics",
+      "tags": [
+        "kayaking",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3952",
+      "name": "மவுண்டன் பைக்கிங்",
+      "difficulty_level": 2,
+      "description": "Learn and master Mountain Biking",
+      "tags": [
+        "mountain",
+        "biking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3953",
+      "name": "ராக் க்ளைம்பிங் பாதுகாப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Rock Climbing Safety",
+      "tags": [
+        "rock",
+        "climbing",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3954",
+      "name": "பனிச்சறுக்கு நுட்பங்கள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Skiing Techniques",
+      "tags": [
+        "skiing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3955",
+      "name": "பனிச்சறுக்கு நுட்பங்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Snowboarding Techniques",
+      "tags": [
+        "snowboarding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3956",
+      "name": "பாதை குறிக்கும்",
+      "difficulty_level": 5,
+      "description": "Learn and master Trail Marking",
+      "tags": [
+        "trail",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3957",
+      "name": "ஒரு திசைகாட்டி பயன்படுத்துதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Using a Compass",
+      "tags": [
+        "using",
+        "compass",
+        "skill"
+      ]
+    }
+  ]
+}

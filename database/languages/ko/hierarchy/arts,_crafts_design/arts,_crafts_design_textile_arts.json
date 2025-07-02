@@ -1,0 +1,116 @@
+{
+  "id": "arts,_crafts_design_textile_arts",
+  "name": "섬유 예술",
+  "skills": [
+    {
+      "id": "skill_700",
+      "name": "크로 셰 뜨개질 기술",
+      "difficulty_level": 1,
+      "description": "Learn and master Crochet Techniques",
+      "tags": [
+        "crochet",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_701",
+      "name": "자수",
+      "difficulty_level": 3,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_702",
+      "name": "직물 그림",
+      "difficulty_level": 5,
+      "description": "Learn and master Fabric Painting",
+      "tags": [
+        "fabric",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_703",
+      "name": "핸드 스티칭",
+      "difficulty_level": 4,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_704",
+      "name": "편물",
+      "difficulty_level": 3,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_705",
+      "name": "바늘 포인트",
+      "difficulty_level": 2,
+      "description": "Learn and master Needlepoint",
+      "tags": [
+        "needlepoint",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_706",
+      "name": "덧붙여 대는 세공",
+      "difficulty_level": 1,
+      "description": "Learn and master Patchwork",
+      "tags": [
+        "patchwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_707",
+      "name": "퀼팅",
+      "difficulty_level": 2,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_708",
+      "name": "섬유 염색",
+      "difficulty_level": 3,
+      "description": "Learn and master Textile Dyeing",
+      "tags": [
+        "textile",
+        "dyeing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_709",
+      "name": "직조",
+      "difficulty_level": 3,
+      "description": "Learn and master Weaving",
+      "tags": [
+        "weaving",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_logic_reasoning",
+  "name": "المنطق والمنطق",
+  "skills": [
+    {
+      "id": "skill_160",
+      "name": "التفكير التجريدي",
+      "difficulty_level": 4,
+      "description": "Learn and master Abstract Reasoning",
+      "tags": [
+        "abstract",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_161",
+      "name": "التفكير الاستنتاجي",
+      "difficulty_level": 1,
+      "description": "Learn and master Deductive Reasoning",
+      "tags": [
+        "deductive",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_162",
+      "name": "هوية مغالطة",
+      "difficulty_level": 2,
+      "description": "Learn and master Fallacy Identification",
+      "tags": [
+        "fallacy",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_163",
+      "name": "المنطق الاستقرائي",
+      "difficulty_level": 4,
+      "description": "Learn and master Inductive Logic",
+      "tags": [
+        "inductive",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_164",
+      "name": "الألغاز المنطقية",
+      "difficulty_level": 1,
+      "description": "Learn and master Logic Puzzles",
+      "tags": [
+        "logic",
+        "puzzles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_165",
+      "name": "المنطق الرياضي",
+      "difficulty_level": 4,
+      "description": "Learn and master Mathematical Logic",
+      "tags": [
+        "mathematical",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_166",
+      "name": "التعرف على الأنماط",
+      "difficulty_level": 3,
+      "description": "Learn and master Pattern Recognition",
+      "tags": [
+        "pattern",
+        "recognition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_167",
+      "name": "تحلل المشكلة",
+      "difficulty_level": 4,
+      "description": "Learn and master Problem Decomposition",
+      "tags": [
+        "problem",
+        "decomposition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_168",
+      "name": "حل اللغز",
+      "difficulty_level": 2,
+      "description": "Learn and master Puzzle Solving",
+      "tags": [
+        "puzzle",
+        "solving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_169",
+      "name": "تفكير النظم",
+      "difficulty_level": 2,
+      "description": "Learn and master Systems Thinking",
+      "tags": [
+        "systems",
+        "thinking",
+        "skill"
+      ]
+    }
+  ]
+}

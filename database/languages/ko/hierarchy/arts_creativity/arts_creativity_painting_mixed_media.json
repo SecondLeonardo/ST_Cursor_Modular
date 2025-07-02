@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_painting_mixed_media",
+  "name": "회화 및 혼합 매체",
+  "skills": [
+    {
+      "id": "skill_480",
+      "name": "추상화",
+      "difficulty_level": 5,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_481",
+      "name": "아크릴 그림",
+      "difficulty_level": 1,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_482",
+      "name": "캔버스 준비",
+      "difficulty_level": 5,
+      "description": "Learn and master Canvas Preparation",
+      "tags": [
+        "canvas",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_483",
+      "name": "콜라주 예술",
+      "difficulty_level": 4,
+      "description": "Learn and master Collage Art",
+      "tags": [
+        "collage",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_484",
+      "name": "혼합 미디어 계층",
+      "difficulty_level": 4,
+      "description": "Learn and master Mixed Media Layering",
+      "tags": [
+        "mixed",
+        "media",
+        "layering"
+      ]
+    },
+    {
+      "id": "skill_485",
+      "name": "벽화 예술",
+      "difficulty_level": 4,
+      "description": "Learn and master Mural Art",
+      "tags": [
+        "mural",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_486",
+      "name": "유화",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_487",
+      "name": "팔레트 나이프 페인팅",
+      "difficulty_level": 5,
+      "description": "Learn and master Palette Knife Painting",
+      "tags": [
+        "palette",
+        "knife",
+        "painting"
+      ]
+    },
+    {
+      "id": "skill_488",
+      "name": "스프레이 페인팅",
+      "difficulty_level": 1,
+      "description": "Learn and master Spray Painting",
+      "tags": [
+        "spray",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_489",
+      "name": "수채화 기술",
+      "difficulty_level": 1,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

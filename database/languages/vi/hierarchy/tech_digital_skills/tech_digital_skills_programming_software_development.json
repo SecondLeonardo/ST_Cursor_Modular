@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_programming_software_development",
+  "name": "Lập trình & Phát triển phần mềm",
+  "skills": [
+    {
+      "id": "skill_4456",
+      "name": "Xây dựng API REST",
+      "difficulty_level": 5,
+      "description": "Learn and master Building REST APIs",
+      "tags": [
+        "building",
+        "rest",
+        "apis"
+      ]
+    },
+    {
+      "id": "skill_4457",
+      "name": "Gỡ lỗi JavaScript",
+      "difficulty_level": 3,
+      "description": "Learn and master Debugging JavaScript",
+      "tags": [
+        "debugging",
+        "javascript",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4458",
+      "name": "Phát triển web đầy đủ",
+      "difficulty_level": 4,
+      "description": "Learn and master Full-Stack Web Development",
+      "tags": [
+        "full-stack",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4459",
+      "name": "Phát triển ứng dụng di động",
+      "difficulty_level": 4,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4460",
+      "name": "Lập trình hướng đối tượng",
+      "difficulty_level": 5,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4461",
+      "name": "Phản ứng phát triển",
+      "difficulty_level": 3,
+      "description": "Learn and master React Development",
+      "tags": [
+        "react",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4462",
+      "name": "Kiểm soát phiên bản với Git",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    },
+    {
+      "id": "skill_4463",
+      "name": "Làm việc với cơ sở dữ liệu",
+      "difficulty_level": 4,
+      "description": "Learn and master Working with Databases",
+      "tags": [
+        "working",
+        "with",
+        "databases"
+      ]
+    },
+    {
+      "id": "skill_4464",
+      "name": "Viết mã Python",
+      "difficulty_level": 4,
+      "description": "Learn and master Writing Python Code",
+      "tags": [
+        "writing",
+        "python",
+        "code"
+      ]
+    },
+    {
+      "id": "skill_4465",
+      "name": "Viết bài kiểm tra đơn vị",
+      "difficulty_level": 1,
+      "description": "Learn and master Writing Unit Tests",
+      "tags": [
+        "writing",
+        "unit",
+        "tests"
+      ]
+    }
+  ]
+}

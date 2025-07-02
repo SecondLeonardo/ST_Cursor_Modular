@@ -1,0 +1,116 @@
+{
+  "id": "academic_research_skills_mathematics_statistics",
+  "name": "수학 및 통계",
+  "skills": [
+    {
+      "id": "skill_290",
+      "name": "대수 조작",
+      "difficulty_level": 4,
+      "description": "Learn and master Algebraic Manipulation",
+      "tags": [
+        "algebraic",
+        "manipulation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_291",
+      "name": "그래프 및 차트 생성",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Graphs & Charts",
+      "tags": [
+        "creating",
+        "graphs",
+        "charts"
+      ]
+    },
+    {
+      "id": "skill_292",
+      "name": "설명 통계",
+      "difficulty_level": 2,
+      "description": "Learn and master Descriptive Statistics",
+      "tags": [
+        "descriptive",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_293",
+      "name": "추론 통계",
+      "difficulty_level": 3,
+      "description": "Learn and master Inferential Statistics",
+      "tags": [
+        "inferential",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_294",
+      "name": "선형 대수 개념",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra Concepts",
+      "tags": [
+        "linear",
+        "algebra",
+        "concepts"
+      ]
+    },
+    {
+      "id": "skill_295",
+      "name": "수학적 증거",
+      "difficulty_level": 4,
+      "description": "Learn and master Mathematical Proofs",
+      "tags": [
+        "mathematical",
+        "proofs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_296",
+      "name": "미적분 문제 해결",
+      "difficulty_level": 2,
+      "description": "Learn and master Solving Calculus Problems",
+      "tags": [
+        "solving",
+        "calculus",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_297",
+      "name": "통계 소프트웨어 사용",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Software Use",
+      "tags": [
+        "statistical",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_298",
+      "name": "확률 이해",
+      "difficulty_level": 2,
+      "description": "Learn and master Understanding Probability",
+      "tags": [
+        "understanding",
+        "probability",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_299",
+      "name": "그래프 계산기 사용",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Graphing Calculators",
+      "tags": [
+        "using",
+        "graphing",
+        "calculators"
+      ]
+    }
+  ]
+}

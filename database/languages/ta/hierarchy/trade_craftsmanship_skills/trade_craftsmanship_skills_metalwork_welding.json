@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_metalwork_welding",
+  "name": "உலோக வேலைகள் மற்றும் வெல்டிங்",
+  "skills": [
+    {
+      "id": "skill_4895",
+      "name": "வில் வெல்டிங்",
+      "difficulty_level": 2,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4896",
+      "name": "அரைக்கும் உலோகம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Grinding Metal",
+      "tags": [
+        "grinding",
+        "metal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4897",
+      "name": "எஃகு சிகிச்சையளிக்கும் வெப்பம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Heat Treating Steel",
+      "tags": [
+        "heat",
+        "treating",
+        "steel"
+      ]
+    },
+    {
+      "id": "skill_4898",
+      "name": "மிக் வெல்டிங்",
+      "difficulty_level": 2,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4899",
+      "name": "உலோக அளவீட்டு மற்றும் குறிக்கும்",
+      "difficulty_level": 4,
+      "description": "Learn and master Metal Measuring & Marking",
+      "tags": [
+        "metal",
+        "measuring",
+        "marking"
+      ]
+    },
+    {
+      "id": "skill_4900",
+      "name": "பிளாஸ்மா வெட்டுதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Plasma Cutting",
+      "tags": [
+        "plasma",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4901",
+      "name": "தாள் உலோக வளைவு",
+      "difficulty_level": 4,
+      "description": "Learn and master Sheet Metal Bending",
+      "tags": [
+        "sheet",
+        "metal",
+        "bending"
+      ]
+    },
+    {
+      "id": "skill_4902",
+      "name": "சாலிடரிங் நுட்பங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering Techniques",
+      "tags": [
+        "soldering",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4903",
+      "name": "ஒரு கோண சாணை பயன்படுத்துதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Using an Angle Grinder",
+      "tags": [
+        "using",
+        "angle",
+        "grinder"
+      ]
+    },
+    {
+      "id": "skill_4904",
+      "name": "வெல்டிங் கூட்டு வகைகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Welding Joint Types",
+      "tags": [
+        "welding",
+        "joint",
+        "types"
+      ]
+    }
+  ]
+}

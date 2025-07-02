@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_painting_mixed_media",
+  "name": "Pittura e media misti",
+  "skills": [
+    {
+      "id": "skill_480",
+      "name": "Dipinto astratto",
+      "difficulty_level": 5,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_481",
+      "name": "Pittura acrilica",
+      "difficulty_level": 1,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_482",
+      "name": "Preparazione della tela",
+      "difficulty_level": 5,
+      "description": "Learn and master Canvas Preparation",
+      "tags": [
+        "canvas",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_483",
+      "name": "Arte di collage",
+      "difficulty_level": 4,
+      "description": "Learn and master Collage Art",
+      "tags": [
+        "collage",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_484",
+      "name": "Stratificazione mista multimediale",
+      "difficulty_level": 4,
+      "description": "Learn and master Mixed Media Layering",
+      "tags": [
+        "mixed",
+        "media",
+        "layering"
+      ]
+    },
+    {
+      "id": "skill_485",
+      "name": "Arte murale",
+      "difficulty_level": 4,
+      "description": "Learn and master Mural Art",
+      "tags": [
+        "mural",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_486",
+      "name": "Pittura a olio",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_487",
+      "name": "PATTERA PALTE CAPIFICE",
+      "difficulty_level": 5,
+      "description": "Learn and master Palette Knife Painting",
+      "tags": [
+        "palette",
+        "knife",
+        "painting"
+      ]
+    },
+    {
+      "id": "skill_488",
+      "name": "Dipinto a spruzzo",
+      "difficulty_level": 1,
+      "description": "Learn and master Spray Painting",
+      "tags": [
+        "spray",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_489",
+      "name": "Tecniche ad acquerello",
+      "difficulty_level": 1,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

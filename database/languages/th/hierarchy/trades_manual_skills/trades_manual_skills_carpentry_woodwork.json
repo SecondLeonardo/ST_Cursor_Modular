@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_carpentry_woodwork",
+  "name": "ช่างไม้และงานไม้",
+  "skills": [
+    {
+      "id": "skill_5035",
+      "name": "พิมพ์เขียวอ่านหนังสือ",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5036",
+      "name": "การติดตั้งตู้",
+      "difficulty_level": 1,
+      "description": "Learn and master Cabinet Installation",
+      "tags": [
+        "cabinet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5037",
+      "name": "อาคารดาดฟ้า",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5038",
+      "name": "ช่างไม้กรอบ",
+      "difficulty_level": 5,
+      "description": "Learn and master Framing Carpentry",
+      "tags": [
+        "framing",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5039",
+      "name": "การทำเฟอร์นิเจอร์",
+      "difficulty_level": 5,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5040",
+      "name": "เทคนิคการเข้าร่วม",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery Techniques",
+      "tags": [
+        "joinery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5041",
+      "name": "ความปลอดภัยของเครื่องมือ",
+      "difficulty_level": 5,
+      "description": "Learn and master Tool Safety",
+      "tags": [
+        "tool",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5042",
+      "name": "ช่างไม้ตัดแต่ง",
+      "difficulty_level": 4,
+      "description": "Learn and master Trim Carpentry",
+      "tags": [
+        "trim",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5043",
+      "name": "การตกแต่งด้วยไม้",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5044",
+      "name": "การเปลี่ยนไม้",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Turning",
+      "tags": [
+        "wood",
+        "turning",
+        "skill"
+      ]
+    }
+  ]
+}

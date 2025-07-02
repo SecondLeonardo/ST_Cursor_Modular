@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "வர்த்தக மற்றும் கைவினைத்திறன் திறன்",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "கட்டுமானம் மற்றும் தச்சு"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "மின் மற்றும் பிளம்பிங்"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "கையால் செய்யப்பட்ட பொருட்கள்"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "உலோக வேலைகள் மற்றும் வெல்டிங்"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "ஜவுளி மற்றும் லெதர்கிராஃப்ட்"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "பாரம்பரிய கைவினைப்பொருட்கள்"
+    }
+  ]
+}

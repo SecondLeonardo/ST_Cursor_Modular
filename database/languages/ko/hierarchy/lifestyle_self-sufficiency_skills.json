@@ -1,0 +1,30 @@
+{
+  "id": "lifestyle_self-sufficiency_skills",
+  "name": "라이프 스타일 및 자급 자족 기술",
+  "subcategories": [
+    {
+      "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+      "name": "요리 및 음식 준비"
+    },
+    {
+      "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+      "name": "DIY & 수리"
+    },
+    {
+      "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+      "name": "원예 및 지속 가능성"
+    },
+    {
+      "id": "lifestyle_self-sufficiency_skills_home_management",
+      "name": "가정 관리"
+    },
+    {
+      "id": "lifestyle_self-sufficiency_skills_personal_finance",
+      "name": "개인 금융"
+    },
+    {
+      "id": "lifestyle_self-sufficiency_skills_survival_skills",
+      "name": "생존 기술"
+    }
+  ]
+}

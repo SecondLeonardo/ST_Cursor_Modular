@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_computer_science",
+  "name": "علوم الكمبيوتر",
+  "skills": [
+    {
+      "id": "skill_4178",
+      "name": "الخوارزميات",
+      "difficulty_level": 3,
+      "description": "Learn and master Algorithms",
+      "tags": [
+        "algorithms",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4179",
+      "name": "التفكير الحسابي",
+      "difficulty_level": 3,
+      "description": "Learn and master Computational Thinking",
+      "tags": [
+        "computational",
+        "thinking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4180",
+      "name": "بنية الكمبيوتر",
+      "difficulty_level": 1,
+      "description": "Learn and master Computer Architecture",
+      "tags": [
+        "computer",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4181",
+      "name": "أساسيات الأمن السيبراني",
+      "difficulty_level": 1,
+      "description": "Learn and master Cybersecurity Basics",
+      "tags": [
+        "cybersecurity",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4182",
+      "name": "هياكل البيانات",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Structures",
+      "tags": [
+        "data",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4183",
+      "name": "تصميم قاعدة البيانات",
+      "difficulty_level": 1,
+      "description": "Learn and master Database Design",
+      "tags": [
+        "database",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4184",
+      "name": "الشبكات والبروتوكولات",
+      "difficulty_level": 1,
+      "description": "Learn and master Networks & Protocols",
+      "tags": [
+        "networks",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4185",
+      "name": "أنظمة التشغيل",
+      "difficulty_level": 4,
+      "description": "Learn and master Operating Systems",
+      "tags": [
+        "operating",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4186",
+      "name": "نماذج البرمجة",
+      "difficulty_level": 3,
+      "description": "Learn and master Programming Paradigms",
+      "tags": [
+        "programming",
+        "paradigms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4187",
+      "name": "مبادئ هندسة البرمجيات",
+      "difficulty_level": 2,
+      "description": "Learn and master Software Engineering Principles",
+      "tags": [
+        "software",
+        "engineering",
+        "principles"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_automotive_maintenance",
+  "name": "汽车维护",
+  "skills": [
+    {
+      "id": "skill_3508",
+      "name": "更换电池",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3509",
+      "name": "制动检查",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Inspection",
+      "tags": [
+        "brake",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3510",
+      "name": "汽车细节",
+      "difficulty_level": 4,
+      "description": "Learn and master Car Detailing",
+      "tags": [
+        "detailing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3511",
+      "name": "千斤顶使用",
+      "difficulty_level": 2,
+      "description": "Learn and master Car Jack Use",
+      "tags": [
+        "jack",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3512",
+      "name": "更改前大灯",
+      "difficulty_level": 2,
+      "description": "Learn and master Changing Headlights",
+      "tags": [
+        "changing",
+        "headlights",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3513",
+      "name": "流体上流",
+      "difficulty_level": 1,
+      "description": "Learn and master Fluid Top-off",
+      "tags": [
+        "fluid",
+        "top-off",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3514",
+      "name": "换油",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3515",
+      "name": "读取错误代码",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Error Codes",
+      "tags": [
+        "reading",
+        "error",
+        "codes"
+      ]
+    },
+    {
+      "id": "skill_3516",
+      "name": "更换空气过滤器",
+      "difficulty_level": 1,
+      "description": "Learn and master Replacing Air Filters",
+      "tags": [
+        "replacing",
+        "filters",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3517",
+      "name": "轮胎旋转",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    }
+  ]
+}

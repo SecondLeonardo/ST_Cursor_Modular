@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_first_aid_safety",
+  "name": "การปฐมพยาบาลและความปลอดภัย",
+  "skills": [
+    {
+      "id": "skill_2453",
+      "name": "การตอบสนองของโรคภูมิแพ้",
+      "difficulty_level": 2,
+      "description": "Learn and master Allergy Response",
+      "tags": [
+        "allergy",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2454",
+      "name": "การใช้ชุดปฐมพยาบาลขั้นพื้นฐาน",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic First Aid Kit Use",
+      "tags": [
+        "basic",
+        "first",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2455",
+      "name": "การควบคุมเลือดออก",
+      "difficulty_level": 5,
+      "description": "Learn and master Bleeding Control",
+      "tags": [
+        "bleeding",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2456",
+      "name": "การรักษาด้วยการเผาไหม้",
+      "difficulty_level": 2,
+      "description": "Learn and master Burn Treatment",
+      "tags": [
+        "burn",
+        "treatment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2457",
+      "name": "การทำ CPR",
+      "difficulty_level": 2,
+      "description": "Learn and master CPR",
+      "tags": [
+        "skill",
+        "learning",
+        "education"
+      ]
+    },
+    {
+      "id": "skill_2458",
+      "name": "การตอบสนองสำลัก",
+      "difficulty_level": 5,
+      "description": "Learn and master Choking Response",
+      "tags": [
+        "choking",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2459",
+      "name": "การอพยพฉุกเฉิน",
+      "difficulty_level": 5,
+      "description": "Learn and master Emergency Evacuation",
+      "tags": [
+        "emergency",
+        "evacuation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2460",
+      "name": "การตรึงการตรึง",
+      "difficulty_level": 3,
+      "description": "Learn and master Fracture Immobilization",
+      "tags": [
+        "fracture",
+        "immobilization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2461",
+      "name": "การป้องกันจังหวะความร้อน",
+      "difficulty_level": 3,
+      "description": "Learn and master Heat Stroke Prevention",
+      "tags": [
+        "heat",
+        "stroke",
+        "prevention"
+      ]
+    },
+    {
+      "id": "skill_2462",
+      "name": "ดูแลแผล",
+      "difficulty_level": 3,
+      "description": "Learn and master Wound Care",
+      "tags": [
+        "wound",
+        "care",
+        "skill"
+      ]
+    }
+  ]
+}

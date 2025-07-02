@@ -1,0 +1,46 @@
+{
+  "id": "health,_wellness_fitness",
+  "name": "건강, 웰빙 및 피트니스",
+  "subcategories": [
+    {
+      "id": "health,_wellness_fitness_alternative_medicine",
+      "name": "대체 의학"
+    },
+    {
+      "id": "health,_wellness_fitness_medical_knowledge",
+      "name": "의학적 지식"
+    },
+    {
+      "id": "health,_wellness_fitness_mental_health",
+      "name": "정신 건강"
+    },
+    {
+      "id": "health,_wellness_fitness_nutrition",
+      "name": "영양물 섭취"
+    },
+    {
+      "id": "health,_wellness_fitness_personal_training",
+      "name": "개인 훈련"
+    },
+    {
+      "id": "health,_wellness_fitness_physical_fitness",
+      "name": "체력"
+    },
+    {
+      "id": "health,_wellness_fitness_rehabilitation_therapy",
+      "name": "재활 및 치료"
+    },
+    {
+      "id": "health,_wellness_fitness_sports_coaching",
+      "name": "스포츠 코칭"
+    },
+    {
+      "id": "health,_wellness_fitness_wellness_coaching",
+      "name": "웰빙 코칭"
+    },
+    {
+      "id": "health,_wellness_fitness_yoga_mindfulness",
+      "name": "요가 및 마음 챙김"
+    }
+  ]
+}

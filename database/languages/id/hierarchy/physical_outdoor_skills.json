@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "Keterampilan Fisik & Luar Ruang",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "Kebugaran & pengkondisian"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "Tenaga kerja & perdagangan manual"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "Rekreasi Luar Ruang"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "Bela Diri & Seni Bela Diri"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "Olahraga & Atletik"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "Kelangsungan Hidup & Bushcraft"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "life_everyday_skills",
+  "name": "Livs- och vardagliga färdigheter",
+  "subcategories": [
+    {
+      "id": "life_everyday_skills_cooking_food",
+      "name": "Matlagning och mat"
+    },
+    {
+      "id": "life_everyday_skills_home_maintenance",
+      "name": "Hemunderhåll"
+    },
+    {
+      "id": "life_everyday_skills_personal_finance",
+      "name": "Personlig ekonomi"
+    },
+    {
+      "id": "life_everyday_skills_time_management",
+      "name": "Tidshantering"
+    },
+    {
+      "id": "life_everyday_skills_travel_navigation",
+      "name": "Resor och navigering"
+    }
+  ]
+}

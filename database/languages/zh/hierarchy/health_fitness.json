@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "健康与健身",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "身体护理与健康"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "急救与安全"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "心理健康"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "营养与饮食"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "体育"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_alternative_medicine",
+  "name": "ยาทางเลือก",
+  "skills": [
+    {
+      "id": "skill_2493",
+      "name": "พื้นฐานการฝังเข็ม",
+      "difficulty_level": 5,
+      "description": "Learn and master Acupuncture Basics",
+      "tags": [
+        "acupuncture",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2494",
+      "name": "การบำบัดด้วยกลิ่นหอม",
+      "difficulty_level": 2,
+      "description": "Learn and master Aromatherapy",
+      "tags": [
+        "aromatherapy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2495",
+      "name": "แนวคิดอายุรเวท",
+      "difficulty_level": 1,
+      "description": "Learn and master Ayurveda Concepts",
+      "tags": [
+        "ayurveda",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2496",
+      "name": "การรับรู้ไคโรแพรคติก",
+      "difficulty_level": 2,
+      "description": "Learn and master Chiropractic Awareness",
+      "tags": [
+        "chiropractic",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2497",
+      "name": "การบำบัดด้วยคริสตัล",
+      "difficulty_level": 4,
+      "description": "Learn and master Crystal Therapy",
+      "tags": [
+        "crystal",
+        "therapy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2498",
+      "name": "การรักษาพลังงาน",
+      "difficulty_level": 4,
+      "description": "Learn and master Energy Healing",
+      "tags": [
+        "energy",
+        "healing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2499",
+      "name": "การเยียวยาสมุนไพร",
+      "difficulty_level": 5,
+      "description": "Learn and master Herbal Remedies",
+      "tags": [
+        "herbal",
+        "remedies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2500",
+      "name": "การใช้ homeopathy",
+      "difficulty_level": 1,
+      "description": "Learn and master Homeopathy Use",
+      "tags": [
+        "homeopathy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2501",
+      "name": "เทคนิคการนวด",
+      "difficulty_level": 4,
+      "description": "Learn and master Massage Techniques",
+      "tags": [
+        "massage",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2502",
+      "name": "การนวดกดจุด",
+      "difficulty_level": 4,
+      "description": "Learn and master Reflexology",
+      "tags": [
+        "reflexology",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

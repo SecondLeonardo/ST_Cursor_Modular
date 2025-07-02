@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "مهارت های علمی و فناوری",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "نجوم"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "بیوتکنولوژی"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "شیمی"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "علوم کامپیوتر"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "علوم داده و هوش مصنوعی"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "علوم زمین و محیط زیست"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "الکترونیک"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "مهندسی"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "ریاضیات و آمار"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "فیزیک"
+    }
+  ]
+}

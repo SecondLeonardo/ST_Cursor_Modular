@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "거래 및 기술",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "자동차"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "목공"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "건설"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "전기 같은"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "벽돌공 직"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "기계적"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "그림과 장식"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "연관"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "용접"
+    }
+  ]
+}

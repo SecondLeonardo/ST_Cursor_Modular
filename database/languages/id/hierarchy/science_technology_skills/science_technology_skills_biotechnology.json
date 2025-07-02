@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_biotechnology",
+  "name": "Bioteknologi",
+  "skills": [
+    {
+      "id": "skill_4258",
+      "name": "Bioinformatika",
+      "difficulty_level": 3,
+      "description": "Learn and master Bioinformatics",
+      "tags": [
+        "bioinformatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4259",
+      "name": "Penelitian Biomedis",
+      "difficulty_level": 2,
+      "description": "Learn and master Biomedical Research",
+      "tags": [
+        "biomedical",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4260",
+      "name": "Biostatistik",
+      "difficulty_level": 4,
+      "description": "Learn and master Biostatistics",
+      "tags": [
+        "biostatistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4261",
+      "name": "Teknologi CRISPR",
+      "difficulty_level": 1,
+      "description": "Learn and master CRISPR Technology",
+      "tags": [
+        "crispr",
+        "technology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4262",
+      "name": "Teknik kultur sel",
+      "difficulty_level": 1,
+      "description": "Learn and master Cell Culture Techniques",
+      "tags": [
+        "cell",
+        "culture",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_4263",
+      "name": "Sequencing DNA",
+      "difficulty_level": 4,
+      "description": "Learn and master DNA Sequencing",
+      "tags": [
+        "sequencing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4264",
+      "name": "Rekayasa Genetika",
+      "difficulty_level": 5,
+      "description": "Learn and master Genetic Engineering",
+      "tags": [
+        "genetic",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4265",
+      "name": "Kloning molekuler",
+      "difficulty_level": 1,
+      "description": "Learn and master Molecular Cloning",
+      "tags": [
+        "molecular",
+        "cloning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4266",
+      "name": "Analisis PCR",
+      "difficulty_level": 5,
+      "description": "Learn and master PCR Analysis",
+      "tags": [
+        "analysis",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4267",
+      "name": "Pemurnian protein",
+      "difficulty_level": 5,
+      "description": "Learn and master Protein Purification",
+      "tags": [
+        "protein",
+        "purification",
+        "skill"
+      ]
+    }
+  ]
+}

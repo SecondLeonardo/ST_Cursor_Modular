@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_martial_arts",
+  "name": "무술",
+  "skills": [
+    {
+      "id": "skill_4008",
+      "name": "Aikido 자물쇠",
+      "difficulty_level": 2,
+      "description": "Learn and master Aikido Locks",
+      "tags": [
+        "aikido",
+        "locks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4009",
+      "name": "브라질 Jiu-Jitsu Grappling",
+      "difficulty_level": 2,
+      "description": "Learn and master Brazilian Jiu-Jitsu Grappling",
+      "tags": [
+        "brazilian",
+        "jiu-jitsu",
+        "grappling"
+      ]
+    },
+    {
+      "id": "skill_4010",
+      "name": "유도 던지기",
+      "difficulty_level": 1,
+      "description": "Learn and master Judo Throws",
+      "tags": [
+        "judo",
+        "throws",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4011",
+      "name": "가라테 카타 스",
+      "difficulty_level": 4,
+      "description": "Learn and master Karate Katas",
+      "tags": [
+        "karate",
+        "katas",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4012",
+      "name": "킥복싱 콤보",
+      "difficulty_level": 4,
+      "description": "Learn and master Kickboxing Combos",
+      "tags": [
+        "kickboxing",
+        "combos",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4013",
+      "name": "쿵푸 자세",
+      "difficulty_level": 2,
+      "description": "Learn and master Kung Fu Stances",
+      "tags": [
+        "kung",
+        "stances",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4014",
+      "name": "무에 타이 무릎",
+      "difficulty_level": 4,
+      "description": "Learn and master Muay Thai Knees",
+      "tags": [
+        "muay",
+        "thai",
+        "knees"
+      ]
+    },
+    {
+      "id": "skill_4015",
+      "name": "자기 방어 기동",
+      "difficulty_level": 4,
+      "description": "Learn and master Self-Defense Maneuvers",
+      "tags": [
+        "self-defense",
+        "maneuvers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4016",
+      "name": "태권도 차기",
+      "difficulty_level": 2,
+      "description": "Learn and master Taekwondo Kicks",
+      "tags": [
+        "taekwondo",
+        "kicks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4017",
+      "name": "레슬링 핀",
+      "difficulty_level": 3,
+      "description": "Learn and master Wrestling Pins",
+      "tags": [
+        "wrestling",
+        "pins",
+        "skill"
+      ]
+    }
+  ]
+}

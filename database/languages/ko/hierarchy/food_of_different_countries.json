@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "다른 나라의 음식",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "이탈리아 요리"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "일본 요리"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "멕시코 요리"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "인도 요리"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "프랑스 요리"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "중국 요리"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "중동 요리"
+    }
+  ]
+}

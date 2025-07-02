@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "المهارات المادية والرياضية",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "اللياقة والقوة"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "الرياضة الفردية"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "فنون القتال"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "في الهواء الطلق والمغامرة"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "الأنشطة الترفيهية"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "الرياضة الجماعية"
+    }
+  ]
+}

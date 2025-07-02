@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "టెక్నికల్ & ఇంజనీరింగ్",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "సివిల్ & స్ట్రక్చరల్"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "ఎలక్ట్రికల్ ఇంజనీరింగ్"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "తయారీ & కల్పన"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "మెకానికల్ ఇంజనీరింగ్"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "సాఫ్ట్‌వేర్ & సిస్టమ్స్"
+    }
+  ]
+}

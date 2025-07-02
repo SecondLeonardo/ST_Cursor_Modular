@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_tech_support_maintenance",
+  "name": "Msaada wa Teknolojia na Matengenezo",
+  "skills": [
+    {
+      "id": "skill_4835",
+      "name": "Maandishi ya kimsingi ya matengenezo",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Scripting for Maintenance",
+      "tags": [
+        "basic",
+        "scripting",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_4836",
+      "name": "Msaada wa Teknolojia ya Wateja",
+      "difficulty_level": 2,
+      "description": "Learn and master Customer Tech Support",
+      "tags": [
+        "customer",
+        "tech",
+        "support"
+      ]
+    },
+    {
+      "id": "skill_4837",
+      "name": "Kufunga madereva",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Drivers",
+      "tags": [
+        "installing",
+        "drivers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4838",
+      "name": "Ufuatiliaji Afya ya Mfumo",
+      "difficulty_level": 3,
+      "description": "Learn and master Monitoring System Health",
+      "tags": [
+        "monitoring",
+        "system",
+        "health"
+      ]
+    },
+    {
+      "id": "skill_4839",
+      "name": "Utatuzi wa mbali",
+      "difficulty_level": 4,
+      "description": "Learn and master Remote Troubleshooting",
+      "tags": [
+        "remote",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4840",
+      "name": "Sasisho za programu",
+      "difficulty_level": 3,
+      "description": "Learn and master Software Updates",
+      "tags": [
+        "software",
+        "updates",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4841",
+      "name": "Usafishaji wa mfumo",
+      "difficulty_level": 4,
+      "description": "Learn and master System Cleanup",
+      "tags": [
+        "system",
+        "cleanup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4842",
+      "name": "Usanidi wa Kifaa cha Tech",
+      "difficulty_level": 4,
+      "description": "Learn and master Tech Device Setup",
+      "tags": [
+        "tech",
+        "device",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4843",
+      "name": "Mawasiliano ya msaada wa teknolojia",
+      "difficulty_level": 1,
+      "description": "Learn and master Tech Support Communication",
+      "tags": [
+        "tech",
+        "support",
+        "communication"
+      ]
+    },
+    {
+      "id": "skill_4844",
+      "name": "Kutatua vifaa",
+      "difficulty_level": 3,
+      "description": "Learn and master Troubleshooting Hardware",
+      "tags": [
+        "troubleshooting",
+        "hardware",
+        "skill"
+      ]
+    }
+  ]
+}

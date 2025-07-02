@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_rehabilitation_therapy",
+  "name": "புனர்வாழ்வு மற்றும் சிகிச்சை",
+  "skills": [
+    {
+      "id": "skill_2619",
+      "name": "உதவி சாதன பயன்பாடு",
+      "difficulty_level": 2,
+      "description": "Learn and master Assistive Device Use",
+      "tags": [
+        "assistive",
+        "device",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2620",
+      "name": "கூட்டு வலுப்படுத்துதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Joint Strengthening",
+      "tags": [
+        "joint",
+        "strengthening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2621",
+      "name": "இயக்கம் உதவி",
+      "difficulty_level": 5,
+      "description": "Learn and master Mobility Assistance",
+      "tags": [
+        "mobility",
+        "assistance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2622",
+      "name": "தொழில் சிகிச்சை அடிப்படைகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Occupational Therapy Basics",
+      "tags": [
+        "occupational",
+        "therapy",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2623",
+      "name": "உடல் சிகிச்சை பயிற்சிகள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Physical Therapy Exercises",
+      "tags": [
+        "physical",
+        "therapy",
+        "exercises"
+      ]
+    },
+    {
+      "id": "skill_2624",
+      "name": "காயத்திற்குப் பிந்தைய மீட்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Post-Injury Recovery",
+      "tags": [
+        "post-injury",
+        "recovery",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2625",
+      "name": "இயக்க வேலையின் வரம்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Range of Motion Work",
+      "tags": [
+        "range",
+        "motion",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_2626",
+      "name": "பேச்சு சிகிச்சை நுட்பங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Speech Therapy Techniques",
+      "tags": [
+        "speech",
+        "therapy",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2627",
+      "name": "பக்கவாதம் மறுவாழ்வு",
+      "difficulty_level": 5,
+      "description": "Learn and master Stroke Rehabilitation",
+      "tags": [
+        "stroke",
+        "rehabilitation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2628",
+      "name": "சிகிச்சை மசாஜ்",
+      "difficulty_level": 3,
+      "description": "Learn and master Therapeutic Massage",
+      "tags": [
+        "therapeutic",
+        "massage",
+        "skill"
+      ]
+    }
+  ]
+}

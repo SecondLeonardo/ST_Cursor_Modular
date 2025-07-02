@@ -1,0 +1,365 @@
+1. Skills Database Overview
+- Hierarchical structure: Category → Subcategory → Skills
+- Multilingual support, lazy loading, performance indexes
+- File structure: core data, translations, indexes
+
+2. Skill Selection & Onboarding
+- Progressive disclosure: Category → Subcategory → Skill
+- Smart suggestions, regional adaptation
+- UI/UX: CategoryTile, SubcategoryTile, SkillTile, SkillProficiencySelector, SkillSmartSuggestions, SkillProgressiveDisclosure
+
+3. Matching System Architecture
+- Real-time search for active matching
+- Precomputed matches for suggestions
+- Skill compatibility matrix, regional relevance
+- Caching, pagination, geospatial queries
+
+4. Data Models (Skills & Matching)
+- SkillModel, SkillCategoryModel, SkillSubcategoryModel, UserSkill, MatchModel, UserMatchModel
+
+5. API Contracts (Skills & Matching)
+- Find matches, get suggested matches, calculate compatibility, initiate/accept/reject match, get match history
+
+6. Implementation Patterns
+- Service/provider pattern, multi-provider strategy, usage tracking, fallback system
+
+## 3,4,5,6 Required Database Structure for SkillTalk
+
+Based on SkillTalk's core functionality of matching people with complementary skills, the following database collections and architecture are recommended:
+
+###  Users Collection
+This stores user profiles with all relevant fields for matching:
+
+```json
+users: {
+  userId: {
+    basicInfo: {
+      name: String,
+      email: String,
+      phoneNumber: String,
+      profileImage: String,
+      country: String,
+      city: String,
+      birthDate: Timestamp,
+      gender: String,
+      nativeLanguage: String,
+      secondLanguage: String,
+      secondLanguageLevel: String,
+      createdAt: Timestamp,
+      lastActive: Timestamp,
+      isOnline: Boolean,
+      isVipMember: Boolean,
+      stCoins: Number
+    },
+    skills: {
+      expertSkill: String,         // Primary skill they can teach
+      expertSkillId: String,       // ID reference to skills collection
+      expertSkillLevel: String,    // Proficiency level
+      targetSkill: String,         // Skill they want to learn
+      targetSkillId: String,       // ID reference to skills collection
+      targetSkillLevel: String     // Current level
+    },
+    preferences: {
+      ageRange: { min: Number, max: Number },
+      preferredGenders: Array<String>,
+      locationPreference: String,  // 'nearby', 'city', 'country', 'worldwide'
+      maxDistance: Number          // in kilometers
+    },
+    stats: {
+      rating: Number,              // Average rating
+      responseRate: Number,        // % of messages responded to
+      matchesInitiated: Number,
+      matchesAccepted: Number,
+      totalMatches: Number,
+      streakDays: Number,
+      followers: Number,
+      following: Number,
+      totalVisitors: Number
+    }
+  }
+}
+```
+
+### 3,4,5,6.2. Matches Collection
+For storing match relationships and their status:
+
+```json
+matches: {
+  matchId: {
+    users: [userId1, userId2],
+    initiatedBy: String,          // userId of initiator
+    status: String,               // 'pending', 'accepted', 'rejected', 'active'
+    compatibilityScore: Number,   // 0.0 to 1.0
+    matchReason: String,          // Why they were matched
+    createdAt: Timestamp,
+    lastInteraction: Timestamp,
+    skillExchange: {
+      user1Teaching: String,      // Skill userId1 is teaching
+      user2Teaching: String       // Skill userId2 is teaching
+    }
+  }
+}
+```
+
+### 3,4,5,6.3. User Indexes for Faster Matching
+To improve matching performance, create specialized indexes:
+
+```json
+skill_indexes: {
+  skillId: {
+    experts: [userId1, userId2, ...],  // Users who can teach this skill
+    learners: [userId3, userId4, ...]  // Users who want to learn this skill
+  }
+}
+
+location_indexes: {
+  countryCode: {
+    cityName: [userId1, userId2, ...] // Users in this city
+  }
+}
+
+language_indexes: {
+  languageCode: [userId1, userId2, ...] // Users who speak this language
+}
+```
+
+### 3,4,5,6.4. Optimized Matching System Architecture
+A two-tiered approach is recommended:
+
+#### 3,4,5,6.4.1 Real-time Search for Active Matching
+- Query the appropriate indexes based on user criteria
+- Calculate compatibility scores in real-time
+- Return paginated results
+
+#### 3,4,5,6.4.2 Precomputed Matches for Suggestions
+- Run a daily batch job that precomputes potential matches
+- Store top matches for each user in a `suggested_matches` collection
+- Instantly show these suggestions when a user opens the app
+
+```json
+suggested_matches: {
+  userId: {
+    lastUpdated: Timestamp,
+    topMatches: [
+      {
+        userId: String,
+        compatibilityScore: Number,
+        matchReason: String,
+        skillExchange: {
+          userTeaches: String,
+          matchTeaches: String
+        }
+      }
+      // More matches...
+    ]
+  }
+}
+```
+
+### 3,4,5,6.5. Implementation Recommendations
+
+- **Create a dedicated MatchService:**
+
+```dart
+// match_service_interface.dart
+abstract class IMatchService {
+  // Find matches based on criteria
+  Future<List<UserMatchModel>> findMatches({
+    required String userId,
+    Map<String, dynamic>? filters,
+    int limit = 20,
+    String? lastMatchId,
+  });
+  // Get suggested matches
+  Future<List<UserMatchModel>> getSuggestedMatches(String userId);
+  // Calculate compatibility between users
+  Future<double> calculateUserCompatibility(String userId1, String userId2);
+  // Manage match relationships
+  Future<void> initiateMatch(String initiatorId, String targetUserId);
+  Future<void> acceptMatch(String matchId);
+  Future<void> rejectMatch(String matchId);
+  // Get user's match history
+  Future<List<MatchModel>> getUserMatches(
+    String userId, 
+    String status,
+  );
+}
+```
+
+- **Efficient querying example:**
+
+```dart
+Future<List<UserMatchModel>> findMatchesBySkill(String userId, String skillId) async {
+  // 1. Get user's expert skill
+  final user = await _userService.getUserById(userId);
+  final expertSkillId = user.expertSkillId;
+  // 2. Use skill index for fast lookup of learners
+  final skillIndex = await _db.collection('skill_indexes')
+      .doc(expertSkillId)
+      .get();
+  final learnerIds = skillIndex.data()?['learners'] ?? [];
+  // 3. Find users who want to learn user's expert skill
+  final potentialMatches = <UserMatchModel>[];
+  // 4. Check if user wants to learn any of these users' expert skills
+  for (final learnerId in learnerIds) {
+    final learner = await _userService.getUserById(learnerId);
+    if (learner.expertSkillId == user.targetSkillId) {
+      // Perfect match - direct skill exchange
+      final compatibility = await _skillService.calculateCompatibilityScore(
+        user.expertSkillId!,
+        learner.expertSkillId!,
+      );
+      potentialMatches.add(UserMatchModel(
+        user: learner,
+        compatibilityScore: compatibility,
+        isPerfectMatch: true,
+      ));
+    }
+  }
+  return potentialMatches;
+}
+```
+
+- **Caching layer example:**
+
+```dart
+class MatchCacheService {
+  final Map<String, List<UserMatchModel>> _cachedMatches = {};
+  final Map<String, DateTime> _cacheExpirations = {};
+  // Cache duration (e.g., 1 hour)
+  final Duration _cacheDuration = const Duration(hours: 1);
+  // Get matches with caching
+  Future<List<UserMatchModel>> getMatchesWithCache(
+    String userId,
+    String queryKey,
+    Future<List<UserMatchModel>> Function() fetchFunc,
+  ) async {
+    final cacheKey = '$userId:$queryKey';
+    // Check if cache exists and is valid
+    if (_cachedMatches.containsKey(cacheKey)) {
+      final expiration = _cacheExpirations[cacheKey];
+      if (expiration != null && expiration.isAfter(DateTime.now())) {
+        return _cachedMatches[cacheKey]!;
+      }
+    }
+    // Cache miss or expired - fetch fresh data
+    final matches = await fetchFunc();
+    // Update cache
+    _cachedMatches[cacheKey] = matches;
+    _cacheExpirations[cacheKey] = DateTime.now().add(_cacheDuration);
+    return matches;
+  }
+}
+```
+
+- **Performance and scalability recommendations:**
+  - Implement pagination for all matching queries:
+
+```dart
+Future<PaginatedResult<UserMatchModel>> getMatchesPaginated({
+  required String userId,
+  int limit = 20,
+  String? lastDocumentId,
+}) async {
+  // Implementation with Firestore's startAfter() and limit()
+}
+```
+
+  - Geospatial queries for "nearby" features:
+
+```dart
+Future<List<UserModel>> findNearbyUsers(
+  double latitude,
+  double longitude,
+  double radiusInKm,
+) async {
+  // Implement using Firestore or MongoDB's geospatial queries
+}
+```
+
+  - Background jobs for computing and updating match suggestions:
+
+```dart
+Future<void> updateMatchSuggestionsForAllUsers() async {
+  // Implement with Firebase Cloud Functions
+}
+```
+
+### 3,4,5,6.6. Final Recommendations
+- Implement the collections outlined above in Firestore (primary) and MongoDB (secondary)
+- Create indexes for all frequently queried fields to improve performance
+- Build a dedicated MatchService that encapsulates all matching logic
+- Use a hybrid approach with both real-time searches and precomputed suggestions
+- Implement caching to reduce database reads and improve responsiveness
+
+This architecture provides the flexibility needed for complex skill matching while maintaining good performance as your user base grows.
+
+
+## 7. Match Page and Filters
+- **Description**: The Match page allows users to find skill partners using various filters such as skill, language, and location.
+- **Design Elements**: The page includes a top section with a VIP upgrade button, a title "Find Match", and a boost profile button. User cards display profile pictures, skill pairs, and status indicators. The bottom navigation bar includes icons for SkillTalk, Match, Posts, VoiceRoom, and Profile.
+- **Functionality**: Users can apply filters to refine their search for skill partners, view user cards with detailed information, and interact with potential matches.
+
+### 7.1 Custom Search and Boost Center
+- **Description**: Custom search allows users to refine their search criteria for skill partners, while the Boost Center offers profile visibility enhancements.
+- **Design Elements**: The custom search page includes navigation and title elements, tab filters, and user cards. The Boost Center features a top section with a back arrow, title, and tab selector, as well as options for selecting boost targets and audience size.
+- **Functionality**: Users can perform custom searches with specific filters and boost their profile visibility to reach more active users.
+
+### 7.2 Skill Filters
+- **Description**: Various filters such as Expert Skill, Target Skill, Language, Country/Region, City, Interest & Hobbies, and Occupation allow users to narrow down their search for skill partners.
+- **Design Elements**: Each filter modal includes a top navigation bar, filter chips, selection lists, and bottom action buttons.
+- **Functionality**: Users can select multiple options within each filter, apply or reset selections, and use alphabetical scroll indexes for quick navigation.
+
+### 7.3 Nearby Popup
+- **Description**: The "Nearby" popup on the Match page encourages users to connect with skill partners in their vicinity.
+- **UI/UX Design**:
+  - **Colors**: Teal gradient for CTA, gray and white backgrounds for contrast.
+  - **Shapes**: Circular profile photos, pill-shaped buttons, rounded corners.
+  - **Typography**: Bold for names and CTAs, lighter gray for secondary text.
+- **Functionality**: Users can view profiles based on proximity and are prompted to upgrade to VIP for full access.
+
+### 7.4 Gender Popup
+- **Description**: The Gender Filter popup allows users to filter matches by gender, part of the VIP funnel.
+- **UI/UX Design**:
+  - **Colors**: Pink & Blue icons for gender symbols, gradient CTA.
+  - **Shapes**: Circular profile pictures, rounded tags and badges.
+  - **Typography**: Bold usernames, hierarchical sizing.
+- **Functionality**: Users can filter matches by gender and are prompted to upgrade for full access.
+
+### 7.5 Selfie Tab Unlock Popup
+- **Description**: A time-limited, coin-based unlock feature for accessing selfie content.
+- **UI/UX Design**:
+  - **Colors**: Primary Teal for CTA, gray for body copy.
+  - **Illustration**: Cartoon-style hand holding a smartphone.
+  - **Typography**: Bold title, clear body text.
+- **Functionality**: Users can unlock the tab for 120 minutes using coins.
+
+### 7.6 City Filter Popup
+- **Description**: The City filter popup allows users to refine matches by location.
+- **UI/UX Design**:
+  - **Colors**: Soft lavender gradients, teal-to-blue gradient for CTA.
+  - **Shapes**: Rounded edges, circular avatars.
+  - **Typography**: Clean, sans-serif font.
+- **Functionality**: Users can filter matches by city and are prompted to upgrade for full access.
+
+### 7.7 Paid Practice Tab
+- **Description**: The Paid Practice tab showcases users offering paid skill practice.
+- **UI/UX Design**:
+  - **Colors**: Clean white backgrounds, orange for highlighting.
+  - **Shapes**: Rounded buttons and containers.
+  - **Typography**: Bold usernames, hierarchical structure.
+- **Functionality**: Users can initiate paid practice sessions, requiring coins or subscription.
+
+### 7.8 Paid Practice Popup
+- **Description**: A modal popup explaining the Paid Practice feature and coin-based transactions.
+- **UI/UX Design**:
+  - **Colors**: Teal for Confirm button, white background.
+  - **Shapes**: Rounded rectangle modal, circular checkbox.
+  - **Typography**: Bold title, clear body text.
+- **Functionality**: Users are informed about the coin transaction and can opt out of repeated prompts.
+
+
+
+
+8. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 

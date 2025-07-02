@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_yoga_meditation",
+  "name": "瑜伽和冥想",
+  "skills": [
+    {
+      "id": "skill_2678",
+      "name": "呼吸运动",
+      "difficulty_level": 4,
+      "description": "Learn and master Breathing Exercises",
+      "tags": [
+        "breathing",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2679",
+      "name": "脉轮平衡",
+      "difficulty_level": 4,
+      "description": "Learn and master Chakra Balancing",
+      "tags": [
+        "chakra",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2680",
+      "name": "引导冥想",
+      "difficulty_level": 1,
+      "description": "Learn and master Guided Meditation",
+      "tags": [
+        "guided",
+        "meditation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2681",
+      "name": "哈塔瑜伽",
+      "difficulty_level": 2,
+      "description": "Learn and master Hatha Yoga",
+      "tags": [
+        "hatha",
+        "yoga",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2682",
+      "name": "冥想计划",
+      "difficulty_level": 1,
+      "description": "Learn and master Meditation Scheduling",
+      "tags": [
+        "meditation",
+        "scheduling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2683",
+      "name": "正念的运动",
+      "difficulty_level": 3,
+      "description": "Learn and master Mindful Movement",
+      "tags": [
+        "mindful",
+        "movement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2684",
+      "name": "Vinyasa流",
+      "difficulty_level": 4,
+      "description": "Learn and master Vinyasa Flow",
+      "tags": [
+        "vinyasa",
+        "flow",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2685",
+      "name": "瑜伽尼德拉",
+      "difficulty_level": 5,
+      "description": "Learn and master Yoga Nidra",
+      "tags": [
+        "yoga",
+        "nidra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2686",
+      "name": "瑜伽姿势（体式）",
+      "difficulty_level": 1,
+      "description": "Learn and master Yoga Poses (Asanas)",
+      "tags": [
+        "yoga",
+        "poses",
+        "(asanas)"
+      ]
+    },
+    {
+      "id": "skill_2687",
+      "name": "瑜伽灵活",
+      "difficulty_level": 5,
+      "description": "Learn and master Yoga for Flexibility",
+      "tags": [
+        "yoga",
+        "flexibility",
+        "skill"
+      ]
+    }
+  ]
+}

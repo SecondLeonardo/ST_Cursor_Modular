@@ -1,0 +1,105 @@
+{
+  "id": "creative_artistic_film_video",
+  "name": "Фильм и видео",
+  "skills": [
+    {
+      "id": "skill_1303",
+      "name": "Кинематография",
+      "difficulty_level": 5,
+      "description": "Learn and master Cinematography",
+      "tags": [
+        "cinematography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1304",
+      "name": "Цветовая оценка",
+      "difficulty_level": 2,
+      "description": "Learn and master Color Grading",
+      "tags": [
+        "color",
+        "grading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1305",
+      "name": "Режиссер",
+      "difficulty_level": 2,
+      "description": "Learn and master Directing",
+      "tags": [
+        "directing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1306",
+      "name": "Создание документального фильма",
+      "difficulty_level": 1,
+      "description": "Learn and master Documentary Making",
+      "tags": [
+        "documentary",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1307",
+      "name": "Зеленый экран Использование",
+      "difficulty_level": 4,
+      "description": "Learn and master Green Screen Use",
+      "tags": [
+        "green",
+        "screen",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1308",
+      "name": "Установка освещения",
+      "difficulty_level": 3,
+      "description": "Learn and master Lighting Setup",
+      "tags": [
+        "lighting",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1309",
+      "name": "Короткое создание фильма",
+      "difficulty_level": 4,
+      "description": "Learn and master Short Film Creation",
+      "tags": [
+        "short",
+        "film",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_1310",
+      "name": "Редактирование звука",
+      "difficulty_level": 5,
+      "description": "Learn and master Sound Editing",
+      "tags": [
+        "sound",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1311",
+      "name": "Редактирование видео",
+      "difficulty_level": 4,
+      "description": "Learn and master Video Editing",
+      "tags": [
+        "video",
+        "editing",
+        "skill"
+      ]
+    }
+  ]
+}

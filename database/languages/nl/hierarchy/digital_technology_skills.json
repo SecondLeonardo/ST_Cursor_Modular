@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "Digitale en technologische vaardigheden",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "Cybersecurity"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "Data & AI"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "IT & netwerken"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "Programmering en ontwikkeling"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "Web & mobiel"
+    }
+  ]
+}

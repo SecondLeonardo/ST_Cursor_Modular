@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_literature",
+  "name": "साहित्य",
+  "skills": [
+    {
+      "id": "skill_40",
+      "name": "शास्त्रीय साहित्य",
+      "difficulty_level": 3,
+      "description": "Learn and master Classical Literature",
+      "tags": [
+        "classical",
+        "literature",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_41",
+      "name": "तुलनात्मक साहित्य",
+      "difficulty_level": 4,
+      "description": "Learn and master Comparative Literature",
+      "tags": [
+        "comparative",
+        "literature",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_42",
+      "name": "समकालीन कल्पनारम्य",
+      "difficulty_level": 4,
+      "description": "Learn and master Contemporary Fiction",
+      "tags": [
+        "contemporary",
+        "fiction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_43",
+      "name": "क्रिएटिव्ह नॉनफिक्शन",
+      "difficulty_level": 4,
+      "description": "Learn and master Creative Nonfiction",
+      "tags": [
+        "creative",
+        "nonfiction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_44",
+      "name": "शैली अभ्यास",
+      "difficulty_level": 3,
+      "description": "Learn and master Genre Studies",
+      "tags": [
+        "genre",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_45",
+      "name": "साहित्यिक विश्लेषण",
+      "difficulty_level": 3,
+      "description": "Learn and master Literary Analysis",
+      "tags": [
+        "literary",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_46",
+      "name": "कथा सिद्धांत",
+      "difficulty_level": 1,
+      "description": "Learn and master Narrative Theory",
+      "tags": [
+        "narrative",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_47",
+      "name": "कविता विश्लेषण",
+      "difficulty_level": 2,
+      "description": "Learn and master Poetry Analysis",
+      "tags": [
+        "poetry",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_48",
+      "name": "शेक्सपियर अभ्यास",
+      "difficulty_level": 2,
+      "description": "Learn and master Shakespeare Studies",
+      "tags": [
+        "shakespeare",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_49",
+      "name": "जागतिक साहित्य",
+      "difficulty_level": 2,
+      "description": "Learn and master World Literature",
+      "tags": [
+        "world",
+        "literature",
+        "skill"
+      ]
+    }
+  ]
+}

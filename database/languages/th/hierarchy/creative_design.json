@@ -1,0 +1,26 @@
+{
+  "id": "creative_design",
+  "name": "สร้างสรรค์และการออกแบบ",
+  "subcategories": [
+    {
+      "id": "creative_design_3d_animation",
+      "name": "3D & Animation"
+    },
+    {
+      "id": "creative_design_graphic_design",
+      "name": "การออกแบบกราฟิก"
+    },
+    {
+      "id": "creative_design_photography",
+      "name": "การถ่ายภาพ"
+    },
+    {
+      "id": "creative_design_ui/ux",
+      "name": "ui/ux"
+    },
+    {
+      "id": "creative_design_video_production",
+      "name": "การผลิตวิดีโอ"
+    }
+  ]
+}

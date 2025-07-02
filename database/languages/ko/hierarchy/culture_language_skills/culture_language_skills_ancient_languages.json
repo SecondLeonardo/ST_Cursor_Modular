@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_ancient_languages",
+  "name": "고대 언어",
+  "skills": [
+    {
+      "id": "skill_1933",
+      "name": "아카디아 디코딩",
+      "difficulty_level": 1,
+      "description": "Learn and master Akkadian Decoding",
+      "tags": [
+        "akkadian",
+        "decoding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1934",
+      "name": "고대 이집트 상형 문자",
+      "difficulty_level": 4,
+      "description": "Learn and master Ancient Egyptian Hieroglyphics",
+      "tags": [
+        "ancient",
+        "egyptian",
+        "hieroglyphics"
+      ]
+    },
+    {
+      "id": "skill_1935",
+      "name": "성경 히브리어",
+      "difficulty_level": 5,
+      "description": "Learn and master Biblical Hebrew",
+      "tags": [
+        "biblical",
+        "hebrew",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1936",
+      "name": "고전적인 중국 분석",
+      "difficulty_level": 3,
+      "description": "Learn and master Classical Chinese Analysis",
+      "tags": [
+        "classical",
+        "chinese",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_1937",
+      "name": "고전적인 그리스 문법",
+      "difficulty_level": 2,
+      "description": "Learn and master Classical Greek Grammar",
+      "tags": [
+        "classical",
+        "greek",
+        "grammar"
+      ]
+    },
+    {
+      "id": "skill_1938",
+      "name": "콥트어 언어 기본",
+      "difficulty_level": 3,
+      "description": "Learn and master Coptic Language Basics",
+      "tags": [
+        "coptic",
+        "language",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1939",
+      "name": "라틴어 독서",
+      "difficulty_level": 2,
+      "description": "Learn and master Latin Reading",
+      "tags": [
+        "latin",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1940",
+      "name": "오래된 영어 번역",
+      "difficulty_level": 2,
+      "description": "Learn and master Old English Translation",
+      "tags": [
+        "english",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1941",
+      "name": "오래된 북유럽 해석",
+      "difficulty_level": 1,
+      "description": "Learn and master Old Norse Interpretation",
+      "tags": [
+        "norse",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1942",
+      "name": "산스크리트어 글쓰기",
+      "difficulty_level": 2,
+      "description": "Learn and master Sanskrit Writing",
+      "tags": [
+        "sanskrit",
+        "writing",
+        "skill"
+      ]
+    }
+  ]
+}

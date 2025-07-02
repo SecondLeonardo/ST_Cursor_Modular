@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_home_cleaning",
+  "name": "가정 청소",
+  "skills": [
+    {
+      "id": "skill_2978",
+      "name": "욕실 소독",
+      "difficulty_level": 3,
+      "description": "Learn and master Bathroom Sanitization",
+      "tags": [
+        "bathroom",
+        "sanitization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2979",
+      "name": "표면 소독",
+      "difficulty_level": 5,
+      "description": "Learn and master Disinfecting Surfaces",
+      "tags": [
+        "disinfecting",
+        "surfaces",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2980",
+      "name": "가루 살포",
+      "difficulty_level": 3,
+      "description": "Learn and master Dusting",
+      "tags": [
+        "dusting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2981",
+      "name": "주방 청소",
+      "difficulty_level": 3,
+      "description": "Learn and master Kitchen Cleaning",
+      "tags": [
+        "kitchen",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2982",
+      "name": "걸레 바닥",
+      "difficulty_level": 5,
+      "description": "Learn and master Mopping Floors",
+      "tags": [
+        "mopping",
+        "floors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2983",
+      "name": "청소 용품 조직",
+      "difficulty_level": 2,
+      "description": "Learn and master Organizing Cleaning Supplies",
+      "tags": [
+        "organizing",
+        "cleaning",
+        "supplies"
+      ]
+    },
+    {
+      "id": "skill_2984",
+      "name": "얼룩 제거",
+      "difficulty_level": 4,
+      "description": "Learn and master Stain Removal",
+      "tags": [
+        "stain",
+        "removal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2985",
+      "name": "천연 세정제 사용",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Natural Cleaners",
+      "tags": [
+        "using",
+        "natural",
+        "cleaners"
+      ]
+    },
+    {
+      "id": "skill_2986",
+      "name": "진공 청소기",
+      "difficulty_level": 4,
+      "description": "Learn and master Vacuuming",
+      "tags": [
+        "vacuuming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2987",
+      "name": "창 청소",
+      "difficulty_level": 1,
+      "description": "Learn and master Window Cleaning",
+      "tags": [
+        "window",
+        "cleaning",
+        "skill"
+      ]
+    }
+  ]
+}

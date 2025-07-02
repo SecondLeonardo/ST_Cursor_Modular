@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "과학 및 기술 기술",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "천문학"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "생물학 및 생명 과학"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "화학"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "컴퓨터 과학"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "데이터 과학 및 ai"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "지구 및 환경 과학"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "엔지니어링 분야"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "수학 및 통계"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "물리 및 역학"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "로봇 공학 및 자동화"
+    }
+  ]
+}

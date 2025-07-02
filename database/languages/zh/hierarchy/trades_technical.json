@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "交易与技术",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "汽车"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "木工"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "建造"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "电气"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "石工"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "机械的"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "绘画和装饰"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "管道"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "焊接"
+    }
+  ]
+}

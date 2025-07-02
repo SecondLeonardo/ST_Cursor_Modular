@@ -1,0 +1,26 @@
+{
+  "id": "learning_academic_skills",
+  "name": "Öğrenme ve Akademik Beceriler",
+  "subcategories": [
+    {
+      "id": "learning_academic_skills_language_learning",
+      "name": "Dil öğrenimi"
+    },
+    {
+      "id": "learning_academic_skills_mathematics",
+      "name": "Matematik"
+    },
+    {
+      "id": "learning_academic_skills_science_research",
+      "name": "Bilim ve Araştırma"
+    },
+    {
+      "id": "learning_academic_skills_study_techniques",
+      "name": "Çalışma teknikleri"
+    },
+    {
+      "id": "learning_academic_skills_test_preparation",
+      "name": "Test hazırlama"
+    }
+  ]
+}

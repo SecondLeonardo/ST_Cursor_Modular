@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "기술 및 디지털 기술",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "AI & 머신 러닝"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "클라우드 컴퓨팅"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "사이버 보안"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "데이터 및 분석"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "데이터 과학 및 ai"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "DevOps & 자동화"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "게임 개발"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "그것은 & 네트워킹"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "지원 및 네트워킹"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "모바일 앱 개발"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "프로그래밍 및 소프트웨어 개발"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "소프트웨어 개발"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "기술 하드웨어 및 수리"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "기술 지원 및 문제 해결"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "웹 개발"
+    }
+  ]
+}

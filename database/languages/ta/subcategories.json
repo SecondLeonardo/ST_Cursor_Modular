@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "பொருளாதாரம்"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "புவியியல்"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "வரலாறு"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "மொழி & மொழியியல்"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "இலக்கியம்"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "கணிதம்"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "தத்துவம்"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "உளவியல்"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "அறிவியல்"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "சமூகவியல்"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "விமர்சன சிந்தனை"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "வரலாறு மற்றும் கலாச்சாரம்"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "வரலாறு மற்றும் சமூக அறிவியல்"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "மொழி & மொழியியல்"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "மொழிகள்"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "இலக்கியம் & எழுத்து"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "தர்க்கம் & பகுத்தறிவு"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "கணிதம்"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "தத்துவம் மற்றும் விமர்சன சிந்தனை"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "பொது பேசும் மற்றும் விவாதம்"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "ஆராய்ச்சி மற்றும் பகுப்பாய்வு"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "அறிவியல்"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "அறிவியல் & இயற்கை"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "ஆய்வு நுட்பங்கள்"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "தொழில்நுட்பம் மற்றும் கணினி"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "கல்வி விளக்கக்காட்சி"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "தரவு பகுப்பாய்வு"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "மொழி & எழுத்து"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "கணிதம் மற்றும் புள்ளிவிவரங்கள்"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "அறிவியல் ஆராய்ச்சி"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "ஆய்வு மற்றும் சோதனை தயாரிப்பு"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "அனிமேஷன்"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "கைவினைப்பொருட்கள் & DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "படைப்பு எழுத்து"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "வரைதல் & விளக்கம்"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "ஃபேஷன் வடிவமைப்பு"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "ஓவியம்"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "கலை நிகழ்ச்சிகள்"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "சிற்பம்"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "அனிமேஷன் & மோஷன் கிராபிக்ஸ்"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "கைவினைப்பொருட்கள் & DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "வரைதல் & விளக்கம்"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "ஃபேஷன் & ஜவுளி கலைகள்"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "திரைப்படம் & வீடியோ"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "ஓவியம் மற்றும் கலப்பு ஊடகங்கள்"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "கலை நிகழ்ச்சிகள்"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "எழுத்து மற்றும் இலக்கியம்"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3 டி மாடலிங்"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "கட்டிடக்கலை வடிவமைப்பு"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "கைவினைப்பொருட்கள்"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "ஃபேஷன் & ஜவுளி"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "திரைப்படம் & வீடியோ"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "உள்துறை வடிவமைப்பு"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "கலை நிகழ்ச்சிகள்"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "காட்சி கலைகள்"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "கையெழுத்து"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "கைவினைப்பொருட்கள்"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "டிஜிட்டல் கலை மற்றும் அனிமேஷன்"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "ஃபேஷன் வடிவமைப்பு"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "விளக்கம் & வரைதல்"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "உள்துறை வடிவமைப்பு"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "ஜவுளி கலை"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "காட்சி கலைகள்"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "கைவினைப்பொருட்கள் & DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "படைப்பு எழுத்து"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "வடிவமைப்பு மற்றும் டிஜிட்டல் கலை"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "கலை நிகழ்ச்சிகள்"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "காட்சி கலைகள்"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "கணக்கியல்"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "வணிக உத்தி"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "வாடிக்கையாளர் ஆதரவு"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "ஈ-காமர்ஸ்"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "தொழில் முனைவோர்"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "நிதி"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "நிதி மற்றும் கணக்கியல்"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "மனிதவள & ஆட்சேர்ப்பு"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "மனித வளங்கள்"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "முதலீடு மற்றும் வர்த்தகம்"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "தலைமை மற்றும் மேலாண்மை"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "சந்தைப்படுத்தல் மற்றும் விற்பனை"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "திட்ட மேலாண்மை"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "விற்பனை & சிஆர்எம்"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "வணிக தொடர்பு"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "வாடிக்கையாளர் சேவை"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "தொழில் முனைவோர்"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "நிதி மற்றும் கணக்கியல்"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "மனித வளங்கள்"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "தலைமை மற்றும் மேலாண்மை"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "சட்ட மற்றும் இணக்கம்"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "சந்தைப்படுத்தல் மற்றும் பிராண்டிங்"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "அலுவலக உற்பத்தித்திறன்"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "திட்டம் மற்றும் நேர மேலாண்மை"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "திட்ட மேலாண்மை"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "விற்பனை மற்றும் சந்தைப்படுத்தல்"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "விற்பனை மற்றும் பேச்சுவார்த்தை"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "விமர்சன சிந்தனை"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "மொழி & மொழியியல்"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "கணிதம் & தர்க்கம்"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "நினைவகம் & கவனம்"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "அறிவியல் மற்றும் ஆராய்ச்சி"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "படிப்பு மற்றும் கற்றல் திறன்"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "செறிவு & கவனம்"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "விமர்சன சிந்தனை"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "தகவல் செயலாக்கம்"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "கற்றல் உத்திகள்"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "நினைவகம் மற்றும் தக்கவைப்பு"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "சிக்கல் தீர்க்கும்"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "வெளிநாட்டு மொழிகள்"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "ஒருவருக்கொருவர் திறன்கள்"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "சொற்களற்ற தொடர்பு"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "விளக்கக்காட்சி & கதைசொல்லல்"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "பொது பேச்சு"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "எழுதுதல் மற்றும் எடிட்டிங்"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "கைவினைப்பொருட்கள் & DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "படைப்பு சிந்தனை"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "வடிவமைப்பு மற்றும் அழகியல்"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "ஃபேஷன் & ஸ்டைலிங்"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "திரைப்படம் & வீடியோ"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "விளையாட்டு வடிவமைப்பு மற்றும் உலகக் கட்டடம்"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "இசை & ஒலி"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "இசை செயல்திறன்"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "இசை தயாரிப்பு"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "கலை நிகழ்ச்சிகள்"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "புகைப்படம் எடுத்தல் மற்றும் வீடியோகிராபி"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "காட்சி கலைகள்"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "எழுத்து மற்றும் இலக்கியம்"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "நடிப்பு & செயல்திறன்"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "அனிமேஷன்"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "கைவினை & diy"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "கைவினைப்பொருட்கள் & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "கைவினைப்பொருட்கள் மற்றும் கையால் செய்யப்பட்ட கலைகள்"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "கிரியேட்டிவ் டெக்"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "படைப்பு எழுத்து"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "சமையல் கலை"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "வடிவமைப்பு மற்றும் அழகியல்"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "வரைதல் & விளக்கம்"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "ஃபேஷன் & ஸ்டைலிங்"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "ஃபேஷன் & ஜவுளி கலை"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "திரைப்படத் தயாரிப்பு & வீடியோ"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "உள்துறை மற்றும் மலர் வடிவமைப்பு"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "இசை & கருவிகள்"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "இசை உருவாக்கம்"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "ஓவியம்"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "ஓவியம் மற்றும் நுண்கலை"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "கலை நிகழ்ச்சிகள்"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "புகைப்படம் எடுத்தல் மற்றும் வீடியோகிராபி"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "சிற்பம் & 3 டி கலை"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "காட்சி கலைகள்"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "எழுதுதல் & கதைசொல்லல்"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3 டி & அனிமேஷன்"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "UI/UX"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "வீடியோ தயாரிப்பு"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "கையெழுத்து & கை எழுத்துக்கள்"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "கைவினை & diy"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "படைப்பு எழுத்து"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "வரைதல் & விளக்கம்"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "நகைகள் தயாரித்தல்"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "ஓவியம்"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "ஸ்கிராப்புக்கிங் & கோலேஜ்"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "சிற்பம் & களிமண்"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "ஜவுளி மற்றும் ஃபைபர் ஆர்ட்ஸ்"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "கைவினைப்பொருட்கள் & DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "டிஜிட்டல் கலை மற்றும் அனிமேஷன்"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "உள்துறை & ஃபேஷன்"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "காட்சி கலைகள்"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "பண்டைய மொழிகள்"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "கலாச்சார விழிப்புணர்வு"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "பேச்சுவழக்கு பயிற்சி"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "இடை கலாச்சார தொடர்பு"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "மொழி கற்றல் நுட்பங்கள்"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "மொழிகள்"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "மொழியியல்"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "கையொப்பங்கள்"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "மொழிபெயர்ப்பு மற்றும் விளக்கம்"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "எழுதும் அமைப்புகள்"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3 டி மாடலிங் & அனிமேஷன்"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "பிராண்டிங் & அடையாளம்"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "விளக்கம்"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "UX/UI வடிவமைப்பு"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3 டி & அனிமேஷன்"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "உள்ளடக்க உருவாக்கம்"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "டிஜிட்டல் சந்தைப்படுத்தல்"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "சமூக ஊடகங்கள்"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "ஸ்ட்ரீமிங் & ஒளிபரப்பு"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "UI/UX வடிவமைப்பு"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "வீடியோ தயாரிப்பு"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "வலை மற்றும் பயன்பாட்டு வடிவமைப்பு"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "இணைய பாதுகாப்பு"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "தரவு & AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "இது & நெட்வொர்க்கிங்"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "நிரலாக்க மற்றும் மேம்பாடு"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "வலை & மொபைல்"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "கல்வி பயிற்சி"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "ஆரம்பகால குழந்தை பருவ கல்வி"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "உயர் கல்வி"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "மொழி கற்பித்தல்"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "மொழிகள்"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "கற்றல் தொழில்நுட்பங்கள்"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "கல்வியறிவு மற்றும் எழுத்து"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "சிறப்பு கல்வி"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "படிப்பு திறன்"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "சோதனை தயாரிப்பு"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "தானியங்கி மற்றும் போக்குவரத்து"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "சிவில் இன்ஜினியரிங்"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "மின் பொறியியல்"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "ஆற்றல் மற்றும் சக்தி அமைப்புகள்"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "எச்.வி.ஐ.சி & சிஸ்டம்ஸ்"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "தொழில்துறை வடிவமைப்பு"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "உற்பத்தி மற்றும் உற்பத்தி"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "இயந்திர பொறியியல்"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "ரோபாட்டிக்ஸ் மற்றும் ஆட்டோமேஷன்"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "கட்டமைப்பு வடிவமைப்பு"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "உடல் பராமரிப்பு & ஆரோக்கியம்"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "முதலுதவி மற்றும் பாதுகாப்பு"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "மன ஆரோக்கியம்"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "ஊட்டச்சத்து & உணவு"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "உடல் பயிற்சி"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "மாற்று மருந்து"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "முதலுதவி மற்றும் அவசரநிலை"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "உடற்பயிற்சி பயிற்சி"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "முழுமையான ஆரோக்கியம்"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "மருத்துவ அறிவு"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "மருத்துவ திறன்"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "மன ஆரோக்கியம்"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "மனநல நடைமுறைகள்"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "மனம் மற்றும் தியானம்"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "ஊட்டச்சத்து & உணவு"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "தனிப்பட்ட பராமரிப்பு"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "உடல் தகுதி"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "புனர்வாழ்வு மற்றும் சிகிச்சை"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "இனப்பெருக்க ஆரோக்கியம்"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "சுய பாதுகாப்பு & சுகாதாரம்"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "தூக்கம் & மீட்பு"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "மன அழுத்த மேலாண்மை"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "யோகா & தியானம்"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "உடற்பயிற்சி பயிற்சி"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "ஊட்டச்சத்து"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "வெளிப்புற மற்றும் சாகச"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "விளையாட்டு திறன்கள்"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "ஆரோக்கியம் மற்றும் மீட்பு"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "மாற்று மருந்து"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "மருத்துவ அறிவு"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "மன ஆரோக்கியம்"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "ஊட்டச்சத்து"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "தனிப்பட்ட பயிற்சி"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "உடல் தகுதி"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "புனர்வாழ்வு மற்றும் சிகிச்சை"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "விளையாட்டு பயிற்சி"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "ஆரோக்கிய பயிற்சி"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "யோகா & மைண்ட்ஃபுல்னஸ்"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "பயன்பாட்டு பராமரிப்பு"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "சுத்தம் மற்றும் ஒழுங்கமைத்தல்"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "கைவினைப்பொருட்கள் மற்றும் அலங்காரங்கள்"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "மின் வேலை"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "தோட்டக்கலை மற்றும் இயற்கையை ரசித்தல்"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "வீட்டு ஆட்டோமேஷன்"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "வீட்டு பழுது"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "உள்துறை வடிவமைப்பு"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "பிளம்பிங் அடிப்படைகள்"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "மரவேலை & தச்சு"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "பட்ஜெட் மற்றும் வீட்டு நிதி"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "குழந்தை பராமரிப்பு"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "சமையல் மற்றும் உணவு தயாரிப்பு"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "மளிகை ஷாப்பிங்"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "வீட்டு சுத்தம்"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "வீட்டு பராமரிப்பு"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "சலவை மற்றும் ஆடை பராமரிப்பு"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "ஒழுங்கமைத்தல் & குறைத்தல்"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "செல்லப்பிராணி பராமரிப்பு"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "நேர மேலாண்மை"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "குறுக்கு-கலாச்சார தொடர்பு"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "வெளிநாட்டு மொழிகள்"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "கேட்பது & புரிந்துகொள்ளுதல்"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "மொழிபெயர்ப்பு மற்றும் விளக்கம்"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "எழுதும் திறன்"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "மொழி கற்றல்"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "சொல்லாத தொடர்பு"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "பொது பேச்சு"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "கதை சொல்லும் மற்றும் கதை"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "வாய்மொழி தொடர்பு"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "எழுதுதல் மற்றும் எடிட்டிங்"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "மொழி கற்றல்"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "கணிதம்"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "அறிவியல் மற்றும் ஆராய்ச்சி"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "ஆய்வு நுட்பங்கள்"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "சோதனை தயாரிப்பு"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "கல்வி பயிற்சி"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "கல்வி கருவிகள் மற்றும் திறன்கள்"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "மொழி கற்றல்"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "வாழ்நாள் முழுவதும் கற்றல்"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "சோதனை தயாரிப்பு"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "சமையல் & உணவு"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "வீட்டு பராமரிப்பு"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "தனிப்பட்ட நிதி"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "நேர மேலாண்மை"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "பயணம் மற்றும் வழிசெலுத்தல்"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "தொடர்பு மற்றும் உறவுகள்"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "உணர்ச்சி நுண்ணறிவு"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "பின்னடைவு மற்றும் வளர்ச்சி"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "சுய ஒழுக்கம்"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "நேரம் & இலக்கு மேலாண்மை"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "சமையல் மற்றும் உணவு தயாரிப்பு"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY & பழுதுபார்ப்பு"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "தோட்டக்கலை மற்றும் நிலைத்தன்மை"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "வீட்டு மேலாண்மை"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "தனிப்பட்ட நிதி"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "உயிர்வாழும் திறன்"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "வாகன பழுது"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "கட்டுமான வர்த்தகங்கள்"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "மின் வேலை"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "தளபாடங்கள் & அப்ஹோல்ஸ்டரி"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "கை கருவி தேர்ச்சி"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "வீட்டு புதுப்பித்தல்"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "உலோக வேலை"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "பிளம்பிங் & வெப்பமாக்கல்"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "ஜவுளி மற்றும் லெதர்கிராஃப்ட்"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "மரவேலை"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "வாகன பராமரிப்பு"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "பொறியியல் அடிப்படைகள்"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "வீட்டு பழுது மற்றும் நிறுவல்"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "இயந்திர செயல்பாடு"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "கருவி பயன்பாடு மற்றும் பாதுகாப்பு"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "மரம் & உலோக வேலை"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "விமர்சன சிந்தனை"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "புவியியல் மற்றும் சுற்றுச்சூழல்"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "வரலாறு மற்றும் கலாச்சாரம்"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "மொழிகள்"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "கணிதம்"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "நினைவகம் மற்றும் கற்றல் திறன்"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "தத்துவம் மற்றும் நெறிமுறைகள்"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "உளவியல் மற்றும் நடத்தை"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "அறிவியல் மற்றும் ஆராய்ச்சி"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "ஆய்வு நுட்பங்கள்"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "அறிவாற்றல் நெகிழ்வுத்தன்மை"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "விமர்சன சிந்தனை"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "மொழி கற்றல்"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "நினைவகம் & கவனம்"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "படிப்பு திறன்"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "நம்பிக்கை மற்றும் சுயமரியாதை"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "உணர்ச்சி நுண்ணறிவு"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "இலக்கு அமைத்தல் மற்றும் திட்டமிடல்"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "பழக்கம் மற்றும் ஒழுக்கம்"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "ஒருவருக்கொருவர் திறன்கள்"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "தலைமை மற்றும் செல்வாக்கு"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "மனம் மற்றும் நல்வாழ்வு"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "பொது பேச்சு"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "சுய பிரதிபலிப்பு"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "நேரம் & உற்பத்தித்திறன்"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "தலைமை"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "மன ஆரோக்கியம்"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "உற்பத்தித்திறன்"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "பொது பேச்சு"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "சுய முன்னேற்றம்"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "உணர்ச்சி நுண்ணறிவு"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "இலக்கு அமைத்தல் மற்றும் சாதனை"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "பழக்கம் மற்றும் உற்பத்தித்திறன்"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "மனம் மற்றும் ஆரோக்கியம்"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "பொது பேசும் மற்றும் தொடர்பு"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "சுய ஒழுக்கம் & கவனம்"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "உடற்பயிற்சி மற்றும் கண்டிஷனிங்"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "கையேடு உழைப்பு மற்றும் வர்த்தகங்கள்"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "வெளிப்புற பொழுதுபோக்கு"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "தற்காப்பு மற்றும் தற்காப்பு கலைகள்"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "விளையாட்டு மற்றும் தடகள"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "சர்வைவல் & புஷ்கிராஃப்ட்"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "உடற்பயிற்சி & வலிமை"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "தனிப்பட்ட விளையாட்டு"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "தற்காப்பு கலைகள்"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "வெளிப்புற மற்றும் சாகச"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "பொழுதுபோக்கு நடவடிக்கைகள்"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "அணி விளையாட்டு"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "கல்வி எழுத்து"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "உயிரியல் அறிவியல்"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "கணினி மற்றும் தரவு அறிவியல்"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "பூமி மற்றும் சுற்றுச்சூழல் அறிவியல்"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "பொறியியல் அறிவியல்"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "கணிதம் மற்றும் புள்ளிவிவரங்கள்"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "மருத்துவ மற்றும் சுகாதார அறிவியல்"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "உடல் அறிவியல்"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "ஆராய்ச்சி முறைகள்"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "சமூக அறிவியல்"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "வானியல்"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "உயிரியல் மற்றும் வாழ்க்கை அறிவியல்"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "வேதியியல்"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "கணினி அறிவியல்"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "தரவு அறிவியல் & AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "பூமி மற்றும் சுற்றுச்சூழல் அறிவியல்"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "பொறியியல் துறைகள்"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "கணிதம் மற்றும் புள்ளிவிவரங்கள்"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "இயற்பியல் மற்றும் இயக்கவியல்"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "ரோபாட்டிக்ஸ் மற்றும் ஆட்டோமேஷன்"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "வானியல்"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "உயிரி தொழில்நுட்பம்"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "வேதியியல்"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "கணினி அறிவியல்"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "தரவு அறிவியல் & AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "பூமி மற்றும் சுற்றுச்சூழல் அறிவியல்"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "மின்னணுவியல்"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "பொறியியல்"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "கணிதம் மற்றும் புள்ளிவிவரங்கள்"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "இயற்பியல்"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI & இயந்திர கற்றல்"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "கிளவுட் கம்ப்யூட்டிங்"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "இணைய பாதுகாப்பு"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "தரவு மற்றும் பகுப்பாய்வு"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "தரவு அறிவியல் & AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "டெவொப்ஸ் & ஆட்டோமேஷன்"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "விளையாட்டு வளர்ச்சி"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "இது & நெட்வொர்க்கிங்"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "ஐடி ஆதரவு மற்றும் நெட்வொர்க்கிங்"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "மொபைல் பயன்பாட்டு மேம்பாடு"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "நிரலாக்க மற்றும் மென்பொருள் மேம்பாடு"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "மென்பொருள் மேம்பாடு"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "தொழில்நுட்ப வன்பொருள் மற்றும் பழுது"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "தொழில்நுட்ப ஆதரவு மற்றும் சரிசெய்தல்"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "வலை அபிவிருத்தி"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "சிவில் & கட்டமைப்பு"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "மின் பொறியியல்"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "உற்பத்தி மற்றும் புனைகதை"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "இயந்திர பொறியியல்"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "மென்பொருள் மற்றும் அமைப்புகள்"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "வாகன திறன்கள்"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "கட்டுமானம் மற்றும் கட்டிடம்"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "மின் வேலை"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "ஆற்றல் மற்றும் சூழல்"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "தொழில்துறை திறன்கள்"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "இயந்திர பழுது"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "இணைய பாதுகாப்பு"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "தரவு & AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "டிஜிட்டல் சந்தைப்படுத்தல்"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "இது & நெட்வொர்க்கிங்"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "மென்பொருள் மேம்பாடு"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "செயற்கை நுண்ணறிவு"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "கிளவுட் கம்ப்யூட்டிங்"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "கணினி அடிப்படைகள்"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "இணைய பாதுகாப்பு"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "தரவு & AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "தரவு மற்றும் பகுப்பாய்வு"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "டிஜிட்டல் கல்வியறிவு"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "டிஜிட்டல் சந்தைப்படுத்தல்"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "வளர்ந்து வரும் தொழில்நுட்பம்"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "வன்பொருள் மற்றும் மின்னணுவியல்"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "இது & நெட்வொர்க்கிங்"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "நெட்வொர்க்கிங் & இட்"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "நிரலாக்க மற்றும் மேம்பாடு"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "நிரலாக்க மற்றும் மென்பொருள் மேம்பாடு"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "மென்பொருள் கருவிகள்"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "தொழில்நுட்ப உற்பத்தித்திறன்"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "தொழில்நுட்ப ஆதரவு மற்றும் பராமரிப்பு"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "தொழில்நுட்ப ஆதரவு மற்றும் சரிசெய்தல்"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "வலை மற்றும் பயன்பாட்டு மேம்பாடு"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "கட்டுமானம் மற்றும் தச்சு"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "மின் மற்றும் பிளம்பிங்"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "கையால் செய்யப்பட்ட பொருட்கள்"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "உலோக வேலைகள் மற்றும் வெல்டிங்"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "ஜவுளி மற்றும் லெதர்கிராஃப்ட்"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "பாரம்பரிய கைவினைப்பொருட்கள்"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "வாகன பழுது"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "தச்சு & மரவேலை"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "கட்டுமானம் & கொத்து"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "மின் வேலை"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "எச்.வி.ஐ.சி & குளிர்பதன"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "நகைகள் தயாரித்தல்"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "உலோக வேலைகள் மற்றும் வெல்டிங்"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "ஓவியம் மற்றும் அலங்கரித்தல்"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "பிளம்பிங்"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "தையல் மற்றும் தையல்"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "வாகன பழுது"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "தச்சு & மரவேலை"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "கட்டுமானம்"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "கட்டுமானம் மற்றும் தச்சு"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "கைவினைத்திறன் மற்றும் பழுது"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "மின் மற்றும் இயந்திர"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "மின் வேலை"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "எச்.வி.ஐ.சி & குளிர்பதன"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "கனரக உபகரணங்கள் செயல்பாடு"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "கொத்து & டைலிங்"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "உலோகம் & மரவேலை"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "ஓவியம் மற்றும் முடித்தல்"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "பிளம்பிங்"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "வாகனம் மற்றும் இயந்திர பராமரிப்பு"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "வெல்டிங் & உலோக வேலைகள்"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "தானியங்கி"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "தச்சு"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "கட்டுமானம்"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "மின்"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "கொத்து"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "இயந்திர"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "ஓவியம் மற்றும் அலங்கரித்தல்"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "பிளம்பிங்"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "வெல்டிங்"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "வீடியோ தயாரிப்பு"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "ஆடியோ தயாரிப்பு"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "புகைப்படம்"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "கிராஃபிக் வடிவமைப்பு"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "நடிப்பு & செயல்திறன்"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "எழுதுதல் & திரைக்கதை எழுதுதல்"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "ஒளிபரப்பு"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "கலை மற்றும் கைவினைப்பொருட்கள்"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "இசை & கருவிகள்"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "வெளிப்புற நடவடிக்கைகள்"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "சேகரித்தல்"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "உடற்பயிற்சி மற்றும் ஆரோக்கியம்"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "தோட்டக்கலை"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "DIY திட்டங்கள்"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "இத்தாலிய உணவு"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "ஜப்பானிய உணவு"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "மெக்சிகன் உணவு"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "இந்திய உணவு"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "பிரஞ்சு உணவு"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "சீன உணவு"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "மத்திய கிழக்கு உணவு"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "Digitala och teknikfärdigheter",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "Cybersäkerhet"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "Data & Ai"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "Det & nätverk"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "Programmering och utveckling"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "Web & Mobile"
+    }
+  ]
+}

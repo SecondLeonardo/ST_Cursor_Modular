@@ -1,0 +1,30 @@
+{
+  "id": "language_communication_skills",
+  "name": "ทักษะภาษาและการสื่อสาร",
+  "subcategories": [
+    {
+      "id": "language_communication_skills_language_learning",
+      "name": "การเรียนรู้ภาษา"
+    },
+    {
+      "id": "language_communication_skills_non-verbal_communication",
+      "name": "การสื่อสารที่ไม่ใช่คำพูด"
+    },
+    {
+      "id": "language_communication_skills_public_speaking",
+      "name": "การพูดในที่สาธารณะ"
+    },
+    {
+      "id": "language_communication_skills_storytelling_narration",
+      "name": "การเล่าเรื่องและการบรรยาย"
+    },
+    {
+      "id": "language_communication_skills_verbal_communication",
+      "name": "การสื่อสารด้วยวาจา"
+    },
+    {
+      "id": "language_communication_skills_writing_editing",
+      "name": "การเขียนและแก้ไข"
+    }
+  ]
+}

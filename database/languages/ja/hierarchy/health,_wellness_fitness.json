@@ -1,0 +1,46 @@
+{
+  "id": "health,_wellness_fitness",
+  "name": "健康、ウェルネス、フィットネス",
+  "subcategories": [
+    {
+      "id": "health,_wellness_fitness_alternative_medicine",
+      "name": "代替医療"
+    },
+    {
+      "id": "health,_wellness_fitness_medical_knowledge",
+      "name": "医学知識"
+    },
+    {
+      "id": "health,_wellness_fitness_mental_health",
+      "name": "メンタルヘルス"
+    },
+    {
+      "id": "health,_wellness_fitness_nutrition",
+      "name": "栄養"
+    },
+    {
+      "id": "health,_wellness_fitness_personal_training",
+      "name": "パーソナルトレーニング"
+    },
+    {
+      "id": "health,_wellness_fitness_physical_fitness",
+      "name": "体力"
+    },
+    {
+      "id": "health,_wellness_fitness_rehabilitation_therapy",
+      "name": "リハビリテーションとセラピー"
+    },
+    {
+      "id": "health,_wellness_fitness_sports_coaching",
+      "name": "スポーツコーチング"
+    },
+    {
+      "id": "health,_wellness_fitness_wellness_coaching",
+      "name": "ウェルネスコーチング"
+    },
+    {
+      "id": "health,_wellness_fitness_yoga_mindfulness",
+      "name": "ヨガとマインドフルネス"
+    }
+  ]
+}

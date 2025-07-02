@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_engineering_basics",
+  "name": "பொறியியல் அடிப்படைகள்",
+  "skills": [
+    {
+      "id": "skill_3518",
+      "name": "அடிப்படை சுற்று",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Circuitry",
+      "tags": [
+        "basic",
+        "circuitry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3519",
+      "name": "பாலம் வடிவமைப்பு அடிப்படைகள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Bridge Design Basics",
+      "tags": [
+        "bridge",
+        "design",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_3520",
+      "name": "கேட் வடிவமைப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master CAD Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3521",
+      "name": "திரவ இயக்கவியல் அறிமுகம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Fluid Mechanics Intro",
+      "tags": [
+        "fluid",
+        "mechanics",
+        "intro"
+      ]
+    },
+    {
+      "id": "skill_3522",
+      "name": "கியர்ஸ் & புல்லிகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Gears & Pulleys",
+      "tags": [
+        "gears",
+        "pulleys",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3523",
+      "name": "புளூபிரிண்ட்களைப் படித்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Blueprints",
+      "tags": [
+        "reading",
+        "blueprints",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3524",
+      "name": "எளிய இயந்திரங்கள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Simple Machines",
+      "tags": [
+        "simple",
+        "machines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3525",
+      "name": "புள்ளிவிவரக் கோட்பாடுகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Statics Principles",
+      "tags": [
+        "statics",
+        "principles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3526",
+      "name": "இழுவிசை வலிமை சோதனை",
+      "difficulty_level": 2,
+      "description": "Learn and master Tensile Strength Testing",
+      "tags": [
+        "tensile",
+        "strength",
+        "testing"
+      ]
+    },
+    {
+      "id": "skill_3527",
+      "name": "வெப்ப இயக்கவியல் கருத்துக்கள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermodynamics Concepts",
+      "tags": [
+        "thermodynamics",
+        "concepts",
+        "skill"
+      ]
+    }
+  ]
+}

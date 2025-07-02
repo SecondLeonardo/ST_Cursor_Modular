@@ -1,0 +1,46 @@
+{
+  "id": "home_daily_life",
+  "name": "Ev ve Günlük Yaşam",
+  "subcategories": [
+    {
+      "id": "home_daily_life_budgeting_household_finance",
+      "name": "Bütçeleme ve Hanehalkı Finansmanı"
+    },
+    {
+      "id": "home_daily_life_childcare",
+      "name": "Çocuk bakımı"
+    },
+    {
+      "id": "home_daily_life_cooking_meal_prep",
+      "name": "Yemek ve Yemek Hazırlığı"
+    },
+    {
+      "id": "home_daily_life_grocery_shopping",
+      "name": "Bakkal alışverişi"
+    },
+    {
+      "id": "home_daily_life_home_cleaning",
+      "name": "Ev temizliği"
+    },
+    {
+      "id": "home_daily_life_home_maintenance",
+      "name": "Ev bakımı"
+    },
+    {
+      "id": "home_daily_life_laundry_clothing_care",
+      "name": "Çamaşır ve Giyim Bakımı"
+    },
+    {
+      "id": "home_daily_life_organizing_decluttering",
+      "name": "Organizasyon ve Durdurucu"
+    },
+    {
+      "id": "home_daily_life_pet_care",
+      "name": "Evcil hayvan bakımı"
+    },
+    {
+      "id": "home_daily_life_time_management",
+      "name": "Zaman yönetimi"
+    }
+  ]
+}

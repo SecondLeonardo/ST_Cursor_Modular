@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_visual_arts",
+  "name": "విజువల్ ఆర్ట్స్",
+  "skills": [
+    {
+      "id": "skill_610",
+      "name": "ఆర్ట్ థియరీ",
+      "difficulty_level": 1,
+      "description": "Learn and master Art Theory",
+      "tags": [
+        "theory",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_611",
+      "name": "కాలిగ్రాఫి",
+      "difficulty_level": 3,
+      "description": "Learn and master Calligraphy",
+      "tags": [
+        "calligraphy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_612",
+      "name": "రంగు సిద్ధాంతం",
+      "difficulty_level": 2,
+      "description": "Learn and master Color Theory",
+      "tags": [
+        "color",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_613",
+      "name": "కూర్పు పద్ధతులు",
+      "difficulty_level": 2,
+      "description": "Learn and master Composition Techniques",
+      "tags": [
+        "composition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_614",
+      "name": "డ్రాయింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Drawing",
+      "tags": [
+        "drawing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_615",
+      "name": "ఉదాహరణ",
+      "difficulty_level": 2,
+      "description": "Learn and master Illustration",
+      "tags": [
+        "illustration",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_616",
+      "name": "మిశ్రమ మీడియా",
+      "difficulty_level": 5,
+      "description": "Learn and master Mixed Media",
+      "tags": [
+        "mixed",
+        "media",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_617",
+      "name": "పెయింటింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_618",
+      "name": "ప్రింట్ మేకింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Printmaking",
+      "tags": [
+        "printmaking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_619",
+      "name": "శిల్పం",
+      "difficulty_level": 4,
+      "description": "Learn and master Sculpture",
+      "tags": [
+        "sculpture",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

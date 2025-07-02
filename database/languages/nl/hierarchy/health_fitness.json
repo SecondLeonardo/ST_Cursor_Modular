@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "Gezondheid en fitness",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "Lichaamsverzorging en welzijn"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "Eerste hulp en veiligheid"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "Geestelijke gezondheid"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "Voeding en dieet"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "Fysieke training"
+    }
+  ]
+}

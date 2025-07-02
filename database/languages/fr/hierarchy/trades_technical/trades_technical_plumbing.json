@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_plumbing",
+  "name": "Plomberie",
+  "skills": [
+    {
+      "id": "skill_5255",
+      "name": "Prévention du reflux",
+      "difficulty_level": 4,
+      "description": "Learn and master Backflow Prevention",
+      "tags": [
+        "backflow",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5256",
+      "name": "Systèmes de drainage",
+      "difficulty_level": 5,
+      "description": "Learn and master Drainage Systems",
+      "tags": [
+        "drainage",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5257",
+      "name": "Installation de luminaire",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixture Installation",
+      "tags": [
+        "fixture",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5258",
+      "name": "Installation de la conduite de gaz",
+      "difficulty_level": 5,
+      "description": "Learn and master Gas Line Installation",
+      "tags": [
+        "line",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5259",
+      "name": "Détection des fuites",
+      "difficulty_level": 3,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5260",
+      "name": "Tuyau",
+      "difficulty_level": 1,
+      "description": "Learn and master Pipefitting",
+      "tags": [
+        "pipefitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5261",
+      "name": "Codes de plomberie",
+      "difficulty_level": 2,
+      "description": "Learn and master Plumbing Codes",
+      "tags": [
+        "plumbing",
+        "codes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5262",
+      "name": "Entretien de la conduite d'égout",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewer Line Maintenance",
+      "tags": [
+        "sewer",
+        "line",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5263",
+      "name": "Installation des toilettes",
+      "difficulty_level": 5,
+      "description": "Learn and master Toilet Installation",
+      "tags": [
+        "toilet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5264",
+      "name": "Réparation du chauffe-eau",
+      "difficulty_level": 4,
+      "description": "Learn and master Water Heater Repair",
+      "tags": [
+        "water",
+        "heater",
+        "repair"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_data_science_ai",
+  "name": "데이터 과학 및 ai",
+  "skills": [
+    {
+      "id": "skill_4396",
+      "name": "AI 모델 배포",
+      "difficulty_level": 2,
+      "description": "Learn and master AI Model Deployment",
+      "tags": [
+        "model",
+        "deployment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4397",
+      "name": "빅 데이터 도구 (스파크)",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Tools (Spark)",
+      "tags": [
+        "data",
+        "tools",
+        "(spark)"
+      ]
+    },
+    {
+      "id": "skill_4398",
+      "name": "컴퓨터 비전",
+      "difficulty_level": 3,
+      "description": "Learn and master Computer Vision",
+      "tags": [
+        "computer",
+        "vision",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4399",
+      "name": "파이썬으로 데이터 분석",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Analysis with Python",
+      "tags": [
+        "data",
+        "analysis",
+        "with",
+        "python"
+      ]
+    },
+    {
+      "id": "skill_4400",
+      "name": "데이터 시각화",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4401",
+      "name": "딥 러닝",
+      "difficulty_level": 2,
+      "description": "Learn and master Deep Learning",
+      "tags": [
+        "deep",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4402",
+      "name": "기계 학습",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning",
+      "tags": [
+        "machine",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4403",
+      "name": "모델 평가 지표",
+      "difficulty_level": 2,
+      "description": "Learn and master Model Evaluation Metrics",
+      "tags": [
+        "model",
+        "evaluation",
+        "metrics"
+      ]
+    },
+    {
+      "id": "skill_4404",
+      "name": "자연어 처리",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4405",
+      "name": "팬더스 & Numpy",
+      "difficulty_level": 5,
+      "description": "Learn and master Pandas & NumPy",
+      "tags": [
+        "pandas",
+        "numpy",
+        "skill"
+      ]
+    }
+  ]
+}

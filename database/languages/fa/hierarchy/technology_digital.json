@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "فناوری و دیجیتال",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "امنیت سایبری"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "داده ها و هوش مصنوعی"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "بازاریابی دیجیتالی"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "آن و شبکه سازی"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "توسعه نرم افزاری"
+    }
+  ]
+}

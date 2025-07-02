@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_science",
+  "name": "Scienza",
+  "skills": [
+    {
+      "id": "skill_80",
+      "name": "Astronomia",
+      "difficulty_level": 2,
+      "description": "Learn and master Astronomy",
+      "tags": [
+        "astronomy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_81",
+      "name": "Biologia",
+      "difficulty_level": 1,
+      "description": "Learn and master Biology",
+      "tags": [
+        "biology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_82",
+      "name": "Botanica",
+      "difficulty_level": 5,
+      "description": "Learn and master Botany",
+      "tags": [
+        "botany",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_83",
+      "name": "Chimica",
+      "difficulty_level": 3,
+      "description": "Learn and master Chemistry",
+      "tags": [
+        "chemistry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_84",
+      "name": "Scienze della terra",
+      "difficulty_level": 4,
+      "description": "Learn and master Earth Science",
+      "tags": [
+        "earth",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_85",
+      "name": "Ecologia",
+      "difficulty_level": 2,
+      "description": "Learn and master Ecology",
+      "tags": [
+        "ecology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_86",
+      "name": "Genetica",
+      "difficulty_level": 4,
+      "description": "Learn and master Genetics",
+      "tags": [
+        "genetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_87",
+      "name": "Fisica",
+      "difficulty_level": 4,
+      "description": "Learn and master Physics",
+      "tags": [
+        "physics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_88",
+      "name": "Metodo scientifico",
+      "difficulty_level": 1,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_89",
+      "name": "Zoologia",
+      "difficulty_level": 4,
+      "description": "Learn and master Zoology",
+      "tags": [
+        "zoology",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

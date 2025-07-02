@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_photography",
+  "name": "摄影",
+  "skills": [
+    {
+      "id": "skill_1843",
+      "name": "黑白摄影",
+      "difficulty_level": 4,
+      "description": "Learn and master Black & White Photography",
+      "tags": [
+        "black",
+        "white",
+        "photography"
+      ]
+    },
+    {
+      "id": "skill_1844",
+      "name": "颜色分级",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Grading",
+      "tags": [
+        "color",
+        "grading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1845",
+      "name": "组成技术",
+      "difficulty_level": 5,
+      "description": "Learn and master Composition Techniques",
+      "tags": [
+        "composition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1846",
+      "name": "使用Lightroom编辑",
+      "difficulty_level": 5,
+      "description": "Learn and master Editing with Lightroom",
+      "tags": [
+        "editing",
+        "with",
+        "lightroom"
+      ]
+    },
+    {
+      "id": "skill_1847",
+      "name": "景观摄影",
+      "difficulty_level": 4,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1848",
+      "name": "照明技术",
+      "difficulty_level": 3,
+      "description": "Learn and master Lighting Techniques",
+      "tags": [
+        "lighting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1849",
+      "name": "宏摄影",
+      "difficulty_level": 1,
+      "description": "Learn and master Macro Photography",
+      "tags": [
+        "macro",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1850",
+      "name": "夜间摄影",
+      "difficulty_level": 3,
+      "description": "Learn and master Night Photography",
+      "tags": [
+        "night",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1851",
+      "name": "肖像摄影",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1852",
+      "name": "使用数码单反相机",
+      "difficulty_level": 3,
+      "description": "Learn and master Using a DSLR Camera",
+      "tags": [
+        "using",
+        "dslr",
+        "camera"
+      ]
+    }
+  ]
+}

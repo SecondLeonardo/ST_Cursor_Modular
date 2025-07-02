@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "Media och underhållning",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "Videoproduktion"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "Ljudproduktion"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "Fotografi"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "Grafisk design"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "Skådespelare och prestanda"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "Skrivande och manusförfattare"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "Sändning"
+    }
+  ]
+}

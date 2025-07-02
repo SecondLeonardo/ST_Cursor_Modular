@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_automotive_repair",
+  "name": "Urekebishaji wa Magari",
+  "skills": [
+    {
+      "id": "skill_5025",
+      "name": "Urekebishaji wa hali ya hewa",
+      "difficulty_level": 3,
+      "description": "Learn and master Air Conditioning Repair",
+      "tags": [
+        "conditioning",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5026",
+      "name": "Uingizwaji wa betri",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5027",
+      "name": "Uingizwaji wa kuvunja",
+      "difficulty_level": 2,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5028",
+      "name": "Utambuzi wa injini",
+      "difficulty_level": 4,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5029",
+      "name": "Cheki za maji",
+      "difficulty_level": 5,
+      "description": "Learn and master Fluid Checks",
+      "tags": [
+        "fluid",
+        "checks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5030",
+      "name": "Mabadiliko ya mafuta",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5031",
+      "name": "Uingizwaji wa kuziba cheche",
+      "difficulty_level": 2,
+      "description": "Learn and master Spark Plug Replacement",
+      "tags": [
+        "spark",
+        "plug",
+        "replacement"
+      ]
+    },
+    {
+      "id": "skill_5032",
+      "name": "Urekebishaji wa kusimamishwa",
+      "difficulty_level": 3,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5033",
+      "name": "Mzunguko wa tairi",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5034",
+      "name": "Matengenezo ya maambukizi",
+      "difficulty_level": 2,
+      "description": "Learn and master Transmission Maintenance",
+      "tags": [
+        "transmission",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

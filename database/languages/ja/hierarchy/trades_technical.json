@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "取引と技術",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "自動車"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "大工仕事"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "工事"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "電気"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "石工"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "機械"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "絵画と装飾"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "配管"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "溶接"
+    }
+  ]
+}

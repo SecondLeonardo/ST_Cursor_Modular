@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_fitness_wellness",
+  "name": "健身与健康",
+  "skills": [
+    {
+      "id": "skill_5385",
+      "name": "瑜伽",
+      "difficulty_level": 2,
+      "description": "Learn and master Yoga",
+      "tags": [
+        "yoga",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5386",
+      "name": "普拉提",
+      "difficulty_level": 5,
+      "description": "Learn and master Pilates",
+      "tags": [
+        "pilates",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5387",
+      "name": "冥想",
+      "difficulty_level": 1,
+      "description": "Learn and master Meditation",
+      "tags": [
+        "meditation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5388",
+      "name": "跑步",
+      "difficulty_level": 1,
+      "description": "Learn and master Running",
+      "tags": [
+        "running",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5389",
+      "name": "举重",
+      "difficulty_level": 3,
+      "description": "Learn and master Weightlifting",
+      "tags": [
+        "weightlifting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5390",
+      "name": "有氧运动",
+      "difficulty_level": 3,
+      "description": "Learn and master Aerobics",
+      "tags": [
+        "aerobics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5391",
+      "name": "骑自行车",
+      "difficulty_level": 2,
+      "description": "Learn and master Cycling",
+      "tags": [
+        "cycling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5392",
+      "name": "游泳",
+      "difficulty_level": 2,
+      "description": "Learn and master Swimming",
+      "tags": [
+        "swimming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5393",
+      "name": "尊巴",
+      "difficulty_level": 3,
+      "description": "Learn and master Zumba",
+      "tags": [
+        "zumba",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5394",
+      "name": "太极",
+      "difficulty_level": 5,
+      "description": "Learn and master Tai Chi",
+      "tags": [
+        "skill",
+        "learning",
+        "education"
+      ]
+    }
+  ]
+}

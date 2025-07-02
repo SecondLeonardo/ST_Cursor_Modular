@@ -1,0 +1,116 @@
+{
+  "id": "cognitive_academic_skills_study_learning_skills",
+  "name": "Abilità di studio e apprendimento",
+  "skills": [
+    {
+      "id": "skill_1118",
+      "name": "Richiamo attivo",
+      "difficulty_level": 3,
+      "description": "Learn and master Active Recall",
+      "tags": [
+        "active",
+        "recall",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1119",
+      "name": "Concept collegamento",
+      "difficulty_level": 1,
+      "description": "Learn and master Concept Linking",
+      "tags": [
+        "concept",
+        "linking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1120",
+      "name": "Impostazione degli obiettivi per gli studenti",
+      "difficulty_level": 3,
+      "description": "Learn and master Goal Setting for Learners",
+      "tags": [
+        "goal",
+        "setting",
+        "learners"
+      ]
+    },
+    {
+      "id": "skill_1121",
+      "name": "Dinamica di studio di gruppo",
+      "difficulty_level": 4,
+      "description": "Learn and master Group Study Dynamics",
+      "tags": [
+        "group",
+        "study",
+        "dynamics"
+      ]
+    },
+    {
+      "id": "skill_1122",
+      "name": "Mappatura mentale",
+      "difficulty_level": 2,
+      "description": "Learn and master Mind Mapping",
+      "tags": [
+        "mind",
+        "mapping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1123",
+      "name": "Autotest",
+      "difficulty_level": 5,
+      "description": "Learn and master Self-Testing",
+      "tags": [
+        "self-testing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1124",
+      "name": "Ripetizione distanziata",
+      "difficulty_level": 2,
+      "description": "Learn and master Spaced Repetition",
+      "tags": [
+        "spaced",
+        "repetition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1125",
+      "name": "Lettura della velocità",
+      "difficulty_level": 1,
+      "description": "Learn and master Speed Reading",
+      "tags": [
+        "speed",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1126",
+      "name": "Tecniche di riassunto",
+      "difficulty_level": 5,
+      "description": "Learn and master Summarization Techniques",
+      "tags": [
+        "summarization",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1127",
+      "name": "Gestione del tempo per lo studio",
+      "difficulty_level": 4,
+      "description": "Learn and master Time Management for Study",
+      "tags": [
+        "time",
+        "management",
+        "study"
+      ]
+    }
+  ]
+}

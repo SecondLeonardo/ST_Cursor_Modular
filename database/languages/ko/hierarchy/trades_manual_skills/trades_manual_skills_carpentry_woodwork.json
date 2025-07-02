@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_carpentry_woodwork",
+  "name": "목공 및 목공",
+  "skills": [
+    {
+      "id": "skill_5035",
+      "name": "청사진 읽기",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5036",
+      "name": "캐비닛 설치",
+      "difficulty_level": 1,
+      "description": "Learn and master Cabinet Installation",
+      "tags": [
+        "cabinet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5037",
+      "name": "갑판 빌딩",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5038",
+      "name": "프레임 목수",
+      "difficulty_level": 5,
+      "description": "Learn and master Framing Carpentry",
+      "tags": [
+        "framing",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5039",
+      "name": "가구 만들기",
+      "difficulty_level": 5,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5040",
+      "name": "가구 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery Techniques",
+      "tags": [
+        "joinery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5041",
+      "name": "도구 안전",
+      "difficulty_level": 5,
+      "description": "Learn and master Tool Safety",
+      "tags": [
+        "tool",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5042",
+      "name": "목공을 다듬습니다",
+      "difficulty_level": 4,
+      "description": "Learn and master Trim Carpentry",
+      "tags": [
+        "trim",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5043",
+      "name": "목재 마무리",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5044",
+      "name": "나무 회전",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Turning",
+      "tags": [
+        "wood",
+        "turning",
+        "skill"
+      ]
+    }
+  ]
+}

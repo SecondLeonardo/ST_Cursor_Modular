@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_physical_sciences",
+  "name": "Ilmu Fisik",
+  "skills": [
+    {
+      "id": "skill_4118",
+      "name": "Kimia Analitik",
+      "difficulty_level": 5,
+      "description": "Learn and master Analytical Chemistry",
+      "tags": [
+        "analytical",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4119",
+      "name": "Sintesis Kimia",
+      "difficulty_level": 4,
+      "description": "Learn and master Chemical Synthesis",
+      "tags": [
+        "chemical",
+        "synthesis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4120",
+      "name": "Pekerjaan Lab Kimia",
+      "difficulty_level": 1,
+      "description": "Learn and master Chemistry Lab Work",
+      "tags": [
+        "chemistry",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4121",
+      "name": "Elektromagnetisme",
+      "difficulty_level": 2,
+      "description": "Learn and master Electromagnetism",
+      "tags": [
+        "electromagnetism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4122",
+      "name": "Ilmu Material",
+      "difficulty_level": 3,
+      "description": "Learn and master Material Science",
+      "tags": [
+        "material",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4123",
+      "name": "Fisika Nuklir",
+      "difficulty_level": 5,
+      "description": "Learn and master Nuclear Physics",
+      "tags": [
+        "nuclear",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4124",
+      "name": "Konsep Fisika",
+      "difficulty_level": 3,
+      "description": "Learn and master Physics Concepts",
+      "tags": [
+        "physics",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4125",
+      "name": "Mekanika kuantum",
+      "difficulty_level": 2,
+      "description": "Learn and master Quantum Mechanics",
+      "tags": [
+        "quantum",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4126",
+      "name": "Spektroskopi",
+      "difficulty_level": 5,
+      "description": "Learn and master Spectroscopy",
+      "tags": [
+        "spectroscopy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4127",
+      "name": "Termodinamika",
+      "difficulty_level": 4,
+      "description": "Learn and master Thermodynamics",
+      "tags": [
+        "thermodynamics",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

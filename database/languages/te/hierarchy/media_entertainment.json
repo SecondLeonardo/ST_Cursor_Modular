@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "మీడియా & ఎంటర్టైన్మెంట్",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "వీడియో ఉత్పత్తి"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "ఆడియో ఉత్పత్తి"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "ఫోటోగ్రఫీ"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "గ్రాఫిక్ డిజైన్"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "నటన & పనితీరు"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "రైటింగ్ & స్క్రిప్ట్ రైటింగ్"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "ప్రసారం"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_literature",
+  "name": "இலக்கியம்",
+  "skills": [
+    {
+      "id": "skill_40",
+      "name": "கிளாசிக்கல் இலக்கியம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Classical Literature",
+      "tags": [
+        "classical",
+        "literature",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_41",
+      "name": "ஒப்பீட்டு இலக்கியம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Comparative Literature",
+      "tags": [
+        "comparative",
+        "literature",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_42",
+      "name": "சமகால புனைகதை",
+      "difficulty_level": 4,
+      "description": "Learn and master Contemporary Fiction",
+      "tags": [
+        "contemporary",
+        "fiction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_43",
+      "name": "படைப்பு புனைகதை",
+      "difficulty_level": 4,
+      "description": "Learn and master Creative Nonfiction",
+      "tags": [
+        "creative",
+        "nonfiction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_44",
+      "name": "வகை ஆய்வுகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Genre Studies",
+      "tags": [
+        "genre",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_45",
+      "name": "இலக்கிய பகுப்பாய்வு",
+      "difficulty_level": 3,
+      "description": "Learn and master Literary Analysis",
+      "tags": [
+        "literary",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_46",
+      "name": "கதை கோட்பாடு",
+      "difficulty_level": 1,
+      "description": "Learn and master Narrative Theory",
+      "tags": [
+        "narrative",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_47",
+      "name": "கவிதை பகுப்பாய்வு",
+      "difficulty_level": 2,
+      "description": "Learn and master Poetry Analysis",
+      "tags": [
+        "poetry",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_48",
+      "name": "ஷேக்ஸ்பியர் ஆய்வுகள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Shakespeare Studies",
+      "tags": [
+        "shakespeare",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_49",
+      "name": "உலக இலக்கியம்",
+      "difficulty_level": 2,
+      "description": "Learn and master World Literature",
+      "tags": [
+        "world",
+        "literature",
+        "skill"
+      ]
+    }
+  ]
+}

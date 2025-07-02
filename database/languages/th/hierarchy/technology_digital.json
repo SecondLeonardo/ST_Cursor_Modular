@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "เทคโนโลยีและดิจิตอล",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "ความปลอดภัยทางไซเบอร์"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "ข้อมูล & AI"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "การตลาดดิจิทัล"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "ไอทีและเครือข่าย"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "การพัฒนาซอฟต์แวร์"
+    }
+  ]
+}

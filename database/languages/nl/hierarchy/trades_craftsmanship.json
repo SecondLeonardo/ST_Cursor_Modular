@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "Handel en vakmanschap",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "Auto -reparatie"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "Timmerwerk en houtbewerking"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "Bouw en metselwerk"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "Elektrisch werk"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC & koeling"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "Sieraden maken"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "Metaalwerk en lassen"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "Schilderen en decoreren"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "Sanitair"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "Aanpassing en naaien"
+    }
+  ]
+}

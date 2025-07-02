@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_performing_arts",
+  "name": "ప్రదర్శన కళలు",
+  "skills": [
+    {
+      "id": "skill_590",
+      "name": "ఆడిషన్ తయారీ",
+      "difficulty_level": 2,
+      "description": "Learn and master Audition Preparation",
+      "tags": [
+        "audition",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_591",
+      "name": "పాత్ర అభివృద్ధి",
+      "difficulty_level": 3,
+      "description": "Learn and master Character Development",
+      "tags": [
+        "character",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_592",
+      "name": "కొరియోగ్రఫీ",
+      "difficulty_level": 3,
+      "description": "Learn and master Choreography",
+      "tags": [
+        "choreography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_593",
+      "name": "మెరుగుదల",
+      "difficulty_level": 1,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_594",
+      "name": "మైమ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_595",
+      "name": "మోనోలాగ్ డెలివరీ",
+      "difficulty_level": 3,
+      "description": "Learn and master Monologue Delivery",
+      "tags": [
+        "monologue",
+        "delivery",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_596",
+      "name": "దశల నిర్వహణ",
+      "difficulty_level": 4,
+      "description": "Learn and master Stage Management",
+      "tags": [
+        "stage",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_597",
+      "name": "స్టేజ్ ఉనికి",
+      "difficulty_level": 1,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_598",
+      "name": "థియేటర్ నటన",
+      "difficulty_level": 4,
+      "description": "Learn and master Theater Acting",
+      "tags": [
+        "theater",
+        "acting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_599",
+      "name": "వాయిస్ ప్రొజెక్షన్",
+      "difficulty_level": 3,
+      "description": "Learn and master Voice Projection",
+      "tags": [
+        "voice",
+        "projection",
+        "skill"
+      ]
+    }
+  ]
+}

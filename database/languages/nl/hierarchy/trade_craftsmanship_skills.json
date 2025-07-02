@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "Handels- en vakmanschapsvaardigheden",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "Bouw en timmerwerk"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "Elektrisch en sanitair"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "Handgemaakte goederen"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "Metaalwerk en lassen"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "Textiel en lederencraft"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "Traditionele ambachten"
+    }
+  ]
+}

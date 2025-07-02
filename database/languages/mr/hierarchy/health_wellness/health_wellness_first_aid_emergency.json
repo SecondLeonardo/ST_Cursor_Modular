@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_first_aid_emergency",
+  "name": "प्रथमोपचार आणि आणीबाणी",
+  "skills": [
+    {
+      "id": "skill_2503",
+      "name": "बांधील तंत्र",
+      "difficulty_level": 2,
+      "description": "Learn and master Bandaging Techniques",
+      "tags": [
+        "bandaging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2504",
+      "name": "मूलभूत सीपीआर",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic CPR",
+      "tags": [
+        "basic",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2505",
+      "name": "रक्तस्त्राव नियंत्रण",
+      "difficulty_level": 2,
+      "description": "Learn and master Bleeding Control",
+      "tags": [
+        "bleeding",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2506",
+      "name": "बर्न ट्रीटमेंट",
+      "difficulty_level": 2,
+      "description": "Learn and master Burn Treatment",
+      "tags": [
+        "burn",
+        "treatment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2507",
+      "name": "मदतीसाठी कॉल",
+      "difficulty_level": 5,
+      "description": "Learn and master Calling for Help",
+      "tags": [
+        "calling",
+        "help",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2508",
+      "name": "गुदमरलेला प्रतिसाद",
+      "difficulty_level": 2,
+      "description": "Learn and master Choking Response",
+      "tags": [
+        "choking",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2509",
+      "name": "आपत्कालीन नियोजन",
+      "difficulty_level": 5,
+      "description": "Learn and master Emergency Planning",
+      "tags": [
+        "emergency",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2510",
+      "name": "प्रथमोपचार किट वापर",
+      "difficulty_level": 4,
+      "description": "Learn and master First Aid Kit Use",
+      "tags": [
+        "first",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2511",
+      "name": "शॉक व्यवस्थापन",
+      "difficulty_level": 3,
+      "description": "Learn and master Shock Management",
+      "tags": [
+        "shock",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2512",
+      "name": "स्प्लिंटिंग जखम",
+      "difficulty_level": 4,
+      "description": "Learn and master Splinting Injuries",
+      "tags": [
+        "splinting",
+        "injuries",
+        "skill"
+      ]
+    }
+  ]
+}

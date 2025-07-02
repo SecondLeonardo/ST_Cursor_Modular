@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_biological_sciences",
+  "name": "Ciências biológicas",
+  "skills": [
+    {
+      "id": "skill_4058",
+      "name": "Bioestatística",
+      "difficulty_level": 4,
+      "description": "Learn and master Biostatistics",
+      "tags": [
+        "biostatistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4059",
+      "name": "Botânica",
+      "difficulty_level": 1,
+      "description": "Learn and master Botany",
+      "tags": [
+        "botany",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4060",
+      "name": "Cultura de células",
+      "difficulty_level": 3,
+      "description": "Learn and master Cell Culture",
+      "tags": [
+        "cell",
+        "culture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4061",
+      "name": "Ecologia",
+      "difficulty_level": 5,
+      "description": "Learn and master Ecology",
+      "tags": [
+        "ecology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4062",
+      "name": "Pesquisa de campo",
+      "difficulty_level": 5,
+      "description": "Learn and master Field Research",
+      "tags": [
+        "field",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4063",
+      "name": "Genética",
+      "difficulty_level": 4,
+      "description": "Learn and master Genetics",
+      "tags": [
+        "genetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4064",
+      "name": "Protocolos de segurança do laboratório",
+      "difficulty_level": 3,
+      "description": "Learn and master Lab Safety Protocols",
+      "tags": [
+        "safety",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4065",
+      "name": "Microbiologia",
+      "difficulty_level": 2,
+      "description": "Learn and master Microbiology",
+      "tags": [
+        "microbiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4066",
+      "name": "Biologia Molecular",
+      "difficulty_level": 2,
+      "description": "Learn and master Molecular Biology",
+      "tags": [
+        "molecular",
+        "biology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4067",
+      "name": "Zoologia",
+      "difficulty_level": 1,
+      "description": "Learn and master Zoology",
+      "tags": [
+        "zoology",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

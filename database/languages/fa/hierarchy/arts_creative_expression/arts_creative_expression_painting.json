@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_painting",
+  "name": "نقاشی",
+  "skills": [
+    {
+      "id": "skill_380",
+      "name": "نقاشی انتزاعی",
+      "difficulty_level": 5,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_381",
+      "name": "نقاشی اکریلیک",
+      "difficulty_level": 3,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_382",
+      "name": "تکنیک های قلم مو",
+      "difficulty_level": 3,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_383",
+      "name": "تهیه بوم",
+      "difficulty_level": 3,
+      "description": "Learn and master Canvas Preparation",
+      "tags": [
+        "canvas",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_384",
+      "name": "ترکیب رنگ",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_385",
+      "name": "امپرسیونیسم",
+      "difficulty_level": 2,
+      "description": "Learn and master Impressionism",
+      "tags": [
+        "impressionism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_386",
+      "name": "نقاشی روغنی",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_387",
+      "name": "نقاشی هوای پلین",
+      "difficulty_level": 1,
+      "description": "Learn and master Plein Air Painting",
+      "tags": [
+        "plein",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_388",
+      "name": "نقاشی پرتره",
+      "difficulty_level": 2,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_389",
+      "name": "تکنیک های آبرنگ",
+      "difficulty_level": 2,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_design_graphic_design",
+  "name": "그래픽 디자인",
+  "skills": [
+    {
+      "id": "skill_1903",
+      "name": "Adobe Illustrator 기본",
+      "difficulty_level": 1,
+      "description": "Learn and master Adobe Illustrator Basics",
+      "tags": [
+        "adobe",
+        "illustrator",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1904",
+      "name": "브랜드 아이덴티티 디자인",
+      "difficulty_level": 5,
+      "description": "Learn and master Brand Identity Design",
+      "tags": [
+        "brand",
+        "identity",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_1905",
+      "name": "컬러 팔레트 생성",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Palette Creation",
+      "tags": [
+        "color",
+        "palette",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_1906",
+      "name": "인포 그래픽 생성",
+      "difficulty_level": 5,
+      "description": "Learn and master Infographic Creation",
+      "tags": [
+        "infographic",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1907",
+      "name": "레이아웃 그리드 및 계층 구조",
+      "difficulty_level": 1,
+      "description": "Learn and master Layout Grids & Hierarchy",
+      "tags": [
+        "layout",
+        "grids",
+        "hierarchy"
+      ]
+    },
+    {
+      "id": "skill_1908",
+      "name": "로고 디자인",
+      "difficulty_level": 2,
+      "description": "Learn and master Logo Design",
+      "tags": [
+        "logo",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1909",
+      "name": "초보자를위한 Photoshop",
+      "difficulty_level": 3,
+      "description": "Learn and master Photoshop for Beginners",
+      "tags": [
+        "photoshop",
+        "beginners",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1910",
+      "name": "포스터 디자인 원칙",
+      "difficulty_level": 1,
+      "description": "Learn and master Poster Design Principles",
+      "tags": [
+        "poster",
+        "design",
+        "principles"
+      ]
+    },
+    {
+      "id": "skill_1911",
+      "name": "소셜 미디어 영상",
+      "difficulty_level": 1,
+      "description": "Learn and master Social Media Visuals",
+      "tags": [
+        "social",
+        "media",
+        "visuals"
+      ]
+    },
+    {
+      "id": "skill_1912",
+      "name": "타이포그래피 레이아웃",
+      "difficulty_level": 5,
+      "description": "Learn and master Typography Layout",
+      "tags": [
+        "typography",
+        "layout",
+        "skill"
+      ]
+    }
+  ]
+}

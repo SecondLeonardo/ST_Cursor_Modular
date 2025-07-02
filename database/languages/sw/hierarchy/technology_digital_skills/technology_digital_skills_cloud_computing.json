@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_cloud_computing",
+  "name": "Kompyuta ya wingu",
+  "skills": [
+    {
+      "id": "skill_4676",
+      "name": "Huduma za Wavuti za Amazon (AWS)",
+      "difficulty_level": 1,
+      "description": "Learn and master Amazon Web Services (AWS)",
+      "tags": [
+        "amazon",
+        "services",
+        "(aws)"
+      ]
+    },
+    {
+      "id": "skill_4677",
+      "name": "Bomba za CI/CD",
+      "difficulty_level": 1,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4678",
+      "name": "Misingi ya usalama wa wingu",
+      "difficulty_level": 4,
+      "description": "Learn and master Cloud Security Basics",
+      "tags": [
+        "cloud",
+        "security",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4679",
+      "name": "Hifadhi ya wingu",
+      "difficulty_level": 1,
+      "description": "Learn and master Cloud Storage",
+      "tags": [
+        "cloud",
+        "storage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4680",
+      "name": "Matumizi ya matumizi",
+      "difficulty_level": 1,
+      "description": "Learn and master Deploying Applications",
+      "tags": [
+        "deploying",
+        "applications",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4681",
+      "name": "Jukwaa la Wingu la Google",
+      "difficulty_level": 5,
+      "description": "Learn and master Google Cloud Platform",
+      "tags": [
+        "google",
+        "cloud",
+        "platform"
+      ]
+    },
+    {
+      "id": "skill_4682",
+      "name": "Dhana za wingu za mseto",
+      "difficulty_level": 3,
+      "description": "Learn and master Hybrid Cloud Concepts",
+      "tags": [
+        "hybrid",
+        "cloud",
+        "concepts"
+      ]
+    },
+    {
+      "id": "skill_4683",
+      "name": "Microsoft Azure",
+      "difficulty_level": 2,
+      "description": "Learn and master Microsoft Azure",
+      "tags": [
+        "microsoft",
+        "azure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4684",
+      "name": "Usanifu usio na seva",
+      "difficulty_level": 1,
+      "description": "Learn and master Serverless Architecture",
+      "tags": [
+        "serverless",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4685",
+      "name": "Mashine za kweli",
+      "difficulty_level": 2,
+      "description": "Learn and master Virtual Machines",
+      "tags": [
+        "virtual",
+        "machines",
+        "skill"
+      ]
+    }
+  ]
+}

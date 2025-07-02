@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_crafting_diy",
+  "name": "제작 및 DIY",
+  "skills": [
+    {
+      "id": "skill_1793",
+      "name": "촛불 만들기",
+      "difficulty_level": 1,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1794",
+      "name": "카드 만들기",
+      "difficulty_level": 3,
+      "description": "Learn and master Card Making",
+      "tags": [
+        "card",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1795",
+      "name": "휴가 장식",
+      "difficulty_level": 4,
+      "description": "Learn and master Holiday Decorations",
+      "tags": [
+        "holiday",
+        "decorations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1796",
+      "name": "가정 장식 공예품",
+      "difficulty_level": 4,
+      "description": "Learn and master Home Decor Crafts",
+      "tags": [
+        "home",
+        "decor",
+        "crafts"
+      ]
+    },
+    {
+      "id": "skill_1797",
+      "name": "모델 빌딩",
+      "difficulty_level": 3,
+      "description": "Learn and master Model Building",
+      "tags": [
+        "model",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1798",
+      "name": "종이 접기",
+      "difficulty_level": 4,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1799",
+      "name": "종이 크래프트",
+      "difficulty_level": 3,
+      "description": "Learn and master Papercraft",
+      "tags": [
+        "papercraft",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1800",
+      "name": "수지 예술",
+      "difficulty_level": 3,
+      "description": "Learn and master Resin Art",
+      "tags": [
+        "resin",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1801",
+      "name": "비누 만들기",
+      "difficulty_level": 5,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1802",
+      "name": "업 사이클링 품목",
+      "difficulty_level": 2,
+      "description": "Learn and master Upcycling Items",
+      "tags": [
+        "upcycling",
+        "items",
+        "skill"
+      ]
+    }
+  ]
+}

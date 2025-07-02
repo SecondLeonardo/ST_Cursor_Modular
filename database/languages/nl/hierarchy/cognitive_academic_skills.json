@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "Cognitieve en academische vaardigheden",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "Kritisch denken"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "Taal- en taalkunde"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "Wiskunde en logica"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "Memory & Focus"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "Wetenschap en onderzoek"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "Studie- en leervaardigheden"
+    }
+  ]
+}

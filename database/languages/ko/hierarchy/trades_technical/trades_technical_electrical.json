@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_electrical",
+  "name": "전기 같은",
+  "skills": [
+    {
+      "id": "skill_5205",
+      "name": "회로 설계",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5206",
+      "name": "전기 안전 준수",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Safety Compliance",
+      "tags": [
+        "electrical",
+        "safety",
+        "compliance"
+      ]
+    },
+    {
+      "id": "skill_5207",
+      "name": "전기 문제 해결",
+      "difficulty_level": 1,
+      "description": "Learn and master Electrical Troubleshooting",
+      "tags": [
+        "electrical",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5208",
+      "name": "홈 자동화 설정",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Automation Setup",
+      "tags": [
+        "home",
+        "automation",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_5209",
+      "name": "조명 시스템",
+      "difficulty_level": 4,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5210",
+      "name": "패널 업그레이드",
+      "difficulty_level": 1,
+      "description": "Learn and master Panel Upgrading",
+      "tags": [
+        "panel",
+        "upgrading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5211",
+      "name": "전력 분배",
+      "difficulty_level": 3,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5212",
+      "name": "읽기 회로도",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Schematics",
+      "tags": [
+        "reading",
+        "schematics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5213",
+      "name": "태양 전지판 설치",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Installation",
+      "tags": [
+        "solar",
+        "panel",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5214",
+      "name": "배선 설치",
+      "difficulty_level": 4,
+      "description": "Learn and master Wiring Installation",
+      "tags": [
+        "wiring",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

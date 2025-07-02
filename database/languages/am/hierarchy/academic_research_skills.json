@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "አካዴሚያዊ እና የምርምር ችሎታዎች",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "አካዴሚያዊ አቀራረብ"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "የመረጃ ትንተና"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "ቋንቋ እና ጽሑፍ"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "ሂሳብ እና ስታቲስቲክስ"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "ሳይንሳዊ ምርምር"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "የጥናት እና የሙከራ ቅድመ ዝግጅት"
+    }
+  ]
+}

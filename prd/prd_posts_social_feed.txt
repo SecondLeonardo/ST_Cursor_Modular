@@ -1,0 +1,96 @@
+1. Posts & Social Feed Overview
+- Social feed for posting, interacting, and engaging with skill learners
+- Personalized feeds, skill learning progress bars, trending topics
+
+2. Post Data Models
+- PostModel: id, authorId, text, imageUrl, audioUrl, createdAt
+- CommentModel: id, postId, authorId, text, createdAt
+
+3. Post API Contracts
+- Create Post: POST /api/posts
+- Get Posts: GET /api/posts
+- Comment on Post: POST /api/posts/{postId}/comments
+- Like Post: POST /api/posts/{postId}/like
+
+4. Posts & Social Feed UI/UX Design
+### 4.1 Posts Page
+- **Description**: A social feed where users can post, interact, and engage with skill learners worldwide.
+- **UI/UX Design**: 
+  - **Colors & Theme**: Light gray/white background, dark gray/black icons, teal for active tabs, blue & green for skill progress, yellow for VIP badges.
+  - **Page Structure**: Includes navigation bar, category tabs, posts feed, ad/featured section, and bottom navigation bar.
+  - **Functionality**: Users can like, comment, translate, and share posts, with personalized feeds and skill learning progress bars.
+  - **Detailed Elements**:
+    - **Navigation Bar**: Analyze Icon, Target/Challenge Icon, Search Bar, Bell Icon, Pen Icon.
+    - **Category Tabs**: Recent, For You, Help, Nearby, Following, Language-Specific, Skill-Specific, Trending.
+    - **Posts Feed**: Profile Picture & Name, language info, skill Learning Info, Post Text Content, Interaction Buttons, Time Since Post, Three-Dot Menu.
+    - **Ad/Featured Section**: skill Learning Challenges Banner.
+    - **Bottom Navigation Bar**: SkillTalk, match, Posts, Voiceroom, Me.
+
+### 4.2 Search Bar
+- **Description**: Allows users to explore trending topics and revisit search history.
+- **UI/UX Design**: 
+  - **Layout**: White background, bold black text for headers, well-spaced elements.
+  - **Elements**: Search bar, hot topic section, search history section.
+  - **Functionality**: Users can enter custom queries, view trending topics, and access search history.
+  - **Detailed Elements**:
+    - **Search Bar**: Gray rounded rectangle, magnifying glass icon, "Cancel" button.
+    - **Hot Topic Section**: Trending topics as rounded pill-shaped buttons, "More" button.
+    - **Search History Section**: List of previous searches, trash can icon, blue refresh icon.
+
+### 4.3 Notices Page
+- **Description**: Displays notifications related to posts, comments, and interactions.
+- **UI/UX Design**: 
+  - **Layout**: White background, black text for primary content, gray for secondary text.
+  - **Elements**: Notification categories, ad banner, notification feed.
+  - **Functionality**: Users can view and interact with notifications, with options to send thanks or reply.
+  - **Detailed Elements**:
+    - **Header Section**: "Posts Notices" Title, Back Arrow.
+    - **Notification Categories**: "All", "Comments", "New Posts", "Likes/Q".
+    - **Advertisement Banner**: "skill Buddy Hub" Ad with "View" Button.
+    - **Notification Feed**: Profile Picture, Username, Notification Message, Date.
+    - **Interaction Buttons**: Speech Bubble Icon, "Send Thanks" Button.
+
+### 4.4 Boost Center
+- **Description**: Allows users to boost their posts or profile visibility.
+- **UI/UX Design**: 
+  - **Colors & Aesthetic**: Soft pink and white background, red for trending posts, gradient buttons.
+  - **Elements**: Post selection, boost target selection, audience size selection, pricing section.
+  - **Functionality**: Users can select posts to boost, choose audience size, and confirm boosts with ST Coins.
+  - **Detailed Elements**:
+    - **Top Navigation**: Back Button, Title "Boost Center", Tabs "Posts Boost" and "Profile Boost".
+    - **Post Selection Section**: Post Content, Hot Tag, Engagement Metrics.
+    - **Boost Target Selection**: Default, Custom.
+    - **Audience Size Selection**: Options for 500, 1000, 2000, 3000.
+    - **Pricing Section**: Price in ST Coins, Discounted Price, Agreement Checkbox.
+
+### 4.5 Profile Boost Page
+- **Description**: Increases user profile visibility in the "Find Partners" list.
+- **UI/UX Design**: 
+  - **Colors & Aesthetic**: White background, blue gradient banner, teal for active selections.
+  - **Elements**: Profile boost information, recent boost notification, boost target selection.
+  - **Functionality**: Users can select audience size and confirm boosts with ST Coins.
+  - **Detailed Elements**:
+    - **Profile Boost Information Banner**: Gradient Blue Background, Lightning Bolt Icon, Text Description.
+    - **Recent Boost Notification**: Notification showing recent boost success.
+    - **Boost Target Selection**: Default, Custom.
+    - **Audience Size Selection**: Options for 500, 1000, 2000, 3000.
+    - **Pricing Section**: Price in ST Coins, Discounted Price.
+
+### 4.6 Custom Boost Settings
+- **Description**: Allows users to personalize audience selection for profile boosts.
+- **UI/UX Design**: 
+  - **Colors & Aesthetic**: Semi-transparent dark overlay, white pop-up, teal for active selections.
+  - **Elements**: Language, skill, location, gender, age range, interests, and hobbies filters.
+  - **Functionality**: Users can adjust filters and confirm settings for targeted boosts.
+  - **Detailed Elements**:
+    - **Top Navigation**: Back Button, Title "Custom", Subtitle.
+    - **Custom Filters**: Language Selection, Skill Selection, Location Selection, Gender Selection, Age Range Selection, Interests & Hobbies.
+    - **Bottom Buttons**: "Reset" Button, "Confirm" Button.
+
+
+
+5. Implementation Patterns
+- Service/provider pattern, multi-provider strategy, usage tracking, fallback system
+
+6. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 

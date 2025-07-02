@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_office_productivity",
+  "name": "ผลผลิตสำนักงาน",
+  "skills": [
+    {
+      "id": "skill_1018",
+      "name": "ระบบเอกสารดิจิตอล",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Filing Systems",
+      "tags": [
+        "digital",
+        "filing",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_1019",
+      "name": "สูตรที่ยอดเยี่ยม",
+      "difficulty_level": 3,
+      "description": "Learn and master Excel Formulas",
+      "tags": [
+        "excel",
+        "formulas",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1020",
+      "name": "องค์กรไฟล์",
+      "difficulty_level": 1,
+      "description": "Learn and master File Organization",
+      "tags": [
+        "file",
+        "organization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1021",
+      "name": "การใช้งานของ Google Workspace",
+      "difficulty_level": 4,
+      "description": "Learn and master Google Workspace Usage",
+      "tags": [
+        "google",
+        "workspace",
+        "usage"
+      ]
+    },
+    {
+      "id": "skill_1022",
+      "name": "แป้นพิมพ์ลัด",
+      "difficulty_level": 2,
+      "description": "Learn and master Keyboard Shortcuts",
+      "tags": [
+        "keyboard",
+        "shortcuts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1023",
+      "name": "การสร้างวาระการประชุม",
+      "difficulty_level": 2,
+      "description": "Learn and master Meeting Agenda Creation",
+      "tags": [
+        "meeting",
+        "agenda",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_1024",
+      "name": "จดบันทึกได้อย่างมีประสิทธิภาพ",
+      "difficulty_level": 3,
+      "description": "Learn and master Note-Taking Effectively",
+      "tags": [
+        "note-taking",
+        "effectively",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1025",
+      "name": "การกำหนดเวลาด้วย Outlook",
+      "difficulty_level": 2,
+      "description": "Learn and master Scheduling with Outlook",
+      "tags": [
+        "scheduling",
+        "with",
+        "outlook"
+      ]
+    },
+    {
+      "id": "skill_1026",
+      "name": "เครื่องมือติดตามเวลา",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Tracking Tools",
+      "tags": [
+        "time",
+        "tracking",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_1027",
+      "name": "พื้นฐานการควบคุมเวอร์ชัน",
+      "difficulty_level": 5,
+      "description": "Learn and master Version Control Basics",
+      "tags": [
+        "version",
+        "control",
+        "basics"
+      ]
+    }
+  ]
+}

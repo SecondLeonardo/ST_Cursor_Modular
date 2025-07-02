@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "ነጋዴዎች እና የጉልበት ችሎታዎች",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "አውቶሞቲቭ ጥገና"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "አናጢ እና የእንጨት ሥራ"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "ግንባታ"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "ኮንስትራክሽን እና አናጢነት"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "የእጅ ጥበብ እና ጥገናዎች"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "ኤሌክትሪክ እና ሜካኒካል"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "የኤሌክትሪክ ሥራ"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC እና ማቀዝቀዣ"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "ከባድ የመሳሪያ ክወና"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Massysy & treat"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "ብረት እና የእንጨት ሥራ"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "ቀለም መቀባት እና ማጠናቀቅ"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "ቧንቧ"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "የተሽከርካሪ እና የማሽን ጥገና"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "መጫኛ እና ብረት ሥራ"
+    }
+  ]
+}

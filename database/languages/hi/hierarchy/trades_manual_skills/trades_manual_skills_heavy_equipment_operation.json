@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_heavy_equipment_operation",
+  "name": "भारी उपस्कर संचालन",
+  "skills": [
+    {
+      "id": "skill_5105",
+      "name": "बैकहो ड्राइविंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Backhoe Driving",
+      "tags": [
+        "backhoe",
+        "driving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5106",
+      "name": "क्रेन संचालन",
+      "difficulty_level": 1,
+      "description": "Learn and master Crane Operation",
+      "tags": [
+        "crane",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5107",
+      "name": "उत्खनन नियंत्रण",
+      "difficulty_level": 2,
+      "description": "Learn and master Excavator Control",
+      "tags": [
+        "excavator",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5108",
+      "name": "फोर्कलिफ्ट ऑपरेशन",
+      "difficulty_level": 5,
+      "description": "Learn and master Forklift Operation",
+      "tags": [
+        "forklift",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5109",
+      "name": "जीपीएस निर्देशित संचालन",
+      "difficulty_level": 2,
+      "description": "Learn and master GPS Guided Operation",
+      "tags": [
+        "guided",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5110",
+      "name": "भार का संतुलन",
+      "difficulty_level": 2,
+      "description": "Learn and master Load Balancing",
+      "tags": [
+        "load",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5111",
+      "name": "सुरक्षा निरीक्षण",
+      "difficulty_level": 1,
+      "description": "Learn and master Safety Inspections",
+      "tags": [
+        "safety",
+        "inspections",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5112",
+      "name": "स्थल नेविगेशन",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Navigation",
+      "tags": [
+        "site",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5113",
+      "name": "स्किड स्टीयर का उपयोग",
+      "difficulty_level": 3,
+      "description": "Learn and master Skid Steer Use",
+      "tags": [
+        "skid",
+        "steer",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5114",
+      "name": "ट्रेंचर उपयोग",
+      "difficulty_level": 3,
+      "description": "Learn and master Trencher Use",
+      "tags": [
+        "trencher",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

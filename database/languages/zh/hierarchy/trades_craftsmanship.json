@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "贸易与工艺",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "汽车维修"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "木工和木工"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "建筑与砌体"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "电气工作"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC和制冷"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "珠宝制作"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "金属制品和焊接"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "绘画和装饰"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "管道"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "裁缝和缝纫"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "技术与工程",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "民用与结构"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "电气工程"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "制造与制造"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "机械工业"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "软件和系统"
+    }
+  ]
+}

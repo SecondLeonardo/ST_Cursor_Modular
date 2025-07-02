@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_holistic_health",
+  "name": "전체적인 건강",
+  "skills": [
+    {
+      "id": "skill_2523",
+      "name": "지압 기술",
+      "difficulty_level": 3,
+      "description": "Learn and master Acupressure Techniques",
+      "tags": [
+        "acupressure",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2524",
+      "name": "아로마 테라피",
+      "difficulty_level": 4,
+      "description": "Learn and master Aromatherapy",
+      "tags": [
+        "aromatherapy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2525",
+      "name": "아유르베 다 기본",
+      "difficulty_level": 1,
+      "description": "Learn and master Ayurveda Basics",
+      "tags": [
+        "ayurveda",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2526",
+      "name": "해독 방법",
+      "difficulty_level": 5,
+      "description": "Learn and master Detox Methods",
+      "tags": [
+        "detox",
+        "methods",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2527",
+      "name": "에너지 치유",
+      "difficulty_level": 4,
+      "description": "Learn and master Energy Healing",
+      "tags": [
+        "energy",
+        "healing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2528",
+      "name": "에센셜 오일 블렌딩",
+      "difficulty_level": 1,
+      "description": "Learn and master Essential Oil Blending",
+      "tags": [
+        "essential",
+        "blending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2529",
+      "name": "약초 약 사용",
+      "difficulty_level": 3,
+      "description": "Learn and master Herbal Medicine Use",
+      "tags": [
+        "herbal",
+        "medicine",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2530",
+      "name": "마사지 요법",
+      "difficulty_level": 2,
+      "description": "Learn and master Massage Therapy",
+      "tags": [
+        "massage",
+        "therapy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2531",
+      "name": "자연 요법 연구",
+      "difficulty_level": 3,
+      "description": "Learn and master Natural Remedy Research",
+      "tags": [
+        "natural",
+        "remedy",
+        "research"
+      ]
+    },
+    {
+      "id": "skill_2532",
+      "name": "레이키",
+      "difficulty_level": 2,
+      "description": "Learn and master Reiki",
+      "tags": [
+        "reiki",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

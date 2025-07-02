@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_crafts_diy",
+  "name": "హస్తకళలు & DIY",
+  "skills": [
+    {
+      "id": "skill_720",
+      "name": "బీడింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Beading",
+      "tags": [
+        "beading",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_721",
+      "name": "కొవ్వొత్తి తయారీ",
+      "difficulty_level": 5,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_722",
+      "name": "ఎంబ్రాయిడరీ",
+      "difficulty_level": 3,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_723",
+      "name": "అల్లడం",
+      "difficulty_level": 2,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_724",
+      "name": "లెదర్ వర్కింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Leatherworking",
+      "tags": [
+        "leatherworking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_725",
+      "name": "మాక్రామ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Macramé",
+      "tags": [
+        "macramé",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_726",
+      "name": "ఓరిగామి",
+      "difficulty_level": 3,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_727",
+      "name": "స్క్రాప్‌బుకింగ్",
+      "difficulty_level": 4,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_728",
+      "name": "సబ్బు తయారీ",
+      "difficulty_level": 4,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_729",
+      "name": "కలప శిల్పం",
+      "difficulty_level": 5,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    }
+  ]
+}

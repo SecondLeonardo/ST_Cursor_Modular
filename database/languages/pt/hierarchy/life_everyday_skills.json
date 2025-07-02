@@ -1,0 +1,26 @@
+{
+  "id": "life_everyday_skills",
+  "name": "Vida e habilidades diárias",
+  "subcategories": [
+    {
+      "id": "life_everyday_skills_cooking_food",
+      "name": "Cozinheira e comida"
+    },
+    {
+      "id": "life_everyday_skills_home_maintenance",
+      "name": "Manutenção residencial"
+    },
+    {
+      "id": "life_everyday_skills_personal_finance",
+      "name": "Finanças pessoais"
+    },
+    {
+      "id": "life_everyday_skills_time_management",
+      "name": "Gerenciamento de tempo"
+    },
+    {
+      "id": "life_everyday_skills_travel_navigation",
+      "name": "Viagem e navegação"
+    }
+  ]
+}

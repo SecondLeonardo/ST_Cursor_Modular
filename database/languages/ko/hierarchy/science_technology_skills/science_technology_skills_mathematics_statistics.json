@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_mathematics_statistics",
+  "name": "수학 및 통계",
+  "skills": [
+    {
+      "id": "skill_4328",
+      "name": "계산법",
+      "difficulty_level": 5,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4329",
+      "name": "개별 수학",
+      "difficulty_level": 5,
+      "description": "Learn and master Discrete Math",
+      "tags": [
+        "discrete",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4330",
+      "name": "게임 이론",
+      "difficulty_level": 1,
+      "description": "Learn and master Game Theory",
+      "tags": [
+        "game",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4331",
+      "name": "그래프 이론",
+      "difficulty_level": 5,
+      "description": "Learn and master Graph Theory",
+      "tags": [
+        "graph",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4332",
+      "name": "선형 대수",
+      "difficulty_level": 1,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4333",
+      "name": "수학적 증거 쓰기",
+      "difficulty_level": 5,
+      "description": "Learn and master Mathematical Proof Writing",
+      "tags": [
+        "mathematical",
+        "proof",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_4334",
+      "name": "숫자 이론",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4335",
+      "name": "확률 이론",
+      "difficulty_level": 1,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4336",
+      "name": "회귀 분석",
+      "difficulty_level": 3,
+      "description": "Learn and master Regression Analysis",
+      "tags": [
+        "regression",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4337",
+      "name": "통계 모델링",
+      "difficulty_level": 5,
+      "description": "Learn and master Statistical Modeling",
+      "tags": [
+        "statistical",
+        "modeling",
+        "skill"
+      ]
+    }
+  ]
+}

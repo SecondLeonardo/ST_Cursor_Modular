@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "المهارات الرقمية والتكنولوجية",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "الأمن السيبراني"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "البيانات و AI"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "انها والشبكات"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "البرمجة والتطوير"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "الويب والجوال"
+    }
+  ]
+}

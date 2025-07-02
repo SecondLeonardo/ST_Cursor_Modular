@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_devops_automation",
+  "name": "DevOps & Automation",
+  "skills": [
+    {
+      "id": "skill_4406",
+      "name": "Zautomatyzowane testy",
+      "difficulty_level": 3,
+      "description": "Learn and master Automated Testing",
+      "tags": [
+        "automated",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4407",
+      "name": "Rurociągi CI/CD",
+      "difficulty_level": 5,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4408",
+      "name": "Automatyzacja wdrażania w chmurze",
+      "difficulty_level": 4,
+      "description": "Learn and master Cloud Deployment Automation",
+      "tags": [
+        "cloud",
+        "deployment",
+        "automation"
+      ]
+    },
+    {
+      "id": "skill_4409",
+      "name": "Podstawy dokera",
+      "difficulty_level": 3,
+      "description": "Learn and master Docker Basics",
+      "tags": [
+        "docker",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4410",
+      "name": "Gitlab CI",
+      "difficulty_level": 1,
+      "description": "Learn and master GitLab CI",
+      "tags": [
+        "gitlab",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4411",
+      "name": "Infrastruktura jako kod",
+      "difficulty_level": 3,
+      "description": "Learn and master Infrastructure as Code",
+      "tags": [
+        "infrastructure",
+        "code",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4412",
+      "name": "Automatyzacja Jenkinsa",
+      "difficulty_level": 1,
+      "description": "Learn and master Jenkins Automation",
+      "tags": [
+        "jenkins",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4413",
+      "name": "Monitorowanie i rejestrowanie",
+      "difficulty_level": 3,
+      "description": "Learn and master Monitoring & Logging",
+      "tags": [
+        "monitoring",
+        "logging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4414",
+      "name": "Zarządzanie wydaniem",
+      "difficulty_level": 4,
+      "description": "Learn and master Release Management",
+      "tags": [
+        "release",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4415",
+      "name": "Terraform",
+      "difficulty_level": 5,
+      "description": "Learn and master Terraform",
+      "tags": [
+        "terraform",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

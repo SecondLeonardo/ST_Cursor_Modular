@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_medical_health_sciences",
+  "name": "চিকিত্সা ও স্বাস্থ্য বিজ্ঞান",
+  "skills": [
+    {
+      "id": "skill_4108",
+      "name": "অ্যানাটমি",
+      "difficulty_level": 3,
+      "description": "Learn and master Anatomy",
+      "tags": [
+        "anatomy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4109",
+      "name": "ক্লিনিকাল গবেষণা",
+      "difficulty_level": 1,
+      "description": "Learn and master Clinical Research",
+      "tags": [
+        "clinical",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4110",
+      "name": "এপিডেমিওলজি",
+      "difficulty_level": 2,
+      "description": "Learn and master Epidemiology",
+      "tags": [
+        "epidemiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4111",
+      "name": "প্রাথমিক চিকিত্সা",
+      "difficulty_level": 1,
+      "description": "Learn and master First Aid",
+      "tags": [
+        "first",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4112",
+      "name": "হিস্টোলজি",
+      "difficulty_level": 3,
+      "description": "Learn and master Histology",
+      "tags": [
+        "histology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4113",
+      "name": "চিকিত্সা নীতিশাস্ত্র",
+      "difficulty_level": 4,
+      "description": "Learn and master Medical Ethics",
+      "tags": [
+        "medical",
+        "ethics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4114",
+      "name": "মেডিকেল ইমেজিং",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Imaging",
+      "tags": [
+        "medical",
+        "imaging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4115",
+      "name": "প্যাথলজি",
+      "difficulty_level": 3,
+      "description": "Learn and master Pathology",
+      "tags": [
+        "pathology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4116",
+      "name": "ফার্মাকোলজি",
+      "difficulty_level": 4,
+      "description": "Learn and master Pharmacology",
+      "tags": [
+        "pharmacology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4117",
+      "name": "জনস্বাস্থ্য",
+      "difficulty_level": 3,
+      "description": "Learn and master Public Health",
+      "tags": [
+        "public",
+        "health",
+        "skill"
+      ]
+    }
+  ]
+}

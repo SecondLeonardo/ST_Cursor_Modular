@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "இயந்திர மற்றும் தொழில்நுட்ப திறன்கள்",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "வாகன பராமரிப்பு"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "பொறியியல் அடிப்படைகள்"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "வீட்டு பழுது மற்றும் நிறுவல்"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "இயந்திர செயல்பாடு"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "கருவி பயன்பாடு மற்றும் பாதுகாப்பு"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "மரம் & உலோக வேலை"
+    }
+  ]
+}

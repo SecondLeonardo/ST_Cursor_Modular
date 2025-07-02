@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_programming_software_development",
+  "name": "प्रोग्रामिंग और सॉफ़्टवेयर विकास",
+  "skills": [
+    {
+      "id": "skill_4456",
+      "name": "विश्राम आराम एपिस",
+      "difficulty_level": 5,
+      "description": "Learn and master Building REST APIs",
+      "tags": [
+        "building",
+        "rest",
+        "apis"
+      ]
+    },
+    {
+      "id": "skill_4457",
+      "name": "डिबगिंग जावास्क्रिप्ट",
+      "difficulty_level": 3,
+      "description": "Learn and master Debugging JavaScript",
+      "tags": [
+        "debugging",
+        "javascript",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4458",
+      "name": "पूर्ण-स्टैक वेब विकास",
+      "difficulty_level": 4,
+      "description": "Learn and master Full-Stack Web Development",
+      "tags": [
+        "full-stack",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4459",
+      "name": "मोबाइल ऐप विकास",
+      "difficulty_level": 4,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4460",
+      "name": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4461",
+      "name": "प्रतिक्रिया विकास",
+      "difficulty_level": 3,
+      "description": "Learn and master React Development",
+      "tags": [
+        "react",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4462",
+      "name": "Git के साथ संस्करण नियंत्रण",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    },
+    {
+      "id": "skill_4463",
+      "name": "डेटाबेस के साथ काम करना",
+      "difficulty_level": 4,
+      "description": "Learn and master Working with Databases",
+      "tags": [
+        "working",
+        "with",
+        "databases"
+      ]
+    },
+    {
+      "id": "skill_4464",
+      "name": "पायथन कोड लिखना",
+      "difficulty_level": 4,
+      "description": "Learn and master Writing Python Code",
+      "tags": [
+        "writing",
+        "python",
+        "code"
+      ]
+    },
+    {
+      "id": "skill_4465",
+      "name": "लेखन एकक परीक्षण",
+      "difficulty_level": 1,
+      "description": "Learn and master Writing Unit Tests",
+      "tags": [
+        "writing",
+        "unit",
+        "tests"
+      ]
+    }
+  ]
+}

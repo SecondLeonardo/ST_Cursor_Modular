@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_automotive_maintenance",
+  "name": "मोटर वाहन रखरखाव",
+  "skills": [
+    {
+      "id": "skill_3508",
+      "name": "बैटरी प्रतिस्थापन",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3509",
+      "name": "ब्रेक निरीक्षण",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Inspection",
+      "tags": [
+        "brake",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3510",
+      "name": "कार -विवरण",
+      "difficulty_level": 4,
+      "description": "Learn and master Car Detailing",
+      "tags": [
+        "detailing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3511",
+      "name": "कार जैक का उपयोग",
+      "difficulty_level": 2,
+      "description": "Learn and master Car Jack Use",
+      "tags": [
+        "jack",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3512",
+      "name": "हेडलाइट्स बदलना",
+      "difficulty_level": 2,
+      "description": "Learn and master Changing Headlights",
+      "tags": [
+        "changing",
+        "headlights",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3513",
+      "name": "तरल पदार्थ",
+      "difficulty_level": 1,
+      "description": "Learn and master Fluid Top-off",
+      "tags": [
+        "fluid",
+        "top-off",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3514",
+      "name": "तेल परिवर्तन",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3515",
+      "name": "त्रुटि कोड पढ़ना",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Error Codes",
+      "tags": [
+        "reading",
+        "error",
+        "codes"
+      ]
+    },
+    {
+      "id": "skill_3516",
+      "name": "एयर फिल्टर की जगह",
+      "difficulty_level": 1,
+      "description": "Learn and master Replacing Air Filters",
+      "tags": [
+        "replacing",
+        "filters",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3517",
+      "name": "टायर रोटेशन",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    }
+  ]
+}

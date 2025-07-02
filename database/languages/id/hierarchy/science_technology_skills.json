@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "Keterampilan Sains & Teknologi",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "Astronomi"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "Bioteknologi"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "Kimia"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "Ilmu Komputer"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "Ilmu Data & AI"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "Ilmu Bumi & Lingkungan"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "Elektronik"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "Rekayasa"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "Matematika & Statistik"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "Fisika"
+    }
+  ]
+}

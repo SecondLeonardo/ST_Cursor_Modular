@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "Sanat, Tasarım ve Yaratıcılık",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "El Sanatları ve DIY"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "Yaratıcı yazı"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "Tasarım ve Dijital Sanat"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "Sahne Sanatları"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "Görsel sanatlar"
+    }
+  ]
+}

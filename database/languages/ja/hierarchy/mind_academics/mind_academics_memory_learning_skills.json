@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_memory_learning_skills",
+  "name": "記憶と学習スキル",
+  "skills": [
+    {
+      "id": "skill_3618",
+      "name": "聴覚学習",
+      "difficulty_level": 4,
+      "description": "Learn and master Auditory Learning",
+      "tags": [
+        "auditory",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3619",
+      "name": "チャンキング情報",
+      "difficulty_level": 5,
+      "description": "Learn and master Chunking Information",
+      "tags": [
+        "chunking",
+        "information",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3620",
+      "name": "概念リンク",
+      "difficulty_level": 2,
+      "description": "Learn and master Concept Linking",
+      "tags": [
+        "concept",
+        "linking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3621",
+      "name": "運動感覚学習",
+      "difficulty_level": 2,
+      "description": "Learn and master Kinesthetic Learning",
+      "tags": [
+        "kinesthetic",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3622",
+      "name": "間違いから学ぶ",
+      "difficulty_level": 4,
+      "description": "Learn and master Learning from Mistakes",
+      "tags": [
+        "learning",
+        "from",
+        "mistakes"
+      ]
+    },
+    {
+      "id": "skill_3623",
+      "name": "長期保持",
+      "difficulty_level": 3,
+      "description": "Learn and master Long-term Retention",
+      "tags": [
+        "long-term",
+        "retention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3624",
+      "name": "メモリパレステクニック",
+      "difficulty_level": 5,
+      "description": "Learn and master Memory Palace Technique",
+      "tags": [
+        "memory",
+        "palace",
+        "technique"
+      ]
+    },
+    {
+      "id": "skill_3625",
+      "name": "ニーモニックテクニック",
+      "difficulty_level": 4,
+      "description": "Learn and master Mnemonic Techniques",
+      "tags": [
+        "mnemonic",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3626",
+      "name": "スピードリーディング",
+      "difficulty_level": 1,
+      "description": "Learn and master Speed Reading",
+      "tags": [
+        "speed",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3627",
+      "name": "視覚学習",
+      "difficulty_level": 5,
+      "description": "Learn and master Visual Learning",
+      "tags": [
+        "visual",
+        "learning",
+        "skill"
+      ]
+    }
+  ]
+}

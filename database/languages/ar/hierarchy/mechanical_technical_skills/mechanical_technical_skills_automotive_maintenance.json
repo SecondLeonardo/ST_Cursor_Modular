@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_automotive_maintenance",
+  "name": "صيانة السيارات",
+  "skills": [
+    {
+      "id": "skill_3508",
+      "name": "استبدال البطارية",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3509",
+      "name": "فحص الفرامل",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Inspection",
+      "tags": [
+        "brake",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3510",
+      "name": "تفاصيل السيارة",
+      "difficulty_level": 4,
+      "description": "Learn and master Car Detailing",
+      "tags": [
+        "detailing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3511",
+      "name": "استخدام جاك السيارة",
+      "difficulty_level": 2,
+      "description": "Learn and master Car Jack Use",
+      "tags": [
+        "jack",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3512",
+      "name": "تغيير المصابيح الأمامية",
+      "difficulty_level": 2,
+      "description": "Learn and master Changing Headlights",
+      "tags": [
+        "changing",
+        "headlights",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3513",
+      "name": "السوائل من أعلى",
+      "difficulty_level": 1,
+      "description": "Learn and master Fluid Top-off",
+      "tags": [
+        "fluid",
+        "top-off",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3514",
+      "name": "تغيير الزيت",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3515",
+      "name": "قراءة رموز الخطأ",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Error Codes",
+      "tags": [
+        "reading",
+        "error",
+        "codes"
+      ]
+    },
+    {
+      "id": "skill_3516",
+      "name": "استبدال مرشحات الهواء",
+      "difficulty_level": 1,
+      "description": "Learn and master Replacing Air Filters",
+      "tags": [
+        "replacing",
+        "filters",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3517",
+      "name": "دوران الإطارات",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    }
+  ]
+}

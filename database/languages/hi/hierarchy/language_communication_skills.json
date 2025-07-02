@@ -1,0 +1,30 @@
+{
+  "id": "language_communication_skills",
+  "name": "भाषा और संचार कौशल",
+  "subcategories": [
+    {
+      "id": "language_communication_skills_language_learning",
+      "name": "भाषा सीखने"
+    },
+    {
+      "id": "language_communication_skills_non-verbal_communication",
+      "name": "अनकहा संचार"
+    },
+    {
+      "id": "language_communication_skills_public_speaking",
+      "name": "सार्वजनिक रूप से बोलना"
+    },
+    {
+      "id": "language_communication_skills_storytelling_narration",
+      "name": "कहानी और कथन"
+    },
+    {
+      "id": "language_communication_skills_verbal_communication",
+      "name": "मौखिक संचार"
+    },
+    {
+      "id": "language_communication_skills_writing_editing",
+      "name": "लेखन और संपादन"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "physical_outdoor_skills_manual_labor_trades",
+  "name": "የጉልበት ሥራ እና ነጋዴዎች",
+  "skills": [
+    {
+      "id": "skill_3938",
+      "name": "መሰረታዊ ጩኸት",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Welding",
+      "tags": [
+        "basic",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3939",
+      "name": "ጡብ",
+      "difficulty_level": 2,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3940",
+      "name": "የመቆፈር ቴክኒኮች",
+      "difficulty_level": 1,
+      "description": "Learn and master Digging Techniques",
+      "tags": [
+        "digging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3941",
+      "name": "ከባድ ሸክሞችን በደህና ማንሳት",
+      "difficulty_level": 3,
+      "description": "Learn and master Lifting Heavy Loads Safely",
+      "tags": [
+        "lifting",
+        "heavy",
+        "loads",
+        "safely"
+      ]
+    },
+    {
+      "id": "skill_3942",
+      "name": "ኮንክሪት ማደባለቅ",
+      "difficulty_level": 5,
+      "description": "Learn and master Mixing Concrete",
+      "tags": [
+        "mixing",
+        "concrete",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3943",
+      "name": "የሥራ ኃይል መሳሪያዎች",
+      "difficulty_level": 5,
+      "description": "Learn and master Operating Power Tools",
+      "tags": [
+        "operating",
+        "power",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_3944",
+      "name": "ግድግዳዎች",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3945",
+      "name": "ጣሪያ ጣሪያ",
+      "difficulty_level": 5,
+      "description": "Learn and master Roof Tiling",
+      "tags": [
+        "roof",
+        "tiling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3946",
+      "name": "የእጅ መሳሪያዎችን በመጠቀም",
+      "difficulty_level": 1,
+      "description": "Learn and master Using Hand Tools",
+      "tags": [
+        "using",
+        "hand",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_3947",
+      "name": "እንጨት መከፋፈል",
+      "difficulty_level": 3,
+      "description": "Learn and master Wood Splitting",
+      "tags": [
+        "wood",
+        "splitting",
+        "skill"
+      ]
+    }
+  ]
+}

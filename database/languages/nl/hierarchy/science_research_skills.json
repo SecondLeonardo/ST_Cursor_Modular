@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Wetenschaps- en onderzoeksvaardigheden",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Academisch schrijven"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Biologische wetenschappen"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Computer en data science"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Earth & Environmental Sciences"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Engineeringwetenschappen"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Wiskunde en statistieken"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Medical & Health Sciences"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Fysieke wetenschappen"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Onderzoeksmethoden"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Sociale wetenschappen"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_arts_crafts",
+  "name": "الفنون والحرف",
+  "skills": [
+    {
+      "id": "skill_5345",
+      "name": "تلوين",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5346",
+      "name": "رسم",
+      "difficulty_level": 1,
+      "description": "Learn and master Drawing",
+      "tags": [
+        "drawing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5347",
+      "name": "النحت",
+      "difficulty_level": 2,
+      "description": "Learn and master Sculpting",
+      "tags": [
+        "sculpting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5348",
+      "name": "الحياكة",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5349",
+      "name": "الكروشيه",
+      "difficulty_level": 4,
+      "description": "Learn and master Crocheting",
+      "tags": [
+        "crocheting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5350",
+      "name": "سكرابوكينغ",
+      "difficulty_level": 1,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5351",
+      "name": "اوريغامي",
+      "difficulty_level": 5,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5352",
+      "name": "الفخار",
+      "difficulty_level": 3,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5353",
+      "name": "الخط",
+      "difficulty_level": 5,
+      "description": "Learn and master Calligraphy",
+      "tags": [
+        "calligraphy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5354",
+      "name": "صنع المجوهرات",
+      "difficulty_level": 5,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "学术和研究技能",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "学术介绍"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "数据分析"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "语言和写作"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "数学与统计"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "科学研究"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "学习和测试准备"
+    }
+  ]
+}

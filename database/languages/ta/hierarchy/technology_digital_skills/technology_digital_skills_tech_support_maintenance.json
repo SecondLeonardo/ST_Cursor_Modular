@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_tech_support_maintenance",
+  "name": "தொழில்நுட்ப ஆதரவு மற்றும் பராமரிப்பு",
+  "skills": [
+    {
+      "id": "skill_4835",
+      "name": "பராமரிப்புக்கான அடிப்படை ஸ்கிரிப்டிங்",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Scripting for Maintenance",
+      "tags": [
+        "basic",
+        "scripting",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_4836",
+      "name": "வாடிக்கையாளர் தொழில்நுட்ப ஆதரவு",
+      "difficulty_level": 2,
+      "description": "Learn and master Customer Tech Support",
+      "tags": [
+        "customer",
+        "tech",
+        "support"
+      ]
+    },
+    {
+      "id": "skill_4837",
+      "name": "இயக்கிகளை நிறுவுதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Drivers",
+      "tags": [
+        "installing",
+        "drivers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4838",
+      "name": "கண்காணிப்பு அமைப்பு ஆரோக்கியத்தை கண்காணித்தல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Monitoring System Health",
+      "tags": [
+        "monitoring",
+        "system",
+        "health"
+      ]
+    },
+    {
+      "id": "skill_4839",
+      "name": "தொலைநிலை சரிசெய்தல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Remote Troubleshooting",
+      "tags": [
+        "remote",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4840",
+      "name": "மென்பொருள் புதுப்பிப்புகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Software Updates",
+      "tags": [
+        "software",
+        "updates",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4841",
+      "name": "கணினி தூய்மைப்படுத்துதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master System Cleanup",
+      "tags": [
+        "system",
+        "cleanup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4842",
+      "name": "தொழில்நுட்ப சாதன அமைப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Tech Device Setup",
+      "tags": [
+        "tech",
+        "device",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4843",
+      "name": "தொழில்நுட்ப ஆதரவு தொடர்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Tech Support Communication",
+      "tags": [
+        "tech",
+        "support",
+        "communication"
+      ]
+    },
+    {
+      "id": "skill_4844",
+      "name": "வன்பொருள் சரிசெய்தல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Troubleshooting Hardware",
+      "tags": [
+        "troubleshooting",
+        "hardware",
+        "skill"
+      ]
+    }
+  ]
+}
