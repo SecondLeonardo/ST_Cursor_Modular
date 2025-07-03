@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct SkillTalkApp: App {
@@ -35,6 +36,9 @@ struct SkillTalkApp: App {
     // MARK: - App Setup
     
     private func setupApp() {
+        // Configure Firebase
+        FirebaseApp.configure()
+        
         // Configure app-wide settings
         configureAppearance()
         
