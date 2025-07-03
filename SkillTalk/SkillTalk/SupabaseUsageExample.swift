@@ -8,6 +8,7 @@
 
 import Foundation
 import SwiftUI
+import Supabase
 
 /// Example usage of Supabase in the SkillTalk app
 class SupabaseUsageExample: ObservableObject {
@@ -53,82 +54,76 @@ class SupabaseUsageExample: ObservableObject {
     /// Example of using Supabase for user authentication
     func signUpUser(email: String, password: String) async {
         logger.debug("👤 Signing up user: \(email)")
-        
         do {
             let supabaseConfig = SupabaseServiceConfiguration.shared
             guard let client = supabaseConfig.getClient() else {
-                throw ServiceError.serviceNotInitialized(service: "Supabase Client")
+                errorMessage = "Supabase Client not initialized"
+                logger.error("❌ User sign up failed: Supabase Client not initialized")
+                return
             }
-            
             let response = try await client.auth.signUp(
                 email: email,
                 password: password
             )
-            
-            logger.debug("✅ User signed up successfully: \(response.user?.email ?? "Unknown")")
-            
+            logger.debug("✅ User signed up successfully: \(response.user.email ?? "Unknown")")
         } catch {
             logger.error("❌ User sign up failed: \(error.localizedDescription)")
-            throw error
+            errorMessage = error.localizedDescription
         }
     }
     
     /// Example of using Supabase for user sign in
     func signInUser(email: String, password: String) async {
         logger.debug("👤 Signing in user: \(email)")
-        
         do {
             let supabaseConfig = SupabaseServiceConfiguration.shared
             guard let client = supabaseConfig.getClient() else {
-                throw ServiceError.serviceNotInitialized(service: "Supabase Client")
+                errorMessage = "Supabase Client not initialized"
+                logger.error("❌ User sign in failed: Supabase Client not initialized")
+                return
             }
-            
             let response = try await client.auth.signIn(
                 email: email,
                 password: password
             )
-            
-            logger.debug("✅ User signed in successfully: \(response.user?.email ?? "Unknown")")
-            
+            logger.debug("✅ User signed in successfully: \(response.user.email ?? "Unknown")")
         } catch {
             logger.error("❌ User sign in failed: \(error.localizedDescription)")
-            throw error
+            errorMessage = error.localizedDescription
         }
     }
     
     /// Example of using Supabase for database operations
-    func createUserProfile(userId: String, profile: [String: Any]) async {
+    func createUserProfile<T: Encodable>(userId: String, profile: T) async {
         logger.debug("📝 Creating user profile for: \(userId)")
-        
         do {
             let supabaseConfig = SupabaseServiceConfiguration.shared
             guard let client = supabaseConfig.getClient() else {
-                throw ServiceError.serviceNotInitialized(service: "Supabase Client")
+                errorMessage = "Supabase Client not initialized"
+                logger.error("❌ User profile creation failed: Supabase Client not initialized")
+                return
             }
-            
             let response = try await client.database
                 .from("user_profiles")
                 .insert(profile)
                 .execute()
-            
             logger.debug("✅ User profile created successfully")
-            
         } catch {
             logger.error("❌ User profile creation failed: \(error.localizedDescription)")
-            throw error
+            errorMessage = error.localizedDescription
         }
     }
     
     /// Example of using Supabase for file storage
     func uploadUserAvatar(userId: String, imageData: Data) async {
         logger.debug("📁 Uploading avatar for user: \(userId)")
-        
         do {
             let supabaseConfig = SupabaseServiceConfiguration.shared
             guard let client = supabaseConfig.getClient() else {
-                throw ServiceError.serviceNotInitialized(service: "Supabase Client")
+                errorMessage = "Supabase Client not initialized"
+                logger.error("❌ Avatar upload failed: Supabase Client not initialized")
+                return
             }
-            
             let fileName = "\(userId)_avatar.jpg"
             let response = try await client.storage
                 .from("avatars")
@@ -137,12 +132,10 @@ class SupabaseUsageExample: ObservableObject {
                     file: imageData,
                     options: FileOptions(contentType: "image/jpeg")
                 )
-            
             logger.debug("✅ Avatar uploaded successfully: \(fileName)")
-            
         } catch {
             logger.error("❌ Avatar upload failed: \(error.localizedDescription)")
-            throw error
+            errorMessage = error.localizedDescription
         }
     }
 }

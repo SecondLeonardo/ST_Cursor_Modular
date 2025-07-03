@@ -26,8 +26,6 @@ class SupabaseServiceConfiguration: ObservableObject, ServiceConfiguration {
     private var logger = Logger(category: "SupabaseServiceConfiguration")
     private var client: SupabaseClient?
     private var auth: AuthClient?
-    private var database: DatabaseClient?
-    private var storage: StorageClient?
     
     // MARK: - Configuration Properties
     private var supabaseURL: String?
@@ -59,8 +57,6 @@ class SupabaseServiceConfiguration: ObservableObject, ServiceConfiguration {
             
             client = SupabaseClient(supabaseURL: URL(string: url)!, supabaseKey: key)
             auth = client?.auth
-            database = client?.database
-            storage = client?.storage
             
             isConfigured = true
             configurationError = nil
@@ -79,8 +75,6 @@ class SupabaseServiceConfiguration: ObservableObject, ServiceConfiguration {
         // Reset services
         client = nil
         auth = nil
-        database = nil
-        storage = nil
         
         // Reset configuration
         supabaseURL = nil
@@ -111,7 +105,7 @@ class SupabaseServiceConfiguration: ObservableObject, ServiceConfiguration {
     func configureDatabase(config: [String: Any]) throws {
         logger.debug("🔧 SupabaseServiceConfiguration: Configuring Database")
         
-        guard let database = database else {
+        guard let database = client else {
             throw ServiceError.serviceNotInitialized(service: "Supabase Database")
         }
         
@@ -127,7 +121,7 @@ class SupabaseServiceConfiguration: ObservableObject, ServiceConfiguration {
     func configureStorage(config: [String: Any]) throws {
         logger.debug("🔧 SupabaseServiceConfiguration: Configuring Storage")
         
-        guard let storage = storage else {
+        guard let storage = client else {
             throw ServiceError.serviceNotInitialized(service: "Supabase Storage")
         }
         
@@ -248,8 +242,6 @@ extension SupabaseServiceConfiguration {
         configurationError = nil
         client = nil
         auth = nil
-        database = nil
-        storage = nil
         
         supabaseURL = nil
         supabaseKey = nil

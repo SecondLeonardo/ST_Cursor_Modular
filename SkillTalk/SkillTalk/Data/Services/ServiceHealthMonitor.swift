@@ -156,7 +156,7 @@ class ServiceHealthMonitor: ObservableObject {
         guard let health = serviceHealthMap[provider] else { return }
         
         // Check if service is unhealthy
-        if health.status == .unhealthy {
+        if health.status == .failed {
             logger.debug("🚨 Service \(provider.rawValue) is unhealthy - triggering failover check")
             notifyFailoverNeeded(provider: provider, reason: "Service unhealthy")
         }
@@ -212,7 +212,7 @@ class ServiceHealthMonitor: ObservableObject {
     
     /// Simulates health checks for development purposes
     private func simulateHealthChecks() async {
-        let providers: [ServiceProvider] = [.firebase, .supabase, .agora, .dailyCo, .pusher, .ably]
+        let providers: [ServiceProvider] = [.firebase, .supabase, .agora, .dailyco, .pusher, .ably]
         
         for provider in providers {
             let responseTime = Double.random(in: 0.1...2.0)

@@ -118,13 +118,13 @@ class ServiceManager: ObservableObject {
         NotificationCenter.default
             .publisher(for: .connectivityStatusChanged)
             .sink { [weak self] _ in
-                self?.handleConnectivityChange()
+                Task { await self?.handleConnectivityChange() }
             }
             .store(in: &cancellables)
     }
     
     private func handleConnectivityChange() async {
-        healthMonitor.checkAll()
+        await healthMonitor.checkAll()
     }
     
     // MARK: - Configuration
@@ -561,8 +561,9 @@ class ServiceManager: ObservableObject {
     }
     
     // MARK: - Health Monitoring
-    func getServiceHealth(for serviceType: ServiceType) -> ServiceHealth {
-        return healthMonitor.getHealth(for: serviceType)
+    func getServiceHealth(for serviceType: ServiceType) -> ServiceHealth? {
+        let provider = getCurrentProvider(for: serviceType)
+        return getProviderHealth(provider)
     }
     
     func getProviderHealth(_ provider: ServiceProvider) -> ServiceHealth? {
@@ -588,7 +589,7 @@ class ServiceManager: ObservableObject {
             .publisher(for: .connectivityStatusChanged)
             .sink { [weak self] notification in
                 if let isConnected = notification.object as? Bool {
-                    self?.handleConnectivityChange(isConnected: isConnected)
+                    Task { await self?.handleConnectivityChange(isConnected: isConnected) }
                 }
             }
             .store(in: &cancellables)
@@ -597,7 +598,7 @@ class ServiceManager: ObservableObject {
     private func handleConnectivityChange(isConnected: Bool) async {
         logger.debug("🌐 Network connectivity changed: \(isConnected ? "Connected" : "Disconnected")")
         if isConnected {
-            healthMonitor.checkAll()
+            await healthMonitor.checkAll()
         }
     }
     
@@ -729,9 +730,8 @@ class ServiceManager: ObservableObject {
     /// Tests Supabase configuration and connection
     func testSupabaseConfiguration() async {
         logger.debug("🧪 Testing Supabase configuration...")
-        
         do {
-            try await supabaseConfig.configure()
+            try supabaseConfig.configure()
             try await supabaseConfig.testConnection()
             logger.debug("✅ Supabase configuration test successful")
         } catch {
@@ -743,21 +743,18 @@ class ServiceManager: ObservableObject {
     /// Runs comprehensive service tests
     func runServiceTests() async {
         logger.debug("🧪 Running comprehensive service tests...")
-        
         // Test Supabase
         await testSupabaseConfiguration()
-        
         // Test Firebase (if configured)
-        if let firebaseConfig = ProcessInfo.processInfo.environment["FIREBASE_CONFIG"] {
+        if ProcessInfo.processInfo.environment["FIREBASE_CONFIG"] != nil {
             logger.debug("🧪 Testing Firebase configuration...")
             do {
-                try firebaseConfig.configure()
+                try self.firebaseConfig.configure()
                 logger.debug("✅ Firebase configuration test successful")
             } catch {
                 logger.error("❌ Firebase configuration test failed: \(error.localizedDescription)")
             }
         }
-        
         logger.debug("🏁 Service tests completed")
     }
 }
