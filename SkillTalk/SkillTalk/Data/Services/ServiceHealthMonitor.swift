@@ -8,7 +8,6 @@
 
 import Foundation
 import Combine
-import os.log
 
 // MARK: - Service Health Monitor
 
@@ -19,7 +18,8 @@ class ServiceHealthMonitor: ObservableObject {
     // MARK: - Singleton
     
     static let shared = ServiceHealthMonitor()
-    private let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "SkillTalk", category: "ServiceHealthMonitor")
+    
+    private let logger = Logger(category: "SkillTalk.ServiceHealthMonitor")
     
     // MARK: - Published Properties
     
@@ -30,7 +30,7 @@ class ServiceHealthMonitor: ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
     private var healthCheckTimer: Timer?
-    private let healthCheckInterval: TimeInterval = 30 // 30 seconds
+    private let healthCheckInterval: TimeInterval = 60 // 1 minute
     private let errorThreshold: Double = 0.1 // 10% error rate threshold
     private let responseTimeThreshold: TimeInterval = 5.0 // 5 seconds response time threshold
     
@@ -42,6 +42,7 @@ class ServiceHealthMonitor: ObservableObject {
     
     private init() {
         setupHealthMonitoring()
+        startMonitoring()
         logger.debug("🏥 Service Health Monitor initialized")
     }
     
@@ -65,6 +66,7 @@ class ServiceHealthMonitor: ObservableObject {
                 await self?.performHealthCheck()
             }
         }
+        healthCheckTimer?.tolerance = 5 // 5 second tolerance
     }
     
     /// Stops health monitoring
@@ -298,9 +300,11 @@ struct ServiceHealthNotification {
 // MARK: - Notification Names
 
 extension Notification.Name {
-    static let serviceHealthChanged = Notification.Name("ServiceHealthChanged")
-    static let serviceFailoverNeeded = Notification.Name("ServiceFailoverNeeded")
-    static let serviceRecovered = Notification.Name("ServiceRecovered")
+    static let serviceHealthChanged = Notification.Name("serviceHealthChanged")
+    static let serviceFailoverNeeded = Notification.Name("serviceFailoverNeeded")
+    static let serviceRecovered = Notification.Name("serviceRecovered")
+    static let providerHealthChanged = Notification.Name("providerHealthChanged")
+    static let connectivityStatusChanged = Notification.Name("connectivityStatusChanged")
 }
 
 // MARK: - Health Metrics

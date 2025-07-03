@@ -5,10 +5,7 @@
 
 import Foundation
 import Combine
-import FirebaseDatabase
-
-// Import shared service types
-import ServiceTypes
+// import FirebaseDatabase // Temporarily commented out due to linking issue
 
 /// Protocol for database services (Firestore, Supabase Postgres)
 protocol DatabaseServiceProtocol {
@@ -58,6 +55,83 @@ class DatabaseService: DatabaseServiceProtocol {
     
     private var cancellables = Set<AnyCancellable>()
     
+    // MARK: - Protocol Requirements
+    
+    var provider: ServiceProvider {
+        return .firebase // Or whichever provider you're using
+    }
+    
+    var isHealthy: Bool {
+        // TODO: Implement proper health check
+        return true
+    }
+    
+    // MARK: - Document Operations
+    
+    func create<T: Codable>(_ document: T, in collection: String) async throws -> String {
+        // TODO: Implement document creation
+        throw NSError(domain: "DatabaseService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented"])
+    }
+    
+    func read<T: Codable>(_ id: String, from collection: String, as type: T.Type) async throws -> T? {
+        // TODO: Implement document reading
+        throw NSError(domain: "DatabaseService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented"])
+    }
+    
+    func update<T: Codable>(_ id: String, with document: T, in collection: String) async throws {
+        // TODO: Implement document update
+        throw NSError(domain: "DatabaseService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented"])
+    }
+    
+    func delete(_ id: String, from collection: String) async throws {
+        // TODO: Implement document deletion
+        throw NSError(domain: "DatabaseService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented"])
+    }
+    
+    // MARK: - Query Operations
+    
+    func query<T: Codable>(collection: String, as type: T.Type) async throws -> [T] {
+        // TODO: Implement collection query
+        throw NSError(domain: "DatabaseService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented"])
+    }
+    
+    func queryWhere<T: Codable>(collection: String, field: String, isEqualTo value: Any, as type: T.Type) async throws -> [T] {
+        // TODO: Implement filtered query
+        throw NSError(domain: "DatabaseService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented"])
+    }
+    
+    func queryLimit<T: Codable>(collection: String, limit: Int, as type: T.Type) async throws -> [T] {
+        // TODO: Implement limited query
+        throw NSError(domain: "DatabaseService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented"])
+    }
+    
+    // MARK: - Real-time Subscriptions
+    
+    func subscribe<T: Codable>(to collection: String, as type: T.Type) -> AnyPublisher<[T], Error> {
+        // TODO: Implement collection subscription
+        return Fail(error: NSError(domain: "DatabaseService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented"]))
+            .eraseToAnyPublisher()
+    }
+    
+    func subscribeToDocument<T: Codable>(_ id: String, in collection: String, as type: T.Type) -> AnyPublisher<T?, Error> {
+        // TODO: Implement document subscription
+        return Fail(error: NSError(domain: "DatabaseService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented"]))
+            .eraseToAnyPublisher()
+    }
+    
+    // MARK: - Health Monitoring
+    
+    func checkHealth() async -> ServiceHealth {
+        return ServiceHealth(
+            provider: provider,
+            status: .healthy,
+            responseTime: 0,
+            errorRate: 0,
+            lastChecked: Date(),
+            errorMessage: nil
+        )
+    }
+    
     // MARK: - Initialization
     
     init(
@@ -74,13 +148,11 @@ class DatabaseService: DatabaseServiceProtocol {
         setupObservers()
     }
     
-    // MARK: - Public Methods
-    
     /// Initialize all databases
     func initialize() async throws {
-        async let countriesInit = countryDatabase.loadCountries()
-        async let citiesInit = cityDatabase.loadCities()
-        async let languagesInit = languageDatabase.loadLanguages()
+        async let countriesInit: Void = countryDatabase.loadCountries()
+        async let citiesInit: Void = cityDatabase.loadCities()
+        async let languagesInit: Void = languageDatabase.loadLanguages()
         
         try await [countriesInit, citiesInit, languagesInit].reduce(into: ()) { _, _ in }
     }

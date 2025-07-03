@@ -207,7 +207,7 @@ class BaseViewController: UIViewController {
             object: nil,
             queue: .main
         ) { [weak self] _ in
-            self?.logger.debug("⚠️ Memory warning received in \(type(of: self ?? UIViewController.self))")
+            self?.logger.debug("⚠️ Memory warning received in \(String(describing: type(of: self ?? UIViewController())))")
         }
         #endif
     }

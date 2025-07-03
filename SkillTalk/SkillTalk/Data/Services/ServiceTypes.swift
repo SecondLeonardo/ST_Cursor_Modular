@@ -1,34 +1,40 @@
 import Foundation
 
 /// Service type enumeration
-public enum ServiceType: String, CaseIterable {
+enum ServiceType: String, CaseIterable {
     case authentication = "Authentication"
     case database = "Database"
     case storage = "Storage"
-    case realtimeMessaging = "Realtime Messaging"
-    case voiceVideo = "Voice/Video"
+    case realtime = "Realtime"
+    case realtimeMessaging = "RealtimeMessaging"
+    case pushNotifications = "PushNotifications"
+    case voiceVideo = "VoiceVideo"
     case translation = "Translation"
-    case pushNotifications = "Push Notifications"
+    case videoConferencing = "VideoConferencing"
+    case voiceRoom = "VoiceRoom"
+    case analytics = "Analytics"
+    case monitoring = "Monitoring"
 }
 
-public enum ServiceProvider: String, CaseIterable {
+enum ServiceProvider: String, CaseIterable {
     case firebase = "Firebase"
     case supabase = "Supabase"
     case agora = "Agora"
-    case dailyCo = "Daily.co"
+    case dailyco = "Daily.co"
     case pusher = "Pusher"
     case ably = "Ably"
     case cloudflareR2 = "Cloudflare R2"
     case libreTranslate = "LibreTranslate"
     case deepL = "DeepL"
     case fcm = "FCM"
-    case oneSignal = "OneSignal"
     case revenueCat = "RevenueCat"
     case googlePlayBilling = "Google Play Billing"
     case hundredMs = "100ms.live"
+    case googleTranslate = "Google Translate"
+    case onesignal = "OneSignal" // Alias for oneSignal
 }
 
-public enum ServiceHealthStatus: String {
+enum ServiceHealthStatus: String {
     case healthy = "Healthy"
     case degraded = "Degraded"
     case failed = "Failed"

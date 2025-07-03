@@ -10,9 +10,6 @@ import Foundation
 import Combine
 import os.log
 
-// Import shared service types
-import ServiceTypes
-
 // MARK: - Service Failover Manager
 
 /// Manages automatic failover between primary and backup service providers
@@ -35,14 +32,14 @@ class ServiceFailoverManager: ObservableObject {
     private let healthMonitor = ServiceHealthMonitor.shared
     
     // Provider mapping as per R0.9 rule
-    private let providerMapping: [ServiceType: ProviderPair] = [
+    private let providerPairs: [ServiceType: ProviderPair] = [
         .authentication: ProviderPair(primary: .firebase, backup: .supabase),
         .database: ProviderPair(primary: .firebase, backup: .supabase),
         .storage: ProviderPair(primary: .firebase, backup: .cloudflareR2),
-        .realtimeMessaging: ProviderPair(primary: .firebase, backup: .pusher),
-        .voiceVideo: ProviderPair(primary: .agora, backup: .dailyCo),
+        .realtime: ProviderPair(primary: .firebase, backup: .pusher),
+        .voiceVideo: ProviderPair(primary: .agora, backup: .dailyco),
         .translation: ProviderPair(primary: .libreTranslate, backup: .deepL),
-        .pushNotifications: ProviderPair(primary: .fcm, backup: .oneSignal)
+        .pushNotifications: ProviderPair(primary: .fcm, backup: .onesignal)
     ]
     
     // Failover cooldown to prevent rapid switching
@@ -65,12 +62,12 @@ class ServiceFailoverManager: ObservableObject {
     
     /// Gets the currently active provider for a service type
     func getActiveProvider(for serviceType: ServiceType) -> ServiceProvider {
-        return activeProviders[serviceType] ?? providerMapping[serviceType]?.primary ?? .firebase
+        return activeProviders[serviceType] ?? providerPairs[serviceType]?.primary ?? .firebase
     }
     
     /// Manually triggers failover for a specific service type
     func triggerFailover(for serviceType: ServiceType, reason: String) async {
-        guard let providerPair = providerMapping[serviceType] else {
+        guard let providerPair = providerPairs[serviceType] else {
             logger.error("❌ No provider mapping found for service type: \(serviceType)")
             return
         }
@@ -176,7 +173,7 @@ class ServiceFailoverManager: ObservableObject {
     /// Considers switching back to a recovered primary provider
     private func considerRecoveryFailback(for recoveredProvider: ServiceProvider) async {
         // Find service types where this provider is the primary
-        for (serviceType, providerPair) in providerMapping {
+        for (serviceType, providerPair) in providerPairs {
             if providerPair.primary == recoveredProvider && 
                getActiveProvider(for: serviceType) == providerPair.backup {
                 
@@ -223,7 +220,7 @@ class ServiceFailoverManager: ObservableObject {
         let degradedProvider = notification.provider
         
         // Find service types that use this provider as primary
-        for (serviceType, providerPair) in providerMapping {
+        for (serviceType, providerPair) in providerPairs {
             if getActiveProvider(for: serviceType) == degradedProvider {
                 
                 let targetProvider = degradedProvider == providerPair.primary ? 
@@ -274,11 +271,11 @@ class ServiceFailoverManager: ObservableObject {
     /// Sets up the failover manager with initial configurations
     private func setupFailoverManager() {
         // Initialize active providers with primary providers
-        for (serviceType, providerPair) in providerMapping {
+        for (serviceType, providerPair) in providerPairs {
             activeProviders[serviceType] = providerPair.primary
         }
         
-        logger.debug("🏗️ Failover manager setup complete with \(providerMapping.count) service types")
+        logger.debug("🏗️ Failover manager setup complete with \(providerPairs.count) service types")
     }
     
     // MARK: - Analytics
@@ -299,23 +296,27 @@ class ServiceFailoverManager: ObservableObject {
             recentFailovers: recentFailovers,
             activeBackupServices: activeProviders.values.compactMap { provider in
                 // Check if this provider is being used as backup
-                providerMapping.values.contains { $0.backup == provider } ? provider : nil
+                providerPairs.values.contains { $0.backup == provider } ? provider : nil
             }.count
         )
     }
     
-    private let backupProviders: [ServiceType: ServiceProvider] = [
-        .auth: .supabase,
+    private let defaultProviders: [ServiceType: ServiceProvider] = [
+        .authentication: .supabase,
         .database: .supabase,
-        .storage: .supabase
+        .storage: .cloudflareR2,
+        .realtime: .pusher,
+        .voiceVideo: .agora,
+        .translation: .libreTranslate,
+        .pushNotifications: .fcm
     ]
     
     func backup(for serviceType: ServiceType) -> ServiceProvider? {
-        return backupProviders[serviceType]
+        return defaultProviders[serviceType]
     }
     
     func failover(serviceType: ServiceType, to provider: ServiceProvider) throws {
-        guard let backupProvider = backupProviders[serviceType],
+        guard let backupProvider = defaultProviders[serviceType],
               backupProvider == provider else {
             throw ServiceError.unsupportedConfiguration
         }

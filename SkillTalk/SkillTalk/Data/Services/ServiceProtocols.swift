@@ -9,43 +9,7 @@
 import Foundation
 import Combine
 
-// Import shared service types
-import ServiceTypes
-
-// MARK: - Service Types and Providers
-
-enum ServiceType: String, CaseIterable {
-    case auth = "Authentication"
-    case database = "Database"
-    case storage = "Storage"
-    case voiceVideo = "Voice/Video"
-    case translation = "Translation"
-    case pushNotifications = "Push Notifications"
-}
-
-enum ServiceProvider: String, CaseIterable {
-    case firebase = "Firebase"
-    case supabase = "Supabase"
-    case agora = "Agora"
-    case dailyCo = "Daily.co"
-    case pusher = "Pusher"
-    case ably = "Ably"
-    case cloudflareR2 = "Cloudflare R2"
-    case libreTranslate = "LibreTranslate"
-    case deepL = "DeepL"
-    case fcm = "FCM"
-    case oneSignal = "OneSignal"
-    case revenueCat = "RevenueCat"
-    case googlePlayBilling = "Google Play Billing"
-    case hundredMs = "100ms.live"
-}
-
-enum ServiceHealthStatus: String {
-    case healthy = "Healthy"
-    case degraded = "Degraded"
-    case failed = "Failed"
-    case unknown = "Unknown"
-}
+// MARK: - Service Protocols
 
 // MARK: - Service Protocols
 
@@ -210,14 +174,99 @@ struct TypingEvent: Codable {
 /// Call user model
 struct CallUser: Codable {
     let id: String
-    let name: String
-    let isAudioMuted: Bool
+    let name: String?
+    let isAudioEnabled: Bool
     let isVideoEnabled: Bool
+    let joinedAt: Date
 }
 
 /// Translation language model
 struct TranslationLanguage: Codable {
     let code: String
     let name: String
-    let nativeName: String
+    let nativeName: String?
+    let isSupported: Bool
+}
+
+// MARK: - Voice/Video Service Protocol
+
+/// Protocol for voice/video calls (Agora, Daily.co)
+protocol VoiceVideoServiceProtocol {
+    // MARK: - Provider Info
+    var provider: ServiceProvider { get }
+    var isHealthy: Bool { get }
+    
+    // MARK: - Call Management
+    func initializeCall(roomId: String, userId: String) async throws
+    func joinCall() async throws
+    func leaveCall() async throws
+    func endCall() async throws
+    
+    // MARK: - Audio Controls
+    func muteAudio() async throws
+    func unmuteAudio() async throws
+    var isAudioMuted: Bool { get }
+    
+    // MARK: - Video Controls
+    func enableVideo() async throws
+    func disableVideo() async throws
+    var isVideoEnabled: Bool { get }
+    
+    // MARK: - Call Events
+    func onUserJoined() -> AnyPublisher<CallUser, Error>
+    func onUserLeft() -> AnyPublisher<CallUser, Error>
+    func onCallEnded() -> AnyPublisher<Void, Error>
+    
+    // MARK: - Health Monitoring
+    func checkHealth() async -> ServiceHealth
+}
+
+// MARK: - Translation Service Protocol
+
+/// Protocol for translation services (LibreTranslate, DeepL)
+protocol TranslationServiceProtocol {
+    // MARK: - Provider Info
+    var provider: ServiceProvider { get }
+    var isHealthy: Bool { get }
+    
+    // MARK: - Translation Methods
+    func translate(text: String, from sourceLanguage: String, to targetLanguage: String) async throws -> String
+    func detectLanguage(text: String) async throws -> String
+    func getSupportedLanguages() async throws -> [TranslationLanguage]
+    
+    // MARK: - Batch Translation
+    func translateBatch(texts: [String], from sourceLanguage: String, to targetLanguage: String) async throws -> [String]
+    
+    // MARK: - Health Monitoring
+    func checkHealth() async -> ServiceHealth
+}
+
+// MARK: - Push Notification Protocol
+
+/// Protocol for push notifications (FCM, OneSignal)
+protocol PushNotificationServiceProtocol {
+    // MARK: - Provider Info
+    var provider: ServiceProvider { get }
+    var isHealthy: Bool { get }
+    
+    // MARK: - Device Registration
+    func registerDevice(token: String, userId: String) async throws
+    func unregisterDevice() async throws
+    
+    // MARK: - Notification Sending
+    func sendNotification(to userId: String, title: String, body: String, data: [String: Any]?) async throws
+    func sendBulkNotification(to userIds: [String], title: String, body: String, data: [String: Any]?) async throws
+    
+    // MARK: - Topic Management
+    func subscribeToTopic(_ topic: String) async throws
+    func unsubscribeFromTopic(_ topic: String) async throws
+    
+    // MARK: - Health Monitoring
+    func checkHealth() async -> ServiceHealth
+}
+
+// MARK: - Notification Extensions
+
+extension Notification.Name {
+    static let networkStatusChanged = Notification.Name("NetworkStatusChanged")
 } 

@@ -7,12 +7,12 @@
 //
 
 import SwiftUI
-import FirebaseCore
+// import FirebaseCore // Temporarily commented out due to linking issue
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        FirebaseApp.configure()
+        // FirebaseApp.configure() // Temporarily commented out due to linking issue
         return true
     }
 }

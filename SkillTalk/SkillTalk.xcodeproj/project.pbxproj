@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0D952F2E16D41D00547E37 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0D952E2E16D41D00547E37 /* Auth */; };
+		2D0D95312E16D41D00547E37 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0D95302E16D41D00547E37 /* Storage */; };
+		2D0D95332E16D41D00547E37 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0D95322E16D41D00547E37 /* Supabase */; };
 		5808FAAA292EC593FB53A837 /* Pods_SkillTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D83312FD454B78525AB6D63 /* Pods_SkillTalk.framework */; };
 		8BC85F86D912178A303E3FB7 /* Pods_SkillTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E343649490DA5A3CCB6B232A /* Pods_SkillTalkTests.framework */; };
 		DE7D778703EE6AC9B96DCC73 /* Pods_SkillTalk_SkillTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56828832B0D23494B9162F51 /* Pods_SkillTalk_SkillTalkUITests.framework */; };
@@ -47,16 +50,22 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2DC8B12A2E15E20000F5C950 /* SkillTalk */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = SkillTalk;
 			sourceTree = "<group>";
 		};
 		2DC8B1382E15E20200F5C950 /* SkillTalkTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = SkillTalkTests;
 			sourceTree = "<group>";
 		};
 		2DC8B1422E15E20200F5C950 /* SkillTalkUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = SkillTalkUITests;
 			sourceTree = "<group>";
 		};
@@ -67,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0D95332E16D41D00547E37 /* Supabase in Frameworks */,
+				2D0D95312E16D41D00547E37 /* Storage in Frameworks */,
+				2D0D952F2E16D41D00547E37 /* Auth in Frameworks */,
 				5808FAAA292EC593FB53A837 /* Pods_SkillTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +249,9 @@
 			);
 			mainGroup = 2DC8B11F2E15E20000F5C950;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2D0D952D2E16D41C00547E37 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2DC8B1292E15E20000F5C950 /* Products */;
 			projectDirPath = "";
@@ -348,13 +363,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -369,13 +380,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk/Pods-SkillTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk/Pods-SkillTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -717,6 +724,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D0D952D2E16D41C00547E37 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D0D952E2E16D41D00547E37 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D0D952D2E16D41C00547E37 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		2D0D95302E16D41D00547E37 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D0D952D2E16D41C00547E37 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		2D0D95322E16D41D00547E37 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D0D952D2E16D41C00547E37 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2DC8B1202E15E20000F5C950 /* Project object */;
 }

@@ -190,7 +190,13 @@ struct Layout {
     // Screen dimensions helpers
     static let screenWidth = UIScreen.main.bounds.width
     static let screenHeight = UIScreen.main.bounds.height
-    static let safeAreaInsets = UIApplication.shared.windows.first?.safeAreaInsets ?? UIEdgeInsets.zero
+    static let safeAreaInsets: UIEdgeInsets = {
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+           let window = windowScene.windows.first {
+            return window.safeAreaInsets
+        }
+        return .zero
+    }()
     
     // Tab bar
     static let tabBarHeight: CGFloat = 83 // Including safe area
