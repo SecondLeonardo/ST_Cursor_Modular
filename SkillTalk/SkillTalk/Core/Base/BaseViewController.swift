@@ -8,6 +8,7 @@
 
 import UIKit
 import Combine
+import os.log
 
 /// Base class for all UIKit ViewControllers in SkillTalk app
 /// Provides common functionality like loading indicators, error handling, and debug logging
@@ -15,7 +16,7 @@ class BaseViewController: UIViewController {
     
     // MARK: - Private Properties
     private var cancellables = Set<AnyCancellable>()
-    private let logger = Logger(category: "BaseViewController")
+    let logger = Logger()
     private var loadingIndicator: UIActivityIndicatorView?
     
     // MARK: - Public Properties
@@ -52,6 +53,11 @@ class BaseViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         logger.debug("👻 ViewController did disappear: \(type(of: self))")
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        logger.debug("⚠️ Memory warning received in \(String(describing: type(of: self)))")
     }
     
     deinit {

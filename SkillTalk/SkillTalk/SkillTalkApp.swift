@@ -9,8 +9,18 @@
 import SwiftUI
 import FirebaseCore
 
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication,
+                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
+}
+
 @main
 struct SkillTalkApp: App {
+    // register app delegate for Firebase setup
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     // MARK: - Initialization
     
@@ -22,23 +32,15 @@ struct SkillTalkApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .onAppear {
-                    // Debug logging for app launch
-                    #if DEBUG
-                    print("🚀 SkillTalk App Launched")
-                    DebugConstants.logAllConstants()
-                    #endif
-                }
+            NavigationView {
+                ContentView()
+            }
         }
     }
     
     // MARK: - App Setup
     
     private func setupApp() {
-        // Configure Firebase
-        FirebaseApp.configure()
-        
         // Configure app-wide settings
         configureAppearance()
         

@@ -16,6 +16,7 @@ target 'SkillTalk' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Crashlytics'
   pod 'Firebase/Messaging'
+  pod 'Firebase/Database'
   
   # Supabase will be added via Swift Package Manager
   # pod 'Supabase' # Not available via CocoaPods
@@ -46,6 +47,10 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
       config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.1'
+      # Disable code signing for pods
+      config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      # Add any needed compiler flags
+      config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['$(inherited)', '-Xfrontend -warn-concurrency']
     end
   end
 end 

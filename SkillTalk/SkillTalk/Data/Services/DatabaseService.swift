@@ -5,9 +5,23 @@
 
 import Foundation
 import Combine
+import FirebaseDatabase
+
+protocol DatabaseServiceProtocol {
+    func initialize() async throws
+    func setCurrentLanguage(_ languageCode: String)
+    func getAllCountries() -> [CountryModel]
+    func getCountryByCode(_ code: String) -> CountryModel?
+    func searchCountries(_ query: String) -> [CountryModel]
+    func getAllCities() -> [CityModel]
+    func getCityById(_ id: String) -> CityModel?
+    func getCitiesByCountryCode(_ code: String) -> [CityModel]
+    func getAllLanguages() async throws -> [Language]
+    func searchLanguages(_ query: String) async throws -> [Language]
+}
 
 /// Service that coordinates all database operations
-final class DatabaseService {
+class DatabaseService: DatabaseServiceProtocol {
     // MARK: - Properties
     
     private let skillRepository: SkillRepository
@@ -37,14 +51,11 @@ final class DatabaseService {
     
     /// Initialize all databases
     func initialize() async throws {
-        // Initialize each database in parallel
-        async let skillsInit = initializeSkills()
-        async let countriesInit = initializeCountries()
-        async let citiesInit = initializeCities()
-        async let languagesInit = initializeLanguages()
+        async let countriesInit = countryDatabase.loadCountries()
+        async let citiesInit = cityDatabase.loadCities()
+        async let languagesInit = languageDatabase.loadLanguages()
         
-        // Wait for all initializations to complete
-        try await [skillsInit, countriesInit, citiesInit, languagesInit].joined()
+        try await [countriesInit, citiesInit, languagesInit].reduce(into: ()) { _, _ in }
     }
     
     /// Set the current language for all databases
@@ -137,37 +148,5 @@ final class DatabaseService {
         case .error(let error):
             print("Database error: \(error)")
         }
-    }
-    
-    private func initializeSkills() async throws {
-        // Load initial skill data
-        _ = try await skillRepository.getAll()
-        
-        // Build indexes if needed
-        try await skillRepository.optimize()
-    }
-    
-    private func initializeCountries() async throws {
-        // Load country data
-        _ = countryDatabase.getAllCountries()
-        
-        // Pre-load popular countries for quick access
-        _ = countryDatabase.getPopularCountries()
-    }
-    
-    private func initializeCities() async throws {
-        // Load city data
-        _ = cityDatabase.getAllCities()
-        
-        // Pre-load popular cities for quick access
-        _ = cityDatabase.getPopularCities()
-    }
-    
-    private func initializeLanguages() async throws {
-        // Load language data
-        _ = try await languageDatabase.getAllLanguages()
-        
-        // Pre-load popular languages
-        _ = try await languageDatabase.getPopularLanguages()
     }
 } 
