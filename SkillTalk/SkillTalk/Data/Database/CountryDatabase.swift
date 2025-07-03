@@ -30,17 +30,12 @@ class CountryDatabase {
     }
     
     func searchCountries(_ query: String) -> [CountryModel] {
-        let lowercaseQuery = query.lowercased()
-        return countries.filter {
-            $0.name.lowercased().contains(lowercaseQuery) ||
-            $0.nativeName?.lowercased().contains(lowercaseQuery) == true ||
-            $0.id.lowercased().contains(lowercaseQuery)
+        if query.isEmpty {
+            return countries
+        }
+        return countries.filter { country in
+            country.name.localizedCaseInsensitiveContains(query) ||
+            (country.nativeName?.localizedCaseInsensitiveContains(query) ?? false)
         }
     }
-}
-
-enum DatabaseError: Error {
-    case invalidData
-    case notFound
-    case networkError
 } 

@@ -8,6 +8,7 @@
 
 import Foundation
 import Combine
+import os.log
 
 // MARK: - Service Health Monitor
 
@@ -18,7 +19,7 @@ class ServiceHealthMonitor: ObservableObject {
     // MARK: - Singleton
     
     static let shared = ServiceHealthMonitor()
-    private let logger = Logger(category: "ServiceHealthMonitor")
+    private let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "SkillTalk", category: "ServiceHealthMonitor")
     
     // MARK: - Published Properties
     
@@ -255,6 +256,25 @@ class ServiceHealthMonitor: ObservableObject {
                 lastChecked: Date(),
                 errorMessage: nil
             )
+        }
+    }
+    
+    func check(serviceType: ServiceType) -> ServiceHealthStatus {
+        // Implement actual health check logic here
+        // For now, return a default status
+        return .healthy
+    }
+    
+    func check(provider: ServiceProvider) -> ServiceHealthStatus {
+        // Implement actual provider health check logic here
+        // For now, return a default status
+        return .healthy
+    }
+    
+    func checkAll() async {
+        for serviceType in ServiceType.allCases {
+            let status = check(serviceType: serviceType)
+            logger.debug("Health check for \(serviceType.rawValue): \(status.rawValue)")
         }
     }
 }

@@ -7,7 +7,34 @@ import Foundation
 import Combine
 import FirebaseDatabase
 
+// Import shared service types
+import ServiceTypes
+
+/// Protocol for database services (Firestore, Supabase Postgres)
 protocol DatabaseServiceProtocol {
+    // MARK: - Provider Info
+    var provider: ServiceProvider { get }
+    var isHealthy: Bool { get }
+    
+    // MARK: - Document Operations
+    func create<T: Codable>(_ document: T, in collection: String) async throws -> String
+    func read<T: Codable>(_ id: String, from collection: String, as type: T.Type) async throws -> T?
+    func update<T: Codable>(_ id: String, with document: T, in collection: String) async throws
+    func delete(_ id: String, from collection: String) async throws
+    
+    // MARK: - Query Operations
+    func query<T: Codable>(collection: String, as type: T.Type) async throws -> [T]
+    func queryWhere<T: Codable>(collection: String, field: String, isEqualTo value: Any, as type: T.Type) async throws -> [T]
+    func queryLimit<T: Codable>(collection: String, limit: Int, as type: T.Type) async throws -> [T]
+    
+    // MARK: - Real-time Subscriptions
+    func subscribe<T: Codable>(to collection: String, as type: T.Type) -> AnyPublisher<[T], Error>
+    func subscribeToDocument<T: Codable>(_ id: String, in collection: String, as type: T.Type) -> AnyPublisher<T?, Error>
+    
+    // MARK: - Health Monitoring
+    func checkHealth() async -> ServiceHealth
+    
+    // MARK: - Initialization
     func initialize() async throws
     func setCurrentLanguage(_ languageCode: String)
     func getAllCountries() -> [CountryModel]

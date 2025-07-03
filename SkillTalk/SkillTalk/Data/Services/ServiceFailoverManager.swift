@@ -8,6 +8,10 @@
 
 import Foundation
 import Combine
+import os.log
+
+// Import shared service types
+import ServiceTypes
 
 // MARK: - Service Failover Manager
 
@@ -299,20 +303,29 @@ class ServiceFailoverManager: ObservableObject {
             }.count
         )
     }
+    
+    private let backupProviders: [ServiceType: ServiceProvider] = [
+        .auth: .supabase,
+        .database: .supabase,
+        .storage: .supabase
+    ]
+    
+    func backup(for serviceType: ServiceType) -> ServiceProvider? {
+        return backupProviders[serviceType]
+    }
+    
+    func failover(serviceType: ServiceType, to provider: ServiceProvider) throws {
+        guard let backupProvider = backupProviders[serviceType],
+              backupProvider == provider else {
+            throw ServiceError.unsupportedConfiguration
+        }
+        
+        logger.debug("Initiating failover for \(serviceType.rawValue) to \(provider.rawValue)")
+        // Implement actual failover logic here
+    }
 }
 
 // MARK: - Supporting Models
-
-/// Service type enumeration
-enum ServiceType: String, CaseIterable {
-    case authentication = "Authentication"
-    case database = "Database"
-    case storage = "Storage"
-    case realtimeMessaging = "Realtime Messaging"
-    case voiceVideo = "Voice/Video"
-    case translation = "Translation"
-    case pushNotifications = "Push Notifications"
-}
 
 /// Provider pair (primary and backup)
 struct ProviderPair {

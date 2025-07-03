@@ -9,9 +9,20 @@
 import Foundation
 import Combine
 
-// MARK: - Service Provider Types
+// Import shared service types
+import ServiceTypes
 
-/// Enumeration of available service providers
+// MARK: - Service Types and Providers
+
+enum ServiceType: String, CaseIterable {
+    case auth = "Authentication"
+    case database = "Database"
+    case storage = "Storage"
+    case voiceVideo = "Voice/Video"
+    case translation = "Translation"
+    case pushNotifications = "Push Notifications"
+}
+
 enum ServiceProvider: String, CaseIterable {
     case firebase = "Firebase"
     case supabase = "Supabase"
@@ -29,12 +40,60 @@ enum ServiceProvider: String, CaseIterable {
     case hundredMs = "100ms.live"
 }
 
-/// Service health status
-enum ServiceHealthStatus {
-    case healthy
-    case degraded
-    case unhealthy
-    case unknown
+enum ServiceHealthStatus: String {
+    case healthy = "Healthy"
+    case degraded = "Degraded"
+    case failed = "Failed"
+    case unknown = "Unknown"
+}
+
+// MARK: - Service Protocols
+
+protocol ServiceConfigurationProtocol {
+    func configure() async throws
+    func reset() async throws
+}
+
+protocol ServiceHealthCheckProtocol {
+    func checkHealth() async -> ServiceHealthStatus
+}
+
+protocol ServiceFailoverProtocol {
+    func getBackupProvider() -> ServiceProvider?
+    func handleFailover(to provider: ServiceProvider) async throws
+}
+
+protocol AuthServiceProtocol {
+    func signIn(email: String, password: String) async throws
+    func signUp(email: String, password: String) async throws
+    func signOut() async throws
+    func getCurrentUser() -> User?
+}
+
+protocol StorageServiceProtocol {
+    var provider: ServiceProvider { get }
+    var isHealthy: Bool { get }
+    
+    // MARK: - File Operations
+    func upload(data: Data, to path: String, contentType: String) async throws -> String
+    func upload(fileURL: URL, to path: String) async throws -> String
+    func download(from path: String) async throws -> Data
+    func getDownloadURL(for path: String) async throws -> URL
+    func delete(at path: String) async throws
+    
+    // MARK: - Metadata Operations
+    func getMetadata(for path: String) async throws -> StorageMetadata
+    func updateMetadata(for path: String, metadata: StorageMetadata) async throws
+    
+    // MARK: - Health Monitoring
+    func checkHealth() async -> ServiceHealth
+}
+
+// User model for auth service
+struct User: Codable {
+    let id: String
+    let email: String
+    let displayName: String?
 }
 
 /// Service health information
@@ -85,58 +144,6 @@ protocol AuthenticationServiceProtocol {
     func checkHealth() async -> ServiceHealth
 }
 
-// MARK: - Database Service Protocol
-
-/// Protocol for database services (Firestore, Supabase Postgres)
-protocol DatabaseServiceProtocol {
-    
-    // MARK: - Provider Info
-    var provider: ServiceProvider { get }
-    var isHealthy: Bool { get }
-    
-    // MARK: - Document Operations
-    func create<T: Codable>(_ document: T, in collection: String) async throws -> String
-    func read<T: Codable>(_ id: String, from collection: String, as type: T.Type) async throws -> T?
-    func update<T: Codable>(_ id: String, with document: T, in collection: String) async throws
-    func delete(_ id: String, from collection: String) async throws
-    
-    // MARK: - Query Operations
-    func query<T: Codable>(collection: String, as type: T.Type) async throws -> [T]
-    func queryWhere<T: Codable>(collection: String, field: String, isEqualTo value: Any, as type: T.Type) async throws -> [T]
-    func queryLimit<T: Codable>(collection: String, limit: Int, as type: T.Type) async throws -> [T]
-    
-    // MARK: - Real-time Subscriptions
-    func subscribe<T: Codable>(to collection: String, as type: T.Type) -> AnyPublisher<[T], Error>
-    func subscribeToDocument<T: Codable>(_ id: String, in collection: String, as type: T.Type) -> AnyPublisher<T?, Error>
-    
-    // MARK: - Health Monitoring
-    func checkHealth() async -> ServiceHealth
-}
-
-// MARK: - Storage Service Protocol
-
-/// Protocol for file storage services (Firebase Storage, Cloudflare R2)
-protocol StorageServiceProtocol {
-    
-    // MARK: - Provider Info
-    var provider: ServiceProvider { get }
-    var isHealthy: Bool { get }
-    
-    // MARK: - File Operations
-    func upload(data: Data, to path: String, contentType: String) async throws -> String
-    func upload(fileURL: URL, to path: String) async throws -> String
-    func download(from path: String) async throws -> Data
-    func getDownloadURL(for path: String) async throws -> URL
-    func delete(at path: String) async throws
-    
-    // MARK: - Metadata Operations
-    func getMetadata(for path: String) async throws -> StorageMetadata
-    func updateMetadata(for path: String, metadata: StorageMetadata) async throws
-    
-    // MARK: - Health Monitoring
-    func checkHealth() async -> ServiceHealth
-}
-
 // MARK: - Real-time Messaging Protocol
 
 /// Protocol for real-time messaging (Realtime DB, Pusher/Ably)
@@ -155,94 +162,6 @@ protocol RealtimeMessagingProtocol {
     func subscribe(to channel: String) async throws
     func unsubscribe(from channel: String) async throws
     func sendMessage<T: Codable>(_ message: T, to channel: String) async throws
-    
-    // MARK: - Real-time Events
-    func onMessage<T: Codable>(in channel: String, as type: T.Type) -> AnyPublisher<T, Error>
-    func onPresence(in channel: String) -> AnyPublisher<PresenceEvent, Error>
-    func onTyping(in channel: String) -> AnyPublisher<TypingEvent, Error>
-    
-    // MARK: - Health Monitoring
-    func checkHealth() async -> ServiceHealth
-}
-
-// MARK: - Voice/Video Call Protocol
-
-/// Protocol for voice/video calls (Agora, Daily.co)
-protocol VoiceVideoServiceProtocol {
-    
-    // MARK: - Provider Info
-    var provider: ServiceProvider { get }
-    var isHealthy: Bool { get }
-    
-    // MARK: - Call Management
-    func initializeCall(roomId: String, userId: String) async throws
-    func joinCall() async throws
-    func leaveCall() async throws
-    func endCall() async throws
-    
-    // MARK: - Audio Controls
-    func muteAudio() async throws
-    func unmuteAudio() async throws
-    var isAudioMuted: Bool { get }
-    
-    // MARK: - Video Controls
-    func enableVideo() async throws
-    func disableVideo() async throws
-    var isVideoEnabled: Bool { get }
-    
-    // MARK: - Call Events
-    func onUserJoined() -> AnyPublisher<CallUser, Error>
-    func onUserLeft() -> AnyPublisher<CallUser, Error>
-    func onCallEnded() -> AnyPublisher<Void, Error>
-    
-    // MARK: - Health Monitoring
-    func checkHealth() async -> ServiceHealth
-}
-
-// MARK: - Translation Service Protocol
-
-/// Protocol for translation services (LibreTranslate, DeepL)
-protocol TranslationServiceProtocol {
-    
-    // MARK: - Provider Info
-    var provider: ServiceProvider { get }
-    var isHealthy: Bool { get }
-    
-    // MARK: - Translation Methods
-    func translate(text: String, from sourceLanguage: String, to targetLanguage: String) async throws -> String
-    func detectLanguage(text: String) async throws -> String
-    func getSupportedLanguages() async throws -> [TranslationLanguage]
-    
-    // MARK: - Batch Translation
-    func translateBatch(texts: [String], from sourceLanguage: String, to targetLanguage: String) async throws -> [String]
-    
-    // MARK: - Health Monitoring
-    func checkHealth() async -> ServiceHealth
-}
-
-// MARK: - Push Notification Protocol
-
-/// Protocol for push notifications (FCM, OneSignal)
-protocol PushNotificationServiceProtocol {
-    
-    // MARK: - Provider Info
-    var provider: ServiceProvider { get }
-    var isHealthy: Bool { get }
-    
-    // MARK: - Device Registration
-    func registerDevice(token: String, userId: String) async throws
-    func unregisterDevice() async throws
-    
-    // MARK: - Notification Sending
-    func sendNotification(to userId: String, title: String, body: String, data: [String: Any]?) async throws
-    func sendBulkNotification(to userIds: [String], title: String, body: String, data: [String: Any]?) async throws
-    
-    // MARK: - Topic Management
-    func subscribeToTopic(_ topic: String) async throws
-    func unsubscribeFromTopic(_ topic: String) async throws
-    
-    // MARK: - Health Monitoring
-    func checkHealth() async -> ServiceHealth
 }
 
 // MARK: - Supporting Models

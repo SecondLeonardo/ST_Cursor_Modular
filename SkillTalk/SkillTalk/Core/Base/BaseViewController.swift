@@ -16,7 +16,7 @@ class BaseViewController: UIViewController {
     
     // MARK: - Private Properties
     private var cancellables = Set<AnyCancellable>()
-    let logger = Logger()
+    let logger = Logger(category: "BaseViewController")
     private var loadingIndicator: UIActivityIndicatorView?
     
     // MARK: - Public Properties
@@ -32,7 +32,7 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
         setupBaseUI()
         setupDebugLogging()
-        logger.debug("🟢 ViewController loaded: \(type(of: self))")
+        setupLogger()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -61,7 +61,7 @@ class BaseViewController: UIViewController {
     }
     
     deinit {
-        logger.debug("🔴 ViewController deinitialized: \(type(of: self))")
+        logger.debug("💀 \(String(describing: type(of: self))) deallocated")
     }
     
     // MARK: - Base UI Setup
@@ -210,6 +210,10 @@ class BaseViewController: UIViewController {
             self?.logger.debug("⚠️ Memory warning received in \(type(of: self ?? UIViewController.self))")
         }
         #endif
+    }
+    
+    private func setupLogger() {
+        logger.debug("🎬 \(String(describing: type(of: self))) loaded")
     }
 }
 

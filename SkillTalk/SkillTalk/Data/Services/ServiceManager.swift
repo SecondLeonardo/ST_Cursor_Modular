@@ -8,6 +8,7 @@
 
 import Foundation
 import Combine
+import os.log
 
 // MARK: - Service Manager
 
@@ -18,7 +19,7 @@ class ServiceManager: ObservableObject {
     // MARK: - Singleton
     
     static let shared = ServiceManager()
-    private let logger = Logger(category: "ServiceManager")
+    private let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "SkillTalk", category: "ServiceManager")
     
     // MARK: - Published Properties
     
@@ -33,6 +34,15 @@ class ServiceManager: ObservableObject {
     private let supabaseConfig = SupabaseServiceConfiguration.shared
     
     private var cancellables = Set<AnyCancellable>()
+    
+    private var currentProviders: [ServiceType: ServiceProvider] = [
+        .auth: .firebase,
+        .database: .firebase,
+        .storage: .firebase,
+        .voiceVideo: .agora,
+        .translation: .firebase,
+        .pushNotifications: .firebase
+    ]
     
     // MARK: - Environment Configuration
     
