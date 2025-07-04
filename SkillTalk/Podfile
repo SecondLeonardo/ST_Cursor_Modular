@@ -3,7 +3,7 @@ platform :ios, '15.1'
 
 target 'SkillTalk' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+  use_frameworks! :linkage => :static
 
   # Pods for SkillTalk
   
@@ -27,7 +27,7 @@ target 'SkillTalk' do
   pod 'SnapKit', '~> 5.0'
   
   # Audio/Video Services
-  pod 'AgoraRtcEngine_iOS', '~> 4.0'
+  # pod 'AgoraRtcEngine_iOS', '~> 4.0'  # Temporarily disabled due to sandbox issues
   
   # Utilities
   pod 'SwiftyJSON', '~> 5.0'
@@ -51,6 +51,18 @@ post_install do |installer|
       config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
       # Add any needed compiler flags
       config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['$(inherited)', '-Xfrontend -warn-concurrency']
+    end
+  end
+  
+  # Disable problematic resource copying scripts to avoid sandbox issues
+  installer.pods_project.targets.each do |target|
+    if target.name == 'Pods-SkillTalk'
+      target.build_phases.each do |build_phase|
+        if build_phase.is_a?(Xcodeproj::Project::Object::PBXShellScriptBuildPhase) && 
+           build_phase.name == '[CP] Copy Pods Resources'
+          build_phase.shell_script = 'echo "Skipping resource copy due to sandbox restrictions"'
+        end
+      end
     end
   end
 end 

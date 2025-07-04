@@ -10,9 +10,9 @@
 		2D0D952F2E16D41D00547E37 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0D952E2E16D41D00547E37 /* Auth */; };
 		2D0D95312E16D41D00547E37 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0D95302E16D41D00547E37 /* Storage */; };
 		2D0D95332E16D41D00547E37 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0D95322E16D41D00547E37 /* Supabase */; };
-		5808FAAA292EC593FB53A837 /* Pods_SkillTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D83312FD454B78525AB6D63 /* Pods_SkillTalk.framework */; };
-		8BC85F86D912178A303E3FB7 /* Pods_SkillTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E343649490DA5A3CCB6B232A /* Pods_SkillTalkTests.framework */; };
-		DE7D778703EE6AC9B96DCC73 /* Pods_SkillTalk_SkillTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56828832B0D23494B9162F51 /* Pods_SkillTalk_SkillTalkUITests.framework */; };
+		39FC90051BDDB132D2AC1832 /* Pods_SkillTalk_SkillTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC2E631A812F5256ABDD4C0 /* Pods_SkillTalk_SkillTalkUITests.framework */; };
+		467F9AAB76A5D88C6ADCC7B8 /* Pods_SkillTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA85A16A652AFE765F22BE2 /* Pods_SkillTalkTests.framework */; };
+		A5A15116E5100F44A31C1C32 /* Pods_SkillTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91931CAFABE0FA4659ECB5A8 /* Pods_SkillTalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +33,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		165C1155696FF57118D504B2 /* Pods-SkillTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalkTests.debug.xcconfig"; path = "Target Support Files/Pods-SkillTalkTests/Pods-SkillTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		142EEE386CBB54A16B6B62ED /* Pods-SkillTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalkTests.debug.xcconfig"; path = "Target Support Files/Pods-SkillTalkTests/Pods-SkillTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DC8B1282E15E20000F5C950 /* SkillTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC8B1352E15E20200F5C950 /* SkillTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC8B13F2E15E20200F5C950 /* SkillTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		56828832B0D23494B9162F51 /* Pods_SkillTalk_SkillTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillTalk_SkillTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D83312FD454B78525AB6D63 /* Pods_SkillTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A08B9626A1F1711025D38065 /* Pods-SkillTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalkTests.release.xcconfig"; path = "Target Support Files/Pods-SkillTalkTests/Pods-SkillTalkTests.release.xcconfig"; sourceTree = "<group>"; };
-		AB8951F9BD280D5EF502706B /* Pods-SkillTalk-SkillTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalk-SkillTalkUITests.debug.xcconfig"; path = "Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF66664E02651695216C51ED /* Pods-SkillTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalk.release.xcconfig"; path = "Target Support Files/Pods-SkillTalk/Pods-SkillTalk.release.xcconfig"; sourceTree = "<group>"; };
-		B63B373148D3DEFA87C41F0C /* Pods-SkillTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalk.debug.xcconfig"; path = "Target Support Files/Pods-SkillTalk/Pods-SkillTalk.debug.xcconfig"; sourceTree = "<group>"; };
-		E343649490DA5A3CCB6B232A /* Pods_SkillTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9817E6F30943F209A89C1EB /* Pods-SkillTalk-SkillTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalk-SkillTalkUITests.release.xcconfig"; path = "Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A0DAF4FAC58F90961A23CE7 /* Pods-SkillTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalk.release.xcconfig"; path = "Target Support Files/Pods-SkillTalk/Pods-SkillTalk.release.xcconfig"; sourceTree = "<group>"; };
+		5AC2E631A812F5256ABDD4C0 /* Pods_SkillTalk_SkillTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillTalk_SkillTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C9266E5705ACEC27D8AF9F /* Pods-SkillTalk-SkillTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalk-SkillTalkUITests.release.xcconfig"; path = "Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DA85A16A652AFE765F22BE2 /* Pods_SkillTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91931CAFABE0FA4659ECB5A8 /* Pods_SkillTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		967FBADDFC65E6D5439ABC06 /* Pods-SkillTalk-SkillTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalk-SkillTalkUITests.debug.xcconfig"; path = "Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B43F33A564F1A943BCA277E /* Pods-SkillTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalkTests.release.xcconfig"; path = "Target Support Files/Pods-SkillTalkTests/Pods-SkillTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA1CAAC686A4257E7EEC84FA /* Pods-SkillTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalk.debug.xcconfig"; path = "Target Support Files/Pods-SkillTalk/Pods-SkillTalk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,7 +79,7 @@
 				2D0D95332E16D41D00547E37 /* Supabase in Frameworks */,
 				2D0D95312E16D41D00547E37 /* Storage in Frameworks */,
 				2D0D952F2E16D41D00547E37 /* Auth in Frameworks */,
-				5808FAAA292EC593FB53A837 /* Pods_SkillTalk.framework in Frameworks */,
+				A5A15116E5100F44A31C1C32 /* Pods_SkillTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BC85F86D912178A303E3FB7 /* Pods_SkillTalkTests.framework in Frameworks */,
+				467F9AAB76A5D88C6ADCC7B8 /* Pods_SkillTalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE7D778703EE6AC9B96DCC73 /* Pods_SkillTalk_SkillTalkUITests.framework in Frameworks */,
+				39FC90051BDDB132D2AC1832 /* Pods_SkillTalk_SkillTalkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 				2DC8B1422E15E20200F5C950 /* SkillTalkUITests */,
 				2DC8B1292E15E20000F5C950 /* Products */,
 				8E95B237AC93CB6C992CB2D2 /* Pods */,
-				FEA849DACBC57FC4878F3290 /* Frameworks */,
+				E5057540D92F4A3BFABF1D08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,22 +127,22 @@
 		8E95B237AC93CB6C992CB2D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B63B373148D3DEFA87C41F0C /* Pods-SkillTalk.debug.xcconfig */,
-				AF66664E02651695216C51ED /* Pods-SkillTalk.release.xcconfig */,
-				AB8951F9BD280D5EF502706B /* Pods-SkillTalk-SkillTalkUITests.debug.xcconfig */,
-				F9817E6F30943F209A89C1EB /* Pods-SkillTalk-SkillTalkUITests.release.xcconfig */,
-				165C1155696FF57118D504B2 /* Pods-SkillTalkTests.debug.xcconfig */,
-				A08B9626A1F1711025D38065 /* Pods-SkillTalkTests.release.xcconfig */,
+				CA1CAAC686A4257E7EEC84FA /* Pods-SkillTalk.debug.xcconfig */,
+				5A0DAF4FAC58F90961A23CE7 /* Pods-SkillTalk.release.xcconfig */,
+				967FBADDFC65E6D5439ABC06 /* Pods-SkillTalk-SkillTalkUITests.debug.xcconfig */,
+				75C9266E5705ACEC27D8AF9F /* Pods-SkillTalk-SkillTalkUITests.release.xcconfig */,
+				142EEE386CBB54A16B6B62ED /* Pods-SkillTalkTests.debug.xcconfig */,
+				9B43F33A564F1A943BCA277E /* Pods-SkillTalkTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		FEA849DACBC57FC4878F3290 /* Frameworks */ = {
+		E5057540D92F4A3BFABF1D08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D83312FD454B78525AB6D63 /* Pods_SkillTalk.framework */,
-				56828832B0D23494B9162F51 /* Pods_SkillTalk_SkillTalkUITests.framework */,
-				E343649490DA5A3CCB6B232A /* Pods_SkillTalkTests.framework */,
+				91931CAFABE0FA4659ECB5A8 /* Pods_SkillTalk.framework */,
+				5AC2E631A812F5256ABDD4C0 /* Pods_SkillTalk_SkillTalkUITests.framework */,
+				8DA85A16A652AFE765F22BE2 /* Pods_SkillTalkTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,11 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DC8B1492E15E20200F5C950 /* Build configuration list for PBXNativeTarget "SkillTalk" */;
 			buildPhases = (
-				5EA6C1C9E909542E82E2E589 /* [CP] Check Pods Manifest.lock */,
+				E3969BED719B8A9DCA32BC7D /* [CP] Check Pods Manifest.lock */,
 				2DC8B1242E15E20000F5C950 /* Sources */,
 				2DC8B1252E15E20000F5C950 /* Frameworks */,
 				2DC8B1262E15E20000F5C950 /* Resources */,
-				D611A68D5FF389AC6D807EB8 /* [CP] Embed Pods Frameworks */,
+				C2AF74852AE390F879CE773C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,7 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DC8B14C2E15E20200F5C950 /* Build configuration list for PBXNativeTarget "SkillTalkTests" */;
 			buildPhases = (
-				203C016B118AE95EAF93E8BA /* [CP] Check Pods Manifest.lock */,
+				04760763670B2211F7F5047E /* [CP] Check Pods Manifest.lock */,
 				2DC8B1312E15E20200F5C950 /* Sources */,
 				2DC8B1322E15E20200F5C950 /* Frameworks */,
 				2DC8B1332E15E20200F5C950 /* Resources */,
@@ -198,11 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DC8B14F2E15E20200F5C950 /* Build configuration list for PBXNativeTarget "SkillTalkUITests" */;
 			buildPhases = (
-				114DE5417E444066A34F9872 /* [CP] Check Pods Manifest.lock */,
+				A34F1E637D2B98F24B612879 /* [CP] Check Pods Manifest.lock */,
 				2DC8B13B2E15E20200F5C950 /* Sources */,
 				2DC8B13C2E15E20200F5C950 /* Frameworks */,
 				2DC8B13D2E15E20200F5C950 /* Resources */,
-				96A75F9E4152B10F3DFCB44C /* [CP] Embed Pods Frameworks */,
+				1E82C19B63868F7138C37E94 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,29 +289,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		114DE5417E444066A34F9872 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SkillTalk-SkillTalkUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		203C016B118AE95EAF93E8BA /* [CP] Check Pods Manifest.lock */ = {
+		04760763670B2211F7F5047E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,7 +311,63 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5EA6C1C9E909542E82E2E589 /* [CP] Check Pods Manifest.lock */ = {
+		1E82C19B63868F7138C37E94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A34F1E637D2B98F24B612879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkillTalk-SkillTalkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2AF74852AE390F879CE773C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk/Pods-SkillTalk-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk/Pods-SkillTalk-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkillTalk/Pods-SkillTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3969BED719B8A9DCA32BC7D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,40 +387,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		96A75F9E4152B10F3DFCB44C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D611A68D5FF389AC6D807EB8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk/Pods-SkillTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk/Pods-SkillTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkillTalk/Pods-SkillTalk-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -552,7 +552,7 @@
 		};
 		2DC8B14A2E15E20200F5C950 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B63B373148D3DEFA87C41F0C /* Pods-SkillTalk.debug.xcconfig */;
+			baseConfigurationReference = CA1CAAC686A4257E7EEC84FA /* Pods-SkillTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -581,7 +581,7 @@
 		};
 		2DC8B14B2E15E20200F5C950 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF66664E02651695216C51ED /* Pods-SkillTalk.release.xcconfig */;
+			baseConfigurationReference = 5A0DAF4FAC58F90961A23CE7 /* Pods-SkillTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -610,7 +610,7 @@
 		};
 		2DC8B14D2E15E20200F5C950 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 165C1155696FF57118D504B2 /* Pods-SkillTalkTests.debug.xcconfig */;
+			baseConfigurationReference = 142EEE386CBB54A16B6B62ED /* Pods-SkillTalkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -630,7 +630,7 @@
 		};
 		2DC8B14E2E15E20200F5C950 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A08B9626A1F1711025D38065 /* Pods-SkillTalkTests.release.xcconfig */;
+			baseConfigurationReference = 9B43F33A564F1A943BCA277E /* Pods-SkillTalkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -650,7 +650,7 @@
 		};
 		2DC8B1502E15E20200F5C950 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB8951F9BD280D5EF502706B /* Pods-SkillTalk-SkillTalkUITests.debug.xcconfig */;
+			baseConfigurationReference = 967FBADDFC65E6D5439ABC06 /* Pods-SkillTalk-SkillTalkUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -668,7 +668,7 @@
 		};
 		2DC8B1512E15E20200F5C950 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9817E6F30943F209A89C1EB /* Pods-SkillTalk-SkillTalkUITests.release.xcconfig */;
+			baseConfigurationReference = 75C9266E5705ACEC27D8AF9F /* Pods-SkillTalk-SkillTalkUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
