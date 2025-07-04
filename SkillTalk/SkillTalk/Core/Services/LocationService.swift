@@ -745,11 +745,11 @@ public class LocationServiceHealthMonitor: ObservableObject {
     @Published public private(set) var serviceHealth: [ServiceType: ServiceHealth] = [:]
     
     public struct ServiceHealth {
-        public let successCount: Int
-        public let failureCount: Int
-        public let lastSuccess: Date?
-        public let lastFailure: Date?
-        public let averageResponseTime: TimeInterval
+        public var successCount: Int
+        public var failureCount: Int
+        public var lastSuccess: Date?
+        public var lastFailure: Date?
+        public var averageResponseTime: TimeInterval
         
         public var successRate: Double {
             let total = successCount + failureCount

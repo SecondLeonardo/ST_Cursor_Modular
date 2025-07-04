@@ -90,7 +90,7 @@ struct TranslationCacheStatistics: Codable {
 
 /// Represents an occupation item
 public struct OccupationModel: Codable, Identifiable, Hashable {
-    let id: String
+    public let id: String
     let englishName: String
     let englishCategory: String
     var translations: [String: String]?

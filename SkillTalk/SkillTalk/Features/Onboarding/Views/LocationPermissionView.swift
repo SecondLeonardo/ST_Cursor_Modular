@@ -6,7 +6,7 @@ import CoreLocation
 /// Location permission popup view for onboarding
 struct LocationPermissionView: View {
     @Environment(\.dismiss) private var dismiss
-    @StateObject private var locationService: LocationServiceProtocol
+    @StateObject private var locationService: MultiLocationService
     @State private var showingSettings = false
     @State private var isLoading = false
     
@@ -14,7 +14,7 @@ struct LocationPermissionView: View {
     let onPermissionDenied: () -> Void
     
     init(
-        locationService: LocationServiceProtocol = MultiLocationService(),
+        locationService: MultiLocationService = MultiLocationService(),
         onPermissionGranted: @escaping () -> Void,
         onPermissionDenied: @escaping () -> Void
     ) {
@@ -273,9 +273,9 @@ class LocationPermissionViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var showSettingsAlert = false
     
-    private let locationService: LocationServiceProtocol
+    private let locationService: MultiLocationService
     
-    init(locationService: LocationServiceProtocol = MultiLocationService()) {
+    init(locationService: MultiLocationService = MultiLocationService()) {
         self.locationService = locationService
         setupBindings()
     }

@@ -1,18 +1,18 @@
 import Foundation
 
-struct CountryModel: Codable, Identifiable, Equatable {
-    let id: String // ISO country code
-    let name: String
-    let nativeName: String?
-    let flag: String // emoji flag
-    let phoneCode: String?
-    let region: String?
-    let subregion: String?
-    let latitude: Double?
-    let longitude: Double?
-    let population: Int?
-    let languages: [String]? // ISO language codes
-    let timezones: [String]?
+public struct CountryModel: Codable, Identifiable, Equatable {
+    public let id: String // ISO country code
+    public let name: String
+    public let nativeName: String?
+    public let flag: String // emoji flag
+    public let phoneCode: String?
+    public let region: String?
+    public let subregion: String?
+    public let latitude: Double?
+    public let longitude: Double?
+    public let population: Int?
+    public let languages: [String]? // ISO language codes
+    public let timezones: [String]?
     
     enum CodingKeys: String, CodingKey {
         case id = "code"
