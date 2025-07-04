@@ -109,17 +109,106 @@ Implement the multi-provider architecture for SkillTalk following R0.9 rule. Cre
 ### **Step 1.3: Database Integration** 
 
 **Tasks:**
-- [*] Integrate existing skill database from `/database` directory
-- [*] Setup reference data services from `/Sources/SkillTalk/Data/Services/ReferenceData/`
-- [*] Implement database caching and optimization
-- [*] Create data access layer with Repository pattern
+- [ ] **CRITICAL**: Integrate existing skill database from `/database` directory into iOS app
+- [ ] **CRITICAL**: Create server-side skill database API (should be on server, not bundled)
+- [ ] **CRITICAL**: Implement complete reference data services (languages, countries, cities, occupations, hobbies)
+- [ ] **CRITICAL**: Fix language database to show actual language names, not just codes
+- [ ] **CRITICAL**: Create proper skill database service with caching and optimization
+- [ ] **CRITICAL**: Implement skill search and filtering functionality
+- [ ] **CRITICAL**: Add skill selection UI components for onboarding and profile
+- [ ] **CRITICAL**: Create skill compatibility matrix for matching
+- [ ] **CRITICAL**: Implement progressive disclosure for skill selection (Category → Subcategory → Skill)
+- [ ] **CRITICAL**: Add skill analytics and tracking
+- [ ] **CRITICAL**: Create data access layer with Repository pattern
+- [ ] **CRITICAL**: Implement offline caching for skill database
+- [ ] **CRITICAL**: Add skill database health monitoring and failover
+
+**Priority: URGENT** - This is blocking core app functionality
 
 **AI Prompt:**
 ```
-Integrate the existing SkillTalk databases located at /Users/applemacmini/SkillTalk/database and /Users/applemacmini/SkillTalk/Sources/SkillTalk/Data/Services/ReferenceData/Implementation. Convert the database services to Swift with proper caching and Repository pattern following MVVM architecture.
+CRITICAL: The skill database integration is incomplete. The database exists at /database with 5,484 skills in 30+ languages but is NOT integrated into the iOS app. Users cannot select skills during onboarding or profile creation. 
+
+REQUIRED ACTIONS:
+1. Create SkillDatabaseService that loads skills from server API (not bundled)
+2. Implement complete skill selection UI with progressive disclosure
+3. Fix language database to show actual language names (English, Spanish, etc.)
+4. Create complete reference data services for countries, cities, occupations, hobbies
+5. Implement skill compatibility matrix for matching algorithm
+6. Add skill analytics and tracking
+
+The skill database should be server-side, not bundled with the app. Users need to see full lists of languages, countries, cities, occupations, and hobbies to choose from.
 ```
 
-### **Step 1.4: Theme System & UI Foundation** 
+### **Step 1.4: Reference Data Services Implementation**
+
+**Tasks:**
+- [ ] **CRITICAL**: Create complete LanguageService with actual language names
+- [ ] **CRITICAL**: Create complete CountryService with all countries and flags
+- [ ] **CRITICAL**: Create complete CityService with major cities by country
+- [ ] **CRITICAL**: Create complete OccupationService with all occupations
+- [ ] **CRITICAL**: Create complete HobbyService with all hobbies
+- [ ] **CRITICAL**: Implement multi-language support for all reference data
+- [ ] **CRITICAL**: Create reference data selection UI components
+- [ ] **CRITICAL**: Add search and filtering for all reference data
+- [ ] **CRITICAL**: Implement reference data caching and offline support
+- [ ] **CRITICAL**: Add reference data analytics and usage tracking
+
+**Priority: URGENT** - Required for user onboarding and profile creation
+
+**AI Prompt:**
+```
+CRITICAL: Reference data services are incomplete. Users cannot see full lists of languages, countries, cities, occupations, and hobbies. 
+
+REQUIRED:
+1. Complete LanguageService with actual language names (English, Spanish, French, etc.)
+2. Complete CountryService with all countries, flags, and dial codes
+3. Complete CityService with major cities organized by country
+4. Complete OccupationService with all occupations and categories
+5. Complete HobbyService with all hobbies and categories
+6. Multi-language support for all reference data
+7. Search and filtering UI for all reference data
+8. Proper caching and offline support
+
+Users need to see complete lists to choose from during onboarding and profile creation.
+```
+
+### **Step 1.5: Skill Selection UI Implementation**
+
+**Tasks:**
+- [ ] **CRITICAL**: Create SkillCategorySelectionView
+- [ ] **CRITICAL**: Create SkillSubcategorySelectionView  
+- [ ] **CRITICAL**: Create SkillSelectionView
+- [ ] **CRITICAL**: Create SkillProficiencySelector
+- [ ] **CRITICAL**: Create SkillSearchView with filters
+- [ ] **CRITICAL**: Create SkillCompatibilityView
+- [ ] **CRITICAL**: Create SkillAnalyticsView
+- [ ] **CRITICAL**: Implement progressive disclosure navigation
+- [ ] **CRITICAL**: Add skill selection to onboarding flow
+- [ ] **CRITICAL**: Add skill selection to profile editing
+- [ ] **CRITICAL**: Create skill matching algorithm integration
+- [ ] **CRITICAL**: Add skill validation and error handling
+
+**Priority: URGENT** - Required for user onboarding and matching
+
+**AI Prompt:**
+```
+CRITICAL: Skill selection UI is missing. Users cannot select skills during onboarding or profile creation.
+
+REQUIRED:
+1. Progressive disclosure UI: Category → Subcategory → Skill
+2. Skill proficiency level selector
+3. Skill search with filters
+4. Skill compatibility display
+5. Integration with onboarding flow
+6. Integration with profile editing
+7. Skill validation and error handling
+8. Skill analytics and tracking
+
+The UI should be intuitive and support the 5,484 skills in 30+ languages from the database.
+```
+
+### **Step 1.6: Theme System & UI Foundation** 
 
 **Tasks:**
 - [ ] Implement primary color system (#2fb0c7) (R0.10) ()
