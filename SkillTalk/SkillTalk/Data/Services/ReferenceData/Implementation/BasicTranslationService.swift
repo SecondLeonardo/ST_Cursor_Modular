@@ -4,6 +4,51 @@ import Foundation
 /// Handles server-side translation files for occupations and hobbies
 class BasicTranslationService: TranslationServiceProtocol {
     
+    // MARK: - Protocol Requirements
+    
+    var provider: ServiceProvider {
+        return .firebase // Or whichever provider you're using
+    }
+    
+    var isHealthy: Bool {
+        return true // TODO: Implement proper health check
+    }
+    
+    func translate(text: String, from sourceLanguage: String, to targetLanguage: String) async throws -> String {
+        // TODO: Implement actual translation
+        return text // Return original text for now
+    }
+    
+    func detectLanguage(text: String) async throws -> String {
+        // TODO: Implement language detection
+        return "en" // Default to English for now
+    }
+    
+    func getSupportedLanguages() async throws -> [TranslationLanguage] {
+        // TODO: Implement supported languages
+        return [
+            TranslationLanguage(code: "en", name: "English", nativeName: "English", isSupported: true),
+            TranslationLanguage(code: "es", name: "Spanish", nativeName: "Español", isSupported: true),
+            TranslationLanguage(code: "fr", name: "French", nativeName: "Français", isSupported: true)
+        ]
+    }
+    
+    func translateBatch(texts: [String], from sourceLanguage: String, to targetLanguage: String) async throws -> [String] {
+        // TODO: Implement batch translation
+        return texts // Return original texts for now
+    }
+    
+    func checkHealth() async -> ServiceHealth {
+        return ServiceHealth(
+            provider: provider,
+            status: .healthy,
+            responseTime: 0,
+            errorRate: 0,
+            lastChecked: Date(),
+            errorMessage: nil
+        )
+    }
+    
     // MARK: - Properties
     
     /// In-memory cache for translations
@@ -65,7 +110,7 @@ class BasicTranslationService: TranslationServiceProtocol {
             
         } catch {
             // Update status to failed
-            loadingStatus[cacheKey] = .failed(error)
+            loadingStatus[cacheKey] = .failed(error.localizedDescription)
             throw error
         }
     }
@@ -223,13 +268,10 @@ class BasicTranslationService: TranslationServiceProtocol {
         let cacheSize = calculateCacheSize()
         
         return TranslationCacheStatistics(
-            totalLanguages: totalLanguages,
-            loadedLanguages: loadedLanguages,
-            occupationsLoaded: occupationsLoaded,
-            hobbiesLoaded: hobbiesLoaded,
-            cacheSize: cacheSize,
-            lastUpdated: Date(),
-            hitRate: 0.85 // Placeholder hit rate
+            totalItems: totalLanguages,
+            cachedItems: loadedLanguages,
+            cacheHitRate: 0.85, // Placeholder hit rate
+            lastUpdated: Date()
         )
     }
     
@@ -316,12 +358,12 @@ class BasicTranslationService: TranslationServiceProtocol {
             
             return LocalizationHelper.TranslationLoadResult(
                 languageCode: languageCode,
-                referenceType: referenceType,
-                translations: [:],
-                categories: nil,
-                loadedAt: Date(),
+                itemCount: 0,
                 success: false,
-                error: TranslationError.parseError("File not found: \(resourcePath).json")
+                errorMessage: "File not found: \(resourcePath).json",
+                timestamp: Date(),
+                translations: [:],
+                categories: nil
             )
         }
         
@@ -342,12 +384,12 @@ class BasicTranslationService: TranslationServiceProtocol {
             
             return LocalizationHelper.TranslationLoadResult(
                 languageCode: languageCode,
-                referenceType: referenceType,
-                translations: translations,
-                categories: categories,
-                loadedAt: Date(),
+                itemCount: translations.count,
                 success: true,
-                error: nil
+                errorMessage: nil,
+                timestamp: Date(),
+                translations: translations,
+                categories: categories
             )
             
         } catch {
@@ -355,12 +397,12 @@ class BasicTranslationService: TranslationServiceProtocol {
             
             return LocalizationHelper.TranslationLoadResult(
                 languageCode: languageCode,
-                referenceType: referenceType,
-                translations: [:],
-                categories: nil,
-                loadedAt: Date(),
+                itemCount: 0,
                 success: false,
-                error: error
+                errorMessage: error.localizedDescription,
+                timestamp: Date(),
+                translations: [:],
+                categories: nil
             )
         }
     }

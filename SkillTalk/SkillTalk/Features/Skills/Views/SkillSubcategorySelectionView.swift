@@ -276,9 +276,9 @@ struct SkillSubcategorySelectionView_Previews: PreviewProvider {
     static var previews: some View {
         let sampleCategory = SkillCategory(
             id: "1",
-            name: "Technology",
-            description: "Programming and technical skills",
-            skillCount: 150
+            englishName: "Technology",
+            icon: "laptopcomputer",
+            sortOrder: 1
         )
         
         SkillSubcategorySelectionView(category: sampleCategory)

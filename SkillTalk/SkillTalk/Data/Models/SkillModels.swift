@@ -19,6 +19,11 @@ struct SkillCategory: Codable, Identifiable, Hashable {
     func localizedName(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
         return translations?[language] ?? englishName
     }
+    
+    /// Computed property for backward compatibility
+    var name: String {
+        return englishName
+    }
 }
 
 /// Represents a skill subcategory
@@ -33,6 +38,11 @@ struct SkillSubcategory: Codable, Identifiable, Hashable {
     /// Get localized name for the current language
     func localizedName(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
         return translations?[language] ?? englishName
+    }
+    
+    /// Computed property for backward compatibility
+    var name: String {
+        return englishName
     }
 }
 
@@ -50,6 +60,16 @@ struct Skill: Codable, Identifiable, Hashable {
     /// Get localized name for the current language
     func localizedName(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
         return translations?[language] ?? englishName
+    }
+    
+    /// Computed property for backward compatibility
+    var name: String {
+        return englishName
+    }
+    
+    /// Computed property for backward compatibility
+    var description: String? {
+        return nil // Skills don't have descriptions in this model
     }
 }
 
@@ -78,6 +98,16 @@ enum SkillDifficulty: String, Codable {
     case intermediate
     case advanced
     case expert
+    
+    /// Display name for UI
+    var displayName: String {
+        switch self {
+        case .beginner: return "Beginner"
+        case .intermediate: return "Intermediate"
+        case .advanced: return "Advanced"
+        case .expert: return "Expert"
+        }
+    }
 }
 
 /// User's proficiency level in a skill

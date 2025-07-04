@@ -50,7 +50,7 @@ struct SkillProficiencySelectorView: View {
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
                 
-                Text("How proficient are you in \(skill.name)?")
+                Text("How proficient are you in \(skill.englishName)?")
                     .font(.body)
                     .foregroundColor(.secondary)
                     .multilineTextAlignment(.center)
@@ -194,10 +194,13 @@ struct SkillProficiencySelectorView_Previews: PreviewProvider {
     static var previews: some View {
         let sampleSkill = Skill(
             id: "1",
-            name: "Swift Programming",
-            description: "iOS and macOS development with Swift",
+            subcategoryId: "programming",
+            englishName: "Swift Programming",
             difficulty: .intermediate,
-            tags: ["programming", "ios", "mobile"]
+            popularity: 5,
+            icon: "swift",
+            tags: ["programming", "ios", "mobile"],
+            translations: nil
         )
         
         SkillProficiencySelectorView(skill: sampleSkill) { proficiency in

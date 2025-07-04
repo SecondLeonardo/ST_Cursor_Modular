@@ -7,7 +7,7 @@ public class OccupationsDatabase: ReferenceDataDatabase {
     // MARK: - Localization Support
     
     /// Current language for localization (defaults to system language)
-    private static var currentLanguage: String = Locale.current.language.languageCode?.identifier ?? "en"
+    internal static var currentLanguage: String = Locale.current.language.languageCode?.identifier ?? "en"
     
     /// Set the current language for database operations
     public static func setCurrentLanguage(_ languageCode: String) {
@@ -28,9 +28,8 @@ public class OccupationsDatabase: ReferenceDataDatabase {
     
     /// Get occupations by category with localization support
     public static func getOccupationsByCategory(_ category: String, localizedFor languageCode: String? = nil) -> [OccupationModel] {
-        let targetLanguage = languageCode ?? currentLanguage
         return _allOccupations.filter { 
-            $0.category.localized(for: targetLanguage).lowercased() == category.lowercased() 
+            $0.englishCategory.lowercased() == category.lowercased() 
         }
     }
     
@@ -41,8 +40,7 @@ public class OccupationsDatabase: ReferenceDataDatabase {
     
     /// Get all available categories with localization support
     public static func getAllCategories(localizedFor languageCode: String? = nil) -> [String] {
-        let targetLanguage = languageCode ?? currentLanguage
-        let categories = Set(_allOccupations.map { $0.category.localized(for: targetLanguage) })
+        let categories = Set(_allOccupations.map { $0.englishCategory })
         return Array(categories).sorted()
     }
     
@@ -50,13 +48,12 @@ public class OccupationsDatabase: ReferenceDataDatabase {
     public static func searchOccupations(_ query: String, localizedFor languageCode: String? = nil) -> [OccupationModel] {
         guard !query.isEmpty else { return getAllOccupations(localizedFor: languageCode) }
         
-        let targetLanguage = languageCode ?? currentLanguage
         let lowercaseQuery = query.lowercased()
         
         return _allOccupations.filter { occupation in
             // Search in localized name and category
-            occupation.name.localized(for: targetLanguage).lowercased().contains(lowercaseQuery) ||
-            occupation.category.localized(for: targetLanguage).lowercased().contains(lowercaseQuery) ||
+            occupation.englishName.lowercased().contains(lowercaseQuery) ||
+            occupation.englishCategory.lowercased().contains(lowercaseQuery) ||
             // Search in occupation ID
             occupation.id.lowercased().contains(lowercaseQuery)
         }
@@ -64,11 +61,10 @@ public class OccupationsDatabase: ReferenceDataDatabase {
     
     /// Get occupations grouped by category for organized display with localization support
     public static func getOccupationsByCategory(localizedFor languageCode: String? = nil) -> [String: [OccupationModel]] {
-        let targetLanguage = languageCode ?? currentLanguage
         var grouped: [String: [OccupationModel]] = [:]
         
         for occupation in _allOccupations {
-            let localizedCategory = occupation.category.localized(for: targetLanguage)
+            let localizedCategory = occupation.englishCategory
             if grouped[localizedCategory] == nil {
                 grouped[localizedCategory] = []
             }
@@ -78,7 +74,7 @@ public class OccupationsDatabase: ReferenceDataDatabase {
         // Sort occupations within each category by localized name
         for key in grouped.keys {
             grouped[key]?.sort { 
-                $0.name.localized(for: targetLanguage) < $1.name.localized(for: targetLanguage) 
+                $0.englishName < $1.englishName 
             }
         }
         
@@ -132,13 +128,12 @@ public class OccupationsDatabase: ReferenceDataDatabase {
         
         guard !query.isEmpty else { return allOccupations }
         
-        let targetLanguage = languageCode ?? currentLanguage
         let lowercaseQuery = query.lowercased()
         
         return allOccupations.filter { occupation in
             // Search in localized name and category (now with server translations)
-            occupation.name.localized(for: targetLanguage).lowercased().contains(lowercaseQuery) ||
-            occupation.category.localized(for: targetLanguage).lowercased().contains(lowercaseQuery) ||
+            occupation.englishName.lowercased().contains(lowercaseQuery) ||
+            occupation.englishCategory.lowercased().contains(lowercaseQuery) ||
             // Search in occupation ID
             occupation.id.lowercased().contains(lowercaseQuery)
         }
@@ -150,7 +145,7 @@ public class OccupationsDatabase: ReferenceDataDatabase {
         let targetLanguage = languageCode ?? currentLanguage
         
         return allOccupations.filter { 
-            $0.category.localized(for: targetLanguage).lowercased() == category.lowercased() 
+            $0.englishCategory.lowercased() == category.lowercased() 
         }
     }
     
@@ -195,8 +190,8 @@ public class OccupationsDatabase: ReferenceDataDatabase {
         
         // Apply translations to each occupation
         return occupations.map { occupation in
-            var updatedTranslations = occupation.name.translations
-            var updatedCategoryTranslations = occupation.category.translations
+            var updatedTranslations = occupation.translations ?? [:]
+            var updatedCategoryTranslations = occupation.categoryTranslations ?? [:]
             
             // Apply server translation for occupation name
             if let serverTranslation = translations[occupation.id] {
@@ -204,27 +199,14 @@ public class OccupationsDatabase: ReferenceDataDatabase {
             }
             
             // Apply server translation for category
-            let categoryKey = occupation.category.englishName.lowercased()
+            let categoryKey = occupation.englishCategory.lowercased()
             if let serverCategoryTranslation = translations[categoryKey] {
                 updatedCategoryTranslations[languageCode] = serverCategoryTranslation
             }
             
-            // Create updated LocalizedString objects
-            let updatedName = LocalizedString(
-                englishName: occupation.name.englishName,
-                translations: updatedTranslations
-            )
-            
-            let updatedCategory = LocalizedString(
-                englishName: occupation.category.englishName,
-                translations: updatedCategoryTranslations
-            )
-            
-            return OccupationModel(
-                id: occupation.id,
-                name: updatedName,
-                category: updatedCategory,
-                isPopular: occupation.isPopular
+            return occupation.withServerTranslations(
+                nameTranslations: updatedTranslations,
+                categoryTranslations: updatedCategoryTranslations
             )
         }
     }
@@ -417,4 +399,38 @@ public class OccupationsDatabase: ReferenceDataDatabase {
         OccupationModel(id: "private-investigator", englishName: "Private Investigator", englishCategory: "Public Safety"),
         OccupationModel(id: "bodyguard", englishName: "Bodyguard", englishCategory: "Public Safety")
     ]
+    
+    // MARK: - ReferenceDataProtocol Implementation
+    
+    public static func getAll() -> [OccupationModel] {
+        return getAllOccupations()
+    }
+    
+    public static func getById(_ id: String) -> OccupationModel? {
+        return getOccupationById(id)
+    }
+    
+    public static func search(_ query: String) -> [OccupationModel] {
+        return searchOccupations(query)
+    }
+    
+    public static func getCategories() -> [String] {
+        return getAllCategories()
+    }
+    
+    public static func getByCategory(_ category: String) -> [OccupationModel] {
+        return getOccupationsByCategory(category)
+    }
+    
+    // MARK: - ReferenceDataDatabase Protocol Implementation
+    
+    public static func getAllItems<T>(localizedFor languageCode: String?) -> [T] {
+        guard T.self == OccupationModel.self else { return [] }
+        return getAllOccupations(localizedFor: languageCode) as! [T]
+    }
+    
+    public static func getItemById<T>(_ id: String, localizedFor languageCode: String?) -> T? {
+        guard T.self == OccupationModel.self else { return nil }
+        return getOccupationById(id, localizedFor: languageCode) as? T
+    }
 } 

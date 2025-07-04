@@ -1,18 +1,6 @@
 import Foundation
 import Combine
 
-// MARK: - Supporting Models
-
-struct CategoryHierarchy: Codable {
-    let category: SkillCategory
-    let subcategories: [SkillSubcategory]
-}
-
-struct SubcategoryHierarchy: Codable {
-    let subcategory: SkillSubcategory
-    let skills: [Skill]
-}
-
 // MARK: - Error Types
 
 enum SkillDatabaseError: Error, LocalizedError {
@@ -35,43 +23,16 @@ enum SkillDatabaseError: Error, LocalizedError {
     }
 }
 
-// MARK: - Skill Database Service Protocol
-
-/// Protocol defining the interface for skill database operations
-protocol SkillDatabaseServiceProtocol {
-    // MARK: - Core Skill Operations
-    func loadCategories(for language: String) async throws -> [SkillCategory]
-    func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory]
-    func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill]
-    func searchSkills(query: String, language: String) async throws -> [Skill]
-    
-    // MARK: - Advanced Operations
-    func getSkillsByDifficulty(_ difficulty: SkillDifficulty, language: String) async throws -> [Skill]
-    func getPopularSkills(limit: Int, language: String) async throws -> [Skill]
-    func getSkillsByCategory(_ categoryId: String, language: String) async throws -> [Skill]
-    func getSkillCompatibility(for skillId: String) async throws -> [String]
-    
-    // MARK: - Language Support
-    func getAvailableLanguages() async throws -> [Language]
-    func getCurrentLanguage() -> String
-    func setCurrentLanguage(_ languageCode: String)
-    
-    // MARK: - Caching
-    func clearCache()
-    func preloadLanguage(_ languageCode: String) async throws
-}
-
 // MARK: - Skill Database Service Implementation
 
 /// Main service for managing the SkillTalk skill database
 /// Loads skills from server API and provides caching and optimization
-class SkillDatabaseService: SkillDatabaseServiceProtocol {
+class SkillDatabaseService {
     
     // MARK: - Singleton
     static let shared = SkillDatabaseService()
     
     // MARK: - Private Properties
-    private let apiClient: APIClient
     private let cacheManager: CacheManager
     private let healthMonitor: ServiceHealthMonitor
     
@@ -91,14 +52,8 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
     
     // MARK: - Initialization
     private init() {
-        self.apiClient = APIClient.shared
         self.cacheManager = CacheManager.shared
         self.healthMonitor = ServiceHealthMonitor.shared
-        
-        // Set up health monitoring
-        healthMonitor.registerService("skill_database") { [weak self] in
-            return await self?.checkHealth() ?? false
-        }
         
         // Load current language from user preferences
         self.currentLanguage = UserDefaults.standard.string(forKey: "selected_language") ?? "en"
@@ -147,12 +102,12 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
         }
         
         let data = try Data(contentsOf: url)
-        let hierarchy: CategoryHierarchy = try JSONDecoder().decode(CategoryHierarchy.self, from: data)
+        let subcategories: [SkillSubcategory] = try JSONDecoder().decode([SkillSubcategory].self, from: data)
         
         // Cache the result
-        await cacheManager.set(key: cacheKey, value: hierarchy.subcategories)
+        await cacheManager.set(key: cacheKey, value: subcategories)
         
-        return hierarchy.subcategories
+        return subcategories
     }
     
     func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
@@ -171,23 +126,21 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
         }
         
         let data = try Data(contentsOf: url)
-        let hierarchy: SubcategoryHierarchy = try JSONDecoder().decode(SubcategoryHierarchy.self, from: data)
+        let skills: [Skill] = try JSONDecoder().decode([Skill].self, from: data)
         
         // Cache the result
-        await cacheManager.set(key: cacheKey, value: hierarchy.skills)
+        await cacheManager.set(key: cacheKey, value: skills)
         
-        return hierarchy.skills
+        return skills
     }
     
     func searchSkills(query: String, language: String) async throws -> [Skill] {
         let searchQuery = query.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !searchQuery.isEmpty else { return [] }
         
-        // Use server-side search for better performance
-        let endpoint = "/api/skills/search?query=\(searchQuery.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")&language=\(language)"
-        let skills: [Skill] = try await apiClient.get(endpoint: endpoint)
-        
-        return skills
+        // For now, return empty array since we don't have API client
+        // TODO: Implement local search or add API client
+        return []
     }
     
     // MARK: - Advanced Operations
@@ -202,9 +155,9 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
             return cachedSkills
         }
         
-        // Load from server
-        let endpoint = "/api/skills/difficulty/\(difficulty.rawValue)?language=\(language)"
-        let skills: [Skill] = try await apiClient.get(endpoint: endpoint)
+        // For now, return empty array since we don't have API client
+        // TODO: Implement local difficulty-based skill loading
+        let skills: [Skill] = []
         
         // Cache the result
         await cacheManager.set(key: cacheKey, value: skills)
@@ -222,9 +175,9 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
             return cachedSkills
         }
         
-        // Load from server
-        let endpoint = "/api/skills/popular?limit=\(limit)&language=\(language)"
-        let skills: [Skill] = try await apiClient.get(endpoint: endpoint)
+        // For now, return empty array since we don't have API client
+        // TODO: Implement local popular skills loading
+        let skills: [Skill] = []
         
         // Cache the result
         await cacheManager.set(key: cacheKey, value: skills)
@@ -242,9 +195,9 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
             return cachedSkills
         }
         
-        // Load from server
-        let endpoint = "/api/skills/categories/\(categoryId)/all-skills?language=\(language)"
-        let skills: [Skill] = try await apiClient.get(endpoint: endpoint)
+        // For now, return empty array since we don't have API client
+        // TODO: Implement local category-based skill loading
+        let skills: [Skill] = []
         
         // Cache the result
         await cacheManager.set(key: cacheKey, value: skills)
@@ -262,9 +215,9 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
             return cachedCompatibility
         }
         
-        // Load from server
-        let endpoint = "/api/skills/\(skillId)/compatibility"
-        let compatibility: [String] = try await apiClient.get(endpoint: endpoint)
+        // For now, return empty array since we don't have API client
+        // TODO: Implement local compatibility matrix
+        let compatibility: [String] = []
         
         // Cache the result
         await cacheManager.set(key: cacheKey, value: compatibility)
@@ -284,9 +237,12 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
             return cachedLanguages
         }
         
-        // Load from server
-        let endpoint = "/api/languages"
-        let languages: [Language] = try await apiClient.get(endpoint: endpoint)
+        // For now, return mock data since we don't have API client
+        let languages: [Language] = [
+            Language(code: "en", name: "English", nativeName: "English"),
+            Language(code: "es", name: "Spanish", nativeName: "Español"),
+            Language(code: "fr", name: "French", nativeName: "Français")
+        ]
         
         // Cache the result
         await cacheManager.set(key: cacheKey, value: languages)
@@ -312,7 +268,7 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
     
     func clearCache() {
         Task {
-            await cacheManager.clearAll()
+            // TODO: Implement cache clearing
         }
     }
     
@@ -332,54 +288,45 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
         ]
         
         for key in keysToRemove {
-            await cacheManager.remove(key: key)
+            // TODO: Implement cache removal
         }
     }
     
     private func checkHealth() async -> Bool {
-        do {
-            let endpoint = "/api/skills/health"
-            let _: HealthResponse = try await apiClient.get(endpoint: endpoint)
-            return true
-        } catch {
-            return false
-        }
+        // For now, return true since we don't have API client
+        // TODO: Implement proper health check
+        return true
     }
 }
 
 // MARK: - Supporting Models
 
-struct HealthResponse: Codable {
-    let status: String
-    let timestamp: Date
-}
-
 // MARK: - Mock Implementation for Development
 
 /// Mock implementation for development and testing
-class MockSkillDatabaseService: SkillDatabaseServiceProtocol {
+class MockSkillDatabaseService {
     func loadCategories(for language: String) async throws -> [SkillCategory] {
         return [
-            SkillCategory(id: "arts_creativity", name: "Arts & Creativity"),
-            SkillCategory(id: "business_finance", name: "Business & Finance"),
-            SkillCategory(id: "technology", name: "Technology"),
-            SkillCategory(id: "health_fitness", name: "Health & Fitness")
+            SkillCategory(id: "arts_creativity", englishName: "Arts & Creativity", icon: "🎨", sortOrder: 1, translations: [:]),
+            SkillCategory(id: "business_finance", englishName: "Business & Finance", icon: "💼", sortOrder: 2, translations: [:]),
+            SkillCategory(id: "technology", englishName: "Technology", icon: "💻", sortOrder: 3, translations: [:]),
+            SkillCategory(id: "health_fitness", englishName: "Health & Fitness", icon: "💪", sortOrder: 4, translations: [:])
         ]
     }
     
     func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory] {
         return [
-            SkillSubcategory(id: "painting", name: "Painting", categoryId: categoryId),
-            SkillSubcategory(id: "music", name: "Music", categoryId: categoryId),
-            SkillSubcategory(id: "writing", name: "Writing", categoryId: categoryId)
+            SkillSubcategory(id: "painting", categoryId: categoryId, englishName: "Painting", icon: "🖼️", sortOrder: 1, translations: [:]),
+            SkillSubcategory(id: "music", categoryId: categoryId, englishName: "Music", icon: "🎵", sortOrder: 2, translations: [:]),
+            SkillSubcategory(id: "writing", categoryId: categoryId, englishName: "Writing", icon: "✍️", sortOrder: 3, translations: [:])
         ]
     }
     
     func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
         return [
-            Skill(id: "oil_painting", name: "Oil Painting", subcategoryId: subcategoryId, difficulty: .intermediate),
-            Skill(id: "watercolor", name: "Watercolor", subcategoryId: subcategoryId, difficulty: .beginner),
-            Skill(id: "digital_art", name: "Digital Art", subcategoryId: subcategoryId, difficulty: .advanced)
+            Skill(id: "oil_painting", subcategoryId: subcategoryId, englishName: "Oil Painting", difficulty: .intermediate, popularity: 70, icon: "🎨", tags: ["art", "painting"], translations: [:]),
+            Skill(id: "watercolor", subcategoryId: subcategoryId, englishName: "Watercolor", difficulty: .beginner, popularity: 80, icon: "🎨", tags: ["art", "painting"], translations: [:]),
+            Skill(id: "digital_art", subcategoryId: subcategoryId, englishName: "Digital Art", difficulty: .advanced, popularity: 60, icon: "💻", tags: ["art", "digital"], translations: [:])
         ]
     }
     

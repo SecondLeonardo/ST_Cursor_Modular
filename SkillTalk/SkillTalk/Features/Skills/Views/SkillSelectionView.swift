@@ -244,7 +244,7 @@ struct SkillCardView: View {
                     }
                     
                     // Tags
-                    if let tags = skill.tags, !tags.isEmpty {
+                    if !skill.tags.isEmpty {
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack(spacing: 8) {
                                 ForEach(tags.prefix(3), id: \.self) { tag in
@@ -364,7 +364,7 @@ class SkillSelectionViewModel: ObservableObject {
         filteredSkills = skills.filter { skill in
             skill.name.localizedCaseInsensitiveContains(query) ||
             (skill.description?.localizedCaseInsensitiveContains(query) ?? false) ||
-            (skill.tags?.contains { $0.localizedCaseInsensitiveContains(query) } ?? false)
+            skill.tags.contains { $0.localizedCaseInsensitiveContains(query) }
         }
     }
     
@@ -433,16 +433,17 @@ struct SkillSelectionView_Previews: PreviewProvider {
     static var previews: some View {
         let sampleCategory = SkillCategory(
             id: "1",
-            name: "Technology",
-            description: "Programming and technical skills",
-            skillCount: 150
+            englishName: "Technology",
+            icon: "laptopcomputer",
+            sortOrder: 1
         )
         
         let sampleSubcategory = SkillSubcategory(
             id: "1",
-            name: "Programming Languages",
-            description: "Various programming languages",
-            skillCount: 25
+            categoryId: "1",
+            englishName: "Programming Languages",
+            icon: "code",
+            sortOrder: 1
         )
         
         SkillSelectionView(category: sampleCategory, subcategory: sampleSubcategory)

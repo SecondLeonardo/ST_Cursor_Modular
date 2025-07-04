@@ -150,11 +150,8 @@ class DatabaseService: DatabaseServiceProtocol {
     
     /// Initialize all databases
     func initialize() async throws {
-        async let countriesInit: Void = countryDatabase.loadCountries()
-        async let citiesInit: Void = cityDatabase.loadCities()
-        async let languagesInit: Void = languageDatabase.loadLanguages()
-        
-        try await [countriesInit, citiesInit, languagesInit].reduce(into: ()) { _, _ in }
+        // Databases are already initialized when accessed
+        // No async initialization needed for static databases
     }
     
     /// Set the current language for all databases
@@ -185,29 +182,29 @@ class DatabaseService: DatabaseServiceProtocol {
     // MARK: - Country Methods
     
     func getAllCountries() -> [CountryModel] {
-        return countryDatabase.getAllCountries()
+        return CountryDatabase.getAllCountries()
     }
     
     func getCountryByCode(_ code: String) -> CountryModel? {
-        return countryDatabase.getCountryByCode(code)
+        return CountryDatabase.getCountryByCode(code)
     }
     
     func searchCountries(_ query: String) -> [CountryModel] {
-        return countryDatabase.searchCountries(query)
+        return CountryDatabase.searchCountries(query)
     }
     
     // MARK: - City Methods
     
     func getAllCities() -> [CityModel] {
-        return cityDatabase.getAllCities()
+        return CitiesDatabase.getAllCities()
     }
     
     func getCityById(_ id: String) -> CityModel? {
-        return cityDatabase.getCityById(id)
+        return CitiesDatabase.getCityById(id)
     }
     
     func getCitiesByCountryCode(_ code: String) -> [CityModel] {
-        return cityDatabase.getCitiesByCountryCode(code)
+        return CitiesDatabase.getCitiesByCountry(code)
     }
     
     // MARK: - Language Methods

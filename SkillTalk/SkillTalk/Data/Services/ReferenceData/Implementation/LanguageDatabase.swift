@@ -43,7 +43,7 @@ public class LanguageDatabase {
         }
         
         return languages.filter { language in
-            language.englishName.lowercased().contains(searchQuery) ||
+            language.name.lowercased().contains(searchQuery) ||
             language.nativeName.lowercased().contains(searchQuery) ||
             language.code.lowercased().contains(searchQuery)
         }
@@ -76,17 +76,17 @@ public class LanguageDatabase {
         }
         
         // Sort languages alphabetically
-        languages = decodedLanguages.sorted { $0.englishName < $1.englishName }
+        languages = decodedLanguages.sorted { $0.name < $1.name }
         
         // Group languages by first letter
         languagesByAlphabet = Dictionary(grouping: languages) { language in
-            String(language.englishName.prefix(1).uppercased())
+            String(language.name.prefix(1).uppercased())
         }
         
         // Set popular languages
         popularLanguages = languages.filter { language in
             Self.popularLanguageCodes.contains(language.code)
-        }.sorted { $0.englishName < $1.englishName }
+        }.sorted { $0.name < $1.name }
     }
 }
 

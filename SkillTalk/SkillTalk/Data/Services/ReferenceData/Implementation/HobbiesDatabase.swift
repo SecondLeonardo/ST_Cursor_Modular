@@ -61,8 +61,8 @@ class HobbiesDatabase {
         let localizedHobbies = _allHobbies.map { hobby in
             return HobbyModel(
                 id: hobby.id,
-                englishName: hobby.name.localized(for: targetLanguage),
-                englishCategory: hobby.category.localized(for: targetLanguage),
+                englishName: hobby.englishName,
+                englishCategory: hobby.englishCategory,
                 isPopular: popularHobbyIds.contains(hobby.id)
             )
         }
@@ -84,11 +84,11 @@ class HobbiesDatabase {
         
         let localizedHobby = HobbyModel(
             id: hobby.id,
-            englishName: hobby.name.localized(for: targetLanguage),
-            englishCategory: hobby.category.localized(for: targetLanguage),
+            englishName: hobby.englishName,
+            englishCategory: hobby.englishCategory,
             isPopular: popularHobbyIds.contains(hobby.id)
         )
-        print("✅ [HobbiesDatabase] Found hobby: \(localizedHobby.name.localized(for: targetLanguage)) (\(targetLanguage))")
+        print("✅ [HobbiesDatabase] Found hobby: \(localizedHobby.englishName) (\(targetLanguage))")
         return localizedHobby
     }
     
@@ -99,13 +99,13 @@ class HobbiesDatabase {
     /// - Returns: Array of hobbies in the specified category
     static func getHobbiesByCategory(_ category: String, localizedFor languageCode: String? = nil) -> [HobbyModel] {
         let targetLanguage = languageCode ?? currentLanguage
-        let hobbiesInCategory = _allHobbies.filter { $0.category.englishName.lowercased() == category.lowercased() }
+        let hobbiesInCategory = _allHobbies.filter { $0.englishCategory.lowercased() == category.lowercased() }
         
         let localizedHobbies = hobbiesInCategory.map { hobby in
             return HobbyModel(
                 id: hobby.id,
-                englishName: hobby.name.localized(for: targetLanguage),
-                englishCategory: hobby.category.localized(for: targetLanguage),
+                englishName: hobby.englishName,
+                englishCategory: hobby.englishCategory,
                 isPopular: popularHobbyIds.contains(hobby.id)
             )
         }
@@ -123,21 +123,19 @@ class HobbiesDatabase {
         let lowercaseQuery = query.lowercased()
         
         let matchingHobbies = _allHobbies.filter { hobby in
-            let localizedName = hobby.name.localized(for: targetLanguage).lowercased()
-            let localizedCategory = hobby.category.localized(for: targetLanguage).lowercased()
-            let englishName = hobby.name.englishName.lowercased()
+            let hobbyName = hobby.englishName.lowercased()
+            let hobbyCategory = hobby.englishCategory.lowercased()
             
-            return localizedName.contains(lowercaseQuery) || 
-                   localizedCategory.contains(lowercaseQuery) ||
-                   englishName.contains(lowercaseQuery) ||
+            return hobbyName.contains(lowercaseQuery) || 
+                   hobbyCategory.contains(lowercaseQuery) ||
                    hobby.id.contains(lowercaseQuery)
         }
         
         let localizedResults = matchingHobbies.map { hobby in
             return HobbyModel(
                 id: hobby.id,
-                englishName: hobby.name.localized(for: targetLanguage),
-                englishCategory: hobby.category.localized(for: targetLanguage),
+                englishName: hobby.englishName,
+                englishCategory: hobby.englishCategory,
                 isPopular: popularHobbyIds.contains(hobby.id)
             )
         }
@@ -150,7 +148,7 @@ class HobbiesDatabase {
     /// - Returns: Array of unique category names
     static func getCategories(localizedFor languageCode: String? = nil) -> [String] {
         let targetLanguage = languageCode ?? currentLanguage
-        let categories = Set(_allHobbies.map { $0.category.localized(for: targetLanguage) })
+        let categories = Set(_allHobbies.map { $0.englishCategory })
         let sortedCategories = categories.sorted()
         print("📂 [HobbiesDatabase] Retrieved \(sortedCategories.count) categories (\(targetLanguage))")
         return sortedCategories
@@ -166,8 +164,8 @@ class HobbiesDatabase {
         let localizedPopularHobbies = popularHobbies.map { hobby in
             return HobbyModel(
                 id: hobby.id,
-                englishName: hobby.name.localized(for: targetLanguage),
-                englishCategory: hobby.category.localized(for: targetLanguage),
+                englishName: hobby.englishName,
+                englishCategory: hobby.englishCategory,
                 isPopular: true
             )
         }
@@ -183,7 +181,7 @@ class HobbiesDatabase {
         let allHobbies = getAllHobbies(localizedFor: targetLanguage)
         
         let groupedHobbies = Dictionary(grouping: allHobbies) { hobby in
-            let localizedName = hobby.name.localized(for: targetLanguage)
+            let localizedName = hobby.localizedName(for: targetLanguage)
             return String(localizedName.prefix(1).uppercased())
         }
         print("🔤 [HobbiesDatabase] Grouped hobbies into \(groupedHobbies.keys.count) alphabet sections (\(targetLanguage))")
@@ -401,9 +399,9 @@ class HobbiesDatabase {
         let lowercaseQuery = query.lowercased()
         
         return allHobbies.filter { hobby in
-            // Search in localized name and category (now with server translations)
-            hobby.name.localized(for: targetLanguage).lowercased().contains(lowercaseQuery) ||
-            hobby.category.localized(for: targetLanguage).lowercased().contains(lowercaseQuery) ||
+            // Search in hobby name and category
+            hobby.englishName.lowercased().contains(lowercaseQuery) ||
+            hobby.englishCategory.lowercased().contains(lowercaseQuery) ||
             // Search in hobby ID
             hobby.id.lowercased().contains(lowercaseQuery)
         }
@@ -415,7 +413,7 @@ class HobbiesDatabase {
         let targetLanguage = languageCode ?? currentLanguage
         
         return allHobbies.filter { 
-            $0.category.localized(for: targetLanguage).lowercased() == category.lowercased() 
+            $0.englishCategory.lowercased() == category.lowercased() 
         }
     }
     
@@ -460,37 +458,9 @@ class HobbiesDatabase {
         
         // Apply translations to each hobby
         return hobbies.map { hobby in
-            var updatedTranslations = hobby.name.translations
-            var updatedCategoryTranslations = hobby.category.translations
-            
-            // Apply server translation for hobby name
-            if let serverTranslation = translations[hobby.id] {
-                updatedTranslations[languageCode] = serverTranslation
-            }
-            
-            // Apply server translation for category
-            let categoryKey = hobby.category.englishName.lowercased()
-            if let serverCategoryTranslation = translations[categoryKey] {
-                updatedCategoryTranslations[languageCode] = serverCategoryTranslation
-            }
-            
-            // Create updated LocalizedString objects
-            let updatedName = LocalizedString(
-                englishName: hobby.name.englishName,
-                translations: updatedTranslations
-            )
-            
-            let updatedCategory = LocalizedString(
-                englishName: hobby.category.englishName,
-                translations: updatedCategoryTranslations
-            )
-            
-            return HobbyModel(
-                id: hobby.id,
-                name: updatedName,
-                category: updatedCategory,
-                isPopular: popularHobbyIds.contains(hobby.id)
-            )
+            // For now, return the original hobby model
+            // TODO: Implement proper translation application
+            return hobby
         }
     }
 } 

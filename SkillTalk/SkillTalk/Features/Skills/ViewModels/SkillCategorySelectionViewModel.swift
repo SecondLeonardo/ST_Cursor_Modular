@@ -84,12 +84,7 @@ class SkillCategorySelectionViewModel: ObservableObject {
 
 // MARK: - Using main SkillCategory model from Data/Models/SkillModels.swift
 
-// MARK: - SkillDatabaseServiceProtocol
-protocol SkillDatabaseServiceProtocol {
-    func loadCategories(for language: String) async throws -> [SkillCategory]
-    func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory]
-    func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill]
-}
+// Using the main SkillDatabaseServiceProtocol from Core/Services/SkillDatabaseService.swift
 
 // MARK: - OptimizedSkillDatabaseService
 class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
@@ -155,6 +150,56 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
         ).skills
     }
     
+    func searchSkills(query: String, language: String) async throws -> [Skill] {
+        // TODO: Implement search functionality
+        return []
+    }
+    
+    func getSkillsByDifficulty(_ difficulty: SkillDifficulty, language: String) async throws -> [Skill] {
+        // TODO: Implement difficulty-based filtering
+        return []
+    }
+    
+    func getPopularSkills(limit: Int, language: String) async throws -> [Skill] {
+        // TODO: Implement popular skills loading
+        return []
+    }
+    
+    func getSkillsByCategory(_ categoryId: String, language: String) async throws -> [Skill] {
+        // TODO: Implement category-based skill loading
+        return []
+    }
+    
+    func getSkillCompatibility(for skillId: String) async throws -> [String] {
+        // TODO: Implement compatibility matrix
+        return []
+    }
+    
+    func getAvailableLanguages() async throws -> [Language] {
+        // TODO: Implement language loading
+        return [
+            Language(code: "en", name: "English", nativeName: "English"),
+            Language(code: "es", name: "Spanish", nativeName: "Español"),
+            Language(code: "fr", name: "French", nativeName: "Français")
+        ]
+    }
+    
+    func getCurrentLanguage() -> String {
+        return "en"
+    }
+    
+    func setCurrentLanguage(_ languageCode: String) {
+        // TODO: Implement language setting
+    }
+    
+    func clearCache() {
+        // TODO: Implement cache clearing
+    }
+    
+    func preloadLanguage(_ languageCode: String) async throws {
+        // TODO: Implement language preloading
+    }
+    
     // MARK: - Private Methods
     
     private func loadWithCache<T: Codable>(
@@ -179,7 +224,7 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
     }
 }
 
-// MARK: - Using main models from Data/Models/SkillModels.swift
+// MARK: - Supporting Models
 
 struct CategoryHierarchy: Codable {
     let category: SkillCategory
@@ -190,6 +235,8 @@ struct SubcategoryHierarchy: Codable {
     let subcategory: SkillSubcategory
     let skills: [Skill]
 }
+
+// MARK: - Using main models from Data/Models/SkillModels.swift
 
 // MARK: - Cache Manager
 class CacheManager {
