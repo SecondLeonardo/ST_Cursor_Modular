@@ -133,25 +133,25 @@ public enum LocationServiceError: LocalizedError {
 /// Protocol for location services with multi-provider support
 public protocol LocationServiceProtocol: ObservableObject {
     /// Current user location
-    var currentLocation: UserLocation? { get }
+    var currentLocation: UserLocation? { get async }
     
     /// Location permission status
-    var permissionStatus: CLAuthorizationStatus { get }
+    var permissionStatus: CLAuthorizationStatus { get async }
     
     /// Location services enabled
-    var locationServicesEnabled: Bool { get }
+    var locationServicesEnabled: Bool { get async }
     
     /// Privacy level for location sharing
-    var privacyLevel: LocationPrivacyLevel { get set }
+    var privacyLevel: LocationPrivacyLevel { get async }
     
     /// Is location tracking active
-    var isTracking: Bool { get }
+    var isTracking: Bool { get async }
     
     /// Location update publisher
-    var locationPublisher: AnyPublisher<UserLocation, Never> { get }
+    var locationPublisher: AnyPublisher<UserLocation, Never> { get async }
     
     /// Permission status publisher
-    var permissionPublisher: AnyPublisher<CLAuthorizationStatus, Never> { get }
+    var permissionPublisher: AnyPublisher<CLAuthorizationStatus, Never> { get async }
     
     /// Request location permission
     func requestPermission() async throws
@@ -160,13 +160,13 @@ public protocol LocationServiceProtocol: ObservableObject {
     func startTracking() async throws
     
     /// Stop location tracking
-    func stopTracking()
+    func stopTracking() async
     
     /// Get current location once
     func getCurrentLocation() async throws -> UserLocation
     
     /// Update location privacy settings
-    func updatePrivacyLevel(_ level: LocationPrivacyLevel)
+    func updatePrivacyLevel(_ level: LocationPrivacyLevel) async
     
     /// Get nearby users within specified radius
     func getNearbyUsers(radius: Double) async throws -> [String] // Returns user IDs
@@ -175,10 +175,10 @@ public protocol LocationServiceProtocol: ObservableObject {
     func calculateDistance(to userId: String) async throws -> Double
     
     /// Check if location sharing is allowed
-    func isLocationSharingAllowed() -> Bool
+    func isLocationSharingAllowed() async -> Bool
     
     /// Get formatted location string for display
-    func getFormattedLocation() -> String
+    func getFormattedLocation() async -> String
 }
 
 // MARK: - Core Location Service Implementation
@@ -607,8 +607,8 @@ public class MultiLocationService: LocationServiceProtocol {
     @Published public var privacyLevel: LocationPrivacyLevel = .city
     @Published public private(set) var isTracking: Bool = false
     
-    private let primaryService: LocationServiceProtocol
-    private let fallbackService: LocationServiceProtocol
+    private let primaryService: any LocationServiceProtocol
+    private let fallbackService: any LocationServiceProtocol
     private let healthMonitor: LocationServiceHealthMonitor
     
     private let locationSubject = PassthroughSubject<UserLocation, Never>()
@@ -631,12 +631,13 @@ public class MultiLocationService: LocationServiceProtocol {
         self.fallbackService = fallbackService ?? IPLocationService()
         self.healthMonitor = healthMonitor ?? LocationServiceHealthMonitor()
         
-        setupBindings()
+        Task { await setupBindings() }
     }
     
-    private func setupBindings() {
+    private func setupBindings() async {
         // Bind to primary service
-        primaryService.locationPublisher
+        let locationPublisher = await primaryService.locationPublisher
+        locationPublisher
             .sink { [weak self] location in
                 self?.currentLocation = location
                 self?.locationSubject.send(location)
@@ -644,7 +645,8 @@ public class MultiLocationService: LocationServiceProtocol {
             }
             .store(in: &cancellables)
         
-        primaryService.permissionPublisher
+        let permissionPublisher = await primaryService.permissionPublisher
+        permissionPublisher
             .sink { [weak self] status in
                 self?.permissionStatus = status
                 self?.permissionSubject.send(status)
@@ -652,7 +654,8 @@ public class MultiLocationService: LocationServiceProtocol {
             .store(in: &cancellables)
         
         // Bind to fallback service
-        fallbackService.locationPublisher
+        let fallbackLocationPublisher = await fallbackService.locationPublisher
+        fallbackLocationPublisher
             .sink { [weak self] location in
                 self?.currentLocation = location
                 self?.locationSubject.send(location)
@@ -681,9 +684,9 @@ public class MultiLocationService: LocationServiceProtocol {
         }
     }
     
-    public func stopTracking() {
-        primaryService.stopTracking()
-        fallbackService.stopTracking()
+    public func stopTracking() async {
+        await primaryService.stopTracking()
+        await fallbackService.stopTracking()
         isTracking = false
     }
     
@@ -696,10 +699,10 @@ public class MultiLocationService: LocationServiceProtocol {
         }
     }
     
-    public func updatePrivacyLevel(_ level: LocationPrivacyLevel) {
+    public func updatePrivacyLevel(_ level: LocationPrivacyLevel) async {
         privacyLevel = level
-        primaryService.updatePrivacyLevel(level)
-        fallbackService.updatePrivacyLevel(level)
+        await primaryService.updatePrivacyLevel(level)
+        await fallbackService.updatePrivacyLevel(level)
     }
     
     public func getNearbyUsers(radius: Double) async throws -> [String] {
@@ -718,12 +721,12 @@ public class MultiLocationService: LocationServiceProtocol {
         }
     }
     
-    public func isLocationSharingAllowed() -> Bool {
+    public func isLocationSharingAllowed() async -> Bool {
         return privacyLevel != .hidden && 
                (permissionStatus == .authorizedWhenInUse || permissionStatus == .authorizedAlways)
     }
     
-    public func getFormattedLocation() -> String {
+    public func getFormattedLocation() async -> String {
         guard let location = currentLocation else {
             return "Location Not Available"
         }
@@ -788,17 +791,17 @@ public class LocationServiceHealthMonitor: ObservableObject {
 extension LocationServiceProtocol {
     
     /// Get location for display in UI
-    public func getDisplayLocation() -> String {
-        if !isLocationSharingAllowed() {
+    public func getDisplayLocation() async -> String {
+        if !(await isLocationSharingAllowed()) {
             return "Location Hidden"
         }
         
-        return getFormattedLocation()
+        return await getFormattedLocation()
     }
     
     /// Check if user is in a specific city
-    public func isInCity(_ cityName: String) -> Bool {
-        guard let location = currentLocation,
+    public func isInCity(_ cityName: String) async -> Bool {
+        guard let location = await currentLocation,
               let city = location.city else {
             return false
         }
@@ -807,8 +810,8 @@ extension LocationServiceProtocol {
     }
     
     /// Check if user is in a specific country
-    public func isInCountry(_ countryCode: String) -> Bool {
-        guard let location = currentLocation,
+    public func isInCountry(_ countryCode: String) async -> Bool {
+        guard let location = await currentLocation,
               let code = location.countryCode else {
             return false
         }

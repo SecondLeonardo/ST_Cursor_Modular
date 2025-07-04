@@ -15,11 +15,9 @@ struct LocationPermissionView: View {
     let onPermissionDenied: () -> Void
     
     init(
-        locationService: MultiLocationService,
         onPermissionGranted: @escaping () -> Void,
         onPermissionDenied: @escaping () -> Void
     ) {
-        self._locationService = StateObject(wrappedValue: locationService)
         self.onPermissionGranted = onPermissionGranted
         self.onPermissionDenied = onPermissionDenied
     }
@@ -322,7 +320,6 @@ class LocationPermissionViewModel: ObservableObject {
 struct LocationPermissionView_Previews: PreviewProvider {
     static var previews: some View {
         LocationPermissionView(
-            locationService: MultiLocationService(),
             onPermissionGranted: {
                 print("Permission granted")
             },
@@ -333,7 +330,6 @@ struct LocationPermissionView_Previews: PreviewProvider {
         .preferredColorScheme(.light)
         
         LocationPermissionView(
-            locationService: MultiLocationService(),
             onPermissionGranted: {
                 print("Permission granted")
             },

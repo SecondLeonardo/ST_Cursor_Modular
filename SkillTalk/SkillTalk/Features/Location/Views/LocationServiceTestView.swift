@@ -6,6 +6,7 @@ import Combine
 
 /// Comprehensive test view for LocationService with debug logs and visual verification
 /// **Applied Rules:** R0.0 (UIUX Reference), R0.3 (Error Resolution), R0.4 (Minimal Change Debugging)
+@MainActor
 struct LocationServiceTestView: View {
     
     // MARK: - State Properties
@@ -16,6 +17,7 @@ struct LocationServiceTestView: View {
     @State private var errorMessage: String?
     @State private var debugLogs: [String] = []
     @State private var selectedPrivacyLevel: LocationPrivacyLevel = .city
+    @State private var isLocationSharingAllowed: Bool = false
     @State private var cancellables = Set<AnyCancellable>()
     
     // MARK: - Body
@@ -50,6 +52,10 @@ struct LocationServiceTestView: View {
             .onAppear {
                 setupLocationService()
                 addDebugLog("📍 LocationServiceTestView appeared")
+            }
+            .task {
+                // Update async properties
+                isLocationSharingAllowed = await locationService.isLocationSharingAllowed()
             }
         }
     }
@@ -218,8 +224,10 @@ struct LocationServiceTestView: View {
                     HStack {
                         Button(action: {
                             selectedPrivacyLevel = level
-                            locationService.updatePrivacyLevel(level)
-                            addDebugLog("📍 Privacy level changed to: \(level.displayName)")
+                            Task {
+                                await locationService.updatePrivacyLevel(level)
+                                addDebugLog("📍 Privacy level changed to: \(level.displayName)")
+                            }
                         }) {
                             HStack {
                                 Image(systemName: selectedPrivacyLevel == level ? "checkmark.circle.fill" : "circle")
@@ -246,10 +254,10 @@ struct LocationServiceTestView: View {
                     .font(.caption)
                     .foregroundColor(.secondary)
                 Spacer()
-                Text(locationService.isLocationSharingAllowed() ? "Yes" : "No")
+                Text(isLocationSharingAllowed ? "Yes" : "No")
                     .font(.caption)
                     .fontWeight(.medium)
-                    .foregroundColor(locationService.isLocationSharingAllowed() ? .green : .red)
+                    .foregroundColor(isLocationSharingAllowed ? .green : .red)
             }
             .padding(.top, 8)
         }
@@ -421,8 +429,10 @@ struct LocationServiceTestView: View {
     }
     
     private func stopTracking() {
-        locationService.stopTracking()
-        addDebugLog("📍 Location tracking stopped")
+        Task {
+            await locationService.stopTracking()
+            addDebugLog("📍 Location tracking stopped")
+        }
     }
     
     private func getCurrentLocation() {

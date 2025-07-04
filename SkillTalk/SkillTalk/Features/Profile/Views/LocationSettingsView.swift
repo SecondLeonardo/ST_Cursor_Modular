@@ -1,190 +1,50 @@
+//
+//  LocationSettingsView.swift
+//  SkillTalk
+//
+//  Created by SkillTalk Team
+//  Copyright © 2025 SkillTalk. All rights reserved.
+//
+
 import SwiftUI
 import CoreLocation
+import Combine
 
 // MARK: - Location Settings View
 
-/// Location settings view for profile/settings section
+/// Settings view for location permissions and privacy controls
 @MainActor
 struct LocationSettingsView: View {
     @Environment(\.dismiss) private var dismiss
-    @State private var locationService: LocationServiceProtocol
-    @State private var showingLocationPermission = false
-    @State private var showingPrivacySettings = false
+    
+    // MARK: - State Properties
+    @StateObject private var locationService = MultiLocationService()
+    @State private var currentLocation: UserLocation?
     @State private var isLoading = false
+    @State private var showPermissionAlert = false
+    @State private var permissionStatus: CLAuthorizationStatus = .notDetermined
+    @State private var locationServicesEnabled = false
+    @State private var isTracking = false
+    @State private var privacyLevel: LocationPrivacyLevel = .city
     
-    init(locationService: LocationServiceProtocol = MultiLocationService()) {
-        self._locationService = State(initialValue: locationService)
-    }
-    
+    // MARK: - Body
     var body: some View {
         NavigationView {
-            List {
-                // Current Location Section
-                Section {
-                    VStack(alignment: .leading, spacing: 12) {
-                        HStack {
-                            Image(systemName: "location.fill")
-                                .foregroundColor(Color(red: 47/255, green: 176/255, blue: 199/255))
-                                .font(.system(size: 16, weight: .medium))
-                            
-                            Text("Current Location")
-                                .font(.system(size: 16, weight: .semibold))
-                            
-                            Spacer()
-                            
-                            if isLoading {
-                                ProgressView()
-                                    .scaleEffect(0.8)
-                            }
-                        }
-                        
-                        if let location = locationService.currentLocation {
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text(location.getFormattedLocation(privacyLevel: locationService.privacyLevel))
-                                    .font(.system(size: 14))
-                                    .foregroundColor(.primary)
-                                
-                                Text("Last updated: \(location.timestamp.formatted(.relative(presentation: .named)))")
-                                    .font(.system(size: 12))
-                                    .foregroundColor(.secondary)
-                            }
-                        } else {
-                            Text("Location not available")
-                                .font(.system(size: 14))
-                                .foregroundColor(.secondary)
-                        }
-                    }
-                    .padding(.vertical, 4)
-                } header: {
-                    Text("Location Information")
-                } footer: {
-                    Text("Your location helps us find skill partners near you and provide better recommendations.")
-                }
-                
-                // Privacy Settings Section
-                Section {
-                    VStack(alignment: .leading, spacing: 16) {
-                        // Privacy Level Selector
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text("Location Privacy")
-                                .font(.system(size: 16, weight: .semibold))
-                            
-                            Text("Choose how much location information to share")
-                                .font(.system(size: 14))
-                                .foregroundColor(.secondary)
-                        }
-                        
-                        // Privacy Level Options
-                        VStack(spacing: 8) {
-                            ForEach(LocationPrivacyLevel.allCases, id: \.self) { level in
-                                PrivacyLevelRow(
-                                    level: level,
-                                    isSelected: locationService.privacyLevel == level,
-                                    onTap: {
-                                        locationService.updatePrivacyLevel(level)
-                                    }
-                                )
-                            }
-                        }
-                    }
-                    .padding(.vertical, 4)
-                } header: {
-                    Text("Privacy Settings")
-                } footer: {
-                    Text("Your location is only used for matching and is never shared with other users without your permission.")
-                }
-                
-                // Location Features Section
-                Section {
-                    VStack(alignment: .leading, spacing: 12) {
-                        LocationFeatureRow(
-                            icon: "person.2.fill",
-                            title: "Nearby Matching",
-                            description: "Find skill partners in your area",
-                            isEnabled: locationService.isLocationSharingAllowed()
-                        )
-                        
-                        LocationFeatureRow(
-                            icon: "map.fill",
-                            title: "Local Events",
-                            description: "Discover voice rooms and meetups nearby",
-                            isEnabled: locationService.isLocationSharingAllowed()
-                        )
-                        
-                        LocationFeatureRow(
-                            icon: "location.fill",
-                            title: "Regional Recommendations",
-                            description: "Get skill suggestions for your region",
-                            isEnabled: locationService.isLocationSharingAllowed()
-                        )
-                    }
-                    .padding(.vertical, 4)
-                } header: {
-                    Text("Location Features")
-                } footer: {
-                    Text("These features require location access to work properly.")
-                }
-                
-                // Actions Section
-                Section {
-                    // Update Location Button
-                    Button(action: updateLocation) {
-                        HStack {
-                            Image(systemName: "arrow.clockwise")
-                                .font(.system(size: 16, weight: .medium))
-                            
-                            Text("Update Location")
-                                .font(.system(size: 16))
-                            
-                            Spacer()
-                            
-                            if isLoading {
-                                ProgressView()
-                                    .scaleEffect(0.8)
-                            }
-                        }
-                        .foregroundColor(Color(red: 47/255, green: 176/255, blue: 199/255))
-                    }
-                    .disabled(isLoading || !locationService.locationServicesEnabled)
+            ScrollView {
+                VStack(spacing: 20) {
+                    // MARK: - Current Location Section
+                    currentLocationSection
                     
-                    // Request Permission Button (if needed)
-                    if locationService.permissionStatus == .denied || locationService.permissionStatus == .restricted {
-                        Button(action: {
-                            showingLocationPermission = true
-                        }) {
-                            HStack {
-                                Image(systemName: "location.slash")
-                                    .font(.system(size: 16, weight: .medium))
-                                
-                                Text("Enable Location Access")
-                                    .font(.system(size: 16))
-                                
-                                Spacer()
-                            }
-                            .foregroundColor(.orange)
-                        }
-                    }
+                    // MARK: - Privacy Controls Section
+                    privacyControlsSection
                     
-                    // Stop Location Tracking Button
-                    if locationService.isTracking {
-                        Button(action: {
-                            locationService.stopTracking()
-                        }) {
-                            HStack {
-                                Image(systemName: "stop.fill")
-                                    .font(.system(size: 16, weight: .medium))
-                                
-                                Text("Stop Location Tracking")
-                                    .font(.system(size: 16))
-                                
-                                Spacer()
-                            }
-                            .foregroundColor(.red)
-                        }
-                    }
-                } header: {
-                    Text("Actions")
+                    // MARK: - Permission Status Section
+                    permissionStatusSection
+                    
+                    // MARK: - Location Controls Section
+                    locationControlsSection
                 }
+                .padding()
             }
             .navigationTitle("Location Settings")
             .navigationBarTitleDisplayMode(.large)
@@ -196,170 +56,295 @@ struct LocationSettingsView: View {
                 }
             }
         }
-        .sheet(isPresented: $showingLocationPermission) {
-            LocationPermissionView(
-                onPermissionGranted: {
-                    // Handle permission granted
-                },
-                onPermissionDenied: {
-                    // Handle permission denied
-                }
-            )
+        .task {
+            await loadLocationData()
         }
-        .onAppear {
-            // Initialize location service if needed
-        }
-    }
-    
-    // MARK: - Actions
-    
-    private func updateLocation() {
-        Task {
-            isLoading = true
-            defer { isLoading = false }
-            
-            do {
-                try await locationService.requestLocation()
-            } catch {
-                print("Failed to update location: \(error)")
+        .alert("Location Permission Required", isPresented: $showPermissionAlert) {
+            Button("Open Settings") {
+                openAppSettings()
             }
+            Button("Cancel", role: .cancel) { }
+        } message: {
+            Text("Please enable location access in Settings to use location features.")
         }
     }
-}
-
-// MARK: - Privacy Level Row Component
-
-struct PrivacyLevelRow: View {
-    let level: LocationPrivacyLevel
-    let isSelected: Bool
-    let onTap: () -> Void
     
-    var body: some View {
-        Button(action: onTap) {
-            HStack(spacing: 12) {
-                // Radio button
-                Image(systemName: isSelected ? "checkmark.circle.fill" : "circle")
-                    .font(.system(size: 20))
-                    .foregroundColor(isSelected ? Color(red: 47/255, green: 176/255, blue: 199/255) : .secondary)
-                
-                // Content
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(level.displayName)
-                        .font(.system(size: 16, weight: .medium))
-                        .foregroundColor(.primary)
-                    
-                    Text(level.description)
-                        .font(.system(size: 14))
-                        .foregroundColor(.secondary)
-                        .lineLimit(2)
-                }
-                
+    // MARK: - Current Location Section
+    private var currentLocationSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Image(systemName: "location.fill")
+                    .foregroundColor(.blue)
+                Text("Current Location")
+                    .font(.headline)
                 Spacer()
             }
-            .padding(.vertical, 8)
-        }
-        .buttonStyle(PlainButtonStyle())
-    }
-}
-
-// MARK: - Location Feature Row Component
-
-struct LocationFeatureRow: View {
-    let icon: String
-    let title: String
-    let description: String
-    let isEnabled: Bool
-    
-    var body: some View {
-        HStack(spacing: 12) {
-            // Icon
-            Image(systemName: icon)
-                .font(.system(size: 18, weight: .medium))
-                .foregroundColor(isEnabled ? Color(red: 47/255, green: 176/255, blue: 199/255) : .secondary)
-                .frame(width: 24, height: 24)
             
-            // Content
-            VStack(alignment: .leading, spacing: 2) {
-                Text(title)
-                    .font(.system(size: 16, weight: .medium))
-                    .foregroundColor(isEnabled ? .primary : .secondary)
-                
-                Text(description)
-                    .font(.system(size: 14))
+            if let location = currentLocation {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("📍 \(location.getFormattedLocation(privacyLevel: privacyLevel))")
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                    
+                    Text("Accuracy: \(Int(location.accuracy))m")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+            } else {
+                Text("Location not available")
+                    .font(.subheadline)
                     .foregroundColor(.secondary)
-                    .lineLimit(2)
+            }
+        }
+        .padding()
+        .background(Color(.systemGray6))
+        .cornerRadius(12)
+    }
+    
+    // MARK: - Privacy Controls Section
+    private var privacyControlsSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Image(systemName: "lock.shield")
+                    .foregroundColor(.green)
+                Text("Privacy Level")
+                    .font(.headline)
+                Spacer()
             }
             
-            Spacer()
-            
-            // Status indicator
-            Image(systemName: isEnabled ? "checkmark.circle.fill" : "xmark.circle.fill")
-                .font(.system(size: 16))
-                .foregroundColor(isEnabled ? .green : .red)
+            VStack(spacing: 8) {
+                ForEach(LocationPrivacyLevel.allCases, id: \.self) { level in
+                    Button(action: {
+                        Task {
+                            await updatePrivacyLevel(level)
+                        }
+                    }) {
+                        HStack {
+                            Text(level.displayName)
+                                .foregroundColor(.primary)
+                            Spacer()
+                            if privacyLevel == level {
+                                Image(systemName: "checkmark.circle.fill")
+                                    .foregroundColor(.blue)
+                            }
+                        }
+                        .padding()
+                        .background(privacyLevel == level ? Color.blue.opacity(0.1) : Color(.systemGray6))
+                        .cornerRadius(8)
+                    }
+                    .disabled(!locationServicesEnabled)
+                }
+            }
         }
-        .padding(.vertical, 4)
+        .padding()
+        .background(Color(.systemGray6))
+        .cornerRadius(12)
+    }
+    
+    // MARK: - Permission Status Section
+    private var permissionStatusSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Image(systemName: "checkmark.shield")
+                    .foregroundColor(.orange)
+                Text("Permission Status")
+                    .font(.headline)
+                Spacer()
+            }
+            
+            VStack(spacing: 8) {
+                permissionStatusRow(
+                    title: "Location Services",
+                    status: locationServicesEnabled ? "Enabled" : "Disabled",
+                    color: locationServicesEnabled ? .green : .red
+                )
+                
+                permissionStatusRow(
+                    title: "App Permission",
+                    status: permissionStatus.displayName,
+                    color: permissionStatus.isAuthorized ? .green : .red
+                )
+                
+                permissionStatusRow(
+                    title: "Location Sharing",
+                    status: isLocationSharingAllowed ? "Allowed" : "Blocked",
+                    color: isLocationSharingAllowed ? .green : .red
+                )
+            }
+        }
+        .padding()
+        .background(Color(.systemGray6))
+        .cornerRadius(12)
+    }
+    
+    // MARK: - Location Controls Section
+    private var locationControlsSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Image(systemName: "location.circle")
+                    .foregroundColor(.purple)
+                Text("Location Controls")
+                    .font(.headline)
+                Spacer()
+            }
+            
+            VStack(spacing: 12) {
+                Button(action: {
+                    Task {
+                        await requestLocation()
+                    }
+                }) {
+                    HStack {
+                        Image(systemName: "location.fill")
+                        Text("Request Location")
+                        Spacer()
+                        if isLoading {
+                            ProgressView()
+                                .scaleEffect(0.8)
+                        }
+                    }
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+                }
+                .disabled(isLoading || !locationServicesEnabled)
+                
+                if permissionStatus == .denied || permissionStatus == .restricted {
+                    Button(action: {
+                        showPermissionAlert = true
+                    }) {
+                        HStack {
+                            Image(systemName: "gear")
+                            Text("Open Settings")
+                            Spacer()
+                        }
+                        .padding()
+                        .background(Color.orange)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                    }
+                }
+                
+                if isTracking {
+                    Button(action: {
+                        Task {
+                            await stopTracking()
+                        }
+                    }) {
+                        HStack {
+                            Image(systemName: "stop.fill")
+                            Text("Stop Tracking")
+                            Spacer()
+                        }
+                        .padding()
+                        .background(Color.red)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                    }
+                }
+            }
+        }
+        .padding()
+        .background(Color(.systemGray6))
+        .cornerRadius(12)
+    }
+    
+    // MARK: - Helper Views
+    private func permissionStatusRow(title: String, status: String, color: Color) -> some View {
+        HStack {
+            Text(title)
+                .font(.subheadline)
+            Spacer()
+            Text(status)
+                .font(.subheadline)
+                .foregroundColor(color)
+        }
+    }
+    
+    // MARK: - Computed Properties
+    private var isLocationSharingAllowed: Bool {
+        // This will be updated asynchronously
+        return locationServicesEnabled && permissionStatus.isAuthorized
+    }
+    
+    // MARK: - Methods
+    private func loadLocationData() async {
+        isLoading = true
+        defer { isLoading = false }
+        
+        // Load all location data asynchronously
+        async let location = locationService.currentLocation
+        async let status = locationService.permissionStatus
+        async let enabled = locationService.locationServicesEnabled
+        async let tracking = locationService.isTracking
+        async let privacy = locationService.privacyLevel
+        
+        // Wait for all async operations
+        let (loc, permStatus, locEnabled, isTrack, privLevel) = await (location, status, enabled, tracking, privacy)
+        
+        // Update UI on main actor
+        currentLocation = loc
+        permissionStatus = permStatus
+        locationServicesEnabled = locEnabled
+        isTracking = isTrack
+        privacyLevel = privLevel
+    }
+    
+    private func updatePrivacyLevel(_ level: LocationPrivacyLevel) async {
+        await locationService.updatePrivacyLevel(level)
+        privacyLevel = level
+    }
+    
+    private func requestLocation() async {
+        isLoading = true
+        defer { isLoading = false }
+        
+        do {
+            try await locationService.getCurrentLocation()
+            await loadLocationData()
+        } catch {
+            print("📍 Error requesting location: \(error)")
+        }
+    }
+    
+    private func stopTracking() async {
+        await locationService.stopTracking()
+        isTracking = false
+    }
+    
+    private func openAppSettings() {
+        guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else { return }
+        UIApplication.shared.open(settingsUrl)
     }
 }
 
-// MARK: - Location Settings View Model
+// MARK: - Extensions
 
-@MainActor
-class LocationSettingsViewModel: ObservableObject {
-    @Published var currentLocation: UserLocation?
-    @Published var privacyLevel: LocationPrivacyLevel = .city
-    @Published var permissionStatus: CLAuthorizationStatus = .notDetermined
-    @Published var isLoading = false
-    
-    private let locationService: LocationServiceProtocol
-    
-    init(locationService: LocationServiceProtocol = MultiLocationService()) {
-        self.locationService = locationService
-        setupBindings()
-    }
-    
-    private func setupBindings() {
-        // Monitor location updates
-        locationService.locationPublisher
-            .receive(on: DispatchQueue.main)
-            .assign(to: &$currentLocation)
-        
-        // Monitor permission status
-        locationService.permissionPublisher
-            .receive(on: DispatchQueue.main)
-            .assign(to: &$permissionStatus)
-    }
-    
-    func updateLocation() async {
-        isLoading = true
-        
-        do {
-            let location = try await locationService.getCurrentLocation()
-            currentLocation = location
-        } catch {
-            print("📍 LocationSettingsViewModel: Failed to update location - \(error.localizedDescription)")
+extension CLAuthorizationStatus {
+    var displayName: String {
+        switch self {
+        case .notDetermined:
+            return "Not Determined"
+        case .restricted:
+            return "Restricted"
+        case .denied:
+            return "Denied"
+        case .authorizedAlways:
+            return "Always"
+        case .authorizedWhenInUse:
+            return "When In Use"
+        @unknown default:
+            return "Unknown"
         }
-        
-        isLoading = false
     }
     
-    func updatePrivacyLevel(_ level: LocationPrivacyLevel) {
-        privacyLevel = level
-        locationService.updatePrivacyLevel(level)
-    }
-    
-    func isLocationSharingAllowed() -> Bool {
-        return locationService.isLocationSharingAllowed()
+    var isAuthorized: Bool {
+        return self == .authorizedAlways || self == .authorizedWhenInUse
     }
 }
 
 // MARK: - Preview
-
-struct LocationSettingsView_Previews: PreviewProvider {
-    static var previews: some View {
-        LocationSettingsView()
-            .preferredColorScheme(.light)
-        
-        LocationSettingsView()
-            .preferredColorScheme(.dark)
-    }
+#Preview {
+    LocationSettingsView()
 } 

@@ -1,552 +1,415 @@
-import SwiftUI
+//
+//  LocationServiceUsage.swift
+//  SkillTalk
+//
+//  Created by SkillTalk Team
+//  Copyright © 2025 SkillTalk. All rights reserved.
+//
+
+import Foundation
 import CoreLocation
 import Combine
 
 // MARK: - Location Service Usage Examples
 
-/// Example usage and integration guide for LocationService
-struct LocationServiceUsage {
+/// Comprehensive examples of how to use the LocationService in different scenarios
+class LocationServiceUsage {
+    
+    // MARK: - Properties
+    private let locationService: any LocationServiceProtocol
+    private var cancellables = Set<AnyCancellable>()
+    
+    // MARK: - Initialization
+    init(locationService: any LocationServiceProtocol) {
+        self.locationService = locationService
+        setupBindings()
+    }
     
     // MARK: - Basic Usage Examples
     
-    /// Example 1: Basic location service setup
-    @MainActor
-    static func basicSetup() {
-        // Create location service
-        let locationService = MultiLocationService()
-        
-        // Request permission and start tracking
-        Task {
-            do {
-                try await locationService.requestPermission()
-                try await locationService.startTracking()
-                
-                // Get current location
-                let location = try await locationService.getCurrentLocation()
-                print("📍 Current location: \(location.city ?? "Unknown"), \(location.country ?? "Unknown")")
-                
-            } catch {
-                print("📍 Location error: \(error.localizedDescription)")
-            }
-        }
+    /// Example: Get current location
+    func getCurrentLocation() async -> UserLocation? {
+        return await locationService.currentLocation
     }
     
-    /// Example 2: Location service with privacy controls
-    @MainActor
-    static func privacyControlledSetup() {
-        let locationService = MultiLocationService()
-        
-        // Set privacy level
-        locationService.updatePrivacyLevel(.city)
-        
-        // Check if location sharing is allowed
-        if locationService.isLocationSharingAllowed() {
-            print("📍 Location sharing is enabled")
-        } else {
-            print("📍 Location sharing is disabled")
+    /// Example: Get formatted location string
+    func getFormattedLocation() async -> String {
+        guard let location = await locationService.currentLocation else {
+            return "Location not available"
         }
         
-        // Get formatted location for display
-        let displayLocation = locationService.getFormattedLocation()
-        print("📍 Display location: \(displayLocation)")
+        let privacyLevel = await locationService.privacyLevel
+        return location.getFormattedLocation(privacyLevel: privacyLevel)
     }
     
-    /// Example 3: Location service with Combine publishers
-    @MainActor
-    static func publisherSetup() {
-        let locationService = MultiLocationService()
-        
-        // Subscribe to location updates
-        locationService.locationPublisher
+    /// Example: Request location update
+    func requestLocationUpdate() async throws {
+        _ = try await locationService.getCurrentLocation()
+    }
+    
+    /// Example: Update privacy level
+    func updatePrivacyLevel(_ level: LocationPrivacyLevel) async {
+        await locationService.updatePrivacyLevel(level)
+    }
+    
+    /// Example: Stop location tracking
+    func stopLocationTracking() async {
+        await locationService.stopTracking()
+    }
+    
+    // MARK: - Advanced Usage Examples
+    
+    /// Example: Monitor location changes with Combine
+    func setupLocationMonitoring() async {
+        // Monitor location updates
+        let locationPublisher = await locationService.locationPublisher
+        locationPublisher
+            .receive(on: DispatchQueue.main)
             .sink { location in
-                print("📍 Location updated: \(location.city ?? "Unknown")")
+                print("📍 Location updated: \(location.getFormattedLocation(privacyLevel: .city))")
             }
             .store(in: &cancellables)
         
-        // Subscribe to permission changes
-        locationService.permissionPublisher
+        // Monitor permission changes
+        let permissionPublisher = await locationService.permissionPublisher
+        permissionPublisher
+            .receive(on: DispatchQueue.main)
             .sink { status in
-                switch status {
-                case .authorizedWhenInUse, .authorizedAlways:
-                    print("📍 Location permission granted")
-                case .denied, .restricted:
-                    print("📍 Location permission denied")
-                case .notDetermined:
-                    print("📍 Location permission not determined")
-                @unknown default:
-                    print("📍 Unknown permission status")
-                }
+                print("📍 Permission status changed: \(status.displayName)")
             }
             .store(in: &cancellables)
     }
     
-    // MARK: - SwiftUI Integration Examples
+    /// Example: Get location for matching purposes
+    func getLocationForMatching() async -> UserLocation? {
+        // Check if location sharing is allowed
+        guard await locationService.isLocationSharingAllowed() else {
+            print("📍 Location sharing not allowed")
+            return nil
+        }
+        
+        // Get current location
+        guard let location = await locationService.currentLocation else {
+            print("📍 No location available")
+            return nil
+        }
+        
+        // Check if location is recent enough (within last 5 minutes)
+        let fiveMinutesAgo = Date().addingTimeInterval(-300)
+        guard location.timestamp > fiveMinutesAgo else {
+            print("📍 Location is too old")
+            return nil
+        }
+        
+        return location
+    }
     
-    /// Example 4: SwiftUI view with location service
-    struct LocationAwareView: View {
-        @StateObject private var locationService = MultiLocationService()
-        @State private var currentLocation: UserLocation?
-        @State private var isLoading = false
-        @State private var cancellables = Set<AnyCancellable>()
-        
-        var body: some View {
-            VStack {
-                if let location = currentLocation {
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text("Current Location")
-                            .font(.headline)
-                        
-                        Text(location.getFormattedLocation(privacyLevel: locationService.privacyLevel))
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                        
-                        Text("Accuracy: \(String(format: "%.1f", location.accuracy))m")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                    }
-                    .padding()
-                    .background(Color(.systemGray6))
-                    .cornerRadius(12)
-                } else {
-                    Text("Location not available")
-                        .foregroundColor(.secondary)
-                }
-                
-                Button(action: updateLocation) {
-                    HStack {
-                        if isLoading {
-                            ProgressView()
-                                .scaleEffect(0.8)
-                        } else {
-                            Image(systemName: "location.fill")
-                        }
-                        
-                        Text(isLoading ? "Updating..." : "Update Location")
-                    }
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(Color(red: 47/255, green: 176/255, blue: 199/255))
-                    .cornerRadius(8)
-                }
-                .disabled(isLoading)
-            }
-            .onAppear {
-                setupLocationService()
-            }
+    /// Example: Format location for display based on privacy level
+    func formatLocationForDisplay() async -> String {
+        guard let location = await locationService.currentLocation else {
+            return "Location not available"
         }
         
-        private func setupLocationService() {
-            // Subscribe to location updates
-            locationService.locationPublisher
-                .receive(on: DispatchQueue.main)
-                .sink { location in
-                    self.currentLocation = location
-                }
-                .store(in: &cancellables)
-        }
+        let privacyLevel = await locationService.privacyLevel
         
-        private func updateLocation() {
-            isLoading = true
-            
-            Task {
-                do {
-                    let location = try await locationService.getCurrentLocation()
-                    await MainActor.run {
-                        currentLocation = location
-                        isLoading = false
-                    }
-                } catch {
-                    await MainActor.run {
-                        isLoading = false
-                        print("📍 Failed to update location: \(error.localizedDescription)")
-                    }
-                }
-            }
+        switch privacyLevel {
+        case .exact:
+            return "📍 \(location.getFormattedLocation(privacyLevel: .exact))"
+        case .city:
+            return "📍 \(location.getFormattedLocation(privacyLevel: .city))"
+        case .region:
+            return "📍 \(location.getFormattedLocation(privacyLevel: .region))"
+        case .country:
+            return "📍 \(location.getFormattedLocation(privacyLevel: .country))"
+        case .hidden:
+            return "📍 Location Hidden"
         }
     }
     
-    // MARK: - Nearby Matching Example
+    // MARK: - Privacy Level Examples
     
-    /// Example 5: Nearby user matching
-    @MainActor
-    struct NearbyMatchingExample {
-        let locationService = MultiLocationService()
+    /// Example: Show current privacy level
+    func showCurrentPrivacyLevel() async {
+        let currentLevel = await locationService.privacyLevel
+        print("📍 Current privacy level: \(currentLevel.displayName)")
+    }
+    
+    /// Example: Set privacy level based on user preference
+    func setPrivacyLevelForUser(_ userPreference: String) async {
+        let level: LocationPrivacyLevel
         
-        func findNearbyUsers() async {
-            do {
-                // Get nearby users within 10km radius
-                let nearbyUserIds = try await locationService.getNearbyUsers(radius: 10.0)
-                
-                print("📍 Found \(nearbyUserIds.count) users nearby")
-                
-                // Calculate distance to specific user
-                for userId in nearbyUserIds.prefix(5) {
-                    let distance = try await locationService.calculateDistance(to: userId)
-                    print("📍 Distance to user \(userId): \(String(format: "%.1f", distance))km")
-                }
-                
-            } catch {
-                print("📍 Nearby matching error: \(error.localizedDescription)")
-            }
+        switch userPreference.lowercased() {
+        case "exact":
+            level = .exact
+        case "city":
+            level = .city
+        case "region":
+            level = .region
+        case "country":
+            level = .country
+        default:
+            level = .city // Default to city level
+        }
+        
+        await locationService.updatePrivacyLevel(level)
+        print("📍 Privacy level set to: \(level.displayName)")
+    }
+    
+    // MARK: - Error Handling Examples
+    
+    /// Example: Handle location request with error handling
+    func requestLocationWithErrorHandling() async -> Result<UserLocation, LocationError> {
+        do {
+            let location = try await locationService.getCurrentLocation()
+            return .success(location)
+        } catch {
+            print("📍 Error requesting location: \(error)")
+            return .failure(.requestFailed(error))
         }
     }
     
-    // MARK: - Privacy Settings Example
-    
-    /// Example 6: Privacy settings management
-    @MainActor
-    struct PrivacySettingsExample {
-        let locationService = MultiLocationService()
+    /// Example: Check location services status
+    func checkLocationServicesStatus() async -> LocationServicesStatus {
+        let enabled = await locationService.locationServicesEnabled
+        let permission = await locationService.permissionStatus
+        let tracking = await locationService.isTracking
         
-        @MainActor
-        func managePrivacySettings() {
-            // Available privacy levels
-            let allLevels = LocationPrivacyLevel.allCases
-            
-            print("📍 Available privacy levels:")
-            for level in allLevels {
-                print("  - \(level.displayName): \(level.description)")
-            }
-            
-            // Set privacy level
-            locationService.updatePrivacyLevel(.city)
-            
-            // Check current settings
-            let currentLevel = locationService.privacyLevel
-            let isSharingAllowed = locationService.isLocationSharingAllowed()
-            
-            print("📍 Current privacy level: \(currentLevel.displayName)")
-            print("📍 Location sharing allowed: \(isSharingAllowed)")
+        return LocationServicesStatus(
+            locationServicesEnabled: enabled,
+            permissionStatus: permission,
+            isTracking: tracking
+        )
+    }
+    
+    // MARK: - Setup Methods
+    
+    private func setupBindings() {
+        // Setup any additional bindings if needed
+    }
+}
+
+// MARK: - Supporting Types
+
+/// Status of location services
+struct LocationServicesStatus {
+    let locationServicesEnabled: Bool
+    let permissionStatus: CLAuthorizationStatus
+    let isTracking: Bool
+    
+    var isFullyEnabled: Bool {
+        return locationServicesEnabled && permissionStatus.isAuthorized && isTracking
+    }
+    
+    var statusDescription: String {
+        if !locationServicesEnabled {
+            return "Location Services Disabled"
+        } else if !permissionStatus.isAuthorized {
+            return "Permission Denied"
+        } else if !isTracking {
+            return "Not Tracking"
+        } else {
+            return "Active"
+        }
+    }
+}
+
+/// Location-related errors
+enum LocationError: Error, LocalizedError {
+    case locationNotAvailable
+    case permissionDenied
+    case locationServicesDisabled
+    case requestFailed(Error)
+    
+    var errorDescription: String? {
+        switch self {
+        case .locationNotAvailable:
+            return "Location is not available"
+        case .permissionDenied:
+            return "Location permission denied"
+        case .locationServicesDisabled:
+            return "Location services are disabled"
+        case .requestFailed(let error):
+            return "Location request failed: \(error.localizedDescription)"
+        }
+    }
+}
+
+// MARK: - Usage Examples
+
+extension LocationServiceUsage {
+    
+    /// Example: Complete location setup flow
+    func setupLocationForApp() async -> Bool {
+        print("📍 Setting up location services...")
+        
+        // Check if location services are enabled
+        let status = await checkLocationServicesStatus()
+        
+        if !status.locationServicesEnabled {
+            print("📍 Location services are disabled")
+            return false
+        }
+        
+        if !status.permissionStatus.isAuthorized {
+            print("📍 Location permission not granted")
+            return false
+        }
+        
+        // Request location
+        do {
+            try await requestLocationUpdate()
+            print("📍 Location setup completed successfully")
+            return true
+        } catch {
+            print("📍 Location setup failed: \(error)")
+            return false
         }
     }
     
-    // MARK: - Error Handling Example
-    
-    /// Example 7: Comprehensive error handling
-    @MainActor
-    static func errorHandlingExample() {
-        let locationService = MultiLocationService()
+    /// Example: Get location data for analytics
+    func getLocationDataForAnalytics() async -> [String: Any] {
+        var data: [String: Any] = [:]
         
-        Task {
-            do {
-                try await locationService.requestPermission()
-                try await locationService.startTracking()
-                
-                let location = try await locationService.getCurrentLocation()
-                print("📍 Successfully got location: \(location.city ?? "Unknown")")
-                
-            } catch LocationServiceError.locationPermissionDenied {
-                print("📍 User denied location permission")
-                // Show settings alert
-                
-            } catch LocationServiceError.locationServicesDisabled {
-                print("📍 Location services are disabled")
-                // Show enable location services alert
-                
-            } catch LocationServiceError.locationUpdateFailed(let reason) {
-                print("📍 Location update failed: \(reason)")
-                // Show retry option
-                
-            } catch LocationServiceError.geocodingFailed(let reason) {
-                print("📍 Geocoding failed: \(reason)")
-                // Continue with coordinates only
-                
-            } catch LocationServiceError.privacySettingsBlocked {
-                print("📍 Privacy settings block location sharing")
-                // Show privacy settings
-                
-            } catch {
-                print("📍 Unexpected error: \(error.localizedDescription)")
-            }
+        // Get current location
+        if let location = await locationService.currentLocation {
+            data["latitude"] = location.latitude
+            data["longitude"] = location.longitude
+            data["accuracy"] = location.accuracy
+            data["timestamp"] = location.timestamp.timeIntervalSince1970
         }
+        
+        // Get privacy level
+        let privacyLevel = await locationService.privacyLevel
+        data["privacyLevel"] = privacyLevel.rawValue
+        
+        // Get permission status
+        let permissionStatus = await locationService.permissionStatus
+        data["permissionStatus"] = permissionStatus.rawValue
+        
+        // Get tracking status
+        let isTracking = await locationService.isTracking
+        data["isTracking"] = isTracking
+        
+        return data
     }
-    
-    // MARK: - Integration with User Profile
-    
-    /// Example 8: Integration with user profile
-    @MainActor
-    struct UserProfileLocationExample {
-        let locationService = MultiLocationService()
-        
-        func updateUserProfileLocation() async {
-            do {
-                let location = try await locationService.getCurrentLocation()
-                
-                // Update user profile with location data
-                let userLocationData: [String: Any] = [
-                    "latitude": location.latitude,
-                    "longitude": location.longitude,
-                    "city": location.city as Any,
-                    "country": location.country as Any,
-                    "countryCode": location.countryCode as Any,
-                    "region": location.region as Any,
-                    "lastUpdated": location.timestamp.timeIntervalSince1970,
-                    "privacyLevel": await locationService.privacyLevel.rawValue
-                ]
-                
-                // Save to user profile (example)
-                print("📍 Updating user profile with location: \(userLocationData)")
-                
-            } catch {
-                print("📍 Failed to update user profile location: \(error.localizedDescription)")
-            }
-        }
+}
+
+// MARK: - Preview Helper
+
+#if DEBUG
+extension LocationServiceUsage {
+    /// Create a mock instance for previews
+    static func mock() -> LocationServiceUsage {
+        return LocationServiceUsage(locationService: MockLocationService())
     }
-    
-    // MARK: - Background Location Updates
-    
-    /// Example 9: Background location updates (if needed)
-    @MainActor
-    static func backgroundLocationExample() {
-        let locationService = MultiLocationService()
-        
-        // Start tracking for background updates
-        Task {
-            do {
-                try await locationService.startTracking()
-                
-                // Location updates will be published automatically
-                locationService.locationPublisher
-                    .sink { location in
-                        // Handle background location update
-                        print("📍 Background location update: \(location.city ?? "Unknown")")
-                        
-                        // Update user's last known location
-                        // Send to server if needed
-                    }
-                    .store(in: &LocationServiceUsage.cancellables)
-                
-            } catch {
-                print("📍 Failed to start background tracking: \(error.localizedDescription)")
-            }
-        }
-    }
-    
-    // MARK: - Testing Examples
-    
-    /// Example 10: Testing location service
-    struct LocationServiceTesting {
-        
-        func testLocationService() async {
-            // Test with mock location service
-            let mockLocationService = MockLocationService()
-            
-            // Test permission request
-            do {
-                try await mockLocationService.requestPermission()
-                print("📍 Mock permission request successful")
-            } catch {
-                print("📍 Mock permission request failed: \(error)")
-            }
-            
-            // Test location retrieval
-            do {
-                let location = try await mockLocationService.getCurrentLocation()
-                print("📍 Mock location: \(location.city ?? "Unknown")")
-            } catch {
-                print("📍 Mock location retrieval failed: \(error)")
-            }
-        }
-    }
-    
-    // MARK: - Mock Location Service for Testing
-    
-    /// Mock location service for testing
-    class MockLocationService: LocationServiceProtocol {
-        @Published var currentLocation: UserLocation?
-        @Published var permissionStatus: CLAuthorizationStatus = .authorizedWhenInUse
-        @Published var locationServicesEnabled: Bool = true
-        @Published var privacyLevel: LocationPrivacyLevel = .city
-        @Published var isTracking: Bool = false
-        
-        private let locationSubject = PassthroughSubject<UserLocation, Never>()
-        private let permissionSubject = PassthroughSubject<CLAuthorizationStatus, Never>()
-        
-        var locationPublisher: AnyPublisher<UserLocation, Never> {
-            locationSubject.eraseToAnyPublisher()
-        }
-        
-        var permissionPublisher: AnyPublisher<CLAuthorizationStatus, Never> {
-            permissionSubject.eraseToAnyPublisher()
-        }
-        
-        func requestPermission() async throws {
-            permissionStatus = .authorizedWhenInUse
-            permissionSubject.send(permissionStatus)
-        }
-        
-        func startTracking() async throws {
-            isTracking = true
-        }
-        
-        func stopTracking() {
-            isTracking = false
-        }
-        
-        func getCurrentLocation() async throws -> UserLocation {
-            let mockLocation = UserLocation(
+}
+
+/// Mock location service for previews
+class MockLocationService: LocationServiceProtocol {
+    var currentLocation: UserLocation? {
+        get async {
+            return UserLocation(
+                id: "mock-location",
                 latitude: 37.7749,
                 longitude: -122.4194,
                 accuracy: 10.0,
+                timestamp: Date(),
                 city: "San Francisco",
                 country: "United States",
                 countryCode: "US",
-                region: "California"
+                region: "California",
+                postalCode: "94102",
+                address: "San Francisco, CA"
             )
-            
-            currentLocation = mockLocation
-            locationSubject.send(mockLocation)
-            
-            return mockLocation
-        }
-        
-        func updatePrivacyLevel(_ level: LocationPrivacyLevel) {
-            privacyLevel = level
-        }
-        
-        func getNearbyUsers(radius: Double) async throws -> [String] {
-            return ["user1", "user2", "user3"]
-        }
-        
-        func calculateDistance(to userId: String) async throws -> Double {
-            return Double.random(in: 0.1...10.0)
-        }
-        
-        func isLocationSharingAllowed() -> Bool {
-            return privacyLevel != .hidden && permissionStatus == .authorizedWhenInUse
-        }
-        
-        func getFormattedLocation() -> String {
-            guard let location = currentLocation else {
-                return "Location Not Available"
-            }
-            return location.getFormattedLocation(privacyLevel: privacyLevel)
         }
     }
     
-    // MARK: - Storage
+    var permissionStatus: CLAuthorizationStatus {
+        get async { .authorizedWhenInUse }
+    }
     
-    private static var cancellables = Set<AnyCancellable>()
+    var locationServicesEnabled: Bool {
+        get async { true }
+    }
+    
+    var privacyLevel: LocationPrivacyLevel {
+        get async { .city }
+    }
+    
+    var isTracking: Bool {
+        get async { true }
+    }
+    
+    var locationPublisher: AnyPublisher<UserLocation, Never> {
+        get async {
+            Just(UserLocation(
+                id: "mock-location",
+                latitude: 37.7749,
+                longitude: -122.4194,
+                accuracy: 10.0,
+                timestamp: Date(),
+                city: "San Francisco",
+                country: "United States",
+                countryCode: "US",
+                region: "California",
+                postalCode: "94102",
+                address: "San Francisco, CA"
+            )).eraseToAnyPublisher()
+        }
+    }
+    
+    var permissionPublisher: AnyPublisher<CLAuthorizationStatus, Never> {
+        get async {
+            Just(.authorizedWhenInUse).eraseToAnyPublisher()
+        }
+    }
+    
+    func requestPermission() async throws {
+        // Mock implementation
+    }
+    
+    func startTracking() async throws {
+        // Mock implementation
+    }
+    
+    func getCurrentLocation() async throws -> UserLocation {
+        return UserLocation(
+            id: "mock-location",
+            latitude: 37.7749,
+            longitude: -122.4194,
+            accuracy: 10.0,
+            timestamp: Date(),
+            city: "San Francisco",
+            country: "United States",
+            countryCode: "US",
+            region: "California",
+            postalCode: "94102",
+            address: "San Francisco, CA"
+        )
+    }
+    
+    func getNearbyUsers(radius: Double) async throws -> [String] {
+        return ["user1", "user2", "user3"]
+    }
+    
+    func calculateDistance(to userId: String) async throws -> Double {
+        return 100.0
+    }
+    
+    func getFormattedLocation() async -> String {
+        return "San Francisco, CA"
+    }
+    
+    func updatePrivacyLevel(_ level: LocationPrivacyLevel) async {
+        // Mock implementation
+    }
+    
+    func stopTracking() async {
+        // Mock implementation
+    }
+    
+    func isLocationSharingAllowed() async -> Bool {
+        return true
+    }
 }
-
-// MARK: - Usage Instructions
-
-/*
- 
- # Location Service Integration Guide
- 
- ## Overview
- The LocationService provides comprehensive location tracking with privacy controls for SkillTalk.
- 
- ## Key Features
- - GPS-based location tracking with IP fallback
- - Privacy controls (exact, city, country, region, hidden)
- - Automatic reverse geocoding
- - Nearby user matching
- - Background location updates
- - Multi-provider architecture with health monitoring
- 
- ## Basic Integration
- 
- ### 1. Add to your ViewModel
- ```swift
- @StateObject private var locationService = MultiLocationService()
- ```
- 
- ### 2. Request Permission
- ```swift
- try await locationService.requestPermission()
- ```
- 
- ### 3. Start Tracking
- ```swift
- try await locationService.startTracking()
- ```
- 
- ### 4. Get Current Location
- ```swift
- let location = try await locationService.getCurrentLocation()
- ```
- 
- ## Privacy Controls
- 
- ### Set Privacy Level
- ```swift
- locationService.updatePrivacyLevel(.city)
- ```
- 
- ### Check Sharing Status
- ```swift
- let isAllowed = locationService.isLocationSharingAllowed()
- ```
- 
- ## Location Updates
- 
- ### Subscribe to Updates
- ```swift
- locationService.locationPublisher
-     .sink { location in
-         // Handle location update
-     }
-     .store(in: &cancellables)
- ```
- 
- ### Subscribe to Permission Changes
- ```swift
- locationService.permissionPublisher
-     .sink { status in
-         // Handle permission change
-     }
-     .store(in: &cancellables)
- ```
- 
- ## Nearby Matching
- 
- ### Find Nearby Users
- ```swift
- let nearbyUsers = try await locationService.getNearbyUsers(radius: 10.0)
- ```
- 
- ### Calculate Distance
- ```swift
- let distance = try await locationService.calculateDistance(to: userId)
- ```
- 
- ## Error Handling
- 
- Handle specific location errors:
- - `LocationServiceError.locationPermissionDenied`
- - `LocationServiceError.locationServicesDisabled`
- - `LocationServiceError.locationUpdateFailed`
- - `LocationServiceError.geocodingFailed`
- - `LocationServiceError.privacySettingsBlocked`
- 
- ## Testing
- 
- Use `MockLocationService` for testing:
- ```swift
- let mockService = MockLocationService()
- let location = try await mockService.getCurrentLocation()
- ```
- 
- ## Info.plist Requirements
- 
- Add these keys to Info.plist:
- ```xml
- <key>NSLocationWhenInUseUsageDescription</key>
- <string>SkillTalk uses your location to find skill partners near you and provide better recommendations.</string>
- 
- <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
- <string>SkillTalk uses your location to find skill partners near you and provide better recommendations.</string>
- ```
- 
- ## Best Practices
- 
- 1. Always request permission before accessing location
- 2. Handle all error cases gracefully
- 3. Respect user privacy settings
- 4. Use appropriate privacy levels for different features
- 5. Test with mock service in development
- 6. Monitor location service health in production
- 
- */ 
+#endif 
