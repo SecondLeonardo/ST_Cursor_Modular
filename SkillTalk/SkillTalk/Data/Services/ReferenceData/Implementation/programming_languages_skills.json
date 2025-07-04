@@ -1,0 +1,80 @@
+{
+  "subcategory": {
+    "id": "programming_languages",
+    "name": "Programming Languages",
+    "description": "Various programming languages and frameworks",
+    "skill_count": 25
+  },
+  "skills": [
+    {
+      "id": "swift",
+      "name": "Swift Programming",
+      "description": "iOS and macOS development with Swift",
+      "difficulty": "intermediate",
+      "tags": ["programming", "ios", "mobile", "apple"]
+    },
+    {
+      "id": "python",
+      "name": "Python Programming",
+      "description": "General-purpose programming with Python",
+      "difficulty": "beginner",
+      "tags": ["programming", "data-science", "automation", "web"]
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript Programming",
+      "description": "Web development with JavaScript",
+      "difficulty": "beginner",
+      "tags": ["programming", "web", "frontend", "nodejs"]
+    },
+    {
+      "id": "java",
+      "name": "Java Programming",
+      "description": "Enterprise and Android development with Java",
+      "difficulty": "intermediate",
+      "tags": ["programming", "android", "enterprise", "backend"]
+    },
+    {
+      "id": "c_sharp",
+      "name": "C# Programming",
+      "description": "Microsoft ecosystem development with C#",
+      "difficulty": "intermediate",
+      "tags": ["programming", "microsoft", "dotnet", "windows"]
+    },
+    {
+      "id": "go",
+      "name": "Go Programming",
+      "description": "Systems programming and microservices with Go",
+      "difficulty": "intermediate",
+      "tags": ["programming", "systems", "microservices", "cloud"]
+    },
+    {
+      "id": "rust",
+      "name": "Rust Programming",
+      "description": "Systems programming with memory safety",
+      "difficulty": "advanced",
+      "tags": ["programming", "systems", "performance", "safety"]
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin Programming",
+      "description": "Android and server-side development with Kotlin",
+      "difficulty": "intermediate",
+      "tags": ["programming", "android", "jvm", "modern"]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript Programming",
+      "description": "Typed JavaScript for large-scale applications",
+      "difficulty": "intermediate",
+      "tags": ["programming", "typescript", "web", "frontend"]
+    },
+    {
+      "id": "php",
+      "name": "PHP Programming",
+      "description": "Server-side web development with PHP",
+      "difficulty": "beginner",
+      "tags": ["programming", "web", "backend", "wordpress"]
+    }
+  ]
+} 

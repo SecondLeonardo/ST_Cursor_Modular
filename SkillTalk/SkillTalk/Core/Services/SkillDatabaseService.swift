@@ -1,6 +1,40 @@
 import Foundation
 import Combine
 
+// MARK: - Supporting Models
+
+struct CategoryHierarchy: Codable {
+    let category: SkillCategory
+    let subcategories: [SkillSubcategory]
+}
+
+struct SubcategoryHierarchy: Codable {
+    let subcategory: SkillSubcategory
+    let skills: [Skill]
+}
+
+// MARK: - Error Types
+
+enum SkillDatabaseError: Error, LocalizedError {
+    case fileNotFound(String)
+    case decodingError(String)
+    case networkError(String)
+    case cacheError(String)
+    
+    var errorDescription: String? {
+        switch self {
+        case .fileNotFound(let fileName):
+            return "File not found: \(fileName)"
+        case .decodingError(let message):
+            return "Decoding error: \(message)"
+        case .networkError(let message):
+            return "Network error: \(message)"
+        case .cacheError(let message):
+            return "Cache error: \(message)"
+        }
+    }
+}
+
 // MARK: - Skill Database Service Protocol
 
 /// Protocol defining the interface for skill database operations
@@ -82,9 +116,13 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
             return cachedCategories
         }
         
-        // Load from server
-        let endpoint = "/api/skills/categories?language=\(language)"
-        let categories: [SkillCategory] = try await apiClient.get(endpoint: endpoint)
+        // Load from local JSON file
+        guard let url = Bundle.main.url(forResource: "categories", withExtension: "json") else {
+            throw SkillDatabaseError.fileNotFound("categories.json")
+        }
+        
+        let data = try Data(contentsOf: url)
+        let categories: [SkillCategory] = try JSONDecoder().decode([SkillCategory].self, from: data)
         
         // Cache the result
         await cacheManager.set(key: cacheKey, value: categories)
@@ -102,14 +140,19 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
             return cachedSubcategories
         }
         
-        // Load from server
-        let endpoint = "/api/skills/categories/\(categoryId)/subcategories?language=\(language)"
-        let subcategories: [SkillSubcategory] = try await apiClient.get(endpoint: endpoint)
+        // Load from local JSON file based on category
+        let fileName = "\(categoryId)_subcategories"
+        guard let url = Bundle.main.url(forResource: fileName, withExtension: "json") else {
+            throw SkillDatabaseError.fileNotFound("\(fileName).json")
+        }
+        
+        let data = try Data(contentsOf: url)
+        let hierarchy: CategoryHierarchy = try JSONDecoder().decode(CategoryHierarchy.self, from: data)
         
         // Cache the result
-        await cacheManager.set(key: cacheKey, value: subcategories)
+        await cacheManager.set(key: cacheKey, value: hierarchy.subcategories)
         
-        return subcategories
+        return hierarchy.subcategories
     }
     
     func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
@@ -122,14 +165,18 @@ class SkillDatabaseService: SkillDatabaseServiceProtocol {
             return cachedSkills
         }
         
-        // Load from server
-        let endpoint = "/api/skills/categories/\(categoryId)/subcategories/\(subcategoryId)/skills?language=\(language)"
-        let skills: [Skill] = try await apiClient.get(endpoint: endpoint)
+        // Load from local JSON file based on subcategory
+        guard let url = Bundle.main.url(forResource: subcategoryId, withExtension: "json") else {
+            throw SkillDatabaseError.fileNotFound("\(subcategoryId).json")
+        }
+        
+        let data = try Data(contentsOf: url)
+        let hierarchy: SubcategoryHierarchy = try JSONDecoder().decode(SubcategoryHierarchy.self, from: data)
         
         // Cache the result
-        await cacheManager.set(key: cacheKey, value: skills)
+        await cacheManager.set(key: cacheKey, value: hierarchy.skills)
         
-        return skills
+        return hierarchy.skills
     }
     
     func searchSkills(query: String, language: String) async throws -> [Skill] {
