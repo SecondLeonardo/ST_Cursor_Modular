@@ -105,7 +105,7 @@ struct SkillSelectionView: View {
             
             TextField("Search skills...", text: $searchText)
                 .textFieldStyle(PlainTextFieldStyle())
-                .onChange(of: searchText) { newValue in
+                .onChange(of: searchText) { _, newValue in
                     viewModel.searchSkills(query: newValue)
                 }
             
@@ -247,7 +247,7 @@ struct SkillCardView: View {
                     if !skill.tags.isEmpty {
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack(spacing: 8) {
-                                ForEach(tags.prefix(3), id: \.self) { tag in
+                                ForEach(skill.tags.prefix(3), id: \.self) { tag in
                                     Text(tag)
                                         .font(.caption2)
                                         .padding(.horizontal, 8)
@@ -441,9 +441,10 @@ struct SkillSelectionView_Previews: PreviewProvider {
         let sampleSubcategory = SkillSubcategory(
             id: "1",
             categoryId: "1",
-            englishName: "Programming Languages",
+            englishName: "Programming",
             icon: "code",
-            sortOrder: 1
+            sortOrder: 1,
+            description: "Software development and coding skills"
         )
         
         SkillSelectionView(category: sampleCategory, subcategory: sampleSubcategory)
