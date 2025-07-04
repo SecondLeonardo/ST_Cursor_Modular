@@ -23,6 +23,16 @@ enum SkillDatabaseError: Error, LocalizedError {
     }
 }
 
+// MARK: - Skill Database Service Protocol
+protocol SkillDatabaseServiceProtocol {
+    func loadCategories(for language: String) async throws -> [SkillCategory]
+    func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory]
+    func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill]
+    func searchSkills(query: String, language: String) async throws -> [Skill]
+    func getSkillsByDifficulty(_ difficulty: SkillDifficulty, language: String) async throws -> [Skill]
+    func getPopularSkills(limit: Int, language: String) async throws -> [Skill]
+}
+
 // MARK: - Skill Database Service Implementation
 
 /// Main service for managing the SkillTalk skill database

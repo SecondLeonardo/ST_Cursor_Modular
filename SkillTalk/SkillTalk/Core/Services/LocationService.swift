@@ -623,13 +623,13 @@ public class MultiLocationService: LocationServiceProtocol {
     }
     
     public init(
-        primaryService: LocationServiceProtocol = CoreLocationService(),
-        fallbackService: LocationServiceProtocol = IPLocationService(),
-        healthMonitor: LocationServiceHealthMonitor = LocationServiceHealthMonitor()
+        primaryService: LocationServiceProtocol? = nil,
+        fallbackService: LocationServiceProtocol? = nil,
+        healthMonitor: LocationServiceHealthMonitor? = nil
     ) {
-        self.primaryService = primaryService
-        self.fallbackService = fallbackService
-        self.healthMonitor = healthMonitor
+        self.primaryService = primaryService ?? CoreLocationService()
+        self.fallbackService = fallbackService ?? IPLocationService()
+        self.healthMonitor = healthMonitor ?? LocationServiceHealthMonitor()
         
         setupBindings()
     }

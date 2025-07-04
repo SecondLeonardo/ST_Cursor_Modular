@@ -1,5 +1,6 @@
 import SwiftUI
 import CoreLocation
+import Combine
 
 // MARK: - Location Service Usage Examples
 
@@ -9,6 +10,7 @@ struct LocationServiceUsage {
     // MARK: - Basic Usage Examples
     
     /// Example 1: Basic location service setup
+    @MainActor
     static func basicSetup() {
         // Create location service
         let locationService = MultiLocationService()
@@ -30,6 +32,7 @@ struct LocationServiceUsage {
     }
     
     /// Example 2: Location service with privacy controls
+    @MainActor
     static func privacyControlledSetup() {
         let locationService = MultiLocationService()
         
@@ -49,6 +52,7 @@ struct LocationServiceUsage {
     }
     
     /// Example 3: Location service with Combine publishers
+    @MainActor
     static func publisherSetup() {
         let locationService = MultiLocationService()
         
@@ -83,6 +87,7 @@ struct LocationServiceUsage {
         @StateObject private var locationService = MultiLocationService()
         @State private var currentLocation: UserLocation?
         @State private var isLoading = false
+        @State private var cancellables = Set<AnyCancellable>()
         
         var body: some View {
             VStack {
@@ -134,7 +139,10 @@ struct LocationServiceUsage {
             // Subscribe to location updates
             locationService.locationPublisher
                 .receive(on: DispatchQueue.main)
-                .assign(to: &$currentLocation)
+                .sink { location in
+                    self.currentLocation = location
+                }
+                .store(in: &cancellables)
         }
         
         private func updateLocation() {
@@ -160,6 +168,7 @@ struct LocationServiceUsage {
     // MARK: - Nearby Matching Example
     
     /// Example 5: Nearby user matching
+    @MainActor
     struct NearbyMatchingExample {
         let locationService = MultiLocationService()
         
@@ -185,9 +194,11 @@ struct LocationServiceUsage {
     // MARK: - Privacy Settings Example
     
     /// Example 6: Privacy settings management
+    @MainActor
     struct PrivacySettingsExample {
         let locationService = MultiLocationService()
         
+        @MainActor
         func managePrivacySettings() {
             // Available privacy levels
             let allLevels = LocationPrivacyLevel.allCases
@@ -212,6 +223,7 @@ struct LocationServiceUsage {
     // MARK: - Error Handling Example
     
     /// Example 7: Comprehensive error handling
+    @MainActor
     static func errorHandlingExample() {
         let locationService = MultiLocationService()
         
@@ -252,6 +264,7 @@ struct LocationServiceUsage {
     // MARK: - Integration with User Profile
     
     /// Example 8: Integration with user profile
+    @MainActor
     struct UserProfileLocationExample {
         let locationService = MultiLocationService()
         
@@ -260,15 +273,15 @@ struct LocationServiceUsage {
                 let location = try await locationService.getCurrentLocation()
                 
                 // Update user profile with location data
-                let userLocationData = [
+                let userLocationData: [String: Any] = [
                     "latitude": location.latitude,
                     "longitude": location.longitude,
-                    "city": location.city,
-                    "country": location.country,
-                    "countryCode": location.countryCode,
-                    "region": location.region,
+                    "city": location.city as Any,
+                    "country": location.country as Any,
+                    "countryCode": location.countryCode as Any,
+                    "region": location.region as Any,
                     "lastUpdated": location.timestamp.timeIntervalSince1970,
-                    "privacyLevel": locationService.privacyLevel.rawValue
+                    "privacyLevel": await locationService.privacyLevel.rawValue
                 ]
                 
                 // Save to user profile (example)
@@ -283,6 +296,7 @@ struct LocationServiceUsage {
     // MARK: - Background Location Updates
     
     /// Example 9: Background location updates (if needed)
+    @MainActor
     static func backgroundLocationExample() {
         let locationService = MultiLocationService()
         
@@ -300,7 +314,7 @@ struct LocationServiceUsage {
                         // Update user's last known location
                         // Send to server if needed
                     }
-                    .store(in: &cancellables)
+                    .store(in: &LocationServiceUsage.cancellables)
                 
             } catch {
                 print("📍 Failed to start background tracking: \(error.localizedDescription)")
