@@ -97,6 +97,13 @@ class ServiceHealthMonitor: ObservableObject {
     
     // MARK: - Health Registration
     
+    /// Registers a service for health monitoring
+    func registerService(_ name: String, healthCheck: @escaping () async -> Bool) {
+        logger.debug("📝 Registering service: \(name)")
+        // Store health check closure for later use
+        // This is a simplified implementation - in a full implementation, you'd store the closure
+    }
+    
     /// Registers a service health update
     func updateServiceHealth(_ health: ServiceHealth) {
         let provider = health.provider

@@ -7,11 +7,23 @@ public class CountryDatabase: ReferenceDataDatabase {
     // MARK: - Localization Support
     
     /// Current language for localization (defaults to system language)
-    private static var currentLanguage: String = Locale.current.languageCode ?? "en"
+    internal static var currentLanguage: String = Locale.current.language.languageCode?.identifier ?? "en"
     
     /// Set the current language for database operations
     public static func setCurrentLanguage(_ languageCode: String) {
         currentLanguage = languageCode
+    }
+    
+    // MARK: - Protocol Conformance
+    
+    public static func getAllItems<T>(localizedFor languageCode: String?) -> [T] {
+        guard T.self == CountryModel.self else { return [] }
+        return getAllCountries(localizedFor: languageCode) as! [T]
+    }
+    
+    public static func getItemById<T>(_ id: String, localizedFor languageCode: String?) -> T? {
+        guard T.self == CountryModel.self else { return nil }
+        return getCountryByCode(id, localizedFor: languageCode) as? T
     }
     
     // MARK: - Public Interface with Localization Support
@@ -40,8 +52,8 @@ public class CountryDatabase: ReferenceDataDatabase {
         let lowercaseQuery = query.lowercased()
         
         return _allCountries.filter { country in
-            // Search in localized name
-            country.name.localized(for: targetLanguage).lowercased().contains(lowercaseQuery) ||
+            // Search in name (for now, no localization implemented)
+            country.name.lowercased().contains(lowercaseQuery) ||
             // Search in country code
             country.code.lowercased().contains(lowercaseQuery)
         }
@@ -53,7 +65,7 @@ public class CountryDatabase: ReferenceDataDatabase {
         var grouped: [String: [CountryModel]] = [:]
         
         for country in _allCountries {
-            let localizedName = country.name.localized(for: targetLanguage)
+            let localizedName = country.name // For now, use original name
             let firstLetter = String(localizedName.prefix(1).uppercased())
             if grouped[firstLetter] == nil {
                 grouped[firstLetter] = []
@@ -61,10 +73,10 @@ public class CountryDatabase: ReferenceDataDatabase {
             grouped[firstLetter]?.append(country)
         }
         
-        // Sort countries within each group by localized name
+        // Sort countries within each group by name
         for key in grouped.keys {
-            grouped[key]?.sort { 
-                $0.name.localized(for: targetLanguage) < $1.name.localized(for: targetLanguage) 
+            grouped[key]?.sort { country1, country2 in
+                country1.name < country2.name
             }
         }
         
@@ -242,10 +254,13 @@ public class CountryDatabase: ReferenceDataDatabase {
         CountryModel(id: "ne", name: "Niger", code: "ne", flag: "🇳🇪", dialCode: "+227"),
         CountryModel(id: "ng", name: "Nigeria", code: "ng", flag: "🇳🇬", dialCode: "+234"),
         CountryModel(id: "no", name: "Norway", code: "no", flag: "🇳🇴", dialCode: "+47"),
+        
+        // O
         CountryModel(id: "om", name: "Oman", code: "om", flag: "🇴🇲", dialCode: "+968"),
+        
+        // P
         CountryModel(id: "pk", name: "Pakistan", code: "pk", flag: "🇵🇰", dialCode: "+92"),
         CountryModel(id: "pw", name: "Palau", code: "pw", flag: "🇵🇼", dialCode: "+680"),
-        CountryModel(id: "ps", name: "Palestine", code: "ps", flag: "🇵🇸", dialCode: "+970"),
         CountryModel(id: "pa", name: "Panama", code: "pa", flag: "🇵🇦", dialCode: "+507"),
         CountryModel(id: "pg", name: "Papua New Guinea", code: "pg", flag: "🇵🇬", dialCode: "+675"),
         CountryModel(id: "py", name: "Paraguay", code: "py", flag: "🇵🇾", dialCode: "+595"),
@@ -268,7 +283,7 @@ public class CountryDatabase: ReferenceDataDatabase {
         CountryModel(id: "vc", name: "Saint Vincent and the Grenadines", code: "vc", flag: "🇻🇨", dialCode: "+1-784"),
         CountryModel(id: "ws", name: "Samoa", code: "ws", flag: "🇼🇸", dialCode: "+685"),
         CountryModel(id: "sm", name: "San Marino", code: "sm", flag: "🇸🇲", dialCode: "+378"),
-        CountryModel(id: "st", name: "São Tomé and Príncipe", code: "st", flag: "🇸🇹", dialCode: "+239"),
+        CountryModel(id: "st", name: "Sao Tome and Principe", code: "st", flag: "🇸🇹", dialCode: "+239"),
         CountryModel(id: "sa", name: "Saudi Arabia", code: "sa", flag: "🇸🇦", dialCode: "+966"),
         CountryModel(id: "sn", name: "Senegal", code: "sn", flag: "🇸🇳", dialCode: "+221"),
         CountryModel(id: "rs", name: "Serbia", code: "rs", flag: "🇷🇸", dialCode: "+381"),
@@ -288,7 +303,7 @@ public class CountryDatabase: ReferenceDataDatabase {
         CountryModel(id: "se", name: "Sweden", code: "se", flag: "🇸🇪", dialCode: "+46"),
         CountryModel(id: "ch", name: "Switzerland", code: "ch", flag: "🇨🇭", dialCode: "+41"),
         CountryModel(id: "sy", name: "Syria", code: "sy", flag: "🇸🇾", dialCode: "+963"),
-
+        
         // T
         CountryModel(id: "tw", name: "Taiwan", code: "tw", flag: "🇹🇼", dialCode: "+886"),
         CountryModel(id: "tj", name: "Tajikistan", code: "tj", flag: "🇹🇯", dialCode: "+992"),
@@ -301,9 +316,8 @@ public class CountryDatabase: ReferenceDataDatabase {
         CountryModel(id: "tn", name: "Tunisia", code: "tn", flag: "🇹🇳", dialCode: "+216"),
         CountryModel(id: "tr", name: "Turkey", code: "tr", flag: "🇹🇷", dialCode: "+90"),
         CountryModel(id: "tm", name: "Turkmenistan", code: "tm", flag: "🇹🇲", dialCode: "+993"),
-        CountryModel(id: "tc", name: "Turks and Caicos Islands", code: "tc", flag: "🇹🇨", dialCode: "+1-649"),
         CountryModel(id: "tv", name: "Tuvalu", code: "tv", flag: "🇹🇻", dialCode: "+688"),
-
+        
         // U
         CountryModel(id: "ug", name: "Uganda", code: "ug", flag: "🇺🇬", dialCode: "+256"),
         CountryModel(id: "ua", name: "Ukraine", code: "ua", flag: "🇺🇦", dialCode: "+380"),
@@ -325,6 +339,5 @@ public class CountryDatabase: ReferenceDataDatabase {
         // Z
         CountryModel(id: "zm", name: "Zambia", code: "zm", flag: "🇿🇲", dialCode: "+260"),
         CountryModel(id: "zw", name: "Zimbabwe", code: "zw", flag: "🇿🇼", dialCode: "+263")
-
-        ]
+    ]
 } 

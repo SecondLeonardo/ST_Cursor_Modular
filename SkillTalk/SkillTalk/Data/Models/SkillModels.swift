@@ -33,6 +33,7 @@ struct SkillSubcategory: Codable, Identifiable, Hashable {
     let englishName: String
     let icon: String?
     let sortOrder: Int
+    let description: String?
     var translations: [String: String]?
     
     /// Get localized name for the current language
@@ -43,6 +44,11 @@ struct SkillSubcategory: Codable, Identifiable, Hashable {
     /// Computed property for backward compatibility
     var name: String {
         return englishName
+    }
+    
+    /// Computed property for skill count (placeholder)
+    var skillCount: Int {
+        return 0 // This would be calculated from actual data
     }
 }
 

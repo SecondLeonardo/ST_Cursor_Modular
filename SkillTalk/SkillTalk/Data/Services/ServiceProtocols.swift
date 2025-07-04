@@ -61,7 +61,7 @@ struct User: Codable {
 }
 
 /// Service health information
-struct ServiceHealth {
+struct ServiceHealth: Codable, Equatable {
     let provider: ServiceProvider
     let status: ServiceHealthStatus
     let responseTime: TimeInterval
@@ -69,11 +69,34 @@ struct ServiceHealth {
     let lastChecked: Date
     let errorMessage: String?
     
+    init(
+        provider: ServiceProvider,
+        status: ServiceHealthStatus,
+        responseTime: TimeInterval,
+        errorRate: Double,
+        lastChecked: Date,
+        errorMessage: String?
+    ) {
+        self.provider = provider
+        self.status = status
+        self.responseTime = responseTime
+        self.errorRate = errorRate
+        self.lastChecked = lastChecked
+        self.errorMessage = errorMessage
+    }
+    
     /// Debug logging for service health
     func debugLog() {
         #if DEBUG
-        let statusIcon = status == .healthy ? "✅" : status == .degraded ? "⚠️" : "❌"
-        print("[\(provider.rawValue)] \(statusIcon) Status: \(status) | Response: \(Int(responseTime * 1000))ms | Errors: \(String(format: "%.1f", errorRate * 100))%")
+        let statusIcon = status.icon
+        let responseTimeMs = Int(responseTime * 1000)
+        let errorRatePercent = String(format: "%.1f", errorRate * 100)
+        
+        print("🏥 \(statusIcon) \(provider.displayName): \(responseTimeMs)ms, \(errorRatePercent)% errors")
+        
+        if let errorMessage = errorMessage {
+            print("   Error: \(errorMessage)")
+        }
         #endif
     }
 }

@@ -9,6 +9,9 @@
 import SwiftUI
 // import FirebaseCore // Temporarily commented out due to linking issue
 
+// for testing location service
+// import Features.Location.Views
+
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
@@ -32,9 +35,7 @@ struct SkillTalkApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                ContentView()
-            }
+            LocationServiceTestView()
         }
     }
     

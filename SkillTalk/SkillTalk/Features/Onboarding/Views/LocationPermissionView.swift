@@ -4,9 +4,10 @@ import CoreLocation
 // MARK: - Location Permission View
 
 /// Location permission popup view for onboarding
+@MainActor
 struct LocationPermissionView: View {
     @Environment(\.dismiss) private var dismiss
-    @StateObject private var locationService: MultiLocationService
+    @StateObject private var locationService = MultiLocationService()
     @State private var showingSettings = false
     @State private var isLoading = false
     
@@ -14,7 +15,7 @@ struct LocationPermissionView: View {
     let onPermissionDenied: () -> Void
     
     init(
-        locationService: MultiLocationService = MultiLocationService(),
+        locationService: MultiLocationService,
         onPermissionGranted: @escaping () -> Void,
         onPermissionDenied: @escaping () -> Void
     ) {
@@ -275,7 +276,7 @@ class LocationPermissionViewModel: ObservableObject {
     
     private let locationService: MultiLocationService
     
-    init(locationService: MultiLocationService = MultiLocationService()) {
+    init(locationService: MultiLocationService) {
         self.locationService = locationService
         setupBindings()
     }
@@ -321,6 +322,7 @@ class LocationPermissionViewModel: ObservableObject {
 struct LocationPermissionView_Previews: PreviewProvider {
     static var previews: some View {
         LocationPermissionView(
+            locationService: MultiLocationService(),
             onPermissionGranted: {
                 print("Permission granted")
             },
@@ -331,6 +333,7 @@ struct LocationPermissionView_Previews: PreviewProvider {
         .preferredColorScheme(.light)
         
         LocationPermissionView(
+            locationService: MultiLocationService(),
             onPermissionGranted: {
                 print("Permission granted")
             },

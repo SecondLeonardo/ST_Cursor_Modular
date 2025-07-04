@@ -326,9 +326,9 @@ class MockSkillDatabaseService {
     
     func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory] {
         return [
-            SkillSubcategory(id: "painting", categoryId: categoryId, englishName: "Painting", icon: "🖼️", sortOrder: 1, translations: [:]),
-            SkillSubcategory(id: "music", categoryId: categoryId, englishName: "Music", icon: "🎵", sortOrder: 2, translations: [:]),
-            SkillSubcategory(id: "writing", categoryId: categoryId, englishName: "Writing", icon: "✍️", sortOrder: 3, translations: [:])
+            SkillSubcategory(id: "painting", categoryId: categoryId, englishName: "Painting", icon: "🖼️", sortOrder: 1, description: "Visual arts and painting techniques", translations: [:]),
+            SkillSubcategory(id: "music", categoryId: categoryId, englishName: "Music", icon: "🎵", sortOrder: 2, description: "Musical instruments and composition", translations: [:]),
+            SkillSubcategory(id: "writing", categoryId: categoryId, englishName: "Writing", icon: "✍️", sortOrder: 3, description: "Creative writing and storytelling", translations: [:])
         ]
     }
     

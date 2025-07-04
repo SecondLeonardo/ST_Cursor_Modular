@@ -238,34 +238,15 @@ struct SubcategoryHierarchy: Codable {
 
 // MARK: - Using main models from Data/Models/SkillModels.swift
 
-// MARK: - Cache Manager
-class CacheManager {
-    static let shared = CacheManager()
-    
-    private var cache: [String: (data: Any, timestamp: Date)] = [:]
-    
-    func get<T: Codable>(key: String, type: T.Type) async -> T? {
-        guard let cached = cache[key] else { return nil }
-        return cached.data as? T
-    }
-    
-    func set<T: Codable>(key: String, value: T) async {
-        cache[key] = (data: value, timestamp: Date())
-    }
-    
-    func isExpired(key: String, ttl: TimeInterval) -> Bool {
-        guard let cached = cache[key] else { return true }
-        return Date().timeIntervalSince(cached.timestamp) > ttl
-    }
-}
-
 // MARK: - Bundle Resource Loader
 class BundleResourceLoader {
     static let shared = BundleResourceLoader()
     
+    private init() {}
+    
     func loadJSON<T: Codable>(from path: String, type: T.Type) async throws -> T {
         guard let url = Bundle.main.url(forResource: path.replacingOccurrences(of: ".json", with: ""), withExtension: "json") else {
-            throw NSError(domain: "BundleResourceLoader", code: 404, userInfo: [NSLocalizedDescriptionKey: "File not found: \(path)"])
+            throw NSError(domain: "BundleResourceLoader", code: 404, userInfo: [NSLocalizedDescriptionKey: "Resource not found: \(path)"])
         }
         
         let data = try Data(contentsOf: url)

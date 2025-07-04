@@ -1,7 +1,7 @@
 import Foundation
 
 /// Service type enumeration
-enum ServiceType: String, CaseIterable {
+enum ServiceType: String, CaseIterable, Codable {
     case authentication = "Authentication"
     case database = "Database"
     case storage = "Storage"
@@ -14,9 +14,13 @@ enum ServiceType: String, CaseIterable {
     case voiceRoom = "VoiceRoom"
     case analytics = "Analytics"
     case monitoring = "Monitoring"
+    
+    var displayName: String {
+        return rawValue
+    }
 }
 
-enum ServiceProvider: String, CaseIterable {
+enum ServiceProvider: String, CaseIterable, Codable {
     case firebase = "Firebase"
     case supabase = "Supabase"
     case agora = "Agora"
@@ -32,11 +36,41 @@ enum ServiceProvider: String, CaseIterable {
     case hundredMs = "100ms.live"
     case googleTranslate = "Google Translate"
     case onesignal = "OneSignal" // Alias for oneSignal
+    
+    var displayName: String {
+        return rawValue
+    }
 }
 
-enum ServiceHealthStatus: String {
+enum ServiceHealthStatus: String, CaseIterable, Codable {
     case healthy = "Healthy"
     case degraded = "Degraded"
     case failed = "Failed"
     case unknown = "Unknown"
+    
+    var icon: String {
+        switch self {
+        case .healthy:
+            return "✅"
+        case .degraded:
+            return "⚠️"
+        case .failed:
+            return "❌"
+        case .unknown:
+            return "❓"
+        }
+    }
+    
+    var color: String {
+        switch self {
+        case .healthy:
+            return "green"
+        case .degraded:
+            return "yellow"
+        case .failed:
+            return "red"
+        case .unknown:
+            return "gray"
+        }
+    }
 } 

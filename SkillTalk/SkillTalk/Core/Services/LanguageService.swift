@@ -56,17 +56,19 @@ class LanguageService: LanguageServiceProtocol {
         self.cacheManager = CacheManager.shared
         self.healthMonitor = ServiceHealthMonitor.shared
         
-        // Set up health monitoring
-        healthMonitor.registerService("language_service") { [weak self] in
-            return await self?.checkHealth() ?? false
-        }
-        
         // Load current language from user preferences
         self.currentLanguage = UserDefaults.standard.string(forKey: "selected_language") ?? "en"
         
         // Load languages on initialization
         Task {
             await loadLanguages()
+        }
+        
+        // Set up health monitoring
+        Task { @MainActor in
+            await healthMonitor.registerService("language_service") { [weak self] in
+                return await self?.checkHealth() ?? false
+            }
         }
     }
     

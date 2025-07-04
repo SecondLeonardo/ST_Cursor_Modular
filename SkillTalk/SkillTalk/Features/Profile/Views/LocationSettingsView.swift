@@ -4,15 +4,16 @@ import CoreLocation
 // MARK: - Location Settings View
 
 /// Location settings view for profile/settings section
+@MainActor
 struct LocationSettingsView: View {
     @Environment(\.dismiss) private var dismiss
-    @StateObject private var locationService: LocationServiceProtocol
+    @State private var locationService: LocationServiceProtocol
     @State private var showingLocationPermission = false
     @State private var showingPrivacySettings = false
     @State private var isLoading = false
     
     init(locationService: LocationServiceProtocol = MultiLocationService()) {
-        self._locationService = StateObject(wrappedValue: locationService)
+        self._locationService = State(initialValue: locationService)
     }
     
     var body: some View {
@@ -198,41 +199,29 @@ struct LocationSettingsView: View {
         .sheet(isPresented: $showingLocationPermission) {
             LocationPermissionView(
                 onPermissionGranted: {
-                    showingLocationPermission = false
-                    updateLocation()
+                    // Handle permission granted
                 },
                 onPermissionDenied: {
-                    showingLocationPermission = false
+                    // Handle permission denied
                 }
             )
         }
         .onAppear {
-            checkLocationStatus()
+            // Initialize location service if needed
         }
     }
     
-    // MARK: - Private Methods
-    
-    private func checkLocationStatus() {
-        if locationService.permissionStatus == .notDetermined {
-            showingLocationPermission = true
-        }
-    }
+    // MARK: - Actions
     
     private func updateLocation() {
-        isLoading = true
-        
         Task {
+            isLoading = true
+            defer { isLoading = false }
+            
             do {
-                _ = try await locationService.getCurrentLocation()
-                await MainActor.run {
-                    isLoading = false
-                }
+                try await locationService.requestLocation()
             } catch {
-                await MainActor.run {
-                    isLoading = false
-                    print("📍 LocationSettingsView: Failed to update location - \(error.localizedDescription)")
-                }
+                print("Failed to update location: \(error)")
             }
         }
     }
