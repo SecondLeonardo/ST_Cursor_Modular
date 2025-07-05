@@ -51,17 +51,20 @@ post_install do |installer|
       config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
       # Add any needed compiler flags
       config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['$(inherited)', '-Xfrontend -warn-concurrency']
+      
+      # Fix sandbox permission issues
+      config.build_settings['ENABLE_USER_SCRIPT_SANDBOXING'] = 'NO'
+      config.build_settings['ENABLE_STRICT_OBJC_MSGSEND'] = 'NO'
     end
   end
   
-  # Disable problematic resource copying scripts to avoid sandbox issues
+  # Completely remove the problematic resource copying script
   installer.pods_project.targets.each do |target|
     if target.name == 'Pods-SkillTalk'
-      target.build_phases.each do |build_phase|
-        if build_phase.is_a?(Xcodeproj::Project::Object::PBXShellScriptBuildPhase) && 
-           build_phase.name == '[CP] Copy Pods Resources'
-          build_phase.shell_script = 'echo "Skipping resource copy due to sandbox restrictions"'
-        end
+      # Remove the resource copying script phase entirely
+      target.build_phases.delete_if do |build_phase|
+        build_phase.is_a?(Xcodeproj::Project::Object::PBXShellScriptBuildPhase) && 
+        build_phase.name == '[CP] Copy Pods Resources'
       end
     end
   end
