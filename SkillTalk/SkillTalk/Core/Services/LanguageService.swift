@@ -324,7 +324,7 @@ public struct Language: Codable, Identifiable, Equatable {
     }
     
     /// Get display name for current app language
-    public func displayName(for languageCode: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
+    public func displayName(for languageCode: String = Locale.current.languageCode ?? "en") -> String {
         if languageCode == code {
             return nativeName
         } else {
@@ -346,7 +346,7 @@ public struct Language: Codable, Identifiable, Equatable {
     }
     
     /// Get full display string with flag and name
-    public func fullDisplayName(for languageCode: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
+    public func fullDisplayName(for languageCode: String = Locale.current.languageCode ?? "en") -> String {
         return "\(flag) \(displayName(for: languageCode))"
     }
 }

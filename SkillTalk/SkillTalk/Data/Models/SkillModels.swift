@@ -16,7 +16,7 @@ struct SkillCategory: Codable, Identifiable, Hashable {
     var translations: [String: String]?
     
     /// Get localized name for the current language
-    func localizedName(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
+    func localizedName(for language: String = Locale.current.languageCode ?? "en") -> String {
         return translations?[language] ?? englishName
     }
     
@@ -37,7 +37,7 @@ struct SkillSubcategory: Codable, Identifiable, Hashable {
     var translations: [String: String]?
     
     /// Get localized name for the current language
-    func localizedName(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
+    func localizedName(for language: String = Locale.current.languageCode ?? "en") -> String {
         return translations?[language] ?? englishName
     }
     
@@ -64,7 +64,7 @@ struct Skill: Codable, Identifiable, Hashable {
     var translations: [String: String]?
     
     /// Get localized name for the current language
-    func localizedName(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
+    func localizedName(for language: String = Locale.current.languageCode ?? "en") -> String {
         return translations?[language] ?? englishName
     }
     

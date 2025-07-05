@@ -37,12 +37,12 @@ struct HobbyModel: Codable, Identifiable, Hashable {
     }
     
     /// Get localized name for the current language
-    func localizedName(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
+    func localizedName(for language: String = Locale.current.languageCode ?? "en") -> String {
         return translations?[language] ?? englishName
     }
     
     /// Get localized category for the current language
-    func localizedCategory(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
+    func localizedCategory(for language: String = Locale.current.languageCode ?? "en") -> String {
         return categoryTranslations?[language] ?? englishCategory
     }
     
@@ -114,12 +114,12 @@ public struct OccupationModel: Codable, Identifiable, Hashable {
     }
     
     /// Get localized name for the current language
-    func localizedName(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
+    func localizedName(for language: String = Locale.current.languageCode ?? "en") -> String {
         return translations?[language] ?? englishName
     }
     
     /// Get localized category for the current language
-    func localizedCategory(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
+    func localizedCategory(for language: String = Locale.current.languageCode ?? "en") -> String {
         return categoryTranslations?[language] ?? englishCategory
     }
     
@@ -220,7 +220,7 @@ struct LocalizedString: Codable, Hashable {
         self.translations = translations
     }
     
-    func localized(for language: String = Locale.current.language.languageCode?.identifier ?? "en") -> String {
+    func localized(for language: String = Locale.current.languageCode ?? "en") -> String {
         return translations[language] ?? englishText
     }
 }

@@ -7,7 +7,7 @@ public class OccupationsDatabase: ReferenceDataDatabase {
     // MARK: - Localization Support
     
     /// Current language for localization (defaults to system language)
-    internal static var currentLanguage: String = Locale.current.language.languageCode?.identifier ?? "en"
+    internal static var currentLanguage: String = Locale.current.languageCode ?? "en"
     
     /// Set the current language for database operations
     public static func setCurrentLanguage(_ languageCode: String) {

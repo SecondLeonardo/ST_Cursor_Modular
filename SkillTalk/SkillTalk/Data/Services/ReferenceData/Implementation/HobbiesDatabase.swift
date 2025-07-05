@@ -21,7 +21,7 @@ class HobbiesDatabase {
     
     /// Current language for localized content
     private static var currentLanguage: String {
-        return Locale.current.language.languageCode?.identifier ?? "en"
+        return Locale.current.languageCode ?? "en"
     }
     
     /// Set the current language for all hobby operations

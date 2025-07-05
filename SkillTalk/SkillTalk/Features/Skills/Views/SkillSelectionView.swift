@@ -105,7 +105,7 @@ struct SkillSelectionView: View {
             
             TextField("Search skills...", text: $searchText)
                 .textFieldStyle(PlainTextFieldStyle())
-                .onChange(of: searchText) { _, newValue in
+                .onChange(of: searchText) { newValue in
                     viewModel.searchSkills(query: newValue)
                 }
             
