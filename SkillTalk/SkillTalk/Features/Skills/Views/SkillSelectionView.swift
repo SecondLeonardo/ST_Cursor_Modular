@@ -17,7 +17,7 @@ struct SkillSelectionView: View {
     init(category: SkillCategory, subcategory: SkillSubcategory) {
         self.category = category
         self.subcategory = subcategory
-        self._viewModel = StateObject(wrappedValue: SkillSelectionViewModel(category: category, subcategory: subcategory))
+        self._viewModel = StateObject(wrappedValue: SkillSelectionViewModel(skillType: .target, language: "en", skillRepository: SkillRepository(), referenceDataRepository: ReferenceDataRepository()))
     }
     
     // MARK: - Body
@@ -44,7 +44,7 @@ struct SkillSelectionView: View {
         }
         .onAppear {
             Task {
-                await viewModel.loadSkills()
+                await viewModel.loadSkills(for: subcategory.id)
             }
         }
         .sheet(isPresented: $showingProficiencySelector) {
@@ -106,7 +106,10 @@ struct SkillSelectionView: View {
             TextField("Search skills...", text: $searchText)
                 .textFieldStyle(PlainTextFieldStyle())
                 .onChange(of: searchText) { newValue in
-                    viewModel.searchSkills(query: newValue)
+                    Task {
+                        viewModel.searchQuery = newValue
+                        await viewModel.searchSkills()
+                    }
                 }
             
             if !searchText.isEmpty {
@@ -166,7 +169,7 @@ struct SkillSelectionView: View {
             
             Button("Retry") {
                 Task {
-                    await viewModel.loadSkills()
+                    await viewModel.loadSkills(for: subcategory.id)
                 }
             }
             .buttonStyle(.borderedProminent)
@@ -304,95 +307,7 @@ struct SkillCardView: View {
     }
 }
 
-// MARK: - SkillSelectionViewModel
-@MainActor
-class SkillSelectionViewModel: ObservableObject {
-    
-    // MARK: - Published Properties
-    @Published var skills: [Skill] = []
-    @Published var filteredSkills: [Skill] = []
-    @Published var isLoading = false
-    @Published var errorMessage: String?
-    
-    // MARK: - Private Properties
-    private let category: SkillCategory
-    private let subcategory: SkillSubcategory
-    private let skillService: SkillDatabaseServiceProtocol
-    
-    // MARK: - Initialization
-    init(category: SkillCategory, subcategory: SkillSubcategory, skillService: SkillDatabaseServiceProtocol = OptimizedSkillDatabaseService()) {
-        self.category = category
-        self.subcategory = subcategory
-        self.skillService = skillService
-        print("🔧 SkillSelectionViewModel: Initialized for subcategory: \(subcategory.name)")
-    }
-    
-    // MARK: - Public Methods
-    
-    /// Load skills for the current subcategory
-    func loadSkills() async {
-        print("🔄 SkillSelectionViewModel: Loading skills for subcategory: \(subcategory.name)")
-        
-        isLoading = true
-        errorMessage = nil
-        
-        do {
-            let currentLanguage = getCurrentLanguage()
-            print("🌍 SkillSelectionViewModel: Loading skills for language: \(currentLanguage)")
-            
-            let loadedSkills = try await skillService.loadSkills(for: subcategory.id, categoryId: category.id, language: currentLanguage)
-            
-            self.skills = loadedSkills
-            self.filteredSkills = loadedSkills
-            self.isLoading = false
-            print("✅ SkillSelectionViewModel: Loaded \(loadedSkills.count) skills")
-            
-        } catch {
-            self.errorMessage = "Failed to load skills: \(error.localizedDescription)"
-            self.isLoading = false
-            print("❌ SkillSelectionViewModel: Error loading skills - \(error)")
-        }
-    }
-    
-    /// Search skills by name
-    func searchSkills(query: String) {
-        guard !query.isEmpty else {
-            filteredSkills = skills
-            return
-        }
-        
-        filteredSkills = skills.filter { skill in
-            skill.name.localizedCaseInsensitiveContains(query) ||
-            (skill.description?.localizedCaseInsensitiveContains(query) ?? false) ||
-            skill.tags.contains { $0.localizedCaseInsensitiveContains(query) }
-        }
-    }
-    
-    /// Clear search and show all skills
-    func clearSearch() {
-        filteredSkills = skills
-    }
-    
-    /// Refresh skills (reload from service)
-    func refreshSkills() async {
-        print("🔄 SkillSelectionViewModel: Refreshing skills...")
-        await loadSkills()
-    }
-    
-    /// Get skill by ID
-    func getSkill(by id: String) -> Skill? {
-        return skills.first { $0.id == id }
-    }
-    
-    // MARK: - Private Methods
-    
-    /// Get current language code
-    private func getCurrentLanguage() -> String {
-        // TODO: Get from user preferences or system locale
-        // For now, default to English
-        return "en"
-    }
-}
+
 
 // MARK: - SkillProficiencyLevel
 enum SkillProficiencyLevel: String, CaseIterable, Codable {

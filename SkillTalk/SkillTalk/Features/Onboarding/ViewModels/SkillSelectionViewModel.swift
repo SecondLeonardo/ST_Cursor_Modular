@@ -24,7 +24,7 @@ class SkillSelectionViewModel: ObservableObject {
     @Published var selectedSkills: [Skill] = []
     @Published var isLoading = false
     @Published var errorMessage: String?
-    @Published var currentStep: SkillSelectionStep = .category
+    @Published var currentStep: SkillSelectionStep = .categories
     @Published var selectedCategory: SkillCategory?
     @Published var selectedSubcategory: SkillSubcategory?
     @Published var searchQuery = ""
@@ -62,14 +62,14 @@ class SkillSelectionViewModel: ObservableObject {
     /// Select a category and load its subcategories
     func selectCategory(_ category: SkillCategory) async {
         selectedCategory = category
-        currentStep = .subcategory
+        currentStep = .subcategories
         await loadSubcategories(for: category.id)
     }
     
     /// Select a subcategory and load its skills
     func selectSubcategory(_ subcategory: SkillSubcategory) async {
         selectedSubcategory = subcategory
-        currentStep = .skill
+        currentStep = .skills
         await loadSkills(for: subcategory.id)
     }
     
@@ -87,18 +87,20 @@ class SkillSelectionViewModel: ObservableObject {
     /// Go back to previous step
     func goBack() {
         switch currentStep {
-        case .category:
+        case .categories:
             // Already at first step
             break
-        case .subcategory:
-            currentStep = .category
+        case .subcategories:
+            currentStep = .categories
             selectedCategory = nil
             subcategories = []
-        case .skill:
-            currentStep = .subcategory
+        case .skills:
+            currentStep = .subcategories
             selectedSubcategory = nil
             skills = []
             filteredSkills = []
+        case .proficiency:
+            break // No action needed
         }
     }
     
@@ -136,7 +138,7 @@ class SkillSelectionViewModel: ObservableObject {
             let popularSkills = try await skillRepository.getPopularSkills(language: language, limit: 20)
             skills = popularSkills
             filteredSkills = popularSkills
-            currentStep = .skill
+            currentStep = .skills
         } catch {
             errorMessage = "Failed to load popular skills: \(error.localizedDescription)"
             print("❌ [SkillSelectionViewModel] Failed to load popular skills: \(error)")
@@ -154,7 +156,7 @@ class SkillSelectionViewModel: ObservableObject {
             let difficultySkills = try await skillRepository.getSkillsByDifficulty(difficulty, language: language)
             skills = difficultySkills
             filteredSkills = difficultySkills
-            currentStep = .skill
+            currentStep = .skills
         } catch {
             errorMessage = "Failed to load skills by difficulty: \(error.localizedDescription)"
             print("❌ [SkillSelectionViewModel] Failed to load skills by difficulty: \(error)")
@@ -185,9 +187,15 @@ class SkillSelectionViewModel: ObservableObject {
         selectedSkills.removeAll()
         selectedCategory = nil
         selectedSubcategory = nil
-        currentStep = .category
+        currentStep = .categories
         searchQuery = ""
         filteredSkills = []
+    }
+    
+    /// Clear search query
+    func clearSearch() {
+        searchQuery = ""
+        filteredSkills = skills
     }
     
     // MARK: - Private Methods
@@ -234,7 +242,7 @@ class SkillSelectionViewModel: ObservableObject {
         isLoading = false
     }
     
-    private func loadSkills(for subcategoryId: String) async {
+    func loadSkills(for subcategoryId: String) async {
         isLoading = true
         errorMessage = nil
         
@@ -251,14 +259,7 @@ class SkillSelectionViewModel: ObservableObject {
     }
 }
 
-// MARK: - Supporting Types
 
-/// Steps in the skill selection process
-enum SkillSelectionStep {
-    case category
-    case subcategory
-    case skill
-}
 
 // MARK: - Mock Implementation for Testing
 
@@ -282,7 +283,7 @@ class MockSkillSelectionViewModel: SkillSelectionViewModel {
     
     override func selectCategory(_ category: SkillCategory) async {
         selectedCategory = category
-        currentStep = .subcategory
+        currentStep = .subcategories
         
         subcategories = [
             SkillSubcategory(id: "programming", categoryId: category.id, englishName: "Programming", icon: "💻", sortOrder: 1, description: "Learn to code"),
@@ -292,7 +293,7 @@ class MockSkillSelectionViewModel: SkillSelectionViewModel {
     
     override func selectSubcategory(_ subcategory: SkillSubcategory) async {
         selectedSubcategory = subcategory
-        currentStep = .skill
+        currentStep = .skills
         
         skills = [
             Skill(id: "swift", subcategoryId: subcategory.id, englishName: "Swift", difficulty: .intermediate, popularity: 100, icon: "📱", tags: ["ios", "mobile", "programming"]),

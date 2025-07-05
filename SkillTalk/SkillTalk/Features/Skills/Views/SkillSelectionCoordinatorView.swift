@@ -139,14 +139,6 @@ struct SkillSelectionCoordinatorView: View {
     }
 }
 
-// MARK: - Skill Selection Step
-enum SkillSelectionStep: CaseIterable {
-    case categories
-    case subcategories
-    case skills
-    case proficiency
-}
-
 // MARK: - Notification Names
 extension Notification.Name {
     static let skillCategorySelected = Notification.Name("skillCategorySelected")

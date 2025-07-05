@@ -8,6 +8,7 @@
 
 import Foundation
 import Combine
+import os.log
 
 // MARK: - Reference Data Service Protocol
 protocol ReferenceDataServiceProtocol {
@@ -206,7 +207,7 @@ class ReferenceDataService: ReferenceDataServiceProtocol {
         // Check if we need to sync
         if Date().timeIntervalSince(lastSync) < syncInterval {
             log("⏭️ Skipping sync - last sync was recent")
-            return SyncResult(success: true, itemsUpdated: 0, lastSync: lastSync)
+            return SyncResult(success: true, itemsUpdated: 0, lastSync: lastSync, errors: nil)
         }
         
         // Perform sync
@@ -237,24 +238,17 @@ class ReferenceDataService: ReferenceDataServiceProtocol {
     }
     
     func downloadTranslations(for language: String) async throws -> TranslationLoadResult {
-        log("🌐 Downloading translations for language: \(language)")
-        
-        let url = URL(string: "https://api.skilltalk.com/v1/reference/translations/\(language)")!
+        log("🌍 Downloading translations for language: \(language)")
+        let url = URL(string: "https://api.skilltalk.com/v1/translations/\(language)")!
         let (data, response) = try await session.data(from: url)
-        
         guard let httpResponse = response as? HTTPURLResponse,
               httpResponse.statusCode == 200 else {
-            throw ReferenceDataError.serverError("Failed to download translations")
+            throw ReferenceDataError.serverError("Failed to download translations for \(language)")
         }
-        
-        let translations = try decoder.decode(TranslationLoadResult.self, from: data)
-        
-        // Cache the translations
-        let cacheKey = "translations_\(language)"
-        setCachedData(translations, for: cacheKey)
-        
-        log("✅ Downloaded \(translations.itemCount) translations for language: \(language)")
-        return translations
+        let translations = try decoder.decode([String: String].self, from: data)
+        setCachedData(translations, for: "translations_\(language)")
+        log("✅ Downloaded \(translations.count) translations for \(language)")
+        return TranslationLoadResult(language: language, success: true, updatedAt: Date(), error: nil)
     }
     
     // MARK: - Cache Management Methods
@@ -288,12 +282,8 @@ class ReferenceDataService: ReferenceDataServiceProtocol {
     func setCurrentLanguage(_ language: String) async {
         log("🌍 Setting current language to: \(language)")
         userDefaults.set(language, forKey: currentLanguageKey)
-        
-        // Clear language-specific cache
-        let keysToRemove = cache.allKeys.filter { $0.contains("translations_") }
-        for key in keysToRemove {
-            cache.removeObject(forKey: key)
-        }
+        // Clear language-specific cache (NSCache does not support allKeys, so clear all)
+        cache.removeAllObjects()
     }
     
     // MARK: - Private Helper Methods
@@ -411,16 +401,16 @@ class MockReferenceDataService: ReferenceDataServiceProtocol {
     
     func loadCountries() async throws -> [CountryModel] {
         return [
-            CountryModel(id: "US", englishName: "United States", code: "US", flag: "🇺🇸", isSupported: true),
-            CountryModel(id: "ES", englishName: "Spain", code: "ES", flag: "🇪🇸", isSupported: true),
-            CountryModel(id: "FR", englishName: "France", code: "FR", flag: "🇫🇷", isSupported: true)
+            CountryModel(id: "US", name: "United States", code: "US", flag: "🇺🇸", dialCode: "+1", isPopular: true),
+            CountryModel(id: "ES", name: "Spain", code: "ES", flag: "🇪🇸", dialCode: "+34", isPopular: true),
+            CountryModel(id: "FR", name: "France", code: "FR", flag: "🇫🇷", dialCode: "+33", isPopular: true)
         ]
     }
     
     func loadCities(for countryCode: String) async throws -> [CityModel] {
         return [
-            CityModel(id: "1", englishName: "New York", countryCode: countryCode, isSupported: true),
-            CityModel(id: "2", englishName: "Los Angeles", countryCode: countryCode, isSupported: true)
+            CityModel(id: "1", name: "New York", countryCode: countryCode),
+            CityModel(id: "2", name: "Los Angeles", countryCode: countryCode)
         ]
     }
     
@@ -447,7 +437,7 @@ class MockReferenceDataService: ReferenceDataServiceProtocol {
     }
     
     func downloadTranslations(for language: String) async throws -> TranslationLoadResult {
-        return TranslationLoadResult(languageCode: language, itemCount: 0, success: true, errorMessage: nil, timestamp: Date())
+        return TranslationLoadResult(language: language, success: true, updatedAt: Date(), error: nil)
     }
     
     func clearCache() async {

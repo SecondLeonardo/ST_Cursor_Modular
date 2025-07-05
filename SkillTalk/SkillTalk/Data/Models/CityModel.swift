@@ -20,4 +20,16 @@ public struct CityModel: Codable, Identifiable, Equatable {
         case population
         case timezone
     }
+    
+    // MARK: - Custom Initializer
+    public init(id: String, name: String, countryCode: String, region: String? = nil, latitude: Double? = nil, longitude: Double? = nil, population: Int? = nil, timezone: String? = nil) {
+        self.id = id
+        self.name = name
+        self.countryCode = countryCode
+        self.region = region
+        self.latitude = latitude
+        self.longitude = longitude
+        self.population = population
+        self.timezone = timezone
+    }
 } 

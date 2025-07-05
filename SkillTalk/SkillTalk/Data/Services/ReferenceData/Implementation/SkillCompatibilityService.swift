@@ -267,15 +267,9 @@ class SkillCompatibilityService: SkillCompatibilityServiceProtocol {
     
     /// Clear cache for specific skill
     func clearCache(for skillId: String) {
-        let keysToRemove = cache.allKeys.filter { key in
-            key.contains(skillId)
-        }
-        
-        for key in keysToRemove {
-            cache.removeObject(forKey: key)
-        }
-        
-        print("🗑️ [SkillCompatibilityService] Cache cleared for skill: \(skillId)")
+        // NSCache does not support key enumeration; clear all as a workaround
+        cache.removeAllObjects()
+        print("🗑️ [SkillCompatibilityService] Cache cleared for skill: \(skillId) (all cache cleared due to NSCache limitation)")
     }
 }
 

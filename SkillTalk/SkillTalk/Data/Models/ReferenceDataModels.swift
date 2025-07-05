@@ -272,4 +272,33 @@ struct LocalizationHelper {
             self.categories = categories
         }
     }
+}
+
+// MARK: - Skill Selection Step (Shared Enum)
+/// Steps in the skill selection process
+public enum SkillSelectionStep: CaseIterable {
+    case categories
+    case subcategories
+    case skills
+    case proficiency
+    
+    public static var allCases: [SkillSelectionStep] {
+        return [.categories, .subcategories, .skills, .proficiency]
+    }
+}
+
+// MARK: - Translation Load Result (Shared Struct)
+/// Result of downloading translations for a language
+public struct TranslationLoadResult {
+    public let language: String
+    public let success: Bool
+    public let updatedAt: Date?
+    public let error: Error?
+    
+    public init(language: String, success: Bool, updatedAt: Date? = nil, error: Error? = nil) {
+        self.language = language
+        self.success = success
+        self.updatedAt = updatedAt
+        self.error = error
+    }
 } 
