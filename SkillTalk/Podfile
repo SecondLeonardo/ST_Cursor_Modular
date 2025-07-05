@@ -64,7 +64,7 @@ post_install do |installer|
       # Remove the resource copying script phase entirely
       target.build_phases.delete_if do |build_phase|
         build_phase.is_a?(Xcodeproj::Project::Object::PBXShellScriptBuildPhase) && 
-        build_phase.name == '[CP] Copy Pods Resources'
+           build_phase.name == '[CP] Copy Pods Resources'
       end
     end
   end
