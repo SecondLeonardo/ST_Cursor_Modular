@@ -35,7 +35,9 @@ struct SkillTalkApp: App {
     
     var body: some Scene {
         WindowGroup {
-            LocationServiceTestView()
+            // TEMPORARY: Demo screen for testing UI components and skill lists
+            // TODO: Remove this and restore LocationServiceTestView() after testing
+            SkillDemoView()
         }
     }
     

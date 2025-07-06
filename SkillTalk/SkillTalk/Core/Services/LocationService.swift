@@ -233,8 +233,11 @@ public class CoreLocationService: NSObject, LocationServiceProtocol {
     }
     
     private func checkLocationServices() {
-        locationServicesEnabled = CLLocationManager.locationServicesEnabled()
-        permissionStatus = locationManager.authorizationStatus
+        // Move location services check to background to avoid UI unresponsiveness
+        Task { @MainActor in
+            locationServicesEnabled = CLLocationManager.locationServicesEnabled()
+            permissionStatus = locationManager.authorizationStatus
+        }
     }
     
     // MARK: - Public Methods
