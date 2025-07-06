@@ -21,43 +21,52 @@ struct SecondLanguageView: View {
             // Search bar
             searchBar
             
-            // Content
-            ScrollViewReader { proxy in
-                ScrollView {
-                    LazyVStack(spacing: 0, pinnedViews: [.sectionHeaders]) {
-                        // Selected languages section
-                        if !selectedLanguages.isEmpty {
+            if isLoading {
+                ProgressView("Loading languages...")
+                    .padding()
+            } else if let errorMessage = errorMessage {
+                Text(errorMessage)
+                    .foregroundColor(.red)
+                    .padding()
+            } else {
+                // Content
+                ScrollViewReader { proxy in
+                    ScrollView {
+                        LazyVStack(spacing: 0, pinnedViews: [.sectionHeaders]) {
+                            // Selected languages section
+                            if !selectedLanguages.isEmpty {
+                                Section {
+                                    selectedLanguagesSection
+                                } header: {
+                                    sectionHeader("SELECTED")
+                                }
+                            }
+                            
+                            // Popular languages section
                             Section {
-                                selectedLanguagesSection
+                                popularLanguagesSection
                             } header: {
-                                sectionHeader("SELECTED")
+                                sectionHeader("POPULAR")
+                            }
+                            
+                            // All languages section
+                            Section {
+                                allLanguagesSection
+                            } header: {
+                                sectionHeader("ALL LANGUAGES")
                             }
                         }
-                        
-                        // Popular languages section
-                        Section {
-                            popularLanguagesSection
-                        } header: {
-                            sectionHeader("POPULAR")
-                        }
-                        
-                        // All languages section
-                        Section {
-                            allLanguagesSection
-                        } header: {
-                            sectionHeader("ALL LANGUAGES")
-                        }
+                        .padding(.horizontal, 20)
                     }
-                    .padding(.horizontal, 20)
+                    .overlay(
+                        // Alphabetical index
+                        HStack {
+                            Spacer()
+                            alphabeticalIndex(proxy: proxy)
+                        }
+                        .padding(.trailing, 8)
+                    )
                 }
-                .overlay(
-                    // Alphabetical index
-                    HStack {
-                        Spacer()
-                        alphabeticalIndex(proxy: proxy)
-                    }
-                    .padding(.trailing, 8)
-                )
             }
             
             // Bottom button
@@ -67,6 +76,7 @@ struct SecondLanguageView: View {
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             loadLanguages()
+            selectedLanguages = []
         }
     }
     
@@ -179,16 +189,9 @@ struct SecondLanguageView: View {
     private func loadLanguages() {
         isLoading = true
         errorMessage = nil
-        Task {
-            do {
-                allLanguages = try await languageService.getAllLanguages()
-                popularLanguages = try await languageService.getPopularLanguages()
-                isLoading = false
-            } catch {
-                errorMessage = "Failed to load languages."
-                isLoading = false
-            }
-        }
+        allLanguages = languageService.getAllLanguages()
+        popularLanguages = languageService.getPopularLanguages()
+        isLoading = false
     }
     
     private var filteredLanguages: [Language] {

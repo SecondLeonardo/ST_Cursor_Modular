@@ -12,7 +12,7 @@ struct ThemeColors {
     static let light = Color(red: 230/255, green: 255/255, blue: 252/255)  // #e6fffc
 
     // MARK: - Semantic Colors
-    static let textPrimary = Color.white // #FFFFFF
+    static let textPrimary = Color.black // #000000
     static let error = Color(red: 229/255, green: 57/255, blue: 53/255)    // #E53935
     static let warning = Color(red: 255/255, green: 160/255, blue: 0/255)  // #FFA000
     static let success = Color(red: 67/255, green: 160/255, blue: 71/255)  // #43A047

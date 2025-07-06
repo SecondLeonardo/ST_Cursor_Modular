@@ -21,17 +21,17 @@ public class LanguageDatabase {
     // MARK: - Public Methods
     
     /// Get all languages sorted alphabetically
-    public func getAllLanguages() async throws -> [Language] {
+    public func getAllLanguages() -> [Language] {
         return languages
     }
     
     /// Get languages grouped by first letter
-    public func getLanguagesByAlphabet() async throws -> [String: [Language]] {
+    public func getLanguagesByAlphabet() -> [String: [Language]] {
         return languagesByAlphabet
     }
     
     /// Get popular languages
-    public func getPopularLanguages() async throws -> [Language] {
+    public func getPopularLanguages() -> [Language] {
         return popularLanguages
     }
     
@@ -68,10 +68,14 @@ public class LanguageDatabase {
     // MARK: - Private Methods
     
     private func loadLanguages() {
-        guard let url = Bundle.main.url(forResource: "languages", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
+        guard let url = Bundle.main.url(forResource: "languages", withExtension: "json") else {
+            print("Error: languages.json not found in bundle. Bundle path: \(Bundle.main.bundlePath)")
+            return
+        }
+        print("languages.json found at: \(url.path)")
+        guard let data = try? Data(contentsOf: url),
               let decodedLanguages = try? JSONDecoder().decode([Language].self, from: data) else {
-            print("Error loading languages from JSON")
+            print("Error loading or decoding languages from JSON at \(url.path)")
             return
         }
         

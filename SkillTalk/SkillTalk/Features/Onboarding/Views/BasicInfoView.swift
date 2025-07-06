@@ -6,8 +6,6 @@ struct BasicInfoView: View {
     @State private var username = ""
     @State private var phoneNumber = ""
     @State private var age = ""
-    @State private var selectedCountry: CountryModel?
-    @State private var showCountryPicker = false
     
     var body: some View {
         VStack(spacing: 0) {
@@ -27,13 +25,6 @@ struct BasicInfoView: View {
             
             // Bottom button
             bottomButtonSection
-        }
-        .sheet(isPresented: $showCountryPicker) {
-            CountryPickerSheet(
-                isPresented: $showCountryPicker,
-                selectedCountry: $selectedCountry,
-                countries: CountriesDatabase.getAllCountries()
-            )
         }
     }
     
@@ -88,54 +79,6 @@ struct BasicInfoView: View {
                 isRequired: true,
                 keyboardType: .numberPad
             )
-            
-            // Country selection
-            VStack(alignment: .leading, spacing: 8) {
-                HStack {
-                    Text("I'm from")
-                        .font(.subheadline)
-                        .fontWeight(.medium)
-                        .foregroundColor(ThemeColors.textPrimary)
-                    
-                    Text("*")
-                        .foregroundColor(ThemeColors.error)
-                        .font(.subheadline)
-                        .fontWeight(.medium)
-                }
-                
-                Button(action: {
-                    showCountryPicker = true
-                }) {
-                    HStack {
-                        if let country = selectedCountry {
-                            Text(country.flag)
-                                .font(.title2)
-                            
-                            Text(country.name)
-                                .font(.body)
-                                .foregroundColor(ThemeColors.textPrimary)
-                        } else {
-                            Text("Select your country")
-                                .font(.body)
-                                .foregroundColor(ThemeColors.textSecondary)
-                        }
-                        
-                        Spacer()
-                        
-                        Image(systemName: "chevron.right")
-                            .font(.caption)
-                            .foregroundColor(ThemeColors.textSecondary)
-                    }
-                    .padding(.horizontal, 16)
-                    .padding(.vertical, 14)
-                    .background(Color.white)
-                    .cornerRadius(12)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 12)
-                            .stroke(Color.gray.opacity(0.2), lineWidth: 1)
-                    )
-                }
-            }
         }
     }
     
@@ -150,7 +93,6 @@ struct BasicInfoView: View {
                     coordinator.onboardingData.username = username
                     coordinator.onboardingData.phoneNumber = phoneNumber
                     coordinator.onboardingData.age = age
-                    coordinator.onboardingData.country = selectedCountry
                     
                     coordinator.nextStep()
                 }
@@ -168,8 +110,7 @@ struct BasicInfoView: View {
         !name.isEmpty &&
         !username.isEmpty &&
         !phoneNumber.isEmpty &&
-        !age.isEmpty &&
-        selectedCountry != nil
+        !age.isEmpty
     }
 }
 

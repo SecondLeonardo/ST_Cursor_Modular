@@ -311,13 +311,18 @@ class LanguageService: LanguageServiceProtocol {
 
 /// Represents a language with its code, name, and native name
 public struct Language: Codable, Identifiable, Equatable {
-    public let id: String // Same as code
+    public var id: String { code } // Computed property for Identifiable
     public let code: String
     public let name: String // English name
     public let nativeName: String
     
+    private enum CodingKeys: String, CodingKey {
+        case code
+        case name = "englishName"
+        case nativeName
+    }
+    
     public init(code: String, name: String, nativeName: String) {
-        self.id = code
         self.code = code
         self.name = name
         self.nativeName = nativeName

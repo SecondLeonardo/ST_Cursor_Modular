@@ -22,7 +22,7 @@ struct PrimaryButton: View {
                 } else {
                     Text(title)
                         .font(theme.typography.button)
-                        .foregroundColor(theme.colors.textPrimary)
+                        .foregroundColor(.white)
                 }
             }
             .frame(maxWidth: .infinity)

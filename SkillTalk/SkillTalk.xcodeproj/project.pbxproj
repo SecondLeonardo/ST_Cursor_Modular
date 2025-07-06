@@ -50,9 +50,25 @@
 		FD56FF79BE0103A19A23129A /* Pods-SkillTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalk.debug.xcconfig"; path = "Target Support Files/Pods-SkillTalk/Pods-SkillTalk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2D496A2F2E1ACF6E00607078 /* Exceptions for "SkillTalk" folder in "SkillTalk" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/Services/ReferenceData/categories.json,
+				Data/Services/ReferenceData/languages.json,
+				Data/Services/ReferenceData/programming_languages_skills.json,
+				Data/Services/ReferenceData/technology_subcategories.json,
+			);
+			target = 2DC8B1272E15E20000F5C950 /* SkillTalk */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2DC8B12A2E15E20000F5C950 /* SkillTalk */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2D496A2F2E1ACF6E00607078 /* Exceptions for "SkillTalk" folder in "SkillTalk" target */,
+			);
 			path = SkillTalk;
 			sourceTree = "<group>";
 		};

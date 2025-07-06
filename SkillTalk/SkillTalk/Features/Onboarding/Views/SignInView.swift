@@ -149,6 +149,8 @@ struct SignInView: View {
                     icon: "applelogo",
                     backgroundColor: .black,
                     textColor: .white,
+                    fontSize: 16,
+                    width: 100,
                     action: {
                         coordinator.onboardingData.authProvider = .apple
                         coordinator.onboardingData.isAuthenticated = true
@@ -157,13 +159,42 @@ struct SignInView: View {
                 )
                 
                 SocialLoginButton(
-                    title: "Continue with Google",
+                    title: "Google",
                     icon: "globe",
                     backgroundColor: .white,
                     textColor: .black,
+                    fontSize: 16,
+                    width: 100,
                     action: {
                         coordinator.onboardingData.authProvider = .google
                         coordinator.onboardingData.isAuthenticated = true
+                        coordinator.nextStep()
+                    }
+                )
+                
+                SocialLoginButton(
+                    title: "Facebook",
+                    icon: "person.2.fill",
+                    backgroundColor: Color(red: 66/255, green: 103/255, blue: 178/255),
+                    textColor: .white,
+                    fontSize: 16,
+                    width: 100,
+                    action: {
+                        coordinator.onboardingData.authProvider = .facebook
+                        coordinator.onboardingData.isAuthenticated = true
+                        coordinator.nextStep()
+                    }
+                )
+                
+                SocialLoginButton(
+                    title: "Email",
+                    icon: "envelope.fill",
+                    backgroundColor: .white,
+                    textColor: .black,
+                    fontSize: 16,
+                    width: 100,
+                    action: {
+                        coordinator.onboardingData.authProvider = .email
                         coordinator.nextStep()
                     }
                 )

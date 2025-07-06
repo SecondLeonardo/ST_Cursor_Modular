@@ -10,12 +10,12 @@ class OnboardingCoordinator: ObservableObject {
     enum OnboardingStep: CaseIterable {
         case welcome
         case signIn
-        case basicInfo
         case countrySelection
         case nativeLanguage
         case secondLanguage
         case expertise
         case targetSkill
+        case basicInfo // name, birthday, gender
         case profilePicture
         case complete
     }

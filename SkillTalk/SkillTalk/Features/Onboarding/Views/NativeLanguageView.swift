@@ -27,34 +27,47 @@ struct NativeLanguageView: View {
             // Search bar
             searchBar
             
-            // Content
-            ScrollViewReader { proxy in
-                ScrollView {
-                    LazyVStack(spacing: 0, pinnedViews: [.sectionHeaders]) {
-                        // Popular languages section
-                        Section {
-                            popularLanguagesSection
-                        } header: {
-                            sectionHeader("POPULAR")
+            if isLoading {
+                ProgressView("Loading languages...")
+                    .padding()
+            } else if let errorMessage = errorMessage {
+                Text(errorMessage)
+                    .foregroundColor(.red)
+                    .padding()
+            } else if allLanguages.isEmpty {
+                Text("No languages loaded. Check if languages.json is in the app bundle.")
+                    .foregroundColor(.red)
+                    .padding()
+            } else {
+                // Content
+                ScrollViewReader { proxy in
+                    ScrollView {
+                        LazyVStack(spacing: 0, pinnedViews: [.sectionHeaders]) {
+                            // Popular languages section
+                            Section {
+                                popularLanguagesSection
+                            } header: {
+                                sectionHeader("POPULAR")
+                            }
+                            
+                            // All languages section
+                            Section {
+                                allLanguagesSection
+                            } header: {
+                                sectionHeader("ALL LANGUAGES")
+                            }
                         }
-                        
-                        // All languages section
-                        Section {
-                            allLanguagesSection
-                        } header: {
-                            sectionHeader("ALL LANGUAGES")
-                        }
+                        .padding(.horizontal, 20)
                     }
-                    .padding(.horizontal, 20)
+                    .overlay(
+                        // Alphabetical index
+                        HStack {
+                            Spacer()
+                            alphabeticalIndex(proxy: proxy)
+                        }
+                        .padding(.trailing, 8)
+                    )
                 }
-                .overlay(
-                    // Alphabetical index
-                    HStack {
-                        Spacer()
-                        alphabeticalIndex(proxy: proxy)
-                    }
-                    .padding(.trailing, 8)
-                )
             }
         }
         .navigationTitle("Native Language")
@@ -161,16 +174,9 @@ struct NativeLanguageView: View {
     private func loadLanguages() {
         isLoading = true
         errorMessage = nil
-        Task {
-            do {
-                allLanguages = try await languageService.getAllLanguages()
-                popularLanguages = try await languageService.getPopularLanguages()
-                isLoading = false
-            } catch {
-                errorMessage = "Failed to load languages."
-                isLoading = false
-            }
-        }
+        allLanguages = languageService.getAllLanguages()
+        popularLanguages = languageService.getPopularLanguages()
+        isLoading = false
     }
 }
 

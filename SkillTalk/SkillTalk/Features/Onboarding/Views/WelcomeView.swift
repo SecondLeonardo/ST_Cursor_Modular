@@ -7,26 +7,24 @@ struct WelcomeView: View {
     var body: some View {
         VStack(spacing: 0) {
             // Main content
-            ScrollView {
-                VStack(spacing: 40) {
-                    // Header section
-                    headerSection
-                    
-                    // Features section
-                    featuresSection
-                    
-                    // Language greetings
-                    languageGreetingsSection
-                    
-                    // Sign in buttons
-                    signInButtonsSection
-                    
-                    // Help section
-                    helpSection
-                }
-                .padding(.horizontal, 24)
-                .padding(.top, 20)
+            VStack(spacing: 32) {
+                // Header section
+                headerSection
+                
+                // Features section
+                featuresSection
+                
+                // Language greetings
+                languageGreetingsSection
+                
+                // Sign in buttons
+                signInButtonsSection
+                
+                // Help section
+                helpSection
             }
+            .padding(.horizontal, 24)
+            .padding(.top, 20)
         }
         .background(
             LinearGradient(
@@ -42,15 +40,13 @@ struct WelcomeView: View {
     private var headerSection: some View {
         VStack(spacing: 16) {
             // App logo/icon
-            Image(systemName: "brain.head.profile")
-                .font(.system(size: 80))
-                .foregroundStyle(
-                    LinearGradient(
-                        colors: [ThemeColors.primary, ThemeColors.primary.opacity(0.7)],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
-                )
+            Image("SkillTalkLogo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 100, height: 100)
+                .padding(.top, 16)
+                .shadow(radius: 8)
+                .accessibilityLabel("SkillTalk Logo")
             
             // App name with gradient
             Text("SkillTalk")
@@ -108,16 +104,35 @@ struct WelcomeView: View {
     
     // MARK: - Language Greetings Section
     private var languageGreetingsSection: some View {
-        VStack(spacing: 16) {
+        VStack(spacing: 8) {
             Text("Global Community")
                 .font(.headline)
                 .fontWeight(.semibold)
                 .foregroundColor(ThemeColors.textPrimary)
-            
-            LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 12) {
-                ForEach(languageGreetings, id: \.language) { greeting in
-                    LanguageGreetingCard(greeting: greeting)
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 16) {
+                    ForEach(languageGreetings, id: \.language) { greeting in
+                        HStack(spacing: 8) {
+                            Text(greeting.flag)
+                                .font(.title2)
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(greeting.greeting)
+                                    .font(.body)
+                                    .fontWeight(.medium)
+                                    .foregroundColor(ThemeColors.textPrimary)
+                                Text(greeting.language)
+                                    .font(.caption)
+                                    .foregroundColor(ThemeColors.textSecondary)
+                            }
+                        }
+                        .padding(.vertical, 8)
+                        .padding(.horizontal, 12)
+                        .background(Color.white.opacity(0.8))
+                        .cornerRadius(12)
+                        .shadow(color: Color.black.opacity(0.04), radius: 2, x: 0, y: 2)
+                    }
                 }
+                .padding(.vertical, 4)
             }
         }
     }
@@ -135,37 +150,41 @@ struct WelcomeView: View {
                 }
             )
             
-            // Other sign in options
-            VStack(spacing: 12) {
+            // Other sign in options in a row
+            HStack(spacing: 12) {
                 SocialLoginButton(
                     title: "Google",
                     icon: "globe",
                     backgroundColor: .white,
                     textColor: .black,
+                    fontSize: 16,
+                    width: 100,
                     action: {
                         coordinator.onboardingData.authProvider = .google
                         coordinator.onboardingData.isAuthenticated = true
                         coordinator.nextStep()
                     }
                 )
-                
                 SocialLoginButton(
                     title: "Facebook",
                     icon: "person.2.fill",
                     backgroundColor: Color(red: 66/255, green: 103/255, blue: 178/255),
                     textColor: .white,
+                    fontSize: 16,
+                    width: 100,
                     action: {
                         coordinator.onboardingData.authProvider = .facebook
                         coordinator.onboardingData.isAuthenticated = true
                         coordinator.nextStep()
                     }
                 )
-                
                 SocialLoginButton(
                     title: "Email",
                     icon: "envelope.fill",
                     backgroundColor: .white,
                     textColor: .black,
+                    fontSize: 16,
+                    width: 100,
                     action: {
                         coordinator.onboardingData.authProvider = .email
                         coordinator.nextStep()
@@ -236,13 +255,15 @@ struct SocialLoginButton: View {
     let icon: String
     let backgroundColor: Color
     let textColor: Color
+    let fontSize: CGFloat
+    let width: CGFloat
     let action: () -> Void
     
     var body: some View {
         Button(action: action) {
             HStack(spacing: 12) {
                 Image(systemName: icon)
-                    .font(.title3)
+                    .font(.system(size: fontSize))
                     .foregroundColor(textColor)
                 
                 Text(title)
