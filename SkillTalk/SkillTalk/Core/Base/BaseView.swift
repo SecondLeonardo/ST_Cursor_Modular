@@ -92,7 +92,7 @@ struct LoadingOverlay: View {
 // MARK: - App Colors for SwiftUI
 
 struct AppSwiftUIColors {
-    static let primary = Color(red: 47/255, green: 176/255, blue: 199/255) // #2fb0c7
+    static let primary = ThemeColors.primary // #2fb0c7
     static let secondary = Color.gray
     static let background = Color(UIColor.systemBackground)
     static let surface = Color(UIColor.secondarySystemBackground)

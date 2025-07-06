@@ -66,7 +66,7 @@ struct LocationServiceTestView: View {
         VStack(spacing: 12) {
             Image(systemName: "location.circle.fill")
                 .font(.system(size: 60))
-                .foregroundColor(Color(red: 47/255, green: 176/255, blue: 199/255))
+                .foregroundColor(ThemeColors.primary)
             
             Text("Location Service Test")
                 .font(.title2)
@@ -88,7 +88,7 @@ struct LocationServiceTestView: View {
         VStack(alignment: .leading, spacing: 12) {
             HStack {
                 Image(systemName: "location.fill")
-                    .foregroundColor(.blue)
+                    .foregroundColor(ThemeColors.primary)
                 Text("Current Location")
                     .font(.headline)
                 Spacer()
@@ -158,7 +158,7 @@ struct LocationServiceTestView: View {
                     }
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(Color.blue)
+                    .background(ThemeColors.primary)
                     .foregroundColor(.white)
                     .cornerRadius(8)
                 }
@@ -194,7 +194,7 @@ struct LocationServiceTestView: View {
                     }
                     .frame(maxWidth: .infinity)
                     .padding()
-                    .background(Color(red: 47/255, green: 176/255, blue: 199/255))
+                    .background(ThemeColors.primary)
                     .foregroundColor(.white)
                     .cornerRadius(8)
                 }

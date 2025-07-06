@@ -89,7 +89,7 @@ struct SkillTalkApp: App {
         UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance
         
         #if DEBUG
-        print("🎨 App appearance configured with primary color #2fb0c7")
+        print("🎨 App appearance configured with primary color #00D8C0")
         #endif
     }
 }

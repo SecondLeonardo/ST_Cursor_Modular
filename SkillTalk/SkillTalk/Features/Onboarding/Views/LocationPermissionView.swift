@@ -38,7 +38,7 @@ struct LocationPermissionView: View {
                     // Location icon
                     Image(systemName: "location.circle.fill")
                         .font(.system(size: 60))
-                        .foregroundColor(Color(red: 47/255, green: 176/255, blue: 199/255)) // SkillTalk teal
+                        .foregroundColor(ThemeColors.primary)
                     
                     // Title
                     Text("Allow Location Access")
@@ -113,8 +113,8 @@ struct LocationPermissionView: View {
                         .background(
                             LinearGradient(
                                 colors: [
-                                    Color(red: 47/255, green: 176/255, blue: 199/255),
-                                    Color(red: 47/255, green: 176/255, blue: 199/255).opacity(0.8)
+                                    ThemeColors.primary,
+                                    ThemeColors.primary.opacity(0.8)
                                 ],
                                 startPoint: .leading,
                                 endPoint: .trailing
@@ -243,7 +243,7 @@ struct BenefitRow: View {
             // Icon
             Image(systemName: icon)
                 .font(.system(size: 20, weight: .medium))
-                .foregroundColor(Color(red: 47/255, green: 176/255, blue: 199/255))
+                .foregroundColor(ThemeColors.primary)
                 .frame(width: 24, height: 24)
             
             // Text content

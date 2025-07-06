@@ -57,7 +57,7 @@ struct SkillDemoView: View {
             // App Logo/Icon
             Image(systemName: "brain.head.profile")
                 .font(.system(size: 60))
-                .foregroundColor(Color(red: 47/255, green: 176/255, blue: 199/255))
+                .foregroundColor(ThemeColors.primary)
             
             Text("SkillTalk Demo")
                 .font(.largeTitle)
@@ -215,7 +215,7 @@ struct SkillDemoView: View {
                         print("Primary button tapped")
                     }
                     .buttonStyle(.borderedProminent)
-                    .tint(Color(red: 47/255, green: 176/255, blue: 199/255))
+                    .tint(ThemeColors.primary)
                     
                     Button("Secondary") {
                         print("Secondary button tapped")
@@ -265,7 +265,7 @@ struct SkillDemoView: View {
                 
                 VStack(spacing: 8) {
                     ProgressView(value: 0.7)
-                        .progressViewStyle(LinearProgressViewStyle(tint: Color(red: 47/255, green: 176/255, blue: 199/255)))
+                        .progressViewStyle(LinearProgressViewStyle(tint: ThemeColors.primary))
                     
                     HStack {
                         Text("Skill Progress")

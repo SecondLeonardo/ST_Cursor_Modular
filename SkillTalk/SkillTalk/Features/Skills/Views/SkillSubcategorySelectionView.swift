@@ -156,7 +156,7 @@ struct SubcategoryCardView: View {
                     .font(.title2)
                     .foregroundColor(.white)
                     .frame(width: 44, height: 44)
-                    .background(Color(red: 0.18, green: 0.69, blue: 0.78)) // #2fb0c7
+                    .background(ThemeColors.primary)
                     .clipShape(Circle())
                 
                 // Content
