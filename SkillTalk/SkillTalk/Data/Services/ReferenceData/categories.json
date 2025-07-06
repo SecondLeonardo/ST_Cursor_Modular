@@ -1,0 +1,82 @@
+[
+  {
+    "id": "technology",
+    "name": "Technology",
+    "description": "Programming, software development, and technical skills",
+    "skill_count": 150,
+    "icon": "laptopcomputer",
+    "color": "#6B2CC8"
+  },
+  {
+    "id": "arts_creativity",
+    "name": "Arts & Creativity",
+    "description": "Visual arts, music, design, and creative expression",
+    "skill_count": 120,
+    "icon": "paintbrush",
+    "color": "#2FB0C7"
+  },
+  {
+    "id": "business_finance",
+    "name": "Business & Finance",
+    "description": "Entrepreneurship, management, and financial skills",
+    "skill_count": 95,
+    "icon": "chart.line.uptrend.xyaxis",
+    "color": "#336633"
+  },
+  {
+    "id": "health_fitness",
+    "name": "Health & Fitness",
+    "description": "Physical fitness, nutrition, and wellness",
+    "skill_count": 80,
+    "icon": "heart.fill",
+    "color": "#E64D4D"
+  },
+  {
+    "id": "language_communication",
+    "name": "Language & Communication",
+    "description": "Languages, public speaking, and communication skills",
+    "skill_count": 200,
+    "icon": "message",
+    "color": "#3366CC"
+  },
+  {
+    "id": "science_research",
+    "name": "Science & Research",
+    "description": "Scientific methods, research, and academic skills",
+    "skill_count": 75,
+    "icon": "atom",
+    "color": "#CC6633"
+  },
+  {
+    "id": "education_learning",
+    "name": "Education & Learning",
+    "description": "Teaching, tutoring, and educational skills",
+    "skill_count": 60,
+    "icon": "book.fill",
+    "color": "#6666CC"
+  },
+  {
+    "id": "personal_development",
+    "name": "Personal Development",
+    "description": "Self-improvement, leadership, and life skills",
+    "skill_count": 90,
+    "icon": "person.fill",
+    "color": "#CCCC33"
+  },
+  {
+    "id": "home_diy",
+    "name": "Home & DIY",
+    "description": "Home improvement, crafts, and practical skills",
+    "skill_count": 110,
+    "icon": "house.fill",
+    "color": "#66CC66"
+  },
+  {
+    "id": "sports_recreation",
+    "name": "Sports & Recreation",
+    "description": "Athletics, outdoor activities, and recreational skills",
+    "skill_count": 85,
+    "icon": "figure.run",
+    "color": "#CC3366"
+  }
+] 
