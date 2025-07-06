@@ -128,7 +128,6 @@ struct WelcomeView: View {
             // Primary sign in button (Apple)
             PrimaryButton(
                 title: "Sign in with Apple",
-                icon: "applelogo",
                 action: {
                     coordinator.onboardingData.authProvider = .apple
                     coordinator.onboardingData.isAuthenticated = true

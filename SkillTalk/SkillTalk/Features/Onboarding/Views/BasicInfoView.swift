@@ -6,7 +6,7 @@ struct BasicInfoView: View {
     @State private var username = ""
     @State private var phoneNumber = ""
     @State private var age = ""
-    @State private var selectedCountry: Country?
+    @State private var selectedCountry: CountryModel?
     @State private var showCountryPicker = false
     
     var body: some View {
@@ -200,15 +200,15 @@ struct FormField: View {
 // MARK: - Country Picker Sheet
 struct CountryPickerSheet: View {
     @Binding var isPresented: Bool
-    @Binding var selectedCountry: Country?
-    let countries: [Country]
+    @Binding var selectedCountry: CountryModel?
+    let countries: [CountryModel]
     
     var body: some View {
         NavigationView {
             List {
                 // Popular countries section
                 Section("Popular") {
-                    ForEach(Country.popularCountries) { country in
+                    ForEach(CountriesDatabase.getPopularCountries()) { country in
                         CountryRow(country: country, isSelected: selectedCountry?.id == country.id) {
                             selectedCountry = country
                             isPresented = false
@@ -241,7 +241,7 @@ struct CountryPickerSheet: View {
 
 // MARK: - Country Row
 struct CountryRow: View {
-    let country: Country
+    let country: CountryModel
     let isSelected: Bool
     let action: () -> Void
     

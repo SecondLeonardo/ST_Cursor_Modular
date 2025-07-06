@@ -7,7 +7,7 @@ struct SelectedSkillCard: View {
     
     var body: some View {
         HStack(spacing: 8) {
-            Text(skill.name)
+            Text(skill.englishName)
                 .font(.subheadline)
                 .fontWeight(.medium)
                 .foregroundColor(ThemeColors.textPrimary)
@@ -37,11 +37,11 @@ struct CategoryCard: View {
     var body: some View {
         Button(action: action) {
             VStack(spacing: 8) {
-                Image(systemName: category.icon)
+                Image(systemName: category.icon ?? "star")
                     .font(.title2)
                     .foregroundColor(isSelected ? .white : ThemeColors.primary)
                 
-                Text(category.name)
+                Text(category.englishName)
                     .font(.caption)
                     .fontWeight(.medium)
                     .foregroundColor(isSelected ? .white : ThemeColors.textPrimary)
@@ -69,7 +69,7 @@ struct SkillCard: View {
     var body: some View {
         Button(action: action) {
             HStack(spacing: 8) {
-                Text(skill.name)
+                Text(skill.englishName)
                     .font(.subheadline)
                     .fontWeight(.medium)
                     .foregroundColor(isSelected ? .white : ThemeColors.textPrimary)
@@ -101,7 +101,7 @@ struct SkillCard: View {
 struct LanguageWithProficiency: Identifiable, Equatable {
     let id = UUID()
     let language: Language
-    let proficiency: LanguageProficiency
+    var proficiency: LanguageProficiency
     
     static func == (lhs: LanguageWithProficiency, rhs: LanguageWithProficiency) -> Bool {
         lhs.language.id == rhs.language.id
@@ -295,13 +295,11 @@ struct AllCountriesSection: View {
             skill: Skill(id: "test", subcategoryId: "test", englishName: "Test Skill", difficulty: .beginner, popularity: 1, icon: nil, tags: [], translations: nil),
             onRemove: {}
         )
-        
         CategoryCard(
-            category: SkillCategory(id: "test", name: "Test Category", icon: "star", skills: []),
+            category: SkillCategory(id: "test", englishName: "Test Category", icon: "star", sortOrder: 0, translations: nil),
             isSelected: false,
             action: {}
         )
-        
         SkillCard(
             skill: Skill(id: "test", subcategoryId: "test", englishName: "Test Skill", difficulty: .beginner, popularity: 1, icon: nil, tags: [], translations: nil),
             isSelected: false,

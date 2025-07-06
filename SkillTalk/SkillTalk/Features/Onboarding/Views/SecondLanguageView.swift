@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 struct SecondLanguageView: View {
     @ObservedObject var coordinator: OnboardingCoordinator
@@ -6,6 +7,11 @@ struct SecondLanguageView: View {
     @State private var selectedLanguages: [LanguageWithProficiency] = []
     @State private var showingProficiencyPicker = false
     @State private var tempLanguage: Language?
+    @State private var allLanguages: [Language] = []
+    @State private var popularLanguages: [Language] = []
+    @State private var isLoading: Bool = true
+    @State private var errorMessage: String?
+    private let languageService = LanguageDatabase.shared
     
     var body: some View {
         VStack(spacing: 0) {
@@ -60,10 +66,7 @@ struct SecondLanguageView: View {
         .navigationTitle("Second Language")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
-            // Load existing selections
-            selectedLanguages = coordinator.onboardingData.secondLanguages.map { language in
-                LanguageWithProficiency(language: language, proficiency: .intermediate)
-            }
+            loadLanguages()
         }
     }
     
@@ -122,7 +125,7 @@ struct SecondLanguageView: View {
     // MARK: - Popular Languages Section
     private var popularLanguagesSection: some View {
         VStack(spacing: 8) {
-            ForEach(Language.popularLanguages) { language in
+            ForEach(popularLanguages) { language in
                 if !isLanguageSelected(language) {
                     LanguageRowView(
                         language: language,
@@ -173,6 +176,21 @@ struct SecondLanguageView: View {
     }
     
     // MARK: - Helper Methods
+    private func loadLanguages() {
+        isLoading = true
+        errorMessage = nil
+        Task {
+            do {
+                allLanguages = try await languageService.getAllLanguages()
+                popularLanguages = try await languageService.getPopularLanguages()
+                isLoading = false
+            } catch {
+                errorMessage = "Failed to load languages."
+                isLoading = false
+            }
+        }
+    }
+    
     private var filteredLanguages: [Language] {
         if searchText.isEmpty {
             return allLanguages
@@ -182,49 +200,6 @@ struct SecondLanguageView: View {
                 language.nativeName.localizedCaseInsensitiveContains(searchText)
             }
         }
-    }
-    
-    private var allLanguages: [Language] {
-        [
-            Language(id: "af", name: "Afrikaans", nativeName: "Afrikaans", code: "af"),
-            Language(id: "ar", name: "Arabic", nativeName: "العربية", code: "ar"),
-            Language(id: "bn", name: "Bengali", nativeName: "বাংলা", code: "bn"),
-            Language(id: "zh", name: "Chinese", nativeName: "中文", code: "zh"),
-            Language(id: "cs", name: "Czech", nativeName: "Čeština", code: "cs"),
-            Language(id: "da", name: "Danish", nativeName: "Dansk", code: "da"),
-            Language(id: "nl", name: "Dutch", nativeName: "Nederlands", code: "nl"),
-            Language(id: "en", name: "English", nativeName: "English", code: "en"),
-            Language(id: "et", name: "Estonian", nativeName: "Eesti", code: "et"),
-            Language(id: "fi", name: "Finnish", nativeName: "Suomi", code: "fi"),
-            Language(id: "fr", name: "French", nativeName: "Français", code: "fr"),
-            Language(id: "de", name: "German", nativeName: "Deutsch", code: "de"),
-            Language(id: "el", name: "Greek", nativeName: "Ελληνικά", code: "el"),
-            Language(id: "he", name: "Hebrew", nativeName: "עברית", code: "he"),
-            Language(id: "hi", name: "Hindi", nativeName: "हिन्दी", code: "hi"),
-            Language(id: "hu", name: "Hungarian", nativeName: "Magyar", code: "hu"),
-            Language(id: "id", name: "Indonesian", nativeName: "Bahasa Indonesia", code: "id"),
-            Language(id: "it", name: "Italian", nativeName: "Italiano", code: "it"),
-            Language(id: "ja", name: "Japanese", nativeName: "日本語", code: "ja"),
-            Language(id: "ko", name: "Korean", nativeName: "한국어", code: "ko"),
-            Language(id: "lv", name: "Latvian", nativeName: "Latviešu", code: "lv"),
-            Language(id: "lt", name: "Lithuanian", nativeName: "Lietuvių", code: "lt"),
-            Language(id: "ms", name: "Malay", nativeName: "Bahasa Melayu", code: "ms"),
-            Language(id: "no", name: "Norwegian", nativeName: "Norsk", code: "no"),
-            Language(id: "fa", name: "Persian", nativeName: "فارسی", code: "fa"),
-            Language(id: "pl", name: "Polish", nativeName: "Polski", code: "pl"),
-            Language(id: "pt", name: "Portuguese", nativeName: "Português", code: "pt"),
-            Language(id: "ro", name: "Romanian", nativeName: "Română", code: "ro"),
-            Language(id: "ru", name: "Russian", nativeName: "Русский", code: "ru"),
-            Language(id: "sk", name: "Slovak", nativeName: "Slovenčina", code: "sk"),
-            Language(id: "sl", name: "Slovenian", nativeName: "Slovenščina", code: "sl"),
-            Language(id: "es", name: "Spanish", nativeName: "Español", code: "es"),
-            Language(id: "sv", name: "Swedish", nativeName: "Svenska", code: "sv"),
-            Language(id: "th", name: "Thai", nativeName: "ไทย", code: "th"),
-            Language(id: "tr", name: "Turkish", nativeName: "Türkçe", code: "tr"),
-            Language(id: "uk", name: "Ukrainian", nativeName: "Українська", code: "uk"),
-            Language(id: "ur", name: "Urdu", nativeName: "اردو", code: "ur"),
-            Language(id: "vi", name: "Vietnamese", nativeName: "Tiếng Việt", code: "vi")
-        ].sorted { $0.name < $1.name }
     }
     
     private func isLanguageSelected(_ language: Language) -> Bool {
@@ -253,7 +228,7 @@ struct SecondLanguageView: View {
     }
     
     // MARK: - Alphabetical Index
-    private func alphabeticalIndex(proxy: ScrollViewReader) -> some View {
+    private func alphabeticalIndex(proxy: ScrollViewProxy) -> some View {
         VStack(spacing: 2) {
             ForEach(alphabeticalLetters, id: \.self) { letter in
                 Button(action: {
@@ -276,7 +251,7 @@ struct SecondLanguageView: View {
         Array("ABCDEFGHIJKLMNOPQRSTUVWXYZ").map { String($0) }
     }
     
-    private func scrollToLetter(_ letter: String, proxy: ScrollViewReader) {
+    private func scrollToLetter(_ letter: String, proxy: ScrollViewProxy) {
         if let firstLanguage = filteredLanguages.first(where: { $0.name.hasPrefix(letter) }) {
             withAnimation(.easeInOut(duration: 0.3)) {
                 proxy.scrollTo(firstLanguage.id, anchor: .top)
@@ -286,11 +261,7 @@ struct SecondLanguageView: View {
 }
 
 // MARK: - Language with Proficiency Model
-struct LanguageWithProficiency: Identifiable {
-    let id = UUID()
-    let language: Language
-    var proficiency: LanguageProficiency
-}
+// Using the shared model from OnboardingComponents
 
 // MARK: - Selected Language Row View
 struct SelectedLanguageRowView: View {

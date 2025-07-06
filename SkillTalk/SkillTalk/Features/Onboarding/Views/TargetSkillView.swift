@@ -1,10 +1,16 @@
 import SwiftUI
+import Combine
 
 struct TargetSkillView: View {
     @ObservedObject var coordinator: OnboardingCoordinator
     @State private var searchText = ""
     @State private var selectedCategory: SkillCategory?
     @State private var selectedSkills: [Skill] = []
+    @State private var skillCategories: [SkillCategory] = []
+    @State private var skillsByCategory: [String: [Skill]] = [:]
+    @State private var isLoading: Bool = true
+    @State private var errorMessage: String?
+    private let skillService = OptimizedSkillDatabaseService()
     
     var body: some View {
         VStack(spacing: 0) {
@@ -14,44 +20,33 @@ struct TargetSkillView: View {
             // Search bar
             searchBar
             
-            // Content
-            ScrollView {
-                LazyVStack(spacing: 0, pinnedViews: [.sectionHeaders]) {
-                    // Selected skills section
-                    if !selectedSkills.isEmpty {
-                        Section {
-                            selectedSkillsSection
-                        } header: {
-                            sectionHeader("SKILLS TO LEARN")
-                        }
-                    }
-                    
-                    // Categories section
-                    Section {
+            if isLoading {
+                ProgressView()
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            } else if let errorMessage = errorMessage {
+                Text(errorMessage)
+                    .foregroundColor(.red)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            } else {
+                ScrollView {
+                    VStack(spacing: 24) {
+                        sectionHeader("Select a category")
                         categoriesSection
-                    } header: {
-                        sectionHeader("CATEGORIES")
-                    }
-                    
-                    // Skills section (when category is selected)
-                    if let selectedCategory = selectedCategory {
-                        Section {
+                        if let selectedCategory = selectedCategory {
+                            sectionHeader("Select skills to learn")
                             skillsSection(for: selectedCategory)
-                        } header: {
-                            sectionHeader("SKILLS")
                         }
                     }
+                    .padding(.horizontal, 24)
                 }
-                .padding(.horizontal, 20)
+                bottomButtonSection
             }
-            
-            // Bottom button
-            bottomButtonSection
         }
         .navigationTitle("Target Skills")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             selectedSkills = coordinator.onboardingData.targetSkills
+            loadCategories()
         }
     }
     
@@ -90,20 +85,6 @@ struct TargetSkillView: View {
         .padding(.bottom, 16)
     }
     
-    // MARK: - Selected Skills Section
-    private var selectedSkillsSection: some View {
-        LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 12) {
-            ForEach(selectedSkills) { skill in
-                SelectedSkillCard(
-                    skill: skill,
-                    onRemove: {
-                        removeSkill(skill)
-                    }
-                )
-            }
-        }
-    }
-    
     // MARK: - Categories Section
     private var categoriesSection: some View {
         LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 12) {
@@ -120,10 +101,9 @@ struct TargetSkillView: View {
     
     // MARK: - Skills Section
     private func skillsSection(for category: SkillCategory) -> some View {
-        let filteredSkills = category.skills.filter { skill in
-            searchText.isEmpty || skill.name.localizedCaseInsensitiveContains(searchText)
+        let filteredSkills = (skillsByCategory[category.id] ?? []).filter { skill in
+            searchText.isEmpty || skill.englishName.localizedCaseInsensitiveContains(searchText)
         }
-        
         return LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 12) {
             ForEach(filteredSkills) { skill in
                 SkillCard(
@@ -182,114 +162,37 @@ struct TargetSkillView: View {
             .background(Color.white)
     }
     
-    // MARK: - Skill Categories Data (same as ExpertiseView)
-    private var skillCategories: [SkillCategory] {
-        [
-            SkillCategory(
-                id: "languages",
-                name: "Languages",
-                icon: "globe",
-                skills: [
-                    SkillModel(id: "english", name: "English", category: "Languages", description: "English language skills"),
-                    SkillModel(id: "spanish", name: "Spanish", category: "Languages", description: "Spanish language skills"),
-                    SkillModel(id: "french", name: "French", category: "Languages", description: "French language skills"),
-                    SkillModel(id: "german", name: "German", category: "Languages", description: "German language skills"),
-                    SkillModel(id: "italian", name: "Italian", category: "Languages", description: "Italian language skills"),
-                    SkillModel(id: "portuguese", name: "Portuguese", category: "Languages", description: "Portuguese language skills"),
-                    SkillModel(id: "russian", name: "Russian", category: "Languages", description: "Russian language skills"),
-                    SkillModel(id: "japanese", name: "Japanese", category: "Languages", description: "Japanese language skills"),
-                    SkillModel(id: "korean", name: "Korean", category: "Languages", description: "Korean language skills"),
-                    SkillModel(id: "chinese", name: "Chinese", category: "Languages", description: "Chinese language skills"),
-                    SkillModel(id: "arabic", name: "Arabic", category: "Languages", description: "Arabic language skills"),
-                    SkillModel(id: "hindi", name: "Hindi", category: "Languages", description: "Hindi language skills")
-                ]
-            ),
-            SkillCategory(
-                id: "technology",
-                name: "Technology",
-                icon: "laptopcomputer",
-                skills: [
-                    SkillModel(id: "programming", name: "Programming", category: "Technology", description: "Programming skills"),
-                    SkillModel(id: "web_development", name: "Web Development", category: "Technology", description: "Web development skills"),
-                    SkillModel(id: "mobile_development", name: "Mobile Development", category: "Technology", description: "Mobile development skills"),
-                    SkillModel(id: "data_science", name: "Data Science", category: "Technology", description: "Data science skills"),
-                    SkillModel(id: "ai_ml", name: "AI & Machine Learning", category: "Technology", description: "AI and ML skills"),
-                    SkillModel(id: "cybersecurity", name: "Cybersecurity", category: "Technology", description: "Cybersecurity skills"),
-                    SkillModel(id: "cloud_computing", name: "Cloud Computing", category: "Technology", description: "Cloud computing skills"),
-                    SkillModel(id: "blockchain", name: "Blockchain", category: "Technology", description: "Blockchain skills"),
-                    SkillModel(id: "ui_ux_design", name: "UI/UX Design", category: "Technology", description: "UI/UX design skills"),
-                    SkillModel(id: "game_development", name: "Game Development", category: "Technology", description: "Game development skills")
-                ]
-            ),
-            SkillCategory(
-                id: "business",
-                name: "Business",
-                icon: "briefcase",
-                skills: [
-                    SkillModel(id: "marketing", name: "Marketing", category: "Business", description: "Marketing skills"),
-                    SkillModel(id: "sales", name: "Sales", category: "Business", description: "Sales skills"),
-                    SkillModel(id: "finance", name: "Finance", category: "Business", description: "Finance skills"),
-                    SkillModel(id: "entrepreneurship", name: "Entrepreneurship", category: "Business", description: "Entrepreneurship skills"),
-                    SkillModel(id: "project_management", name: "Project Management", category: "Business", description: "Project management skills"),
-                    SkillModel(id: "leadership", name: "Leadership", category: "Business", description: "Leadership skills"),
-                    SkillModel(id: "negotiation", name: "Negotiation", category: "Business", description: "Negotiation skills"),
-                    SkillModel(id: "public_speaking", name: "Public Speaking", category: "Business", description: "Public speaking skills"),
-                    SkillModel(id: "strategy", name: "Strategy", category: "Business", description: "Strategy skills"),
-                    SkillModel(id: "consulting", name: "Consulting", category: "Business", description: "Consulting skills")
-                ]
-            ),
-            SkillCategory(
-                id: "creative",
-                name: "Creative Arts",
-                icon: "paintbrush",
-                skills: [
-                    SkillModel(id: "photography", name: "Photography", category: "Creative Arts", description: "Photography skills"),
-                    SkillModel(id: "videography", name: "Videography", category: "Creative Arts", description: "Videography skills"),
-                    SkillModel(id: "graphic_design", name: "Graphic Design", category: "Creative Arts", description: "Graphic design skills"),
-                    SkillModel(id: "illustration", name: "Illustration", category: "Creative Arts", description: "Illustration skills"),
-                    SkillModel(id: "music_production", name: "Music Production", category: "Creative Arts", description: "Music production skills"),
-                    SkillModel(id: "writing", name: "Writing", category: "Creative Arts", description: "Writing skills"),
-                    SkillModel(id: "drawing", name: "Drawing", category: "Creative Arts", description: "Drawing skills"),
-                    SkillModel(id: "painting", name: "Painting", category: "Creative Arts", description: "Painting skills"),
-                    SkillModel(id: "sculpture", name: "Sculpture", category: "Creative Arts", description: "Sculpture skills"),
-                    SkillModel(id: "digital_art", name: "Digital Art", category: "Creative Arts", description: "Digital art skills")
-                ]
-            ),
-            SkillCategory(
-                id: "health",
-                name: "Health & Fitness",
-                icon: "heart",
-                skills: [
-                    SkillModel(id: "yoga", name: "Yoga", category: "Health & Fitness", description: "Yoga skills"),
-                    SkillModel(id: "meditation", name: "Meditation", category: "Health & Fitness", description: "Meditation skills"),
-                    SkillModel(id: "nutrition", name: "Nutrition", category: "Health & Fitness", description: "Nutrition skills"),
-                    SkillModel(id: "personal_training", name: "Personal Training", category: "Health & Fitness", description: "Personal training skills"),
-                    SkillModel(id: "running", name: "Running", category: "Health & Fitness", description: "Running skills"),
-                    SkillModel(id: "cycling", name: "Cycling", category: "Health & Fitness", description: "Cycling skills"),
-                    SkillModel(id: "swimming", name: "Swimming", category: "Health & Fitness", description: "Swimming skills"),
-                    SkillModel(id: "weightlifting", name: "Weightlifting", category: "Health & Fitness", description: "Weightlifting skills"),
-                    SkillModel(id: "martial_arts", name: "Martial Arts", category: "Health & Fitness", description: "Martial arts skills"),
-                    SkillModel(id: "dance", name: "Dance", category: "Health & Fitness", description: "Dance skills")
-                ]
-            ),
-            SkillCategory(
-                id: "cooking",
-                name: "Cooking",
-                icon: "fork.knife",
-                skills: [
-                    SkillModel(id: "baking", name: "Baking", category: "Cooking", description: "Baking skills"),
-                    SkillModel(id: "grilling", name: "Grilling", category: "Cooking", description: "Grilling skills"),
-                    SkillModel(id: "sushi_making", name: "Sushi Making", category: "Cooking", description: "Sushi making skills"),
-                    SkillModel(id: "pasta_making", name: "Pasta Making", category: "Cooking", description: "Pasta making skills"),
-                    SkillModel(id: "bread_making", name: "Bread Making", category: "Cooking", description: "Bread making skills"),
-                    SkillModel(id: "cake_decorating", name: "Cake Decorating", category: "Cooking", description: "Cake decorating skills"),
-                    SkillModel(id: "wine_tasting", name: "Wine Tasting", category: "Cooking", description: "Wine tasting skills"),
-                    SkillModel(id: "coffee_brewing", name: "Coffee Brewing", category: "Cooking", description: "Coffee brewing skills"),
-                    SkillModel(id: "cheese_making", name: "Cheese Making", category: "Cooking", description: "Cheese making skills"),
-                    SkillModel(id: "fermentation", name: "Fermentation", category: "Cooking", description: "Fermentation skills")
-                ]
-            )
-        ]
+    // MARK: - Data Loading
+    private func loadCategories() {
+        isLoading = true
+        errorMessage = nil
+        Task {
+            do {
+                let categories = try await skillService.loadCategories(for: "en")
+                skillCategories = categories
+                // Preload skills for each category
+                var skillsDict: [String: [Skill]] = [:]
+                for category in categories {
+                    do {
+                        let subcategories = try await skillService.loadSubcategories(for: category.id, language: "en")
+                        var allSkills: [Skill] = []
+                        for subcategory in subcategories {
+                            let skills = try await skillService.loadSkills(for: subcategory.id, categoryId: category.id, language: "en")
+                            allSkills.append(contentsOf: skills)
+                        }
+                        skillsDict[category.id] = allSkills
+                    } catch {
+                        // If a category fails, just skip its skills
+                        continue
+                    }
+                }
+                skillsByCategory = skillsDict
+                isLoading = false
+            } catch {
+                errorMessage = "Failed to load skill categories."
+                isLoading = false
+            }
+        }
     }
 }
 

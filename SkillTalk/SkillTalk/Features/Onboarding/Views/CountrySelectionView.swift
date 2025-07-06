@@ -17,57 +17,7 @@ struct CountrySelectionView: View {
     }
     
     private var allCountries: [CountryModel] {
-        [
-            CountryModel(id: "AF", name: "Afghanistan", flag: "🇦🇫", code: "AF"),
-            CountryModel(id: "AL", name: "Albania", flag: "🇦🇱", code: "AL"),
-            CountryModel(id: "DZ", name: "Algeria", flag: "🇩🇿", code: "DZ"),
-            CountryModel(id: "AR", name: "Argentina", flag: "🇦🇷", code: "AR"),
-            CountryModel(id: "AU", name: "Australia", flag: "🇦🇺", code: "AU"),
-            CountryModel(id: "AT", name: "Austria", flag: "🇦🇹", code: "AT"),
-            CountryModel(id: "BE", name: "Belgium", flag: "🇧🇪", code: "BE"),
-            CountryModel(id: "BR", name: "Brazil", flag: "🇧🇷", code: "BR"),
-            CountryModel(id: "CA", name: "Canada", flag: "🇨🇦", code: "CA"),
-            CountryModel(id: "CN", name: "China", flag: "🇨🇳", code: "CN"),
-            CountryModel(id: "CO", name: "Colombia", flag: "🇨🇴", code: "CO"),
-            CountryModel(id: "DK", name: "Denmark", flag: "🇩🇰", code: "DK"),
-            CountryModel(id: "EG", name: "Egypt", flag: "🇪🇬", code: "EG"),
-            CountryModel(id: "FI", name: "Finland", flag: "🇫🇮", code: "FI"),
-            CountryModel(id: "FR", name: "France", flag: "🇫🇷", code: "FR"),
-            CountryModel(id: "DE", name: "Germany", flag: "🇩🇪", code: "DE"),
-            CountryModel(id: "GR", name: "Greece", flag: "🇬🇷", code: "GR"),
-            CountryModel(id: "HK", name: "Hong Kong", flag: "🇭🇰", code: "HK"),
-            CountryModel(id: "IN", name: "India", flag: "🇮🇳", code: "IN"),
-            CountryModel(id: "ID", name: "Indonesia", flag: "🇮🇩", code: "ID"),
-            CountryModel(id: "IE", name: "Ireland", flag: "🇮🇪", code: "IE"),
-            CountryModel(id: "IL", name: "Israel", flag: "🇮🇱", code: "IL"),
-            CountryModel(id: "IT", name: "Italy", flag: "🇮🇹", code: "IT"),
-            CountryModel(id: "JP", name: "Japan", flag: "🇯🇵", code: "JP"),
-            CountryModel(id: "MY", name: "Malaysia", flag: "🇲🇾", code: "MY"),
-            CountryModel(id: "MX", name: "Mexico", flag: "🇲🇽", code: "MX"),
-            CountryModel(id: "NL", name: "Netherlands", flag: "🇳🇱", code: "NL"),
-            CountryModel(id: "NZ", name: "New Zealand", flag: "🇳🇿", code: "NZ"),
-            CountryModel(id: "NO", name: "Norway", flag: "🇳🇴", code: "NO"),
-            CountryModel(id: "PK", name: "Pakistan", flag: "🇵🇰", code: "PK"),
-            CountryModel(id: "PE", name: "Peru", flag: "🇵🇪", code: "PE"),
-            CountryModel(id: "PH", name: "Philippines", flag: "🇵🇭", code: "PH"),
-            CountryModel(id: "PL", name: "Poland", flag: "🇵🇱", code: "PL"),
-            CountryModel(id: "PT", name: "Portugal", flag: "🇵🇹", code: "PT"),
-            CountryModel(id: "RU", name: "Russia", flag: "🇷🇺", code: "RU"),
-            CountryModel(id: "SA", name: "Saudi Arabia", flag: "🇸🇦", code: "SA"),
-            CountryModel(id: "SG", name: "Singapore", flag: "🇸🇬", code: "SG"),
-            CountryModel(id: "ZA", name: "South Africa", flag: "🇿🇦", code: "ZA"),
-            CountryModel(id: "KR", name: "South Korea", flag: "🇰🇷", code: "KR"),
-            CountryModel(id: "ES", name: "Spain", flag: "🇪🇸", code: "ES"),
-            CountryModel(id: "SE", name: "Sweden", flag: "🇸🇪", code: "SE"),
-            CountryModel(id: "CH", name: "Switzerland", flag: "🇨🇭", code: "CH"),
-            CountryModel(id: "TW", name: "Taiwan", flag: "🇹🇼", code: "TW"),
-            CountryModel(id: "TH", name: "Thailand", flag: "🇹🇭", code: "TH"),
-            CountryModel(id: "TR", name: "Turkey", flag: "🇹🇷", code: "TR"),
-            CountryModel(id: "AE", name: "United Arab Emirates", flag: "🇦🇪", code: "AE"),
-            CountryModel(id: "GB", name: "United Kingdom", flag: "🇬🇧", code: "GB"),
-            CountryModel(id: "US", name: "United States", flag: "🇺🇸", code: "US"),
-            CountryModel(id: "VN", name: "Vietnam", flag: "🇻🇳", code: "VN")
-        ].sorted { $0.name < $1.name }
+        CountriesDatabase.getAllCountries().sorted { $0.name < $1.name }
     }
     
     var body: some View {
@@ -132,7 +82,7 @@ struct CountrySelectionView: View {
     // MARK: - Popular Countries Section
     private var popularCountriesSection: some View {
         VStack(spacing: 8) {
-            ForEach(Country.popularCountries) { country in
+            ForEach(CountriesDatabase.getPopularCountries()) { country in
                 CountryRowView(
                     country: country,
                     isSelected: selectedCountry?.id == country.id
@@ -173,7 +123,7 @@ struct CountrySelectionView: View {
     }
     
     // MARK: - Alphabetical Index
-    private func alphabeticalIndex(proxy: ScrollViewReader) -> some View {
+    private func alphabeticalIndex(proxy: ScrollViewProxy) -> some View {
         VStack(spacing: 2) {
             ForEach(alphabeticalLetters, id: \.self) { letter in
                 Button(action: {
@@ -196,7 +146,7 @@ struct CountrySelectionView: View {
         Array("ABCDEFGHIJKLMNOPQRSTUVWXYZ").map { String($0) }
     }
     
-    private func scrollToLetter(_ letter: String, proxy: ScrollViewReader) {
+    private func scrollToLetter(_ letter: String, proxy: ScrollViewProxy) {
         // Find first country starting with this letter
         if let firstCountry = filteredCountries.first(where: { $0.name.hasPrefix(letter) }) {
             withAnimation(.easeInOut(duration: 0.3)) {
@@ -208,7 +158,7 @@ struct CountrySelectionView: View {
 
 // MARK: - Country Row View
 struct CountryRowView: View {
-    let country: Country
+    let country: CountryModel
     let isSelected: Bool
     let action: () -> Void
     
