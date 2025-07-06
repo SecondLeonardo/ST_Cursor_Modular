@@ -28,6 +28,13 @@ struct BasicInfoView: View {
             // Bottom button
             bottomButtonSection
         }
+        .sheet(isPresented: $showCountryPicker) {
+            CountryPickerSheet(
+                isPresented: $showCountryPicker,
+                selectedCountry: $selectedCountry,
+                countries: CountriesDatabase.getAllCountries()
+            )
+        }
     }
     
     // MARK: - Header Section
