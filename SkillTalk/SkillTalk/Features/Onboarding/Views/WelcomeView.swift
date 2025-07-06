@@ -40,7 +40,7 @@ struct WelcomeView: View {
     private var headerSection: some View {
         VStack(spacing: 16) {
             // App logo/icon
-            Image("SkillTalkLogo")
+            Image("AppLogo")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 100, height: 100)
@@ -149,48 +149,56 @@ struct WelcomeView: View {
                     coordinator.nextStep()
                 }
             )
-            
-            // Other sign in options in a row
-            HStack(spacing: 12) {
-                SocialLoginButton(
-                    title: "Google",
-                    icon: "globe",
+            // Redesigned row of small circular auth buttons
+            HStack(spacing: 24) {
+                AuthCircleButton(
+                    icon: "globe", // Replace with Google icon asset if available
+                    label: "Google",
                     backgroundColor: .white,
-                    textColor: .black,
-                    fontSize: 16,
-                    width: 100,
-                    action: {
-                        coordinator.onboardingData.authProvider = .google
-                        coordinator.onboardingData.isAuthenticated = true
-                        coordinator.nextStep()
-                    }
-                )
-                SocialLoginButton(
-                    title: "Facebook",
-                    icon: "person.2.fill",
+                    foregroundColor: .black
+                ) {
+                    coordinator.onboardingData.authProvider = .google
+                    coordinator.onboardingData.isAuthenticated = true
+                    coordinator.nextStep()
+                }
+                AuthCircleButton(
+                    icon: "person.2.fill", // Replace with Facebook icon asset if available
+                    label: "Facebook",
                     backgroundColor: Color(red: 66/255, green: 103/255, blue: 178/255),
-                    textColor: .white,
-                    fontSize: 16,
-                    width: 100,
-                    action: {
-                        coordinator.onboardingData.authProvider = .facebook
-                        coordinator.onboardingData.isAuthenticated = true
-                        coordinator.nextStep()
-                    }
-                )
-                SocialLoginButton(
-                    title: "Email",
+                    foregroundColor: .white
+                ) {
+                    coordinator.onboardingData.authProvider = .facebook
+                    coordinator.onboardingData.isAuthenticated = true
+                    coordinator.nextStep()
+                }
+                AuthCircleButton(
                     icon: "envelope.fill",
+                    label: "Email",
                     backgroundColor: .white,
-                    textColor: .black,
-                    fontSize: 16,
-                    width: 100,
-                    action: {
-                        coordinator.onboardingData.authProvider = .email
-                        coordinator.nextStep()
-                    }
-                )
+                    foregroundColor: .black
+                ) {
+                    coordinator.onboardingData.authProvider = .email
+                    coordinator.nextStep()
+                }
+                AuthCircleButton(
+                    icon: "phone.fill",
+                    label: "Phone",
+                    backgroundColor: .white,
+                    foregroundColor: .black
+                ) {
+                    coordinator.onboardingData.authProvider = .phone
+                    coordinator.nextStep()
+                }
+                AuthCircleButton(
+                    icon: "plus.circle.fill",
+                    label: "More",
+                    backgroundColor: Color(.systemGray5),
+                    foregroundColor: .gray
+                ) {
+                    // Future: Show more auth methods
+                }
             }
+            .padding(.top, 8)
         }
     }
     
@@ -220,6 +228,38 @@ struct WelcomeView: View {
     }
 }
 
+// MARK: - AuthCircleButton Component
+struct AuthCircleButton: View {
+    let icon: String
+    let label: String
+    let backgroundColor: Color
+    let foregroundColor: Color
+    let action: () -> Void
+    
+    var body: some View {
+        VStack(spacing: 6) {
+            Button(action: action) {
+                ZStack {
+                    Circle()
+                        .fill(backgroundColor)
+                        .frame(width: 56, height: 56)
+                        .shadow(color: .black.opacity(0.08), radius: 2, x: 0, y: 2)
+                    Image(systemName: icon)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 28, height: 28)
+                        .foregroundColor(foregroundColor)
+                }
+            }
+            .buttonStyle(PlainButtonStyle())
+            Text(label)
+                .font(.caption)
+                .foregroundColor(.primary)
+        }
+        .frame(width: 60)
+    }
+}
+
 // MARK: - Language Greeting Card
 struct LanguageGreetingCard: View {
     let greeting: LanguageGreeting
@@ -246,42 +286,6 @@ struct LanguageGreetingCard: View {
         .background(Color.white)
         .cornerRadius(12)
         .shadow(color: .black.opacity(0.05), radius: 4, x: 0, y: 2)
-    }
-}
-
-// MARK: - Social Login Button
-struct SocialLoginButton: View {
-    let title: String
-    let icon: String
-    let backgroundColor: Color
-    let textColor: Color
-    let fontSize: CGFloat
-    let width: CGFloat
-    let action: () -> Void
-    
-    var body: some View {
-        Button(action: action) {
-            HStack(spacing: 12) {
-                Image(systemName: icon)
-                    .font(.system(size: fontSize))
-                    .foregroundColor(textColor)
-                
-                Text(title)
-                    .font(.body)
-                    .fontWeight(.medium)
-                    .foregroundColor(textColor)
-                
-                Spacer()
-            }
-            .padding(.horizontal, 20)
-            .padding(.vertical, 16)
-            .background(backgroundColor)
-            .cornerRadius(12)
-            .overlay(
-                RoundedRectangle(cornerRadius: 12)
-                    .stroke(Color.gray.opacity(0.2), lineWidth: 1)
-            )
-        }
     }
 }
 

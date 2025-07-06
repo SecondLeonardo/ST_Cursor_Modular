@@ -28,21 +28,21 @@ struct ExpertiseView: View {
                     .foregroundColor(.red)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else {
-                // Content
-                ScrollView {
+            // Content
+            ScrollView {
                     VStack(spacing: 24) {
                         sectionHeader("Select a category")
                         categoriesSection
-                        if let selectedCategory = selectedCategory {
+                    if let selectedCategory = selectedCategory {
                             sectionHeader("Select your expert skills")
                             skillsSection(for: selectedCategory)
                         }
                     }
                     .padding(.horizontal, 24)
-                }
-                
-                // Bottom button
-                bottomButtonSection
+            }
+            
+            // Bottom button
+            bottomButtonSection
             }
         }
         .navigationTitle("Expertise")

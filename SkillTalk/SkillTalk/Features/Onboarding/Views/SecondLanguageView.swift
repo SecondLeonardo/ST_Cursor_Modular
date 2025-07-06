@@ -78,6 +78,22 @@ struct SecondLanguageView: View {
             loadLanguages()
             selectedLanguages = []
         }
+        // Present proficiency picker when a language is tapped
+        .sheet(isPresented: $showingProficiencyPicker) {
+            if let language = tempLanguage {
+                ProficiencyPickerView(
+                    selectedProficiency: .intermediate, // default
+                    onSelect: { proficiency in
+                        // Only add if not already selected
+                        if !isLanguageSelected(language) {
+                            selectedLanguages.append(LanguageWithProficiency(language: language, proficiency: proficiency))
+                        }
+                        tempLanguage = nil
+                        showingProficiencyPicker = false
+                    }
+                )
+            }
+        }
     }
     
     // MARK: - Header Section
