@@ -13,48 +13,46 @@ import SwiftUI
 /// Temporary demo screen to showcase UI components and skill lists
 /// This can be easily removed after testing
 struct SkillDemoView: View {
-    @StateObject private var viewModel = SkillDemoViewModel()
-    @State private var searchText = ""
-    @State private var selectedCategory: SkillCategory?
-    @State private var selectedSubcategory: SkillSubcategory?
+    @State private var selectedTab: SkillTalkTab = .chat
+    @State private var isLoading = false
+    @State private var showAlert = false
     
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack(spacing: 24) {
-                    // Header Section
+                    // MARK: - Header Section
                     headerSection
                     
-                    // Search Section
-                    searchSection
+                    // MARK: - Theme Colors Demo
+                    themeColorsSection
                     
-                    // Categories Section
-                    categoriesSection
+                    // MARK: - Button Components Demo
+                    buttonComponentsSection
                     
-                    // Skills Section
-                    skillsSection
+                    // MARK: - Card Components Demo
+                    cardComponentsSection
                     
-                    // UI Components Demo
-                    uiComponentsSection
+                    // MARK: - Navigation Components Demo
+                    navigationComponentsSection
+                    
+                    // MARK: - Typography Demo
+                    typographySection
+                    
+                    // MARK: - Interactive Demo
+                    interactiveSection
                 }
-                .padding(.horizontal, 20)
-                .padding(.bottom, 40)
+                .padding()
             }
-            .navigationTitle("SkillTalk Demo")
-            .navigationBarTitleDisplayMode(.large)
             .background(Color(.systemGroupedBackground))
-        }
-        .onAppear {
-            Task {
-                await viewModel.loadData()
-            }
+            .navigationTitle("SkillTalk Theme Demo")
+            .navigationBarTitleDisplayMode(.large)
         }
     }
     
     // MARK: - Header Section
     private var headerSection: some View {
         VStack(spacing: 16) {
-            // App Logo/Icon
             Image(systemName: "brain.head.profile")
                 .font(.system(size: 60))
                 .foregroundColor(ThemeColors.primary)
@@ -62,184 +60,129 @@ struct SkillDemoView: View {
             Text("SkillTalk Demo")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-                .foregroundColor(.primary)
+                .foregroundColor(ThemeColors.primary)
             
-            Text("Explore skills, categories, and UI components")
-                .font(.body)
+            Text("Theme System & UI Components")
+                .font(.subheadline)
                 .foregroundColor(.secondary)
-                .multilineTextAlignment(.center)
         }
-        .padding(.top, 20)
+        .padding()
+        .background(ThemeColors.light)
+        .cornerRadius(16)
     }
     
-    // MARK: - Search Section
-    private var searchSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text("Search Skills")
-                .font(.headline)
-                .fontWeight(.semibold)
+    // MARK: - Theme Colors Demo
+    private var themeColorsSection: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            Text("🎨 Theme Colors")
+                .font(.title2)
+                .fontWeight(.bold)
             
-            HStack {
-                Image(systemName: "magnifyingglass")
-                    .foregroundColor(.secondary)
+            LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 12) {
+                colorDemoCard(title: "Primary", color: ThemeColors.primary, textColor: .white)
+                colorDemoCard(title: "Mid", color: ThemeColors.mid, textColor: .black)
+                colorDemoCard(title: "Light", color: ThemeColors.light, textColor: .black)
+                colorDemoCard(title: "Error", color: ThemeColors.error, textColor: .white)
+                colorDemoCard(title: "Success", color: ThemeColors.success, textColor: .white)
+                colorDemoCard(title: "Warning", color: ThemeColors.warning, textColor: .black)
+            }
+        }
+    }
+    
+    private func colorDemoCard(title: String, color: Color, textColor: Color) -> some View {
+        VStack {
+            RoundedRectangle(cornerRadius: 8)
+                .fill(color)
+                .frame(height: 60)
+                .overlay(
+                    Text(title)
+                        .font(.caption)
+                        .fontWeight(.semibold)
+                        .foregroundColor(textColor)
+                )
+        }
+    }
+    
+    // MARK: - Button Components Demo
+    private var buttonComponentsSection: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            Text("🔘 Button Components")
+                .font(.title2)
+                .fontWeight(.bold)
+            
+            VStack(spacing: 12) {
+                PrimaryButton(
+                    title: "Primary Button",
+                    action: { showAlert = true },
+                    isLoading: isLoading
+                )
                 
-                TextField("Search for skills...", text: $searchText)
-                    .textFieldStyle(PlainTextFieldStyle())
-                    .onChange(of: searchText) { newValue in
-                        Task {
-                            await viewModel.searchSkills(query: newValue)
-                        }
-                    }
+                SecondaryButton(
+                    title: "Secondary Button",
+                    action: { showAlert = true }
+                )
                 
-                if !searchText.isEmpty {
-                    Button(action: {
-                        searchText = ""
-                        viewModel.clearSearch()
-                    }) {
-                        Image(systemName: "xmark.circle.fill")
+                PrimaryButton(
+                    title: "Disabled Button",
+                    action: { },
+                    isDisabled: true
+                )
+                
+                HStack(spacing: 12) {
+                    Button("Small") { showAlert = true }
+                        .buttonStyle(.borderedProminent)
+                        .tint(ThemeColors.primary)
+                    
+                    Button("Icon") { showAlert = true }
+                        .buttonStyle(.borderedProminent)
+                        .tint(ThemeColors.primary)
+                        .overlay(
+                            Image(systemName: "star.fill")
+                                .foregroundColor(.white)
+                        )
+                }
+            }
+        }
+    }
+    
+    // MARK: - Card Components Demo
+    private var cardComponentsSection: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            Text("🃏 Card Components")
+                .font(.title2)
+                .fontWeight(.bold)
+            
+            VStack(spacing: 12) {
+                BaseCard(backgroundColor: ThemeColors.light) {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Light Card")
+                            .font(.headline)
+                        Text("This is a base card with light background")
+                            .font(.caption)
                             .foregroundColor(.secondary)
                     }
                 }
-            }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 12)
-            .background(Color(.tertiarySystemBackground))
-            .cornerRadius(10)
-        }
-    }
-    
-    // MARK: - Categories Section
-    private var categoriesSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text("Skill Categories")
-                .font(.headline)
-                .fontWeight(.semibold)
-            
-            if viewModel.isLoading {
-                HStack {
-                    ProgressView()
-                        .scaleEffect(0.8)
-                    Text("Loading categories...")
-                        .font(.body)
-                        .foregroundColor(.secondary)
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-            } else {
-                LazyVGrid(columns: [
-                    GridItem(.flexible()),
-                    GridItem(.flexible())
-                ], spacing: 12) {
-                    ForEach(viewModel.categories) { category in
-                        DemoCategoryCardView(category: category) {
-                            selectedCategory = category
-                            Task {
-                                await viewModel.loadSubcategories(for: category.id)
-                            }
-                        }
+                
+                BaseCard(backgroundColor: ThemeColors.primary) {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Primary Card")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                        Text("This is a base card with primary background")
+                            .font(.caption)
+                            .foregroundColor(.white.opacity(0.8))
                     }
                 }
-            }
-        }
-    }
-    
-    // MARK: - Skills Section
-    private var skillsSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack {
-                Text("Skills")
-                    .font(.headline)
-                    .fontWeight(.semibold)
                 
-                Spacer()
-                
-                if let category = selectedCategory {
-                    Text("in \(category.englishName)")
-                        .font(.subheadline)
-                        .foregroundColor(.secondary)
-                }
-            }
-            
-            if viewModel.isLoadingSkills {
-                HStack {
-                    ProgressView()
-                        .scaleEffect(0.8)
-                    Text("Loading skills...")
-                        .font(.body)
-                        .foregroundColor(.secondary)
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-            } else if viewModel.filteredSkills.isEmpty {
-                VStack(spacing: 12) {
-                    Image(systemName: "star.badge.questionmark")
-                        .font(.system(size: 40))
-                        .foregroundColor(.secondary)
-                    
-                    Text("No Skills Available")
-                        .font(.headline)
-                        .foregroundColor(.primary)
-                    
-                    Text("Select a category to see available skills")
-                        .font(.body)
-                        .foregroundColor(.secondary)
-                        .multilineTextAlignment(.center)
-                }
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 40)
-            } else {
-                LazyVStack(spacing: 12) {
-                    ForEach(viewModel.filteredSkills) { skill in
-                        DemoSkillCardView(skill: skill) {
-                            print("🎯 Selected skill: \(skill.englishName)")
-                        }
-                    }
-                }
-            }
-        }
-    }
-    
-    // MARK: - UI Components Section
-    private var uiComponentsSection: some View {
-        VStack(alignment: .leading, spacing: 16) {
-            Text("UI Components Demo")
-                .font(.headline)
-                .fontWeight(.semibold)
-            
-            // Buttons Demo
-            VStack(alignment: .leading, spacing: 8) {
-                Text("Buttons")
-                    .font(.subheadline)
-                    .fontWeight(.medium)
-                
-                HStack(spacing: 12) {
-                    Button("Primary") {
-                        print("Primary button tapped")
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .tint(ThemeColors.primary)
-                    
-                    Button("Secondary") {
-                        print("Secondary button tapped")
-                    }
-                    .buttonStyle(.bordered)
-                }
-            }
-            
-            // Cards Demo
-            VStack(alignment: .leading, spacing: 8) {
-                Text("Cards")
-                    .font(.subheadline)
-                    .fontWeight(.medium)
-                
-                VStack(spacing: 8) {
+                BaseCard(backgroundColor: .white) {
                     HStack {
                         Image(systemName: "person.circle.fill")
-                            .font(.title2)
-                            .foregroundColor(.blue)
+                            .font(.title)
+                            .foregroundColor(ThemeColors.primary)
                         
-                        VStack(alignment: .leading, spacing: 2) {
+                        VStack(alignment: .leading, spacing: 4) {
                             Text("User Profile")
                                 .font(.headline)
-                                .fontWeight(.semibold)
                             Text("Tap to view details")
                                 .font(.caption)
                                 .foregroundColor(.secondary)
@@ -248,261 +191,114 @@ struct SkillDemoView: View {
                         Spacer()
                         
                         Image(systemName: "chevron.right")
-                            .font(.caption)
                             .foregroundColor(.secondary)
                     }
-                    .padding(16)
-                    .background(Color(.secondarySystemBackground))
-                    .cornerRadius(12)
                 }
             }
+        }
+    }
+    
+    // MARK: - Navigation Components Demo
+    private var navigationComponentsSection: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            Text("🧭 Navigation Components")
+                .font(.title2)
+                .fontWeight(.bold)
             
-            // Progress Demo
-            VStack(alignment: .leading, spacing: 8) {
-                Text("Progress")
-                    .font(.subheadline)
-                    .fontWeight(.medium)
-                
-                VStack(spacing: 8) {
-                    ProgressView(value: 0.7)
-                        .progressViewStyle(LinearProgressViewStyle(tint: ThemeColors.primary))
-                    
-                    HStack {
-                        Text("Skill Progress")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                        Spacer()
-                        Text("70%")
-                            .font(.caption)
-                            .fontWeight(.medium)
-                            .foregroundColor(.primary)
-                    }
-                }
-            }
-        }
-    }
-}
-
-// MARK: - Demo Category Card View
-struct DemoCategoryCardView: View {
-    let category: SkillCategory
-    let onTap: () -> Void
-    
-    var body: some View {
-        Button(action: onTap) {
             VStack(spacing: 12) {
-                Text(category.icon ?? "❓")
-                    .font(.system(size: 32))
-                
-                Text(category.englishName)
-                    .font(.headline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.primary)
-                    .multilineTextAlignment(.center)
-            }
-            .frame(maxWidth: .infinity)
-            .padding(16)
-            .background(Color(.secondarySystemBackground))
-            .cornerRadius(12)
-            .shadow(color: .black.opacity(0.05), radius: 2, x: 0, y: 1)
-        }
-        .buttonStyle(PlainButtonStyle())
-    }
-}
-
-// MARK: - Demo Skill Card View
-struct DemoSkillCardView: View {
-    let skill: Skill
-    let onTap: () -> Void
-    
-    var body: some View {
-        Button(action: onTap) {
-            HStack(spacing: 16) {
-                // Difficulty Badge
-                VStack(spacing: 4) {
-                    Image(systemName: difficultyIcon)
-                        .font(.caption)
-                        .foregroundColor(.white)
-                        .frame(width: 24, height: 24)
-                        .background(difficultyColor)
-                        .clipShape(Circle())
-                    
-                    Text(skill.difficulty.displayName)
-                        .font(.caption2)
-                        .foregroundColor(.secondary)
-                }
-                
-                // Content
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(skill.englishName)
-                        .font(.headline)
-                        .fontWeight(.semibold)
-                        .foregroundColor(.primary)
-                        .multilineTextAlignment(.leading)
-                    
-                    if let description = skill.description {
-                        Text(description)
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                            .lineLimit(2)
-                    }
-                    
-                    // Tags
-                    if !skill.tags.isEmpty {
-                        ScrollView(.horizontal, showsIndicators: false) {
-                            HStack(spacing: 8) {
-                                ForEach(skill.tags.prefix(3), id: \.self) { tag in
-                                    Text(tag)
-                                        .font(.caption2)
-                                        .padding(.horizontal, 8)
-                                        .padding(.vertical, 4)
-                                        .background(Color(.tertiarySystemBackground))
-                                        .cornerRadius(8)
-                                }
-                            }
+                NavigationBarView(
+                    title: "Demo Title",
+                    leftItem: {
+                        Button(action: { showAlert = true }) {
+                            Image(systemName: "arrow.left")
+                                .foregroundColor(ThemeColors.primary)
+                        }
+                    },
+                    rightItem: {
+                        Button(action: { showAlert = true }) {
+                            Image(systemName: "ellipsis")
+                                .foregroundColor(ThemeColors.primary)
                         }
                     }
+                )
+                
+                TabBarView(selectedTab: $selectedTab) { tab in
+                    selectedTab = tab
+                }
+                .frame(height: 60)
+            }
+        }
+    }
+    
+    // MARK: - Typography Demo
+    private var typographySection: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            Text("📝 Typography")
+                .font(.title2)
+                .fontWeight(.bold)
+            
+            VStack(alignment: .leading, spacing: 12) {
+                Text("Title Font")
+                    .font(AppTypography.title)
+                    .foregroundColor(ThemeColors.primary)
+                
+                Text("Subtitle Font")
+                    .font(AppTypography.subtitle)
+                    .foregroundColor(.primary)
+                
+                Text("Body Font - This is the main body text that users will read most of the time.")
+                    .font(AppTypography.body)
+                    .foregroundColor(.primary)
+                
+                Text("Caption Font")
+                    .font(AppTypography.caption)
+                    .foregroundColor(.secondary)
+                
+                Text("Button Font")
+                    .font(AppTypography.button)
+                    .foregroundColor(ThemeColors.primary)
+            }
+        }
+    }
+    
+    // MARK: - Interactive Demo
+    private var interactiveSection: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            Text("🎮 Interactive Demo")
+                .font(.title2)
+                .fontWeight(.bold)
+            
+            VStack(spacing: 12) {
+                Button("Toggle Loading State") {
+                    withAnimation {
+                        isLoading.toggle()
+                    }
+                }
+                .buttonStyle(.bordered)
+                .tint(ThemeColors.primary)
+                
+                if isLoading {
+                    ProgressView()
+                        .progressViewStyle(LinearProgressViewStyle(tint: ThemeColors.primary))
                 }
                 
-                Spacer()
-                
-                // Chevron
-                Image(systemName: "chevron.right")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
+                HStack {
+                    Text("Current Tab: \(selectedTab.label)")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                    
+                    Spacer()
+                    
+                    Text("Tap tabs above to see changes")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
             }
-            .padding(16)
-            .background(Color(.secondarySystemBackground))
-            .cornerRadius(12)
-            .shadow(color: .black.opacity(0.05), radius: 2, x: 0, y: 1)
         }
-        .buttonStyle(PlainButtonStyle())
-    }
-    
-    // MARK: - Difficulty Icon
-    private var difficultyIcon: String {
-        switch skill.difficulty {
-        case .beginner:
-            return "1.circle.fill"
-        case .intermediate:
-            return "2.circle.fill"
-        case .advanced:
-            return "3.circle.fill"
-        case .expert:
-            return "4.circle.fill"
-        }
-    }
-    
-    // MARK: - Difficulty Color
-    private var difficultyColor: Color {
-        switch skill.difficulty {
-        case .beginner:
-            return .green
-        case .intermediate:
-            return .blue
-        case .advanced:
-            return .orange
-        case .expert:
-            return .red
-        }
-    }
-}
-
-// MARK: - Skill Demo View Model
-@MainActor
-class SkillDemoViewModel: ObservableObject {
-    @Published var categories: [SkillCategory] = []
-    @Published var subcategories: [SkillSubcategory] = []
-    @Published var skills: [Skill] = []
-    @Published var filteredSkills: [Skill] = []
-    @Published var isLoading = false
-    @Published var isLoadingSkills = false
-    @Published var errorMessage: String?
-    
-    private let skillRepository: SkillRepositoryProtocol
-    
-    init(skillRepository: SkillRepositoryProtocol = SkillRepository()) {
-        self.skillRepository = skillRepository
-    }
-    
-    func loadData() async {
-        isLoading = true
-        errorMessage = nil
-        
-        do {
-            categories = try await skillRepository.getCategories(language: "en")
-            print("✅ [SkillDemoViewModel] Loaded \(categories.count) categories")
-        } catch {
-            errorMessage = "Failed to load categories: \(error.localizedDescription)"
-            print("❌ [SkillDemoViewModel] Failed to load categories: \(error)")
-        }
-        
-        isLoading = false
-    }
-    
-    func loadSubcategories(for categoryId: String) async {
-        isLoadingSkills = true
-        errorMessage = nil
-        
-        do {
-            subcategories = try await skillRepository.getSubcategories(categoryId: categoryId, language: "en")
-            print("✅ [SkillDemoViewModel] Loaded \(subcategories.count) subcategories for category \(categoryId)")
-            
-            // Load skills for the first subcategory
-            if let firstSubcategory = subcategories.first {
-                await loadSkills(for: firstSubcategory.id)
-            }
-        } catch {
-            errorMessage = "Failed to load subcategories: \(error.localizedDescription)"
-            print("❌ [SkillDemoViewModel] Failed to load subcategories: \(error)")
-        }
-        
-        isLoadingSkills = false
-    }
-    
-    func loadSkills(for subcategoryId: String) async {
-        isLoadingSkills = true
-        errorMessage = nil
-        
-        do {
-            skills = try await skillRepository.getSkills(subcategoryId: subcategoryId, language: "en")
-            filteredSkills = skills
-            print("✅ [SkillDemoViewModel] Loaded \(skills.count) skills for subcategory \(subcategoryId)")
-        } catch {
-            errorMessage = "Failed to load skills: \(error.localizedDescription)"
-            print("❌ [SkillDemoViewModel] Failed to load skills: \(error)")
-        }
-        
-        isLoadingSkills = false
-    }
-    
-    func searchSkills(query: String) async {
-        guard !query.isEmpty else {
-            filteredSkills = skills
-            return
-        }
-        
-        do {
-            let searchResults = try await skillRepository.searchSkills(
-                query: query,
-                language: "en",
-                filters: nil
-            )
-            filteredSkills = searchResults
-        } catch {
-            errorMessage = "Failed to search skills: \(error.localizedDescription)"
-            print("❌ [SkillDemoViewModel] Search failed: \(error)")
-        }
-    }
-    
-    func clearSearch() {
-        filteredSkills = skills
     }
 }
 
 // MARK: - Preview
-struct SkillDemoView_Previews: PreviewProvider {
-    static var previews: some View {
-        SkillDemoView()
-    }
+#Preview {
+    SkillDemoView()
 } 

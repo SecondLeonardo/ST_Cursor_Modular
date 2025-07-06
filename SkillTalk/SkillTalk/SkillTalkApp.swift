@@ -35,9 +35,14 @@ struct SkillTalkApp: App {
     
     var body: some Scene {
         WindowGroup {
-            // TEMPORARY: Demo screen for testing UI components and skill lists
-            // TODO: Remove this and restore LocationServiceTestView() after testing
-            SkillDemoView()
+            // Check if onboarding is completed
+            if UserDefaults.standard.bool(forKey: "onboardingCompleted") {
+                // Show main app
+                SkillDemoView()
+            } else {
+                // Show onboarding flow
+                OnboardingContainerView()
+            }
         }
     }
     
