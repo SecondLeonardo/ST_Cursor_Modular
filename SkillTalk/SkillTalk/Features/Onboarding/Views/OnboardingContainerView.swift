@@ -17,8 +17,10 @@ struct OnboardingContainerView: View {
                 
                 // Content
                 VStack(spacing: 0) {
-                    // Progress bar
-                    progressBar
+                    // Progress bar - only show for non-welcome screens
+                    if coordinator.currentStep != .welcome {
+                        progressBar
+                    }
                     
                     // Current step content
                     currentStepView
