@@ -149,7 +149,7 @@ struct SignInView: View {
             .padding(.vertical, 16)
             .background(ThemeColors.primary)
             .foregroundColor(.white)
-            .cornerRadius(16)
+            .clipShape(Capsule())
         }
     }
     

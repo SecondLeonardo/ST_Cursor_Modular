@@ -118,6 +118,8 @@ struct WelcomeView: View {
                         
                         // 5 circular social buttons
                         HStack(spacing: 20) {
+                            Spacer()
+                            
                             // Google button
                             Button(action: {
                                 coordinator.nextStep()
