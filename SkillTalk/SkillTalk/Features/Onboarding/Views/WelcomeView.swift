@@ -8,7 +8,7 @@ struct WelcomeView: View {
     private let flagHelloPairs = [
         ("🇺🇸", "Hello"),
         ("🇪🇸", "Hola"),
-        ("🇫🇷", "Bonjour"),
+        ("🇮🇷", "سلام"),
         ("🇩🇪", "Hallo"),
         ("🇯🇵", "こんにちは"),
         ("🇨🇳", "你好"),
@@ -33,9 +33,10 @@ struct WelcomeView: View {
                     // Main text section at the top
                     VStack(spacing: 16) {
                         Text("SkillTalk")
-                            .font(.system(size: 48, weight: .bold, design: .rounded))
-                            .foregroundColor(ThemeColors.textPrimary)
+                            .font(.system(size: 56, weight: .bold, design: .rounded))
+                            .foregroundColor(Color(hex: "#2fb0c7"))
                             .lineSpacing(8)
+                            .padding(.top, 20)
                         
                         Text("To the World")
                             .font(.system(size: 32, weight: .semibold, design: .rounded))
@@ -62,7 +63,7 @@ struct WelcomeView: View {
                             .font(.system(size: 24, weight: .medium, design: .rounded))
                             .foregroundColor(ThemeColors.textPrimary)
                     }
-                    .padding(.top, 60)
+                    .padding(.top, 40)
                     .padding(.horizontal, 24)
                     
                     Spacer()
@@ -96,7 +97,7 @@ struct WelcomeView: View {
                     
                     // Bottom buttons
                     VStack(spacing: 16) {
-                        // Sign in with Apple button
+                        // Sign in with Apple button - pill shaped
                         Button(action: {
                             coordinator.nextStep()
                         }) {
@@ -111,74 +112,77 @@ struct WelcomeView: View {
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 16)
                             .background(Color.black)
-                            .cornerRadius(25)
+                            .clipShape(Capsule())
                         }
                         .padding(.horizontal, 24)
                         
-                        // Social buttons row
+                        // 5 circular social buttons
                         HStack(spacing: 20) {
                             // Google button
                             Button(action: {
                                 coordinator.nextStep()
                             }) {
-                                HStack {
-                                    Text("G")
-                                        .font(.title2)
-                                        .fontWeight(.bold)
-                                        .foregroundColor(.white)
-                                }
-                                .frame(width: 50, height: 50)
-                                .background(Color.red)
-                                .cornerRadius(25)
-                                .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+                                Text("G")
+                                    .font(.title2)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.white)
+                                    .frame(width: 50, height: 50)
+                                    .background(Color.red)
+                                    .clipShape(Circle())
+                                    .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
                             }
                             
                             // Facebook button
                             Button(action: {
                                 coordinator.nextStep()
                             }) {
-                                HStack {
-                                    Text("f")
-                                        .font(.title2)
-                                        .fontWeight(.bold)
-                                        .foregroundColor(.white)
-                                }
-                                .frame(width: 50, height: 50)
-                                .background(Color.blue)
-                                .cornerRadius(25)
-                                .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+                                Text("F")
+                                    .font(.title2)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.white)
+                                    .frame(width: 50, height: 50)
+                                    .background(Color.blue)
+                                    .clipShape(Circle())
+                                    .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
                             }
                             
-                            // Twitter/X button
+                            // Email button
                             Button(action: {
                                 coordinator.nextStep()
                             }) {
-                                HStack {
-                                    Text("𝕏")
-                                        .font(.title2)
-                                        .fontWeight(.bold)
-                                        .foregroundColor(.white)
-                                }
-                                .frame(width: 50, height: 50)
-                                .background(Color.black)
-                                .cornerRadius(25)
-                                .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+                                Image(systemName: "envelope.fill")
+                                    .font(.title2)
+                                    .foregroundColor(.white)
+                                    .frame(width: 50, height: 50)
+                                    .background(Color.gray)
+                                    .clipShape(Circle())
+                                    .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
                             }
                             
-                            // LinkedIn button
+                            // Phone button
                             Button(action: {
                                 coordinator.nextStep()
                             }) {
-                                HStack {
-                                    Text("in")
-                                        .font(.title2)
-                                        .fontWeight(.bold)
-                                        .foregroundColor(.white)
-                                }
-                                .frame(width: 50, height: 50)
-                                .background(Color.blue)
-                                .cornerRadius(25)
-                                .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+                                Image(systemName: "phone.fill")
+                                    .font(.title2)
+                                    .foregroundColor(.white)
+                                    .frame(width: 50, height: 50)
+                                    .background(Color.green)
+                                    .clipShape(Circle())
+                                    .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+                            }
+                            
+                            // More options button (3 dots)
+                            Button(action: {
+                                coordinator.nextStep()
+                            }) {
+                                Image(systemName: "ellipsis")
+                                    .font(.title2)
+                                    .foregroundColor(.white)
+                                    .frame(width: 50, height: 50)
+                                    .background(Color.black)
+                                    .clipShape(Circle())
+                                    .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
                             }
                             
                             Spacer()

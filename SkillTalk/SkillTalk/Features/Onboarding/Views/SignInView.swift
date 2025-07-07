@@ -226,7 +226,7 @@ struct WideSocialButton: View {
             .padding(.vertical, 18)
             .padding(.horizontal, 12)
             .background(color)
-            .cornerRadius(24)
+            .clipShape(Capsule())
         }
     }
 }

@@ -28,7 +28,7 @@ struct PrimaryButton: View {
             .frame(maxWidth: .infinity)
             .padding(theme.spacing.medium)
             .background(theme.colors.primary)
-            .cornerRadius(theme.spacing.buttonCornerRadius)
+            .clipShape(Capsule())
             .opacity(isDisabled ? 0.5 : 1.0)
         }
         .disabled(isDisabled || isLoading)
