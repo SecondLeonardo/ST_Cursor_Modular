@@ -144,13 +144,26 @@ struct SignInView: View {
             
             // Social login options - horizontal row of circular icon buttons
             HStack(spacing: 24) {
-                AuthIconCircle(icon: "G", color: Color(red: 0.22, green: 0.51, blue: 0.96))
-                AuthIconCircle(icon: "F", color: Color(red: 0.23, green: 0.35, blue: 0.78))
-                AuthIconCircle(icon: "envelope.fill", color: Color(red: 0.53, green: 0.85, blue: 0.92), isSF: true)
-                AuthIconCircle(icon: "phone.fill", color: Color(red: 0.38, green: 0.82, blue: 0.47), isSF: true)
-                AuthIconCircle(icon: "ellipsis", color: Color(.systemGray4), isSF: true)
+                ForEach(authIcons, id: \.icon) { icon in
+                    Button(action: {
+                        coordinator.onboardingData.isAuthenticated = true
+                        coordinator.nextStep()
+                    }) {
+                        AuthIconCircle(icon: icon.icon, color: icon.color, isSF: icon.isSF)
+                    }
+                }
             }
         }
+    }
+
+    private var authIcons: [(icon: String, color: Color, isSF: Bool)] {
+        [
+            ("globe", Color(red: 0.98, green: 0.27, blue: 0.22), true),
+            ("F", Color(red: 0.22, green: 0.51, blue: 0.96), false),
+            ("envelope.fill", Color(red: 0.53, green: 0.85, blue: 0.92), true),
+            ("phone.fill", Color(red: 0.38, green: 0.82, blue: 0.47), true),
+            ("ellipsis", Color(.systemGray4), true)
+        ]
     }
 }
 
