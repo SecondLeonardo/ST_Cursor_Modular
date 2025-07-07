@@ -44,6 +44,7 @@ struct CountrySelectionView: View {
                         }
                     }
                     .padding(.horizontal, 16)
+                    .padding(.trailing, 40) // Add padding for alphabet index
                 }
                 .overlay(
                     // Alphabetical index
@@ -165,8 +166,13 @@ struct CountryRowView: View {
     var body: some View {
         Button(action: action) {
             HStack(spacing: 12) {
+                // Flag display
                 Text(country.flag)
                     .font(.title2)
+                    .frame(width: 30, height: 30)
+                    .background(Color.white)
+                    .clipShape(Circle())
+                    .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 1)
                 
                 Text(country.name)
                     .font(.body)

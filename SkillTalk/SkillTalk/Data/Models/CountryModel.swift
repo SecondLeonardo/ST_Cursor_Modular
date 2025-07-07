@@ -69,11 +69,11 @@ public struct CountryModel: Codable, Identifiable, Equatable {
     
     // MARK: - Initializer for Sources CountriesDatabase compatibility
     
-    public init(id: String, englishName: String, englishCode: String, englishRegion: String) {
+    public init(id: String, englishName: String, englishCode: String, englishRegion: String, flag: String = "🌐") {
         self.init(
             id: id,
             name: englishName,
-            flag: "🌐", // Default flag
+            flag: flag,
             region: englishRegion,
             isPopular: false
         )
