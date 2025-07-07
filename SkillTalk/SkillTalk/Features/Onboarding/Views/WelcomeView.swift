@@ -17,113 +17,176 @@ struct WelcomeView: View {
     
     var body: some View {
         GeometryReader { geometry in
-            VStack(spacing: 0) {
-                // Main text section at the top
-                VStack(spacing: 16) {
-                    Text("SkillTalk")
-                        .font(.system(size: 48, weight: .bold, design: .rounded))
-                        .foregroundColor(ThemeColors.textPrimary)
-                        .lineSpacing(8)
-                    
-                    Text("To the World")
-                        .font(.system(size: 32, weight: .semibold, design: .rounded))
-                        .foregroundColor(ThemeColors.textPrimary)
-                        .lineSpacing(6)
-                    
-                    Text("Practice ")
-                        .font(.system(size: 24, weight: .medium, design: .rounded))
-                        .foregroundColor(ThemeColors.textPrimary) +
-                    Text("5K+")
-                        .font(.system(size: 24, weight: .bold, design: .rounded))
-                        .foregroundColor(Color(hex: "#2fb0c7")) +
-                    Text(" Skills")
-                        .font(.system(size: 24, weight: .medium, design: .rounded))
-                        .foregroundColor(ThemeColors.textPrimary)
-                    
-                    Text("Meet ")
-                        .font(.system(size: 24, weight: .medium, design: .rounded))
-                        .foregroundColor(ThemeColors.textPrimary) +
-                    Text("50 mil")
-                        .font(.system(size: 24, weight: .bold, design: .rounded))
-                        .foregroundColor(Color(hex: "#2fb0c7")) +
-                    Text(" global friends")
-                        .font(.system(size: 24, weight: .medium, design: .rounded))
-                        .foregroundColor(ThemeColors.textPrimary)
-                }
-                .padding(.top, 60)
-                .padding(.horizontal, 24)
+            ZStack {
+                // Gradient background
+                LinearGradient(
+                    gradient: Gradient(colors: [
+                        Color(hex: "#2fb0c7").opacity(0.25),
+                        Color.clear
+                    ]),
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+                .ignoresSafeArea()
                 
-                Spacer()
-                
-                // Flag + Hello animations in 3 rows
-                VStack(spacing: 20) {
-                    // First row: 2 items
-                    HStack(spacing: 40) {
-                        ForEach(0..<2, id: \.self) { index in
-                            flagHelloItem(for: index)
-                        }
+                VStack(spacing: 0) {
+                    // Main text section at the top
+                    VStack(spacing: 16) {
+                        Text("SkillTalk")
+                            .font(.system(size: 48, weight: .bold, design: .rounded))
+                            .foregroundColor(ThemeColors.textPrimary)
+                            .lineSpacing(8)
+                        
+                        Text("To the World")
+                            .font(.system(size: 32, weight: .semibold, design: .rounded))
+                            .foregroundColor(ThemeColors.textPrimary)
+                            .lineSpacing(6)
+                        
+                        Text("Practice ")
+                            .font(.system(size: 24, weight: .medium, design: .rounded))
+                            .foregroundColor(ThemeColors.textPrimary) +
+                        Text("5K+")
+                            .font(.system(size: 24, weight: .bold, design: .rounded))
+                            .foregroundColor(Color(hex: "#2fb0c7")) +
+                        Text(" Skills")
+                            .font(.system(size: 24, weight: .medium, design: .rounded))
+                            .foregroundColor(ThemeColors.textPrimary)
+                        
+                        Text("Meet ")
+                            .font(.system(size: 24, weight: .medium, design: .rounded))
+                            .foregroundColor(ThemeColors.textPrimary) +
+                        Text("50 mil")
+                            .font(.system(size: 24, weight: .bold, design: .rounded))
+                            .foregroundColor(Color(hex: "#2fb0c7")) +
+                        Text(" global friends")
+                            .font(.system(size: 24, weight: .medium, design: .rounded))
+                            .foregroundColor(ThemeColors.textPrimary)
                     }
-                    
-                    // Second row: 3 items
-                    HStack(spacing: 30) {
-                        ForEach(2..<5, id: \.self) { index in
-                            flagHelloItem(for: index)
-                        }
-                    }
-                    
-                    // Third row: 2 items
-                    HStack(spacing: 40) {
-                        ForEach(5..<7, id: \.self) { index in
-                            flagHelloItem(for: index)
-                        }
-                    }
-                }
-                .padding(.horizontal, 20)
-                
-                Spacer()
-                
-                // Bottom buttons
-                VStack(spacing: 16) {
-                    // Sign in with Apple button
-                    Button(action: {
-                        coordinator.nextStep()
-                    }) {
-                        HStack {
-                            Image(systemName: "applelogo")
-                                .font(.title2)
-                            Text("Sign in with Apple")
-                                .font(.headline)
-                                .fontWeight(.semibold)
-                        }
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 16)
-                        .background(Color.black)
-                        .cornerRadius(25)
-                    }
+                    .padding(.top, 60)
                     .padding(.horizontal, 24)
                     
-                    // Google button at bottom left
-                    HStack {
+                    Spacer()
+                    
+                    // Flag + Hello animations in 3 rows
+                    VStack(spacing: 20) {
+                        // First row: 2 items
+                        HStack(spacing: 40) {
+                            ForEach(0..<2, id: \.self) { index in
+                                flagHelloItem(for: index)
+                            }
+                        }
+                        
+                        // Second row: 3 items
+                        HStack(spacing: 30) {
+                            ForEach(2..<5, id: \.self) { index in
+                                flagHelloItem(for: index)
+                            }
+                        }
+                        
+                        // Third row: 2 items
+                        HStack(spacing: 40) {
+                            ForEach(5..<7, id: \.self) { index in
+                                flagHelloItem(for: index)
+                            }
+                        }
+                    }
+                    .padding(.horizontal, 20)
+                    
+                    Spacer()
+                    
+                    // Bottom buttons
+                    VStack(spacing: 16) {
+                        // Sign in with Apple button
                         Button(action: {
                             coordinator.nextStep()
                         }) {
                             HStack {
-                                Text("G")
+                                Image(systemName: "applelogo")
                                     .font(.title2)
-                                    .fontWeight(.bold)
-                                    .foregroundColor(.white)
+                                Text("Sign in with Apple")
+                                    .font(.headline)
+                                    .fontWeight(.semibold)
                             }
-                            .frame(width: 50, height: 50)
-                            .background(Color.red)
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 16)
+                            .background(Color.black)
                             .cornerRadius(25)
                         }
+                        .padding(.horizontal, 24)
                         
-                        Spacer()
+                        // Social buttons row
+                        HStack(spacing: 20) {
+                            // Google button
+                            Button(action: {
+                                coordinator.nextStep()
+                            }) {
+                                HStack {
+                                    Text("G")
+                                        .font(.title2)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.white)
+                                }
+                                .frame(width: 50, height: 50)
+                                .background(Color.red)
+                                .cornerRadius(25)
+                                .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+                            }
+                            
+                            // Facebook button
+                            Button(action: {
+                                coordinator.nextStep()
+                            }) {
+                                HStack {
+                                    Text("f")
+                                        .font(.title2)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.white)
+                                }
+                                .frame(width: 50, height: 50)
+                                .background(Color.blue)
+                                .cornerRadius(25)
+                                .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+                            }
+                            
+                            // Twitter/X button
+                            Button(action: {
+                                coordinator.nextStep()
+                            }) {
+                                HStack {
+                                    Text("𝕏")
+                                        .font(.title2)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.white)
+                                }
+                                .frame(width: 50, height: 50)
+                                .background(Color.black)
+                                .cornerRadius(25)
+                                .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+                            }
+                            
+                            // LinkedIn button
+                            Button(action: {
+                                coordinator.nextStep()
+                            }) {
+                                HStack {
+                                    Text("in")
+                                        .font(.title2)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(.white)
+                                }
+                                .frame(width: 50, height: 50)
+                                .background(Color.blue)
+                                .cornerRadius(25)
+                                .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+                            }
+                            
+                            Spacer()
+                        }
+                        .padding(.horizontal, 24)
                     }
-                    .padding(.horizontal, 24)
+                    .padding(.bottom, 40)
                 }
-                .padding(.bottom, 40)
             }
         }
         .background(ThemeColors.background)
@@ -135,20 +198,20 @@ struct WelcomeView: View {
     // MARK: - Flag + Hello Item
     private func flagHelloItem(for index: Int) -> some View {
         VStack(spacing: 8) {
-            // Flag
+            // Flag in white circle with shadow
             Text(flagHelloPairs[index].0)
-                .font(.system(size: 32)) // Smaller size
-                .frame(width: 60, height: 45) // Smaller frame
+                .font(.system(size: 32))
+                .frame(width: 60, height: 60)
                 .background(Color.white)
-                .cornerRadius(8)
-                .shadow(color: .black.opacity(0.1), radius: 4, x: 0, y: 2)
+                .clipShape(Circle())
+                .shadow(color: .black.opacity(0.2), radius: 6, x: 0, y: 3)
                 .opacity(animatedItems[index] ? 1 : 0)
                 .scaleEffect(animatedItems[index] ? 1 : 0.8)
                 .animation(.easeInOut(duration: 0.5).delay(Double(index) * 0.15), value: animatedItems[index])
             
             // Hello text
             Text(flagHelloPairs[index].1)
-                .font(.system(size: 14, weight: .medium)) // Smaller font
+                .font(.system(size: 14, weight: .medium))
                 .foregroundColor(ThemeColors.textPrimary)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 6)
