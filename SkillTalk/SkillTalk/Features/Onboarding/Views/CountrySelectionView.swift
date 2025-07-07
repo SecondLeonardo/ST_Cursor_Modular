@@ -43,7 +43,7 @@ struct CountrySelectionView: View {
                             sectionHeader("ALL COUNTRIES")
                         }
                     }
-                    .padding(.horizontal, 20)
+                    .padding(.horizontal, 16)
                 }
                 .overlay(
                     // Alphabetical index
@@ -75,7 +75,7 @@ struct CountrySelectionView: View {
         .padding(.vertical, 12)
         .background(Color.white)
         .cornerRadius(12)
-        .padding(.horizontal, 20)
+        .padding(.horizontal, 16)
         .padding(.bottom, 16)
     }
     

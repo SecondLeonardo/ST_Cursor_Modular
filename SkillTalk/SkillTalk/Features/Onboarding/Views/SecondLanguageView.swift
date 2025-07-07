@@ -56,7 +56,7 @@ struct SecondLanguageView: View {
                                 sectionHeader("ALL LANGUAGES")
                             }
                         }
-                        .padding(.horizontal, 20)
+                        .padding(.horizontal, 16)
                     }
                     .overlay(
                         // Alphabetical index
@@ -127,7 +127,7 @@ struct SecondLanguageView: View {
         .padding(.vertical, 12)
         .background(Color.white)
         .cornerRadius(12)
-        .padding(.horizontal, 20)
+        .padding(.horizontal, 16)
         .padding(.bottom, 16)
     }
     
@@ -194,7 +194,7 @@ struct SecondLanguageView: View {
                 }
             )
             .disabled(selectedLanguages.isEmpty)
-            .padding(.horizontal, 24)
+            .padding(.horizontal, 16)
             .padding(.bottom, 20)
         }
         .background(Color.white)
