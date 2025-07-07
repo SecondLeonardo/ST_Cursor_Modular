@@ -4,8 +4,10 @@ struct SignInView: View {
     @ObservedObject var coordinator: OnboardingCoordinator
     @State private var email = ""
     @State private var password = ""
+    @State private var phone = ""
     @State private var isSignUp = false
     @State private var showPassword = false
+    @State private var selectedTab: SignInTab = .email
     
     var body: some View {
         VStack(spacing: 0) {
@@ -13,19 +15,37 @@ struct SignInView: View {
                 VStack(spacing: 32) {
                     // Header
                     headerSection
-                    
+                    // Tab switch
+                    tabSwitchSection
                     // Form fields
-                    formSection
-                    
+                    if selectedTab == .email {
+                        formSection
+                    } else {
+                        phoneSection
+                    }
                     // Action buttons
                     actionButtonsSection
-                    
-                    // Additional options
-                    additionalOptionsSection
                 }
                 .padding(.horizontal, 24)
                 .padding(.top, 20)
             }
+            // Wide social auth buttons at the bottom
+            VStack(spacing: 16) {
+                WideSocialButton(title: "Sign in with Google", icon: "G", color: Color(red: 0.98, green: 0.27, blue: 0.22)) {
+                    coordinator.onboardingData.isAuthenticated = true
+                    coordinator.nextStep()
+                }
+                WideSocialButton(title: "Sign in with Facebook", icon: "F", color: Color(red: 0.22, green: 0.51, blue: 0.96)) {
+                    coordinator.onboardingData.isAuthenticated = true
+                    coordinator.nextStep()
+                }
+                WideSocialButton(title: "Sign in with Apple", icon: "applelogo", color: .black, isSF: true) {
+                    coordinator.onboardingData.isAuthenticated = true
+                    coordinator.nextStep()
+                }
+            }
+            .padding(.horizontal, 24)
+            .padding(.bottom, 24)
         }
     }
     
@@ -36,12 +56,27 @@ struct SignInView: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(ThemeColors.textPrimary)
-            
             Text(isSignUp ? "Join SkillTalk to connect with global learners" : "Sign in to continue your learning journey")
                 .font(.body)
                 .foregroundColor(ThemeColors.textSecondary)
                 .multilineTextAlignment(.center)
         }
+    }
+    
+    // MARK: - Tab Switch Section
+    private var tabSwitchSection: some View {
+        HStack(spacing: 0) {
+            TabButton(title: "Email", isSelected: selectedTab == .email) {
+                selectedTab = .email
+            }
+            TabButton(title: "Phone", isSelected: selectedTab == .phone) {
+                selectedTab = .phone
+            }
+        }
+        .frame(height: 44)
+        .background(Color(.systemGray6))
+        .cornerRadius(12)
+        .padding(.vertical, 12)
     }
     
     // MARK: - Form Section
@@ -53,37 +88,32 @@ struct SignInView: View {
                     .font(.subheadline)
                     .fontWeight(.medium)
                     .foregroundColor(ThemeColors.textPrimary)
-                
                 TextField("Enter your email", text: $email)
                     .textFieldStyle(CustomTextFieldStyle())
                     .keyboardType(.emailAddress)
                     .autocapitalization(.none)
             }
-            
             // Password field
             VStack(alignment: .leading, spacing: 8) {
                 Text("Password")
                     .font(.subheadline)
                     .fontWeight(.medium)
                     .foregroundColor(ThemeColors.textPrimary)
-                
-                HStack {
+                ZStack(alignment: .trailing) {
                     if showPassword {
                         TextField("Enter your password", text: $password)
+                            .textFieldStyle(CustomTextFieldStyle())
                     } else {
                         SecureField("Enter your password", text: $password)
+                            .textFieldStyle(CustomTextFieldStyle())
                     }
-                    
-                    Button(action: {
-                        showPassword.toggle()
-                    }) {
+                    Button(action: { showPassword.toggle() }) {
                         Image(systemName: showPassword ? "eye.slash.fill" : "eye.fill")
                             .foregroundColor(ThemeColors.textSecondary)
+                            .padding(.trailing, 12)
                     }
                 }
-                .textFieldStyle(CustomTextFieldStyle())
             }
-            
             // Forgot password (only for sign in)
             if !isSignUp {
                 HStack {
@@ -98,6 +128,31 @@ struct SignInView: View {
         }
     }
     
+    // MARK: - Phone Section
+    private var phoneSection: some View {
+        VStack(spacing: 20) {
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Phone Number")
+                    .font(.subheadline)
+                    .fontWeight(.medium)
+                    .foregroundColor(ThemeColors.textPrimary)
+                TextField("Enter your phone number", text: $phone)
+                    .textFieldStyle(CustomTextFieldStyle())
+                    .keyboardType(.phonePad)
+            }
+            Button("Send Code") {
+                coordinator.onboardingData.isAuthenticated = true
+                coordinator.nextStep()
+            }
+            .font(.headline)
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 16)
+            .background(ThemeColors.primary)
+            .foregroundColor(.white)
+            .cornerRadius(16)
+        }
+    }
+    
     // MARK: - Action Buttons Section
     private var actionButtonsSection: some View {
         VStack(spacing: 16) {
@@ -105,13 +160,11 @@ struct SignInView: View {
             PrimaryButton(
                 title: isSignUp ? "Create Account" : "Sign In",
                 action: {
-                    // Simulate authentication
                     coordinator.onboardingData.isAuthenticated = true
                     coordinator.nextStep()
                 }
             )
-            .disabled(email.isEmpty || password.isEmpty)
-            
+            .disabled(selectedTab == .email ? (email.isEmpty || password.isEmpty) : phone.isEmpty)
             // Toggle between sign in and sign up
             Button(action: {
                 isSignUp.toggle()
@@ -122,48 +175,59 @@ struct SignInView: View {
             }
         }
     }
-    
-    // MARK: - Additional Options Section
-    private var additionalOptionsSection: some View {
-        VStack(spacing: 16) {
-            // Divider
-            HStack {
-                Rectangle()
-                    .frame(height: 1)
-                    .foregroundColor(Color.gray.opacity(0.3))
-                
-                Text("or")
-                    .font(.subheadline)
-                    .foregroundColor(ThemeColors.textSecondary)
-                    .padding(.horizontal, 16)
-                
-                Rectangle()
-                    .frame(height: 1)
-                    .foregroundColor(Color.gray.opacity(0.3))
-            }
-            
-            // Social login options - horizontal row of circular icon buttons
-            HStack(spacing: 24) {
-                ForEach(authIcons, id: \.icon) { icon in
-                    Button(action: {
-                        coordinator.onboardingData.isAuthenticated = true
-                        coordinator.nextStep()
-                    }) {
-                        AuthIconCircle(icon: icon.icon, color: icon.color, isSF: icon.isSF)
-                    }
-                }
-            }
+}
+
+enum SignInTab {
+    case email
+    case phone
+}
+
+struct TabButton: View {
+    let title: String
+    let isSelected: Bool
+    let action: () -> Void
+    var body: some View {
+        Button(action: action) {
+            Text(title)
+                .font(.headline)
+                .foregroundColor(isSelected ? .white : .gray)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(isSelected ? ThemeColors.primary : Color.clear)
+                .cornerRadius(12)
         }
     }
+}
 
-    private var authIcons: [(icon: String, color: Color, isSF: Bool)] {
-        [
-            ("globe", Color(red: 0.98, green: 0.27, blue: 0.22), true),
-            ("F", Color(red: 0.22, green: 0.51, blue: 0.96), false),
-            ("envelope.fill", Color(red: 0.53, green: 0.85, blue: 0.92), true),
-            ("phone.fill", Color(red: 0.38, green: 0.82, blue: 0.47), true),
-            ("ellipsis", Color(.systemGray4), true)
-        ]
+struct WideSocialButton: View {
+    let title: String
+    let icon: String
+    let color: Color
+    var isSF: Bool = false
+    let action: () -> Void
+    var body: some View {
+        Button(action: action) {
+            HStack {
+                if isSF {
+                    Image(systemName: icon)
+                        .font(.title2)
+                        .foregroundColor(.white)
+                } else {
+                    Text(icon)
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                }
+                Spacer()
+                Text(title)
+                    .font(.headline)
+                    .foregroundColor(.white)
+                Spacer()
+            }
+            .padding(.vertical, 18)
+            .padding(.horizontal, 12)
+            .background(color)
+            .cornerRadius(24)
+        }
     }
 }
 
