@@ -142,62 +142,59 @@ struct SignInView: View {
                     .foregroundColor(Color.gray.opacity(0.3))
             }
             
-            // Social login options
-            VStack(spacing: 12) {
-                SocialLoginButton(
-                    title: "Continue with Apple",
-                    icon: "applelogo",
-                    backgroundColor: .black,
-                    textColor: .white,
-                    fontSize: 16,
-                    width: 100,
-                    action: {
-                        coordinator.onboardingData.authProvider = .apple
-                        coordinator.onboardingData.isAuthenticated = true
-                        coordinator.nextStep()
-                    }
-                )
-                
-                SocialLoginButton(
-                    title: "Google",
-                    icon: "globe",
+            // Social login options - horizontal row of circular buttons
+            HStack(spacing: 24) {
+                AuthCircleButton(
+                    icon: "globe", // Replace with Google icon asset if available
+                    label: "Google",
                     backgroundColor: .white,
-                    textColor: .black,
-                    fontSize: 16,
-                    width: 100,
-                    action: {
-                        coordinator.onboardingData.authProvider = .google
-                        coordinator.onboardingData.isAuthenticated = true
-                        coordinator.nextStep()
-                    }
-                )
+                    foregroundColor: .black
+                ) {
+                    coordinator.onboardingData.authProvider = .google
+                    coordinator.onboardingData.isAuthenticated = true
+                    coordinator.nextStep()
+                }
                 
-                SocialLoginButton(
-                    title: "Facebook",
-                    icon: "person.2.fill",
+                AuthCircleButton(
+                    icon: "person.2.fill", // Replace with Facebook icon asset if available
+                    label: "Facebook",
                     backgroundColor: Color(red: 66/255, green: 103/255, blue: 178/255),
-                    textColor: .white,
-                    fontSize: 16,
-                    width: 100,
-                    action: {
-                        coordinator.onboardingData.authProvider = .facebook
-                        coordinator.onboardingData.isAuthenticated = true
-                        coordinator.nextStep()
-                    }
-                )
+                    foregroundColor: .white
+                ) {
+                    coordinator.onboardingData.authProvider = .facebook
+                    coordinator.onboardingData.isAuthenticated = true
+                    coordinator.nextStep()
+                }
                 
-                SocialLoginButton(
-                    title: "Email",
+                AuthCircleButton(
                     icon: "envelope.fill",
+                    label: "Email",
                     backgroundColor: .white,
-                    textColor: .black,
-                    fontSize: 16,
-                    width: 100,
-                    action: {
-                        coordinator.onboardingData.authProvider = .email
-                        coordinator.nextStep()
-                    }
-                )
+                    foregroundColor: .black
+                ) {
+                    coordinator.onboardingData.authProvider = .email
+                    coordinator.nextStep()
+                }
+                
+                AuthCircleButton(
+                    icon: "phone.fill",
+                    label: "Phone",
+                    backgroundColor: .white,
+                    foregroundColor: .black
+                ) {
+                    coordinator.onboardingData.authProvider = .phone
+                    coordinator.onboardingData.isAuthenticated = true
+                    coordinator.nextStep()
+                }
+                
+                AuthCircleButton(
+                    icon: "plus",
+                    label: "More",
+                    backgroundColor: .white,
+                    foregroundColor: .black
+                ) {
+                    // Handle additional auth methods
+                }
             }
         }
     }

@@ -96,6 +96,7 @@ enum AuthProvider {
     case google
     case facebook
     case email
+    case phone
 }
 
 enum LanguageProficiency: String, CaseIterable, Codable {
