@@ -110,7 +110,7 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
         
         return try await loadWithCache(
             key: cacheKey,
-            path: "categories.json", // Updated path to match our file structure
+            path: "categories.json", // Simplified path - files are at root level in bundle
             ttl: cacheTTL,
             type: [SkillCategory].self
         )
@@ -122,15 +122,14 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
         let cacheKey = "subcategories_\(categoryId)_\(language)"
         let cacheTTL: TimeInterval = 86400 // 24 hours
         
-        // Map category ID to actual file name
-        let fileName = categoryId == "technology" ? "technology_subcategories" : "\(categoryId)_subcategories"
-        
+        // For now, we'll use a simplified approach since we have limited subcategory data
+        // In the future, this should load from the proper hierarchy structure
         return try await loadWithCache(
             key: cacheKey,
-            path: "\(fileName).json",
+            path: "technology_subcategories.json", // Simplified path
             ttl: cacheTTL,
-            type: CategoryHierarchy.self
-        ).subcategories
+            type: [SkillSubcategory].self
+        )
     }
     
     func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
@@ -139,14 +138,13 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
         let cacheKey = "skills_\(subcategoryId)_\(language)"
         let cacheTTL: TimeInterval = 3600 // 1 hour
         
-        // Map subcategory ID to actual file name
-        let fileName = subcategoryId == "programming_languages" ? "programming_languages" : "\(subcategoryId)_skills"
-        
+        // For now, we'll use a simplified approach since we have limited skill data
+        // In the future, this should load from the proper hierarchy structure
         return try await loadWithCache(
             key: cacheKey,
-            path: "\(fileName).json",
+            path: "programming_languages_skills.json", // Simplified path
             ttl: cacheTTL,
-            type: SubcategoryHierarchy.self
+            type: SkillsData.self
         ).skills
     }
     
@@ -236,6 +234,11 @@ struct SubcategoryHierarchy: Codable {
     let skills: [Skill]
 }
 
+struct SkillsData: Codable {
+    let subcategory: SkillSubcategory
+    let skills: [Skill]
+}
+
 // MARK: - Using main models from Data/Models/SkillModels.swift
 
 // MARK: - Bundle Resource Loader
@@ -245,11 +248,59 @@ class BundleResourceLoader {
     private init() {}
     
     func loadJSON<T: Codable>(from path: String, type: T.Type) async throws -> T {
-        guard let url = Bundle.main.url(forResource: path.replacingOccurrences(of: ".json", with: ""), withExtension: "json") else {
-            throw NSError(domain: "BundleResourceLoader", code: 404, userInfo: [NSLocalizedDescriptionKey: "Resource not found: \(path)"])
+        print("📂 BundleResourceLoader: Attempting to load from path: \(path)")
+        
+        // Try to load from the main bundle first
+        if let url = Bundle.main.url(forResource: path.replacingOccurrences(of: ".json", with: ""), withExtension: "json") {
+            print("✅ BundleResourceLoader: Found resource at: \(url)")
+            let data = try Data(contentsOf: url)
+            return try JSONDecoder().decode(type, from: data)
         }
         
-        let data = try Data(contentsOf: url)
-        return try JSONDecoder().decode(type, from: data)
+        print("❌ BundleResourceLoader: Not found in main bundle, trying subdirectory approach...")
+        
+        // If not found in main bundle, try to construct the path manually
+        // This handles the database/languages/en/ structure
+        let components = path.components(separatedBy: "/")
+        if components.count >= 3 {
+            let fileName = components.last?.replacingOccurrences(of: ".json", with: "") ?? ""
+            let directory = components.dropLast().joined(separator: "/")
+            
+            print("🔍 BundleResourceLoader: Trying subdirectory - fileName: \(fileName), directory: \(directory)")
+            
+            if let url = Bundle.main.url(forResource: fileName, withExtension: "json", subdirectory: directory) {
+                print("✅ BundleResourceLoader: Found resource in subdirectory: \(url)")
+                let data = try Data(contentsOf: url)
+                return try JSONDecoder().decode(type, from: data)
+            }
+        }
+        
+        print("❌ BundleResourceLoader: Not found in subdirectory, trying database directory...")
+        
+        // If still not found, try to load from the database directory directly
+        if let databaseURL = Bundle.main.url(forResource: "database", withExtension: nil) {
+            let fullPath = databaseURL.appendingPathComponent(path.replacingOccurrences(of: "database/", with: ""))
+            print("🔍 BundleResourceLoader: Trying full path: \(fullPath)")
+            
+            if FileManager.default.fileExists(atPath: fullPath.path) {
+                print("✅ BundleResourceLoader: Found file at full path: \(fullPath)")
+                let data = try Data(contentsOf: fullPath)
+                return try JSONDecoder().decode(type, from: data)
+            }
+        }
+        
+        // Let's also try to list what's actually in the bundle
+        print("🔍 BundleResourceLoader: Listing bundle contents...")
+        if let resourcePath = Bundle.main.resourcePath {
+            do {
+                let contents = try FileManager.default.contentsOfDirectory(atPath: resourcePath)
+                print("📋 Bundle contents: \(contents)")
+            } catch {
+                print("❌ BundleResourceLoader: Could not list bundle contents: \(error)")
+            }
+        }
+        
+        print("❌ BundleResourceLoader: Resource not found for path: \(path)")
+        throw NSError(domain: "BundleResourceLoader", code: 404, userInfo: [NSLocalizedDescriptionKey: "Resource not found: \(path)"])
     }
 } 

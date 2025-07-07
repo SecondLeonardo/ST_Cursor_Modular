@@ -56,6 +56,9 @@ struct SkillTalkApp: App {
         #if DEBUG
         print("🏗️ Initializing SkillTalk App...")
         AppInfo.debugLog()
+        
+        // Run database tests
+        DatabaseTest.runTests()
         #endif
     }
     
