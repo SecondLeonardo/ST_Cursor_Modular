@@ -2,298 +2,199 @@ import SwiftUI
 
 struct WelcomeView: View {
     @ObservedObject var coordinator: OnboardingCoordinator
-    @State private var showSignIn = false
-    
+    @State private var animateFlags = false
+
+    let flagGreetings: [(flag: String, greeting: String)] = [
+        ("🇺🇸", "Hello!"), ("🇰🇷", "안녕하세요!"),
+        ("🇨🇳", "你好!"), ("🇫🇷", "Bonjour!"), ("🇸🇦", "!مرحبا"),
+        ("🇪🇸", "¡Hola!"), ("🇯🇵", "こんにちは!")
+    ]
+
     var body: some View {
-        VStack(spacing: 0) {
-            // Main content
-            VStack(spacing: 32) {
-                // Header section
-                headerSection
-                
-                // Features section
-                featuresSection
-                
-                // Language greetings
-                languageGreetingsSection
-                
-                // Sign in buttons
-                signInButtonsSection
-                
-                // Help section
-                helpSection
-            }
-            .padding(.horizontal, 24)
-            .padding(.top, 20)
-        }
-        .background(
+        ZStack {
             LinearGradient(
-                colors: [ThemeColors.primary.opacity(0.1), Color.white],
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
+                colors: [Color(red: 0.93, green: 0.98, blue: 1.0), Color.white],
+                startPoint: .top,
+                endPoint: .bottom
             )
             .ignoresSafeArea()
-        )
-    }
-    
-    // MARK: - Header Section
-    private var headerSection: some View {
-        VStack(spacing: 16) {
-            // App logo/icon
-            Image("AppLogo")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 100, height: 100)
-                .padding(.top, 16)
-                .shadow(radius: 8)
-                .accessibilityLabel("SkillTalk Logo")
-            
-            // App name with gradient
-            Text("SkillTalk")
-                .font(.system(size: 48, weight: .bold, design: .rounded))
-                .foregroundStyle(
-                    LinearGradient(
-                        colors: [ThemeColors.primary, ThemeColors.primary.opacity(0.7)],
-                        startPoint: .leading,
-                        endPoint: .trailing
-                    )
-                )
-            
-            // Tagline
-            Text("To the World")
-                .font(.title2)
-                .fontWeight(.semibold)
-                .foregroundColor(ThemeColors.textPrimary)
-        }
-    }
-    
-    // MARK: - Features Section
-    private var featuresSection: some View {
-        VStack(spacing: 12) {
-            HStack(spacing: 8) {
-                Image(systemName: "checkmark.circle.fill")
-                    .foregroundColor(ThemeColors.primary)
-                    .font(.title3)
-                
-                Text("Practice")
-                    .font(.body)
-                    .foregroundColor(ThemeColors.textSecondary)
-                
-                Text("150+ Skills")
-                    .font(.body)
-                    .fontWeight(.semibold)
-                    .foregroundColor(ThemeColors.primary)
-            }
-            
-            HStack(spacing: 8) {
-                Image(systemName: "checkmark.circle.fill")
-                    .foregroundColor(ThemeColors.primary)
-                    .font(.title3)
-                
-                Text("Meet")
-                    .font(.body)
-                    .foregroundColor(ThemeColors.textSecondary)
-                
-                Text("50M+ Global Friends")
-                    .font(.body)
-                    .fontWeight(.semibold)
-                    .foregroundColor(ThemeColors.primary)
-            }
-        }
-    }
-    
-    // MARK: - Language Greetings Section
-    private var languageGreetingsSection: some View {
-        VStack(spacing: 8) {
-            Text("Global Community")
-                .font(.headline)
-                .fontWeight(.semibold)
-                .foregroundColor(ThemeColors.textPrimary)
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 16) {
-                    ForEach(languageGreetings, id: \.language) { greeting in
-                        HStack(spacing: 8) {
-                            Text(greeting.flag)
-                                .font(.title2)
-                            VStack(alignment: .leading, spacing: 2) {
-                                Text(greeting.greeting)
-                                    .font(.body)
-                                    .fontWeight(.medium)
-                                    .foregroundColor(ThemeColors.textPrimary)
-                                Text(greeting.language)
-                                    .font(.caption)
-                                    .foregroundColor(ThemeColors.textSecondary)
-                            }
-                        }
-                        .padding(.vertical, 8)
-                        .padding(.horizontal, 12)
-                        .background(Color.white.opacity(0.8))
-                        .cornerRadius(12)
-                        .shadow(color: Color.black.opacity(0.04), radius: 2, x: 0, y: 2)
+            VStack(spacing: 0) {
+                Spacer(minLength: 12)
+                // App name
+                Text("SkillTalk")
+                    .font(.system(size: 48, weight: .bold, design: .rounded))
+                    .foregroundColor(Color(red: 0.18, green: 0.68, blue: 0.80))
+                    .padding(.top, 0)
+                // Subtitle
+                Text("To the World")
+                    .font(.system(size: 32, weight: .bold))
+                    .foregroundColor(.black)
+                    .padding(.top, 2)
+                // Features
+                VStack(spacing: 0) {
+                    HStack(spacing: 6) {
+                        Text("Practice")
+                            .font(.system(size: 22))
+                            .foregroundColor(.black)
+                        Text("150+")
+                            .font(.system(size: 22, weight: .bold))
+                            .foregroundColor(Color(red: 0.18, green: 0.68, blue: 0.80))
+                        Text("Skills")
+                            .font(.system(size: 22))
+                            .foregroundColor(.black)
+                    }
+                    .padding(.top, 10)
+                    HStack(spacing: 6) {
+                        Text("Meet")
+                            .font(.system(size: 22))
+                            .foregroundColor(.black)
+                        Text("50 mil")
+                            .font(.system(size: 22, weight: .bold))
+                            .foregroundColor(Color(red: 0.18, green: 0.68, blue: 0.80))
+                        Text("global friends")
+                            .font(.system(size: 22))
+                            .foregroundColor(.black)
                     }
                 }
-                .padding(.vertical, 4)
-            }
-        }
-    }
-    
-    // MARK: - Sign In Buttons Section
-    private var signInButtonsSection: some View {
-        VStack(spacing: 16) {
-            // Primary sign in button (Apple)
-            PrimaryButton(
-                title: "Sign in with Apple",
-                action: {
+                .padding(.top, 6)
+                // Flag greetings grid with animation
+                VStack(spacing: 18) {
+                    HStack(spacing: 36) {
+                        AnimatedFlagGreeting(flag: flagGreetings[0].flag, greeting: flagGreetings[0].greeting, delay: 0.0, animate: animateFlags)
+                        AnimatedFlagGreeting(flag: flagGreetings[1].flag, greeting: flagGreetings[1].greeting, delay: 0.2, animate: animateFlags)
+                    }
+                    HStack(spacing: 36) {
+                        AnimatedFlagGreeting(flag: flagGreetings[2].flag, greeting: flagGreetings[2].greeting, delay: 0.4, animate: animateFlags)
+                        AnimatedFlagGreeting(flag: flagGreetings[3].flag, greeting: flagGreetings[3].greeting, delay: 0.6, animate: animateFlags)
+                        AnimatedFlagGreeting(flag: flagGreetings[4].flag, greeting: flagGreetings[4].greeting, delay: 0.8, animate: animateFlags)
+                    }
+                    HStack(spacing: 36) {
+                        AnimatedFlagGreeting(flag: flagGreetings[5].flag, greeting: flagGreetings[5].greeting, delay: 1.0, animate: animateFlags)
+                        AnimatedFlagGreeting(flag: flagGreetings[6].flag, greeting: flagGreetings[6].greeting, delay: 1.2, animate: animateFlags)
+                    }
+                }
+                .padding(.top, 36)
+                .frame(maxWidth: .infinity)
+                // Apple sign in button
+                Button(action: {
                     coordinator.onboardingData.authProvider = .apple
                     coordinator.onboardingData.isAuthenticated = true
                     coordinator.nextStep()
+                }) {
+                    HStack {
+                        Image(systemName: "applelogo")
+                            .font(.title2)
+                        Text("Sign in with Apple")
+                            .font(.system(size: 20, weight: .semibold))
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 18)
+                    .background(Color.black)
+                    .foregroundColor(.white)
+                    .cornerRadius(24)
                 }
-            )
-            // Redesigned row of small circular auth buttons
-            HStack(spacing: 24) {
-                AuthCircleButton(
-                    icon: "globe", // Replace with Google icon asset if available
-                    label: "Google",
-                    backgroundColor: .white,
-                    foregroundColor: .black
-                ) {
-                    coordinator.onboardingData.authProvider = .google
-                    coordinator.onboardingData.isAuthenticated = true
-                    coordinator.nextStep()
+                .padding(.horizontal, 24)
+                .padding(.top, 36)
+                // Auth icon row
+                HStack(spacing: 28) {
+                    ForEach(authIcons, id: \ .icon) { icon in
+                        Button(action: {
+                            coordinator.onboardingData.isAuthenticated = true
+                            coordinator.nextStep()
+                        }) {
+                            AuthIconCircle(icon: icon.icon, color: icon.color, isSF: icon.isSF)
+                        }
+                    }
                 }
-                AuthCircleButton(
-                    icon: "person.2.fill", // Replace with Facebook icon asset if available
-                    label: "Facebook",
-                    backgroundColor: Color(red: 66/255, green: 103/255, blue: 178/255),
-                    foregroundColor: .white
-                ) {
-                    coordinator.onboardingData.authProvider = .facebook
-                    coordinator.onboardingData.isAuthenticated = true
-                    coordinator.nextStep()
+                .padding(.top, 28)
+                Spacer(minLength: 8)
+                // Trouble signing in
+                Button(action: {}) {
+                    Text("I'm having trouble signing in")
+                        .font(.system(size: 17))
+                        .foregroundColor(Color(.systemGray))
                 }
-                AuthCircleButton(
-                    icon: "envelope.fill",
-                    label: "Email",
-                    backgroundColor: .white,
-                    foregroundColor: .black
-                ) {
-                    coordinator.onboardingData.authProvider = .email
-                    coordinator.nextStep()
-                }
-                AuthCircleButton(
-                    icon: "phone.fill",
-                    label: "Phone",
-                    backgroundColor: .white,
-                    foregroundColor: .black
-                ) {
-                    coordinator.onboardingData.authProvider = .phone
-                    coordinator.nextStep()
-                }
-                AuthCircleButton(
-                    icon: "plus.circle.fill",
-                    label: "More",
-                    backgroundColor: Color(.systemGray5),
-                    foregroundColor: .gray
-                ) {
-                    // Future: Show more auth methods
-                }
+                .padding(.bottom, 10)
             }
-            .padding(.top, 8)
+            .padding(.top, 0)
+        }
+        .onAppear {
+            withAnimation(.easeOut(duration: 2.0)) {
+                animateFlags = true
+            }
         }
     }
-    
-    // MARK: - Help Section
-    private var helpSection: some View {
-        Button(action: {
-            // Show help/support
-        }) {
-            Text("I'm having trouble signing in")
-                .font(.body)
-                .foregroundColor(ThemeColors.primary)
-                .underline()
-        }
-        .padding(.top, 20)
-    }
-    
-    // MARK: - Language Greetings Data
-    private var languageGreetings: [LanguageGreeting] {
-        [
-            LanguageGreeting(language: "English", greeting: "Hello!", flag: "🇺🇸"),
-            LanguageGreeting(language: "한국어", greeting: "안녕하세요!", flag: "🇰🇷"),
-            LanguageGreeting(language: "中文", greeting: "你好!", flag: "🇨🇳"),
-            LanguageGreeting(language: "Français", greeting: "Bonjour!", flag: "🇫🇷"),
-            LanguageGreeting(language: "العربية", greeting: "مرحبا!", flag: "🇸🇦"),
-            LanguageGreeting(language: "Español", greeting: "¡Hola!", flag: "🇪🇸")
-        ]
-    }
+
+    let authIcons: [(icon: String, color: Color, isSF: Bool)] = [
+        ("globe", Color(red: 0.98, green: 0.27, blue: 0.22), true),
+        ("F", Color(red: 0.22, green: 0.51, blue: 0.96), false),
+        ("envelope.fill", Color(red: 0.53, green: 0.85, blue: 0.92), true),
+        ("phone.fill", Color(red: 0.38, green: 0.82, blue: 0.47), true),
+        ("ellipsis", Color(.systemGray4), true)
+    ]
 }
 
-// MARK: - AuthCircleButton Component
-struct AuthCircleButton: View {
-    let icon: String
-    let label: String
-    let backgroundColor: Color
-    let foregroundColor: Color
-    let action: () -> Void
-    
+struct AnimatedFlagGreeting: View {
+    let flag: String
+    let greeting: String
+    let delay: Double
+    let animate: Bool
+    @State private var show = false
     var body: some View {
         VStack(spacing: 6) {
-            Button(action: action) {
-                ZStack {
-                    Circle()
-                        .fill(backgroundColor)
-                        .frame(width: 56, height: 56)
-                        .shadow(color: .black.opacity(0.08), radius: 2, x: 0, y: 2)
-                    Image(systemName: icon)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 28, height: 28)
-                        .foregroundColor(foregroundColor)
+            ZStack {
+                Circle()
+                    .fill(Color.white)
+                    .frame(width: 62, height: 62)
+                    .shadow(color: Color.black.opacity(0.10), radius: 6, x: 0, y: 2)
+                Text(flag)
+                    .font(.system(size: 36))
+            }
+            Text(greeting)
+                .font(.system(size: 18, weight: .medium))
+                .foregroundColor(.black)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 4)
+                .background(
+                    Capsule()
+                        .fill(Color.white)
+                        .shadow(color: Color.black.opacity(0.10), radius: 6, x: 0, y: 2)
+                )
+        }
+        .opacity(show ? 1 : 0)
+        .scaleEffect(show ? 1 : 0.8)
+        .onAppear {
+            if animate {
+                DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
+                    withAnimation(.easeOut(duration: 0.5)) {
+                        show = true
+                    }
                 }
             }
-            .buttonStyle(PlainButtonStyle())
-            Text(label)
-                .font(.caption)
-                .foregroundColor(.primary)
         }
-        .frame(width: 60)
     }
 }
 
-// MARK: - Language Greeting Card
-struct LanguageGreetingCard: View {
-    let greeting: LanguageGreeting
-    
+struct AuthIconCircle: View {
+    let icon: String
+    let color: Color
+    var isSF: Bool = false
     var body: some View {
-        HStack(spacing: 8) {
-            Text(greeting.flag)
-                .font(.title2)
-            
-            VStack(alignment: .leading, spacing: 2) {
-                Text(greeting.greeting)
-                    .font(.subheadline)
-                    .fontWeight(.medium)
-                    .foregroundColor(ThemeColors.textPrimary)
-                
-                Text(greeting.language)
-                    .font(.caption)
-                    .foregroundColor(ThemeColors.textSecondary)
+        ZStack {
+            Circle()
+                .fill(color)
+                .frame(width: 54, height: 54)
+            if isSF {
+                Image(systemName: icon)
+                    .font(.system(size: 26, weight: .bold))
+                    .foregroundColor(.white)
+            } else {
+                Text(icon)
+                    .font(.system(size: 26, weight: .bold))
+                    .foregroundColor(.white)
             }
-            
-            Spacer()
         }
-        .padding(12)
-        .background(Color.white)
-        .cornerRadius(12)
-        .shadow(color: .black.opacity(0.05), radius: 4, x: 0, y: 2)
     }
-}
-
-// MARK: - Language Greeting Model
-struct LanguageGreeting {
-    let language: String
-    let greeting: String
-    let flag: String
 }
 
 #Preview {

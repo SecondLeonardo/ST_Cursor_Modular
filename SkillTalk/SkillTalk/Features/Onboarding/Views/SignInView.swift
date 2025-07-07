@@ -142,59 +142,13 @@ struct SignInView: View {
                     .foregroundColor(Color.gray.opacity(0.3))
             }
             
-            // Social login options - horizontal row of circular buttons
+            // Social login options - horizontal row of circular icon buttons
             HStack(spacing: 24) {
-                AuthCircleButton(
-                    icon: "globe", // Replace with Google icon asset if available
-                    label: "Google",
-                    backgroundColor: .white,
-                    foregroundColor: .black
-                ) {
-                    coordinator.onboardingData.authProvider = .google
-                    coordinator.onboardingData.isAuthenticated = true
-                    coordinator.nextStep()
-                }
-                
-                AuthCircleButton(
-                    icon: "person.2.fill", // Replace with Facebook icon asset if available
-                    label: "Facebook",
-                    backgroundColor: Color(red: 66/255, green: 103/255, blue: 178/255),
-                    foregroundColor: .white
-                ) {
-                    coordinator.onboardingData.authProvider = .facebook
-                    coordinator.onboardingData.isAuthenticated = true
-                    coordinator.nextStep()
-                }
-                
-                AuthCircleButton(
-                    icon: "envelope.fill",
-                    label: "Email",
-                    backgroundColor: .white,
-                    foregroundColor: .black
-                ) {
-                    coordinator.onboardingData.authProvider = .email
-                    coordinator.nextStep()
-                }
-                
-                AuthCircleButton(
-                    icon: "phone.fill",
-                    label: "Phone",
-                    backgroundColor: .white,
-                    foregroundColor: .black
-                ) {
-                    coordinator.onboardingData.authProvider = .phone
-                    coordinator.onboardingData.isAuthenticated = true
-                    coordinator.nextStep()
-                }
-                
-                AuthCircleButton(
-                    icon: "plus",
-                    label: "More",
-                    backgroundColor: .white,
-                    foregroundColor: .black
-                ) {
-                    // Handle additional auth methods
-                }
+                AuthIconCircle(icon: "G", color: Color(red: 0.22, green: 0.51, blue: 0.96))
+                AuthIconCircle(icon: "F", color: Color(red: 0.23, green: 0.35, blue: 0.78))
+                AuthIconCircle(icon: "envelope.fill", color: Color(red: 0.53, green: 0.85, blue: 0.92), isSF: true)
+                AuthIconCircle(icon: "phone.fill", color: Color(red: 0.38, green: 0.82, blue: 0.47), isSF: true)
+                AuthIconCircle(icon: "ellipsis", color: Color(.systemGray4), isSF: true)
             }
         }
     }
