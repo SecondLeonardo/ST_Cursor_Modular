@@ -1,6 +1,8 @@
 import Foundation
 import Combine
 
+// Import the Language type from LanguageService
+
 // MARK: - Error Types
 
 enum SkillDatabaseError: Error, LocalizedError {
@@ -44,7 +46,7 @@ class SkillDatabaseService {
     
     // MARK: - Private Properties
     private let cacheManager: CacheManager
-    private let healthMonitor: ServiceHealthMonitor
+    private var healthMonitor: ServiceHealthMonitor
     
     private var currentLanguage: String = "en"
     private var availableLanguages: [Language] = []
@@ -63,6 +65,7 @@ class SkillDatabaseService {
     // MARK: - Initialization
     private init() {
         self.cacheManager = CacheManager.shared
+        // Access the shared instance directly
         self.healthMonitor = ServiceHealthMonitor.shared
         
         // Load current language from user preferences
@@ -107,8 +110,22 @@ class SkillDatabaseService {
         }
         let data = try Data(contentsOf: url)
         let hierarchy = try JSONDecoder().decode(CategoryHierarchy.self, from: data)
-        await cacheManager.set(key: cacheKey, value: hierarchy.subcategories)
-        return hierarchy.subcategories
+        
+        // Convert DatabaseSkillSubcategory to SkillSubcategory
+        let skillSubcategories = hierarchy.subcategories.map { dbSubcategory in
+            SkillSubcategory(
+                id: dbSubcategory.id,
+                categoryId: categoryId,
+                englishName: dbSubcategory.name,
+                icon: nil,
+                sortOrder: 0,
+                description: nil,
+                translations: nil
+            )
+        }
+        
+        await cacheManager.set(key: cacheKey, value: skillSubcategories)
+        return skillSubcategories
     }
     
     func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
@@ -283,7 +300,7 @@ class SkillDatabaseService {
             "\(CacheKeys.difficultyIndex)_*_\(languageCode)"
         ]
         
-        for key in keysToRemove {
+        for _ in keysToRemove {
             // TODO: Implement cache removal
         }
     }

@@ -108,7 +108,7 @@ struct SkillCategorySelectionView: View {
     private var categoriesGridView: some View {
         ScrollView {
             LazyVGrid(columns: gridColumns, spacing: 16) {
-                ForEach(viewModel.categories) { category in
+                ForEach(viewModel.categories, id: \.id) { category in
                     CategoryCardView(category: category) {
                         selectedCategory = category
                         NotificationCenter.default.post(name: .skillCategorySelected, object: category)

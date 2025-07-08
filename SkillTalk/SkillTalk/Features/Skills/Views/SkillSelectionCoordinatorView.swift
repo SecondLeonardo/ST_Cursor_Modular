@@ -8,7 +8,9 @@ struct SkillSelectionCoordinatorView: View {
     
     // MARK: - Properties
     @Environment(\.dismiss) private var dismiss
-    @StateObject private var viewModel = SkillSelectionViewModel()
+    @StateObject private var viewModel = SkillSelectionViewModel(
+        skillType: isExpertSkill ? .expert : .target
+    )
     
     let isExpertSkill: Bool
     let onSkillsSelected: ([Skill]) -> Void
@@ -219,151 +221,7 @@ struct SkillSelectionCoordinatorView: View {
     }
 }
 
-// MARK: - Skill Selection View Model
-@MainActor
-class SkillSelectionViewModel: ObservableObject {
-    
-    // MARK: - Published Properties
-    @Published var currentStep: SkillSelectionStep = .categories
-    @Published var categories: [SkillCategory] = []
-    @Published var subcategories: [SkillSubcategory] = []
-    @Published var skills: [Skill] = []
-    @Published var selectedSkills: [Skill] = []
-    @Published var searchText = ""
-    @Published var isLoading = false
-    @Published var errorMessage: String?
-    
-    // MARK: - Private Properties
-    private let skillService: SkillDatabaseServiceProtocol
-    private var selectedCategory: SkillCategory?
-    private var selectedSubcategory: SkillSubcategory?
-    
-    // MARK: - Initialization
-    init(skillService: SkillDatabaseServiceProtocol = OptimizedSkillDatabaseService()) {
-        self.skillService = skillService
-    }
-    
-    // MARK: - Public Methods
-    
-    func loadCategories() async {
-        isLoading = true
-        errorMessage = nil
-        
-        do {
-            let loadedCategories = try await skillService.loadCategories(for: "en")
-            categories = loadedCategories
-            isLoading = false
-        } catch {
-            errorMessage = "Failed to load categories: \(error.localizedDescription)"
-            isLoading = false
-        }
-    }
-    
-    func selectCategory(_ category: SkillCategory) {
-        selectedCategory = category
-        Task {
-            await loadSubcategories(for: category)
-        }
-    }
-    
-    func selectSubcategory(_ subcategory: SkillSubcategory) {
-        selectedSubcategory = subcategory
-        Task {
-            await loadSkills(for: subcategory)
-        }
-    }
-    
-    func toggleSkill(_ skill: Skill) {
-        if selectedSkills.contains(where: { $0.id == skill.id }) {
-            selectedSkills.removeAll { $0.id == skill.id }
-        } else {
-            selectedSkills.append(skill)
-        }
-    }
-    
-    func goBack() {
-        switch currentStep {
-        case .categories:
-            break // Can't go back from categories
-        case .subcategories:
-            currentStep = .categories
-            selectedCategory = nil
-            subcategories = []
-        case .skills:
-            currentStep = .subcategories
-            selectedSubcategory = nil
-            skills = []
-        }
-    }
-    
-    // MARK: - Private Methods
-    
-    private func loadSubcategories(for category: SkillCategory) async {
-        isLoading = true
-        
-        do {
-            let loadedSubcategories = try await skillService.loadSubcategories(for: category.id, language: "en")
-            subcategories = loadedSubcategories
-            currentStep = .subcategories
-            isLoading = false
-        } catch {
-            errorMessage = "Failed to load subcategories: \(error.localizedDescription)"
-            isLoading = false
-        }
-    }
-    
-    private func loadSkills(for subcategory: SkillSubcategory) async {
-        isLoading = true
-        
-        do {
-            let loadedSkills = try await skillService.loadSkills(for: subcategory.id, categoryId: selectedCategory?.id ?? "", language: "en")
-            skills = loadedSkills
-            currentStep = .skills
-            isLoading = false
-        } catch {
-            errorMessage = "Failed to load skills: \(error.localizedDescription)"
-            isLoading = false
-        }
-    }
-    
-    // MARK: - Computed Properties
-    
-    var currentStepIndex: Int {
-        switch currentStep {
-        case .categories: return 0
-        case .subcategories: return 1
-        case .skills: return 2
-        }
-    }
-    
-    var canGoBack: Bool {
-        currentStep != .categories
-    }
-    
-    var breadcrumbItems: [String] {
-        var items: [String] = []
-        
-        if let category = selectedCategory {
-            items.append(category.englishName)
-        }
-        
-        if let subcategory = selectedSubcategory {
-            items.append(subcategory.englishName)
-        }
-        
-        return items
-    }
-    
-    var filteredSkills: [Skill] {
-        if searchText.isEmpty {
-            return skills
-        } else {
-            return skills.filter { skill in
-                skill.englishName.localizedCaseInsensitiveContains(searchText)
-            }
-        }
-    }
-}
+// MARK: - Using existing SkillSelectionViewModel from Features/Onboarding/ViewModels/SkillSelectionViewModel.swift
 
 // MARK: - Skill Selection Step
 enum SkillSelectionStep: CaseIterable {

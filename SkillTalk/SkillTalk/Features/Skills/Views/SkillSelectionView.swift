@@ -183,7 +183,7 @@ struct SkillSelectionView: View {
     private var skillsListView: some View {
         ScrollView {
             LazyVStack(spacing: 12) {
-                ForEach(viewModel.filteredSkills) { skill in
+                ForEach(viewModel.filteredSkills, id: \.id) { skill in
                     SkillCardView(skill: skill) {
                         selectedSkill = skill
                         NotificationCenter.default.post(name: .skillSelected, object: skill)
