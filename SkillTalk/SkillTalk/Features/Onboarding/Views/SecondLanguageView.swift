@@ -8,7 +8,6 @@ struct SecondLanguageView: View {
     @State private var showingProficiencyPicker = false
     @State private var tempLanguage: Language?
     @State private var allLanguages: [Language] = []
-    @State private var popularLanguages: [Language] = []
     @State private var isLoading: Bool = true
     @State private var errorMessage: String?
     private let languageService = LanguageDatabase.shared
@@ -42,18 +41,11 @@ struct SecondLanguageView: View {
                                 }
                             }
                             
-                            // Popular languages section
-                            Section {
-                                popularLanguagesSection
-                            } header: {
-                                sectionHeader("POPULAR")
-                            }
-                            
                             // All languages section
                             Section {
                                 allLanguagesSection
                             } header: {
-                                sectionHeader("ALL LANGUAGES")
+                                sectionHeader("LANGUAGES")
                             }
                         }
                         .padding(.horizontal, 16)
@@ -148,22 +140,7 @@ struct SecondLanguageView: View {
         }
     }
     
-    // MARK: - Popular Languages Section
-    private var popularLanguagesSection: some View {
-        VStack(spacing: 8) {
-            ForEach(popularLanguages) { language in
-                if !isLanguageSelected(language) {
-                    LanguageRowView(
-                        language: language,
-                        isSelected: false
-                    ) {
-                        tempLanguage = language
-                        showingProficiencyPicker = true
-                    }
-                }
-            }
-        }
-    }
+
     
     // MARK: - All Languages Section
     private var allLanguagesSection: some View {
@@ -206,7 +183,6 @@ struct SecondLanguageView: View {
         isLoading = true
         errorMessage = nil
         allLanguages = languageService.getAllLanguages()
-        popularLanguages = languageService.getPopularLanguages()
         isLoading = false
     }
     
@@ -353,46 +329,101 @@ struct ProficiencyPickerView: View {
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(LanguageProficiency.allCases, id: \.self) { proficiency in
-                    Button(action: {
-                        onSelect(proficiency)
-                        dismiss()
-                    }) {
-                        HStack {
-                            HStack(spacing: 4) {
-                                ForEach(0..<5, id: \.self) { index in
-                                    Circle()
-                                        .fill(index < proficiency.dots ? ThemeColors.primary : Color.gray.opacity(0.3))
-                                        .frame(width: 8, height: 8)
-                                }
-                            }
-                            
-                            Text(proficiency.rawValue)
-                                .font(.body)
-                                .foregroundColor(ThemeColors.textPrimary)
-                            
-                            Spacer()
-                            
-                            if proficiency == selectedProficiency {
-                                Image(systemName: "checkmark")
-                                    .foregroundColor(ThemeColors.primary)
+            VStack(spacing: 0) {
+                // Header
+                VStack(spacing: 16) {
+                    HStack {
+                        Button(action: { dismiss() }) {
+                            Image(systemName: "xmark")
+                                .font(.title2)
+                                .foregroundColor(.secondary)
+                        }
+                        
+                        Spacer()
+                        
+                        Text("Select Proficiency")
+                            .font(.headline)
+                            .fontWeight(.semibold)
+                        
+                        Spacer()
+                        
+                        // Invisible button for balance
+                        Button(action: {}) {
+                            Image(systemName: "xmark")
+                                .font(.title2)
+                                .foregroundColor(.clear)
+                        }
+                        .disabled(true)
+                    }
+                    .padding(.horizontal, 20)
+                    .padding(.top, 20)
+                }
+                .padding(.bottom, 20)
+                
+                // Proficiency Options
+                ScrollView {
+                    VStack(spacing: 12) {
+                        ForEach(LanguageProficiency.allCases, id: \.self) { proficiency in
+                            ProficiencyOptionRow(
+                                proficiency: proficiency,
+                                isSelected: proficiency == selectedProficiency
+                            ) {
+                                onSelect(proficiency)
+                                dismiss()
                             }
                         }
                     }
-                    .buttonStyle(PlainButtonStyle())
+                    .padding(.horizontal, 20)
                 }
             }
-            .navigationTitle("Select Proficiency")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Cancel") {
-                        dismiss()
+            .background(Color(.systemBackground))
+        }
+    }
+}
+
+// MARK: - Proficiency Option Row
+struct ProficiencyOptionRow: View {
+    let proficiency: LanguageProficiency
+    let isSelected: Bool
+    let onTap: () -> Void
+    
+    var body: some View {
+        Button(action: onTap) {
+            HStack(spacing: 16) {
+                // Proficiency dots
+                HStack(spacing: 4) {
+                    ForEach(0..<5, id: \.self) { index in
+                        Circle()
+                            .fill(index < proficiency.dots ? ThemeColors.primary : Color.gray.opacity(0.3))
+                            .frame(width: 8, height: 8)
                     }
                 }
+                
+                // Proficiency text
+                Text(proficiency.rawValue)
+                    .font(.body)
+                    .fontWeight(.medium)
+                    .foregroundColor(ThemeColors.textPrimary)
+                
+                Spacer()
+                
+                // Selection indicator
+                if isSelected {
+                    Image(systemName: "checkmark.circle.fill")
+                        .font(.title2)
+                        .foregroundColor(.green)
+                }
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 14)
+            .background(isSelected ? ThemeColors.primary.opacity(0.1) : Color.white)
+            .cornerRadius(12)
+            .overlay(
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(isSelected ? ThemeColors.primary : Color.gray.opacity(0.2), lineWidth: isSelected ? 2 : 1)
+            )
         }
+        .buttonStyle(PlainButtonStyle())
     }
 }
 

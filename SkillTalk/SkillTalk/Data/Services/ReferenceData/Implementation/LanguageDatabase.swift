@@ -10,8 +10,6 @@ public class LanguageDatabase {
     // MARK: - Private Properties
     private var languages: [Language] = []
     private var languagesByAlphabet: [String: [Language]] = [:]
-    private var popularLanguages: [Language] = []
-    private static let popularLanguageCodes = ["en", "es", "fr", "de", "zh", "ar", "ru", "ja", "pt", "hi", "ko"]
     
     // MARK: - Initialization
     private init() {
@@ -30,9 +28,9 @@ public class LanguageDatabase {
         return languagesByAlphabet
     }
     
-    /// Get popular languages
+    /// Get popular languages (deprecated - now returns empty array)
     public func getPopularLanguages() -> [Language] {
-        return popularLanguages
+        return []
     }
     
     /// Search languages by name
@@ -86,11 +84,6 @@ public class LanguageDatabase {
         languagesByAlphabet = Dictionary(grouping: languages) { language in
             String(language.name.prefix(1).uppercased())
         }
-        
-        // Set popular languages
-        popularLanguages = languages.filter { language in
-            Self.popularLanguageCodes.contains(language.code)
-        }.sorted { $0.name < $1.name }
     }
 }
 

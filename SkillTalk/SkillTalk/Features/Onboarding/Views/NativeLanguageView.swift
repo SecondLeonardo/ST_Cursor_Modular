@@ -6,7 +6,6 @@ struct NativeLanguageView: View {
     @State private var searchText = ""
     @State private var selectedLanguage: Language?
     @State private var allLanguages: [Language] = []
-    @State private var popularLanguages: [Language] = []
     @State private var isLoading: Bool = true
     @State private var errorMessage: String?
     private let languageService = LanguageDatabase.shared
@@ -43,18 +42,11 @@ struct NativeLanguageView: View {
                 ScrollViewReader { proxy in
                     ScrollView {
                         LazyVStack(spacing: 0, pinnedViews: [.sectionHeaders]) {
-                            // Popular languages section
-                            Section {
-                                popularLanguagesSection
-                            } header: {
-                                sectionHeader("POPULAR")
-                            }
-                            
                             // All languages section
                             Section {
                                 allLanguagesSection
                             } header: {
-                                sectionHeader("ALL LANGUAGES")
+                                sectionHeader("LANGUAGES")
                             }
                         }
                         .padding(.horizontal, 20)
@@ -95,21 +87,7 @@ struct NativeLanguageView: View {
         .padding(.bottom, 16)
     }
     
-    // MARK: - Popular Languages Section
-    private var popularLanguagesSection: some View {
-        VStack(spacing: 8) {
-            ForEach(popularLanguages) { language in
-                LanguageRowView(
-                    language: language,
-                    isSelected: selectedLanguage?.id == language.id
-                ) {
-                    selectedLanguage = language
-                    coordinator.onboardingData.nativeLanguage = language
-                    coordinator.nextStep()
-                }
-            }
-        }
-    }
+
     
     // MARK: - All Languages Section
     private var allLanguagesSection: some View {
@@ -175,7 +153,6 @@ struct NativeLanguageView: View {
         isLoading = true
         errorMessage = nil
         allLanguages = languageService.getAllLanguages()
-        popularLanguages = languageService.getPopularLanguages()
         isLoading = false
     }
 }

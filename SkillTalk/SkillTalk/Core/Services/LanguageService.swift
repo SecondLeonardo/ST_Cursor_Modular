@@ -41,12 +41,10 @@ class LanguageService: LanguageServiceProtocol {
     private var currentLanguage: String = "en"
     private var allLanguages: [Language] = []
     private var languagesByAlphabet: [String: [Language]] = [:]
-    private var popularLanguages: [Language] = []
     
     // MARK: - Cache Keys
     private enum CacheKeys {
         static let allLanguages = "languages_all"
-        static let popularLanguages = "languages_popular"
         static let languagesByAlphabet = "languages_alphabet"
     }
     
@@ -95,23 +93,8 @@ class LanguageService: LanguageServiceProtocol {
     }
     
     func getPopularLanguages() async throws -> [Language] {
-        let cacheKey = CacheKeys.popularLanguages
-        let cacheTTL: TimeInterval = 86400 // 24 hours
-        
-        // Check cache first
-        if let cachedLanguages = await cacheManager.get(key: cacheKey, type: [Language].self),
-           !cacheManager.isExpired(key: cacheKey, ttl: cacheTTL) {
-            return cachedLanguages
-        }
-        
-        // Load from server
-        let endpoint = "/api/languages/popular"
-        let languages: [Language] = try await apiClient.get(endpoint: endpoint)
-        
-        // Cache the result
-        await cacheManager.set(key: cacheKey, value: languages)
-        
-        return languages
+        // Return empty array - popular languages feature removed
+        return []
     }
     
     func getLanguagesByAlphabet() async throws -> [String: [Language]] {
@@ -219,13 +202,11 @@ class LanguageService: LanguageServiceProtocol {
     private func loadLanguages() async {
         do {
             allLanguages = try await getAllLanguages()
-            popularLanguages = try await getPopularLanguages()
             languagesByAlphabet = try await getLanguagesByAlphabet()
         } catch {
             print("Error loading languages: \(error)")
             // Fallback to built-in languages
             allLanguages = getBuiltInLanguages()
-            popularLanguages = getBuiltInPopularLanguages()
             languagesByAlphabet = Dictionary(grouping: allLanguages) { language in
                 String(language.name.prefix(1).uppercased())
             }
@@ -235,7 +216,6 @@ class LanguageService: LanguageServiceProtocol {
     private func clearLanguageCache() async {
         let keysToRemove = [
             CacheKeys.allLanguages,
-            CacheKeys.popularLanguages,
             CacheKeys.languagesByAlphabet
         ]
         
@@ -301,10 +281,7 @@ class LanguageService: LanguageServiceProtocol {
         ]
     }
     
-    private func getBuiltInPopularLanguages() -> [Language] {
-        let popularCodes = ["en", "es", "fr", "de", "zh", "ar", "ru", "ja", "pt", "hi", "ko"]
-        return getBuiltInLanguages().filter { popularCodes.contains($0.code) }
-    }
+
 }
 
 // MARK: - Language Model
