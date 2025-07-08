@@ -81,8 +81,9 @@ class SkillDatabaseService {
             return cachedCategories
         }
         
-        // Load from Resources/database/languages/{lang}/categories.json
-        guard let url = Bundle.main.url(forResource: "database/languages/\(language)/categories", withExtension: "json") else {
+        // Load from external database path for testing
+        let databasePath = "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/categories.json"
+        guard let url = URL(string: "file://" + databasePath) else {
             throw SkillDatabaseError.fileNotFound("database/languages/\(language)/categories.json")
         }
         let data = try Data(contentsOf: url)
@@ -99,8 +100,9 @@ class SkillDatabaseService {
            !cacheManager.isExpired(key: cacheKey, ttl: cacheTTL) {
             return cachedSubcategories
         }
-        // Load from Resources/database/languages/{lang}/hierarchy/{categoryId}.json
-        guard let url = Bundle.main.url(forResource: "database/languages/\(language)/hierarchy/\(categoryId)", withExtension: "json") else {
+        // Load from external database path for testing
+        let databasePath = "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/hierarchy/\(categoryId).json"
+        guard let url = URL(string: "file://" + databasePath) else {
             throw SkillDatabaseError.fileNotFound("database/languages/\(language)/hierarchy/\(categoryId).json")
         }
         let data = try Data(contentsOf: url)
@@ -117,8 +119,9 @@ class SkillDatabaseService {
            !cacheManager.isExpired(key: cacheKey, ttl: cacheTTL) {
             return cachedSkills
         }
-        // Load from Resources/database/languages/{lang}/hierarchy/{categoryId}/{subcategoryId}.json
-        guard let url = Bundle.main.url(forResource: "database/languages/\(language)/hierarchy/\(categoryId)/\(subcategoryId)", withExtension: "json") else {
+        // Load from external database path for testing
+        let databasePath = "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/hierarchy/\(categoryId)/\(subcategoryId).json"
+        guard let url = URL(string: "file://" + databasePath) else {
             throw SkillDatabaseError.fileNotFound("database/languages/\(language)/hierarchy/\(categoryId)/\(subcategoryId).json")
         }
         let data = try Data(contentsOf: url)

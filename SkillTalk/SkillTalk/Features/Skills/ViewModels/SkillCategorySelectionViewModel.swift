@@ -91,12 +91,10 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
     
     // MARK: - Properties
     private let cacheManager: CacheManager
-    private let bundleLoader: BundleResourceLoader
     
     // MARK: - Initialization
-    init(cacheManager: CacheManager = .shared, bundleLoader: BundleResourceLoader = .shared) {
+    init(cacheManager: CacheManager = .shared) {
         self.cacheManager = cacheManager
-        self.bundleLoader = bundleLoader
         print("🔧 OptimizedSkillDatabaseService: Initialized")
     }
     
@@ -110,7 +108,7 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
         
         return try await loadWithCache(
             key: cacheKey,
-            path: "categories.json", // Simplified path - files are at root level in bundle
+            path: "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/categories.json",
             ttl: cacheTTL,
             type: [SkillCategory].self
         )
@@ -122,14 +120,12 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
         let cacheKey = "subcategories_\(categoryId)_\(language)"
         let cacheTTL: TimeInterval = 86400 // 24 hours
         
-        // For now, we'll use a simplified approach since we have limited subcategory data
-        // In the future, this should load from the proper hierarchy structure
         return try await loadWithCache(
             key: cacheKey,
-            path: "technology_subcategories.json", // Simplified path
+            path: "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/hierarchy/\(categoryId).json",
             ttl: cacheTTL,
-            type: [SkillSubcategory].self
-        )
+            type: CategoryHierarchy.self
+        ).subcategories
     }
     
     func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
@@ -138,13 +134,11 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
         let cacheKey = "skills_\(subcategoryId)_\(language)"
         let cacheTTL: TimeInterval = 3600 // 1 hour
         
-        // For now, we'll use a simplified approach since we have limited skill data
-        // In the future, this should load from the proper hierarchy structure
         return try await loadWithCache(
             key: cacheKey,
-            path: "programming_languages_skills.json", // Simplified path
+            path: "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/hierarchy/\(categoryId)/\(subcategoryId).json",
             ttl: cacheTTL,
-            type: SkillsData.self
+            type: SubcategoryHierarchy.self
         ).skills
     }
     
@@ -213,12 +207,17 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
             return cachedData
         }
         
-        // Load from bundle if not in cache or expired
-        print("📂 OptimizedSkillDatabaseService: Loading from bundle: \(path)")
-        let data = try await bundleLoader.loadJSON(from: path, type: type)
-        await cacheManager.set(key: key, value: data)
+        // Load from external file path
+        print("📂 OptimizedSkillDatabaseService: Loading from external path: \(path)")
+        guard let url = URL(string: "file://" + path) else {
+            throw SkillDatabaseError.fileNotFound(path)
+        }
         
-        return data
+        let data = try Data(contentsOf: url)
+        let result = try JSONDecoder().decode(type, from: data)
+        await cacheManager.set(key: key, value: result)
+        
+        return result
     }
 }
 
@@ -241,66 +240,4 @@ struct SkillsData: Codable {
 
 // MARK: - Using main models from Data/Models/SkillModels.swift
 
-// MARK: - Bundle Resource Loader
-class BundleResourceLoader {
-    static let shared = BundleResourceLoader()
-    
-    private init() {}
-    
-    func loadJSON<T: Codable>(from path: String, type: T.Type) async throws -> T {
-        print("📂 BundleResourceLoader: Attempting to load from path: \(path)")
-        
-        // Try to load from the main bundle first
-        if let url = Bundle.main.url(forResource: path.replacingOccurrences(of: ".json", with: ""), withExtension: "json") {
-            print("✅ BundleResourceLoader: Found resource at: \(url)")
-            let data = try Data(contentsOf: url)
-            return try JSONDecoder().decode(type, from: data)
-        }
-        
-        print("❌ BundleResourceLoader: Not found in main bundle, trying subdirectory approach...")
-        
-        // If not found in main bundle, try to construct the path manually
-        // This handles the database/languages/en/ structure
-        let components = path.components(separatedBy: "/")
-        if components.count >= 3 {
-            let fileName = components.last?.replacingOccurrences(of: ".json", with: "") ?? ""
-            let directory = components.dropLast().joined(separator: "/")
-            
-            print("🔍 BundleResourceLoader: Trying subdirectory - fileName: \(fileName), directory: \(directory)")
-            
-            if let url = Bundle.main.url(forResource: fileName, withExtension: "json", subdirectory: directory) {
-                print("✅ BundleResourceLoader: Found resource in subdirectory: \(url)")
-                let data = try Data(contentsOf: url)
-                return try JSONDecoder().decode(type, from: data)
-            }
-        }
-        
-        print("❌ BundleResourceLoader: Not found in subdirectory, trying database directory...")
-        
-        // If still not found, try to load from the database directory directly
-        if let databaseURL = Bundle.main.url(forResource: "database", withExtension: nil) {
-            let fullPath = databaseURL.appendingPathComponent(path.replacingOccurrences(of: "database/", with: ""))
-            print("🔍 BundleResourceLoader: Trying full path: \(fullPath)")
-            
-            if FileManager.default.fileExists(atPath: fullPath.path) {
-                print("✅ BundleResourceLoader: Found file at full path: \(fullPath)")
-                let data = try Data(contentsOf: fullPath)
-                return try JSONDecoder().decode(type, from: data)
-            }
-        }
-        
-        // Let's also try to list what's actually in the bundle
-        print("🔍 BundleResourceLoader: Listing bundle contents...")
-        if let resourcePath = Bundle.main.resourcePath {
-            do {
-                let contents = try FileManager.default.contentsOfDirectory(atPath: resourcePath)
-                print("📋 Bundle contents: \(contents)")
-            } catch {
-                print("❌ BundleResourceLoader: Could not list bundle contents: \(error)")
-            }
-        }
-        
-        print("❌ BundleResourceLoader: Resource not found for path: \(path)")
-        throw NSError(domain: "BundleResourceLoader", code: 404, userInfo: [NSLocalizedDescriptionKey: "Resource not found: \(path)"])
-    }
-} 
+ 
