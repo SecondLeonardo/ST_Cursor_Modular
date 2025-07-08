@@ -150,4 +150,9 @@ GoogleService-Info.plist
 *.so
 *.dylib
 *.dll
-*.exe 
+*.exe
+
+# External Database Files
+# These are external data files that should not be committed to git
+SkillTalk/SkillTalk/Resources/database/
+database/ 

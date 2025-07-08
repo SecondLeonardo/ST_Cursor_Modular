@@ -29,18 +29,11 @@ struct CountrySelectionView: View {
             ScrollViewReader { proxy in
                 ScrollView {
                     LazyVStack(spacing: 0, pinnedViews: [.sectionHeaders]) {
-                        // Popular countries section
-                        Section {
-                            popularCountriesSection
-                        } header: {
-                            sectionHeader("POPULAR")
-                        }
-                        
                         // All countries section
                         Section {
                             allCountriesSection
                         } header: {
-                            sectionHeader("ALL COUNTRIES")
+                            sectionHeader("COUNTRIES")
                         }
                     }
                     .padding(.horizontal, 16)
@@ -80,21 +73,7 @@ struct CountrySelectionView: View {
         .padding(.bottom, 16)
     }
     
-    // MARK: - Popular Countries Section
-    private var popularCountriesSection: some View {
-        VStack(spacing: 8) {
-            ForEach(CountriesDatabase.getPopularCountries()) { country in
-                CountryRowView(
-                    country: country,
-                    isSelected: selectedCountry?.id == country.id
-                ) {
-                    selectedCountry = country
-                    coordinator.onboardingData.country = country
-                    coordinator.nextStep()
-                }
-            }
-        }
-    }
+
     
     // MARK: - All Countries Section
     private var allCountriesSection: some View {

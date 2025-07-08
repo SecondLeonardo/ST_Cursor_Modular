@@ -50,6 +50,7 @@ struct NativeLanguageView: View {
                             }
                         }
                         .padding(.horizontal, 20)
+                        .padding(.trailing, 60) // Add padding for alphabet index
                     }
                     .overlay(
                         // Alphabetical index

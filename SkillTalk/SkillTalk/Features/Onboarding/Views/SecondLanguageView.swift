@@ -49,6 +49,7 @@ struct SecondLanguageView: View {
                             }
                         }
                         .padding(.horizontal, 16)
+                        .padding(.trailing, 60) // Add padding for alphabet index
                     }
                     .overlay(
                         // Alphabetical index
@@ -299,7 +300,7 @@ struct SelectedLanguageRowView: View {
             
             // Remove button
             Button(action: onRemove) {
-                Image(systemName: "xmark.circle.fill")
+                Image(systemName: "minus.circle.fill")
                     .foregroundColor(ThemeColors.error)
                     .font(.title3)
             }
