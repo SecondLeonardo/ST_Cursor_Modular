@@ -99,8 +99,6 @@ class SkillSelectionViewModel: ObservableObject {
             selectedSubcategory = nil
             skills = []
             filteredSkills = []
-        case .proficiency:
-            break // No action needed
         }
     }
     
