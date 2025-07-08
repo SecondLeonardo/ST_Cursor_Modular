@@ -142,7 +142,7 @@ public class OccupationsDatabase: ReferenceDataDatabase {
     /// Get occupations by category with server-side translations
     public static func getOccupationsByCategoryWithTranslations(_ category: String, localizedFor languageCode: String? = nil) async throws -> [OccupationModel] {
         let allOccupations = try await getAllOccupationsWithTranslations(localizedFor: languageCode)
-        let targetLanguage = languageCode ?? currentLanguage
+        let _ = languageCode ?? currentLanguage
         
         return allOccupations.filter { 
             $0.englishCategory.lowercased() == category.lowercased() 

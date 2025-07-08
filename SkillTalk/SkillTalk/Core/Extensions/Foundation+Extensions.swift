@@ -198,6 +198,22 @@ extension Dictionary {
     }
 }
 
+// MARK: - View Extensions
+
+import SwiftUI
+
+extension View {
+    /// Conditional modifier for iOS version compatibility
+    @ViewBuilder
+    func `if`<Content: View>(_ condition: Bool, transform: (Self) -> Content) -> some View {
+        if condition {
+            transform(self)
+        } else {
+            self
+        }
+    }
+}
+
 // MARK: - URL Extensions
 
 extension URL {

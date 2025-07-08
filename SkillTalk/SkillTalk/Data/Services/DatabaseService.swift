@@ -210,7 +210,7 @@ class DatabaseService: DatabaseServiceProtocol {
     // MARK: - Language Methods
     
     func getAllLanguages() async throws -> [Language] {
-        return try await languageDatabase.getAllLanguages()
+        return languageDatabase.getAllLanguages()
     }
     
     func searchLanguages(_ query: String) async throws -> [Language] {

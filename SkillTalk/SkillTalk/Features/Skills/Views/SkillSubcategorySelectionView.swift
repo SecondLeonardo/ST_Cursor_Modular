@@ -129,10 +129,10 @@ struct SkillSubcategorySelectionView: View {
     private var subcategoriesListView: some View {
         ScrollView {
             LazyVStack(spacing: 12) {
-                ForEach(viewModel.subcategories, id: \.id) { subcategory in
+                ForEach(Array(viewModel.subcategories.enumerated()), id: \.element.id) { index, subcategory in
                     SubcategoryCardView(subcategory: subcategory) {
                         selectedSubcategory = subcategory
-                        NotificationCenter.default.post(name: .skillSubcategorySelected, object: subcategory)
+                        // NotificationCenter.default.post(name: .skillSubcategorySelected, object: subcategory)
                         showingSkills = true
                     }
                 }

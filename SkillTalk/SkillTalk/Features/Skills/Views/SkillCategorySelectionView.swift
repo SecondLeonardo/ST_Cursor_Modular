@@ -108,10 +108,10 @@ struct SkillCategorySelectionView: View {
     private var categoriesGridView: some View {
         ScrollView {
             LazyVGrid(columns: gridColumns, spacing: 16) {
-                ForEach(viewModel.categories, id: \.id) { category in
+                ForEach(Array(viewModel.categories.enumerated()), id: \.element.id) { index, category in
                     CategoryCardView(category: category) {
                         selectedCategory = category
-                        NotificationCenter.default.post(name: .skillCategorySelected, object: category)
+                        // NotificationCenter.default.post(name: .skillCategorySelected, object: category)
                         showingSubcategories = true
                     }
                 }

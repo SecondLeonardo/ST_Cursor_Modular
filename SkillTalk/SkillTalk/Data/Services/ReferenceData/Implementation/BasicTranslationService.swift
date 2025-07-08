@@ -265,7 +265,7 @@ class BasicTranslationService: TranslationServiceProtocol {
         let loadedLanguages = max(occupationsLoaded.count, hobbiesLoaded.count)
         
         // Calculate approximate cache size
-        let cacheSize = calculateCacheSize()
+        let _ = calculateCacheSize()
         
         return TranslationCacheStatistics(
             totalItems: totalLanguages,

@@ -24,14 +24,14 @@ struct ExpertiseView: View {
         .navigationTitle("Expertise")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
-            selectedSkills = coordinator.expertSkills
+            selectedSkills = coordinator.onboardingData.expertSkills
         }
         .sheet(isPresented: $showingSkillSelection) {
             SkillSelectionCoordinatorView(
                 isExpertSkill: true,
                 onSkillsSelected: { skills in
                     selectedSkills = skills
-                    coordinator.expertSkills = skills
+                    coordinator.onboardingData.expertSkills = skills
                 }
             )
         }
@@ -83,13 +83,13 @@ struct ExpertiseView: View {
     private var selectedSkillsView: some View {
         ScrollView {
             LazyVStack(spacing: 12) {
-                ForEach(selectedSkills) { skill in
+                ForEach(Array(selectedSkills.enumerated()), id: \.element.id) { _, skill in
                     SelectedSkillCard(
                         skill: skill,
                         onRemove: {
                             if let index = selectedSkills.firstIndex(where: { $0.id == skill.id }) {
                                 selectedSkills.remove(at: index)
-                                coordinator.expertSkills = selectedSkills
+                                coordinator.onboardingData.expertSkills = selectedSkills
                             }
                         }
                     )
@@ -114,17 +114,22 @@ struct ExpertiseView: View {
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity)
                 .frame(height: 50)
-                .background(ThemeColors.primary)
+                .background(Color.blue)
                 .cornerRadius(12)
             }
             
             if !selectedSkills.isEmpty {
-                SecondaryButton(
-                    title: "Continue",
-                    action: {
-                        coordinator.nextStep()
-                    }
-                )
+                Button(action: {
+                    coordinator.nextStep()
+                }) {
+                    Text("Continue")
+                        .font(.headline)
+                        .foregroundColor(.blue)
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 50)
+                        .background(Color.blue.opacity(0.1))
+                        .cornerRadius(12)
+                }
             }
         }
         .padding(.horizontal, 20)

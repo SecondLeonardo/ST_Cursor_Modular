@@ -395,7 +395,7 @@ class HobbiesDatabase {
         
         guard !query.isEmpty else { return allHobbies }
         
-        let targetLanguage = languageCode ?? currentLanguage
+        let _ = languageCode ?? currentLanguage
         let lowercaseQuery = query.lowercased()
         
         return allHobbies.filter { hobby in
@@ -410,7 +410,7 @@ class HobbiesDatabase {
     /// Get hobbies by category with server-side translations
     static func getHobbiesByCategoryWithTranslations(_ category: String, localizedFor languageCode: String? = nil) async throws -> [HobbyModel] {
         let allHobbies = try await getAllHobbiesWithTranslations(localizedFor: languageCode)
-        let targetLanguage = languageCode ?? currentLanguage
+        let _ = languageCode ?? currentLanguage
         
         return allHobbies.filter { 
             $0.englishCategory.lowercased() == category.lowercased() 
@@ -448,7 +448,7 @@ class HobbiesDatabase {
     ) async -> [HobbyModel] {
         
         // Get cached translations from service
-        guard let translations = translationService.getCachedTranslations(
+        guard let _ = translationService.getCachedTranslations(
             for: languageCode,
             referenceType: .hobbies
         ) else {

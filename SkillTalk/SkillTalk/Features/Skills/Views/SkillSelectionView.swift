@@ -183,10 +183,10 @@ struct SkillSelectionView: View {
     private var skillsListView: some View {
         ScrollView {
             LazyVStack(spacing: 12) {
-                ForEach(viewModel.filteredSkills, id: \.id) { skill in
+                ForEach(Array(viewModel.filteredSkills.enumerated()), id: \.element.id) { index, skill in
                     SkillCardView(skill: skill) {
                         selectedSkill = skill
-                        NotificationCenter.default.post(name: .skillSelected, object: skill)
+                        // NotificationCenter.default.post(name: .skillSelected, object: skill)
                         showingProficiencySelector = true
                     }
                 }

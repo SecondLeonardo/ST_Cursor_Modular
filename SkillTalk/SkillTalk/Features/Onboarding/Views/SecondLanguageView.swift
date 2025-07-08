@@ -337,15 +337,11 @@ struct ProficiencyPickerView: View {
                         .font(.title2)
                         .foregroundColor(.secondary)
                 }
-                
                 Spacer()
-                
                 Text("Select Proficiency")
                     .font(.headline)
                     .fontWeight(.semibold)
-                
                 Spacer()
-                
                 // Invisible button for balance
                 Button(action: {}) {
                     Image(systemName: "xmark")
@@ -357,7 +353,6 @@ struct ProficiencyPickerView: View {
             .padding(.horizontal, 20)
             .padding(.top, 20)
             .padding(.bottom, 20)
-            
             // Proficiency Options
             ScrollView {
                 VStack(spacing: 12) {
@@ -376,8 +371,20 @@ struct ProficiencyPickerView: View {
             }
         }
         .background(Color(.systemBackground))
-        .presentationDetents([.medium, .large])
-        .presentationDragIndicator(.visible)
+        .modifier(PresentationDetentsModifier())
+    }
+}
+
+// MARK: - PresentationDetentsModifier for iOS 16+
+struct PresentationDetentsModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        if #available(iOS 16.0, *) {
+            content
+                .presentationDetents([.medium, .large])
+                .presentationDragIndicator(.visible)
+        } else {
+            content
+        }
     }
 }
 

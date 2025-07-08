@@ -8,12 +8,19 @@ struct SkillSelectionCoordinatorView: View {
     
     // MARK: - Properties
     @Environment(\.dismiss) private var dismiss
-    @StateObject private var viewModel = SkillSelectionViewModel(
-        skillType: isExpertSkill ? .expert : .target
-    )
+    @StateObject private var viewModel: SkillSelectionViewModel
     
     let isExpertSkill: Bool
     let onSkillsSelected: ([Skill]) -> Void
+    
+    // MARK: - Initializer
+    init(isExpertSkill: Bool, onSkillsSelected: @escaping ([Skill]) -> Void) {
+        self.isExpertSkill = isExpertSkill
+        self.onSkillsSelected = onSkillsSelected
+        self._viewModel = StateObject(wrappedValue: SkillSelectionViewModel(
+            skillType: isExpertSkill ? .expert : .target
+        ))
+    }
     
     // MARK: - Body
     var body: some View {
@@ -180,7 +187,7 @@ struct SkillSelectionCoordinatorView: View {
             Image(systemName: "magnifyingglass")
                 .foregroundColor(.secondary)
             
-            TextField("Search skills", text: $viewModel.searchText)
+            TextField("Search skills", text: $viewModel.searchQuery)
                 .textFieldStyle(PlainTextFieldStyle())
         }
         .padding(.horizontal, 16)

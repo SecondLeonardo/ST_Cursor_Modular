@@ -30,6 +30,49 @@ class SkillSelectionViewModel: ObservableObject {
     @Published var searchQuery = ""
     @Published var filteredSkills: [Skill] = []
     
+    // MARK: - Computed Properties
+    
+    var canGoBack: Bool {
+        switch currentStep {
+        case .categories:
+            return false
+        case .subcategories, .skills:
+            return true
+        }
+    }
+    
+    var currentStepIndex: Int {
+        switch currentStep {
+        case .categories:
+            return 0
+        case .subcategories:
+            return 1
+        case .skills:
+            return 2
+        }
+    }
+    
+    var breadcrumbItems: [String] {
+        var items: [String] = []
+        
+        if let category = selectedCategory {
+            items.append(category.englishName)
+        }
+        
+        if let subcategory = selectedSubcategory {
+            items.append(subcategory.englishName)
+        }
+        
+        return items
+    }
+    
+    var searchText: Binding<String> {
+        Binding(
+            get: { self.searchQuery },
+            set: { self.searchQuery = $0 }
+        )
+    }
+    
     // MARK: - Properties
     
     private let skillRepository: SkillRepositoryProtocol
@@ -59,18 +102,45 @@ class SkillSelectionViewModel: ObservableObject {
         await loadCategories()
     }
     
+    /// Load categories (made public for coordinator)
+    func loadCategories() async {
+        isLoading = true
+        errorMessage = nil
+        
+        do {
+            categories = try await skillRepository.getCategories(language: language)
+            print("✅ [SkillSelectionViewModel] Loaded \(categories.count) categories")
+        } catch {
+            errorMessage = "Failed to load categories: \(error.localizedDescription)"
+            print("❌ [SkillSelectionViewModel] Failed to load categories: \(error)")
+        }
+        
+        isLoading = false
+    }
+    
     /// Select a category and load its subcategories
-    func selectCategory(_ category: SkillCategory) async {
+    func selectCategory(_ category: SkillCategory) {
         selectedCategory = category
         currentStep = .subcategories
-        await loadSubcategories(for: category.id)
+        
+        Task {
+            await loadSubcategories(for: category.id)
+        }
     }
     
     /// Select a subcategory and load its skills
-    func selectSubcategory(_ subcategory: SkillSubcategory) async {
+    func selectSubcategory(_ subcategory: SkillSubcategory) {
         selectedSubcategory = subcategory
         currentStep = .skills
-        await loadSkills(for: subcategory.id)
+        
+        Task {
+            await loadSkills(for: subcategory.id)
+        }
+    }
+    
+    /// Toggle skill selection (alias for selectSkill)
+    func toggleSkill(_ skill: Skill) {
+        selectSkill(skill)
     }
     
     /// Select a skill
@@ -165,7 +235,7 @@ class SkillSelectionViewModel: ObservableObject {
     
     /// Complete skill selection
     func completeSelection() -> [UserSkill] {
-        let currentLanguage = Locale.current.languageCode ?? "en"
+        let _ = Locale.current.languageCode ?? "en"
         
         return selectedSkills.map { skill in
             UserSkill(
@@ -208,21 +278,6 @@ class SkillSelectionViewModel: ObservableObject {
                 }
             }
             .store(in: &cancellables)
-    }
-    
-    private func loadCategories() async {
-        isLoading = true
-        errorMessage = nil
-        
-        do {
-            categories = try await skillRepository.getCategories(language: language)
-            print("✅ [SkillSelectionViewModel] Loaded \(categories.count) categories")
-        } catch {
-            errorMessage = "Failed to load categories: \(error.localizedDescription)"
-            print("❌ [SkillSelectionViewModel] Failed to load categories: \(error)")
-        }
-        
-        isLoading = false
     }
     
     private func loadSubcategories(for categoryId: String) async {
@@ -279,7 +334,7 @@ class MockSkillSelectionViewModel: SkillSelectionViewModel {
         ]
     }
     
-    override func selectCategory(_ category: SkillCategory) async {
+    override func selectCategory(_ category: SkillCategory) {
         selectedCategory = category
         currentStep = .subcategories
         
@@ -289,7 +344,7 @@ class MockSkillSelectionViewModel: SkillSelectionViewModel {
         ]
     }
     
-    override func selectSubcategory(_ subcategory: SkillSubcategory) async {
+    override func selectSubcategory(_ subcategory: SkillSubcategory) {
         selectedSubcategory = subcategory
         currentStep = .skills
         

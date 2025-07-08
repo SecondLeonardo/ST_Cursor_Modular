@@ -211,7 +211,7 @@ class ReferenceDataRepository: ReferenceDataRepositoryProtocol {
         print("📚 [ReferenceDataRepository] Checking for updates")
         
         do {
-            let updates = try await referenceDataService.checkForUpdates()
+            let _ = try await referenceDataService.checkForUpdates()
             
             // Track analytics
             // TODO: Fix analytics tracking
