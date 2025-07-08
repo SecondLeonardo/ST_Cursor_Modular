@@ -274,19 +274,6 @@ struct LocalizationHelper {
     }
 }
 
-// MARK: - Skill Selection Step (Shared Enum)
-/// Steps in the skill selection process
-public enum SkillSelectionStep: CaseIterable {
-    case categories
-    case subcategories
-    case skills
-    case proficiency
-    
-    public static var allCases: [SkillSelectionStep] {
-        return [.categories, .subcategories, .skills, .proficiency]
-    }
-}
-
 // MARK: - Translation Load Result (Shared Struct)
 /// Result of downloading translations for a language
 public struct TranslationLoadResult {

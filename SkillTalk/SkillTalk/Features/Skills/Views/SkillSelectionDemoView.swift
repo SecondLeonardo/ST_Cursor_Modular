@@ -23,7 +23,12 @@ struct SkillSelectionDemoView: View {
             .padding(20)
             .navigationTitle("Skill Selection Demo")
             .sheet(isPresented: $showingSkillSelection) {
-                SkillSelectionCoordinatorView()
+                SkillSelectionCoordinatorView(
+                    isExpertSkill: true,
+                    onSkillsSelected: { skills in
+                        print("Selected skills: \(skills.count)")
+                    }
+                )
             }
         }
     }

@@ -140,7 +140,17 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
                 ttl: cacheTTL,
                 type: CategoryHierarchy.self
             )
-            return hierarchy.subcategories
+            return hierarchy.subcategories.map { dbSubcategory in
+                SkillSubcategory(
+                    id: dbSubcategory.id,
+                    categoryId: categoryId,
+                    englishName: dbSubcategory.name,
+                    icon: nil,
+                    sortOrder: 0,
+                    description: nil,
+                    translations: nil
+                )
+            }
         } catch {
             // Fallback to subcategories file
             let allSubcategories = try await loadWithCache(
@@ -312,8 +322,9 @@ struct DatabaseSkill: Codable {
 // MARK: - Supporting Models
 
 struct CategoryHierarchy: Codable {
-    let category: SkillCategory
-    let subcategories: [SkillSubcategory]
+    let id: String
+    let name: String
+    let subcategories: [DatabaseSkillSubcategory]
 }
 
 struct SubcategoryHierarchy: Codable {

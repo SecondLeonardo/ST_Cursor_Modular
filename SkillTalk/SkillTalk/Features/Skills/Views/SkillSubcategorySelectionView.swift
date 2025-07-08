@@ -161,7 +161,7 @@ struct SubcategoryCardView: View {
                 
                 // Content
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(subcategory.name)
+                    Text(subcategory.englishName)
                         .font(.headline)
                         .fontWeight(.semibold)
                         .foregroundColor(.primary)
@@ -212,14 +212,14 @@ class SkillSubcategorySelectionViewModel: ObservableObject {
     init(category: SkillCategory, skillService: SkillDatabaseServiceProtocol = OptimizedSkillDatabaseService()) {
         self.category = category
         self.skillService = skillService
-        print("🔧 SkillSubcategorySelectionViewModel: Initialized for category: \(category.name)")
+        print("🔧 SkillSubcategorySelectionViewModel: Initialized for category: \(category.englishName)")
     }
     
     // MARK: - Public Methods
     
     /// Load subcategories for the current category
     func loadSubcategories() async {
-        print("🔄 SkillSubcategorySelectionViewModel: Loading subcategories for category: \(category.name)")
+        print("🔄 SkillSubcategorySelectionViewModel: Loading subcategories for category: \(category.englishName)")
         
         isLoading = true
         errorMessage = nil
@@ -257,7 +257,7 @@ class SkillSubcategorySelectionViewModel: ObservableObject {
         guard !query.isEmpty else { return subcategories }
         
         return subcategories.filter { subcategory in
-            subcategory.name.localizedCaseInsensitiveContains(query)
+            subcategory.englishName.localizedCaseInsensitiveContains(query)
         }
     }
     
