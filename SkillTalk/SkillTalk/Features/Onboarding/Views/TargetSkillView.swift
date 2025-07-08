@@ -3,50 +3,36 @@ import Combine
 
 struct TargetSkillView: View {
     @ObservedObject var coordinator: OnboardingCoordinator
-    @State private var searchText = ""
-    @State private var selectedCategory: SkillCategory?
+    @State private var showingSkillSelection = false
     @State private var selectedSkills: [Skill] = []
-    @State private var skillCategories: [SkillCategory] = []
-    @State private var skillsByCategory: [String: [Skill]] = [:]
-    @State private var isLoading: Bool = true
-    @State private var errorMessage: String?
-    private let skillService = OptimizedSkillDatabaseService()
     
     var body: some View {
         VStack(spacing: 0) {
             // Header
             headerSection
             
-            // Search bar
-            searchBar
-            
-            if isLoading {
-                ProgressView()
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-            } else if let errorMessage = errorMessage {
-                Text(errorMessage)
-                    .foregroundColor(.red)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            // Content
+            if selectedSkills.isEmpty {
+                emptyStateView
             } else {
-                ScrollView {
-                    VStack(spacing: 24) {
-                        sectionHeader("Select a category")
-                        categoriesSection
-                        if let selectedCategory = selectedCategory {
-                            sectionHeader("Select skills to learn")
-                            skillsSection(for: selectedCategory)
-                        }
-                    }
-                    .padding(.horizontal, 24)
-                }
-                bottomButtonSection
+                selectedSkillsView
             }
+            
+            // Bottom button
+            bottomButtonSection
         }
         .navigationTitle("Target Skills")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             selectedSkills = coordinator.onboardingData.targetSkills
-            loadCategories()
+        }
+        .sheet(isPresented: $showingSkillSelection) {
+            SkillSelectionCoordinatorView(
+                isExpertSkill: false,
+                onSkillsSelected: { skills in
+                    selectedSkills = skills
+                }
+            )
         }
     }
     
@@ -68,134 +54,82 @@ struct TargetSkillView: View {
         .padding(.bottom, 20)
     }
     
-    // MARK: - Search Bar
-    private var searchBar: some View {
-        HStack {
-            Image(systemName: "magnifyingglass")
-                .foregroundColor(ThemeColors.textSecondary)
+    // MARK: - Empty State View
+    private var emptyStateView: some View {
+        VStack(spacing: 24) {
+            Spacer()
             
-            TextField("Search skills", text: $searchText)
-                .textFieldStyle(PlainTextFieldStyle())
+            Image(systemName: "target")
+                .font(.system(size: 80))
+                .foregroundColor(ThemeColors.primary.opacity(0.3))
+            
+            VStack(spacing: 12) {
+                Text("No Target Skills Selected")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                    .foregroundColor(ThemeColors.textPrimary)
+                
+                Text("Tap the button below to select skills you want to learn")
+                    .font(.body)
+                    .foregroundColor(ThemeColors.textSecondary)
+                    .multilineTextAlignment(.center)
+            }
+            
+            Spacer()
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 12)
-        .background(Color.white)
-        .cornerRadius(12)
-        .padding(.horizontal, 20)
-        .padding(.bottom, 16)
+        .padding(.horizontal, 24)
     }
     
-    // MARK: - Categories Section
-    private var categoriesSection: some View {
-        LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 12) {
-            ForEach(skillCategories) { category in
-                CategoryCard(
-                    category: category,
-                    isSelected: selectedCategory?.id == category.id
-                ) {
-                    selectedCategory = category
+    // MARK: - Selected Skills View
+    private var selectedSkillsView: some View {
+        ScrollView {
+            LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 12) {
+                ForEach(selectedSkills) { skill in
+                    SelectedSkillCard(skill: skill) {
+                        // Remove skill
+                        selectedSkills.removeAll { $0.id == skill.id }
+                    }
                 }
             }
-        }
-    }
-    
-    // MARK: - Skills Section
-    private func skillsSection(for category: SkillCategory) -> some View {
-        let filteredSkills = (skillsByCategory[category.id] ?? []).filter { skill in
-            searchText.isEmpty || skill.englishName.localizedCaseInsensitiveContains(searchText)
-        }
-        return LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 12) {
-            ForEach(filteredSkills) { skill in
-                SkillCard(
-                    skill: skill,
-                    isSelected: selectedSkills.contains { $0.id == skill.id }
-                ) {
-                    toggleSkill(skill)
-                }
-            }
+            .padding(.horizontal, 24)
         }
     }
     
     // MARK: - Bottom Button Section
     private var bottomButtonSection: some View {
         VStack(spacing: 16) {
-            PrimaryButton(
-                title: "Next",
-                action: {
-                    coordinator.onboardingData.targetSkills = selectedSkills
-                    coordinator.nextStep()
-                }
-            )
-            .disabled(selectedSkills.isEmpty)
-            .padding(.horizontal, 24)
-            .padding(.bottom, 20)
-        }
-        .background(Color.white)
-        .shadow(color: .black.opacity(0.05), radius: 8, x: 0, y: -4)
-    }
-    
-    // MARK: - Helper Methods
-    private func toggleSkill(_ skill: Skill) {
-        if selectedSkills.contains(where: { $0.id == skill.id }) {
-            removeSkill(skill)
-        } else {
-            addSkill(skill)
-        }
-    }
-    
-    private func addSkill(_ skill: Skill) {
-        selectedSkills.append(skill)
-    }
-    
-    private func removeSkill(_ skill: Skill) {
-        selectedSkills.removeAll { $0.id == skill.id }
-    }
-    
-    // MARK: - Section Header
-    private func sectionHeader(_ title: String) -> some View {
-        Text(title)
-            .font(.subheadline)
-            .fontWeight(.bold)
-            .foregroundColor(ThemeColors.textPrimary)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.vertical, 12)
-            .background(Color.white)
-    }
-    
-    // MARK: - Data Loading
-    private func loadCategories() {
-        isLoading = true
-        errorMessage = nil
-        Task {
-            do {
-                let categories = try await skillService.loadCategories(for: "en")
-                skillCategories = categories
-                // Preload skills for each category
-                var skillsDict: [String: [Skill]] = [:]
-                for category in categories {
-                    do {
-                        let subcategories = try await skillService.loadSubcategories(for: category.id, language: "en")
-                        var allSkills: [Skill] = []
-                        for subcategory in subcategories {
-                            let skills = try await skillService.loadSkills(for: subcategory.id, categoryId: category.id, language: "en")
-                            allSkills.append(contentsOf: skills)
-                        }
-                        skillsDict[category.id] = allSkills
-                    } catch {
-                        // If a category fails, just skip its skills
-                        continue
+            if selectedSkills.isEmpty {
+                PrimaryButton(
+                    title: "Select Target Skills",
+                    action: {
+                        showingSkillSelection = true
                     }
+                )
+            } else {
+                VStack(spacing: 12) {
+                    SecondaryButton(
+                        title: "Add More Skills",
+                        action: {
+                            showingSkillSelection = true
+                        }
+                    )
+                    
+                    PrimaryButton(
+                        title: "Next",
+                        action: {
+                            coordinator.onboardingData.targetSkills = selectedSkills
+                            coordinator.nextStep()
+                        }
+                    )
                 }
-                skillsByCategory = skillsDict
-                isLoading = false
-            } catch {
-                errorMessage = "Failed to load skill categories."
-                isLoading = false
             }
         }
+        .padding(.horizontal, 24)
+        .padding(.bottom, 20)
     }
 }
 
+// MARK: - Preview
 #Preview {
     NavigationView {
         TargetSkillView(coordinator: OnboardingCoordinator())

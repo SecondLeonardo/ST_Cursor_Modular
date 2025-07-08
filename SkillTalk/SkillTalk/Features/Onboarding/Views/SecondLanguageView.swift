@@ -300,8 +300,8 @@ struct SelectedLanguageRowView: View {
             
             // Remove button
             Button(action: onRemove) {
-                Image(systemName: "minus.circle.fill")
-                    .foregroundColor(ThemeColors.error)
+                Image(systemName: "checkmark.circle.fill")
+                    .foregroundColor(.green)
                     .font(.title3)
             }
         }
@@ -329,56 +329,55 @@ struct ProficiencyPickerView: View {
     let onSelect: (LanguageProficiency) -> Void
     
     var body: some View {
-        NavigationView {
-            VStack(spacing: 0) {
-                // Header
-                VStack(spacing: 16) {
-                    HStack {
-                        Button(action: { dismiss() }) {
-                            Image(systemName: "xmark")
-                                .font(.title2)
-                                .foregroundColor(.secondary)
-                        }
-                        
-                        Spacer()
-                        
-                        Text("Select Proficiency")
-                            .font(.headline)
-                            .fontWeight(.semibold)
-                        
-                        Spacer()
-                        
-                        // Invisible button for balance
-                        Button(action: {}) {
-                            Image(systemName: "xmark")
-                                .font(.title2)
-                                .foregroundColor(.clear)
-                        }
-                        .disabled(true)
-                    }
-                    .padding(.horizontal, 20)
-                    .padding(.top, 20)
+        VStack(spacing: 0) {
+            // Header
+            HStack {
+                Button(action: { dismiss() }) {
+                    Image(systemName: "xmark")
+                        .font(.title2)
+                        .foregroundColor(.secondary)
                 }
-                .padding(.bottom, 20)
                 
-                // Proficiency Options
-                ScrollView {
-                    VStack(spacing: 12) {
-                        ForEach(LanguageProficiency.allCases, id: \.self) { proficiency in
-                            ProficiencyOptionRow(
-                                proficiency: proficiency,
-                                isSelected: proficiency == selectedProficiency
-                            ) {
-                                onSelect(proficiency)
-                                dismiss()
-                            }
+                Spacer()
+                
+                Text("Select Proficiency")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                
+                Spacer()
+                
+                // Invisible button for balance
+                Button(action: {}) {
+                    Image(systemName: "xmark")
+                        .font(.title2)
+                        .foregroundColor(.clear)
+                }
+                .disabled(true)
+            }
+            .padding(.horizontal, 20)
+            .padding(.top, 20)
+            .padding(.bottom, 20)
+            
+            // Proficiency Options
+            ScrollView {
+                VStack(spacing: 12) {
+                    ForEach(LanguageProficiency.allCases, id: \.self) { proficiency in
+                        ProficiencyOptionRow(
+                            proficiency: proficiency,
+                            isSelected: proficiency == selectedProficiency
+                        ) {
+                            onSelect(proficiency)
+                            dismiss()
                         }
                     }
-                    .padding(.horizontal, 20)
                 }
+                .padding(.horizontal, 20)
+                .padding(.bottom, 20)
             }
-            .background(Color(.systemBackground))
         }
+        .background(Color(.systemBackground))
+        .presentationDetents([.medium, .large])
+        .presentationDragIndicator(.visible)
     }
 }
 
@@ -392,29 +391,29 @@ struct ProficiencyOptionRow: View {
         Button(action: onTap) {
             HStack(spacing: 16) {
                 // Proficiency dots
-                HStack(spacing: 4) {
-                    ForEach(0..<5, id: \.self) { index in
-                        Circle()
-                            .fill(index < proficiency.dots ? ThemeColors.primary : Color.gray.opacity(0.3))
-                            .frame(width: 8, height: 8)
-                    }
-                }
-                
+                            HStack(spacing: 4) {
+                                ForEach(0..<5, id: \.self) { index in
+                                    Circle()
+                                        .fill(index < proficiency.dots ? ThemeColors.primary : Color.gray.opacity(0.3))
+                                        .frame(width: 8, height: 8)
+                                }
+                            }
+                            
                 // Proficiency text
-                Text(proficiency.rawValue)
-                    .font(.body)
+                            Text(proficiency.rawValue)
+                                .font(.body)
                     .fontWeight(.medium)
-                    .foregroundColor(ThemeColors.textPrimary)
-                
-                Spacer()
-                
+                                .foregroundColor(ThemeColors.textPrimary)
+                            
+                            Spacer()
+                            
                 // Selection indicator
                 if isSelected {
                     Image(systemName: "checkmark.circle.fill")
                         .font(.title2)
                         .foregroundColor(.green)
-                }
-            }
+                        }
+                    }
             .padding(.horizontal, 16)
             .padding(.vertical, 14)
             .background(isSelected ? ThemeColors.primary.opacity(0.1) : Color.white)

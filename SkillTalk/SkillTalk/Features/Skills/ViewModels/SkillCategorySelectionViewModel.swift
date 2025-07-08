@@ -110,8 +110,16 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
             key: cacheKey,
             path: "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/categories.json",
             ttl: cacheTTL,
-            type: [SkillCategory].self
-        )
+            type: [DatabaseSkillCategory].self
+        ).map { dbCategory in
+            SkillCategory(
+                id: dbCategory.id,
+                englishName: dbCategory.name,
+                icon: nil,
+                sortOrder: 0,
+                translations: nil
+            )
+        }
     }
     
     func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory] {
@@ -120,12 +128,42 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
         let cacheKey = "subcategories_\(categoryId)_\(language)"
         let cacheTTL: TimeInterval = 86400 // 24 hours
         
-        return try await loadWithCache(
-            key: cacheKey,
-            path: "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/hierarchy/\(categoryId).json",
-            ttl: cacheTTL,
-            type: CategoryHierarchy.self
-        ).subcategories
+        // Try to load from hierarchy file first
+        let hierarchyPath = "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/hierarchy/\(categoryId).json"
+        let subcategoriesPath = "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/subcategories.json"
+        
+        do {
+            // Try hierarchy first
+            let hierarchy = try await loadWithCache(
+                key: cacheKey,
+                path: hierarchyPath,
+                ttl: cacheTTL,
+                type: CategoryHierarchy.self
+            )
+            return hierarchy.subcategories
+        } catch {
+            // Fallback to subcategories file
+            let allSubcategories = try await loadWithCache(
+                key: "all_subcategories_\(language)",
+                path: subcategoriesPath,
+                ttl: cacheTTL,
+                type: [DatabaseSkillSubcategory].self
+            )
+            
+            return allSubcategories
+                .filter { $0.categoryId == categoryId }
+                .map { dbSubcategory in
+                    SkillSubcategory(
+                        id: dbSubcategory.id,
+                        categoryId: dbSubcategory.categoryId,
+                        englishName: dbSubcategory.name,
+                        icon: nil,
+                        sortOrder: 0,
+                        description: nil,
+                        translations: nil
+                    )
+                }
+        }
     }
     
     func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
@@ -134,12 +172,43 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
         let cacheKey = "skills_\(subcategoryId)_\(language)"
         let cacheTTL: TimeInterval = 3600 // 1 hour
         
-        return try await loadWithCache(
-            key: cacheKey,
-            path: "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/hierarchy/\(categoryId)/\(subcategoryId).json",
-            ttl: cacheTTL,
-            type: SubcategoryHierarchy.self
-        ).skills
+        // Try to load from hierarchy file first
+        let hierarchyPath = "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/hierarchy/\(categoryId)/\(subcategoryId).json"
+        let skillsPath = "/Users/applemacmini/SkillTalk_Swift_Modular/database/languages/\(language)/skills.json"
+        
+        do {
+            // Try hierarchy first
+            let hierarchy = try await loadWithCache(
+                key: cacheKey,
+                path: hierarchyPath,
+                ttl: cacheTTL,
+                type: SubcategoryHierarchy.self
+            )
+            return hierarchy.skills
+        } catch {
+            // Fallback to skills file
+            let allSkills = try await loadWithCache(
+                key: "all_skills_\(language)",
+                path: skillsPath,
+                ttl: cacheTTL,
+                type: [DatabaseSkill].self
+            )
+            
+            return allSkills
+                .filter { $0.subcategoryId == subcategoryId }
+                .map { dbSkill in
+                    Skill(
+                        id: dbSkill.id,
+                        subcategoryId: dbSkill.subcategoryId,
+                        englishName: dbSkill.name,
+                        difficulty: SkillDifficulty.beginner, // Default
+                        popularity: 50, // Default
+                        icon: nil,
+                        tags: [],
+                        translations: nil
+                    )
+                }
+        }
     }
     
     func searchSkills(query: String, language: String) async throws -> [Skill] {
@@ -219,6 +288,25 @@ class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
         
         return result
     }
+}
+
+// MARK: - Database Models (for JSON parsing)
+
+struct DatabaseSkillCategory: Codable {
+    let id: String
+    let name: String
+}
+
+struct DatabaseSkillSubcategory: Codable {
+    let id: String
+    let categoryId: String
+    let name: String
+}
+
+struct DatabaseSkill: Codable {
+    let id: String
+    let subcategoryId: String
+    let name: String
 }
 
 // MARK: - Supporting Models
