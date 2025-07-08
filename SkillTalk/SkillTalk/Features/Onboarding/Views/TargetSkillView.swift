@@ -24,13 +24,14 @@ struct TargetSkillView: View {
         .navigationTitle("Target Skills")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
-            selectedSkills = coordinator.onboardingData.targetSkills
+            selectedSkills = coordinator.targetSkills
         }
         .sheet(isPresented: $showingSkillSelection) {
             SkillSelectionCoordinatorView(
                 isExpertSkill: false,
                 onSkillsSelected: { skills in
                     selectedSkills = skills
+                    coordinator.targetSkills = skills
                 }
             )
         }
@@ -38,20 +39,19 @@ struct TargetSkillView: View {
     
     // MARK: - Header Section
     private var headerSection: some View {
-        VStack(spacing: 12) {
-            Text("What skills do you want to learn?")
-                .font(.headline)
-                .fontWeight(.semibold)
-                .foregroundColor(ThemeColors.textPrimary)
+        VStack(spacing: 16) {
+            Text("What do you want to learn?")
+                .font(.title2)
+                .fontWeight(.bold)
                 .multilineTextAlignment(.center)
             
-            Text("Select skills you want to master. We'll match you with experts!")
+            Text("Select skills you want to improve and find mentors for")
                 .font(.body)
-                .foregroundColor(ThemeColors.textSecondary)
+                .foregroundColor(.secondary)
                 .multilineTextAlignment(.center)
         }
-        .padding(.horizontal, 24)
-        .padding(.bottom, 20)
+        .padding(.horizontal, 20)
+        .padding(.top, 20)
     }
     
     // MARK: - Empty State View
@@ -61,70 +61,73 @@ struct TargetSkillView: View {
             
             Image(systemName: "target")
                 .font(.system(size: 80))
-                .foregroundColor(ThemeColors.primary.opacity(0.3))
+                .foregroundColor(.blue)
             
-            VStack(spacing: 12) {
+            VStack(spacing: 8) {
                 Text("No Target Skills Selected")
-                    .font(.title2)
+                    .font(.title3)
                     .fontWeight(.semibold)
-                    .foregroundColor(ThemeColors.textPrimary)
                 
                 Text("Tap the button below to select skills you want to learn")
                     .font(.body)
-                    .foregroundColor(ThemeColors.textSecondary)
+                    .foregroundColor(.secondary)
                     .multilineTextAlignment(.center)
             }
             
             Spacer()
         }
-        .padding(.horizontal, 24)
+        .padding(.horizontal, 20)
     }
     
     // MARK: - Selected Skills View
     private var selectedSkillsView: some View {
         ScrollView {
-            LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 12) {
+            LazyVStack(spacing: 12) {
                 ForEach(selectedSkills) { skill in
-                    SelectedSkillCard(skill: skill) {
-                        // Remove skill
-                        selectedSkills.removeAll { $0.id == skill.id }
-                    }
+                    SelectedSkillCard(
+                        skill: skill,
+                        onRemove: {
+                            if let index = selectedSkills.firstIndex(where: { $0.id == skill.id }) {
+                                selectedSkills.remove(at: index)
+                                coordinator.targetSkills = selectedSkills
+                            }
+                        }
+                    )
                 }
             }
-            .padding(.horizontal, 24)
+            .padding(.horizontal, 20)
+            .padding(.vertical, 16)
         }
     }
     
     // MARK: - Bottom Button Section
     private var bottomButtonSection: some View {
         VStack(spacing: 16) {
-            if selectedSkills.isEmpty {
-                PrimaryButton(
-                    title: "Select Target Skills",
+            Button(action: {
+                showingSkillSelection = true
+            }) {
+                HStack {
+                    Image(systemName: "plus.circle.fill")
+                    Text(selectedSkills.isEmpty ? "Add Target Skills" : "Add More Skills")
+                }
+                .font(.headline)
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity)
+                .frame(height: 50)
+                .background(ThemeColors.primary)
+                .cornerRadius(12)
+            }
+            
+            if !selectedSkills.isEmpty {
+                SecondaryButton(
+                    title: "Continue",
                     action: {
-                        showingSkillSelection = true
+                        coordinator.nextStep()
                     }
                 )
-            } else {
-                VStack(spacing: 12) {
-                    SecondaryButton(
-                        title: "Add More Skills",
-                        action: {
-                            showingSkillSelection = true
-                        }
-                    )
-                    
-                    PrimaryButton(
-                        title: "Next",
-                        action: {
-                            coordinator.onboardingData.targetSkills = selectedSkills
-                            coordinator.nextStep()
-                        }
-                    )
-                }
             }
         }
-        .padding(.horizontal, 24)
+        .padding(.horizontal, 20)
         .padding(.bottom, 20)
     }
 }

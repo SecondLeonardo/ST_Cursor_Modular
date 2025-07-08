@@ -24,13 +24,14 @@ struct ExpertiseView: View {
         .navigationTitle("Expertise")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
-            selectedSkills = coordinator.onboardingData.expertSkills
+            selectedSkills = coordinator.expertSkills
         }
         .sheet(isPresented: $showingSkillSelection) {
             SkillSelectionCoordinatorView(
                 isExpertSkill: true,
                 onSkillsSelected: { skills in
                     selectedSkills = skills
+                    coordinator.expertSkills = skills
                 }
             )
         }
@@ -38,20 +39,19 @@ struct ExpertiseView: View {
     
     // MARK: - Header Section
     private var headerSection: some View {
-        VStack(spacing: 12) {
-            Text("What skills are you expert in?")
-                .font(.headline)
-                .fontWeight(.semibold)
-                .foregroundColor(ThemeColors.textPrimary)
+        VStack(spacing: 16) {
+            Text("What are you an expert in?")
+                .font(.title2)
+                .fontWeight(.bold)
                 .multilineTextAlignment(.center)
             
-            Text("Select skills you can teach others. More skills = better matches!")
+            Text("Select skills you're proficient in and can help others learn")
                 .font(.body)
-                .foregroundColor(ThemeColors.textSecondary)
+                .foregroundColor(.secondary)
                 .multilineTextAlignment(.center)
         }
-        .padding(.horizontal, 24)
-        .padding(.bottom, 20)
+        .padding(.horizontal, 20)
+        .padding(.top, 20)
     }
     
     // MARK: - Empty State View
@@ -61,132 +61,74 @@ struct ExpertiseView: View {
             
             Image(systemName: "star.circle")
                 .font(.system(size: 80))
-                .foregroundColor(ThemeColors.primary.opacity(0.3))
+                .foregroundColor(.orange)
             
-            VStack(spacing: 12) {
+            VStack(spacing: 8) {
                 Text("No Expert Skills Selected")
-                    .font(.title2)
+                    .font(.title3)
                     .fontWeight(.semibold)
-                    .foregroundColor(ThemeColors.textPrimary)
                 
-                Text("Tap the button below to select skills you can teach others")
+                Text("Tap the button below to select skills you're an expert in")
                     .font(.body)
-                    .foregroundColor(ThemeColors.textSecondary)
+                    .foregroundColor(.secondary)
                     .multilineTextAlignment(.center)
             }
             
             Spacer()
         }
-        .padding(.horizontal, 24)
+        .padding(.horizontal, 20)
     }
     
     // MARK: - Selected Skills View
     private var selectedSkillsView: some View {
         ScrollView {
-            LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 12) {
+            LazyVStack(spacing: 12) {
                 ForEach(selectedSkills) { skill in
-                    SelectedSkillCard(skill: skill) {
-                        // Remove skill
-                        selectedSkills.removeAll { $0.id == skill.id }
-                    }
+                    SelectedSkillCard(
+                        skill: skill,
+                        onRemove: {
+                            if let index = selectedSkills.firstIndex(where: { $0.id == skill.id }) {
+                                selectedSkills.remove(at: index)
+                                coordinator.expertSkills = selectedSkills
+                            }
+                        }
+                    )
                 }
             }
-            .padding(.horizontal, 24)
+            .padding(.horizontal, 20)
+            .padding(.vertical, 16)
         }
     }
     
     // MARK: - Bottom Button Section
     private var bottomButtonSection: some View {
         VStack(spacing: 16) {
-            if selectedSkills.isEmpty {
-                PrimaryButton(
-                    title: "Select Expert Skills",
+            Button(action: {
+                showingSkillSelection = true
+            }) {
+                HStack {
+                    Image(systemName: "plus.circle.fill")
+                    Text(selectedSkills.isEmpty ? "Add Expert Skills" : "Add More Skills")
+                }
+                .font(.headline)
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity)
+                .frame(height: 50)
+                .background(ThemeColors.primary)
+                .cornerRadius(12)
+            }
+            
+            if !selectedSkills.isEmpty {
+                SecondaryButton(
+                    title: "Continue",
                     action: {
-                        showingSkillSelection = true
+                        coordinator.nextStep()
                     }
                 )
-            } else {
-                VStack(spacing: 12) {
-                    SecondaryButton(
-                        title: "Add More Skills",
-                        action: {
-                            showingSkillSelection = true
-                        }
-                    )
-                    
-                    PrimaryButton(
-                        title: "Next",
-                        action: {
-                            coordinator.onboardingData.expertSkills = selectedSkills
-                            coordinator.nextStep()
-                        }
-                    )
-                }
             }
         }
-        .padding(.horizontal, 24)
+        .padding(.horizontal, 20)
         .padding(.bottom, 20)
-    }
-}
-
-// MARK: - Selected Skill Card
-struct SelectedSkillCard: View {
-    let skill: Skill
-    let onRemove: () -> Void
-    
-    var body: some View {
-        HStack(spacing: 8) {
-            VStack(alignment: .leading, spacing: 4) {
-                Text(skill.englishName)
-                    .font(.subheadline)
-                    .fontWeight(.medium)
-                    .foregroundColor(ThemeColors.textPrimary)
-                    .lineLimit(2)
-                
-                Text(skill.difficulty.displayName)
-                    .font(.caption)
-                    .foregroundColor(ThemeColors.textSecondary)
-            }
-            
-            Spacer()
-            
-            Button(action: onRemove) {
-                Image(systemName: "xmark.circle.fill")
-                    .font(.caption)
-                    .foregroundColor(ThemeColors.textSecondary)
-            }
-        }
-        .padding(.horizontal, 12)
-        .padding(.vertical, 10)
-        .background(ThemeColors.primary.opacity(0.1))
-        .cornerRadius(8)
-        .overlay(
-            RoundedRectangle(cornerRadius: 8)
-                .stroke(ThemeColors.primary, lineWidth: 1)
-        )
-    }
-}
-
-// MARK: - Secondary Button
-struct SecondaryButton: View {
-    let title: String
-    let action: () -> Void
-    
-    var body: some View {
-        Button(action: action) {
-            Text(title)
-                .font(.body)
-                .fontWeight(.semibold)
-                .foregroundColor(ThemeColors.primary)
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 16)
-                .background(Color.white)
-                .cornerRadius(12)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 12)
-                        .stroke(ThemeColors.primary, lineWidth: 2)
-                )
-        }
     }
 }
 

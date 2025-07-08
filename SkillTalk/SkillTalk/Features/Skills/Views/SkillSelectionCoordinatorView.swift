@@ -117,7 +117,7 @@ struct SkillSelectionCoordinatorView: View {
         ScrollView {
             LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 16) {
                 ForEach(viewModel.categories) { category in
-                    CategoryCard(
+                    SkillCategoryCard(
                         category: category,
                         isSelected: false
                     ) {
@@ -374,7 +374,7 @@ enum SkillSelectionStep: CaseIterable {
 
 // MARK: - Supporting Views
 
-struct CategoryCard: View {
+struct SkillCategoryCard: View {
     let category: SkillCategory
     let isSelected: Bool
     let action: () -> Void
@@ -457,5 +457,4 @@ struct SubcategoryCard: View {
             print("Selected skills: \(skills.count)")
         }
     )
-} 
 } 
