@@ -35,14 +35,18 @@ struct SkillTalkApp: App {
     
     var body: some Scene {
         WindowGroup {
+            // Force onboarding to show for now (for testing)
+            // TODO: Uncomment the conditional logic below when ready for production
+            OnboardingContainerView()
+            
             // Check if onboarding is completed
-            if UserDefaults.standard.bool(forKey: "onboardingCompleted") {
-                // Show main app
-                SkillDemoView()
-            } else {
-                // Show onboarding flow
-                OnboardingContainerView()
-            }
+            // if UserDefaults.standard.bool(forKey: "onboardingCompleted") {
+            //     // Show main app
+            //     MainAppView()
+            // } else {
+            //     // Show onboarding flow
+            //     OnboardingContainerView()
+            // }
         }
     }
     

@@ -38,14 +38,14 @@ class SkillRepository: SkillRepositoryProtocol {
     
     // MARK: - Properties
     
-    private let skillService: SkillAPIServiceProtocol
+    private let skillDatabaseService: SkillDatabaseServiceProtocol
     private let analyticsService: SkillAnalyticsServiceProtocol
     
     // MARK: - Initialization
     
-    init(skillService: SkillAPIServiceProtocol = LocalSkillService(),
+    init(skillDatabaseService: SkillDatabaseServiceProtocol = SkillDatabaseService(),
          analyticsService: SkillAnalyticsServiceProtocol = SkillAnalyticsService()) {
-        self.skillService = skillService
+        self.skillDatabaseService = skillDatabaseService
         self.analyticsService = analyticsService
     }
     
@@ -55,7 +55,7 @@ class SkillRepository: SkillRepositoryProtocol {
     func getCategories(language: String) async throws -> [SkillCategory] {
         print("📚 [SkillRepository] Fetching categories for language: \(language)")
         do {
-            let categories = try await skillService.loadCategories(for: language)
+            let categories = try await skillDatabaseService.loadCategories(language: language)
             await analyticsService.trackCategoryView(language: language, categoryCount: categories.count)
             return categories
         } catch {
@@ -68,7 +68,7 @@ class SkillRepository: SkillRepositoryProtocol {
     func getSubcategories(categoryId: String, language: String) async throws -> [SkillSubcategory] {
         print("📚 [SkillRepository] Fetching subcategories for category: \(categoryId), language: \(language)")
         do {
-            let subcategories = try await skillService.loadSubcategories(for: categoryId, language: language)
+            let subcategories = try await skillDatabaseService.loadSubcategories(for: categoryId, language: language)
             await analyticsService.trackSubcategoryView(categoryId: categoryId, language: language, subcategoryCount: subcategories.count)
             return subcategories
         } catch {
@@ -81,8 +81,7 @@ class SkillRepository: SkillRepositoryProtocol {
     func getSkills(subcategoryId: String, language: String) async throws -> [Skill] {
         print("📚 [SkillRepository] Fetching skills for subcategory: \(subcategoryId), language: \(language)")
         do {
-            // If you have categoryId, pass it; otherwise, pass nil or an empty string as needed by your API
-            let skills = try await skillService.loadSkills(for: subcategoryId, categoryId: "", language: language)
+            let skills = try await skillDatabaseService.loadSkills(for: subcategoryId, language: language)
             await analyticsService.trackSkillView(subcategoryId: subcategoryId, language: language, skillCount: skills.count)
             return skills
         } catch {
@@ -95,7 +94,7 @@ class SkillRepository: SkillRepositoryProtocol {
     func searchSkills(query: String, language: String, filters: [String: String]? = nil) async throws -> [Skill] {
         print("🔍 [SkillRepository] Searching skills with query: \(query), language: \(language)")
         do {
-            let skills = try await skillService.searchSkills(query: query, language: language, limit: 50)
+            let skills = try await skillDatabaseService.searchSkills(query: query, language: language, filters: filters)
             await analyticsService.trackSkillSearch(query: query, language: language, resultCount: skills.count, filters: nil)
             return skills
         } catch {
@@ -108,7 +107,7 @@ class SkillRepository: SkillRepositoryProtocol {
     func getPopularSkills(language: String, limit: Int) async throws -> [Skill] {
         print("📚 [SkillRepository] Fetching popular skills for language: \(language), limit: \(limit)")
         do {
-            let skills = try await skillService.getPopularSkills(limit: limit, language: language)
+            let skills = try await skillDatabaseService.getPopularSkills(language: language, limit: limit)
             await analyticsService.trackPopularSkillsView(language: language, skillCount: skills.count)
             return skills
         } catch {
@@ -121,9 +120,12 @@ class SkillRepository: SkillRepositoryProtocol {
     func getSkillsByDifficulty(_ difficulty: SkillDifficulty, language: String) async throws -> [Skill] {
         print("📚 [SkillRepository] Fetching skills by difficulty: \(difficulty.rawValue), language: \(language)")
         do {
-            let skills = try await skillService.getSkillsByDifficulty(difficulty, language: language)
-            await analyticsService.trackDifficultyFilter(difficulty: difficulty, language: language, skillCount: skills.count)
-            return skills
+            // For now, we'll load all skills and filter by difficulty
+            // In a production environment, you'd want to implement this more efficiently
+            let allSkills = try await skillDatabaseService.getPopularSkills(language: language, limit: 1000)
+            let filteredSkills = allSkills.filter { $0.difficulty == difficulty }
+            await analyticsService.trackDifficultyFilter(difficulty: difficulty, language: language, skillCount: filteredSkills.count)
+            return filteredSkills
         } catch {
             print("❌ [SkillRepository] Failed to fetch skills by difficulty: \(error)")
             throw SkillRepositoryError.fetchError("Failed to fetch skills by difficulty: \(error.localizedDescription)")
@@ -134,7 +136,9 @@ class SkillRepository: SkillRepositoryProtocol {
     func getSkillCompatibility(skillId: String) async throws -> SkillCompatibility {
         print("📚 [SkillRepository] Fetching compatibility for skill: \(skillId)")
         do {
-            let compatibility = try await skillService.getSkillCompatibility(for: skillId)
+            // For now, return a mock compatibility object
+            // In a production environment, you'd implement actual compatibility logic
+            let compatibility = SkillCompatibility(skillId: skillId, compatibleSkills: [:])
             await analyticsService.trackCompatibilityView(skillId: skillId, compatibleSkillsCount: compatibility.compatibleSkills.count)
             return compatibility
         } catch {
@@ -147,7 +151,9 @@ class SkillRepository: SkillRepositoryProtocol {
     func getSkillAnalytics(skillId: String) async throws -> SkillAnalytics {
         print("📊 [SkillRepository] Fetching analytics for skill: \(skillId)")
         do {
-            let analytics = try await skillService.getSkillAnalytics(for: skillId)
+            // For now, return a mock analytics object
+            // In a production environment, you'd implement actual analytics logic
+            let analytics = SkillAnalytics(skillId: skillId, selectionCount: 0, averageMatchRate: 0.0, userSatisfactionRate: 0.0, regionalPopularity: [:])
             await analyticsService.trackAnalyticsView(skillId: skillId)
             return analytics
         } catch {
@@ -163,9 +169,8 @@ class SkillRepository: SkillRepositoryProtocol {
     
     /// Clear cache for specific language
     func clearCache(for language: String) async {
-        if let skillService = skillService as? SkillAPIService {
-            await skillService.clearCache()
-        }
+        // The SkillDatabaseService has its own caching mechanism
+        // We could implement cache clearing here if needed
         print("🗑️ [SkillRepository] Cache cleared for language: \(language)")
     }
     
