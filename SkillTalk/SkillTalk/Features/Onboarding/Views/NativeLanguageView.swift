@@ -162,7 +162,15 @@ struct NativeLanguageView: View {
 struct LanguageRowView: View {
     let language: Language
     let isSelected: Bool
+    let isDisabled: Bool
     let action: () -> Void
+    
+    init(language: Language, isSelected: Bool, isDisabled: Bool = false, action: @escaping () -> Void) {
+        self.language = language
+        self.isSelected = isSelected
+        self.isDisabled = isDisabled
+        self.action = action
+    }
     
     var body: some View {
         Button(action: action) {
@@ -171,11 +179,11 @@ struct LanguageRowView: View {
                     Text(language.name)
                         .font(.body)
                         .fontWeight(.medium)
-                        .foregroundColor(isSelected ? ThemeColors.primary : ThemeColors.textPrimary)
+                        .foregroundColor(isSelected ? ThemeColors.primary : (isDisabled ? ThemeColors.textSecondary : ThemeColors.textPrimary))
                     
                     Text(language.nativeName)
                         .font(.caption)
-                        .foregroundColor(ThemeColors.textSecondary)
+                        .foregroundColor(isDisabled ? ThemeColors.textSecondary.opacity(0.5) : ThemeColors.textSecondary)
                 }
                 
                 Spacer()
@@ -184,18 +192,23 @@ struct LanguageRowView: View {
                     Image(systemName: "checkmark")
                         .foregroundColor(ThemeColors.primary)
                         .font(.title3)
+                } else if isDisabled {
+                    Image(systemName: "lock.fill")
+                        .foregroundColor(ThemeColors.textSecondary.opacity(0.5))
+                        .font(.caption)
                 }
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 14)
-            .background(Color.white)
+            .background(isDisabled ? Color.gray.opacity(0.1) : Color.white)
             .cornerRadius(12)
             .overlay(
                 RoundedRectangle(cornerRadius: 12)
-                    .stroke(isSelected ? ThemeColors.primary : Color.gray.opacity(0.2), lineWidth: isSelected ? 2 : 1)
+                    .stroke(isSelected ? ThemeColors.primary : (isDisabled ? Color.gray.opacity(0.3) : Color.gray.opacity(0.2)), lineWidth: isSelected ? 2 : 1)
             )
         }
         .buttonStyle(PlainButtonStyle())
+        .disabled(isDisabled)
         .id(language.id)
     }
 }

@@ -12,6 +12,17 @@ struct SecondLanguageView: View {
     @State private var errorMessage: String?
     private let languageService = LanguageDatabase.shared
     
+    // Check if user is VIP (you can implement your own VIP logic here)
+    private var isVIPUser: Bool {
+        // For now, return false. Implement your VIP logic here
+        return false
+    }
+    
+    // Maximum languages allowed for non-VIP users
+    private var maxLanguagesAllowed: Int {
+        return isVIPUser ? 5 : 1
+    }
+    
     var body: some View {
         VStack(spacing: 0) {
             // Header
@@ -77,8 +88,8 @@ struct SecondLanguageView: View {
                 ProficiencyPickerView(
                     selectedProficiency: .intermediate, // default
                     onSelect: { proficiency in
-                        // Only add if not already selected
-                        if !isLanguageSelected(language) {
+                        // Only add if not already selected and within limit
+                        if !isLanguageSelected(language) && selectedLanguages.count < maxLanguagesAllowed {
                             selectedLanguages.append(LanguageWithProficiency(language: language, proficiency: proficiency))
                         }
                         tempLanguage = nil
@@ -98,10 +109,19 @@ struct SecondLanguageView: View {
                 .foregroundColor(ThemeColors.textPrimary)
                 .multilineTextAlignment(.center)
             
-            Text("Select languages you can speak and set your proficiency level")
+            Text(isVIPUser ? 
+                 "Select languages you can speak and set your proficiency level" :
+                 "Select one language you can speak and set your proficiency level")
                 .font(.body)
                 .foregroundColor(ThemeColors.textSecondary)
                 .multilineTextAlignment(.center)
+            
+            if !isVIPUser {
+                Text("Upgrade to VIP to add more languages")
+                    .font(.caption)
+                    .foregroundColor(.orange)
+                    .multilineTextAlignment(.center)
+            }
         }
         .padding(.horizontal, 24)
         .padding(.bottom, 20)
@@ -141,8 +161,6 @@ struct SecondLanguageView: View {
         }
     }
     
-
-    
     // MARK: - All Languages Section
     private var allLanguagesSection: some View {
         VStack(spacing: 8) {
@@ -150,10 +168,13 @@ struct SecondLanguageView: View {
                 if !isLanguageSelected(language) {
                     LanguageRowView(
                         language: language,
-                        isSelected: false
+                        isSelected: false,
+                        isDisabled: selectedLanguages.count >= maxLanguagesAllowed && !isVIPUser
                     ) {
-                        tempLanguage = language
-                        showingProficiencyPicker = true
+                        if selectedLanguages.count < maxLanguagesAllowed || isVIPUser {
+                            tempLanguage = language
+                            showingProficiencyPicker = true
+                        }
                     }
                 }
             }
@@ -183,7 +204,14 @@ struct SecondLanguageView: View {
     private func loadLanguages() {
         isLoading = true
         errorMessage = nil
+        
+        // Load languages from service
         allLanguages = languageService.getAllLanguages()
+        
+        if allLanguages.isEmpty {
+            errorMessage = "Failed to load languages. Please try again."
+        }
+        
         isLoading = false
     }
     
@@ -300,8 +328,8 @@ struct SelectedLanguageRowView: View {
             
             // Remove button
             Button(action: onRemove) {
-                Image(systemName: "checkmark.circle.fill")
-                    .foregroundColor(.green)
+                Image(systemName: "xmark.circle.fill")
+                    .foregroundColor(.red)
                     .font(.title3)
             }
         }
@@ -353,6 +381,7 @@ struct ProficiencyPickerView: View {
             .padding(.horizontal, 20)
             .padding(.top, 20)
             .padding(.bottom, 20)
+            
             // Proficiency Options
             ScrollView {
                 VStack(spacing: 12) {
@@ -398,29 +427,29 @@ struct ProficiencyOptionRow: View {
         Button(action: onTap) {
             HStack(spacing: 16) {
                 // Proficiency dots
-                            HStack(spacing: 4) {
-                                ForEach(0..<5, id: \.self) { index in
-                                    Circle()
-                                        .fill(index < proficiency.dots ? ThemeColors.primary : Color.gray.opacity(0.3))
-                                        .frame(width: 8, height: 8)
-                                }
-                            }
-                            
+                HStack(spacing: 4) {
+                    ForEach(0..<5, id: \.self) { index in
+                        Circle()
+                            .fill(index < proficiency.dots ? ThemeColors.primary : Color.gray.opacity(0.3))
+                            .frame(width: 8, height: 8)
+                    }
+                }
+                
                 // Proficiency text
-                            Text(proficiency.rawValue)
-                                .font(.body)
+                Text(proficiency.rawValue)
+                    .font(.body)
                     .fontWeight(.medium)
-                                .foregroundColor(ThemeColors.textPrimary)
-                            
-                            Spacer()
-                            
+                    .foregroundColor(ThemeColors.textPrimary)
+                
+                Spacer()
+                
                 // Selection indicator
                 if isSelected {
                     Image(systemName: "checkmark.circle.fill")
                         .font(.title2)
                         .foregroundColor(.green)
-                        }
-                    }
+                }
+            }
             .padding(.horizontal, 16)
             .padding(.vertical, 14)
             .background(isSelected ? ThemeColors.primary.opacity(0.1) : Color.white)

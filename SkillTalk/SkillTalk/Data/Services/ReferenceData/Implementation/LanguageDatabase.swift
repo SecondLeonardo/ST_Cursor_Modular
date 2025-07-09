@@ -28,9 +28,10 @@ public class LanguageDatabase {
         return languagesByAlphabet
     }
     
-    /// Get popular languages (deprecated - now returns empty array)
+    /// Get popular languages
     public func getPopularLanguages() -> [Language] {
-        return []
+        let popularCodes = ["en", "es", "fr", "de", "zh", "ja", "ko", "ar", "hi", "pt"]
+        return languages.filter { popularCodes.contains($0.code) }
     }
     
     /// Search languages by name
@@ -55,35 +56,81 @@ public class LanguageDatabase {
     // MARK: - ReferenceDataDatabase Protocol Conformance
     
     public static func setCurrentLanguage(_ languageCode: String) {
-        // Implementation needed
+        UserDefaults.standard.set(languageCode, forKey: "currentLanguage")
     }
     
     public static func getSupportedLanguages() -> [String] {
-        // Implementation needed
-        return []
+        return ["en", "es", "fr", "de", "zh", "ja", "ko", "ar", "hi", "pt"]
     }
     
     // MARK: - Private Methods
     
     private func loadLanguages() {
-        guard let url = Bundle.main.url(forResource: "languages", withExtension: "json") else {
-            print("Error: languages.json not found in bundle. Bundle path: \(Bundle.main.bundlePath)")
-            return
-        }
-        print("languages.json found at: \(url.path)")
-        guard let data = try? Data(contentsOf: url),
-              let decodedLanguages = try? JSONDecoder().decode([Language].self, from: data) else {
-            print("Error loading or decoding languages from JSON at \(url.path)")
-            return
+        // Try to load from bundle first
+        if let languages = loadLanguagesFromBundle() {
+            self.languages = languages
+        } else {
+            // Fallback to hardcoded languages
+            self.languages = getDefaultLanguages()
         }
         
         // Sort languages alphabetically
-        languages = decodedLanguages.sorted { $0.name < $1.name }
+        self.languages = self.languages.sorted { $0.name < $1.name }
         
         // Group languages by first letter
-        languagesByAlphabet = Dictionary(grouping: languages) { language in
+        languagesByAlphabet = Dictionary(grouping: self.languages) { language in
             String(language.name.prefix(1).uppercased())
         }
+    }
+    
+    private func loadLanguagesFromBundle() -> [Language]? {
+        // Try multiple possible locations
+        let possiblePaths = [
+            "languages",
+            "Data/Services/ReferenceData/languages",
+            "Data/Services/ReferenceData/Implementation/languages"
+        ]
+        
+        for path in possiblePaths {
+            if let url = Bundle.main.url(forResource: path, withExtension: "json") {
+                do {
+                    let data = try Data(contentsOf: url)
+                    let decodedLanguages = try JSONDecoder().decode([Language].self, from: data)
+                    print("Successfully loaded \(decodedLanguages.count) languages from \(path).json")
+                    return decodedLanguages
+                } catch {
+                    print("Error loading languages from \(path).json: \(error)")
+                }
+            }
+        }
+        
+        print("Could not load languages from any bundle location")
+        return nil
+    }
+    
+    private func getDefaultLanguages() -> [Language] {
+        return [
+            Language(code: "en", name: "English", nativeName: "English"),
+            Language(code: "es", name: "Spanish", nativeName: "Español"),
+            Language(code: "fr", name: "French", nativeName: "Français"),
+            Language(code: "de", name: "German", nativeName: "Deutsch"),
+            Language(code: "zh", name: "Chinese", nativeName: "中文"),
+            Language(code: "ja", name: "Japanese", nativeName: "日本語"),
+            Language(code: "ko", name: "Korean", nativeName: "한국어"),
+            Language(code: "ar", name: "Arabic", nativeName: "العربية"),
+            Language(code: "hi", name: "Hindi", nativeName: "हिन्दी"),
+            Language(code: "pt", name: "Portuguese", nativeName: "Português"),
+            Language(code: "it", name: "Italian", nativeName: "Italiano"),
+            Language(code: "ru", name: "Russian", nativeName: "Русский"),
+            Language(code: "nl", name: "Dutch", nativeName: "Nederlands"),
+            Language(code: "sv", name: "Swedish", nativeName: "Svenska"),
+            Language(code: "no", name: "Norwegian", nativeName: "Norsk"),
+            Language(code: "da", name: "Danish", nativeName: "Dansk"),
+            Language(code: "fi", name: "Finnish", nativeName: "Suomi"),
+            Language(code: "pl", name: "Polish", nativeName: "Polski"),
+            Language(code: "tr", name: "Turkish", nativeName: "Türkçe"),
+            Language(code: "he", name: "Hebrew", nativeName: "עברית")
+        ]
     }
 }
 
