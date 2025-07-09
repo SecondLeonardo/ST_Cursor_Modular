@@ -59,6 +59,10 @@ struct SkillTalkApp: App {
         
         // Run database tests
         DatabaseTest.runTests()
+        
+        // Run local skill service test
+        LocalSkillServiceTest.shared.runTest()
+        LocalSkillServiceTest.shared.testProficiencyOptions()
         #endif
     }
     

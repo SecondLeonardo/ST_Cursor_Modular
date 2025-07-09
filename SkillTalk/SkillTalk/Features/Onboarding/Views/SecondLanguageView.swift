@@ -96,6 +96,13 @@ struct SecondLanguageView: View {
                         showingProficiencyPicker = false
                     }
                 )
+                .onAppear {
+                    // Ensure data is loaded before showing picker
+                    if LanguageProficiency.allCases.isEmpty {
+                        // Force reload if needed
+                        print("⚠️ Proficiency data not loaded, reloading...")
+                    }
+                }
             }
         }
     }
@@ -172,8 +179,11 @@ struct SecondLanguageView: View {
                         isDisabled: selectedLanguages.count >= maxLanguagesAllowed && !isVIPUser
                     ) {
                         if selectedLanguages.count < maxLanguagesAllowed || isVIPUser {
-                            tempLanguage = language
-                            showingProficiencyPicker = true
+                            // Ensure data is loaded before showing picker
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                                tempLanguage = language
+                                showingProficiencyPicker = true
+                            }
                         }
                     }
                 }
@@ -381,6 +391,12 @@ struct ProficiencyPickerView: View {
             .padding(.horizontal, 20)
             .padding(.top, 20)
             .padding(.bottom, 20)
+            
+            // Debug info
+            Text("Available proficiencies: \(LanguageProficiency.allCases.count)")
+                .font(.caption)
+                .foregroundColor(.secondary)
+                .padding(.bottom, 10)
             
             // Proficiency Options
             ScrollView {

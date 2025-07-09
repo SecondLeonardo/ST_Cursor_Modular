@@ -1,82 +1,72 @@
 [
   {
     "id": "technology",
-    "name": "Technology",
-    "description": "Programming, software development, and technical skills",
-    "skill_count": 150,
+    "englishName": "Technology",
     "icon": "laptopcomputer",
-    "color": "#6B2CC8"
+    "sortOrder": 1,
+    "translations": null
   },
   {
     "id": "arts_creativity",
-    "name": "Arts & Creativity",
-    "description": "Visual arts, music, design, and creative expression",
-    "skill_count": 120,
+    "englishName": "Arts & Creativity",
     "icon": "paintbrush",
-    "color": "#2FB0C7"
+    "sortOrder": 2,
+    "translations": null
   },
   {
     "id": "business_finance",
-    "name": "Business & Finance",
-    "description": "Entrepreneurship, management, and financial skills",
-    "skill_count": 95,
+    "englishName": "Business & Finance",
     "icon": "chart.line.uptrend.xyaxis",
-    "color": "#336633"
+    "sortOrder": 3,
+    "translations": null
   },
   {
     "id": "health_fitness",
-    "name": "Health & Fitness",
-    "description": "Physical fitness, nutrition, and wellness",
-    "skill_count": 80,
+    "englishName": "Health & Fitness",
     "icon": "heart.fill",
-    "color": "#E64D4D"
+    "sortOrder": 4,
+    "translations": null
   },
   {
     "id": "language_communication",
-    "name": "Language & Communication",
-    "description": "Languages, public speaking, and communication skills",
-    "skill_count": 200,
+    "englishName": "Language & Communication",
     "icon": "message",
-    "color": "#3366CC"
+    "sortOrder": 5,
+    "translations": null
   },
   {
     "id": "science_research",
-    "name": "Science & Research",
-    "description": "Scientific methods, research, and academic skills",
-    "skill_count": 75,
+    "englishName": "Science & Research",
     "icon": "atom",
-    "color": "#CC6633"
+    "sortOrder": 6,
+    "translations": null
   },
   {
     "id": "education_learning",
-    "name": "Education & Learning",
-    "description": "Teaching, tutoring, and educational skills",
-    "skill_count": 60,
+    "englishName": "Education & Learning",
     "icon": "book.fill",
-    "color": "#6666CC"
+    "sortOrder": 7,
+    "translations": null
   },
   {
     "id": "personal_development",
-    "name": "Personal Development",
-    "description": "Self-improvement, leadership, and life skills",
-    "skill_count": 90,
+    "englishName": "Personal Development",
     "icon": "person.fill",
-    "color": "#CCCC33"
+    "sortOrder": 8,
+    "translations": null
   },
   {
     "id": "home_diy",
-    "name": "Home & DIY",
-    "description": "Home improvement, crafts, and practical skills",
-    "skill_count": 110,
+    "englishName": "Home & DIY",
     "icon": "house.fill",
-    "color": "#66CC66"
+    "sortOrder": 9,
+    "translations": null
   },
   {
     "id": "sports_recreation",
-    "name": "Sports & Recreation",
-    "description": "Athletics, outdoor activities, and recreational skills",
-    "skill_count": 85,
+    "englishName": "Sports & Recreation",
     "icon": "figure.run",
-    "color": "#CC3366"
+    "sortOrder": 10,
+    "translations": null
   }
 ] 

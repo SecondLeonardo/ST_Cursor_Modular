@@ -43,7 +43,7 @@ class SkillRepository: SkillRepositoryProtocol {
     
     // MARK: - Initialization
     
-    init(skillService: SkillAPIServiceProtocol = SkillAPIService(),
+    init(skillService: SkillAPIServiceProtocol = LocalSkillService(),
          analyticsService: SkillAnalyticsServiceProtocol = SkillAnalyticsService()) {
         self.skillService = skillService
         self.analyticsService = analyticsService
