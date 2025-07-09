@@ -186,7 +186,7 @@ class SkillSelectionViewModel: ObservableObject {
             let searchResults = try await skillRepository.searchSkills(
                 query: searchQuery,
                 language: language,
-                limit: 50
+                filters: nil
             )
             filteredSkills = searchResults
         } catch {
@@ -203,7 +203,7 @@ class SkillSelectionViewModel: ObservableObject {
         errorMessage = nil
         
         do {
-            let popularSkills = try await skillRepository.getPopularSkills(region: "US", language: language)
+            let popularSkills = try await skillRepository.getPopularSkills(language: language, limit: 50)
             skills = popularSkills
             filteredSkills = popularSkills
             currentStep = .skills
@@ -306,7 +306,7 @@ class SkillSelectionViewModel: ObservableObject {
                 return
             }
             
-            skills = try await skillRepository.getSkills(subcategoryId: subcategoryId, categoryId: categoryId, language: language)
+            skills = try await skillRepository.getSkills(subcategoryId: subcategoryId, language: language)
             filteredSkills = skills
             print("✅ [SkillSelectionViewModel] Loaded \(skills.count) skills for subcategory \(subcategoryId)")
         } catch {
@@ -366,7 +366,7 @@ class MockSkillSelectionViewModel: SkillSelectionViewModel {
 /// Helper for SwiftUI previews
 extension SkillSelectionViewModel {
     static var preview: SkillSelectionViewModel {
-        let viewModel = MockSkillSelectionViewModel(skillType: .expertise)
+        let viewModel = MockSkillSelectionViewModel(skillType: .expert)
         return viewModel
     }
 } 
