@@ -36,7 +36,7 @@ class LanguageService: LanguageServiceProtocol {
     // MARK: - Private Properties
     private let apiClient: APIClient
     private let cacheManager: CacheManager
-    private let healthMonitor: ServiceHealthMonitor
+    private var healthMonitor: ServiceHealthMonitor
     
     private var currentLanguage: String = "en"
     private var allLanguages: [Language] = []
@@ -52,7 +52,6 @@ class LanguageService: LanguageServiceProtocol {
     private init() {
         self.apiClient = APIClient.shared
         self.cacheManager = CacheManager.shared
-        self.healthMonitor = ServiceHealthMonitor.shared
         
         // Load current language from user preferences
         self.currentLanguage = UserDefaults.standard.string(forKey: "selected_language") ?? "en"
@@ -62,8 +61,9 @@ class LanguageService: LanguageServiceProtocol {
             await loadLanguages()
         }
         
-        // Set up health monitoring
+        // Set up health monitoring on main actor
         Task { @MainActor in
+            self.healthMonitor = ServiceHealthMonitor.shared
             await healthMonitor.registerService("language_service") { [weak self] in
                 return await self?.checkHealth() ?? false
             }

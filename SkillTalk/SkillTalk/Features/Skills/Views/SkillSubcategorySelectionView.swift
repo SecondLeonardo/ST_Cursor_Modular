@@ -206,12 +206,12 @@ class SkillSubcategorySelectionViewModel: ObservableObject {
     
     // MARK: - Private Properties
     private let category: SkillCategory
-    private let skillService: SkillDatabaseServiceProtocol
+    private let skillRepository: SkillRepositoryProtocol
     
     // MARK: - Initialization
-    init(category: SkillCategory, skillService: SkillDatabaseServiceProtocol = OptimizedSkillDatabaseService()) {
+    init(category: SkillCategory, skillRepository: SkillRepositoryProtocol = SkillRepository()) {
         self.category = category
-        self.skillService = skillService
+        self.skillRepository = skillRepository
         print("🔧 SkillSubcategorySelectionViewModel: Initialized for category: \(category.englishName)")
     }
     
@@ -228,7 +228,7 @@ class SkillSubcategorySelectionViewModel: ObservableObject {
             let currentLanguage = getCurrentLanguage()
             print("🌍 SkillSubcategorySelectionViewModel: Loading subcategories for language: \(currentLanguage)")
             
-            let loadedSubcategories = try await skillService.loadSubcategories(for: category.id, language: currentLanguage)
+            let loadedSubcategories = try await skillRepository.getSubcategories(categoryId: category.id, language: currentLanguage)
             
             self.subcategories = loadedSubcategories
             self.isLoading = false

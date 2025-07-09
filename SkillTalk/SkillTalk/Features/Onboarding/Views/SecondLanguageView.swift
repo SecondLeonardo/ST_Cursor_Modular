@@ -11,16 +11,16 @@ struct SecondLanguageView: View {
     @State private var isLoading: Bool = true
     @State private var errorMessage: String?
     private let languageService = LanguageDatabase.shared
+    private let vipService = VIPService.shared
     
-    // Check if user is VIP (you can implement your own VIP logic here)
+    // Check if user is VIP
     private var isVIPUser: Bool {
-        // For now, return false. Implement your VIP logic here
-        return false
+        return vipService.isVIPUser
     }
     
     // Maximum languages allowed for non-VIP users
     private var maxLanguagesAllowed: Int {
-        return isVIPUser ? 5 : 1
+        return vipService.maxLanguagesAllowed
     }
     
     var body: some View {
@@ -89,8 +89,9 @@ struct SecondLanguageView: View {
                     selectedProficiency: .intermediate, // default
                     onSelect: { proficiency in
                         // Only add if not already selected and within limit
-                        if !isLanguageSelected(language) && selectedLanguages.count < maxLanguagesAllowed {
+                        if !isLanguageSelected(language) && vipService.canSelectAdditionalLanguage(currentCount: selectedLanguages.count) {
                             selectedLanguages.append(LanguageWithProficiency(language: language, proficiency: proficiency))
+                            vipService.addSelectedLanguage(language.id)
                         }
                         tempLanguage = nil
                         showingProficiencyPicker = false
@@ -124,7 +125,7 @@ struct SecondLanguageView: View {
                 .multilineTextAlignment(.center)
             
             if !isVIPUser {
-                Text("Upgrade to VIP to add more languages")
+                Text(vipService.getVIPUpgradeMessage())
                     .font(.caption)
                     .foregroundColor(.orange)
                     .multilineTextAlignment(.center)
@@ -176,9 +177,9 @@ struct SecondLanguageView: View {
                     LanguageRowView(
                         language: language,
                         isSelected: false,
-                        isDisabled: selectedLanguages.count >= maxLanguagesAllowed && !isVIPUser
+                        isDisabled: !vipService.canSelectAdditionalLanguage(currentCount: selectedLanguages.count)
                     ) {
-                        if selectedLanguages.count < maxLanguagesAllowed || isVIPUser {
+                        if vipService.canSelectAdditionalLanguage(currentCount: selectedLanguages.count) {
                             // Ensure data is loaded before showing picker
                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                                 tempLanguage = language
@@ -242,6 +243,7 @@ struct SecondLanguageView: View {
     
     private func removeLanguage(_ language: Language) {
         selectedLanguages.removeAll { $0.language.id == language.id }
+        vipService.removeSelectedLanguage(language.id)
     }
     
     private func updateProficiency(for language: Language, to proficiency: LanguageProficiency) {

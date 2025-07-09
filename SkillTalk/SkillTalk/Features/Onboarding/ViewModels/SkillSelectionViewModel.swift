@@ -186,7 +186,7 @@ class SkillSelectionViewModel: ObservableObject {
             let searchResults = try await skillRepository.searchSkills(
                 query: searchQuery,
                 language: language,
-                filters: nil
+                limit: 50
             )
             filteredSkills = searchResults
         } catch {
@@ -203,7 +203,7 @@ class SkillSelectionViewModel: ObservableObject {
         errorMessage = nil
         
         do {
-            let popularSkills = try await skillRepository.getPopularSkills(language: language, limit: 20)
+            let popularSkills = try await skillRepository.getPopularSkills(region: "US", language: language)
             skills = popularSkills
             filteredSkills = popularSkills
             currentStep = .skills
@@ -300,7 +300,13 @@ class SkillSelectionViewModel: ObservableObject {
         errorMessage = nil
         
         do {
-            skills = try await skillRepository.getSkills(subcategoryId: subcategoryId, language: language)
+            guard let categoryId = selectedCategory?.id else {
+                errorMessage = "No category selected"
+                isLoading = false
+                return
+            }
+            
+            skills = try await skillRepository.getSkills(subcategoryId: subcategoryId, categoryId: categoryId, language: language)
             filteredSkills = skills
             print("✅ [SkillSelectionViewModel] Loaded \(skills.count) skills for subcategory \(subcategoryId)")
         } catch {
@@ -312,16 +318,14 @@ class SkillSelectionViewModel: ObservableObject {
     }
 }
 
-
-
 // MARK: - Mock Implementation for Testing
 
 /// Mock implementation for testing and development
 class MockSkillSelectionViewModel: SkillSelectionViewModel {
     override init(skillType: UserSkillType,
                   language: String = Locale.current.languageCode ?? "en",
-                  skillRepository: SkillRepositoryProtocol = MockSkillRepository(),
-                  referenceDataRepository: ReferenceDataRepositoryProtocol = MockReferenceDataRepository()) {
+                  skillRepository: SkillRepositoryProtocol = SkillRepository(),
+                  referenceDataRepository: ReferenceDataRepositoryProtocol = ReferenceDataRepository()) {
         super.init(skillType: skillType, language: language, skillRepository: skillRepository, referenceDataRepository: referenceDataRepository)
     }
     
@@ -362,7 +366,7 @@ class MockSkillSelectionViewModel: SkillSelectionViewModel {
 /// Helper for SwiftUI previews
 extension SkillSelectionViewModel {
     static var preview: SkillSelectionViewModel {
-        let viewModel = MockSkillSelectionViewModel(skillType: .expert)
+        let viewModel = MockSkillSelectionViewModel(skillType: .expertise)
         return viewModel
     }
 } 
