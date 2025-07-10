@@ -271,8 +271,14 @@ struct SkillCategoryCard: View {
     var body: some View {
         Button(action: action) {
             VStack(spacing: 12) {
-                Text(category.icon ?? "📚")
-                    .font(.title)
+                // Use SF Symbol for icon
+                Image(systemName: categoryIcon)
+                    .font(.system(size: 28, weight: .medium))
+                    .foregroundColor(.white)
+                    .frame(width: 56, height: 56)
+                    .background(categoryColor)
+                    .clipShape(Circle())
+                    .shadow(color: categoryColor.opacity(0.3), radius: 4, x: 0, y: 2)
                 
                 Text(category.englishName)
                     .font(.subheadline)
@@ -291,6 +297,71 @@ struct SkillCategoryCard: View {
             )
         }
         .buttonStyle(PlainButtonStyle())
+    }
+    
+    // MARK: - Category Icon
+    private var categoryIcon: String {
+        switch category.englishName.lowercased() {
+        case let name where name.contains("art") || name.contains("creativity"):
+            return "paintbrush.fill"
+        case let name where name.contains("business") || name.contains("finance"):
+            return "chart.line.uptrend.xyaxis.circle.fill"
+        case let name where name.contains("technology") || name.contains("tech"):
+            return "laptopcomputer.and.iphone"
+        case let name where name.contains("health") || name.contains("fitness"):
+            return "heart.fill"
+        case let name where name.contains("language") || name.contains("communication"):
+            return "message.circle.fill"
+        case let name where name.contains("science") || name.contains("research"):
+            return "atom"
+        case let name where name.contains("education") || name.contains("learning"):
+            return "book.closed.fill"
+        case let name where name.contains("personal") || name.contains("development"):
+            return "person.circle.fill"
+        case let name where name.contains("home") || name.contains("diy"):
+            return "house.circle.fill"
+        case let name where name.contains("sport") || name.contains("recreation"):
+            return "figure.run.circle.fill"
+        case let name where name.contains("music") || name.contains("audio"):
+            return "music.note.list"
+        case let name where name.contains("cooking") || name.contains("food"):
+            return "fork.knife.circle.fill"
+        case let name where name.contains("travel") || name.contains("tourism"):
+            return "airplane.circle.fill"
+        case let name where name.contains("photography") || name.contains("camera"):
+            return "camera.fill"
+        case let name where name.contains("writing") || name.contains("literature"):
+            return "textformat"
+        default:
+            return "star.circle.fill"
+        }
+    }
+    // MARK: - Category Color
+    private var categoryColor: Color {
+        switch category.englishName.lowercased() {
+        case let name where name.contains("art") || name.contains("creativity"):
+            return Color(red: 0.47, green: 0.69, blue: 0.78) // Primary blue-teal
+        case let name where name.contains("business") || name.contains("finance"):
+            return Color(red: 0.2, green: 0.6, blue: 0.4) // Green
+        case let name where name.contains("technology") || name.contains("tech"):
+            return Color(red: 0.6, green: 0.2, blue: 0.8) // Purple
+        case let name where name.contains("health") || name.contains("fitness"):
+            return Color(red: 0.9, green: 0.3, blue: 0.3) // Red
+        case let name where name.contains("language") || name.contains("communication"):
+            return Color(red: 0.2, green: 0.7, blue: 0.9) // Blue
+        case let name where name.contains("science") || name.contains("research"):
+            return Color(red: 0.8, green: 0.4, blue: 0.2) // Orange
+        case let name where name.contains("education") || name.contains("learning"):
+            return Color(red: 0.4, green: 0.6, blue: 0.9) // Light Blue
+        case let name where name.contains("personal") || name.contains("development"):
+            return Color(red: 0.9, green: 0.6, blue: 0.2) // Yellow
+        case let name where name.contains("home") || name.contains("diy"):
+            return Color(red: 0.6, green: 0.8, blue: 0.4) // Light Green
+        case let name where name.contains("sport") || name.contains("recreation"):
+            return Color(red: 0.8, green: 0.2, blue: 0.6) // Pink
+        default:
+            return Color(red: 0.47, green: 0.69, blue: 0.78) // Primary blue-teal
+        }
     }
 }
 
