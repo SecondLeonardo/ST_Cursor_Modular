@@ -27,6 +27,11 @@ struct ExpertiseView: View {
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             selectedSkills = coordinator.onboardingData.expertSkills
+            // Update VIP service with current skill count
+            vipService.clearSelectedSkills(type: .expert)
+            for skill in selectedSkills {
+                vipService.addSelectedSkill(skill.id, type: .expert)
+            }
         }
         .sheet(isPresented: $showingSkillSelection) {
             SkillSelectionCoordinatorView(
@@ -34,6 +39,12 @@ struct ExpertiseView: View {
                 onSkillsSelected: { skills in
                     selectedSkills = skills
                     coordinator.onboardingData.expertSkills = skills
+                    
+                    // Update VIP service tracking
+                    vipService.clearSelectedSkills(type: .expert)
+                    for skill in skills {
+                        vipService.addSelectedSkill(skill.id, type: .expert)
+                    }
                 }
             )
         }
@@ -101,6 +112,7 @@ struct ExpertiseView: View {
                             if let index = selectedSkills.firstIndex(where: { $0.id == skill.id }) {
                                 selectedSkills.remove(at: index)
                                 coordinator.onboardingData.expertSkills = selectedSkills
+                                vipService.removeSelectedSkill(skill.id, type: .expert)
                             }
                         }
                     )

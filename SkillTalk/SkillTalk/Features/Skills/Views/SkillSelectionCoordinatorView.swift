@@ -9,6 +9,7 @@ struct SkillSelectionCoordinatorView: View {
     // MARK: - Properties
     @Environment(\.dismiss) private var dismiss
     @StateObject private var viewModel: SkillSelectionViewModel
+    @State private var showingVIPAlert = false
     
     let isExpertSkill: Bool
     let onSkillsSelected: ([Skill]) -> Void
@@ -42,11 +43,22 @@ struct SkillSelectionCoordinatorView: View {
             .navigationBarHidden(true)
             .background(Color(.systemBackground))
         }
-        .onAppear {
-            Task {
-                await viewModel.loadCategories()
+                    .onAppear {
+                Task {
+                    await viewModel.loadCategories()
+                }
             }
-        }
+            .alert("VIP Upgrade Required", isPresented: $showingVIPAlert) {
+                Button("Upgrade to VIP") {
+                    // Handle VIP upgrade - for now just dismiss
+                    showingVIPAlert = false
+                }
+                Button("Cancel", role: .cancel) {
+                    showingVIPAlert = false
+                }
+            } message: {
+                Text(viewModel.getVIPUpgradeMessage())
+            }
     }
     
     // MARK: - Header View
@@ -169,7 +181,19 @@ struct SkillSelectionCoordinatorView: View {
                             skill: skill,
                             isSelected: viewModel.selectedSkills.contains { $0.id == skill.id }
                         ) {
-                            viewModel.toggleSkill(skill)
+                            // Check VIP restrictions before toggling
+                            if !viewModel.selectedSkills.contains(where: { $0.id == skill.id }) {
+                                // Adding a new skill - check VIP limit
+                                if viewModel.isVIPUpgradeNeeded() {
+                                    // Show VIP alert
+                                    showingVIPAlert = true
+                                } else {
+                                    viewModel.toggleSkill(skill)
+                                }
+                            } else {
+                                // Removing a skill - always allowed
+                                viewModel.toggleSkill(skill)
+                            }
                         }
                     }
                 }

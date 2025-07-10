@@ -200,7 +200,7 @@ struct CategoryCardView: View {
     private var categoryColor: Color {
         switch category.englishName.lowercased() {
         case let name where name.contains("art") || name.contains("creativity"):
-            return ThemeColors.primary
+            return Color(red: 0.47, green: 0.69, blue: 0.78) // Primary blue-teal
         case let name where name.contains("business") || name.contains("finance"):
             return Color(red: 0.2, green: 0.6, blue: 0.4) // Green
         case let name where name.contains("technology") || name.contains("tech"):
@@ -220,7 +220,7 @@ struct CategoryCardView: View {
         case let name where name.contains("sport") || name.contains("recreation"):
             return Color(red: 0.8, green: 0.2, blue: 0.6) // Pink
         default:
-            return ThemeColors.primary
+            return Color(red: 0.47, green: 0.69, blue: 0.78) // Primary blue-teal
         }
     }
 }

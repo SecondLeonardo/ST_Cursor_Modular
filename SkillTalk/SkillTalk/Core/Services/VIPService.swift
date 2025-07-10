@@ -75,9 +75,19 @@ class VIPService: VIPServiceProtocol, ObservableObject {
     }
     
     func getCurrentSkillCount(type: SkillType) -> Int {
-        // This would typically load from UserDefaults or backend
-        // For now, return 0 as placeholder
-        return 0
+        // Load from UserDefaults based on skill type
+        let key: String
+        switch type {
+        case .expert:
+            key = "selected_expert_skills"
+        case .target:
+            key = "selected_target_skills"
+        case .language:
+            key = "selected_languages"
+        }
+        
+        let skills = UserDefaults.standard.stringArray(forKey: key) ?? []
+        return skills.count
     }
     
     // MARK: - Language Selection Methods
@@ -101,8 +111,68 @@ class VIPService: VIPServiceProtocol, ObservableObject {
         UserDefaults.standard.set(languages, forKey: "selected_languages")
     }
     
+    // MARK: - Skill Tracking Methods
+    func addSelectedSkill(_ skillId: String, type: SkillType) {
+        let key: String
+        switch type {
+        case .expert:
+            key = "selected_expert_skills"
+        case .target:
+            key = "selected_target_skills"
+        case .language:
+            key = "selected_languages"
+        }
+        
+        var skills = UserDefaults.standard.stringArray(forKey: key) ?? []
+        if !skills.contains(skillId) {
+            skills.append(skillId)
+            UserDefaults.standard.set(skills, forKey: key)
+        }
+    }
+    
+    func removeSelectedSkill(_ skillId: String, type: SkillType) {
+        let key: String
+        switch type {
+        case .expert:
+            key = "selected_expert_skills"
+        case .target:
+            key = "selected_target_skills"
+        case .language:
+            key = "selected_languages"
+        }
+        
+        var skills = UserDefaults.standard.stringArray(forKey: key) ?? []
+        skills.removeAll { $0 == skillId }
+        UserDefaults.standard.set(skills, forKey: key)
+    }
+    
+    func clearSelectedSkills(type: SkillType) {
+        let key: String
+        switch type {
+        case .expert:
+            key = "selected_expert_skills"
+        case .target:
+            key = "selected_target_skills"
+        case .language:
+            key = "selected_languages"
+        }
+        
+        UserDefaults.standard.removeObject(forKey: key)
+    }
+    
     func getVIPUpgradeMessage() -> String {
-        return "Upgrade to VIP to select multiple languages and unlock premium features!"
+        return "Upgrade to VIP to select multiple skills and unlock premium features!"
+    }
+    
+    func getMaxSkillsAllowed(type: SkillType) -> Int {
+        switch type {
+        case .expert:
+            return maxExpertSkills
+        case .target:
+            return maxTargetSkills
+        case .language:
+            return maxLanguages
+        }
     }
     
     // MARK: - VIP Status Management

@@ -7,6 +7,15 @@ struct BasicInfoView: View {
     @State private var phoneNumber = ""
     @State private var age = ""
     
+    // Validation states
+    @State private var nameError = ""
+    @State private var usernameError = ""
+    @State private var phoneError = ""
+    @State private var ageError = ""
+    
+    // Phone number formatting
+    @State private var formattedPhoneNumber = ""
+    
     var body: some View {
         VStack(spacing: 0) {
             ScrollView {
@@ -25,6 +34,18 @@ struct BasicInfoView: View {
             
             // Bottom button
             bottomButtonSection
+        }
+        .onAppear {
+            // Load existing data if available
+            name = coordinator.onboardingData.name
+            username = coordinator.onboardingData.username
+            phoneNumber = coordinator.onboardingData.phoneNumber
+            age = coordinator.onboardingData.age
+            
+            // Format phone number if exists
+            if !phoneNumber.isEmpty {
+                formattedPhoneNumber = formatPhoneNumber(phoneNumber)
+            }
         }
     }
     
@@ -47,37 +68,54 @@ struct BasicInfoView: View {
     private var formSection: some View {
         VStack(spacing: 24) {
             // Name field
-            FormField(
+            ValidatedFormField(
                 title: "Name",
                 placeholder: "Enter your full name",
                 text: $name,
-                isRequired: true
+                error: $nameError,
+                isRequired: true,
+                validation: validateName
             )
             
             // Username field
-            FormField(
+            ValidatedFormField(
                 title: "Username",
                 placeholder: "Choose a unique username",
                 text: $username,
-                isRequired: true
+                error: $usernameError,
+                isRequired: true,
+                validation: validateUsername
             )
             
             // Phone number field
-            FormField(
+            ValidatedFormField(
                 title: "Phone Number",
                 placeholder: "Enter your phone number",
-                text: $phoneNumber,
+                text: $formattedPhoneNumber,
+                error: $phoneError,
                 isRequired: true,
-                keyboardType: .phonePad
+                keyboardType: .phonePad,
+                validation: validatePhoneNumber,
+                onTextChange: { newValue in
+                    formattedPhoneNumber = formatPhoneNumber(newValue)
+                    phoneNumber = unformatPhoneNumber(formattedPhoneNumber)
+                }
             )
             
             // Age field
-            FormField(
+            ValidatedFormField(
                 title: "Age",
                 placeholder: "Enter your age",
                 text: $age,
+                error: $ageError,
                 isRequired: true,
-                keyboardType: .numberPad
+                keyboardType: .numberPad,
+                validation: validateAge,
+                onTextChange: { newValue in
+                    // Only allow digits
+                    let filtered = newValue.filter { $0.isNumber }
+                    age = filtered
+                }
             )
         }
     }
@@ -88,13 +126,16 @@ struct BasicInfoView: View {
             PrimaryButton(
                 title: "Next",
                 action: {
-                    // Save data to coordinator
-                    coordinator.onboardingData.name = name
-                    coordinator.onboardingData.username = username
-                    coordinator.onboardingData.phoneNumber = phoneNumber
-                    coordinator.onboardingData.age = age
-                    
-                    coordinator.nextStep()
+                    // Validate all fields before proceeding
+                    if validateAllFields() {
+                        // Save data to coordinator
+                        coordinator.onboardingData.name = name
+                        coordinator.onboardingData.username = username
+                        coordinator.onboardingData.phoneNumber = phoneNumber
+                        coordinator.onboardingData.age = age
+                        
+                        coordinator.nextStep()
+                    }
                 }
             )
             .disabled(!isFormValid)
@@ -107,20 +148,79 @@ struct BasicInfoView: View {
     
     // MARK: - Form Validation
     private var isFormValid: Bool {
-        !name.isEmpty &&
-        !username.isEmpty &&
-        !phoneNumber.isEmpty &&
-        !age.isEmpty
+        nameError.isEmpty && !name.isEmpty &&
+        usernameError.isEmpty && !username.isEmpty &&
+        phoneError.isEmpty && !phoneNumber.isEmpty &&
+        ageError.isEmpty && !age.isEmpty
+    }
+    
+    // MARK: - Validation Methods
+    private func validateAllFields() -> Bool {
+        let nameValid = validateName(name)
+        let usernameValid = validateUsername(username)
+        let phoneValid = validatePhoneNumber(formattedPhoneNumber)
+        let ageValid = validateAge(age)
+        
+        nameError = nameValid ? "" : "Please enter a valid name (2-50 characters)"
+        usernameError = usernameValid ? "" : "Username must be 3-20 characters, letters and numbers only"
+        phoneError = phoneValid ? "" : "Please enter a valid phone number"
+        ageError = ageValid ? "" : "Age must be between 13 and 100"
+        
+        return nameValid && usernameValid && phoneValid && ageValid
+    }
+    
+    private func validateName(_ name: String) -> Bool {
+        let trimmed = name.trimmingCharacters(in: .whitespacesAndNewlines)
+        return trimmed.count >= 2 && trimmed.count <= 50 && trimmed.contains(" ")
+    }
+    
+    private func validateUsername(_ username: String) -> Bool {
+        let trimmed = username.trimmingCharacters(in: .whitespacesAndNewlines)
+        let usernameRegex = "^[a-zA-Z0-9_]{3,20}$"
+        return trimmed.count >= 3 && trimmed.count <= 20 && 
+               trimmed.range(of: usernameRegex, options: .regularExpression) != nil
+    }
+    
+    private func validatePhoneNumber(_ phone: String) -> Bool {
+        let digits = phone.filter { $0.isNumber }
+        return digits.count >= 10 && digits.count <= 15
+    }
+    
+    private func validateAge(_ age: String) -> Bool {
+        guard let ageInt = Int(age) else { return false }
+        return ageInt >= 13 && ageInt <= 100
+    }
+    
+    // MARK: - Phone Number Formatting
+    private func formatPhoneNumber(_ phone: String) -> String {
+        let digits = phone.filter { $0.isNumber }
+        
+        if digits.count <= 3 {
+            return digits
+        } else if digits.count <= 6 {
+            return "(\(digits.prefix(3))) \(digits.dropFirst(3))"
+        } else if digits.count <= 10 {
+            return "(\(digits.prefix(3))) \(digits.dropFirst(3).prefix(3))-\(digits.dropFirst(6))"
+        } else {
+            return "(\(digits.prefix(3))) \(digits.dropFirst(3).prefix(3))-\(digits.dropFirst(6).prefix(4))"
+        }
+    }
+    
+    private func unformatPhoneNumber(_ formatted: String) -> String {
+        return formatted.filter { $0.isNumber }
     }
 }
 
-// MARK: - Form Field Component
-struct FormField: View {
+// MARK: - Validated Form Field Component
+struct ValidatedFormField: View {
     let title: String
     let placeholder: String
     @Binding var text: String
+    @Binding var error: String
     let isRequired: Bool
     var keyboardType: UIKeyboardType = .default
+    var validation: ((String) -> Bool)?
+    var onTextChange: ((String) -> Void)?
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -141,6 +241,36 @@ struct FormField: View {
             TextField(placeholder, text: $text)
                 .textFieldStyle(CustomTextFieldStyle())
                 .keyboardType(keyboardType)
+                .onChange(of: text) { newValue in
+                    onTextChange?(newValue)
+                    
+                    // Clear error when user starts typing
+                    if !error.isEmpty {
+                        error = ""
+                    }
+                    
+                    // Validate on change if validation function provided
+                    if let validation = validation {
+                        if !validation(newValue) && !newValue.isEmpty {
+                            // Don't show error immediately, wait for blur or submit
+                        }
+                    }
+                }
+                .onSubmit {
+                    // Validate on submit
+                    if let validation = validation {
+                        if !validation(text) {
+                            error = "Invalid \(title.lowercased())"
+                        }
+                    }
+                }
+            
+            if !error.isEmpty {
+                Text(error)
+                    .font(.caption)
+                    .foregroundColor(ThemeColors.error)
+                    .transition(.opacity)
+            }
         }
     }
 }

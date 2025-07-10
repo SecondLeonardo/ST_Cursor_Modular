@@ -27,6 +27,11 @@ struct TargetSkillView: View {
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             selectedSkills = coordinator.onboardingData.targetSkills
+            // Update VIP service with current skill count
+            vipService.clearSelectedSkills(type: .target)
+            for skill in selectedSkills {
+                vipService.addSelectedSkill(skill.id, type: .target)
+            }
         }
         .sheet(isPresented: $showingSkillSelection) {
             SkillSelectionCoordinatorView(
@@ -34,6 +39,12 @@ struct TargetSkillView: View {
                 onSkillsSelected: { skills in
                     selectedSkills = skills
                     coordinator.onboardingData.targetSkills = skills
+                    
+                    // Update VIP service tracking
+                    vipService.clearSelectedSkills(type: .target)
+                    for skill in skills {
+                        vipService.addSelectedSkill(skill.id, type: .target)
+                    }
                 }
             )
         }
@@ -101,6 +112,7 @@ struct TargetSkillView: View {
                             if let index = selectedSkills.firstIndex(where: { $0.id == skill.id }) {
                                 selectedSkills.remove(at: index)
                                 coordinator.onboardingData.targetSkills = selectedSkills
+                                vipService.removeSelectedSkill(skill.id, type: .target)
                             }
                         }
                     )

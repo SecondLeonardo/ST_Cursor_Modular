@@ -79,6 +79,7 @@ class SkillSelectionViewModel: ObservableObject {
     private let referenceDataRepository: ReferenceDataRepositoryProtocol
     private let skillType: UserSkillType
     private let language: String
+    private let vipService = VIPService.shared
     private var cancellables = Set<AnyCancellable>()
     
     // MARK: - Initialization
@@ -146,9 +147,21 @@ class SkillSelectionViewModel: ObservableObject {
     /// Select a skill
     func selectSkill(_ skill: Skill) {
         if selectedSkills.contains(skill) {
+            // Remove skill
             selectedSkills.removeAll { $0.id == skill.id }
+            vipService.removeSelectedSkill(skill.id, type: skillType == .expert ? SkillType.expert : SkillType.target)
         } else {
-            selectedSkills.append(skill)
+            // Check VIP restrictions before adding
+            let currentCount = vipService.getCurrentSkillCount(type: skillType == .expert ? SkillType.expert : SkillType.target)
+            let maxAllowed = vipService.getMaxSkillsAllowed(type: skillType == .expert ? SkillType.expert : SkillType.target)
+            
+            if currentCount < maxAllowed {
+                selectedSkills.append(skill)
+                vipService.addSelectedSkill(skill.id, type: skillType == .expert ? SkillType.expert : SkillType.target)
+            } else {
+                // Show VIP upgrade alert - this will be handled by the coordinator
+                print("⚠️ [SkillSelectionViewModel] VIP limit reached: \(currentCount)/\(maxAllowed)")
+            }
         }
         
         print("🎯 [SkillSelectionViewModel] Selected \(selectedSkills.count) skills")
@@ -266,6 +279,18 @@ class SkillSelectionViewModel: ObservableObject {
         filteredSkills = skills
     }
     
+    /// Check if VIP upgrade is needed for adding a skill
+    func isVIPUpgradeNeeded() -> Bool {
+        let currentCount = vipService.getCurrentSkillCount(type: skillType == .expert ? SkillType.expert : SkillType.target)
+        let maxAllowed = vipService.getMaxSkillsAllowed(type: skillType == .expert ? SkillType.expert : SkillType.target)
+        return currentCount >= maxAllowed
+    }
+    
+    /// Get VIP upgrade message
+    func getVIPUpgradeMessage() -> String {
+        return vipService.getVIPUpgradeMessage()
+    }
+    
     // MARK: - Private Methods
     
     private func setupBindings() {
@@ -300,7 +325,7 @@ class SkillSelectionViewModel: ObservableObject {
         errorMessage = nil
         
         do {
-            guard let categoryId = selectedCategory?.id else {
+            guard selectedCategory?.id != nil else {
                 errorMessage = "No category selected"
                 isLoading = false
                 return
