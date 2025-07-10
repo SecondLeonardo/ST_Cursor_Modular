@@ -3,8 +3,10 @@ import Combine
 
 struct ExpertiseView: View {
     @ObservedObject var coordinator: OnboardingCoordinator
+    @StateObject private var vipService = VIPService.shared
     @State private var showingSkillSelection = false
     @State private var selectedSkills: [Skill] = []
+    @State private var showingVIPUpgrade = false
     
     var body: some View {
         VStack(spacing: 0) {
@@ -34,6 +36,15 @@ struct ExpertiseView: View {
                     coordinator.onboardingData.expertSkills = skills
                 }
             )
+        }
+        .alert("VIP Upgrade Required", isPresented: $showingVIPUpgrade) {
+            Button("Upgrade to VIP") {
+                // TODO: Navigate to VIP upgrade screen
+                vipService.enableVIP() // For testing
+            }
+            Button("Cancel", role: .cancel) { }
+        } message: {
+            Text("Upgrade to VIP to select multiple expert skills and unlock premium features!")
         }
     }
     
@@ -104,7 +115,11 @@ struct ExpertiseView: View {
     private var bottomButtonSection: some View {
         VStack(spacing: 16) {
             Button(action: {
-                showingSkillSelection = true
+                if vipService.canAddSkill(type: .expert) || selectedSkills.isEmpty {
+                    showingSkillSelection = true
+                } else {
+                    showingVIPUpgrade = true
+                }
             }) {
                 HStack {
                     Image(systemName: "plus.circle.fill")
@@ -114,9 +129,10 @@ struct ExpertiseView: View {
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity)
                 .frame(height: 50)
-                .background(Color.blue)
+                .background(vipService.canAddSkill(type: .expert) || selectedSkills.isEmpty ? Color.blue : Color.gray)
                 .cornerRadius(12)
             }
+            .disabled(!vipService.canAddSkill(type: .expert) && !selectedSkills.isEmpty)
             
             if !selectedSkills.isEmpty {
                 Button(action: {

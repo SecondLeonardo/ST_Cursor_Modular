@@ -1,79 +1,127 @@
+//
+//  VIPService.swift
+//  SkillTalk
+//
+//  Created by SkillTalk Team
+//  Copyright © 2025 SkillTalk. All rights reserved.
+//
+
 import Foundation
 
 // MARK: - VIP Service Protocol
 protocol VIPServiceProtocol {
     var isVIPUser: Bool { get }
+    var maxExpertSkills: Int { get }
+    var maxTargetSkills: Int { get }
+    var maxLanguages: Int { get }
     var maxLanguagesAllowed: Int { get }
+    func canAddSkill(type: SkillType) -> Bool
+    func getCurrentSkillCount(type: SkillType) -> Int
     func canSelectAdditionalLanguage(currentCount: Int) -> Bool
+    func addSelectedLanguage(_ languageId: String)
     func getVIPUpgradeMessage() -> String
 }
 
+// MARK: - Skill Type Enum
+enum SkillType {
+    case expert
+    case target
+    case language
+}
+
 // MARK: - VIP Service Implementation
-class VIPService: VIPServiceProtocol {
+class VIPService: VIPServiceProtocol, ObservableObject {
     static let shared = VIPService()
     
-    // MARK: - Properties
-    private let userDefaults = UserDefaults.standard
-    private let vipKey = "user_vip_status"
+    @Published var isVIPUser: Bool = false
     
-    var isVIPUser: Bool {
-        get {
-            return userDefaults.bool(forKey: vipKey)
-        }
-        set {
-            userDefaults.set(newValue, forKey: vipKey)
-        }
+    private init() {
+        // Load VIP status from UserDefaults or backend
+        loadVIPStatus()
+    }
+    
+    // MARK: - VIP Limits
+    var maxExpertSkills: Int {
+        return isVIPUser ? 5 : 1
+    }
+    
+    var maxTargetSkills: Int {
+        return isVIPUser ? 5 : 1
+    }
+    
+    var maxLanguages: Int {
+        return isVIPUser ? 3 : 1
     }
     
     var maxLanguagesAllowed: Int {
-        return isVIPUser ? 5 : 1 // VIP users can select up to 5 languages, regular users only 1
+        return isVIPUser ? 5 : 1
     }
     
-    private init() {}
+    // MARK: - Skill Selection Validation
+    func canAddSkill(type: SkillType) -> Bool {
+        let currentCount = getCurrentSkillCount(type: type)
+        let maxCount: Int
+        
+        switch type {
+        case .expert:
+            maxCount = maxExpertSkills
+        case .target:
+            maxCount = maxTargetSkills
+        case .language:
+            maxCount = maxLanguages
+        }
+        
+        return currentCount < maxCount
+    }
     
-    // MARK: - Public Methods
+    func getCurrentSkillCount(type: SkillType) -> Int {
+        // This would typically load from UserDefaults or backend
+        // For now, return 0 as placeholder
+        return 0
+    }
     
+    // MARK: - Language Selection Methods
     func canSelectAdditionalLanguage(currentCount: Int) -> Bool {
         return currentCount < maxLanguagesAllowed
+    }
+    
+    func addSelectedLanguage(_ languageId: String) {
+        // Track selected languages in UserDefaults
+        var languages = UserDefaults.standard.stringArray(forKey: "selected_languages") ?? []
+        if !languages.contains(languageId) {
+            languages.append(languageId)
+            UserDefaults.standard.set(languages, forKey: "selected_languages")
+        }
+    }
+    
+    func removeSelectedLanguage(_ languageId: String) {
+        // Remove language from UserDefaults
+        var languages = UserDefaults.standard.stringArray(forKey: "selected_languages") ?? []
+        languages.removeAll { $0 == languageId }
+        UserDefaults.standard.set(languages, forKey: "selected_languages")
     }
     
     func getVIPUpgradeMessage() -> String {
         return "Upgrade to VIP to select multiple languages and unlock premium features!"
     }
     
-    // MARK: - VIP Management (for testing)
-    
-    func upgradeToVIP() {
-        isVIPUser = true
-        print("👑 User upgraded to VIP")
+    // MARK: - VIP Status Management
+    private func loadVIPStatus() {
+        // Load from UserDefaults or backend
+        isVIPUser = UserDefaults.standard.bool(forKey: "isVIPUser")
     }
     
-    func downgradeFromVIP() {
-        isVIPUser = false
-        print("👤 User downgraded from VIP")
+    func setVIPStatus(_ isVIP: Bool) {
+        isVIPUser = isVIP
+        UserDefaults.standard.set(isVIP, forKey: "isVIPUser")
     }
     
-    // MARK: - Language Selection Tracking
-    
-    func getSelectedLanguages() -> [String] {
-        return userDefaults.stringArray(forKey: "selected_languages") ?? []
+    // MARK: - Debug Methods
+    func enableVIP() {
+        setVIPStatus(true)
     }
     
-    func addSelectedLanguage(_ language: String) {
-        var languages = getSelectedLanguages()
-        if !languages.contains(language) {
-            languages.append(language)
-            userDefaults.set(languages, forKey: "selected_languages")
-        }
-    }
-    
-    func removeSelectedLanguage(_ language: String) {
-        var languages = getSelectedLanguages()
-        languages.removeAll { $0 == language }
-        userDefaults.set(languages, forKey: "selected_languages")
-    }
-    
-    func clearSelectedLanguages() {
-        userDefaults.removeObject(forKey: "selected_languages")
+    func disableVIP() {
+        setVIPStatus(false)
     }
 } 
