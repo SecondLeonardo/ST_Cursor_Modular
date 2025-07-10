@@ -8,6 +8,8 @@ struct ProfilePictureView: View {
     @State private var showingCamera = false
     @State private var showingActionSheet = false
     @State private var showingCropView = false
+    // Add a temp image to hold the image to crop
+    @State private var imageToCrop: UIImage?
     
     var body: some View {
         VStack(spacing: 0) {
@@ -28,16 +30,23 @@ struct ProfilePictureView: View {
             selectedImage = coordinator.onboardingData.profilePicture
         }
         .sheet(isPresented: $showingImagePicker) {
-            ImagePicker(selectedImage: $selectedImage, sourceType: .photoLibrary)
+            ImagePicker(selectedImage: $selectedImage, sourceType: .photoLibrary, onImagePicked: { image in
+                imageToCrop = image
+                showingCropView = true
+            })
         }
         .sheet(isPresented: $showingCamera) {
-            ImagePicker(selectedImage: $selectedImage, sourceType: .camera)
+            ImagePicker(selectedImage: $selectedImage, sourceType: .camera, onImagePicked: { image in
+                imageToCrop = image
+                showingCropView = true
+            })
         }
         .sheet(isPresented: $showingCropView) {
-            if let image = selectedImage {
+            if let image = imageToCrop {
                 ImageCropView(image: image) { croppedImage in
                     selectedImage = croppedImage
                     coordinator.onboardingData.profilePicture = croppedImage
+                    showingCropView = false
                 }
             }
         }
@@ -169,6 +178,7 @@ struct ProfilePictureView: View {
 struct ImagePicker: UIViewControllerRepresentable {
     @Binding var selectedImage: UIImage?
     let sourceType: UIImagePickerController.SourceType
+    var onImagePicked: ((UIImage) -> Void)? = nil
     @Environment(\.dismiss) private var dismiss
     
     func makeUIViewController(context: Context) -> UIImagePickerController {
@@ -195,8 +205,10 @@ struct ImagePicker: UIViewControllerRepresentable {
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
             if let image = info[.editedImage] as? UIImage {
                 parent.selectedImage = image
+                parent.onImagePicked?(image)
             } else if let image = info[.originalImage] as? UIImage {
                 parent.selectedImage = image
+                parent.onImagePicked?(image)
             }
             parent.dismiss()
         }
@@ -207,7 +219,7 @@ struct ImagePicker: UIViewControllerRepresentable {
     }
 }
 
-// MARK: - Image Crop View
+// MARK: - Enhanced Image Crop View
 struct ImageCropView: View {
     let image: UIImage
     let onCrop: (UIImage) -> Void
@@ -215,104 +227,138 @@ struct ImageCropView: View {
     @State private var scale: CGFloat = 1.0
     @State private var offset = CGSize.zero
     @State private var lastOffset = CGSize.zero
+    @State private var rotation: Angle = .zero
+    @State private var isFlippedH = false
+    @State private var isFlippedV = false
     
     var body: some View {
         NavigationView {
-            ZStack {
-                Color.black.ignoresSafeArea()
-                
-                VStack(spacing: 20) {
-                    // Instructions
-                    VStack(spacing: 8) {
-                        HStack {
-                            Image(systemName: "exclamationmark.triangle.fill")
-                                .foregroundColor(.yellow)
-                            Text("A real and clear profile picture is key to finding Skill partners.")
-                                .font(.subheadline)
-                                .foregroundColor(.white)
+            VStack(spacing: 0) {
+                Spacer(minLength: 20)
+                ZStack {
+                    // Background
+                    Color.black.opacity(0.8).ignoresSafeArea()
+                    // Crop area
+                    GeometryReader { geo in
+                        ZStack {
+                            // Image with transforms
+                            Image(uiImage: image)
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .scaleEffect(scale)
+                                .rotationEffect(rotation)
+                                .scaleEffect(x: isFlippedH ? -1 : 1, y: isFlippedV ? -1 : 1)
+                                .offset(offset)
+                                .frame(width: geo.size.width, height: geo.size.width)
+                                .clipShape(Circle())
+                                .gesture(
+                                    DragGesture()
+                                        .onChanged { value in
+                                            offset = CGSize(width: lastOffset.width + value.translation.width, height: lastOffset.height + value.translation.height)
+                                        }
+                                        .onEnded { _ in
+                                            lastOffset = offset
+                                        }
+                                )
+                                .gesture(
+                                    MagnificationGesture()
+                                        .onChanged { value in
+                                            scale = value
+                                        }
+                                        .onEnded { value in
+                                            scale = max(0.5, min(value, 4.0))
+                                        }
+                                )
+                            // Circular mask overlay
+                            Circle()
+                                .strokeBorder(Color.white.opacity(0.8), lineWidth: 2)
+                                .frame(width: geo.size.width, height: geo.size.width)
+                            // Grid overlay
+                            ForEach(1..<3) { i in
+                                Circle()
+                                    .strokeBorder(Color.white.opacity(0.2), lineWidth: 1)
+                                    .frame(width: geo.size.width * CGFloat(i) / 3, height: geo.size.width * CGFloat(i) / 3)
+                            }
                         }
-                        
-                        Text("To ensure optimal picture display, please place the main subject in the dotted lines.")
-                            .font(.caption)
-                            .foregroundColor(.white.opacity(0.8))
+                        .frame(width: geo.size.width, height: geo.size.width)
                     }
-                    .padding(.horizontal, 20)
-                    
-                    // Image with crop overlay
-                    ZStack {
-                        Image(uiImage: image)
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .scaleEffect(scale)
-                            .offset(offset)
-                            .gesture(
-                                DragGesture()
-                                    .onChanged { value in
-                                        offset = CGSize(
-                                            width: lastOffset.width + value.translation.width,
-                                            height: lastOffset.height + value.translation.height
-                                        )
-                                    }
-                                    .onEnded { _ in
-                                        lastOffset = offset
-                                    }
-                            )
-                            .gesture(
-                                MagnificationGesture()
-                                    .onChanged { value in
-                                        scale = value
-                                    }
-                            )
-                        
-                        // Crop circle overlay
-                        Circle()
-                            .stroke(Color.white, style: StrokeStyle(lineWidth: 2, dash: [5]))
-                            .frame(width: 200, height: 200)
-                    }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    
-                    Spacer()
+                    .aspectRatio(1, contentMode: .fit)
+                    .frame(maxWidth: 350, maxHeight: 350)
                 }
+                // Control panel
+                HStack(spacing: 24) {
+                    Button(action: { scale = min(scale + 0.1, 4.0) }) {
+                        Image(systemName: "plus.magnifyingglass")
+                    }
+                    Button(action: { scale = max(scale - 0.1, 0.5) }) {
+                        Image(systemName: "minus.magnifyingglass")
+                    }
+                    Button(action: { rotation += .degrees(90) }) {
+                        Image(systemName: "rotate.right")
+                    }
+                    Button(action: { isFlippedH.toggle() }) {
+                        Image(systemName: "arrow.left.and.right.righttriangle.left.righttriangle.right")
+                    }
+                    Button(action: { isFlippedV.toggle() }) {
+                        Image(systemName: "arrow.up.and.down.righttriangle.up.righttriangle.down")
+                    }
+                    Button(action: {
+                        // Reset
+                        scale = 1.0
+                        offset = .zero
+                        lastOffset = .zero
+                        rotation = .zero
+                        isFlippedH = false
+                        isFlippedV = false
+                    }) {
+                        Image(systemName: "arrow.counterclockwise")
+                    }
+                }
+                .padding()
+                .foregroundColor(.white)
+                .background(Color.black.opacity(0.7))
+                .clipShape(Capsule())
+                .padding(.bottom, 16)
+                // Crop button
+                Button(action: {
+                    let cropped = cropImage()
+                    onCrop(cropped)
+                    dismiss()
+                }) {
+                    Text("Crop & Use Photo")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(ThemeColors.primary)
+                        .clipShape(Capsule())
+                }
+                .padding(.horizontal, 32)
+                .padding(.bottom, 32)
             }
-            .navigationTitle("Crop Photo")
+            .background(Color.black.ignoresSafeArea())
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Button("Cancel") {
-                        dismiss()
-                    }
-                    .foregroundColor(.white)
-                }
-                
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("OK") {
-                        // Crop the image to the circle
-                        if let croppedImage = cropImageToCircle(image) {
-                            onCrop(croppedImage)
-                        }
-                        dismiss()
-                    }
-                    .foregroundColor(.white)
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("Cancel") { dismiss() }
+                        .foregroundColor(.white)
                 }
             }
         }
     }
     
-    private func cropImageToCircle(_ image: UIImage) -> UIImage? {
-        // Simple implementation - in a real app you'd want more sophisticated cropping
-        let size = CGSize(width: 200, height: 200)
-        UIGraphicsBeginImageContextWithOptions(size, false, 0)
-        
-        let rect = CGRect(origin: .zero, size: size)
-        let path = UIBezierPath(ovalIn: rect)
-        path.addClip()
-        
-        image.draw(in: rect)
-        
-        let croppedImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        
-        return croppedImage
+    // Crop the image to a circle with current transforms
+    private func cropImage() -> UIImage {
+        let renderer = UIGraphicsImageRenderer(size: CGSize(width: 400, height: 400))
+        return renderer.image { ctx in
+            ctx.cgContext.translateBy(x: 200, y: 200)
+            ctx.cgContext.rotate(by: CGFloat(rotation.radians))
+            ctx.cgContext.scaleBy(x: isFlippedH ? -scale : scale, y: isFlippedV ? -scale : scale)
+            ctx.cgContext.translateBy(x: -200 + offset.width, y: -200 + offset.height)
+            let rect = CGRect(x: 0, y: 0, width: 400, height: 400)
+            UIBezierPath(ovalIn: rect).addClip()
+            image.draw(in: rect)
+        }
     }
 }
 

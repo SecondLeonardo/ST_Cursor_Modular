@@ -140,11 +140,12 @@ struct CategoryCardView: View {
             VStack(spacing: 12) {
                 // Icon
                 Image(systemName: categoryIcon)
-                    .font(.system(size: 32))
+                    .font(.system(size: 28, weight: .medium))
                     .foregroundColor(.white)
-                    .frame(width: 60, height: 60)
+                    .frame(width: 56, height: 56)
                     .background(categoryColor)
                     .clipShape(Circle())
+                    .shadow(color: categoryColor.opacity(0.3), radius: 4, x: 0, y: 2)
                 
                 // Title
                 Text(category.englishName)
@@ -172,27 +173,39 @@ struct CategoryCardView: View {
     private var categoryIcon: String {
         switch category.englishName.lowercased() {
         case let name where name.contains("art") || name.contains("creativity"):
-            return "paintbrush"
+            return "paintbrush.fill"
         case let name where name.contains("business") || name.contains("finance"):
-            return "chart.line.uptrend.xyaxis"
+            return "chart.line.uptrend.xyaxis.circle.fill"
         case let name where name.contains("technology") || name.contains("tech"):
-            return "laptopcomputer"
+            return "laptopcomputer.and.iphone"
         case let name where name.contains("health") || name.contains("fitness"):
             return "heart.fill"
         case let name where name.contains("language") || name.contains("communication"):
-            return "message"
+            return "message.circle.fill"
         case let name where name.contains("science") || name.contains("research"):
             return "atom"
         case let name where name.contains("education") || name.contains("learning"):
-            return "book.fill"
+            return "book.closed.fill"
         case let name where name.contains("personal") || name.contains("development"):
-            return "person.fill"
+            return "person.circle.fill"
         case let name where name.contains("home") || name.contains("diy"):
-            return "house.fill"
+            return "house.circle.fill"
         case let name where name.contains("sport") || name.contains("recreation"):
-            return "figure.run"
+            return "figure.run.circle.fill"
+        case let name where name.contains("music") || name.contains("audio"):
+            return "music.note.list"
+        case let name where name.contains("cooking") || name.contains("food"):
+            return "fork.knife.circle.fill"
+        case let name where name.contains("travel") || name.contains("tourism"):
+            return "airplane.circle.fill"
+        case let name where name.contains("photography") || name.contains("camera"):
+            return "camera.fill"
+        case let name where name.contains("writing") || name.contains("literature"):
+            return "textformat"
+        case let name where name.contains("gaming") || name.contains("game"):
+            return "gamecontroller.fill"
         default:
-            return "star.fill"
+            return "star.circle.fill"
         }
     }
     

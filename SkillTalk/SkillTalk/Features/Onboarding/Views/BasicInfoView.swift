@@ -161,7 +161,7 @@ struct BasicInfoView: View {
         let phoneValid = validatePhoneNumber(formattedPhoneNumber)
         let ageValid = validateAge(age)
         
-        nameError = nameValid ? "" : "Please enter a valid name (2-50 characters)"
+        nameError = nameValid ? "" : "Name is required"
         usernameError = usernameValid ? "" : "Username must be 3-20 characters, letters and numbers only"
         phoneError = phoneValid ? "" : "Please enter a valid phone number"
         ageError = ageValid ? "" : "Age must be between 13 and 100"
@@ -171,7 +171,7 @@ struct BasicInfoView: View {
     
     private func validateName(_ name: String) -> Bool {
         let trimmed = name.trimmingCharacters(in: .whitespacesAndNewlines)
-        return trimmed.count >= 2 && trimmed.count <= 50 && trimmed.contains(" ")
+        return !trimmed.isEmpty
     }
     
     private func validateUsername(_ username: String) -> Bool {
