@@ -314,7 +314,7 @@ struct PrivacySettingsView: View {
 
 // MARK: - Supporting Views
 
-struct PrivacySettingRow<T: CaseIterable & Hashable>: View {
+struct PrivacySettingRow<T: CaseIterable & Hashable & CustomDisplayName>: View {
     let title: String
     let subtitle: String
     @Binding var selection: T
@@ -337,7 +337,7 @@ struct PrivacySettingRow<T: CaseIterable & Hashable>: View {
                 Spacer()
                 
                 Menu {
-                    ForEach(Array(options), id: \.self) { option in
+                    ForEach(Array(options), id: \.self) { (option: T) in
                         Button(option.displayName) {
                             selection = option
                             onSelectionChanged(option)
@@ -669,45 +669,18 @@ struct BlockedUsersView: View {
 
 // MARK: - Extensions
 
-extension ProfilePrivacySettings.PrivacyLevel {
-    var displayName: String {
-        switch self {
-        case .everyone: return "Everyone"
-        case .contacts: return "Contacts"
-        case .friends: return "Friends"
-        case .nobody: return "Nobody"
-        }
-    }
-}
-
-extension ProfilePrivacySettings.MessagePrivacyLevel {
-    var displayName: String {
-        switch self {
-        case .everyone: return "Everyone"
-        case .contacts: return "Contacts"
-        case .friends: return "Friends"
-        case .nobody: return "Nobody"
-        }
-    }
-}
-
-extension ProfilePrivacySettings.CallPrivacyLevel {
-    var displayName: String {
-        switch self {
-        case .everyone: return "Everyone"
-        case .contacts: return "Contacts"
-        case .friends: return "Friends"
-        case .nobody: return "Nobody"
-        }
-    }
-}
+extension ProfilePrivacySettings.PrivacyLevel: CustomDisplayName {}
+extension ProfilePrivacySettings.MessagePrivacyLevel: CustomDisplayName {}
+extension ProfilePrivacySettings.CallPrivacyLevel: CustomDisplayName {}
 
 // MARK: - Preview
 
-#Preview {
-    PrivacySettingsView(viewModel: ProfileViewModel(
-        profileService: MockProfileService(),
-        authService: MockAuthService(),
-        referenceDataService: MockReferenceDataManager()
-    ))
-} 
+// MARK: - Preview
+// TODO: Create mock services for preview
+// #Preview {
+//     PrivacySettingsView(viewModel: ProfileViewModel(
+//         profileService: MockProfileService(),
+//         authService: MockAuthService(),
+//         referenceDataService: ReferenceDataService()
+//     ))
+// } 

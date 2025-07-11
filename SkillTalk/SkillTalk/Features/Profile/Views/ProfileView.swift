@@ -5,9 +5,9 @@ struct UserProfileView: View {
     @Environment(\.dismiss) private var dismiss
     
     init(
-        profileService: ProfileServiceProtocol = MockProfileService(),
-        authService: AuthServiceProtocol = MockAuthService(),
-        referenceDataService: ReferenceDataServiceProtocol = ReferenceDataService()
+        profileService: ProfileServiceProtocol,
+        authService: AuthServiceProtocol,
+        referenceDataService: ReferenceDataServiceProtocol
     ) {
         self._viewModel = StateObject(wrappedValue: ProfileViewModel(
             profileService: profileService,
@@ -387,7 +387,7 @@ struct UserProfileView: View {
                         )
                     }
                     
-                    if !viewModel.profile?.interests.isEmpty ?? true {
+                    if let interests = viewModel.profile?.interests, !interests.isEmpty {
                         ProfileInfoRow(
                             title: "Interests",
                             value: viewModel.profile?.interests.map { $0.englishName }.joined(separator: ", ") ?? "",
@@ -627,6 +627,12 @@ struct ProfileInfoRow: View {
 
 // MARK: - Preview
 
-#Preview {
-    UserProfileView()
-} 
+// MARK: - Preview
+// TODO: Create mock services for preview
+// #Preview {
+//     UserProfileView(
+//         profileService: MockProfileService(),
+//         authService: MockAuthService(),
+//         referenceDataService: ReferenceDataService()
+//     )
+// } 
