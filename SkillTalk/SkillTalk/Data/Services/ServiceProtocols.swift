@@ -27,12 +27,7 @@ protocol ServiceFailoverProtocol {
     func handleFailover(to provider: ServiceProvider) async throws
 }
 
-protocol AuthServiceProtocol {
-    func signIn(email: String, password: String) async throws
-    func signUp(email: String, password: String) async throws
-    func signOut() async throws
-    func getCurrentUser() -> User?
-}
+// AuthServiceProtocol moved to Core/Services/Protocols/AuthServiceProtocol.swift
 
 protocol StorageServiceProtocol {
     var provider: ServiceProvider { get }
@@ -104,6 +99,7 @@ struct ServiceHealth: Codable, Equatable {
 // MARK: - Authentication Service Protocol
 
 /// Protocol for authentication services (Firebase Auth, Supabase Auth)
+/// Note: This is a legacy protocol. Use AuthServiceProtocol from Core/Services/Protocols/ instead.
 protocol AuthenticationServiceProtocol {
     
     // MARK: - Provider Info
@@ -153,16 +149,7 @@ protocol RealtimeMessagingProtocol {
 
 // MARK: - Supporting Models
 
-/// Authentication user model
-struct AuthUser: Codable {
-    let id: String
-    let email: String?
-    let displayName: String?
-    let photoURL: String?
-    let isEmailVerified: Bool
-    let createdAt: Date
-    let lastSignIn: Date?
-}
+// AuthUser moved to Core/Services/Protocols/AuthServiceProtocol.swift
 
 /// Storage metadata model
 struct StorageMetadata: Codable {
