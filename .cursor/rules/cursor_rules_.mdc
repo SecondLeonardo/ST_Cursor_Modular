@@ -188,18 +188,18 @@ let tasks = data["tasks"] // Fix: Access correct key
 
 **R0.11 MANDATORY SkillTalk Project Directory Structure**
 - **ALWAYS FOLLOW CORRECT PROJECT STRUCTURE**: All SkillTalk iOS app files MUST be created within the proper directory hierarchy
-- **NEVER CREATE FILES AT ROOT LEVEL**: Files should NOT be created in `/Users/applemacmini/SkillTalk_Swift/` (root level)
+- **NEVER CREATE FILES AT ROOT LEVEL**: Files should NOT be created in `/Users/applemacmini/SkillTalk_Swift_Modular/` (root level)
 
 **CORRECT PROJECT STRUCTURE:**
 ```
 Current Project Structure:
-SkillTalk/
+SkillTalk_Swift_Modular/
 ├── SkillTalk.xcodeproj/
 ├── .cursor/                              # Cursor configuration
 ├── database/                             # Skill database (JSON files)
 ├── design_document/                      # UIUX documentation
 ├── references_data/                      # Reference data (Dart files)
-├── source/SkillTalk/                     # ✅ MAIN iOS PROJECT DIRECTORY
+├── SkillTalk/                            # ✅ MAIN iOS PROJECT DIRECTORY
 │   ├── Core/                            # Core architecture components
 │   ├── Data/                            # Data layer
 │   ├── Features/                        # Feature modules
@@ -212,25 +212,25 @@ SkillTalk/
 ```
 
 **FILE CREATION RULES:**
-1. **Swift Files**: ALWAYS create in `SkillTalk/` subdirectories
+1. **Swift Files**: ALWAYS create in `SkillTalk/SkillTalk/` subdirectories
 2. **Test Files**: ALWAYS create in `SkillTalk/SkillTalkTests/`
-3. **Models**: Create in `SkillTalk/Core/Models/` or `SkillTalk/Data/Models/`
-4. **Services**: Create in `SkillTalk/Core/Services/` or `SkillTalk/Data/Services/`
-5. **Views**: Create in `SkillTalk/Features/[FeatureName]/Views/`
-6. **ViewModels**: Create in `SkillTalk/Features/[FeatureName]/ViewModels/`
+3. **Models**: Create in `SkillTalk/SkillTalk/Core/Models/` or `SkillTalk/SkillTalk/Data/Models/`
+4. **Services**: Create in `SkillTalk/SkillTalk/Core/Services/` or `SkillTalk/SkillTalk/Data/Services/`
+5. **Views**: Create in `SkillTalk/SkillTalk/Features/[FeatureName]/Views/`
+6. **ViewModels**: Create in `SkillTalk/SkillTalk/Features/[FeatureName]/ViewModels/`
 
 **DIRECTORY MAPPING:**
-- **Authentication**: `SkillTalk/Features/Authentication/`
-- **Voice Rooms**: `SkillTalk/Features/VoiceRoom/`
-- **Chat**: `SkillTalk/Features/Chat/`
-- **Matching**: `SkillTalk/Features/Matching/`
-- **Profile**: `SkillTalk/Features/Profile/`
-- **Posts**: `SkillTalk/Features/Posts/`
-- **Core Models**: `SkillTalk/Core/Models/`
-- **Services**: `SkillTalk/Core/Services/` or `SkillTalk/Data/Services/`
+- **Authentication**: `SkillTalk/SkillTalk/Features/Authentication/`
+- **Voice Rooms**: `SkillTalk/SkillTalk/Features/VoiceRoom/`
+- **Chat**: `SkillTalk/SkillTalk/Features/Chat/`
+- **Matching**: `SkillTalk/SkillTalk/Features/Matching/`
+- **Profile**: `SkillTalk/SkillTalk/Features/Profile/`
+- **Posts**: `SkillTalk/SkillTalk/Features/Posts/`
+- **Core Models**: `SkillTalk/SkillTalk/Core/Models/`
+- **Services**: `SkillTalk/SkillTalk/Core/Services/` or `SkillTalk/SkillTalk/Data/Services/`
 
 **VALIDATION CHECKLIST:**
-- ✅ Is the file path starting with `SkillTalk/`?
+- ✅ Is the file path starting with `SkillTalk/SkillTalk/`?
 - ✅ Is it in the correct feature directory?
 - ✅ Are test files in `SkillTalk/SkillTalkTests/`?
 - ❌ Never create Swift files at repository root level
