@@ -225,25 +225,52 @@ struct ProfilePrivacySettings: Codable, Equatable {
     var allowSkillRequests: Bool = true
     
     // MARK: - Privacy Levels
-    enum PrivacyLevel: String, Codable, CaseIterable {
+    enum PrivacyLevel: String, Codable, CaseIterable, CustomDisplayName {
         case everyone = "everyone"
         case contacts = "contacts"
         case friends = "friends"
         case nobody = "nobody"
+        
+        var displayName: String {
+            switch self {
+            case .everyone: return "Everyone"
+            case .contacts: return "Contacts"
+            case .friends: return "Friends"
+            case .nobody: return "Nobody"
+            }
+        }
     }
     
-    enum MessagePrivacyLevel: String, Codable, CaseIterable {
+    enum MessagePrivacyLevel: String, Codable, CaseIterable, CustomDisplayName {
         case everyone = "everyone"
         case contacts = "contacts"
         case friends = "friends"
         case nobody = "nobody"
+        
+        var displayName: String {
+            switch self {
+            case .everyone: return "Everyone"
+            case .contacts: return "Contacts"
+            case .friends: return "Friends"
+            case .nobody: return "Nobody"
+            }
+        }
     }
     
-    enum CallPrivacyLevel: String, Codable, CaseIterable {
+    enum CallPrivacyLevel: String, Codable, CaseIterable, CustomDisplayName {
         case everyone = "everyone"
         case contacts = "contacts"
         case friends = "friends"
         case nobody = "nobody"
+        
+        var displayName: String {
+            switch self {
+            case .everyone: return "Everyone"
+            case .contacts: return "Contacts"
+            case .friends: return "Friends"
+            case .nobody: return "Nobody"
+            }
+        }
     }
 }
 

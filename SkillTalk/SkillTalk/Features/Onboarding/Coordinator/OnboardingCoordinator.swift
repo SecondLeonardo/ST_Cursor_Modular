@@ -43,8 +43,13 @@ class OnboardingCoordinator: ObservableObject {
     func completeOnboarding() {
         // Mark onboarding as complete
         UserDefaults.standard.set(true, forKey: "onboardingCompleted")
-        // Navigate to main app
-        // This will be handled by the main app coordinator
+        
+        // Send notification to update app state
+        NotificationCenter.default.post(name: .onboardingCompleted, object: nil)
+        
+        #if DEBUG
+        print("✅ Onboarding completed successfully")
+        #endif
     }
     
     // MARK: - Progress Calculation

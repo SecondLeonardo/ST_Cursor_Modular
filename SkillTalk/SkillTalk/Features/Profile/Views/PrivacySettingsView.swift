@@ -1,5 +1,10 @@
 import SwiftUI
 
+// MARK: - Custom Display Name Protocol
+protocol CustomDisplayName {
+    var displayName: String { get }
+}
+
 struct PrivacySettingsView: View {
     @ObservedObject var viewModel: ProfileViewModel
     @Environment(\.dismiss) private var dismiss
@@ -668,10 +673,7 @@ struct BlockedUsersView: View {
 }
 
 // MARK: - Extensions
-
-extension ProfilePrivacySettings.PrivacyLevel: CustomDisplayName {}
-extension ProfilePrivacySettings.MessagePrivacyLevel: CustomDisplayName {}
-extension ProfilePrivacySettings.CallPrivacyLevel: CustomDisplayName {}
+// Note: Protocol conformance is already defined in UserProfile.swift
 
 // MARK: - Preview
 

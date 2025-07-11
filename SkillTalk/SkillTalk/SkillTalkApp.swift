@@ -12,6 +12,11 @@ import SwiftUI
 // for testing location service
 // import Features.Location.Views
 
+// MARK: - Notification Extensions
+extension Notification.Name {
+    static let onboardingCompleted = Notification.Name("onboardingCompleted")
+}
+
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
@@ -25,6 +30,9 @@ struct SkillTalkApp: App {
     // register app delegate for Firebase setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
+    // MARK: - App State
+    @State private var isOnboardingCompleted = UserDefaults.standard.bool(forKey: "onboardingCompleted")
+    
     // MARK: - Initialization
     
     init() {
@@ -35,18 +43,18 @@ struct SkillTalkApp: App {
     
     var body: some Scene {
         WindowGroup {
-            // Force onboarding to show for now (for testing)
-            // TODO: Uncomment the conditional logic below when ready for production
-            OnboardingContainerView()
-            
-            // Check if onboarding is completed
-            // if UserDefaults.standard.bool(forKey: "onboardingCompleted") {
-            //     // Show main app
-            //     MainAppView()
-            // } else {
-            //     // Show onboarding flow
-            //     OnboardingContainerView()
-            // }
+            // Proper onboarding/main app switching
+            if isOnboardingCompleted {
+                MainAppView()
+                    .onReceive(NotificationCenter.default.publisher(for: .onboardingCompleted)) { _ in
+                        isOnboardingCompleted = true
+                    }
+            } else {
+                OnboardingContainerView()
+                    .onReceive(NotificationCenter.default.publisher(for: .onboardingCompleted)) { _ in
+                        isOnboardingCompleted = true
+                    }
+            }
         }
     }
     
