@@ -12,6 +12,12 @@ import os.log
 
 // MARK: - Reference Data Service Protocol
 protocol ReferenceDataServiceProtocol {
+    // Service properties for accessing individual services
+    var countriesService: CountriesDatabase { get }
+    var citiesService: CitiesDatabase { get }
+    var occupationsService: OccupationsDatabase { get }
+    var hobbiesService: HobbiesDatabase { get }
+    
     // Core reference data loading
     func loadLanguages() async throws -> [LanguageModel]
     func loadCountries() async throws -> [CountryModel]
@@ -35,6 +41,12 @@ protocol ReferenceDataServiceProtocol {
 
 // MARK: - Reference Data Service Implementation
 class ReferenceDataService: ReferenceDataServiceProtocol {
+    
+    // MARK: - Service Properties
+    var countriesService: CountriesDatabase { CountriesDatabase() }
+    var citiesService: CitiesDatabase { CitiesDatabase() }
+    var occupationsService: OccupationsDatabase { OccupationsDatabase() }
+    var hobbiesService: HobbiesDatabase { HobbiesDatabase() }
     
     // MARK: - Properties
     private let bundle = Bundle.main
@@ -391,6 +403,11 @@ struct LanguageModel: Codable, Identifiable, Hashable {
 // MARK: - Mock Implementation for Testing
 #if DEBUG
 class MockReferenceDataService: ReferenceDataServiceProtocol {
+    // MARK: - Service Properties
+    var countriesService: CountriesDatabase { CountriesDatabase() }
+    var citiesService: CitiesDatabase { CitiesDatabase() }
+    var occupationsService: OccupationsDatabase { OccupationsDatabase() }
+    var hobbiesService: HobbiesDatabase { HobbiesDatabase() }
     func loadLanguages() async throws -> [LanguageModel] {
         return [
             LanguageModel(id: "en", englishName: "English", nativeName: "English", code: "en", isSupported: true),
