@@ -11,7 +11,7 @@ struct SecondLanguageView: View {
     @State private var isLoading: Bool = true
     @State private var errorMessage: String?
     private let languageService = LanguageDatabase.shared
-    private let vipService = VIPService.shared
+    private let vipService = VIPService()
     
     // Check if user is VIP
     private var isVIPUser: Bool {

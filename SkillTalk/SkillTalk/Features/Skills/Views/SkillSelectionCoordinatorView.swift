@@ -19,7 +19,7 @@ struct SkillSelectionCoordinatorView: View {
         self.isExpertSkill = isExpertSkill
         self.onSkillsSelected = onSkillsSelected
         self._viewModel = StateObject(wrappedValue: SkillSelectionViewModel(
-            skillType: isExpertSkill ? .expert : .target
+            skillType: isExpertSkill ? UserSkillType.expert : UserSkillType.target
         ))
     }
     

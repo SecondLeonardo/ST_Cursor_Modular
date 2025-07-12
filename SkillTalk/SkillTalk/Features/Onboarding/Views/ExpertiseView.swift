@@ -3,7 +3,7 @@ import Combine
 
 struct ExpertiseView: View {
     @ObservedObject var coordinator: OnboardingCoordinator
-    @StateObject private var vipService = VIPService.shared
+    @StateObject private var vipService = VIPService()
     @State private var showingSkillSelection = false
     @State private var selectedSkills: [Skill] = []
     @State private var showingVIPUpgrade = false

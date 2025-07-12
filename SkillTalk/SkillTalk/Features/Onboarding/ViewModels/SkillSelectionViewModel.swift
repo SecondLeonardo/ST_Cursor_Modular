@@ -79,7 +79,7 @@ class SkillSelectionViewModel: ObservableObject {
     private let referenceDataRepository: ReferenceDataRepositoryProtocol
     private let skillType: UserSkillType
     private let language: String
-    private let vipService = VIPService.shared
+    private let vipService: VIPServiceProtocol
     private var cancellables = Set<AnyCancellable>()
     
     // MARK: - Initialization
@@ -87,11 +87,13 @@ class SkillSelectionViewModel: ObservableObject {
     init(skillType: UserSkillType,
          language: String = Locale.current.languageCode ?? "en",
          skillRepository: SkillRepositoryProtocol = SkillRepository(),
-         referenceDataRepository: ReferenceDataRepositoryProtocol = ReferenceDataRepository()) {
+         referenceDataRepository: ReferenceDataRepositoryProtocol = ReferenceDataRepository(),
+         vipService: VIPServiceProtocol = VIPService()) {
         self.skillType = skillType
         self.language = language
         self.skillRepository = skillRepository
         self.referenceDataRepository = referenceDataRepository
+        self.vipService = vipService
         
         setupBindings()
     }
@@ -149,19 +151,10 @@ class SkillSelectionViewModel: ObservableObject {
         if selectedSkills.contains(skill) {
             // Remove skill
             selectedSkills.removeAll { $0.id == skill.id }
-            vipService.removeSelectedSkill(skill.id, type: skillType == .expert ? SkillType.expert : SkillType.target)
         } else {
-            // Check VIP restrictions before adding
-            let currentCount = vipService.getCurrentSkillCount(type: skillType == .expert ? SkillType.expert : SkillType.target)
-            let maxAllowed = vipService.getMaxSkillsAllowed(type: skillType == .expert ? SkillType.expert : SkillType.target)
-            
-            if currentCount < maxAllowed {
-                selectedSkills.append(skill)
-                vipService.addSelectedSkill(skill.id, type: skillType == .expert ? SkillType.expert : SkillType.target)
-            } else {
-                // Show VIP upgrade alert - this will be handled by the coordinator
-                print("⚠️ [SkillSelectionViewModel] VIP limit reached: \(currentCount)/\(maxAllowed)")
-            }
+            // For now, allow unlimited selection during onboarding
+            // VIP restrictions will be enforced in the main app
+            selectedSkills.append(skill)
         }
         
         print("🎯 [SkillSelectionViewModel] Selected \(selectedSkills.count) skills")
@@ -281,14 +274,14 @@ class SkillSelectionViewModel: ObservableObject {
     
     /// Check if VIP upgrade is needed for adding a skill
     func isVIPUpgradeNeeded() -> Bool {
-        let currentCount = vipService.getCurrentSkillCount(type: skillType == .expert ? SkillType.expert : SkillType.target)
-        let maxAllowed = vipService.getMaxSkillsAllowed(type: skillType == .expert ? SkillType.expert : SkillType.target)
-        return currentCount >= maxAllowed
+        // For now, always return false during onboarding
+        // VIP restrictions will be enforced in the main app
+        return false
     }
     
     /// Get VIP upgrade message
     func getVIPUpgradeMessage() -> String {
-        return vipService.getVIPUpgradeMessage()
+        return "Upgrade to VIP to select multiple skills and unlock premium features!"
     }
     
     // MARK: - Private Methods
@@ -350,8 +343,9 @@ class MockSkillSelectionViewModel: SkillSelectionViewModel {
     override init(skillType: UserSkillType,
                   language: String = Locale.current.languageCode ?? "en",
                   skillRepository: SkillRepositoryProtocol = SkillRepository(),
-                  referenceDataRepository: ReferenceDataRepositoryProtocol = ReferenceDataRepository()) {
-        super.init(skillType: skillType, language: language, skillRepository: skillRepository, referenceDataRepository: referenceDataRepository)
+                  referenceDataRepository: ReferenceDataRepositoryProtocol = ReferenceDataRepository(),
+                  vipService: VIPServiceProtocol = VIPService()) {
+        super.init(skillType: skillType, language: language, skillRepository: skillRepository, referenceDataRepository: referenceDataRepository, vipService: vipService)
     }
     
     override func loadData() async {

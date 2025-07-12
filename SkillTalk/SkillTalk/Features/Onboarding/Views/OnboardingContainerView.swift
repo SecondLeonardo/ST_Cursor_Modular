@@ -104,33 +104,7 @@ struct OnboardingContainerView: View {
     }
 }
 
-// MARK: - Onboarding Step Extensions
-extension OnboardingCoordinator.OnboardingStep {
-    var title: String {
-        switch self {
-        case .welcome:
-            return "Welcome"
-        case .signIn:
-            return "Sign In"
-        case .basicInfo:
-            return "Basic Info"
-        case .countrySelection:
-            return "I'm from"
-        case .nativeLanguage:
-            return "Native Language"
-        case .secondLanguage:
-            return "Second Language"
-        case .expertise:
-            return "Expertise"
-        case .targetSkill:
-            return "Target Skills"
-        case .profilePicture:
-            return "Profile Picture"
-        case .complete:
-            return "Complete"
-        }
-    }
-}
+
 
 #Preview {
     OnboardingContainerView()
