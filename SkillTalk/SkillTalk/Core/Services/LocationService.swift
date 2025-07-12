@@ -439,9 +439,9 @@ public class CoreLocationService: NSObject, LocationServiceProtocol {
 
 // MARK: - CLLocationManagerDelegate
 
-extension CoreLocationService: CLLocationManagerDelegate {
+extension CoreLocationService: @preconcurrency CLLocationManagerDelegate {
     
-    public func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    nonisolated public func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last else { return }
         
         Task { @MainActor in
@@ -461,36 +461,40 @@ extension CoreLocationService: CLLocationManagerDelegate {
         }
     }
     
-    public func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+    nonisolated public func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("📍 LocationService: Location update failed - \(error.localizedDescription)")
         
         // Handle single location request failure
-        if let continuation = singleLocationContinuation {
-            continuation.resume(throwing: LocationServiceError.locationUpdateFailed(error.localizedDescription))
-            singleLocationContinuation = nil
+        Task { @MainActor in
+            if let continuation = singleLocationContinuation {
+                continuation.resume(throwing: LocationServiceError.locationUpdateFailed(error.localizedDescription))
+                singleLocationContinuation = nil
+            }
         }
     }
     
-    public func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        permissionStatus = status
-        
-        switch status {
-        case .authorizedWhenInUse, .authorizedAlways:
-            print("📍 LocationService: Location permission granted")
-        case .denied, .restricted:
-            print("📍 LocationService: Location permission denied")
-            stopTracking()
-        case .notDetermined:
-            print("📍 LocationService: Location permission not determined")
-        @unknown default:
-            print("📍 LocationService: Unknown authorization status")
+    nonisolated public func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        Task { @MainActor in
+            permissionStatus = status
+            switch status {
+            case .authorizedWhenInUse, .authorizedAlways:
+                print("📍 LocationService: Location permission granted")
+            case .denied, .restricted:
+                print("📍 LocationService: Location permission denied")
+                stopTracking()
+            case .notDetermined:
+                print("📍 LocationService: Location permission not determined")
+            @unknown default:
+                print("📍 LocationService: Unknown authorization status")
+            }
+            permissionSubject.send(status)
         }
-        
-        permissionSubject.send(status)
     }
     
-    public func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
-        checkLocationServices()
+    nonisolated public func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        Task { @MainActor in
+            checkLocationServices()
+        }
     }
 }
 
@@ -610,8 +614,8 @@ public class MultiLocationService: LocationServiceProtocol {
     @Published public var privacyLevel: LocationPrivacyLevel = .city
     @Published public private(set) var isTracking: Bool = false
     
-    private let primaryService: any LocationServiceProtocol
-    private let fallbackService: any LocationServiceProtocol
+    private let primaryService: (any LocationServiceProtocol)?
+    private let fallbackService: (any LocationServiceProtocol)?
     private let healthMonitor: LocationServiceHealthMonitor
     
     private let locationSubject = PassthroughSubject<UserLocation, Never>()
@@ -626,8 +630,8 @@ public class MultiLocationService: LocationServiceProtocol {
     }
     
     public init(
-        primaryService: LocationServiceProtocol? = nil,
-        fallbackService: LocationServiceProtocol? = nil,
+        primaryService: (any LocationServiceProtocol)? = nil,
+        fallbackService: (any LocationServiceProtocol)? = nil,
         healthMonitor: LocationServiceHealthMonitor? = nil
     ) {
         self.primaryService = primaryService ?? CoreLocationService()
@@ -639,88 +643,121 @@ public class MultiLocationService: LocationServiceProtocol {
     
     private func setupBindings() async {
         // Bind to primary service
-        let locationPublisher = await primaryService.locationPublisher
-        locationPublisher
-            .sink { [weak self] location in
-                self?.currentLocation = location
-                self?.locationSubject.send(location)
-                self?.healthMonitor.recordSuccess(for: .coreLocation)
-            }
-            .store(in: &cancellables)
+        if let locationPublisher = await primaryService?.locationPublisher {
+            locationPublisher
+                .sink { [weak self] location in
+                    self?.currentLocation = location
+                    self?.locationSubject.send(location)
+                    self?.healthMonitor.recordSuccess(for: .coreLocation)
+                }
+                .store(in: &cancellables)
+        }
         
-        let permissionPublisher = await primaryService.permissionPublisher
-        permissionPublisher
-            .sink { [weak self] status in
-                self?.permissionStatus = status
-                self?.permissionSubject.send(status)
-            }
-            .store(in: &cancellables)
+        if let permissionPublisher = await primaryService?.permissionPublisher {
+            permissionPublisher
+                .sink { [weak self] status in
+                    self?.permissionStatus = status
+                    self?.permissionSubject.send(status)
+                }
+                .store(in: &cancellables)
+        }
         
         // Bind to fallback service
-        let fallbackLocationPublisher = await fallbackService.locationPublisher
-        fallbackLocationPublisher
-            .sink { [weak self] location in
-                self?.currentLocation = location
-                self?.locationSubject.send(location)
-                self?.healthMonitor.recordSuccess(for: .ipLocation)
-            }
-            .store(in: &cancellables)
+        if let fallbackLocationPublisher = await fallbackService?.locationPublisher {
+            fallbackLocationPublisher
+                .sink { [weak self] location in
+                    self?.currentLocation = location
+                    self?.locationSubject.send(location)
+                    self?.healthMonitor.recordSuccess(for: .ipLocation)
+                }
+                .store(in: &cancellables)
+        }
     }
     
     public func requestPermission() async throws {
         do {
-            try await primaryService.requestPermission()
+            try await primaryService?.requestPermission()
         } catch {
             print("📍 MultiLocationService: Primary service failed, trying fallback")
-            try await fallbackService.requestPermission()
+            try await fallbackService?.requestPermission()
         }
     }
     
     public func startTracking() async throws {
         do {
-            try await primaryService.startTracking()
+            try await primaryService?.startTracking()
             isTracking = true
         } catch {
             print("📍 MultiLocationService: Primary service failed, using fallback")
-            try await fallbackService.startTracking()
+            try await fallbackService?.startTracking()
             isTracking = true
         }
     }
     
     public func stopTracking() async {
-        await primaryService.stopTracking()
-        await fallbackService.stopTracking()
+        await primaryService?.stopTracking()
+        await fallbackService?.stopTracking()
         isTracking = false
     }
     
     public func getCurrentLocation() async throws -> UserLocation {
         do {
-            return try await primaryService.getCurrentLocation()
+            if let primaryLocation = try await primaryService?.getCurrentLocation() {
+                return primaryLocation
+            } else if let fallbackLocation = try await fallbackService?.getCurrentLocation() {
+                return fallbackLocation
+            } else {
+                return UserLocation(latitude: 0.0, longitude: 0.0, accuracy: 0.0)
+            }
         } catch {
             print("📍 MultiLocationService: Primary service failed, using fallback")
-            return try await fallbackService.getCurrentLocation()
+            if let fallbackLocation = try await fallbackService?.getCurrentLocation() {
+                return fallbackLocation
+            } else {
+                return UserLocation(latitude: 0.0, longitude: 0.0, accuracy: 0.0)
+            }
         }
     }
     
     public func updatePrivacyLevel(_ level: LocationPrivacyLevel) async {
         privacyLevel = level
-        await primaryService.updatePrivacyLevel(level)
-        await fallbackService.updatePrivacyLevel(level)
+        await primaryService?.updatePrivacyLevel(level)
+        await fallbackService?.updatePrivacyLevel(level)
     }
     
     public func getNearbyUsers(radius: Double) async throws -> [String] {
         do {
-            return try await primaryService.getNearbyUsers(radius: radius)
+            if let primaryUsers = try await primaryService?.getNearbyUsers(radius: radius) {
+                return primaryUsers
+            } else if let fallbackUsers = try await fallbackService?.getNearbyUsers(radius: radius) {
+                return fallbackUsers
+            } else {
+                return []
+            }
         } catch {
-            return try await fallbackService.getNearbyUsers(radius: radius)
+            if let fallbackUsers = try await fallbackService?.getNearbyUsers(radius: radius) {
+                return fallbackUsers
+            } else {
+                return []
+            }
         }
     }
     
     public func calculateDistance(to userId: String) async throws -> Double {
         do {
-            return try await primaryService.calculateDistance(to: userId)
+            if let primaryDistance = try await primaryService?.calculateDistance(to: userId) {
+                return primaryDistance
+            } else if let fallbackDistance = try await fallbackService?.calculateDistance(to: userId) {
+                return fallbackDistance
+            } else {
+                return 0.0
+            }
         } catch {
-            return try await fallbackService.calculateDistance(to: userId)
+            if let fallbackDistance = try await fallbackService?.calculateDistance(to: userId) {
+                return fallbackDistance
+            } else {
+                return 0.0
+            }
         }
     }
     

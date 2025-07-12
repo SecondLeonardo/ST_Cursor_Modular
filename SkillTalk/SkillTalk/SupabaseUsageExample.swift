@@ -14,7 +14,7 @@ import Supabase
 class SupabaseUsageExample: ObservableObject {
     
     private let logger = Logger(category: "SupabaseUsageExample")
-    private let serviceManager = ServiceManager.shared
+    private var serviceManager: ServiceManager?
     private let supabaseTest = SupabaseTest()
     
     @Published var isTesting = false
@@ -31,9 +31,18 @@ class SupabaseUsageExample: ObservableObject {
         testResults.append("🚀 Initializing Supabase...")
         
         do {
+            // Get ServiceManager instance
+            await MainActor.run {
+                serviceManager = ServiceManager.shared
+            }
+            
             // Test Supabase configuration
-            await serviceManager.testSupabaseConfiguration()
-            testResults.append("✅ Supabase configuration successful")
+            if let serviceManager = serviceManager {
+                await serviceManager.testSupabaseConfiguration()
+                testResults.append("✅ Supabase configuration successful")
+            } else {
+                throw NSError(domain: "ServiceManager", code: -1, userInfo: [NSLocalizedDescriptionKey: "ServiceManager not available"])
+            }
             
             // Run comprehensive tests
             await supabaseTest.runAllTests()

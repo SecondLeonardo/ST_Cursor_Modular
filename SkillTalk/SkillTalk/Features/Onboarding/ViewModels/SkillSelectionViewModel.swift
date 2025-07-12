@@ -10,6 +10,43 @@ import Foundation
 import Combine
 import SwiftUI
 
+// MARK: - Mock VIP Service
+
+/// Mock VIP service for use in initializers where @MainActor isolation is not available
+private class MockVIPService: VIPServiceProtocol {
+    var isVIP: AnyPublisher<Bool, Never> {
+        Just(false).eraseToAnyPublisher()
+    }
+    
+    func getVIPStatus(for userId: String) async -> Bool {
+        return false
+    }
+    
+    func canSelectMultipleSkills(for userId: String) async -> Bool {
+        return false
+    }
+    
+    func canSelectMultipleLanguages(for userId: String) async -> Bool {
+        return false
+    }
+    
+    func getMaxSkillCount(for userId: String) async -> Int {
+        return 1
+    }
+    
+    func getMaxLanguageCount(for userId: String) async -> Int {
+        return 1
+    }
+    
+    func upgradeToVIP(for userId: String) async throws {
+        // Mock implementation - does nothing
+    }
+    
+    func downgradeFromVIP(for userId: String) async throws {
+        // Mock implementation - does nothing
+    }
+}
+
 // MARK: - Skill Selection View Model
 
 /// ViewModel for skill selection during onboarding
@@ -88,12 +125,12 @@ class SkillSelectionViewModel: ObservableObject {
          language: String = Locale.current.languageCode ?? "en",
          skillRepository: SkillRepositoryProtocol = SkillRepository(),
          referenceDataRepository: ReferenceDataRepositoryProtocol = ReferenceDataRepository(),
-         vipService: VIPServiceProtocol = VIPService()) {
+         vipService: VIPServiceProtocol? = nil) {
         self.skillType = skillType
         self.language = language
         self.skillRepository = skillRepository
         self.referenceDataRepository = referenceDataRepository
-        self.vipService = vipService
+        self.vipService = vipService ?? MockVIPService()
         
         setupBindings()
     }
@@ -344,7 +381,7 @@ class MockSkillSelectionViewModel: SkillSelectionViewModel {
                   language: String = Locale.current.languageCode ?? "en",
                   skillRepository: SkillRepositoryProtocol = SkillRepository(),
                   referenceDataRepository: ReferenceDataRepositoryProtocol = ReferenceDataRepository(),
-                  vipService: VIPServiceProtocol = VIPService()) {
+                  vipService: VIPServiceProtocol? = nil) {
         super.init(skillType: skillType, language: language, skillRepository: skillRepository, referenceDataRepository: referenceDataRepository, vipService: vipService)
     }
     

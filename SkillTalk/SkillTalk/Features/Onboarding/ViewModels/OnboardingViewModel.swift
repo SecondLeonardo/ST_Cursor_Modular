@@ -10,6 +10,43 @@ import Foundation
 import Combine
 import SwiftUI
 
+// MARK: - Mock VIP Service
+
+/// Mock VIP service for use in initializers where @MainActor isolation is not available
+private class MockVIPService: VIPServiceProtocol {
+    var isVIP: AnyPublisher<Bool, Never> {
+        Just(false).eraseToAnyPublisher()
+    }
+    
+    func getVIPStatus(for userId: String) async -> Bool {
+        return false
+    }
+    
+    func canSelectMultipleSkills(for userId: String) async -> Bool {
+        return false
+    }
+    
+    func canSelectMultipleLanguages(for userId: String) async -> Bool {
+        return false
+    }
+    
+    func getMaxSkillCount(for userId: String) async -> Int {
+        return 1
+    }
+    
+    func getMaxLanguageCount(for userId: String) async -> Int {
+        return 1
+    }
+    
+    func upgradeToVIP(for userId: String) async throws {
+        // Mock implementation - does nothing
+    }
+    
+    func downgradeFromVIP(for userId: String) async throws {
+        // Mock implementation - does nothing
+    }
+}
+
 // MARK: - Onboarding View Model
 
 /// ViewModel for managing onboarding flow and data
@@ -40,11 +77,11 @@ class OnboardingViewModel: ObservableObject {
     ),
          referenceDataService: ReferenceDataServiceProtocol = ReferenceDataService(),
          skillService: SkillRepositoryProtocol = SkillRepository(),
-         vipService: VIPServiceProtocol = VIPService()) {
+         vipService: VIPServiceProtocol? = nil) {
         self.authService = authService
         self.referenceDataService = referenceDataService
         self.skillService = skillService
-        self.vipService = vipService
+        self.vipService = vipService ?? MockVIPService()
         
         setupBindings()
     }
