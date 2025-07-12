@@ -15,6 +15,7 @@ import SwiftUI
 // MARK: - Notification Extensions
 extension Notification.Name {
     static let onboardingCompleted = Notification.Name("onboardingCompleted")
+    static let resetOnboarding = Notification.Name("resetOnboarding")
 }
 
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -31,7 +32,8 @@ struct SkillTalkApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     // MARK: - App State
-    @State private var isOnboardingCompleted = UserDefaults.standard.bool(forKey: "onboardingCompleted")
+    @State private var isOnboardingCompleted = false // Force onboarding for testing
+    // @State private var isOnboardingCompleted = UserDefaults.standard.bool(forKey: "onboardingCompleted")
     
     // MARK: - Initialization
     
@@ -48,6 +50,9 @@ struct SkillTalkApp: App {
                 MainAppView()
                     .onReceive(NotificationCenter.default.publisher(for: .onboardingCompleted)) { _ in
                         isOnboardingCompleted = true
+                    }
+                    .onReceive(NotificationCenter.default.publisher(for: .resetOnboarding)) { _ in
+                        isOnboardingCompleted = false
                     }
             } else {
                 OnboardingContainerView()

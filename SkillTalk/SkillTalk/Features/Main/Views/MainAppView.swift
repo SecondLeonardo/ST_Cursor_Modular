@@ -167,6 +167,7 @@ struct ProfileView: View {
             // Add a button to reset onboarding for testing
             Button("Reset Onboarding") {
                 UserDefaults.standard.set(false, forKey: "onboardingCompleted")
+                NotificationCenter.default.post(name: .resetOnboarding, object: nil)
             }
             .buttonStyle(.borderedProminent)
             .tint(Color(DesignSystem.Colors.primary))
