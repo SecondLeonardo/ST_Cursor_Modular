@@ -16,8 +16,8 @@ struct SkillDatabaseConfiguration {
     // MARK: - Supabase Configuration
     
     struct Supabase {
-        static let baseURL = "https://your-project.supabase.co/rest/v1"
-        static let apiKey = "your-supabase-anon-key"
+        static let baseURL = "https://tjafdbkbrenhzmvqlfbm.supabase.co/rest/v1"
+        static let apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRqYWZkYmticmVuaHptdnFsZmJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTIzNTQyODMsImV4cCI6MjA2NzkzMDI4M30.j0EUs4EZvRL9VSoRq0hWl79T1DlaW6l4cz3D5mmqHRQ"
         
         // Table names
         static let categoriesTable = "categories"

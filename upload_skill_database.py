@@ -4,7 +4,7 @@ Skill Database Upload Script
 Uploads skill database to both Supabase and Firebase
 
 Usage:
-    python upload_skill_database.py --supabase-url YOUR_URL --supabase-key YOUR_KEY --firebase-project YOUR_PROJECT
+    python upload_skill_database.py --supabase-url https://tjafdbkbrenhzmvqlfbm.supabase.co --supabase-key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRqYWZkYmticmVuaHptdnFsZmJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTIzNTQyODMsImV4cCI6MjA2NzkzMDI4M30.j0EUs4EZvRL9VSoRq0hWl79T1DlaW6l4cz3D5mmqHRQ --firebase-project YOUR_PROJECT
 """
 
 import json
