@@ -7,7 +7,8 @@
 //
 
 import SwiftUI
-// import FirebaseCore // Temporarily commented out due to linking issue
+import FirebaseCore
+import FBSDKCoreKit
 
 // for testing location service
 // import Features.Location.Views
@@ -21,8 +22,24 @@ extension Notification.Name {
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        // FirebaseApp.configure() // Temporarily commented out due to linking issue
+        
+        // Configure Firebase
+        FirebaseApp.configure()
+        
+        // Configure Facebook SDK
+        FBSDKCoreKit.ApplicationDelegate.shared.application(
+            application,
+            didFinishLaunchingWithOptions: launchOptions
+        )
+        
+        // Configure social authentication
+        SocialAuthConfiguration.shared.applicationDidFinishLaunching()
+        
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
+        return SocialAuthConfiguration.shared.application(app, open: url, options: options)
     }
 }
 

@@ -485,7 +485,7 @@ struct LanguageCode: Codable {
     let code: String
 }
 
-struct CachedSkillData {
+class CachedSkillData {
     var categories: [SkillCategory]?
     var subcategories: [SkillSubcategory]?
     var skills: [Skill]?

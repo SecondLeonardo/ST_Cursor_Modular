@@ -2,7 +2,7 @@ import SwiftUI
 
 struct OnboardingContainerView: View {
     @StateObject private var coordinator = OnboardingCoordinator()
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss
     
     var body: some View {
         NavigationView {

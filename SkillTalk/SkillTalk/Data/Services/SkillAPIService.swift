@@ -39,7 +39,7 @@ class SkillAPIService: SkillAPIServiceProtocol {
     
     // MARK: - Properties
     private let baseURL = "https://api.skilltalk.com/v1"
-    private let cache = NSCache<NSString, CachedSkillData>()
+    private let cache = NSCache<NSString, APICachedSkillData>()
     private let cacheTimeout: TimeInterval = 3600 // 1 hour
     private let session = URLSession.shared
     private let decoder = JSONDecoder()
@@ -382,7 +382,7 @@ class SkillAPIService: SkillAPIServiceProtocol {
     }
     
     private func setCachedData(_ data: Any, for key: String) {
-        let cachedData = CachedSkillData(data: data, timestamp: Date())
+        let cachedData = APICachedSkillData(data: data, timestamp: Date())
         cache.setObject(cachedData, forKey: key as NSString)
     }
     
@@ -396,7 +396,7 @@ class SkillAPIService: SkillAPIServiceProtocol {
 // MARK: - Supporting Types
 
 /// Cached skill data wrapper
-private class CachedSkillData {
+private class APICachedSkillData {
     let data: Any
     let timestamp: Date
     

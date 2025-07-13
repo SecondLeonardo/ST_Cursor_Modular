@@ -179,7 +179,7 @@ struct ImagePicker: UIViewControllerRepresentable {
     @Binding var selectedImage: UIImage?
     let sourceType: UIImagePickerController.SourceType
     var onImagePicked: ((UIImage) -> Void)? = nil
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss
     
     func makeUIViewController(context: Context) -> UIImagePickerController {
         let picker = UIImagePickerController()
@@ -223,7 +223,7 @@ struct ImagePicker: UIViewControllerRepresentable {
 struct ImageCropView: View {
     let image: UIImage
     let onCrop: (UIImage) -> Void
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss
     @State private var scale: CGFloat = 1.0
     @State private var offset = CGSize.zero
     @State private var lastOffset = CGSize.zero

@@ -364,7 +364,7 @@ struct SelectedLanguageRowView: View {
 
 // MARK: - Proficiency Picker View
 struct ProficiencyPickerView: View {
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss
     let selectedProficiency: LanguageProficiency
     let onSelect: (LanguageProficiency) -> Void
     
