@@ -28,9 +28,10 @@ class SkillCategorySelectionViewModel: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     
     // MARK: - Initialization
-    init(skillRepository: SkillRepositoryProtocol = SkillRepository()) {
-        self.skillRepository = skillRepository
-        print("🔧 SkillCategorySelectionViewModel: Initialized with skill repository")
+    init(skillRepository: SkillRepositoryProtocol? = nil) {
+        // Use multi-provider service by default, or allow injection for testing
+        self.skillRepository = skillRepository ?? SkillRepository()
+        print("🔧 SkillCategorySelectionViewModel: Initialized with multi-provider skill repository")
     }
     
     // MARK: - Public Methods

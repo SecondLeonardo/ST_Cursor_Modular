@@ -58,10 +58,9 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
         log("🔥 Loading categories from Firebase for language: \(language)")
         
         do {
-            let snapshot = try await db.collection("skills")
-                .document("categories")
-                .collection(language)
-                .order(by: "sortOrder")
+            let snapshot = try await db.collection("categories")
+                .whereField("language", isEqualTo: language)
+                .order(by: "sort_order")
                 .getDocuments()
             
             let categories = try snapshot.documents.compactMap { document in
@@ -92,11 +91,10 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
         log("🔥 Loading subcategories from Firebase for category: \(categoryId)")
         
         do {
-            let snapshot = try await db.collection("skills")
-                .document("subcategories")
-                .collection(language)
-                .whereField("categoryId", isEqualTo: categoryId)
-                .order(by: "sortOrder")
+            let snapshot = try await db.collection("subcategories")
+                .whereField("category_id", isEqualTo: categoryId)
+                .whereField("language", isEqualTo: language)
+                .order(by: "sort_order")
                 .getDocuments()
             
             let subcategories = try snapshot.documents.compactMap { document in
@@ -128,9 +126,8 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
         
         do {
             let snapshot = try await db.collection("skills")
-                .document("skills")
-                .collection(language)
-                .whereField("subcategoryId", isEqualTo: subcategoryId)
+                .whereField("subcategory_id", isEqualTo: subcategoryId)
+                .whereField("language", isEqualTo: language)
                 .order(by: "popularity", descending: true)
                 .getDocuments()
             
@@ -167,8 +164,7 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             // Firebase doesn't support full-text search natively, so we'll use a simple approach
             // In production, you might want to use Algolia or similar for better search
             let snapshot = try await db.collection("skills")
-                .document("skills")
-                .collection(language)
+                .whereField("language", isEqualTo: language)
                 .order(by: "popularity", descending: true)
                 .limit(to: limit)
                 .getDocuments()
@@ -208,9 +204,8 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
         
         do {
             let snapshot = try await db.collection("skills")
-                .document("skills")
-                .collection(language)
                 .whereField("difficulty", isEqualTo: difficulty.rawValue)
+                .whereField("language", isEqualTo: language)
                 .order(by: "popularity", descending: true)
                 .getDocuments()
             
@@ -243,8 +238,7 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
         
         do {
             let snapshot = try await db.collection("skills")
-                .document("skills")
-                .collection(language)
+                .whereField("language", isEqualTo: language)
                 .order(by: "popularity", descending: true)
                 .limit(to: limit)
                 .getDocuments()

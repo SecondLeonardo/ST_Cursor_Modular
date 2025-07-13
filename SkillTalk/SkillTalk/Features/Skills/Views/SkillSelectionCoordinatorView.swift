@@ -10,6 +10,7 @@ struct SkillSelectionCoordinatorView: View {
     @Environment(\.dismiss) private var dismiss
     @StateObject private var viewModel: SkillSelectionViewModel
     @State private var showingVIPAlert = false
+    @State private var showingServiceHealth = false
     
     let isExpertSkill: Bool
     let onSkillsSelected: ([Skill]) -> Void
@@ -59,6 +60,12 @@ struct SkillSelectionCoordinatorView: View {
             } message: {
                 Text(viewModel.getVIPUpgradeMessage())
             }
+            .sheet(isPresented: $showingServiceHealth) {
+                SkillServiceHealthView()
+            }
+            .sheet(isPresented: $showingServiceHealth) {
+                SkillServiceHealthView()
+            }
     }
     
     // MARK: - Header View
@@ -85,6 +92,16 @@ struct SkillSelectionCoordinatorView: View {
                 
                 Spacer()
                 
+                // Service health button (only show in debug builds)
+                #if DEBUG
+                Button(action: {
+                    showingServiceHealth = true
+                }) {
+                    Image(systemName: "heart.fill")
+                        .font(.title2)
+                        .foregroundColor(.green)
+                }
+                #else
                 // Invisible button for balance
                 Button(action: {}) {
                     Image(systemName: "xmark")
@@ -92,6 +109,7 @@ struct SkillSelectionCoordinatorView: View {
                         .foregroundColor(.clear)
                 }
                 .disabled(true)
+                #endif
             }
             .padding(.horizontal, 20)
             .padding(.top, 20)

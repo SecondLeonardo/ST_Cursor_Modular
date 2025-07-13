@@ -209,10 +209,11 @@ class SkillSubcategorySelectionViewModel: ObservableObject {
     private let skillRepository: SkillRepositoryProtocol
     
     // MARK: - Initialization
-    init(category: SkillCategory, skillRepository: SkillRepositoryProtocol = SkillRepository()) {
+    init(category: SkillCategory, skillRepository: SkillRepositoryProtocol? = nil) {
         self.category = category
-        self.skillRepository = skillRepository
-        print("🔧 SkillSubcategorySelectionViewModel: Initialized for category: \(category.englishName)")
+        // Use multi-provider service by default, or allow injection for testing
+        self.skillRepository = skillRepository ?? SkillRepository()
+        print("🔧 SkillSubcategorySelectionViewModel: Initialized for category: \(category.englishName) with multi-provider service")
     }
     
     // MARK: - Public Methods

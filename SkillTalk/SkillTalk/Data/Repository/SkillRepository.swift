@@ -43,10 +43,12 @@ class SkillRepository: SkillRepositoryProtocol {
     
     // MARK: - Initialization
     
-    init(skillDatabaseService: SkillDatabaseServiceProtocol = SkillDatabaseService(),
+    init(skillDatabaseService: SkillDatabaseServiceProtocol? = nil,
          analyticsService: SkillAnalyticsServiceProtocol = SkillAnalyticsService()) {
-        self.skillDatabaseService = skillDatabaseService
+        // Use multi-provider service by default, or allow injection for testing
+        self.skillDatabaseService = skillDatabaseService ?? SkillDatabaseServiceFactory.shared.createMultiProviderService()
         self.analyticsService = analyticsService
+        print("🚀 [SkillRepository] Initialized with multi-provider skill database service")
     }
     
     // MARK: - Public Methods

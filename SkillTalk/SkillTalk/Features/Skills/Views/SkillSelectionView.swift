@@ -17,7 +17,12 @@ struct SkillSelectionView: View {
     init(category: SkillCategory, subcategory: SkillSubcategory) {
         self.category = category
         self.subcategory = subcategory
-        self._viewModel = StateObject(wrappedValue: SkillSelectionViewModel(skillType: .target, language: "en", skillRepository: SkillRepository(), referenceDataRepository: ReferenceDataRepository()))
+        self._viewModel = StateObject(wrappedValue: SkillSelectionViewModel(
+            skillType: .target, 
+            language: "en", 
+            skillRepository: SkillRepository(), // Uses multi-provider service by default
+            referenceDataRepository: ReferenceDataRepository()
+        ))
     }
     
     // MARK: - Body

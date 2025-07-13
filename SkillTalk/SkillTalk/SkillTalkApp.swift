@@ -82,6 +82,11 @@ struct SkillTalkApp: App {
         LocalSkillServiceTest.shared.testProficiencyOptions()
         
         // Run skill database test
+        
+        // Run multi-provider service test
+        Task {
+            await MultiProviderServiceTest.shared.quickTest()
+        }
         #endif
     }
     

@@ -123,15 +123,17 @@ class SkillSelectionViewModel: ObservableObject {
     
     init(skillType: UserSkillType,
          language: String = Locale.current.languageCode ?? "en",
-         skillRepository: SkillRepositoryProtocol = SkillRepository(),
+         skillRepository: SkillRepositoryProtocol? = nil,
          referenceDataRepository: ReferenceDataRepositoryProtocol = ReferenceDataRepository(),
          vipService: VIPServiceProtocol? = nil) {
         self.skillType = skillType
         self.language = language
-        self.skillRepository = skillRepository
+        // Use multi-provider service by default, or allow injection for testing
+        self.skillRepository = skillRepository ?? SkillRepository()
         self.referenceDataRepository = referenceDataRepository
         self.vipService = vipService ?? MockVIPService()
         
+        print("🚀 [SkillSelectionViewModel] Initialized with multi-provider skill repository")
         setupBindings()
     }
     
