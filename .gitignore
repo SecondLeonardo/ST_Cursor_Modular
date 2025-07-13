@@ -123,6 +123,8 @@ Temporary Items
 GoogleService-Info.plist
 *-firebase-adminsdk-*.json
 firebase-adminsdk-*.json
+**/firebase-adminsdk-*.json
+**/*-firebase-adminsdk-*.json
 
 # Environment files
 .env

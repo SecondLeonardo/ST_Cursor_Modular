@@ -11,6 +11,7 @@
 		2D0D952F2E16D41D00547E37 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0D952E2E16D41D00547E37 /* Auth */; };
 		2D0D95312E16D41D00547E37 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0D95302E16D41D00547E37 /* Storage */; };
 		2D0D95332E16D41D00547E37 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0D95322E16D41D00547E37 /* Supabase */; };
+		2DB7889F2E23E55C00CEAC3C /* st-cursur-swift-modular-firebase-adminsdk-fbsvc-44bc2a6da3.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7889E2E23E55C00CEAC3C /* st-cursur-swift-modular-firebase-adminsdk-fbsvc-44bc2a6da3.json */; };
 		47B848F8A79A8392CC0803DE /* Pods_SkillTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DFEBE38452713036C63E81 /* Pods_SkillTalk.framework */; };
 		DCF7A2FADDA4139E407E675D /* Pods_SkillTalk_SkillTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AE930C5717AA99F6DBC897 /* Pods_SkillTalk_SkillTalkUITests.framework */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		15AAE8272FB61C0326C35E9B /* Pods-SkillTalk-SkillTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillTalk-SkillTalkUITests.debug.xcconfig"; path = "Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DB7889E2E23E55C00CEAC3C /* st-cursur-swift-modular-firebase-adminsdk-fbsvc-44bc2a6da3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "st-cursur-swift-modular-firebase-adminsdk-fbsvc-44bc2a6da3.json"; sourceTree = "<group>"; };
 		2DC8B1282E15E20000F5C950 /* SkillTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC8B1352E15E20200F5C950 /* SkillTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC8B13F2E15E20200F5C950 /* SkillTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,11 +73,15 @@
 		};
 		2DC8B1382E15E20200F5C950 /* SkillTalkTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = SkillTalkTests;
 			sourceTree = "<group>";
 		};
 		2DC8B1422E15E20200F5C950 /* SkillTalkUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = SkillTalkUITests;
 			sourceTree = "<group>";
 		};
@@ -121,6 +127,7 @@
 				2DC8B1292E15E20000F5C950 /* Products */,
 				8E95B237AC93CB6C992CB2D2 /* Pods */,
 				C98CD06FD97A62187E611BEE /* Frameworks */,
+				2DB7889E2E23E55C00CEAC3C /* st-cursur-swift-modular-firebase-adminsdk-fbsvc-44bc2a6da3.json */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB7889F2E23E55C00CEAC3C /* st-cursur-swift-modular-firebase-adminsdk-fbsvc-44bc2a6da3.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,13 +315,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk/Pods-SkillTalk-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk/Pods-SkillTalk-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -394,13 +398,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SkillTalk-SkillTalkUITests/Pods-SkillTalk-SkillTalkUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

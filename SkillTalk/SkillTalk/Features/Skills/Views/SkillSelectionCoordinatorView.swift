@@ -139,8 +139,8 @@ struct SkillSelectionCoordinatorView: View {
         HStack(spacing: 8) {
             ForEach(viewModel.breadcrumbItems, id: \.self) { item in
                 Text(item)
-                    .font(.caption)
-                    .foregroundColor(.secondary)
+                .font(.caption)
+                .foregroundColor(.secondary)
                 
                 if item != viewModel.breadcrumbItems.last {
                     Image(systemName: "chevron.right")

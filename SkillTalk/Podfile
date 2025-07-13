@@ -8,15 +8,15 @@ target 'SkillTalk' do
   # Pods for SkillTalk
   
   # Firebase Core Services
-  pod 'Firebase/Core'
-  pod 'Firebase/Auth'
-  pod 'Firebase/Firestore'
-  pod 'Firebase/Storage'
-  pod 'Firebase/RemoteConfig'
-  pod 'Firebase/Analytics'
-  pod 'Firebase/Crashlytics'
-  pod 'Firebase/Messaging'
-  pod 'Firebase/Database'
+  pod 'Firebase/Core', '~> 11.0'
+  pod 'Firebase/Auth', '~> 11.0'
+  pod 'Firebase/Firestore', '~> 11.0'  # Includes FirebaseFirestoreSwift
+  pod 'Firebase/Storage', '~> 11.0'
+  pod 'Firebase/RemoteConfig', '~> 11.0'
+  pod 'Firebase/Analytics', '~> 11.0'
+  pod 'Firebase/Crashlytics', '~> 11.0'
+  pod 'Firebase/Messaging', '~> 11.0'
+  pod 'Firebase/Database', '~> 11.0'
   
   # Supabase will be added via Swift Package Manager
   # pod 'Supabase' # Not available via CocoaPods

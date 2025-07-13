@@ -1505,15 +1505,15 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.0)
-  - Firebase/Analytics
-  - Firebase/Auth
-  - Firebase/Core
-  - Firebase/Crashlytics
-  - Firebase/Database
-  - Firebase/Firestore
-  - Firebase/Messaging
-  - Firebase/RemoteConfig
-  - Firebase/Storage
+  - Firebase/Analytics (~> 11.0)
+  - Firebase/Auth (~> 11.0)
+  - Firebase/Core (~> 11.0)
+  - Firebase/Crashlytics (~> 11.0)
+  - Firebase/Database (~> 11.0)
+  - Firebase/Firestore (~> 11.0)
+  - Firebase/Messaging (~> 11.0)
+  - Firebase/RemoteConfig (~> 11.0)
+  - Firebase/Storage (~> 11.0)
   - KeychainAccess (~> 4.0)
   - SDWebImage (~> 5.0)
   - SnapKit (~> 5.0)
@@ -1602,6 +1602,6 @@ SPEC CHECKSUMS:
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
 
-PODFILE CHECKSUM: abae3dc2d538088de094932d8df166cbed2709fe
+PODFILE CHECKSUM: d377c80fcf3865df5bd30bf0dff74d8435a9d586
 
 COCOAPODS: 1.16.2
