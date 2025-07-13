@@ -11,6 +11,11 @@ target 'SkillTalk' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  
+  # Social Authentication
+  pod 'GoogleSignIn'
+  pod 'FBSDKLoginKit'
+
   pod 'Firebase/Storage'
   pod 'Firebase/RemoteConfig'
   pod 'Firebase/Analytics'

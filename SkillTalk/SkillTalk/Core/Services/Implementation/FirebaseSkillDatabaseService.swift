@@ -9,7 +9,6 @@
 import Foundation
 import Combine
 import FirebaseFirestore
-import FirebaseFirestoreSwift
 
 // MARK: - Firebase Skill Database Service
 
@@ -64,7 +63,9 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
                 .getDocuments()
             
             let categories = try snapshot.documents.compactMap { document in
-                try document.data(as: SkillCategory.self)
+                let data = document.data()
+                return try JSONSerialization.data(withJSONObject: data)
+                    .flatMap { try JSONDecoder().decode(SkillCategory.self, from: $0) }
             }
             
             // Cache the result
@@ -98,7 +99,9 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
                 .getDocuments()
             
             let subcategories = try snapshot.documents.compactMap { document in
-                try document.data(as: SkillSubcategory.self)
+                let data = document.data()
+                return try JSONSerialization.data(withJSONObject: data)
+                    .flatMap { try JSONDecoder().decode(SkillSubcategory.self, from: $0) }
             }
             
             // Cache the result
@@ -132,7 +135,9 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
                 .getDocuments()
             
             let skills = try snapshot.documents.compactMap { document in
-                try document.data(as: Skill.self)
+                let data = document.data()
+                return try JSONSerialization.data(withJSONObject: data)
+                    .flatMap { try JSONDecoder().decode(Skill.self, from: $0) }
             }
             
             // Cache the result
@@ -170,7 +175,9 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
                 .getDocuments()
             
             let allSkills = try snapshot.documents.compactMap { document in
-                try document.data(as: Skill.self)
+                let data = document.data()
+                return try JSONSerialization.data(withJSONObject: data)
+                    .flatMap { try JSONDecoder().decode(Skill.self, from: $0) }
             }
             
             // Filter skills that match the query
@@ -210,7 +217,9 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
                 .getDocuments()
             
             let skills = try snapshot.documents.compactMap { document in
-                try document.data(as: Skill.self)
+                let data = document.data()
+                return try JSONSerialization.data(withJSONObject: data)
+                    .flatMap { try JSONDecoder().decode(Skill.self, from: $0) }
             }
             
             // Cache the result
@@ -244,7 +253,9 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
                 .getDocuments()
             
             let skills = try snapshot.documents.compactMap { document in
-                try document.data(as: Skill.self)
+                let data = document.data()
+                return try JSONSerialization.data(withJSONObject: data)
+                    .flatMap { try JSONDecoder().decode(Skill.self, from: $0) }
             }
             
             // Cache the result
