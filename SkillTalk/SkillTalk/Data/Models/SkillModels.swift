@@ -162,14 +162,14 @@ struct SkillAnalytics: Codable {
 // MARK: - Database Configuration
 
 /// Configuration for skill database caching
-struct SkillDatabaseConfig: Codable {
+struct SkillDatabaseCacheConfig: Codable {
     let cacheTimeout: TimeInterval
     let preloadCategories: Bool
     let preloadPopularSkills: Bool
     let indexingEnabled: Bool
     let analyticsEnabled: Bool
     
-    static let `default` = SkillDatabaseConfig(
+    static let `default` = SkillDatabaseCacheConfig(
         cacheTimeout: 3600,  // 1 hour
         preloadCategories: true,
         preloadPopularSkills: true,

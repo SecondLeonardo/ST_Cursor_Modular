@@ -536,30 +536,4 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
 
 // MARK: - Service Health Monitor
 
-class ServiceHealthMonitor {
-    private var successCounts: [ServiceProvider: Int] = [:]
-    private var failureCounts: [ServiceProvider: Int] = [:]
-    private var lastFailureTimes: [ServiceProvider: Date] = [:]
-    
-    func recordSuccess(for provider: ServiceProvider) {
-        successCounts[provider, default: 0] += 1
-    }
-    
-    func recordFailure(for provider: ServiceProvider, error: Error) {
-        failureCounts[provider, default: 0] += 1
-        lastFailureTimes[provider] = Date()
-    }
-    
-    func getHealthStatus(for provider: ServiceProvider) -> ServiceHealthStatus {
-        let totalRequests = successCounts[provider, default: 0] + failureCounts[provider, default: 0]
-        let errorRate = totalRequests > 0 ? Double(failureCounts[provider, default: 0]) / Double(totalRequests) : 0.0
-        
-        if errorRate > 0.5 {
-            return .unhealthy
-        } else if errorRate > 0.1 {
-            return .degraded
-        } else {
-            return .healthy
-        }
-    }
-} 
+// Using the shared ServiceHealthMonitor from Data/Services/ServiceHealthMonitor.swift 

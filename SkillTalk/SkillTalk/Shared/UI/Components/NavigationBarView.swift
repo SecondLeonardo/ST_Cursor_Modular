@@ -10,7 +10,7 @@ struct NavigationBarView<Left: View, Right: View>: View {
     let leftItem: () -> Left
     let rightItem: () -> Right
     
-    @Environment(\.appTheme) private var theme
+    @SwiftUI.Environment(\.appTheme) private var theme
     
     var body: some View {
         HStack {

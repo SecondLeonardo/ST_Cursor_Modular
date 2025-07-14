@@ -1,5 +1,4 @@
 import Foundation
-import GoogleSignIn
 import FBSDKCoreKit
 
 /// Manages social authentication configuration for Google Sign-In and Facebook Login
@@ -26,25 +25,12 @@ class SocialAuthConfiguration {
     func configure() {
         guard !isConfigured else { return }
         
-        configureGoogleSignIn()
         configureFacebookLogin()
         
         isConfigured = true
     }
     
-    /// Configure Google Sign-In
-    private func configureGoogleSignIn() {
-        // Configure Google Sign-In
-        guard let path = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist"),
-              let plist = NSDictionary(contentsOfFile: path),
-              let clientID = plist["CLIENT_ID"] as? String else {
-            print("⚠️ GoogleService-Info.plist not found or CLIENT_ID missing")
-            return
-        }
-        
-        GIDSignIn.sharedInstance.configuration = GIDConfiguration(clientID: clientID)
-        print("✅ Google Sign-In configured with Client ID: \(clientID.prefix(20))...")
-    }
+
     
     /// Configure Facebook Login
     private func configureFacebookLogin() {
@@ -64,11 +50,6 @@ class SocialAuthConfiguration {
     
     /// Handle URL scheme for social authentication
     func handleURL(_ url: URL) -> Bool {
-        // Handle Google Sign-In URL
-        if GIDSignIn.sharedInstance.handle(url) {
-            return true
-        }
-        
         // Handle Facebook Login URL
         if ApplicationDelegate.shared.application(UIApplication.shared, open: url) {
             return true
@@ -89,7 +70,6 @@ extension SocialAuthConfiguration {
     /// Get the required URL schemes for social authentication
     static func getRequiredURLSchemes() -> [String] {
         return [
-            "com.googleusercontent.apps.YOUR_GOOGLE_CLIENT_ID", // Replace with your Google Client ID
             "fbYOUR_FACEBOOK_APP_ID" // Replace with your Facebook App ID
         ]
     }
@@ -98,10 +78,6 @@ extension SocialAuthConfiguration {
     static func getRequiredInfoPlistEntries() -> [String: Any] {
         return [
             "CFBundleURLTypes": [
-                [
-                    "CFBundleURLName": "GoogleSignIn",
-                    "CFBundleURLSchemes": ["com.googleusercontent.apps.YOUR_GOOGLE_CLIENT_ID"]
-                ],
                 [
                     "CFBundleURLName": "FacebookLogin",
                     "CFBundleURLSchemes": ["fbYOUR_FACEBOOK_APP_ID"]

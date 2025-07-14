@@ -36,10 +36,6 @@ enum ServiceProvider: String, CaseIterable, Codable {
     case hundredMs = "100ms.live"
     case googleTranslate = "Google Translate"
     case onesignal = "OneSignal" // Alias for oneSignal
-    
-    var displayName: String {
-        return rawValue
-    }
 }
 
 enum ServiceHealthStatus: String, CaseIterable, Codable {

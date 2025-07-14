@@ -42,7 +42,7 @@ enum OnboardingStep: CaseIterable {
 struct OnboardingData {
     // User Authentication
     var isAuthenticated = false
-    var authProvider: AuthProvider = .none
+    var authProvider: OnboardingAuthProvider = .none
     var isVIP = false
     
     // Basic Info
@@ -75,7 +75,7 @@ struct OnboardingData {
 }
 
 // MARK: - Auth Provider
-enum AuthProvider {
+enum OnboardingAuthProvider {
     case none
     case apple
     case google

@@ -9,7 +9,7 @@ struct BaseCard<Content: View>: View {
     let backgroundColor: Color
     let content: () -> Content
     
-    @Environment(\.appTheme) private var theme
+    @SwiftUI.Environment(\.appTheme) private var theme
     
     var body: some View {
         content()

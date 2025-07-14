@@ -11,7 +11,7 @@ struct PrimaryButton: View {
     var isLoading: Bool = false
     var isDisabled: Bool = false
     
-    @Environment(\.appTheme) private var theme
+    @SwiftUI.Environment(\.appTheme) private var theme
     
     var body: some View {
         Button(action: action) {

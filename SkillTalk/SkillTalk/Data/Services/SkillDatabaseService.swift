@@ -11,7 +11,7 @@ import Combine
 
 // MARK: - Skill Database Service Protocol
 
-protocol SkillDatabaseServiceProtocol {
+protocol LegacySkillDatabaseServiceProtocol {
     func loadCategories(language: String) async throws -> [SkillCategory]
     func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory]
     func loadSkills(for subcategoryId: String, language: String) async throws -> [Skill]
@@ -22,7 +22,7 @@ protocol SkillDatabaseServiceProtocol {
 // MARK: - Skill Database Service
 
 /// Service that loads skill data from the external database files
-class SkillDatabaseService: SkillDatabaseServiceProtocol {
+class SkillDatabaseService: LegacySkillDatabaseServiceProtocol {
     
     // MARK: - Properties
     

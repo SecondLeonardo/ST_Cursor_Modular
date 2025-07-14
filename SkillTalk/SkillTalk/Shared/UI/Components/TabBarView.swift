@@ -32,7 +32,7 @@ struct TabBarView: View {
     @Binding var selectedTab: SkillTalkTab
     var onTabSelected: (SkillTalkTab) -> Void
     
-    @Environment(\.appTheme) private var theme
+    @SwiftUI.Environment(\.appTheme) private var theme
     
     var body: some View {
         HStack {
