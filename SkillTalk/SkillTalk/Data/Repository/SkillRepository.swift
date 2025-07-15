@@ -15,7 +15,7 @@ import Combine
 protocol SkillRepositoryProtocol {
     func getCategories(language: String) async throws -> [SkillCategory]
     func getSubcategories(categoryId: String, language: String) async throws -> [SkillSubcategory]
-    func getSkills(subcategoryId: String, language: String) async throws -> [Skill]
+    func getSkills(subcategoryId: String, categoryId: String, language: String) async throws -> [Skill]
     func searchSkills(query: String, language: String, filters: [String: String]?) async throws -> [Skill]
     func getPopularSkills(language: String, limit: Int) async throws -> [Skill]
     func getSkillsByDifficulty(_ difficulty: SkillDifficulty, language: String) async throws -> [Skill]
@@ -57,7 +57,7 @@ class SkillRepository: SkillRepositoryProtocol {
     func getCategories(language: String) async throws -> [SkillCategory] {
         print("📚 [SkillRepository] Fetching categories for language: \(language)")
         do {
-            let categories = try await skillDatabaseService.loadCategories(language: language)
+            let categories = try await skillDatabaseService.loadCategories(for: language)
             await analyticsService.trackCategoryView(language: language, categoryCount: categories.count)
             return categories
         } catch {
@@ -80,10 +80,10 @@ class SkillRepository: SkillRepositoryProtocol {
     }
     
     /// Get skills for a subcategory and language
-    func getSkills(subcategoryId: String, language: String) async throws -> [Skill] {
+    func getSkills(subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
         print("📚 [SkillRepository] Fetching skills for subcategory: \(subcategoryId), language: \(language)")
         do {
-            let skills = try await skillDatabaseService.loadSkills(for: subcategoryId, language: language)
+            let skills = try await skillDatabaseService.loadSkills(for: subcategoryId, categoryId: categoryId, language: language)
             await analyticsService.trackSkillView(subcategoryId: subcategoryId, language: language, skillCount: skills.count)
             return skills
         } catch {
@@ -96,7 +96,7 @@ class SkillRepository: SkillRepositoryProtocol {
     func searchSkills(query: String, language: String, filters: [String: String]? = nil) async throws -> [Skill] {
         print("🔍 [SkillRepository] Searching skills with query: \(query), language: \(language)")
         do {
-            let skills = try await skillDatabaseService.searchSkills(query: query, language: language, filters: filters)
+            let skills = try await skillDatabaseService.searchSkills(query: query, language: language, limit: 50)
             await analyticsService.trackSkillSearch(query: query, language: language, resultCount: skills.count, filters: nil)
             return skills
         } catch {
@@ -109,7 +109,7 @@ class SkillRepository: SkillRepositoryProtocol {
     func getPopularSkills(language: String, limit: Int) async throws -> [Skill] {
         print("📚 [SkillRepository] Fetching popular skills for language: \(language), limit: \(limit)")
         do {
-            let skills = try await skillDatabaseService.getPopularSkills(language: language, limit: limit)
+            let skills = try await skillDatabaseService.getPopularSkills(limit: limit, language: language)
             await analyticsService.trackPopularSkillsView(language: language, skillCount: skills.count)
             return skills
         } catch {
@@ -124,7 +124,7 @@ class SkillRepository: SkillRepositoryProtocol {
         do {
             // For now, we'll load all skills and filter by difficulty
             // In a production environment, you'd want to implement this more efficiently
-            let allSkills = try await skillDatabaseService.getPopularSkills(language: language, limit: 1000)
+            let allSkills = try await skillDatabaseService.getPopularSkills(limit: 1000, language: language)
             let filteredSkills = allSkills.filter { $0.difficulty == difficulty }
             await analyticsService.trackDifficultyFilter(difficulty: difficulty, language: language, skillCount: filteredSkills.count)
             return filteredSkills
@@ -329,6 +329,10 @@ class MockSkillRepository: SkillRepositoryProtocol {
             Skill(id: "swift", subcategoryId: subcategoryId, englishName: "Swift", difficulty: .intermediate, popularity: 100, icon: "📱", tags: ["ios", "mobile", "programming"]),
             Skill(id: "python", subcategoryId: subcategoryId, englishName: "Python", difficulty: .beginner, popularity: 95, icon: "🐍", tags: ["programming", "data", "ai"])
         ]
+    }
+    
+    func getSkills(subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
+        return try await getSkills(subcategoryId: subcategoryId, language: language)
     }
     
     func searchSkills(query: String, language: String, filters: [String: String]?) async throws -> [Skill] {

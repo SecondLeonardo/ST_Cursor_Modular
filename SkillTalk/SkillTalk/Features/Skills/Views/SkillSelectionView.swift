@@ -11,7 +11,7 @@ struct SkillSelectionView: View {
     @State private var selectedSkill: Skill?
     @State private var showingProficiencySelector = false
     @State private var searchText = ""
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     
     // MARK: - Initialization
     init(category: SkillCategory, subcategory: SkillSubcategory) {

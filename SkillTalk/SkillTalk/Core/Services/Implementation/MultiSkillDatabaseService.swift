@@ -17,14 +17,14 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
     
     // MARK: - Properties
     
-    let provider: ServiceProvider = .multi
+    let provider: ServiceProvider = .supabase
     private(set) var isHealthy: Bool = true
     
     private let primaryService: SkillDatabaseServiceProtocol
     private let fallbackService: SkillDatabaseServiceProtocol
     private let localService: SkillDatabaseServiceProtocol
     
-    private let healthMonitor = ServiceHealthMonitor()
+    private let healthMonitor = ServiceHealthMonitor.shared
     private let cache = NSCache<NSString, CachedSkillData>()
     private let cacheTimeout: TimeInterval = 3600 // 1 hour
     
@@ -70,32 +70,40 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
         log("🔄 Loading categories for language: \(language)")
         
         // Try primary service first
+        let startTime = Date()
         do {
             let categories = try await primaryService.loadCategories(for: language)
+            let responseTime = Date().timeIntervalSince(startTime)
             setCachedData(categories, for: cacheKey)
-            healthMonitor.recordSuccess(for: primaryService.provider)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: primaryService.provider, responseTime: responseTime))
             log("✅ Loaded \(categories.count) categories from \(primaryService.provider.displayName)")
             return categories
         } catch {
+            let responseTime = Date().timeIntervalSince(startTime)
             log("❌ Primary service failed: \(error.localizedDescription)")
-            healthMonitor.recordFailure(for: primaryService.provider, error: error)
+            await healthMonitor.updateServiceHealth(createFailureHealth(for: primaryService.provider, error: error, responseTime: responseTime))
             
             // Try fallback service
+            let fallbackStartTime = Date()
             do {
                 let categories = try await fallbackService.loadCategories(for: language)
+                let responseTime = Date().timeIntervalSince(fallbackStartTime)
                 setCachedData(categories, for: cacheKey)
-                healthMonitor.recordSuccess(for: fallbackService.provider)
+                await healthMonitor.updateServiceHealth(createSuccessHealth(for: fallbackService.provider, responseTime: responseTime))
                 log("✅ Loaded \(categories.count) categories from \(fallbackService.provider.displayName) (fallback)")
                 return categories
             } catch {
+                let responseTime = Date().timeIntervalSince(fallbackStartTime)
                 log("❌ Fallback service failed: \(error.localizedDescription)")
-                healthMonitor.recordFailure(for: fallbackService.provider, error: error)
+                await healthMonitor.updateServiceHealth(createFailureHealth(for: fallbackService.provider, error: error, responseTime: responseTime))
                 
                 // Try local service as last resort
+                let localStartTime = Date()
                 do {
                     let categories = try await localService.loadCategories(for: language)
+                    let responseTime = Date().timeIntervalSince(localStartTime)
                     setCachedData(categories, for: cacheKey)
-                    healthMonitor.recordSuccess(for: localService.provider)
+                    await healthMonitor.updateServiceHealth(createSuccessHealth(for: localService.provider, responseTime: responseTime))
                     log("✅ Loaded \(categories.count) categories from \(localService.provider.displayName) (local)")
                     return categories
                 } catch {
@@ -118,32 +126,36 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
         log("🔄 Loading subcategories for category: \(categoryId)")
         
         // Try primary service first
+        let startTime = Date()
         do {
             let subcategories = try await primaryService.loadSubcategories(for: categoryId, language: language)
             setCachedData(subcategories, for: cacheKey)
-            healthMonitor.recordSuccess(for: primaryService.provider)
+            let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: primaryService.provider, responseTime: responseTime))
             log("✅ Loaded \(subcategories.count) subcategories from \(primaryService.provider.displayName)")
             return subcategories
         } catch {
             log("❌ Primary service failed: \(error.localizedDescription)")
-            healthMonitor.recordFailure(for: primaryService.provider, error: error)
+            await healthMonitor.updateServiceHealth(createFailureHealth(for: primaryService.provider, error: error, responseTime: 0.0))
             
             // Try fallback service
             do {
                 let subcategories = try await fallbackService.loadSubcategories(for: categoryId, language: language)
                 setCachedData(subcategories, for: cacheKey)
-                healthMonitor.recordSuccess(for: fallbackService.provider)
+                let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: fallbackService.provider, responseTime: responseTime))
                 log("✅ Loaded \(subcategories.count) subcategories from \(fallbackService.provider.displayName) (fallback)")
                 return subcategories
             } catch {
                 log("❌ Fallback service failed: \(error.localizedDescription)")
-                healthMonitor.recordFailure(for: fallbackService.provider, error: error)
+                await healthMonitor.updateServiceHealth(createFailureHealth(for: fallbackService.provider, error: error, responseTime: 0.0))
                 
                 // Try local service as last resort
                 do {
                     let subcategories = try await localService.loadSubcategories(for: categoryId, language: language)
                     setCachedData(subcategories, for: cacheKey)
-                    healthMonitor.recordSuccess(for: localService.provider)
+                    let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: localService.provider, responseTime: responseTime))
                     log("✅ Loaded \(subcategories.count) subcategories from \(localService.provider.displayName) (local)")
                     return subcategories
                 } catch {
@@ -166,32 +178,36 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
         log("🔄 Loading skills for subcategory: \(subcategoryId)")
         
         // Try primary service first
+        let startTime = Date()
         do {
             let skills = try await primaryService.loadSkills(for: subcategoryId, categoryId: categoryId, language: language)
             setCachedData(skills, for: cacheKey)
-            healthMonitor.recordSuccess(for: primaryService.provider)
+            let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: primaryService.provider, responseTime: responseTime))
             log("✅ Loaded \(skills.count) skills from \(primaryService.provider.displayName)")
             return skills
         } catch {
             log("❌ Primary service failed: \(error.localizedDescription)")
-            healthMonitor.recordFailure(for: primaryService.provider, error: error)
+            await healthMonitor.updateServiceHealth(createFailureHealth(for: primaryService.provider, error: error, responseTime: 0.0))
             
             // Try fallback service
             do {
                 let skills = try await fallbackService.loadSkills(for: subcategoryId, categoryId: categoryId, language: language)
                 setCachedData(skills, for: cacheKey)
-                healthMonitor.recordSuccess(for: fallbackService.provider)
+                let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: fallbackService.provider, responseTime: responseTime))
                 log("✅ Loaded \(skills.count) skills from \(fallbackService.provider.displayName) (fallback)")
                 return skills
             } catch {
                 log("❌ Fallback service failed: \(error.localizedDescription)")
-                healthMonitor.recordFailure(for: fallbackService.provider, error: error)
+                await healthMonitor.updateServiceHealth(createFailureHealth(for: fallbackService.provider, error: error, responseTime: 0.0))
                 
                 // Try local service as last resort
                 do {
                     let skills = try await localService.loadSkills(for: subcategoryId, categoryId: categoryId, language: language)
                     setCachedData(skills, for: cacheKey)
-                    healthMonitor.recordSuccess(for: localService.provider)
+                    let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: localService.provider, responseTime: responseTime))
                     log("✅ Loaded \(skills.count) skills from \(localService.provider.displayName) (local)")
                     return skills
                 } catch {
@@ -216,32 +232,36 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
         log("🔄 Searching skills for query: \(query)")
         
         // Try primary service first
+        let startTime = Date()
         do {
             let skills = try await primaryService.searchSkills(query: query, language: language, limit: limit)
             setCachedData(skills, for: cacheKey)
-            healthMonitor.recordSuccess(for: primaryService.provider)
+            let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: primaryService.provider, responseTime: responseTime))
             log("✅ Found \(skills.count) skills from \(primaryService.provider.displayName)")
             return skills
         } catch {
             log("❌ Primary service failed: \(error.localizedDescription)")
-            healthMonitor.recordFailure(for: primaryService.provider, error: error)
+            await healthMonitor.updateServiceHealth(createFailureHealth(for: primaryService.provider, error: error, responseTime: 0.0))
             
             // Try fallback service
             do {
                 let skills = try await fallbackService.searchSkills(query: query, language: language, limit: limit)
                 setCachedData(skills, for: cacheKey)
-                healthMonitor.recordSuccess(for: fallbackService.provider)
+                let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: fallbackService.provider, responseTime: responseTime))
                 log("✅ Found \(skills.count) skills from \(fallbackService.provider.displayName) (fallback)")
                 return skills
             } catch {
                 log("❌ Fallback service failed: \(error.localizedDescription)")
-                healthMonitor.recordFailure(for: fallbackService.provider, error: error)
+                await healthMonitor.updateServiceHealth(createFailureHealth(for: fallbackService.provider, error: error, responseTime: 0.0))
                 
                 // Try local service as last resort
                 do {
                     let skills = try await localService.searchSkills(query: query, language: language, limit: limit)
                     setCachedData(skills, for: cacheKey)
-                    healthMonitor.recordSuccess(for: localService.provider)
+                    let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: localService.provider, responseTime: responseTime))
                     log("✅ Found \(skills.count) skills from \(localService.provider.displayName) (local)")
                     return skills
                 } catch {
@@ -264,32 +284,36 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
         log("🔄 Loading skills by difficulty: \(difficulty.rawValue)")
         
         // Try primary service first
+        let startTime = Date()
         do {
             let skills = try await primaryService.getSkillsByDifficulty(difficulty, language: language)
             setCachedData(skills, for: cacheKey)
-            healthMonitor.recordSuccess(for: primaryService.provider)
+            let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: primaryService.provider, responseTime: responseTime))
             log("✅ Loaded \(skills.count) skills from \(primaryService.provider.displayName)")
             return skills
         } catch {
             log("❌ Primary service failed: \(error.localizedDescription)")
-            healthMonitor.recordFailure(for: primaryService.provider, error: error)
+            await healthMonitor.updateServiceHealth(createFailureHealth(for: primaryService.provider, error: error, responseTime: 0.0))
             
             // Try fallback service
             do {
                 let skills = try await fallbackService.getSkillsByDifficulty(difficulty, language: language)
                 setCachedData(skills, for: cacheKey)
-                healthMonitor.recordSuccess(for: fallbackService.provider)
+                let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: fallbackService.provider, responseTime: responseTime))
                 log("✅ Loaded \(skills.count) skills from \(fallbackService.provider.displayName) (fallback)")
                 return skills
             } catch {
                 log("❌ Fallback service failed: \(error.localizedDescription)")
-                healthMonitor.recordFailure(for: fallbackService.provider, error: error)
+                await healthMonitor.updateServiceHealth(createFailureHealth(for: fallbackService.provider, error: error, responseTime: 0.0))
                 
                 // Try local service as last resort
                 do {
                     let skills = try await localService.getSkillsByDifficulty(difficulty, language: language)
                     setCachedData(skills, for: cacheKey)
-                    healthMonitor.recordSuccess(for: localService.provider)
+                    let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: localService.provider, responseTime: responseTime))
                     log("✅ Loaded \(skills.count) skills from \(localService.provider.displayName) (local)")
                     return skills
                 } catch {
@@ -312,32 +336,36 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
         log("🔄 Loading popular skills")
         
         // Try primary service first
+        let startTime = Date()
         do {
             let skills = try await primaryService.getPopularSkills(limit: limit, language: language)
             setCachedData(skills, for: cacheKey)
-            healthMonitor.recordSuccess(for: primaryService.provider)
+            let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: primaryService.provider, responseTime: responseTime))
             log("✅ Loaded \(skills.count) popular skills from \(primaryService.provider.displayName)")
             return skills
         } catch {
             log("❌ Primary service failed: \(error.localizedDescription)")
-            healthMonitor.recordFailure(for: primaryService.provider, error: error)
+            await healthMonitor.updateServiceHealth(createFailureHealth(for: primaryService.provider, error: error, responseTime: 0.0))
             
             // Try fallback service
             do {
                 let skills = try await fallbackService.getPopularSkills(limit: limit, language: language)
                 setCachedData(skills, for: cacheKey)
-                healthMonitor.recordSuccess(for: fallbackService.provider)
+                let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: fallbackService.provider, responseTime: responseTime))
                 log("✅ Loaded \(skills.count) popular skills from \(fallbackService.provider.displayName) (fallback)")
                 return skills
             } catch {
                 log("❌ Fallback service failed: \(error.localizedDescription)")
-                healthMonitor.recordFailure(for: fallbackService.provider, error: error)
+                await healthMonitor.updateServiceHealth(createFailureHealth(for: fallbackService.provider, error: error, responseTime: 0.0))
                 
                 // Try local service as last resort
                 do {
                     let skills = try await localService.getPopularSkills(limit: limit, language: language)
                     setCachedData(skills, for: cacheKey)
-                    healthMonitor.recordSuccess(for: localService.provider)
+                    let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: localService.provider, responseTime: responseTime))
                     log("✅ Loaded \(skills.count) popular skills from \(localService.provider.displayName) (local)")
                     return skills
                 } catch {
@@ -362,32 +390,36 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
         log("🔄 Loading supported languages")
         
         // Try primary service first
+        let startTime = Date()
         do {
             let languages = try await primaryService.getSupportedLanguages()
             setCachedLanguages(languages, for: cacheKey)
-            healthMonitor.recordSuccess(for: primaryService.provider)
+            let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: primaryService.provider, responseTime: responseTime))
             log("✅ Loaded \(languages.count) languages from \(primaryService.provider.displayName)")
             return languages
         } catch {
             log("❌ Primary service failed: \(error.localizedDescription)")
-            healthMonitor.recordFailure(for: primaryService.provider, error: error)
+            await healthMonitor.updateServiceHealth(createFailureHealth(for: primaryService.provider, error: error, responseTime: 0.0))
             
             // Try fallback service
             do {
                 let languages = try await fallbackService.getSupportedLanguages()
                 setCachedLanguages(languages, for: cacheKey)
-                healthMonitor.recordSuccess(for: fallbackService.provider)
+                let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: fallbackService.provider, responseTime: responseTime))
                 log("✅ Loaded \(languages.count) languages from \(fallbackService.provider.displayName) (fallback)")
                 return languages
             } catch {
                 log("❌ Fallback service failed: \(error.localizedDescription)")
-                healthMonitor.recordFailure(for: fallbackService.provider, error: error)
+                await healthMonitor.updateServiceHealth(createFailureHealth(for: fallbackService.provider, error: error, responseTime: 0.0))
                 
                 // Try local service as last resort
                 do {
                     let languages = try await localService.getSupportedLanguages()
                     setCachedLanguages(languages, for: cacheKey)
-                    healthMonitor.recordSuccess(for: localService.provider)
+                    let responseTime = Date().timeIntervalSince(startTime)
+            await healthMonitor.updateServiceHealth(createSuccessHealth(for: localService.provider, responseTime: responseTime))
                     log("✅ Loaded \(languages.count) languages from \(localService.provider.displayName) (local)")
                     return languages
                 } catch {
@@ -446,7 +478,7 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
         log("   Local (\(localService.provider.displayName)): \(localHealth)")
         log("   Overall: \(isHealthy ? "Healthy" : "Unhealthy")")
         
-        return isHealthy ? .healthy : .unhealthy
+        return isHealthy ? .healthy : .failed
     }
     
     func getServiceStats() async -> SkillServiceStats {
@@ -473,6 +505,28 @@ class MultiSkillDatabaseService: SkillDatabaseServiceProtocol {
         if debugLog {
             print("🔄 [MultiSkillService] \(message)")
         }
+    }
+    
+    private func createSuccessHealth(for provider: ServiceProvider, responseTime: TimeInterval) -> ServiceHealth {
+        return ServiceHealth(
+            provider: provider,
+            status: .healthy,
+            responseTime: responseTime,
+            errorRate: 0.0,
+            lastChecked: Date(),
+            errorMessage: nil
+        )
+    }
+    
+    private func createFailureHealth(for provider: ServiceProvider, error: Error, responseTime: TimeInterval) -> ServiceHealth {
+        return ServiceHealth(
+            provider: provider,
+            status: .failed,
+            responseTime: responseTime,
+            errorRate: 1.0,
+            lastChecked: Date(),
+            errorMessage: error.localizedDescription
+        )
     }
     
     private func getCachedCategories(for key: String) -> [SkillCategory]? {

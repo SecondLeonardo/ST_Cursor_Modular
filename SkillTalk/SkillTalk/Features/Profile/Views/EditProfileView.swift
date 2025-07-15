@@ -3,7 +3,7 @@ import PhotosUI
 
 struct EditProfileView: View {
     @ObservedObject var viewModel: ProfileViewModel
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     
     var body: some View {
         NavigationView {

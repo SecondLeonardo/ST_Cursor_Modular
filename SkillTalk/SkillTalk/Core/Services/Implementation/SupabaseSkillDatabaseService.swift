@@ -393,7 +393,7 @@ class SupabaseSkillDatabaseService: SkillDatabaseServiceProtocol {
         } catch {
             isHealthy = false
             log("🏥 Supabase health check failed: \(error.localizedDescription)")
-            return .unhealthy
+            return .failed
         }
     }
     

@@ -390,12 +390,23 @@ class LocalSkillService: SkillAPIServiceProtocol {
         guard let cached = cache.object(forKey: key as NSString) else { return nil }
         
         // Check if cache is expired
-        if Date().timeIntervalSince(cached.timestamp) > cacheTimeout {
+        if cached.isExpired {
             cache.removeObject(forKey: key as NSString)
             return nil
         }
         
-        return cached.data as? T
+        // Return the appropriate data type
+        if T.self == [SkillCategory].self {
+            return cached.categories as? T
+        } else if T.self == [SkillSubcategory].self {
+            return cached.subcategories as? T
+        } else if T.self == [Skill].self {
+            return cached.skills as? T
+        } else if T.self == [String].self {
+            return cached.languages as? T
+        }
+        
+        return nil
     }
     
     private func getCachedCategories(for key: String) -> [SkillCategory]? {
@@ -411,22 +422,25 @@ class LocalSkillService: SkillAPIServiceProtocol {
     }
     
     private func setCachedData<T>(_ data: T, for key: String) {
-        let cachedData = CachedSkillData(data: data, timestamp: Date())
+        let cachedData = CachedSkillData()
+        
+        if let categories = data as? [SkillCategory] {
+            cachedData.categories = categories
+        } else if let subcategories = data as? [SkillSubcategory] {
+            cachedData.subcategories = subcategories
+        } else if let skills = data as? [Skill] {
+            cachedData.skills = skills
+        } else if let languages = data as? [String] {
+            cachedData.languages = languages
+        }
+        
         cache.setObject(cachedData, forKey: key as NSString)
     }
 }
 
 // MARK: - Cached Data Structure
 
-private class CachedSkillData {
-    let data: Any
-    let timestamp: Date
-    
-    init(data: Any, timestamp: Date) {
-        self.data = data
-        self.timestamp = timestamp
-    }
-}
+// CachedSkillData is already defined in SupabaseSkillDatabaseService.swift
 
 // MARK: - Local Skill Service Error
 

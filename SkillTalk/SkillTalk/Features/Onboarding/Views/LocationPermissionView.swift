@@ -6,7 +6,7 @@ import CoreLocation
 /// Location permission popup view for onboarding
 @MainActor
 struct LocationPermissionView: View {
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     @StateObject private var locationService = MultiLocationService()
     @State private var showingSettings = false
     @State private var isLoading = false

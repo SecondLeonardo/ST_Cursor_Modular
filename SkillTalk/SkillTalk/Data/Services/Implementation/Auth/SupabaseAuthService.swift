@@ -57,6 +57,16 @@ final class SupabaseAuthService: AuthServiceProtocol {
                         break
                     case .mfaChallengeVerified:
                         break
+                    case .initialSession:
+                        if let session = session {
+                            self.currentUser = self.convertSupabaseUser(session.user)
+                        }
+                    case .userUpdated:
+                        if let session = session {
+                            self.currentUser = self.convertSupabaseUser(session.user)
+                        }
+                    case .userDeleted:
+                        self.currentUser = nil
                     }
                 }
             }
@@ -213,21 +223,16 @@ final class SupabaseAuthService: AuthServiceProtocol {
     }
     
     // MARK: - Helper Methods
-    private func convertSupabaseUser(_ supabaseUser: User) -> AuthUser {
+    private func convertSupabaseUser(_ supabaseUser: Supabase.User) -> AuthUser {
         return AuthUser(
             uid: supabaseUser.id.uuidString,
             email: supabaseUser.email,
-            displayName: supabaseUser.userMetadata?["full_name"] as? String,
-            photoURL: URL(string: supabaseUser.userMetadata?["avatar_url"] as? String ?? ""),
+            displayName: supabaseUser.userMetadata["full_name"] as? String,
+            photoURL: URL(string: supabaseUser.userMetadata["avatar_url"] as? String ?? ""),
             isAnonymous: false, // Supabase doesn't have anonymous users in the same way
-            provider: supabaseUser.appMetadata?["provider"] as? String ?? "supabase"
+            provider: supabaseUser.appMetadata["provider"] as? String ?? "supabase"
         )
     }
 }
 
-// MARK: - Auth Errors Extension
-extension AuthError {
-    static func notImplemented(_ feature: String) -> AuthError {
-        return AuthError.socialLoginFailed("\(feature) is not implemented")
-    }
-} 
+// AuthError is already defined in FirebaseAuthService.swift 

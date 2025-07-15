@@ -64,7 +64,7 @@ class LanguageService: LanguageServiceProtocol {
         
         // Set up health monitoring on main actor
         Task { @MainActor in
-            await healthMonitor.registerService("language_service") { [weak self] in
+            healthMonitor.registerService("language_service") { [weak self] in
                 return await self?.checkHealth() ?? false
             }
         }

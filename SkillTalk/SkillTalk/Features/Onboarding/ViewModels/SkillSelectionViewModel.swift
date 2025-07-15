@@ -357,13 +357,13 @@ class SkillSelectionViewModel: ObservableObject {
         errorMessage = nil
         
         do {
-            guard selectedCategory?.id != nil else {
+            guard let categoryId = selectedCategory?.id else {
                 errorMessage = "No category selected"
                 isLoading = false
                 return
             }
             
-            skills = try await skillRepository.getSkills(subcategoryId: subcategoryId, language: language)
+            skills = try await skillRepository.getSkills(subcategoryId: subcategoryId, categoryId: categoryId, language: language)
             filteredSkills = skills
             print("✅ [SkillSelectionViewModel] Loaded \(skills.count) skills for subcategory \(subcategoryId)")
         } catch {

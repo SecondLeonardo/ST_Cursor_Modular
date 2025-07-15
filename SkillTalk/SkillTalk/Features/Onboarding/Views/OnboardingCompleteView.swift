@@ -234,7 +234,7 @@ enum FeedbackOption: String, CaseIterable {
 struct FeedbackPopupView: View {
     @Binding var selectedOption: FeedbackOption?
     let onComplete: () -> Void
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     
     var body: some View {
         NavigationView {
@@ -331,7 +331,7 @@ struct FeedbackOptionRow: View {
 struct LocationPermissionPopupView: View {
     let onAllow: () -> Void
     let onDeny: () -> Void
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     
     var body: some View {
         VStack(spacing: 24) {

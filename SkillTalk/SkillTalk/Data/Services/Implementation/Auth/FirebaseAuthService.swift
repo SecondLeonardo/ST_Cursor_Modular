@@ -4,6 +4,7 @@ import GoogleSignIn
 import FBSDKLoginKit
 import AuthenticationServices
 import LocalAuthentication
+import KeychainAccess
 
 final class FirebaseAuthService: AuthServiceProtocol {
     // MARK: - Properties
@@ -48,7 +49,7 @@ final class FirebaseAuthService: AuthServiceProtocol {
         let request = ASAuthorizationAppleIDProvider().createRequest()
         request.requestedScopes = [.fullName, .email]
         
-        let result = try await withCheckedThrowingContinuation { continuation in
+        let result = try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<ASAuthorization, Error>) in
             let controller = ASAuthorizationController(authorizationRequests: [request])
             let delegate = AppleSignInDelegate { result in
                 continuation.resume(with: result)
@@ -70,7 +71,7 @@ final class FirebaseAuthService: AuthServiceProtocol {
         let credential = OAuthProvider.credential(
             withProviderID: "apple.com",
             idToken: identityTokenString,
-            rawNonce: nil
+            rawNonce: ""
         )
         
         let authResult = try await auth.signIn(with: credential)
@@ -80,12 +81,12 @@ final class FirebaseAuthService: AuthServiceProtocol {
     }
     
     func signInWithGoogle() async throws -> AuthUser {
-        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-              let window = windowScene.windows.first else {
+        guard let windowScene = await UIApplication.shared.connectedScenes.first as? UIWindowScene,
+              let window = await windowScene.windows.first else {
             throw AuthError.presentationError
         }
         
-        let result = try await GIDSignIn.sharedInstance.signIn(withPresenting: window)
+        let result = try await GIDSignIn.sharedInstance.signIn(withPresenting: window.rootViewController ?? UIViewController())
         
         guard let idToken = result.user.idToken?.tokenString else {
             throw AuthError.invalidCredential
@@ -103,7 +104,7 @@ final class FirebaseAuthService: AuthServiceProtocol {
     }
     
     func signInWithFacebook() async throws -> AuthUser {
-        let result = try await withCheckedThrowingContinuation { continuation in
+        let result: LoginManagerLoginResult = try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<LoginManagerLoginResult, Error>) in
             let loginManager = LoginManager()
             loginManager.logIn(permissions: ["public_profile", "email"], from: nil) { result, error in
                 if let error = error {
@@ -147,7 +148,7 @@ final class FirebaseAuthService: AuthServiceProtocol {
             return user
         } else {
             // Send OTP
-            let verificationID = try await withCheckedThrowingContinuation { continuation in
+            let verificationID: String = try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<String, Error>) in
                 PhoneAuthProvider.provider().verifyPhoneNumber(phoneNumber, uiDelegate: nil) { verificationID, error in
                     if let error = error {
                         continuation.resume(throwing: AuthError.phoneVerificationFailed(error.localizedDescription))
@@ -246,7 +247,7 @@ final class FirebaseAuthService: AuthServiceProtocol {
     }
     
     // MARK: - Helper Methods
-    private func convertFirebaseUser(_ firebaseUser: User) -> AuthUser {
+    private func convertFirebaseUser(_ firebaseUser: FirebaseAuth.User) -> AuthUser {
         return AuthUser(
             uid: firebaseUser.uid,
             email: firebaseUser.email,

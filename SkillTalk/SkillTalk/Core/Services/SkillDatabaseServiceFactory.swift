@@ -67,8 +67,8 @@ class SkillDatabaseServiceFactory {
     }
     
     /// Creates a local JSON skill database service
-    private func createLocalService() -> LocalSkillDatabaseService {
-        return LocalSkillDatabaseService()
+    private func createLocalService() -> SkillDatabaseServiceProtocol {
+        return LocalSkillServiceWrapper()
     }
     
     // MARK: - Individual Service Access
@@ -87,6 +87,95 @@ class SkillDatabaseServiceFactory {
     func getLocalService() -> SkillDatabaseServiceProtocol {
         return createLocalService()
     }
+}
+
+// MARK: - Local Skill Service Wrapper
+
+/// Wrapper to make LocalSkillService conform to SkillDatabaseServiceProtocol
+class LocalSkillServiceWrapper: SkillDatabaseServiceProtocol {
+    
+    // MARK: - Properties
+    let provider: ServiceProvider = .supabase // Using supabase as default since local is not in enum
+    private(set) var isHealthy: Bool = true
+    
+    private let localService: LocalSkillService
+    
+    // MARK: - Initialization
+    init() {
+        self.localService = LocalSkillService()
+    }
+    
+    // MARK: - Core Skill Loading Methods
+    
+    func loadCategories(for language: String) async throws -> [SkillCategory] {
+        return try await localService.loadCategories(for: language)
+    }
+    
+    func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory] {
+        return try await localService.loadSubcategories(for: categoryId, language: language)
+    }
+    
+    func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
+        return try await localService.loadSkills(for: subcategoryId, categoryId: categoryId, language: language)
+    }
+    
+    // MARK: - Search and Filtering Methods
+    
+    func searchSkills(query: String, language: String, limit: Int) async throws -> [Skill] {
+        return try await localService.searchSkills(query: query, language: language, limit: limit)
+    }
+    
+    func getSkillsByDifficulty(_ difficulty: SkillDifficulty, language: String) async throws -> [Skill] {
+        return try await localService.getSkillsByDifficulty(difficulty, language: language)
+    }
+    
+    func getPopularSkills(limit: Int, language: String) async throws -> [Skill] {
+        return try await localService.getPopularSkills(limit: limit, language: language)
+    }
+    
+    // MARK: - Language Support
+    
+    func getSupportedLanguages() async throws -> [String] {
+        return ["en", "es", "fr", "de", "zh", "ja", "ko", "ar", "hi", "ru"]
+    }
+    
+    func isLanguageSupported(_ language: String) async -> Bool {
+        do {
+            let supported = try await getSupportedLanguages()
+            return supported.contains(language)
+        } catch {
+            return false
+        }
+    }
+    
+    // MARK: - Caching and Performance
+    
+    func clearCache() async {
+        await localService.clearCache()
+    }
+    
+    func preloadLanguage(_ language: String) async throws {
+        try await localService.preloadPopularSkills(language: language)
+    }
+    
+    // MARK: - Health Monitoring
+    
+    func checkHealth() async -> ServiceHealthStatus {
+        return .healthy
+    }
+    
+    func getServiceStats() async -> SkillServiceStats {
+        return SkillServiceStats(
+            totalCategories: 0,
+            totalSubcategories: 0,
+            totalSkills: 0,
+            supportedLanguages: 10,
+            cacheHitRate: 0.0,
+            averageResponseTime: 0.0,
+            lastUpdated: Date(),
+            dataSize: 0
+        )
+    }
     
     // MARK: - Service Health Check
     
@@ -94,18 +183,15 @@ class SkillDatabaseServiceFactory {
     func checkAllServicesHealth() async -> [ServiceProvider: ServiceHealthStatus] {
         let supabaseService = createSupabaseService()
         let firebaseService = createFirebaseService()
-        let localService = createLocalService()
         
         async let supabaseHealth = supabaseService.checkHealth()
         async let firebaseHealth = firebaseService.checkHealth()
-        async let localHealth = localService.checkHealth()
         
-        let results = await (supabaseHealth, firebaseHealth, localHealth)
+        let results = await (supabaseHealth, firebaseHealth)
         
         return [
             .supabase: results.0,
-            .firebase: results.1,
-            .local: results.2
+            .firebase: results.1
         ]
     }
     
@@ -115,18 +201,15 @@ class SkillDatabaseServiceFactory {
     func getAllServicesStats() async -> [ServiceProvider: SkillServiceStats] {
         let supabaseService = createSupabaseService()
         let firebaseService = createFirebaseService()
-        let localService = createLocalService()
         
         async let supabaseStats = supabaseService.getServiceStats()
         async let firebaseStats = firebaseService.getServiceStats()
-        async let localStats = localService.getServiceStats()
         
-        let results = await (supabaseStats, firebaseStats, localStats)
+        let results = await (supabaseStats, firebaseStats)
         
         return [
             .supabase: results.0,
-            .firebase: results.1,
-            .local: results.2
+            .firebase: results.1
         ]
     }
 }

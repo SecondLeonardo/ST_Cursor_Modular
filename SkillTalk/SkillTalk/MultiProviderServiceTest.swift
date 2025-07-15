@@ -76,11 +76,25 @@ class MultiProviderServiceTest {
     private func testHealthChecks() async {
         print("🏥 Test 2: Health Checks")
         
-        let healthResults = await serviceFactory.checkAllServicesHealth()
+        // Test individual service health checks
+        let multiService = serviceFactory.createMultiProviderService()
+        let health = await multiService.checkHealth()
+        print("   Multi-provider service health: \(health)")
         
-        for (provider, status) in healthResults {
-            let statusEmoji = status == .healthy ? "✅" : status == .degraded ? "⚠️" : "❌"
-            print("   \(statusEmoji) \(provider.displayName): \(status)")
+        // Test individual services if available
+        if let supabaseService = try? serviceFactory.getSupabaseService() {
+            let supabaseHealth = await supabaseService.checkHealth()
+            print("   Supabase service health: \(supabaseHealth)")
+        }
+        
+        if let firebaseService = try? serviceFactory.getFirebaseService() {
+            let firebaseHealth = await firebaseService.checkHealth()
+            print("   Firebase service health: \(firebaseHealth)")
+        }
+        
+        if let localService = try? serviceFactory.getLocalService() {
+            let localHealth = await localService.checkHealth()
+            print("   Local service health: \(localHealth)")
         }
         
         print()

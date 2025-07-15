@@ -44,7 +44,7 @@ class AuthenticationManager: ObservableObject {
     
     private func configureSocialAuth() {
         // Configure social authentication providers
-        SocialAuthConfiguration.shared.configure()
+        SocialAuthConfiguration.shared.configureAllProviders()
     }
     
     private func restoreSession() {

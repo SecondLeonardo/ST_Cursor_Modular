@@ -99,7 +99,7 @@ struct SkillServiceHealthView: View {
                 overallStatusCard
                 
                 // Individual Services
-                ForEach(Array(viewModel.serviceStatuses.keys.sorted()), id: \.self) { provider in
+                ForEach(Array(viewModel.serviceStatuses.keys.sorted(by: { $0.rawValue < $1.rawValue })), id: \.self) { provider in
                     if let status = viewModel.serviceStatuses[provider] {
                         serviceStatusCard(provider: provider, status: status)
                     }
@@ -325,8 +325,10 @@ struct SkillServiceHealthView: View {
             return "checkmark.circle.fill"
         case .degraded:
             return "exclamationmark.triangle.fill"
-        case .unhealthy:
+        case .failed:
             return "xmark.circle.fill"
+        case .unknown:
+            return "questionmark.circle.fill"
         }
     }
     
@@ -336,8 +338,10 @@ struct SkillServiceHealthView: View {
             return .green
         case .degraded:
             return .orange
-        case .unhealthy:
+        case .failed:
             return .red
+        case .unknown:
+            return .gray
         }
     }
     
@@ -347,8 +351,10 @@ struct SkillServiceHealthView: View {
             return "Healthy"
         case .degraded:
             return "Degraded"
-        case .unhealthy:
-            return "Unhealthy"
+        case .failed:
+            return "Failed"
+        case .unknown:
+            return "Unknown"
         }
     }
 }

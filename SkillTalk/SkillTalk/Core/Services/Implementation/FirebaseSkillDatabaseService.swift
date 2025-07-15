@@ -64,8 +64,8 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             
             let categories = try snapshot.documents.compactMap { document in
                 let data = document.data()
-                return try JSONSerialization.data(withJSONObject: data)
-                    .flatMap { try JSONDecoder().decode(SkillCategory.self, from: $0) }
+                let jsonData = try JSONSerialization.data(withJSONObject: data)
+                return try JSONDecoder().decode(SkillCategory.self, from: jsonData)
             }
             
             // Cache the result
@@ -100,8 +100,8 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             
             let subcategories = try snapshot.documents.compactMap { document in
                 let data = document.data()
-                return try JSONSerialization.data(withJSONObject: data)
-                    .flatMap { try JSONDecoder().decode(SkillSubcategory.self, from: $0) }
+                let jsonData = try JSONSerialization.data(withJSONObject: data)
+                return try JSONDecoder().decode(SkillSubcategory.self, from: jsonData)
             }
             
             // Cache the result
@@ -136,8 +136,8 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             
             let skills = try snapshot.documents.compactMap { document in
                 let data = document.data()
-                return try JSONSerialization.data(withJSONObject: data)
-                    .flatMap { try JSONDecoder().decode(Skill.self, from: $0) }
+                let jsonData = try JSONSerialization.data(withJSONObject: data)
+                return try JSONDecoder().decode(Skill.self, from: jsonData)
             }
             
             // Cache the result
@@ -176,8 +176,8 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             
             let allSkills = try snapshot.documents.compactMap { document in
                 let data = document.data()
-                return try JSONSerialization.data(withJSONObject: data)
-                    .flatMap { try JSONDecoder().decode(Skill.self, from: $0) }
+                let jsonData = try JSONSerialization.data(withJSONObject: data)
+                return try JSONDecoder().decode(Skill.self, from: jsonData)
             }
             
             // Filter skills that match the query
@@ -218,8 +218,8 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             
             let skills = try snapshot.documents.compactMap { document in
                 let data = document.data()
-                return try JSONSerialization.data(withJSONObject: data)
-                    .flatMap { try JSONDecoder().decode(Skill.self, from: $0) }
+                let jsonData = try JSONSerialization.data(withJSONObject: data)
+                return try JSONDecoder().decode(Skill.self, from: jsonData)
             }
             
             // Cache the result
@@ -254,8 +254,8 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             
             let skills = try snapshot.documents.compactMap { document in
                 let data = document.data()
-                return try JSONSerialization.data(withJSONObject: data)
-                    .flatMap { try JSONDecoder().decode(Skill.self, from: $0) }
+                let jsonData = try JSONSerialization.data(withJSONObject: data)
+                return try JSONDecoder().decode(Skill.self, from: jsonData)
             }
             
             // Cache the result
@@ -352,7 +352,7 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
         } catch {
             isHealthy = false
             log("🏥 Firebase health check failed: \(error.localizedDescription)")
-            return .unhealthy
+            return .failed
         }
     }
     

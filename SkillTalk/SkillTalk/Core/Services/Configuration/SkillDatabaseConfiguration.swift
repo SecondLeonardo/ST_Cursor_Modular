@@ -116,7 +116,6 @@ struct SkillDatabaseConfiguration {
             englishName: "Technology",
             icon: "💻",
             sortOrder: 1,
-            description: "Programming, software development, and tech skills",
             translations: nil
         ),
         SkillCategory(
@@ -124,7 +123,6 @@ struct SkillDatabaseConfiguration {
             englishName: "Business",
             icon: "💼",
             sortOrder: 2,
-            description: "Business, management, and entrepreneurship skills",
             translations: nil
         ),
         SkillCategory(
@@ -132,7 +130,6 @@ struct SkillDatabaseConfiguration {
             englishName: "Creative",
             icon: "🎨",
             sortOrder: 3,
-            description: "Design, art, and creative skills",
             translations: nil
         )
     ]
@@ -172,26 +169,11 @@ struct SkillDatabaseConfiguration {
 
 // MARK: - Environment Configuration
 
-enum Environment {
-    case development
-    case staging
-    case production
-    
-    var skillDatabaseConfig: SkillDatabaseConfiguration.Type {
-        switch self {
-        case .development:
-            return DevelopmentSkillDatabaseConfiguration.self
-        case .staging:
-            return StagingSkillDatabaseConfiguration.self
-        case .production:
-            return ProductionSkillDatabaseConfiguration.self
-        }
-    }
-}
+// Environment enum is already defined in SkillDatabaseConfig.swift
 
 // MARK: - Environment-Specific Configurations
 
-struct DevelopmentSkillDatabaseConfiguration: SkillDatabaseConfiguration {
+struct DevelopmentSkillDatabaseConfiguration {
     struct Supabase {
         static let baseURL = "https://your-dev-project.supabase.co/rest/v1"
         static let apiKey = "your-dev-supabase-key"
@@ -202,7 +184,7 @@ struct DevelopmentSkillDatabaseConfiguration: SkillDatabaseConfiguration {
     }
 }
 
-struct StagingSkillDatabaseConfiguration: SkillDatabaseConfiguration {
+struct StagingSkillDatabaseConfiguration {
     struct Supabase {
         static let baseURL = "https://your-staging-project.supabase.co/rest/v1"
         static let apiKey = "your-staging-supabase-key"
@@ -213,7 +195,7 @@ struct StagingSkillDatabaseConfiguration: SkillDatabaseConfiguration {
     }
 }
 
-struct ProductionSkillDatabaseConfiguration: SkillDatabaseConfiguration {
+struct ProductionSkillDatabaseConfiguration {
     struct Supabase {
         static let baseURL = "https://your-prod-project.supabase.co/rest/v1"
         static let apiKey = "your-prod-supabase-key"

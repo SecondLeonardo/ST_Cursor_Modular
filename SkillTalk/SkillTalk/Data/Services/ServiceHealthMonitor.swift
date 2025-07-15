@@ -40,7 +40,7 @@ class ServiceHealthMonitor: ObservableObject {
     
     // MARK: - Initialization
     
-    private init() {
+    init() {
         setupHealthMonitoring()
         startMonitoring()
         logger.debug("🏥 Service Health Monitor initialized")
