@@ -1,6 +1,7 @@
 import Foundation
 import Supabase
 import LocalAuthentication
+import KeychainAccess
 
 final class SupabaseAuthService: AuthServiceProtocol {
     // MARK: - Properties
@@ -11,7 +12,7 @@ final class SupabaseAuthService: AuthServiceProtocol {
     // MARK: - User Info
     private(set) var currentUser: AuthUser? = nil
     var isSignedIn: Bool { 
-        return supabase.auth.session != nil 
+        return currentUser != nil
     }
     
     // MARK: - Initialization
@@ -64,8 +65,11 @@ final class SupabaseAuthService: AuthServiceProtocol {
     
     private func restoreCurrentUser() {
         Task {
-            if let session = await supabase.auth.session {
+            do {
+                let session = try await supabase.auth.session
                 currentUser = convertSupabaseUser(session.user)
+            } catch {
+                print("❌ [SupabaseAuthService] Failed to restore session: \(error)")
             }
         }
     }
@@ -138,21 +142,23 @@ final class SupabaseAuthService: AuthServiceProtocol {
     
     // MARK: - Token Management
     func refreshTokenIfNeeded() async throws {
-        guard let session = await supabase.auth.session else {
+        do {
+            let session = try await supabase.auth.session
+            // Supabase automatically handles token refresh
+            // This method is mainly for custom token management
+            _ = session
+        } catch {
             throw AuthError.notSignedIn
         }
-        
-        // Supabase automatically handles token refresh
-        // This method is mainly for custom token management
-        _ = session
     }
     
     func getIDToken(forceRefresh: Bool) async throws -> String? {
-        guard let session = await supabase.auth.session else {
+        do {
+            let session = try await supabase.auth.session
+            return session.accessToken
+        } catch {
             return nil
         }
-        
-        return session.accessToken
     }
     
     // MARK: - Biometric Authentication
@@ -198,8 +204,11 @@ final class SupabaseAuthService: AuthServiceProtocol {
     func restoreSession() async throws {
         // Supabase automatically restores sessions
         // This method is mainly for custom session management
-        if let session = await supabase.auth.session {
+        do {
+            let session = try await supabase.auth.session
             currentUser = convertSupabaseUser(session.user)
+        } catch {
+            print("❌ [SupabaseAuthService] Failed to restore session: \(error)")
         }
     }
     

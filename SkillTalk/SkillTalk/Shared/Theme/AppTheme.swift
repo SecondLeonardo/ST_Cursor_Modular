@@ -13,7 +13,7 @@ struct AppTheme {
     let spacing = AppSpacing.self
     
     // MARK: - Dark Mode Support
-    @Environment(\.colorScheme) var colorScheme
+    @SwiftUI.Environment(\.colorScheme) var colorScheme: ColorScheme
     
     var isDarkMode: Bool {
         colorScheme == .dark

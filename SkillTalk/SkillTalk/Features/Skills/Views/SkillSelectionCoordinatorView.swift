@@ -7,7 +7,7 @@ import SwiftUI
 struct SkillSelectionCoordinatorView: View {
     
     // MARK: - Properties
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     @StateObject private var viewModel: SkillSelectionViewModel
     @State private var showingVIPAlert = false
     @State private var showingServiceHealth = false

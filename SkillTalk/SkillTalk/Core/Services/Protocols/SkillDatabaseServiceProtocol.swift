@@ -119,8 +119,6 @@ extension ServiceProvider {
             return "https://your-project.supabase.co/rest/v1/skills"
         case .firebase:
             return "https://your-project.firebaseio.com/skills"
-        case .local:
-            return "local://skills"
         default:
             return ""
         }

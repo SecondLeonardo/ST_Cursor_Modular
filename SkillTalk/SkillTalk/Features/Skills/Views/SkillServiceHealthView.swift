@@ -15,7 +15,7 @@ struct SkillServiceHealthView: View {
     
     // MARK: - Properties
     @StateObject private var viewModel = SkillServiceHealthViewModel()
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     
     // MARK: - Body
     var body: some View {

@@ -9,7 +9,7 @@ struct SkillSubcategorySelectionView: View {
     @StateObject private var viewModel: SkillSubcategorySelectionViewModel
     @State private var selectedSubcategory: SkillSubcategory?
     @State private var showingSkills = false
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     
     // MARK: - Initialization
     init(category: SkillCategory) {

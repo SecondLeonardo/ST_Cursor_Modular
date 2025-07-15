@@ -294,6 +294,7 @@ enum AuthError: LocalizedError {
     case notSignedIn
     case biometricNotAvailable
     case biometricNotEnabled
+    case notImplemented(String)
     
     var errorDescription: String? {
         switch self {
@@ -315,6 +316,8 @@ enum AuthError: LocalizedError {
             return "Biometric authentication is not available"
         case .biometricNotEnabled:
             return "Biometric authentication is not enabled"
+        case .notImplemented(let feature):
+            return "\(feature) is not implemented"
         }
     }
 } 

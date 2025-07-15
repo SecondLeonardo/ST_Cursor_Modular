@@ -84,7 +84,7 @@ class SkillDatabaseServiceFactory {
     }
     
     /// Gets the local service directly
-    func getLocalService() -> LocalSkillDatabaseService {
+    func getLocalService() -> SkillDatabaseServiceProtocol {
         return createLocalService()
     }
     
@@ -140,10 +140,8 @@ extension ServiceProvider {
             return "Supabase"
         case .firebase:
             return "Firebase"
-        case .local:
-            return "Local JSON"
-        case .multi:
-            return "Multi-Provider"
+        default:
+            return rawValue
         }
     }
 } 

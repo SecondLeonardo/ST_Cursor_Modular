@@ -15,7 +15,7 @@ import Combine
 /// Settings view for location permissions and privacy controls
 @MainActor
 struct LocationSettingsView: View {
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     
     // MARK: - State Properties
     @StateObject private var locationService = MultiLocationService()

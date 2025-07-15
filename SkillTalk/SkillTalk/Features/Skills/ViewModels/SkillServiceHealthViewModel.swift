@@ -117,9 +117,7 @@ class SkillServiceHealthViewModel: ObservableObject {
                 service = serviceFactory.getSupabaseService()
             case .firebase:
                 service = serviceFactory.getFirebaseService()
-            case .local:
-                service = serviceFactory.getLocalService()
-            case .multi:
+            default:
                 service = serviceFactory.createMultiProviderService()
             }
             
@@ -175,8 +173,5 @@ class SkillServiceHealthViewModel: ObservableObject {
 
 // MARK: - Service Provider Extension
 
-extension ServiceProvider: CaseIterable {
-    public static var allCases: [ServiceProvider] {
-        return [.supabase, .firebase, .local, .multi]
-    }
-} 
+// ServiceProvider already conforms to CaseIterable in ServiceTypes.swift
+// The allCases property is already defined in ServiceTypes.swift 

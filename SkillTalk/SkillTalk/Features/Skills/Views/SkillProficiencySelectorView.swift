@@ -9,7 +9,7 @@ struct SkillProficiencySelectorView: View {
     let onProficiencySelected: (SkillProficiencyLevel) -> Void
     
     @State private var selectedProficiency: SkillProficiencyLevel?
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     
     // MARK: - Body
     var body: some View {

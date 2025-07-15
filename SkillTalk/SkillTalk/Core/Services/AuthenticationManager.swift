@@ -204,7 +204,7 @@ class AuthenticationManager: ObservableObject {
     }
     
     /// Check if biometric authentication is enabled
-    func isBiometricEnabled() -> Bool {
+    func checkBiometricEnabled() -> Bool {
         return isBiometricEnabled
     }
     

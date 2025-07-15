@@ -2,7 +2,7 @@ import SwiftUI
 
 struct UserProfileView: View {
     @StateObject private var viewModel: ProfileViewModel
-    @Environment(\.dismiss) private var dismiss
+    @SwiftUI.Environment(\.dismiss) private var dismiss: DismissAction
     
     init(
         profileService: ProfileServiceProtocol,

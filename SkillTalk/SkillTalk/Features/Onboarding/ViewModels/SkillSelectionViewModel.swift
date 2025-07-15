@@ -381,7 +381,7 @@ class SkillSelectionViewModel: ObservableObject {
 class MockSkillSelectionViewModel: SkillSelectionViewModel {
     override init(skillType: UserSkillType,
                   language: String = Locale.current.languageCode ?? "en",
-                  skillRepository: SkillRepositoryProtocol = SkillRepository(),
+                  skillRepository: SkillRepositoryProtocol? = SkillRepository(),
                   referenceDataRepository: ReferenceDataRepositoryProtocol = ReferenceDataRepository(),
                   vipService: VIPServiceProtocol? = nil) {
         super.init(skillType: skillType, language: language, skillRepository: skillRepository, referenceDataRepository: referenceDataRepository, vipService: vipService)

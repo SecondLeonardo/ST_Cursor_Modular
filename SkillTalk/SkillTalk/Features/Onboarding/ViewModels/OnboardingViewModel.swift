@@ -127,7 +127,7 @@ class OnboardingViewModel: ObservableObject {
         do {
             let result = try await authService.signInWithApple()
             onboardingData.isAuthenticated = true
-            onboardingData.authProvider = AuthProvider.apple
+            onboardingData.authProvider = OnboardingAuthProvider.apple
             nextStep()
         } catch {
             errorMessage = "Apple Sign-In failed: \(error.localizedDescription)"
@@ -143,7 +143,7 @@ class OnboardingViewModel: ObservableObject {
         do {
             let result = try await authService.signInWithGoogle()
             onboardingData.isAuthenticated = true
-            onboardingData.authProvider = AuthProvider.google
+            onboardingData.authProvider = OnboardingAuthProvider.google
             nextStep()
         } catch {
             errorMessage = "Google Sign-In failed: \(error.localizedDescription)"
@@ -159,7 +159,7 @@ class OnboardingViewModel: ObservableObject {
         do {
             let result = try await authService.signInWithFacebook()
             onboardingData.isAuthenticated = true
-            onboardingData.authProvider = AuthProvider.facebook
+            onboardingData.authProvider = OnboardingAuthProvider.facebook
             nextStep()
         } catch {
             errorMessage = "Facebook Sign-In failed: \(error.localizedDescription)"
@@ -175,7 +175,7 @@ class OnboardingViewModel: ObservableObject {
         do {
             let result = try await authService.signInWithEmail(email: email, password: password)
             onboardingData.isAuthenticated = true
-            onboardingData.authProvider = AuthProvider.email
+            onboardingData.authProvider = OnboardingAuthProvider.email
             nextStep()
         } catch {
             errorMessage = "Email Sign-In failed: \(error.localizedDescription)"
@@ -191,7 +191,7 @@ class OnboardingViewModel: ObservableObject {
         do {
             let result = try await authService.signInWithPhone(phoneNumber: phoneNumber, otp: otp)
             onboardingData.isAuthenticated = true
-            onboardingData.authProvider = AuthProvider.phone
+            onboardingData.authProvider = OnboardingAuthProvider.phone
             nextStep()
         } catch {
             errorMessage = "Phone Sign-In failed: \(error.localizedDescription)"
