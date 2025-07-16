@@ -23,8 +23,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
-        // Configure Firebase
-        FirebaseApp.configure()
+        // Configure Firebase - Temporarily disabled due to configuration issues
+        // FirebaseApp.configure()
         
         // Configure Facebook SDK
         FBSDKCoreKit.ApplicationDelegate.shared.application(
@@ -55,27 +55,39 @@ struct SkillTalkApp: App {
     // MARK: - Initialization
     
     init() {
+        // Clear any cached onboarding completion status to force welcome screen
+        UserDefaults.standard.set(false, forKey: "onboardingCompleted")
         setupApp()
     }
+    
+
     
     // MARK: - App Scene
     
     var body: some Scene {
         WindowGroup {
             // Proper onboarding/main app switching
-            if isOnboardingCompleted {
-                MainAppView()
-                    .onReceive(NotificationCenter.default.publisher(for: .onboardingCompleted)) { _ in
-                        isOnboardingCompleted = true
-                    }
-                    .onReceive(NotificationCenter.default.publisher(for: .resetOnboarding)) { _ in
-                        isOnboardingCompleted = false
-                    }
-            } else {
-                OnboardingContainerView()
-                    .onReceive(NotificationCenter.default.publisher(for: .onboardingCompleted)) { _ in
-                        isOnboardingCompleted = true
-                    }
+            Group {
+                if isOnboardingCompleted {
+                    MainAppView()
+                        .onReceive(NotificationCenter.default.publisher(for: .onboardingCompleted)) { _ in
+                            print("🎯 Onboarding completed notification received")
+                            isOnboardingCompleted = true
+                        }
+                        .onReceive(NotificationCenter.default.publisher(for: .resetOnboarding)) { _ in
+                            print("🔄 Reset onboarding notification received")
+                            isOnboardingCompleted = false
+                        }
+                } else {
+                    OnboardingContainerView()
+                        .onReceive(NotificationCenter.default.publisher(for: .onboardingCompleted)) { _ in
+                            print("🎯 Onboarding completed notification received")
+                            isOnboardingCompleted = true
+                        }
+                }
+            }
+            .onAppear {
+                print("🚀 App launched - isOnboardingCompleted: \(isOnboardingCompleted)")
             }
         }
     }
