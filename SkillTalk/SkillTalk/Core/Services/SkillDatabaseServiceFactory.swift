@@ -87,6 +87,42 @@ class SkillDatabaseServiceFactory {
     func getLocalService() -> SkillDatabaseServiceProtocol {
         return createLocalService()
     }
+    
+    // MARK: - Service Health Check
+    
+    /// Performs health checks on all services
+    func checkAllServicesHealth() async -> [ServiceProvider: ServiceHealthStatus] {
+        let supabaseService = createSupabaseService()
+        let firebaseService = createFirebaseService()
+        
+        async let supabaseHealth = supabaseService.checkHealth()
+        async let firebaseHealth = firebaseService.checkHealth()
+        
+        let results = await (supabaseHealth, firebaseHealth)
+        
+        return [
+            .supabase: results.0,
+            .firebase: results.1
+        ]
+    }
+    
+    // MARK: - Service Statistics
+    
+    /// Gets statistics from all services
+    func getAllServicesStats() async -> [ServiceProvider: SkillServiceStats] {
+        let supabaseService = createSupabaseService()
+        let firebaseService = createFirebaseService()
+        
+        async let supabaseStats = supabaseService.getServiceStats()
+        async let firebaseStats = firebaseService.getServiceStats()
+        
+        let results = await (supabaseStats, firebaseStats)
+        
+        return [
+            .supabase: results.0,
+            .firebase: results.1
+        ]
+    }
 }
 
 // MARK: - Local Skill Service Wrapper
@@ -177,41 +213,6 @@ class LocalSkillServiceWrapper: SkillDatabaseServiceProtocol {
         )
     }
     
-    // MARK: - Service Health Check
-    
-    /// Performs health checks on all services
-    func checkAllServicesHealth() async -> [ServiceProvider: ServiceHealthStatus] {
-        let supabaseService = createSupabaseService()
-        let firebaseService = createFirebaseService()
-        
-        async let supabaseHealth = supabaseService.checkHealth()
-        async let firebaseHealth = firebaseService.checkHealth()
-        
-        let results = await (supabaseHealth, firebaseHealth)
-        
-        return [
-            .supabase: results.0,
-            .firebase: results.1
-        ]
-    }
-    
-    // MARK: - Service Statistics
-    
-    /// Gets statistics from all services
-    func getAllServicesStats() async -> [ServiceProvider: SkillServiceStats] {
-        let supabaseService = createSupabaseService()
-        let firebaseService = createFirebaseService()
-        
-        async let supabaseStats = supabaseService.getServiceStats()
-        async let firebaseStats = firebaseService.getServiceStats()
-        
-        let results = await (supabaseStats, firebaseStats)
-        
-        return [
-            .supabase: results.0,
-            .firebase: results.1
-        ]
-    }
 }
 
 // MARK: - Service Provider Extension

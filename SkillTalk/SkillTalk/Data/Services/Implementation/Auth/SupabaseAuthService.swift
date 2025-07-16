@@ -20,7 +20,9 @@ final class SupabaseAuthService: AuthServiceProtocol {
         // Initialize Supabase client using the existing configuration
         let config = SupabaseServiceConfiguration.shared
         
-        guard let client = config.getClient() else {
+        if let client = config.getClient() {
+            self.supabase = client
+        } else {
             // Fallback to direct initialization if configuration is not available
             let supabaseURL = URL(string: "https://uvjwdadplwfimwklqxqh.supabase.co")!
             let supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmandkYWRwbHdmaW13a2xxeHFoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE1NTQ4ODEsImV4cCI6MjA2NzEzMDg4MX0.RKbybZnxsDViHqlBlPZfpuqBprHrl66aHS-1P5oZDtM"
@@ -30,8 +32,6 @@ final class SupabaseAuthService: AuthServiceProtocol {
                 supabaseKey: supabaseAnonKey
             )
         }
-        
-        self.supabase = client
         
         setupAuthStateListener()
         restoreCurrentUser()
