@@ -16,11 +16,11 @@ class TwilioSMSService {
     
     // MARK: - Properties
     
-    // TODO: Replace with your actual Twilio credentials
+    // Twilio credentials for SMS OTP service
     // Get these from your Twilio Console: https://console.twilio.com/
-    private let accountSID = "YOUR_TWILIO_ACCOUNT_SID"
-    private let authToken = "YOUR_TWILIO_AUTH_TOKEN"
-    private let fromNumber = "YOUR_TWILIO_PHONE_NUMBER"
+    private let accountSID = "ACc6fb998b91b006e17c189d03561c02df"
+    private let authToken = "8c74879027334242d277a5c2df753135"
+    private let fromNumber = "+13239917734"
     private let baseURL = "https://api.twilio.com/2010-04-01/Accounts"
     
     // MARK: - OTP Management
