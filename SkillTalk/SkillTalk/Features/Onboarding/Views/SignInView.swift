@@ -2,12 +2,18 @@ import SwiftUI
 
 struct SignInView: View {
     @ObservedObject var coordinator: OnboardingCoordinator
+    @StateObject private var authViewModel = AuthViewModel()
     @State private var email = ""
     @State private var password = ""
     @State private var phone = ""
+    @State private var otpCode = ""
     @State private var isSignUp = false
     @State private var showPassword = false
     @State private var selectedTab: SignInTab = .email
+    @State private var showOTPInput = false
+    @State private var isLoading = false
+    @State private var errorMessage = ""
+    @State private var showError = false
     
     var body: some View {
         VStack(spacing: 0) {
@@ -32,21 +38,46 @@ struct SignInView: View {
             // Wide social auth buttons at the bottom
             VStack(spacing: 16) {
                 WideSocialButton(title: "Sign in with Google", icon: "G", color: Color(red: 0.98, green: 0.27, blue: 0.22)) {
-                    coordinator.onboardingData.isAuthenticated = true
-                    coordinator.nextStep()
+                    Task {
+                        await signInWithGoogle()
+                    }
                 }
+                .disabled(isLoading)
+                
                 WideSocialButton(title: "Sign in with Facebook", icon: "F", color: Color(red: 0.22, green: 0.51, blue: 0.96)) {
-                    coordinator.onboardingData.isAuthenticated = true
-                    coordinator.nextStep()
+                    Task {
+                        await signInWithFacebook()
+                    }
                 }
+                .disabled(isLoading)
+                
                 WideSocialButton(title: "Sign in with Apple", icon: "applelogo", color: .black, isSF: true) {
-                    coordinator.onboardingData.isAuthenticated = true
-                    coordinator.nextStep()
+                    // Apple Sign-In placeholder (requires paid developer account)
+                    showError(message: "Apple Sign-In requires a paid Apple Developer account")
                 }
+                .disabled(isLoading)
             }
             .padding(.horizontal, 24)
             .padding(.bottom, 24)
         }
+        .alert("Authentication Error", isPresented: $showError) {
+            Button("OK") {
+                showError = false
+            }
+        } message: {
+            Text(errorMessage)
+        }
+        .overlay(
+            Group {
+                if isLoading {
+                    Color.black.opacity(0.3)
+                        .ignoresSafeArea()
+                    ProgressView("Authenticating...")
+                        .progressViewStyle(CircularProgressViewStyle(tint: .white))
+                        .scaleEffect(1.5)
+                }
+            }
+        )
     }
     
     // MARK: - Header Section
@@ -139,17 +170,60 @@ struct SignInView: View {
                 TextField("Enter your phone number", text: $phone)
                     .textFieldStyle(CustomTextFieldStyle())
                     .keyboardType(.phonePad)
+                    .disabled(showOTPInput)
             }
-            Button("Send Code") {
-                coordinator.onboardingData.isAuthenticated = true
-                coordinator.nextStep()
+            
+            if showOTPInput {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("Verification Code")
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                        .foregroundColor(ThemeColors.textPrimary)
+                    TextField("Enter 6-digit code", text: $otpCode)
+                        .textFieldStyle(CustomTextFieldStyle())
+                        .keyboardType(.numberPad)
+                        .onChange(of: otpCode) { newValue in
+                            if newValue.count > 6 {
+                                otpCode = String(newValue.prefix(6))
+                            }
+                        }
+                }
+                
+                Button("Verify Code") {
+                    Task {
+                        await verifyOTP()
+                    }
+                }
+                .font(.headline)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 16)
+                .background(ThemeColors.primary)
+                .foregroundColor(.white)
+                .clipShape(Capsule())
+                .disabled(otpCode.count != 6 || isLoading)
+                
+                Button("Resend Code") {
+                    Task {
+                        await sendOTP()
+                    }
+                }
+                .font(.subheadline)
+                .foregroundColor(ThemeColors.primary)
+                .disabled(isLoading)
+            } else {
+                Button("Send Code") {
+                    Task {
+                        await sendOTP()
+                    }
+                }
+                .font(.headline)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 16)
+                .background(ThemeColors.primary)
+                .foregroundColor(.white)
+                .clipShape(Capsule())
+                .disabled(phone.isEmpty || isLoading)
             }
-            .font(.headline)
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 16)
-            .background(ThemeColors.primary)
-            .foregroundColor(.white)
-            .clipShape(Capsule())
         }
     }
     
@@ -160,11 +234,13 @@ struct SignInView: View {
             PrimaryButton(
                 title: isSignUp ? "Create Account" : "Sign In",
                 action: {
-                    coordinator.onboardingData.isAuthenticated = true
-                    coordinator.nextStep()
+                    Task {
+                        await signInWithEmail()
+                    }
                 }
             )
-            .disabled(selectedTab == .email ? (email.isEmpty || password.isEmpty) : phone.isEmpty)
+            .disabled(selectedTab == .email ? (email.isEmpty || password.isEmpty) : phone.isEmpty || isLoading)
+            
             // Toggle between sign in and sign up
             Button(action: {
                 isSignUp.toggle()
@@ -173,9 +249,89 @@ struct SignInView: View {
                     .font(.body)
                     .foregroundColor(ThemeColors.primary)
             }
+            .disabled(isLoading)
         }
     }
+    // MARK: - Authentication Methods
+    
+    private func signInWithGoogle() async {
+        isLoading = true
+        do {
+            let user = try await authViewModel.signInWithGoogle()
+            print("✅ Google Sign-In successful: \(user.displayName)")
+            coordinator.onboardingData.isAuthenticated = true
+            coordinator.nextStep()
+        } catch {
+            showError(message: error.localizedDescription)
+        }
+        isLoading = false
+    }
+    
+    private func signInWithFacebook() async {
+        isLoading = true
+        do {
+            let user = try await authViewModel.signInWithFacebook()
+            print("✅ Facebook Sign-In successful: \(user.displayName)")
+            coordinator.onboardingData.isAuthenticated = true
+            coordinator.nextStep()
+        } catch {
+            showError(message: error.localizedDescription)
+        }
+        isLoading = false
+    }
+    
+    private func signInWithEmail() async {
+        isLoading = true
+        do {
+            let user: AuthUser
+            if isSignUp {
+                user = try await authViewModel.signUpWithEmail(email: email, password: password)
+                print("✅ Email Sign-Up successful: \(user.email)")
+            } else {
+                user = try await authViewModel.signInWithEmail(email: email, password: password)
+                print("✅ Email Sign-In successful: \(user.email)")
+            }
+            coordinator.onboardingData.isAuthenticated = true
+            coordinator.nextStep()
+        } catch {
+            showError(message: error.localizedDescription)
+        }
+        isLoading = false
+    }
+    
+    private func sendOTP() async {
+        isLoading = true
+        do {
+            try await authViewModel.sendOTP(to: phone)
+            showOTPInput = true
+            print("✅ OTP sent to \(phone)")
+        } catch {
+            showError(message: error.localizedDescription)
+        }
+        isLoading = false
+    }
+    
+    private func verifyOTP() async {
+        isLoading = true
+        do {
+            let user = try await authViewModel.verifyOTP(phoneNumber: phone, code: otpCode)
+            print("✅ OTP verification successful: \(user.phoneNumber ?? "")")
+            coordinator.onboardingData.isAuthenticated = true
+            coordinator.nextStep()
+        } catch {
+            showError(message: error.localizedDescription)
+        }
+        isLoading = false
+    }
+    
+    private func showError(message: String) {
+        errorMessage = message
+        showError = true
+    }
 }
+
+// MARK: - Error Alert
+// Error alert is now handled inline in the main view
 
 enum SignInTab {
     case email

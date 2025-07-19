@@ -7,15 +7,15 @@ target 'SkillTalk' do
 
   # Pods for SkillTalk
   
-  # Firebase Core Services (Temporarily disabled due to configuration issues)
-  # pod 'Firebase/Core'
-  # pod 'Firebase/Auth'
-  # pod 'Firebase/Firestore'
+  # Firebase Core Services
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
   
-  # Social Authentication (Temporarily disabled due to configuration issues)
-  # pod 'GoogleSignIn'  # Temporarily disabled due to configuration issues
-  # pod 'FBSDKLoginKit'  # Temporarily disabled due to configuration issues
-  # pod 'GoogleUtilities', '~> 8.1'  # Required for Firebase 11.15.0
+  # Social Authentication
+  pod 'GoogleSignIn'
+  pod 'FBSDKLoginKit'
+  pod 'GoogleUtilities', '~> 8.1'  # Required for Firebase 11.15.0
 
   # pod 'Firebase/Storage'
   # pod 'Firebase/RemoteConfig'
@@ -28,16 +28,16 @@ target 'SkillTalk' do
   # pod 'Supabase' # Not available via CocoaPods
   
   # UI and Networking
-  # pod 'Alamofire', '~> 5.0'  # Temporarily disabled due to configuration issues
-  # pod 'SDWebImage', '~> 5.0'  # Temporarily disabled due to configuration issues
-  # pod 'SnapKit', '~> 5.0'  # Temporarily disabled due to configuration issues
+  pod 'Alamofire', '~> 5.0'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'SnapKit', '~> 5.0'
   
   # Audio/Video Services
   # pod 'AgoraRtcEngine_iOS', '~> 4.0'  # Temporarily disabled due to sandbox issues
   
   # Utilities
-  # pod 'SwiftyJSON', '~> 5.0'  # Temporarily disabled due to configuration issues
-  # pod 'KeychainAccess', '~> 4.0'  # Temporarily disabled due to configuration issues
+  pod 'SwiftyJSON', '~> 5.0'
+  pod 'KeychainAccess', '~> 4.0'
   
   # Minimal dependency to create Pods framework
   pod 'SwiftLint', '~> 0.54.0'  # Development dependency only

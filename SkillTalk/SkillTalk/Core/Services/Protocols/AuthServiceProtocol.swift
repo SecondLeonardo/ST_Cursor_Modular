@@ -11,6 +11,7 @@ protocol AuthServiceProtocol: AnyObject {
     func signInWithGoogle() async throws -> AuthUser
     func signInWithFacebook() async throws -> AuthUser
     func signInWithEmail(email: String, password: String) async throws -> AuthUser
+    func signUpWithEmail(email: String, password: String) async throws -> AuthUser
     func signInWithPhone(phoneNumber: String, otp: String?) async throws -> AuthUser
 
     // MARK: - Sign Out
@@ -30,10 +31,30 @@ protocol AuthServiceProtocol: AnyObject {
 
 /// Minimal user model for authentication
 struct AuthUser: Codable, Equatable {
+    let id: String
+    let email: String
+    let displayName: String
+    let photoURL: String?
+    let phoneNumber: String?
+    let isEmailVerified: Bool
+    let providerData: [AuthProviderData]
+    
+    init(id: String, email: String, displayName: String, photoURL: String?, phoneNumber: String?, isEmailVerified: Bool, providerData: [AuthProviderData]) {
+        self.id = id
+        self.email = email
+        self.displayName = displayName
+        self.photoURL = photoURL
+        self.phoneNumber = phoneNumber
+        self.isEmailVerified = isEmailVerified
+        self.providerData = providerData
+    }
+}
+
+/// Provider data for authentication
+struct AuthProviderData: Codable, Equatable {
+    let providerId: String
     let uid: String
-    let email: String?
     let displayName: String?
-    let photoURL: URL?
-    let isAnonymous: Bool
-    let provider: String
+    let email: String?
+    let photoURL: String?
 } 

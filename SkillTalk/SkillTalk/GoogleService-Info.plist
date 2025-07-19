@@ -3,39 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>YOUR-API-KEY</string>
+	<string>AIzaSyDV4PLnxEChUToYj3D5sAvtTgTQTm44oLc</string>
 	<key>GCM_SENDER_ID</key>
-	<string>YOUR-GCM-SENDER-ID</string>
+	<string>628210244031</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>st.swift.modular</string>
+	<string>ST.SkillTalk</string>
 	<key>PROJECT_ID</key>
-	<string>skilltalk-app</string>
+	<string>st-cursur-swift-modular</string>
 	<key>STORAGE_BUCKET</key>
-	<string>skilltalk-app.appspot.com</string>
+	<string>st-cursur-swift-modular.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string></string>
-			</array>
-			<key>Item 0: com.googleusercontent.apps.628210244031-sgdimrpf3jafh53miuk7p38l4jirgmg1</key>
-			<string></string>
-		</dict>
-	</array>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>YOUR-APP-ID</string>
+	<string>1:628210244031:ios:44bc2a6da3</string>
+	<key>DATABASE_URL</key>
+	<string>https://st-cursur-swift-modular-default-rtdb.firebaseio.com</string>
+	<key>GOOGLE_SIGN_IN_CLIENT_ID</key>
+	<string>628210244031-sgdimrpf3jafh53miuk7p38l4jirgmg1.apps.googleusercontent.com</string>
 </dict>
 </plist>

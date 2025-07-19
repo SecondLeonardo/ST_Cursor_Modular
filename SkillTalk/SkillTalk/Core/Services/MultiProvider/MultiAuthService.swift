@@ -56,6 +56,16 @@ final class MultiAuthService: AuthServiceProtocol {
             return try await backup.signInWithEmail(email: email, password: password)
         }
     }
+    
+    func signUpWithEmail(email: String, password: String) async throws -> AuthUser {
+        do {
+            return try await primary.signUpWithEmail(email: email, password: password)
+        } catch {
+            print("[MultiAuthService] Primary signUpWithEmail failed, trying backup: \(error)")
+            useBackup = true
+            return try await backup.signUpWithEmail(email: email, password: password)
+        }
+    }
     func signInWithPhone(phoneNumber: String, otp: String?) async throws -> AuthUser {
         do {
             return try await primary.signInWithPhone(phoneNumber: phoneNumber, otp: otp)

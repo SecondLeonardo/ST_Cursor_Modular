@@ -118,6 +118,17 @@ final class SupabaseAuthService: AuthServiceProtocol {
         return user
     }
     
+    func signUpWithEmail(email: String, password: String) async throws -> AuthUser {
+        let response = try await supabase.auth.signUp(
+            email: email,
+            password: password
+        )
+        
+        let user = convertSupabaseUser(response.user)
+        currentUser = user
+        return user
+    }
+    
     func signInWithPhone(phoneNumber: String, otp: String?) async throws -> AuthUser {
         if let otp = otp {
             // Verify OTP
@@ -233,12 +244,21 @@ final class SupabaseAuthService: AuthServiceProtocol {
     // MARK: - Helper Methods
     private func convertSupabaseUser(_ supabaseUser: Supabase.User) -> AuthUser {
         return AuthUser(
-            uid: supabaseUser.id.uuidString,
-            email: supabaseUser.email,
-            displayName: supabaseUser.userMetadata["full_name"] as? String,
-            photoURL: URL(string: supabaseUser.userMetadata["avatar_url"] as? String ?? ""),
-            isAnonymous: false, // Supabase doesn't have anonymous users in the same way
-            provider: supabaseUser.appMetadata["provider"] as? String ?? "supabase"
+            id: supabaseUser.id.uuidString,
+            email: supabaseUser.email ?? "",
+            displayName: supabaseUser.userMetadata["full_name"]?.stringValue ?? "",
+            photoURL: supabaseUser.userMetadata["avatar_url"]?.stringValue,
+            phoneNumber: supabaseUser.phone,
+            isEmailVerified: supabaseUser.emailConfirmedAt != nil,
+            providerData: [
+                AuthProviderData(
+                    providerId: supabaseUser.appMetadata["provider"]?.stringValue ?? "supabase",
+                    uid: supabaseUser.id.uuidString,
+                    displayName: supabaseUser.userMetadata["full_name"]?.stringValue,
+                    email: supabaseUser.email,
+                    photoURL: supabaseUser.userMetadata["avatar_url"]?.stringValue
+                )
+            ]
         )
     }
 }
