@@ -1,7 +1,8 @@
 import Foundation
-import GoogleSignIn
-import FBSDKCoreKit
-import FBSDKLoginKit
+import UIKit
+// import GoogleSignIn  // Temporarily disabled due to configuration issues
+// import FBSDKCoreKit  // Temporarily disabled due to missing module
+// import FBSDKLoginKit  // Temporarily disabled due to missing module
 
 /// Configuration manager for social authentication providers
 /// 
@@ -61,6 +62,11 @@ class SocialAuthConfiguration {
     
     /// Configure Google Sign-In
     func configureGoogleSignIn() {
+        // Temporarily disabled due to missing module
+        print("⚠️ WARNING: Google Sign-In temporarily disabled due to missing module")
+        
+        // Original implementation commented out:
+        /*
         guard googleClientId != ConfigKeys.googleClientId else {
             print("⚠️ WARNING: Google Client ID not configured. Please update Info.plist with your actual Google Client ID.")
             return
@@ -68,10 +74,16 @@ class SocialAuthConfiguration {
         
         GIDSignIn.sharedInstance.configuration = GIDConfiguration(clientID: googleClientId)
         print("✅ Google Sign-In configured successfully")
+        */
     }
     
     /// Configure Facebook SDK
     func configureFacebookSDK() {
+        // Temporarily disabled due to missing module
+        print("⚠️ WARNING: Facebook SDK temporarily disabled due to missing module")
+        
+        // Original implementation commented out:
+        /*
         guard facebookAppId != ConfigKeys.facebookAppId else {
             print("⚠️ WARNING: Facebook App ID not configured. Please update Info.plist with your actual Facebook App ID.")
             return
@@ -88,6 +100,7 @@ class SocialAuthConfiguration {
         )
         
         print("✅ Facebook SDK configured successfully")
+        */
     }
     
     /// Configure all social authentication providers
@@ -104,11 +117,16 @@ class SocialAuthConfiguration {
         var handled = false
         
         // Handle Google Sign-In
+        // Temporarily disabled due to missing module
+        /*
         if GIDSignIn.sharedInstance.handle(url) {
             handled = true
         }
+        */
         
         // Handle Facebook Login
+        // Temporarily disabled due to missing module
+        /*
         if FBSDKCoreKit.ApplicationDelegate.shared.application(
             UIApplication.shared,
             open: url,
@@ -117,6 +135,7 @@ class SocialAuthConfiguration {
         ) {
             handled = true
         }
+        */
         
         return handled
     }

@@ -7,8 +7,8 @@
 //
 
 import SwiftUI
-import FirebaseCore
-import FBSDKCoreKit
+// import FirebaseCore  // Temporarily disabled due to configuration issues
+// import FBSDKCoreKit  // Temporarily disabled due to missing module
 
 // for testing location service
 // import Features.Location.Views
@@ -27,10 +27,10 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         // FirebaseApp.configure()
         
         // Configure Facebook SDK
-        FBSDKCoreKit.ApplicationDelegate.shared.application(
-            application,
-            didFinishLaunchingWithOptions: launchOptions
-        )
+        // FBSDKCoreKit.ApplicationDelegate.shared.application(
+        //     application,
+        //     didFinishLaunchingWithOptions: launchOptions
+        // )
         
         // Configure social authentication
         SocialAuthConfiguration.shared.applicationDidFinishLaunching()

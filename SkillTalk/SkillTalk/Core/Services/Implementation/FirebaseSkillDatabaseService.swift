@@ -8,20 +8,21 @@
 
 import Foundation
 import Combine
-import FirebaseFirestore
+// import FirebaseFirestore  // Temporarily disabled due to configuration issues
 
 // MARK: - Firebase Skill Database Service
 
 /// Firebase implementation of skill database service
 /// Loads skill data from Firebase Firestore collections
+/// TEMPORARILY DISABLED due to configuration issues
 class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
     
     // MARK: - Properties
     
     let provider: ServiceProvider = .firebase
-    private(set) var isHealthy: Bool = true
+    private(set) var isHealthy: Bool = false  // Set to false since Firebase is disabled
     
-    private let db: Firestore
+    // private let db: Firestore  // Temporarily disabled due to configuration issues
     private let cache = NSCache<NSString, CachedSkillData>()
     private let cacheTimeout: TimeInterval = 3600 // 1 hour
     
@@ -31,9 +32,9 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
     // MARK: - Initialization
     
     init() {
-        self.db = Firestore.firestore()
+        // self.db = Firestore.firestore()  // Temporarily disabled due to configuration issues
         setupCache()
-        log("🚀 FirebaseSkillDatabaseService initialized")
+        log("🚀 FirebaseSkillDatabaseService initialized (Firebase disabled)")
     }
     
     // MARK: - Cache Setup
@@ -46,6 +47,12 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
     // MARK: - Core Skill Loading Methods
     
     func loadCategories(for language: String) async throws -> [SkillCategory] {
+        // Temporarily disabled due to configuration issues
+        log("🔥 Firebase disabled - returning empty categories for language: \(language)")
+        throw SkillDatabaseError.networkError("Firebase temporarily disabled")
+        
+        // Original Firebase implementation commented out:
+        /*
         let cacheKey = "categories_\(language)"
         
         // Check cache first
@@ -78,9 +85,16 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             log("❌ Failed to load categories from Firebase: \(error.localizedDescription)")
             throw SkillDatabaseError.networkError(error.localizedDescription)
         }
+        */
     }
     
     func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory] {
+        // Temporarily disabled due to configuration issues
+        log("🔥 Firebase disabled - returning empty subcategories for category: \(categoryId)")
+        throw SkillDatabaseError.networkError("Firebase temporarily disabled")
+        
+        // Original Firebase implementation commented out:
+        /*
         let cacheKey = "subcategories_\(categoryId)_\(language)"
         
         // Check cache first
@@ -114,9 +128,16 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             log("❌ Failed to load subcategories from Firebase: \(error.localizedDescription)")
             throw SkillDatabaseError.networkError(error.localizedDescription)
         }
+        */
     }
     
     func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
+        // Temporarily disabled due to configuration issues
+        log("🔥 Firebase disabled - returning empty skills for subcategory: \(subcategoryId)")
+        throw SkillDatabaseError.networkError("Firebase temporarily disabled")
+        
+        // Original Firebase implementation commented out:
+        /*
         let cacheKey = "skills_\(subcategoryId)_\(language)"
         
         // Check cache first
@@ -150,169 +171,40 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             log("❌ Failed to load skills from Firebase: \(error.localizedDescription)")
             throw SkillDatabaseError.networkError(error.localizedDescription)
         }
+        */
     }
     
     // MARK: - Search and Filtering Methods
     
     func searchSkills(query: String, language: String, limit: Int = 50) async throws -> [Skill] {
-        let cacheKey = "search_\(query)_\(language)_\(limit)"
-        
-        // Check cache first
-        if let cached = getCachedSkills(for: cacheKey) {
-            log("📚 Loaded search results from cache for query: \(query)")
-            return cached
-        }
-        
-        log("🔍 Searching skills in Firebase for query: \(query)")
-        
-        do {
-            // Firebase doesn't support full-text search natively, so we'll use a simple approach
-            // In production, you might want to use Algolia or similar for better search
-            let snapshot = try await db.collection("skills")
-                .whereField("language", isEqualTo: language)
-                .order(by: "popularity", descending: true)
-                .limit(to: limit)
-                .getDocuments()
-            
-            let allSkills = try snapshot.documents.compactMap { document in
-                let data = document.data()
-                let jsonData = try JSONSerialization.data(withJSONObject: data)
-                return try JSONDecoder().decode(Skill.self, from: jsonData)
-            }
-            
-            // Filter skills that match the query
-            let filteredSkills = allSkills.filter { skill in
-                skill.englishName.localizedCaseInsensitiveContains(query) ||
-                skill.tags.contains { $0.localizedCaseInsensitiveContains(query) }
-            }
-            
-            // Cache the result
-            setCachedData(filteredSkills, for: cacheKey)
-            
-            log("✅ Found \(filteredSkills.count) skills in Firebase for query: \(query)")
-            return filteredSkills
-            
-        } catch {
-            log("❌ Failed to search skills in Firebase: \(error.localizedDescription)")
-            throw SkillDatabaseError.networkError(error.localizedDescription)
-        }
+        // Temporarily disabled due to configuration issues
+        log("🔥 Firebase disabled - search not available")
+        throw SkillDatabaseError.networkError("Firebase temporarily disabled")
     }
     
     func getSkillsByDifficulty(_ difficulty: SkillDifficulty, language: String) async throws -> [Skill] {
-        let cacheKey = "difficulty_\(difficulty.rawValue)_\(language)"
-        
-        // Check cache first
-        if let cached = getCachedSkills(for: cacheKey) {
-            log("📚 Loaded skills by difficulty from cache: \(difficulty.rawValue)")
-            return cached
-        }
-        
-        log("🔥 Loading skills by difficulty from Firebase: \(difficulty.rawValue)")
-        
-        do {
-            let snapshot = try await db.collection("skills")
-                .whereField("difficulty", isEqualTo: difficulty.rawValue)
-                .whereField("language", isEqualTo: language)
-                .order(by: "popularity", descending: true)
-                .getDocuments()
-            
-            let skills = try snapshot.documents.compactMap { document in
-                let data = document.data()
-                let jsonData = try JSONSerialization.data(withJSONObject: data)
-                return try JSONDecoder().decode(Skill.self, from: jsonData)
-            }
-            
-            // Cache the result
-            setCachedData(skills, for: cacheKey)
-            
-            log("✅ Loaded \(skills.count) skills from Firebase for difficulty: \(difficulty.rawValue)")
-            return skills
-            
-        } catch {
-            log("❌ Failed to load skills by difficulty from Firebase: \(error.localizedDescription)")
-            throw SkillDatabaseError.networkError(error.localizedDescription)
-        }
+        // Temporarily disabled due to configuration issues
+        log("🔥 Firebase disabled - difficulty filtering not available")
+        throw SkillDatabaseError.networkError("Firebase temporarily disabled")
     }
     
     func getPopularSkills(limit: Int, language: String) async throws -> [Skill] {
-        let cacheKey = "popular_\(limit)_\(language)"
-        
-        // Check cache first
-        if let cached = getCachedSkills(for: cacheKey) {
-            log("📚 Loaded popular skills from cache")
-            return cached
-        }
-        
-        log("🔥 Loading popular skills from Firebase")
-        
-        do {
-            let snapshot = try await db.collection("skills")
-                .whereField("language", isEqualTo: language)
-                .order(by: "popularity", descending: true)
-                .limit(to: limit)
-                .getDocuments()
-            
-            let skills = try snapshot.documents.compactMap { document in
-                let data = document.data()
-                let jsonData = try JSONSerialization.data(withJSONObject: data)
-                return try JSONDecoder().decode(Skill.self, from: jsonData)
-            }
-            
-            // Cache the result
-            setCachedData(skills, for: cacheKey)
-            
-            log("✅ Loaded \(skills.count) popular skills from Firebase")
-            return skills
-            
-        } catch {
-            log("❌ Failed to load popular skills from Firebase: \(error.localizedDescription)")
-            throw SkillDatabaseError.networkError(error.localizedDescription)
-        }
+        // Temporarily disabled due to configuration issues
+        log("🔥 Firebase disabled - popular skills not available")
+        throw SkillDatabaseError.networkError("Firebase temporarily disabled")
     }
     
     // MARK: - Language Support
     
     func getSupportedLanguages() async throws -> [String] {
-        let cacheKey = "supported_languages"
-        
-        // Check cache first
-        if let cached = getCachedLanguages(for: cacheKey) {
-            log("📚 Loaded supported languages from cache")
-            return cached
-        }
-        
-        log("🔥 Loading supported languages from Firebase")
-        
-        do {
-            let snapshot = try await db.collection("metadata")
-                .document("languages")
-                .getDocument()
-            
-            guard let data = snapshot.data(),
-                  let languages = data["supportedLanguages"] as? [String] else {
-                throw SkillDatabaseError.invalidResponse("Invalid language data format")
-            }
-            
-            // Cache the result
-            setCachedLanguages(languages, for: cacheKey)
-            
-            log("✅ Loaded \(languages.count) supported languages from Firebase")
-            return languages
-            
-        } catch {
-            log("❌ Failed to load supported languages from Firebase: \(error.localizedDescription)")
-            throw SkillDatabaseError.networkError(error.localizedDescription)
-        }
+        // Temporarily disabled due to configuration issues
+        log("🔥 Firebase disabled - returning default languages")
+        return ["en"]  // Return default English only
     }
     
     func isLanguageSupported(_ language: String) async -> Bool {
-        do {
-            let supportedLanguages = try await getSupportedLanguages()
-            return supportedLanguages.contains(language)
-        } catch {
-            log("❌ Failed to check language support: \(error.localizedDescription)")
-            return false
-        }
+        // Temporarily disabled due to configuration issues
+        return language == "en"  // Only support English for now
     }
     
     // MARK: - Caching and Performance
@@ -323,37 +215,18 @@ class FirebaseSkillDatabaseService: SkillDatabaseServiceProtocol {
     }
     
     func preloadLanguage(_ language: String) async throws {
-        log("📦 Preloading data for language: \(language)")
-        
-        // Preload categories
-        _ = try await loadCategories(for: language)
-        
-        // Preload popular skills
-        _ = try await getPopularSkills(limit: 100, language: language)
-        
-        log("✅ Preloaded data for language: \(language)")
+        // Temporarily disabled due to configuration issues
+        log("🔥 Firebase disabled - preloading not available")
+        throw SkillDatabaseError.networkError("Firebase temporarily disabled")
     }
     
     // MARK: - Health Monitoring
     
     func checkHealth() async -> ServiceHealthStatus {
-        let startTime = Date()
-        
-        do {
-            // Try to load a small amount of data to test connectivity
-            let _ = try await loadCategories(for: "en")
-            
-            let responseTime = Date().timeIntervalSince(startTime)
-            isHealthy = true
-            
-            log("🏥 Firebase health check passed in \(String(format: "%.2f", responseTime))s")
-            return .healthy
-            
-        } catch {
-            isHealthy = false
-            log("🏥 Firebase health check failed: \(error.localizedDescription)")
-            return .failed
-        }
+        // Temporarily disabled due to configuration issues
+        isHealthy = false
+        log("🏥 Firebase health check failed - service disabled")
+        return .failed
     }
     
     func getServiceStats() async -> SkillServiceStats {

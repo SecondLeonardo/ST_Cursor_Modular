@@ -68,7 +68,7 @@ class SkillDatabaseServiceFactory {
     
     /// Creates a local JSON skill database service
     private func createLocalService() -> SkillDatabaseServiceProtocol {
-        return LocalSkillServiceWrapper()
+        return LocalSkillDatabaseService()
     }
     
     // MARK: - Individual Service Access
@@ -85,7 +85,7 @@ class SkillDatabaseServiceFactory {
     
     /// Gets the local service directly
     func getLocalService() -> SkillDatabaseServiceProtocol {
-        return createLocalService()
+        return LocalSkillDatabaseService()
     }
     
     // MARK: - Service Health Check

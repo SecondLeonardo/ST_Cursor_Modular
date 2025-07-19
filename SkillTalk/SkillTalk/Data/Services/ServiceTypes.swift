@@ -23,6 +23,7 @@ enum ServiceType: String, CaseIterable, Codable {
 enum ServiceProvider: String, CaseIterable, Codable {
     case firebase = "Firebase"
     case supabase = "Supabase"
+    case local = "Local"
     case agora = "Agora"
     case dailyco = "Daily.co"
     case pusher = "Pusher"

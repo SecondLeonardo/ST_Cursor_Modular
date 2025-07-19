@@ -1,5 +1,5 @@
 import SwiftUI
-import FBSDKLoginKit
+// import FBSDKLoginKit  // Temporarily disabled due to missing module
 
 /// Simple test view for Facebook Login integration
 struct FacebookLoginTestView: View {

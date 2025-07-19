@@ -8,12 +8,25 @@ class OnboardingCoordinator: ObservableObject {
     
     // MARK: - Navigation Methods
     func nextStep() {
+        print("🔄 [OnboardingCoordinator] nextStep() called. Current step: \(currentStep)")
+        
+        // Handle welcome step specifically - go to sign in
+        if currentStep == .welcome {
+            print("➡️ [OnboardingCoordinator] Moving from welcome to signIn")
+            currentStep = .signIn
+            return
+        }
+        
+        // Handle other steps by iterating through cases
         guard let currentIndex = OnboardingStep.allCases.firstIndex(of: currentStep),
               currentIndex + 1 < OnboardingStep.allCases.count else {
+            print("✅ [OnboardingCoordinator] Completing onboarding")
             completeOnboarding()
             return
         }
-        currentStep = OnboardingStep.allCases[currentIndex + 1]
+        let nextStep = OnboardingStep.allCases[currentIndex + 1]
+        print("➡️ [OnboardingCoordinator] Moving from \(currentStep) to \(nextStep)")
+        currentStep = nextStep
     }
     
     func previousStep() {

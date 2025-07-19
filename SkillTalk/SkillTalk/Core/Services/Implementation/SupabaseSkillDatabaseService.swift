@@ -8,7 +8,7 @@
 
 import Foundation
 import Combine
-import Alamofire
+// import Alamofire  // Temporarily disabled due to missing module
 
 // MARK: - Supabase Skill Database Service
 
@@ -21,9 +21,10 @@ class SupabaseSkillDatabaseService: SkillDatabaseServiceProtocol {
     let provider: ServiceProvider = .supabase
     private(set) var isHealthy: Bool = true
     
-    private let baseURL: String
-    private let apiKey: String
-    private let session: Session
+    // Temporarily disabled due to missing module
+    // private let baseURL: String
+    // private let apiKey: String
+    // private let session: Session
     private let cache = NSCache<NSString, CachedSkillData>()
     private let cacheTimeout: TimeInterval = 3600 // 1 hour
     
@@ -33,18 +34,19 @@ class SupabaseSkillDatabaseService: SkillDatabaseServiceProtocol {
     // MARK: - Initialization
     
     init(baseURL: String, apiKey: String) {
-        self.baseURL = baseURL
-        self.apiKey = apiKey
+        // Temporarily disabled due to missing module
+        // self.baseURL = baseURL
+        // self.apiKey = apiKey
         
         // Configure Alamofire session with custom headers
-        let configuration = URLSessionConfiguration.default
-        configuration.timeoutIntervalForRequest = 30
-        configuration.timeoutIntervalForResource = 60
+        // let configuration = URLSessionConfiguration.default
+        // configuration.timeoutIntervalForRequest = 30
+        // configuration.timeoutIntervalForResource = 60
         
-        self.session = Session(configuration: configuration)
+        // self.session = Session(configuration: configuration)
         
         setupCache()
-        log("🚀 SupabaseSkillDatabaseService initialized with URL: \(baseURL)")
+        log("🚀 SupabaseSkillDatabaseService initialized (Alamofire disabled)")
     }
     
     // MARK: - Cache Setup
@@ -57,6 +59,11 @@ class SupabaseSkillDatabaseService: SkillDatabaseServiceProtocol {
     // MARK: - Core Skill Loading Methods
     
     func loadCategories(for language: String) async throws -> [SkillCategory] {
+        // Temporarily disabled due to missing module
+        throw SkillDatabaseError.networkError("Alamofire temporarily disabled")
+        
+        // Original implementation commented out:
+        /*
         let cacheKey = "categories_\(language)"
         
         // Check cache first
@@ -93,257 +100,41 @@ class SupabaseSkillDatabaseService: SkillDatabaseServiceProtocol {
             log("❌ Failed to load categories from Supabase: \(error.localizedDescription)")
             throw SkillDatabaseError.networkError(error.localizedDescription)
         }
+        */
     }
     
     func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory] {
-        let cacheKey = "subcategories_\(categoryId)_\(language)"
-        
-        // Check cache first
-        if let cached = getCachedSubcategories(for: cacheKey) {
-            log("📚 Loaded subcategories from cache for category: \(categoryId)")
-            return cached
-        }
-        
-        log("🌐 Loading subcategories from Supabase for category: \(categoryId)")
-        
-        let endpoint = "\(baseURL)/subcategories"
-        let parameters: [String: Any] = [
-            "category_id": "eq.\(categoryId)",
-            "language": language,
-            "select": "*",
-            "order": "sort_order.asc"
-        ]
-        
-        let headers: HTTPHeaders = [
-            "apikey": apiKey,
-            "Authorization": "Bearer \(apiKey)",
-            "Content-Type": "application/json"
-        ]
-        
-        do {
-            let request = session.request(endpoint, parameters: parameters, headers: headers)
-            let response = try await request.serializingDecodable([SkillSubcategory].self).value
-            
-            // Cache the result
-            setCachedData(response, for: cacheKey)
-            
-            log("✅ Loaded \(response.count) subcategories from Supabase for category: \(categoryId)")
-            return response
-            
-        } catch {
-            log("❌ Failed to load subcategories from Supabase: \(error.localizedDescription)")
-            throw SkillDatabaseError.networkError(error.localizedDescription)
-        }
+        // Temporarily disabled due to missing module
+        throw SkillDatabaseError.networkError("Alamofire temporarily disabled")
     }
     
     func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
-        let cacheKey = "skills_\(subcategoryId)_\(language)"
-        
-        // Check cache first
-        if let cached = getCachedSkills(for: cacheKey) {
-            log("📚 Loaded skills from cache for subcategory: \(subcategoryId)")
-            return cached
-        }
-        
-        log("🌐 Loading skills from Supabase for subcategory: \(subcategoryId)")
-        
-        let endpoint = "\(baseURL)/skills"
-        let parameters: [String: Any] = [
-            "subcategory_id": "eq.\(subcategoryId)",
-            "language": language,
-            "select": "*",
-            "order": "popularity.desc"
-        ]
-        
-        let headers: HTTPHeaders = [
-            "apikey": apiKey,
-            "Authorization": "Bearer \(apiKey)",
-            "Content-Type": "application/json"
-        ]
-        
-        do {
-            let request = session.request(endpoint, parameters: parameters, headers: headers)
-            let response = try await request.serializingDecodable([Skill].self).value
-            
-            // Cache the result
-            setCachedData(response, for: cacheKey)
-            
-            log("✅ Loaded \(response.count) skills from Supabase for subcategory: \(subcategoryId)")
-            return response
-            
-        } catch {
-            log("❌ Failed to load skills from Supabase: \(error.localizedDescription)")
-            throw SkillDatabaseError.networkError(error.localizedDescription)
-        }
+        // Temporarily disabled due to missing module
+        throw SkillDatabaseError.networkError("Alamofire temporarily disabled")
     }
     
     // MARK: - Search and Filtering Methods
     
     func searchSkills(query: String, language: String, limit: Int = 50) async throws -> [Skill] {
-        let cacheKey = "search_\(query)_\(language)_\(limit)"
-        
-        // Check cache first
-        if let cached = getCachedSkills(for: cacheKey) {
-            log("📚 Loaded search results from cache for query: \(query)")
-            return cached
-        }
-        
-        log("🔍 Searching skills in Supabase for query: \(query)")
-        
-        let endpoint = "\(baseURL)/skills"
-        let parameters: [String: Any] = [
-            "language": language,
-            "or": "(english_name.ilike.*\(query)*,tags.cs.{\(query)})",
-            "select": "*",
-            "order": "popularity.desc",
-            "limit": limit
-        ]
-        
-        let headers: HTTPHeaders = [
-            "apikey": apiKey,
-            "Authorization": "Bearer \(apiKey)",
-            "Content-Type": "application/json"
-        ]
-        
-        do {
-            let request = session.request(endpoint, parameters: parameters, headers: headers)
-            let response = try await request.serializingDecodable([Skill].self).value
-            
-            // Cache the result
-            setCachedData(response, for: cacheKey)
-            
-            log("✅ Found \(response.count) skills in Supabase for query: \(query)")
-            return response
-            
-        } catch {
-            log("❌ Failed to search skills in Supabase: \(error.localizedDescription)")
-            throw SkillDatabaseError.networkError(error.localizedDescription)
-        }
+        // Temporarily disabled due to missing module
+        throw SkillDatabaseError.networkError("Alamofire temporarily disabled")
     }
     
     func getSkillsByDifficulty(_ difficulty: SkillDifficulty, language: String) async throws -> [Skill] {
-        let cacheKey = "difficulty_\(difficulty.rawValue)_\(language)"
-        
-        // Check cache first
-        if let cached = getCachedSkills(for: cacheKey) {
-            log("📚 Loaded skills by difficulty from cache: \(difficulty.rawValue)")
-            return cached
-        }
-        
-        log("🌐 Loading skills by difficulty from Supabase: \(difficulty.rawValue)")
-        
-        let endpoint = "\(baseURL)/skills"
-        let parameters: [String: Any] = [
-            "difficulty": "eq.\(difficulty.rawValue)",
-            "language": language,
-            "select": "*",
-            "order": "popularity.desc"
-        ]
-        
-        let headers: HTTPHeaders = [
-            "apikey": apiKey,
-            "Authorization": "Bearer \(apiKey)",
-            "Content-Type": "application/json"
-        ]
-        
-        do {
-            let request = session.request(endpoint, parameters: parameters, headers: headers)
-            let response = try await request.serializingDecodable([Skill].self).value
-            
-            // Cache the result
-            setCachedData(response, for: cacheKey)
-            
-            log("✅ Loaded \(response.count) skills from Supabase for difficulty: \(difficulty.rawValue)")
-            return response
-            
-        } catch {
-            log("❌ Failed to load skills by difficulty from Supabase: \(error.localizedDescription)")
-            throw SkillDatabaseError.networkError(error.localizedDescription)
-        }
+        // Temporarily disabled due to missing module
+        throw SkillDatabaseError.networkError("Alamofire temporarily disabled")
     }
     
     func getPopularSkills(limit: Int, language: String) async throws -> [Skill] {
-        let cacheKey = "popular_\(limit)_\(language)"
-        
-        // Check cache first
-        if let cached = getCachedSkills(for: cacheKey) {
-            log("📚 Loaded popular skills from cache")
-            return cached
-        }
-        
-        log("🌐 Loading popular skills from Supabase")
-        
-        let endpoint = "\(baseURL)/skills"
-        let parameters: [String: Any] = [
-            "language": language,
-            "select": "*",
-            "order": "popularity.desc",
-            "limit": limit
-        ]
-        
-        let headers: HTTPHeaders = [
-            "apikey": apiKey,
-            "Authorization": "Bearer \(apiKey)",
-            "Content-Type": "application/json"
-        ]
-        
-        do {
-            let request = session.request(endpoint, parameters: parameters, headers: headers)
-            let response = try await request.serializingDecodable([Skill].self).value
-            
-            // Cache the result
-            setCachedData(response, for: cacheKey)
-            
-            log("✅ Loaded \(response.count) popular skills from Supabase")
-            return response
-            
-        } catch {
-            log("❌ Failed to load popular skills from Supabase: \(error.localizedDescription)")
-            throw SkillDatabaseError.networkError(error.localizedDescription)
-        }
+        // Temporarily disabled due to missing module
+        throw SkillDatabaseError.networkError("Alamofire temporarily disabled")
     }
     
     // MARK: - Language Support
     
     func getSupportedLanguages() async throws -> [String] {
-        let cacheKey = "supported_languages"
-        
-        // Check cache first
-        if let cached = getCachedLanguages(for: cacheKey) {
-            log("📚 Loaded supported languages from cache")
-            return cached
-        }
-        
-        log("🌐 Loading supported languages from Supabase")
-        
-        let endpoint = "\(baseURL)/languages"
-        let parameters: [String: Any] = [
-            "select": "code",
-            "order": "code.asc"
-        ]
-        
-        let headers: HTTPHeaders = [
-            "apikey": apiKey,
-            "Authorization": "Bearer \(apiKey)",
-            "Content-Type": "application/json"
-        ]
-        
-        do {
-            let request = session.request(endpoint, parameters: parameters, headers: headers)
-            let response = try await request.serializingDecodable([LanguageCode].self).value
-            
-            let languages = response.map { $0.code }
-            
-            // Cache the result
-            setCachedLanguages(languages, for: cacheKey)
-            
-            log("✅ Loaded \(languages.count) supported languages from Supabase")
-            return languages
-            
-        } catch {
-            log("❌ Failed to load supported languages from Supabase: \(error.localizedDescription)")
-            throw SkillDatabaseError.networkError(error.localizedDescription)
-        }
+        // Temporarily disabled due to missing module
+        throw SkillDatabaseError.networkError("Alamofire temporarily disabled")
     }
     
     func isLanguageSupported(_ language: String) async -> Bool {
