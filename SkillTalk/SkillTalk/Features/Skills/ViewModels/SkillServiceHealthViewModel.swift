@@ -77,8 +77,8 @@ class SkillServiceHealthViewModel: ObservableObject {
         print("🗑️ SkillServiceHealthViewModel: Clearing all caches")
         
         do {
-            let multiService = serviceFactory.createMultiProviderService()
-            await multiService.clearCache()
+            let localService = serviceFactory.getLocalService()
+            await localService.clearCache()
             
             print("✅ SkillServiceHealthViewModel: All caches cleared")
             
@@ -117,8 +117,10 @@ class SkillServiceHealthViewModel: ObservableObject {
                 service = serviceFactory.getSupabaseService()
             case .firebase:
                 service = serviceFactory.getFirebaseService()
+            case .local:
+                service = serviceFactory.getLocalService()
             default:
-                service = serviceFactory.createMultiProviderService()
+                service = serviceFactory.getLocalService()
             }
             
             // Test by loading a small amount of data
@@ -155,8 +157,8 @@ class SkillServiceHealthViewModel: ObservableObject {
         print("📊 SkillServiceHealthViewModel: Loading service statistics")
         
         do {
-            let multiService = serviceFactory.createMultiProviderService()
-            let stats = await multiService.getServiceStats()
+            let localService = serviceFactory.getLocalService()
+            let stats = await localService.getServiceStats()
             
             self.totalCategories = stats.totalCategories
             self.totalSkills = stats.totalSkills

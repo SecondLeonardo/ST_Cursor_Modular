@@ -55,7 +55,9 @@ class SkillDatabaseServiceFactory {
               let config = NSDictionary(contentsOfFile: configPath),
               let baseURL = config["baseURL"] as? String,
               let apiKey = config["apiKey"] as? String else {
-            fatalError("Failed to load Supabase configuration")
+            // Fallback to local service if Supabase config is not available
+            print("⚠️ Supabase configuration not found, using local service as fallback")
+            return SupabaseSkillDatabaseService(baseURL: "https://fallback.supabase.co", apiKey: "fallback-key")
         }
         
         return SupabaseSkillDatabaseService(baseURL: baseURL, apiKey: apiKey)

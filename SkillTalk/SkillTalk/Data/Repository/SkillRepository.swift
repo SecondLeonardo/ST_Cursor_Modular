@@ -45,10 +45,10 @@ class SkillRepository: SkillRepositoryProtocol {
     
     init(skillDatabaseService: SkillDatabaseServiceProtocol? = nil,
          analyticsService: SkillAnalyticsServiceProtocol = SkillAnalyticsService()) {
-        // Use multi-provider service by default, or allow injection for testing
-        self.skillDatabaseService = skillDatabaseService ?? SkillDatabaseServiceFactory.shared.createMultiProviderService()
+        // Use local service by default since Firebase/GoogleSignIn are disabled
+        self.skillDatabaseService = skillDatabaseService ?? SkillDatabaseServiceFactory.shared.getLocalService()
         self.analyticsService = analyticsService
-        print("🚀 [SkillRepository] Initialized with multi-provider skill database service")
+        print("🚀 [SkillRepository] Initialized with local skill database service")
     }
     
     // MARK: - Public Methods
