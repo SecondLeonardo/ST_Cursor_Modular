@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "Habilidades digitais e tecnológicas",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "Segurança cibernética"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "Dados e ai"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "IT & Networking"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "Programação e desenvolvimento"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "Web e celular"
+    }
+  ]
+}

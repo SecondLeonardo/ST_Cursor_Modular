@@ -1,0 +1,368 @@
+[
+  {
+    "id": "academic_intellectual",
+    "icon_url": "assets/icons/category_academic_intellectual.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 1
+  },
+  {
+    "id": "academic_intellectual_skills",
+    "icon_url": "assets/icons/category_academic_intellectual_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 2
+  },
+  {
+    "id": "academic_research_skills",
+    "icon_url": "assets/icons/category_academic_research_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 3
+  },
+  {
+    "id": "arts_creative_expression",
+    "icon_url": "assets/icons/category_arts_creative_expression.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 4
+  },
+  {
+    "id": "arts_creativity",
+    "icon_url": "assets/icons/category_arts_creativity.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 5
+  },
+  {
+    "id": "arts_design",
+    "icon_url": "assets/icons/category_arts_design.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 6
+  },
+  {
+    "id": "arts,_crafts_design",
+    "icon_url": "assets/icons/category_arts,_crafts_design.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 7
+  },
+  {
+    "id": "arts,_design_creativity",
+    "icon_url": "assets/icons/category_arts,_design_creativity.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 8
+  },
+  {
+    "id": "business_finance",
+    "icon_url": "assets/icons/category_business_finance.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 9
+  },
+  {
+    "id": "business_professional_skills",
+    "icon_url": "assets/icons/category_business_professional_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 10
+  },
+  {
+    "id": "cognitive_academic_skills",
+    "icon_url": "assets/icons/category_cognitive_academic_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 11
+  },
+  {
+    "id": "cognitive_learning_skills",
+    "icon_url": "assets/icons/category_cognitive_learning_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 12
+  },
+  {
+    "id": "communication_language_skills",
+    "icon_url": "assets/icons/category_communication_language_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 13
+  },
+  {
+    "id": "creative_artistic",
+    "icon_url": "assets/icons/category_creative_artistic.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 14
+  },
+  {
+    "id": "creative_artistic_skills",
+    "icon_url": "assets/icons/category_creative_artistic_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 15
+  },
+  {
+    "id": "creative_design",
+    "icon_url": "assets/icons/category_creative_design.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 16
+  },
+  {
+    "id": "creative_arts_crafts",
+    "icon_url": "assets/icons/category_creative_arts_crafts.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 17
+  },
+  {
+    "id": "creative_arts_design",
+    "icon_url": "assets/icons/category_creative_arts_design.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 18
+  },
+  {
+    "id": "culture_language_skills",
+    "icon_url": "assets/icons/category_culture_language_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 19
+  },
+  {
+    "id": "design_visual_skills",
+    "icon_url": "assets/icons/category_design_visual_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 20
+  },
+  {
+    "id": "digital_media_skills",
+    "icon_url": "assets/icons/category_digital_media_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 21
+  },
+  {
+    "id": "digital_technology_skills",
+    "icon_url": "assets/icons/category_digital_technology_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 22
+  },
+  {
+    "id": "education_language",
+    "icon_url": "assets/icons/category_education_language.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 23
+  },
+  {
+    "id": "engineering_mechanical",
+    "icon_url": "assets/icons/category_engineering_mechanical.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 24
+  },
+  {
+    "id": "health_fitness",
+    "icon_url": "assets/icons/category_health_fitness.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 25
+  },
+  {
+    "id": "health_wellness",
+    "icon_url": "assets/icons/category_health_wellness.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 26
+  },
+  {
+    "id": "health,_fitness_sports",
+    "icon_url": "assets/icons/category_health,_fitness_sports.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 27
+  },
+  {
+    "id": "health,_wellness_fitness",
+    "icon_url": "assets/icons/category_health,_wellness_fitness.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 28
+  },
+  {
+    "id": "home_diy",
+    "icon_url": "assets/icons/category_home_diy.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 29
+  },
+  {
+    "id": "home_daily_life",
+    "icon_url": "assets/icons/category_home_daily_life.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 30
+  },
+  {
+    "id": "language_communication",
+    "icon_url": "assets/icons/category_language_communication.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 31
+  },
+  {
+    "id": "language_communication_skills",
+    "icon_url": "assets/icons/category_language_communication_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 32
+  },
+  {
+    "id": "learning_academic_skills",
+    "icon_url": "assets/icons/category_learning_academic_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 33
+  },
+  {
+    "id": "learning,_language_education",
+    "icon_url": "assets/icons/category_learning,_language_education.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 34
+  },
+  {
+    "id": "life_everyday_skills",
+    "icon_url": "assets/icons/category_life_everyday_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 35
+  },
+  {
+    "id": "life_personal_development",
+    "icon_url": "assets/icons/category_life_personal_development.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 36
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills",
+    "icon_url": "assets/icons/category_lifestyle_self-sufficiency_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 37
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills",
+    "icon_url": "assets/icons/category_manual_trades_craftsmanship_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 38
+  },
+  {
+    "id": "mechanical_technical_skills",
+    "icon_url": "assets/icons/category_mechanical_technical_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 39
+  },
+  {
+    "id": "mind_academics",
+    "icon_url": "assets/icons/category_mind_academics.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 40
+  },
+  {
+    "id": "mind_learning_skills",
+    "icon_url": "assets/icons/category_mind_learning_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 41
+  },
+  {
+    "id": "personal_development",
+    "icon_url": "assets/icons/category_personal_development.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 42
+  },
+  {
+    "id": "personal_development_mindset",
+    "icon_url": "assets/icons/category_personal_development_mindset.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 43
+  },
+  {
+    "id": "personal_development_mindset_skills",
+    "icon_url": "assets/icons/category_personal_development_mindset_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 44
+  },
+  {
+    "id": "physical_outdoor_skills",
+    "icon_url": "assets/icons/category_physical_outdoor_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 45
+  },
+  {
+    "id": "physical_sports_skills",
+    "icon_url": "assets/icons/category_physical_sports_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 46
+  },
+  {
+    "id": "science_research_skills",
+    "icon_url": "assets/icons/category_science_research_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 47
+  },
+  {
+    "id": "science_technical_skills",
+    "icon_url": "assets/icons/category_science_technical_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 48
+  },
+  {
+    "id": "science_technology_skills",
+    "icon_url": "assets/icons/category_science_technology_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 49
+  },
+  {
+    "id": "tech_digital_skills",
+    "icon_url": "assets/icons/category_tech_digital_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 50
+  },
+  {
+    "id": "technical_engineering",
+    "icon_url": "assets/icons/category_technical_engineering.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 51
+  },
+  {
+    "id": "technical_mechanical_skills",
+    "icon_url": "assets/icons/category_technical_mechanical_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 52
+  },
+  {
+    "id": "technology_digital",
+    "icon_url": "assets/icons/category_technology_digital.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 53
+  },
+  {
+    "id": "technology_digital_skills",
+    "icon_url": "assets/icons/category_technology_digital_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 54
+  },
+  {
+    "id": "trade_craftsmanship_skills",
+    "icon_url": "assets/icons/category_trade_craftsmanship_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 55
+  },
+  {
+    "id": "trades_craftsmanship",
+    "icon_url": "assets/icons/category_trades_craftsmanship.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 56
+  },
+  {
+    "id": "trades_manual_skills",
+    "icon_url": "assets/icons/category_trades_manual_skills.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 57
+  },
+  {
+    "id": "trades_technical",
+    "icon_url": "assets/icons/category_trades_technical.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 58
+  },
+  {
+    "id": "media_entertainment",
+    "icon_url": "assets/icons/category_media_entertainment.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 59
+  },
+  {
+    "id": "hobbies_recreation",
+    "icon_url": "assets/icons/category_hobbies_recreation.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 60
+  },
+  {
+    "id": "food_of_different_countries",
+    "icon_url": "assets/icons/category_food_of_different_countries.svg",
+    "color_code": "0xFF2196F3",
+    "sort_order": 61
+  }
+]

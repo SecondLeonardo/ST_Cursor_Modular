@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_painting",
+  "name": "Peinture",
+  "skills": [
+    {
+      "id": "skill_1614",
+      "name": "Peinture acrylique",
+      "difficulty_level": 2,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1615",
+      "name": "Contrôle des brosses",
+      "difficulty_level": 3,
+      "description": "Learn and master Brush Control",
+      "tags": [
+        "brush",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1616",
+      "name": "Préparation de toile",
+      "difficulty_level": 2,
+      "description": "Learn and master Canvas Preparation",
+      "tags": [
+        "canvas",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1617",
+      "name": "Théorie des couleurs",
+      "difficulty_level": 5,
+      "description": "Learn and master Color Theory",
+      "tags": [
+        "color",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1618",
+      "name": "Peinture de paysage",
+      "difficulty_level": 2,
+      "description": "Learn and master Landscape Painting",
+      "tags": [
+        "landscape",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1619",
+      "name": "Mixte",
+      "difficulty_level": 1,
+      "description": "Learn and master Mixed Media",
+      "tags": [
+        "mixed",
+        "media",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1620",
+      "name": "Peinture à l'huile",
+      "difficulty_level": 5,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1621",
+      "name": "Techniques de couteau à palette",
+      "difficulty_level": 1,
+      "description": "Learn and master Palette Knife Techniques",
+      "tags": [
+        "palette",
+        "knife",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_1622",
+      "name": "Peinture de portraits",
+      "difficulty_level": 2,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1623",
+      "name": "Techniques d'aquarelle",
+      "difficulty_level": 3,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

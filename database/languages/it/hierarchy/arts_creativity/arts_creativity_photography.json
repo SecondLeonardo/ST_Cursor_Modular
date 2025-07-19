@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_photography",
+  "name": "Fotografia",
+  "skills": [
+    {
+      "id": "skill_500",
+      "name": "Fotografia in bianco e nero",
+      "difficulty_level": 4,
+      "description": "Learn and master Black & White Photography",
+      "tags": [
+        "black",
+        "white",
+        "photography"
+      ]
+    },
+    {
+      "id": "skill_501",
+      "name": "Padronanza delle impostazioni della fotocamera",
+      "difficulty_level": 1,
+      "description": "Learn and master Camera Settings Mastery",
+      "tags": [
+        "camera",
+        "settings",
+        "mastery"
+      ]
+    },
+    {
+      "id": "skill_502",
+      "name": "Composizione e inquadratura",
+      "difficulty_level": 2,
+      "description": "Learn and master Composition & Framing",
+      "tags": [
+        "composition",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_503",
+      "name": "Fotografia del paesaggio",
+      "difficulty_level": 4,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_504",
+      "name": "Tecniche di illuminazione",
+      "difficulty_level": 4,
+      "description": "Learn and master Lighting Techniques",
+      "tags": [
+        "lighting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_505",
+      "name": "Fotoritocco",
+      "difficulty_level": 1,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_506",
+      "name": "Fotografia di ritratto",
+      "difficulty_level": 3,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_507",
+      "name": "Fotografia del prodotto",
+      "difficulty_level": 2,
+      "description": "Learn and master Product Photography",
+      "tags": [
+        "product",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_508",
+      "name": "Fotografia di strada",
+      "difficulty_level": 3,
+      "description": "Learn and master Street Photography",
+      "tags": [
+        "street",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_509",
+      "name": "Fotografia di matrimonio",
+      "difficulty_level": 2,
+      "description": "Learn and master Wedding Photography",
+      "tags": [
+        "wedding",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "technical_mechanical_skills_electrical_work",
+  "name": "العمل الكهربائي",
+  "skills": [
+    {
+      "id": "skill_4576",
+      "name": "لحام الأساس",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Soldering",
+      "tags": [
+        "basic",
+        "soldering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4577",
+      "name": "سلامة قاطع الدائرة",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Breaker Safety",
+      "tags": [
+        "circuit",
+        "breaker",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_4578",
+      "name": "إصلاح الأضواء الخفقان",
+      "difficulty_level": 5,
+      "description": "Learn and master Fixing Flickering Lights",
+      "tags": [
+        "fixing",
+        "flickering",
+        "lights"
+      ]
+    },
+    {
+      "id": "skill_4579",
+      "name": "الإصلاحات الكهربائية المنزلية",
+      "difficulty_level": 2,
+      "description": "Learn and master Home Electrical Repairs",
+      "tags": [
+        "home",
+        "electrical",
+        "repairs"
+      ]
+    },
+    {
+      "id": "skill_4580",
+      "name": "تثبيت المنافذ",
+      "difficulty_level": 5,
+      "description": "Learn and master Installing Outlets",
+      "tags": [
+        "installing",
+        "outlets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4581",
+      "name": "تثبيت المفاتيح",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Switches",
+      "tags": [
+        "installing",
+        "switches",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4582",
+      "name": "قراءة مخططات الدائرة",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Circuit Diagrams",
+      "tags": [
+        "reading",
+        "circuit",
+        "diagrams"
+      ]
+    },
+    {
+      "id": "skill_4583",
+      "name": "باستخدام الشريط الكهربائي بشكل صحيح",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Electrical Tape Properly",
+      "tags": [
+        "using",
+        "electrical",
+        "tape",
+        "properly"
+      ]
+    },
+    {
+      "id": "skill_4584",
+      "name": "باستخدام الفولتميتر",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Voltmeter",
+      "tags": [
+        "using",
+        "voltmeter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4585",
+      "name": "تجريد الأسلاك",
+      "difficulty_level": 3,
+      "description": "Learn and master Wire Stripping",
+      "tags": [
+        "wire",
+        "stripping",
+        "skill"
+      ]
+    }
+  ]
+}

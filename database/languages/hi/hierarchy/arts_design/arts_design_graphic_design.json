@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_graphic_design",
+  "name": "ग्राफ़िक डिज़ाइन",
+  "skills": [
+    {
+      "id": "skill_570",
+      "name": "एडोब इलस्ट्रेटर",
+      "difficulty_level": 3,
+      "description": "Learn and master Adobe Illustrator",
+      "tags": [
+        "adobe",
+        "illustrator",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_571",
+      "name": "एडोब फोटोशॉप",
+      "difficulty_level": 3,
+      "description": "Learn and master Adobe Photoshop",
+      "tags": [
+        "adobe",
+        "photoshop",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_572",
+      "name": "ब्रांड पहचान",
+      "difficulty_level": 5,
+      "description": "Learn and master Brand Identity",
+      "tags": [
+        "brand",
+        "identity",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_573",
+      "name": "रंग ग्रेडिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Grading",
+      "tags": [
+        "color",
+        "grading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_574",
+      "name": "इन्फोग्राफिक डिजाइन",
+      "difficulty_level": 5,
+      "description": "Learn and master Infographic Design",
+      "tags": [
+        "infographic",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_575",
+      "name": "लेआउट डिजाइन",
+      "difficulty_level": 1,
+      "description": "Learn and master Layout Design",
+      "tags": [
+        "layout",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_576",
+      "name": "लोगो डिजाइन",
+      "difficulty_level": 2,
+      "description": "Learn and master Logo Design",
+      "tags": [
+        "logo",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_577",
+      "name": "टाइपोग्राफी",
+      "difficulty_level": 2,
+      "description": "Learn and master Typography",
+      "tags": [
+        "typography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_578",
+      "name": "यूएक्स डिजाइन मूल बातें",
+      "difficulty_level": 5,
+      "description": "Learn and master UX Design Basics",
+      "tags": [
+        "design",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_579",
+      "name": "वायरफ्रामिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Wireframing",
+      "tags": [
+        "wireframing",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

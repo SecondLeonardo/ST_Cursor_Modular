@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_engineering_disciplines",
+  "name": "工程学科",
+  "skills": [
+    {
+      "id": "skill_4208",
+      "name": "CAD设计",
+      "difficulty_level": 4,
+      "description": "Learn and master CAD Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4209",
+      "name": "化工",
+      "difficulty_level": 4,
+      "description": "Learn and master Chemical Engineering",
+      "tags": [
+        "chemical",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4210",
+      "name": "土木工程",
+      "difficulty_level": 3,
+      "description": "Learn and master Civil Engineering",
+      "tags": [
+        "civil",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4211",
+      "name": "控制系统",
+      "difficulty_level": 5,
+      "description": "Learn and master Control Systems",
+      "tags": [
+        "control",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4212",
+      "name": "电气工程",
+      "difficulty_level": 4,
+      "description": "Learn and master Electrical Engineering",
+      "tags": [
+        "electrical",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4213",
+      "name": "工程材料",
+      "difficulty_level": 3,
+      "description": "Learn and master Engineering Materials",
+      "tags": [
+        "engineering",
+        "materials",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4214",
+      "name": "机械工业",
+      "difficulty_level": 4,
+      "description": "Learn and master Mechanical Engineering",
+      "tags": [
+        "mechanical",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4215",
+      "name": "机电学",
+      "difficulty_level": 5,
+      "description": "Learn and master Mechatronics",
+      "tags": [
+        "mechatronics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4216",
+      "name": "结构分析",
+      "difficulty_level": 3,
+      "description": "Learn and master Structural Analysis",
+      "tags": [
+        "structural",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4217",
+      "name": "工程师的热力学",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermodynamics for Engineers",
+      "tags": [
+        "thermodynamics",
+        "engineers",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+1. Profile & Settings Overview
+- User profile management, profile editing, privacy controls, account management
+- Profile stats: posts, following, followers, visitors
+
+2. Profile Data Models
+- UserModel: userId, name, email, phone, skills, languages, profilePicture, vip, joinedAt, stats
+
+3. Profile & Settings UI/UX Design
+
+### 3.2.20 Storage & Data
+- **Description**: Comprehensive storage and network management interface.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title ("Storage and data"): Bold, centered
+    - Back Button (<): Top-left corner
+  - **Main Sections**:
+    1. Storage Section:
+       - Manage Storage Button
+       - Storage usage statistics
+    2. Network Section:
+       - Network Usage Button
+       - Use Less Data for Calls Toggle
+       - Proxy Settings
+    3. Media Quality Section:
+       - Media Upload Quality Settings
+       - Auto-download preferences
+  - **Functionality**:
+    - Storage management
+    - Network usage monitoring
+    - Media quality control
+    - Auto-download settings
+
+### 3.2.21 Manage Storage
+- **Description**: Detailed storage management interface.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title ("Manage storage"): Bold, centered
+    - Back Button (<): Top-left corner
+  - **Storage Overview**:
+    - Used Storage Display
+    - Free Storage Display
+    - Progress Bar (Teal/Yellow)
+  - **Content Sections**:
+    1. Review and Delete:
+       - Larger than 5MB filter
+       - Media previews
+    2. Tools to Save Space:
+       - Disappearing messages option
+       - Storage optimization tools
+  - **Chat List**:
+    - Profile pictures
+    - Chat names
+    - Storage usage per chat
+    - Navigation arrows
+
+### 3.2.22 Network Usage
+- **Description**: Detailed network usage statistics and management.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title ("Network usage"): Bold, centered
+    - Back Button (<): Top-left corner
+  - **Statistics Sections**:
+    1. Messages:
+       - Sent/Received counts
+       - Bytes sent/received
+    2. Chat Media:
+       - Bytes sent/received
+    3. Status Media:
+       - Usage statistics
+    4. SkillTalk Calls:
+       - Outgoing/Incoming counts
+       - Total time
+       - Data usage
+    5. Total Bytes:
+       - Sent/Received totals
+  - **Reset Option**:
+    - Reset Statistics Button
+    - Last reset timestamp
+
+### 3.2.23 Proxy Settings
+- **Description**: Network proxy configuration interface.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title ("Proxy"): Bold, centered
+    - Back Button (<): Top-left corner
+  - **Main Content**:
+    - Set-up Proxy Button
+    - Informational Text
+    - Learn More Link
+  - **Sub-sections**:
+    1. Chat Port:
+       - Port number input
+       - TLS toggle
+    2. Media Port:
+       - Port number configuration
+  - **Functionality**:
+    - Proxy server setup
+    - Port configuration
+    - Security settings
+
+### 3.2.24 Media Upload Quality
+- **Description**: Media quality settings interface.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title ("Media upload quality"): Bold, centered
+    - Back Button (<): Top-left corner
+  - **Quality Options**:
+    1. Standard Quality:
+       - Faster upload
+       - Smaller file size
+    2. HD Quality:
+       - Higher quality
+       - Larger file size
+  - **Additional Features**:
+    - Quality selection indicators
+    - Usage information
+    - Auto-save functionality
+
+### 3.2.25 Media Auto-Download Settings
+- **Description**: Controls for automatic media download preferences.
+- **UI/UX Design**:
+  - **Common Elements**:
+    - Back Button (<): Top-left corner
+    - Title: Media type specific
+    - Three download options:
+      1. Never
+      2. Wi-Fi
+      3. Wi-Fi and Cellular
+  - **Media Types**:
+    1. Photos:
+       - Image-specific settings
+       - Preview options
+    2. Audio:
+       - Voice message settings
+       - Audio file preferences
+    3. Video:
+       - Video quality options
+       - Download triggers
+    4. Documents:
+       - File type settings
+       - Size considerations
+  - **Functionality**:
+    - Connection-based download control
+    - Storage optimization
+    - Data usage management
+
+### 3.2.26 Dark Mode Settings
+- **Description**: Interface for managing dark mode preferences.
+- **UI/UX Design**:
+  - **General Layout & Design**:
+    - Minimalist and modern UI, consistent with iOS design principles
+    - White background with black and gray text for clarity
+    - Rounded toggle switch for smooth user experience
+  - **Header Section**:
+    - Back Arrow (Top Left, Black) for navigation
+    - Title: "Dark Mode" (Bold, Black, Center-Aligned)
+  - **Main Content**:
+    - "Auto" Toggle Switch (Main Setting Option)
+      - Bold black text: "Auto" (Setting title)
+      - bright teal toggle switch (enabled)
+      - Rounded white background for toggle switch
+    - Description Text: "When enabled, Dark Mode will follow your system settings"
+  - **Color Palette & Styling**:
+    - White background for clean, modern look
+    - Black text for main elements
+    - Gray text for additional information
+    - bright teal for active UI elements
+
+### 3.2.27 About Page
+- **Description**: Comprehensive about page with app information and support links.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back Button (<) in top left corner
+    - Title "About" centered
+    - SkillTalk Logo (bright teal square icon with multi-colored speech bubbles)
+    - Version Number (e.g., "6.0.60")
+  - **Main Menu Items**:
+    - How SkillTalk Works
+    - Message SkillTalk Team
+    - Like on Facebook
+    - Follow on Twitter
+    - Terms of Service
+    - Privacy Policy
+  - **Design Elements**:
+    - Clean white background
+    - Black text for main options
+    - Gray text for version number
+    - Right-facing arrows for navigation
+    - Consistent spacing and typography
+
+### 3.2.28 Help Center
+- **Description**: Comprehensive help and support interface.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back Button (<) in top left
+    - Title "Help" centered
+    - Search Bar with magnifying glass icon
+  - **Support & Legal Links**:
+    - Help Center (teal text)
+    - Terms and Privacy Policy
+    - Licenses
+  - **Tab Navigation**:
+    - Recommended (selected)
+    - General
+    - Account
+    - VIP & Subscriptions
+  - **FAQ Section**:
+    - List of help topics with right-facing arrows
+    - Topics include account management, subscription, dark mode, etc.
+    - "More" button for additional articles
+  - **Contact Support Section**:
+    - "Need more help?" header
+    - Contact Support button
+  - **Footer**:
+    - Copyright notice: "© 2025 SkillTalk LLC"
+
+### 3.2.29 Help Center Topics
+- **Description**: Detailed help topics and articles.
+- **UI/UX Design**:
+  - **Search Functionality**:
+    - Search bar with placeholder "Search Help Center"
+    - Category filters for refined search
+  - **Help Topics Categories**:
+    1. Get Started
+    2. Chats
+    3. Connect with Businesses
+    4. Voice and Video Calls
+    5. Communities
+    6. Channels
+    7. Privacy, Safety, and Security
+    8. Accounts and Account Bans
+    9. Payments
+    10. SkillTalk for Business
+  - **Popular Articles Section**:
+    - Article list with teal document icons
+    - Right-facing arrows for navigation
+    - "Show more" button for additional content
+
+### 3.2.30 Teacher Application Guide
+- **Description**: Interface for becoming a verified teacher on SkillTalk.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back arrow for navigation
+    - "FAQ" title centered
+  - **Main Content**:
+    - Question header in light gray
+    - Instructional text in black
+    - Email link (teacher@SkillTalk.com) in blue
+  - **Application Process**:
+    - Step-by-step instructions
+    - Required materials list
+    - Preferred extras
+    - Next steps
+  - **Feedback Section**:
+    - "Was this helpful?" prompt
+    - Thumbs up/down buttons
+  - **Design Elements**:
+    - Clean, minimalist layout
+    - Clear typography hierarchy
+    - Interactive elements in teal
+    - Mobile-friendly spacing
+
+### 3.2.31 Clear Cache
+- **Description**: Confirmation interface for clearing app cache.
+- **UI/UX Design**:
+  - **Modal Design**:
+    - Rounded top corners
+    - Floating sheet over settings page
+    - Dimmed background
+  - **Header**:
+    - "Confirm Clearing Cache" title
+    - Bold, centered text
+  - **Action Buttons**:
+    - Primary: "Clear cache" (teal background, white text)
+    - Secondary: "Cancel" (gray text)
+  - **Functionality**:
+    - Confirmation required before clearing
+    - Immediate feedback on action
+    - Easy cancellation option
+
+### 3.2.32 Don't Disturb Popup
+- **Description**: Interface for managing notification silencing preferences.
+- **UI/UX Design**:
+  - **General Layout & Design**:
+    - Minimalist and modern UI, iOS-style settings
+    - White background with black and gray text
+    - Rounded toggle switches and selection pickers
+    - Blurred background effect for time selection
+  - **Header Section**:
+    - Back Arrow (Top Left, Black) for navigation
+    - Title: "Don't Disturb" (Bold, Black, Center-Aligned)
+  - **Main Content**:
+    - "Don't Disturb" Toggle:
+      - Bold black text title
+      - Gray subtext showing time range
+      - bright teal toggle switch
+      - Right-facing arrow for customization
+    - "Do Not Disturb All Day" Toggle:
+      - Bold black text title
+      - Gray toggle switch (disabled)
+  - **Time Picker Modal**:
+    - Blurred background overlay
+    - Cancel (Black) and OK (bright teal) buttons
+    - iOS-style time selection wheel
+    - Two columns for start and end times
+  - **Color Palette**:
+    - White background
+    - Black text for main elements
+    - Gray text for secondary information
+    - bright teal for active elements
+
+### 3.2.33 What is SkillTalk Popup
+- **Description**: Introduction popup explaining SkillTalk's purpose.
+- **UI/UX Design**:
+  - **Content**:
+    - Title: "SkillTalk - The first skill exchange & learning App in the world"
+    - Bullet Points:
+      - "The best way to learn a skill is to learn from friends with love"
+      - "If you are an expert guitarist targeting learn violin, ideally you would want to meet expert violinist who targeting learn guitar in your language"
+      - "SkillTalk is the first mobile app in the world that does just that"
+    - Action Button: "I understand" (bright teal color)
+  - **Design Elements**:
+    - Clean white background
+    - Bold black text for title
+    - Bullet points with star symbols
+    - Large, prominent action button
+
+### 3.2.34 Unacceptable Behaviors Popup
+- **Description**: Warning popup listing prohibited behaviors.
+- **UI/UX Design**:
+  - **Content**:
+    - Header: "SkillTalk is an app focused on Skill learning. The following unacceptable behaviors will lead to permanent account removal."
+    - Unacceptable Behaviors List:
+      - Attempted/committed fraud
+      - Fraud and misinformation
+      - Pornography
+      - Harassment
+      - Religious/racial discrimination
+      - Religion, politics, and other controversial topics
+      - Social media marketing or advertising
+    - Action Button: "I understand" (bright teal color)
+  - **Design Elements**:
+    - Clean white background
+    - Bold black text for header
+    - Blue "X" icons for each behavior
+    - Large, prominent action button
+
+### 3.2.35 Translation Language Selection Popups
+- **Description**: Language selection interfaces for message translation.
+- **UI/UX Design**:
+  - **Common Elements**:
+    - Back Button (<) in top left corner
+    - Title "Language" centered
+    - List of languages with checkmarks
+  - **Two Variants**:
+    1. "Translate messages received to:"
+       - Language list with selection indicators
+       - Search functionality
+       - Native language names
+    2. "Translate messages sent to:"
+       - Similar layout to received messages
+       - Partner's language preferences
+       - Selection persistence
+
+### 3.2.36 Feature Tutorial Popups
+- **Description**: Instructional popups for app features.
+- **UI/UX Design**:
+  - **Common Elements**:
+    - Visual tutorial images
+    - Clear, concise instructions
+    - Dismissible interface
+  - **Feature Tutorials**:
+    1. Press and Hold Message Options
+    2. Tap and Hold to Translate
+    3. Input Text & Translate
+    4. Transcription
+    5. Correct Sentences
+  - **Design Elements**:
+    - Screenshot-based tutorials
+    - Highlighted interaction points
+    - Step-by-step instructions
+    - Easy dismissal
+
+### 3.2.37 Share Profile Popups
+- **Description**: Interfaces for sharing user profiles.
+- **UI/UX Design**:
+  - **Profile Share Card**:
+    - Dark semi-transparent overlay
+    - White rounded card with user details
+    - Gradient teal-blue background
+    - Cartoon-style characters with speech bubbles
+    - User Info Section:
+      - Circular profile picture
+      - Bold name text
+      - Skill exchange icons
+      - Username in light gray
+    - Statistics Section:
+      - Joined duration
+      - Study streak
+      - Total visitors
+    - "Share Card" button (bright blue)
+  - **QR Code Profile Sharing**:
+    - Similar overlay and card design
+    - Large QR code with SkillTalk logo
+    - Instructional text
+    - "Share QR Code" and "Share URL" buttons
+    - QR scanner icon
+  - **Color Scheme**:
+    - Dark background
+    - White and light gray text
+    - Bright blue CTAs
+    - Vibrant accent colors
+
+### 3.2.38 Logout Confirmation Popup
+- **Description**: Confirmation interface for account logout.
+- **UI/UX Design**:
+  - **Modal Window**:
+    - Semi-transparent white background
+    - Centered message
+    - Warning text about notification cessation
+  - **Action Buttons**:
+    - "Yes" (Red background, white text, bold)
+    - "Cancel" (Gray text, no background)
+  - **Design Elements**:
+    - Clean, minimalistic layout
+    - Clear warning message
+    - Prominent action buttons
+    - Standard iOS-style modal
+
+
+4. Implementation Patterns
+- Service/provider pattern, multi-provider strategy, usage tracking, fallback system
+
+5. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 

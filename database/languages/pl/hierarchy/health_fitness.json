@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "Zdrowie i fitness",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "Opieka nad ciałem i dobre samopoczucie"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "Pierwsza pomoc i bezpieczeństwo"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "Zdrowie psychiczne"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "Odżywianie i dieta"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "Trening fizyczny"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "Mat från olika länder",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "Italiensk mat"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "Japansk mat"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "Mexikansk mat"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "Indisk mat"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "Fransk mat"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "Kinesisk mat"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "Mellanöstern"
+    }
+  ]
+}

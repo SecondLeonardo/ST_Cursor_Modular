@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "Vetenskap och tekniska färdigheter",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "Astronomi"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "Biologi och livsvetenskap"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "Kemi"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "Datavetenskap"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "Data Science & AI"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "Jord- och miljövetenskap"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "Teknisk discipliner"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "Matematik och statistik"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "Fysik och mekanik"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "Robotik och automatisering"
+    }
+  ]
+}

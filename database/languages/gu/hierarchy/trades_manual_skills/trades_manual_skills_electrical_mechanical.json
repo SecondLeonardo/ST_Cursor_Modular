@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_electrical_mechanical",
+  "name": "વિદ્યુત અને યાંત્રિક",
+  "skills": [
+    {
+      "id": "skill_5075",
+      "name": "મૂળ એચ.વી.એ.સી. જાળવણી",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic HVAC Maintenance",
+      "tags": [
+        "basic",
+        "hvac",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5076",
+      "name": "મૂળ રોબોટિક્સ",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Robotics",
+      "tags": [
+        "basic",
+        "robotics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5077",
+      "name": "ફ્યુઝિંગ અને સર્કિટ સુરક્ષા",
+      "difficulty_level": 2,
+      "description": "Learn and master Fusing and Circuit Protection",
+      "tags": [
+        "fusing",
+        "circuit",
+        "protection"
+      ]
+    },
+    {
+      "id": "skill_5078",
+      "name": "હોમ ઓટોમેશન વાયરિંગ",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Automation Wiring",
+      "tags": [
+        "home",
+        "automation",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_5079",
+      "name": "આઉટલેટ્સ સ્થાપિત કરી રહ્યા છીએ",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Outlets",
+      "tags": [
+        "installing",
+        "outlets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5080",
+      "name": "પ્રકાશ ફિક્સ્ચર ઇન્સ્ટોલેશન",
+      "difficulty_level": 5,
+      "description": "Learn and master Light Fixture Installation",
+      "tags": [
+        "light",
+        "fixture",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5081",
+      "name": "બ્લુપ્રિન્ટ્સ વાંચન",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Blueprints",
+      "tags": [
+        "reading",
+        "blueprints",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5082",
+      "name": "મુશ્કેલીનિવારણ મોટર",
+      "difficulty_level": 5,
+      "description": "Learn and master Troubleshooting Motors",
+      "tags": [
+        "troubleshooting",
+        "motors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5083",
+      "name": "મલ્ટિમીટરનો ઉપયોગ",
+      "difficulty_level": 4,
+      "description": "Learn and master Using a Multimeter",
+      "tags": [
+        "using",
+        "multimeter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5084",
+      "name": "વાયરિંગ સર્કિટ્સ",
+      "difficulty_level": 3,
+      "description": "Learn and master Wiring Circuits",
+      "tags": [
+        "wiring",
+        "circuits",
+        "skill"
+      ]
+    }
+  ]
+}

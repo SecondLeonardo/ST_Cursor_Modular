@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_metalwork_welding",
+  "name": "Metallverk och svetsning",
+  "skills": [
+    {
+      "id": "skill_4985",
+      "name": "Bågsvetsning",
+      "difficulty_level": 3,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4986",
+      "name": "Ritningsläsning",
+      "difficulty_level": 2,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4987",
+      "name": "Grunder",
+      "difficulty_level": 5,
+      "description": "Learn and master Forging Basics",
+      "tags": [
+        "forging",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4988",
+      "name": "Svarvdrift",
+      "difficulty_level": 1,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4989",
+      "name": "MiG -svetsning",
+      "difficulty_level": 2,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4990",
+      "name": "Metallskärning",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Cutting",
+      "tags": [
+        "metal",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4991",
+      "name": "Rörsvetsning",
+      "difficulty_level": 1,
+      "description": "Learn and master Pipe Welding",
+      "tags": [
+        "pipe",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4992",
+      "name": "Plåt tillverkning",
+      "difficulty_level": 1,
+      "description": "Learn and master Sheet Metal Fabrication",
+      "tags": [
+        "sheet",
+        "metal",
+        "fabrication"
+      ]
+    },
+    {
+      "id": "skill_4993",
+      "name": "Lödmetall",
+      "difficulty_level": 4,
+      "description": "Learn and master Soldering Metal",
+      "tags": [
+        "soldering",
+        "metal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4994",
+      "name": "Tigsvetsning",
+      "difficulty_level": 1,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

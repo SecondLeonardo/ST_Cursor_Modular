@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "تجارت و کاردستی",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "تعمیر خودرو"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "نجاری و نجاری"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "ساخت و ساز و سنگ تراشی"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "کار برقی"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC و یخچال"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "جواهرات"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "فلزکاری و جوشکاری"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "نقاشی و تزئین"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "لوله کشی"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "خیاطی و خیاطی"
+    }
+  ]
+}

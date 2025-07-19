@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_hvac_refrigeration",
+  "name": "HVAC и охлаждение",
+  "skills": [
+    {
+      "id": "skill_4965",
+      "name": "Установка переменного тока",
+      "difficulty_level": 3,
+      "description": "Learn and master AC Installation",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4966",
+      "name": "Воздушный баланс",
+      "difficulty_level": 5,
+      "description": "Learn and master Air Balancing",
+      "tags": [
+        "balancing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4967",
+      "name": "Устранение неполадок компрессора",
+      "difficulty_level": 3,
+      "description": "Learn and master Compressor Troubleshooting",
+      "tags": [
+        "compressor",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4968",
+      "name": "Производство воздуховодов",
+      "difficulty_level": 4,
+      "description": "Learn and master Ductwork Fabrication",
+      "tags": [
+        "ductwork",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4969",
+      "name": "Знание сертификации EPA",
+      "difficulty_level": 1,
+      "description": "Learn and master EPA Certification Knowledge",
+      "tags": [
+        "certification",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4970",
+      "name": "Обслуживание HVAC",
+      "difficulty_level": 2,
+      "description": "Learn and master HVAC Maintenance",
+      "tags": [
+        "hvac",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4971",
+      "name": "Реконструкция системы отопления",
+      "difficulty_level": 3,
+      "description": "Learn and master Heating System Repair",
+      "tags": [
+        "heating",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_4972",
+      "name": "Обработка хладагента",
+      "difficulty_level": 4,
+      "description": "Learn and master Refrigerant Handling",
+      "tags": [
+        "refrigerant",
+        "handling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4973",
+      "name": "Ремонт холодильника",
+      "difficulty_level": 3,
+      "description": "Learn and master Refrigerator Repair",
+      "tags": [
+        "refrigerator",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4974",
+      "name": "Термостат -проводка",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermostat Wiring",
+      "tags": [
+        "thermostat",
+        "wiring",
+        "skill"
+      ]
+    }
+  ]
+}

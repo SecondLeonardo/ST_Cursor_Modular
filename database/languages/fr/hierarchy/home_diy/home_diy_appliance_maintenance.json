@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_appliance_maintenance",
+  "name": "Maintenance de l'appareil",
+  "skills": [
+    {
+      "id": "skill_2838",
+      "name": "Remplacement du filtre AC",
+      "difficulty_level": 4,
+      "description": "Learn and master AC Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2839",
+      "name": "Détection des machines à café",
+      "difficulty_level": 4,
+      "description": "Learn and master De-scaling Coffee Machines",
+      "tags": [
+        "de-scaling",
+        "coffee",
+        "machines"
+      ]
+    },
+    {
+      "id": "skill_2840",
+      "name": "Nettoyage du filtre à lave-vaisselle",
+      "difficulty_level": 3,
+      "description": "Learn and master Dishwasher Filter Cleaning",
+      "tags": [
+        "dishwasher",
+        "filter",
+        "cleaning"
+      ]
+    },
+    {
+      "id": "skill_2841",
+      "name": "Élimination des peluches du séchoir",
+      "difficulty_level": 3,
+      "description": "Learn and master Dryer Lint Removal",
+      "tags": [
+        "dryer",
+        "lint",
+        "removal"
+      ]
+    },
+    {
+      "id": "skill_2842",
+      "name": "Nettoyage au micro-ondes",
+      "difficulty_level": 1,
+      "description": "Learn and master Microwave Cleaning",
+      "tags": [
+        "microwave",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2843",
+      "name": "Étalonnage du four",
+      "difficulty_level": 3,
+      "description": "Learn and master Oven Calibration",
+      "tags": [
+        "oven",
+        "calibration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2844",
+      "name": "Nettoyage du réfrigérateur",
+      "difficulty_level": 3,
+      "description": "Learn and master Refrigerator Cleaning",
+      "tags": [
+        "refrigerator",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2845",
+      "name": "Dépannage des petits appareils",
+      "difficulty_level": 4,
+      "description": "Learn and master Small Appliance Troubleshooting",
+      "tags": [
+        "small",
+        "appliance",
+        "troubleshooting"
+      ]
+    },
+    {
+      "id": "skill_2846",
+      "name": "Réparation de vide",
+      "difficulty_level": 3,
+      "description": "Learn and master Vacuum Repair",
+      "tags": [
+        "vacuum",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2847",
+      "name": "Maintenance de la laveuse",
+      "difficulty_level": 5,
+      "description": "Learn and master Washer Maintenance",
+      "tags": [
+        "washer",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

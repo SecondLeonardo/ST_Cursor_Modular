@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_electrical",
+  "name": "વિદ્યુત",
+  "skills": [
+    {
+      "id": "skill_5205",
+      "name": "સરકીટ રચના",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5206",
+      "name": "વિદ્યુત સલામતીનું પાલન",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Safety Compliance",
+      "tags": [
+        "electrical",
+        "safety",
+        "compliance"
+      ]
+    },
+    {
+      "id": "skill_5207",
+      "name": "વિદ્યુત મુશ્કેલી",
+      "difficulty_level": 1,
+      "description": "Learn and master Electrical Troubleshooting",
+      "tags": [
+        "electrical",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5208",
+      "name": "હોમ ઓટોમેશન સેટઅપ",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Automation Setup",
+      "tags": [
+        "home",
+        "automation",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_5209",
+      "name": "પ્રકાશ -પદ્ધતિ",
+      "difficulty_level": 4,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5210",
+      "name": "પેનલ અપગ્રેડ કરવું",
+      "difficulty_level": 1,
+      "description": "Learn and master Panel Upgrading",
+      "tags": [
+        "panel",
+        "upgrading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5211",
+      "name": "વીજળી વહેંચણી",
+      "difficulty_level": 3,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5212",
+      "name": "યોજનાવિધિ વાંચવી",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Schematics",
+      "tags": [
+        "reading",
+        "schematics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5213",
+      "name": "સૌર પેનલ સ્થાપન",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Installation",
+      "tags": [
+        "solar",
+        "panel",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5214",
+      "name": "વાયરિંગ સ્થાપન",
+      "difficulty_level": 4,
+      "description": "Learn and master Wiring Installation",
+      "tags": [
+        "wiring",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

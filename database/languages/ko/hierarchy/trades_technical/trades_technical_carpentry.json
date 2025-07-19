@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_carpentry",
+  "name": "목공",
+  "skills": [
+    {
+      "id": "skill_5185",
+      "name": "캐비닛 제작",
+      "difficulty_level": 2,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5186",
+      "name": "갑판 빌딩",
+      "difficulty_level": 1,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5187",
+      "name": "문 교수형",
+      "difficulty_level": 2,
+      "description": "Learn and master Door Hanging",
+      "tags": [
+        "door",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5188",
+      "name": "가구 복원",
+      "difficulty_level": 3,
+      "description": "Learn and master Furniture Restoration",
+      "tags": [
+        "furniture",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5189",
+      "name": "핸드 도구 사용",
+      "difficulty_level": 5,
+      "description": "Learn and master Hand Tool Use",
+      "tags": [
+        "hand",
+        "tool",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5190",
+      "name": "가구 만드는 일",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5191",
+      "name": "트림 설치",
+      "difficulty_level": 2,
+      "description": "Learn and master Trim Installation",
+      "tags": [
+        "trim",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5192",
+      "name": "창 프레임",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Framing",
+      "tags": [
+        "window",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5193",
+      "name": "목재 절단",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Cutting",
+      "tags": [
+        "wood",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5194",
+      "name": "목재 마무리",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    }
+  ]
+}

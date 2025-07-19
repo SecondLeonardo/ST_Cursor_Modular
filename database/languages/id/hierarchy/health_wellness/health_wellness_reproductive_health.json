@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_reproductive_health",
+  "name": "Kesehatan reproduksi",
+  "skills": [
+    {
+      "id": "skill_2629",
+      "name": "Metode pengendalian kelahiran",
+      "difficulty_level": 1,
+      "description": "Learn and master Birth Control Methods",
+      "tags": [
+        "birth",
+        "control",
+        "methods"
+      ]
+    },
+    {
+      "id": "skill_2630",
+      "name": "Kesadaran kesuburan",
+      "difficulty_level": 3,
+      "description": "Learn and master Fertility Awareness",
+      "tags": [
+        "fertility",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2631",
+      "name": "Kesadaran hormonal",
+      "difficulty_level": 4,
+      "description": "Learn and master Hormonal Awareness",
+      "tags": [
+        "hormonal",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2632",
+      "name": "Komunikasi keintiman",
+      "difficulty_level": 3,
+      "description": "Learn and master Intimacy Communication",
+      "tags": [
+        "intimacy",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2633",
+      "name": "Pelacakan siklus menstruasi",
+      "difficulty_level": 3,
+      "description": "Learn and master Menstrual Cycle Tracking",
+      "tags": [
+        "menstrual",
+        "cycle",
+        "tracking"
+      ]
+    },
+    {
+      "id": "skill_2634",
+      "name": "Dasar -dasar Perawatan Kehamilan",
+      "difficulty_level": 5,
+      "description": "Learn and master Pregnancy Care Basics",
+      "tags": [
+        "pregnancy",
+        "care",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2635",
+      "name": "Latihan prenatal",
+      "difficulty_level": 3,
+      "description": "Learn and master Prenatal Exercises",
+      "tags": [
+        "prenatal",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2636",
+      "name": "Pencegahan STD",
+      "difficulty_level": 3,
+      "description": "Learn and master STD Prevention",
+      "tags": [
+        "prevention",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2637",
+      "name": "Pendidikan Praktik yang Aman",
+      "difficulty_level": 4,
+      "description": "Learn and master Safe Practices Education",
+      "tags": [
+        "safe",
+        "practices",
+        "education"
+      ]
+    },
+    {
+      "id": "skill_2638",
+      "name": "Praktik Kesehatan Seksual",
+      "difficulty_level": 2,
+      "description": "Learn and master Sexual Health Practices",
+      "tags": [
+        "sexual",
+        "health",
+        "practices"
+      ]
+    }
+  ]
+}

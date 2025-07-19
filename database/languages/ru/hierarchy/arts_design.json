@@ -1,0 +1,46 @@
+{
+  "id": "arts_design",
+  "name": "Искусство и дизайн",
+  "subcategories": [
+    {
+      "id": "arts_design_3d_modeling",
+      "name": "3D -моделирование"
+    },
+    {
+      "id": "arts_design_architecture_design",
+      "name": "Архитектура дизайн"
+    },
+    {
+      "id": "arts_design_crafts",
+      "name": "Ремесла"
+    },
+    {
+      "id": "arts_design_fashion_textiles",
+      "name": "Мода и текстиль"
+    },
+    {
+      "id": "arts_design_film_video",
+      "name": "Фильм и видео"
+    },
+    {
+      "id": "arts_design_graphic_design",
+      "name": "Графический дизайн"
+    },
+    {
+      "id": "arts_design_interior_design",
+      "name": "Дизайн интерьера"
+    },
+    {
+      "id": "arts_design_performing_arts",
+      "name": "Исполнительское искусство"
+    },
+    {
+      "id": "arts_design_photography",
+      "name": "Фотография"
+    },
+    {
+      "id": "arts_design_visual_arts",
+      "name": "Визуальное искусство"
+    }
+  ]
+}

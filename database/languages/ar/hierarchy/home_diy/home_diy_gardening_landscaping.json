@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_gardening_landscaping",
+  "name": "البستنة والمناظر الطبيعية",
+  "skills": [
+    {
+      "id": "skill_2878",
+      "name": "السماد",
+      "difficulty_level": 5,
+      "description": "Learn and master Composting",
+      "tags": [
+        "composting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2879",
+      "name": "صيانة الدفيئة",
+      "difficulty_level": 2,
+      "description": "Learn and master Greenhouse Maintenance",
+      "tags": [
+        "greenhouse",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2880",
+      "name": "تقليم التحوط",
+      "difficulty_level": 2,
+      "description": "Learn and master Hedge Trimming",
+      "tags": [
+        "hedge",
+        "trimming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2881",
+      "name": "إعداد الري",
+      "difficulty_level": 5,
+      "description": "Learn and master Irrigation Setup",
+      "tags": [
+        "irrigation",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2882",
+      "name": "تصميم المناظر الطبيعية",
+      "difficulty_level": 2,
+      "description": "Learn and master Landscape Design",
+      "tags": [
+        "landscape",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2883",
+      "name": "رعاية العشب",
+      "difficulty_level": 2,
+      "description": "Learn and master Lawn Care",
+      "tags": [
+        "lawn",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2884",
+      "name": "مكافحة الآفات في الحدائق",
+      "difficulty_level": 5,
+      "description": "Learn and master Pest Control in Gardens",
+      "tags": [
+        "pest",
+        "control",
+        "gardens"
+      ]
+    },
+    {
+      "id": "skill_2885",
+      "name": "اختبار التربة",
+      "difficulty_level": 3,
+      "description": "Learn and master Soil Testing",
+      "tags": [
+        "soil",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2886",
+      "name": "تشذيب الأشجار",
+      "difficulty_level": 1,
+      "description": "Learn and master Tree Pruning",
+      "tags": [
+        "tree",
+        "pruning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2887",
+      "name": "البستنة الخضار",
+      "difficulty_level": 1,
+      "description": "Learn and master Vegetable Gardening",
+      "tags": [
+        "vegetable",
+        "gardening",
+        "skill"
+      ]
+    }
+  ]
+}

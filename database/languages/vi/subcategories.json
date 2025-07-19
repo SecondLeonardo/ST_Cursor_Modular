@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "Kinh tế"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "Địa lý"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "Lịch sử"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "Ngôn ngữ & Ngôn ngữ học"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "Văn học"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "Toán học"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "Triết lý"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "Tâm lý"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "Khoa học"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "Xã hội học"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "Tư duy phê phán"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "Lịch sử & Văn hóa"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "Lịch sử & Khoa học xã hội"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "Ngôn ngữ & Ngôn ngữ học"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "Ngôn ngữ"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "Văn học & Viết"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "Logic & Lý luận"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "Toán học"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "Triết học & Tư duy phê phán"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "Nói trước công chúng & tranh luận"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "Nghiên cứu & Phân tích"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "Khoa học"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "Khoa học & Tự nhiên"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "Kỹ thuật nghiên cứu"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "Công nghệ & Điện toán"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "Trình bày học thuật"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "Phân tích dữ liệu"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "Ngôn ngữ & Viết"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "Toán học & Thống kê"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "Nghiên cứu khoa học"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "Chuẩn bị học tập & kiểm tra"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "Hoạt hình"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "Thủ công & DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "Viết sáng tạo"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "Vẽ & minh họa"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "Thiết kế thời trang"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "Bức vẽ"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "Biểu diễn nghệ thuật"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "Điêu khắc"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "Đồ họa hoạt hình & chuyển động"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "Thủ công & DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "Vẽ & minh họa"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "Nghệ thuật thời trang & dệt may"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "Phim & Video"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "Tranh & phương tiện truyền thông hỗn hợp"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "Biểu diễn nghệ thuật"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "Viết & Văn học"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "Mô hình 3D"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "Thiết kế kiến ​​trúc"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "Thủ công"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "Thời trang & Dệt may"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "Phim & Video"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "Thiết kế nội thất"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "Biểu diễn nghệ thuật"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "Nghệ thuật thị giác"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "Thư pháp"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "Thủ công"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "Nghệ thuật và hoạt hình kỹ thuật số"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "Thiết kế thời trang"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "Minh họa & Vẽ"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "Thiết kế nội thất"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "Nghệ thuật dệt may"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "Nghệ thuật thị giác"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "Thủ công & DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "Viết sáng tạo"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "Thiết kế & Nghệ thuật kỹ thuật số"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "Biểu diễn nghệ thuật"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "Nghệ thuật thị giác"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "Kế toán"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "Chiến lược kinh doanh"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "Hỗ trợ khách hàng"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "Thương mại điện tử"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "Doanh nhân"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "Tài chính"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "Tài chính & Kế toán"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "Nhân sự & tuyển dụng"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "Nhân sự"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "Đầu tư & giao dịch"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "Lãnh đạo & Quản lý"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "Tiếp thị & Bán hàng"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "Quản lý dự án"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "Bán hàng & CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "Truyền thông kinh doanh"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "Dịch vụ khách hàng"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "Doanh nhân"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "Tài chính & Kế toán"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "Nhân sự"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "Lãnh đạo & Quản lý"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "Pháp lý & Tuân thủ"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "Tiếp thị & xây dựng thương hiệu"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "Năng suất văn phòng"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "Dự án & Quản lý thời gian"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "Quản lý dự án"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "Bán hàng & Tiếp thị"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "Bán hàng & đàm phán"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "Tư duy phê phán"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "Ngôn ngữ & Ngôn ngữ học"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "Toán học & Logic"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "Bộ nhớ & tập trung"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "Khoa học & Nghiên cứu"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "Kỹ năng học tập và học tập"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "Sự tập trung & tập trung"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "Tư duy phê phán"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "Xử lý thông tin"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "Chiến lược học tập"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "Bộ nhớ & duy trì"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "Giải quyết vấn đề"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "Ngoại ngữ"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "Kỹ năng giao tiếp"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "Giao tiếp phi ngôn ngữ"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "Trình bày & kể chuyện"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "Nói trước công chúng"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "Viết & chỉnh sửa"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "Thủ công & DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "Tư duy sáng tạo"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "Thiết kế & thẩm mỹ"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "Thời trang & Phong cách"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "Phim & Video"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "Thiết kế trò chơi & xây dựng thế giới"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "Âm nhạc & Âm thanh"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "Hiệu suất âm nhạc"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "Sản xuất âm nhạc"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "Biểu diễn nghệ thuật"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "Nhiếp ảnh & Quay phim"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "Nghệ thuật thị giác"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "Viết & Văn học"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "Diễn xuất & Hiệu suất"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "Hoạt hình"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "Thủ công & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "Thủ công & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "Thủ công & Nghệ thuật thủ công"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "Công nghệ sáng tạo"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "Viết sáng tạo"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "Nghệ thuật ẩm thực"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "Thiết kế & thẩm mỹ"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "Vẽ & minh họa"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "Thời trang & Phong cách"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "Nghệ thuật Thời trang & Dệt may"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "Làm phim & video"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "Nội thất & Thiết kế hoa"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "Âm nhạc & nhạc cụ"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "Sáng tạo âm nhạc"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "Bức vẽ"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "Vẽ tranh & mỹ thuật"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "Biểu diễn nghệ thuật"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "Nhiếp ảnh & Quay phim"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "Tác phẩm điêu khắc & nghệ thuật 3D"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "Nghệ thuật thị giác"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "Viết & Kể chuyện"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D & hoạt hình"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "Ui/ux"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "Sản xuất video"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "Thư pháp & chữ cái"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "Thủ công & DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "Viết sáng tạo"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "Vẽ & minh họa"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "Làm đồ trang sức"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "Bức vẽ"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "Món ghi chú & cắt dán"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "Điêu khắc & đất sét"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "Nghệ thuật dệt & sợi"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "Thủ công & DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "Nghệ thuật kỹ thuật số & Hoạt hình"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "Nội thất & Thời trang"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "Nghệ thuật thị giác"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "Ngôn ngữ cổ đại"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "Nhận thức văn hóa"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "Huấn luyện phương ngữ"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "Giao tiếp liên văn hóa"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "Kỹ thuật học ngôn ngữ"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "Ngôn ngữ"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "Ngôn ngữ học"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "Ngôn ngữ ký hiệu"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "Dịch thuật & giải thích"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "Hệ thống viết"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "Mô hình & Hoạt hình 3D"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "Thương hiệu & bản sắc"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "Hình minh họa"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "Thiết kế UX/UI"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D & hoạt hình"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "Sáng tạo nội dung"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "Tiếp thị kỹ thuật số"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "Phương tiện truyền thông xã hội"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "Truyền phát & phát sóng"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "Thiết kế UI/UX"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "Sản xuất video"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "Thiết kế web & ứng dụng"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "An ninh mạng"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "Dữ liệu & AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "Nó & mạng"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "Lập trình & Phát triển"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "Web & Mobile"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "Dạy kèm học thuật"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "Giáo dục mầm non"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "Giáo dục đại học"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "Dạy ngôn ngữ"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "Ngôn ngữ"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "Công nghệ học tập"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "Biết chữ & viết"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "Giáo dục đặc biệt"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "Kỹ năng học tập"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "Thử nghiệm chuẩn bị"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "Ô tô & Giao thông vận tải"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "Kỹ thuật dân dụng"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "Kỹ thuật điện"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "Hệ thống năng lượng & năng lượng"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC & Systems"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "Thiết kế công nghiệp"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "Sản xuất & Sản xuất"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "Kỹ thuật cơ khí"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "Robotics & tự động hóa"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "Thiết kế kết cấu"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "Chăm sóc cơ thể & Sức khỏe"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "Sơ cứu & An toàn"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "Sức khỏe tâm thần"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "Dinh dưỡng & chế độ ăn uống"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "Đào tạo thể chất"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "Thuốc thay thế"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "Sơ cứu & khẩn cấp"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "Đào tạo thể dục"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "Sức khỏe toàn diện"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "Kiến thức y tế"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "Kỹ năng y tế"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "Sức khỏe tâm thần"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "Thực hành sức khỏe tâm thần"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "Chánh niệm & thiền định"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "Dinh dưỡng & chế độ ăn uống"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "Chăm sóc cá nhân"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "Thể lực thể chất"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "Phục hồi chức năng & trị liệu"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "Sức khỏe sinh sản"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "Tự chăm sóc & Vệ sinh"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "Ngủ & Phục hồi"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "Quản lý căng thẳng"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "Yoga & Thiền"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "Đào tạo thể dục"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "Dinh dưỡng"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "Ngoài trời & phiêu lưu"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "Kỹ năng thể thao"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "Sức khỏe & phục hồi"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "Thuốc thay thế"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "Kiến thức y tế"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "Sức khỏe tâm thần"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "Dinh dưỡng"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "Đào tạo cá nhân"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "Thể lực thể chất"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "Phục hồi chức năng & trị liệu"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "Huấn luyện thể thao"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "Huấn luyện sức khỏe"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "Yoga & chánh niệm"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "Bảo trì thiết bị"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "Làm sạch & tổ chức"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "Thủ công & trang trí"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "Công việc điện"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "Làm vườn & cảnh quan"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "Tự động hóa nhà"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "Sửa chữa nhà"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "Thiết kế nội thất"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "Ống nước cơ bản"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "Chỗ gỗ & nghề mộc"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "Ngân sách & Tài chính hộ gia đình"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "Chăm sóc trẻ em"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "Nấu ăn & Chuẩn bị bữa ăn"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "Mua sắm tạp hóa"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "Dọn dẹp nhà cửa"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "Bảo trì nhà"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "Chăm sóc quần áo & quần áo"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "Tổ chức và giải mã"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "Chăm sóc thú cưng"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "Quản lý thời gian"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "Truyền thông đa văn hóa"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "Ngoại ngữ"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "Lắng nghe và hiểu"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "Dịch thuật & giải thích"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "Kỹ năng viết"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "Học ngôn ngữ"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "Giao tiếp phi ngôn ngữ"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "Nói trước công chúng"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "Kể chuyện & tường thuật"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "Giao tiếp bằng lời nói"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "Viết & chỉnh sửa"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "Học ngôn ngữ"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "Toán học"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "Khoa học & Nghiên cứu"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "Kỹ thuật nghiên cứu"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "Chuẩn bị kiểm tra"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "Dạy kèm học thuật"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "Công cụ & Kỹ năng giáo dục"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "Học ngôn ngữ"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "Học tập suốt đời"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "Chuẩn bị kiểm tra"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "Nấu ăn & thức ăn"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "Bảo trì nhà"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "Tài chính cá nhân"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "Quản lý thời gian"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "Du lịch & điều hướng"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "Truyền thông & Mối quan hệ"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "Trí tuệ cảm xúc"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "Khả năng phục hồi & tăng trưởng"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "Kỷ luật tự giác"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "Quản lý thời gian và mục tiêu"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "Nấu ăn & Chuẩn bị thức ăn"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY & sửa chữa"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "Làm vườn & bền vững"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "Quản lý nhà"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "Tài chính cá nhân"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "Kỹ năng sinh tồn"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "Sửa chữa ô tô"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "Giao dịch xây dựng"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "Công việc điện"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "Nội thất & bọc"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "Công cụ làm chủ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "Cải tạo nhà"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "Khóa kim loại"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "Hệ thống nước & sưởi ấm"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "Dệt may & Leathercraft"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "Chế biến gỗ"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "Bảo trì ô tô"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "Cơ bản kỹ thuật"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "Sửa chữa & Cài đặt tại nhà"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "Hoạt động máy"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "Sử dụng công cụ & An toàn"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "Công việc gỗ và kim loại"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "Tư duy phê phán"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "Địa lý & Môi trường"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "Lịch sử & Văn hóa"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "Ngôn ngữ"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "Toán học"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "Kỹ năng học tập & học tập"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "Triết học & Đạo đức"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "Tâm lý học & hành vi"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "Khoa học & Nghiên cứu"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "Kỹ thuật nghiên cứu"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "Linh hoạt nhận thức"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "Tư duy phê phán"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "Học ngôn ngữ"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "Bộ nhớ & tập trung"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "Kỹ năng học tập"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "Tự tin & lòng tự trọng"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "Trí tuệ cảm xúc"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "Thiết lập và lập kế hoạch mục tiêu"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "Thói quen & kỷ luật"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "Kỹ năng giao tiếp"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "Lãnh đạo & ảnh hưởng"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "Chánh niệm & Sức khỏe"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "Nói trước công chúng"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "Tự phản ánh"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "Thời gian & năng suất"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "Khả năng lãnh đạo"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "Sức khỏe tinh thần"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "Năng suất"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "Nói trước công chúng"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "Tự cải thiện"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "Trí tuệ cảm xúc"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "Cài đặt và thành tích mục tiêu"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "Thói quen & năng suất"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "Chánh niệm & Sức khỏe"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "Nói trước công chúng & giao tiếp"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "Tự giác & tập trung"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "Thể hình & điều hòa"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "Lao động và giao dịch thủ công"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "Giải trí ngoài trời"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "Tự vệ & Võ thuật"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "Thể thao & Thể thao"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "Survival & Bushcraft"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "Thể hình & sức mạnh"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "Thể thao cá nhân"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "Võ thuật"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "Ngoài trời & phiêu lưu"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "Hoạt động giải trí"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "Thể thao đồng đội"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "Viết học thuật"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "Khoa học sinh học"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "Khoa học máy tính và dữ liệu"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "Khoa học Trái đất & Môi trường"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "Khoa học kỹ thuật"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "Toán học & Thống kê"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "Khoa học Y tế & Sức khỏe"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "Khoa học vật lý"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "Phương pháp nghiên cứu"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "Khoa học xã hội"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "Thiên văn học"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "Khoa học sinh học & Đời sống"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "Hoá học"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "Khoa học máy tính"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "Khoa học dữ liệu & AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "Khoa học Trái đất & Môi trường"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "Kỹ thuật kỷ luật"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "Toán học & Thống kê"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "Vật lý & Cơ học"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "Robotics & tự động hóa"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "Thiên văn học"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "Công nghệ sinh học"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "Hoá học"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "Khoa học máy tính"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "Khoa học dữ liệu & AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "Khoa học Trái đất & Môi trường"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "Điện tử"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "Kỹ thuật"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "Toán học & Thống kê"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "Vật lý"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI & Machine Learning"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "Điện toán đám mây"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "An ninh mạng"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "Dữ liệu & Phân tích"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "Khoa học dữ liệu & AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps & tự động hóa"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "Phát triển trò chơi"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "Nó & mạng"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "Nó hỗ trợ & kết nối mạng"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "Phát triển ứng dụng di động"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "Lập trình & Phát triển phần mềm"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "Phát triển phần mềm"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "Phần cứng và sửa chữa công nghệ"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "Hỗ trợ kỹ thuật & Khắc phục sự cố"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "Phát triển web"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "Dân sự & cấu trúc"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "Kỹ thuật điện"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "Sản xuất & chế tạo"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "Kỹ thuật cơ khí"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "Phần mềm & hệ thống"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "Kỹ năng ô tô"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "Xây dựng & Xây dựng"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "Công việc điện"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "Năng lượng & Môi trường"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "Kỹ năng công nghiệp"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "Sửa chữa cơ học"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "An ninh mạng"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "Dữ liệu & AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "Tiếp thị kỹ thuật số"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "Nó & mạng"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "Phát triển phần mềm"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "Trí tuệ nhân tạo"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "Điện toán đám mây"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "Những điều cơ bản về máy tính"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "An ninh mạng"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "Dữ liệu & AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "Dữ liệu & Phân tích"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "Biết chữ kỹ thuật số"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "Tiếp thị kỹ thuật số"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "Công nghệ mới nổi"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "Phần cứng & Điện tử"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "Nó & mạng"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "Mạng & nó"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "Lập trình & Phát triển"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "Lập trình & Phát triển phần mềm"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "Công cụ phần mềm"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "Năng suất công nghệ"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "Hỗ trợ & Bảo trì Kỹ thuật"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "Hỗ trợ kỹ thuật & Khắc phục sự cố"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "Phát triển ứng dụng & web"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "Xây dựng & Nghề mộc"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "Điện & Hệ thống nước"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "Hàng thủ công"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "Metalwork & Hàn"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "Dệt may & Leathercraft"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "Thủ công truyền thống"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "Sửa chữa ô tô"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "Thợ mộc & chế biến gỗ"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "Xây dựng & Masonry"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "Công việc điện"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC & điện lạnh"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "Làm đồ trang sức"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "Metalwork & Hàn"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "Vẽ tranh & trang trí"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "Ống nước"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "May đo & may"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "Sửa chữa ô tô"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "Thợ mộc & đồ gỗ"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "Sự thi công"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "Xây dựng & Nghề mộc"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "Nghề thủ công & sửa chữa"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "Điện & Cơ khí"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "Công việc điện"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC & điện lạnh"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "Hoạt động thiết bị nặng"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "Masonry & ốp lát"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "Kim loại & đồ gỗ"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "Tranh & Hoàn thiện"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "Ống nước"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "Bảo dưỡng xe và máy"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "Hàn & kim loại"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "Ô tô"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "Thợ mộc"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "Sự thi công"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "Điện"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "MASONRY"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "Cơ học"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "Vẽ tranh & trang trí"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "Ống nước"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "Hàn"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "Sản xuất video"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "Sản xuất âm thanh"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "Nhiếp ảnh"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "Thiết kế đồ họa"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "Diễn xuất & Hiệu suất"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "Viết & viết kịch bản"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "Phát sóng"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "Nghệ thuật & Thủ công"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "Âm nhạc & nhạc cụ"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "Hoạt động ngoài trời"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "Thu thập"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "Thể hình & Sức khỏe"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "Làm vườn"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "Dự án DIY"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "Ẩm thực Ý"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "Ẩm thực Nhật Bản"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "Ẩm thực Mexico"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "Ẩm thực Ấn Độ"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "Ẩm thực Pháp"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "Ẩm thực Trung Quốc"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "Ẩm thực Trung Đông"
+  }
+]

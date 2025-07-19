@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "Технологические и цифровые навыки",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "ИИ и машинное обучение"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "Облачные вычисления"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "Кибербезопасность"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "Данные и аналитика"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "Data Science & AI"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "DevOps & Automation"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "Разработка игры"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "Это и сетевое взаимодействие"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "ИТ -поддержка и общение"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "Разработка мобильных приложений"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "Программирование и разработка программного обеспечения"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "Разработка программного обеспечения"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "Технологическое оборудование и ремонт"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "Техническая поддержка и устранение неполадок"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "Веб -разработка"
+    }
+  ]
+}

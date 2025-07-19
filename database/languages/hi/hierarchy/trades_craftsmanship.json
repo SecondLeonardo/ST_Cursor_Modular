@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "ट्रेड और शिल्प कौशल",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "मोटर वाहन मरम्मत"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "बढ़ईगीरी और लकड़ी का काम"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "निर्माण और चिनाई"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "बिजली का काम"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "एचवीएसी और प्रशीतन"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "गहने बनाना"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "धातु -कार्य और वेल्डिंग"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "पेंटिंग और सजा"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "पाइपलाइन"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "सिलाई और सिलाई"
+    }
+  ]
+}

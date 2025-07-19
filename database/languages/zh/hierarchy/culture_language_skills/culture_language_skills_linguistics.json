@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_linguistics",
+  "name": "语言学",
+  "skills": [
+    {
+      "id": "skill_1993",
+      "name": "描述性语法",
+      "difficulty_level": 2,
+      "description": "Learn and master Descriptive Grammar",
+      "tags": [
+        "descriptive",
+        "grammar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1994",
+      "name": "语言获取理论",
+      "difficulty_level": 4,
+      "description": "Learn and master Language Acquisition Theory",
+      "tags": [
+        "language",
+        "acquisition",
+        "theory"
+      ]
+    },
+    {
+      "id": "skill_1995",
+      "name": "语言类型学",
+      "difficulty_level": 1,
+      "description": "Learn and master Linguistic Typology",
+      "tags": [
+        "linguistic",
+        "typology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1996",
+      "name": "形态学",
+      "difficulty_level": 2,
+      "description": "Learn and master Morphology",
+      "tags": [
+        "morphology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1997",
+      "name": "语音",
+      "difficulty_level": 3,
+      "description": "Learn and master Phonetics",
+      "tags": [
+        "phonetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1998",
+      "name": "语音学",
+      "difficulty_level": 4,
+      "description": "Learn and master Phonology",
+      "tags": [
+        "phonology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1999",
+      "name": "语用学",
+      "difficulty_level": 5,
+      "description": "Learn and master Pragmatics",
+      "tags": [
+        "pragmatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2000",
+      "name": "语义研究",
+      "difficulty_level": 2,
+      "description": "Learn and master Semantic Study",
+      "tags": [
+        "semantic",
+        "study",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2001",
+      "name": "社会语言学",
+      "difficulty_level": 3,
+      "description": "Learn and master Sociolinguistics",
+      "tags": [
+        "sociolinguistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2002",
+      "name": "语法分析",
+      "difficulty_level": 4,
+      "description": "Learn and master Syntax Analysis",
+      "tags": [
+        "syntax",
+        "analysis",
+        "skill"
+      ]
+    }
+  ]
+}

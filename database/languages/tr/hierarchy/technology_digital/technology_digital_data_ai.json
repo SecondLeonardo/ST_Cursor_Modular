@@ -1,0 +1,120 @@
+{
+  "id": "technology_digital_data_ai",
+  "name": "Veri ve AI",
+  "skills": [
+    {
+      "id": "skill_4626",
+      "name": "Büyük Veri Araçları",
+      "difficulty_level": 4,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4627",
+      "name": "Pandalarla veri temizliği",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning with Pandas",
+      "tags": [
+        "data",
+        "cleaning",
+        "with",
+        "pandas"
+      ]
+    },
+    {
+      "id": "skill_4628",
+      "name": "Matplotlib ile veri görselleştirme",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Visualization with Matplotlib",
+      "tags": [
+        "data",
+        "visualization",
+        "with",
+        "matplotlib"
+      ]
+    },
+    {
+      "id": "skill_4629",
+      "name": "Tensorflow ile derin öğrenme",
+      "difficulty_level": 1,
+      "description": "Learn and master Deep Learning with TensorFlow",
+      "tags": [
+        "deep",
+        "learning",
+        "with",
+        "tensorflow"
+      ]
+    },
+    {
+      "id": "skill_4630",
+      "name": "Scikit-Learn ile Makine Öğrenimi",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning with Scikit-Learn",
+      "tags": [
+        "machine",
+        "learning",
+        "with",
+        "scikit-learn"
+      ]
+    },
+    {
+      "id": "skill_4631",
+      "name": "Doğal dil işleme",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4632",
+      "name": "Sinir ağları",
+      "difficulty_level": 3,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4633",
+      "name": "Öngörücü modelleme",
+      "difficulty_level": 2,
+      "description": "Learn and master Predictive Modeling",
+      "tags": [
+        "predictive",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4634",
+      "name": "Veri analizi için SQL",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL for Data Analysis",
+      "tags": [
+        "data",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4635",
+      "name": "Veri Bilimi İstatistikleri",
+      "difficulty_level": 1,
+      "description": "Learn and master Statistics for Data Science",
+      "tags": [
+        "statistics",
+        "data",
+        "science"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_crafts",
+  "name": "งานฝีมือ",
+  "skills": [
+    {
+      "id": "skill_540",
+      "name": "งานลูกปัด",
+      "difficulty_level": 2,
+      "description": "Learn and master Beadwork",
+      "tags": [
+        "beadwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_541",
+      "name": "การทำเทียน",
+      "difficulty_level": 1,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_542",
+      "name": "การทำเครื่องประดับ",
+      "difficulty_level": 4,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_543",
+      "name": "macrame",
+      "difficulty_level": 1,
+      "description": "Learn and master Macrame",
+      "tags": [
+        "macrame",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_544",
+      "name": "โอริกามิ",
+      "difficulty_level": 1,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_545",
+      "name": "มาเช่กระดาษ",
+      "difficulty_level": 2,
+      "description": "Learn and master Paper Mache",
+      "tags": [
+        "paper",
+        "mache",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_546",
+      "name": "เครื่องปั้นดินเผา",
+      "difficulty_level": 2,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_547",
+      "name": "การทำสมุดบันทึก",
+      "difficulty_level": 4,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_548",
+      "name": "การทำสบู่",
+      "difficulty_level": 4,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_549",
+      "name": "งานไม้",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Crafting",
+      "tags": [
+        "wood",
+        "crafting",
+        "skill"
+      ]
+    }
+  ]
+}

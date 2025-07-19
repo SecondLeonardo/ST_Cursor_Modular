@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_carpentry_woodworking",
+  "name": "Stolarka i obróbka drewna",
+  "skills": [
+    {
+      "id": "skill_4935",
+      "name": "Instalacja szafy",
+      "difficulty_level": 5,
+      "description": "Learn and master Cabinet Installation",
+      "tags": [
+        "cabinet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4936",
+      "name": "Budynek pokładu",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4937",
+      "name": "Wiszące drzwi",
+      "difficulty_level": 3,
+      "description": "Learn and master Door Hanging",
+      "tags": [
+        "door",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4938",
+      "name": "Zakończ stolarkę",
+      "difficulty_level": 3,
+      "description": "Learn and master Finish Carpentry",
+      "tags": [
+        "finish",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4939",
+      "name": "Ramy",
+      "difficulty_level": 4,
+      "description": "Learn and master Framing",
+      "tags": [
+        "framing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4940",
+      "name": "Wykonanie mebli",
+      "difficulty_level": 2,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4941",
+      "name": "Techniki stolarki",
+      "difficulty_level": 2,
+      "description": "Learn and master Joinery Techniques",
+      "tags": [
+        "joinery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4942",
+      "name": "Ramowanie drewna",
+      "difficulty_level": 5,
+      "description": "Learn and master Timber Framing",
+      "tags": [
+        "timber",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4943",
+      "name": "Rzeźba drewna",
+      "difficulty_level": 3,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4944",
+      "name": "Operacja tokarki z drewna",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Lathe Operation",
+      "tags": [
+        "wood",
+        "lathe",
+        "operation"
+      ]
+    }
+  ]
+}

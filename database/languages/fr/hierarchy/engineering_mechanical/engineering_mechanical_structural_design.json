@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_structural_design",
+  "name": "Conception structurelle",
+  "skills": [
+    {
+      "id": "skill_2433",
+      "name": "Conception de ponts",
+      "difficulty_level": 3,
+      "description": "Learn and master Bridge Design",
+      "tags": [
+        "bridge",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2434",
+      "name": "Ingénierie des tremblements de terre",
+      "difficulty_level": 3,
+      "description": "Learn and master Earthquake Engineering",
+      "tags": [
+        "earthquake",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2435",
+      "name": "Conception de la fondation",
+      "difficulty_level": 5,
+      "description": "Learn and master Foundation Design",
+      "tags": [
+        "foundation",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2436",
+      "name": "Calculs de charge",
+      "difficulty_level": 1,
+      "description": "Learn and master Load Calculations",
+      "tags": [
+        "load",
+        "calculations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2437",
+      "name": "Structures de maçonnerie",
+      "difficulty_level": 2,
+      "description": "Learn and master Masonry Structures",
+      "tags": [
+        "masonry",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2438",
+      "name": "Conception de mur de soutènement",
+      "difficulty_level": 5,
+      "description": "Learn and master Retaining Wall Design",
+      "tags": [
+        "retaining",
+        "wall",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_2439",
+      "name": "Fermes de toit",
+      "difficulty_level": 3,
+      "description": "Learn and master Roof Trusses",
+      "tags": [
+        "roof",
+        "trusses",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2440",
+      "name": "Structures en acier",
+      "difficulty_level": 2,
+      "description": "Learn and master Steel Structures",
+      "tags": [
+        "steel",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2441",
+      "name": "Sécurité structurelle",
+      "difficulty_level": 4,
+      "description": "Learn and master Structural Safety",
+      "tags": [
+        "structural",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2442",
+      "name": "Analyse de la charge de vent",
+      "difficulty_level": 4,
+      "description": "Learn and master Wind Load Analysis",
+      "tags": [
+        "wind",
+        "load",
+        "analysis"
+      ]
+    }
+  ]
+}

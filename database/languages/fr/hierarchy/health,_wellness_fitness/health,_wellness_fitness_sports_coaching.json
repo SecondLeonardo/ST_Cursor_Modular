@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_sports_coaching",
+  "name": "Coaching sportif",
+  "skills": [
+    {
+      "id": "skill_2808",
+      "name": "Conditionnement des athlètes",
+      "difficulty_level": 3,
+      "description": "Learn and master Athlete Conditioning",
+      "tags": [
+        "athlete",
+        "conditioning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2809",
+      "name": "Stratégie de jeu",
+      "difficulty_level": 3,
+      "description": "Learn and master Game Strategy",
+      "tags": [
+        "game",
+        "strategy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2810",
+      "name": "Prévention des blessures",
+      "difficulty_level": 1,
+      "description": "Learn and master Injury Prevention",
+      "tags": [
+        "injury",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2811",
+      "name": "Techniques de motivation",
+      "difficulty_level": 3,
+      "description": "Learn and master Motivational Techniques",
+      "tags": [
+        "motivational",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2812",
+      "name": "Analyse des performances",
+      "difficulty_level": 2,
+      "description": "Learn and master Performance Analysis",
+      "tags": [
+        "performance",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2813",
+      "name": "Règles et officiant",
+      "difficulty_level": 1,
+      "description": "Learn and master Rules & Officiating",
+      "tags": [
+        "rules",
+        "officiating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2814",
+      "name": "Forets de compétence",
+      "difficulty_level": 2,
+      "description": "Learn and master Skill Drills",
+      "tags": [
+        "skill",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2815",
+      "name": "Psychologie du sport",
+      "difficulty_level": 5,
+      "description": "Learn and master Sport Psychology",
+      "tags": [
+        "sport",
+        "psychology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2816",
+      "name": "Construction d'équipe",
+      "difficulty_level": 3,
+      "description": "Learn and master Team Building",
+      "tags": [
+        "team",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2817",
+      "name": "Coaching pour les jeunes",
+      "difficulty_level": 1,
+      "description": "Learn and master Youth Coaching",
+      "tags": [
+        "youth",
+        "coaching",
+        "skill"
+      ]
+    }
+  ]
+}

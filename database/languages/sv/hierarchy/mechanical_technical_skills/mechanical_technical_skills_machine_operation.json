@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_machine_operation",
+  "name": "Maskinoperation",
+  "skills": [
+    {
+      "id": "skill_3538",
+      "name": "3D -skrivarinställning",
+      "difficulty_level": 4,
+      "description": "Learn and master 3D Printer Setup",
+      "tags": [
+        "printer",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3539",
+      "name": "CNC -maskinanvändning",
+      "difficulty_level": 2,
+      "description": "Learn and master CNC Machine Use",
+      "tags": [
+        "machine",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3540",
+      "name": "Kransignaler",
+      "difficulty_level": 1,
+      "description": "Learn and master Crane Signals",
+      "tags": [
+        "crane",
+        "signals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3541",
+      "name": "Gaffeltruck",
+      "difficulty_level": 5,
+      "description": "Learn and master Forklift Driving",
+      "tags": [
+        "forklift",
+        "driving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3542",
+      "name": "Laserskärsäkerhet",
+      "difficulty_level": 1,
+      "description": "Learn and master Laser Cutter Safety",
+      "tags": [
+        "laser",
+        "cutter",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3543",
+      "name": "Svarvdrift",
+      "difficulty_level": 3,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3544",
+      "name": "Kraftborrhantering",
+      "difficulty_level": 3,
+      "description": "Learn and master Power Drill Handling",
+      "tags": [
+        "power",
+        "drill",
+        "handling"
+      ]
+    },
+    {
+      "id": "skill_3545",
+      "name": "Tryck på bromsanvändning",
+      "difficulty_level": 5,
+      "description": "Learn and master Press Brake Use",
+      "tags": [
+        "press",
+        "brake",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3546",
+      "name": "Symaskiner",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing Machine Basics",
+      "tags": [
+        "sewing",
+        "machine",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_3547",
+      "name": "Svetsmaskininställning",
+      "difficulty_level": 2,
+      "description": "Learn and master Welding Machine Setup",
+      "tags": [
+        "welding",
+        "machine",
+        "setup"
+      ]
+    }
+  ]
+}

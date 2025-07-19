@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_performing_arts",
+  "name": "கலை நிகழ்ச்சிகள்",
+  "skills": [
+    {
+      "id": "skill_750",
+      "name": "நடன அமைப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Choreography",
+      "tags": [
+        "choreography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_751",
+      "name": "நடன செயல்திறன்",
+      "difficulty_level": 1,
+      "description": "Learn and master Dance Performance",
+      "tags": [
+        "dance",
+        "performance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_752",
+      "name": "ஆர்வத்தை மேம்படுத்துதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Improv Comedy",
+      "tags": [
+        "improv",
+        "comedy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_753",
+      "name": "மைம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_754",
+      "name": "பொம்மலாட்டம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Puppetry",
+      "tags": [
+        "puppetry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_755",
+      "name": "மேடை இயக்குதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Stage Directing",
+      "tags": [
+        "stage",
+        "directing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_756",
+      "name": "மேடை இருப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_757",
+      "name": "கதைசொல்லல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Storytelling",
+      "tags": [
+        "storytelling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_758",
+      "name": "தியேட்டர் நடிப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Theater Acting",
+      "tags": [
+        "theater",
+        "acting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_759",
+      "name": "குரல் நடிப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Voice Acting",
+      "tags": [
+        "voice",
+        "acting",
+        "skill"
+      ]
+    }
+  ]
+}

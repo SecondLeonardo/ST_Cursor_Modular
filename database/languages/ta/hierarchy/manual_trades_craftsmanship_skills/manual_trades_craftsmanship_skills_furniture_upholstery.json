@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+  "name": "தளபாடங்கள் & அப்ஹோல்ஸ்டரி",
+  "skills": [
+    {
+      "id": "skill_3438",
+      "name": "மெத்தை தயாரித்தல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Cushion Making",
+      "tags": [
+        "cushion",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3439",
+      "name": "துணி நீட்சி",
+      "difficulty_level": 1,
+      "description": "Learn and master Fabric Stretching",
+      "tags": [
+        "fabric",
+        "stretching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3440",
+      "name": "நுரை வெட்டுதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Foam Cutting",
+      "tags": [
+        "foam",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3441",
+      "name": "சட்ட பழுது",
+      "difficulty_level": 4,
+      "description": "Learn and master Frame Repair",
+      "tags": [
+        "frame",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3442",
+      "name": "தளபாடங்கள் புதுப்பித்தல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Furniture Refinishing",
+      "tags": [
+        "furniture",
+        "refinishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3443",
+      "name": "ஸ்லிப்கவர் தயாரித்தல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Slipcover Making",
+      "tags": [
+        "slipcover",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3444",
+      "name": "ஸ்டேப்பிங் நுட்பங்கள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Stapling Techniques",
+      "tags": [
+        "stapling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3445",
+      "name": "ஜவுளி தேர்வு",
+      "difficulty_level": 3,
+      "description": "Learn and master Textile Selection",
+      "tags": [
+        "textile",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3446",
+      "name": "டஃப்டிங்",
+      "difficulty_level": 1,
+      "description": "Learn and master Tufting",
+      "tags": [
+        "tufting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3447",
+      "name": "அப்ஹோல்ஸ்டரி பழுது",
+      "difficulty_level": 5,
+      "description": "Learn and master Upholstery Repair",
+      "tags": [
+        "upholstery",
+        "repair",
+        "skill"
+      ]
+    }
+  ]
+}

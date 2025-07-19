@@ -1,0 +1,116 @@
+{
+  "id": "life_everyday_skills_home_maintenance",
+  "name": "Bảo trì nhà",
+  "skills": [
+    {
+      "id": "skill_3258",
+      "name": "Sửa chữa điện cơ bản",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Electrical Fixes",
+      "tags": [
+        "basic",
+        "electrical",
+        "fixes"
+      ]
+    },
+    {
+      "id": "skill_3259",
+      "name": "Hệ thống ống nước cơ bản",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Plumbing",
+      "tags": [
+        "basic",
+        "plumbing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3260",
+      "name": "Khắc phục vòi rò rỉ",
+      "difficulty_level": 4,
+      "description": "Learn and master Fixing Leaky Faucets",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucets"
+      ]
+    },
+    {
+      "id": "skill_3261",
+      "name": "Lắp ráp đồ nội thất",
+      "difficulty_level": 1,
+      "description": "Learn and master Furniture Assembly",
+      "tags": [
+        "furniture",
+        "assembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3262",
+      "name": "Kệ treo",
+      "difficulty_level": 4,
+      "description": "Learn and master Hanging Shelves",
+      "tags": [
+        "hanging",
+        "shelves",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3263",
+      "name": "Kiểm tra an toàn tại nhà",
+      "difficulty_level": 5,
+      "description": "Learn and master Home Safety Checks",
+      "tags": [
+        "home",
+        "safety",
+        "checks"
+      ]
+    },
+    {
+      "id": "skill_3264",
+      "name": "Thay thế bóng đèn",
+      "difficulty_level": 1,
+      "description": "Learn and master Light Bulb Replacement",
+      "tags": [
+        "light",
+        "bulb",
+        "replacement"
+      ]
+    },
+    {
+      "id": "skill_3265",
+      "name": "Sửa chữa gạch",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Repair",
+      "tags": [
+        "tile",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3266",
+      "name": "Thoát nước",
+      "difficulty_level": 5,
+      "description": "Learn and master Unclogging Drains",
+      "tags": [
+        "unclogging",
+        "drains",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3267",
+      "name": "Kỹ thuật vẽ tường",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Painting Techniques",
+      "tags": [
+        "wall",
+        "painting",
+        "techniques"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_music_creation",
+  "name": "Tworzenie muzyki",
+  "skills": [
+    {
+      "id": "skill_1604",
+      "name": "Mieszanie audio",
+      "difficulty_level": 3,
+      "description": "Learn and master Audio Mixing",
+      "tags": [
+        "audio",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1605",
+      "name": "Robienie rytmu",
+      "difficulty_level": 2,
+      "description": "Learn and master Beat Making",
+      "tags": [
+        "beat",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1606",
+      "name": "Komponowanie melodii",
+      "difficulty_level": 3,
+      "description": "Learn and master Composing Melodies",
+      "tags": [
+        "composing",
+        "melodies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1607",
+      "name": "Nagrywanie domu",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Recording",
+      "tags": [
+        "home",
+        "recording",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1608",
+      "name": "Próbkowanie pętli",
+      "difficulty_level": 1,
+      "description": "Learn and master Loop Sampling",
+      "tags": [
+        "loop",
+        "sampling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1609",
+      "name": "Pisanie liryczne",
+      "difficulty_level": 3,
+      "description": "Learn and master Lyric Writing",
+      "tags": [
+        "lyric",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1610",
+      "name": "Podstawy teorii muzyki",
+      "difficulty_level": 1,
+      "description": "Learn and master Music Theory Basics",
+      "tags": [
+        "music",
+        "theory",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1611",
+      "name": "Gra na gitarze",
+      "difficulty_level": 1,
+      "description": "Learn and master Playing Guitar",
+      "tags": [
+        "playing",
+        "guitar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1612",
+      "name": "Gra na pianinie",
+      "difficulty_level": 1,
+      "description": "Learn and master Playing Piano",
+      "tags": [
+        "playing",
+        "piano",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1613",
+      "name": "Pisanie piosenek",
+      "difficulty_level": 1,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

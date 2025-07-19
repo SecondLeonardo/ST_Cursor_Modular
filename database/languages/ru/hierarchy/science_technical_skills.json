@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "Наука и технические навыки",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "Астрономия"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "Биология и науки о жизни"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "Химия"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "Информатика"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "Data Science & AI"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "Земля и экологические науки"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "Инженерные дисциплины"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "Математика и статистика"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "Физика и механика"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "Робототехника и автоматизация"
+    }
+  ]
+}

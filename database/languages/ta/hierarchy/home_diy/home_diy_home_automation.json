@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_home_automation",
+  "name": "வீட்டு ஆட்டோமேஷன்",
+  "skills": [
+    {
+      "id": "skill_2888",
+      "name": "பயன்பாட்டு அடிப்படையிலான ஆட்டோமேஷன்",
+      "difficulty_level": 3,
+      "description": "Learn and master App-Based Automation",
+      "tags": [
+        "app-based",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2889",
+      "name": "வீட்டு நெட்வொர்க் அடிப்படைகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Home Network Basics",
+      "tags": [
+        "home",
+        "network",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2890",
+      "name": "முகப்பு வைஃபை தேர்வுமுறை",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Wi-Fi Optimization",
+      "tags": [
+        "home",
+        "wi-fi",
+        "optimization"
+      ]
+    },
+    {
+      "id": "skill_2891",
+      "name": "Ifttt அமைவு",
+      "difficulty_level": 4,
+      "description": "Learn and master IFTTT Setup",
+      "tags": [
+        "ifttt",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2892",
+      "name": "வழக்கமான ஸ்கிரிப்டிங்",
+      "difficulty_level": 5,
+      "description": "Learn and master Routine Scripting",
+      "tags": [
+        "routine",
+        "scripting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2893",
+      "name": "பாதுகாப்பு கேமரா நிறுவல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Security Camera Installation",
+      "tags": [
+        "security",
+        "camera",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_2894",
+      "name": "ஸ்மார்ட் விளக்கை அமைப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Smart Bulb Setup",
+      "tags": [
+        "smart",
+        "bulb",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_2895",
+      "name": "ஸ்மார்ட் பூட்டு அமைப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Smart Lock Setup",
+      "tags": [
+        "smart",
+        "lock",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_2896",
+      "name": "ஸ்மார்ட் தெர்மோஸ்டாட் பயன்பாடு",
+      "difficulty_level": 5,
+      "description": "Learn and master Smart Thermostat Use",
+      "tags": [
+        "smart",
+        "thermostat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2897",
+      "name": "குரல் உதவி ஒருங்கிணைப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Voice Assistant Integration",
+      "tags": [
+        "voice",
+        "assistant",
+        "integration"
+      ]
+    }
+  ]
+}

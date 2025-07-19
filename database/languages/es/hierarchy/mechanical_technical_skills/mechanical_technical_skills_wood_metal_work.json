@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_wood_metal_work",
+  "name": "Trabajo de madera y metal",
+  "skills": [
+    {
+      "id": "skill_3558",
+      "name": "Soldadura básica",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Welding",
+      "tags": [
+        "basic",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3559",
+      "name": "Madera de talla",
+      "difficulty_level": 1,
+      "description": "Learn and master Carving Wood",
+      "tags": [
+        "carving",
+        "wood",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3560",
+      "name": "Cortando con sierra",
+      "difficulty_level": 3,
+      "description": "Learn and master Cutting with Saw",
+      "tags": [
+        "cutting",
+        "with",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3561",
+      "name": "Uso de molinillo",
+      "difficulty_level": 5,
+      "description": "Learn and master Grinder Use",
+      "tags": [
+        "grinder",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3562",
+      "name": "Medición y marcado",
+      "difficulty_level": 1,
+      "description": "Learn and master Measuring & Marking",
+      "tags": [
+        "measuring",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3563",
+      "name": "Pulido de metal",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Polishing",
+      "tags": [
+        "metal",
+        "polishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3564",
+      "name": "Técnicas de lijado",
+      "difficulty_level": 5,
+      "description": "Learn and master Sanding Techniques",
+      "tags": [
+        "sanding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3565",
+      "name": "Manchas de madera",
+      "difficulty_level": 4,
+      "description": "Learn and master Staining Wood",
+      "tags": [
+        "staining",
+        "wood",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3566",
+      "name": "Usando un cincel",
+      "difficulty_level": 2,
+      "description": "Learn and master Using a Chisel",
+      "tags": [
+        "using",
+        "chisel",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3567",
+      "name": "Unión de madera",
+      "difficulty_level": 5,
+      "description": "Learn and master Wood Joining",
+      "tags": [
+        "wood",
+        "joining",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_survival_bushcraft",
+  "name": "ከጥፋት መትረፍ እና ቁጥቋጦ",
+  "skills": [
+    {
+      "id": "skill_3978",
+      "name": "ካምፊንግ ቴክኒኮች",
+      "difficulty_level": 3,
+      "description": "Learn and master Camouflage Techniques",
+      "tags": [
+        "camouflage",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3979",
+      "name": "የንፁህ መጠንን ውሃ ማነጋገር",
+      "difficulty_level": 2,
+      "description": "Learn and master Finding Potable Water",
+      "tags": [
+        "finding",
+        "potable",
+        "water"
+      ]
+    },
+    {
+      "id": "skill_3980",
+      "name": "እሳት ይጀምራል",
+      "difficulty_level": 3,
+      "description": "Learn and master Fire Starting",
+      "tags": [
+        "fire",
+        "starting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3981",
+      "name": "ያለ ማርሽ ማጥመድ",
+      "difficulty_level": 1,
+      "description": "Learn and master Fishing Without Gear",
+      "tags": [
+        "fishing",
+        "without",
+        "gear"
+      ]
+    },
+    {
+      "id": "skill_3982",
+      "name": "ያለ GPS ማሰስ",
+      "difficulty_level": 5,
+      "description": "Learn and master Navigating Without GPS",
+      "tags": [
+        "navigating",
+        "without",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3983",
+      "name": "የአየር ሁኔታን ማንበብ",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading the Weather",
+      "tags": [
+        "reading",
+        "weather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3984",
+      "name": "መጠለያ ህንፃ",
+      "difficulty_level": 4,
+      "description": "Learn and master Shelter Building",
+      "tags": [
+        "shelter",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3985",
+      "name": "እንስሳትን መከታተል",
+      "difficulty_level": 2,
+      "description": "Learn and master Tracking Animals",
+      "tags": [
+        "tracking",
+        "animals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3986",
+      "name": "መቃብሮችን መታየት",
+      "difficulty_level": 4,
+      "description": "Learn and master Tying Knots",
+      "tags": [
+        "tying",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3987",
+      "name": "ምድረ በዳ ምግብ ማብሰል",
+      "difficulty_level": 2,
+      "description": "Learn and master Wilderness Cooking",
+      "tags": [
+        "wilderness",
+        "cooking",
+        "skill"
+      ]
+    }
+  ]
+}

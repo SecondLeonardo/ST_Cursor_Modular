@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_music_instruments",
+  "name": "இசை & கருவிகள்",
+  "skills": [
+    {
+      "id": "skill_5355",
+      "name": "கிட்டார் வாசித்தல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Guitar Playing",
+      "tags": [
+        "guitar",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5356",
+      "name": "பியானோ விளையாடுகிறது",
+      "difficulty_level": 3,
+      "description": "Learn and master Piano Playing",
+      "tags": [
+        "piano",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5357",
+      "name": "டிரம்மிங்",
+      "difficulty_level": 4,
+      "description": "Learn and master Drumming",
+      "tags": [
+        "drumming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5358",
+      "name": "பாடுவது",
+      "difficulty_level": 2,
+      "description": "Learn and master Singing",
+      "tags": [
+        "singing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5359",
+      "name": "இசை கோட்பாடு",
+      "difficulty_level": 2,
+      "description": "Learn and master Music Theory",
+      "tags": [
+        "music",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5360",
+      "name": "பாடல் எழுதுதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5361",
+      "name": "இசை தயாரிப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Music Production",
+      "tags": [
+        "music",
+        "production",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5362",
+      "name": "டிஜிங்",
+      "difficulty_level": 2,
+      "description": "Learn and master DJing",
+      "tags": [
+        "djing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5363",
+      "name": "வயலின் விளையாட்டு",
+      "difficulty_level": 1,
+      "description": "Learn and master Violin Playing",
+      "tags": [
+        "violin",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5364",
+      "name": "பார்வை வாசிப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Sight Reading",
+      "tags": [
+        "sight",
+        "reading",
+        "skill"
+      ]
+    }
+  ]
+}

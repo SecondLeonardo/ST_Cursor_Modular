@@ -1,0 +1,30 @@
+{
+  "id": "communication_language_skills",
+  "name": "ทักษะการสื่อสารและภาษา",
+  "subcategories": [
+    {
+      "id": "communication_language_skills_foreign_languages",
+      "name": "ภาษาต่างประเทศ"
+    },
+    {
+      "id": "communication_language_skills_interpersonal_skills",
+      "name": "ทักษะความสัมพันธ์ระหว่างบุคคล"
+    },
+    {
+      "id": "communication_language_skills_nonverbal_communication",
+      "name": "การสื่อสารอวัจนภาษา"
+    },
+    {
+      "id": "communication_language_skills_presentation_storytelling",
+      "name": "การนำเสนอและการเล่าเรื่อง"
+    },
+    {
+      "id": "communication_language_skills_public_speaking",
+      "name": "การพูดในที่สาธารณะ"
+    },
+    {
+      "id": "communication_language_skills_writing_editing",
+      "name": "การเขียนและแก้ไข"
+    }
+  ]
+}

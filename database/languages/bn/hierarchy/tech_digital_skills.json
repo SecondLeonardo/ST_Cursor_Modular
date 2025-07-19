@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "প্রযুক্তি ও ডিজিটাল দক্ষতা",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "এআই ও মেশিন লার্নিং"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "ক্লাউড কম্পিউটিং"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "সাইবারসিকিউরিটি"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "ডেটা এবং বিশ্লেষণ"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "ডেটা সায়েন্স এবং এআই"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "ডিভোপস এবং অটোমেশন"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "গেম বিকাশ"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "এটি এবং নেটওয়ার্কিং"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "এটি সমর্থন এবং নেটওয়ার্কিং"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "মোবাইল অ্যাপ্লিকেশন বিকাশ"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "প্রোগ্রামিং এবং সফ্টওয়্যার বিকাশ"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "সফ্টওয়্যার বিকাশ"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "টেক হার্ডওয়্যার এবং মেরামত"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "প্রযুক্তি সমর্থন এবং সমস্যা সমাধান"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "ওয়েব বিকাশ"
+    }
+  ]
+}

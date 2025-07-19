@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "শারীরিক ও ক্রীড়া দক্ষতা",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "ফিটনেস এবং শক্তি"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "স্বতন্ত্র ক্রীড়া"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "মার্শাল আর্ট"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "আউটডোর এবং অ্যাডভেঞ্চার"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "বিনোদনমূলক ক্রিয়াকলাপ"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "টিম স্পোর্টস"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_hvac_refrigeration",
+  "name": "HVAC & Jokofu",
+  "skills": [
+    {
+      "id": "skill_5095",
+      "name": "Urekebishaji wa kiyoyozi",
+      "difficulty_level": 1,
+      "description": "Learn and master Air Conditioner Repair",
+      "tags": [
+        "conditioner",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5096",
+      "name": "Upimaji wa ubora wa hewa",
+      "difficulty_level": 3,
+      "description": "Learn and master Air Quality Testing",
+      "tags": [
+        "quality",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5097",
+      "name": "Utambuzi wa compressor",
+      "difficulty_level": 5,
+      "description": "Learn and master Compressor Diagnosis",
+      "tags": [
+        "compressor",
+        "diagnosis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5098",
+      "name": "Ufungaji wa ductwork",
+      "difficulty_level": 1,
+      "description": "Learn and master Ductwork Installation",
+      "tags": [
+        "ductwork",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5099",
+      "name": "Utatuzi wa HVAC",
+      "difficulty_level": 1,
+      "description": "Learn and master HVAC Troubleshooting",
+      "tags": [
+        "hvac",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5100",
+      "name": "Matengenezo ya heater",
+      "difficulty_level": 1,
+      "description": "Learn and master Heater Maintenance",
+      "tags": [
+        "heater",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5101",
+      "name": "Utunzaji wa jokofu",
+      "difficulty_level": 5,
+      "description": "Learn and master Refrigerant Handling",
+      "tags": [
+        "refrigerant",
+        "handling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5102",
+      "name": "Ujuzi wa mzunguko wa jokofu",
+      "difficulty_level": 4,
+      "description": "Learn and master Refrigeration Cycle Knowledge",
+      "tags": [
+        "refrigeration",
+        "cycle",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5103",
+      "name": "Usawazishaji wa mfumo",
+      "difficulty_level": 1,
+      "description": "Learn and master System Balancing",
+      "tags": [
+        "system",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5104",
+      "name": "Ufungaji wa thermostat",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermostat Installation",
+      "tags": [
+        "thermostat",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

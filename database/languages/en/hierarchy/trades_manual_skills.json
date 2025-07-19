@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Trades & Manual Skills",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Automotive Repair"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Carpentry & Woodwork"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Construction"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Construction & Carpentry"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Craftsmanship & Repairs"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Electrical & Mechanical"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Electrical Work"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC & Refrigeration"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Heavy Equipment Operation"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Masonry & Tiling"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Metal & Woodwork"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Painting & Finishing"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Plumbing"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Vehicle & Machine Maintenance"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Welding & Metalwork"
+    }
+  ]
+}

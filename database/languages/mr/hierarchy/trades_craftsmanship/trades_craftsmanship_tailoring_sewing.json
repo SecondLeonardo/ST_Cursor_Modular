@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_tailoring_sewing",
+  "name": "टेलरिंग आणि शिवणकाम",
+  "skills": [
+    {
+      "id": "skill_5015",
+      "name": "बटणहोल शिवणकाम",
+      "difficulty_level": 5,
+      "description": "Learn and master Buttonhole Sewing",
+      "tags": [
+        "buttonhole",
+        "sewing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5016",
+      "name": "कपड्यांचे बदल",
+      "difficulty_level": 4,
+      "description": "Learn and master Clothing Alterations",
+      "tags": [
+        "clothing",
+        "alterations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5017",
+      "name": "पोशाख बनविणे",
+      "difficulty_level": 4,
+      "description": "Learn and master Costume Making",
+      "tags": [
+        "costume",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5018",
+      "name": "भरतकाम",
+      "difficulty_level": 4,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5019",
+      "name": "फॅब्रिक कटिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Fabric Cutting",
+      "tags": [
+        "fabric",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5020",
+      "name": "हात टाका",
+      "difficulty_level": 2,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5021",
+      "name": "नमुना मसुदा",
+      "difficulty_level": 5,
+      "description": "Learn and master Pattern Drafting",
+      "tags": [
+        "pattern",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5022",
+      "name": "रजाई",
+      "difficulty_level": 3,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5023",
+      "name": "शिवणकाम मशीन वापर",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Machine Use",
+      "tags": [
+        "sewing",
+        "machine",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5024",
+      "name": "जिपर बदलण्याची शक्यता",
+      "difficulty_level": 1,
+      "description": "Learn and master Zipper Replacement",
+      "tags": [
+        "zipper",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

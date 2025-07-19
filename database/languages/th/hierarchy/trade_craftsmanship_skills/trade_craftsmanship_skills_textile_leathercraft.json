@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_textile_leathercraft",
+  "name": "สิ่งทอและหนัง",
+  "skills": [
+    {
+      "id": "skill_4905",
+      "name": "การติดตั้งปุ่ม",
+      "difficulty_level": 3,
+      "description": "Learn and master Button Installation",
+      "tags": [
+        "button",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4906",
+      "name": "รูปแบบการตัด",
+      "difficulty_level": 3,
+      "description": "Learn and master Cutting Patterns",
+      "tags": [
+        "cutting",
+        "patterns",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4907",
+      "name": "หนังย้อม",
+      "difficulty_level": 3,
+      "description": "Learn and master Dyeing Leather",
+      "tags": [
+        "dyeing",
+        "leather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4908",
+      "name": "การเลือกผ้า",
+      "difficulty_level": 5,
+      "description": "Learn and master Fabric Selection",
+      "tags": [
+        "fabric",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4909",
+      "name": "การเย็บมือ",
+      "difficulty_level": 5,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4910",
+      "name": "การแกะสลักด้วยหนัง",
+      "difficulty_level": 3,
+      "description": "Learn and master Leather Carving",
+      "tags": [
+        "leather",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4911",
+      "name": "การสร้างรูปแบบ",
+      "difficulty_level": 1,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4912",
+      "name": "การทำงานของจักรเย็บผ้า",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing Machine Operation",
+      "tags": [
+        "sewing",
+        "machine",
+        "operation"
+      ]
+    },
+    {
+      "id": "skill_4913",
+      "name": "เครื่องใช้หนัง",
+      "difficulty_level": 5,
+      "description": "Learn and master Tooling Leather",
+      "tags": [
+        "tooling",
+        "leather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4914",
+      "name": "การเปลี่ยนซิป",
+      "difficulty_level": 4,
+      "description": "Learn and master Zipper Replacement",
+      "tags": [
+        "zipper",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

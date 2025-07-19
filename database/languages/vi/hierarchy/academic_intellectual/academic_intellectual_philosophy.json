@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_philosophy",
+  "name": "Triết lý",
+  "skills": [
+    {
+      "id": "skill_60",
+      "name": "Thẩm mỹ",
+      "difficulty_level": 5,
+      "description": "Learn and master Aesthetics",
+      "tags": [
+        "aesthetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_61",
+      "name": "Tư duy phê phán",
+      "difficulty_level": 5,
+      "description": "Learn and master Critical Thinking",
+      "tags": [
+        "critical",
+        "thinking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_62",
+      "name": "Nhận thức luận",
+      "difficulty_level": 1,
+      "description": "Learn and master Epistemology",
+      "tags": [
+        "epistemology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_63",
+      "name": "Đạo đức",
+      "difficulty_level": 1,
+      "description": "Learn and master Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_64",
+      "name": "Chủ nghĩa hiện sinh",
+      "difficulty_level": 2,
+      "description": "Learn and master Existentialism",
+      "tags": [
+        "existentialism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_65",
+      "name": "Logic",
+      "difficulty_level": 3,
+      "description": "Learn and master Logic",
+      "tags": [
+        "logic",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_66",
+      "name": "Siêu hình học",
+      "difficulty_level": 4,
+      "description": "Learn and master Metaphysics",
+      "tags": [
+        "metaphysics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_67",
+      "name": "Triết lý của tâm trí",
+      "difficulty_level": 5,
+      "description": "Learn and master Philosophy of Mind",
+      "tags": [
+        "philosophy",
+        "mind",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_68",
+      "name": "Triết lý của khoa học",
+      "difficulty_level": 3,
+      "description": "Learn and master Philosophy of Science",
+      "tags": [
+        "philosophy",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_69",
+      "name": "Triết lý chính trị",
+      "difficulty_level": 5,
+      "description": "Learn and master Political Philosophy",
+      "tags": [
+        "political",
+        "philosophy",
+        "skill"
+      ]
+    }
+  ]
+}

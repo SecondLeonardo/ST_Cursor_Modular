@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_self-defense_martial_arts",
+  "name": "자기 방어 및 무술",
+  "skills": [
+    {
+      "id": "skill_3958",
+      "name": "기본 jiu-jitsu",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Jiu-Jitsu",
+      "tags": [
+        "basic",
+        "jiu-jitsu",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3959",
+      "name": "복싱 기술",
+      "difficulty_level": 3,
+      "description": "Learn and master Boxing Techniques",
+      "tags": [
+        "boxing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3960",
+      "name": "Breakfall Techniques",
+      "difficulty_level": 3,
+      "description": "Learn and master Breakfall Techniques",
+      "tags": [
+        "breakfall",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3961",
+      "name": "가라테 카타",
+      "difficulty_level": 1,
+      "description": "Learn and master Karate Kata",
+      "tags": [
+        "karate",
+        "kata",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3962",
+      "name": "킥 방어",
+      "difficulty_level": 4,
+      "description": "Learn and master Kick Defense",
+      "tags": [
+        "kick",
+        "defense",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3963",
+      "name": "크라브 마가 기본",
+      "difficulty_level": 5,
+      "description": "Learn and master Krav Maga Basics",
+      "tags": [
+        "krav",
+        "maga",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_3964",
+      "name": "무에 타이 차기",
+      "difficulty_level": 3,
+      "description": "Learn and master Muay Thai Kicks",
+      "tags": [
+        "muay",
+        "thai",
+        "kicks"
+      ]
+    },
+    {
+      "id": "skill_3965",
+      "name": "자기 방어 인식",
+      "difficulty_level": 3,
+      "description": "Learn and master Self-Defense Awareness",
+      "tags": [
+        "self-defense",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3966",
+      "name": "테이크 다운 방어",
+      "difficulty_level": 3,
+      "description": "Learn and master Takedown Defense",
+      "tags": [
+        "takedown",
+        "defense",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3967",
+      "name": "손목 자물쇠가 탈출됩니다",
+      "difficulty_level": 5,
+      "description": "Learn and master Wrist Lock Escapes",
+      "tags": [
+        "wrist",
+        "lock",
+        "escapes"
+      ]
+    }
+  ]
+}

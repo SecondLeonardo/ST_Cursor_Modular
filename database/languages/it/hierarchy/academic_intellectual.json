@@ -1,0 +1,46 @@
+{
+  "id": "academic_intellectual",
+  "name": "Accademico e intellettuale",
+  "subcategories": [
+    {
+      "id": "academic_intellectual_economics",
+      "name": "Economia"
+    },
+    {
+      "id": "academic_intellectual_geography",
+      "name": "Geografia"
+    },
+    {
+      "id": "academic_intellectual_history",
+      "name": "Storia"
+    },
+    {
+      "id": "academic_intellectual_language_linguistics",
+      "name": "Lingua e linguistica"
+    },
+    {
+      "id": "academic_intellectual_literature",
+      "name": "Letteratura"
+    },
+    {
+      "id": "academic_intellectual_mathematics",
+      "name": "Matematica"
+    },
+    {
+      "id": "academic_intellectual_philosophy",
+      "name": "Filosofia"
+    },
+    {
+      "id": "academic_intellectual_psychology",
+      "name": "Psicologia"
+    },
+    {
+      "id": "academic_intellectual_science",
+      "name": "Scienza"
+    },
+    {
+      "id": "academic_intellectual_sociology",
+      "name": "Sociologia"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_ancient_languages",
+  "name": "பண்டைய மொழிகள்",
+  "skills": [
+    {
+      "id": "skill_1933",
+      "name": "அக்காடியன் டிகோடிங்",
+      "difficulty_level": 1,
+      "description": "Learn and master Akkadian Decoding",
+      "tags": [
+        "akkadian",
+        "decoding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1934",
+      "name": "பண்டைய எகிப்திய ஹைரோகிளிஃபிக்ஸ்",
+      "difficulty_level": 4,
+      "description": "Learn and master Ancient Egyptian Hieroglyphics",
+      "tags": [
+        "ancient",
+        "egyptian",
+        "hieroglyphics"
+      ]
+    },
+    {
+      "id": "skill_1935",
+      "name": "விவிலிய எபிரேய",
+      "difficulty_level": 5,
+      "description": "Learn and master Biblical Hebrew",
+      "tags": [
+        "biblical",
+        "hebrew",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1936",
+      "name": "கிளாசிக்கல் சீன பகுப்பாய்வு",
+      "difficulty_level": 3,
+      "description": "Learn and master Classical Chinese Analysis",
+      "tags": [
+        "classical",
+        "chinese",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_1937",
+      "name": "கிளாசிக்கல் கிரேக்க இலக்கணம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Classical Greek Grammar",
+      "tags": [
+        "classical",
+        "greek",
+        "grammar"
+      ]
+    },
+    {
+      "id": "skill_1938",
+      "name": "காப்டிக் மொழி அடிப்படைகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Coptic Language Basics",
+      "tags": [
+        "coptic",
+        "language",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1939",
+      "name": "லத்தீன் வாசிப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Latin Reading",
+      "tags": [
+        "latin",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1940",
+      "name": "பழைய ஆங்கில மொழிபெயர்ப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Old English Translation",
+      "tags": [
+        "english",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1941",
+      "name": "பழைய நார்ஸ் விளக்கம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Old Norse Interpretation",
+      "tags": [
+        "norse",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1942",
+      "name": "சமஸ்கிருத எழுத்து",
+      "difficulty_level": 2,
+      "description": "Learn and master Sanskrit Writing",
+      "tags": [
+        "sanskrit",
+        "writing",
+        "skill"
+      ]
+    }
+  ]
+}

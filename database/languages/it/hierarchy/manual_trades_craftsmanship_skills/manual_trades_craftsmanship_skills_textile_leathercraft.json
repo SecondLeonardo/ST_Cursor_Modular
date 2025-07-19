@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+  "name": "Tessile e cuoio",
+  "skills": [
+    {
+      "id": "skill_3488",
+      "name": "Making borse",
+      "difficulty_level": 5,
+      "description": "Learn and master Bag Making",
+      "tags": [
+        "making",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3489",
+      "name": "Tecniche di tintura",
+      "difficulty_level": 1,
+      "description": "Learn and master Dyeing Techniques",
+      "tags": [
+        "dyeing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3490",
+      "name": "Ricamo",
+      "difficulty_level": 1,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3491",
+      "name": "Tessitura del tessuto",
+      "difficulty_level": 3,
+      "description": "Learn and master Fabric Weaving",
+      "tags": [
+        "fabric",
+        "weaving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3492",
+      "name": "Utensili in pelle",
+      "difficulty_level": 3,
+      "description": "Learn and master Leather Tooling",
+      "tags": [
+        "leather",
+        "tooling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3493",
+      "name": "Patchwork",
+      "difficulty_level": 1,
+      "description": "Learn and master Patchwork",
+      "tags": [
+        "patchwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3494",
+      "name": "Creazione di pattern",
+      "difficulty_level": 3,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3495",
+      "name": "Quilting",
+      "difficulty_level": 4,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3496",
+      "name": "Cuciture a sella",
+      "difficulty_level": 2,
+      "description": "Learn and master Saddle Stitching",
+      "tags": [
+        "saddle",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3497",
+      "name": "Funzionamento della macchina da cucire",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Machine Operation",
+      "tags": [
+        "sewing",
+        "machine",
+        "operation"
+      ]
+    }
+  ]
+}

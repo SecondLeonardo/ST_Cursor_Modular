@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_science_nature",
+  "name": "বিজ্ঞান এবং প্রকৃতি",
+  "skills": [
+    {
+      "id": "skill_230",
+      "name": "জ্যোতির্বিজ্ঞানের বুনিয়াদি",
+      "difficulty_level": 1,
+      "description": "Learn and master Astronomy Basics",
+      "tags": [
+        "astronomy",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_231",
+      "name": "বেসিক পদার্থবিজ্ঞানের নীতি",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Physics Principles",
+      "tags": [
+        "basic",
+        "physics",
+        "principles"
+      ]
+    },
+    {
+      "id": "skill_232",
+      "name": "জীববিজ্ঞানের পরিভাষা",
+      "difficulty_level": 5,
+      "description": "Learn and master Biology Terminology",
+      "tags": [
+        "biology",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_233",
+      "name": "উদ্ভিদ সনাক্তকরণ",
+      "difficulty_level": 2,
+      "description": "Learn and master Botany Identification",
+      "tags": [
+        "botany",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_234",
+      "name": "রসায়ন ল্যাব সুরক্ষা",
+      "difficulty_level": 5,
+      "description": "Learn and master Chemistry Lab Safety",
+      "tags": [
+        "chemistry",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_235",
+      "name": "সহজ পরীক্ষা -নিরীক্ষা পরিচালনা",
+      "difficulty_level": 3,
+      "description": "Learn and master Conducting Simple Experiments",
+      "tags": [
+        "conducting",
+        "simple",
+        "experiments"
+      ]
+    },
+    {
+      "id": "skill_236",
+      "name": "পৃথিবী বিজ্ঞান",
+      "difficulty_level": 4,
+      "description": "Learn and master Earth Science",
+      "tags": [
+        "earth",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_237",
+      "name": "পরিবেশগত সচেতনতা",
+      "difficulty_level": 4,
+      "description": "Learn and master Ecological Awareness",
+      "tags": [
+        "ecological",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_238",
+      "name": "বৈজ্ঞানিক গ্রাফ পড়া",
+      "difficulty_level": 3,
+      "description": "Learn and master Reading Scientific Graphs",
+      "tags": [
+        "reading",
+        "scientific",
+        "graphs"
+      ]
+    },
+    {
+      "id": "skill_239",
+      "name": "বৈজ্ঞানিক পদ্ধতি",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "business_finance_human_resources",
+  "name": "Zasoby ludzkie",
+  "skills": [
+    {
+      "id": "skill_855",
+      "name": "Administracja świadczeń",
+      "difficulty_level": 3,
+      "description": "Learn and master Benefits Administration",
+      "tags": [
+        "benefits",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_856",
+      "name": "Rozwiązanie konfliktu",
+      "difficulty_level": 4,
+      "description": "Learn and master Conflict Resolution",
+      "tags": [
+        "conflict",
+        "resolution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_857",
+      "name": "Zaangażowanie pracowników",
+      "difficulty_level": 3,
+      "description": "Learn and master Employee Engagement",
+      "tags": [
+        "employee",
+        "engagement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_858",
+      "name": "Pracownicy na pokładzie",
+      "difficulty_level": 1,
+      "description": "Learn and master Employee Onboarding",
+      "tags": [
+        "employee",
+        "onboarding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_859",
+      "name": "Zgodność HR",
+      "difficulty_level": 4,
+      "description": "Learn and master HR Compliance",
+      "tags": [
+        "compliance",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_860",
+      "name": "Techniki wywiadów",
+      "difficulty_level": 5,
+      "description": "Learn and master Interviewing Techniques",
+      "tags": [
+        "interviewing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_861",
+      "name": "Zarządzanie płacami",
+      "difficulty_level": 4,
+      "description": "Learn and master Payroll Management",
+      "tags": [
+        "payroll",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_862",
+      "name": "Recenzje wydajności",
+      "difficulty_level": 4,
+      "description": "Learn and master Performance Reviews",
+      "tags": [
+        "performance",
+        "reviews",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_863",
+      "name": "Strategie rekrutacji",
+      "difficulty_level": 3,
+      "description": "Learn and master Recruitment Strategies",
+      "tags": [
+        "recruitment",
+        "strategies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_864",
+      "name": "Kultura w miejscu pracy",
+      "difficulty_level": 4,
+      "description": "Learn and master Workplace Culture",
+      "tags": [
+        "workplace",
+        "culture",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "Giao dịch & kỹ thuật",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "Ô tô"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "Thợ mộc"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "Sự thi công"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "Điện"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "MASONRY"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "Cơ học"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "Vẽ tranh & trang trí"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "Ống nước"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "Hàn"
+    }
+  ]
+}

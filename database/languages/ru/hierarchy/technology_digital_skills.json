@@ -1,0 +1,82 @@
+{
+  "id": "technology_digital_skills",
+  "name": "Технологии и цифровые навыки",
+  "subcategories": [
+    {
+      "id": "technology_digital_skills_artificial_intelligence",
+      "name": "Искусственный интеллект"
+    },
+    {
+      "id": "technology_digital_skills_cloud_computing",
+      "name": "Облачные вычисления"
+    },
+    {
+      "id": "technology_digital_skills_computer_basics",
+      "name": "Основы компьютера"
+    },
+    {
+      "id": "technology_digital_skills_cybersecurity",
+      "name": "Кибербезопасность"
+    },
+    {
+      "id": "technology_digital_skills_data_ai",
+      "name": "Данные и AI"
+    },
+    {
+      "id": "technology_digital_skills_data_analytics",
+      "name": "Данные и аналитика"
+    },
+    {
+      "id": "technology_digital_skills_digital_literacy",
+      "name": "Цифровая грамотность"
+    },
+    {
+      "id": "technology_digital_skills_digital_marketing",
+      "name": "Цифровой маркетинг"
+    },
+    {
+      "id": "technology_digital_skills_emerging_tech",
+      "name": "Новая технология"
+    },
+    {
+      "id": "technology_digital_skills_hardware_electronics",
+      "name": "Аппаратное обеспечение и электроника"
+    },
+    {
+      "id": "technology_digital_skills_it_networking",
+      "name": "Это и сетевое взаимодействие"
+    },
+    {
+      "id": "technology_digital_skills_networking_it",
+      "name": "Сеть и это"
+    },
+    {
+      "id": "technology_digital_skills_programming_development",
+      "name": "Программирование и разработка"
+    },
+    {
+      "id": "technology_digital_skills_programming_software_development",
+      "name": "Программирование и разработка программного обеспечения"
+    },
+    {
+      "id": "technology_digital_skills_software_tools",
+      "name": "Программные инструменты"
+    },
+    {
+      "id": "technology_digital_skills_tech_productivity",
+      "name": "Технологическая производительность"
+    },
+    {
+      "id": "technology_digital_skills_tech_support_maintenance",
+      "name": "Техническая поддержка и техническое обслуживание"
+    },
+    {
+      "id": "technology_digital_skills_tech_support_troubleshooting",
+      "name": "Техническая поддержка и устранение неполадок"
+    },
+    {
+      "id": "technology_digital_skills_web_app_development",
+      "name": "Разработка веб -приложений и приложений"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "arts_design_architecture_design",
+  "name": "Архитектура дизайн",
+  "skills": [
+    {
+      "id": "skill_530",
+      "name": "Планы 3D этажа",
+      "difficulty_level": 5,
+      "description": "Learn and master 3D Floor Plans",
+      "tags": [
+        "floor",
+        "plans",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_531",
+      "name": "Архитектурный рендеринг",
+      "difficulty_level": 4,
+      "description": "Learn and master Architectural Rendering",
+      "tags": [
+        "architectural",
+        "rendering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_532",
+      "name": "Моделирование информации о строительстве (BIM)",
+      "difficulty_level": 4,
+      "description": "Learn and master Building Information Modeling (BIM)",
+      "tags": [
+        "building",
+        "information",
+        "modeling",
+        "(bim)"
+      ]
+    },
+    {
+      "id": "skill_533",
+      "name": "CAD Рисунок",
+      "difficulty_level": 1,
+      "description": "Learn and master CAD Drawing",
+      "tags": [
+        "drawing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_534",
+      "name": "Материал Анализ",
+      "difficulty_level": 3,
+      "description": "Learn and master Material Analysis",
+      "tags": [
+        "material",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_535",
+      "name": "Модель здания",
+      "difficulty_level": 3,
+      "description": "Learn and master Model Building",
+      "tags": [
+        "model",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_536",
+      "name": "Анализ сайта",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Analysis",
+      "tags": [
+        "site",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_537",
+      "name": "Эскиз архитектуры",
+      "difficulty_level": 4,
+      "description": "Learn and master Sketching Architecture",
+      "tags": [
+        "sketching",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_538",
+      "name": "Устойчивый дизайн",
+      "difficulty_level": 5,
+      "description": "Learn and master Sustainable Design",
+      "tags": [
+        "sustainable",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_539",
+      "name": "Основы городского планирования",
+      "difficulty_level": 1,
+      "description": "Learn and master Urban Planning Basics",
+      "tags": [
+        "urban",
+        "planning",
+        "basics"
+      ]
+    }
+  ]
+}

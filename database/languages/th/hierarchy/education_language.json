@@ -1,0 +1,46 @@
+{
+  "id": "education_language",
+  "name": "การศึกษาและภาษา",
+  "subcategories": [
+    {
+      "id": "education_language_academic_tutoring",
+      "name": "การสอนทางวิชาการ"
+    },
+    {
+      "id": "education_language_early_childhood_education",
+      "name": "การศึกษาปฐมวัย"
+    },
+    {
+      "id": "education_language_higher_education",
+      "name": "อุดมศึกษา"
+    },
+    {
+      "id": "education_language_language_teaching",
+      "name": "การสอนภาษา"
+    },
+    {
+      "id": "education_language_languages",
+      "name": "ภาษา"
+    },
+    {
+      "id": "education_language_learning_technologies",
+      "name": "เทคโนโลยีการเรียนรู้"
+    },
+    {
+      "id": "education_language_literacy_writing",
+      "name": "การรู้หนังสือและการเขียน"
+    },
+    {
+      "id": "education_language_special_education",
+      "name": "การศึกษาพิเศษ"
+    },
+    {
+      "id": "education_language_study_skills",
+      "name": "ทักษะการเรียนรู้"
+    },
+    {
+      "id": "education_language_test_prep",
+      "name": "เตรียมทดสอบ"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_translation_interpretation",
+  "name": "மொழிபெயர்ப்பு மற்றும் விளக்கம்",
+  "skills": [
+    {
+      "id": "skill_2013",
+      "name": "கலாச்சார சூழல் விளக்கம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Cultural Context Interpretation",
+      "tags": [
+        "cultural",
+        "context",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "skill_2014",
+      "name": "சட்ட மொழிபெயர்ப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Legal Translation",
+      "tags": [
+        "legal",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2015",
+      "name": "மருத்துவ விளக்கம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Medical Interpretation",
+      "tags": [
+        "medical",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2016",
+      "name": "பன்மொழி ஆதரவு",
+      "difficulty_level": 3,
+      "description": "Learn and master Multilingual Support",
+      "tags": [
+        "multilingual",
+        "support",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2017",
+      "name": "ஒரே நேரத்தில் விளக்கம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Simultaneous Interpretation",
+      "tags": [
+        "simultaneous",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2018",
+      "name": "வசன வரிகள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Subtitling",
+      "tags": [
+        "subtitling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2019",
+      "name": "தொழில்நுட்ப ஆவண மொழிபெயர்ப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Technical Document Translation",
+      "tags": [
+        "technical",
+        "document",
+        "translation"
+      ]
+    },
+    {
+      "id": "skill_2020",
+      "name": "டிரான்ஸ்கிரிப்ஷன் மொழிபெயர்ப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Transcription Translation",
+      "tags": [
+        "transcription",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2021",
+      "name": "வலைத்தள பரவல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Website Localization",
+      "tags": [
+        "website",
+        "localization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2022",
+      "name": "எழுதப்பட்ட மொழிபெயர்ப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Written Translation",
+      "tags": [
+        "written",
+        "translation",
+        "skill"
+      ]
+    }
+  ]
+}

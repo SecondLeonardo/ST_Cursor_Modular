@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_hvac_refrigeration",
+  "name": "HVAC＆冷蔵",
+  "skills": [
+    {
+      "id": "skill_4965",
+      "name": "ACインストール",
+      "difficulty_level": 3,
+      "description": "Learn and master AC Installation",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4966",
+      "name": "エアバランス",
+      "difficulty_level": 5,
+      "description": "Learn and master Air Balancing",
+      "tags": [
+        "balancing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4967",
+      "name": "コンプレッサーのトラブルシューティング",
+      "difficulty_level": 3,
+      "description": "Learn and master Compressor Troubleshooting",
+      "tags": [
+        "compressor",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4968",
+      "name": "ダクトの製造",
+      "difficulty_level": 4,
+      "description": "Learn and master Ductwork Fabrication",
+      "tags": [
+        "ductwork",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4969",
+      "name": "EPA認定知識",
+      "difficulty_level": 1,
+      "description": "Learn and master EPA Certification Knowledge",
+      "tags": [
+        "certification",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4970",
+      "name": "HVACメンテナンス",
+      "difficulty_level": 2,
+      "description": "Learn and master HVAC Maintenance",
+      "tags": [
+        "hvac",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4971",
+      "name": "暖房システムの修理",
+      "difficulty_level": 3,
+      "description": "Learn and master Heating System Repair",
+      "tags": [
+        "heating",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_4972",
+      "name": "冷媒の取り扱い",
+      "difficulty_level": 4,
+      "description": "Learn and master Refrigerant Handling",
+      "tags": [
+        "refrigerant",
+        "handling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4973",
+      "name": "冷蔵庫の修理",
+      "difficulty_level": 3,
+      "description": "Learn and master Refrigerator Repair",
+      "tags": [
+        "refrigerator",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4974",
+      "name": "サーモスタット配線",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermostat Wiring",
+      "tags": [
+        "thermostat",
+        "wiring",
+        "skill"
+      ]
+    }
+  ]
+}

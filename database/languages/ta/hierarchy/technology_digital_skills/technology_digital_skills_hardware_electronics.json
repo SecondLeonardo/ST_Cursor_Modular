@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_hardware_electronics",
+  "name": "வன்பொருள் மற்றும் மின்னணுவியல்",
+  "skills": [
+    {
+      "id": "skill_4765",
+      "name": "3D அச்சிடும் அமைப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master 3D Printing Setup",
+      "tags": [
+        "printing",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4766",
+      "name": "அர்டுயினோ நிரலாக்க",
+      "difficulty_level": 2,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4767",
+      "name": "பேட்டரி மேலாண்மை அமைப்புகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Management Systems",
+      "tags": [
+        "battery",
+        "management",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_4768",
+      "name": "சுற்று வடிவமைப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4769",
+      "name": "உட்பொதிக்கப்பட்ட அமைப்புகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4770",
+      "name": "IOT சாதன அமைப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master IoT Device Setup",
+      "tags": [
+        "device",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4771",
+      "name": "பிசிபி வடிவமைப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master PCB Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4772",
+      "name": "ராஸ்பெர்ரி பை திட்டங்கள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Raspberry Pi Projects",
+      "tags": [
+        "raspberry",
+        "projects",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4773",
+      "name": "சென்சார் ஒருங்கிணைப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4774",
+      "name": "சாலிடரிங்",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering",
+      "tags": [
+        "soldering",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

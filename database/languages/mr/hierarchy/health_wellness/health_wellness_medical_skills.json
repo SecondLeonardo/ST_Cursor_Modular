@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_medical_skills",
+  "name": "वैद्यकीय कौशल्ये",
+  "skills": [
+    {
+      "id": "skill_2543",
+      "name": "औषधोपचार",
+      "difficulty_level": 4,
+      "description": "Learn and master Administering Medication",
+      "tags": [
+        "administering",
+        "medication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2544",
+      "name": "मूलभूत शरीरशास्त्र",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Anatomy",
+      "tags": [
+        "basic",
+        "anatomy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2545",
+      "name": "सीपीआर ज्ञान",
+      "difficulty_level": 4,
+      "description": "Learn and master CPR Knowledge",
+      "tags": [
+        "knowledge",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2546",
+      "name": "संसर्ग नियंत्रण",
+      "difficulty_level": 1,
+      "description": "Learn and master Infection Control",
+      "tags": [
+        "infection",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2547",
+      "name": "वैद्यकीय दस्तऐवजीकरण",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Documentation",
+      "tags": [
+        "medical",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2548",
+      "name": "रुग्ण संप्रेषण",
+      "difficulty_level": 2,
+      "description": "Learn and master Patient Communication",
+      "tags": [
+        "patient",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2549",
+      "name": "महत्वाची चिन्हे घेत आहे",
+      "difficulty_level": 3,
+      "description": "Learn and master Taking Vital Signs",
+      "tags": [
+        "taking",
+        "vital",
+        "signs"
+      ]
+    },
+    {
+      "id": "skill_2550",
+      "name": "वैद्यकीय शब्दावली समजून घेणे",
+      "difficulty_level": 2,
+      "description": "Learn and master Understanding Medical Terminology",
+      "tags": [
+        "understanding",
+        "medical",
+        "terminology"
+      ]
+    },
+    {
+      "id": "skill_2551",
+      "name": "वैद्यकीय उपकरणे वापरणे",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Medical Equipment",
+      "tags": [
+        "using",
+        "medical",
+        "equipment"
+      ]
+    },
+    {
+      "id": "skill_2552",
+      "name": "जखमेची साफसफाई",
+      "difficulty_level": 1,
+      "description": "Learn and master Wound Cleaning",
+      "tags": [
+        "wound",
+        "cleaning",
+        "skill"
+      ]
+    }
+  ]
+}

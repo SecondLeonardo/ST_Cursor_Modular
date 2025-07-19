@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_construction_carpentry",
+  "name": "Bau & Schreinerei",
+  "skills": [
+    {
+      "id": "skill_4865",
+      "name": "Blaupauselesen",
+      "difficulty_level": 1,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4866",
+      "name": "Betonmischung",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4867",
+      "name": "Trockenbau -Installation",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4868",
+      "name": "Rahmung von Wänden",
+      "difficulty_level": 3,
+      "description": "Learn and master Framing Walls",
+      "tags": [
+        "framing",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4869",
+      "name": "TRAD INSTALLIERUNG",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing Trim",
+      "tags": [
+        "installing",
+        "trim",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4870",
+      "name": "Messen und Schneiden von Holz",
+      "difficulty_level": 3,
+      "description": "Learn and master Measuring and Cutting Lumber",
+      "tags": [
+        "measuring",
+        "cutting",
+        "lumber"
+      ]
+    },
+    {
+      "id": "skill_4871",
+      "name": "Grundlagen des Dachbaus",
+      "difficulty_level": 1,
+      "description": "Learn and master Roof Construction Basics",
+      "tags": [
+        "roof",
+        "construction",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4872",
+      "name": "Treppengebäude",
+      "difficulty_level": 4,
+      "description": "Learn and master Stair Building",
+      "tags": [
+        "stair",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4873",
+      "name": "Mit einer Nagelpistole",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Nail Gun",
+      "tags": [
+        "using",
+        "nail",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4874",
+      "name": "Fensterrahmen",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Framing",
+      "tags": [
+        "window",
+        "framing",
+        "skill"
+      ]
+    }
+  ]
+}

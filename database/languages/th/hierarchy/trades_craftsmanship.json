@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "การค้าและงานฝีมือ",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "ซ่อมยานยนต์"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "ช่างไม้และงานไม้"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "การก่อสร้างและการก่ออิฐ"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "งานไฟฟ้า"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC และเครื่องทำความเย็น"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "การทำเครื่องประดับ"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "งานโลหะและการเชื่อม"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "ภาพวาดและตกแต่ง"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "ประปา"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "การตัดเย็บและเย็บผ้า"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "culture_language_skills_sign_languages",
+  "name": "भाषा साइन इन करा",
+  "skills": [
+    {
+      "id": "skill_2003",
+      "name": "अमेरिकन सांकेतिक भाषा (एएसएल)",
+      "difficulty_level": 4,
+      "description": "Learn and master American Sign Language (ASL)",
+      "tags": [
+        "american",
+        "sign",
+        "language",
+        "(asl)"
+      ]
+    },
+    {
+      "id": "skill_2004",
+      "name": "ऑस्लान ओघ",
+      "difficulty_level": 3,
+      "description": "Learn and master Auslan Fluency",
+      "tags": [
+        "auslan",
+        "fluency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2005",
+      "name": "ब्रिटीश साइन भाषा (बीएसएल)",
+      "difficulty_level": 3,
+      "description": "Learn and master British Sign Language (BSL)",
+      "tags": [
+        "british",
+        "sign",
+        "language",
+        "(bsl)"
+      ]
+    },
+    {
+      "id": "skill_2006",
+      "name": "बहिरा संस्कृती समज",
+      "difficulty_level": 5,
+      "description": "Learn and master Deaf Culture Understanding",
+      "tags": [
+        "deaf",
+        "culture",
+        "understanding"
+      ]
+    },
+    {
+      "id": "skill_2007",
+      "name": "चेहर्याचा अभिव्यक्ती संप्रेषण",
+      "difficulty_level": 3,
+      "description": "Learn and master Facial Expression Communication",
+      "tags": [
+        "facial",
+        "expression",
+        "communication"
+      ]
+    },
+    {
+      "id": "skill_2008",
+      "name": "फिंगरस्पेलिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Fingerspelling",
+      "tags": [
+        "fingerspelling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2009",
+      "name": "आंतरराष्ट्रीय चिन्ह प्रवीणता",
+      "difficulty_level": 2,
+      "description": "Learn and master International Sign Proficiency",
+      "tags": [
+        "international",
+        "sign",
+        "proficiency"
+      ]
+    },
+    {
+      "id": "skill_2010",
+      "name": "साइन-टू-व्हॉईस स्पष्टीकरण",
+      "difficulty_level": 5,
+      "description": "Learn and master Sign-to-Voice Interpretation",
+      "tags": [
+        "sign-to-voice",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2011",
+      "name": "स्वाक्षरीकृत अचूक इंग्रजी (पहा)",
+      "difficulty_level": 4,
+      "description": "Learn and master Signed Exact English (SEE)",
+      "tags": [
+        "signed",
+        "exact",
+        "english",
+        "(see)"
+      ]
+    },
+    {
+      "id": "skill_2012",
+      "name": "स्पर्श स्वाक्षरी",
+      "difficulty_level": 4,
+      "description": "Learn and master Tactile Signing",
+      "tags": [
+        "tactile",
+        "signing",
+        "skill"
+      ]
+    }
+  ]
+}

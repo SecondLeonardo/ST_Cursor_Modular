@@ -1,0 +1,46 @@
+{
+  "id": "manual_trades_craftsmanship_skills",
+  "name": "手動の取引と職人技のスキル",
+  "subcategories": [
+    {
+      "id": "manual_trades_craftsmanship_skills_automotive_repair",
+      "name": "自動車修理"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_construction_trades",
+      "name": "建設取引"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_electrical_work",
+      "name": "電気工事"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+      "name": "家具と室内装飾品"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+      "name": "ハンドツールの習得"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_home_renovation",
+      "name": "家の改修"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_metalworking",
+      "name": "金属加工"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+      "name": "配管と暖房"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+      "name": "テキスタイル＆レザークラフト"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_woodworking",
+      "name": "木工"
+    }
+  ]
+}

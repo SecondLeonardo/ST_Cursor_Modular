@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_sculpture",
+  "name": "Scultura",
+  "skills": [
+    {
+      "id": "skill_410",
+      "name": "Scultura di stampa 3D",
+      "difficulty_level": 2,
+      "description": "Learn and master 3D Printing Sculpting",
+      "tags": [
+        "printing",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_411",
+      "name": "Modellazione di argilla",
+      "difficulty_level": 3,
+      "description": "Learn and master Clay Modeling",
+      "tags": [
+        "clay",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_412",
+      "name": "Installazione Art",
+      "difficulty_level": 2,
+      "description": "Learn and master Installation Art",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_413",
+      "name": "Scultura di metallo",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Sculpture",
+      "tags": [
+        "metal",
+        "sculpture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_414",
+      "name": "Scultura in miniatura",
+      "difficulty_level": 1,
+      "description": "Learn and master Miniature Sculpting",
+      "tags": [
+        "miniature",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_415",
+      "name": "Scultura di media misti",
+      "difficulty_level": 4,
+      "description": "Learn and master Mixed Media Sculpture",
+      "tags": [
+        "mixed",
+        "media",
+        "sculpture"
+      ]
+    },
+    {
+      "id": "skill_416",
+      "name": "Gesso in gesso",
+      "difficulty_level": 3,
+      "description": "Learn and master Plaster Casting",
+      "tags": [
+        "plaster",
+        "casting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_417",
+      "name": "Intaglio di pietra",
+      "difficulty_level": 3,
+      "description": "Learn and master Stone Carving",
+      "tags": [
+        "stone",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_418",
+      "name": "Arte del filo",
+      "difficulty_level": 2,
+      "description": "Learn and master Wire Art",
+      "tags": [
+        "wire",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_419",
+      "name": "Scultura di legno",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Sculpture",
+      "tags": [
+        "wood",
+        "sculpture",
+        "skill"
+      ]
+    }
+  ]
+}

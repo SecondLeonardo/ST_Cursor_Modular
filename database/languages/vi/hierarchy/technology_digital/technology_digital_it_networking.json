@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_it_networking",
+  "name": "Nó & mạng",
+  "skills": [
+    {
+      "id": "skill_4646",
+      "name": "Quản lý Active Directory",
+      "difficulty_level": 1,
+      "description": "Learn and master Active Directory Management",
+      "tags": [
+        "active",
+        "directory",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_4647",
+      "name": "Cơ sở hạ tầng đám mây",
+      "difficulty_level": 3,
+      "description": "Learn and master Cloud Infrastructure",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4648",
+      "name": "Cấu hình DNS",
+      "difficulty_level": 5,
+      "description": "Learn and master DNS Configuration",
+      "tags": [
+        "configuration",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4649",
+      "name": "Thiết lập tường lửa",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewall Setup",
+      "tags": [
+        "firewall",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4650",
+      "name": "Chính sách bảo mật CNTT",
+      "difficulty_level": 5,
+      "description": "Learn and master IT Security Policies",
+      "tags": [
+        "security",
+        "policies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4651",
+      "name": "Xử lý sự cố LAN/WAN",
+      "difficulty_level": 5,
+      "description": "Learn and master LAN/WAN Troubleshooting",
+      "tags": [
+        "lan/wan",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4652",
+      "name": "Cấu hình mạng",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Configuration",
+      "tags": [
+        "network",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4653",
+      "name": "Bảo trì máy chủ",
+      "difficulty_level": 2,
+      "description": "Learn and master Server Maintenance",
+      "tags": [
+        "server",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4654",
+      "name": "Quy trình hỗ trợ công nghệ",
+      "difficulty_level": 4,
+      "description": "Learn and master Tech Support Procedures",
+      "tags": [
+        "tech",
+        "support",
+        "procedures"
+      ]
+    },
+    {
+      "id": "skill_4655",
+      "name": "Máy ảo",
+      "difficulty_level": 1,
+      "description": "Learn and master Virtual Machines",
+      "tags": [
+        "virtual",
+        "machines",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-05-02 12:31:19",
+  "cache_ttl": {
+    "categories": 604800,
+    "subcategories": 604800,
+    "skills": 259200
+  },
+  "cache_strategy": "lazy_loading",
+  "preload_categories": true,
+  "preload_languages": false
+}

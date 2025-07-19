@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_3d_modeling",
+  "name": "3 डी मॉडलिंग",
+  "skills": [
+    {
+      "id": "skill_520",
+      "name": "3 डी बनावट",
+      "difficulty_level": 1,
+      "description": "Learn and master 3D Texturing",
+      "tags": [
+        "texturing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_521",
+      "name": "ब्लेंडर मूल बातें",
+      "difficulty_level": 5,
+      "description": "Learn and master Blender Basics",
+      "tags": [
+        "blender",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_522",
+      "name": "चरित्र मॉडलिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Character Modeling",
+      "tags": [
+        "character",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_523",
+      "name": "पर्यावरण मॉडलिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Environment Modeling",
+      "tags": [
+        "environment",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_524",
+      "name": "कठोर सतह मॉडलिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Hard Surface Modeling",
+      "tags": [
+        "hard",
+        "surface",
+        "modeling"
+      ]
+    },
+    {
+      "id": "skill_525",
+      "name": "कम पॉली डिजाइन",
+      "difficulty_level": 5,
+      "description": "Learn and master Low Poly Design",
+      "tags": [
+        "poly",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_526",
+      "name": "प्रतिपादन",
+      "difficulty_level": 1,
+      "description": "Learn and master Rendering",
+      "tags": [
+        "rendering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_527",
+      "name": "हेराफेरी",
+      "difficulty_level": 1,
+      "description": "Learn and master Rigging",
+      "tags": [
+        "rigging",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_528",
+      "name": "Zbrush में मूर्तिकला",
+      "difficulty_level": 3,
+      "description": "Learn and master Sculpting in ZBrush",
+      "tags": [
+        "sculpting",
+        "zbrush",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_529",
+      "name": "यूवी मैपिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master UV Mapping",
+      "tags": [
+        "mapping",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

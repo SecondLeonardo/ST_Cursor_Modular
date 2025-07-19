@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_vehicle_machine_maintenance",
+  "name": "Motar motoci & Motoci",
+  "skills": [
+    {
+      "id": "skill_5155",
+      "name": "Sauya baturin",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5156",
+      "name": "Bike aging",
+      "difficulty_level": 4,
+      "description": "Learn and master Bike Tuning",
+      "tags": [
+        "bike",
+        "tuning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5157",
+      "name": "Gyara birki",
+      "difficulty_level": 2,
+      "description": "Learn and master Brake Repair",
+      "tags": [
+        "brake",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5158",
+      "name": "Gyarawa",
+      "difficulty_level": 5,
+      "description": "Learn and master Chain Maintenance",
+      "tags": [
+        "chain",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5159",
+      "name": "Binciken injin",
+      "difficulty_level": 2,
+      "description": "Learn and master Engine Diagnosis",
+      "tags": [
+        "engine",
+        "diagnosis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5160",
+      "name": "Canjin tace",
+      "difficulty_level": 5,
+      "description": "Learn and master Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5161",
+      "name": "Canjin mai",
+      "difficulty_level": 2,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5162",
+      "name": "Radaciat mai fure",
+      "difficulty_level": 2,
+      "description": "Learn and master Radiator Flush",
+      "tags": [
+        "radiator",
+        "flush",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5163",
+      "name": "Spark File Dogara",
+      "difficulty_level": 3,
+      "description": "Learn and master Spark Plug Check",
+      "tags": [
+        "spark",
+        "plug",
+        "check"
+      ]
+    },
+    {
+      "id": "skill_5164",
+      "name": "Canɓar canji",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Replacement",
+      "tags": [
+        "tire",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

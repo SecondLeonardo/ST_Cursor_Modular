@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_crafts",
+  "name": "የእጅ ሥራዎች",
+  "skills": [
+    {
+      "id": "skill_540",
+      "name": "ቤዳ",
+      "difficulty_level": 2,
+      "description": "Learn and master Beadwork",
+      "tags": [
+        "beadwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_541",
+      "name": "ሻማ",
+      "difficulty_level": 1,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_542",
+      "name": "የጌጣጌጥ ሥራ",
+      "difficulty_level": 4,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_543",
+      "name": "Mcram",
+      "difficulty_level": 1,
+      "description": "Learn and master Macrame",
+      "tags": [
+        "macrame",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_544",
+      "name": "ኦሪሚኒ",
+      "difficulty_level": 1,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_545",
+      "name": "የወረቀት ህክምና",
+      "difficulty_level": 2,
+      "description": "Learn and master Paper Mache",
+      "tags": [
+        "paper",
+        "mache",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_546",
+      "name": "የሸክላ ዕቃ",
+      "difficulty_level": 2,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_547",
+      "name": "መጸዳጃ ቤት",
+      "difficulty_level": 4,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_548",
+      "name": "ሳሙና መስራት",
+      "difficulty_level": 4,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_549",
+      "name": "እንጨቶች",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Crafting",
+      "tags": [
+        "wood",
+        "crafting",
+        "skill"
+      ]
+    }
+  ]
+}

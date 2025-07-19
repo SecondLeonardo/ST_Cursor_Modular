@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_pet_care",
+  "name": "宠物护理",
+  "skills": [
+    {
+      "id": "skill_3018",
+      "name": "管理PET药物",
+      "difficulty_level": 3,
+      "description": "Learn and master Administering Pet Meds",
+      "tags": [
+        "administering",
+        "meds",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3019",
+      "name": "清洁宠物栖息地",
+      "difficulty_level": 2,
+      "description": "Learn and master Cleaning Pet Habitats",
+      "tags": [
+        "cleaning",
+        "habitats",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3020",
+      "name": "dog狗",
+      "difficulty_level": 3,
+      "description": "Learn and master Dog Walking",
+      "tags": [
+        "walking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3021",
+      "name": "紧急宠物护理",
+      "difficulty_level": 4,
+      "description": "Learn and master Emergency Pet Care",
+      "tags": [
+        "emergency",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3022",
+      "name": "进食宠物",
+      "difficulty_level": 3,
+      "description": "Learn and master Feeding Pets",
+      "tags": [
+        "feeding",
+        "pets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3023",
+      "name": "修饰宠物",
+      "difficulty_level": 2,
+      "description": "Learn and master Grooming Pets",
+      "tags": [
+        "grooming",
+        "pets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3024",
+      "name": "垃圾箱维护",
+      "difficulty_level": 2,
+      "description": "Learn and master Litter Box Maintenance",
+      "tags": [
+        "litter",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3025",
+      "name": "宠物沐浴",
+      "difficulty_level": 2,
+      "description": "Learn and master Pet Bathing",
+      "tags": [
+        "bathing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3026",
+      "name": "宠物在家",
+      "difficulty_level": 2,
+      "description": "Learn and master Pet Safety at Home",
+      "tags": [
+        "safety",
+        "home",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3027",
+      "name": "培训基本命令",
+      "difficulty_level": 4,
+      "description": "Learn and master Training Basic Commands",
+      "tags": [
+        "training",
+        "basic",
+        "commands"
+      ]
+    }
+  ]
+}

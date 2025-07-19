@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "وسائل الإعلام والترفيه",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "إنتاج الفيديو"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "إنتاج الصوت"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "التصوير الفوتوغرافي"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "تصميم الجرافيك"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "التمثيل والأداء"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "الكتابة وكتابة السيناريو"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "البث"
+    }
+  ]
+}

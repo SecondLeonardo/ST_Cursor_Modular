@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_visual_arts",
+  "name": "Arts visuels",
+  "skills": [
+    {
+      "id": "skill_760",
+      "name": "Peinture acrylique",
+      "difficulty_level": 1,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_761",
+      "name": "Tirage au charbon de bois",
+      "difficulty_level": 2,
+      "description": "Learn and master Charcoal Drawing",
+      "tags": [
+        "charcoal",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_762",
+      "name": "Théorie des couleurs",
+      "difficulty_level": 3,
+      "description": "Learn and master Color Theory",
+      "tags": [
+        "color",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_763",
+      "name": "Dessin de la figure",
+      "difficulty_level": 5,
+      "description": "Learn and master Figure Drawing",
+      "tags": [
+        "figure",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_764",
+      "name": "Art des médias mixtes",
+      "difficulty_level": 2,
+      "description": "Learn and master Mixed Media Art",
+      "tags": [
+        "mixed",
+        "media",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_765",
+      "name": "Dessin en perspective",
+      "difficulty_level": 1,
+      "description": "Learn and master Perspective Drawing",
+      "tags": [
+        "perspective",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_766",
+      "name": "Illustration de portrait",
+      "difficulty_level": 3,
+      "description": "Learn and master Portrait Illustration",
+      "tags": [
+        "portrait",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_767",
+      "name": "Esquisse",
+      "difficulty_level": 3,
+      "description": "Learn and master Sketching",
+      "tags": [
+        "sketching",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_768",
+      "name": "Peinture de nature morte",
+      "difficulty_level": 1,
+      "description": "Learn and master Still Life Painting",
+      "tags": [
+        "still",
+        "life",
+        "painting"
+      ]
+    },
+    {
+      "id": "skill_769",
+      "name": "Peinture aquarelle",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Painting",
+      "tags": [
+        "watercolor",
+        "painting",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_fashion_textile_arts",
+  "name": "फैशन और कपड़ा कला",
+  "skills": [
+    {
+      "id": "skill_450",
+      "name": "गौण डिजाइन",
+      "difficulty_level": 5,
+      "description": "Learn and master Accessory Design",
+      "tags": [
+        "accessory",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_451",
+      "name": "पोशाक डिजाइन",
+      "difficulty_level": 1,
+      "description": "Learn and master Costume Design",
+      "tags": [
+        "costume",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_452",
+      "name": "कढ़ाई डिजाइन",
+      "difficulty_level": 5,
+      "description": "Learn and master Embroidery Design",
+      "tags": [
+        "embroidery",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_453",
+      "name": "कपड़े चयन",
+      "difficulty_level": 1,
+      "description": "Learn and master Fabric Selection",
+      "tags": [
+        "fabric",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_454",
+      "name": "फैशन ड्रेपिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Fashion Draping",
+      "tags": [
+        "fashion",
+        "draping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_455",
+      "name": "फैशन चित्रण",
+      "difficulty_level": 5,
+      "description": "Learn and master Fashion Illustration",
+      "tags": [
+        "fashion",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_456",
+      "name": "परिधान निर्माण",
+      "difficulty_level": 4,
+      "description": "Learn and master Garment Construction",
+      "tags": [
+        "garment",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_457",
+      "name": "पैटर्न बनाना",
+      "difficulty_level": 2,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_458",
+      "name": "सिलाई मूल बातें",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewing Basics",
+      "tags": [
+        "sewing",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_459",
+      "name": "वस्त्र मुद्रण",
+      "difficulty_level": 2,
+      "description": "Learn and master Textile Printing",
+      "tags": [
+        "textile",
+        "printing",
+        "skill"
+      ]
+    }
+  ]
+}

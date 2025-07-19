@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_metal_woodwork",
+  "name": "Metal & Woodwork",
+  "skills": [
+    {
+      "id": "skill_5125",
+      "name": "Cabinet Making",
+      "difficulty_level": 1,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5126",
+      "name": "Drilling & Fastening",
+      "difficulty_level": 4,
+      "description": "Learn and master Drilling & Fastening",
+      "tags": [
+        "drilling",
+        "fastening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5127",
+      "name": "Joinery",
+      "difficulty_level": 4,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5128",
+      "name": "Lathe Operation",
+      "difficulty_level": 2,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5129",
+      "name": "Metal Cutting",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Cutting",
+      "tags": [
+        "metal",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5130",
+      "name": "Metal Polishing",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Polishing",
+      "tags": [
+        "metal",
+        "polishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5131",
+      "name": "Precision Measurement",
+      "difficulty_level": 4,
+      "description": "Learn and master Precision Measurement",
+      "tags": [
+        "precision",
+        "measurement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5132",
+      "name": "Soldering",
+      "difficulty_level": 4,
+      "description": "Learn and master Soldering",
+      "tags": [
+        "soldering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5133",
+      "name": "Welding Techniques",
+      "difficulty_level": 1,
+      "description": "Learn and master Welding Techniques",
+      "tags": [
+        "welding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5134",
+      "name": "Woodturning",
+      "difficulty_level": 2,
+      "description": "Learn and master Woodturning",
+      "tags": [
+        "woodturning",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

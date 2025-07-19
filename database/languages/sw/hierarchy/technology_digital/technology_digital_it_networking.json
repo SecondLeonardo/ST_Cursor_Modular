@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_it_networking",
+  "name": "Ni na mitandao",
+  "skills": [
+    {
+      "id": "skill_4646",
+      "name": "Usimamizi wa Saraka ya Kazi",
+      "difficulty_level": 1,
+      "description": "Learn and master Active Directory Management",
+      "tags": [
+        "active",
+        "directory",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_4647",
+      "name": "Miundombinu ya wingu",
+      "difficulty_level": 3,
+      "description": "Learn and master Cloud Infrastructure",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4648",
+      "name": "Usanidi wa DNS",
+      "difficulty_level": 5,
+      "description": "Learn and master DNS Configuration",
+      "tags": [
+        "configuration",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4649",
+      "name": "Usanidi wa Firewall",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewall Setup",
+      "tags": [
+        "firewall",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4650",
+      "name": "Sera za usalama za IT",
+      "difficulty_level": 5,
+      "description": "Learn and master IT Security Policies",
+      "tags": [
+        "security",
+        "policies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4651",
+      "name": "Lan/Wan Shida",
+      "difficulty_level": 5,
+      "description": "Learn and master LAN/WAN Troubleshooting",
+      "tags": [
+        "lan/wan",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4652",
+      "name": "Usanidi wa mtandao",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Configuration",
+      "tags": [
+        "network",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4653",
+      "name": "Matengenezo ya seva",
+      "difficulty_level": 2,
+      "description": "Learn and master Server Maintenance",
+      "tags": [
+        "server",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4654",
+      "name": "Taratibu za msaada wa teknolojia",
+      "difficulty_level": 4,
+      "description": "Learn and master Tech Support Procedures",
+      "tags": [
+        "tech",
+        "support",
+        "procedures"
+      ]
+    },
+    {
+      "id": "skill_4655",
+      "name": "Mashine za kweli",
+      "difficulty_level": 1,
+      "description": "Learn and master Virtual Machines",
+      "tags": [
+        "virtual",
+        "machines",
+        "skill"
+      ]
+    }
+  ]
+}

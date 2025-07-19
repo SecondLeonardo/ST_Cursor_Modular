@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_vehicle_machine_maintenance",
+  "name": "የተሽከርካሪ እና የማሽን ጥገና",
+  "skills": [
+    {
+      "id": "skill_5155",
+      "name": "የባትሪ መተካት",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5156",
+      "name": "ብስክሌት መንቀሳቀስ",
+      "difficulty_level": 4,
+      "description": "Learn and master Bike Tuning",
+      "tags": [
+        "bike",
+        "tuning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5157",
+      "name": "የብሬክ ጥገና",
+      "difficulty_level": 2,
+      "description": "Learn and master Brake Repair",
+      "tags": [
+        "brake",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5158",
+      "name": "ሰንሰለት ጥገና",
+      "difficulty_level": 5,
+      "description": "Learn and master Chain Maintenance",
+      "tags": [
+        "chain",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5159",
+      "name": "የሞተር ምርመራ",
+      "difficulty_level": 2,
+      "description": "Learn and master Engine Diagnosis",
+      "tags": [
+        "engine",
+        "diagnosis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5160",
+      "name": "ማጣሪያ መተካት",
+      "difficulty_level": 5,
+      "description": "Learn and master Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5161",
+      "name": "የዘይት ለውጥ",
+      "difficulty_level": 2,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5162",
+      "name": "የራዲያተር ፍሰት",
+      "difficulty_level": 2,
+      "description": "Learn and master Radiator Flush",
+      "tags": [
+        "radiator",
+        "flush",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5163",
+      "name": "የሸንቆተ የደም መፍሰስ ምልክት",
+      "difficulty_level": 3,
+      "description": "Learn and master Spark Plug Check",
+      "tags": [
+        "spark",
+        "plug",
+        "check"
+      ]
+    },
+    {
+      "id": "skill_5164",
+      "name": "ጎማ መተካት",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Replacement",
+      "tags": [
+        "tire",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

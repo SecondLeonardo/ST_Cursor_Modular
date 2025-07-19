@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_construction_carpentry",
+  "name": "Ujenzi na useremala",
+  "skills": [
+    {
+      "id": "skill_5055",
+      "name": "Dawati za ujenzi",
+      "difficulty_level": 2,
+      "description": "Learn and master Building Decks",
+      "tags": [
+        "building",
+        "decks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5056",
+      "name": "Mchanganyiko wa zege",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5057",
+      "name": "Ufungaji wa drywall",
+      "difficulty_level": 4,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5058",
+      "name": "Kuta za kutunga",
+      "difficulty_level": 5,
+      "description": "Learn and master Framing Walls",
+      "tags": [
+        "framing",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5059",
+      "name": "Kufunga milango",
+      "difficulty_level": 4,
+      "description": "Learn and master Installing Doors",
+      "tags": [
+        "installing",
+        "doors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5060",
+      "name": "Kupima na kuashiria",
+      "difficulty_level": 3,
+      "description": "Learn and master Measuring & Marking",
+      "tags": [
+        "measuring",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5061",
+      "name": "Misingi ya paa",
+      "difficulty_level": 5,
+      "description": "Learn and master Roofing Basics",
+      "tags": [
+        "roofing",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5062",
+      "name": "Sanding na kumaliza",
+      "difficulty_level": 5,
+      "description": "Learn and master Sanding & Finishing",
+      "tags": [
+        "sanding",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5063",
+      "name": "Ujenzi wa ngazi",
+      "difficulty_level": 5,
+      "description": "Learn and master Stair Construction",
+      "tags": [
+        "stair",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5064",
+      "name": "Usalama wa zana",
+      "difficulty_level": 4,
+      "description": "Learn and master Tool Safety",
+      "tags": [
+        "tool",
+        "safety",
+        "skill"
+      ]
+    }
+  ]
+}

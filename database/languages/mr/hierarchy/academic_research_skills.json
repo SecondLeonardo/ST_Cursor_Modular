@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "शैक्षणिक आणि संशोधन कौशल्ये",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "शैक्षणिक सादरीकरण"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "डेटा विश्लेषण"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "भाषा आणि लेखन"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "गणित आणि आकडेवारी"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "वैज्ञानिक संशोधन"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "अभ्यास आणि चाचणी तयारी"
+    }
+  ]
+}

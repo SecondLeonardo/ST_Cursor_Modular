@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_programming_development",
+  "name": "Programu na Maendeleo",
+  "skills": [
+    {
+      "id": "skill_2223",
+      "name": "Misingi ya C ++",
+      "difficulty_level": 5,
+      "description": "Learn and master C++ Fundamentals",
+      "tags": [
+        "fundamentals",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2224",
+      "name": "Miundo ya data na algorithms",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Structures & Algorithms",
+      "tags": [
+        "data",
+        "structures",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "skill_2225",
+      "name": "Mbinu za Debugging",
+      "difficulty_level": 3,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2226",
+      "name": "Maendeleo ya Java",
+      "difficulty_level": 3,
+      "description": "Learn and master Java Development",
+      "tags": [
+        "java",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2227",
+      "name": "Ukuzaji wa programu ya rununu",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2228",
+      "name": "Programu iliyoelekezwa kwa kitu",
+      "difficulty_level": 2,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2229",
+      "name": "Programu ya Python",
+      "difficulty_level": 4,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2230",
+      "name": "Maendeleo ya API ya REST",
+      "difficulty_level": 1,
+      "description": "Learn and master REST API Development",
+      "tags": [
+        "rest",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2231",
+      "name": "Upimaji wa kitengo",
+      "difficulty_level": 1,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2232",
+      "name": "Udhibiti wa toleo na GIT",
+      "difficulty_level": 2,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

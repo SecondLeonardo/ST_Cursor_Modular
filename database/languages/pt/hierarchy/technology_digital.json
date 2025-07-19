@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "Tecnologia e digital",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "Segurança cibernética"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "Dados e ai"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "Marketing digital"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "IT & Networking"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "Desenvolvimento de software"
+    }
+  ]
+}

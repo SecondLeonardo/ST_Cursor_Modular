@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "Habilidades tecnológicas y digitales",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "AI y aprendizaje automático"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "Computación en la nube"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "Ciberseguridad"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "Datos y análisis"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "Ciencia de datos y AI"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "DevOps y automatización"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "Desarrollo del juego"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "It & Networking"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "Soporte de TI y redes"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "Desarrollo de aplicaciones móviles"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "Programación y desarrollo de software"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "Desarrollo de software"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "Hardware y reparación tecnológica"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "Soporte técnico y resolución de problemas"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "Desarrollo web"
+    }
+  ]
+}

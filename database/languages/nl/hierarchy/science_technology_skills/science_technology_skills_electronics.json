@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_electronics",
+  "name": "Elektronica",
+  "skills": [
+    {
+      "id": "skill_4308",
+      "name": "Analoge circuits",
+      "difficulty_level": 4,
+      "description": "Learn and master Analog Circuits",
+      "tags": [
+        "analog",
+        "circuits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4309",
+      "name": "Problemen met circuit oplossen",
+      "difficulty_level": 5,
+      "description": "Learn and master Circuit Troubleshooting",
+      "tags": [
+        "circuit",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4310",
+      "name": "Digital Logic Design",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Logic Design",
+      "tags": [
+        "digital",
+        "logic",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4311",
+      "name": "Ingebedde systemen",
+      "difficulty_level": 2,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4312",
+      "name": "Microcontroller programmeren",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Programming",
+      "tags": [
+        "microcontroller",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4313",
+      "name": "PCB -ontwerp",
+      "difficulty_level": 4,
+      "description": "Learn and master PCB Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4314",
+      "name": "Voedingsontwerp",
+      "difficulty_level": 1,
+      "description": "Learn and master Power Supply Design",
+      "tags": [
+        "power",
+        "supply",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4315",
+      "name": "Sensorintegratie",
+      "difficulty_level": 4,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4316",
+      "name": "Signaalverwerking",
+      "difficulty_level": 5,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4317",
+      "name": "Soldervaardigheden",
+      "difficulty_level": 1,
+      "description": "Learn and master Soldering Skills",
+      "tags": [
+        "soldering",
+        "skills",
+        "skill"
+      ]
+    }
+  ]
+}

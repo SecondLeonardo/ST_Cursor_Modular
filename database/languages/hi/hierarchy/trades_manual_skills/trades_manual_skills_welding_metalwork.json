@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_welding_metalwork",
+  "name": "वेल्डिंग और धातु -कार्य",
+  "skills": [
+    {
+      "id": "skill_5165",
+      "name": "चाप वेल्डिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5166",
+      "name": "ब्लूप्रिंट व्याख्या",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Interpretation",
+      "tags": [
+        "blueprint",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5167",
+      "name": "टार्च का उपयोग करना",
+      "difficulty_level": 2,
+      "description": "Learn and master Cutting Torch Use",
+      "tags": [
+        "cutting",
+        "torch",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5168",
+      "name": "मिग वेल्डिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5169",
+      "name": "धातु पीसना",
+      "difficulty_level": 3,
+      "description": "Learn and master Metal Grinding",
+      "tags": [
+        "metal",
+        "grinding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5170",
+      "name": "सुरक्षा गियर उपयोग",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Gear Use",
+      "tags": [
+        "safety",
+        "gear",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5171",
+      "name": "शीट धातु का निर्माण",
+      "difficulty_level": 4,
+      "description": "Learn and master Sheet Metal Fabrication",
+      "tags": [
+        "sheet",
+        "metal",
+        "fabrication"
+      ]
+    },
+    {
+      "id": "skill_5172",
+      "name": "छड़ी वेल्डिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Stick Welding",
+      "tags": [
+        "stick",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5173",
+      "name": "टंग्स्टन गैस से होने वाली वेल्डिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5174",
+      "name": "वेल्ड निरीक्षण",
+      "difficulty_level": 4,
+      "description": "Learn and master Weld Inspection",
+      "tags": [
+        "weld",
+        "inspection",
+        "skill"
+      ]
+    }
+  ]
+}

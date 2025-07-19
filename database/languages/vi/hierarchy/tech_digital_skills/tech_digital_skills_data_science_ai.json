@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_data_science_ai",
+  "name": "Khoa học dữ liệu & AI",
+  "skills": [
+    {
+      "id": "skill_4396",
+      "name": "Triển khai mô hình AI",
+      "difficulty_level": 2,
+      "description": "Learn and master AI Model Deployment",
+      "tags": [
+        "model",
+        "deployment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4397",
+      "name": "Công cụ dữ liệu lớn (Spark)",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Tools (Spark)",
+      "tags": [
+        "data",
+        "tools",
+        "(spark)"
+      ]
+    },
+    {
+      "id": "skill_4398",
+      "name": "Tầm nhìn máy tính",
+      "difficulty_level": 3,
+      "description": "Learn and master Computer Vision",
+      "tags": [
+        "computer",
+        "vision",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4399",
+      "name": "Phân tích dữ liệu với Python",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Analysis with Python",
+      "tags": [
+        "data",
+        "analysis",
+        "with",
+        "python"
+      ]
+    },
+    {
+      "id": "skill_4400",
+      "name": "Trực quan hóa dữ liệu",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4401",
+      "name": "Học sâu",
+      "difficulty_level": 2,
+      "description": "Learn and master Deep Learning",
+      "tags": [
+        "deep",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4402",
+      "name": "Học máy",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning",
+      "tags": [
+        "machine",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4403",
+      "name": "Các số liệu đánh giá mô hình",
+      "difficulty_level": 2,
+      "description": "Learn and master Model Evaluation Metrics",
+      "tags": [
+        "model",
+        "evaluation",
+        "metrics"
+      ]
+    },
+    {
+      "id": "skill_4404",
+      "name": "Xử lý ngôn ngữ tự nhiên",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4405",
+      "name": "Gandas & Numpy",
+      "difficulty_level": 5,
+      "description": "Learn and master Pandas & NumPy",
+      "tags": [
+        "pandas",
+        "numpy",
+        "skill"
+      ]
+    }
+  ]
+}

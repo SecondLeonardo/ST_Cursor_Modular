@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "Навыки торговли и мастерства",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "Строительство и плотницы"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "Электрика и сантехника"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "Товары ручной работы"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "Металл и сварка"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "Текстиль и кожа"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "Традиционные поделки"
+    }
+  ]
+}

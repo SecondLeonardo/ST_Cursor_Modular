@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "আর্টস, ডিজাইন এবং সৃজনশীলতা",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "কারুশিল্প এবং ডিআইওয়াই"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "সৃজনশীল রচনা"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "নকশা এবং ডিজিটাল আর্ট"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "পারফর্মিং আর্টস"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "ভিজ্যুয়াল আর্টস"
+    }
+  ]
+}

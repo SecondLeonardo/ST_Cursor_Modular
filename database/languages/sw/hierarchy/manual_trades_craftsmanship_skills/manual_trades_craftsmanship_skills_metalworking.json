@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_metalworking",
+  "name": "Kufanya kazi kwa chuma",
+  "skills": [
+    {
+      "id": "skill_3468",
+      "name": "Weusi",
+      "difficulty_level": 5,
+      "description": "Learn and master Blacksmithing",
+      "tags": [
+        "blacksmithing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3469",
+      "name": "CNC Machining",
+      "difficulty_level": 2,
+      "description": "Learn and master CNC Machining",
+      "tags": [
+        "machining",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3470",
+      "name": "Lathe Operesheni",
+      "difficulty_level": 5,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3471",
+      "name": "Metal Casting",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Casting",
+      "tags": [
+        "metal",
+        "casting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3472",
+      "name": "Uundaji wa chuma",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Fabrication",
+      "tags": [
+        "metal",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3473",
+      "name": "Metal Polishing",
+      "difficulty_level": 5,
+      "description": "Learn and master Metal Polishing",
+      "tags": [
+        "metal",
+        "polishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3474",
+      "name": "Kazi ya chuma ya karatasi",
+      "difficulty_level": 1,
+      "description": "Learn and master Sheet Metal Work",
+      "tags": [
+        "sheet",
+        "metal",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_3475",
+      "name": "Kuuzwa",
+      "difficulty_level": 1,
+      "description": "Learn and master Soldering",
+      "tags": [
+        "soldering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3476",
+      "name": "Zana na kutengeneza",
+      "difficulty_level": 2,
+      "description": "Learn and master Tool & Die Making",
+      "tags": [
+        "tool",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3477",
+      "name": "Kulehemu (mig/tig/fimbo)",
+      "difficulty_level": 5,
+      "description": "Learn and master Welding (MIG/TIG/Stick)",
+      "tags": [
+        "welding",
+        "(mig/tig/stick)",
+        "skill"
+      ]
+    }
+  ]
+}

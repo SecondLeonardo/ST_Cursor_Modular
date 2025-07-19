@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "व्यापार और शिल्प कौशल",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "निर्माण और बढ़ईगीरी"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "विद्युत और नलसाजी"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "हस्तनिर्मित माल"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "धातु -कार्य और वेल्डिंग"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "कपड़ा और चमड़ा"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "पारंपरिक शिल्प"
+    }
+  ]
+}

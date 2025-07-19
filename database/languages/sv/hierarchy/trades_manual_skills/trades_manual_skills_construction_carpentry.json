@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_construction_carpentry",
+  "name": "Konstruktion och snickeri",
+  "skills": [
+    {
+      "id": "skill_5055",
+      "name": "Byggnadsdäck",
+      "difficulty_level": 2,
+      "description": "Learn and master Building Decks",
+      "tags": [
+        "building",
+        "decks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5056",
+      "name": "Betongblandning",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5057",
+      "name": "Gipsinstallation",
+      "difficulty_level": 4,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5058",
+      "name": "Ramväggar",
+      "difficulty_level": 5,
+      "description": "Learn and master Framing Walls",
+      "tags": [
+        "framing",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5059",
+      "name": "Installera dörrar",
+      "difficulty_level": 4,
+      "description": "Learn and master Installing Doors",
+      "tags": [
+        "installing",
+        "doors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5060",
+      "name": "Mätning och markering",
+      "difficulty_level": 3,
+      "description": "Learn and master Measuring & Marking",
+      "tags": [
+        "measuring",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5061",
+      "name": "Takgrunder",
+      "difficulty_level": 5,
+      "description": "Learn and master Roofing Basics",
+      "tags": [
+        "roofing",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5062",
+      "name": "Slipning och efterbehandling",
+      "difficulty_level": 5,
+      "description": "Learn and master Sanding & Finishing",
+      "tags": [
+        "sanding",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5063",
+      "name": "Trappbyggnad",
+      "difficulty_level": 5,
+      "description": "Learn and master Stair Construction",
+      "tags": [
+        "stair",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5064",
+      "name": "Verktygssäkerhet",
+      "difficulty_level": 4,
+      "description": "Learn and master Tool Safety",
+      "tags": [
+        "tool",
+        "safety",
+        "skill"
+      ]
+    }
+  ]
+}

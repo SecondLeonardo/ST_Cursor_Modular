@@ -1,0 +1,116 @@
+{
+  "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+  "name": "DIY & Perbaikan",
+  "skills": [
+    {
+      "id": "skill_3358",
+      "name": "Perakitan perabot",
+      "difficulty_level": 2,
+      "description": "Learn and master Assembling Furniture",
+      "tags": [
+        "assembling",
+        "furniture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3359",
+      "name": "Pemeliharaan Mobil Dasar",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Car Maintenance",
+      "tags": [
+        "basic",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3360",
+      "name": "Memperbaiki faucet bocor",
+      "difficulty_level": 5,
+      "description": "Learn and master Fixing a Leaky Faucet",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucet"
+      ]
+    },
+    {
+      "id": "skill_3361",
+      "name": "Memasang rak",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing a Shelf",
+      "tags": [
+        "installing",
+        "shelf",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3362",
+      "name": "Mengecat kamar",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting a Room",
+      "tags": [
+        "painting",
+        "room",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3363",
+      "name": "Menambal drywall",
+      "difficulty_level": 5,
+      "description": "Learn and master Patching Drywall",
+      "tags": [
+        "patching",
+        "drywall",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3364",
+      "name": "Mengganti lampu",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing a Light Fixture",
+      "tags": [
+        "replacing",
+        "light",
+        "fixture"
+      ]
+    },
+    {
+      "id": "skill_3365",
+      "name": "Menjahit tombol",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing a Button",
+      "tags": [
+        "sewing",
+        "button",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3366",
+      "name": "Menghubungkan saluran pembuangan",
+      "difficulty_level": 3,
+      "description": "Learn and master Unclogging a Drain",
+      "tags": [
+        "unclogging",
+        "drain",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3367",
+      "name": "Menggunakan alat -alat listrik",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Power Tools",
+      "tags": [
+        "using",
+        "power",
+        "tools"
+      ]
+    }
+  ]
+}

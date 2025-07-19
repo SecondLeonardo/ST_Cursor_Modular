@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_logic_reasoning",
+  "name": "論理と推論",
+  "skills": [
+    {
+      "id": "skill_160",
+      "name": "抽象的な推論",
+      "difficulty_level": 4,
+      "description": "Learn and master Abstract Reasoning",
+      "tags": [
+        "abstract",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_161",
+      "name": "演ductive的な推論",
+      "difficulty_level": 1,
+      "description": "Learn and master Deductive Reasoning",
+      "tags": [
+        "deductive",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_162",
+      "name": "誤りの識別",
+      "difficulty_level": 2,
+      "description": "Learn and master Fallacy Identification",
+      "tags": [
+        "fallacy",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_163",
+      "name": "帰納的論理",
+      "difficulty_level": 4,
+      "description": "Learn and master Inductive Logic",
+      "tags": [
+        "inductive",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_164",
+      "name": "ロジックパズル",
+      "difficulty_level": 1,
+      "description": "Learn and master Logic Puzzles",
+      "tags": [
+        "logic",
+        "puzzles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_165",
+      "name": "数学的論理",
+      "difficulty_level": 4,
+      "description": "Learn and master Mathematical Logic",
+      "tags": [
+        "mathematical",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_166",
+      "name": "パターン認識",
+      "difficulty_level": 3,
+      "description": "Learn and master Pattern Recognition",
+      "tags": [
+        "pattern",
+        "recognition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_167",
+      "name": "問題の分解",
+      "difficulty_level": 4,
+      "description": "Learn and master Problem Decomposition",
+      "tags": [
+        "problem",
+        "decomposition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_168",
+      "name": "パズル解決",
+      "difficulty_level": 2,
+      "description": "Learn and master Puzzle Solving",
+      "tags": [
+        "puzzle",
+        "solving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_169",
+      "name": "システム思考",
+      "difficulty_level": 2,
+      "description": "Learn and master Systems Thinking",
+      "tags": [
+        "systems",
+        "thinking",
+        "skill"
+      ]
+    }
+  ]
+}

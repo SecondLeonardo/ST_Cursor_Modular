@@ -1,0 +1,116 @@
+{
+  "id": "education_language_academic_tutoring",
+  "name": "கல்வி பயிற்சி",
+  "skills": [
+    {
+      "id": "skill_2243",
+      "name": "உயிரியல் பயிற்சி",
+      "difficulty_level": 5,
+      "description": "Learn and master Biology Tutoring",
+      "tags": [
+        "biology",
+        "tutoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2244",
+      "name": "வேதியியல் பயிற்சி",
+      "difficulty_level": 1,
+      "description": "Learn and master Chemistry Practice",
+      "tags": [
+        "chemistry",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2245",
+      "name": "குடிமை கற்பித்தல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Civics Teaching",
+      "tags": [
+        "civics",
+        "teaching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2246",
+      "name": "புவியியல் ஆதரவு",
+      "difficulty_level": 3,
+      "description": "Learn and master Geography Support",
+      "tags": [
+        "geography",
+        "support",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2247",
+      "name": "வரலாற்று விளக்கம்",
+      "difficulty_level": 5,
+      "description": "Learn and master History Explanation",
+      "tags": [
+        "history",
+        "explanation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2248",
+      "name": "வீட்டுப்பாடம் உதவி",
+      "difficulty_level": 2,
+      "description": "Learn and master Homework Assistance",
+      "tags": [
+        "homework",
+        "assistance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2249",
+      "name": "இலக்கிய பகுப்பாய்வு",
+      "difficulty_level": 4,
+      "description": "Learn and master Literature Analysis",
+      "tags": [
+        "literature",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2250",
+      "name": "கணித பயிற்சி",
+      "difficulty_level": 5,
+      "description": "Learn and master Math Tutoring",
+      "tags": [
+        "math",
+        "tutoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2251",
+      "name": "இயற்பியல் கருத்துக்கள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Physics Concepts",
+      "tags": [
+        "physics",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2252",
+      "name": "அறிவியல் உதவி",
+      "difficulty_level": 2,
+      "description": "Learn and master Science Help",
+      "tags": [
+        "science",
+        "help",
+        "skill"
+      ]
+    }
+  ]
+}

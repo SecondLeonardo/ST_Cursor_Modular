@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_collecting",
+  "name": "수집",
+  "skills": [
+    {
+      "id": "skill_5375",
+      "name": "스탬프 수집",
+      "difficulty_level": 2,
+      "description": "Learn and master Stamp Collecting",
+      "tags": [
+        "stamp",
+        "collecting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5376",
+      "name": "동전 수집",
+      "difficulty_level": 5,
+      "description": "Learn and master Coin Collecting",
+      "tags": [
+        "coin",
+        "collecting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5377",
+      "name": "만화책 수집",
+      "difficulty_level": 3,
+      "description": "Learn and master Comic Book Collecting",
+      "tags": [
+        "comic",
+        "book",
+        "collecting"
+      ]
+    },
+    {
+      "id": "skill_5378",
+      "name": "골동품 사냥",
+      "difficulty_level": 4,
+      "description": "Learn and master Antique Hunting",
+      "tags": [
+        "antique",
+        "hunting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5379",
+      "name": "비닐 레코드 수집",
+      "difficulty_level": 1,
+      "description": "Learn and master Vinyl Record Collecting",
+      "tags": [
+        "vinyl",
+        "record",
+        "collecting"
+      ]
+    },
+    {
+      "id": "skill_5380",
+      "name": "액션 피겨 수집",
+      "difficulty_level": 1,
+      "description": "Learn and master Action Figure Collecting",
+      "tags": [
+        "action",
+        "figure",
+        "collecting"
+      ]
+    },
+    {
+      "id": "skill_5381",
+      "name": "예술 수집",
+      "difficulty_level": 2,
+      "description": "Learn and master Art Collecting",
+      "tags": [
+        "collecting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5382",
+      "name": "와인 수집",
+      "difficulty_level": 3,
+      "description": "Learn and master Wine Collecting",
+      "tags": [
+        "wine",
+        "collecting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5383",
+      "name": "엽서 수집",
+      "difficulty_level": 2,
+      "description": "Learn and master Postcard Collecting",
+      "tags": [
+        "postcard",
+        "collecting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5384",
+      "name": "사인 수집",
+      "difficulty_level": 2,
+      "description": "Learn and master Autograph Collecting",
+      "tags": [
+        "autograph",
+        "collecting",
+        "skill"
+      ]
+    }
+  ]
+}

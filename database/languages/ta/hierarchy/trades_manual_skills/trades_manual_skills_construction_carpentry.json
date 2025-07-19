@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_construction_carpentry",
+  "name": "கட்டுமானம் மற்றும் தச்சு",
+  "skills": [
+    {
+      "id": "skill_5055",
+      "name": "கட்டிட தளங்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Building Decks",
+      "tags": [
+        "building",
+        "decks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5056",
+      "name": "கான்கிரீட் கலவை",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5057",
+      "name": "உலர்வால் நிறுவல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5058",
+      "name": "ஃப்ரேமிங் சுவர்கள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Framing Walls",
+      "tags": [
+        "framing",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5059",
+      "name": "கதவுகளை நிறுவுதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Installing Doors",
+      "tags": [
+        "installing",
+        "doors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5060",
+      "name": "அளவிடுதல் மற்றும் குறித்தல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Measuring & Marking",
+      "tags": [
+        "measuring",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5061",
+      "name": "கூரை அடிப்படைகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Roofing Basics",
+      "tags": [
+        "roofing",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5062",
+      "name": "மணல் மற்றும் முடித்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Sanding & Finishing",
+      "tags": [
+        "sanding",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5063",
+      "name": "படிக்கட்டு கட்டுமானம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Stair Construction",
+      "tags": [
+        "stair",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5064",
+      "name": "கருவி பாதுகாப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Tool Safety",
+      "tags": [
+        "tool",
+        "safety",
+        "skill"
+      ]
+    }
+  ]
+}

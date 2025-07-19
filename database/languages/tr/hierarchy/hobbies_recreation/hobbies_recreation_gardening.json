@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_gardening",
+  "name": "Bahçecilik",
+  "skills": [
+    {
+      "id": "skill_5395",
+      "name": "Dikim teknikleri",
+      "difficulty_level": 5,
+      "description": "Learn and master Planting Techniques",
+      "tags": [
+        "planting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5396",
+      "name": "Toprak hazırlama",
+      "difficulty_level": 3,
+      "description": "Learn and master Soil Preparation",
+      "tags": [
+        "soil",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5397",
+      "name": "Kompostlama",
+      "difficulty_level": 1,
+      "description": "Learn and master Composting",
+      "tags": [
+        "composting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5398",
+      "name": "Budama",
+      "difficulty_level": 3,
+      "description": "Learn and master Pruning",
+      "tags": [
+        "pruning",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5399",
+      "name": "Haşere kontrolü",
+      "difficulty_level": 3,
+      "description": "Learn and master Pest Control",
+      "tags": [
+        "pest",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5400",
+      "name": "Organik bahçecilik",
+      "difficulty_level": 1,
+      "description": "Learn and master Organic Gardening",
+      "tags": [
+        "organic",
+        "gardening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5401",
+      "name": "Hidroponik",
+      "difficulty_level": 5,
+      "description": "Learn and master Hydroponics",
+      "tags": [
+        "hydroponics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5402",
+      "name": "Mevsimsel Dikim",
+      "difficulty_level": 1,
+      "description": "Learn and master Seasonal Planting",
+      "tags": [
+        "seasonal",
+        "planting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5403",
+      "name": "Bahçe tasarımı",
+      "difficulty_level": 2,
+      "description": "Learn and master Garden Design",
+      "tags": [
+        "garden",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5404",
+      "name": "Sulama sistemleri",
+      "difficulty_level": 2,
+      "description": "Learn and master Irrigation Systems",
+      "tags": [
+        "irrigation",
+        "systems",
+        "skill"
+      ]
+    }
+  ]
+}

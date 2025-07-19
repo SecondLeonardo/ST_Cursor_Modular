@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_construction_carpentry",
+  "name": "నిర్మాణం & వడ్రంగి",
+  "skills": [
+    {
+      "id": "skill_4865",
+      "name": "బ్లూప్రింట్ పఠనం",
+      "difficulty_level": 1,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4866",
+      "name": "కాంక్రీట్ మిక్సింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4867",
+      "name": "ప్లాస్టార్ బోర్డ్ సంస్థాపన",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4868",
+      "name": "ఫ్రేమింగ్ గోడలు",
+      "difficulty_level": 3,
+      "description": "Learn and master Framing Walls",
+      "tags": [
+        "framing",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4869",
+      "name": "ట్రిమ్ ఇన్‌స్టాల్ చేస్తోంది",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing Trim",
+      "tags": [
+        "installing",
+        "trim",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4870",
+      "name": "కలపను కొలవడం మరియు కత్తిరించడం",
+      "difficulty_level": 3,
+      "description": "Learn and master Measuring and Cutting Lumber",
+      "tags": [
+        "measuring",
+        "cutting",
+        "lumber"
+      ]
+    },
+    {
+      "id": "skill_4871",
+      "name": "పైకప్పు నిర్మాణ బేసిక్స్",
+      "difficulty_level": 1,
+      "description": "Learn and master Roof Construction Basics",
+      "tags": [
+        "roof",
+        "construction",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4872",
+      "name": "మెట్ల భవనం",
+      "difficulty_level": 4,
+      "description": "Learn and master Stair Building",
+      "tags": [
+        "stair",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4873",
+      "name": "నెయిల్ గన్ ఉపయోగించడం",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Nail Gun",
+      "tags": [
+        "using",
+        "nail",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4874",
+      "name": "విండో ఫ్రేమింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Framing",
+      "tags": [
+        "window",
+        "framing",
+        "skill"
+      ]
+    }
+  ]
+}

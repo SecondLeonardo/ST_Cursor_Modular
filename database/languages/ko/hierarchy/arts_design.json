@@ -1,0 +1,46 @@
+{
+  "id": "arts_design",
+  "name": "예술 및 디자인",
+  "subcategories": [
+    {
+      "id": "arts_design_3d_modeling",
+      "name": "3D 모델링"
+    },
+    {
+      "id": "arts_design_architecture_design",
+      "name": "건축 디자인"
+    },
+    {
+      "id": "arts_design_crafts",
+      "name": "공예"
+    },
+    {
+      "id": "arts_design_fashion_textiles",
+      "name": "패션 및 섬유"
+    },
+    {
+      "id": "arts_design_film_video",
+      "name": "영화 및 비디오"
+    },
+    {
+      "id": "arts_design_graphic_design",
+      "name": "그래픽 디자인"
+    },
+    {
+      "id": "arts_design_interior_design",
+      "name": "인테리어 디자인"
+    },
+    {
+      "id": "arts_design_performing_arts",
+      "name": "공연 예술"
+    },
+    {
+      "id": "arts_design_photography",
+      "name": "사진술"
+    },
+    {
+      "id": "arts_design_visual_arts",
+      "name": "시각 예술"
+    }
+  ]
+}

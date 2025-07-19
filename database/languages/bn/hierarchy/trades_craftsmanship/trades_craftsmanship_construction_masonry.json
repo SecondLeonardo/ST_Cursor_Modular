@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_construction_masonry",
+  "name": "নির্মাণ ও রাজমিস্ত্রি",
+  "skills": [
+    {
+      "id": "skill_4945",
+      "name": "ইটভেলিং",
+      "difficulty_level": 4,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4946",
+      "name": "কংক্রিট মিশ্রণ",
+      "difficulty_level": 4,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4947",
+      "name": "ড্রাইওয়াল ইনস্টলেশন",
+      "difficulty_level": 5,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4948",
+      "name": "ফাউন্ডেশন কাজ",
+      "difficulty_level": 2,
+      "description": "Learn and master Foundation Work",
+      "tags": [
+        "foundation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4949",
+      "name": "ব্লুপ্রিন্ট পড়া",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Blueprints",
+      "tags": [
+        "reading",
+        "blueprints",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4950",
+      "name": "রেবার প্লেসমেন্ট",
+      "difficulty_level": 4,
+      "description": "Learn and master Rebar Placement",
+      "tags": [
+        "rebar",
+        "placement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4951",
+      "name": "স্ক্যাফোল্ডিং সেটআপ",
+      "difficulty_level": 5,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4952",
+      "name": "পাথর রাজমিস্ত্রি",
+      "difficulty_level": 4,
+      "description": "Learn and master Stone Masonry",
+      "tags": [
+        "stone",
+        "masonry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4953",
+      "name": "স্টুকো অ্যাপ্লিকেশন",
+      "difficulty_level": 5,
+      "description": "Learn and master Stucco Application",
+      "tags": [
+        "stucco",
+        "application",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4954",
+      "name": "টাইল সেটিং",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Setting",
+      "tags": [
+        "tile",
+        "setting",
+        "skill"
+      ]
+    }
+  ]
+}

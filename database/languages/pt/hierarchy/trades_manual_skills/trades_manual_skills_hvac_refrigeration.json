@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_hvac_refrigeration",
+  "name": "HVAC e refrigeração",
+  "skills": [
+    {
+      "id": "skill_5095",
+      "name": "Reparo de ar condicionado",
+      "difficulty_level": 1,
+      "description": "Learn and master Air Conditioner Repair",
+      "tags": [
+        "conditioner",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5096",
+      "name": "Teste de qualidade do ar",
+      "difficulty_level": 3,
+      "description": "Learn and master Air Quality Testing",
+      "tags": [
+        "quality",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5097",
+      "name": "Diagnóstico do compressor",
+      "difficulty_level": 5,
+      "description": "Learn and master Compressor Diagnosis",
+      "tags": [
+        "compressor",
+        "diagnosis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5098",
+      "name": "Instalação do duto",
+      "difficulty_level": 1,
+      "description": "Learn and master Ductwork Installation",
+      "tags": [
+        "ductwork",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5099",
+      "name": "Solução de problemas de HVAC",
+      "difficulty_level": 1,
+      "description": "Learn and master HVAC Troubleshooting",
+      "tags": [
+        "hvac",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5100",
+      "name": "Manutenção do aquecedor",
+      "difficulty_level": 1,
+      "description": "Learn and master Heater Maintenance",
+      "tags": [
+        "heater",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5101",
+      "name": "Manuseio de refrigerante",
+      "difficulty_level": 5,
+      "description": "Learn and master Refrigerant Handling",
+      "tags": [
+        "refrigerant",
+        "handling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5102",
+      "name": "Conhecimento do ciclo de refrigeração",
+      "difficulty_level": 4,
+      "description": "Learn and master Refrigeration Cycle Knowledge",
+      "tags": [
+        "refrigeration",
+        "cycle",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5103",
+      "name": "Balanceamento do sistema",
+      "difficulty_level": 1,
+      "description": "Learn and master System Balancing",
+      "tags": [
+        "system",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5104",
+      "name": "Instalação do termostato",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermostat Installation",
+      "tags": [
+        "thermostat",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

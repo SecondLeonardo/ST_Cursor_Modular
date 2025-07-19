@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "技術的および機械的スキル",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "自動車スキル"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "建設と建物"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "電気工事"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "エネルギーと環境"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "産業スキル"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "機械的修理"
+    }
+  ]
+}

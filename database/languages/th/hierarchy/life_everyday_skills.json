@@ -1,0 +1,26 @@
+{
+  "id": "life_everyday_skills",
+  "name": "ทักษะชีวิตและชีวิตประจำวัน",
+  "subcategories": [
+    {
+      "id": "life_everyday_skills_cooking_food",
+      "name": "การทำอาหารและอาหาร"
+    },
+    {
+      "id": "life_everyday_skills_home_maintenance",
+      "name": "การบำรุงรักษาบ้าน"
+    },
+    {
+      "id": "life_everyday_skills_personal_finance",
+      "name": "การเงินส่วนบุคคล"
+    },
+    {
+      "id": "life_everyday_skills_time_management",
+      "name": "การจัดการเวลา"
+    },
+    {
+      "id": "life_everyday_skills_travel_navigation",
+      "name": "การเดินทางและการนำทาง"
+    }
+  ]
+}

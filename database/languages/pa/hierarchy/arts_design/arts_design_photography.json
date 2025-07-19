@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_photography",
+  "name": "ਫੋਟੋਗ੍ਰਾਫੀ",
+  "skills": [
+    {
+      "id": "skill_600",
+      "name": "ਕੈਮਰਾ ਸੈਟਿੰਗਜ਼",
+      "difficulty_level": 3,
+      "description": "Learn and master Camera Settings",
+      "tags": [
+        "camera",
+        "settings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_601",
+      "name": "ਡਿਜੀਟਲ ਵਰਕਫਲੋ",
+      "difficulty_level": 3,
+      "description": "Learn and master Digital Workflow",
+      "tags": [
+        "digital",
+        "workflow",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_602",
+      "name": "ਲੈਂਡਸਕੇਪ ਫੋਟੋਗ੍ਰਾਫੀ",
+      "difficulty_level": 4,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_603",
+      "name": "ਰੋਸ਼ਨੀ ਦੀਆਂ ਤਕਨੀਕਾਂ",
+      "difficulty_level": 2,
+      "description": "Learn and master Lighting Techniques",
+      "tags": [
+        "lighting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_604",
+      "name": "ਫੋਟੋ ਰਚਨਾ",
+      "difficulty_level": 2,
+      "description": "Learn and master Photo Composition",
+      "tags": [
+        "photo",
+        "composition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_605",
+      "name": "ਫੋਟੋ ਸੰਪਾਦਨ",
+      "difficulty_level": 2,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_606",
+      "name": "ਫੋਟੋ ਜਰਨਲਿਜ਼ਮ",
+      "difficulty_level": 4,
+      "description": "Learn and master Photojournalism",
+      "tags": [
+        "photojournalism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_607",
+      "name": "ਪੋਰਟਰੇਟ ਫੋਟੋਗ੍ਰਾਫੀ",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_608",
+      "name": "ਸਟ੍ਰੀਟ ਫੋਟੋਗ੍ਰਾਫੀ",
+      "difficulty_level": 5,
+      "description": "Learn and master Street Photography",
+      "tags": [
+        "street",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_609",
+      "name": "ਸਟੂਡੀਓ ਫੋਟੋਗ੍ਰਾਫੀ",
+      "difficulty_level": 4,
+      "description": "Learn and master Studio Photography",
+      "tags": [
+        "studio",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

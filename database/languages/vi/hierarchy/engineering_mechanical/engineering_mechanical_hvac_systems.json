@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_hvac_systems",
+  "name": "HVAC & Systems",
+  "skills": [
+    {
+      "id": "skill_2383",
+      "name": "Hệ thống nồi hơi",
+      "difficulty_level": 5,
+      "description": "Learn and master Boiler Systems",
+      "tags": [
+        "boiler",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2384",
+      "name": "Hệ thống quản lý tòa nhà",
+      "difficulty_level": 5,
+      "description": "Learn and master Building Management Systems",
+      "tags": [
+        "building",
+        "management",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_2385",
+      "name": "Máy làm lạnh & Tháp làm mát",
+      "difficulty_level": 3,
+      "description": "Learn and master Chillers & Cooling Towers",
+      "tags": [
+        "chillers",
+        "cooling",
+        "towers"
+      ]
+    },
+    {
+      "id": "skill_2386",
+      "name": "Bố cục ống dẫn",
+      "difficulty_level": 3,
+      "description": "Learn and master Ductwork Layout",
+      "tags": [
+        "ductwork",
+        "layout",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2387",
+      "name": "Hiệu quả năng lượng",
+      "difficulty_level": 2,
+      "description": "Learn and master Energy Efficiency",
+      "tags": [
+        "energy",
+        "efficiency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2388",
+      "name": "Thiết kế HVAC",
+      "difficulty_level": 3,
+      "description": "Learn and master HVAC Design",
+      "tags": [
+        "hvac",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2389",
+      "name": "Bảo trì HVAC",
+      "difficulty_level": 3,
+      "description": "Learn and master HVAC Maintenance",
+      "tags": [
+        "hvac",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2390",
+      "name": "Bơm nhiệt",
+      "difficulty_level": 1,
+      "description": "Learn and master Heat Pumps",
+      "tags": [
+        "heat",
+        "pumps",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2391",
+      "name": "Hệ thống lạnh",
+      "difficulty_level": 5,
+      "description": "Learn and master Refrigeration Systems",
+      "tags": [
+        "refrigeration",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2392",
+      "name": "Tính toán tải nhiệt",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermal Load Calculation",
+      "tags": [
+        "thermal",
+        "load",
+        "calculation"
+      ]
+    }
+  ]
+}

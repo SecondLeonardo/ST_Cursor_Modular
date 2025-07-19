@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_machine_operation",
+  "name": "기계 작동",
+  "skills": [
+    {
+      "id": "skill_3538",
+      "name": "3D 프린터 설정",
+      "difficulty_level": 4,
+      "description": "Learn and master 3D Printer Setup",
+      "tags": [
+        "printer",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3539",
+      "name": "CNC 기계 사용",
+      "difficulty_level": 2,
+      "description": "Learn and master CNC Machine Use",
+      "tags": [
+        "machine",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3540",
+      "name": "크레인 신호",
+      "difficulty_level": 1,
+      "description": "Learn and master Crane Signals",
+      "tags": [
+        "crane",
+        "signals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3541",
+      "name": "지게차 운전",
+      "difficulty_level": 5,
+      "description": "Learn and master Forklift Driving",
+      "tags": [
+        "forklift",
+        "driving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3542",
+      "name": "레이저 커터 안전",
+      "difficulty_level": 1,
+      "description": "Learn and master Laser Cutter Safety",
+      "tags": [
+        "laser",
+        "cutter",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3543",
+      "name": "선반 작동",
+      "difficulty_level": 3,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3544",
+      "name": "파워 드릴 취급",
+      "difficulty_level": 3,
+      "description": "Learn and master Power Drill Handling",
+      "tags": [
+        "power",
+        "drill",
+        "handling"
+      ]
+    },
+    {
+      "id": "skill_3545",
+      "name": "브레이크 사용을 누릅니다",
+      "difficulty_level": 5,
+      "description": "Learn and master Press Brake Use",
+      "tags": [
+        "press",
+        "brake",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3546",
+      "name": "재봉틀 기본",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing Machine Basics",
+      "tags": [
+        "sewing",
+        "machine",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_3547",
+      "name": "용접 기계 설정",
+      "difficulty_level": 2,
+      "description": "Learn and master Welding Machine Setup",
+      "tags": [
+        "welding",
+        "machine",
+        "setup"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_data_science_ai",
+  "name": "วิทยาศาสตร์ข้อมูลและ AI",
+  "skills": [
+    {
+      "id": "skill_4288",
+      "name": "จริยธรรม AI",
+      "difficulty_level": 3,
+      "description": "Learn and master AI Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4289",
+      "name": "เครื่องมือข้อมูลขนาดใหญ่",
+      "difficulty_level": 3,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4290",
+      "name": "การทำความสะอาดข้อมูล",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4291",
+      "name": "การสร้างภาพข้อมูล",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4292",
+      "name": "การสร้างแบบจำลองการเรียนรู้ของเครื่องจักร",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning Modeling",
+      "tags": [
+        "machine",
+        "learning",
+        "modeling"
+      ]
+    },
+    {
+      "id": "skill_4293",
+      "name": "การประมวลผลภาษาธรรมชาติ",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4294",
+      "name": "เครือข่ายประสาท",
+      "difficulty_level": 3,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4295",
+      "name": "การวิเคราะห์เชิงพยากรณ์",
+      "difficulty_level": 1,
+      "description": "Learn and master Predictive Analytics",
+      "tags": [
+        "predictive",
+        "analytics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4296",
+      "name": "Python สำหรับวิทยาศาสตร์ข้อมูล",
+      "difficulty_level": 5,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_4297",
+      "name": "SQL สอบถาม",
+      "difficulty_level": 2,
+      "description": "Learn and master SQL Querying",
+      "tags": [
+        "querying",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

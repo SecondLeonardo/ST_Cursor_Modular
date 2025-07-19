@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_home_repair",
+  "name": "Sửa chữa nhà",
+  "skills": [
+    {
+      "id": "skill_2898",
+      "name": "Sử dụng công cụ cơ bản",
+      "difficulty_level": 4,
+      "description": "Learn and master Basic Tool Use",
+      "tags": [
+        "basic",
+        "tool",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2899",
+      "name": "CALKKING",
+      "difficulty_level": 4,
+      "description": "Learn and master Caulking",
+      "tags": [
+        "caulking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2900",
+      "name": "Sửa bản lề cửa",
+      "difficulty_level": 2,
+      "description": "Learn and master Door Hinge Fixing",
+      "tags": [
+        "door",
+        "hinge",
+        "fixing"
+      ]
+    },
+    {
+      "id": "skill_2901",
+      "name": "Cài đặt vách thạch cao",
+      "difficulty_level": 2,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2902",
+      "name": "Sửa chữa sàn",
+      "difficulty_level": 5,
+      "description": "Learn and master Floorboard Repair",
+      "tags": [
+        "floorboard",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2903",
+      "name": "Sửa chữa nội thất",
+      "difficulty_level": 5,
+      "description": "Learn and master Furniture Repair",
+      "tags": [
+        "furniture",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2904",
+      "name": "Bức tranh tường",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2905",
+      "name": "Mái nhà bị rò rỉ",
+      "difficulty_level": 3,
+      "description": "Learn and master Roof Leak Patching",
+      "tags": [
+        "roof",
+        "leak",
+        "patching"
+      ]
+    },
+    {
+      "id": "skill_2906",
+      "name": "Vá tường",
+      "difficulty_level": 4,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2907",
+      "name": "Sửa chữa con dấu cửa sổ",
+      "difficulty_level": 3,
+      "description": "Learn and master Window Seal Fixing",
+      "tags": [
+        "window",
+        "seal",
+        "fixing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "learning_academic_skills",
+  "name": "ทักษะการเรียนรู้และการศึกษา",
+  "subcategories": [
+    {
+      "id": "learning_academic_skills_language_learning",
+      "name": "การเรียนรู้ภาษา"
+    },
+    {
+      "id": "learning_academic_skills_mathematics",
+      "name": "คณิตศาสตร์"
+    },
+    {
+      "id": "learning_academic_skills_science_research",
+      "name": "วิทยาศาสตร์และการวิจัย"
+    },
+    {
+      "id": "learning_academic_skills_study_techniques",
+      "name": "เทคนิคการศึกษา"
+    },
+    {
+      "id": "learning_academic_skills_test_preparation",
+      "name": "เตรียมทดสอบ"
+    }
+  ]
+}

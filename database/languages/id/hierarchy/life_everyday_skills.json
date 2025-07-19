@@ -1,0 +1,26 @@
+{
+  "id": "life_everyday_skills",
+  "name": "Kehidupan & Keterampilan Sehari -hari",
+  "subcategories": [
+    {
+      "id": "life_everyday_skills_cooking_food",
+      "name": "Memasak & Makanan"
+    },
+    {
+      "id": "life_everyday_skills_home_maintenance",
+      "name": "Pemeliharaan rumah"
+    },
+    {
+      "id": "life_everyday_skills_personal_finance",
+      "name": "Keuangan Pribadi"
+    },
+    {
+      "id": "life_everyday_skills_time_management",
+      "name": "Manajemen waktu"
+    },
+    {
+      "id": "life_everyday_skills_travel_navigation",
+      "name": "Perjalanan & Navigasi"
+    }
+  ]
+}

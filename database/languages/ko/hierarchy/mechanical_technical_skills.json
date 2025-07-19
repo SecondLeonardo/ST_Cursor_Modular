@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "기계 및 기술 기술",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "자동차 유지 보수"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "엔지니어링 기본"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "주택 수리 및 설치"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "기계 작동"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "도구 사용 및 안전"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "목재 및 금속 작업"
+    }
+  ]
+}

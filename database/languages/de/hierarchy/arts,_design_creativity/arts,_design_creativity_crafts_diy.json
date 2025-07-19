@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_crafts_diy",
+  "name": "Handwerk & DIY",
+  "skills": [
+    {
+      "id": "skill_720",
+      "name": "Perlen",
+      "difficulty_level": 1,
+      "description": "Learn and master Beading",
+      "tags": [
+        "beading",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_721",
+      "name": "Kerzenherstellung",
+      "difficulty_level": 5,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_722",
+      "name": "Stickerei",
+      "difficulty_level": 3,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_723",
+      "name": "Stricken",
+      "difficulty_level": 2,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_724",
+      "name": "Lederarbeit",
+      "difficulty_level": 5,
+      "description": "Learn and master Leatherworking",
+      "tags": [
+        "leatherworking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_725",
+      "name": "Makramee",
+      "difficulty_level": 5,
+      "description": "Learn and master Macramé",
+      "tags": [
+        "macramé",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_726",
+      "name": "Origami",
+      "difficulty_level": 3,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_727",
+      "name": "Scrapbooking",
+      "difficulty_level": 4,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_728",
+      "name": "Seifenherstellung",
+      "difficulty_level": 4,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_729",
+      "name": "Holzschnitzerei",
+      "difficulty_level": 5,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    }
+  ]
+}

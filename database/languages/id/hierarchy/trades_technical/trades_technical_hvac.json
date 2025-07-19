@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_hvac",
+  "name": "Hvac",
+  "skills": [
+    {
+      "id": "skill_5215",
+      "name": "Perbaikan AC",
+      "difficulty_level": 2,
+      "description": "Learn and master AC Repair",
+      "tags": [
+        "repair",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5216",
+      "name": "Pembersihan saluran udara",
+      "difficulty_level": 4,
+      "description": "Learn and master Air Duct Cleaning",
+      "tags": [
+        "duct",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5217",
+      "name": "Perbaikan Kompresor",
+      "difficulty_level": 4,
+      "description": "Learn and master Compressor Repair",
+      "tags": [
+        "compressor",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5218",
+      "name": "Penggantian filter",
+      "difficulty_level": 3,
+      "description": "Learn and master Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5219",
+      "name": "Pemecahan masalah HVAC",
+      "difficulty_level": 1,
+      "description": "Learn and master HVAC Troubleshooting",
+      "tags": [
+        "hvac",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5220",
+      "name": "Layanan Pompa Panas",
+      "difficulty_level": 4,
+      "description": "Learn and master Heat Pump Servicing",
+      "tags": [
+        "heat",
+        "pump",
+        "servicing"
+      ]
+    },
+    {
+      "id": "skill_5221",
+      "name": "Sistem Pendinginan",
+      "difficulty_level": 1,
+      "description": "Learn and master Refrigeration Systems",
+      "tags": [
+        "refrigeration",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5222",
+      "name": "Perhitungan beban termal",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermal Load Calculations",
+      "tags": [
+        "thermal",
+        "load",
+        "calculations"
+      ]
+    },
+    {
+      "id": "skill_5223",
+      "name": "Pemasangan termostat",
+      "difficulty_level": 3,
+      "description": "Learn and master Thermostat Installation",
+      "tags": [
+        "thermostat",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5224",
+      "name": "Balancing ventilasi",
+      "difficulty_level": 5,
+      "description": "Learn and master Ventilation Balancing",
+      "tags": [
+        "ventilation",
+        "balancing",
+        "skill"
+      ]
+    }
+  ]
+}

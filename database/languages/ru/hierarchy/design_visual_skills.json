@@ -1,0 +1,30 @@
+{
+  "id": "design_visual_skills",
+  "name": "Дизайн и визуальные навыки",
+  "subcategories": [
+    {
+      "id": "design_visual_skills_3d_modeling_animation",
+      "name": "3D -моделирование и анимация"
+    },
+    {
+      "id": "design_visual_skills_branding_identity",
+      "name": "Брендинг и личность"
+    },
+    {
+      "id": "design_visual_skills_graphic_design",
+      "name": "Графический дизайн"
+    },
+    {
+      "id": "design_visual_skills_illustration",
+      "name": "Иллюстрация"
+    },
+    {
+      "id": "design_visual_skills_photography",
+      "name": "Фотография"
+    },
+    {
+      "id": "design_visual_skills_ux/ui_design",
+      "name": "UX/дизайн пользовательского интерфейса"
+    }
+  ]
+}

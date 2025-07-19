@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_performing_arts",
+  "name": "कला प्रदर्शन",
+  "skills": [
+    {
+      "id": "skill_490",
+      "name": "अभिनय तकनीक",
+      "difficulty_level": 4,
+      "description": "Learn and master Acting Techniques",
+      "tags": [
+        "acting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_491",
+      "name": "नृत्य कोरियोग्राफी",
+      "difficulty_level": 3,
+      "description": "Learn and master Dance Choreography",
+      "tags": [
+        "dance",
+        "choreography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_492",
+      "name": "आशुरचना",
+      "difficulty_level": 5,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_493",
+      "name": "अंगविक्षेप",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_494",
+      "name": "म्यूज़िकल थिएटर",
+      "difficulty_level": 3,
+      "description": "Learn and master Musical Theater",
+      "tags": [
+        "musical",
+        "theater",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_495",
+      "name": "सार्वजनिक रूप से बोलना",
+      "difficulty_level": 1,
+      "description": "Learn and master Public Speaking",
+      "tags": [
+        "public",
+        "speaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_496",
+      "name": "मंच का मुकाबला",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Combat",
+      "tags": [
+        "stage",
+        "combat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_497",
+      "name": "मंच पर उपस्थिति",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_498",
+      "name": "थिएटर की दिशा",
+      "difficulty_level": 3,
+      "description": "Learn and master Theater Direction",
+      "tags": [
+        "theater",
+        "direction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_499",
+      "name": "आवाज प्रशिक्षण",
+      "difficulty_level": 3,
+      "description": "Learn and master Voice Training",
+      "tags": [
+        "voice",
+        "training",
+        "skill"
+      ]
+    }
+  ]
+}

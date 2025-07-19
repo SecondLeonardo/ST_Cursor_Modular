@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "健康とウェルネス",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "代替医療"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "応急処置と緊急事態"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "フィットネストレーニング"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "全体的な健康"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "医学知識"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "医療スキル"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "メンタルヘルス"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "メンタルヘルスの実践"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "マインドフルネスと瞑想"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "栄養と食事"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "パーソナルケア"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "体力"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "リハビリテーションとセラピー"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "生殖健康"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "セルフケアと衛生"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "睡眠と回復"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "ストレス管理"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "ヨガと瞑想"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_computer_data_science",
+  "name": "संगणक आणि डेटा विज्ञान",
+  "skills": [
+    {
+      "id": "skill_4068",
+      "name": "मोठी डेटा साधने",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4069",
+      "name": "डेटा साफसफाई",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4070",
+      "name": "डेटा नीतिशास्त्र",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Ethics",
+      "tags": [
+        "data",
+        "ethics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4071",
+      "name": "डेटा खाण",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Mining",
+      "tags": [
+        "data",
+        "mining",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4072",
+      "name": "डेटा वेअरहाउसिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Warehousing",
+      "tags": [
+        "data",
+        "warehousing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4073",
+      "name": "डेटाबेस क्वेरींग",
+      "difficulty_level": 2,
+      "description": "Learn and master Database Querying",
+      "tags": [
+        "database",
+        "querying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4074",
+      "name": "मशीन लर्निंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Machine Learning",
+      "tags": [
+        "machine",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4075",
+      "name": "नैसर्गिक भाषा प्रक्रिया",
+      "difficulty_level": 5,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4076",
+      "name": "पायथन प्रोग्रामिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4077",
+      "name": "सांख्यिकीय संगणन",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Computing",
+      "tags": [
+        "statistical",
+        "computing",
+        "skill"
+      ]
+    }
+  ]
+}

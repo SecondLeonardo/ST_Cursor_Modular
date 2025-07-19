@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "技术与数字",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "网络安全"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "数据和AI"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "数字营销"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "IT和网络"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "软件开发"
+    }
+  ]
+}

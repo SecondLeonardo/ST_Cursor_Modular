@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_painting_finishing",
+  "name": "Malowanie i wykończenie",
+  "skills": [
+    {
+      "id": "skill_5135",
+      "name": "Techniki pędzla i rolki",
+      "difficulty_level": 2,
+      "description": "Learn and master Brush & Roller Techniques",
+      "tags": [
+        "brush",
+        "roller",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_5136",
+      "name": "Dopasowanie kolorów",
+      "difficulty_level": 5,
+      "description": "Learn and master Color Matching",
+      "tags": [
+        "color",
+        "matching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5137",
+      "name": "Malarstwo zewnętrzne",
+      "difficulty_level": 3,
+      "description": "Learn and master Exterior Painting",
+      "tags": [
+        "exterior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5138",
+      "name": "Zakończyć teksturowanie",
+      "difficulty_level": 4,
+      "description": "Learn and master Finish Texturing",
+      "tags": [
+        "finish",
+        "texturing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5139",
+      "name": "Malarstwo wewnętrzne",
+      "difficulty_level": 3,
+      "description": "Learn and master Interior Painting",
+      "tags": [
+        "interior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5140",
+      "name": "Powłoki ochronne",
+      "difficulty_level": 3,
+      "description": "Learn and master Protective Coatings",
+      "tags": [
+        "protective",
+        "coatings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5141",
+      "name": "Malarstwo natryskowe",
+      "difficulty_level": 4,
+      "description": "Learn and master Spray Painting",
+      "tags": [
+        "spray",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5142",
+      "name": "Techniki barwienia",
+      "difficulty_level": 3,
+      "description": "Learn and master Staining Techniques",
+      "tags": [
+        "staining",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5143",
+      "name": "Przygotowanie powierzchni",
+      "difficulty_level": 5,
+      "description": "Learn and master Surface Preparation",
+      "tags": [
+        "surface",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5144",
+      "name": "Instalacja tapety",
+      "difficulty_level": 3,
+      "description": "Learn and master Wallpaper Installation",
+      "tags": [
+        "wallpaper",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_medical_health_sciences",
+  "name": "医学および健康科学",
+  "skills": [
+    {
+      "id": "skill_4108",
+      "name": "解剖学",
+      "difficulty_level": 3,
+      "description": "Learn and master Anatomy",
+      "tags": [
+        "anatomy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4109",
+      "name": "臨床研究",
+      "difficulty_level": 1,
+      "description": "Learn and master Clinical Research",
+      "tags": [
+        "clinical",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4110",
+      "name": "疫学",
+      "difficulty_level": 2,
+      "description": "Learn and master Epidemiology",
+      "tags": [
+        "epidemiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4111",
+      "name": "応急処置",
+      "difficulty_level": 1,
+      "description": "Learn and master First Aid",
+      "tags": [
+        "first",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4112",
+      "name": "組織学",
+      "difficulty_level": 3,
+      "description": "Learn and master Histology",
+      "tags": [
+        "histology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4113",
+      "name": "医療倫理",
+      "difficulty_level": 4,
+      "description": "Learn and master Medical Ethics",
+      "tags": [
+        "medical",
+        "ethics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4114",
+      "name": "医療イメージング",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Imaging",
+      "tags": [
+        "medical",
+        "imaging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4115",
+      "name": "病理学",
+      "difficulty_level": 3,
+      "description": "Learn and master Pathology",
+      "tags": [
+        "pathology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4116",
+      "name": "薬理学",
+      "difficulty_level": 4,
+      "description": "Learn and master Pharmacology",
+      "tags": [
+        "pharmacology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4117",
+      "name": "公衆衛生",
+      "difficulty_level": 3,
+      "description": "Learn and master Public Health",
+      "tags": [
+        "public",
+        "health",
+        "skill"
+      ]
+    }
+  ]
+}

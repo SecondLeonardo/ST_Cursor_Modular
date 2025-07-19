@@ -1,0 +1,116 @@
+{
+  "id": "education_language_higher_education",
+  "name": "Giáo dục đại học",
+  "skills": [
+    {
+      "id": "skill_2263",
+      "name": "Trình bày học thuật",
+      "difficulty_level": 1,
+      "description": "Learn and master Academic Presentation",
+      "tags": [
+        "academic",
+        "presentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2264",
+      "name": "Nghiên cứu học thuật",
+      "difficulty_level": 5,
+      "description": "Learn and master Academic Research",
+      "tags": [
+        "academic",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2265",
+      "name": "Kiểu trích dẫn (APA/MLA)",
+      "difficulty_level": 2,
+      "description": "Learn and master Citation Styles (APA/MLA)",
+      "tags": [
+        "citation",
+        "styles",
+        "(apa/mla)"
+      ]
+    },
+    {
+      "id": "skill_2266",
+      "name": "Ứng dụng đại học trợ giúp",
+      "difficulty_level": 3,
+      "description": "Learn and master College Application Help",
+      "tags": [
+        "college",
+        "application",
+        "help"
+      ]
+    },
+    {
+      "id": "skill_2267",
+      "name": "Phát triển tư duy phê phán",
+      "difficulty_level": 1,
+      "description": "Learn and master Critical Thinking Development",
+      "tags": [
+        "critical",
+        "thinking",
+        "development"
+      ]
+    },
+    {
+      "id": "skill_2268",
+      "name": "Tranh luận huấn luyện",
+      "difficulty_level": 2,
+      "description": "Learn and master Debate Coaching",
+      "tags": [
+        "debate",
+        "coaching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2269",
+      "name": "Kỹ năng đánh giá ngang hàng",
+      "difficulty_level": 5,
+      "description": "Learn and master Peer Review Skills",
+      "tags": [
+        "peer",
+        "review",
+        "skills"
+      ]
+    },
+    {
+      "id": "skill_2270",
+      "name": "Tìm kiếm học bổng",
+      "difficulty_level": 2,
+      "description": "Learn and master Scholarship Searching",
+      "tags": [
+        "scholarship",
+        "searching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2271",
+      "name": "Luận văn viết",
+      "difficulty_level": 3,
+      "description": "Learn and master Thesis Writing",
+      "tags": [
+        "thesis",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2272",
+      "name": "Hỗ trợ tiểu luận đại học",
+      "difficulty_level": 5,
+      "description": "Learn and master University Essay Support",
+      "tags": [
+        "university",
+        "essay",
+        "support"
+      ]
+    }
+  ]
+}

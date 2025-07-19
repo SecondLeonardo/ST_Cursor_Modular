@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "Hälsa, fitness och sport",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "Fitnessträning"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "Näring"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "Utomhus- och äventyr"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "Idrottsförmåga"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "Wellness & Recovery"
+    }
+  ]
+}

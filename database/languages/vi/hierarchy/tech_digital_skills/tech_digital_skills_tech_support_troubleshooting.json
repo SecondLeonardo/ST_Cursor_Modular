@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_tech_support_troubleshooting",
+  "name": "Hỗ trợ kỹ thuật & Khắc phục sự cố",
+  "skills": [
+    {
+      "id": "skill_4486",
+      "name": "Kịch bản cơ bản",
+      "difficulty_level": 1,
+      "description": "Learn and master Basic Scripting",
+      "tags": [
+        "basic",
+        "scripting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4487",
+      "name": "Kiểm tra khả năng tương thích thiết bị",
+      "difficulty_level": 1,
+      "description": "Learn and master Device Compatibility Testing",
+      "tags": [
+        "device",
+        "compatibility",
+        "testing"
+      ]
+    },
+    {
+      "id": "skill_4488",
+      "name": "Chẩn đoán các vấn đề phần cứng",
+      "difficulty_level": 1,
+      "description": "Learn and master Diagnosing Hardware Issues",
+      "tags": [
+        "diagnosing",
+        "hardware",
+        "issues"
+      ]
+    },
+    {
+      "id": "skill_4489",
+      "name": "Cài đặt phần mềm",
+      "difficulty_level": 5,
+      "description": "Learn and master Installing Software",
+      "tags": [
+        "installing",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4490",
+      "name": "Quản lý tài khoản người dùng",
+      "difficulty_level": 2,
+      "description": "Learn and master Managing User Accounts",
+      "tags": [
+        "managing",
+        "user",
+        "accounts"
+      ]
+    },
+    {
+      "id": "skill_4491",
+      "name": "Thiết lập máy in",
+      "difficulty_level": 4,
+      "description": "Learn and master Printer Setup",
+      "tags": [
+        "printer",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4492",
+      "name": "Khởi động lại và sửa chữa",
+      "difficulty_level": 4,
+      "description": "Learn and master Reboot and Repair",
+      "tags": [
+        "reboot",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4493",
+      "name": "Hỗ trợ công nghệ từ xa",
+      "difficulty_level": 2,
+      "description": "Learn and master Remote Tech Support",
+      "tags": [
+        "remote",
+        "tech",
+        "support"
+      ]
+    },
+    {
+      "id": "skill_4494",
+      "name": "Kiến thức cấp phép phần mềm",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Licensing Knowledge",
+      "tags": [
+        "software",
+        "licensing",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_4495",
+      "name": "Phục hồi hệ thống",
+      "difficulty_level": 2,
+      "description": "Learn and master System Recovery",
+      "tags": [
+        "system",
+        "recovery",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_linguistics",
+  "name": "மொழியியல்",
+  "skills": [
+    {
+      "id": "skill_1993",
+      "name": "விளக்க இலக்கணம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Descriptive Grammar",
+      "tags": [
+        "descriptive",
+        "grammar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1994",
+      "name": "மொழி கையகப்படுத்தல் கோட்பாடு",
+      "difficulty_level": 4,
+      "description": "Learn and master Language Acquisition Theory",
+      "tags": [
+        "language",
+        "acquisition",
+        "theory"
+      ]
+    },
+    {
+      "id": "skill_1995",
+      "name": "மொழியியல் அச்சுக்கலை",
+      "difficulty_level": 1,
+      "description": "Learn and master Linguistic Typology",
+      "tags": [
+        "linguistic",
+        "typology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1996",
+      "name": "உருவவியல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Morphology",
+      "tags": [
+        "morphology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1997",
+      "name": "ஒலிப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Phonetics",
+      "tags": [
+        "phonetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1998",
+      "name": "ஒலியியல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Phonology",
+      "tags": [
+        "phonology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1999",
+      "name": "நடைமுறை",
+      "difficulty_level": 5,
+      "description": "Learn and master Pragmatics",
+      "tags": [
+        "pragmatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2000",
+      "name": "சொற்பொருள் ஆய்வு",
+      "difficulty_level": 2,
+      "description": "Learn and master Semantic Study",
+      "tags": [
+        "semantic",
+        "study",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2001",
+      "name": "சமூகவியல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Sociolinguistics",
+      "tags": [
+        "sociolinguistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2002",
+      "name": "தொடரியல் பகுப்பாய்வு",
+      "difficulty_level": 4,
+      "description": "Learn and master Syntax Analysis",
+      "tags": [
+        "syntax",
+        "analysis",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_earth_environmental_sciences",
+  "name": "Nauk o ziemi i środowiska",
+  "skills": [
+    {
+      "id": "skill_4078",
+      "name": "Klimatologia",
+      "difficulty_level": 1,
+      "description": "Learn and master Climatology",
+      "tags": [
+        "climatology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4079",
+      "name": "Ocena wpływu na środowisko",
+      "difficulty_level": 4,
+      "description": "Learn and master Environmental Impact Assessment",
+      "tags": [
+        "environmental",
+        "impact",
+        "assessment"
+      ]
+    },
+    {
+      "id": "skill_4080",
+      "name": "Mapowanie GIS",
+      "difficulty_level": 2,
+      "description": "Learn and master GIS Mapping",
+      "tags": [
+        "mapping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4081",
+      "name": "Geologia",
+      "difficulty_level": 1,
+      "description": "Learn and master Geology",
+      "tags": [
+        "geology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4082",
+      "name": "Hydrologia",
+      "difficulty_level": 1,
+      "description": "Learn and master Hydrology",
+      "tags": [
+        "hydrology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4083",
+      "name": "Meteorologia",
+      "difficulty_level": 3,
+      "description": "Learn and master Meteorology",
+      "tags": [
+        "meteorology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4084",
+      "name": "Zdalne wykrywanie",
+      "difficulty_level": 2,
+      "description": "Learn and master Remote Sensing",
+      "tags": [
+        "remote",
+        "sensing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4085",
+      "name": "Pobieranie próbek gleby",
+      "difficulty_level": 4,
+      "description": "Learn and master Soil Sampling",
+      "tags": [
+        "soil",
+        "sampling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4086",
+      "name": "Zarządzanie odpadami",
+      "difficulty_level": 5,
+      "description": "Learn and master Waste Management",
+      "tags": [
+        "waste",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4087",
+      "name": "Śledzenie dzikiej przyrody",
+      "difficulty_level": 2,
+      "description": "Learn and master Wildlife Tracking",
+      "tags": [
+        "wildlife",
+        "tracking",
+        "skill"
+      ]
+    }
+  ]
+}

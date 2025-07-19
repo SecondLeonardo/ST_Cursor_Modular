@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_film_video",
+  "name": "영화 및 비디오",
+  "skills": [
+    {
+      "id": "skill_560",
+      "name": "영화 촬영법",
+      "difficulty_level": 2,
+      "description": "Learn and master Cinematography",
+      "tags": [
+        "cinematography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_561",
+      "name": "색 보정",
+      "difficulty_level": 3,
+      "description": "Learn and master Color Correction",
+      "tags": [
+        "color",
+        "correction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_562",
+      "name": "지시",
+      "difficulty_level": 2,
+      "description": "Learn and master Directing",
+      "tags": [
+        "directing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_563",
+      "name": "영화 점수",
+      "difficulty_level": 4,
+      "description": "Learn and master Film Scoring",
+      "tags": [
+        "film",
+        "scoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_564",
+      "name": "필름 조명",
+      "difficulty_level": 5,
+      "description": "Learn and master Lighting for Film",
+      "tags": [
+        "lighting",
+        "film",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_565",
+      "name": "스크립트 작성",
+      "difficulty_level": 1,
+      "description": "Learn and master Scriptwriting",
+      "tags": [
+        "scriptwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_566",
+      "name": "사운드 편집",
+      "difficulty_level": 3,
+      "description": "Learn and master Sound Editing",
+      "tags": [
+        "sound",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_567",
+      "name": "스토리 보딩",
+      "difficulty_level": 4,
+      "description": "Learn and master Storyboarding",
+      "tags": [
+        "storyboarding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_568",
+      "name": "비디오 편집",
+      "difficulty_level": 2,
+      "description": "Learn and master Video Editing",
+      "tags": [
+        "video",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_569",
+      "name": "비디오 효과",
+      "difficulty_level": 3,
+      "description": "Learn and master Video Effects",
+      "tags": [
+        "video",
+        "effects",
+        "skill"
+      ]
+    }
+  ]
+}

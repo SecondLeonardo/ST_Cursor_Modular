@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "Konst, design och kreativitet",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "Hantverk & diy"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "Kreativ skrivning"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "Design och digital konst"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "Scenkonst"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "Bildkonst"
+    }
+  ]
+}

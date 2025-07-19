@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_language_learning_techniques",
+  "name": "تقنيات تعلم اللغة",
+  "skills": [
+    {
+      "id": "skill_1973",
+      "name": "طريقة البطاقة الفلاش",
+      "difficulty_level": 4,
+      "description": "Learn and master Flashcard Method",
+      "tags": [
+        "flashcard",
+        "method",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1974",
+      "name": "تمارين القواعد",
+      "difficulty_level": 1,
+      "description": "Learn and master Grammar Exercises",
+      "tags": [
+        "grammar",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1975",
+      "name": "التعلم الغمر",
+      "difficulty_level": 1,
+      "description": "Learn and master Immersion Learning",
+      "tags": [
+        "immersion",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1976",
+      "name": "ممارسة تبادل اللغة",
+      "difficulty_level": 5,
+      "description": "Learn and master Language Exchange Practice",
+      "tags": [
+        "language",
+        "exchange",
+        "practice"
+      ]
+    },
+    {
+      "id": "skill_1977",
+      "name": "تدريب الفهم الاستماع",
+      "difficulty_level": 2,
+      "description": "Learn and master Listening Comprehension Training",
+      "tags": [
+        "listening",
+        "comprehension",
+        "training"
+      ]
+    },
+    {
+      "id": "skill_1978",
+      "name": "Mnemonics للمفردات",
+      "difficulty_level": 1,
+      "description": "Learn and master Mnemonics for Vocabulary",
+      "tags": [
+        "mnemonics",
+        "vocabulary",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1979",
+      "name": "تدريبات النطق",
+      "difficulty_level": 2,
+      "description": "Learn and master Pronunciation Drills",
+      "tags": [
+        "pronunciation",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1980",
+      "name": "القراءة في اللغة المستهدفة",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading in Target Language",
+      "tags": [
+        "reading",
+        "target",
+        "language"
+      ]
+    },
+    {
+      "id": "skill_1981",
+      "name": "تقنية التظليل",
+      "difficulty_level": 3,
+      "description": "Learn and master Shadowing Technique",
+      "tags": [
+        "shadowing",
+        "technique",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1982",
+      "name": "تباعد التكرار",
+      "difficulty_level": 1,
+      "description": "Learn and master Spaced Repetition",
+      "tags": [
+        "spaced",
+        "repetition",
+        "skill"
+      ]
+    }
+  ]
+}

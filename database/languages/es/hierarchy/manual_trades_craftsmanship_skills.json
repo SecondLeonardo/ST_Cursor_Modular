@@ -1,0 +1,46 @@
+{
+  "id": "manual_trades_craftsmanship_skills",
+  "name": "Comercios manuales y habilidades de artesanía",
+  "subcategories": [
+    {
+      "id": "manual_trades_craftsmanship_skills_automotive_repair",
+      "name": "Reparación automotriz"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_construction_trades",
+      "name": "Intercambios de construcción"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_electrical_work",
+      "name": "Trabajo eléctrico"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+      "name": "Muebles y tapicería"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+      "name": "Dominio de herramientas manuales"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_home_renovation",
+      "name": "Renovación del hogar"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_metalworking",
+      "name": "Metalurgia"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+      "name": "Fontanería y calefacción"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+      "name": "Textil y artesanía de cuero"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_woodworking",
+      "name": "Carpintería"
+    }
+  ]
+}

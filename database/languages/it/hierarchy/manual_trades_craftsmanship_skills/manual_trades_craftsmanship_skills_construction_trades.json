@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_construction_trades",
+  "name": "Operazioni di costruzione",
+  "skills": [
+    {
+      "id": "skill_3418",
+      "name": "Lettura del progetto",
+      "difficulty_level": 5,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3419",
+      "name": "Bricklaying",
+      "difficulty_level": 5,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3420",
+      "name": "Finitura concreta",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Finishing",
+      "tags": [
+        "concrete",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3421",
+      "name": "Sicurezza del cantiere",
+      "difficulty_level": 2,
+      "description": "Learn and master Construction Site Safety",
+      "tags": [
+        "construction",
+        "site",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3422",
+      "name": "Muro a secco appeso",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Hanging",
+      "tags": [
+        "drywall",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3423",
+      "name": "Posa di fondazione",
+      "difficulty_level": 3,
+      "description": "Learn and master Foundation Laying",
+      "tags": [
+        "foundation",
+        "laying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3424",
+      "name": "Lavoro di isolamento",
+      "difficulty_level": 4,
+      "description": "Learn and master Insulation Work",
+      "tags": [
+        "insulation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3425",
+      "name": "Massoneria",
+      "difficulty_level": 2,
+      "description": "Learn and master Masonry",
+      "tags": [
+        "masonry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3426",
+      "name": "Installazione di coperture",
+      "difficulty_level": 5,
+      "description": "Learn and master Roofing Installation",
+      "tags": [
+        "roofing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3427",
+      "name": "Impalcatura",
+      "difficulty_level": 2,
+      "description": "Learn and master Scaffolding",
+      "tags": [
+        "scaffolding",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

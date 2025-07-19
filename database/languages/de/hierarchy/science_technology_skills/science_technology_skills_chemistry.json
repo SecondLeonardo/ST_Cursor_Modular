@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_chemistry",
+  "name": "Chemie",
+  "skills": [
+    {
+      "id": "skill_4268",
+      "name": "Säure-Base-Chemie",
+      "difficulty_level": 1,
+      "description": "Learn and master Acid-Base Chemistry",
+      "tags": [
+        "acid-base",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4269",
+      "name": "Analytische Chemie",
+      "difficulty_level": 5,
+      "description": "Learn and master Analytical Chemistry",
+      "tags": [
+        "analytical",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4270",
+      "name": "Chemische Reaktionen",
+      "difficulty_level": 2,
+      "description": "Learn and master Chemical Reactions",
+      "tags": [
+        "chemical",
+        "reactions",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4271",
+      "name": "Chromatographie",
+      "difficulty_level": 2,
+      "description": "Learn and master Chromatography",
+      "tags": [
+        "chromatography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4272",
+      "name": "Anorganische Chemie",
+      "difficulty_level": 1,
+      "description": "Learn and master Inorganic Chemistry",
+      "tags": [
+        "inorganic",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4273",
+      "name": "Laborsicherheit",
+      "difficulty_level": 3,
+      "description": "Learn and master Laboratory Safety",
+      "tags": [
+        "laboratory",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4274",
+      "name": "Organische Synthese",
+      "difficulty_level": 4,
+      "description": "Learn and master Organic Synthesis",
+      "tags": [
+        "organic",
+        "synthesis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4275",
+      "name": "Periodenzüchtermeisterschaft",
+      "difficulty_level": 1,
+      "description": "Learn and master Periodic Table Mastery",
+      "tags": [
+        "periodic",
+        "table",
+        "mastery"
+      ]
+    },
+    {
+      "id": "skill_4276",
+      "name": "Thermochemie",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermochemistry",
+      "tags": [
+        "thermochemistry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4277",
+      "name": "Titrationstechniken",
+      "difficulty_level": 1,
+      "description": "Learn and master Titration Techniques",
+      "tags": [
+        "titration",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

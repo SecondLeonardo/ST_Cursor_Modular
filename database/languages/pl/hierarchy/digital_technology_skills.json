@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "Umiejętności cyfrowe i technologiczne",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "Cyberbezpieczeństwo"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "Dane i AI"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "IT i sieci"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "Programowanie i rozwój"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "Internet i telefon komórkowy"
+    }
+  ]
+}

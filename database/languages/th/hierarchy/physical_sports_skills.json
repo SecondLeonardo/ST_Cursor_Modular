@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "ทักษะทางกายภาพและกีฬา",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "ฟิตเนสและความแข็งแกร่ง"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "กีฬาส่วนตัว"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "ศิลปะการต่อสู้"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "กลางแจ้งและผจญภัย"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "กิจกรรมสันทนาการ"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "กีฬาทีม"
+    }
+  ]
+}

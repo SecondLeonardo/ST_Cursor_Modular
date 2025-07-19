@@ -1,0 +1,116 @@
+{
+  "id": "business_finance_accounting",
+  "name": "Contabilidad",
+  "skills": [
+    {
+      "id": "skill_770",
+      "name": "Cuentas por pagar/por cobrar",
+      "difficulty_level": 1,
+      "description": "Learn and master Accounts Payable/Receivable",
+      "tags": [
+        "accounts",
+        "payable/receivable",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_771",
+      "name": "Acumulación vs. contabilidad en efectivo",
+      "difficulty_level": 3,
+      "description": "Learn and master Accrual vs. Cash Accounting",
+      "tags": [
+        "accrual",
+        "cash",
+        "accounting"
+      ]
+    },
+    {
+      "id": "skill_772",
+      "name": "Fundamentos de auditoría",
+      "difficulty_level": 2,
+      "description": "Learn and master Auditing Fundamentals",
+      "tags": [
+        "auditing",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_773",
+      "name": "Cosicías de contabilidad de costos",
+      "difficulty_level": 3,
+      "description": "Learn and master Cost Accounting Basics",
+      "tags": [
+        "cost",
+        "accounting",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_774",
+      "name": "Contabilidad de doble entrada",
+      "difficulty_level": 5,
+      "description": "Learn and master Double-Entry Bookkeeping",
+      "tags": [
+        "double-entry",
+        "bookkeeping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_775",
+      "name": "Informes financieros",
+      "difficulty_level": 1,
+      "description": "Learn and master Financial Reporting",
+      "tags": [
+        "financial",
+        "reporting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_776",
+      "name": "Gestión de facturas",
+      "difficulty_level": 5,
+      "description": "Learn and master Managing Invoices",
+      "tags": [
+        "managing",
+        "invoices",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_777",
+      "name": "Conciliar los extractos bancarios",
+      "difficulty_level": 2,
+      "description": "Learn and master Reconciling Bank Statements",
+      "tags": [
+        "reconciling",
+        "bank",
+        "statements"
+      ]
+    },
+    {
+      "id": "skill_778",
+      "name": "Creación de balance de prueba",
+      "difficulty_level": 1,
+      "description": "Learn and master Trial Balance Creation",
+      "tags": [
+        "trial",
+        "balance",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_779",
+      "name": "Usando QuickBooks",
+      "difficulty_level": 1,
+      "description": "Learn and master Using QuickBooks",
+      "tags": [
+        "using",
+        "quickbooks",
+        "skill"
+      ]
+    }
+  ]
+}

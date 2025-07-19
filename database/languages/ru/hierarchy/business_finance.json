@@ -1,0 +1,62 @@
+{
+  "id": "business_finance",
+  "name": "Бизнес и финансы",
+  "subcategories": [
+    {
+      "id": "business_finance_accounting",
+      "name": "Бухгалтерский учет"
+    },
+    {
+      "id": "business_finance_business_strategy",
+      "name": "Бизнес -стратегия"
+    },
+    {
+      "id": "business_finance_customer_support",
+      "name": "Поддержка клиентов"
+    },
+    {
+      "id": "business_finance_e-commerce",
+      "name": "Электронная коммерция"
+    },
+    {
+      "id": "business_finance_entrepreneurship",
+      "name": "Предпринимательство"
+    },
+    {
+      "id": "business_finance_finance",
+      "name": "Финансы"
+    },
+    {
+      "id": "business_finance_finance_accounting",
+      "name": "Финансы и бухгалтерский учет"
+    },
+    {
+      "id": "business_finance_hr_recruiting",
+      "name": "HR & Recruiting"
+    },
+    {
+      "id": "business_finance_human_resources",
+      "name": "Человеческие ресурсы"
+    },
+    {
+      "id": "business_finance_investment_trading",
+      "name": "Инвестиции и торговля"
+    },
+    {
+      "id": "business_finance_leadership_management",
+      "name": "Лидерство и управление"
+    },
+    {
+      "id": "business_finance_marketing_sales",
+      "name": "Маркетинг и продажи"
+    },
+    {
+      "id": "business_finance_project_management",
+      "name": "Управление проектом"
+    },
+    {
+      "id": "business_finance_sales_crm",
+      "name": "Продажи и CRM"
+    }
+  ]
+}

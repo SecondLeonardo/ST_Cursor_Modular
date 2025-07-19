@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_hvac_refrigeration",
+  "name": "HVAC & Jokofu",
+  "skills": [
+    {
+      "id": "skill_4965",
+      "name": "Ufungaji wa AC",
+      "difficulty_level": 3,
+      "description": "Learn and master AC Installation",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4966",
+      "name": "Usawazishaji wa hewa",
+      "difficulty_level": 5,
+      "description": "Learn and master Air Balancing",
+      "tags": [
+        "balancing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4967",
+      "name": "Shida za compressor",
+      "difficulty_level": 3,
+      "description": "Learn and master Compressor Troubleshooting",
+      "tags": [
+        "compressor",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4968",
+      "name": "Uundaji wa ductwork",
+      "difficulty_level": 4,
+      "description": "Learn and master Ductwork Fabrication",
+      "tags": [
+        "ductwork",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4969",
+      "name": "Ujuzi wa udhibitisho wa EPA",
+      "difficulty_level": 1,
+      "description": "Learn and master EPA Certification Knowledge",
+      "tags": [
+        "certification",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4970",
+      "name": "Matengenezo ya HVAC",
+      "difficulty_level": 2,
+      "description": "Learn and master HVAC Maintenance",
+      "tags": [
+        "hvac",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4971",
+      "name": "Urekebishaji wa mfumo wa kupokanzwa",
+      "difficulty_level": 3,
+      "description": "Learn and master Heating System Repair",
+      "tags": [
+        "heating",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_4972",
+      "name": "Utunzaji wa jokofu",
+      "difficulty_level": 4,
+      "description": "Learn and master Refrigerant Handling",
+      "tags": [
+        "refrigerant",
+        "handling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4973",
+      "name": "Urekebishaji wa jokofu",
+      "difficulty_level": 3,
+      "description": "Learn and master Refrigerator Repair",
+      "tags": [
+        "refrigerator",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4974",
+      "name": "Thermostat Wiring",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermostat Wiring",
+      "tags": [
+        "thermostat",
+        "wiring",
+        "skill"
+      ]
+    }
+  ]
+}

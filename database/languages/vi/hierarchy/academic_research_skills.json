@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "Kỹ năng học tập & nghiên cứu",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "Trình bày học thuật"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "Phân tích dữ liệu"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "Ngôn ngữ & Viết"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "Toán học & Thống kê"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "Nghiên cứu khoa học"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "Chuẩn bị học tập & kiểm tra"
+    }
+  ]
+}

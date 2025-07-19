@@ -1,0 +1,381 @@
+1. Profile & Settings Overview
+- User profile management, profile editing, privacy controls, account management
+- Profile stats: posts, following, followers, visitors
+
+2. Profile Data Models
+- UserModel: userId, name, email, phone, skills, languages, profilePicture, vip, joinedAt, stats
+
+3. Profile & Settings UI/UX Design
+
+## 3.2. settings
+### 3.2.1 Settings Page
+- **Description**: Comprehensive settings page for managing app preferences and account settings.
+- **UI/UX Design**:
+  - **General Layout & Design**:
+    - Background: Light grayish-white
+    - Typography: Black text for section titles, lighter gray for separators
+    - Icons: Simple, rounded icons in soft pastel colors
+    - Navigation: List-based vertical layout with back arrow
+  - **Header Section**:
+    - Back Button (<): Top-left corner
+    - Title ("Settings"): Bold, centered
+  - **Menu Items & Icons**:
+    1. Account (Teal user profile icon)
+    2. Notifications (Blue bell icon)
+    3. Privacy (Blue shield with checkmark)
+    4. Chat Settings (Blue speech bubble)
+    5. Learning Settings (Blue book)
+    6. Dark Mode (Blue half-moon icon)
+    7. Rate SkillTalk (Light green star)
+    8. About (Light green info icon)
+    9. Help (Green question mark)
+    10. Clear Cache (Green brush/broom)
+  - **Other UI/UX Elements**:
+    - Spacing & Padding: Even spacing between menu items
+    - Visual Hierarchy: Larger, bold text for section titles
+    - Minimalist Aesthetic: Clean, uncluttered design
+    - User-Friendly Navigation: Clear labels with intuitive icons
+
+### 3.2.2 Account Settings
+- **Description**: Manages user account information and security settings.
+- **UI/UX Design**:
+  - **General Layout & Design**:
+    - Background: Light grayish-white
+    - Typography: Bold black text for titles, gray for details
+    - Layout: Text-heavy with minimal graphics
+  - **Header Section**:
+    - Back Button (<): Top-left corner
+    - Title ("Account"): Bold, centered
+  - **Main Content Sections**:
+    1. User Information:
+       - SkillTalk ID (editable)
+       - Email (private relay)
+       - Password (hidden)
+    2. Login Methods:
+       - Facebook (Not bound)
+       - Google (Not bound)
+       - Apple ID (Toggle switch)
+    3. Action Buttons:
+       - Log Out Button (White background, black text)
+       - Delete Account Text (Light gray)
+  - **Interactive Elements**:
+    - Toggle switches (bright teal when active)
+    - Right-facing arrows for editable fields
+    - Full-width action buttons
+
+### 3.2.3 SkillTalk ID Settings
+- **Description**: Interface for changing user's SkillTalk ID.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back arrow (top left)
+    - Title: "Change SkillTalk ID" (centered)
+    - OK Button (top right, bright teal)
+  - **Main Input Field**:
+    - White, rounded rectangle input box
+    - Pre-filled current ID
+  - **Instructional Text**:
+    - Yearly change restriction
+    - ID format requirements
+  - **Color Palette**:
+    - White background
+    - Black text for main elements
+    - Gray text for instructions
+    - Light gray for disabled button
+
+### 3.2.4 Password Change
+- **Description**: Interface for updating user password.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back arrow (top left)
+    - Title: "Change Password" (centered)
+  - **Form Fields**:
+    1. Current Password Field
+    2. New Password Field
+    3. Forgot Password Button
+  - **Confirmation Button**:
+    - Large, rounded rectangle
+    - Disabled state (light gray)
+    - Activates when fields are filled
+
+### 3.2.5 Email Change
+- **Description**: Interface for updating user email address.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back arrow (top left)
+    - Title: "Change Email" (centered)
+  - **Input Fields**:
+    1. Current Email Section
+    2. New Email Address Field
+    3. Verification Code Field
+  - **Confirmation Button**:
+    - Large, rounded rectangle
+    - Disabled until fields are filled
+
+### 3.2.6 Delete Account
+- **Description**: Interface for account deletion with warnings and alternatives.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back Arrow (top left)
+    - Title: "Delete Account" (centered)
+  - **Informational Text**:
+    - Three numbered points
+    - Warning messages
+    - Consequences of deletion
+  - **Action Buttons**:
+    1. Message SkillTalk Team
+    2. Who Can Find Me
+  - **Confirmation Elements**:
+    - Checkbox for agreement
+    - Red Delete Account button
+  - **Color Palette**:
+    - White background
+    - Black text
+    - Gray for secondary sections
+    - Red for delete button
+    - Blue for checkbox
+
+### 3.2.7 Notification Settings
+- **Description**: Manages app notification preferences.
+- **UI/UX Design**:
+  - **General Layout**:
+    - White background
+    - Black text for headings
+    - Gray text for descriptions
+  - **Notification Toggles**:
+    - New Message Alerts
+    - Official Message Notifications
+    - Post Notifications
+    - New Followers Notifications
+    - Posts Comments Notifications
+    - Posts Likes Notifications
+    - Streaks Notifications
+  - **Don't Disturb Section**:
+    - Time range display
+    - Navigation arrow
+  - **Message Preview Section**:
+    - Toggle switch
+    - Preview text
+
+### 3.2.8 Don't Disturb Settings
+- **Description**: Controls notification silencing preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Don't Disturb"
+    - Back Button
+  - **Main Settings**:
+    1. Don't Disturb Toggle
+       - Time range display
+       - Navigation arrow
+    2. Do Not Disturb All Day Toggle
+  - **Color Scheme**:
+    - Light gray/white background
+    - Black for primary text
+    - Gray for descriptions
+    - bright teal for active states
+
+### 3.2.9 Privacy Settings
+- **Description**: Comprehensive privacy control interface.
+- **UI/UX Design**:
+  - **Location & Visibility Settings**:
+    - Show Country/Region
+    - Show City
+    - Update Location
+    - Show Age
+    - Show Online Status
+    - Show Gifting Level
+  - **Communication Preferences**:
+    - Birthday Notification
+    - Display Skill Partner Tags
+    - Personalized Ads
+    - Receive Voice Calls
+    - Show Following/Followers
+    - Find Me by SkillTalk ID
+  - **VIP Features**:
+    - Hide My Visits (VIP badge)
+    - Who Can Find Me
+  - **Interactive Elements**:
+    - bright teal toggle switches
+    - Right arrows for submenus
+    - VIP badges for premium features
+
+### 3.2.10 Who Can Find Me Settings
+- **Description**: Controls visibility and matching preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Who Can Find Me"
+    - Back Button
+  - **Main Settings**:
+    1. Exact Language Match
+    2. Same Gender Only
+    3. Age Range Selector
+    4. Don't Expose Me Through People Nearby
+    5. Hide from Search
+  - **Interactive Elements**:
+    - Toggle switches
+    - Age range slider
+    - Navigation arrows
+
+### 3.2.11 Blocked Users
+- **Description**: Manages blocked contacts list.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Blocked"
+    - Back Button
+    - Edit Button
+  - **Blocked Contact List**:
+    - Profile icons
+    - Phone numbers
+    - Contact names
+    - Navigation arrows
+  - **Additional Features**:
+    - Add new contact option
+    - Explanatory text
+  - **Color Scheme**:
+    - White background
+    - Black for primary text
+    - Gray for secondary text
+    - Green for action text
+
+### 3.2.12 Last Seen Settings
+- **Description**: Controls visibility of online status and last seen information.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Last seen & online"
+    - Back Button
+  - **Privacy Options**:
+    1. Who can see my Last Seen
+       - Everyone
+       - My contacts
+       - My contacts except...
+       - Nobody
+    2. Who can see when I'm online
+       - Everyone
+       - Same as last seen
+  - **Informational Text**:
+    - Gray text explaining consequences
+    - Bold styling for key terms
+
+### 3.2.13 Chat Settings
+- **Description**: Manages chat-related preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Chat Settings"
+    - Back Button
+  - **Main Settings**:
+    1. Language Selection
+    2. Text Size
+    3. Auto Save Photos/Videos
+    4. Chat Backup
+    5. Block Unknown Chat
+  - **Interactive Elements**:
+    - bright teal toggle switches
+    - Navigation arrows
+    - Explanatory text
+
+### 3.2.14 Language Selection
+- **Description**: Interface for changing app language.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Language"
+    - Back Button
+    - OK Button (bright teal)
+  - **Language List**:
+    - White rectangular boxes
+    - Primary language name
+    - Native language name
+    - bright teal checkmark for selection
+  - **Search Bar**:
+    - For quick language finding
+
+### 3.2.15 Text Size Settings
+- **Description**: Controls chat text size preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Text Size"
+    - Back Button
+    - OK Button (bright teal)
+  - **Preview Box**:
+    - bright teal chat bubble
+    - Sample text in multiple languages
+  - **Size Adjustment**:
+    - Horizontal slider
+    - Small to large "A" indicators
+    - Tick marks for size steps
+
+### 3.2.16 Chat Backup
+- **Description**: Manages chat backup and restore options.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Chat Backup"
+    - Back Button
+    - OK Button (bright teal)
+  - **Backup Status**:
+    - Cloud icon
+    - Last backup date
+    - Backup size
+    - Storage location
+  - **Auto Backup**:
+    - Toggle switch
+    - Frequency options
+  - **Backup Now Button**:
+    - Large, bright teal button
+    - Full width
+    - White text
+
+### 3.2.17 Auto Backup Settings
+- **Description**: Controls automatic backup frequency.
+- **UI/UX Design**:
+  - **Modal Popup**:
+    - Centered on screen
+    - Rounded corners
+    - Dimmed background
+  - **Header**:
+    - Title: "Auto Backup"
+    - Subtext about iCloud storage
+  - **Frequency Options**:
+    - Off
+    - Daily
+    - Weekly
+    - Monthly
+  - **Action Buttons**:
+    - Yes (bright teal)
+    - Cancel (gray)
+
+### 3.2.18 Learning Settings
+- **Description**: Interface for managing learning preferences and translation settings.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back Button (<): Top-left corner
+    - Title ("Learning Settings"): Bold, centered
+  - **Main Content**:
+    - Translation Target Language Option:
+      - White background with rounded edges
+      - Right-facing arrow for navigation
+      - Shadow effect for depth
+  - **Functionality**:
+    - Allows users to modify learning preferences
+    - Translation target language configuration
+    - Native language settings
+
+### 3.2.19 Translation Target Language
+- **Description**: Interface for configuring translation preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back Button (<): Top-left corner
+    - Title ("Translation target language"): Bold, centered
+  - **Main Settings**:
+    1. Translate Messages Received:
+       - Language selection with explanation
+       - Default: Native language
+    2. Translate Messages Sent:
+       - Language selection with explanation
+       - Default: Partner's native language
+  - **Functionality**:
+    - Customize translation preferences
+    - Set default languages for incoming/outgoing messages
+
+4. Implementation Patterns
+- Service/provider pattern, multi-provider strategy, usage tracking, fallback system
+
+5. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 

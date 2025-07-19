@@ -1,0 +1,105 @@
+{
+  "id": "creative_artistic_film_video",
+  "name": "திரைப்படம் & வீடியோ",
+  "skills": [
+    {
+      "id": "skill_1303",
+      "name": "ஒளிப்பதிவு",
+      "difficulty_level": 5,
+      "description": "Learn and master Cinematography",
+      "tags": [
+        "cinematography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1304",
+      "name": "வண்ண தரம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Color Grading",
+      "tags": [
+        "color",
+        "grading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1305",
+      "name": "இயக்குதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Directing",
+      "tags": [
+        "directing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1306",
+      "name": "ஆவணப்பட தயாரித்தல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Documentary Making",
+      "tags": [
+        "documentary",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1307",
+      "name": "பச்சை திரை பயன்பாடு",
+      "difficulty_level": 4,
+      "description": "Learn and master Green Screen Use",
+      "tags": [
+        "green",
+        "screen",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1308",
+      "name": "லைட்டிங் அமைப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Lighting Setup",
+      "tags": [
+        "lighting",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1309",
+      "name": "குறும்பட உருவாக்கம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Short Film Creation",
+      "tags": [
+        "short",
+        "film",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_1310",
+      "name": "ஒலி எடிட்டிங்",
+      "difficulty_level": 5,
+      "description": "Learn and master Sound Editing",
+      "tags": [
+        "sound",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1311",
+      "name": "வீடியோ எடிட்டிங்",
+      "difficulty_level": 4,
+      "description": "Learn and master Video Editing",
+      "tags": [
+        "video",
+        "editing",
+        "skill"
+      ]
+    }
+  ]
+}

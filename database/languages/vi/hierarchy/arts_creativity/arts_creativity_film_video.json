@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_film_video",
+  "name": "Phim & Video",
+  "skills": [
+    {
+      "id": "skill_460",
+      "name": "Điện ảnh",
+      "difficulty_level": 5,
+      "description": "Learn and master Cinematography",
+      "tags": [
+        "cinematography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_461",
+      "name": "Phân loại màu",
+      "difficulty_level": 5,
+      "description": "Learn and master Color Grading",
+      "tags": [
+        "color",
+        "grading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_462",
+      "name": "Chỉ đạo",
+      "difficulty_level": 3,
+      "description": "Learn and master Directing",
+      "tags": [
+        "directing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_463",
+      "name": "Phim tài liệu làm phim",
+      "difficulty_level": 2,
+      "description": "Learn and master Documentary Filmmaking",
+      "tags": [
+        "documentary",
+        "filmmaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_464",
+      "name": "Viết kịch bản",
+      "difficulty_level": 5,
+      "description": "Learn and master Scriptwriting",
+      "tags": [
+        "scriptwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_465",
+      "name": "Sản xuất phim ngắn",
+      "difficulty_level": 1,
+      "description": "Learn and master Short Film Production",
+      "tags": [
+        "short",
+        "film",
+        "production"
+      ]
+    },
+    {
+      "id": "skill_466",
+      "name": "Thiết kế âm thanh",
+      "difficulty_level": 4,
+      "description": "Learn and master Sound Design",
+      "tags": [
+        "sound",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_467",
+      "name": "Phân tích",
+      "difficulty_level": 3,
+      "description": "Learn and master Storyboarding",
+      "tags": [
+        "storyboarding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_468",
+      "name": "Chỉnh sửa video",
+      "difficulty_level": 3,
+      "description": "Learn and master Video Editing",
+      "tags": [
+        "video",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_469",
+      "name": "Chuyển đổi video & hiệu ứng",
+      "difficulty_level": 3,
+      "description": "Learn and master Video Transitions & Effects",
+      "tags": [
+        "video",
+        "transitions",
+        "effects"
+      ]
+    }
+  ]
+}

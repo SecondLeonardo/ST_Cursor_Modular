@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_robotics_automation",
+  "name": "ሮቦትቲክስ እና ራስ-ሰር",
+  "skills": [
+    {
+      "id": "skill_2423",
+      "name": "ተዋጊ ስርዓቶች",
+      "difficulty_level": 5,
+      "description": "Learn and master Actuator Systems",
+      "tags": [
+        "actuator",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2424",
+      "name": "አውቶማቲክ ሲስተም",
+      "difficulty_level": 1,
+      "description": "Learn and master Automation Systems",
+      "tags": [
+        "automation",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2425",
+      "name": "የኢንዱስትሪ አነጋገር",
+      "difficulty_level": 3,
+      "description": "Learn and master Industrial IoT",
+      "tags": [
+        "industrial",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2426",
+      "name": "እንቅስቃሴ ቁጥጥር",
+      "difficulty_level": 4,
+      "description": "Learn and master Motion Control",
+      "tags": [
+        "motion",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2427",
+      "name": "አፕሬሽን",
+      "difficulty_level": 2,
+      "description": "Learn and master PLC Programming",
+      "tags": [
+        "programming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2428",
+      "name": "ሮቦት ፕሮግራም",
+      "difficulty_level": 2,
+      "description": "Learn and master Robot Programming",
+      "tags": [
+        "robot",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2429",
+      "name": "የሮቦቲክ ክንዶች",
+      "difficulty_level": 3,
+      "description": "Learn and master Robotic Arms",
+      "tags": [
+        "robotic",
+        "arms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2430",
+      "name": "ስኩባ ስርዓቶች",
+      "difficulty_level": 3,
+      "description": "Learn and master SCADA Systems",
+      "tags": [
+        "scada",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2431",
+      "name": "የመረጃ ውህደት",
+      "difficulty_level": 2,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2432",
+      "name": "ራዕይ ስርዓቶች",
+      "difficulty_level": 5,
+      "description": "Learn and master Vision Systems",
+      "tags": [
+        "vision",
+        "systems",
+        "skill"
+      ]
+    }
+  ]
+}

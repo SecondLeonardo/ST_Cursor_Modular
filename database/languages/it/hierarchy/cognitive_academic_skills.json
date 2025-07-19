@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "Capacità cognitive e accademiche",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "Pensiero critico"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "Lingua e linguistica"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "Matematica e logica"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "Memoria e concentrazione"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "Scienza e ricerca"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "Abilità di studio e apprendimento"
+    }
+  ]
+}

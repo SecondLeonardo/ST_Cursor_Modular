@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Kỹ năng Khoa học & Nghiên cứu",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Viết học thuật"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Khoa học sinh học"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Khoa học máy tính và dữ liệu"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Khoa học Trái đất & Môi trường"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Khoa học kỹ thuật"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Toán học & Thống kê"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Khoa học Y tế & Sức khỏe"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Khoa học vật lý"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Phương pháp nghiên cứu"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Khoa học xã hội"
+    }
+  ]
+}

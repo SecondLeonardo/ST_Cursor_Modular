@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "विज्ञान आणि तांत्रिक कौशल्ये",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "खगोलशास्त्र"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "जीवशास्त्र आणि जीवन विज्ञान"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "रसायनशास्त्र"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "संगणक विज्ञान"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "डेटा विज्ञान आणि एआय"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "पृथ्वी आणि पर्यावरण विज्ञान"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "अभियांत्रिकी शिस्त"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "गणित आणि आकडेवारी"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "भौतिकशास्त्र आणि यांत्रिकी"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "रोबोटिक्स आणि ऑटोमेशन"
+    }
+  ]
+}

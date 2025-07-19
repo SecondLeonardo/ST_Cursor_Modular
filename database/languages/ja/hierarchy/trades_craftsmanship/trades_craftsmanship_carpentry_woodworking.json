@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_carpentry_woodworking",
+  "name": "大工＆木工",
+  "skills": [
+    {
+      "id": "skill_4935",
+      "name": "キャビネットの設置",
+      "difficulty_level": 5,
+      "description": "Learn and master Cabinet Installation",
+      "tags": [
+        "cabinet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4936",
+      "name": "デッキビルディング",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4937",
+      "name": "ドアハング",
+      "difficulty_level": 3,
+      "description": "Learn and master Door Hanging",
+      "tags": [
+        "door",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4938",
+      "name": "大工仕事を仕上げます",
+      "difficulty_level": 3,
+      "description": "Learn and master Finish Carpentry",
+      "tags": [
+        "finish",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4939",
+      "name": "フレーミング",
+      "difficulty_level": 4,
+      "description": "Learn and master Framing",
+      "tags": [
+        "framing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4940",
+      "name": "家具製造",
+      "difficulty_level": 2,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4941",
+      "name": "建具のテクニック",
+      "difficulty_level": 2,
+      "description": "Learn and master Joinery Techniques",
+      "tags": [
+        "joinery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4942",
+      "name": "木材フレーミング",
+      "difficulty_level": 5,
+      "description": "Learn and master Timber Framing",
+      "tags": [
+        "timber",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4943",
+      "name": "木彫り",
+      "difficulty_level": 3,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4944",
+      "name": "木製の旋盤操作",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Lathe Operation",
+      "tags": [
+        "wood",
+        "lathe",
+        "operation"
+      ]
+    }
+  ]
+}

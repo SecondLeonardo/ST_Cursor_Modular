@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_fitness_training",
+  "name": "Pelatihan kebugaran",
+  "skills": [
+    {
+      "id": "skill_2513",
+      "name": "Latihan berat badan",
+      "difficulty_level": 5,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2514",
+      "name": "Latihan kardio",
+      "difficulty_level": 3,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2515",
+      "name": "Dasar -dasar CrossFit",
+      "difficulty_level": 3,
+      "description": "Learn and master CrossFit Basics",
+      "tags": [
+        "crossfit",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2516",
+      "name": "Teknik Bersepeda",
+      "difficulty_level": 4,
+      "description": "Learn and master Cycling Techniques",
+      "tags": [
+        "cycling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2517",
+      "name": "Daya tahan berjalan",
+      "difficulty_level": 2,
+      "description": "Learn and master Endurance Running",
+      "tags": [
+        "endurance",
+        "running",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2518",
+      "name": "Pelatihan fleksibilitas",
+      "difficulty_level": 3,
+      "description": "Learn and master Flexibility Training",
+      "tags": [
+        "flexibility",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2519",
+      "name": "HIIT",
+      "difficulty_level": 1,
+      "description": "Learn and master HIIT",
+      "tags": [
+        "hiit",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2520",
+      "name": "Pelatihan Band Perlawanan",
+      "difficulty_level": 5,
+      "description": "Learn and master Resistance Band Training",
+      "tags": [
+        "resistance",
+        "band",
+        "training"
+      ]
+    },
+    {
+      "id": "skill_2521",
+      "name": "Latihan kekuatan",
+      "difficulty_level": 4,
+      "description": "Learn and master Strength Training",
+      "tags": [
+        "strength",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2522",
+      "name": "Bentuk angkat besi",
+      "difficulty_level": 4,
+      "description": "Learn and master Weightlifting Form",
+      "tags": [
+        "weightlifting",
+        "form",
+        "skill"
+      ]
+    }
+  ]
+}

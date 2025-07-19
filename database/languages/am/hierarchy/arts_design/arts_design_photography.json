@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_photography",
+  "name": "ፎቶግራፍ",
+  "skills": [
+    {
+      "id": "skill_600",
+      "name": "የካሜራ ቅንብሮች",
+      "difficulty_level": 3,
+      "description": "Learn and master Camera Settings",
+      "tags": [
+        "camera",
+        "settings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_601",
+      "name": "ዲጂታል የሥራ ፍሰት",
+      "difficulty_level": 3,
+      "description": "Learn and master Digital Workflow",
+      "tags": [
+        "digital",
+        "workflow",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_602",
+      "name": "የመሬት ገጽታ ፎቶግራፍ",
+      "difficulty_level": 4,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_603",
+      "name": "የመብራት ቴክኒኮች",
+      "difficulty_level": 2,
+      "description": "Learn and master Lighting Techniques",
+      "tags": [
+        "lighting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_604",
+      "name": "የፎቶግራፍ ጥንቅር",
+      "difficulty_level": 2,
+      "description": "Learn and master Photo Composition",
+      "tags": [
+        "photo",
+        "composition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_605",
+      "name": "ፎቶ አርት editing ት",
+      "difficulty_level": 2,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_606",
+      "name": "ፎቶግራፍ",
+      "difficulty_level": 4,
+      "description": "Learn and master Photojournalism",
+      "tags": [
+        "photojournalism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_607",
+      "name": "ፎቶግራፍ ፎቶግራፍ",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_608",
+      "name": "የጎዳና ፎቶግራፍ",
+      "difficulty_level": 5,
+      "description": "Learn and master Street Photography",
+      "tags": [
+        "street",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_609",
+      "name": "ስቱዲዮ ፎቶግራፍ",
+      "difficulty_level": 4,
+      "description": "Learn and master Studio Photography",
+      "tags": [
+        "studio",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

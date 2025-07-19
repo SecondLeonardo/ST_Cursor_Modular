@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "معاملات و مهارتهای دستی",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "تعمیر خودرو"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "نجاری و نجاری"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "ساخت و ساز"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "ساخت و ساز و نجاری"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "صنایع دستی و تعمیرات"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "برقی و مکانیکی"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "کار برقی"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC و یخچال"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "عملکرد تجهیزات سنگین"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "سنگ تراشی و کاشی کاری"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "فلز و چوب"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "نقاشی و اتمام"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "لوله کشی"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "تعمیر و نگهداری وسیله نقلیه و ماشین"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "جوشکاری و فلزکاری"
+    }
+  ]
+}

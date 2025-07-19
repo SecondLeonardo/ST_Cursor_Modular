@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "ด้านเทคนิคและวิศวกรรม",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "พลเรือนและมีโครงสร้าง"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "วิศวกรรมไฟฟ้า"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "การผลิตและการผลิต"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "วิศวกรรมเครื่องกล"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "ซอฟต์แวร์และระบบ"
+    }
+  ]
+}

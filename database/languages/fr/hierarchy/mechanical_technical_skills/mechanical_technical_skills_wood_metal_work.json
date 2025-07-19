@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_wood_metal_work",
+  "name": "Travail en bois et en métal",
+  "skills": [
+    {
+      "id": "skill_3558",
+      "name": "Soudage de base",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Welding",
+      "tags": [
+        "basic",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3559",
+      "name": "Bois de sculpture",
+      "difficulty_level": 1,
+      "description": "Learn and master Carving Wood",
+      "tags": [
+        "carving",
+        "wood",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3560",
+      "name": "Couper avec scie",
+      "difficulty_level": 3,
+      "description": "Learn and master Cutting with Saw",
+      "tags": [
+        "cutting",
+        "with",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3561",
+      "name": "Utilisation de broyeur",
+      "difficulty_level": 5,
+      "description": "Learn and master Grinder Use",
+      "tags": [
+        "grinder",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3562",
+      "name": "Mesurer et marquer",
+      "difficulty_level": 1,
+      "description": "Learn and master Measuring & Marking",
+      "tags": [
+        "measuring",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3563",
+      "name": "Polissage métallique",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Polishing",
+      "tags": [
+        "metal",
+        "polishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3564",
+      "name": "Techniques de ponçage",
+      "difficulty_level": 5,
+      "description": "Learn and master Sanding Techniques",
+      "tags": [
+        "sanding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3565",
+      "name": "Tasage du bois",
+      "difficulty_level": 4,
+      "description": "Learn and master Staining Wood",
+      "tags": [
+        "staining",
+        "wood",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3566",
+      "name": "Utilisation d'un ciseau",
+      "difficulty_level": 2,
+      "description": "Learn and master Using a Chisel",
+      "tags": [
+        "using",
+        "chisel",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3567",
+      "name": "Jointure de bois",
+      "difficulty_level": 5,
+      "description": "Learn and master Wood Joining",
+      "tags": [
+        "wood",
+        "joining",
+        "skill"
+      ]
+    }
+  ]
+}

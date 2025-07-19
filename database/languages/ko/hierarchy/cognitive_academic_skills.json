@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "인지 및 학업 기술",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "비판적 사고"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "언어 및 언어학"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "수학 및 논리"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "메모리 및 초점"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "과학 및 연구"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "학습 및 학습 기술"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "engineering_mechanical",
+  "name": "工程和机械",
+  "subcategories": [
+    {
+      "id": "engineering_mechanical_automotive_transportation",
+      "name": "汽车和运输"
+    },
+    {
+      "id": "engineering_mechanical_civil_engineering",
+      "name": "土木工程"
+    },
+    {
+      "id": "engineering_mechanical_electrical_engineering",
+      "name": "电气工程"
+    },
+    {
+      "id": "engineering_mechanical_energy_power_systems",
+      "name": "能源和电力系统"
+    },
+    {
+      "id": "engineering_mechanical_hvac_systems",
+      "name": "HVAC和系统"
+    },
+    {
+      "id": "engineering_mechanical_industrial_design",
+      "name": "工业设计"
+    },
+    {
+      "id": "engineering_mechanical_manufacturing_production",
+      "name": "制造与生产"
+    },
+    {
+      "id": "engineering_mechanical_mechanical_engineering",
+      "name": "机械工业"
+    },
+    {
+      "id": "engineering_mechanical_robotics_automation",
+      "name": "机器人和自动化"
+    },
+    {
+      "id": "engineering_mechanical_structural_design",
+      "name": "结构设计"
+    }
+  ]
+}

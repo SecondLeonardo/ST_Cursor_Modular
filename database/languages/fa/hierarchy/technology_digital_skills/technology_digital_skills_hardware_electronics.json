@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_hardware_electronics",
+  "name": "سخت افزار و الکترونیک",
+  "skills": [
+    {
+      "id": "skill_4765",
+      "name": "تنظیم چاپ سه بعدی",
+      "difficulty_level": 1,
+      "description": "Learn and master 3D Printing Setup",
+      "tags": [
+        "printing",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4766",
+      "name": "برنامه نویسی آردوینو",
+      "difficulty_level": 2,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4767",
+      "name": "سیستم های مدیریت باتری",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Management Systems",
+      "tags": [
+        "battery",
+        "management",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_4768",
+      "name": "طرح مدار",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4769",
+      "name": "سیستم های تعبیه شده",
+      "difficulty_level": 5,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4770",
+      "name": "تنظیم دستگاه IoT",
+      "difficulty_level": 4,
+      "description": "Learn and master IoT Device Setup",
+      "tags": [
+        "device",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4771",
+      "name": "طراحی PCB",
+      "difficulty_level": 1,
+      "description": "Learn and master PCB Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4772",
+      "name": "پروژه های Raspberry Pi",
+      "difficulty_level": 1,
+      "description": "Learn and master Raspberry Pi Projects",
+      "tags": [
+        "raspberry",
+        "projects",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4773",
+      "name": "ادغام سنسور",
+      "difficulty_level": 1,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4774",
+      "name": "لحیم کاری",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering",
+      "tags": [
+        "soldering",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

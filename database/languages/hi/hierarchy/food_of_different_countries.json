@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "विभिन्न देशों का भोजन",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "इतालवी व्यंजन"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "जापानी भोजन"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "मैक्सिकन भोजन"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "भारतीय भोजन"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "फ्रेंच व्यंजन"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "चीनी व्यंजन"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "मध्य पूर्वी भोजन"
+    }
+  ]
+}

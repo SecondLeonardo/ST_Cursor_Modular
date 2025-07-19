@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_automotive_repair",
+  "name": "Automobilreparatur",
+  "skills": [
+    {
+      "id": "skill_4925",
+      "name": "Batterieprüfung",
+      "difficulty_level": 5,
+      "description": "Learn and master Battery Testing",
+      "tags": [
+        "battery",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4926",
+      "name": "Bremsersatz",
+      "difficulty_level": 5,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4927",
+      "name": "Reparatur des Kühlsystems",
+      "difficulty_level": 5,
+      "description": "Learn and master Cooling System Repair",
+      "tags": [
+        "cooling",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_4928",
+      "name": "Motordiagnostik",
+      "difficulty_level": 5,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4929",
+      "name": "Abgasreparatur",
+      "difficulty_level": 2,
+      "description": "Learn and master Exhaust Repair",
+      "tags": [
+        "exhaust",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4930",
+      "name": "Ölwechsel",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4931",
+      "name": "Suspensionsreparatur",
+      "difficulty_level": 4,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4932",
+      "name": "Reifenmontage",
+      "difficulty_level": 3,
+      "description": "Learn and master Tire Mounting",
+      "tags": [
+        "tire",
+        "mounting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4933",
+      "name": "Übertragungsarbeit",
+      "difficulty_level": 5,
+      "description": "Learn and master Transmission Work",
+      "tags": [
+        "transmission",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4934",
+      "name": "Radausrichtung",
+      "difficulty_level": 2,
+      "description": "Learn and master Wheel Alignment",
+      "tags": [
+        "wheel",
+        "alignment",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "home_daily_life",
+  "name": "Дома и повседневная жизнь",
+  "subcategories": [
+    {
+      "id": "home_daily_life_budgeting_household_finance",
+      "name": "Бюджетирование и финансирование домохозяйств"
+    },
+    {
+      "id": "home_daily_life_childcare",
+      "name": "Уход за детьми"
+    },
+    {
+      "id": "home_daily_life_cooking_meal_prep",
+      "name": "Приготовление пищи и приготовления еды"
+    },
+    {
+      "id": "home_daily_life_grocery_shopping",
+      "name": "Продуктовые магазины"
+    },
+    {
+      "id": "home_daily_life_home_cleaning",
+      "name": "Домашняя уборка"
+    },
+    {
+      "id": "home_daily_life_home_maintenance",
+      "name": "Домашнее обслуживание"
+    },
+    {
+      "id": "home_daily_life_laundry_clothing_care",
+      "name": "Прачечная и уход за одеждой"
+    },
+    {
+      "id": "home_daily_life_organizing_decluttering",
+      "name": "Организация и декларирование"
+    },
+    {
+      "id": "home_daily_life_pet_care",
+      "name": "Уход за домашними животными"
+    },
+    {
+      "id": "home_daily_life_time_management",
+      "name": "Управление временем"
+    }
+  ]
+}

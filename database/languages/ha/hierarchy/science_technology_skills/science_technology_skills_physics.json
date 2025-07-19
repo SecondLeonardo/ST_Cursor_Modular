@@ -1,0 +1,105 @@
+{
+  "id": "science_technology_skills_physics",
+  "name": "Ilmin kimiyyar lissafi",
+  "skills": [
+    {
+      "id": "skill_4338",
+      "name": "Mahimmancin Astrophysics",
+      "difficulty_level": 4,
+      "description": "Learn and master Astrophysics Basics",
+      "tags": [
+        "astrophysics",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4339",
+      "name": "Kayan gargajiya",
+      "difficulty_level": 5,
+      "description": "Learn and master Classical Mechanics",
+      "tags": [
+        "classical",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4340",
+      "name": "Sabbinku",
+      "difficulty_level": 1,
+      "description": "Learn and master Electromagnetism",
+      "tags": [
+        "electromagnetism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4341",
+      "name": "Kimiyyar gwaji",
+      "difficulty_level": 3,
+      "description": "Learn and master Experimental Physics",
+      "tags": [
+        "experimental",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4342",
+      "name": "Kimiyyar nukiliya",
+      "difficulty_level": 5,
+      "description": "Learn and master Nuclear Physics",
+      "tags": [
+        "nuclear",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4343",
+      "name": "Oxpics & Light",
+      "difficulty_level": 2,
+      "description": "Learn and master Optics & Light",
+      "tags": [
+        "optics",
+        "light",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4344",
+      "name": "Likita na Quantum",
+      "difficulty_level": 2,
+      "description": "Learn and master Quantum Physics",
+      "tags": [
+        "quantum",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4345",
+      "name": "Dangantaka",
+      "difficulty_level": 3,
+      "description": "Learn and master Relativity",
+      "tags": [
+        "relativity",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4346",
+      "name": "Ka'idar igiyar ruwa",
+      "difficulty_level": 1,
+      "description": "Learn and master Wave Theory",
+      "tags": [
+        "wave",
+        "theory",
+        "skill"
+      ]
+    }
+  ]
+}

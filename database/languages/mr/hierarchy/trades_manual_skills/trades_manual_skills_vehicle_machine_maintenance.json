@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_vehicle_machine_maintenance",
+  "name": "वाहन आणि मशीन देखभाल",
+  "skills": [
+    {
+      "id": "skill_5155",
+      "name": "बॅटरी बदलण्याची शक्यता",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5156",
+      "name": "बाईक ट्यूनिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Bike Tuning",
+      "tags": [
+        "bike",
+        "tuning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5157",
+      "name": "ब्रेक दुरुस्ती",
+      "difficulty_level": 2,
+      "description": "Learn and master Brake Repair",
+      "tags": [
+        "brake",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5158",
+      "name": "साखळी देखभाल",
+      "difficulty_level": 5,
+      "description": "Learn and master Chain Maintenance",
+      "tags": [
+        "chain",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5159",
+      "name": "इंजिन निदान",
+      "difficulty_level": 2,
+      "description": "Learn and master Engine Diagnosis",
+      "tags": [
+        "engine",
+        "diagnosis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5160",
+      "name": "फिल्टर रिप्लेसमेंट",
+      "difficulty_level": 5,
+      "description": "Learn and master Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5161",
+      "name": "तेल बदल",
+      "difficulty_level": 2,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5162",
+      "name": "रेडिएटर फ्लश",
+      "difficulty_level": 2,
+      "description": "Learn and master Radiator Flush",
+      "tags": [
+        "radiator",
+        "flush",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5163",
+      "name": "स्पार्क प्लग चेक",
+      "difficulty_level": 3,
+      "description": "Learn and master Spark Plug Check",
+      "tags": [
+        "spark",
+        "plug",
+        "check"
+      ]
+    },
+    {
+      "id": "skill_5164",
+      "name": "टायर बदलण्याची शक्यता",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Replacement",
+      "tags": [
+        "tire",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

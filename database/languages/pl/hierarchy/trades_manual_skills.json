@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Transakcje i umiejętności ręczne",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Naprawa samochodowa"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Stolarka i stolarka"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Budowa"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Konstrukcja i stolarka"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Rzućty i naprawy"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Elektryczne i mechaniczne"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Praca elektryczna"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC i chłodzenie"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Ciężkie działanie sprzętu"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Mur i płytki"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Metal i stolarka"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Malowanie i wykończenie"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Instalacja wodociągowa"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Konserwacja pojazdu i maszyny"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Spawanie i metalowe"
+    }
+  ]
+}

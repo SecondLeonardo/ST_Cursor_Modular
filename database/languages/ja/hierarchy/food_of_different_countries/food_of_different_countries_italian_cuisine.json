@@ -1,0 +1,120 @@
+{
+  "id": "food_of_different_countries_italian_cuisine",
+  "name": "イタリア料理",
+  "skills": [
+    {
+      "id": "skill_5415",
+      "name": "パスタ作り",
+      "difficulty_level": 4,
+      "description": "Learn and master Pasta Making",
+      "tags": [
+        "pasta",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5416",
+      "name": "ピザ生地の準備",
+      "difficulty_level": 2,
+      "description": "Learn and master Pizza Dough Preparation",
+      "tags": [
+        "pizza",
+        "dough",
+        "preparation"
+      ]
+    },
+    {
+      "id": "skill_5417",
+      "name": "リゾット料理",
+      "difficulty_level": 3,
+      "description": "Learn and master Risotto Cooking",
+      "tags": [
+        "risotto",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5418",
+      "name": "ティラミスの創造",
+      "difficulty_level": 1,
+      "description": "Learn and master Tiramisu Creation",
+      "tags": [
+        "tiramisu",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5419",
+      "name": "ソース作り（例：マリナラ、アルフレド）",
+      "difficulty_level": 1,
+      "description": "Learn and master Sauce Making (e.g., Marinara, Alfredo)",
+      "tags": [
+        "sauce",
+        "making",
+        "(e.g.,",
+        "marinara,",
+        "alfredo)"
+      ]
+    },
+    {
+      "id": "skill_5420",
+      "name": "抗パストめっき",
+      "difficulty_level": 1,
+      "description": "Learn and master Antipasto Plating",
+      "tags": [
+        "antipasto",
+        "plating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5421",
+      "name": "ジェラート作り",
+      "difficulty_level": 2,
+      "description": "Learn and master Gelato Making",
+      "tags": [
+        "gelato",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5422",
+      "name": "イタリアのパン焼き",
+      "difficulty_level": 1,
+      "description": "Learn and master Italian Bread Baking",
+      "tags": [
+        "italian",
+        "bread",
+        "baking"
+      ]
+    },
+    {
+      "id": "skill_5423",
+      "name": "ハーブの使用（例：バジル、オレガノ）",
+      "difficulty_level": 2,
+      "description": "Learn and master Herb Usage (e.g., Basil, Oregano)",
+      "tags": [
+        "herb",
+        "usage",
+        "(e.g.,",
+        "basil,",
+        "oregano)"
+      ]
+    },
+    {
+      "id": "skill_5424",
+      "name": "ワインのペアリング",
+      "difficulty_level": 5,
+      "description": "Learn and master Wine Pairing",
+      "tags": [
+        "wine",
+        "pairing",
+        "skill"
+      ]
+    }
+  ]
+}

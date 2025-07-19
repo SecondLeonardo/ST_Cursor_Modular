@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_construction_trades",
+  "name": "నిర్మాణ ట్రేడ్స్",
+  "skills": [
+    {
+      "id": "skill_3418",
+      "name": "బ్లూప్రింట్ పఠనం",
+      "difficulty_level": 5,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3419",
+      "name": "బ్రిక్లేయింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3420",
+      "name": "కాంక్రీట్ ఫినిషింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Finishing",
+      "tags": [
+        "concrete",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3421",
+      "name": "నిర్మాణ సైట్ భద్రత",
+      "difficulty_level": 2,
+      "description": "Learn and master Construction Site Safety",
+      "tags": [
+        "construction",
+        "site",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3422",
+      "name": "ప్లాస్టార్ బోర్డ్ హాంగింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Hanging",
+      "tags": [
+        "drywall",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3423",
+      "name": "ఫౌండేషన్ లేయింగ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Foundation Laying",
+      "tags": [
+        "foundation",
+        "laying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3424",
+      "name": "ఇన్సులేషన్ పని",
+      "difficulty_level": 4,
+      "description": "Learn and master Insulation Work",
+      "tags": [
+        "insulation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3425",
+      "name": "తాపీపని",
+      "difficulty_level": 2,
+      "description": "Learn and master Masonry",
+      "tags": [
+        "masonry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3426",
+      "name": "రూఫింగ్ సంస్థాపన",
+      "difficulty_level": 5,
+      "description": "Learn and master Roofing Installation",
+      "tags": [
+        "roofing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3427",
+      "name": "పరంజా",
+      "difficulty_level": 2,
+      "description": "Learn and master Scaffolding",
+      "tags": [
+        "scaffolding",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

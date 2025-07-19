@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+  "name": "వస్త్ర & లెదర్‌క్రాఫ్ట్",
+  "skills": [
+    {
+      "id": "skill_3488",
+      "name": "బ్యాగ్ తయారీ",
+      "difficulty_level": 5,
+      "description": "Learn and master Bag Making",
+      "tags": [
+        "making",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3489",
+      "name": "రంగు పద్ధతులు",
+      "difficulty_level": 1,
+      "description": "Learn and master Dyeing Techniques",
+      "tags": [
+        "dyeing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3490",
+      "name": "ఎంబ్రాయిడరీ",
+      "difficulty_level": 1,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3491",
+      "name": "ఫాబ్రిక్ నేత",
+      "difficulty_level": 3,
+      "description": "Learn and master Fabric Weaving",
+      "tags": [
+        "fabric",
+        "weaving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3492",
+      "name": "తోలు సాధనం",
+      "difficulty_level": 3,
+      "description": "Learn and master Leather Tooling",
+      "tags": [
+        "leather",
+        "tooling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3493",
+      "name": "ప్యాచ్ వర్క్",
+      "difficulty_level": 1,
+      "description": "Learn and master Patchwork",
+      "tags": [
+        "patchwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3494",
+      "name": "నమూనా తయారీ",
+      "difficulty_level": 3,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3495",
+      "name": "క్విల్టింగ్",
+      "difficulty_level": 4,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3496",
+      "name": "జీను కుట్టు",
+      "difficulty_level": 2,
+      "description": "Learn and master Saddle Stitching",
+      "tags": [
+        "saddle",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3497",
+      "name": "కుట్టు యంత్ర ఆపరేషన్",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Machine Operation",
+      "tags": [
+        "sewing",
+        "machine",
+        "operation"
+      ]
+    }
+  ]
+}

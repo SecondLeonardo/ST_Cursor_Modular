@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_languages",
+  "name": "Diller",
+  "skills": [
+    {
+      "id": "skill_1983",
+      "name": "Arapça yazı",
+      "difficulty_level": 3,
+      "description": "Learn and master Arabic Writing",
+      "tags": [
+        "arabic",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1984",
+      "name": "İngilizce akıcılık",
+      "difficulty_level": 3,
+      "description": "Learn and master English Fluency",
+      "tags": [
+        "english",
+        "fluency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1985",
+      "name": "Fransızca Dilbilgisi Ustalığı",
+      "difficulty_level": 2,
+      "description": "Learn and master French Grammar Mastery",
+      "tags": [
+        "french",
+        "grammar",
+        "mastery"
+      ]
+    },
+    {
+      "id": "skill_1986",
+      "name": "Alman okuma",
+      "difficulty_level": 3,
+      "description": "Learn and master German Reading",
+      "tags": [
+        "german",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1987",
+      "name": "Hintçe kelime dağarcığı",
+      "difficulty_level": 3,
+      "description": "Learn and master Hindi Vocabulary",
+      "tags": [
+        "hindi",
+        "vocabulary",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1988",
+      "name": "Japon dinleme becerileri",
+      "difficulty_level": 3,
+      "description": "Learn and master Japanese Listening Skills",
+      "tags": [
+        "japanese",
+        "listening",
+        "skills"
+      ]
+    },
+    {
+      "id": "skill_1989",
+      "name": "Mandarin Konuşma",
+      "difficulty_level": 2,
+      "description": "Learn and master Mandarin Speaking",
+      "tags": [
+        "mandarin",
+        "speaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1990",
+      "name": "Portekizce sohbet",
+      "difficulty_level": 1,
+      "description": "Learn and master Portuguese Conversation",
+      "tags": [
+        "portuguese",
+        "conversation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1991",
+      "name": "Rus telaffuzu",
+      "difficulty_level": 5,
+      "description": "Learn and master Russian Pronunciation",
+      "tags": [
+        "russian",
+        "pronunciation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1992",
+      "name": "İspanyol iletişimi",
+      "difficulty_level": 3,
+      "description": "Learn and master Spanish Communication",
+      "tags": [
+        "spanish",
+        "communication",
+        "skill"
+      ]
+    }
+  ]
+}

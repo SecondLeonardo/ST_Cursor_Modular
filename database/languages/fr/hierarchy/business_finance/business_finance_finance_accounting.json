@@ -1,0 +1,116 @@
+{
+  "id": "business_finance_finance_accounting",
+  "name": "Finance et comptabilité",
+  "skills": [
+    {
+      "id": "skill_835",
+      "name": "Comptes à payer",
+      "difficulty_level": 2,
+      "description": "Learn and master Accounts Payable",
+      "tags": [
+        "accounts",
+        "payable",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_836",
+      "name": "Comptes débiteurs",
+      "difficulty_level": 5,
+      "description": "Learn and master Accounts Receivable",
+      "tags": [
+        "accounts",
+        "receivable",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_837",
+      "name": "Comptabilité",
+      "difficulty_level": 1,
+      "description": "Learn and master Bookkeeping",
+      "tags": [
+        "bookkeeping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_838",
+      "name": "Budgétisation",
+      "difficulty_level": 3,
+      "description": "Learn and master Budgeting",
+      "tags": [
+        "budgeting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_839",
+      "name": "Gestion des flux de trésorerie",
+      "difficulty_level": 3,
+      "description": "Learn and master Cash Flow Management",
+      "tags": [
+        "cash",
+        "flow",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_840",
+      "name": "Comptabilité analytique",
+      "difficulty_level": 1,
+      "description": "Learn and master Cost Accounting",
+      "tags": [
+        "cost",
+        "accounting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_841",
+      "name": "Analyse financière",
+      "difficulty_level": 4,
+      "description": "Learn and master Financial Analysis",
+      "tags": [
+        "financial",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_842",
+      "name": "Information financière",
+      "difficulty_level": 2,
+      "description": "Learn and master Financial Reporting",
+      "tags": [
+        "financial",
+        "reporting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_843",
+      "name": "Fusée",
+      "difficulty_level": 1,
+      "description": "Learn and master QuickBooks",
+      "tags": [
+        "quickbooks",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_844",
+      "name": "Préparation des impôts",
+      "difficulty_level": 2,
+      "description": "Learn and master Tax Preparation",
+      "tags": [
+        "preparation",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

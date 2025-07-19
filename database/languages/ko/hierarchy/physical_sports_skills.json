@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "신체 및 스포츠 기술",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "피트니스 및 강도"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "개별 스포츠"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "무술"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "야외 및 모험"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "레크리에이션 활동"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "팀 스포츠"
+    }
+  ]
+}

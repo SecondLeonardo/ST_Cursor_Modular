@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_photography",
+  "name": "Фотография",
+  "skills": [
+    {
+      "id": "skill_600",
+      "name": "Настройки камеры",
+      "difficulty_level": 3,
+      "description": "Learn and master Camera Settings",
+      "tags": [
+        "camera",
+        "settings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_601",
+      "name": "Цифровой рабочий процесс",
+      "difficulty_level": 3,
+      "description": "Learn and master Digital Workflow",
+      "tags": [
+        "digital",
+        "workflow",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_602",
+      "name": "Ландшафтная фотография",
+      "difficulty_level": 4,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_603",
+      "name": "Методы освещения",
+      "difficulty_level": 2,
+      "description": "Learn and master Lighting Techniques",
+      "tags": [
+        "lighting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_604",
+      "name": "Фото композиция",
+      "difficulty_level": 2,
+      "description": "Learn and master Photo Composition",
+      "tags": [
+        "photo",
+        "composition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_605",
+      "name": "Редактирование фото",
+      "difficulty_level": 2,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_606",
+      "name": "Фотожурналистика",
+      "difficulty_level": 4,
+      "description": "Learn and master Photojournalism",
+      "tags": [
+        "photojournalism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_607",
+      "name": "Портретная фотография",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_608",
+      "name": "Уличная фотография",
+      "difficulty_level": 5,
+      "description": "Learn and master Street Photography",
+      "tags": [
+        "street",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_609",
+      "name": "Студийная фотография",
+      "difficulty_level": 4,
+      "description": "Learn and master Studio Photography",
+      "tags": [
+        "studio",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

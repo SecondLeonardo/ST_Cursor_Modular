@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_sculpture",
+  "name": "조각품",
+  "skills": [
+    {
+      "id": "skill_410",
+      "name": "3D 프린팅 조각",
+      "difficulty_level": 2,
+      "description": "Learn and master 3D Printing Sculpting",
+      "tags": [
+        "printing",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_411",
+      "name": "점토 모델링",
+      "difficulty_level": 3,
+      "description": "Learn and master Clay Modeling",
+      "tags": [
+        "clay",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_412",
+      "name": "설치 예술",
+      "difficulty_level": 2,
+      "description": "Learn and master Installation Art",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_413",
+      "name": "금속 조각",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Sculpture",
+      "tags": [
+        "metal",
+        "sculpture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_414",
+      "name": "미니어처 조각",
+      "difficulty_level": 1,
+      "description": "Learn and master Miniature Sculpting",
+      "tags": [
+        "miniature",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_415",
+      "name": "혼합 미디어 조각",
+      "difficulty_level": 4,
+      "description": "Learn and master Mixed Media Sculpture",
+      "tags": [
+        "mixed",
+        "media",
+        "sculpture"
+      ]
+    },
+    {
+      "id": "skill_416",
+      "name": "석고 캐스팅",
+      "difficulty_level": 3,
+      "description": "Learn and master Plaster Casting",
+      "tags": [
+        "plaster",
+        "casting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_417",
+      "name": "석재 조각",
+      "difficulty_level": 3,
+      "description": "Learn and master Stone Carving",
+      "tags": [
+        "stone",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_418",
+      "name": "와이어 아트",
+      "difficulty_level": 2,
+      "description": "Learn and master Wire Art",
+      "tags": [
+        "wire",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_419",
+      "name": "나무 조각",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Sculpture",
+      "tags": [
+        "wood",
+        "sculpture",
+        "skill"
+      ]
+    }
+  ]
+}

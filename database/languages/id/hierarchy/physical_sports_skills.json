@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "Keterampilan Fisik & Olahraga",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "Kebugaran & Kekuatan"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "Olahraga individu"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "Seni bela diri"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "Outdoor & Adventure"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "Kegiatan rekreasi"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "Olahraga Tim"
+    }
+  ]
+}

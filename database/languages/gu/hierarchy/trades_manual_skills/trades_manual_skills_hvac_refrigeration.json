@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_hvac_refrigeration",
+  "name": "એચવીએસી અને રેફ્રિજરેશન",
+  "skills": [
+    {
+      "id": "skill_5095",
+      "name": "હવાઈ ​​કન્ડિશનર સમારકામ",
+      "difficulty_level": 1,
+      "description": "Learn and master Air Conditioner Repair",
+      "tags": [
+        "conditioner",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5096",
+      "name": "હવા ગુણવત્તા પરીક્ષણ",
+      "difficulty_level": 3,
+      "description": "Learn and master Air Quality Testing",
+      "tags": [
+        "quality",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5097",
+      "name": "કોમ્પ્રેસર નિદાન",
+      "difficulty_level": 5,
+      "description": "Learn and master Compressor Diagnosis",
+      "tags": [
+        "compressor",
+        "diagnosis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5098",
+      "name": "ડક્ટવર્ક ઇન્સ્ટોલેશન",
+      "difficulty_level": 1,
+      "description": "Learn and master Ductwork Installation",
+      "tags": [
+        "ductwork",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5099",
+      "name": "મુશ્કેલીનિવારણ",
+      "difficulty_level": 1,
+      "description": "Learn and master HVAC Troubleshooting",
+      "tags": [
+        "hvac",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5100",
+      "name": "હીટર જાળવણી",
+      "difficulty_level": 1,
+      "description": "Learn and master Heater Maintenance",
+      "tags": [
+        "heater",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5101",
+      "name": "રેફ્રિજન્ટ હેન્ડલિંગ",
+      "difficulty_level": 5,
+      "description": "Learn and master Refrigerant Handling",
+      "tags": [
+        "refrigerant",
+        "handling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5102",
+      "name": "ઠપકો -ચક્ર જ્ knowledgeાન",
+      "difficulty_level": 4,
+      "description": "Learn and master Refrigeration Cycle Knowledge",
+      "tags": [
+        "refrigeration",
+        "cycle",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5103",
+      "name": "પદ્ધતિસર",
+      "difficulty_level": 1,
+      "description": "Learn and master System Balancing",
+      "tags": [
+        "system",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5104",
+      "name": "થર્મોસ્ટેટ",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermostat Installation",
+      "tags": [
+        "thermostat",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

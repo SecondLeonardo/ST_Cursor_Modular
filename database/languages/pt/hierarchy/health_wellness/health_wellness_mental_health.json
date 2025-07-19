@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_mental_health",
+  "name": "Saúde mental",
+  "skills": [
+    {
+      "id": "skill_2553",
+      "name": "Habilidades de enfrentamento de ansiedade",
+      "difficulty_level": 2,
+      "description": "Learn and master Anxiety Coping Skills",
+      "tags": [
+        "anxiety",
+        "coping",
+        "skills"
+      ]
+    },
+    {
+      "id": "skill_2554",
+      "name": "Técnicas cognitivas comportamentais",
+      "difficulty_level": 2,
+      "description": "Learn and master Cognitive Behavioral Techniques",
+      "tags": [
+        "cognitive",
+        "behavioral",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2555",
+      "name": "Planejamento de crises",
+      "difficulty_level": 4,
+      "description": "Learn and master Crisis Planning",
+      "tags": [
+        "crisis",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2556",
+      "name": "Gerenciamento de depressão",
+      "difficulty_level": 2,
+      "description": "Learn and master Depression Management",
+      "tags": [
+        "depression",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2557",
+      "name": "Regulação emocional",
+      "difficulty_level": 3,
+      "description": "Learn and master Emotional Regulation",
+      "tags": [
+        "emotional",
+        "regulation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2558",
+      "name": "Diário de saúde mental",
+      "difficulty_level": 3,
+      "description": "Learn and master Mental Health Journaling",
+      "tags": [
+        "mental",
+        "health",
+        "journaling"
+      ]
+    },
+    {
+      "id": "skill_2559",
+      "name": "Mudança de mentalidade",
+      "difficulty_level": 3,
+      "description": "Learn and master Mindset Shifting",
+      "tags": [
+        "mindset",
+        "shifting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2560",
+      "name": "Prática de autoconsciência",
+      "difficulty_level": 1,
+      "description": "Learn and master Self-awareness Practice",
+      "tags": [
+        "self-awareness",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2561",
+      "name": "Facilitação do grupo de apoio",
+      "difficulty_level": 3,
+      "description": "Learn and master Support Group Facilitation",
+      "tags": [
+        "support",
+        "group",
+        "facilitation"
+      ]
+    },
+    {
+      "id": "skill_2562",
+      "name": "Ferramentas de terapia",
+      "difficulty_level": 2,
+      "description": "Learn and master Therapy Tools",
+      "tags": [
+        "therapy",
+        "tools",
+        "skill"
+      ]
+    }
+  ]
+}

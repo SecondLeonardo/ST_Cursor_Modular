@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_welding",
+  "name": "Soudage",
+  "skills": [
+    {
+      "id": "skill_5265",
+      "name": "Soudage à l'arc",
+      "difficulty_level": 5,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5266",
+      "name": "Interprétation du plan",
+      "difficulty_level": 4,
+      "description": "Learn and master Blueprint Interpretation",
+      "tags": [
+        "blueprint",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5267",
+      "name": "Soudage MIG",
+      "difficulty_level": 4,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5268",
+      "name": "Coupe de métaux",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Cutting",
+      "tags": [
+        "metal",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5269",
+      "name": "Soudage des tuyaux",
+      "difficulty_level": 4,
+      "description": "Learn and master Pipe Welding",
+      "tags": [
+        "pipe",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5270",
+      "name": "Soudage Tig",
+      "difficulty_level": 5,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5271",
+      "name": "Inspection de soudure",
+      "difficulty_level": 3,
+      "description": "Learn and master Weld Inspection",
+      "tags": [
+        "weld",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5272",
+      "name": "Fabrication de soudage",
+      "difficulty_level": 1,
+      "description": "Learn and master Welding Fabrication",
+      "tags": [
+        "welding",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5273",
+      "name": "Sécurité de soudage",
+      "difficulty_level": 1,
+      "description": "Learn and master Welding Safety",
+      "tags": [
+        "welding",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5274",
+      "name": "Lecture du symbole de soudage",
+      "difficulty_level": 5,
+      "description": "Learn and master Welding Symbol Reading",
+      "tags": [
+        "welding",
+        "symbol",
+        "reading"
+      ]
+    }
+  ]
+}

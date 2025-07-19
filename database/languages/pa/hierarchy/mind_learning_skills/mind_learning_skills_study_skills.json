@@ -1,0 +1,116 @@
+{
+  "id": "mind_learning_skills_study_skills",
+  "name": "ਅਧਿਐਨ ਕਰਨ ਦੇ ਹੁਨਰ",
+  "skills": [
+    {
+      "id": "skill_3708",
+      "name": "ਸਰਗਰਮ ਯਾਦ",
+      "difficulty_level": 2,
+      "description": "Learn and master Active Recall",
+      "tags": [
+        "active",
+        "recall",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3709",
+      "name": "ਪ੍ਰੀਖਿਆ ਤਿਆਰੀ",
+      "difficulty_level": 1,
+      "description": "Learn and master Exam Preparation",
+      "tags": [
+        "exam",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3710",
+      "name": "ਫਲੈਸ਼ਕਾਰਡ ਰਚਨਾ",
+      "difficulty_level": 1,
+      "description": "Learn and master Flashcard Creation",
+      "tags": [
+        "flashcard",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3711",
+      "name": "ਟੀਚਾ-ਅਧਾਰਤ ਅਧਿਐਨ",
+      "difficulty_level": 5,
+      "description": "Learn and master Goal-Oriented Studying",
+      "tags": [
+        "goal-oriented",
+        "studying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3712",
+      "name": "ਸਮੂਹ ਅਧਿਐਨ ਤਾਲਮੇਲ",
+      "difficulty_level": 2,
+      "description": "Learn and master Group Study Coordination",
+      "tags": [
+        "group",
+        "study",
+        "coordination"
+      ]
+    },
+    {
+      "id": "skill_3713",
+      "name": "ਵੀਡੀਓ ਤੋਂ ਸਿੱਖਣਾ",
+      "difficulty_level": 2,
+      "description": "Learn and master Learning from Videos",
+      "tags": [
+        "learning",
+        "from",
+        "videos"
+      ]
+    },
+    {
+      "id": "skill_3714",
+      "name": "ਨੋਟ-ਲੈਣਾ ਰਣਨੀਤੀਆਂ",
+      "difficulty_level": 5,
+      "description": "Learn and master Note-Taking Strategies",
+      "tags": [
+        "note-taking",
+        "strategies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3715",
+      "name": "ਅਧਿਐਨ ਸਮੱਗਰੀ ਦਾ ਆਯੋਜਨ",
+      "difficulty_level": 5,
+      "description": "Learn and master Organizing Study Materials",
+      "tags": [
+        "organizing",
+        "study",
+        "materials"
+      ]
+    },
+    {
+      "id": "skill_3716",
+      "name": "ਸਪੇਸਡ ਦੁਹਰਾਓ",
+      "difficulty_level": 2,
+      "description": "Learn and master Spaced Repetition",
+      "tags": [
+        "spaced",
+        "repetition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3717",
+      "name": "ਟਿਮੈਟਬਲਿੰਗ ਦਾ ਅਧਿਐਨ ਕਰੋ",
+      "difficulty_level": 4,
+      "description": "Learn and master Study Timetabling",
+      "tags": [
+        "study",
+        "timetabling",
+        "skill"
+      ]
+    }
+  ]
+}

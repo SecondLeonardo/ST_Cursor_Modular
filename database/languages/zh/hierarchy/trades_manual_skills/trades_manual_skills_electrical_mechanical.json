@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_electrical_mechanical",
+  "name": "电气和机械",
+  "skills": [
+    {
+      "id": "skill_5075",
+      "name": "基本的HVAC维护",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic HVAC Maintenance",
+      "tags": [
+        "basic",
+        "hvac",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5076",
+      "name": "基本机器人技术",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Robotics",
+      "tags": [
+        "basic",
+        "robotics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5077",
+      "name": "融合和电路保护",
+      "difficulty_level": 2,
+      "description": "Learn and master Fusing and Circuit Protection",
+      "tags": [
+        "fusing",
+        "circuit",
+        "protection"
+      ]
+    },
+    {
+      "id": "skill_5078",
+      "name": "家庭自动化接线",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Automation Wiring",
+      "tags": [
+        "home",
+        "automation",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_5079",
+      "name": "安装插座",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Outlets",
+      "tags": [
+        "installing",
+        "outlets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5080",
+      "name": "灯具安装",
+      "difficulty_level": 5,
+      "description": "Learn and master Light Fixture Installation",
+      "tags": [
+        "light",
+        "fixture",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5081",
+      "name": "阅读蓝图",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Blueprints",
+      "tags": [
+        "reading",
+        "blueprints",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5082",
+      "name": "故障排除电机",
+      "difficulty_level": 5,
+      "description": "Learn and master Troubleshooting Motors",
+      "tags": [
+        "troubleshooting",
+        "motors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5083",
+      "name": "使用万用表",
+      "difficulty_level": 4,
+      "description": "Learn and master Using a Multimeter",
+      "tags": [
+        "using",
+        "multimeter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5084",
+      "name": "布线电路",
+      "difficulty_level": 3,
+      "description": "Learn and master Wiring Circuits",
+      "tags": [
+        "wiring",
+        "circuits",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_crafting_diy",
+  "name": "제작 및 DIY",
+  "skills": [
+    {
+      "id": "skill_1453",
+      "name": "촛불 만들기",
+      "difficulty_level": 4,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1454",
+      "name": "보석 제작",
+      "difficulty_level": 4,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1455",
+      "name": "편물",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1456",
+      "name": "종이 접기",
+      "difficulty_level": 3,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1457",
+      "name": "도기류",
+      "difficulty_level": 2,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1458",
+      "name": "스크랩북",
+      "difficulty_level": 5,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1459",
+      "name": "재봉",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewing",
+      "tags": [
+        "sewing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1460",
+      "name": "비누 만들기",
+      "difficulty_level": 3,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1461",
+      "name": "업 사이클",
+      "difficulty_level": 4,
+      "description": "Learn and master Upcycling",
+      "tags": [
+        "upcycling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1462",
+      "name": "목공",
+      "difficulty_level": 5,
+      "description": "Learn and master Woodworking",
+      "tags": [
+        "woodworking",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

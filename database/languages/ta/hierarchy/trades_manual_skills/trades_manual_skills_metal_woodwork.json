@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_metal_woodwork",
+  "name": "உலோகம் & மரவேலை",
+  "skills": [
+    {
+      "id": "skill_5125",
+      "name": "அமைச்சரவை தயாரித்தல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5126",
+      "name": "துளையிடுதல் மற்றும் கட்டுதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Drilling & Fastening",
+      "tags": [
+        "drilling",
+        "fastening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5127",
+      "name": "மூட்டுவேலை",
+      "difficulty_level": 4,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5128",
+      "name": "லேண்ட் செயல்பாடு",
+      "difficulty_level": 2,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5129",
+      "name": "உலோக வெட்டுதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Cutting",
+      "tags": [
+        "metal",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5130",
+      "name": "உலோக மெருகூட்டல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Polishing",
+      "tags": [
+        "metal",
+        "polishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5131",
+      "name": "துல்லிய அளவீட்டு",
+      "difficulty_level": 4,
+      "description": "Learn and master Precision Measurement",
+      "tags": [
+        "precision",
+        "measurement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5132",
+      "name": "சாலிடரிங்",
+      "difficulty_level": 4,
+      "description": "Learn and master Soldering",
+      "tags": [
+        "soldering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5133",
+      "name": "வெல்டிங் நுட்பங்கள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Welding Techniques",
+      "tags": [
+        "welding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5134",
+      "name": "மரத்தாலான",
+      "difficulty_level": 2,
+      "description": "Learn and master Woodturning",
+      "tags": [
+        "woodturning",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

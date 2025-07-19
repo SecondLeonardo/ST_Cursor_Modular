@@ -1,0 +1,116 @@
+{
+  "id": "academic_research_skills_mathematics_statistics",
+  "name": "கணிதம் மற்றும் புள்ளிவிவரங்கள்",
+  "skills": [
+    {
+      "id": "skill_290",
+      "name": "இயற்கணித கையாளுதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Algebraic Manipulation",
+      "tags": [
+        "algebraic",
+        "manipulation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_291",
+      "name": "வரைபடங்கள் மற்றும் விளக்கப்படங்களை உருவாக்குதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Graphs & Charts",
+      "tags": [
+        "creating",
+        "graphs",
+        "charts"
+      ]
+    },
+    {
+      "id": "skill_292",
+      "name": "விளக்க புள்ளிவிவரங்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Descriptive Statistics",
+      "tags": [
+        "descriptive",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_293",
+      "name": "அனுமான புள்ளிவிவரங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Inferential Statistics",
+      "tags": [
+        "inferential",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_294",
+      "name": "நேரியல் இயற்கணித கருத்துக்கள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra Concepts",
+      "tags": [
+        "linear",
+        "algebra",
+        "concepts"
+      ]
+    },
+    {
+      "id": "skill_295",
+      "name": "கணித சான்றுகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Mathematical Proofs",
+      "tags": [
+        "mathematical",
+        "proofs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_296",
+      "name": "கால்குலஸ் சிக்கல்களைத் தீர்ப்பது",
+      "difficulty_level": 2,
+      "description": "Learn and master Solving Calculus Problems",
+      "tags": [
+        "solving",
+        "calculus",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_297",
+      "name": "புள்ளிவிவர மென்பொருள் பயன்பாடு",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Software Use",
+      "tags": [
+        "statistical",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_298",
+      "name": "நிகழ்தகவைப் புரிந்துகொள்வது",
+      "difficulty_level": 2,
+      "description": "Learn and master Understanding Probability",
+      "tags": [
+        "understanding",
+        "probability",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_299",
+      "name": "வரைபட கால்குலேட்டர்களைப் பயன்படுத்துதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Graphing Calculators",
+      "tags": [
+        "using",
+        "graphing",
+        "calculators"
+      ]
+    }
+  ]
+}

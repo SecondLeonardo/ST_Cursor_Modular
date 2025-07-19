@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_self-defense_martial_arts",
+  "name": "আত্মরক্ষার ও মার্শাল আর্ট",
+  "skills": [
+    {
+      "id": "skill_3958",
+      "name": "বেসিক জিউ-জিতসু",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Jiu-Jitsu",
+      "tags": [
+        "basic",
+        "jiu-jitsu",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3959",
+      "name": "বক্সিং কৌশল",
+      "difficulty_level": 3,
+      "description": "Learn and master Boxing Techniques",
+      "tags": [
+        "boxing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3960",
+      "name": "ব্রেকফল কৌশল",
+      "difficulty_level": 3,
+      "description": "Learn and master Breakfall Techniques",
+      "tags": [
+        "breakfall",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3961",
+      "name": "কারাতে কাটা",
+      "difficulty_level": 1,
+      "description": "Learn and master Karate Kata",
+      "tags": [
+        "karate",
+        "kata",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3962",
+      "name": "কিক প্রতিরক্ষা",
+      "difficulty_level": 4,
+      "description": "Learn and master Kick Defense",
+      "tags": [
+        "kick",
+        "defense",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3963",
+      "name": "ক্রাভ মাগা বেসিক",
+      "difficulty_level": 5,
+      "description": "Learn and master Krav Maga Basics",
+      "tags": [
+        "krav",
+        "maga",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_3964",
+      "name": "মুয়ে থাই লাথি",
+      "difficulty_level": 3,
+      "description": "Learn and master Muay Thai Kicks",
+      "tags": [
+        "muay",
+        "thai",
+        "kicks"
+      ]
+    },
+    {
+      "id": "skill_3965",
+      "name": "আত্মরক্ষার সচেতনতা",
+      "difficulty_level": 3,
+      "description": "Learn and master Self-Defense Awareness",
+      "tags": [
+        "self-defense",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3966",
+      "name": "টেকডাউন প্রতিরক্ষা",
+      "difficulty_level": 3,
+      "description": "Learn and master Takedown Defense",
+      "tags": [
+        "takedown",
+        "defense",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3967",
+      "name": "কব্জি লক পালিয়ে যায়",
+      "difficulty_level": 5,
+      "description": "Learn and master Wrist Lock Escapes",
+      "tags": [
+        "wrist",
+        "lock",
+        "escapes"
+      ]
+    }
+  ]
+}

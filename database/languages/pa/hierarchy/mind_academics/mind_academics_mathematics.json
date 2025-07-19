@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_mathematics",
+  "name": "ਗਣਿਤ",
+  "skills": [
+    {
+      "id": "skill_3608",
+      "name": "ਐਲਜਬਰਾ",
+      "difficulty_level": 5,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3609",
+      "name": "ਕੈਲਕੂਲਸ",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3610",
+      "name": "ਜਿਓਮੈਟਰੀ",
+      "difficulty_level": 4,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3611",
+      "name": "ਗਣਿਤ ਦੀ ਸਮੱਸਿਆ ਹੱਲ ਕਰਨਾ",
+      "difficulty_level": 1,
+      "description": "Learn and master Math Problem Solving",
+      "tags": [
+        "math",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_3612",
+      "name": "ਵਿੱਤ ਲਈ ਗਣਿਤ",
+      "difficulty_level": 1,
+      "description": "Learn and master Math for Finance",
+      "tags": [
+        "math",
+        "finance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3613",
+      "name": "ਗਣਿਤ ਦਾ ਤਰਕ",
+      "difficulty_level": 3,
+      "description": "Learn and master Mathematical Logic",
+      "tags": [
+        "mathematical",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3614",
+      "name": "ਮਾਨਸਿਕ ਗਣਿਤ",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3615",
+      "name": "ਨੰਬਰ ਸਿਧਾਂਤ",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3616",
+      "name": "ਸੰਭਾਵਨਾ ਅਤੇ ਅੰਕੜੇ",
+      "difficulty_level": 4,
+      "description": "Learn and master Probability & Statistics",
+      "tags": [
+        "probability",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3617",
+      "name": "ਟ੍ਰਾਈਗੋਮੈਟਰੀ",
+      "difficulty_level": 4,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

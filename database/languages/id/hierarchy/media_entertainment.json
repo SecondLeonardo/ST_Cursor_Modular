@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "Media & Hiburan",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "Produksi video"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "Produksi audio"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "Fotografi"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "Desain Grafis"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "Akting & kinerja"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "Menulis & Penulisan Skrip"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "Penyiaran"
+    }
+  ]
+}

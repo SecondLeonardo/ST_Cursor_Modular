@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_craftsmanship_repairs",
+  "name": "Artisanat et réparations",
+  "skills": [
+    {
+      "id": "skill_5065",
+      "name": "Réparation de l'appareil",
+      "difficulty_level": 4,
+      "description": "Learn and master Appliance Repair",
+      "tags": [
+        "appliance",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5066",
+      "name": "Fixation de robinets qui fuient",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Leaky Faucets",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucets"
+      ]
+    },
+    {
+      "id": "skill_5067",
+      "name": "Restauration de meubles",
+      "difficulty_level": 4,
+      "description": "Learn and master Furniture Restoration",
+      "tags": [
+        "furniture",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5068",
+      "name": "Techniques de collage",
+      "difficulty_level": 5,
+      "description": "Learn and master Gluing Techniques",
+      "tags": [
+        "gluing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5069",
+      "name": "Remplacement des charnières",
+      "difficulty_level": 1,
+      "description": "Learn and master Replacing Hinges",
+      "tags": [
+        "replacing",
+        "hinges",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5070",
+      "name": "Réparations de couture",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Repairs",
+      "tags": [
+        "sewing",
+        "repairs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5071",
+      "name": "Outils d'affûtage",
+      "difficulty_level": 3,
+      "description": "Learn and master Sharpening Tools",
+      "tags": [
+        "sharpening",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5072",
+      "name": "Coulis de carreaux",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Grouting",
+      "tags": [
+        "tile",
+        "grouting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5073",
+      "name": "Patchage",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5074",
+      "name": "Scellage des fenêtres",
+      "difficulty_level": 1,
+      "description": "Learn and master Window Sealing",
+      "tags": [
+        "window",
+        "sealing",
+        "skill"
+      ]
+    }
+  ]
+}

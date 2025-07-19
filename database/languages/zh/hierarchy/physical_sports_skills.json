@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "体育和运动技能",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "健身和力量"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "个人运动"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "武术"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "户外冒险"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "娱乐活动"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "团队运动"
+    }
+  ]
+}

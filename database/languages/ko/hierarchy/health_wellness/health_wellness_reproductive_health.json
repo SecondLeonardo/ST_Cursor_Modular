@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_reproductive_health",
+  "name": "생식 건강",
+  "skills": [
+    {
+      "id": "skill_2629",
+      "name": "피임 방법",
+      "difficulty_level": 1,
+      "description": "Learn and master Birth Control Methods",
+      "tags": [
+        "birth",
+        "control",
+        "methods"
+      ]
+    },
+    {
+      "id": "skill_2630",
+      "name": "다산 인식",
+      "difficulty_level": 3,
+      "description": "Learn and master Fertility Awareness",
+      "tags": [
+        "fertility",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2631",
+      "name": "호르몬 인식",
+      "difficulty_level": 4,
+      "description": "Learn and master Hormonal Awareness",
+      "tags": [
+        "hormonal",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2632",
+      "name": "친밀감 커뮤니케이션",
+      "difficulty_level": 3,
+      "description": "Learn and master Intimacy Communication",
+      "tags": [
+        "intimacy",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2633",
+      "name": "월경주기 추적",
+      "difficulty_level": 3,
+      "description": "Learn and master Menstrual Cycle Tracking",
+      "tags": [
+        "menstrual",
+        "cycle",
+        "tracking"
+      ]
+    },
+    {
+      "id": "skill_2634",
+      "name": "임신 치료 기본",
+      "difficulty_level": 5,
+      "description": "Learn and master Pregnancy Care Basics",
+      "tags": [
+        "pregnancy",
+        "care",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2635",
+      "name": "태아 운동",
+      "difficulty_level": 3,
+      "description": "Learn and master Prenatal Exercises",
+      "tags": [
+        "prenatal",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2636",
+      "name": "성별 예방",
+      "difficulty_level": 3,
+      "description": "Learn and master STD Prevention",
+      "tags": [
+        "prevention",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2637",
+      "name": "안전한 관행 교육",
+      "difficulty_level": 4,
+      "description": "Learn and master Safe Practices Education",
+      "tags": [
+        "safe",
+        "practices",
+        "education"
+      ]
+    },
+    {
+      "id": "skill_2638",
+      "name": "성 건강 관행",
+      "difficulty_level": 2,
+      "description": "Learn and master Sexual Health Practices",
+      "tags": [
+        "sexual",
+        "health",
+        "practices"
+      ]
+    }
+  ]
+}

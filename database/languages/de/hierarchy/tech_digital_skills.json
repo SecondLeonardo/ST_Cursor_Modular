@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "Technische und digitale Fähigkeiten",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "KI & maschinelles Lernen"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "Cloud Computing"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "Cybersicherheit"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "Daten & Analytics"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "Data Science & AI"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "DevOps & Automatisierung"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "Spielentwicklung"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "IT & Networking"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "IT -Unterstützung und Networking"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "Entwicklung der mobilen App"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "Programmierung und Softwareentwicklung"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "Softwareentwicklung"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "Tech -Hardware & Reparatur"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "Tech -Support und Fehlerbehebung"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "Webentwicklung"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_computer_data_science",
+  "name": "คอมพิวเตอร์และวิทยาศาสตร์ข้อมูล",
+  "skills": [
+    {
+      "id": "skill_4068",
+      "name": "เครื่องมือข้อมูลขนาดใหญ่",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4069",
+      "name": "การทำความสะอาดข้อมูล",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4070",
+      "name": "จริยธรรมข้อมูล",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Ethics",
+      "tags": [
+        "data",
+        "ethics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4071",
+      "name": "การขุดข้อมูล",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Mining",
+      "tags": [
+        "data",
+        "mining",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4072",
+      "name": "คลังข้อมูล",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Warehousing",
+      "tags": [
+        "data",
+        "warehousing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4073",
+      "name": "การสอบถามฐานข้อมูล",
+      "difficulty_level": 2,
+      "description": "Learn and master Database Querying",
+      "tags": [
+        "database",
+        "querying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4074",
+      "name": "การเรียนรู้ของเครื่องจักร",
+      "difficulty_level": 5,
+      "description": "Learn and master Machine Learning",
+      "tags": [
+        "machine",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4075",
+      "name": "การประมวลผลภาษาธรรมชาติ",
+      "difficulty_level": 5,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4076",
+      "name": "การเขียนโปรแกรม Python",
+      "difficulty_level": 4,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4077",
+      "name": "การคำนวณทางสถิติ",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Computing",
+      "tags": [
+        "statistical",
+        "computing",
+        "skill"
+      ]
+    }
+  ]
+}

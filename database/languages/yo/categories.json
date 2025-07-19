@@ -1,0 +1,246 @@
+[
+  {
+    "id": "academic_intellectual",
+    "name": "Ile-iwe & Ọpọlọ"
+  },
+  {
+    "id": "academic_intellectual_skills",
+    "name": "Awọn ogbon & Awọn ọgbọn ọgbọn"
+  },
+  {
+    "id": "academic_research_skills",
+    "name": "Awọn ogbontoriomic & iwadi"
+  },
+  {
+    "id": "arts_creative_expression",
+    "name": "Arts & ikosile ẹda"
+  },
+  {
+    "id": "arts_creativity",
+    "name": "Arts & àtinúdá"
+  },
+  {
+    "id": "arts_design",
+    "name": "Arts & Apẹrẹ"
+  },
+  {
+    "id": "arts,_crafts_design",
+    "name": "Arts, awọn iṣẹ-iṣẹ & apẹrẹ"
+  },
+  {
+    "id": "arts,_design_creativity",
+    "name": "Arts, Apẹrẹ & àtinúdá"
+  },
+  {
+    "id": "business_finance",
+    "name": "Iṣowo & Isuna"
+  },
+  {
+    "id": "business_professional_skills",
+    "name": "Awọn ogbon & Ọjọgbọn"
+  },
+  {
+    "id": "cognitive_academic_skills",
+    "name": "Oye oye & awọn ọgbọn ẹkọ"
+  },
+  {
+    "id": "cognitive_learning_skills",
+    "name": "Oye oye & awọn ọgbọn ẹkọ"
+  },
+  {
+    "id": "communication_language_skills",
+    "name": "Ibaraẹnisọrọ & Awọn ọgbọn Ede"
+  },
+  {
+    "id": "creative_artistic",
+    "name": "Ṣiṣẹda & Artict"
+  },
+  {
+    "id": "creative_artistic_skills",
+    "name": "Awọn ọgbọn ẹda & Artistic"
+  },
+  {
+    "id": "creative_design",
+    "name": "Ṣiṣẹda & apẹrẹ"
+  },
+  {
+    "id": "creative_arts_crafts",
+    "name": "Awọn Arts Verective & iṣẹ ọnà"
+  },
+  {
+    "id": "creative_arts_design",
+    "name": "Awọn ọna ẹda & apẹrẹ"
+  },
+  {
+    "id": "culture_language_skills",
+    "name": "Asa & awọn ọgbọn ede"
+  },
+  {
+    "id": "design_visual_skills",
+    "name": "Apẹrẹ & awọn ọgbọn wiwo"
+  },
+  {
+    "id": "digital_media_skills",
+    "name": "Digital & Awọn ogbon Media"
+  },
+  {
+    "id": "digital_technology_skills",
+    "name": "Digital & Imọ-ẹrọ Imọ-ẹrọ"
+  },
+  {
+    "id": "education_language",
+    "name": "Eko & Ede"
+  },
+  {
+    "id": "engineering_mechanical",
+    "name": "Imọ-ẹrọ & ẹrọ"
+  },
+  {
+    "id": "health_fitness",
+    "name": "Ilera & amọdaju"
+  },
+  {
+    "id": "health_wellness",
+    "name": "Ilera & Oreness"
+  },
+  {
+    "id": "health,_fitness_sports",
+    "name": "Ilera, amọdaju & idaraya"
+  },
+  {
+    "id": "health,_wellness_fitness",
+    "name": "Ilera, WaratNess & Amọdaju"
+  },
+  {
+    "id": "home_diy",
+    "name": "Ile & DIY"
+  },
+  {
+    "id": "home_daily_life",
+    "name": "Ile & Igbesi aye ojoojumọ"
+  },
+  {
+    "id": "language_communication",
+    "name": "Ede & ibaraẹnisọrọ"
+  },
+  {
+    "id": "language_communication_skills",
+    "name": "Ede & Awọn ọgbọn Ibaraẹnisọrọ"
+  },
+  {
+    "id": "learning_academic_skills",
+    "name": "Eko & Awọn ọgbọn Imọ-ẹkọ"
+  },
+  {
+    "id": "learning,_language_education",
+    "name": "Eko, Ede & Ẹkọ"
+  },
+  {
+    "id": "life_everyday_skills",
+    "name": "Igbesi-aye & Awọn ọgbọn lojoojumọ"
+  },
+  {
+    "id": "life_personal_development",
+    "name": "Life & Idagbasoke ti ara ẹni"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills",
+    "name": "Igbesi aye & awọn ọgbọn ailera ara ẹni"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills",
+    "name": "Awọn iṣowo Afowoyi & Awọn ọgbọn iṣẹ-ṣiṣe"
+  },
+  {
+    "id": "mechanical_technical_skills",
+    "name": "Darí & awọn ọgbọn imọ-ẹrọ"
+  },
+  {
+    "id": "mind_academics",
+    "name": "Ọpọlọ & Awọn ẹkọ-ẹkọ giga"
+  },
+  {
+    "id": "mind_learning_skills",
+    "name": "Lokan & Awọn ogbon eko"
+  },
+  {
+    "id": "personal_development",
+    "name": "Idagbasoke ti ara ẹni"
+  },
+  {
+    "id": "personal_development_mindset",
+    "name": "Idagbasoke ti ara ẹni & Lindset"
+  },
+  {
+    "id": "personal_development_mindset_skills",
+    "name": "Idagbasoke ti ara ẹni & Awọn ogbon ironu"
+  },
+  {
+    "id": "physical_outdoor_skills",
+    "name": "Awọn ọgbọn ti ara & ita gbangba"
+  },
+  {
+    "id": "physical_sports_skills",
+    "name": "Awọn ogbon ti ara & idaraya"
+  },
+  {
+    "id": "science_research_skills",
+    "name": "Imọ-jinlẹ & Iwadi"
+  },
+  {
+    "id": "science_technical_skills",
+    "name": "Imọye Imọ"
+  },
+  {
+    "id": "science_technology_skills",
+    "name": "Imọye Imọ & Imọ"
+  },
+  {
+    "id": "tech_digital_skills",
+    "name": "Awọn ọgbọn Tech & Digital"
+  },
+  {
+    "id": "technical_engineering",
+    "name": "Imọ-ẹrọ & Imọ-ẹrọ"
+  },
+  {
+    "id": "technical_mechanical_skills",
+    "name": "Awọn ọgbọn imọ-ẹrọ & ẹrọ"
+  },
+  {
+    "id": "technology_digital",
+    "name": "Imọ-ẹrọ & Oniwasi"
+  },
+  {
+    "id": "technology_digital_skills",
+    "name": "Imọ-ẹrọ & Awọn ọgbọn Digital"
+  },
+  {
+    "id": "trade_craftsmanship_skills",
+    "name": "Iṣowo & Iṣẹ adaṣe"
+  },
+  {
+    "id": "trades_craftsmanship",
+    "name": "Awọn iṣowo & iṣẹ ọna"
+  },
+  {
+    "id": "trades_manual_skills",
+    "name": "Awọn ọja & Awọn ọgbọn Afowoyi"
+  },
+  {
+    "id": "trades_technical",
+    "name": "Awọn iṣowo & Imọ"
+  },
+  {
+    "id": "media_entertainment",
+    "name": "Media & Idanilaraya"
+  },
+  {
+    "id": "hobbies_recreation",
+    "name": "Awọn iṣẹ aṣenọju & ere idaraya"
+  },
+  {
+    "id": "food_of_different_countries",
+    "name": "Ounjẹ ti awọn orilẹ-ede oriṣiriṣi"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_programming_development",
+  "name": "编程与开发",
+  "skills": [
+    {
+      "id": "skill_2223",
+      "name": "C ++基本面",
+      "difficulty_level": 5,
+      "description": "Learn and master C++ Fundamentals",
+      "tags": [
+        "fundamentals",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2224",
+      "name": "数据结构和算法",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Structures & Algorithms",
+      "tags": [
+        "data",
+        "structures",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "skill_2225",
+      "name": "调试技术",
+      "difficulty_level": 3,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2226",
+      "name": "Java开发",
+      "difficulty_level": 3,
+      "description": "Learn and master Java Development",
+      "tags": [
+        "java",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2227",
+      "name": "移动应用程序开发",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2228",
+      "name": "面向对象的编程",
+      "difficulty_level": 2,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2229",
+      "name": "Python编程",
+      "difficulty_level": 4,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2230",
+      "name": "REST API开发",
+      "difficulty_level": 1,
+      "description": "Learn and master REST API Development",
+      "tags": [
+        "rest",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2231",
+      "name": "单位测试",
+      "difficulty_level": 1,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2232",
+      "name": "使用git的版本控制",
+      "difficulty_level": 2,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

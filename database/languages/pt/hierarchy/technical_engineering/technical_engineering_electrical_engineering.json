@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_electrical_engineering",
+  "name": "Engenharia Elétrica",
+  "skills": [
+    {
+      "id": "skill_4516",
+      "name": "Programação Arduino",
+      "difficulty_level": 2,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4517",
+      "name": "Projeto de circuito",
+      "difficulty_level": 3,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4518",
+      "name": "Design de lógica digital",
+      "difficulty_level": 5,
+      "description": "Learn and master Digital Logic Design",
+      "tags": [
+        "digital",
+        "logic",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4519",
+      "name": "Padrões de segurança elétrica",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Safety Standards",
+      "tags": [
+        "electrical",
+        "safety",
+        "standards"
+      ]
+    },
+    {
+      "id": "skill_4520",
+      "name": "Sistemas incorporados",
+      "difficulty_level": 3,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4521",
+      "name": "Programação do microcontrolador",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Programming",
+      "tags": [
+        "microcontroller",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4522",
+      "name": "Uso do osciloscópio",
+      "difficulty_level": 4,
+      "description": "Learn and master Oscilloscope Usage",
+      "tags": [
+        "oscilloscope",
+        "usage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4523",
+      "name": "Design de layout da PCB",
+      "difficulty_level": 4,
+      "description": "Learn and master PCB Layout Design",
+      "tags": [
+        "layout",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4524",
+      "name": "Distribuição de energia",
+      "difficulty_level": 2,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4525",
+      "name": "Processamento de sinal",
+      "difficulty_level": 1,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    }
+  ]
+}

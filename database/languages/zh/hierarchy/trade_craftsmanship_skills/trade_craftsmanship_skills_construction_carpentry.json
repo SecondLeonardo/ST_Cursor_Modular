@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_construction_carpentry",
+  "name": "建筑与木工",
+  "skills": [
+    {
+      "id": "skill_4865",
+      "name": "蓝图阅读",
+      "difficulty_level": 1,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4866",
+      "name": "混凝土混合",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4867",
+      "name": "石膏板安装",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4868",
+      "name": "框架墙",
+      "difficulty_level": 3,
+      "description": "Learn and master Framing Walls",
+      "tags": [
+        "framing",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4869",
+      "name": "安装修剪",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing Trim",
+      "tags": [
+        "installing",
+        "trim",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4870",
+      "name": "测量和切割木材",
+      "difficulty_level": 3,
+      "description": "Learn and master Measuring and Cutting Lumber",
+      "tags": [
+        "measuring",
+        "cutting",
+        "lumber"
+      ]
+    },
+    {
+      "id": "skill_4871",
+      "name": "屋顶建筑基础知识",
+      "difficulty_level": 1,
+      "description": "Learn and master Roof Construction Basics",
+      "tags": [
+        "roof",
+        "construction",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4872",
+      "name": "楼梯大楼",
+      "difficulty_level": 4,
+      "description": "Learn and master Stair Building",
+      "tags": [
+        "stair",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4873",
+      "name": "使用指甲枪",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Nail Gun",
+      "tags": [
+        "using",
+        "nail",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4874",
+      "name": "窗框",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Framing",
+      "tags": [
+        "window",
+        "framing",
+        "skill"
+      ]
+    }
+  ]
+}

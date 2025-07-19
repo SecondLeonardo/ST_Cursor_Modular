@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "Торги и технические",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "Автомобиль"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "Плотница"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "Строительство"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "Электрический"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "Масонство"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "Механический"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "Живопись и украшение"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "Сантехника"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "Сварка"
+    }
+  ]
+}

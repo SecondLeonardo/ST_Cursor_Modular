@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_painting_fine_art",
+  "name": "그림과 미술",
+  "skills": [
+    {
+      "id": "skill_1624",
+      "name": "아크릴 그림",
+      "difficulty_level": 5,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1625",
+      "name": "브러시 기술",
+      "difficulty_level": 2,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1626",
+      "name": "캔버스 준비",
+      "difficulty_level": 3,
+      "description": "Learn and master Canvas Preparation",
+      "tags": [
+        "canvas",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1627",
+      "name": "컬러 믹싱",
+      "difficulty_level": 2,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1628",
+      "name": "인상주의 스타일",
+      "difficulty_level": 1,
+      "description": "Learn and master Impressionist Style",
+      "tags": [
+        "impressionist",
+        "style",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1629",
+      "name": "유화 기초",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Painting Basics",
+      "tags": [
+        "painting",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1630",
+      "name": "그림 풍경",
+      "difficulty_level": 3,
+      "description": "Learn and master Painting Landscapes",
+      "tags": [
+        "painting",
+        "landscapes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1631",
+      "name": "그림 초상화",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting Portraits",
+      "tags": [
+        "painting",
+        "portraits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1632",
+      "name": "정물화",
+      "difficulty_level": 4,
+      "description": "Learn and master Still Life Painting",
+      "tags": [
+        "still",
+        "life",
+        "painting"
+      ]
+    },
+    {
+      "id": "skill_1633",
+      "name": "수채화 기술",
+      "difficulty_level": 1,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

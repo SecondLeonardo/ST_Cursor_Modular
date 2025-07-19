@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_metalwork_welding",
+  "name": "Металл и сварка",
+  "skills": [
+    {
+      "id": "skill_4895",
+      "name": "Дуговая сварка",
+      "difficulty_level": 2,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4896",
+      "name": "Шлифовальный металл",
+      "difficulty_level": 5,
+      "description": "Learn and master Grinding Metal",
+      "tags": [
+        "grinding",
+        "metal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4897",
+      "name": "Теплообразование стали",
+      "difficulty_level": 5,
+      "description": "Learn and master Heat Treating Steel",
+      "tags": [
+        "heat",
+        "treating",
+        "steel"
+      ]
+    },
+    {
+      "id": "skill_4898",
+      "name": "Сварка MIG",
+      "difficulty_level": 2,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4899",
+      "name": "Измерение и маркировку металла",
+      "difficulty_level": 4,
+      "description": "Learn and master Metal Measuring & Marking",
+      "tags": [
+        "metal",
+        "measuring",
+        "marking"
+      ]
+    },
+    {
+      "id": "skill_4900",
+      "name": "Плазма резка",
+      "difficulty_level": 4,
+      "description": "Learn and master Plasma Cutting",
+      "tags": [
+        "plasma",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4901",
+      "name": "Изгиб листового металла",
+      "difficulty_level": 4,
+      "description": "Learn and master Sheet Metal Bending",
+      "tags": [
+        "sheet",
+        "metal",
+        "bending"
+      ]
+    },
+    {
+      "id": "skill_4902",
+      "name": "Методы пайки",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering Techniques",
+      "tags": [
+        "soldering",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4903",
+      "name": "Используя угловую шлифовальную машину",
+      "difficulty_level": 5,
+      "description": "Learn and master Using an Angle Grinder",
+      "tags": [
+        "using",
+        "angle",
+        "grinder"
+      ]
+    },
+    {
+      "id": "skill_4904",
+      "name": "Типы сварки",
+      "difficulty_level": 3,
+      "description": "Learn and master Welding Joint Types",
+      "tags": [
+        "welding",
+        "joint",
+        "types"
+      ]
+    }
+  ]
+}

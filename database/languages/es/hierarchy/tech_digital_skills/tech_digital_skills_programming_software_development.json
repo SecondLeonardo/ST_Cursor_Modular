@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_programming_software_development",
+  "name": "Programación y desarrollo de software",
+  "skills": [
+    {
+      "id": "skill_4456",
+      "name": "API de reposo en edificio",
+      "difficulty_level": 5,
+      "description": "Learn and master Building REST APIs",
+      "tags": [
+        "building",
+        "rest",
+        "apis"
+      ]
+    },
+    {
+      "id": "skill_4457",
+      "name": "Depuración de javascript",
+      "difficulty_level": 3,
+      "description": "Learn and master Debugging JavaScript",
+      "tags": [
+        "debugging",
+        "javascript",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4458",
+      "name": "Desarrollo web de pila completa",
+      "difficulty_level": 4,
+      "description": "Learn and master Full-Stack Web Development",
+      "tags": [
+        "full-stack",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4459",
+      "name": "Desarrollo de aplicaciones móviles",
+      "difficulty_level": 4,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4460",
+      "name": "Programación orientada a objetos",
+      "difficulty_level": 5,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4461",
+      "name": "Desarrollo reaccionado",
+      "difficulty_level": 3,
+      "description": "Learn and master React Development",
+      "tags": [
+        "react",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4462",
+      "name": "Control de versiones con git",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    },
+    {
+      "id": "skill_4463",
+      "name": "Trabajar con bases de datos",
+      "difficulty_level": 4,
+      "description": "Learn and master Working with Databases",
+      "tags": [
+        "working",
+        "with",
+        "databases"
+      ]
+    },
+    {
+      "id": "skill_4464",
+      "name": "Escribir código Python",
+      "difficulty_level": 4,
+      "description": "Learn and master Writing Python Code",
+      "tags": [
+        "writing",
+        "python",
+        "code"
+      ]
+    },
+    {
+      "id": "skill_4465",
+      "name": "Pruebas unitarias de escritura",
+      "difficulty_level": 1,
+      "description": "Learn and master Writing Unit Tests",
+      "tags": [
+        "writing",
+        "unit",
+        "tests"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_survival_bushcraft",
+  "name": "మనుగడ & బుష్‌క్రాఫ్ట్",
+  "skills": [
+    {
+      "id": "skill_3978",
+      "name": "మభ్యపెట్టే పద్ధతులు",
+      "difficulty_level": 3,
+      "description": "Learn and master Camouflage Techniques",
+      "tags": [
+        "camouflage",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3979",
+      "name": "త్రాగునీటిని కనుగొనడం",
+      "difficulty_level": 2,
+      "description": "Learn and master Finding Potable Water",
+      "tags": [
+        "finding",
+        "potable",
+        "water"
+      ]
+    },
+    {
+      "id": "skill_3980",
+      "name": "అగ్ని ప్రారంభం",
+      "difficulty_level": 3,
+      "description": "Learn and master Fire Starting",
+      "tags": [
+        "fire",
+        "starting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3981",
+      "name": "గేర్ లేకుండా చేపలు పట్టడం",
+      "difficulty_level": 1,
+      "description": "Learn and master Fishing Without Gear",
+      "tags": [
+        "fishing",
+        "without",
+        "gear"
+      ]
+    },
+    {
+      "id": "skill_3982",
+      "name": "GPS లేకుండా నావిగేట్",
+      "difficulty_level": 5,
+      "description": "Learn and master Navigating Without GPS",
+      "tags": [
+        "navigating",
+        "without",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3983",
+      "name": "వాతావరణం చదవడం",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading the Weather",
+      "tags": [
+        "reading",
+        "weather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3984",
+      "name": "ఆశ్రయం భవనం",
+      "difficulty_level": 4,
+      "description": "Learn and master Shelter Building",
+      "tags": [
+        "shelter",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3985",
+      "name": "ట్రాకింగ్ జంతువులు",
+      "difficulty_level": 2,
+      "description": "Learn and master Tracking Animals",
+      "tags": [
+        "tracking",
+        "animals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3986",
+      "name": "నాట్లు కట్టడం",
+      "difficulty_level": 4,
+      "description": "Learn and master Tying Knots",
+      "tags": [
+        "tying",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3987",
+      "name": "అరణ్య వంట",
+      "difficulty_level": 2,
+      "description": "Learn and master Wilderness Cooking",
+      "tags": [
+        "wilderness",
+        "cooking",
+        "skill"
+      ]
+    }
+  ]
+}

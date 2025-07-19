@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_nutrition",
+  "name": "영양물 섭취",
+  "skills": [
+    {
+      "id": "skill_2768",
+      "name": "균형 잡힌 다이어트 코칭",
+      "difficulty_level": 2,
+      "description": "Learn and master Balanced Diet Coaching",
+      "tags": [
+        "balanced",
+        "diet",
+        "coaching"
+      ]
+    },
+    {
+      "id": "skill_2769",
+      "name": "칼로리 계산",
+      "difficulty_level": 5,
+      "description": "Learn and master Calorie Counting",
+      "tags": [
+        "calorie",
+        "counting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2770",
+      "name": "수화 전략",
+      "difficulty_level": 3,
+      "description": "Learn and master Hydration Strategies",
+      "tags": [
+        "hydration",
+        "strategies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2771",
+      "name": "간헐적 금식 코칭",
+      "difficulty_level": 1,
+      "description": "Learn and master Intermittent Fasting Coaching",
+      "tags": [
+        "intermittent",
+        "fasting",
+        "coaching"
+      ]
+    },
+    {
+      "id": "skill_2772",
+      "name": "다량 영양소 추적",
+      "difficulty_level": 4,
+      "description": "Learn and master Macronutrient Tracking",
+      "tags": [
+        "macronutrient",
+        "tracking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2773",
+      "name": "식사 계획",
+      "difficulty_level": 1,
+      "description": "Learn and master Meal Planning",
+      "tags": [
+        "meal",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2774",
+      "name": "영양 레이블 읽기",
+      "difficulty_level": 2,
+      "description": "Learn and master Nutritional Labels Reading",
+      "tags": [
+        "nutritional",
+        "labels",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_2775",
+      "name": "스포츠 영양",
+      "difficulty_level": 3,
+      "description": "Learn and master Sports Nutrition",
+      "tags": [
+        "sports",
+        "nutrition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2776",
+      "name": "보충 지침",
+      "difficulty_level": 1,
+      "description": "Learn and master Supplement Guidance",
+      "tags": [
+        "supplement",
+        "guidance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2777",
+      "name": "채식/채식 영양",
+      "difficulty_level": 3,
+      "description": "Learn and master Vegetarian/Vegan Nutrition",
+      "tags": [
+        "vegetarian/vegan",
+        "nutrition",
+        "skill"
+      ]
+    }
+  ]
+}

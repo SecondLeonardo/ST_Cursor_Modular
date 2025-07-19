@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_fashion_textile_arts",
+  "name": "Mode et arts textiles",
+  "skills": [
+    {
+      "id": "skill_450",
+      "name": "Conception accessoire",
+      "difficulty_level": 5,
+      "description": "Learn and master Accessory Design",
+      "tags": [
+        "accessory",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_451",
+      "name": "Conception de costumes",
+      "difficulty_level": 1,
+      "description": "Learn and master Costume Design",
+      "tags": [
+        "costume",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_452",
+      "name": "Conception de broderie",
+      "difficulty_level": 5,
+      "description": "Learn and master Embroidery Design",
+      "tags": [
+        "embroidery",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_453",
+      "name": "Sélection de tissu",
+      "difficulty_level": 1,
+      "description": "Learn and master Fabric Selection",
+      "tags": [
+        "fabric",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_454",
+      "name": "Drapage de la mode",
+      "difficulty_level": 4,
+      "description": "Learn and master Fashion Draping",
+      "tags": [
+        "fashion",
+        "draping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_455",
+      "name": "Illustration de la mode",
+      "difficulty_level": 5,
+      "description": "Learn and master Fashion Illustration",
+      "tags": [
+        "fashion",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_456",
+      "name": "Construction de vêtements",
+      "difficulty_level": 4,
+      "description": "Learn and master Garment Construction",
+      "tags": [
+        "garment",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_457",
+      "name": "Motifs",
+      "difficulty_level": 2,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_458",
+      "name": "Bases de couture",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewing Basics",
+      "tags": [
+        "sewing",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_459",
+      "name": "Impression textile",
+      "difficulty_level": 2,
+      "description": "Learn and master Textile Printing",
+      "tags": [
+        "textile",
+        "printing",
+        "skill"
+      ]
+    }
+  ]
+}

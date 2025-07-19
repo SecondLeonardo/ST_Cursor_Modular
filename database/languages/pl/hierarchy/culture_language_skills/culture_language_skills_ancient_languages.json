@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_ancient_languages",
+  "name": "Starożytne języki",
+  "skills": [
+    {
+      "id": "skill_1933",
+      "name": "Dekodowanie akadian",
+      "difficulty_level": 1,
+      "description": "Learn and master Akkadian Decoding",
+      "tags": [
+        "akkadian",
+        "decoding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1934",
+      "name": "Starożytne egipskie hieroglify",
+      "difficulty_level": 4,
+      "description": "Learn and master Ancient Egyptian Hieroglyphics",
+      "tags": [
+        "ancient",
+        "egyptian",
+        "hieroglyphics"
+      ]
+    },
+    {
+      "id": "skill_1935",
+      "name": "Biblijny hebrajski",
+      "difficulty_level": 5,
+      "description": "Learn and master Biblical Hebrew",
+      "tags": [
+        "biblical",
+        "hebrew",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1936",
+      "name": "Klasyczna analiza chińska",
+      "difficulty_level": 3,
+      "description": "Learn and master Classical Chinese Analysis",
+      "tags": [
+        "classical",
+        "chinese",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_1937",
+      "name": "Klasyczna grecka gramatyka",
+      "difficulty_level": 2,
+      "description": "Learn and master Classical Greek Grammar",
+      "tags": [
+        "classical",
+        "greek",
+        "grammar"
+      ]
+    },
+    {
+      "id": "skill_1938",
+      "name": "Podstawy języka koptyjskiego",
+      "difficulty_level": 3,
+      "description": "Learn and master Coptic Language Basics",
+      "tags": [
+        "coptic",
+        "language",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1939",
+      "name": "Czytanie łacińskie",
+      "difficulty_level": 2,
+      "description": "Learn and master Latin Reading",
+      "tags": [
+        "latin",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1940",
+      "name": "Old English Translation",
+      "difficulty_level": 2,
+      "description": "Learn and master Old English Translation",
+      "tags": [
+        "english",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1941",
+      "name": "Interpretacja ze Starowania",
+      "difficulty_level": 1,
+      "description": "Learn and master Old Norse Interpretation",
+      "tags": [
+        "norse",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1942",
+      "name": "Pisanie sanskrytu",
+      "difficulty_level": 2,
+      "description": "Learn and master Sanskrit Writing",
+      "tags": [
+        "sanskrit",
+        "writing",
+        "skill"
+      ]
+    }
+  ]
+}

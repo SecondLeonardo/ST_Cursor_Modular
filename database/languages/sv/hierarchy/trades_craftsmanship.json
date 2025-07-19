@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "Handel och hantverk",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "Fordonsreparation"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "Snickeri och träbearbetning"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "Konstruktion och murverk"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "Elektriskt arbete"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC & kylning"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "Smycken"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "Metallverk och svetsning"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "Målning och dekorering"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "Rörledare"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "Skräddarsydd och sömnad"
+    }
+  ]
+}

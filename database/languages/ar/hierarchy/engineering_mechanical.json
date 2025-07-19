@@ -1,0 +1,46 @@
+{
+  "id": "engineering_mechanical",
+  "name": "الهندسة والميكانيكية",
+  "subcategories": [
+    {
+      "id": "engineering_mechanical_automotive_transportation",
+      "name": "السيارات والنقل"
+    },
+    {
+      "id": "engineering_mechanical_civil_engineering",
+      "name": "الهندسة المدنية"
+    },
+    {
+      "id": "engineering_mechanical_electrical_engineering",
+      "name": "الهندسة الكهربائية"
+    },
+    {
+      "id": "engineering_mechanical_energy_power_systems",
+      "name": "أنظمة الطاقة والطاقة"
+    },
+    {
+      "id": "engineering_mechanical_hvac_systems",
+      "name": "HVAC والأنظمة"
+    },
+    {
+      "id": "engineering_mechanical_industrial_design",
+      "name": "التصميم الصناعي"
+    },
+    {
+      "id": "engineering_mechanical_manufacturing_production",
+      "name": "التصنيع والإنتاج"
+    },
+    {
+      "id": "engineering_mechanical_mechanical_engineering",
+      "name": "الهندسة الميكانيكية"
+    },
+    {
+      "id": "engineering_mechanical_robotics_automation",
+      "name": "الروبوتات والأتمتة"
+    },
+    {
+      "id": "engineering_mechanical_structural_design",
+      "name": "التصميم الهيكلي"
+    }
+  ]
+}

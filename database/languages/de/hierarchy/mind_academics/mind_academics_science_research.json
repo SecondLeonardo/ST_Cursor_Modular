@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_science_research",
+  "name": "Wissenschaft und Forschung",
+  "skills": [
+    {
+      "id": "skill_3648",
+      "name": "Biologie -Grundlagen",
+      "difficulty_level": 2,
+      "description": "Learn and master Biology Basics",
+      "tags": [
+        "biology",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3649",
+      "name": "Fundamentaldaten der Chemie",
+      "difficulty_level": 2,
+      "description": "Learn and master Chemistry Fundamentals",
+      "tags": [
+        "chemistry",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3650",
+      "name": "Datenanalyse",
+      "difficulty_level": 2,
+      "description": "Learn and master Data Analysis",
+      "tags": [
+        "data",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3651",
+      "name": "Umweltwissenschaft",
+      "difficulty_level": 1,
+      "description": "Learn and master Environmental Science",
+      "tags": [
+        "environmental",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3652",
+      "name": "Experimentelles Design",
+      "difficulty_level": 3,
+      "description": "Learn and master Experimental Design",
+      "tags": [
+        "experimental",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3653",
+      "name": "Laborsicherheit",
+      "difficulty_level": 5,
+      "description": "Learn and master Lab Safety",
+      "tags": [
+        "safety",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3654",
+      "name": "Mikroskopie",
+      "difficulty_level": 2,
+      "description": "Learn and master Microscopy",
+      "tags": [
+        "microscopy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3655",
+      "name": "Physikkonzepte",
+      "difficulty_level": 4,
+      "description": "Learn and master Physics Concepts",
+      "tags": [
+        "physics",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3656",
+      "name": "Wissenschaftliche Methode",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3657",
+      "name": "Wissenschaftliches Schreiben",
+      "difficulty_level": 1,
+      "description": "Learn and master Scientific Writing",
+      "tags": [
+        "scientific",
+        "writing",
+        "skill"
+      ]
+    }
+  ]
+}

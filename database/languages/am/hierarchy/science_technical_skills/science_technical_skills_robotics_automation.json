@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_robotics_automation",
+  "name": "ሮቦትቲክስ እና ራስ-ሰር",
+  "skills": [
+    {
+      "id": "skill_4238",
+      "name": "የአርዩኖን ፕሮግራም",
+      "difficulty_level": 3,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4239",
+      "name": "ከሬድሪሪ ፒአይ ጋር ራስ-ሰር",
+      "difficulty_level": 4,
+      "description": "Learn and master Automation with Raspberry Pi",
+      "tags": [
+        "automation",
+        "with",
+        "raspberry"
+      ]
+    },
+    {
+      "id": "skill_4240",
+      "name": "የኢንዱስትሪ ራስ-ሰር",
+      "difficulty_level": 1,
+      "description": "Learn and master Industrial Automation",
+      "tags": [
+        "industrial",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4241",
+      "name": "ሮቦቶች",
+      "difficulty_level": 4,
+      "description": "Learn and master Line Following Robots",
+      "tags": [
+        "line",
+        "following",
+        "robots"
+      ]
+    },
+    {
+      "id": "skill_4242",
+      "name": "ማይክሮኮረርሮተርስ መሰረታዊ መሠረታዊ ነገሮች",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Basics",
+      "tags": [
+        "microcontroller",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4243",
+      "name": "እንቅፋት እንቅፋት እንቅፋት",
+      "difficulty_level": 1,
+      "description": "Learn and master Obstacle Avoidance Logic",
+      "tags": [
+        "obstacle",
+        "avoidance",
+        "logic"
+      ]
+    },
+    {
+      "id": "skill_4244",
+      "name": "የመንገድ ላይ ያሉ ስልተ ቀመሮች",
+      "difficulty_level": 3,
+      "description": "Learn and master Pathfinding Algorithms",
+      "tags": [
+        "pathfinding",
+        "algorithms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4245",
+      "name": "ሮቦት ክንድ ንድፍ",
+      "difficulty_level": 5,
+      "description": "Learn and master Robot Arm Design",
+      "tags": [
+        "robot",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4246",
+      "name": "የመረጃ ውህደት",
+      "difficulty_level": 1,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4247",
+      "name": "Servo የሞተር መቆጣጠሪያ",
+      "difficulty_level": 5,
+      "description": "Learn and master Servo Motor Control",
+      "tags": [
+        "servo",
+        "motor",
+        "control"
+      ]
+    }
+  ]
+}

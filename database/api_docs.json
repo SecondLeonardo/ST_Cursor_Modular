@@ -1,0 +1,95 @@
+{
+  "title": "SkillTalk Database API",
+  "version": "1.0.0",
+  "description": "API documentation for the optimized SkillTalk database",
+  "database_structure": {
+    "core": {
+      "description": "Core data structure without translations",
+      "files": [
+        {
+          "path": "core/categories.json",
+          "description": "Categories without translations"
+        },
+        {
+          "path": "core/subcategories.json",
+          "description": "Subcategories without translations"
+        },
+        {
+          "path": "core/skills.json",
+          "description": "Skills without translations"
+        }
+      ]
+    },
+    "languages": {
+      "description": "Language-specific translations",
+      "files": [
+        {
+          "path": "languages/{lang_code}/categories.json",
+          "description": "Category translations"
+        },
+        {
+          "path": "languages/{lang_code}/subcategories.json",
+          "description": "Subcategory translations"
+        },
+        {
+          "path": "languages/{lang_code}/skills.json",
+          "description": "Skill translations"
+        }
+      ]
+    },
+    "hierarchy": {
+      "description": "Hierarchical structure for lazy loading",
+      "files": [
+        {
+          "path": "languages/{lang_code}/hierarchy/{category_id}.json",
+          "description": "Category with subcategories"
+        },
+        {
+          "path": "languages/{lang_code}/hierarchy/{category_id}/{subcategory_id}.json",
+          "description": "Subcategory with skills"
+        }
+      ]
+    },
+    "indexes": {
+      "description": "Indexes for quick lookups",
+      "files": [
+        {
+          "path": "indexes/difficulty_index.json",
+          "description": "Skills indexed by difficulty level"
+        },
+        {
+          "path": "indexes/popularity_index.json",
+          "description": "Skills indexed by popularity"
+        },
+        {
+          "path": "indexes/tag_index.json",
+          "description": "Skills indexed by tags"
+        },
+        {
+          "path": "indexes/category_tree.json",
+          "description": "Category tree structure"
+        }
+      ]
+    }
+  },
+  "recommended_loading_strategy": {
+    "initial_load": [
+      "Load languages.json to get available languages",
+      "Load core/categories.json for category structure",
+      "Load languages/{selected_lang}/categories.json for translations",
+      "Load indexes/category_tree.json for navigation structure"
+    ],
+    "category_selection": [
+      "Load languages/{selected_lang}/hierarchy/{category_id}.json"
+    ],
+    "subcategory_selection": [
+      "Load languages/{selected_lang}/hierarchy/{category_id}/{subcategory_id}.json"
+    ]
+  },
+  "caching_recommendations": {
+    "categories": "Cache for 7 days",
+    "subcategories": "Cache for 7 days",
+    "skills": "Cache for 3 days",
+    "refresh_strategy": "Verify version in metadata.json before using cached data"
+  }
+}

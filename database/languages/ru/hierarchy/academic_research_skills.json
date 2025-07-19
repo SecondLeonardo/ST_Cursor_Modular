@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "Академические и исследовательские навыки",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "Академическая презентация"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "Анализ данных"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "Язык и письмо"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "Математика и статистика"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "Научные исследования"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "Подготовка к изучению и тестированию"
+    }
+  ]
+}

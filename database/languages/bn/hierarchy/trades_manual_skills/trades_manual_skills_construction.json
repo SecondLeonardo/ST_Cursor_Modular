@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_construction",
+  "name": "নির্মাণ",
+  "skills": [
+    {
+      "id": "skill_5045",
+      "name": "কংক্রিট ing ালাও",
+      "difficulty_level": 3,
+      "description": "Learn and master Concrete Pouring",
+      "tags": [
+        "concrete",
+        "pouring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5046",
+      "name": "ধ্বংস কৌশল",
+      "difficulty_level": 4,
+      "description": "Learn and master Demolition Techniques",
+      "tags": [
+        "demolition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5047",
+      "name": "ড্রাইওয়াল ইনস্টলেশন",
+      "difficulty_level": 4,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5048",
+      "name": "ফাউন্ডেশন কাজ",
+      "difficulty_level": 4,
+      "description": "Learn and master Foundation Work",
+      "tags": [
+        "foundation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5049",
+      "name": "উপাদান অনুমান",
+      "difficulty_level": 1,
+      "description": "Learn and master Material Estimation",
+      "tags": [
+        "material",
+        "estimation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5050",
+      "name": "ছাদ ফ্রেমিং",
+      "difficulty_level": 2,
+      "description": "Learn and master Roof Framing",
+      "tags": [
+        "roof",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5051",
+      "name": "সুরক্ষা জোতা ব্যবহার",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Harness Use",
+      "tags": [
+        "safety",
+        "harness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5052",
+      "name": "স্ক্যাফোল্ডিং সেটআপ",
+      "difficulty_level": 2,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5053",
+      "name": "সাইট ম্যানেজমেন্ট",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Management",
+      "tags": [
+        "site",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5054",
+      "name": "উইন্ডো ইনস্টলেশন",
+      "difficulty_level": 3,
+      "description": "Learn and master Window Installation",
+      "tags": [
+        "window",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_carpentry",
+  "name": "አናጢነት",
+  "skills": [
+    {
+      "id": "skill_5185",
+      "name": "ካቢኔ",
+      "difficulty_level": 2,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5186",
+      "name": "የመርከቧ ህንፃ",
+      "difficulty_level": 1,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5187",
+      "name": "በር ተንጠልጣይ",
+      "difficulty_level": 2,
+      "description": "Learn and master Door Hanging",
+      "tags": [
+        "door",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5188",
+      "name": "የቤት ዕቃዎች መልሶ ማቋቋም",
+      "difficulty_level": 3,
+      "description": "Learn and master Furniture Restoration",
+      "tags": [
+        "furniture",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5189",
+      "name": "የእጅ መሣሪያ አጠቃቀም",
+      "difficulty_level": 5,
+      "description": "Learn and master Hand Tool Use",
+      "tags": [
+        "hand",
+        "tool",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5190",
+      "name": "መቀላቀል",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5191",
+      "name": "መጫኛ ጭነት",
+      "difficulty_level": 2,
+      "description": "Learn and master Trim Installation",
+      "tags": [
+        "trim",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5192",
+      "name": "የመስኮት ፍሰት",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Framing",
+      "tags": [
+        "window",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5193",
+      "name": "እንጨት መቆረጥ",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Cutting",
+      "tags": [
+        "wood",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5194",
+      "name": "የእንጨት ማጠናቀቂያ",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    }
+  ]
+}

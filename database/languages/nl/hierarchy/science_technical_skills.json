@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "Wetenschap en technische vaardigheden",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "Astronomie"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "Biologie & Life Sciences"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "Scheikunde"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "Informatica"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "Data Science & AI"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "Earth & Environmental Sciences"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "Engineering Disciplines"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "Wiskunde en statistieken"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "Fysica en mechanica"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "Robotica en automatisering"
+    }
+  ]
+}

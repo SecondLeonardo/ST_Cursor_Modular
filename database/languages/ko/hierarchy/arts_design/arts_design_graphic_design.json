@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_graphic_design",
+  "name": "그래픽 디자인",
+  "skills": [
+    {
+      "id": "skill_570",
+      "name": "Adobe Illustrator",
+      "difficulty_level": 3,
+      "description": "Learn and master Adobe Illustrator",
+      "tags": [
+        "adobe",
+        "illustrator",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_571",
+      "name": "Adobe Photoshop",
+      "difficulty_level": 3,
+      "description": "Learn and master Adobe Photoshop",
+      "tags": [
+        "adobe",
+        "photoshop",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_572",
+      "name": "브랜드 아이덴티티",
+      "difficulty_level": 5,
+      "description": "Learn and master Brand Identity",
+      "tags": [
+        "brand",
+        "identity",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_573",
+      "name": "컬러 등급",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Grading",
+      "tags": [
+        "color",
+        "grading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_574",
+      "name": "인포 그래픽 디자인",
+      "difficulty_level": 5,
+      "description": "Learn and master Infographic Design",
+      "tags": [
+        "infographic",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_575",
+      "name": "레이아웃 디자인",
+      "difficulty_level": 1,
+      "description": "Learn and master Layout Design",
+      "tags": [
+        "layout",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_576",
+      "name": "로고 디자인",
+      "difficulty_level": 2,
+      "description": "Learn and master Logo Design",
+      "tags": [
+        "logo",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_577",
+      "name": "타이포그래피",
+      "difficulty_level": 2,
+      "description": "Learn and master Typography",
+      "tags": [
+        "typography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_578",
+      "name": "UX 디자인 기본 사항",
+      "difficulty_level": 5,
+      "description": "Learn and master UX Design Basics",
+      "tags": [
+        "design",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_579",
+      "name": "와이어 프레임",
+      "difficulty_level": 5,
+      "description": "Learn and master Wireframing",
+      "tags": [
+        "wireframing",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

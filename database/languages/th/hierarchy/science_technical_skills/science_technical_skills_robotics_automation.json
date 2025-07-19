@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_robotics_automation",
+  "name": "หุ่นยนต์และระบบอัตโนมัติ",
+  "skills": [
+    {
+      "id": "skill_4238",
+      "name": "การเขียนโปรแกรม Arduino",
+      "difficulty_level": 3,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4239",
+      "name": "ระบบอัตโนมัติกับ Raspberry Pi",
+      "difficulty_level": 4,
+      "description": "Learn and master Automation with Raspberry Pi",
+      "tags": [
+        "automation",
+        "with",
+        "raspberry"
+      ]
+    },
+    {
+      "id": "skill_4240",
+      "name": "ระบบอัตโนมัติอุตสาหกรรม",
+      "difficulty_level": 1,
+      "description": "Learn and master Industrial Automation",
+      "tags": [
+        "industrial",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4241",
+      "name": "บรรทัดต่อไปนี้หุ่นยนต์",
+      "difficulty_level": 4,
+      "description": "Learn and master Line Following Robots",
+      "tags": [
+        "line",
+        "following",
+        "robots"
+      ]
+    },
+    {
+      "id": "skill_4242",
+      "name": "พื้นฐานของไมโครคอนโทรลเลอร์",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Basics",
+      "tags": [
+        "microcontroller",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4243",
+      "name": "ตรรกะการหลีกเลี่ยงอุปสรรค",
+      "difficulty_level": 1,
+      "description": "Learn and master Obstacle Avoidance Logic",
+      "tags": [
+        "obstacle",
+        "avoidance",
+        "logic"
+      ]
+    },
+    {
+      "id": "skill_4244",
+      "name": "อัลกอริทึมการค้นหา",
+      "difficulty_level": 3,
+      "description": "Learn and master Pathfinding Algorithms",
+      "tags": [
+        "pathfinding",
+        "algorithms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4245",
+      "name": "การออกแบบแขนหุ่นยนต์",
+      "difficulty_level": 5,
+      "description": "Learn and master Robot Arm Design",
+      "tags": [
+        "robot",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4246",
+      "name": "การรวมเซ็นเซอร์",
+      "difficulty_level": 1,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4247",
+      "name": "การควบคุมมอเตอร์เซอร์โว",
+      "difficulty_level": 5,
+      "description": "Learn and master Servo Motor Control",
+      "tags": [
+        "servo",
+        "motor",
+        "control"
+      ]
+    }
+  ]
+}

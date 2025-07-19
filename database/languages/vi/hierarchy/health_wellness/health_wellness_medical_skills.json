@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_medical_skills",
+  "name": "Kỹ năng y tế",
+  "skills": [
+    {
+      "id": "skill_2543",
+      "name": "Quản lý thuốc",
+      "difficulty_level": 4,
+      "description": "Learn and master Administering Medication",
+      "tags": [
+        "administering",
+        "medication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2544",
+      "name": "Giải phẫu cơ bản",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Anatomy",
+      "tags": [
+        "basic",
+        "anatomy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2545",
+      "name": "Kiến thức CPR",
+      "difficulty_level": 4,
+      "description": "Learn and master CPR Knowledge",
+      "tags": [
+        "knowledge",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2546",
+      "name": "Kiểm soát nhiễm trùng",
+      "difficulty_level": 1,
+      "description": "Learn and master Infection Control",
+      "tags": [
+        "infection",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2547",
+      "name": "Tài liệu y tế",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Documentation",
+      "tags": [
+        "medical",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2548",
+      "name": "Giao tiếp bệnh nhân",
+      "difficulty_level": 2,
+      "description": "Learn and master Patient Communication",
+      "tags": [
+        "patient",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2549",
+      "name": "Lấy dấu hiệu quan trọng",
+      "difficulty_level": 3,
+      "description": "Learn and master Taking Vital Signs",
+      "tags": [
+        "taking",
+        "vital",
+        "signs"
+      ]
+    },
+    {
+      "id": "skill_2550",
+      "name": "Hiểu thuật ngữ y tế",
+      "difficulty_level": 2,
+      "description": "Learn and master Understanding Medical Terminology",
+      "tags": [
+        "understanding",
+        "medical",
+        "terminology"
+      ]
+    },
+    {
+      "id": "skill_2551",
+      "name": "Sử dụng thiết bị y tế",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Medical Equipment",
+      "tags": [
+        "using",
+        "medical",
+        "equipment"
+      ]
+    },
+    {
+      "id": "skill_2552",
+      "name": "Làm sạch vết thương",
+      "difficulty_level": 1,
+      "description": "Learn and master Wound Cleaning",
+      "tags": [
+        "wound",
+        "cleaning",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_textile_leathercraft",
+  "name": "テキスタイル＆レザークラフト",
+  "skills": [
+    {
+      "id": "skill_4905",
+      "name": "ボタンのインストール",
+      "difficulty_level": 3,
+      "description": "Learn and master Button Installation",
+      "tags": [
+        "button",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4906",
+      "name": "切断パターン",
+      "difficulty_level": 3,
+      "description": "Learn and master Cutting Patterns",
+      "tags": [
+        "cutting",
+        "patterns",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4907",
+      "name": "革の染色",
+      "difficulty_level": 3,
+      "description": "Learn and master Dyeing Leather",
+      "tags": [
+        "dyeing",
+        "leather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4908",
+      "name": "生地の選択",
+      "difficulty_level": 5,
+      "description": "Learn and master Fabric Selection",
+      "tags": [
+        "fabric",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4909",
+      "name": "手縫い",
+      "difficulty_level": 5,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4910",
+      "name": "革の彫刻",
+      "difficulty_level": 3,
+      "description": "Learn and master Leather Carving",
+      "tags": [
+        "leather",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4911",
+      "name": "パターン作成",
+      "difficulty_level": 1,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4912",
+      "name": "ミシンの操作",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing Machine Operation",
+      "tags": [
+        "sewing",
+        "machine",
+        "operation"
+      ]
+    },
+    {
+      "id": "skill_4913",
+      "name": "ツーリングレザー",
+      "difficulty_level": 5,
+      "description": "Learn and master Tooling Leather",
+      "tags": [
+        "tooling",
+        "leather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4914",
+      "name": "ジッパー交換",
+      "difficulty_level": 4,
+      "description": "Learn and master Zipper Replacement",
+      "tags": [
+        "zipper",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

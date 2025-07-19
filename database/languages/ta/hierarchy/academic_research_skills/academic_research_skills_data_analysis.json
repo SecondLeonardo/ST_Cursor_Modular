@@ -1,0 +1,117 @@
+{
+  "id": "academic_research_skills_data_analysis",
+  "name": "தரவு பகுப்பாய்வு",
+  "skills": [
+    {
+      "id": "skill_270",
+      "name": "தொடர்பு Vs காரணம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Correlation vs Causation",
+      "tags": [
+        "correlation",
+        "causation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_271",
+      "name": "பிவோட் அட்டவணைகளை உருவாக்குதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Pivot Tables",
+      "tags": [
+        "creating",
+        "pivot",
+        "tables"
+      ]
+    },
+    {
+      "id": "skill_272",
+      "name": "தரவு சுத்தம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_273",
+      "name": "தரவு காட்சிப்படுத்தல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_274",
+      "name": "தரவிலிருந்து முடிவுகளை வரைதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Drawing Conclusions from Data",
+      "tags": [
+        "drawing",
+        "conclusions",
+        "from",
+        "data"
+      ]
+    },
+    {
+      "id": "skill_275",
+      "name": "வரைபடங்களை விளக்குகிறது",
+      "difficulty_level": 1,
+      "description": "Learn and master Interpreting Graphs",
+      "tags": [
+        "interpreting",
+        "graphs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_276",
+      "name": "புள்ளிவிவர விளக்கம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Interpretation",
+      "tags": [
+        "statistical",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_277",
+      "name": "தரவுக்கு எக்செல் பயன்படுத்துதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Excel for Data",
+      "tags": [
+        "using",
+        "excel",
+        "data"
+      ]
+    },
+    {
+      "id": "skill_278",
+      "name": "பகுப்பாய்விற்கு R ஐப் பயன்படுத்துதல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Using R for Analysis",
+      "tags": [
+        "using",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_279",
+      "name": "SPSS ஐப் பயன்படுத்துதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Using SPSS",
+      "tags": [
+        "using",
+        "spss",
+        "skill"
+      ]
+    }
+  ]
+}

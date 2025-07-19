@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "உடல் மற்றும் விளையாட்டு திறன்கள்",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "உடற்பயிற்சி & வலிமை"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "தனிப்பட்ட விளையாட்டு"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "தற்காப்பு கலைகள்"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "வெளிப்புற மற்றும் சாகச"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "பொழுதுபோக்கு நடவடிக்கைகள்"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "அணி விளையாட்டு"
+    }
+  ]
+}

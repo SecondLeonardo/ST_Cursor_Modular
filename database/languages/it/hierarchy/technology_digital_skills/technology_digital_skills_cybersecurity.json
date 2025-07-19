@@ -1,0 +1,215 @@
+{
+  "id": "technology_digital_skills_cybersecurity",
+  "name": "Sicurezza informatica",
+  "skills": [
+    {
+      "id": "skill_4696",
+      "name": "Crittografia",
+      "difficulty_level": 4,
+      "description": "Learn and master Cryptography",
+      "tags": [
+        "cryptography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4697",
+      "name": "Crittografia dei dati",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Encryption",
+      "tags": [
+        "data",
+        "encryption",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4698",
+      "name": "Forense digitale",
+      "difficulty_level": 2,
+      "description": "Learn and master Digital Forensics",
+      "tags": [
+        "digital",
+        "forensics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4699",
+      "name": "Protezione dell'identità digitale",
+      "difficulty_level": 2,
+      "description": "Learn and master Digital Identity Protection",
+      "tags": [
+        "digital",
+        "identity",
+        "protection"
+      ]
+    },
+    {
+      "id": "skill_4700",
+      "name": "Hacking etico",
+      "difficulty_level": 4,
+      "description": "Learn and master Ethical Hacking",
+      "tags": [
+        "ethical",
+        "hacking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4701",
+      "name": "Configurazione firewall",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4702",
+      "name": "Firewalls & VPNS",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewalls & VPNs",
+      "tags": [
+        "firewalls",
+        "vpns",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4703",
+      "name": "Risposta degli incidenti",
+      "difficulty_level": 3,
+      "description": "Learn and master Incident Response",
+      "tags": [
+        "incident",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4704",
+      "name": "Analisi del malware",
+      "difficulty_level": 1,
+      "description": "Learn and master Malware Analysis",
+      "tags": [
+        "malware",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4705",
+      "name": "Sicurezza della rete",
+      "difficulty_level": 1,
+      "description": "Learn and master Network Security",
+      "tags": [
+        "network",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4706",
+      "name": "Nozioni di base sulla sicurezza della rete",
+      "difficulty_level": 3,
+      "description": "Learn and master Network Security Basics",
+      "tags": [
+        "network",
+        "security",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4707",
+      "name": "Tecniche di cracking della password",
+      "difficulty_level": 5,
+      "description": "Learn and master Password Cracking Techniques",
+      "tags": [
+        "password",
+        "cracking",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_4708",
+      "name": "Gestione della password",
+      "difficulty_level": 5,
+      "description": "Learn and master Password Management",
+      "tags": [
+        "password",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4709",
+      "name": "Test di penetrazione",
+      "difficulty_level": 2,
+      "description": "Learn and master Penetration Testing",
+      "tags": [
+        "penetration",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4710",
+      "name": "Prevenzione del phishing",
+      "difficulty_level": 5,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4711",
+      "name": "Codice sicura",
+      "difficulty_level": 3,
+      "description": "Learn and master Secure Coding",
+      "tags": [
+        "secure",
+        "coding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4712",
+      "name": "Audit di sicurezza",
+      "difficulty_level": 1,
+      "description": "Learn and master Security Audits",
+      "tags": [
+        "security",
+        "audits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4713",
+      "name": "Consapevolezza della sicurezza",
+      "difficulty_level": 5,
+      "description": "Learn and master Security Awareness",
+      "tags": [
+        "security",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4714",
+      "name": "Rilevamento delle minacce",
+      "difficulty_level": 5,
+      "description": "Learn and master Threat Detection",
+      "tags": [
+        "threat",
+        "detection",
+        "skill"
+      ]
+    }
+  ]
+}

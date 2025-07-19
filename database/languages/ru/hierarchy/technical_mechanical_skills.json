@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "Технические и механические навыки",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "Автомобильные навыки"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "Строительство и здание"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "Электрическая работа"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "Энергия и окружающая среда"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "Промышленные навыки"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "Механический ремонт"
+    }
+  ]
+}

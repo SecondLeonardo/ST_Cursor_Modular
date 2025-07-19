@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_crafts",
+  "name": "Kerajinan",
+  "skills": [
+    {
+      "id": "skill_540",
+      "name": "Manik -manik",
+      "difficulty_level": 2,
+      "description": "Learn and master Beadwork",
+      "tags": [
+        "beadwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_541",
+      "name": "Pembuatan lilin",
+      "difficulty_level": 1,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_542",
+      "name": "Pembuatan perhiasan",
+      "difficulty_level": 4,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_543",
+      "name": "Makrame",
+      "difficulty_level": 1,
+      "description": "Learn and master Macrame",
+      "tags": [
+        "macrame",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_544",
+      "name": "Origami",
+      "difficulty_level": 1,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_545",
+      "name": "Mache Paper",
+      "difficulty_level": 2,
+      "description": "Learn and master Paper Mache",
+      "tags": [
+        "paper",
+        "mache",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_546",
+      "name": "Tembikar",
+      "difficulty_level": 2,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_547",
+      "name": "Scrapbooking",
+      "difficulty_level": 4,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_548",
+      "name": "Pembuatan sabun",
+      "difficulty_level": 4,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_549",
+      "name": "Kerajinan kayu",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Crafting",
+      "tags": [
+        "wood",
+        "crafting",
+        "skill"
+      ]
+    }
+  ]
+}

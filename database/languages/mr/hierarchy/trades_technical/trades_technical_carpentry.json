@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_carpentry",
+  "name": "सुतारकाम",
+  "skills": [
+    {
+      "id": "skill_5185",
+      "name": "मंत्रिमंडळ बनविणे",
+      "difficulty_level": 2,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5186",
+      "name": "डेक इमारत",
+      "difficulty_level": 1,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5187",
+      "name": "दरवाजा लटकत आहे",
+      "difficulty_level": 2,
+      "description": "Learn and master Door Hanging",
+      "tags": [
+        "door",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5188",
+      "name": "फर्निचर जीर्णोद्धार",
+      "difficulty_level": 3,
+      "description": "Learn and master Furniture Restoration",
+      "tags": [
+        "furniture",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5189",
+      "name": "हाताचे साधन वापर",
+      "difficulty_level": 5,
+      "description": "Learn and master Hand Tool Use",
+      "tags": [
+        "hand",
+        "tool",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5190",
+      "name": "जॉइनरी",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5191",
+      "name": "ट्रिम स्थापना",
+      "difficulty_level": 2,
+      "description": "Learn and master Trim Installation",
+      "tags": [
+        "trim",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5192",
+      "name": "विंडो फ्रेमिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Framing",
+      "tags": [
+        "window",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5193",
+      "name": "लाकूड कटिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Cutting",
+      "tags": [
+        "wood",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5194",
+      "name": "लाकूड फिनिशिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_automotive_repair",
+  "name": "ઓટોમોટિવ રિપેર",
+  "skills": [
+    {
+      "id": "skill_4925",
+      "name": "ફાંફ -પરીક્ષણ",
+      "difficulty_level": 5,
+      "description": "Learn and master Battery Testing",
+      "tags": [
+        "battery",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4926",
+      "name": "બ્રેક રિપ્લેસમેન્ટ",
+      "difficulty_level": 5,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4927",
+      "name": "ઠંડક સિસ્ટમ સમારકામ",
+      "difficulty_level": 5,
+      "description": "Learn and master Cooling System Repair",
+      "tags": [
+        "cooling",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_4928",
+      "name": "એન્જિન ડાયમૂટનોક્સ",
+      "difficulty_level": 5,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4929",
+      "name": "નિવાસસ્થાન સમારકામ",
+      "difficulty_level": 2,
+      "description": "Learn and master Exhaust Repair",
+      "tags": [
+        "exhaust",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4930",
+      "name": "તેલ પરિવર્તન",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4931",
+      "name": "જંતુરહિત સમારકામ",
+      "difficulty_level": 4,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4932",
+      "name": "થર -માઉન્ટિંગ",
+      "difficulty_level": 3,
+      "description": "Learn and master Tire Mounting",
+      "tags": [
+        "tire",
+        "mounting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4933",
+      "name": "પ્રસારણ કાર્ય",
+      "difficulty_level": 5,
+      "description": "Learn and master Transmission Work",
+      "tags": [
+        "transmission",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4934",
+      "name": "ચક્રવાહક ગોઠવણી",
+      "difficulty_level": 2,
+      "description": "Learn and master Wheel Alignment",
+      "tags": [
+        "wheel",
+        "alignment",
+        "skill"
+      ]
+    }
+  ]
+}

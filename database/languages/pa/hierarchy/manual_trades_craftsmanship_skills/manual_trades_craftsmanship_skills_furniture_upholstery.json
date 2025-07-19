@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+  "name": "ਫਰਨੀਚਰ ਅਤੇ ਅਪਲੈਸਟਰ",
+  "skills": [
+    {
+      "id": "skill_3438",
+      "name": "ਗੱਦੀ ਬਣਾਉਣ",
+      "difficulty_level": 2,
+      "description": "Learn and master Cushion Making",
+      "tags": [
+        "cushion",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3439",
+      "name": "ਫੈਬਰਿਕ ਸਟ੍ਰੈਚਿੰਗ",
+      "difficulty_level": 1,
+      "description": "Learn and master Fabric Stretching",
+      "tags": [
+        "fabric",
+        "stretching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3440",
+      "name": "ਝੱਗ ਕੱਟਣਾ",
+      "difficulty_level": 4,
+      "description": "Learn and master Foam Cutting",
+      "tags": [
+        "foam",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3441",
+      "name": "ਫਰੇਮ ਮੁਰੰਮਤ",
+      "difficulty_level": 4,
+      "description": "Learn and master Frame Repair",
+      "tags": [
+        "frame",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3442",
+      "name": "ਫਰਨੀਚਰ ਰੀਫਿਨੀਸਿੰਗ",
+      "difficulty_level": 4,
+      "description": "Learn and master Furniture Refinishing",
+      "tags": [
+        "furniture",
+        "refinishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3443",
+      "name": "ਸਲਿੱਪਕਵਰ ਬਣਾਉਣਾ",
+      "difficulty_level": 4,
+      "description": "Learn and master Slipcover Making",
+      "tags": [
+        "slipcover",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3444",
+      "name": "ਸਟੈਪਲਿੰਗ ਤਕਨੀਕ",
+      "difficulty_level": 4,
+      "description": "Learn and master Stapling Techniques",
+      "tags": [
+        "stapling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3445",
+      "name": "ਟੈਕਸਟਾਈਲ ਚੋਣ",
+      "difficulty_level": 3,
+      "description": "Learn and master Textile Selection",
+      "tags": [
+        "textile",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3446",
+      "name": "ਟੱਕਟਿੰਗ",
+      "difficulty_level": 1,
+      "description": "Learn and master Tufting",
+      "tags": [
+        "tufting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3447",
+      "name": "ਪ੍ਰੇਸ਼ਾਨੀ ਦੀ ਮੁਰੰਮਤ",
+      "difficulty_level": 5,
+      "description": "Learn and master Upholstery Repair",
+      "tags": [
+        "upholstery",
+        "repair",
+        "skill"
+      ]
+    }
+  ]
+}

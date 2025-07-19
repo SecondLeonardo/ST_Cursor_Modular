@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_medical_knowledge",
+  "name": "Медицинские знания",
+  "skills": [
+    {
+      "id": "skill_2748",
+      "name": "Основы анатомии",
+      "difficulty_level": 4,
+      "description": "Learn and master Anatomy Fundamentals",
+      "tags": [
+        "anatomy",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2749",
+      "name": "Основная первая помощь",
+      "difficulty_level": 1,
+      "description": "Learn and master Basic First Aid",
+      "tags": [
+        "basic",
+        "first",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2750",
+      "name": "Обучение CPR",
+      "difficulty_level": 1,
+      "description": "Learn and master CPR Training",
+      "tags": [
+        "training",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2751",
+      "name": "Общие заболевания осознание",
+      "difficulty_level": 3,
+      "description": "Learn and master Common Diseases Awareness",
+      "tags": [
+        "common",
+        "diseases",
+        "awareness"
+      ]
+    },
+    {
+      "id": "skill_2752",
+      "name": "Аварийный ответ",
+      "difficulty_level": 2,
+      "description": "Learn and master Emergency Response",
+      "tags": [
+        "emergency",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2753",
+      "name": "Здравоохранение общения",
+      "difficulty_level": 3,
+      "description": "Learn and master Healthcare Communication",
+      "tags": [
+        "healthcare",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2754",
+      "name": "Медицинская терминология",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Terminology",
+      "tags": [
+        "medical",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2755",
+      "name": "Гигиена пациента",
+      "difficulty_level": 3,
+      "description": "Learn and master Patient Hygiene",
+      "tags": [
+        "patient",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2756",
+      "name": "Стоин мониторинга жизненно важных органов",
+      "difficulty_level": 2,
+      "description": "Learn and master Vitals Monitoring",
+      "tags": [
+        "vitals",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2757",
+      "name": "Уход за раной",
+      "difficulty_level": 4,
+      "description": "Learn and master Wound Care",
+      "tags": [
+        "wound",
+        "care",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_outdoor_activities",
+  "name": "வெளிப்புற நடவடிக்கைகள்",
+  "skills": [
+    {
+      "id": "skill_5365",
+      "name": "ஹைக்கிங்",
+      "difficulty_level": 4,
+      "description": "Learn and master Hiking",
+      "tags": [
+        "hiking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5366",
+      "name": "முகாம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Camping",
+      "tags": [
+        "camping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5367",
+      "name": "பறவை பார்ப்பது",
+      "difficulty_level": 4,
+      "description": "Learn and master Bird Watching",
+      "tags": [
+        "bird",
+        "watching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5368",
+      "name": "மீன்பிடித்தல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Fishing",
+      "tags": [
+        "fishing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5369",
+      "name": "ராக் க்ளைம்பிங்",
+      "difficulty_level": 3,
+      "description": "Learn and master Rock Climbing",
+      "tags": [
+        "rock",
+        "climbing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5370",
+      "name": "கயாக்கிங்",
+      "difficulty_level": 2,
+      "description": "Learn and master Kayaking",
+      "tags": [
+        "kayaking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5371",
+      "name": "சைக்கிள் ஓட்டுதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Cycling",
+      "tags": [
+        "cycling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5372",
+      "name": "ஸ்டார்கேசிங்",
+      "difficulty_level": 4,
+      "description": "Learn and master Stargazing",
+      "tags": [
+        "stargazing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5373",
+      "name": "ஜியோகாச்சிங்",
+      "difficulty_level": 5,
+      "description": "Learn and master Geocaching",
+      "tags": [
+        "geocaching",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5374",
+      "name": "இயற்கை புகைப்படம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Nature Photography",
+      "tags": [
+        "nature",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

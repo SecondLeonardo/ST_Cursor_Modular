@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_construction_carpentry",
+  "name": "Konstrukcja i stolarka",
+  "skills": [
+    {
+      "id": "skill_5055",
+      "name": "Tali budowlane",
+      "difficulty_level": 2,
+      "description": "Learn and master Building Decks",
+      "tags": [
+        "building",
+        "decks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5056",
+      "name": "Mieszanie betonu",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5057",
+      "name": "Instalacja płyt kartonowo -gipsowych",
+      "difficulty_level": 4,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5058",
+      "name": "Ściany kadrowania",
+      "difficulty_level": 5,
+      "description": "Learn and master Framing Walls",
+      "tags": [
+        "framing",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5059",
+      "name": "Instalowanie drzwi",
+      "difficulty_level": 4,
+      "description": "Learn and master Installing Doors",
+      "tags": [
+        "installing",
+        "doors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5060",
+      "name": "Pomiar i oznaczenie",
+      "difficulty_level": 3,
+      "description": "Learn and master Measuring & Marking",
+      "tags": [
+        "measuring",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5061",
+      "name": "Podstawy dachowe",
+      "difficulty_level": 5,
+      "description": "Learn and master Roofing Basics",
+      "tags": [
+        "roofing",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5062",
+      "name": "Szlifowanie i wykończenie",
+      "difficulty_level": 5,
+      "description": "Learn and master Sanding & Finishing",
+      "tags": [
+        "sanding",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5063",
+      "name": "Konstrukcja schodowa",
+      "difficulty_level": 5,
+      "description": "Learn and master Stair Construction",
+      "tags": [
+        "stair",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5064",
+      "name": "Bezpieczeństwo narzędzia",
+      "difficulty_level": 4,
+      "description": "Learn and master Tool Safety",
+      "tags": [
+        "tool",
+        "safety",
+        "skill"
+      ]
+    }
+  ]
+}

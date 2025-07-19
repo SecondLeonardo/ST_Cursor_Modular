@@ -1,0 +1,117 @@
+{
+  "id": "technical_mechanical_skills_electrical_work",
+  "name": "전기 작업",
+  "skills": [
+    {
+      "id": "skill_4576",
+      "name": "기본 납땜",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Soldering",
+      "tags": [
+        "basic",
+        "soldering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4577",
+      "name": "회로 차단기 안전",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Breaker Safety",
+      "tags": [
+        "circuit",
+        "breaker",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_4578",
+      "name": "깜박이는 조명을 고정합니다",
+      "difficulty_level": 5,
+      "description": "Learn and master Fixing Flickering Lights",
+      "tags": [
+        "fixing",
+        "flickering",
+        "lights"
+      ]
+    },
+    {
+      "id": "skill_4579",
+      "name": "가정 전기 수리",
+      "difficulty_level": 2,
+      "description": "Learn and master Home Electrical Repairs",
+      "tags": [
+        "home",
+        "electrical",
+        "repairs"
+      ]
+    },
+    {
+      "id": "skill_4580",
+      "name": "아울렛 설치",
+      "difficulty_level": 5,
+      "description": "Learn and master Installing Outlets",
+      "tags": [
+        "installing",
+        "outlets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4581",
+      "name": "스위치 설치",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Switches",
+      "tags": [
+        "installing",
+        "switches",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4582",
+      "name": "회로 다이어그램을 읽습니다",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Circuit Diagrams",
+      "tags": [
+        "reading",
+        "circuit",
+        "diagrams"
+      ]
+    },
+    {
+      "id": "skill_4583",
+      "name": "전기 테이프를 올바르게 사용합니다",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Electrical Tape Properly",
+      "tags": [
+        "using",
+        "electrical",
+        "tape",
+        "properly"
+      ]
+    },
+    {
+      "id": "skill_4584",
+      "name": "전압계 사용",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Voltmeter",
+      "tags": [
+        "using",
+        "voltmeter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4585",
+      "name": "와이어 스트립",
+      "difficulty_level": 3,
+      "description": "Learn and master Wire Stripping",
+      "tags": [
+        "wire",
+        "stripping",
+        "skill"
+      ]
+    }
+  ]
+}

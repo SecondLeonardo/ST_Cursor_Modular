@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_cloud_computing",
+  "name": "క్లౌడ్ కంప్యూటింగ్",
+  "skills": [
+    {
+      "id": "skill_4357",
+      "name": "AWS ఫండమెంటల్స్",
+      "difficulty_level": 3,
+      "description": "Learn and master AWS Fundamentals",
+      "tags": [
+        "fundamentals",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4358",
+      "name": "అజూర్ అడ్మినిస్ట్రేషన్",
+      "difficulty_level": 4,
+      "description": "Learn and master Azure Administration",
+      "tags": [
+        "azure",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4359",
+      "name": "క్లౌడ్ ఖర్చు ఆప్టిమైజేషన్",
+      "difficulty_level": 5,
+      "description": "Learn and master Cloud Cost Optimization",
+      "tags": [
+        "cloud",
+        "cost",
+        "optimization"
+      ]
+    },
+    {
+      "id": "skill_4360",
+      "name": "క్లౌడ్ పర్యవేక్షణ సాధనాలు",
+      "difficulty_level": 1,
+      "description": "Learn and master Cloud Monitoring Tools",
+      "tags": [
+        "cloud",
+        "monitoring",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_4361",
+      "name": "క్లౌడ్ భద్రత",
+      "difficulty_level": 5,
+      "description": "Learn and master Cloud Security",
+      "tags": [
+        "cloud",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4362",
+      "name": "డాకర్ కంటైనర్లు",
+      "difficulty_level": 3,
+      "description": "Learn and master Docker Containers",
+      "tags": [
+        "docker",
+        "containers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4363",
+      "name": "గూగుల్ క్లౌడ్ ప్లాట్‌ఫాం",
+      "difficulty_level": 3,
+      "description": "Learn and master Google Cloud Platform",
+      "tags": [
+        "google",
+        "cloud",
+        "platform"
+      ]
+    },
+    {
+      "id": "skill_4364",
+      "name": "కుబెర్నెట్స్ బేసిక్స్",
+      "difficulty_level": 4,
+      "description": "Learn and master Kubernetes Basics",
+      "tags": [
+        "kubernetes",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4365",
+      "name": "లోడ్ బ్యాలెన్సింగ్",
+      "difficulty_level": 4,
+      "description": "Learn and master Load Balancing",
+      "tags": [
+        "load",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4366",
+      "name": "సర్వర్‌లెస్ ఆర్కిటెక్చర్",
+      "difficulty_level": 3,
+      "description": "Learn and master Serverless Architecture",
+      "tags": [
+        "serverless",
+        "architecture",
+        "skill"
+      ]
+    }
+  ]
+}

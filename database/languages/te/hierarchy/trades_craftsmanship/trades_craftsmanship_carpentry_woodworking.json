@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_carpentry_woodworking",
+  "name": "వడ్రంగి & చెక్క పని",
+  "skills": [
+    {
+      "id": "skill_4935",
+      "name": "క్యాబినెట్ సంస్థాపన",
+      "difficulty_level": 5,
+      "description": "Learn and master Cabinet Installation",
+      "tags": [
+        "cabinet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4936",
+      "name": "డెక్ భవనం",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4937",
+      "name": "తలుపు ఉరి",
+      "difficulty_level": 3,
+      "description": "Learn and master Door Hanging",
+      "tags": [
+        "door",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4938",
+      "name": "వడ్రంగిని పూర్తి చేయండి",
+      "difficulty_level": 3,
+      "description": "Learn and master Finish Carpentry",
+      "tags": [
+        "finish",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4939",
+      "name": "ఫ్రేమింగ్",
+      "difficulty_level": 4,
+      "description": "Learn and master Framing",
+      "tags": [
+        "framing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4940",
+      "name": "ఫర్నిచర్ తయారీ",
+      "difficulty_level": 2,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4941",
+      "name": "జాయినరీ పద్ధతులు",
+      "difficulty_level": 2,
+      "description": "Learn and master Joinery Techniques",
+      "tags": [
+        "joinery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4942",
+      "name": "కలప ఫ్రేమింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Timber Framing",
+      "tags": [
+        "timber",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4943",
+      "name": "కలప శిల్పం",
+      "difficulty_level": 3,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4944",
+      "name": "వుడ్ లాత్ ఆపరేషన్",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Lathe Operation",
+      "tags": [
+        "wood",
+        "lathe",
+        "operation"
+      ]
+    }
+  ]
+}

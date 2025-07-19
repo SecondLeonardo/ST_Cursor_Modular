@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_programming_software_development",
+  "name": "प्रोग्रामिंग और सॉफ़्टवेयर विकास",
+  "skills": [
+    {
+      "id": "skill_4805",
+      "name": "एपीआई विकास",
+      "difficulty_level": 4,
+      "description": "Learn and master API Development",
+      "tags": [
+        "development",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4806",
+      "name": "फुर्तीली विकास",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Development",
+      "tags": [
+        "agile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4807",
+      "name": "सी ++ विकास",
+      "difficulty_level": 5,
+      "description": "Learn and master C++ Development",
+      "tags": [
+        "development",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4808",
+      "name": "डिबगिंग तकनीक",
+      "difficulty_level": 4,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4809",
+      "name": "कार्यात्मक प्रोग्रामन",
+      "difficulty_level": 1,
+      "description": "Learn and master Functional Programming",
+      "tags": [
+        "functional",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4810",
+      "name": "जावा प्रोग्राम",
+      "difficulty_level": 4,
+      "description": "Learn and master Java Programming",
+      "tags": [
+        "java",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4811",
+      "name": "ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4812",
+      "name": "पायथन प्रोग्रामन",
+      "difficulty_level": 5,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4813",
+      "name": "एकक परीक्षण",
+      "difficulty_level": 4,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4814",
+      "name": "संस्करण नियंत्रण (GIT)",
+      "difficulty_level": 4,
+      "description": "Learn and master Version Control (Git)",
+      "tags": [
+        "version",
+        "control",
+        "(git)"
+      ]
+    }
+  ]
+}

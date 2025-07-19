@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_electrical_work",
+  "name": "งานไฟฟ้า",
+  "skills": [
+    {
+      "id": "skill_4955",
+      "name": "การติดตั้งวงจร",
+      "difficulty_level": 5,
+      "description": "Learn and master Circuit Installation",
+      "tags": [
+        "circuit",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4956",
+      "name": "การดัดท่อร้อยสาย",
+      "difficulty_level": 4,
+      "description": "Learn and master Conduit Bending",
+      "tags": [
+        "conduit",
+        "bending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4957",
+      "name": "การปฏิบัติตามรหัสไฟฟ้า",
+      "difficulty_level": 5,
+      "description": "Learn and master Electrical Code Compliance",
+      "tags": [
+        "electrical",
+        "code",
+        "compliance"
+      ]
+    },
+    {
+      "id": "skill_4958",
+      "name": "การอัพเกรดแผงไฟฟ้า",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Panel Upgrades",
+      "tags": [
+        "electrical",
+        "panel",
+        "upgrades"
+      ]
+    },
+    {
+      "id": "skill_4959",
+      "name": "การเชื่อมต่อของเครื่องกำเนิดไฟฟ้า",
+      "difficulty_level": 1,
+      "description": "Learn and master Generator Hookup",
+      "tags": [
+        "generator",
+        "hookup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4960",
+      "name": "ระบบอัตโนมัติในบ้าน",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Automation",
+      "tags": [
+        "home",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4961",
+      "name": "การติดตั้งแสงสว่าง",
+      "difficulty_level": 1,
+      "description": "Learn and master Lighting Installation",
+      "tags": [
+        "lighting",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4962",
+      "name": "การใช้มัลติมิเตอร์",
+      "difficulty_level": 2,
+      "description": "Learn and master Multimeter Use",
+      "tags": [
+        "multimeter",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4963",
+      "name": "การแก้ไขปัญหาวงจร",
+      "difficulty_level": 1,
+      "description": "Learn and master Troubleshooting Circuits",
+      "tags": [
+        "troubleshooting",
+        "circuits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4964",
+      "name": "ซ่อมสายไฟ",
+      "difficulty_level": 3,
+      "description": "Learn and master Wiring Repair",
+      "tags": [
+        "wiring",
+        "repair",
+        "skill"
+      ]
+    }
+  ]
+}

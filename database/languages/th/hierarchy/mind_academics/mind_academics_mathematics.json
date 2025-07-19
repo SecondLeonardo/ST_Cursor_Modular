@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_mathematics",
+  "name": "คณิตศาสตร์",
+  "skills": [
+    {
+      "id": "skill_3608",
+      "name": "พีชคณิต",
+      "difficulty_level": 5,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3609",
+      "name": "แคลคูลัส",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3610",
+      "name": "เรขาคณิต",
+      "difficulty_level": 4,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3611",
+      "name": "การแก้ปัญหาคณิตศาสตร์",
+      "difficulty_level": 1,
+      "description": "Learn and master Math Problem Solving",
+      "tags": [
+        "math",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_3612",
+      "name": "คณิตศาสตร์เพื่อการเงิน",
+      "difficulty_level": 1,
+      "description": "Learn and master Math for Finance",
+      "tags": [
+        "math",
+        "finance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3613",
+      "name": "ตรรกะทางคณิตศาสตร์",
+      "difficulty_level": 3,
+      "description": "Learn and master Mathematical Logic",
+      "tags": [
+        "mathematical",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3614",
+      "name": "คณิตศาสตร์จิต",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3615",
+      "name": "จำนวนทฤษฎี",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3616",
+      "name": "ความน่าจะเป็นและสถิติ",
+      "difficulty_level": 4,
+      "description": "Learn and master Probability & Statistics",
+      "tags": [
+        "probability",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3617",
+      "name": "ตรีโกณมิติ",
+      "difficulty_level": 4,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

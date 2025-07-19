@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_sports_coaching",
+  "name": "스포츠 코칭",
+  "skills": [
+    {
+      "id": "skill_2808",
+      "name": "운동 선수 컨디셔닝",
+      "difficulty_level": 3,
+      "description": "Learn and master Athlete Conditioning",
+      "tags": [
+        "athlete",
+        "conditioning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2809",
+      "name": "게임 전략",
+      "difficulty_level": 3,
+      "description": "Learn and master Game Strategy",
+      "tags": [
+        "game",
+        "strategy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2810",
+      "name": "부상 예방",
+      "difficulty_level": 1,
+      "description": "Learn and master Injury Prevention",
+      "tags": [
+        "injury",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2811",
+      "name": "동기 기법",
+      "difficulty_level": 3,
+      "description": "Learn and master Motivational Techniques",
+      "tags": [
+        "motivational",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2812",
+      "name": "성능 분석",
+      "difficulty_level": 2,
+      "description": "Learn and master Performance Analysis",
+      "tags": [
+        "performance",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2813",
+      "name": "규칙 및 공무원",
+      "difficulty_level": 1,
+      "description": "Learn and master Rules & Officiating",
+      "tags": [
+        "rules",
+        "officiating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2814",
+      "name": "기술 훈련",
+      "difficulty_level": 2,
+      "description": "Learn and master Skill Drills",
+      "tags": [
+        "skill",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2815",
+      "name": "스포츠 심리학",
+      "difficulty_level": 5,
+      "description": "Learn and master Sport Psychology",
+      "tags": [
+        "sport",
+        "psychology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2816",
+      "name": "팀 빌딩",
+      "difficulty_level": 3,
+      "description": "Learn and master Team Building",
+      "tags": [
+        "team",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2817",
+      "name": "청소년 코칭",
+      "difficulty_level": 1,
+      "description": "Learn and master Youth Coaching",
+      "tags": [
+        "youth",
+        "coaching",
+        "skill"
+      ]
+    }
+  ]
+}

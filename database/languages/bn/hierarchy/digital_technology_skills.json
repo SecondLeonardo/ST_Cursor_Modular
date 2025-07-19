@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "ডিজিটাল এবং প্রযুক্তি দক্ষতা",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "সাইবারসিকিউরিটি"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "ডেটা এবং এআই"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "এটি এবং নেটওয়ার্কিং"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "প্রোগ্রামিং এবং বিকাশ"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "ওয়েব এবং মোবাইল"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_visual_arts",
+  "name": "Seni Visual",
+  "skills": [
+    {
+      "id": "skill_610",
+      "name": "Teori Seni",
+      "difficulty_level": 1,
+      "description": "Learn and master Art Theory",
+      "tags": [
+        "theory",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_611",
+      "name": "Kaligrafi",
+      "difficulty_level": 3,
+      "description": "Learn and master Calligraphy",
+      "tags": [
+        "calligraphy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_612",
+      "name": "Teori Warna",
+      "difficulty_level": 2,
+      "description": "Learn and master Color Theory",
+      "tags": [
+        "color",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_613",
+      "name": "Teknik komposisi",
+      "difficulty_level": 2,
+      "description": "Learn and master Composition Techniques",
+      "tags": [
+        "composition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_614",
+      "name": "Menggambar",
+      "difficulty_level": 5,
+      "description": "Learn and master Drawing",
+      "tags": [
+        "drawing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_615",
+      "name": "Ilustrasi",
+      "difficulty_level": 2,
+      "description": "Learn and master Illustration",
+      "tags": [
+        "illustration",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_616",
+      "name": "Media campuran",
+      "difficulty_level": 5,
+      "description": "Learn and master Mixed Media",
+      "tags": [
+        "mixed",
+        "media",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_617",
+      "name": "Lukisan",
+      "difficulty_level": 5,
+      "description": "Learn and master Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_618",
+      "name": "PRINTMAKING",
+      "difficulty_level": 5,
+      "description": "Learn and master Printmaking",
+      "tags": [
+        "printmaking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_619",
+      "name": "Patung",
+      "difficulty_level": 4,
+      "description": "Learn and master Sculpture",
+      "tags": [
+        "sculpture",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

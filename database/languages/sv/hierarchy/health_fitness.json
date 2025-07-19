@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "Hälsa och fitness",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "Kroppsvård och wellness"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "Första hjälpen och säkerheten"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "Mental hälsa"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "Näring och diet"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "Gymnastik"
+    }
+  ]
+}

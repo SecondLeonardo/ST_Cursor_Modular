@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+  "name": "Nội thất & bọc",
+  "skills": [
+    {
+      "id": "skill_3438",
+      "name": "Làm đệm",
+      "difficulty_level": 2,
+      "description": "Learn and master Cushion Making",
+      "tags": [
+        "cushion",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3439",
+      "name": "Vải kéo dài",
+      "difficulty_level": 1,
+      "description": "Learn and master Fabric Stretching",
+      "tags": [
+        "fabric",
+        "stretching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3440",
+      "name": "Cắt bọt",
+      "difficulty_level": 4,
+      "description": "Learn and master Foam Cutting",
+      "tags": [
+        "foam",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3441",
+      "name": "Sửa chữa khung",
+      "difficulty_level": 4,
+      "description": "Learn and master Frame Repair",
+      "tags": [
+        "frame",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3442",
+      "name": "Tái cấu trúc đồ nội thất",
+      "difficulty_level": 4,
+      "description": "Learn and master Furniture Refinishing",
+      "tags": [
+        "furniture",
+        "refinishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3443",
+      "name": "Làm trượt",
+      "difficulty_level": 4,
+      "description": "Learn and master Slipcover Making",
+      "tags": [
+        "slipcover",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3444",
+      "name": "Kỹ thuật Stapling",
+      "difficulty_level": 4,
+      "description": "Learn and master Stapling Techniques",
+      "tags": [
+        "stapling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3445",
+      "name": "Lựa chọn dệt may",
+      "difficulty_level": 3,
+      "description": "Learn and master Textile Selection",
+      "tags": [
+        "textile",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3446",
+      "name": "TUFTING",
+      "difficulty_level": 1,
+      "description": "Learn and master Tufting",
+      "tags": [
+        "tufting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3447",
+      "name": "Sửa chữa bọc",
+      "difficulty_level": 5,
+      "description": "Learn and master Upholstery Repair",
+      "tags": [
+        "upholstery",
+        "repair",
+        "skill"
+      ]
+    }
+  ]
+}

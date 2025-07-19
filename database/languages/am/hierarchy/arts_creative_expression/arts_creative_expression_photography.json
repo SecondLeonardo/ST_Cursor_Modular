@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_photography",
+  "name": "ፎቶግራፍ",
+  "skills": [
+    {
+      "id": "skill_400",
+      "name": "ጥቁር እና ነጭ ፎቶግራፍ",
+      "difficulty_level": 1,
+      "description": "Learn and master Black & White Photography",
+      "tags": [
+        "black",
+        "white",
+        "photography"
+      ]
+    },
+    {
+      "id": "skill_401",
+      "name": "የካሜራ ቅንብሮች",
+      "difficulty_level": 1,
+      "description": "Learn and master Camera Settings",
+      "tags": [
+        "camera",
+        "settings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_402",
+      "name": "የግንብ ግምጦች ቴክኒኮችን",
+      "difficulty_level": 2,
+      "description": "Learn and master Composition Techniques",
+      "tags": [
+        "composition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_403",
+      "name": "ክስተት ፎቶግራፍ",
+      "difficulty_level": 4,
+      "description": "Learn and master Event Photography",
+      "tags": [
+        "event",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_404",
+      "name": "የመሬት ገጽታ ፎቶግራፍ",
+      "difficulty_level": 2,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_405",
+      "name": "ማክሮ ፎቶግራፍ",
+      "difficulty_level": 1,
+      "description": "Learn and master Macro Photography",
+      "tags": [
+        "macro",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_406",
+      "name": "ፎቶ አርት editing ት",
+      "difficulty_level": 3,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_407",
+      "name": "ፎቶግራፍ ፎቶግራፍ",
+      "difficulty_level": 5,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_408",
+      "name": "የምርት ፎቶግራፍ",
+      "difficulty_level": 4,
+      "description": "Learn and master Product Photography",
+      "tags": [
+        "product",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_409",
+      "name": "ስቱዲዮ መብራት",
+      "difficulty_level": 2,
+      "description": "Learn and master Studio Lighting",
+      "tags": [
+        "studio",
+        "lighting",
+        "skill"
+      ]
+    }
+  ]
+}

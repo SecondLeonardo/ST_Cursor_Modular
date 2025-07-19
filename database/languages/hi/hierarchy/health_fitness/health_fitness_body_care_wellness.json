@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_body_care_wellness",
+  "name": "शरीर की देखभाल और कल्याण",
+  "skills": [
+    {
+      "id": "skill_2443",
+      "name": "कोल्ड थेरेपी",
+      "difficulty_level": 2,
+      "description": "Learn and master Cold Therapy",
+      "tags": [
+        "cold",
+        "therapy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2444",
+      "name": "दैनिक खिंचाव",
+      "difficulty_level": 5,
+      "description": "Learn and master Daily Stretching",
+      "tags": [
+        "daily",
+        "stretching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2445",
+      "name": "नेत्र तनाव राहत",
+      "difficulty_level": 1,
+      "description": "Learn and master Eye Strain Relief",
+      "tags": [
+        "strain",
+        "relief",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2446",
+      "name": "फोम रोलिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Foam Rolling",
+      "tags": [
+        "foam",
+        "rolling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2447",
+      "name": "मालिश तकनीक",
+      "difficulty_level": 2,
+      "description": "Learn and master Massage Techniques",
+      "tags": [
+        "massage",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2448",
+      "name": "नाखूनों की देखभाल",
+      "difficulty_level": 4,
+      "description": "Learn and master Nail Care",
+      "tags": [
+        "nail",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2449",
+      "name": "मौखिक हाइजीन",
+      "difficulty_level": 3,
+      "description": "Learn and master Oral Hygiene",
+      "tags": [
+        "oral",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2450",
+      "name": "आसन सुधार",
+      "difficulty_level": 5,
+      "description": "Learn and master Posture Correction",
+      "tags": [
+        "posture",
+        "correction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2451",
+      "name": "सौना उपयोग",
+      "difficulty_level": 4,
+      "description": "Learn and master Sauna Use",
+      "tags": [
+        "sauna",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2452",
+      "name": "स्किनकेयर रूटीन",
+      "difficulty_level": 2,
+      "description": "Learn and master Skincare Routine",
+      "tags": [
+        "skincare",
+        "routine",
+        "skill"
+      ]
+    }
+  ]
+}

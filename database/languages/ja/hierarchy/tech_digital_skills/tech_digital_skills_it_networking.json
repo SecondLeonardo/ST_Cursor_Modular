@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_it_networking",
+  "name": "それとネットワーキング",
+  "skills": [
+    {
+      "id": "skill_4426",
+      "name": "DNS管理",
+      "difficulty_level": 2,
+      "description": "Learn and master DNS Management",
+      "tags": [
+        "management",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4427",
+      "name": "ファイアウォール構成",
+      "difficulty_level": 5,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4428",
+      "name": "Windowsサーバーの管理",
+      "difficulty_level": 2,
+      "description": "Learn and master Managing Windows Servers",
+      "tags": [
+        "managing",
+        "windows",
+        "servers"
+      ]
+    },
+    {
+      "id": "skill_4429",
+      "name": "ネットワークセキュリティの基本",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Security Basics",
+      "tags": [
+        "network",
+        "security",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4430",
+      "name": "リモートデスクトップセットアップ",
+      "difficulty_level": 4,
+      "description": "Learn and master Remote Desktop Setup",
+      "tags": [
+        "remote",
+        "desktop",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4431",
+      "name": "ルーターのセットアップ",
+      "difficulty_level": 5,
+      "description": "Learn and master Setting Up Routers",
+      "tags": [
+        "setting",
+        "routers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4432",
+      "name": "システム構成",
+      "difficulty_level": 2,
+      "description": "Learn and master System Configuration",
+      "tags": [
+        "system",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4433",
+      "name": "ネットワークのトラブルシューティング",
+      "difficulty_level": 5,
+      "description": "Learn and master Troubleshooting Networks",
+      "tags": [
+        "troubleshooting",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4434",
+      "name": "IPアドレス指定の理解",
+      "difficulty_level": 1,
+      "description": "Learn and master Understanding IP Addressing",
+      "tags": [
+        "understanding",
+        "addressing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4435",
+      "name": "コマンドラインツールを使用します",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Command Line Tools",
+      "tags": [
+        "using",
+        "command",
+        "line",
+        "tools"
+      ]
+    }
+  ]
+}

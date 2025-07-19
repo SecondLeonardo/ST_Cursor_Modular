@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_painting",
+  "name": "పెయింటింగ్",
+  "skills": [
+    {
+      "id": "skill_380",
+      "name": "నైరూప్య పెయింటింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_381",
+      "name": "యాక్రిలిక్ పెయింటింగ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_382",
+      "name": "బ్రష్ పద్ధతులు",
+      "difficulty_level": 3,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_383",
+      "name": "కాన్వాస్ తయారీ",
+      "difficulty_level": 3,
+      "description": "Learn and master Canvas Preparation",
+      "tags": [
+        "canvas",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_384",
+      "name": "రంగు మిక్సింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_385",
+      "name": "ఇంప్రెషనిజం",
+      "difficulty_level": 2,
+      "description": "Learn and master Impressionism",
+      "tags": [
+        "impressionism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_386",
+      "name": "ఆయిల్ పెయింటింగ్",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_387",
+      "name": "ప్లీన్ ఎయిర్ పెయింటింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Plein Air Painting",
+      "tags": [
+        "plein",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_388",
+      "name": "పోర్ట్రెయిట్ పెయింటింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_389",
+      "name": "వాటర్ కలర్ టెక్నిక్స్",
+      "difficulty_level": 2,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "cognitive_learning_skills_learning_strategies",
+  "name": "கற்றல் உத்திகள்",
+  "skills": [
+    {
+      "id": "skill_1158",
+      "name": "செயலில் வாசிப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Active Reading",
+      "tags": [
+        "active",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1159",
+      "name": "தகவமைப்பு கற்றல் கருவிகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Adaptive Learning Tools",
+      "tags": [
+        "adaptive",
+        "learning",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_1160",
+      "name": "ஆய்வுத் திட்டங்களை உருவாக்குதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Creating Study Plans",
+      "tags": [
+        "creating",
+        "study",
+        "plans"
+      ]
+    },
+    {
+      "id": "skill_1161",
+      "name": "கற்றலுக்கான இலக்கு அமைப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Goal Setting for Learning",
+      "tags": [
+        "goal",
+        "setting",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1162",
+      "name": "கற்றலுக்கான பழக்கம் அடுக்கி",
+      "difficulty_level": 2,
+      "description": "Learn and master Habit Stacking for Learning",
+      "tags": [
+        "habit",
+        "stacking",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1163",
+      "name": "கற்பிப்பதன் மூலம் கற்றல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Learning by Teaching",
+      "tags": [
+        "learning",
+        "teaching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1164",
+      "name": "குறிப்பு எடுக்கும் முறைகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Note-Taking Methods",
+      "tags": [
+        "note-taking",
+        "methods",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1165",
+      "name": "சுய சோதனை",
+      "difficulty_level": 2,
+      "description": "Learn and master Self-Testing",
+      "tags": [
+        "self-testing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1166",
+      "name": "ஆன்லைன் படிப்புகளை திறம்பட பயன்படுத்துதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Online Courses Effectively",
+      "tags": [
+        "using",
+        "online",
+        "courses",
+        "effectively"
+      ]
+    },
+    {
+      "id": "skill_1167",
+      "name": "ஃபெய்ன்மேன் நுட்பத்தைப் பயன்படுத்துதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Using the Feynman Technique",
+      "tags": [
+        "using",
+        "feynman",
+        "technique"
+      ]
+    }
+  ]
+}

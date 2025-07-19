@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "مهارات العلوم والبحث",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "الكتابة الأكاديمية"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "العلوم البيولوجية"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "علم الكمبيوتر والبيانات"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "العلوم الأرضية والبيئية"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "العلوم الهندسية"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "الرياضيات والإحصاءات"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "العلوم الطبية والصحية"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "العلوم الفيزيائية"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "طرق البحث"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "العلوم الاجتماعية"
+    }
+  ]
+}

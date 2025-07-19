@@ -1,0 +1,30 @@
+{
+  "id": "communication_language_skills",
+  "name": "コミュニケーションと言語スキル",
+  "subcategories": [
+    {
+      "id": "communication_language_skills_foreign_languages",
+      "name": "外国語"
+    },
+    {
+      "id": "communication_language_skills_interpersonal_skills",
+      "name": "対人スキル"
+    },
+    {
+      "id": "communication_language_skills_nonverbal_communication",
+      "name": "非言語的コミュニケーション"
+    },
+    {
+      "id": "communication_language_skills_presentation_storytelling",
+      "name": "プレゼンテーションとストーリーテリング"
+    },
+    {
+      "id": "communication_language_skills_public_speaking",
+      "name": "人前で話す"
+    },
+    {
+      "id": "communication_language_skills_writing_editing",
+      "name": "書き込みと編集"
+    }
+  ]
+}

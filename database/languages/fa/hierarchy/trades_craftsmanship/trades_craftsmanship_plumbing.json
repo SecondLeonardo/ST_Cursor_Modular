@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_plumbing",
+  "name": "لوله کشی",
+  "skills": [
+    {
+      "id": "skill_5005",
+      "name": "تست جریان برگشتی",
+      "difficulty_level": 1,
+      "description": "Learn and master Backflow Testing",
+      "tags": [
+        "backflow",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5006",
+      "name": "تمیز کردن",
+      "difficulty_level": 4,
+      "description": "Learn and master Drain Cleaning",
+      "tags": [
+        "drain",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5007",
+      "name": "تعویض فیکسچر",
+      "difficulty_level": 3,
+      "description": "Learn and master Fixture Replacement",
+      "tags": [
+        "fixture",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5008",
+      "name": "تشخیص نشت",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5009",
+      "name": "نصب لوله",
+      "difficulty_level": 5,
+      "description": "Learn and master Pipe Installation",
+      "tags": [
+        "pipe",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5010",
+      "name": "دانش کد لوله کشی",
+      "difficulty_level": 1,
+      "description": "Learn and master Plumbing Code Knowledge",
+      "tags": [
+        "plumbing",
+        "code",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5011",
+      "name": "نگهداری خط فاضلاب",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewer Line Maintenance",
+      "tags": [
+        "sewer",
+        "line",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5012",
+      "name": "نصب پمپ سامپ",
+      "difficulty_level": 3,
+      "description": "Learn and master Sump Pump Installation",
+      "tags": [
+        "sump",
+        "pump",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5013",
+      "name": "ترمیم دریچه",
+      "difficulty_level": 1,
+      "description": "Learn and master Valve Repair",
+      "tags": [
+        "valve",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5014",
+      "name": "نصب بخاری آب",
+      "difficulty_level": 5,
+      "description": "Learn and master Water Heater Installation",
+      "tags": [
+        "water",
+        "heater",
+        "installation"
+      ]
+    }
+  ]
+}

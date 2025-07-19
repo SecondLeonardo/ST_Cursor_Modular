@@ -1,0 +1,30 @@
+{
+  "id": "design_visual_skills",
+  "name": "设计与视觉技能",
+  "subcategories": [
+    {
+      "id": "design_visual_skills_3d_modeling_animation",
+      "name": "3D建模和动画"
+    },
+    {
+      "id": "design_visual_skills_branding_identity",
+      "name": "品牌和身份"
+    },
+    {
+      "id": "design_visual_skills_graphic_design",
+      "name": "图形设计"
+    },
+    {
+      "id": "design_visual_skills_illustration",
+      "name": "插图"
+    },
+    {
+      "id": "design_visual_skills_photography",
+      "name": "摄影"
+    },
+    {
+      "id": "design_visual_skills_ux/ui_design",
+      "name": "UX/UI设计"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_automotive_repair",
+  "name": "Réparation automobile",
+  "skills": [
+    {
+      "id": "skill_4925",
+      "name": "Test de batterie",
+      "difficulty_level": 5,
+      "description": "Learn and master Battery Testing",
+      "tags": [
+        "battery",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4926",
+      "name": "Remplacement des freins",
+      "difficulty_level": 5,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4927",
+      "name": "Réparation du système de refroidissement",
+      "difficulty_level": 5,
+      "description": "Learn and master Cooling System Repair",
+      "tags": [
+        "cooling",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_4928",
+      "name": "Diagnostic de moteur",
+      "difficulty_level": 5,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4929",
+      "name": "Réparation d'échappement",
+      "difficulty_level": 2,
+      "description": "Learn and master Exhaust Repair",
+      "tags": [
+        "exhaust",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4930",
+      "name": "Vidange",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4931",
+      "name": "Réparation de suspension",
+      "difficulty_level": 4,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4932",
+      "name": "Montage des pneus",
+      "difficulty_level": 3,
+      "description": "Learn and master Tire Mounting",
+      "tags": [
+        "tire",
+        "mounting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4933",
+      "name": "Travaux de transmission",
+      "difficulty_level": 5,
+      "description": "Learn and master Transmission Work",
+      "tags": [
+        "transmission",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4934",
+      "name": "Alignement des roues",
+      "difficulty_level": 2,
+      "description": "Learn and master Wheel Alignment",
+      "tags": [
+        "wheel",
+        "alignment",
+        "skill"
+      ]
+    }
+  ]
+}

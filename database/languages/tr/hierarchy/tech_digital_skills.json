@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "Teknoloji ve Dijital Beceriler",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "AI ve Makine Öğrenimi"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "Bulut bilişim"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "Siber güvenlik"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "Veri ve Analytics"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "Veri Bilimi ve AI"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "DevOps & Otomasyon"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "Oyun geliştirme"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "IT & Networking"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "BT Destek ve Ağ"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "Mobil Uygulama Geliştirme"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "Programlama ve Yazılım Geliştirme"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "Yazılım Geliştirme"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "Teknik Donanım ve Onarım"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "Teknik Destek ve Sorun Giderme"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "Web Geliştirme"
+    }
+  ]
+}

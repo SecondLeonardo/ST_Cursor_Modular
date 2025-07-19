@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_individual_sports",
+  "name": "தனிப்பட்ட விளையாட்டு",
+  "skills": [
+    {
+      "id": "skill_3998",
+      "name": "பூப்பந்து நொறுக்குதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Badminton Smashing",
+      "tags": [
+        "badminton",
+        "smashing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3999",
+      "name": "பந்துவீச்சு வடிவம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Bowling Form",
+      "tags": [
+        "bowling",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4000",
+      "name": "குத்துச்சண்டை அடிச்சுவடு",
+      "difficulty_level": 5,
+      "description": "Learn and master Boxing Footwork",
+      "tags": [
+        "boxing",
+        "footwork",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4001",
+      "name": "ஃபென்சிங் நுட்பங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Fencing Techniques",
+      "tags": [
+        "fencing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4002",
+      "name": "கோல்ஃப் ஸ்விங்",
+      "difficulty_level": 3,
+      "description": "Learn and master Golf Swing",
+      "tags": [
+        "golf",
+        "swing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4003",
+      "name": "ஜிம்னாஸ்டிக்ஸ் வீழ்ச்சியடைகிறது",
+      "difficulty_level": 4,
+      "description": "Learn and master Gymnastics Tumbling",
+      "tags": [
+        "gymnastics",
+        "tumbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4004",
+      "name": "நீச்சல் பக்கவாதம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Swimming Strokes",
+      "tags": [
+        "swimming",
+        "strokes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4005",
+      "name": "அட்டவணை டென்னிஸ் அணிவகுத்து",
+      "difficulty_level": 5,
+      "description": "Learn and master Table Tennis Rallying",
+      "tags": [
+        "table",
+        "tennis",
+        "rallying"
+      ]
+    },
+    {
+      "id": "skill_4006",
+      "name": "டென்னிஸ் ஃபோர்ஹேண்ட்",
+      "difficulty_level": 5,
+      "description": "Learn and master Tennis Forehand",
+      "tags": [
+        "tennis",
+        "forehand",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4007",
+      "name": "டிராக் ஸ்பிரிண்டிங்",
+      "difficulty_level": 2,
+      "description": "Learn and master Track Sprinting",
+      "tags": [
+        "track",
+        "sprinting",
+        "skill"
+      ]
+    }
+  ]
+}

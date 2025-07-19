@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_data_science_ai",
+  "name": "Khoa học dữ liệu & AI",
+  "skills": [
+    {
+      "id": "skill_4288",
+      "name": "Đạo đức AI",
+      "difficulty_level": 3,
+      "description": "Learn and master AI Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4289",
+      "name": "Công cụ dữ liệu lớn",
+      "difficulty_level": 3,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4290",
+      "name": "Làm sạch dữ liệu",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4291",
+      "name": "Trực quan hóa dữ liệu",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4292",
+      "name": "Mô hình học máy",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning Modeling",
+      "tags": [
+        "machine",
+        "learning",
+        "modeling"
+      ]
+    },
+    {
+      "id": "skill_4293",
+      "name": "Xử lý ngôn ngữ tự nhiên",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4294",
+      "name": "Mạng lưới thần kinh",
+      "difficulty_level": 3,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4295",
+      "name": "Phân tích dự đoán",
+      "difficulty_level": 1,
+      "description": "Learn and master Predictive Analytics",
+      "tags": [
+        "predictive",
+        "analytics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4296",
+      "name": "Python cho khoa học dữ liệu",
+      "difficulty_level": 5,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_4297",
+      "name": "Truy vấn SQL",
+      "difficulty_level": 2,
+      "description": "Learn and master SQL Querying",
+      "tags": [
+        "querying",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

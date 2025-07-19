@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_painting",
+  "name": "絵画",
+  "skills": [
+    {
+      "id": "skill_1833",
+      "name": "抽象絵画",
+      "difficulty_level": 3,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1834",
+      "name": "アクリル絵",
+      "difficulty_level": 4,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1835",
+      "name": "ブラシテクニック",
+      "difficulty_level": 5,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1836",
+      "name": "ミニチュアペインティング",
+      "difficulty_level": 4,
+      "description": "Learn and master Miniature Painting",
+      "tags": [
+        "miniature",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1837",
+      "name": "色の混合",
+      "difficulty_level": 3,
+      "description": "Learn and master Mixing Colors",
+      "tags": [
+        "mixing",
+        "colors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1838",
+      "name": "油絵",
+      "difficulty_level": 3,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1839",
+      "name": "絵画の風景",
+      "difficulty_level": 5,
+      "description": "Learn and master Painting Landscapes",
+      "tags": [
+        "painting",
+        "landscapes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1840",
+      "name": "生地に絵を描く",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting on Fabric",
+      "tags": [
+        "painting",
+        "fabric",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1841",
+      "name": "肖像画",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1842",
+      "name": "水彩技術",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

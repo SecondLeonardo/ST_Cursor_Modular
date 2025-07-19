@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_carpentry_woodworking",
+  "name": "Thợ mộc & chế biến gỗ",
+  "skills": [
+    {
+      "id": "skill_4935",
+      "name": "Cài đặt tủ",
+      "difficulty_level": 5,
+      "description": "Learn and master Cabinet Installation",
+      "tags": [
+        "cabinet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4936",
+      "name": "Xây dựng boong",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4937",
+      "name": "Cửa treo",
+      "difficulty_level": 3,
+      "description": "Learn and master Door Hanging",
+      "tags": [
+        "door",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4938",
+      "name": "Hoàn thành nghề mộc",
+      "difficulty_level": 3,
+      "description": "Learn and master Finish Carpentry",
+      "tags": [
+        "finish",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4939",
+      "name": "Đóng khung",
+      "difficulty_level": 4,
+      "description": "Learn and master Framing",
+      "tags": [
+        "framing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4940",
+      "name": "Làm đồ nội thất",
+      "difficulty_level": 2,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4941",
+      "name": "Kỹ thuật nghề nghiệp",
+      "difficulty_level": 2,
+      "description": "Learn and master Joinery Techniques",
+      "tags": [
+        "joinery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4942",
+      "name": "Khung gỗ",
+      "difficulty_level": 5,
+      "description": "Learn and master Timber Framing",
+      "tags": [
+        "timber",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4943",
+      "name": "Khắc gỗ",
+      "difficulty_level": 3,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4944",
+      "name": "Hoạt động máy tiện gỗ",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Lathe Operation",
+      "tags": [
+        "wood",
+        "lathe",
+        "operation"
+      ]
+    }
+  ]
+}

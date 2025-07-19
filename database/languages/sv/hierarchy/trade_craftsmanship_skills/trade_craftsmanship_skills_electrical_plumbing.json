@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_electrical_plumbing",
+  "name": "Elektriskt och VVS",
+  "skills": [
+    {
+      "id": "skill_4875",
+      "name": "Grundläggande kretsledningar",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Circuit Wiring",
+      "tags": [
+        "basic",
+        "circuit",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_4876",
+      "name": "Diagnostisera elektriska fel",
+      "difficulty_level": 5,
+      "description": "Learn and master Diagnosing Electrical Faults",
+      "tags": [
+        "diagnosing",
+        "electrical",
+        "faults"
+      ]
+    },
+    {
+      "id": "skill_4877",
+      "name": "Installera kranar",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing Faucets",
+      "tags": [
+        "installing",
+        "faucets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4878",
+      "name": "Installera uttag",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Outlets",
+      "tags": [
+        "installing",
+        "outlets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4879",
+      "name": "Belysningsinstallation",
+      "difficulty_level": 3,
+      "description": "Learn and master Lighting Installation",
+      "tags": [
+        "lighting",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4880",
+      "name": "Rörskärning",
+      "difficulty_level": 5,
+      "description": "Learn and master Pipe Cutting",
+      "tags": [
+        "pipe",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4881",
+      "name": "Toalettersättning",
+      "difficulty_level": 5,
+      "description": "Learn and master Toilet Replacement",
+      "tags": [
+        "toilet",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4882",
+      "name": "Avloppsavlopp",
+      "difficulty_level": 3,
+      "description": "Learn and master Unclogging Drains",
+      "tags": [
+        "unclogging",
+        "drains",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4883",
+      "name": "Vattenvärmare underhåll",
+      "difficulty_level": 1,
+      "description": "Learn and master Water Heater Maintenance",
+      "tags": [
+        "water",
+        "heater",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_4884",
+      "name": "Strippning",
+      "difficulty_level": 1,
+      "description": "Learn and master Wire Stripping",
+      "tags": [
+        "wire",
+        "stripping",
+        "skill"
+      ]
+    }
+  ]
+}

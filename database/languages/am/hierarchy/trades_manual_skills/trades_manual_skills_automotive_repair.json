@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_automotive_repair",
+  "name": "አውቶሞቲቭ ጥገና",
+  "skills": [
+    {
+      "id": "skill_5025",
+      "name": "የአየር ማቀዝቀዣ ጥገና",
+      "difficulty_level": 3,
+      "description": "Learn and master Air Conditioning Repair",
+      "tags": [
+        "conditioning",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5026",
+      "name": "የባትሪ መተካት",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5027",
+      "name": "የብሬክ ምትክ",
+      "difficulty_level": 2,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5028",
+      "name": "የሞተር ምርመራዎች",
+      "difficulty_level": 4,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5029",
+      "name": "ፈሳሽ ቼኮች",
+      "difficulty_level": 5,
+      "description": "Learn and master Fluid Checks",
+      "tags": [
+        "fluid",
+        "checks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5030",
+      "name": "የዘይት ለውጥ",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5031",
+      "name": "ስካርካክ ያለ ምትክ",
+      "difficulty_level": 2,
+      "description": "Learn and master Spark Plug Replacement",
+      "tags": [
+        "spark",
+        "plug",
+        "replacement"
+      ]
+    },
+    {
+      "id": "skill_5032",
+      "name": "የእገዳ ጥገና",
+      "difficulty_level": 3,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5033",
+      "name": "የጎማ ማሽከርከር",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5034",
+      "name": "ማስተላለፍ ጥገና",
+      "difficulty_level": 2,
+      "description": "Learn and master Transmission Maintenance",
+      "tags": [
+        "transmission",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

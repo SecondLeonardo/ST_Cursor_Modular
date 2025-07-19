@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_construction_masonry",
+  "name": "Xây dựng & Masonry",
+  "skills": [
+    {
+      "id": "skill_4945",
+      "name": "Gạch",
+      "difficulty_level": 4,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4946",
+      "name": "Trộn bê tông",
+      "difficulty_level": 4,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4947",
+      "name": "Cài đặt vách thạch cao",
+      "difficulty_level": 5,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4948",
+      "name": "Công việc nền tảng",
+      "difficulty_level": 2,
+      "description": "Learn and master Foundation Work",
+      "tags": [
+        "foundation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4949",
+      "name": "Đọc bản thiết kế",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Blueprints",
+      "tags": [
+        "reading",
+        "blueprints",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4950",
+      "name": "Vị trí cốt thép",
+      "difficulty_level": 4,
+      "description": "Learn and master Rebar Placement",
+      "tags": [
+        "rebar",
+        "placement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4951",
+      "name": "Thiết lập giàn giáo",
+      "difficulty_level": 5,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4952",
+      "name": "Masonry bằng đá",
+      "difficulty_level": 4,
+      "description": "Learn and master Stone Masonry",
+      "tags": [
+        "stone",
+        "masonry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4953",
+      "name": "Ứng dụng vữa",
+      "difficulty_level": 5,
+      "description": "Learn and master Stucco Application",
+      "tags": [
+        "stucco",
+        "application",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4954",
+      "name": "Cài đặt gạch",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Setting",
+      "tags": [
+        "tile",
+        "setting",
+        "skill"
+      ]
+    }
+  ]
+}

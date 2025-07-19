@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_performing_arts",
+  "name": "表演艺术",
+  "skills": [
+    {
+      "id": "skill_590",
+      "name": "试镜准备",
+      "difficulty_level": 2,
+      "description": "Learn and master Audition Preparation",
+      "tags": [
+        "audition",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_591",
+      "name": "角色发展",
+      "difficulty_level": 3,
+      "description": "Learn and master Character Development",
+      "tags": [
+        "character",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_592",
+      "name": "编舞",
+      "difficulty_level": 3,
+      "description": "Learn and master Choreography",
+      "tags": [
+        "choreography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_593",
+      "name": "即兴创作",
+      "difficulty_level": 1,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_594",
+      "name": "哑剧",
+      "difficulty_level": 5,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_595",
+      "name": "独白交付",
+      "difficulty_level": 3,
+      "description": "Learn and master Monologue Delivery",
+      "tags": [
+        "monologue",
+        "delivery",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_596",
+      "name": "舞台管理",
+      "difficulty_level": 4,
+      "description": "Learn and master Stage Management",
+      "tags": [
+        "stage",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_597",
+      "name": "舞台存在",
+      "difficulty_level": 1,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_598",
+      "name": "剧院表演",
+      "difficulty_level": 4,
+      "description": "Learn and master Theater Acting",
+      "tags": [
+        "theater",
+        "acting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_599",
+      "name": "语音投影",
+      "difficulty_level": 3,
+      "description": "Learn and master Voice Projection",
+      "tags": [
+        "voice",
+        "projection",
+        "skill"
+      ]
+    }
+  ]
+}

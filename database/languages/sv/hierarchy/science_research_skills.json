@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Vetenskap och forskningsfärdigheter",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Akademisk skrivning"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Biologiska vetenskaper"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Dator- och datavetenskap"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Jord- och miljövetenskap"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Ingenjörsvetenskap"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Matematik och statistik"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Medicinska och hälsovetenskap"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Fysisk vetenskap"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Forskningsmetoder"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Samhällsvetenskap"
+    }
+  ]
+}

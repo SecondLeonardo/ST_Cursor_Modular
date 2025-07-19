@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_machine_operation",
+  "name": "Opération de machine",
+  "skills": [
+    {
+      "id": "skill_3538",
+      "name": "Configuration de l'imprimante 3D",
+      "difficulty_level": 4,
+      "description": "Learn and master 3D Printer Setup",
+      "tags": [
+        "printer",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3539",
+      "name": "Utilisation de la machine CNC",
+      "difficulty_level": 2,
+      "description": "Learn and master CNC Machine Use",
+      "tags": [
+        "machine",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3540",
+      "name": "Signaux de la grue",
+      "difficulty_level": 1,
+      "description": "Learn and master Crane Signals",
+      "tags": [
+        "crane",
+        "signals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3541",
+      "name": "Conduite de chariot élévateur",
+      "difficulty_level": 5,
+      "description": "Learn and master Forklift Driving",
+      "tags": [
+        "forklift",
+        "driving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3542",
+      "name": "Sécurité du coupe-laser",
+      "difficulty_level": 1,
+      "description": "Learn and master Laser Cutter Safety",
+      "tags": [
+        "laser",
+        "cutter",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3543",
+      "name": "Opération de tour",
+      "difficulty_level": 3,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3544",
+      "name": "Manipulation de la perceuse électrique",
+      "difficulty_level": 3,
+      "description": "Learn and master Power Drill Handling",
+      "tags": [
+        "power",
+        "drill",
+        "handling"
+      ]
+    },
+    {
+      "id": "skill_3545",
+      "name": "Appuyez sur Utilisation du frein",
+      "difficulty_level": 5,
+      "description": "Learn and master Press Brake Use",
+      "tags": [
+        "press",
+        "brake",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3546",
+      "name": "Bases de la machine à coudre",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing Machine Basics",
+      "tags": [
+        "sewing",
+        "machine",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_3547",
+      "name": "Configuration de la machine de soudage",
+      "difficulty_level": 2,
+      "description": "Learn and master Welding Machine Setup",
+      "tags": [
+        "welding",
+        "machine",
+        "setup"
+      ]
+    }
+  ]
+}

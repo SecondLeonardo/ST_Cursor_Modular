@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_recreational_activities",
+  "name": "レクリエーション活動",
+  "skills": [
+    {
+      "id": "skill_4028",
+      "name": "フリスビーキャッチ",
+      "difficulty_level": 4,
+      "description": "Learn and master Frisbee Catching",
+      "tags": [
+        "frisbee",
+        "catching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4029",
+      "name": "ハッキーな袋プレイ",
+      "difficulty_level": 4,
+      "description": "Learn and master Hacky Sack Play",
+      "tags": [
+        "hacky",
+        "sack",
+        "play"
+      ]
+    },
+    {
+      "id": "skill_4030",
+      "name": "フラフーピング",
+      "difficulty_level": 5,
+      "description": "Learn and master Hula Hooping",
+      "tags": [
+        "hula",
+        "hooping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4031",
+      "name": "ジャンプロープスキル",
+      "difficulty_level": 1,
+      "description": "Learn and master Jump Rope Skills",
+      "tags": [
+        "jump",
+        "rope",
+        "skills"
+      ]
+    },
+    {
+      "id": "skill_4032",
+      "name": "パルクールは動きます",
+      "difficulty_level": 1,
+      "description": "Learn and master Parkour Moves",
+      "tags": [
+        "parkour",
+        "moves",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4033",
+      "name": "ピンポンの基本",
+      "difficulty_level": 4,
+      "description": "Learn and master Ping Pong Basics",
+      "tags": [
+        "ping",
+        "pong",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4034",
+      "name": "ローラースケート",
+      "difficulty_level": 1,
+      "description": "Learn and master Roller Skating",
+      "tags": [
+        "roller",
+        "skating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4035",
+      "name": "スクーター",
+      "difficulty_level": 4,
+      "description": "Learn and master Scootering",
+      "tags": [
+        "scootering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4036",
+      "name": "スケートボードのトリック",
+      "difficulty_level": 2,
+      "description": "Learn and master Skateboarding Tricks",
+      "tags": [
+        "skateboarding",
+        "tricks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4037",
+      "name": "トランポリン技術",
+      "difficulty_level": 4,
+      "description": "Learn and master Trampoline Techniques",
+      "tags": [
+        "trampoline",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

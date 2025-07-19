@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_science_nature",
+  "name": "과학 및 자연",
+  "skills": [
+    {
+      "id": "skill_230",
+      "name": "천문학 기초",
+      "difficulty_level": 1,
+      "description": "Learn and master Astronomy Basics",
+      "tags": [
+        "astronomy",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_231",
+      "name": "기본 물리학 원리",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Physics Principles",
+      "tags": [
+        "basic",
+        "physics",
+        "principles"
+      ]
+    },
+    {
+      "id": "skill_232",
+      "name": "생물학 용어",
+      "difficulty_level": 5,
+      "description": "Learn and master Biology Terminology",
+      "tags": [
+        "biology",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_233",
+      "name": "식물학 식별",
+      "difficulty_level": 2,
+      "description": "Learn and master Botany Identification",
+      "tags": [
+        "botany",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_234",
+      "name": "화학 실험실 안전",
+      "difficulty_level": 5,
+      "description": "Learn and master Chemistry Lab Safety",
+      "tags": [
+        "chemistry",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_235",
+      "name": "간단한 실험 수행",
+      "difficulty_level": 3,
+      "description": "Learn and master Conducting Simple Experiments",
+      "tags": [
+        "conducting",
+        "simple",
+        "experiments"
+      ]
+    },
+    {
+      "id": "skill_236",
+      "name": "지구 과학",
+      "difficulty_level": 4,
+      "description": "Learn and master Earth Science",
+      "tags": [
+        "earth",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_237",
+      "name": "생태적 인식",
+      "difficulty_level": 4,
+      "description": "Learn and master Ecological Awareness",
+      "tags": [
+        "ecological",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_238",
+      "name": "과학 그래프를 읽습니다",
+      "difficulty_level": 3,
+      "description": "Learn and master Reading Scientific Graphs",
+      "tags": [
+        "reading",
+        "scientific",
+        "graphs"
+      ]
+    },
+    {
+      "id": "skill_239",
+      "name": "과학적 방법",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    }
+  ]
+}

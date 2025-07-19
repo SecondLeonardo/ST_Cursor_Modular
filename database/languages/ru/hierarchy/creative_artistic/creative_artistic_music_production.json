@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_music_production",
+  "name": "Музыкальное производство",
+  "skills": [
+    {
+      "id": "skill_1352",
+      "name": "Смешивание аудио",
+      "difficulty_level": 2,
+      "description": "Learn and master Audio Mixing",
+      "tags": [
+        "audio",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1353",
+      "name": "Изготовление битов",
+      "difficulty_level": 4,
+      "description": "Learn and master Beat Making",
+      "tags": [
+        "beat",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1354",
+      "name": "Использование DAW (например, Ableton)",
+      "difficulty_level": 5,
+      "description": "Learn and master DAW Use (e.g., Ableton)",
+      "tags": [
+        "(e.g.,",
+        "ableton)",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1355",
+      "name": "Творчество петли",
+      "difficulty_level": 3,
+      "description": "Learn and master Loop Creation",
+      "tags": [
+        "loop",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1356",
+      "name": "Миди программирование",
+      "difficulty_level": 5,
+      "description": "Learn and master MIDI Programming",
+      "tags": [
+        "midi",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1357",
+      "name": "Магистр",
+      "difficulty_level": 4,
+      "description": "Learn and master Mastering",
+      "tags": [
+        "mastering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1358",
+      "name": "Методы записи",
+      "difficulty_level": 4,
+      "description": "Learn and master Recording Techniques",
+      "tags": [
+        "recording",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1359",
+      "name": "Выборка",
+      "difficulty_level": 2,
+      "description": "Learn and master Sampling",
+      "tags": [
+        "sampling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1360",
+      "name": "Звуковой дизайн",
+      "difficulty_level": 3,
+      "description": "Learn and master Sound Design",
+      "tags": [
+        "sound",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1361",
+      "name": "Вокальная обработка",
+      "difficulty_level": 2,
+      "description": "Learn and master Vocal Processing",
+      "tags": [
+        "vocal",
+        "processing",
+        "skill"
+      ]
+    }
+  ]
+}

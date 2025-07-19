@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "Kỹ thuật & Kỹ thuật",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "Dân sự & cấu trúc"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "Kỹ thuật điện"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "Sản xuất & chế tạo"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "Kỹ thuật cơ khí"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "Phần mềm & hệ thống"
+    }
+  ]
+}

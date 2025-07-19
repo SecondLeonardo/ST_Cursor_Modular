@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_photography",
+  "name": "புகைப்படம்",
+  "skills": [
+    {
+      "id": "skill_400",
+      "name": "கருப்பு & வெள்ளை புகைப்படம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Black & White Photography",
+      "tags": [
+        "black",
+        "white",
+        "photography"
+      ]
+    },
+    {
+      "id": "skill_401",
+      "name": "கேமரா அமைப்புகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Camera Settings",
+      "tags": [
+        "camera",
+        "settings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_402",
+      "name": "கலவை நுட்பங்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Composition Techniques",
+      "tags": [
+        "composition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_403",
+      "name": "நிகழ்வு புகைப்படம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Event Photography",
+      "tags": [
+        "event",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_404",
+      "name": "இயற்கை புகைப்படம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_405",
+      "name": "மேக்ரோ புகைப்படம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Macro Photography",
+      "tags": [
+        "macro",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_406",
+      "name": "புகைப்பட எடிட்டிங்",
+      "difficulty_level": 3,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_407",
+      "name": "உருவப்படம் புகைப்படம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_408",
+      "name": "தயாரிப்பு புகைப்படம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Product Photography",
+      "tags": [
+        "product",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_409",
+      "name": "ஸ்டுடியோ லைட்டிங்",
+      "difficulty_level": 2,
+      "description": "Learn and master Studio Lighting",
+      "tags": [
+        "studio",
+        "lighting",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Trades e competenze manuali",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Riparazione automobilistica"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Carpenteria e lavorazione del legno"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Costruzione"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Costruzione e carpenteria"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Artigianato e riparazioni"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Elettrico e meccanico"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Lavoro elettrico"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC e refrigerazione"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Funzionamento delle attrezzature pesanti"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Muratura e piastrellatura"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Metal & Woodwork"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Dipinto e finitura"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Impianto idraulico"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Manutenzione del veicolo e della macchina"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Saldatura e metallo"
+    }
+  ]
+}

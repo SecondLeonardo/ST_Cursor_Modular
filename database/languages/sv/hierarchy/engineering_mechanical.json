@@ -1,0 +1,46 @@
+{
+  "id": "engineering_mechanical",
+  "name": "Teknik och mekanisk",
+  "subcategories": [
+    {
+      "id": "engineering_mechanical_automotive_transportation",
+      "name": "Bil och transport"
+    },
+    {
+      "id": "engineering_mechanical_civil_engineering",
+      "name": "Anläggningsteknik"
+    },
+    {
+      "id": "engineering_mechanical_electrical_engineering",
+      "name": "Elektroteknik"
+    },
+    {
+      "id": "engineering_mechanical_energy_power_systems",
+      "name": "Energi och kraftsystem"
+    },
+    {
+      "id": "engineering_mechanical_hvac_systems",
+      "name": "HVAC & Systems"
+    },
+    {
+      "id": "engineering_mechanical_industrial_design",
+      "name": "Industriell formgivning"
+    },
+    {
+      "id": "engineering_mechanical_manufacturing_production",
+      "name": "Tillverkning och produktion"
+    },
+    {
+      "id": "engineering_mechanical_mechanical_engineering",
+      "name": "Maskinteknik"
+    },
+    {
+      "id": "engineering_mechanical_robotics_automation",
+      "name": "Robotik och automatisering"
+    },
+    {
+      "id": "engineering_mechanical_structural_design",
+      "name": "Strukturell design"
+    }
+  ]
+}

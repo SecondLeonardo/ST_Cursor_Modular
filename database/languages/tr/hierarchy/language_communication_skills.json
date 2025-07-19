@@ -1,0 +1,30 @@
+{
+  "id": "language_communication_skills",
+  "name": "Dil ve İletişim Becerileri",
+  "subcategories": [
+    {
+      "id": "language_communication_skills_language_learning",
+      "name": "Dil öğrenimi"
+    },
+    {
+      "id": "language_communication_skills_non-verbal_communication",
+      "name": "Sözsüz iletişim"
+    },
+    {
+      "id": "language_communication_skills_public_speaking",
+      "name": "Topluluk önünde konuşma"
+    },
+    {
+      "id": "language_communication_skills_storytelling_narration",
+      "name": "Hikaye Anlatma ve Anlatım"
+    },
+    {
+      "id": "language_communication_skills_verbal_communication",
+      "name": "Sözlü iletişim"
+    },
+    {
+      "id": "language_communication_skills_writing_editing",
+      "name": "Yazma ve Düzenleme"
+    }
+  ]
+}

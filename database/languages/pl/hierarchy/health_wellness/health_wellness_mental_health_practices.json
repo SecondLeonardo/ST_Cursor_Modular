@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_mental_health_practices",
+  "name": "Praktyki zdrowia psychicznego",
+  "skills": [
+    {
+      "id": "skill_2563",
+      "name": "Oddech",
+      "difficulty_level": 5,
+      "description": "Learn and master Breathwork",
+      "tags": [
+        "breathwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2564",
+      "name": "Umiejętności behawioralne poznawcze",
+      "difficulty_level": 1,
+      "description": "Learn and master Cognitive Behavioral Skills",
+      "tags": [
+        "cognitive",
+        "behavioral",
+        "skills"
+      ]
+    },
+    {
+      "id": "skill_2565",
+      "name": "Regulacja emocjonalna",
+      "difficulty_level": 5,
+      "description": "Learn and master Emotional Regulation",
+      "tags": [
+        "emotional",
+        "regulation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2566",
+      "name": "Praktyka wdzięczności",
+      "difficulty_level": 2,
+      "description": "Learn and master Gratitude Practice",
+      "tags": [
+        "gratitude",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2567",
+      "name": "Dziennikowanie",
+      "difficulty_level": 2,
+      "description": "Learn and master Journaling",
+      "tags": [
+        "journaling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2568",
+      "name": "Budowanie odporności psychicznej",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Resilience Building",
+      "tags": [
+        "mental",
+        "resilience",
+        "building"
+      ]
+    },
+    {
+      "id": "skill_2569",
+      "name": "Techniki uważności",
+      "difficulty_level": 5,
+      "description": "Learn and master Mindfulness Techniques",
+      "tags": [
+        "mindfulness",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2570",
+      "name": "Zarządzanie stresem",
+      "difficulty_level": 5,
+      "description": "Learn and master Stress Management",
+      "tags": [
+        "stress",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2571",
+      "name": "Udział terapii",
+      "difficulty_level": 2,
+      "description": "Learn and master Therapy Participation",
+      "tags": [
+        "therapy",
+        "participation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2572",
+      "name": "Wyobrażanie sobie",
+      "difficulty_level": 2,
+      "description": "Learn and master Visualization",
+      "tags": [
+        "visualization",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

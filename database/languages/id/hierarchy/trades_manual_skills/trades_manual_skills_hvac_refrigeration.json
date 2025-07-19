@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_hvac_refrigeration",
+  "name": "HVAC & Refrigerasi",
+  "skills": [
+    {
+      "id": "skill_5095",
+      "name": "Perbaikan AC",
+      "difficulty_level": 1,
+      "description": "Learn and master Air Conditioner Repair",
+      "tags": [
+        "conditioner",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5096",
+      "name": "Pengujian Kualitas Udara",
+      "difficulty_level": 3,
+      "description": "Learn and master Air Quality Testing",
+      "tags": [
+        "quality",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5097",
+      "name": "Diagnosis kompresor",
+      "difficulty_level": 5,
+      "description": "Learn and master Compressor Diagnosis",
+      "tags": [
+        "compressor",
+        "diagnosis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5098",
+      "name": "Instalasi Ductwork",
+      "difficulty_level": 1,
+      "description": "Learn and master Ductwork Installation",
+      "tags": [
+        "ductwork",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5099",
+      "name": "Pemecahan masalah HVAC",
+      "difficulty_level": 1,
+      "description": "Learn and master HVAC Troubleshooting",
+      "tags": [
+        "hvac",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5100",
+      "name": "Pemeliharaan pemanas",
+      "difficulty_level": 1,
+      "description": "Learn and master Heater Maintenance",
+      "tags": [
+        "heater",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5101",
+      "name": "Penanganan refrigeran",
+      "difficulty_level": 5,
+      "description": "Learn and master Refrigerant Handling",
+      "tags": [
+        "refrigerant",
+        "handling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5102",
+      "name": "Pengetahuan siklus pendinginan",
+      "difficulty_level": 4,
+      "description": "Learn and master Refrigeration Cycle Knowledge",
+      "tags": [
+        "refrigeration",
+        "cycle",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5103",
+      "name": "Keseimbangan sistem",
+      "difficulty_level": 1,
+      "description": "Learn and master System Balancing",
+      "tags": [
+        "system",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5104",
+      "name": "Pemasangan termostat",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermostat Installation",
+      "tags": [
+        "thermostat",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_construction",
+  "name": "Shiri",
+  "skills": [
+    {
+      "id": "skill_5045",
+      "name": "Kankare",
+      "difficulty_level": 3,
+      "description": "Learn and master Concrete Pouring",
+      "tags": [
+        "concrete",
+        "pouring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5046",
+      "name": "Dabaru na gwaji",
+      "difficulty_level": 4,
+      "description": "Learn and master Demolition Techniques",
+      "tags": [
+        "demolition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5047",
+      "name": "Shigarwa na bushewa",
+      "difficulty_level": 4,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5048",
+      "name": "Gidan yanar gizo",
+      "difficulty_level": 4,
+      "description": "Learn and master Foundation Work",
+      "tags": [
+        "foundation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5049",
+      "name": "Kimantawa na kayan",
+      "difficulty_level": 1,
+      "description": "Learn and master Material Estimation",
+      "tags": [
+        "material",
+        "estimation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5050",
+      "name": "Rufin gyaran",
+      "difficulty_level": 2,
+      "description": "Learn and master Roof Framing",
+      "tags": [
+        "roof",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5051",
+      "name": "Amincewa",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Harness Use",
+      "tags": [
+        "safety",
+        "harness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5052",
+      "name": "Saitin scaffolding",
+      "difficulty_level": 2,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5053",
+      "name": "Gudanar da Yanar Gizo",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Management",
+      "tags": [
+        "site",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5054",
+      "name": "Shigarwa",
+      "difficulty_level": 3,
+      "description": "Learn and master Window Installation",
+      "tags": [
+        "window",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

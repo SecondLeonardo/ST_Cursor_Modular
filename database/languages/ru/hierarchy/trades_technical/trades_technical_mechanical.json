@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_mechanical",
+  "name": "Механический",
+  "skills": [
+    {
+      "id": "skill_5235",
+      "name": "Сборка линии работы",
+      "difficulty_level": 5,
+      "description": "Learn and master Assembly Line Work",
+      "tags": [
+        "assembly",
+        "line",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_5236",
+      "name": "Установка подшипника",
+      "difficulty_level": 2,
+      "description": "Learn and master Bearing Installation",
+      "tags": [
+        "bearing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5237",
+      "name": "Передачи системы",
+      "difficulty_level": 2,
+      "description": "Learn and master Gear Systems",
+      "tags": [
+        "gear",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5238",
+      "name": "Гидравлика",
+      "difficulty_level": 3,
+      "description": "Learn and master Hydraulics",
+      "tags": [
+        "hydraulics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5239",
+      "name": "Методы смазки",
+      "difficulty_level": 5,
+      "description": "Learn and master Lubrication Techniques",
+      "tags": [
+        "lubrication",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5240",
+      "name": "Техническое обслуживание машины",
+      "difficulty_level": 4,
+      "description": "Learn and master Machine Maintenance",
+      "tags": [
+        "machine",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5241",
+      "name": "Механическое чтение рисования",
+      "difficulty_level": 2,
+      "description": "Learn and master Mechanical Drawing Reading",
+      "tags": [
+        "mechanical",
+        "drawing",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_5242",
+      "name": "Пневматика",
+      "difficulty_level": 5,
+      "description": "Learn and master Pneumatics",
+      "tags": [
+        "pneumatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5243",
+      "name": "Выравнивание вала",
+      "difficulty_level": 4,
+      "description": "Learn and master Shaft Alignment",
+      "tags": [
+        "shaft",
+        "alignment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5244",
+      "name": "Обслуживание инструмента",
+      "difficulty_level": 1,
+      "description": "Learn and master Tool Maintenance",
+      "tags": [
+        "tool",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

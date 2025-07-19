@@ -1,0 +1,30 @@
+{
+  "id": "design_visual_skills",
+  "name": "ทักษะการออกแบบและภาพ",
+  "subcategories": [
+    {
+      "id": "design_visual_skills_3d_modeling_animation",
+      "name": "การสร้างแบบจำลองและภาพเคลื่อนไหว 3 มิติ"
+    },
+    {
+      "id": "design_visual_skills_branding_identity",
+      "name": "การสร้างแบรนด์และอัตลักษณ์"
+    },
+    {
+      "id": "design_visual_skills_graphic_design",
+      "name": "การออกแบบกราฟิก"
+    },
+    {
+      "id": "design_visual_skills_illustration",
+      "name": "ภาพประกอบ"
+    },
+    {
+      "id": "design_visual_skills_photography",
+      "name": "การถ่ายภาพ"
+    },
+    {
+      "id": "design_visual_skills_ux/ui_design",
+      "name": "การออกแบบ UX/UI"
+    }
+  ]
+}

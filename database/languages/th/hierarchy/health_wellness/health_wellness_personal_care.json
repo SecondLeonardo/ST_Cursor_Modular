@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_personal_care",
+  "name": "การดูแลส่วนตัว",
+  "skills": [
+    {
+      "id": "skill_2599",
+      "name": "ผลิตภัณฑ์ดูแลร่างกาย",
+      "difficulty_level": 4,
+      "description": "Learn and master Body Care Products",
+      "tags": [
+        "body",
+        "care",
+        "products"
+      ]
+    },
+    {
+      "id": "skill_2600",
+      "name": "นิสัยการกรูมมิ่ง",
+      "difficulty_level": 3,
+      "description": "Learn and master Grooming Habits",
+      "tags": [
+        "grooming",
+        "habits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2601",
+      "name": "เทคนิคการดูแลเส้นผม",
+      "difficulty_level": 2,
+      "description": "Learn and master Haircare Techniques",
+      "tags": [
+        "haircare",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2602",
+      "name": "พื้นฐานการแต่งหน้า",
+      "difficulty_level": 2,
+      "description": "Learn and master Makeup Basics",
+      "tags": [
+        "makeup",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2603",
+      "name": "การดูแลเล็บ",
+      "difficulty_level": 2,
+      "description": "Learn and master Nail Care",
+      "tags": [
+        "nail",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2604",
+      "name": "การดูแลช่องปาก",
+      "difficulty_level": 3,
+      "description": "Learn and master Oral Care",
+      "tags": [
+        "oral",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2605",
+      "name": "สุขอนามัยส่วนบุคคล",
+      "difficulty_level": 4,
+      "description": "Learn and master Personal Hygiene",
+      "tags": [
+        "personal",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2606",
+      "name": "การกำหนดเวลาตามปกติ",
+      "difficulty_level": 2,
+      "description": "Learn and master Routine Scheduling",
+      "tags": [
+        "routine",
+        "scheduling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2607",
+      "name": "การโกนและตัดแต่ง",
+      "difficulty_level": 3,
+      "description": "Learn and master Shaving & Trimming",
+      "tags": [
+        "shaving",
+        "trimming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2608",
+      "name": "กิจวัตรการดูแลผิว",
+      "difficulty_level": 4,
+      "description": "Learn and master Skincare Routine",
+      "tags": [
+        "skincare",
+        "routine",
+        "skill"
+      ]
+    }
+  ]
+}

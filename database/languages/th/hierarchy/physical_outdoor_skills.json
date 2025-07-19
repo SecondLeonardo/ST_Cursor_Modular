@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "ทักษะทางกายภาพและกลางแจ้ง",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "ฟิตเนสและปรับอากาศ"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "แรงงานและการค้าด้วยตนเอง"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "นันทนาการกลางแจ้ง"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "ศิลปะการป้องกันตนเองและศิลปะการต่อสู้"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "กีฬาและกรีฑา"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "Survival & Bushcraft"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_programming_development",
+  "name": "প্রোগ্রামিং এবং বিকাশ",
+  "skills": [
+    {
+      "id": "skill_2223",
+      "name": "সি ++ ফান্ডামেন্টাল",
+      "difficulty_level": 5,
+      "description": "Learn and master C++ Fundamentals",
+      "tags": [
+        "fundamentals",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2224",
+      "name": "ডেটা স্ট্রাকচার এবং অ্যালগরিদম",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Structures & Algorithms",
+      "tags": [
+        "data",
+        "structures",
+        "algorithms"
+      ]
+    },
+    {
+      "id": "skill_2225",
+      "name": "ডিবাগিং কৌশল",
+      "difficulty_level": 3,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2226",
+      "name": "জাভা উন্নয়ন",
+      "difficulty_level": 3,
+      "description": "Learn and master Java Development",
+      "tags": [
+        "java",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2227",
+      "name": "মোবাইল অ্যাপ্লিকেশন বিকাশ",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2228",
+      "name": "অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং",
+      "difficulty_level": 2,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2229",
+      "name": "পাইথন প্রোগ্রামিং",
+      "difficulty_level": 4,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2230",
+      "name": "REST API উন্নয়ন",
+      "difficulty_level": 1,
+      "description": "Learn and master REST API Development",
+      "tags": [
+        "rest",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2231",
+      "name": "ইউনিট পরীক্ষা",
+      "difficulty_level": 1,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2232",
+      "name": "গিট সহ সংস্করণ নিয়ন্ত্রণ",
+      "difficulty_level": 2,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

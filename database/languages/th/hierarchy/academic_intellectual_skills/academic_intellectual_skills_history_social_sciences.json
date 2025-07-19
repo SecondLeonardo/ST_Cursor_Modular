@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_history_social_sciences",
+  "name": "ประวัติศาสตร์และสังคมศาสตร์",
+  "skills": [
+    {
+      "id": "skill_120",
+      "name": "มานุษยวิทยาพื้นฐาน",
+      "difficulty_level": 2,
+      "description": "Learn and master Anthropology Basics",
+      "tags": [
+        "anthropology",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_121",
+      "name": "พลเมือง",
+      "difficulty_level": 1,
+      "description": "Learn and master Civics",
+      "tags": [
+        "civics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_122",
+      "name": "การศึกษาความขัดแย้งและสงคราม",
+      "difficulty_level": 5,
+      "description": "Learn and master Conflict and War Studies",
+      "tags": [
+        "conflict",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_123",
+      "name": "การศึกษาทางวัฒนธรรม",
+      "difficulty_level": 3,
+      "description": "Learn and master Cultural Studies",
+      "tags": [
+        "cultural",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_124",
+      "name": "หลักการเศรษฐศาสตร์",
+      "difficulty_level": 3,
+      "description": "Learn and master Economics Principles",
+      "tags": [
+        "economics",
+        "principles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_125",
+      "name": "การวิเคราะห์บริบททางประวัติศาสตร์",
+      "difficulty_level": 2,
+      "description": "Learn and master Historical Context Analysis",
+      "tags": [
+        "historical",
+        "context",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_126",
+      "name": "งานวิจัยประวัติศาสตร์",
+      "difficulty_level": 4,
+      "description": "Learn and master Historical Research",
+      "tags": [
+        "historical",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_127",
+      "name": "รัฐศาสตร์",
+      "difficulty_level": 5,
+      "description": "Learn and master Political Science",
+      "tags": [
+        "political",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_128",
+      "name": "ทฤษฎีสังคม",
+      "difficulty_level": 2,
+      "description": "Learn and master Social Theory",
+      "tags": [
+        "social",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_129",
+      "name": "ประวัติศาสตร์โลก",
+      "difficulty_level": 4,
+      "description": "Learn and master World History",
+      "tags": [
+        "world",
+        "history",
+        "skill"
+      ]
+    }
+  ]
+}

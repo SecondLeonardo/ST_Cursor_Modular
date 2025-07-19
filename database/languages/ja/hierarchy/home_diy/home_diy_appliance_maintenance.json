@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_appliance_maintenance",
+  "name": "アプライアンスメンテナンス",
+  "skills": [
+    {
+      "id": "skill_2838",
+      "name": "ACフィルターの交換",
+      "difficulty_level": 4,
+      "description": "Learn and master AC Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2839",
+      "name": "スケーリングのコーヒーマシン",
+      "difficulty_level": 4,
+      "description": "Learn and master De-scaling Coffee Machines",
+      "tags": [
+        "de-scaling",
+        "coffee",
+        "machines"
+      ]
+    },
+    {
+      "id": "skill_2840",
+      "name": "食器洗い機フィルタークリーニング",
+      "difficulty_level": 3,
+      "description": "Learn and master Dishwasher Filter Cleaning",
+      "tags": [
+        "dishwasher",
+        "filter",
+        "cleaning"
+      ]
+    },
+    {
+      "id": "skill_2841",
+      "name": "乾燥機の糸くずの取り外し",
+      "difficulty_level": 3,
+      "description": "Learn and master Dryer Lint Removal",
+      "tags": [
+        "dryer",
+        "lint",
+        "removal"
+      ]
+    },
+    {
+      "id": "skill_2842",
+      "name": "マイクロ波洗浄",
+      "difficulty_level": 1,
+      "description": "Learn and master Microwave Cleaning",
+      "tags": [
+        "microwave",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2843",
+      "name": "オーブンキャリブレーション",
+      "difficulty_level": 3,
+      "description": "Learn and master Oven Calibration",
+      "tags": [
+        "oven",
+        "calibration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2844",
+      "name": "冷蔵庫の洗浄",
+      "difficulty_level": 3,
+      "description": "Learn and master Refrigerator Cleaning",
+      "tags": [
+        "refrigerator",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2845",
+      "name": "小さなアプライアンスのトラブルシューティング",
+      "difficulty_level": 4,
+      "description": "Learn and master Small Appliance Troubleshooting",
+      "tags": [
+        "small",
+        "appliance",
+        "troubleshooting"
+      ]
+    },
+    {
+      "id": "skill_2846",
+      "name": "真空修理",
+      "difficulty_level": 3,
+      "description": "Learn and master Vacuum Repair",
+      "tags": [
+        "vacuum",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2847",
+      "name": "洗濯機のメンテナンス",
+      "difficulty_level": 5,
+      "description": "Learn and master Washer Maintenance",
+      "tags": [
+        "washer",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

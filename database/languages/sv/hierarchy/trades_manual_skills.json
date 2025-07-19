@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Affärer och manuella färdigheter",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Fordonsreparation"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Snickeri och träverk"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Konstruktion"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Konstruktion och snickeri"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Hantverk och reparationer"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Elektrisk och mekanisk"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Elektriskt arbete"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC & kylning"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Tung utrustning"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Murverk"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Metall- och träverk"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Målning och efterbehandling"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Rörledare"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Fordons- och maskinunderhåll"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Svetsning och metallarbete"
+    }
+  ]
+}

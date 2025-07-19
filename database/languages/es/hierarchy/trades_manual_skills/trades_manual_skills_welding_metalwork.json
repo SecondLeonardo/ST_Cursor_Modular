@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_welding_metalwork",
+  "name": "Soldadura y metal",
+  "skills": [
+    {
+      "id": "skill_5165",
+      "name": "Soldadura por arco",
+      "difficulty_level": 1,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5166",
+      "name": "Interpretación de planos",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Interpretation",
+      "tags": [
+        "blueprint",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5167",
+      "name": "Uso de antorcha",
+      "difficulty_level": 2,
+      "description": "Learn and master Cutting Torch Use",
+      "tags": [
+        "cutting",
+        "torch",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5168",
+      "name": "Soldadura mig",
+      "difficulty_level": 1,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5169",
+      "name": "Molienda de metal",
+      "difficulty_level": 3,
+      "description": "Learn and master Metal Grinding",
+      "tags": [
+        "metal",
+        "grinding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5170",
+      "name": "Uso de equipo de seguridad",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Gear Use",
+      "tags": [
+        "safety",
+        "gear",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5171",
+      "name": "Fabricación de chapa",
+      "difficulty_level": 4,
+      "description": "Learn and master Sheet Metal Fabrication",
+      "tags": [
+        "sheet",
+        "metal",
+        "fabrication"
+      ]
+    },
+    {
+      "id": "skill_5172",
+      "name": "Soldadura de palo",
+      "difficulty_level": 1,
+      "description": "Learn and master Stick Welding",
+      "tags": [
+        "stick",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5173",
+      "name": "Soldadura de tig",
+      "difficulty_level": 5,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5174",
+      "name": "Inspección de soldadura",
+      "difficulty_level": 4,
+      "description": "Learn and master Weld Inspection",
+      "tags": [
+        "weld",
+        "inspection",
+        "skill"
+      ]
+    }
+  ]
+}

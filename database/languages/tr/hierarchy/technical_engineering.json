@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "Teknik ve Mühendislik",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "Sivil ve yapısal"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "Elektrik mühendisliği"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "Üretim ve İmalat"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "Makine Mühendisliği"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "Yazılım ve Sistemler"
+    }
+  ]
+}

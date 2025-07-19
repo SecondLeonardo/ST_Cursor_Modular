@@ -1,0 +1,116 @@
+{
+  "id": "technical_mechanical_skills_automotive_skills",
+  "name": "Ujuzi wa magari",
+  "skills": [
+    {
+      "id": "skill_4556",
+      "name": "Matengenezo ya betri",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Maintenance",
+      "tags": [
+        "battery",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4557",
+      "name": "Kubadilisha vichungi vya hewa",
+      "difficulty_level": 2,
+      "description": "Learn and master Changing Air Filters",
+      "tags": [
+        "changing",
+        "filters",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4558",
+      "name": "Kubadilisha mafuta",
+      "difficulty_level": 3,
+      "description": "Learn and master Changing Oil",
+      "tags": [
+        "changing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4559",
+      "name": "Kugundua maswala ya gari",
+      "difficulty_level": 2,
+      "description": "Learn and master Diagnosing Car Issues",
+      "tags": [
+        "diagnosing",
+        "issues",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4560",
+      "name": "Kurekebisha matairi ya gorofa",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Flat Tires",
+      "tags": [
+        "fixing",
+        "flat",
+        "tires"
+      ]
+    },
+    {
+      "id": "skill_4561",
+      "name": "Kujaza baridi",
+      "difficulty_level": 2,
+      "description": "Learn and master Refilling Coolant",
+      "tags": [
+        "refilling",
+        "coolant",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4562",
+      "name": "Kubadilisha pedi za kuvunja",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing Brake Pads",
+      "tags": [
+        "replacing",
+        "brake",
+        "pads"
+      ]
+    },
+    {
+      "id": "skill_4563",
+      "name": "Kubadilisha taa za kichwa",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing Headlights",
+      "tags": [
+        "replacing",
+        "headlights",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4564",
+      "name": "Kuelewa vifaa vya injini",
+      "difficulty_level": 4,
+      "description": "Learn and master Understanding Engine Components",
+      "tags": [
+        "understanding",
+        "engine",
+        "components"
+      ]
+    },
+    {
+      "id": "skill_4565",
+      "name": "Kutumia skana za OBD2",
+      "difficulty_level": 4,
+      "description": "Learn and master Using OBD2 Scanners",
+      "tags": [
+        "using",
+        "obd2",
+        "scanners"
+      ]
+    }
+  ]
+}

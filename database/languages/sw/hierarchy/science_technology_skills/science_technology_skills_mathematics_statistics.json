@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_mathematics_statistics",
+  "name": "Hisabati na Takwimu",
+  "skills": [
+    {
+      "id": "skill_4328",
+      "name": "Calculator",
+      "difficulty_level": 5,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4329",
+      "name": "Math discrete",
+      "difficulty_level": 5,
+      "description": "Learn and master Discrete Math",
+      "tags": [
+        "discrete",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4330",
+      "name": "Nadharia ya mchezo",
+      "difficulty_level": 1,
+      "description": "Learn and master Game Theory",
+      "tags": [
+        "game",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4331",
+      "name": "Nadharia ya graph",
+      "difficulty_level": 5,
+      "description": "Learn and master Graph Theory",
+      "tags": [
+        "graph",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4332",
+      "name": "Linear algebra",
+      "difficulty_level": 1,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4333",
+      "name": "Uandishi wa Uthibitisho wa Hisabati",
+      "difficulty_level": 5,
+      "description": "Learn and master Mathematical Proof Writing",
+      "tags": [
+        "mathematical",
+        "proof",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_4334",
+      "name": "Nadharia ya nambari",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4335",
+      "name": "Nadharia ya uwezekano",
+      "difficulty_level": 1,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4336",
+      "name": "Uchambuzi wa kumbukumbu",
+      "difficulty_level": 3,
+      "description": "Learn and master Regression Analysis",
+      "tags": [
+        "regression",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4337",
+      "name": "Mfano wa takwimu",
+      "difficulty_level": 5,
+      "description": "Learn and master Statistical Modeling",
+      "tags": [
+        "statistical",
+        "modeling",
+        "skill"
+      ]
+    }
+  ]
+}

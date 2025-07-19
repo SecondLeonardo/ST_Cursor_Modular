@@ -1,0 +1,60 @@
+{
+  "category": {
+    "id": "technology",
+    "name": "Technology",
+    "description": "Programming, software development, and technical skills",
+    "skill_count": 150,
+    "icon": "laptopcomputer",
+    "color": "#6B2CC8"
+  },
+  "subcategories": [
+    {
+      "id": "programming_languages",
+      "name": "Programming Languages",
+      "description": "Various programming languages and frameworks",
+      "skill_count": 25
+    },
+    {
+      "id": "web_development",
+      "name": "Web Development",
+      "description": "Frontend and backend web development",
+      "skill_count": 20
+    },
+    {
+      "id": "mobile_development",
+      "name": "Mobile Development",
+      "description": "iOS, Android, and cross-platform development",
+      "skill_count": 18
+    },
+    {
+      "id": "data_science",
+      "name": "Data Science",
+      "description": "Machine learning, AI, and data analysis",
+      "skill_count": 22
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity",
+      "description": "Security, ethical hacking, and network protection",
+      "skill_count": 15
+    },
+    {
+      "id": "cloud_computing",
+      "name": "Cloud Computing",
+      "description": "AWS, Azure, Google Cloud, and DevOps",
+      "skill_count": 12
+    },
+    {
+      "id": "database_management",
+      "name": "Database Management",
+      "description": "SQL, NoSQL, and database administration",
+      "skill_count": 10
+    },
+    {
+      "id": "ui_ux_design",
+      "name": "UI/UX Design",
+      "description": "User interface and user experience design",
+      "skill_count": 18
+    }
+  ]
+} 

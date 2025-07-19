@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_biology_life_sciences",
+  "name": "உயிரியல் மற்றும் வாழ்க்கை அறிவியல்",
+  "skills": [
+    {
+      "id": "skill_4158",
+      "name": "தாவரவியல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Botany",
+      "tags": [
+        "botany",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4159",
+      "name": "செல் உயிரியல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Cell Biology",
+      "tags": [
+        "cell",
+        "biology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4160",
+      "name": "சூழலியல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Ecology",
+      "tags": [
+        "ecology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4161",
+      "name": "பரிணாம உயிரியல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Evolutionary Biology",
+      "tags": [
+        "evolutionary",
+        "biology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4162",
+      "name": "மரபியல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Genetics",
+      "tags": [
+        "genetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4163",
+      "name": "மனித உடற்கூறியல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Human Anatomy",
+      "tags": [
+        "human",
+        "anatomy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4164",
+      "name": "நுண்ணுயிரியல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Microbiology",
+      "tags": [
+        "microbiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4165",
+      "name": "மூலக்கூறு உயிரியல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Molecular Biology",
+      "tags": [
+        "molecular",
+        "biology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4166",
+      "name": "உடலியல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Physiology",
+      "tags": [
+        "physiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4167",
+      "name": "விலங்கியல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Zoology",
+      "tags": [
+        "zoology",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

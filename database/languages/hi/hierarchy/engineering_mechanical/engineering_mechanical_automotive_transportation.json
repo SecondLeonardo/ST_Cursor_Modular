@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_automotive_transportation",
+  "name": "मोटर वाहन और परिवहन",
+  "skills": [
+    {
+      "id": "skill_2343",
+      "name": "ऑटो इलेक्ट्रिकल सिस्टम्स",
+      "difficulty_level": 3,
+      "description": "Learn and master Auto Electrical Systems",
+      "tags": [
+        "auto",
+        "electrical",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_2344",
+      "name": "मोटर वाहन सॉफ़्टवेयर",
+      "difficulty_level": 3,
+      "description": "Learn and master Automotive Software",
+      "tags": [
+        "automotive",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2345",
+      "name": "ब्रेक सिस्टम",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Systems",
+      "tags": [
+        "brake",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2346",
+      "name": "इंजन यांत्रिकी",
+      "difficulty_level": 1,
+      "description": "Learn and master Engine Mechanics",
+      "tags": [
+        "engine",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2347",
+      "name": "ईंधन प्रणाली",
+      "difficulty_level": 1,
+      "description": "Learn and master Fuel Systems",
+      "tags": [
+        "fuel",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2348",
+      "name": "हाइब्रिड वाहन",
+      "difficulty_level": 1,
+      "description": "Learn and master Hybrid Vehicles",
+      "tags": [
+        "hybrid",
+        "vehicles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2349",
+      "name": "निलंबन ट्यूनिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Suspension Tuning",
+      "tags": [
+        "suspension",
+        "tuning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2350",
+      "name": "टायर संरेखण",
+      "difficulty_level": 1,
+      "description": "Learn and master Tire Alignment",
+      "tags": [
+        "tire",
+        "alignment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2351",
+      "name": "संचरण प्रणाली",
+      "difficulty_level": 3,
+      "description": "Learn and master Transmission Systems",
+      "tags": [
+        "transmission",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2352",
+      "name": "वाहन निदान",
+      "difficulty_level": 1,
+      "description": "Learn and master Vehicle Diagnostics",
+      "tags": [
+        "vehicle",
+        "diagnostics",
+        "skill"
+      ]
+    }
+  ]
+}

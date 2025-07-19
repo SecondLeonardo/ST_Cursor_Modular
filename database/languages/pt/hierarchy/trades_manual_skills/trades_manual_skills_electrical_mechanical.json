@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_electrical_mechanical",
+  "name": "Elétrico e mecânico",
+  "skills": [
+    {
+      "id": "skill_5075",
+      "name": "Manutenção básica de HVAC",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic HVAC Maintenance",
+      "tags": [
+        "basic",
+        "hvac",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5076",
+      "name": "Robótica básica",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Robotics",
+      "tags": [
+        "basic",
+        "robotics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5077",
+      "name": "Fusível e proteção do circuito",
+      "difficulty_level": 2,
+      "description": "Learn and master Fusing and Circuit Protection",
+      "tags": [
+        "fusing",
+        "circuit",
+        "protection"
+      ]
+    },
+    {
+      "id": "skill_5078",
+      "name": "Fiação de automação residencial",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Automation Wiring",
+      "tags": [
+        "home",
+        "automation",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_5079",
+      "name": "Instalando pontos de venda",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Outlets",
+      "tags": [
+        "installing",
+        "outlets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5080",
+      "name": "Instalação de luminária",
+      "difficulty_level": 5,
+      "description": "Learn and master Light Fixture Installation",
+      "tags": [
+        "light",
+        "fixture",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5081",
+      "name": "Lendo planos",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Blueprints",
+      "tags": [
+        "reading",
+        "blueprints",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5082",
+      "name": "Solucionando motores",
+      "difficulty_level": 5,
+      "description": "Learn and master Troubleshooting Motors",
+      "tags": [
+        "troubleshooting",
+        "motors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5083",
+      "name": "Usando um multímetro",
+      "difficulty_level": 4,
+      "description": "Learn and master Using a Multimeter",
+      "tags": [
+        "using",
+        "multimeter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5084",
+      "name": "Circuitos de fiação",
+      "difficulty_level": 3,
+      "description": "Learn and master Wiring Circuits",
+      "tags": [
+        "wiring",
+        "circuits",
+        "skill"
+      ]
+    }
+  ]
+}

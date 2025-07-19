@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_construction_carpentry",
+  "name": "Строительство и плотницы",
+  "skills": [
+    {
+      "id": "skill_5055",
+      "name": "Строительные палубы",
+      "difficulty_level": 2,
+      "description": "Learn and master Building Decks",
+      "tags": [
+        "building",
+        "decks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5056",
+      "name": "Бетонное смешивание",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5057",
+      "name": "Установка гипсокартона",
+      "difficulty_level": 4,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5058",
+      "name": "Кадрирование стен",
+      "difficulty_level": 5,
+      "description": "Learn and master Framing Walls",
+      "tags": [
+        "framing",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5059",
+      "name": "Установка дверей",
+      "difficulty_level": 4,
+      "description": "Learn and master Installing Doors",
+      "tags": [
+        "installing",
+        "doors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5060",
+      "name": "Измерение и маркировка",
+      "difficulty_level": 3,
+      "description": "Learn and master Measuring & Marking",
+      "tags": [
+        "measuring",
+        "marking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5061",
+      "name": "Кровные основы",
+      "difficulty_level": 5,
+      "description": "Learn and master Roofing Basics",
+      "tags": [
+        "roofing",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5062",
+      "name": "Шлифование и отделка",
+      "difficulty_level": 5,
+      "description": "Learn and master Sanding & Finishing",
+      "tags": [
+        "sanding",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5063",
+      "name": "Строительство лестницы",
+      "difficulty_level": 5,
+      "description": "Learn and master Stair Construction",
+      "tags": [
+        "stair",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5064",
+      "name": "Безопасность инструмента",
+      "difficulty_level": 4,
+      "description": "Learn and master Tool Safety",
+      "tags": [
+        "tool",
+        "safety",
+        "skill"
+      ]
+    }
+  ]
+}

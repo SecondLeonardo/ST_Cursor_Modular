@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_construction_carpentry",
+  "name": "নির্মাণ ও ছুতার",
+  "skills": [
+    {
+      "id": "skill_4865",
+      "name": "ব্লুপ্রিন্ট রিডিং",
+      "difficulty_level": 1,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4866",
+      "name": "কংক্রিট মিশ্রণ",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4867",
+      "name": "ড্রাইওয়াল ইনস্টলেশন",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4868",
+      "name": "ফ্রেমিং দেয়াল",
+      "difficulty_level": 3,
+      "description": "Learn and master Framing Walls",
+      "tags": [
+        "framing",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4869",
+      "name": "ট্রিম ইনস্টল করা",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing Trim",
+      "tags": [
+        "installing",
+        "trim",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4870",
+      "name": "কাঠ পরিমাপ এবং কাটা",
+      "difficulty_level": 3,
+      "description": "Learn and master Measuring and Cutting Lumber",
+      "tags": [
+        "measuring",
+        "cutting",
+        "lumber"
+      ]
+    },
+    {
+      "id": "skill_4871",
+      "name": "ছাদ নির্মাণ বেসিক",
+      "difficulty_level": 1,
+      "description": "Learn and master Roof Construction Basics",
+      "tags": [
+        "roof",
+        "construction",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4872",
+      "name": "সিঁড়ি বিল্ডিং",
+      "difficulty_level": 4,
+      "description": "Learn and master Stair Building",
+      "tags": [
+        "stair",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4873",
+      "name": "পেরেক বন্দুক ব্যবহার করে",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Nail Gun",
+      "tags": [
+        "using",
+        "nail",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4874",
+      "name": "উইন্ডো ফ্রেমিং",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Framing",
+      "tags": [
+        "window",
+        "framing",
+        "skill"
+      ]
+    }
+  ]
+}

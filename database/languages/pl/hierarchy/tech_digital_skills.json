@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "Umiejętności technologiczne i cyfrowe",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "AI i uczenie maszynowe"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "Przetwarzanie w chmurze"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "Cyberbezpieczeństwo"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "Dane i analityka"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "Data Science & AI"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "DevOps & Automation"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "Rozwój gry"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "IT i sieci"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "Wsparcie i tworzenie sieci"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "Opracowywanie aplikacji mobilnych"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "Programowanie i tworzenie oprogramowania"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "Rozwój oprogramowania"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "Sprzęt i naprawa technologiczna"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "Wsparcie techniczne i rozwiązywanie problemów"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "Opracowywanie stron internetowych"
+    }
+  ]
+}

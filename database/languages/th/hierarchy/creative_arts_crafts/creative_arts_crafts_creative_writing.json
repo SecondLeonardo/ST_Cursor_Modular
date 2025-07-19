@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_creative_writing",
+  "name": "การเขียนเชิงสร้างสรรค์",
+  "skills": [
+    {
+      "id": "skill_1803",
+      "name": "การพัฒนาตัวละคร",
+      "difficulty_level": 4,
+      "description": "Learn and master Character Development",
+      "tags": [
+        "character",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1804",
+      "name": "การสร้างแปลง",
+      "difficulty_level": 5,
+      "description": "Learn and master Creating Plots",
+      "tags": [
+        "creating",
+        "plots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1805",
+      "name": "การแก้ไขและแก้ไข",
+      "difficulty_level": 5,
+      "description": "Learn and master Editing & Revising",
+      "tags": [
+        "editing",
+        "revising",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1806",
+      "name": "การเขียนบทกวี",
+      "difficulty_level": 1,
+      "description": "Learn and master Poetry Writing",
+      "tags": [
+        "poetry",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1807",
+      "name": "การเขียนบท",
+      "difficulty_level": 3,
+      "description": "Learn and master Scriptwriting",
+      "tags": [
+        "scriptwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1808",
+      "name": "การเขียนเรื่องสั้น",
+      "difficulty_level": 5,
+      "description": "Learn and master Short Story Writing",
+      "tags": [
+        "short",
+        "story",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_1809",
+      "name": "อาคารโลก",
+      "difficulty_level": 3,
+      "description": "Learn and master World Building",
+      "tags": [
+        "world",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1810",
+      "name": "การเขียนบทสนทนา",
+      "difficulty_level": 3,
+      "description": "Learn and master Writing Dialogue",
+      "tags": [
+        "writing",
+        "dialogue",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1811",
+      "name": "การเขียนนิยาย",
+      "difficulty_level": 1,
+      "description": "Learn and master Writing Fiction",
+      "tags": [
+        "writing",
+        "fiction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1812",
+      "name": "การเขียนพรอมต์",
+      "difficulty_level": 1,
+      "description": "Learn and master Writing Prompts",
+      "tags": [
+        "writing",
+        "prompts",
+        "skill"
+      ]
+    }
+  ]
+}

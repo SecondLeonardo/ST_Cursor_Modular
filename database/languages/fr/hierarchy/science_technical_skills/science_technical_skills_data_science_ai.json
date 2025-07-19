@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_data_science_ai",
+  "name": "Science des données et AI",
+  "skills": [
+    {
+      "id": "skill_4188",
+      "name": "Éthique de l'IA",
+      "difficulty_level": 4,
+      "description": "Learn and master AI Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4189",
+      "name": "Concepts de big data",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Concepts",
+      "tags": [
+        "data",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4190",
+      "name": "Nettoyage des données",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4191",
+      "name": "Visualisation des données",
+      "difficulty_level": 2,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4192",
+      "name": "Bases d'apprentissage automatique",
+      "difficulty_level": 4,
+      "description": "Learn and master Machine Learning Basics",
+      "tags": [
+        "machine",
+        "learning",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4193",
+      "name": "Évaluation du modèle",
+      "difficulty_level": 3,
+      "description": "Learn and master Model Evaluation",
+      "tags": [
+        "model",
+        "evaluation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4194",
+      "name": "Traitement du langage naturel",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4195",
+      "name": "Réseaux neuronaux",
+      "difficulty_level": 4,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4196",
+      "name": "Pandas et Numpy",
+      "difficulty_level": 5,
+      "description": "Learn and master Pandas & NumPy",
+      "tags": [
+        "pandas",
+        "numpy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4197",
+      "name": "Python pour la science des données",
+      "difficulty_level": 5,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    }
+  ]
+}

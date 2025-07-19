@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_hvac_refrigeration",
+  "name": "HVAC & శీతలీకరణ",
+  "skills": [
+    {
+      "id": "skill_4965",
+      "name": "AC సంస్థాపన",
+      "difficulty_level": 3,
+      "description": "Learn and master AC Installation",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4966",
+      "name": "ఎయిర్ బ్యాలెన్సింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Air Balancing",
+      "tags": [
+        "balancing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4967",
+      "name": "కంప్రెసర్ ట్రబుల్షూటింగ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Compressor Troubleshooting",
+      "tags": [
+        "compressor",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4968",
+      "name": "డక్ట్ వర్క్ ఫాబ్రికేషన్",
+      "difficulty_level": 4,
+      "description": "Learn and master Ductwork Fabrication",
+      "tags": [
+        "ductwork",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4969",
+      "name": "EPA ధృవీకరణ జ్ఞానం",
+      "difficulty_level": 1,
+      "description": "Learn and master EPA Certification Knowledge",
+      "tags": [
+        "certification",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4970",
+      "name": "HVAC నిర్వహణ",
+      "difficulty_level": 2,
+      "description": "Learn and master HVAC Maintenance",
+      "tags": [
+        "hvac",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4971",
+      "name": "తాపన వ్యవస్థ మరమ్మత్తు",
+      "difficulty_level": 3,
+      "description": "Learn and master Heating System Repair",
+      "tags": [
+        "heating",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_4972",
+      "name": "రిఫ్రిజెరాంట్ హ్యాండ్లింగ్",
+      "difficulty_level": 4,
+      "description": "Learn and master Refrigerant Handling",
+      "tags": [
+        "refrigerant",
+        "handling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4973",
+      "name": "రిఫ్రిజిరేటర్ మరమ్మత్తు",
+      "difficulty_level": 3,
+      "description": "Learn and master Refrigerator Repair",
+      "tags": [
+        "refrigerator",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4974",
+      "name": "థర్మోస్టాట్ వైరింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermostat Wiring",
+      "tags": [
+        "thermostat",
+        "wiring",
+        "skill"
+      ]
+    }
+  ]
+}

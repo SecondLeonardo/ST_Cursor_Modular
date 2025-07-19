@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "ਵਪਾਰ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਹੁਨਰ",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "ਆਟੋਮੋਟਿਵ ਮੁਰੰਮਤ"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "ਤਰਖਾਣ ਅਤੇ ਲੱਕੜ ਦਾ ਕੰਮ"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "ਉਸਾਰੀ"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "ਉਸਾਰੀ ਅਤੇ ਤਰਖਾਣ"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "ਸ਼ਿਲਪਕਾਰੀ ਅਤੇ ਮੁਰੰਮਤ"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "ਇਲੈਕਟ੍ਰੀਕਲ ਅਤੇ ਮਕੈਨੀਕਲ"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "ਇਲੈਕਟ੍ਰੀਕਲ ਕੰਮ"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC & ਫਰਿੱਜ"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "ਭਾਰੀ ਉਪਕਰਣ ਦਾ ਕੰਮ"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "ਚਾਂਦੀ ਅਤੇ ਟਾਈਲਿੰਗ"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "ਧਾਤ ਅਤੇ ਲੱਕੜ ਦਾ ਕੰਮ"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "ਪੇਂਟਿੰਗ ਅਤੇ ਫਿਨਿਸ਼ਿੰਗ"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "ਪਲੰਬਿੰਗ"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "ਵਾਹਨ ਅਤੇ ਮਸ਼ੀਨ ਮੇਨਟੇਨੈਂਸ"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "ਵੈਲਡਿੰਗ ਅਤੇ ਧਾਤ ਦਾ ਕੰਮ"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_mathematics",
+  "name": "Toán học",
+  "skills": [
+    {
+      "id": "skill_3608",
+      "name": "Đại số",
+      "difficulty_level": 5,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3609",
+      "name": "Tính toán",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3610",
+      "name": "Hình học",
+      "difficulty_level": 4,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3611",
+      "name": "Giải quyết vấn đề toán học",
+      "difficulty_level": 1,
+      "description": "Learn and master Math Problem Solving",
+      "tags": [
+        "math",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_3612",
+      "name": "Toán học về tài chính",
+      "difficulty_level": 1,
+      "description": "Learn and master Math for Finance",
+      "tags": [
+        "math",
+        "finance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3613",
+      "name": "Logic toán học",
+      "difficulty_level": 3,
+      "description": "Learn and master Mathematical Logic",
+      "tags": [
+        "mathematical",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3614",
+      "name": "Toán học tinh thần",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3615",
+      "name": "Lý thuyết số",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3616",
+      "name": "Xác suất & Thống kê",
+      "difficulty_level": 4,
+      "description": "Learn and master Probability & Statistics",
+      "tags": [
+        "probability",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3617",
+      "name": "Lượng giác",
+      "difficulty_level": 4,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_plumbing",
+  "name": "ప్లంబింగ్",
+  "skills": [
+    {
+      "id": "skill_5145",
+      "name": "క్లాగ్ తొలగింపు",
+      "difficulty_level": 3,
+      "description": "Learn and master Clog Removal",
+      "tags": [
+        "clog",
+        "removal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5146",
+      "name": "పారుదల వ్యవస్థలు",
+      "difficulty_level": 3,
+      "description": "Learn and master Drainage Systems",
+      "tags": [
+        "drainage",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5147",
+      "name": "ఫిక్చర్ సంస్థాపన",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixture Installation",
+      "tags": [
+        "fixture",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5148",
+      "name": "గ్రేవాటర్ సిస్టమ్స్",
+      "difficulty_level": 5,
+      "description": "Learn and master Greywater Systems",
+      "tags": [
+        "greywater",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5149",
+      "name": "లీక్ డిటెక్షన్",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5150",
+      "name": "పెక్స్ సంస్థాపన",
+      "difficulty_level": 1,
+      "description": "Learn and master PEX Installation",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5151",
+      "name": "పైప్ ఫిట్టింగ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Pipe Fitting",
+      "tags": [
+        "pipe",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5152",
+      "name": "టంకం పైపులు",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering Pipes",
+      "tags": [
+        "soldering",
+        "pipes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5153",
+      "name": "టాయిలెట్ మరమ్మత్తు",
+      "difficulty_level": 4,
+      "description": "Learn and master Toilet Repair",
+      "tags": [
+        "toilet",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5154",
+      "name": "వాటర్ హీటర్ సెటప్",
+      "difficulty_level": 5,
+      "description": "Learn and master Water Heater Setup",
+      "tags": [
+        "water",
+        "heater",
+        "setup"
+      ]
+    }
+  ]
+}

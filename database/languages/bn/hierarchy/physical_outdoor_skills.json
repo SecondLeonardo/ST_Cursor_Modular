@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "শারীরিক এবং বহিরঙ্গন দক্ষতা",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "ফিটনেস এবং কন্ডিশনার"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "ম্যানুয়াল শ্রম ও ব্যবসা"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "বহিরঙ্গন বিনোদন"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "আত্মরক্ষার ও মার্শাল আর্ট"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "স্পোর্টস এবং অ্যাথলেটিক্স"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "বেঁচে থাকা এবং বুশক্রাফ্ট"
+    }
+  ]
+}

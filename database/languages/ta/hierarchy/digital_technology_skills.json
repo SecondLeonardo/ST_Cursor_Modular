@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "டிஜிட்டல் மற்றும் தொழில்நுட்ப திறன்கள்",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "இணைய பாதுகாப்பு"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "தரவு & AI"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "இது & நெட்வொர்க்கிங்"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "நிரலாக்க மற்றும் மேம்பாடு"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "வலை & மொபைல்"
+    }
+  ]
+}

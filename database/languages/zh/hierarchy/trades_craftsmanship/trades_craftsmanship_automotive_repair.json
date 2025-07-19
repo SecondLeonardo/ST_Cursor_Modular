@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_automotive_repair",
+  "name": "汽车维修",
+  "skills": [
+    {
+      "id": "skill_4925",
+      "name": "电池测试",
+      "difficulty_level": 5,
+      "description": "Learn and master Battery Testing",
+      "tags": [
+        "battery",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4926",
+      "name": "刹车更换",
+      "difficulty_level": 5,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4927",
+      "name": "冷却系统维修",
+      "difficulty_level": 5,
+      "description": "Learn and master Cooling System Repair",
+      "tags": [
+        "cooling",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_4928",
+      "name": "引擎诊断",
+      "difficulty_level": 5,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4929",
+      "name": "排气修复",
+      "difficulty_level": 2,
+      "description": "Learn and master Exhaust Repair",
+      "tags": [
+        "exhaust",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4930",
+      "name": "换油",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4931",
+      "name": "悬架维修",
+      "difficulty_level": 4,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4932",
+      "name": "轮胎安装",
+      "difficulty_level": 3,
+      "description": "Learn and master Tire Mounting",
+      "tags": [
+        "tire",
+        "mounting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4933",
+      "name": "传输工作",
+      "difficulty_level": 5,
+      "description": "Learn and master Transmission Work",
+      "tags": [
+        "transmission",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4934",
+      "name": "车轮对准",
+      "difficulty_level": 2,
+      "description": "Learn and master Wheel Alignment",
+      "tags": [
+        "wheel",
+        "alignment",
+        "skill"
+      ]
+    }
+  ]
+}

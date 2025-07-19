@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "المهارات الميكانيكية والتقنية",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "صيانة السيارات"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "أساسيات الهندسة"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "إصلاح المنزل والتركيب"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "تشغيل الآلة"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "استخدام الأداة والسلامة"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "عمل الخشب والمعادن"
+    }
+  ]
+}

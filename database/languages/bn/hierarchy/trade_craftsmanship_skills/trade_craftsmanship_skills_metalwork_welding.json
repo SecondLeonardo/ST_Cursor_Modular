@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_metalwork_welding",
+  "name": "ধাতব কাজ এবং ওয়েল্ডিং",
+  "skills": [
+    {
+      "id": "skill_4895",
+      "name": "আর্ক ওয়েল্ডিং",
+      "difficulty_level": 2,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4896",
+      "name": "ধাতব গ্রাইন্ডিং",
+      "difficulty_level": 5,
+      "description": "Learn and master Grinding Metal",
+      "tags": [
+        "grinding",
+        "metal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4897",
+      "name": "তাপ চিকিত্সা ইস্পাত",
+      "difficulty_level": 5,
+      "description": "Learn and master Heat Treating Steel",
+      "tags": [
+        "heat",
+        "treating",
+        "steel"
+      ]
+    },
+    {
+      "id": "skill_4898",
+      "name": "মিগ ওয়েল্ডিং",
+      "difficulty_level": 2,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4899",
+      "name": "ধাতু পরিমাপ ও চিহ্নিতকরণ",
+      "difficulty_level": 4,
+      "description": "Learn and master Metal Measuring & Marking",
+      "tags": [
+        "metal",
+        "measuring",
+        "marking"
+      ]
+    },
+    {
+      "id": "skill_4900",
+      "name": "প্লাজমা কাটা",
+      "difficulty_level": 4,
+      "description": "Learn and master Plasma Cutting",
+      "tags": [
+        "plasma",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4901",
+      "name": "শীট ধাতব বাঁক",
+      "difficulty_level": 4,
+      "description": "Learn and master Sheet Metal Bending",
+      "tags": [
+        "sheet",
+        "metal",
+        "bending"
+      ]
+    },
+    {
+      "id": "skill_4902",
+      "name": "সোল্ডারিং কৌশল",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering Techniques",
+      "tags": [
+        "soldering",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4903",
+      "name": "একটি কোণ গ্রাইন্ডার ব্যবহার করে",
+      "difficulty_level": 5,
+      "description": "Learn and master Using an Angle Grinder",
+      "tags": [
+        "using",
+        "angle",
+        "grinder"
+      ]
+    },
+    {
+      "id": "skill_4904",
+      "name": "ওয়েল্ডিং যৌথ প্রকার",
+      "difficulty_level": 3,
+      "description": "Learn and master Welding Joint Types",
+      "tags": [
+        "welding",
+        "joint",
+        "types"
+      ]
+    }
+  ]
+}

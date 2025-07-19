@@ -1,0 +1,116 @@
+{
+  "id": "health,_fitness_sports_sports_skills",
+  "name": "Спортивные навыки",
+  "skills": [
+    {
+      "id": "skill_2718",
+      "name": "Баскетбольная стрельба",
+      "difficulty_level": 4,
+      "description": "Learn and master Basketball Shooting",
+      "tags": [
+        "basketball",
+        "shooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2719",
+      "name": "Боксерские комбинации",
+      "difficulty_level": 2,
+      "description": "Learn and master Boxing Combinations",
+      "tags": [
+        "boxing",
+        "combinations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2720",
+      "name": "Методы боевых искусств",
+      "difficulty_level": 3,
+      "description": "Learn and master Martial Arts Techniques",
+      "tags": [
+        "martial",
+        "arts",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2721",
+      "name": "Скейтбординг трюки",
+      "difficulty_level": 4,
+      "description": "Learn and master Skateboarding Tricks",
+      "tags": [
+        "skateboarding",
+        "tricks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2722",
+      "name": "Футбольный дриблинг",
+      "difficulty_level": 5,
+      "description": "Learn and master Soccer Dribbling",
+      "tags": [
+        "soccer",
+        "dribbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2723",
+      "name": "Плавание мазки",
+      "difficulty_level": 3,
+      "description": "Learn and master Swimming Strokes",
+      "tags": [
+        "swimming",
+        "strokes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2724",
+      "name": "Настольные теннисные рефлексы",
+      "difficulty_level": 5,
+      "description": "Learn and master Table Tennis Reflexes",
+      "tags": [
+        "table",
+        "tennis",
+        "reflexes"
+      ]
+    },
+    {
+      "id": "skill_2725",
+      "name": "Теннис служит",
+      "difficulty_level": 4,
+      "description": "Learn and master Tennis Serve",
+      "tags": [
+        "tennis",
+        "serve",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2726",
+      "name": "Трек спринтинг",
+      "difficulty_level": 5,
+      "description": "Learn and master Track Sprinting",
+      "tags": [
+        "track",
+        "sprinting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2727",
+      "name": "Волейбол порция",
+      "difficulty_level": 5,
+      "description": "Learn and master Volleyball Serving",
+      "tags": [
+        "volleyball",
+        "serving",
+        "skill"
+      ]
+    }
+  ]
+}

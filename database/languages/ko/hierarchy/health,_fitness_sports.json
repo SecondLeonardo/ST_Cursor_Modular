@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "건강, 피트니스 및 스포츠",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "피트니스 훈련"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "영양물 섭취"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "야외 및 모험"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "스포츠 기술"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "웰빙 및 회복"
+    }
+  ]
+}

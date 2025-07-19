@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_design_digital_art",
+  "name": "디자인 및 디지털 아트",
+  "skills": [
+    {
+      "id": "skill_740",
+      "name": "3D 모델링",
+      "difficulty_level": 2,
+      "description": "Learn and master 3D Modeling",
+      "tags": [
+        "modeling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_741",
+      "name": "디지털 페인팅",
+      "difficulty_level": 2,
+      "description": "Learn and master Digital Painting",
+      "tags": [
+        "digital",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_742",
+      "name": "그래픽 디자인",
+      "difficulty_level": 1,
+      "description": "Learn and master Graphic Design",
+      "tags": [
+        "graphic",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_743",
+      "name": "레이아웃 디자인",
+      "difficulty_level": 1,
+      "description": "Learn and master Layout Design",
+      "tags": [
+        "layout",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_744",
+      "name": "로고 디자인",
+      "difficulty_level": 1,
+      "description": "Learn and master Logo Design",
+      "tags": [
+        "logo",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_745",
+      "name": "모션 그래픽",
+      "difficulty_level": 4,
+      "description": "Learn and master Motion Graphics",
+      "tags": [
+        "motion",
+        "graphics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_746",
+      "name": "사진 편집",
+      "difficulty_level": 3,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_747",
+      "name": "타이포그래피",
+      "difficulty_level": 5,
+      "description": "Learn and master Typography",
+      "tags": [
+        "typography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_748",
+      "name": "UI/UX 디자인",
+      "difficulty_level": 2,
+      "description": "Learn and master UI/UX Design",
+      "tags": [
+        "ui/ux",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_749",
+      "name": "벡터 아트 제작",
+      "difficulty_level": 2,
+      "description": "Learn and master Vector Art Creation",
+      "tags": [
+        "vector",
+        "creation",
+        "skill"
+      ]
+    }
+  ]
+}

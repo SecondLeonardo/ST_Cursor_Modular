@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_painting_decorating",
+  "name": "Vẽ tranh & trang trí",
+  "skills": [
+    {
+      "id": "skill_4995",
+      "name": "Trộn màu",
+      "difficulty_level": 5,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4996",
+      "name": "Kỹ thuật trang trí",
+      "difficulty_level": 3,
+      "description": "Learn and master Decorative Techniques",
+      "tags": [
+        "decorative",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4997",
+      "name": "Bức tranh bên ngoài",
+      "difficulty_level": 2,
+      "description": "Learn and master Exterior Painting",
+      "tags": [
+        "exterior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4998",
+      "name": "Kết thúc giả",
+      "difficulty_level": 5,
+      "description": "Learn and master Faux Finishing",
+      "tags": [
+        "faux",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4999",
+      "name": "Tranh nội thất",
+      "difficulty_level": 1,
+      "description": "Learn and master Interior Painting",
+      "tags": [
+        "interior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5000",
+      "name": "Tranh phun",
+      "difficulty_level": 3,
+      "description": "Learn and master Spray Painting",
+      "tags": [
+        "spray",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5001",
+      "name": "Bề mặt mồi",
+      "difficulty_level": 3,
+      "description": "Learn and master Surface Priming",
+      "tags": [
+        "surface",
+        "priming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5002",
+      "name": "Trim Tranh",
+      "difficulty_level": 5,
+      "description": "Learn and master Trim Painting",
+      "tags": [
+        "trim",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5003",
+      "name": "Chuẩn bị tường",
+      "difficulty_level": 4,
+      "description": "Learn and master Wall Preparation",
+      "tags": [
+        "wall",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5004",
+      "name": "Ứng dụng hình nền",
+      "difficulty_level": 4,
+      "description": "Learn and master Wallpaper Application",
+      "tags": [
+        "wallpaper",
+        "application",
+        "skill"
+      ]
+    }
+  ]
+}

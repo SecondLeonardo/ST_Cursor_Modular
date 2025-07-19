@@ -1,0 +1,26 @@
+{
+  "id": "learning_academic_skills",
+  "name": "Aprendizaje y habilidades académicas",
+  "subcategories": [
+    {
+      "id": "learning_academic_skills_language_learning",
+      "name": "Aprendizaje de idiomas"
+    },
+    {
+      "id": "learning_academic_skills_mathematics",
+      "name": "Matemáticas"
+    },
+    {
+      "id": "learning_academic_skills_science_research",
+      "name": "Ciencia e investigación"
+    },
+    {
+      "id": "learning_academic_skills_study_techniques",
+      "name": "Técnicas de estudio"
+    },
+    {
+      "id": "learning_academic_skills_test_preparation",
+      "name": "Preparación de la prueba"
+    }
+  ]
+}

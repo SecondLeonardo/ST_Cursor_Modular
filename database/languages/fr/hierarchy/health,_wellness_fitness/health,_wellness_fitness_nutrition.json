@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_nutrition",
+  "name": "Nutrition",
+  "skills": [
+    {
+      "id": "skill_2768",
+      "name": "Coaching de régime équilibré",
+      "difficulty_level": 2,
+      "description": "Learn and master Balanced Diet Coaching",
+      "tags": [
+        "balanced",
+        "diet",
+        "coaching"
+      ]
+    },
+    {
+      "id": "skill_2769",
+      "name": "Comptage des calories",
+      "difficulty_level": 5,
+      "description": "Learn and master Calorie Counting",
+      "tags": [
+        "calorie",
+        "counting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2770",
+      "name": "Stratégies d'hydratation",
+      "difficulty_level": 3,
+      "description": "Learn and master Hydration Strategies",
+      "tags": [
+        "hydration",
+        "strategies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2771",
+      "name": "Coaching de jeûne intermittent",
+      "difficulty_level": 1,
+      "description": "Learn and master Intermittent Fasting Coaching",
+      "tags": [
+        "intermittent",
+        "fasting",
+        "coaching"
+      ]
+    },
+    {
+      "id": "skill_2772",
+      "name": "Suivi du macronutriment",
+      "difficulty_level": 4,
+      "description": "Learn and master Macronutrient Tracking",
+      "tags": [
+        "macronutrient",
+        "tracking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2773",
+      "name": "Planification des repas",
+      "difficulty_level": 1,
+      "description": "Learn and master Meal Planning",
+      "tags": [
+        "meal",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2774",
+      "name": "Étiquettes nutritionnelles lecture",
+      "difficulty_level": 2,
+      "description": "Learn and master Nutritional Labels Reading",
+      "tags": [
+        "nutritional",
+        "labels",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_2775",
+      "name": "Nutrition sportive",
+      "difficulty_level": 3,
+      "description": "Learn and master Sports Nutrition",
+      "tags": [
+        "sports",
+        "nutrition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2776",
+      "name": "Complément de guidage",
+      "difficulty_level": 1,
+      "description": "Learn and master Supplement Guidance",
+      "tags": [
+        "supplement",
+        "guidance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2777",
+      "name": "Nutrition végétarienne / végétalienne",
+      "difficulty_level": 3,
+      "description": "Learn and master Vegetarian/Vegan Nutrition",
+      "tags": [
+        "vegetarian/vegan",
+        "nutrition",
+        "skill"
+      ]
+    }
+  ]
+}

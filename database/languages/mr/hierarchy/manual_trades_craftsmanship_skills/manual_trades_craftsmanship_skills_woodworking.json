@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_woodworking",
+  "name": "लाकूडकाम",
+  "skills": [
+    {
+      "id": "skill_3498",
+      "name": "मंत्रिमंडळ बनविणे",
+      "difficulty_level": 3,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3499",
+      "name": "सुतारकाम फ्रेमिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Carpentry Framing",
+      "tags": [
+        "carpentry",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3500",
+      "name": "चेनसॉ ऑपरेशन",
+      "difficulty_level": 1,
+      "description": "Learn and master Chainsaw Operation",
+      "tags": [
+        "chainsaw",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3501",
+      "name": "फर्निचर बनविणे",
+      "difficulty_level": 2,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3502",
+      "name": "जॉइनरी",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3503",
+      "name": "लेथ लाकूड वळण",
+      "difficulty_level": 1,
+      "description": "Learn and master Lathe Wood Turning",
+      "tags": [
+        "lathe",
+        "wood",
+        "turning"
+      ]
+    },
+    {
+      "id": "skill_3504",
+      "name": "सँडिंग आणि फिनिशिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Sanding & Finishing",
+      "tags": [
+        "sanding",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3505",
+      "name": "व्हेनरिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Veneering",
+      "tags": [
+        "veneering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3506",
+      "name": "लाकूड कोरीव काम",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3507",
+      "name": "लाकूड डाग",
+      "difficulty_level": 5,
+      "description": "Learn and master Wood Staining",
+      "tags": [
+        "wood",
+        "staining",
+        "skill"
+      ]
+    }
+  ]
+}

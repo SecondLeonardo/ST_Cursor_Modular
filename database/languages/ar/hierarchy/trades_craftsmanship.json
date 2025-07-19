@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "التداولات والحرفية",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "إصلاح السيارات"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "النجارة والعمل الخشبي"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "البناء والبناء"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "العمل الكهربائي"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC والتبريد"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "صنع المجوهرات"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "المعادن واللحام"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "الرسم والتزيين"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "السباكة"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "الخياطة والخياطة"
+    }
+  ]
+}

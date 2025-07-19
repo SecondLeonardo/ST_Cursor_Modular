@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_mathematics_statistics",
+  "name": "数学与统计",
+  "skills": [
+    {
+      "id": "skill_4098",
+      "name": "贝叶斯推断",
+      "difficulty_level": 1,
+      "description": "Learn and master Bayesian Inference",
+      "tags": [
+        "bayesian",
+        "inference",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4099",
+      "name": "结石",
+      "difficulty_level": 1,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4100",
+      "name": "组合学",
+      "difficulty_level": 4,
+      "description": "Learn and master Combinatorics",
+      "tags": [
+        "combinatorics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4101",
+      "name": "数据可视化",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4102",
+      "name": "线性代数",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4103",
+      "name": "数学建模",
+      "difficulty_level": 1,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4104",
+      "name": "数字理论",
+      "difficulty_level": 5,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4105",
+      "name": "概率理论",
+      "difficulty_level": 4,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4106",
+      "name": "回归分析",
+      "difficulty_level": 1,
+      "description": "Learn and master Regression Analysis",
+      "tags": [
+        "regression",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4107",
+      "name": "统计分析",
+      "difficulty_level": 4,
+      "description": "Learn and master Statistical Analysis",
+      "tags": [
+        "statistical",
+        "analysis",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "የንግድ እና የእጅ ጥበብ ችሎታ ችሎታ",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "ኮንስትራክሽን እና አናጢነት"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "ኤሌክትሪክ እና ቧንቧዎች"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "በእጅ የተሠሩ ዕቃዎች"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "ብረት ሥራ እና ሽርሽር"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "ጨርቃ ጨርቅ እና ቆዳ"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "ባህላዊ የእጅ ሥራዎች"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_tech_hardware_repair",
+  "name": "Phần cứng và sửa chữa công nghệ",
+  "skills": [
+    {
+      "id": "skill_4476",
+      "name": "Cấu hình BIOS",
+      "difficulty_level": 3,
+      "description": "Learn and master BIOS Configuration",
+      "tags": [
+        "bios",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4477",
+      "name": "Thay pin",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4478",
+      "name": "Quản lý cáp",
+      "difficulty_level": 2,
+      "description": "Learn and master Cable Management",
+      "tags": [
+        "cable",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4479",
+      "name": "Lắp ráp máy tính",
+      "difficulty_level": 1,
+      "description": "Learn and master Computer Assembly",
+      "tags": [
+        "computer",
+        "assembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4480",
+      "name": "Hiển thị sửa chữa",
+      "difficulty_level": 5,
+      "description": "Learn and master Display Repair",
+      "tags": [
+        "display",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4481",
+      "name": "Ổ cứng nhân bản",
+      "difficulty_level": 2,
+      "description": "Learn and master Hard Drive Cloning",
+      "tags": [
+        "hard",
+        "drive",
+        "cloning"
+      ]
+    },
+    {
+      "id": "skill_4482",
+      "name": "Máy tính xách tay tháo gỡ",
+      "difficulty_level": 1,
+      "description": "Learn and master Laptop Disassembly",
+      "tags": [
+        "laptop",
+        "disassembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4483",
+      "name": "Chẩn đoán bo mạch chủ",
+      "difficulty_level": 1,
+      "description": "Learn and master Motherboard Diagnostics",
+      "tags": [
+        "motherboard",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4484",
+      "name": "Kiểm tra ngoại vi",
+      "difficulty_level": 3,
+      "description": "Learn and master Peripheral Testing",
+      "tags": [
+        "peripheral",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4485",
+      "name": "Ứng dụng dán nhiệt",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermal Paste Application",
+      "tags": [
+        "thermal",
+        "paste",
+        "application"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "creative_arts_design",
+  "name": "Artes y diseño creativos",
+  "subcategories": [
+    {
+      "id": "creative_arts_design_crafts_diy",
+      "name": "Artesanía y bricolaje"
+    },
+    {
+      "id": "creative_arts_design_digital_arts_animation",
+      "name": "Artes digitales y animación"
+    },
+    {
+      "id": "creative_arts_design_graphic_design",
+      "name": "Diseño gráfico"
+    },
+    {
+      "id": "creative_arts_design_interior_fashion",
+      "name": "Interior y moda"
+    },
+    {
+      "id": "creative_arts_design_visual_arts",
+      "name": "Artes visuales"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_vehicle_machine_maintenance",
+  "name": "Fahrzeug- und Maschinenwartung",
+  "skills": [
+    {
+      "id": "skill_5155",
+      "name": "Batterieersatz",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5156",
+      "name": "Fahrradstimmen",
+      "difficulty_level": 4,
+      "description": "Learn and master Bike Tuning",
+      "tags": [
+        "bike",
+        "tuning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5157",
+      "name": "Bremsreparatur",
+      "difficulty_level": 2,
+      "description": "Learn and master Brake Repair",
+      "tags": [
+        "brake",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5158",
+      "name": "Kettenwartung",
+      "difficulty_level": 5,
+      "description": "Learn and master Chain Maintenance",
+      "tags": [
+        "chain",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5159",
+      "name": "Motordiagnose",
+      "difficulty_level": 2,
+      "description": "Learn and master Engine Diagnosis",
+      "tags": [
+        "engine",
+        "diagnosis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5160",
+      "name": "Filterersatz",
+      "difficulty_level": 5,
+      "description": "Learn and master Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5161",
+      "name": "Ölwechsel",
+      "difficulty_level": 2,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5162",
+      "name": "Kühlerspülung",
+      "difficulty_level": 2,
+      "description": "Learn and master Radiator Flush",
+      "tags": [
+        "radiator",
+        "flush",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5163",
+      "name": "Zündkerzenprüfung",
+      "difficulty_level": 3,
+      "description": "Learn and master Spark Plug Check",
+      "tags": [
+        "spark",
+        "plug",
+        "check"
+      ]
+    },
+    {
+      "id": "skill_5164",
+      "name": "Reifenersatz",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Replacement",
+      "tags": [
+        "tire",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

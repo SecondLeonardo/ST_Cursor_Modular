@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_metalwork_welding",
+  "name": "金属細工と溶接",
+  "skills": [
+    {
+      "id": "skill_4985",
+      "name": "アーク溶接",
+      "difficulty_level": 3,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4986",
+      "name": "ブループリントの読書",
+      "difficulty_level": 2,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4987",
+      "name": "基本の鍛造",
+      "difficulty_level": 5,
+      "description": "Learn and master Forging Basics",
+      "tags": [
+        "forging",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4988",
+      "name": "旋盤操作",
+      "difficulty_level": 1,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4989",
+      "name": "MIG溶接",
+      "difficulty_level": 2,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4990",
+      "name": "金属切断",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Cutting",
+      "tags": [
+        "metal",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4991",
+      "name": "パイプ溶接",
+      "difficulty_level": 1,
+      "description": "Learn and master Pipe Welding",
+      "tags": [
+        "pipe",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4992",
+      "name": "板金製造",
+      "difficulty_level": 1,
+      "description": "Learn and master Sheet Metal Fabrication",
+      "tags": [
+        "sheet",
+        "metal",
+        "fabrication"
+      ]
+    },
+    {
+      "id": "skill_4993",
+      "name": "はんだ金属",
+      "difficulty_level": 4,
+      "description": "Learn and master Soldering Metal",
+      "tags": [
+        "soldering",
+        "metal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4994",
+      "name": "ティグ溶接",
+      "difficulty_level": 1,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

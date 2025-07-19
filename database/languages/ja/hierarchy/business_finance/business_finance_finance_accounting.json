@@ -1,0 +1,116 @@
+{
+  "id": "business_finance_finance_accounting",
+  "name": "財務および会計",
+  "skills": [
+    {
+      "id": "skill_835",
+      "name": "買掛金勘定",
+      "difficulty_level": 2,
+      "description": "Learn and master Accounts Payable",
+      "tags": [
+        "accounts",
+        "payable",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_836",
+      "name": "売掛金",
+      "difficulty_level": 5,
+      "description": "Learn and master Accounts Receivable",
+      "tags": [
+        "accounts",
+        "receivable",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_837",
+      "name": "簿記",
+      "difficulty_level": 1,
+      "description": "Learn and master Bookkeeping",
+      "tags": [
+        "bookkeeping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_838",
+      "name": "予算編成",
+      "difficulty_level": 3,
+      "description": "Learn and master Budgeting",
+      "tags": [
+        "budgeting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_839",
+      "name": "キャッシュフロー管理",
+      "difficulty_level": 3,
+      "description": "Learn and master Cash Flow Management",
+      "tags": [
+        "cash",
+        "flow",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_840",
+      "name": "費用会計",
+      "difficulty_level": 1,
+      "description": "Learn and master Cost Accounting",
+      "tags": [
+        "cost",
+        "accounting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_841",
+      "name": "財務分析",
+      "difficulty_level": 4,
+      "description": "Learn and master Financial Analysis",
+      "tags": [
+        "financial",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_842",
+      "name": "財務報告",
+      "difficulty_level": 2,
+      "description": "Learn and master Financial Reporting",
+      "tags": [
+        "financial",
+        "reporting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_843",
+      "name": "QuickBooks",
+      "difficulty_level": 1,
+      "description": "Learn and master QuickBooks",
+      "tags": [
+        "quickbooks",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_844",
+      "name": "税の準備",
+      "difficulty_level": 2,
+      "description": "Learn and master Tax Preparation",
+      "tags": [
+        "preparation",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_fitness_training",
+  "name": "Entrenamiento físico",
+  "skills": [
+    {
+      "id": "skill_2513",
+      "name": "Ejercicios de peso corporal",
+      "difficulty_level": 5,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2514",
+      "name": "Entrenamientos cardiovasculares",
+      "difficulty_level": 3,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2515",
+      "name": "Crossfit básicos",
+      "difficulty_level": 3,
+      "description": "Learn and master CrossFit Basics",
+      "tags": [
+        "crossfit",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2516",
+      "name": "Técnicas de ciclismo",
+      "difficulty_level": 4,
+      "description": "Learn and master Cycling Techniques",
+      "tags": [
+        "cycling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2517",
+      "name": "Resistencia",
+      "difficulty_level": 2,
+      "description": "Learn and master Endurance Running",
+      "tags": [
+        "endurance",
+        "running",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2518",
+      "name": "Entrenamiento de flexibilidad",
+      "difficulty_level": 3,
+      "description": "Learn and master Flexibility Training",
+      "tags": [
+        "flexibility",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2519",
+      "name": "Hiit",
+      "difficulty_level": 1,
+      "description": "Learn and master HIIT",
+      "tags": [
+        "hiit",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2520",
+      "name": "Entrenamiento de la banda de resistencia",
+      "difficulty_level": 5,
+      "description": "Learn and master Resistance Band Training",
+      "tags": [
+        "resistance",
+        "band",
+        "training"
+      ]
+    },
+    {
+      "id": "skill_2521",
+      "name": "Entrenamiento de fuerza",
+      "difficulty_level": 4,
+      "description": "Learn and master Strength Training",
+      "tags": [
+        "strength",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2522",
+      "name": "Forma de levantamiento de pesas",
+      "difficulty_level": 4,
+      "description": "Learn and master Weightlifting Form",
+      "tags": [
+        "weightlifting",
+        "form",
+        "skill"
+      ]
+    }
+  ]
+}

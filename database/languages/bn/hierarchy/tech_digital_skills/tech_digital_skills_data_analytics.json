@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_data_analytics",
+  "name": "ডেটা এবং বিশ্লেষণ",
+  "skills": [
+    {
+      "id": "skill_4386",
+      "name": "বড় ডেটা বেসিক",
+      "difficulty_level": 4,
+      "description": "Learn and master Big Data Basics",
+      "tags": [
+        "data",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4387",
+      "name": "ড্যাশবোর্ড তৈরি করা",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Dashboards",
+      "tags": [
+        "creating",
+        "dashboards",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4388",
+      "name": "পান্ডাস সহ ডেটা পরিষ্কার করা",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Cleaning with Pandas",
+      "tags": [
+        "data",
+        "cleaning",
+        "with",
+        "pandas"
+      ]
+    },
+    {
+      "id": "skill_4389",
+      "name": "ডেটা মডেলিং",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Modeling",
+      "tags": [
+        "data",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4390",
+      "name": "ডেটা ভিজ্যুয়ালাইজেশন",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4391",
+      "name": "এক্সেল ডেটা বিশ্লেষণ",
+      "difficulty_level": 5,
+      "description": "Learn and master Excel Data Analysis",
+      "tags": [
+        "excel",
+        "data",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4392",
+      "name": "অনুসন্ধান তথ্য বিশ্লেষণ",
+      "difficulty_level": 5,
+      "description": "Learn and master Exploratory Data Analysis",
+      "tags": [
+        "exploratory",
+        "data",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4393",
+      "name": "এসকিউএল কোয়েরি",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL Queries",
+      "tags": [
+        "queries",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4394",
+      "name": "সময় সিরিজ বিশ্লেষণ",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Series Analysis",
+      "tags": [
+        "time",
+        "series",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4395",
+      "name": "দ্বি সরঞ্জাম ব্যবহার করে",
+      "difficulty_level": 1,
+      "description": "Learn and master Using BI Tools",
+      "tags": [
+        "using",
+        "tools",
+        "skill"
+      ]
+    }
+  ]
+}

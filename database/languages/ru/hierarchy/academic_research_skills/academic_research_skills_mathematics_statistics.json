@@ -1,0 +1,116 @@
+{
+  "id": "academic_research_skills_mathematics_statistics",
+  "name": "Математика и статистика",
+  "skills": [
+    {
+      "id": "skill_290",
+      "name": "Алгебраическая манипуляция",
+      "difficulty_level": 4,
+      "description": "Learn and master Algebraic Manipulation",
+      "tags": [
+        "algebraic",
+        "manipulation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_291",
+      "name": "Создание графиков и диаграмм",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Graphs & Charts",
+      "tags": [
+        "creating",
+        "graphs",
+        "charts"
+      ]
+    },
+    {
+      "id": "skill_292",
+      "name": "Описательная статистика",
+      "difficulty_level": 2,
+      "description": "Learn and master Descriptive Statistics",
+      "tags": [
+        "descriptive",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_293",
+      "name": "Сделанная статистика",
+      "difficulty_level": 3,
+      "description": "Learn and master Inferential Statistics",
+      "tags": [
+        "inferential",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_294",
+      "name": "Линейные концепции алгебры",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra Concepts",
+      "tags": [
+        "linear",
+        "algebra",
+        "concepts"
+      ]
+    },
+    {
+      "id": "skill_295",
+      "name": "Математические доказательства",
+      "difficulty_level": 4,
+      "description": "Learn and master Mathematical Proofs",
+      "tags": [
+        "mathematical",
+        "proofs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_296",
+      "name": "Решение проблем исчисления",
+      "difficulty_level": 2,
+      "description": "Learn and master Solving Calculus Problems",
+      "tags": [
+        "solving",
+        "calculus",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_297",
+      "name": "Использование статистического программного обеспечения",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Software Use",
+      "tags": [
+        "statistical",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_298",
+      "name": "Понимание вероятности",
+      "difficulty_level": 2,
+      "description": "Learn and master Understanding Probability",
+      "tags": [
+        "understanding",
+        "probability",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_299",
+      "name": "Использование графических калькуляторов",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Graphing Calculators",
+      "tags": [
+        "using",
+        "graphing",
+        "calculators"
+      ]
+    }
+  ]
+}

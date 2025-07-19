@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_writing_literature",
+  "name": "Schrijven en literatuur",
+  "skills": [
+    {
+      "id": "skill_510",
+      "name": "Blog schrijven",
+      "difficulty_level": 2,
+      "description": "Learn and master Blog Writing",
+      "tags": [
+        "blog",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_511",
+      "name": "Creatief schrijven",
+      "difficulty_level": 3,
+      "description": "Learn and master Creative Writing",
+      "tags": [
+        "creative",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_512",
+      "name": "Bewerken en proeflezen",
+      "difficulty_level": 1,
+      "description": "Learn and master Editing & Proofreading",
+      "tags": [
+        "editing",
+        "proofreading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_513",
+      "name": "Fiction Writing",
+      "difficulty_level": 2,
+      "description": "Learn and master Fiction Writing",
+      "tags": [
+        "fiction",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_514",
+      "name": "Literaire analyse",
+      "difficulty_level": 2,
+      "description": "Learn and master Literary Analysis",
+      "tags": [
+        "literary",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_515",
+      "name": "Non-fictie schrijven",
+      "difficulty_level": 3,
+      "description": "Learn and master Non-fiction Writing",
+      "tags": [
+        "non-fiction",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_516",
+      "name": "Poëzie schrijven",
+      "difficulty_level": 3,
+      "description": "Learn and master Poetry Writing",
+      "tags": [
+        "poetry",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_517",
+      "name": "Scenarioschrijven",
+      "difficulty_level": 2,
+      "description": "Learn and master Screenwriting",
+      "tags": [
+        "screenwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_518",
+      "name": "Kort verhaal schrijven",
+      "difficulty_level": 2,
+      "description": "Learn and master Short Story Writing",
+      "tags": [
+        "short",
+        "story",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_519",
+      "name": "Schrijvend dialoog",
+      "difficulty_level": 5,
+      "description": "Learn and master Writing Dialogue",
+      "tags": [
+        "writing",
+        "dialogue",
+        "skill"
+      ]
+    }
+  ]
+}

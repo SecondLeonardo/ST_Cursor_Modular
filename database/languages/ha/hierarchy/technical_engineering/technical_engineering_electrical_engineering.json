@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_electrical_engineering",
+  "name": "Injiniyan lantarki",
+  "skills": [
+    {
+      "id": "skill_4516",
+      "name": "Tsarin Ardashe",
+      "difficulty_level": 2,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4517",
+      "name": "Tsarin da'ira",
+      "difficulty_level": 3,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4518",
+      "name": "Tsarin Digital",
+      "difficulty_level": 5,
+      "description": "Learn and master Digital Logic Design",
+      "tags": [
+        "digital",
+        "logic",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4519",
+      "name": "Matsayi Tsaro na lantarki",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Safety Standards",
+      "tags": [
+        "electrical",
+        "safety",
+        "standards"
+      ]
+    },
+    {
+      "id": "skill_4520",
+      "name": "Tsarin da aka saka",
+      "difficulty_level": 3,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4521",
+      "name": "Shirye-shiryen microcontroller",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Programming",
+      "tags": [
+        "microcontroller",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4522",
+      "name": "Utciloscope",
+      "difficulty_level": 4,
+      "description": "Learn and master Oscilloscope Usage",
+      "tags": [
+        "oscilloscope",
+        "usage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4523",
+      "name": "Tsarin PCB",
+      "difficulty_level": 4,
+      "description": "Learn and master PCB Layout Design",
+      "tags": [
+        "layout",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4524",
+      "name": "Rarraba wutar lantarki",
+      "difficulty_level": 2,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4525",
+      "name": "Sarrafa siginar",
+      "difficulty_level": 1,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_fitness_conditioning",
+  "name": "피트니스 및 컨디셔닝",
+  "skills": [
+    {
+      "id": "skill_3928",
+      "name": "균형 훈련",
+      "difficulty_level": 2,
+      "description": "Learn and master Balance Training",
+      "tags": [
+        "balance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3929",
+      "name": "체중 운동",
+      "difficulty_level": 3,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3930",
+      "name": "호흡 기술",
+      "difficulty_level": 2,
+      "description": "Learn and master Breathing Techniques",
+      "tags": [
+        "breathing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3931",
+      "name": "심장 내구력",
+      "difficulty_level": 2,
+      "description": "Learn and master Cardio Endurance",
+      "tags": [
+        "cardio",
+        "endurance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3932",
+      "name": "핵심 강화",
+      "difficulty_level": 5,
+      "description": "Learn and master Core Strengthening",
+      "tags": [
+        "core",
+        "strengthening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3933",
+      "name": "폼 롤링",
+      "difficulty_level": 4,
+      "description": "Learn and master Foam Rolling",
+      "tags": [
+        "foam",
+        "rolling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3934",
+      "name": "HIIT 운동",
+      "difficulty_level": 4,
+      "description": "Learn and master HIIT Workouts",
+      "tags": [
+        "hiit",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3935",
+      "name": "회복 기술",
+      "difficulty_level": 3,
+      "description": "Learn and master Recovery Techniques",
+      "tags": [
+        "recovery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3936",
+      "name": "스피드 드릴",
+      "difficulty_level": 3,
+      "description": "Learn and master Speed Drills",
+      "tags": [
+        "speed",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3937",
+      "name": "스트레칭 루틴",
+      "difficulty_level": 1,
+      "description": "Learn and master Stretching Routines",
+      "tags": [
+        "stretching",
+        "routines",
+        "skill"
+      ]
+    }
+  ]
+}

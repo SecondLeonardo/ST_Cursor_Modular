@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_cloud_computing",
+  "name": "Komputasi awan",
+  "skills": [
+    {
+      "id": "skill_4357",
+      "name": "Fundamental AWS",
+      "difficulty_level": 3,
+      "description": "Learn and master AWS Fundamentals",
+      "tags": [
+        "fundamentals",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4358",
+      "name": "Administrasi Azure",
+      "difficulty_level": 4,
+      "description": "Learn and master Azure Administration",
+      "tags": [
+        "azure",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4359",
+      "name": "Optimalisasi Biaya Cloud",
+      "difficulty_level": 5,
+      "description": "Learn and master Cloud Cost Optimization",
+      "tags": [
+        "cloud",
+        "cost",
+        "optimization"
+      ]
+    },
+    {
+      "id": "skill_4360",
+      "name": "Alat pemantauan cloud",
+      "difficulty_level": 1,
+      "description": "Learn and master Cloud Monitoring Tools",
+      "tags": [
+        "cloud",
+        "monitoring",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_4361",
+      "name": "Keamanan cloud",
+      "difficulty_level": 5,
+      "description": "Learn and master Cloud Security",
+      "tags": [
+        "cloud",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4362",
+      "name": "Wadah Docker",
+      "difficulty_level": 3,
+      "description": "Learn and master Docker Containers",
+      "tags": [
+        "docker",
+        "containers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4363",
+      "name": "Google Cloud Platform",
+      "difficulty_level": 3,
+      "description": "Learn and master Google Cloud Platform",
+      "tags": [
+        "google",
+        "cloud",
+        "platform"
+      ]
+    },
+    {
+      "id": "skill_4364",
+      "name": "Dasar -dasar Kubernetes",
+      "difficulty_level": 4,
+      "description": "Learn and master Kubernetes Basics",
+      "tags": [
+        "kubernetes",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4365",
+      "name": "Load Balancing",
+      "difficulty_level": 4,
+      "description": "Learn and master Load Balancing",
+      "tags": [
+        "load",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4366",
+      "name": "Arsitektur tanpa server",
+      "difficulty_level": 3,
+      "description": "Learn and master Serverless Architecture",
+      "tags": [
+        "serverless",
+        "architecture",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "home_diy",
+  "name": "Inicio y bricolaje",
+  "subcategories": [
+    {
+      "id": "home_diy_appliance_maintenance",
+      "name": "Mantenimiento de electrodomésticos"
+    },
+    {
+      "id": "home_diy_cleaning_organizing",
+      "name": "Limpieza y organización"
+    },
+    {
+      "id": "home_diy_crafts_decor",
+      "name": "Artesanía y decoración"
+    },
+    {
+      "id": "home_diy_electrical_work",
+      "name": "Trabajo eléctrico"
+    },
+    {
+      "id": "home_diy_gardening_landscaping",
+      "name": "Jardinería y paisajismo"
+    },
+    {
+      "id": "home_diy_home_automation",
+      "name": "Automatización del hogar"
+    },
+    {
+      "id": "home_diy_home_repair",
+      "name": "Reparación del hogar"
+    },
+    {
+      "id": "home_diy_interior_design",
+      "name": "Diseño interior"
+    },
+    {
+      "id": "home_diy_plumbing_basics",
+      "name": "Conceptos básicos de plomería"
+    },
+    {
+      "id": "home_diy_woodworking_carpentry",
+      "name": "Carpintería y carpintería"
+    }
+  ]
+}

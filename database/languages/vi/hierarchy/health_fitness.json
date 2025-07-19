@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "Sức khỏe & Thể dục",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "Chăm sóc cơ thể & Sức khỏe"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "Sơ cứu & An toàn"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "Sức khỏe tâm thần"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "Dinh dưỡng & chế độ ăn uống"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "Đào tạo thể chất"
+    }
+  ]
+}

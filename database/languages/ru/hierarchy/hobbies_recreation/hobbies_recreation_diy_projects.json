@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_diy_projects",
+  "name": "DIY проекты",
+  "skills": [
+    {
+      "id": "skill_5405",
+      "name": "Здание мебели",
+      "difficulty_level": 4,
+      "description": "Learn and master Furniture Building",
+      "tags": [
+        "furniture",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5406",
+      "name": "Домашний ремонт",
+      "difficulty_level": 2,
+      "description": "Learn and master Home Repairs",
+      "tags": [
+        "home",
+        "repairs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5407",
+      "name": "Подъем",
+      "difficulty_level": 3,
+      "description": "Learn and master Upcycling",
+      "tags": [
+        "upcycling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5408",
+      "name": "Рисовать стены",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5409",
+      "name": "Установка светильников",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing Fixtures",
+      "tags": [
+        "installing",
+        "fixtures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5410",
+      "name": "Плиткой",
+      "difficulty_level": 2,
+      "description": "Learn and master Tiling",
+      "tags": [
+        "tiling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5411",
+      "name": "Плотница",
+      "difficulty_level": 3,
+      "description": "Learn and master Carpentry",
+      "tags": [
+        "carpentry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5412",
+      "name": "Электрическая работа",
+      "difficulty_level": 2,
+      "description": "Learn and master Electrical Work",
+      "tags": [
+        "electrical",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5413",
+      "name": "Сантехника Основы",
+      "difficulty_level": 1,
+      "description": "Learn and master Plumbing Basics",
+      "tags": [
+        "plumbing",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5414",
+      "name": "Обслуживание инструмента",
+      "difficulty_level": 4,
+      "description": "Learn and master Tool Maintenance",
+      "tags": [
+        "tool",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

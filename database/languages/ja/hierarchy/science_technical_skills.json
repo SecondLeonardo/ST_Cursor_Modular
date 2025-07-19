@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "科学と技術スキル",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "天文学"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "生物学と生命科学"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "化学"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "コンピュータサイエンス"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "データサイエンス＆AI"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "地球と環境科学"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "エンジニアリング分野"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "数学と統計"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "物理学と力学"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "ロボット工学と自動化"
+    }
+  ]
+}

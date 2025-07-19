@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "ทักษะดิจิทัลและเทคโนโลยี",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "ความปลอดภัยทางไซเบอร์"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "ข้อมูล & AI"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "ไอทีและเครือข่าย"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "การเขียนโปรแกรมและการพัฒนา"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "เว็บและมือถือ"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+  "name": "DIY & பழுதுபார்ப்பு",
+  "skills": [
+    {
+      "id": "skill_3358",
+      "name": "தளபாடங்கள் ஒன்றுகூடுதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Assembling Furniture",
+      "tags": [
+        "assembling",
+        "furniture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3359",
+      "name": "அடிப்படை கார் பராமரிப்பு",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Car Maintenance",
+      "tags": [
+        "basic",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3360",
+      "name": "கசிந்த குழாயை சரிசெய்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Fixing a Leaky Faucet",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucet"
+      ]
+    },
+    {
+      "id": "skill_3361",
+      "name": "ஒரு அலமாரியை நிறுவுதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing a Shelf",
+      "tags": [
+        "installing",
+        "shelf",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3362",
+      "name": "ஒரு அறை ஓவியம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting a Room",
+      "tags": [
+        "painting",
+        "room",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3363",
+      "name": "உலர்வால் ஒட்டுதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Patching Drywall",
+      "tags": [
+        "patching",
+        "drywall",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3364",
+      "name": "ஒரு ஒளி பொருத்தத்தை மாற்றுகிறது",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing a Light Fixture",
+      "tags": [
+        "replacing",
+        "light",
+        "fixture"
+      ]
+    },
+    {
+      "id": "skill_3365",
+      "name": "ஒரு பொத்தானை தையல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing a Button",
+      "tags": [
+        "sewing",
+        "button",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3366",
+      "name": "ஒரு வடிகால் அவிழ்த்து விடுங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Unclogging a Drain",
+      "tags": [
+        "unclogging",
+        "drain",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3367",
+      "name": "சக்தி கருவிகளைப் பயன்படுத்துதல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Power Tools",
+      "tags": [
+        "using",
+        "power",
+        "tools"
+      ]
+    }
+  ]
+}

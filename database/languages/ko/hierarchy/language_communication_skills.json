@@ -1,0 +1,30 @@
+{
+  "id": "language_communication_skills",
+  "name": "언어 및 의사 소통 기술",
+  "subcategories": [
+    {
+      "id": "language_communication_skills_language_learning",
+      "name": "언어 학습"
+    },
+    {
+      "id": "language_communication_skills_non-verbal_communication",
+      "name": "비언어적 의사 소통"
+    },
+    {
+      "id": "language_communication_skills_public_speaking",
+      "name": "대중 연설"
+    },
+    {
+      "id": "language_communication_skills_storytelling_narration",
+      "name": "스토리 텔링 및 나레이션"
+    },
+    {
+      "id": "language_communication_skills_verbal_communication",
+      "name": "언어 의사 소통"
+    },
+    {
+      "id": "language_communication_skills_writing_editing",
+      "name": "쓰기 및 편집"
+    }
+  ]
+}

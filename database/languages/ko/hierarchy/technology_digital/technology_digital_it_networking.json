@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_it_networking",
+  "name": "그것은 & 네트워킹",
+  "skills": [
+    {
+      "id": "skill_4646",
+      "name": "활성 디렉토리 관리",
+      "difficulty_level": 1,
+      "description": "Learn and master Active Directory Management",
+      "tags": [
+        "active",
+        "directory",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_4647",
+      "name": "클라우드 인프라",
+      "difficulty_level": 3,
+      "description": "Learn and master Cloud Infrastructure",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4648",
+      "name": "DNS 구성",
+      "difficulty_level": 5,
+      "description": "Learn and master DNS Configuration",
+      "tags": [
+        "configuration",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4649",
+      "name": "방화벽 설정",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewall Setup",
+      "tags": [
+        "firewall",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4650",
+      "name": "IT 보안 정책",
+      "difficulty_level": 5,
+      "description": "Learn and master IT Security Policies",
+      "tags": [
+        "security",
+        "policies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4651",
+      "name": "LAN/WAN 문제 해결",
+      "difficulty_level": 5,
+      "description": "Learn and master LAN/WAN Troubleshooting",
+      "tags": [
+        "lan/wan",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4652",
+      "name": "네트워크 구성",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Configuration",
+      "tags": [
+        "network",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4653",
+      "name": "서버 유지 보수",
+      "difficulty_level": 2,
+      "description": "Learn and master Server Maintenance",
+      "tags": [
+        "server",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4654",
+      "name": "기술 지원 절차",
+      "difficulty_level": 4,
+      "description": "Learn and master Tech Support Procedures",
+      "tags": [
+        "tech",
+        "support",
+        "procedures"
+      ]
+    },
+    {
+      "id": "skill_4655",
+      "name": "가상 머신",
+      "difficulty_level": 1,
+      "description": "Learn and master Virtual Machines",
+      "tags": [
+        "virtual",
+        "machines",
+        "skill"
+      ]
+    }
+  ]
+}

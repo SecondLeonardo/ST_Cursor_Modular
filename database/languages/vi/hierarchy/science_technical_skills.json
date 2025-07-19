@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "Khoa học & Kỹ năng kỹ thuật",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "Thiên văn học"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "Khoa học sinh học & Đời sống"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "Hoá học"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "Khoa học máy tính"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "Khoa học dữ liệu & AI"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "Khoa học Trái đất & Môi trường"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "Kỹ thuật kỷ luật"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "Toán học & Thống kê"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "Vật lý & Cơ học"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "Robotics & tự động hóa"
+    }
+  ]
+}

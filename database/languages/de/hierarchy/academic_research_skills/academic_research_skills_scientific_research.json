@@ -1,0 +1,116 @@
+{
+  "id": "academic_research_skills_scientific_research",
+  "name": "Wissenschaftliche Forschung",
+  "skills": [
+    {
+      "id": "skill_300",
+      "name": "Akademisches Journaling",
+      "difficulty_level": 5,
+      "description": "Learn and master Academic Journaling",
+      "tags": [
+        "academic",
+        "journaling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_301",
+      "name": "Zitieren von Quellen richtig",
+      "difficulty_level": 3,
+      "description": "Learn and master Citing Sources Properly",
+      "tags": [
+        "citing",
+        "sources",
+        "properly"
+      ]
+    },
+    {
+      "id": "skill_302",
+      "name": "Literaturbewertungen durchführen",
+      "difficulty_level": 5,
+      "description": "Learn and master Conducting Literature Reviews",
+      "tags": [
+        "conducting",
+        "literature",
+        "reviews"
+      ]
+    },
+    {
+      "id": "skill_303",
+      "name": "Datenerfassungsmethoden",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Collection Methods",
+      "tags": [
+        "data",
+        "collection",
+        "methods"
+      ]
+    },
+    {
+      "id": "skill_304",
+      "name": "Experimente entwerfen",
+      "difficulty_level": 5,
+      "description": "Learn and master Designing Experiments",
+      "tags": [
+        "designing",
+        "experiments",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_305",
+      "name": "Ethische Forschungspraktiken",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Research Practices",
+      "tags": [
+        "ethical",
+        "research",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_306",
+      "name": "Hypothesen formulieren",
+      "difficulty_level": 5,
+      "description": "Learn and master Formulating Hypotheses",
+      "tags": [
+        "formulating",
+        "hypotheses",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_307",
+      "name": "Peer Review -Prozess",
+      "difficulty_level": 2,
+      "description": "Learn and master Peer Review Process",
+      "tags": [
+        "peer",
+        "review",
+        "process"
+      ]
+    },
+    {
+      "id": "skill_308",
+      "name": "Verwenden von Laborgeräten",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Lab Equipment",
+      "tags": [
+        "using",
+        "equipment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_309",
+      "name": "Schreiben von Forschungsarbeiten",
+      "difficulty_level": 4,
+      "description": "Learn and master Writing Research Papers",
+      "tags": [
+        "writing",
+        "research",
+        "papers"
+      ]
+    }
+  ]
+}

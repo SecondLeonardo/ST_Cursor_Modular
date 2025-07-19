@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_robotics_automation",
+  "name": "로봇 공학 및 자동화",
+  "skills": [
+    {
+      "id": "skill_4238",
+      "name": "Arduino 프로그래밍",
+      "difficulty_level": 3,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4239",
+      "name": "라즈베리 파이로 자동화",
+      "difficulty_level": 4,
+      "description": "Learn and master Automation with Raspberry Pi",
+      "tags": [
+        "automation",
+        "with",
+        "raspberry"
+      ]
+    },
+    {
+      "id": "skill_4240",
+      "name": "산업 자동화",
+      "difficulty_level": 1,
+      "description": "Learn and master Industrial Automation",
+      "tags": [
+        "industrial",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4241",
+      "name": "로봇을 따라 라인",
+      "difficulty_level": 4,
+      "description": "Learn and master Line Following Robots",
+      "tags": [
+        "line",
+        "following",
+        "robots"
+      ]
+    },
+    {
+      "id": "skill_4242",
+      "name": "마이크로 컨트롤러 기본 사항",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Basics",
+      "tags": [
+        "microcontroller",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4243",
+      "name": "장애물 회피 논리",
+      "difficulty_level": 1,
+      "description": "Learn and master Obstacle Avoidance Logic",
+      "tags": [
+        "obstacle",
+        "avoidance",
+        "logic"
+      ]
+    },
+    {
+      "id": "skill_4244",
+      "name": "경로 변형 알고리즘",
+      "difficulty_level": 3,
+      "description": "Learn and master Pathfinding Algorithms",
+      "tags": [
+        "pathfinding",
+        "algorithms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4245",
+      "name": "로봇 팔 디자인",
+      "difficulty_level": 5,
+      "description": "Learn and master Robot Arm Design",
+      "tags": [
+        "robot",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4246",
+      "name": "센서 통합",
+      "difficulty_level": 1,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4247",
+      "name": "서보 모터 제어",
+      "difficulty_level": 5,
+      "description": "Learn and master Servo Motor Control",
+      "tags": [
+        "servo",
+        "motor",
+        "control"
+      ]
+    }
+  ]
+}

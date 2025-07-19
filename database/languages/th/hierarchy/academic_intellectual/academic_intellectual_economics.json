@@ -1,0 +1,105 @@
+{
+  "id": "academic_intellectual_economics",
+  "name": "เศรษฐศาสตร์",
+  "skills": [
+    {
+      "id": "skill_1",
+      "name": "เศรษฐศาสตร์พฤติกรรม",
+      "difficulty_level": 1,
+      "description": "Learn and master Behavioral Economics",
+      "tags": [
+        "behavioral",
+        "economics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2",
+      "name": "เศรษฐศาสตร์การพัฒนา",
+      "difficulty_level": 3,
+      "description": "Learn and master Development Economics",
+      "tags": [
+        "development",
+        "economics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3",
+      "name": "นโยบายเศรษฐกิจ",
+      "difficulty_level": 4,
+      "description": "Learn and master Economic Policy",
+      "tags": [
+        "economic",
+        "policy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4",
+      "name": "ทฤษฎีเกม",
+      "difficulty_level": 1,
+      "description": "Learn and master Game Theory",
+      "tags": [
+        "game",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5",
+      "name": "การค้าระหว่างประเทศ",
+      "difficulty_level": 2,
+      "description": "Learn and master International Trade",
+      "tags": [
+        "international",
+        "trade",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_6",
+      "name": "เศรษฐศาสตร์แรงงาน",
+      "difficulty_level": 2,
+      "description": "Learn and master Labor Economics",
+      "tags": [
+        "labor",
+        "economics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_7",
+      "name": "เศรษฐศาสตร์มหภาค",
+      "difficulty_level": 2,
+      "description": "Learn and master Macroeconomics",
+      "tags": [
+        "macroeconomics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_8",
+      "name": "เศรษฐศาสตร์จุลภาค",
+      "difficulty_level": 5,
+      "description": "Learn and master Microeconomics",
+      "tags": [
+        "microeconomics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_9",
+      "name": "เศรษฐศาสตร์การเงิน",
+      "difficulty_level": 4,
+      "description": "Learn and master Monetary Economics",
+      "tags": [
+        "monetary",
+        "economics",
+        "skill"
+      ]
+    }
+  ]
+}

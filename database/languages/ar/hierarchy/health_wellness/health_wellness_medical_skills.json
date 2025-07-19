@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_medical_skills",
+  "name": "المهارات الطبية",
+  "skills": [
+    {
+      "id": "skill_2543",
+      "name": "إدارة الدواء",
+      "difficulty_level": 4,
+      "description": "Learn and master Administering Medication",
+      "tags": [
+        "administering",
+        "medication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2544",
+      "name": "التشريح الأساسي",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Anatomy",
+      "tags": [
+        "basic",
+        "anatomy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2545",
+      "name": "المعرفة CPR",
+      "difficulty_level": 4,
+      "description": "Learn and master CPR Knowledge",
+      "tags": [
+        "knowledge",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2546",
+      "name": "السيطرة على العدوى",
+      "difficulty_level": 1,
+      "description": "Learn and master Infection Control",
+      "tags": [
+        "infection",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2547",
+      "name": "الوثائق الطبية",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Documentation",
+      "tags": [
+        "medical",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2548",
+      "name": "اتصال المريض",
+      "difficulty_level": 2,
+      "description": "Learn and master Patient Communication",
+      "tags": [
+        "patient",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2549",
+      "name": "أخذ علامات حيوية",
+      "difficulty_level": 3,
+      "description": "Learn and master Taking Vital Signs",
+      "tags": [
+        "taking",
+        "vital",
+        "signs"
+      ]
+    },
+    {
+      "id": "skill_2550",
+      "name": "فهم المصطلحات الطبية",
+      "difficulty_level": 2,
+      "description": "Learn and master Understanding Medical Terminology",
+      "tags": [
+        "understanding",
+        "medical",
+        "terminology"
+      ]
+    },
+    {
+      "id": "skill_2551",
+      "name": "باستخدام المعدات الطبية",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Medical Equipment",
+      "tags": [
+        "using",
+        "medical",
+        "equipment"
+      ]
+    },
+    {
+      "id": "skill_2552",
+      "name": "تنظيف الجرح",
+      "difficulty_level": 1,
+      "description": "Learn and master Wound Cleaning",
+      "tags": [
+        "wound",
+        "cleaning",
+        "skill"
+      ]
+    }
+  ]
+}

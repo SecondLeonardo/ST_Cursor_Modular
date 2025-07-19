@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_construction",
+  "name": "Budowa",
+  "skills": [
+    {
+      "id": "skill_5195",
+      "name": "Czytanie planu",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5196",
+      "name": "Betonowe wykończenie",
+      "difficulty_level": 3,
+      "description": "Learn and master Concrete Finishing",
+      "tags": [
+        "concrete",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5197",
+      "name": "Rozbiórka",
+      "difficulty_level": 5,
+      "description": "Learn and master Demolition",
+      "tags": [
+        "demolition",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5198",
+      "name": "Wiszące płyty gipsowo -gipsowe",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Hanging",
+      "tags": [
+        "drywall",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5199",
+      "name": "Ramy",
+      "difficulty_level": 3,
+      "description": "Learn and master Framing",
+      "tags": [
+        "framing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5200",
+      "name": "Instalacja izolacji",
+      "difficulty_level": 4,
+      "description": "Learn and master Insulation Installation",
+      "tags": [
+        "insulation",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5201",
+      "name": "Instalacja dachowa",
+      "difficulty_level": 1,
+      "description": "Learn and master Roofing Installation",
+      "tags": [
+        "roofing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5202",
+      "name": "Konfiguracja rusztowania",
+      "difficulty_level": 3,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5203",
+      "name": "Bezpieczeństwo witryny",
+      "difficulty_level": 3,
+      "description": "Learn and master Site Safety",
+      "tags": [
+        "site",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5204",
+      "name": "Badanie",
+      "difficulty_level": 4,
+      "description": "Learn and master Surveying",
+      "tags": [
+        "surveying",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

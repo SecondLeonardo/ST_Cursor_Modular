@@ -1,0 +1,3714 @@
+# Product Requirements Document (PRD) for SkillTalk
+
+## 1. Project Overview
+- **Objective**: SkillTalk is a platform designed to connect people based on complementary skills and similar languages. The goal is to match users with skill partners whose areas of expertise align with the skills they wish to learn, and vice versa.
+- **Key Problems Solved**:
+  - Connecting people with complementary skills.
+  - Helping learners find coaches and mentors.
+  - Helping professional teachers and tutors find students.
+  - Finding long-term learning partners.
+  - Connecting subject matter experts across borders.
+  - Facilitating peer-to-peer skill exchange.
+- **Target Audience**: Individuals looking to learn new skills and connect with others for mutual skill exchange.
+- **Platform**: iOS
+- **Tech Stack**: Flutter for cross-platform development, Firebase for backend services, Agora for real-time communication, Cloudinary for media storage. MongoDB. firebase and supabase for autentication.
+
+2. Technical Stack Overview
+- Data Collection: Firebase Firestore and MongoDB Atlas for database, Firebase Analytics, Google Cloud NLP API
+- Data Processing: Firestore, TensorFlow (for machine learning), Google Cloud Functions
+- Ad Integration: Google AdMob, Facebook Ads SDK, Custom Ad Server
+- User Authentication & Data Privacy: Firebase Authentication, Supabase authentication, OAuth, Encryption
+- Analytics: Firebase Analytics, Mixpanel
+- Real-Time Communication: Agora, Daily.co, Jitsi Meet
+- Media Storage: Firebase Storage, Cloudinary
+
+3. Backend Services Multi-Provider Strategy
+SkillTalk iOS app implements a comprehensive multi-provider architecture for maximum reliability and performance:
+
+| Service Layer | Primary Provider | Backup Provider | Purpose |
+|---------------|------------------|-----------------|---------|
+| Authentication | Firebase | Supabase | User login, registration, session management |
+| User Profile DB | Firestore | Supabase Postgres | User profiles, skills, preferences storage |
+| Chat Messaging | Realtime DB | Pusher/Ably | Real-time chat messages, typing indicators |
+| Media Uploads | Firebase Storage | Cloudflare R2 | Profile images, chat media, voice recordings |
+| Voice/Video Calls | Agora | Daily.co | One-on-one and group voice/video calls |
+| Voice Room | Agora RTM & RTC | 100ms.live | Live audio rooms, broadcasting features |
+| Translation | LibreTranslate | DeepL | Real-time message and content translation |
+| Push Notifications | FCM | OneSignal | Chat notifications, match alerts, system updates |
+| Coin & Subscriptions | RevenueCat + StoreKit | Google Play Billing | In-app purchases, premium subscriptions |
+| Post Feed | Firestore | Supabase | Social posts, comments, likes, user content |
+| User Matching | Supabase Edge Functions | Firebase Cloud Function | Skill-based matching algorithm and logic |
+
+## 2.5 Databases
+we have a skilldatabse already with aproximatly 6000 skill in 30 languages, and 5 database for languages, cities, countries, hobies, occupations.
+
+
+## 3. Features
+
+### 3.1 Real-Time Voice & Text Messaging
+- **Description**: Enable users to send instant messages and voice notes.
+- **Technologies**: WebSockets for real-time chat, AI-based Speech Recognition for voice processing.
+- **Dependencies**: Google Speech API, IBM Watson for NLP, Agora for voice communication.
+
+### 3.2 AI-Powered Skill Learning Features
+- **Description**: AI chatbots for skill practice, grammar correction, and personalized learning recommendations.
+- **Technologies**: Machine Learning for adaptive learning, AI-driven text analysis.
+- **Dependencies**: OpenAI API, Google Cloud NLP.
+
+### 3.3 Community & Social Features
+- **Description**: News feed for skill learning posts, topic-based discussion forums.
+- **Technologies**: Social Graph Database for friend recommendations.
+- **Dependencies**: Firebase for push notifications.
+
+### 3.4 Monetization & Payment Processing
+- **Description**: VIP memberships, in-app currency for virtual gifts, paid skill tutoring sessions.
+- **Technologies**: Payment Gateway integration.
+- **Dependencies**: Stripe, PayPal, Google Play, Apple Pay.
+
+### 3.5 User Flow and Onboarding
+- **Onboarding Flow**:
+  1. App Introduction Screens: Welcome message & app features.
+  2. Sign In: Options for Apple, Google, Facebook, or phone number.
+  3. Language Setup: Choose native and second languages.
+  4. Skill Configuration: Choose expert and target skills.
+  5. Profile Creation: Enter name, username, phone number, country, age.
+
+- **Main App Navigation**:
+  - SkillTalk (Messages) Page: List of ongoing conversations, real-time messaging.
+  - Match / Discover Page: View suggested user matches based on languages and skills.
+  - Posts Page: Browse and create posts, interact with content.
+  - VoiceRoom Page: Join or host group voice rooms and liverooms.
+  - My Profile Page: Complete user info, access settings.
+
+### 3.6 Wireframes
+- **Pages**:
+  1. SkillTalk
+  2. Match
+  3. Posts
+  4. voiceroom/liveroom
+  5. Profile & settings
+
+- **Sub Pages**:
+  - Approximately 133 sub pages, including elements like chat settings, group chat, and profile management.
+
+- **Profile Design**:
+  - **User Stats**: Posts, following, followers, visitors.
+  - **Share Popup**: Share card view and QR code view for profile sharing.
+  - **Sub Profile Page**: Includes picture, name, self-introduction, username, languages, expertise, target skills, city, gender, birthday, occupation, school.
+
+### 3.7 UI/UX Design Elements
+- **General Layout & Design**:
+  - **Color Scheme**: Bright Teal, white, and light gray as primary colors.
+  - **Typography**: Simple and clean sans-serif font.
+  - **Icons & Images**: Circular profile pictures, rounded square icons.
+
+- **Profile Page**:
+  - **User Stats**: Posts, following, followers, visitors.
+  - **VIP Features**: Comparison between Free & VIP.
+  - **Language Courses**: Grid of learning modules.
+
+- **Posts Page**:
+  - **Colors & Theme**: Light theme with white background, teal accents.
+  - **UI Elements**: Header section, pinned section, post feed section.
+  - **Functionality**: Post viewing, interaction, and creation.
+
+- **Following & Followers Pages**:
+  - **Design Elements**: White background, black text, teal accents.
+  - **Functionality**: View and manage followed accounts, interact with followers.
+
+- **Visit Info Page**:
+  - **UI Design**: White background, gradient buttons.
+  - **Functionality**: Insights into profile visitors, visited profiles, and liked profiles.
+
+- **Self-Introduction Page**:
+  - **Voice Introduction**: Record and delete voice intro.
+  - **Text Input**: Free-form self-introduction.
+  - **Suggested Self-Introduction**: Pre-written text suggestions.
+
+- **Get SkillTalk VIP Popup**:
+  - **Design**: Gradient pink-to-white background, subscription pricing section.
+  - **Functionality**: Encourages VIP membership for additional features.
+
+- **MBTI Selection Page**:
+  - **Design**: 4x4 grid layout for MBTI types.
+  - **Functionality**: Select and save MBTI personality type.
+
+- **Blood Type Selection Page**:
+  - **Design**: Oval-shaped buttons for blood types.
+  - **Functionality**: Select and save blood type.
+
+- **My Hometown Page**:
+  - **Design**: Search bar and selected city tag.
+  - **Functionality**: Select or update hometown.
+
+- **Occupation Selection Page**:
+  - **Design**: Category tabs and occupation options.
+  - **Functionality**: Select and save occupation.
+
+- **My School Page**:
+  - **Design**: Search bar and school selection.
+  - **Functionality**: Search or add school to database.
+
+- **Gender Page**:
+  - **Design**: Selection indicator and warning message.
+  - **Functionality**: Select and save gender.
+
+- **Birthday Page**:
+  - **Design**: Date picker and warning message.
+  - **Functionality**: Select and save birthday.
+
+
+## 4. Core Features
+- **User Profile & Skill Matching**:
+  - Language Setup: Set native language(s) and second language(s).
+  - Proficiency Levels: Users select their fluency level in each language.
+  - Skill Setup: Set expert skill(s) and Target skill(s).
+  - Matchmaking System: Suggests users based on skill compatibility and similar language.
+
+- **Learning Tools**:
+  - Text & Voice Messaging: Core communication via chat or voice notes.
+  - Voice & Video Calls: One-on-one real-time skill practice.
+  - Translation & Correction Tools: Tap-to-translate messages, auto-correct, and AI-enhanced suggestions.
+
+- **Voice Rooms & Live Audio rooms**:
+  - Live Voice Rooms: Public or private discussion spaces on various topics.
+  - Interactive Tools: Send gifts, raise hand to speak, chat while listening.
+
+- **Live Streaming & Posts**:
+  - Live Broadcasts: Users can host skill learning sessions or academic discussions.
+  - Posts (Social Feed): Share text, photos, audio clips.
+
+- **Virtual Economy**:
+  - Gifts & Coins: Users buy coins with real money.
+  - VIP Membership: Access to premium features.
+
+- **Discovery & Search**:
+  - Explore People: Discover users based on skill, language, location, or interests.
+
+- **Learning Resources & AI Tools**:
+  - AI Chat Partners: Practice with AI skill bots.
+  - Grammar Tools: Suggestions for correct sentence structures.
+
+- **Safety, Moderation & Settings**:
+  - Report & Block: Protect users from harassment or inappropriate content.
+
+- **Gamification & Community Building**:
+  - Badges & Levels: For participation, skill usage, streaks.
+
+## 4.2 SkillTalk Skill Database Implementation Guide
+
+> **Note:** The SkillTalk skill database is already fully implemented and lives in the `/database` directory. No new implementation is required—this section documents the actual system for Task Master and all developers. All access to the skill database must use the service/provider pattern as described below.
+
+### Database Structure Overview
+
+The SkillTalk skill database is designed for optimal performance with multilingual support, lazy loading, and efficient querying.
+
+#### Key Design Principles
+1. **Separation of Core Data and Translations**
+   - Core data (IDs, relationships, metadata) stored separately from language-specific content
+   - Allows loading only the needed language, not all languages at once
+2. **Hierarchical Lazy Loading**
+   - Follows the Category → Subcategory → Skills pattern
+   - Each level loaded independently when needed
+3. **Language-Specific Organization**
+   - Translations organized by language code in separate directories
+   - Allows loading only the currently active language
+4. **Performance Indexes**
+   - Pre-built indexes for common query patterns
+   - Supports faster lookups and filtering
+
+#### File Structure
+
+```
+database/
+├── core/
+│   ├── categories.json       # Core category data (no translations)
+│   ├── subcategories.json    # Core subcategory data 
+│   ├── skills.json           # Core skill data
+│
+├── languages/
+│   ├── en/                   # English translations
+│   │   ├── categories.json   # Category translations
+│   │   ├── subcategories.json # Subcategory translations
+│   │   ├── skills.json       # Skill translations
+│   │   ├── hierarchy/        # Hierarchical structure for lazy loading
+│   │       ├── category_id.json  # Category with subcategories
+│   │       ├── category_id/      # Subcategory folders
+│   │           ├── subcategory_id.json # Subcategory with skills
+│   ├── es/                   # Spanish translations
+│   └── [other languages]
+│
+├── indexes/
+│   ├── difficulty_index.json # Skills grouped by difficulty
+│   ├── popularity_index.json # Skills grouped by popularity
+│   ├── tag_index.json        # Skills grouped by tags
+│   └── category_tree.json    # Hierarchical structure index
+├── cache_config.json         # Caching settings
+```
+
+#### Core Models
+
+(Include the full Dart class definitions for SkillModel, SkillCategoryModel, SkillSubcategoryModel, UserSkill, as in the guide)
+
+#### Database Helper & Hierarchy Manager
+
+(Include the DatabaseHelper and SkillHierarchyManager Dart classes as in the guide)
+
+#### Skill Compatibility Matrix
+
+(Include the SkillCompatibilityMatrix Dart class as in the guide)
+
+#### Service Integration
+
+- **ISkillDatabaseService Interface**
+- **MultiSkillDatabaseService**
+
+(Include the interface and multi-provider pattern code as in the guide)
+
+#### Best Practices
+
+- Always access the skill database through the ServiceProvider (never instantiate services directly)
+- Use progressive disclosure for skill selection (Category → Subcategory → Skill)
+- Implement proper error handling and loading states
+- Use consistent terminology: `targetSkill`, `expertSkill`, `proficiencyLevel`
+
+#### Terminology Consistency
+- Always use `targetSkill` and `targetSkillId` (never `wishSkill` or `wishSkillId`)
+- Use `expertSkill` and `expertSkillId` for skills to teach
+- Use `proficiencyLevel` for skill level (not `level` or `skillLevel`)
+
+#### Loading State Management
+- Implement loading states for all skill data access
+
+#### Reference
+- The `/database` directory is the canonical source of truth for the skill database structure and content.
+
+---
+
+**Rules applied:**
+- No information loss: All previous requirements and context are preserved.
+- Naming consistency: `targetSkill`, `expertSkill`, etc.
+- Multi-provider/service pattern: All access via service/provider.
+- Explicit rules statement: This note.
+
+## 4.3 Analytics & Metrics
+- **SkillAnalyticsProvider**: Tracks key metrics:
+  - Average skill selection time
+  - Match success rate
+  - User satisfaction rate
+  - Skill coverage rate
+  - Search abandonment count
+
+```dart
+// Example: Tracking skill selection time
+await analyticsProvider.trackSkillSelectionTime(startTime, endTime);
+```
+
+### 4.4 UI Components
+- **CategoryTile**: Displays skill categories with icons
+- **SubcategoryTile**: Shows subcategories in list format
+- **SkillTile**: Individual skill display with popularity and difficulty
+- **SkillProficiencySelector**: Level selection UI
+- **SkillSmartSuggestions**: Recommendations interface
+- **SkillProgressiveDisclosure**: Hierarchical selection UI
+
+### 4.5 Data Management
+- **SkillHierarchyManager**: Manages the 3-level hierarchy structure
+- **SkillDatabaseInitializer**: Seeds initial skill data
+- **SkillRegionAnalyticsService**: Handles regional customization
+
+## 4.6 Key Design Decisions
+
+1. **Hierarchical Structure**: 3-level hierarchy prevents overwhelming users while providing comprehensive coverage
+2. **Multi-Language First**: All components designed for internationalization from the start
+3. **Progressive Disclosure**: Users see only relevant options at each step
+4. **Smart Defaults**: Regional and algorithmic recommendations reduce friction
+5. **Relationship-Based Matching**: Skills connect through multiple dimensions for better matches
+6. **Continuous Optimization**: Analytics track success metrics for ongoing improvement
+
+## 4.7 Integration Flow
+
+1. **Onboarding**: Users select expert and target skills using progressive disclosure or smart suggestions
+2. **Matching**: System uses compatibility matrix to find optimal skill exchange partners
+3. **Analytics**: All interactions tracked for continuous improvement
+4. **Regional Adaptation**: System adapts to local preferences and cultural nuances
+
+This architecture ensures users can easily find and select skills while the system maintains rich data for successful matching globally.
+
+
+## 5. onboarding
+### 5.1 Welcome Page
+- **Description**: The initial screen users see when they open the app for the first time.
+- **UI/UX Design**:
+  - **Layout & Structure**: Clean, structured, and user-friendly with a focus on skill exchange.
+  - **Visual Elements**: Gradient background, bold app name, and tagline emphasizing global reach.
+  - **Functional Elements**: Sign-in options with recognizable brand colors, language greeting bubbles.
+  - **Interaction Flow**: Tapping sign-in options triggers respective authentication flows.
+
+### 5.2 Basic Info Page
+- **Description**: Collects essential user information during onboarding.
+- **UI/UX Design**:
+  - **Layout & Structure**: Minimalistic and user-friendly with a progress bar.
+  - **Visual Elements**: Light gradient background, bold text for emphasis.
+  - **Functional Elements**: Interactive fields for country, languages, expertise, and target skills.
+  - **User Experience**: Step-by-step onboarding with a disabled "Next" button until fields are filled.
+
+### 5.3 Country Selection
+- **Description**: Allows users to select their country during onboarding.
+- **UI/UX Design**:
+  - **Navigation & Header**: Back button and centered title.
+  - **Visual Elements**: Circular flag icons, alphabetical country list with A-Z index.
+  - **Functionality**: Tapping a country selects it, with a highlight effect.
+
+### 5.4 Native Language Page
+- **Description**: Enables users to select their native language.
+- **UI/UX Design**:
+  - **Language Selection List**: Alphabetically organized with native script.
+  - **Functionality**: Tapping a language updates selection with a checkmark.
+
+### 5.5 Second Language Page
+- **Description**: Allows users to select their second language and proficiency.
+- **UI/UX Design**:
+  - **Proficiency Selection**: Dropdown for proficiency levels with dot indicators.
+  - **Functionality**: Selection confirmed with a checkmark.
+
+### 5.6 Expertise Page
+- **Description**: Users select their areas of expertise.
+- **UI/UX Design**:
+  - **Category & Skill Selection**: Dropdowns for categories and skills.
+  - **Functionality**: Selection confirmed with a checkmark.
+
+### 5.7 Target Skill Page
+- **Description**: Users select skills they wish to learn.
+- **UI/UX Design**:
+  - **Category & Skill Selection**: Similar to expertise page.
+  - **Functionality**: Selection confirmed with a checkmark.
+
+### 5.8 Introduction Page
+- **Description**: Collects personal details like name, birthday, and gender.
+- **UI/UX Design**:
+  - **Form Elements**: Input fields for name and birthday, gender selection buttons.
+  - **Functionality**: Date picker for birthday, gender selection with visual feedback.
+
+### 5.9 Add a Profile Picture
+- **Description**: Final step in profile setup.
+- **UI/UX Design**:
+  - **Profile Picture Placeholder**: Circular area with an add button.
+  - **Functionality**: Image selection and cropping, enabling "Start Learning" button.
+
+### 5.10 How Did You Hear About SkillTalk?
+- **Description**: Gathers user insights on app discovery.
+- **UI/UX Design**:
+  - **Selection Options**: Rows with icons and checkboxes.
+  - **Functionality**: Selection activates "Start Learning" button.
+
+### 5.11 Allow Location Popup
+- **Description**: Requests location access for better partner recommendations.
+- **UI/UX Design**:
+  - **Pop-Up Box**: White rounded rectangle with map preview.
+  - **Functionality**: Options for allowing location access, affecting partner recommendations.
+
+
+## 6. Profile Page & Related Features
+### 6.1 Profile Design
+- **User Stats Section**:
+  - Posts count
+  - Following count
+  - Followers count
+  - Visitors count
+- **Share Popup**:
+  - Share card view
+  - QR code view for profile sharing
+- **Sub Profile Page Elements**:
+  - Profile picture
+  - Name
+  - Self-introduction
+  - Username
+  - Languages
+  - Expertise
+  - Target skills
+  - City
+  - Gender
+  - Birthday
+  - Occupation
+  - School
+
+
+#### 6.1.2 Profile Page Design Guidelines
+- **Color Usage**:
+  - Primary actions: Teal (#00D8C0)
+  - Critical actions: Red (#E53935)
+  - Background: White (#FFFFFF)
+  - Text: Black (#000000) for primary, Gray (#757575) for secondary
+- **Typography**:
+  - Headers: Bold sans-serif
+  - Body text: Regular sans-serif
+  - Stats: Large bold numbers
+- **Layout Principles**:
+  - Consistent padding and margins
+  - Clear visual hierarchy
+  - Responsive grid system
+  - Touch-friendly targets
+- **Interactive Elements**:
+  - Rounded corners for buttons
+  - Clear hover/active states
+  - Consistent iconography
+  - Accessible touch targets
+ 
+### 6.2 Streak Page
+- **UI/UX Design**:
+  - **Colors & Theme**:
+    - Light/white background for readability
+    - Pastel gradients (blues, teals, oranges) for warmth
+    - Black and gray for typography
+    - Blue/pink for interactive elements
+  - **Typography**:
+    - Large bold fonts for streak count
+    - Medium-weight for section headers
+    - Lighter fonts for supporting details
+    - Consistent sans-serif fonts
+  - **Layout Structure**:
+    1. Header/Hero Area
+       - Current streak count
+       - Motivational tagline
+       - User icon/avatar
+    2. Streak Progress Section
+       - Horizontal scroll calendar
+       - Achievement indicators
+       - Progress bars/dots
+    3. Streak Stats Section
+       - Audience Total
+       - Events Hosted
+       - Gift Income
+    4. Call-to-Actions
+       - Share streak
+       - Host new event
+       - View analytics
+
+### 6.3 Freeze Card Popup
+- **UI/UX Design**:
+  - **Colors**:
+    - White popup overlay
+    - Warm orange-yellow for purchase button
+    - Light blue for Freeze Card icon
+    - Light grey for secondary text
+  - **Layout**:
+    - Rounded edges
+    - Centered title
+    - Icon with padding
+    - Clear action button
+    - Footnote text
+  - **Functionality**:
+    - Purchase Freeze Card (20 ST Coins)
+    - Automatic consumption
+    - Streak preservation
+
+### 6.4 Lottery Reward Popup
+- **UI/UX Design**:
+  - **Colors**:
+    - Warm celebratory tones (gold, orange, beige)
+    - Grey/silver for CTA button
+    - Light flares and sparkles
+  - **Layout**:
+    - 3x3 reward grid
+    - Achievement banner
+    - Clear CTA button
+  - **Rewards**:
+    - Freeze Cards
+    - ST Coins
+    - Comment Bubbles
+    - Other virtual items
+
+### 6.5 ST Coins Shop
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "ST Coins"
+    - Back arrow
+    - Menu/Settings icon
+    - Currency icon
+  - **Balance Section**:
+    - ST Coins balance
+    - Diamond balance
+    - Navigation arrow
+  - **Bonus Section**:
+    - Gift package rewards
+    - Time limit indicator
+  - **Purchase Options**:
+    - Multiple coin packages
+    - Clear pricing
+    - Visual coin icons
+  - **Usage Section**:
+    - Gift sending
+    - Stickers
+    - Profile boost
+    - Post boost
+    - Stage pass
+    - Call subtitles
+
+### 6.6 Shopping Center
+- **UI/UX Design**:
+  - **Color Scheme**:
+    - Dark-themed gradient background
+    - Teal for CTAs
+    - Yellow for ST Coin icon
+  - **Layout**:
+    - Top navigation bar
+    - Tab menu (Popular, Bubbles, Gift Banner, Profile Frame)
+    - Item grid
+    - Bottom utility row
+  - **Features**:
+    - Item previews
+    - Cost and duration display
+    - Buy buttons
+    - Top-up option
+    - Balance display
+
+### 6.7 Account Overview
+- **UI/UX Design**:
+  - **Layout**:
+    - Clean white background
+    - ST Coin/Diamonds tabs
+    - Metrics display
+    - Time range filter
+  - **Features**:
+    - Transaction history
+    - Balance tracking
+    - Payment records
+    - Date filtering
+
+### 6.8 Other User Profile
+- **UI/UX Design**:
+  - **Three-Dot Menu Popup**:
+    - Clean white background
+    - Rounded corners
+    - Vertical list format
+    - Red for critical actions
+    - Teal for cancel button
+  - **Options**:
+    - Add Nickname/Notes
+    - Share to Partner
+    - Hide Posts
+    - Privacy Controls
+    - Post Alerts
+    - Unblock/Report
+    - Cancel
+
+
+## 7. VIP Subscription Page
+- **Description**: Offers a comparison between VIP and Non-VIP privileges, subscription plans, and a seamless purchase flow.
+- **UI/UX Design**:
+  - **Top Section**: Includes a back arrow for navigation, title "Get SkillTalk VIP", and a tab selector for "Comparison" and "Details".
+  - **Comparison Table**: Highlights privileges for Non-VIP and VIP users with icons and checkmarks.
+  - **Subscription Plans**: Displayed in card-like boxes with pricing and discount information.
+  - **Bottom Section**: Features a "Continue" button leading to the App Store.
+  - **Detailed Design**: 
+    - **Comparison Table**: 
+      - Non-VIP (Gray Crown) vs VIP (Gold Crown) privileges.
+      - Features like "Unlock Visitors page", "Learn/Teach more Skills", "Extra Profile Exposure", etc.
+      - Table Design: Light gray borders, crown icons, and availability symbols (❌/✅).
+    - **Subscription Plans**:
+      - 1 Month Plan (€9.99), 12 Months Plan (€59.99 - Most Popular), Lifetime Plan (€149.99 - Best Value).
+      - Pricing Layout: Discounts shown using strikethrough pricing and teal savings text.
+
+
+## 8. Match Page and Filters
+- **Description**: The Match page allows users to find skill partners using various filters such as skill, language, and location.
+- **Design Elements**: The page includes a top section with a VIP upgrade button, a title "Find Match", and a boost profile button. User cards display profile pictures, skill pairs, and status indicators. The bottom navigation bar includes icons for SkillTalk, Match, Posts, VoiceRoom, and Profile.
+- **Functionality**: Users can apply filters to refine their search for skill partners, view user cards with detailed information, and interact with potential matches.
+
+### 8.1 Custom Search and Boost Center
+- **Description**: Custom search allows users to refine their search criteria for skill partners, while the Boost Center offers profile visibility enhancements.
+- **Design Elements**: The custom search page includes navigation and title elements, tab filters, and user cards. The Boost Center features a top section with a back arrow, title, and tab selector, as well as options for selecting boost targets and audience size.
+- **Functionality**: Users can perform custom searches with specific filters and boost their profile visibility to reach more active users.
+
+### 8.2 Skill Filters
+- **Description**: Various filters such as Expert Skill, Target Skill, Language, Country/Region, City, Interest & Hobbies, and Occupation allow users to narrow down their search for skill partners.
+- **Design Elements**: Each filter modal includes a top navigation bar, filter chips, selection lists, and bottom action buttons.
+- **Functionality**: Users can select multiple options within each filter, apply or reset selections, and use alphabetical scroll indexes for quick navigation.
+
+### 8.3 Nearby Popup
+- **Description**: The "Nearby" popup on the Match page encourages users to connect with skill partners in their vicinity.
+- **UI/UX Design**:
+  - **Colors**: Teal gradient for CTA, gray and white backgrounds for contrast.
+  - **Shapes**: Circular profile photos, pill-shaped buttons, rounded corners.
+  - **Typography**: Bold for names and CTAs, lighter gray for secondary text.
+- **Functionality**: Users can view profiles based on proximity and are prompted to upgrade to VIP for full access.
+
+### 8.4 Gender Popup
+- **Description**: The Gender Filter popup allows users to filter matches by gender, part of the VIP funnel.
+- **UI/UX Design**:
+  - **Colors**: Pink & Blue icons for gender symbols, gradient CTA.
+  - **Shapes**: Circular profile pictures, rounded tags and badges.
+  - **Typography**: Bold usernames, hierarchical sizing.
+- **Functionality**: Users can filter matches by gender and are prompted to upgrade for full access.
+
+### 8.5 Selfie Tab Unlock Popup
+- **Description**: A time-limited, coin-based unlock feature for accessing selfie content.
+- **UI/UX Design**:
+  - **Colors**: Primary Teal for CTA, gray for body copy.
+  - **Illustration**: Cartoon-style hand holding a smartphone.
+  - **Typography**: Bold title, clear body text.
+- **Functionality**: Users can unlock the tab for 120 minutes using coins.
+
+### 8.6 City Filter Popup
+- **Description**: The City filter popup allows users to refine matches by location.
+- **UI/UX Design**:
+  - **Colors**: Soft lavender gradients, teal-to-blue gradient for CTA.
+  - **Shapes**: Rounded edges, circular avatars.
+  - **Typography**: Clean, sans-serif font.
+- **Functionality**: Users can filter matches by city and are prompted to upgrade for full access.
+
+### 8.7 Paid Practice Tab
+- **Description**: The Paid Practice tab showcases users offering paid skill practice.
+- **UI/UX Design**:
+  - **Colors**: Clean white backgrounds, orange for highlighting.
+  - **Shapes**: Rounded buttons and containers.
+  - **Typography**: Bold usernames, hierarchical structure.
+- **Functionality**: Users can initiate paid practice sessions, requiring coins or subscription.
+
+### 8.8 Paid Practice Popup
+- **Description**: A modal popup explaining the Paid Practice feature and coin-based transactions.
+- **UI/UX Design**:
+  - **Colors**: Teal for Confirm button, white background.
+  - **Shapes**: Rounded rectangle modal, circular checkbox.
+  - **Typography**: Bold title, clear body text.
+- **Functionality**: Users are informed about the coin transaction and can opt out of repeated prompts.
+
+
+## 9. SkillTalk Page
+- **Description**: The main chat interface where users can manage conversations and connect with others.
+- **UI/UX Design**:
+  - **Header Section**: Title "SkillTalk", icons for chat selection, adding contacts, and upgrading to VIP.
+  - **Search Bar**: Rounded with placeholder text "See who's online".
+  - **Feature Buttons Row**: Quick access to courses, pro partner, translation, and AI tutor.
+  - **Chat List Section**: Displays profile pictures, contact names, message previews, and unread message counts.
+  - **Pop-Up from Add Contact**: Options for group chat, adding partners, and scanning QR codes.
+### 9.1 Chat Selection
+- **Description**: Allows users to select multiple chats for batch actions.
+- **UI/UX Design**:
+  - **Title & Status Bar**: Updates dynamically based on selected conversations.
+  - **Promotional Banner**: Displays VIP offers with a countdown timer.
+  - **Chat List Section**: Includes selection circles and VIP badges.
+  - **Bottom Toolbar**: Options for reading, archiving, and deleting chats.
+
+### 9.2 Chat Conversation Screen
+- **Description**: One-on-one message thread between users.
+- **UI/UX Design**:
+  - **Top Bar**: User info, call and settings icons.
+  - **Chat Body**: Displays messages with status notifications and translation options.
+  - **Message Input**: Includes icons for attachments, emojis, and voice messages.
+  - **Expanded Action Menu**: Offers options like voice calls, gifts, and location sharing.
+
+### 9.3 Sticker Gallery of Keyboard
+- **Description**: Allows users to browse and add stickers to their chats.
+- **UI/UX Design**:
+  - **Visual Style**: Whimsical and playful with rounded card layouts.
+  - **Functionality**: Users can add free sticker packs or purchase premium ones with ST coins.
+  - **User Interaction**: Browse vertically, tap to add or buy stickers, and manage settings.
+
+### 9.3 Chat Settings
+- **Description**: Allows users to customize and manage settings for a specific chat.
+- **UI/UX Design**:
+  - **Top Bar**: Includes a back arrow and title "Chat Settings".
+  - **User Profile Section**: Displays profile picture, country flag, and editable username.
+  - **Main Settings Sections**: Includes notification settings, chat content management, conversation management, chat appearance, privacy controls, communication settings, and safety features.
+
+### 9.4 Chat Files
+- **Description**: Displays shared media between users in a private chat.
+- **UI/UX Design**:
+  - **Navigation Bar**: Includes a back arrow and page title "Chat Files".
+  - **Media Type Toggle Tabs**: Allows switching between image/video and voice categories.
+  - **Content Area**: Displays thumbnails of shared media.
+
+### 8.5 Search History
+- **Description**: Allows users to search through their entire chat history with specific filters.
+- **UI/UX Design**:
+  - **Navigation Bar**: Includes a back arrow and search bar.
+  - **Filter Buttons**: Allows filtering by date and type.
+  - **Search Result Area**: Displays user info and search results with translations.
+
+### 9.6 Set Chat Background
+- **Description**: Enables users to customize the chat background.
+- **UI/UX Design**:
+  - **Navigation Bar**: Includes a back arrow and title "Set chat background".
+  - **VIP Promotion Banner**: Promotes exclusive features for VIP members.
+  - **Upload from Device Option**: Allows selecting a custom image.
+  - **Preset Background Grid**: Displays available backgrounds for selection.
+
+### 9.7 Clear Chat History
+- **Description**: Confirms the action to permanently delete chat history.
+- **UI/UX Design**:
+  - **Background Screen**: Dimmed to focus on the popup.
+  - **Modal Popup**: Includes a title, primary action button, and cancel option.
+
+### 8.8 Block
+- **Description**: Allows users to block a specific contact.
+- **UI/UX Design**:
+  - **Background Layer**: Dimmed to focus on the popup.
+  - **Modal Dialog Container**: Includes a title, description, and action buttons.
+
+### 9.9 Report Page
+- **Description**: Interface for reporting a contact with predefined categories.
+- **UI/UX Design**:
+  - **Navigation & Header**: Includes a back arrow and title "Report".
+  - **Report Reasons List**: Selectable radio button items.
+  - **Additional Description Field**: Allows adding context to the report.
+  - **Block Option**: Checkbox to block the user while reporting.
+
+### 9.10 Choose
+- **Description**: Allows selecting users to create a group chat.
+- **UI/UX Design**:
+  - **Page Title & Navigation**: Includes a back button and "OK" button.
+  - **Tabs**: Switch between recent and partner users.
+  - **Search Bar**: Allows filtering users by name or language.
+  - **User List Item**: Displays user info and selection indicators.
+
+### 9.11 Group Chat
+- **Description**: Interface for group conversations with multiple participants.
+- **UI/UX Design**:
+  - **Top Navigation Bar**: Includes back arrow, chat title, subtitle, search, and settings icons.
+  - **Chat Content Area**: Displays message bubbles, system messages, and disclaimers.
+  - **Input Toolbar**: Includes text input field and action buttons for attachments, media, emojis, translation, and voice messages.
+
+### 9.12 Group Chat Search
+- **Description**: Allows searching messages within a group chat.
+- **UI/UX Design**:
+  - **Top Navigation Bar**: Includes back arrow and search input field.
+  - **Filter Buttons**: Allows filtering by date, members, and type.
+  - **Search Results Section**: Displays user info, message previews, and timestamps.
+
+### 9.13 Group Chat Settings
+- **Description**: Manage group chat settings and preferences.
+- **UI/UX Design**:
+  - **Page Header**: Includes title and navigation options.
+  - **Top Section**: Editable group name and member management.
+  - **Group Functions**: Includes group notice, QR code, and approval settings.
+  - **Chat Settings**: Includes chat files, search history, notifications, and personalization options.
+  - **Bottom Section**: Critical actions like reporting, clearing history, and leaving group.
+
+### 9.14 Group Name
+- **Description**: Allows editing the group chat name.
+- **UI/UX Design**:
+  - **Navigation Bar**: Includes back button and "OK" button.
+  - **Editable Group Name Field**: Allows typing a custom group name.
+
+### 9.15 Group Members
+- **Description**: Manage group members and their roles.
+- **UI/UX Design**:
+  - **Top Section**: Includes navigation and edit options.
+  - **Member List**: Displays profile pictures, names, skills, and proficiency indicators.
+  - **Edit Mode**: Allows removing members with visual indicators.
+
+### 9.16 Add Members to the Group
+- **Description**: Interface for selecting and adding new members to a group.
+- **UI/UX Design**:
+  - **Top Navigation Bar**: Includes back arrow and "OK" button.
+  - **Tab Selector**: Switch between recent and partner users.
+  - **User Card**: Displays user info and selection indicators.
+
+### 9.17 Group QR Code
+- **Description**: Allows inviting others to join the group via a QR code.
+- **UI/UX Design**:
+  - **Top Navigation Bar**: Includes back arrow and title.
+  - **Group Profile Preview**: Displays member avatars and group name.
+  - **QR Code**: Centered for easy scanning.
+
+### 9.18 Leave Group & Delete Chat
+- **Description**: Confirms the action to leave a group and delete chat history.
+- **UI/UX Design**:
+  - **Background Layer**: Dimmed to focus on the popup.
+  - **Modal Popup**: Includes title and action buttons for confirmation and cancellation.
+
+### 9.19 SkillTalk VIP Subscription Page
+- **Description**: Offers a comparison between VIP and Non-VIP privileges, subscription plans, and a seamless purchase flow.
+- **UI/UX Design**:
+  - **Top Section**: Includes a back arrow for navigation, title "Get SkillTalk VIP", and a tab selector for "Comparison" and "Details".
+  - **Comparison Table**: Highlights privileges for Non-VIP and VIP users with icons and checkmarks.
+  - **Subscription Plans**: Displayed in card-like boxes with pricing and discount information.
+  - **Bottom Section**: Features a "Continue" button leading to the App Store.
+  - **Detailed Design**: 
+    - **Comparison Table**: 
+      - Non-VIP (Gray Crown) vs VIP (Gold Crown) privileges.
+      - Features like "Unlock Visitors page", "Learn/Teach more Skills", "Extra Profile Exposure", etc.
+      - Table Design: Light gray borders, crown icons, and availability symbols (❌/✅).
+    - **Subscription Plans**:
+      - 1 Month Plan (€9.99), 12 Months Plan (€59.99 - Most Popular), Lifetime Plan (€149.99 - Best Value).
+      - Pricing Layout: Discounts shown using strikethrough pricing and teal savings text.
+
+### 9.20 App Store Subscribe Popup
+- **Description**: The Apple system modal that appears when users tap "Continue" on the SkillTalk VIP Subscription Page.
+- **UI/UX Design**:
+  - **Visual Style**: System-native modal with a clear, minimal, and neutral-toned design.
+  - **Structure & Visual Hierarchy**: Includes App Store title, subscription info block, policy & terms, account email, and subscribe button.
+  - **Functionality**: Confirms the purchase and initiates payment.
+  - **Detailed Analysis**:
+    - **Design Elements**: Rounded popup window, bold subscribe button, generous spacing.
+    - **Text & Typography**: Bold header, large price highlight, clear subscription policy.
+    - **Usability & Accessibility**: Touch-friendly, consistent with Apple's system UI, likely VoiceOver friendly.
+    - **User Flow**: User reviews membership title, pricing, terms, and can subscribe or dismiss.
+
+### 9.21 Classes Page
+- **Description**: Displays all available courses under the SkillTalk platform.
+- **UI/UX Design**:
+  - **Design Elements**: Clean white background, consistent icon use, and engaging promotional banners.
+  - **Structure & Hierarchy**: Includes top tabs, language and skill filter tabs, and a tutor grid.
+  - **Functionality**: Users can book tutors, filter by language and skill, and view promotional deals.
+  - **Detailed Analysis**:
+    - **Design Elements**: Clean white background, soft shadows, rounded cards.
+    - **Structure & Hierarchy**: Top Tabs (Learn vs Classes), Language Filter Tabs, Skill Filter Tabs.
+    - **Usability & Accessibility**: Simple booking flow, touch-friendly buttons, color-coded flags and symbols.
+    - **Functionality Explanation**: Book Tutor button, Calendar Filter, Skill and Language Tabs, Spring Sale banner.
+
+### 9.22 Payment Pop-up
+- **Description**: Provides a detailed breakdown of payment options for classes.
+- **UI/UX Design**:
+  - **Color Scheme**: Soft peach/light beige background with bright orange for CTAs.
+  - **Typography**: Bolded prices and plans for emphasis.
+  - **Functionality**: Users can select session plans and proceed with payment.
+  - **Detailed Analysis**:
+    - **Design Elements**: Rounded pill buttons, session blocks with soft-rounded borders.
+    - **Functionality Explanation**: Duration Tabs, Session Cards, Buy Now button, Support Icon, Tooltip.
+    - **Interaction Flow**: User chooses session length, selects session count, clicks "Buy Now" to proceed.
+
+### 9.23 Top-up to Chat with Paid Partner
+- **Description**: Encourages users to top up coins to chat with paid practice partners.
+- **UI/UX Design**:
+  - **Colors**: Dark mode background with gradient highlights for key elements.
+  - **Shapes**: Card-style elements with rounded corners.
+  - **Functionality**: Users can choose top-up amounts and receive bonus rewards.
+  - **Detailed Analysis**:
+    - **Design Elements**: Dark mode background, gradient highlights, card-style elements.
+    - **Functionality Explanation**: Gift Graphic, Reward Badges, Title & Body Copy, ST Coin Packages, CTA Button.
+    - **User Flow**: Prompted due to insufficient coins, chooses coin tier, taps CTA to complete purchase.
+
+### 9.24 Calls Page
+- **Description**: Interface for managing calls and contacts.
+- **UI/UX Design**:
+  - **General Layout**: Clean, modern appearance with bold typography and intuitive icons.
+  - **Main Content**: Includes search bar, favorites section, and recent calls section.
+  - **Functionality**: Users can initiate new calls, add favorites, and view call details.
+- **Detailed Analysis**:
+  - **Design Elements**: Clean white background, bold typography, intuitive icons.
+  - **Functionality Explanation**: Search Bar, Favorites Section, Recent Calls Section, Bottom Navigation Bar.
+  - **User Flow**: User can search, add favorites, initiate calls, and view call details.
+
+### 9.25 New Call
+- **Description**: Allows users to start a new call with up to 31 people.
+- **UI/UX Design**:
+  - **Header Section**: Includes a cancel button, title, and subtitle indicating selected users.
+  - **Quick Action Buttons**: Options for creating a call link, calling a number, and adding new contacts.
+  - **Contact List Section**: Displays frequently contacted users with selection options.
+- **Detailed Analysis**:
+  - **Design Elements**: Header Section, Search Bar, Quick Action Buttons, Contact List Section.
+  - **Functionality Explanation**: Cancel button, Search bar, New call link, Call a number, New contact.
+  - **User Flow**: User can start a new call, create a call link, call a number, or add new contacts.
+
+### 9.26 New Call Link
+- **Description**: Generates a shareable call link for video or audio calls.
+- **UI/UX Design**:
+  - **Call Link Card**: Displays call type icon, link text, and info text.
+  - **Call Type Section**: Allows selection between video and audio calls.
+  - **Call Link Action List**: Options for sending, copying, sharing, and adding to calendar.
+- **Detailed Analysis**:
+  - **Design Elements**: Call Link Card, Call Type Section, Call Link Action List.
+  - **Functionality Explanation**: Send link via SkillTalk, Copy link, Share link, Add to calendar.
+  - **User Flow**: User can generate a call link, choose call type, and share or add to calendar.
+
+### 9.27 Add Favorite
+- **Description**: Lets users select contacts to add to their favorites for quick access.
+- **UI/UX Design**:
+  - **Top Navigation Bar**: Includes cancel and done buttons.
+  - **Search Bar**: Filters contact list in real-time.
+  - **Contact List Items**: Displays profile pictures, names, and selection circles.
+- **Detailed Analysis**:
+  - **Design Elements**: Top Navigation Bar, Search Bar, Contact List Items.
+  - **Functionality Explanation**: Cancel button, Search bar, Contact selection, Done button.
+  - **User Flow**: User can search contacts, select favorites, and save changes.
+
+
+### 9.28 Group QR Code
+- **Description**: Allows users to invite others to join a group via a scannable QR code.
+- **Design Elements**: Features a top navigation bar, group profile preview, and a centered QR code.
+- **Functionality**: Users can easily share group access through QR codes.
+
+### 9.29 Chat Files Page
+- **Description**: Displays shared media between users in a private chat, segmented into images/videos and voice messages.
+- **Design Elements**: Includes a navigation bar, media type toggle tabs, and a content area for media display.
+- **Functionality**: Users can organize and manage chat media efficiently.
+
+### 9.30 Search History Page
+- **Description**: Allows users to search through their entire chat history with specific filters.
+- **Design Elements**: Features a navigation bar, search bar, filter buttons, and a search result area.
+- **Functionality**: Users can quickly locate past messages using text queries and filters.
+
+### 9.31 Set Chat Background
+- **Description**: Enables users to customize the background of their chat conversation.
+- **Design Elements**: Includes a navigation bar, VIP promotion banner, upload option, and preset background grid.
+- **Functionality**: Users can select from preset themes or upload custom images for chat backgrounds.
+
+### 9.32 Payment Pop-up
+- **Description**: Provides a detailed breakdown of payment options for classes, with a focus on user engagement and conversion.
+- **Design Elements**: Features a warm color scheme, rounded buttons, and clear typography.
+- **Functionality**: Users can select session plans and proceed with payment through a clear and engaging interface.
+
+### 9.33 Top-up to Chat with Paid Partner
+- **Description**: Encourages users to top up coins to chat with paid practice partners.
+- **Design Elements**: Includes a dark mode background, gift pack visuals, and coin package cards.
+- **Functionality**: Users can choose top-up amounts and receive bonus rewards, enhancing the gamified experience.
+
+
+## 10. Posts
+### 9.1 Posts Page
+- **Description**: A social feed where users can post, interact, and engage with skill learners worldwide.
+- **UI/UX Design**: 
+  - **Colors & Theme**: Light gray/white background, dark gray/black icons, teal for active tabs, blue & green for skill progress, yellow for VIP badges.
+  - **Page Structure**: Includes navigation bar, category tabs, posts feed, ad/featured section, and bottom navigation bar.
+  - **Functionality**: Users can like, comment, translate, and share posts, with personalized feeds and skill learning progress bars.
+  - **Detailed Elements**:
+    - **Navigation Bar**: Analyze Icon, Target/Challenge Icon, Search Bar, Bell Icon, Pen Icon.
+    - **Category Tabs**: Recent, For You, Help, Nearby, Following, Language-Specific, Skill-Specific, Trending.
+    - **Posts Feed**: Profile Picture & Name, language info, skill Learning Info, Post Text Content, Interaction Buttons, Time Since Post, Three-Dot Menu.
+    - **Ad/Featured Section**: skill Learning Challenges Banner.
+    - **Bottom Navigation Bar**: SkillTalk, match, Posts, Voiceroom, Me.
+
+### 10.2 Search Bar
+- **Description**: Allows users to explore trending topics and revisit search history.
+- **UI/UX Design**: 
+  - **Layout**: White background, bold black text for headers, well-spaced elements.
+  - **Elements**: Search bar, hot topic section, search history section.
+  - **Functionality**: Users can enter custom queries, view trending topics, and access search history.
+  - **Detailed Elements**:
+    - **Search Bar**: Gray rounded rectangle, magnifying glass icon, "Cancel" button.
+    - **Hot Topic Section**: Trending topics as rounded pill-shaped buttons, "More" button.
+    - **Search History Section**: List of previous searches, trash can icon, blue refresh icon.
+
+### 10.3 Notices Page
+- **Description**: Displays notifications related to posts, comments, and interactions.
+- **UI/UX Design**: 
+  - **Layout**: White background, black text for primary content, gray for secondary text.
+  - **Elements**: Notification categories, ad banner, notification feed.
+  - **Functionality**: Users can view and interact with notifications, with options to send thanks or reply.
+  - **Detailed Elements**:
+    - **Header Section**: "Posts Notices" Title, Back Arrow.
+    - **Notification Categories**: "All", "Comments", "New Posts", "Likes/Q".
+    - **Advertisement Banner**: "skill Buddy Hub" Ad with "View" Button.
+    - **Notification Feed**: Profile Picture, Username, Notification Message, Date.
+    - **Interaction Buttons**: Speech Bubble Icon, "Send Thanks" Button.
+
+### 10.4 Boost Center
+- **Description**: Allows users to boost their posts or profile visibility.
+- **UI/UX Design**: 
+  - **Colors & Aesthetic**: Soft pink and white background, red for trending posts, gradient buttons.
+  - **Elements**: Post selection, boost target selection, audience size selection, pricing section.
+  - **Functionality**: Users can select posts to boost, choose audience size, and confirm boosts with ST Coins.
+  - **Detailed Elements**:
+    - **Top Navigation**: Back Button, Title "Boost Center", Tabs "Posts Boost" and "Profile Boost".
+    - **Post Selection Section**: Post Content, Hot Tag, Engagement Metrics.
+    - **Boost Target Selection**: Default, Custom.
+    - **Audience Size Selection**: Options for 500, 1000, 2000, 3000.
+    - **Pricing Section**: Price in ST Coins, Discounted Price, Agreement Checkbox.
+
+### 10.5 Profile Boost Page
+- **Description**: Increases user profile visibility in the "Find Partners" list.
+- **UI/UX Design**: 
+  - **Colors & Aesthetic**: White background, blue gradient banner, teal for active selections.
+  - **Elements**: Profile boost information, recent boost notification, boost target selection.
+  - **Functionality**: Users can select audience size and confirm boosts with ST Coins.
+  - **Detailed Elements**:
+    - **Profile Boost Information Banner**: Gradient Blue Background, Lightning Bolt Icon, Text Description.
+    - **Recent Boost Notification**: Notification showing recent boost success.
+    - **Boost Target Selection**: Default, Custom.
+    - **Audience Size Selection**: Options for 500, 1000, 2000, 3000.
+    - **Pricing Section**: Price in ST Coins, Discounted Price.
+
+### 10.6 Custom Boost Settings
+- **Description**: Allows users to personalize audience selection for profile boosts.
+- **UI/UX Design**: 
+  - **Colors & Aesthetic**: Semi-transparent dark overlay, white pop-up, teal for active selections.
+  - **Elements**: Language, skill, location, gender, age range, interests, and hobbies filters.
+  - **Functionality**: Users can adjust filters and confirm settings for targeted boosts.
+  - **Detailed Elements**:
+    - **Top Navigation**: Back Button, Title "Custom", Subtitle.
+    - **Custom Filters**: Language Selection, Skill Selection, Location Selection, Gender Selection, Age Range Selection, Interests & Hobbies.
+    - **Bottom Buttons**: "Reset" Button, "Confirm" Button.
+
+
+## 11. Voiceroom/Liveroom
+### 11.1 Voicerooms & Live Streaming
+- **Description**: Public & private voicerooms for group discussions and live streaming for skill practice.
+- **Technologies**: WebRTC for real-time communication, Agora for streaming.
+- **Dependencies**: Cloud-based audio streaming services.
+- **UI/UX Design**:
+  - **Colors & Theme**: Gradient blue background, dark-themed cards for chat rooms, icons and buttons in white, yellow, and blue.
+  - **Elements & Layout**:
+    - **Top Navigation Bar**: Categories for "Voice", "Live", "Drama".
+    - **Language Filter Tabs**: Options for All, English, French, with a "+" button for more.
+    - **Skill Filter Tabs**: Options for All, guitar, chess, with a "+" button for more.
+    - **Banner (Ad Section)**: Promotes events like "Spring Mega Sale".
+    - **Voice Rooms (Cards)**: Display language label, category label, room title, host info, participant avatars, and count.
+    - **Bottom Navigation Bar**: Includes SkillTalk, Match, Posts, Voiceroom, Me.
+  - **Functionality & UX Flow**:
+    - **Navigation**: Switching between tabs, filtering by language and skill.
+    - **Banner Ads**: Redirects to purchase pages.
+    - **Voice Room Functionality**: Entering rooms, viewing room info, participant interaction.
+    - **Participant Interaction**: User avatars, room types like "Strange Stories", "Fun Debate", "Tutor".
+
+### 11.2 Voiceroom Agreement Popup
+- **Description**: Popup for first-time users entering the Voiceroom page.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dimmed background, white popup, blue "Agree" button, gray "Decline" button.
+  - **Elements & Layout**: Popup modal with title, agreement details, and buttons.
+  - **Functionality & UX Flow**: Users must agree to terms before accessing Voicerooms.
+
+### 11.3 Create Voiceroom
+- **Description**: Page for creating and customizing a Voiceroom.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark mode interface, white text, teal buttons.
+  - **Elements & Layout**: Input fields for topic, language, skill, room type, toggles for private room and boost, change background button.
+  - **Functionality & UX Flow**: Users customize room settings and start the Voiceroom.
+
+### 11.4 Voiceroom Creation Popups
+- **Skill Selection Popup**:
+  - **UI/UX Design**: Black background, teal "Done" button, white text.
+  - **Functionality**: Users select skills for the room.
+- **Language Selection Popup**:
+  - **UI/UX Design**: Similar to skill selection, with language options.
+  - **Functionality**: Users select language for the room.
+- **Room Type Selection Popup**:
+  - **UI/UX Design**: Black background, teal for selected options.
+  - **Functionality**: Users select room type like Music, Study, Chat, Interaction.
+
+### 11.5 Choose Background for Voiceroom
+- **Description**: Shopping center for selecting room backgrounds.
+- **UI/UX Design**: Semi-transparent blur, vibrant thumbnails, teal buy buttons.
+- **Functionality**: Users purchase and apply backgrounds using ST coins.
+
+### 11.6 Boost Popup
+- **Description**: Popup for boosting room visibility.
+- **UI/UX Design**: Dark mode, teal "Buy Boost" button, pricing details.
+- **Functionality**: Users purchase boosts to increase room visibility.
+
+### 11.7 Voiceroom Management
+- **Description**: Host view for managing Voicerooms.
+- **UI/UX Design**: Dark gradient background, rounded icons, clear typography.
+- **Functionality**: Host manages participants, polls, chat, and gifts.
+
+### 11.8 Voiceroom Three-Dot Menu
+- **Description**: Menu for additional room options.
+- **UI/UX Design**: Dark overlay, rounded popup, white text.
+- **Functionality**: Options to share, minimize, leave, or close the room.
+
+### 11.9 Share Voiceroom
+- **Description**: Popup for sharing the Voiceroom link.
+- **UI/UX Design**: Dark overlay, centered modal, white text.
+- **Functionality**: Options to share to chat or posts.
+
+### 11.10 Leave Voiceroom Reminder
+- **Description**: Reminder popup when attempting to leave a Voiceroom.
+- **UI/UX Design**: Centered modal with rounded corners, dark semi-transparent overlay.
+- **Functionality**: Notifies users of consequences of leaving and offers to set moderators.
+
+### 11.11 End Voiceroom
+- **Description**: Page displayed when a Voiceroom ends.
+- **UI/UX Design**: Dark gradient background, bold text for session end notification.
+- **Functionality**: Displays session stats and offers navigation to Host Center.
+
+### 11.12 Host Center
+- **Description**: Dashboard for managing Voicerooms and viewing performance metrics.
+- **UI/UX Design**: Structured layout with performance metrics and promotional banners.
+- **Functionality**: Allows hosts to track performance and manage events.
+
+### 11.13 Redeem Diamond
+- **Description**: Page for redeeming in-app currency.
+- **UI/UX Design**: White background, teal CTA buttons, diamond icons.
+- **Functionality**: Users can withdraw diamonds or exchange them for ST Coins.
+
+### 11.14 Diamond Validity Period Popup
+- **Description**: Popup explaining diamond expiration rules.
+- **UI/UX Design**: White background, teal "OK" button.
+- **Functionality**: Informs users about diamond expiration and prioritizes usage.
+
+### 11.15 Voiceroom Participation
+- **Description**: Interface for participating in Voicerooms.
+- **UI/UX Design**: Dark-themed background, bright colors for interaction elements.
+- **Functionality**: Allows users to join as listeners or speakers, send comments, and follow hosts.
+
+### 11.16 Voiceroom Three-Dot Menu
+- **Description**: Additional options for Voiceroom participants.
+- **UI/UX Design**: Dark theme, white text, interactive icons.
+- **Functionality**: Provides options to share, expand, or close the menu.
+
+### 11.17 Gift Page
+- **Description**: Interface for purchasing and sending gifts in Voicerooms.
+- **UI/UX Design**: Dark background, colorful gift icons, rounded buttons.
+- **Functionality**: Users can select and send gifts using in-app currency.
+
+### 11.18 Liveroom
+- **Description**: Public & private liverooms for live streaming and skill practice.
+- **UI/UX Design**:
+  - **Colors & Theme**: White background with deep Teal cards for live rooms, gold, orange, and pink highlights for VIP, hot, and ranking status.
+  - **Elements & Layout**:
+    - **Top Navigation Bar**: Tabs for "Voice", "Live", "Drama".
+    - **Language & Skill Filters**: Options to filter content by language and skill.
+    - **Hall of Honor Banner**: Highlights top-performing hosts or events.
+    - **Live Room Cards**: Display host info, room title, audience count, and ranking.
+    - **Bottom Navigation Bar**: Includes SkillTalk, Match, Posts, Voiceroom, Me.
+  - **Functionality & UX Flow**:
+    - **Navigation**: Switching between tabs, filtering by language and skill.
+    - **Live Room Interaction**: Joining sessions, viewing host details, and engaging with content.
+
+### 11.19 Liveroom Three-Dot Menu
+- **Description**: Context menu for additional options in liverooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark transparent background, white text, red text for critical actions.
+  - **Elements & Layout**:
+    - **Menu Options**: Share, Minimize Live, Exit Live Event, End Live Event, Cancel.
+  - **Functionality & UX Flow**:
+    - **Menu Actions**: Sharing sessions, minimizing live view, exiting or ending events.
+
+### 11.20 Liveroom Camera Permission Popup
+- **Description**: Permission request for camera access in liverooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: White background, black text, blue action buttons.
+  - **Elements & Layout**:
+    - **Popup Modal**: Title, body text, "Don't Allow" and "OK" buttons.
+  - **Functionality & UX Flow**:
+    - **Permission Request**: Users grant or deny camera access for live features.
+
+### 11.21 Live Room Guideline Popup
+- **Description**: Agreement prompt for SkillTalk's Live Stream Guidelines.
+- **UI/UX Design**:
+  - **Colors & Theme**: White background, black bold title, gray body text, blue hyperlink and "Agree" button.
+  - **Elements & Layout**:
+    - **Popup Modal**: Title, body text, hyperlink, "Agree" and "Decline" buttons.
+  - **Functionality & UX Flow**:
+    - **User Agreement**: Users agree to guidelines before accessing live features.
+
+### 11.22 Create Liveroom Page
+- **Description**: Setup page for creating a live skill practice room.
+- **UI/UX Design**:
+  - **Colors & Theme**: Black translucent modal, white text, teal primary button.
+  - **Elements & Layout**:
+    - **Room Configuration**: Skill, language, visibility, topic selection.
+    - **Shareable URL**: Copyable link for inviting participants.
+    - **Action Buttons**: Share and Enter Room.
+  - **Functionality & UX Flow**:
+    - **Room Setup**: Users configure room settings and share the room link.
+
+### 11.23 Liveroom Creation Skill Selection Popup
+- **Description**: Popup for selecting skills during liveroom creation.
+- **UI/UX Design**:
+  - **Colors & Theme**: Black background, dark rounded buttons, teal highlight for selected skills.
+  - **Elements & Layout**:
+    - **Skill Selection Grid**: Scrollable list of skills with selection indicators.
+    - **Action Button**: "Done" to confirm selection.
+  - **Functionality & UX Flow**:
+    - **Skill Selection**: Users choose skills relevant to the live session.
+
+### 11.24 Liveroom Creation Language Selection Popup
+- **Description**: Popup for selecting languages during liveroom creation.
+- **UI/UX Design**:
+  - **Colors & Theme**: Black background, dark rounded buttons, teal highlight for selected languages.
+  - **Elements & Layout**:
+    - **Language Selection Grid**: Scrollable list of languages with selection indicators.
+    - **Action Button**: "Done" to confirm selection.
+  - **Functionality & UX Flow**:
+    - **Language Selection**: Users choose languages relevant to the live session.
+
+### 11.25 Liveroom Creation Select a Topic Popup
+- **Description**: Popup for selecting topics during liveroom creation.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark background, white and teal text, red fire icon for popular topics.
+  - **Elements & Layout**:
+    - **Topic Selection Grid**: List of topics with popularity indicators.
+    - **Action Button**: "Yes" to confirm selection.
+  - **Functionality & UX Flow**:
+    - **Topic Selection**: Users choose topics to guide the live session.
+
+### 11.26 Liveroom Creation Visible to All Popup
+- **Description**: Popup for setting visibility options during liveroom creation.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark modal background, white text, teal "Cancel" button.
+  - **Elements & Layout**:
+    - **Visibility Options**: Public, non-English native speakers, private.
+    - **Action Button**: "Cancel" to exit without changes.
+  - **Functionality & UX Flow**:
+    - **Visibility Settings**: Users set who can see the live session.
+
+### 11.27 Live Room Created by User
+- **Description**: Interface for users to create and manage live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Darkened, blurred background with soft, rounded buttons and gradient effects.
+  - **Elements & Layout**:
+    - **Host Information**: Displays host profile, room name, primary skill, and language.
+    - **Targetlist Section**: Shows host's targetlist for virtual gifts.
+    - **Chat & Interaction Section**: Text-based communication with quick message buttons.
+    - **Poll Feature**: Allows polls for engagement.
+    - **Bottom Navigation**: Icons for different features like messaging, events, and voice chat.
+  - **Functionality & UX Flow**:
+    - **User Interaction**: Audience count, engagement features, and gifting system.
+
+### 11.28 Liveroom 3-Dot Popup
+- **Description**: Menu for additional options in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Black background with white text and red text for critical actions.
+  - **Elements & Layout**:
+    - **Menu Options**: Share, Minimize Live, Exit Live Event, End Live Event, Cancel.
+  - **Functionality & UX Flow**:
+    - **Menu Actions**: Sharing sessions, minimizing live view, exiting or ending events.
+
+### 11.29 Liveroom Share Popup
+- **Description**: Popup for sharing live room sessions.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark theme with black background and white text.
+  - **Elements & Layout**:
+    - **Share Options**: Share to chat, share to posts, copy link, cancel.
+  - **Functionality & UX Flow**:
+    - **Sharing Actions**: Direct sharing, social sharing, and external sharing.
+
+### 11.30 Live Room Shopping Center
+- **Description**: Interface for purchasing virtual goods in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark theme with black background, teal buttons, and gold currency icons.
+  - **Elements & Layout**:
+    - **Category Tabs**: Popular, Bubbles, Gift Banner, Profile.
+    - **Item Cards**: Displays items with pricing and "Buy" button.
+    - **In-app Currency Display**: Shows user's balance.
+  - **Functionality & UX Flow**:
+    - **Shopping Actions**: Browsing categories, purchasing items, and topping up currency.
+
+### 11.31 Live Room Settings
+- **Description**: Settings menu for live room features.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark theme with black background and white text/icons.
+  - **Elements & Layout**:
+    - **Settings Grid**: Features like camera, mic, share, goodie bag, poll.
+    - **Room Title & Topic Settings**: Editable fields.
+  - **Functionality & UX Flow**:
+    - **Settings Management**: Toggling features, managing room settings, and audience engagement.
+
+### 11.32 Liveroom My Targetlist Popup
+- **Description**: Popup for managing targetlist items in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark Teal gradient with black background and white text/icons.
+  - **Elements & Layout**:
+    - **Targetlist Items**: Scrollable cards with gift icons and progress counters.
+    - **Modify Button**: Allows editing targetlist items.
+  - **Functionality & UX Flow**:
+    - **Targetlist Management**: Adding, editing, and tracking targetlist items.
+
+### 11.33 Liveroom Share File Popup
+- **Description**: Popup for sharing files in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark theme with black background and white text.
+  - **Elements & Layout**:
+    - **File Sharing Options**: Whiteboard and Files icons.
+  - **Functionality & UX Flow**:
+    - **File Sharing Actions**: Opening collaborative whiteboard or uploading files.
+
+### 11.35 Live Room End Popup
+- **Description**: Confirmation popup for ending live room sessions.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark semi-transparent background with white text.
+  - **Elements & Layout**:
+    - **Confirmation Message**: Warns users about ending the event.
+    - **Action Buttons**: Cancel and End Live Event.
+  - **Functionality & UX Flow**:
+    - **Ending Session**: Confirms session end and removes participants.
+
+### 11.36 Live Room End Page
+- **Description**: Summary page after ending a live room session.
+- **UI/UX Design**:
+  - **Colors & Theme**: Gradient dark background with white text and teal button.
+  - **Elements & Layout**:
+    - **Event Summary**: Displays session stats and host information.
+    - **Host Center Button**: Encourages further engagement.
+  - **Functionality & UX Flow**:
+    - **Post-Session Actions**: Viewing detailed analytics and sharing results.
+
+### 11.37 Live Room Participation
+- **Description**: Interface for participating in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark Teal theme with gradient buttons.
+  - **Elements & Layout**:
+    - **Video Feeds**: Host and guest sections with status indicators.
+    - **Interactive Elements**: Chat options, quick responses, and engagement icons.
+  - **Functionality & UX Flow**:
+    - **User Interaction**: Engaging with hosts, sending gifts, and participating in discussions.
+
+### 11.38 Live Room Profile Popup
+- **Description**: Profile popup for live room hosts.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark gradient background with white text and teal button.
+  - **Elements & Layout**:
+    - **Profile Information**: Displays host details, targetlist, and interests.
+    - **Send Gift Button**: Encourages direct engagement.
+  - **Functionality & UX Flow**:
+    - **Profile Interaction**: Viewing host information and sending gifts.
+
+### 11.39 Liveroom Gift Ranking Popup
+- **Description**: Popup displaying gift rankings in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark theme with white text and teal button.
+  - **Elements & Layout**:
+    - **Ranking List**: Displays ranked users with medals and engagement stats.
+    - **Send Gift Button**: Provides direct interaction.
+  - **Functionality & UX Flow**:
+    - **Ranking Interaction**: Viewing rankings and supporting streamers.
+
+### 11.40 Live Room 3-Dot Popup
+- **Description**: Popup for additional options in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark background with light text/icons.
+  - **Elements & Layout**:
+    - **Profile Cards**: Displays ongoing live rooms with viewer counts.
+    - **Go Live Button**: Encourages starting a live session.
+  - **Functionality & UX Flow**:
+    - **Room Management**: Discovering and joining live rooms or starting new sessions.
+
+
+## 12. settings
+### 12.1 Settings Page
+- **Description**: Comprehensive settings page for managing app preferences and account settings.
+- **UI/UX Design**:
+  - **General Layout & Design**:
+    - Background: Light grayish-white
+    - Typography: Black text for section titles, lighter gray for separators
+    - Icons: Simple, rounded icons in soft pastel colors
+    - Navigation: List-based vertical layout with back arrow
+  - **Header Section**:
+    - Back Button (<): Top-left corner
+    - Title ("Settings"): Bold, centered
+  - **Menu Items & Icons**:
+    1. Account (Teal user profile icon)
+    2. Notifications (Blue bell icon)
+    3. Privacy (Blue shield with checkmark)
+    4. Chat Settings (Blue speech bubble)
+    5. Learning Settings (Blue book)
+    6. Dark Mode (Blue half-moon icon)
+    7. Rate SkillTalk (Light green star)
+    8. About (Light green info icon)
+    9. Help (Green question mark)
+    10. Clear Cache (Green brush/broom)
+  - **Other UI/UX Elements**:
+    - Spacing & Padding: Even spacing between menu items
+    - Visual Hierarchy: Larger, bold text for section titles
+    - Minimalist Aesthetic: Clean, uncluttered design
+    - User-Friendly Navigation: Clear labels with intuitive icons
+
+### 12.2 Account Settings
+- **Description**: Manages user account information and security settings.
+- **UI/UX Design**:
+  - **General Layout & Design**:
+    - Background: Light grayish-white
+    - Typography: Bold black text for titles, gray for details
+    - Layout: Text-heavy with minimal graphics
+  - **Header Section**:
+    - Back Button (<): Top-left corner
+    - Title ("Account"): Bold, centered
+  - **Main Content Sections**:
+    1. User Information:
+       - SkillTalk ID (editable)
+       - Email (private relay)
+       - Password (hidden)
+    2. Login Methods:
+       - Facebook (Not bound)
+       - Google (Not bound)
+       - Apple ID (Toggle switch)
+    3. Action Buttons:
+       - Log Out Button (White background, black text)
+       - Delete Account Text (Light gray)
+  - **Interactive Elements**:
+    - Toggle switches (bright teal when active)
+    - Right-facing arrows for editable fields
+    - Full-width action buttons
+
+### 12.3 SkillTalk ID Settings
+- **Description**: Interface for changing user's SkillTalk ID.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back arrow (top left)
+    - Title: "Change SkillTalk ID" (centered)
+    - OK Button (top right, bright teal)
+  - **Main Input Field**:
+    - White, rounded rectangle input box
+    - Pre-filled current ID
+  - **Instructional Text**:
+    - Yearly change restriction
+    - ID format requirements
+  - **Color Palette**:
+    - White background
+    - Black text for main elements
+    - Gray text for instructions
+    - Light gray for disabled button
+
+### 12.4 Password Change
+- **Description**: Interface for updating user password.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back arrow (top left)
+    - Title: "Change Password" (centered)
+  - **Form Fields**:
+    1. Current Password Field
+    2. New Password Field
+    3. Forgot Password Button
+  - **Confirmation Button**:
+    - Large, rounded rectangle
+    - Disabled state (light gray)
+    - Activates when fields are filled
+
+### 12.5 Email Change
+- **Description**: Interface for updating user email address.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back arrow (top left)
+    - Title: "Change Email" (centered)
+  - **Input Fields**:
+    1. Current Email Section
+    2. New Email Address Field
+    3. Verification Code Field
+  - **Confirmation Button**:
+    - Large, rounded rectangle
+    - Disabled until fields are filled
+
+### 12.6 Delete Account
+- **Description**: Interface for account deletion with warnings and alternatives.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back Arrow (top left)
+    - Title: "Delete Account" (centered)
+  - **Informational Text**:
+    - Three numbered points
+    - Warning messages
+    - Consequences of deletion
+  - **Action Buttons**:
+    1. Message SkillTalk Team
+    2. Who Can Find Me
+  - **Confirmation Elements**:
+    - Checkbox for agreement
+    - Red Delete Account button
+  - **Color Palette**:
+    - White background
+    - Black text
+    - Gray for secondary sections
+    - Red for delete button
+    - Blue for checkbox
+
+### 12.7 Notification Settings
+- **Description**: Manages app notification preferences.
+- **UI/UX Design**:
+  - **General Layout**:
+    - White background
+    - Black text for headings
+    - Gray text for descriptions
+  - **Notification Toggles**:
+    - New Message Alerts
+    - Official Message Notifications
+    - Post Notifications
+    - New Followers Notifications
+    - Posts Comments Notifications
+    - Posts Likes Notifications
+    - Streaks Notifications
+  - **Don't Disturb Section**:
+    - Time range display
+    - Navigation arrow
+  - **Message Preview Section**:
+    - Toggle switch
+    - Preview text
+
+### 12.8 Don't Disturb Settings
+- **Description**: Controls notification silencing preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Don't Disturb"
+    - Back Button
+  - **Main Settings**:
+    1. Don't Disturb Toggle
+       - Time range display
+       - Navigation arrow
+    2. Do Not Disturb All Day Toggle
+  - **Color Scheme**:
+    - Light gray/white background
+    - Black for primary text
+    - Gray for descriptions
+    - bright teal for active states
+
+### 12.9 Privacy Settings
+- **Description**: Comprehensive privacy control interface.
+- **UI/UX Design**:
+  - **Location & Visibility Settings**:
+    - Show Country/Region
+    - Show City
+    - Update Location
+    - Show Age
+    - Show Online Status
+    - Show Gifting Level
+  - **Communication Preferences**:
+    - Birthday Notification
+    - Display Skill Partner Tags
+    - Personalized Ads
+    - Receive Voice Calls
+    - Show Following/Followers
+    - Find Me by SkillTalk ID
+  - **VIP Features**:
+    - Hide My Visits (VIP badge)
+    - Who Can Find Me
+  - **Interactive Elements**:
+    - bright teal toggle switches
+    - Right arrows for submenus
+    - VIP badges for premium features
+
+### 12.10 Who Can Find Me Settings
+- **Description**: Controls visibility and matching preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Who Can Find Me"
+    - Back Button
+  - **Main Settings**:
+    1. Exact Language Match
+    2. Same Gender Only
+    3. Age Range Selector
+    4. Don't Expose Me Through People Nearby
+    5. Hide from Search
+  - **Interactive Elements**:
+    - Toggle switches
+    - Age range slider
+    - Navigation arrows
+
+### 12.11 Blocked Users
+- **Description**: Manages blocked contacts list.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Blocked"
+    - Back Button
+    - Edit Button
+  - **Blocked Contact List**:
+    - Profile icons
+    - Phone numbers
+    - Contact names
+    - Navigation arrows
+  - **Additional Features**:
+    - Add new contact option
+    - Explanatory text
+  - **Color Scheme**:
+    - White background
+    - Black for primary text
+    - Gray for secondary text
+    - Green for action text
+
+### 12.12 Last Seen Settings
+- **Description**: Controls visibility of online status and last seen information.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Last seen & online"
+    - Back Button
+  - **Privacy Options**:
+    1. Who can see my Last Seen
+       - Everyone
+       - My contacts
+       - My contacts except...
+       - Nobody
+    2. Who can see when I'm online
+       - Everyone
+       - Same as last seen
+  - **Informational Text**:
+    - Gray text explaining consequences
+    - Bold styling for key terms
+
+### 12.13 Chat Settings
+- **Description**: Manages chat-related preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Chat Settings"
+    - Back Button
+  - **Main Settings**:
+    1. Language Selection
+    2. Text Size
+    3. Auto Save Photos/Videos
+    4. Chat Backup
+    5. Block Unknown Chat
+  - **Interactive Elements**:
+    - bright teal toggle switches
+    - Navigation arrows
+    - Explanatory text
+
+### 12.14 Language Selection
+- **Description**: Interface for changing app language.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Language"
+    - Back Button
+    - OK Button (bright teal)
+  - **Language List**:
+    - White rectangular boxes
+    - Primary language name
+    - Native language name
+    - bright teal checkmark for selection
+  - **Search Bar**:
+    - For quick language finding
+
+### 12.15 Text Size Settings
+- **Description**: Controls chat text size preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Text Size"
+    - Back Button
+    - OK Button (bright teal)
+  - **Preview Box**:
+    - bright teal chat bubble
+    - Sample text in multiple languages
+  - **Size Adjustment**:
+    - Horizontal slider
+    - Small to large "A" indicators
+    - Tick marks for size steps
+
+### 12.16 Chat Backup
+- **Description**: Manages chat backup and restore options.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title: "Chat Backup"
+    - Back Button
+    - OK Button (bright teal)
+  - **Backup Status**:
+    - Cloud icon
+    - Last backup date
+    - Backup size
+    - Storage location
+  - **Auto Backup**:
+    - Toggle switch
+    - Frequency options
+  - **Backup Now Button**:
+    - Large, bright teal button
+    - Full width
+    - White text
+
+### 12.17 Auto Backup Settings
+- **Description**: Controls automatic backup frequency.
+- **UI/UX Design**:
+  - **Modal Popup**:
+    - Centered on screen
+    - Rounded corners
+    - Dimmed background
+  - **Header**:
+    - Title: "Auto Backup"
+    - Subtext about iCloud storage
+  - **Frequency Options**:
+    - Off
+    - Daily
+    - Weekly
+    - Monthly
+  - **Action Buttons**:
+    - Yes (bright teal)
+    - Cancel (gray)
+
+### 12.18 Learning Settings
+- **Description**: Interface for managing learning preferences and translation settings.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back Button (<): Top-left corner
+    - Title ("Learning Settings"): Bold, centered
+  - **Main Content**:
+    - Translation Target Language Option:
+      - White background with rounded edges
+      - Right-facing arrow for navigation
+      - Shadow effect for depth
+  - **Functionality**:
+    - Allows users to modify learning preferences
+    - Translation target language configuration
+    - Native language settings
+
+### 12.19 Translation Target Language
+- **Description**: Interface for configuring translation preferences.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back Button (<): Top-left corner
+    - Title ("Translation target language"): Bold, centered
+  - **Main Settings**:
+    1. Translate Messages Received:
+       - Language selection with explanation
+       - Default: Native language
+    2. Translate Messages Sent:
+       - Language selection with explanation
+       - Default: Partner's native language
+  - **Functionality**:
+    - Customize translation preferences
+    - Set default languages for incoming/outgoing messages
+
+### 12.20 Storage & Data
+- **Description**: Comprehensive storage and network management interface.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title ("Storage and data"): Bold, centered
+    - Back Button (<): Top-left corner
+  - **Main Sections**:
+    1. Storage Section:
+       - Manage Storage Button
+       - Storage usage statistics
+    2. Network Section:
+       - Network Usage Button
+       - Use Less Data for Calls Toggle
+       - Proxy Settings
+    3. Media Quality Section:
+       - Media Upload Quality Settings
+       - Auto-download preferences
+  - **Functionality**:
+    - Storage management
+    - Network usage monitoring
+    - Media quality control
+    - Auto-download settings
+
+### 12.21 Manage Storage
+- **Description**: Detailed storage management interface.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title ("Manage storage"): Bold, centered
+    - Back Button (<): Top-left corner
+  - **Storage Overview**:
+    - Used Storage Display
+    - Free Storage Display
+    - Progress Bar (Teal/Yellow)
+  - **Content Sections**:
+    1. Review and Delete:
+       - Larger than 5MB filter
+       - Media previews
+    2. Tools to Save Space:
+       - Disappearing messages option
+       - Storage optimization tools
+  - **Chat List**:
+    - Profile pictures
+    - Chat names
+    - Storage usage per chat
+    - Navigation arrows
+
+### 12.22 Network Usage
+- **Description**: Detailed network usage statistics and management.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title ("Network usage"): Bold, centered
+    - Back Button (<): Top-left corner
+  - **Statistics Sections**:
+    1. Messages:
+       - Sent/Received counts
+       - Bytes sent/received
+    2. Chat Media:
+       - Bytes sent/received
+    3. Status Media:
+       - Usage statistics
+    4. SkillTalk Calls:
+       - Outgoing/Incoming counts
+       - Total time
+       - Data usage
+    5. Total Bytes:
+       - Sent/Received totals
+  - **Reset Option**:
+    - Reset Statistics Button
+    - Last reset timestamp
+
+### 12.23 Proxy Settings
+- **Description**: Network proxy configuration interface.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title ("Proxy"): Bold, centered
+    - Back Button (<): Top-left corner
+  - **Main Content**:
+    - Set-up Proxy Button
+    - Informational Text
+    - Learn More Link
+  - **Sub-sections**:
+    1. Chat Port:
+       - Port number input
+       - TLS toggle
+    2. Media Port:
+       - Port number configuration
+  - **Functionality**:
+    - Proxy server setup
+    - Port configuration
+    - Security settings
+
+### 12.24 Media Upload Quality
+- **Description**: Media quality settings interface.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Title ("Media upload quality"): Bold, centered
+    - Back Button (<): Top-left corner
+  - **Quality Options**:
+    1. Standard Quality:
+       - Faster upload
+       - Smaller file size
+    2. HD Quality:
+       - Higher quality
+       - Larger file size
+  - **Additional Features**:
+    - Quality selection indicators
+    - Usage information
+    - Auto-save functionality
+
+### 12.25 Media Auto-Download Settings
+- **Description**: Controls for automatic media download preferences.
+- **UI/UX Design**:
+  - **Common Elements**:
+    - Back Button (<): Top-left corner
+    - Title: Media type specific
+    - Three download options:
+      1. Never
+      2. Wi-Fi
+      3. Wi-Fi and Cellular
+  - **Media Types**:
+    1. Photos:
+       - Image-specific settings
+       - Preview options
+    2. Audio:
+       - Voice message settings
+       - Audio file preferences
+    3. Video:
+       - Video quality options
+       - Download triggers
+    4. Documents:
+       - File type settings
+       - Size considerations
+  - **Functionality**:
+    - Connection-based download control
+    - Storage optimization
+    - Data usage management
+
+### 12.26 Dark Mode Settings
+- **Description**: Interface for managing dark mode preferences.
+- **UI/UX Design**:
+  - **General Layout & Design**:
+    - Minimalist and modern UI, consistent with iOS design principles
+    - White background with black and gray text for clarity
+    - Rounded toggle switch for smooth user experience
+  - **Header Section**:
+    - Back Arrow (Top Left, Black) for navigation
+    - Title: "Dark Mode" (Bold, Black, Center-Aligned)
+  - **Main Content**:
+    - "Auto" Toggle Switch (Main Setting Option)
+      - Bold black text: "Auto" (Setting title)
+      - bright teal toggle switch (enabled)
+      - Rounded white background for toggle switch
+    - Description Text: "When enabled, Dark Mode will follow your system settings"
+  - **Color Palette & Styling**:
+    - White background for clean, modern look
+    - Black text for main elements
+    - Gray text for additional information
+    - bright teal for active UI elements
+
+### 12.27 About Page
+- **Description**: Comprehensive about page with app information and support links.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back Button (<) in top left corner
+    - Title "About" centered
+    - SkillTalk Logo (bright teal square icon with multi-colored speech bubbles)
+    - Version Number (e.g., "6.0.60")
+  - **Main Menu Items**:
+    - How SkillTalk Works
+    - Message SkillTalk Team
+    - Like on Facebook
+    - Follow on Twitter
+    - Terms of Service
+    - Privacy Policy
+  - **Design Elements**:
+    - Clean white background
+    - Black text for main options
+    - Gray text for version number
+    - Right-facing arrows for navigation
+    - Consistent spacing and typography
+
+### 12.28 Help Center
+- **Description**: Comprehensive help and support interface.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back Button (<) in top left
+    - Title "Help" centered
+    - Search Bar with magnifying glass icon
+  - **Support & Legal Links**:
+    - Help Center (teal text)
+    - Terms and Privacy Policy
+    - Licenses
+  - **Tab Navigation**:
+    - Recommended (selected)
+    - General
+    - Account
+    - VIP & Subscriptions
+  - **FAQ Section**:
+    - List of help topics with right-facing arrows
+    - Topics include account management, subscription, dark mode, etc.
+    - "More" button for additional articles
+  - **Contact Support Section**:
+    - "Need more help?" header
+    - Contact Support button
+  - **Footer**:
+    - Copyright notice: "© 2025 SkillTalk LLC"
+
+### 12.29 Help Center Topics
+- **Description**: Detailed help topics and articles.
+- **UI/UX Design**:
+  - **Search Functionality**:
+    - Search bar with placeholder "Search Help Center"
+    - Category filters for refined search
+  - **Help Topics Categories**:
+    1. Get Started
+    2. Chats
+    3. Connect with Businesses
+    4. Voice and Video Calls
+    5. Communities
+    6. Channels
+    7. Privacy, Safety, and Security
+    8. Accounts and Account Bans
+    9. Payments
+    10. SkillTalk for Business
+  - **Popular Articles Section**:
+    - Article list with teal document icons
+    - Right-facing arrows for navigation
+    - "Show more" button for additional content
+
+### 12.30 Teacher Application Guide
+- **Description**: Interface for becoming a verified teacher on SkillTalk.
+- **UI/UX Design**:
+  - **Header Section**:
+    - Back arrow for navigation
+    - "FAQ" title centered
+  - **Main Content**:
+    - Question header in light gray
+    - Instructional text in black
+    - Email link (teacher@SkillTalk.com) in blue
+  - **Application Process**:
+    - Step-by-step instructions
+    - Required materials list
+    - Preferred extras
+    - Next steps
+  - **Feedback Section**:
+    - "Was this helpful?" prompt
+    - Thumbs up/down buttons
+  - **Design Elements**:
+    - Clean, minimalist layout
+    - Clear typography hierarchy
+    - Interactive elements in teal
+    - Mobile-friendly spacing
+
+### 12.31 Clear Cache
+- **Description**: Confirmation interface for clearing app cache.
+- **UI/UX Design**:
+  - **Modal Design**:
+    - Rounded top corners
+    - Floating sheet over settings page
+    - Dimmed background
+  - **Header**:
+    - "Confirm Clearing Cache" title
+    - Bold, centered text
+  - **Action Buttons**:
+    - Primary: "Clear cache" (teal background, white text)
+    - Secondary: "Cancel" (gray text)
+  - **Functionality**:
+    - Confirmation required before clearing
+    - Immediate feedback on action
+    - Easy cancellation option
+
+### 12.32 Don't Disturb Popup
+- **Description**: Interface for managing notification silencing preferences.
+- **UI/UX Design**:
+  - **General Layout & Design**:
+    - Minimalist and modern UI, iOS-style settings
+    - White background with black and gray text
+    - Rounded toggle switches and selection pickers
+    - Blurred background effect for time selection
+  - **Header Section**:
+    - Back Arrow (Top Left, Black) for navigation
+    - Title: "Don't Disturb" (Bold, Black, Center-Aligned)
+  - **Main Content**:
+    - "Don't Disturb" Toggle:
+      - Bold black text title
+      - Gray subtext showing time range
+      - bright teal toggle switch
+      - Right-facing arrow for customization
+    - "Do Not Disturb All Day" Toggle:
+      - Bold black text title
+      - Gray toggle switch (disabled)
+  - **Time Picker Modal**:
+    - Blurred background overlay
+    - Cancel (Black) and OK (bright teal) buttons
+    - iOS-style time selection wheel
+    - Two columns for start and end times
+  - **Color Palette**:
+    - White background
+    - Black text for main elements
+    - Gray text for secondary information
+    - bright teal for active elements
+
+### 12.33 What is SkillTalk Popup
+- **Description**: Introduction popup explaining SkillTalk's purpose.
+- **UI/UX Design**:
+  - **Content**:
+    - Title: "SkillTalk - The first skill exchange & learning App in the world"
+    - Bullet Points:
+      - "The best way to learn a skill is to learn from friends with love"
+      - "If you are an expert guitarist targeting learn violin, ideally you would want to meet expert violinist who targeting learn guitar in your language"
+      - "SkillTalk is the first mobile app in the world that does just that"
+    - Action Button: "I understand" (bright teal color)
+  - **Design Elements**:
+    - Clean white background
+    - Bold black text for title
+    - Bullet points with star symbols
+    - Large, prominent action button
+
+### 12.34 Unacceptable Behaviors Popup
+- **Description**: Warning popup listing prohibited behaviors.
+- **UI/UX Design**:
+  - **Content**:
+    - Header: "SkillTalk is an app focused on Skill learning. The following unacceptable behaviors will lead to permanent account removal."
+    - Unacceptable Behaviors List:
+      - Attempted/committed fraud
+      - Fraud and misinformation
+      - Pornography
+      - Harassment
+      - Religious/racial discrimination
+      - Religion, politics, and other controversial topics
+      - Social media marketing or advertising
+    - Action Button: "I understand" (bright teal color)
+  - **Design Elements**:
+    - Clean white background
+    - Bold black text for header
+    - Blue "X" icons for each behavior
+    - Large, prominent action button
+
+### 12.35 Translation Language Selection Popups
+- **Description**: Language selection interfaces for message translation.
+- **UI/UX Design**:
+  - **Common Elements**:
+    - Back Button (<) in top left corner
+    - Title "Language" centered
+    - List of languages with checkmarks
+  - **Two Variants**:
+    1. "Translate messages received to:"
+       - Language list with selection indicators
+       - Search functionality
+       - Native language names
+    2. "Translate messages sent to:"
+       - Similar layout to received messages
+       - Partner's language preferences
+       - Selection persistence
+
+### 12.36 Feature Tutorial Popups
+- **Description**: Instructional popups for app features.
+- **UI/UX Design**:
+  - **Common Elements**:
+    - Visual tutorial images
+    - Clear, concise instructions
+    - Dismissible interface
+  - **Feature Tutorials**:
+    1. Press and Hold Message Options
+    2. Tap and Hold to Translate
+    3. Input Text & Translate
+    4. Transcription
+    5. Correct Sentences
+  - **Design Elements**:
+    - Screenshot-based tutorials
+    - Highlighted interaction points
+    - Step-by-step instructions
+    - Easy dismissal
+
+### 12.37 Share Profile Popups
+- **Description**: Interfaces for sharing user profiles.
+- **UI/UX Design**:
+  - **Profile Share Card**:
+    - Dark semi-transparent overlay
+    - White rounded card with user details
+    - Gradient teal-blue background
+    - Cartoon-style characters with speech bubbles
+    - User Info Section:
+      - Circular profile picture
+      - Bold name text
+      - Skill exchange icons
+      - Username in light gray
+    - Statistics Section:
+      - Joined duration
+      - Study streak
+      - Total visitors
+    - "Share Card" button (bright blue)
+  - **QR Code Profile Sharing**:
+    - Similar overlay and card design
+    - Large QR code with SkillTalk logo
+    - Instructional text
+    - "Share QR Code" and "Share URL" buttons
+    - QR scanner icon
+  - **Color Scheme**:
+    - Dark background
+    - White and light gray text
+    - Bright blue CTAs
+    - Vibrant accent colors
+
+### 12.38 Logout Confirmation Popup
+- **Description**: Confirmation interface for account logout.
+- **UI/UX Design**:
+  - **Modal Window**:
+    - Semi-transparent white background
+    - Centered message
+    - Warning text about notification cessation
+  - **Action Buttons**:
+    - "Yes" (Red background, white text, bold)
+    - "Cancel" (Gray text, no background)
+  - **Design Elements**:
+    - Clean, minimalistic layout
+    - Clear warning message
+    - Prominent action buttons
+    - Standard iOS-style modal
+
+
+## 13. Requirements for Each Feature
+### 13.1 Real-Time Voice & Text Messaging
+- **Data Models**:
+  - `MessageModel`: Contains messageId, senderId, receiverId, content, timestamp.
+  - `VoiceNoteModel`: Contains noteId, senderId, receiverId, audioFilePath, duration, timestamp.
+- **API Contract**:
+  - **Send Message**: POST /api/messages
+    - Request: { "senderId": "string", "receiverId": "string", "content": "string" }
+    - Response: { "status": "success", "messageId": "string" }
+  - **Receive Message**: GET /api/messages/{userId}
+    - Response: [ { "messageId": "string", "senderId": "string", "content": "string", "timestamp": "datetime" } ]
+
+### 13.2 Voicerooms & Live Streaming
+- **Data Models**:
+  - `VoiceRoomModel`: Contains roomId, hostId, participants, isPrivate, createdAt.
+- **API Contract**:
+  - **Create Room**: POST /api/voicerooms
+    - Request: { "hostId": "string", "isPrivate": "boolean" }
+    - Response: { "status": "success", "roomId": "string" }
+  - **Join Room**: POST /api/voicerooms/{roomId}/join
+    - Request: { "userId": "string" }
+    - Response: { "status": "success" }
+
+
+## 14. Data Models
+- **UserModel**: Contains userId, name, email, skills, languages, profilePicture.
+- **SkillModel**: Contains skillId, name, category, proficiencyLevel.
+- **MatchModel**: Contains matchId, userAId, userBId, skillExchangeDetails.
+
+### User
+```json
+{
+  "uid": "string",
+  "name": "string",
+  "email": "string",
+  "phone": "string",
+  "skills_have": ["string"],
+  "skills_want": ["string"],
+  "location": { "lat": 0.0, "lng": 0.0 },
+  "photoUrl": "string",
+  "vip": true,
+  "joinedAt": "timestamp"
+}
+```
+
+### Message
+```json
+{
+  "id": "string",
+  "senderId": "string",
+  "receiverId": "string",
+  "content": "string",
+  "type": "text/image/audio",
+  "timestamp": "timestamp",
+  "translatedText": "string (optional)"
+}
+```
+
+### Post
+```json
+{
+  "id": "string",
+  "authorId": "string",
+  "text": "string",
+  "imageUrl": "string (optional)",
+  "audioUrl": "string (optional)",
+  "createdAt": "timestamp"
+}
+```
+
+### VoiceRoom
+```json
+{
+  "roomId": "string",
+  "hostId": "string",
+  "topic": "string",
+  "members": ["uid"],
+  "createdAt": "timestamp",
+  "isLive": true
+}
+```
+
+
+## 15. API Contract
+- **User Registration**: POST /api/users/register
+  - Request: { "name": "string", "email": "string", "password": "string" }
+  - Response: { "status": "success", "userId": "string" }
+- **User Login**: POST /api/users/login
+  - Request: { "email": "string", "password": "string" }
+  - Response: { "status": "success", "token": "string" }
+
+## 16. Visual Design
+- **Primary Color**: #00D8C0
+- **Mid Color 65%**: #4dffea
+- **Light Color 95%**: #e6fffc
+- **Semantic Colors**:
+  - Primary Text: Color(0xFF000000)
+  - Secondary Text: Color(0xFF757575)
+  - Disabled Elements: Color(0xFFBDBDBD)
+  - Background: Color(0xFFFFFFFF)
+  - Error: Color(0xFFE53935)
+  - Warning: Color(0xFFFFA000)
+  - Success: Color(0xFF43A047)
+  - Information: Color(0xFF1E88E5)
+- **Dark Theme Colors**:
+  - Background: Color(0xFF121212)
+  - Surface: Color(0xFF1E1E1E)
+  - Text Primary: Color(0xFFFFFFFF)
+  - Text Secondary: Color(0xFFB3B3B3)
+- **UI Elements**: Incorporate design elements such as progress bars, navigation buttons, and interactive elements from the UI/UX documents.
+- **UI/UX Details**: The design incorporates rounded corners, pill-shaped buttons, and a clean, modern aesthetic. The use of color and typography is consistent with the brand's visual identity, ensuring a cohesive user experience across all features.
+
+
+## 17. Database Structure
+- **Skills Database**: Contains skill categories, subcategories, and individual skills with metadata.
+- **Languages Database**: Supports multi-language features for skill names and descriptions.
+- **Cities, countries, Occupations, Hobbies Databases**: Provide reference data for user profiles and matching.
+- **Indexes**: Used for performance optimization in search and matching operations.
+
+> **For a detailed, recommended database structure and implementation, see Section 16.1 below.**
+
+## 17.1 Required Database Structure for SkillTalk
+
+Based on SkillTalk's core functionality of matching people with complementary skills, the following database collections and architecture are recommended:
+
+### 17.1. Users Collection
+This stores user profiles with all relevant fields for matching:
+
+```json
+users: {
+  userId: {
+    basicInfo: {
+      name: String,
+      email: String,
+      phoneNumber: String,
+      profileImage: String,
+      country: String,
+      city: String,
+      birthDate: Timestamp,
+      gender: String,
+      nativeLanguage: String,
+      secondLanguage: String,
+      secondLanguageLevel: String,
+      createdAt: Timestamp,
+      lastActive: Timestamp,
+      isOnline: Boolean,
+      isVipMember: Boolean,
+      stCoins: Number
+    },
+    skills: {
+      expertSkill: String,         // Primary skill they can teach
+      expertSkillId: String,       // ID reference to skills collection
+      expertSkillLevel: String,    // Proficiency level
+      targetSkill: String,         // Skill they want to learn
+      targetSkillId: String,       // ID reference to skills collection
+      targetSkillLevel: String     // Current level
+    },
+    preferences: {
+      ageRange: { min: Number, max: Number },
+      preferredGenders: Array<String>,
+      locationPreference: String,  // 'nearby', 'city', 'country', 'worldwide'
+      maxDistance: Number          // in kilometers
+    },
+    stats: {
+      rating: Number,              // Average rating
+      responseRate: Number,        // % of messages responded to
+      matchesInitiated: Number,
+      matchesAccepted: Number,
+      totalMatches: Number,
+      streakDays: Number,
+      followers: Number,
+      following: Number,
+      totalVisitors: Number
+    }
+  }
+}
+```
+
+### 17.2. Matches Collection
+For storing match relationships and their status:
+
+```json
+matches: {
+  matchId: {
+    users: [userId1, userId2],
+    initiatedBy: String,          // userId of initiator
+    status: String,               // 'pending', 'accepted', 'rejected', 'active'
+    compatibilityScore: Number,   // 0.0 to 1.0
+    matchReason: String,          // Why they were matched
+    createdAt: Timestamp,
+    lastInteraction: Timestamp,
+    skillExchange: {
+      user1Teaching: String,      // Skill userId1 is teaching
+      user2Teaching: String       // Skill userId2 is teaching
+    }
+  }
+}
+```
+
+### 17.3. User Indexes for Faster Matching
+To improve matching performance, create specialized indexes:
+
+```json
+skill_indexes: {
+  skillId: {
+    experts: [userId1, userId2, ...],  // Users who can teach this skill
+    learners: [userId3, userId4, ...]  // Users who want to learn this skill
+  }
+}
+
+location_indexes: {
+  countryCode: {
+    cityName: [userId1, userId2, ...] // Users in this city
+  }
+}
+
+language_indexes: {
+  languageCode: [userId1, userId2, ...] // Users who speak this language
+}
+```
+
+### 17.4. Optimized Matching System Architecture
+A two-tiered approach is recommended:
+
+#### 17.4.1 Real-time Search for Active Matching
+- Query the appropriate indexes based on user criteria
+- Calculate compatibility scores in real-time
+- Return paginated results
+
+#### 17.4.2 Precomputed Matches for Suggestions
+- Run a daily batch job that precomputes potential matches
+- Store top matches for each user in a `suggested_matches` collection
+- Instantly show these suggestions when a user opens the app
+
+```json
+suggested_matches: {
+  userId: {
+    lastUpdated: Timestamp,
+    topMatches: [
+      {
+        userId: String,
+        compatibilityScore: Number,
+        matchReason: String,
+        skillExchange: {
+          userTeaches: String,
+          matchTeaches: String
+        }
+      }
+      // More matches...
+    ]
+  }
+}
+```
+
+### 17.5. Implementation Recommendations
+
+- **Create a dedicated MatchService:**
+
+```dart
+// match_service_interface.dart
+abstract class IMatchService {
+  // Find matches based on criteria
+  Future<List<UserMatchModel>> findMatches({
+    required String userId,
+    Map<String, dynamic>? filters,
+    int limit = 20,
+    String? lastMatchId,
+  });
+  // Get suggested matches
+  Future<List<UserMatchModel>> getSuggestedMatches(String userId);
+  // Calculate compatibility between users
+  Future<double> calculateUserCompatibility(String userId1, String userId2);
+  // Manage match relationships
+  Future<void> initiateMatch(String initiatorId, String targetUserId);
+  Future<void> acceptMatch(String matchId);
+  Future<void> rejectMatch(String matchId);
+  // Get user's match history
+  Future<List<MatchModel>> getUserMatches(
+    String userId, 
+    String status,
+  );
+}
+```
+
+- **Efficient querying example:**
+
+```dart
+Future<List<UserMatchModel>> findMatchesBySkill(String userId, String skillId) async {
+  // 1. Get user's expert skill
+  final user = await _userService.getUserById(userId);
+  final expertSkillId = user.expertSkillId;
+  // 2. Use skill index for fast lookup of learners
+  final skillIndex = await _db.collection('skill_indexes')
+      .doc(expertSkillId)
+      .get();
+  final learnerIds = skillIndex.data()?['learners'] ?? [];
+  // 3. Find users who want to learn user's expert skill
+  final potentialMatches = <UserMatchModel>[];
+  // 4. Check if user wants to learn any of these users' expert skills
+  for (final learnerId in learnerIds) {
+    final learner = await _userService.getUserById(learnerId);
+    if (learner.expertSkillId == user.targetSkillId) {
+      // Perfect match - direct skill exchange
+      final compatibility = await _skillService.calculateCompatibilityScore(
+        user.expertSkillId!,
+        learner.expertSkillId!,
+      );
+      potentialMatches.add(UserMatchModel(
+        user: learner,
+        compatibilityScore: compatibility,
+        isPerfectMatch: true,
+      ));
+    }
+  }
+  return potentialMatches;
+}
+```
+
+- **Caching layer example:**
+
+```dart
+class MatchCacheService {
+  final Map<String, List<UserMatchModel>> _cachedMatches = {};
+  final Map<String, DateTime> _cacheExpirations = {};
+  // Cache duration (e.g., 1 hour)
+  final Duration _cacheDuration = const Duration(hours: 1);
+  // Get matches with caching
+  Future<List<UserMatchModel>> getMatchesWithCache(
+    String userId,
+    String queryKey,
+    Future<List<UserMatchModel>> Function() fetchFunc,
+  ) async {
+    final cacheKey = '$userId:$queryKey';
+    // Check if cache exists and is valid
+    if (_cachedMatches.containsKey(cacheKey)) {
+      final expiration = _cacheExpirations[cacheKey];
+      if (expiration != null && expiration.isAfter(DateTime.now())) {
+        return _cachedMatches[cacheKey]!;
+      }
+    }
+    // Cache miss or expired - fetch fresh data
+    final matches = await fetchFunc();
+    // Update cache
+    _cachedMatches[cacheKey] = matches;
+    _cacheExpirations[cacheKey] = DateTime.now().add(_cacheDuration);
+    return matches;
+  }
+}
+```
+
+- **Performance and scalability recommendations:**
+  - Implement pagination for all matching queries:
+
+```dart
+Future<PaginatedResult<UserMatchModel>> getMatchesPaginated({
+  required String userId,
+  int limit = 20,
+  String? lastDocumentId,
+}) async {
+  // Implementation with Firestore's startAfter() and limit()
+}
+```
+
+  - Geospatial queries for "nearby" features:
+
+```dart
+Future<List<UserModel>> findNearbyUsers(
+  double latitude,
+  double longitude,
+  double radiusInKm,
+) async {
+  // Implement using Firestore or MongoDB's geospatial queries
+}
+```
+
+  - Background jobs for computing and updating match suggestions:
+
+```dart
+Future<void> updateMatchSuggestionsForAllUsers() async {
+  // Implement with Firebase Cloud Functions
+}
+```
+
+### 17.6. Final Recommendations
+- Implement the collections outlined above in Firestore (primary) and MongoDB (secondery, fall back)
+- Create indexes for all frequently queried fields to improve performance
+- Build a dedicated MatchService that encapsulates all matching logic
+- Use a hybrid approach with both real-time searches and precomputed suggestions
+- Implement caching to reduce database reads and improve responsiveness
+
+This architecture provides the flexibility needed for complex skill matching while maintaining good performance as your user base grows.
+
+
+## 18. Variable Names, Class Names, Returns, Signatures
+- **Variable Naming**: Use camelCase for variables and functions, e.g., userId, sendMessage().
+- **Class Naming**: Use PascalCase for classes, e.g., UserModel, ChatService.
+- **Function Signatures**: Clearly define input parameters and return types, e.g., Future<Message> sendMessage(String senderId, String receiverId, String content).
+
+## 19. Design and Development Process
+- **Design Document Structure**: The app design is divided into 19 parts, with Part 0 being essential for all development stages. Each development step will incorporate Part 0 and one additional part to ensure alignment with the overall design.
+  - **Part 0**: Introductions, app features, and wireframe pages.
+  - **Part 1-19**: Detailed designs for specific app sections, such as chat pages, match pages, post pages, voice/live room pages, profile pages, settings, and popups.
+
+## 20. Development Strategy
+- **Multi-Provider Strategy**: Implement a service-switching mechanism to automatically switch between different providers when usage limits are reached.
+- **Service Usage Tracking**: Use a ServiceUsageTracker to monitor API call usage and switch providers seamlessly.
+- **Fallback System**: Ensure seamless switching between services without user disruption, maximizing the use of free tiers across multiple providers.
+
+## 21. Success Metrics
+- **User Engagement**: Track metrics such as average time to select skills, match success rate, and user satisfaction.
+- **System Performance**: Monitor service usage and switching effectiveness to ensure optimal performance.
+
+## 22. Matching Optimization
+- **Skill Compatibility Matrix**: Pre-calculate compatibility scores between skills, consider skill families for partial matches, and factor in difficulty levels for realistic matching.
+- **Regional Relevance**: Track skill popularity by region, adjust search algorithms based on local demand, and maintain a minimum user pool for each skill.
+
+## 23. Localization Strategy
+- **Regional Customization**: Prioritize skills relevant to each region, include culturally specific skills, and adapt terminology to local context.
+- **Translation Management**: Use professional translation services for skill names, implement community validation for accuracy, and perform regular updates based on user feedback.
+
+## 24. Monetization Strategy
+- **Algorithm-Driven Matching**: Implement algorithm-driven matching with monetization strategies, including VIP-only features and payment options for premium access.
+- **UI Design for Monetization**: Ensure the UI reflects restricted access for non-VIP users, with payment prompts and lock icons for premium features.
+
+## 25. Feature Design Integration
+- **Core Shared Code**: Ensure consistency and reusability across the app.
+- **Shared Widgets**: Develop common UI components for use across different features.
+- **Shared Providers**: Implement shared state management solutions.
+- **Feature Screens**: Design and implement screens for each feature as per the design document.
+- **Configuration Files**: Maintain configuration files for easy management of app settings and dependencies.
+- **Wireframes and User Flow**: Integrate wireframes and detailed user flow from UIUX0.md and UIUX1.md to ensure comprehensive design coverage.
+
+This updated PRD now includes the database structure and other relevant details from your attached files, ensuring a comprehensive guide for engineers. If you need further adjustments or details, feel free to ask!
+
+## 4.2.1 SkillTalk Database System: Essential Reference
+
+> **Note:** The following five reference databases are already fully implemented and live in the `lib/feature/references_data ` directory. No new implementation is required—this section documents the actual system for Task Master and all developers. All access should use the static utility classes and ReferenceDataProvider as described below.
+
+
+### Overview
+# Swift Reference Databases Implementation Plan
+
+**Applied Rules**: R0.6 (Dart to Swift Conversion), R0.7 (Swift Best Practices)
+
+## Database Analysis from Flutter Project
+
+### **Existing Flutter Databases:**
+1. **CountriesDatabase** - 195 countries with code, name, flag emoji
+2. **CitiesDatabase** - Major cities organized by country code
+3. **LanguagesDatabase** - 300+ languages with code, name, native name, proficiency levels
+4. **HobbiesDatabase** - Hobbies organized by 12 categories
+5. **OccupationsDatabase** - Occupations organized by 12 professional categories
+
+### **Key Features to Convert:**
+- Static data access methods
+- Search functionality
+- Category-based filtering
+- Localization support
+- Popular/featured items
+- Alphabetical grouping
+
+### **Swift Implementation Strategy:**
+- **Protocol-Oriented Design** - Define protocols for each database type
+- **Codable Structs** - Replace Dart maps with proper Swift models
+- **Bundle Resource Loading** - Load JSON data from app bundle
+- **Async/Await** - Modern Swift concurrency
+- **Caching** - Efficient memory management
+- **Error Handling** - Proper Swift error handling
+
+---
+
+## 1. Database Structure Analysis & Planning ✅
+
+### **Conversion Mapping:**
+```
+Flutter Map<String, String> → Swift Codable Struct
+Dart static methods → Swift class methods with protocols
+Flutter ChangeNotifier → Swift ObservableObject
+Dart Future → Swift async/await
+```
+
+### **Performance Optimizations:**
+- Lazy loading for large datasets
+- Memory-efficient JSON parsing
+- Search indexing for fast queries
+- Caching frequently accessed data
+
+---
+
+## 2. Swift Model Definitions
+
+### **Core Models:**
+
+```swift
+// MARK: - Country Model
+struct Country: Codable, Identifiable, Hashable {
+    let id: String
+    let code: String
+    let name: String
+    let flag: String
+    
+    enum CodingKeys: String, CodingKey {
+        case id, code, name, flag
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.code = try container.decode(String.self, forKey: .code)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.flag = try container.decode(String.self, forKey: .flag)
+        self.id = code // Use code as ID
+    }
+}
+
+// MARK: - City Model
+struct City: Codable, Identifiable, Hashable {
+    let id: String
+    let name: String
+    let countryCode: String
+    
+    enum CodingKeys: String, CodingKey {
+        case id, name
+        case countryCode = "country"
+    }
+}
+
+// MARK: - Language Model
+struct Language: Codable, Identifiable, Hashable {
+    let id: String
+    let code: String
+    let name: String
+    let nativeName: String
+    
+    enum CodingKeys: String, CodingKey {
+        case code, name
+        case nativeName = "native"
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.code = try container.decode(String.self, forKey: .code)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.nativeName = try container.decode(String.self, forKey: .nativeName)
+        self.id = code // Use code as ID
+    }
+}
+
+// MARK: - Language Proficiency
+enum LanguageProficiency: String, CaseIterable, Codable {
+    case beginner = "beginner"
+    case intermediate = "intermediate"
+    case advanced = "advanced"
+    case native = "native"
+    
+    var displayName: String {
+        switch self {
+        case .beginner: return "Beginner"
+        case .intermediate: return "Intermediate"
+        case .advanced: return "Advanced"
+        case .native: return "Native"
+        }
+    }
+    
+    var description: String {
+        switch self {
+        case .beginner: return "Basic understanding, simple phrases"
+        case .intermediate: return "Can express in familiar contexts"
+        case .advanced: return "Clear and detailed expression on various topics"
+        case .native: return "Native or bilingual proficiency"
+        }
+    }
+    
+    var color: Color {
+        switch self {
+        case .beginner: return Color(red: 0.898, green: 0.451, blue: 0.451) // Light red
+        case .intermediate: return Color(red: 1.0, green: 0.655, blue: 0.149) // Light orange
+        case .advanced: return Color(red: 0.4, green: 0.733, blue: 0.416) // Light green
+        case .native: return Color(red: 0.0, green: 0.847, blue: 0.753) // SkillTalk teal
+        }
+    }
+}
+
+// MARK: - Hobby Model
+struct Hobby: Codable, Identifiable, Hashable {
+    let id: String
+    let name: String
+    let category: String
+}
+
+// MARK: - Occupation Model
+struct Occupation: Codable, Identifiable, Hashable {
+    let id: String
+    let name: String
+    let category: String
+}
+
+// MARK: - Search Result Model
+struct SearchResult<T: Codable>: Identifiable {
+    let id = UUID()
+    let item: T
+    let relevanceScore: Double
+}
+
+// MARK: - Alphabetical Section Model
+struct AlphabeticalSection<T: Codable>: Identifiable {
+    let id = UUID()
+    let letter: String
+    let items: [T]
+}
+```
+
+### **Category Enums:**
+
+```swift
+// MARK: - Hobby Categories
+enum HobbyCategory: String, CaseIterable, Codable {
+    case creative = "creative"
+    case entertainment = "entertainment"
+    case performance = "performance"
+    case writing = "writing"
+    case outdoor = "outdoor"
+    case sports = "sports"
+    case fitness = "fitness"
+    case food = "food"
+    case collecting = "collecting"
+    case technology = "technology"
+    case wellness = "wellness"
+    case learning = "learning"
+    case animals = "animals"
+    case social = "social"
+    
+    var displayName: String {
+        switch self {
+        case .creative: return "Creative Arts"
+        case .entertainment: return "Entertainment"
+        case .performance: return "Performance Arts"
+        case .writing: return "Writing & Literary"
+        case .outdoor: return "Outdoor Activities"
+        case .sports: return "Sports"
+        case .fitness: return "Fitness"
+        case .food: return "Food & Drink"
+        case .collecting: return "Collection & Curation"
+        case .technology: return "Technology & Digital"
+        case .wellness: return "Wellness & Mindfulness"
+        case .learning: return "Learning & Education"
+        case .animals: return "Animal-Related"
+        case .social: return "Social"
+        }
+    }
+}
+
+// MARK: - Occupation Categories
+enum OccupationCategory: String, CaseIterable, Codable {
+    case business = "business"
+    case technology = "technology"
+    case healthcare = "healthcare"
+    case education = "education"
+    case legal = "legal"
+    case arts = "arts"
+    case engineering = "engineering"
+    case hospitality = "hospitality"
+    case government = "government"
+    case science = "science"
+    case transportation = "transportation"
+    case trades = "trades"
+    case other = "other"
+    
+    var displayName: String {
+        switch self {
+        case .business: return "Business & Finance"
+        case .technology: return "Technology & IT"
+        case .healthcare: return "Healthcare"
+        case .education: return "Education"
+        case .legal: return "Legal"
+        case .arts: return "Arts & Media"
+        case .engineering: return "Engineering"
+        case .hospitality: return "Hospitality & Service"
+        case .government: return "Government & Public Service"
+        case .science: return "Science & Research"
+        case .transportation: return "Transportation"
+        case .trades: return "Construction & Trades"
+        case .other: return "Student & Others"
+        }
+    }
+}
+```
+
+---
+
+## 3. Database Service Protocols
+
+### **Core Database Protocol:**
+
+```swift
+// MARK: - Base Database Protocol
+protocol ReferenceDatabase {
+    associatedtype DataType: Codable & Identifiable
+    
+    func loadData() async throws -> [DataType]
+    func search(query: String) async throws -> [DataType]
+    func getPopular(limit: Int) async throws -> [DataType]
+    func getById(_ id: String) async throws -> DataType?
+}
+
+// MARK: - Searchable Protocol
+protocol SearchableDatabase: ReferenceDatabase {
+    func searchWithRelevance(query: String) async throws -> [SearchResult<DataType>]
+    func getSearchSuggestions(query: String) async throws -> [String]
+}
+
+// MARK: - Categorizable Protocol
+protocol CategorizableDatabase: ReferenceDatabase {
+    associatedtype CategoryType: RawRepresentable & CaseIterable where CategoryType.RawValue == String
+    
+    func getByCategory(_ category: CategoryType) async throws -> [DataType]
+    func getAllCategories() -> [CategoryType]
+}
+
+// MARK: - Alphabetical Grouping Protocol
+protocol AlphabeticalGroupable: ReferenceDatabase {
+    func getGroupedByAlphabet() async throws -> [AlphabeticalSection<DataType>]
+}
+```
+
+### **Specific Database Protocols:**
+
+```swift
+// MARK: - Countries Database Protocol
+protocol CountriesServiceProtocol: ReferenceDatabase, SearchableDatabase, AlphabeticalGroupable where DataType == Country {
+    func getByCode(_ code: String) async throws -> Country?
+    func getByRegion(_ region: String) async throws -> [Country]
+    func getPopularCountries() async throws -> [Country]
+}
+
+// MARK: - Cities Database Protocol
+protocol CitiesServiceProtocol: ReferenceDatabase, SearchableDatabase where DataType == City {
+    func getByCountryCode(_ countryCode: String) async throws -> [City]
+    func getPopularCities() async throws -> [City]
+    func getMajorCities(limit: Int) async throws -> [City]
+}
+
+// MARK: - Languages Database Protocol
+protocol LanguagesServiceProtocol: ReferenceDatabase, SearchableDatabase, AlphabeticalGroupable where DataType == Language {
+    func getByCode(_ code: String) async throws -> Language?
+    func getPopularLanguages() async throws -> [Language]
+    func getProficiencyLevels() -> [LanguageProficiency]
+    func getLocalizedName(for languageCode: String, in locale: Locale) -> String
+}
+
+// MARK: - Hobbies Database Protocol
+protocol HobbiesServiceProtocol: ReferenceDatabase, SearchableDatabase, CategorizableDatabase where DataType == Hobby, CategoryType == HobbyCategory {
+    func getPopularHobbies() async throws -> [Hobby]
+    func getRecommendedHobbies(basedOn interests: [String]) async throws -> [Hobby]
+}
+
+// MARK: - Occupations Database Protocol
+protocol OccupationsServiceProtocol: ReferenceDatabase, SearchableDatabase, CategorizableDatabase where DataType == Occupation, CategoryType == OccupationCategory {
+    func getPopularOccupations() async throws -> [Occupation]
+    func getRelatedOccupations(to occupation: Occupation) async throws -> [Occupation]
+}
+```
+
+### **Reference Data Manager Protocol:**
+
+```swift
+// MARK: - Reference Data Manager Protocol
+protocol ReferenceDataManagerProtocol: ObservableObject {
+    var isLoading: Bool { get }
+    var errorMessage: String? { get }
+    
+    // Service accessors
+    var countriesService: CountriesServiceProtocol { get }
+    var citiesService: CitiesServiceProtocol { get }
+    var languagesService: LanguagesServiceProtocol { get }
+    var hobbiesService: HobbiesServiceProtocol { get }
+    var occupationsService: OccupationsServiceProtocol { get }
+    
+    // Lifecycle
+    func initialize() async throws
+    func refresh() async throws
+    func getStatistics() -> [String: Any]
+}
+```
+
+### **Error Handling:**
+
+```swift
+// MARK: - Reference Database Errors
+enum ReferenceDataError: LocalizedError {
+    case fileNotFound(String)
+    case invalidData(String)
+    case decodingError(String)
+    case networkError(String)
+    case cacheError(String)
+    case notInitialized
+    
+    var errorDescription: String? {
+        switch self {
+        case .fileNotFound(let file):
+            return "Reference data file not found: \(file)"
+        case .invalidData(let details):
+            return "Invalid reference data: \(details)"
+        case .decodingError(let details):
+            return "Failed to decode reference data: \(details)"
+        case .networkError(let details):
+            return "Network error loading reference data: \(details)"
+        case .cacheError(let details):
+            return "Cache error: \(details)"
+        case .notInitialized:
+            return "Reference data not initialized. Call initialize() first."
+        }
+    }
+}
+```
+
+---
+
+## 4. Database Implementation Classes
+
+### **Base Database Service:**
+
+```swift
+// MARK: - Base Database Service
+class BaseReferenceService<T: Codable & Identifiable> {
+    private var cachedData: [T] = []
+    private var isDataLoaded = false
+    private let fileName: String
+    private let cacheManager: CacheManager
+    
+    init(fileName: String, cacheManager: CacheManager = .shared) {
+        self.fileName = fileName
+        self.cacheManager = cacheManager
+    }
+    
+    // MARK: - Data Loading
+    func loadData() async throws -> [T] {
+        if isDataLoaded && !cachedData.isEmpty {
+            return cachedData
+        }
+        
+        // Try cache first
+        let cacheKey = "reference_\(fileName)"
+        if let cached: [T] = await cacheManager.get(key: cacheKey, type: [T].self) {
+            cachedData = cached
+            isDataLoaded = true
+            return cached
+        }
+        
+        // Load from bundle
+        guard let url = Bundle.main.url(forResource: fileName, withExtension: "json") else {
+            throw ReferenceDataError.fileNotFound(fileName)
+        }
+        
+        do {
+            let data = try Data(contentsOf: url)
+            let decoded = try JSONDecoder().decode([T].self, from: data)
+            
+            // Cache the data
+            await cacheManager.set(key: cacheKey, value: decoded)
+            
+            cachedData = decoded
+            isDataLoaded = true
+            return decoded
+        } catch {
+            throw ReferenceDataError.decodingError("Failed to decode \(fileName): \(error.localizedDescription)")
+        }
+    }
+    
+    // MARK: - Basic Operations
+    func getById(_ id: String) async throws -> T? {
+        let data = try await loadData()
+        return data.first { $0.id == id }
+    }
+    
+    func search(query: String) async throws -> [T] {
+        guard !query.isEmpty else { return try await loadData() }
+        
+        let data = try await loadData()
+        let lowercaseQuery = query.lowercased()
+        
+        return data.filter { item in
+            // This is a basic implementation - subclasses should override for specific search logic
+            return String(describing: item).lowercased().contains(lowercaseQuery)
+        }
+    }
+    
+    func getPopular(limit: Int = 10) async throws -> [T] {
+        let data = try await loadData()
+        return Array(data.prefix(limit))
+    }
+    
+    // MARK: - Cache Management
+    func clearCache() async {
+        let cacheKey = "reference_\(fileName)"
+        await cacheManager.remove(key: cacheKey)
+        cachedData.removeAll()
+        isDataLoaded = false
+    }
+}
+```
+
+### **Countries Service Implementation:**
+
+```swift
+// MARK: - Countries Service
+class CountriesService: BaseReferenceService<Country>, CountriesServiceProtocol {
+    
+    init() {
+        super.init(fileName: "countries")
+    }
+    
+    // MARK: - CountriesServiceProtocol Implementation
+    func getByCode(_ code: String) async throws -> Country? {
+        let countries = try await loadData()
+        return countries.first { $0.code.lowercased() == code.lowercased() }
+    }
+    
+    func getByRegion(_ region: String) async throws -> [Country] {
+        // This would require region data in the Country model
+        // For now, return empty array
+        return []
+    }
+    
+    func getPopularCountries() async throws -> [Country] {
+        let popularCodes = ["us", "gb", "ca", "au", "de", "fr", "jp", "cn", "in", "br"]
+        let countries = try await loadData()
+        
+        return popularCodes.compactMap { code in
+            countries.first { $0.code.lowercased() == code }
+        }
+    }
+    
+    // MARK: - SearchableDatabase Implementation
+    override func search(query: String) async throws -> [Country] {
+        guard !query.isEmpty else { return try await loadData() }
+        
+        let countries = try await loadData()
+        let lowercaseQuery = query.lowercased()
+        
+        return countries.filter { country in
+            country.name.lowercased().contains(lowercaseQuery) ||
+            country.code.lowercased().contains(lowercaseQuery)
+        }
+    }
+    
+    func searchWithRelevance(query: String) async throws -> [SearchResult<Country>] {
+        let results = try await search(query: query)
+        let lowercaseQuery = query.lowercased()
+        
+        return results.map { country in
+            var score = 0.0
+            
+            // Exact name match gets highest score
+            if country.name.lowercased() == lowercaseQuery {
+                score = 1.0
+            }
+            // Name starts with query gets high score
+            else if country.name.lowercased().hasPrefix(lowercaseQuery) {
+                score = 0.8
+            }
+            // Code match gets medium score
+            else if country.code.lowercased() == lowercaseQuery {
+                score = 0.7
+            }
+            // Contains query gets lower score
+            else if country.name.lowercased().contains(lowercaseQuery) {
+                score = 0.5
+            }
+            
+            return SearchResult(item: country, relevanceScore: score)
+        }.sorted { $0.relevanceScore > $1.relevanceScore }
+    }
+    
+    func getSearchSuggestions(query: String) async throws -> [String] {
+        let results = try await search(query: query)
+        return Array(results.prefix(5).map { $0.name })
+    }
+    
+    // MARK: - AlphabeticalGroupable Implementation
+    func getGroupedByAlphabet() async throws -> [AlphabeticalSection<Country>] {
+        let countries = try await loadData()
+        let grouped = Dictionary(grouping: countries) { country in
+            String(country.name.prefix(1).uppercased())
+        }
+        
+        return grouped.map { letter, countries in
+            AlphabeticalSection(letter: letter, items: countries.sorted { $0.name < $1.name })
+        }.sorted { $0.letter < $1.letter }
+    }
+}
+```
+
+### **Cities Service Implementation:**
+
+```swift
+// MARK: - Cities Service
+class CitiesService: BaseReferenceService<City>, CitiesServiceProtocol {
+    
+    init() {
+        super.init(fileName: "cities")
+    }
+    
+    // MARK: - CitiesServiceProtocol Implementation
+    func getByCountryCode(_ countryCode: String) async throws -> [City] {
+        let cities = try await loadData()
+        return cities.filter { $0.countryCode.lowercased() == countryCode.lowercased() }
+    }
+    
+    func getPopularCities() async throws -> [City] {
+        let popularIds = [
+            "nyc-us", "london-gb", "tokyo-jp", "paris-fr", "hk-cn",
+            "singapore-sg", "sydney-au", "rio-br", "moscow-ru", "dubai-ae"
+        ]
+        
+        let cities = try await loadData()
+        return popularIds.compactMap { id in
+            cities.first { $0.id == id }
+        }
+    }
+    
+    func getMajorCities(limit: Int = 20) async throws -> [City] {
+        return try await getPopular(limit: limit)
+    }
+    
+    // MARK: - SearchableDatabase Implementation
+    override func search(query: String) async throws -> [City] {
+        guard !query.isEmpty else { return try await loadData() }
+        
+        let cities = try await loadData()
+        let lowercaseQuery = query.lowercased()
+        
+        return cities.filter { city in
+            city.name.lowercased().contains(lowercaseQuery)
+        }
+    }
+    
+    func searchWithRelevance(query: String) async throws -> [SearchResult<City>] {
+        let results = try await search(query: query)
+        let lowercaseQuery = query.lowercased()
+        
+        return results.map { city in
+            var score = 0.0
+            
+            if city.name.lowercased() == lowercaseQuery {
+                score = 1.0
+            } else if city.name.lowercased().hasPrefix(lowercaseQuery) {
+                score = 0.8
+            } else if city.name.lowercased().contains(lowercaseQuery) {
+                score = 0.5
+            }
+            
+            return SearchResult(item: city, relevanceScore: score)
+        }.sorted { $0.relevanceScore > $1.relevanceScore }
+    }
+    
+    func getSearchSuggestions(query: String) async throws -> [String] {
+        let results = try await search(query: query)
+        return Array(results.prefix(5).map { $0.name })
+    }
+}
+```
+
+### **Languages Service Implementation:**
+
+```swift
+// MARK: - Languages Service
+class LanguagesService: BaseReferenceService<Language>, LanguagesServiceProtocol {
+    
+    init() {
+        super.init(fileName: "languages")
+    }
+    
+    // MARK: - LanguagesServiceProtocol Implementation
+    func getByCode(_ code: String) async throws -> Language? {
+        let languages = try await loadData()
+        return languages.first { $0.code.lowercased() == code.lowercased() }
+    }
+    
+    func getPopularLanguages() async throws -> [Language] {
+        let popularCodes = ["en", "es", "fr", "de", "zh", "ar", "ru", "ja", "pt", "hi", "ko"]
+        let languages = try await loadData()
+        
+        return popularCodes.compactMap { code in
+            languages.first { $0.code.lowercased() == code }
+        }
+    }
+    
+    func getProficiencyLevels() -> [LanguageProficiency] {
+        return LanguageProficiency.allCases
+    }
+    
+    func getLocalizedName(for languageCode: String, in locale: Locale) -> String {
+        // In a real implementation, this would use proper localization
+        // For now, return the language name from our database
+        Task {
+            if let language = try? await getByCode(languageCode) {
+                return language.name
+            }
+        }
+        return "Unknown Language"
+    }
+    
+    // MARK: - SearchableDatabase Implementation
+    override func search(query: String) async throws -> [Language] {
+        guard !query.isEmpty else { return try await loadData() }
+        
+        let languages = try await loadData()
+        let lowercaseQuery = query.lowercased()
+        
+        return languages.filter { language in
+            language.name.lowercased().contains(lowercaseQuery) ||
+            language.nativeName.lowercased().contains(lowercaseQuery) ||
+            language.code.lowercased().contains(lowercaseQuery)
+        }
+    }
+    
+    func searchWithRelevance(query: String) async throws -> [SearchResult<Language>] {
+        let results = try await search(query: query)
+        let lowercaseQuery = query.lowercased()
+        
+        return results.map { language in
+            var score = 0.0
+            
+            if language.name.lowercased() == lowercaseQuery || language.nativeName.lowercased() == lowercaseQuery {
+                score = 1.0
+            } else if language.code.lowercased() == lowercaseQuery {
+                score = 0.9
+            } else if language.name.lowercased().hasPrefix(lowercaseQuery) {
+                score = 0.8
+            } else if language.nativeName.lowercased().hasPrefix(lowercaseQuery) {
+                score = 0.7
+            } else {
+                score = 0.5
+            }
+            
+            return SearchResult(item: language, relevanceScore: score)
+        }.sorted { $0.relevanceScore > $1.relevanceScore }
+    }
+    
+    func getSearchSuggestions(query: String) async throws -> [String] {
+        let results = try await search(query: query)
+        return Array(results.prefix(5).map { $0.name })
+    }
+    
+    // MARK: - AlphabeticalGroupable Implementation
+    func getGroupedByAlphabet() async throws -> [AlphabeticalSection<Language>] {
+        let languages = try await loadData()
+        let popular = try await getPopularLanguages()
+        
+        // Create popular section
+        var sections = [AlphabeticalSection(letter: "★ Popular", items: popular)]
+        
+        // Group remaining languages by first letter
+        let nonPopular = languages.filter { language in
+            !popular.contains { $0.code == language.code }
+        }
+        
+        let grouped = Dictionary(grouping: nonPopular) { language in
+            String(language.name.prefix(1).uppercased())
+        }
+        
+        let alphabeticalSections = grouped.map { letter, languages in
+            AlphabeticalSection(letter: letter, items: languages.sorted { $0.name < $1.name })
+        }.sorted { $0.letter < $1.letter }
+        
+        sections.append(contentsOf: alphabeticalSections)
+        return sections
+    }
+}
+```
+
+---
+
+## 5. File Structure Integration ✅
+
+**Updated iOS File Structure** - Added comprehensive reference data services to the Data Layer:
+
+```
+SkillTalk/Core/Data/ReferenceData/
+├── Models/                   # 10 Swift models (Country, City, Language, etc.)
+├── Protocols/                # 10 service protocols with proper Swift interfaces
+├── Services/                 # 6 service implementations with async/await
+├── Errors/                   # Proper Swift error handling
+└── Extensions/               # Helper utilities for Bundle loading and search
+```
+
+**Database Resources** - Updated Resources/Database/Reference/ to include:
+- `countries.json` (195 countries)
+- `cities.json` (1000+ cities)
+- `languages.json` (300+ languages)
+- `hobbies.json` (500+ hobbies)
+- `occupations.json` (600+ jobs)
+
+---
+
+## 6. Usage Examples & Integration
+
+### **Reference Data Manager Implementation:**
+
+```swift
+// MARK: - Reference Data Manager
+@MainActor
+class ReferenceDataManager: ObservableObject, ReferenceDataManagerProtocol {
+    @Published var isLoading = false
+    @Published var errorMessage: String?
+    
+    // Service instances
+    let countriesService: CountriesServiceProtocol
+    let citiesService: CitiesServiceProtocol
+    let languagesService: LanguagesServiceProtocol
+    let hobbiesService: HobbiesServiceProtocol
+    let occupationsService: OccupationsServiceProtocol
+    
+    init(
+        countriesService: CountriesServiceProtocol = CountriesService(),
+        citiesService: CitiesServiceProtocol = CitiesService(),
+        languagesService: LanguagesServiceProtocol = LanguagesService(),
+        hobbiesService: HobbiesServiceProtocol = HobbiesService(),
+        occupationsService: OccupationsServiceProtocol = OccupationsService()
+    ) {
+        self.countriesService = countriesService
+        self.citiesService = citiesService
+        self.languagesService = languagesService
+        self.hobbiesService = hobbiesService
+        self.occupationsService = occupationsService
+    }
+    
+    func initialize() async throws {
+        isLoading = true
+        errorMessage = nil
+        
+        do {
+            // Pre-load popular data for better UX
+            async let countries = countriesService.getPopularCountries()
+            async let cities = citiesService.getPopularCities()
+            async let languages = languagesService.getPopularLanguages()
+            async let hobbies = hobbiesService.getPopularHobbies()
+            async let occupations = occupationsService.getPopularOccupations()
+            
+            // Wait for all to complete
+            _ = try await (countries, cities, languages, hobbies, occupations)
+            
+            isLoading = false
+        } catch {
+            errorMessage = error.localizedDescription
+            isLoading = false
+            throw error
+        }
+    }
+    
+    func refresh() async throws {
+        // Clear all caches and reload
+        await countriesService.clearCache()
+        await citiesService.clearCache()
+        await languagesService.clearCache()
+        await hobbiesService.clearCache()
+        await occupationsService.clearCache()
+        
+        try await initialize()
+    }
+    
+    func getStatistics() -> [String: Any] {
+        return [
+            "services_count": 5,
+            "last_initialized": Date().timeIntervalSince1970,
+            "cache_status": "active"
+        ]
+    }
+}
+```
+
+### **SwiftUI Integration Example:**
+
+```swift
+// MARK: - Country Picker View
+struct CountryPickerView: View {
+    @StateObject private var referenceData = ReferenceDataManager()
+    @State private var searchText = ""
+    @State private var countries: [Country] = []
+    @State private var filteredCountries: [Country] = []
+    
+    var body: some View {
+        NavigationView {
+            VStack {
+                SearchBar(text: $searchText, placeholder: "Search countries...")
+                    .onChange(of: searchText) { newValue in
+                        Task {
+                            await searchCountries(query: newValue)
+                        }
+                    }
+                
+                if referenceData.isLoading {
+                    LoadingView()
+                } else {
+                    CountryList(countries: filteredCountries)
+                }
+            }
+            .navigationTitle("Select Country")
+            .task {
+                await loadCountries()
+            }
+        }
+    }
+    
+    private func loadCountries() async {
+        do {
+            countries = try await referenceData.countriesService.loadData()
+            filteredCountries = countries
+        } catch {
+            print("Error loading countries: \(error)")
+        }
+    }
+    
+    private func searchCountries(query: String) async {
+        do {
+            filteredCountries = try await referenceData.countriesService.search(query: query)
+        } catch {
+            print("Error searching countries: \(error)")
+        }
+    }
+}
+
+// MARK: - Country List Component
+struct CountryList: View {
+    let countries: [Country]
+    
+    var body: some View {
+        List(countries) { country in
+            CountryRow(country: country)
+        }
+    }
+}
+
+// MARK: - Country Row Component
+struct CountryRow: View {
+    let country: Country
+    
+    var body: some View {
+        HStack {
+            Text(country.flag)
+                .font(.title2)
+            
+            VStack(alignment: .leading) {
+                Text(country.name)
+                    .font(.headline)
+                Text(country.code.uppercased())
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+            }
+            
+            Spacer()
+        }
+        .padding(.vertical, 4)
+    }
+}
+```
+
+### **ViewModel Integration Example:**
+
+```swift
+// MARK: - Profile Setup ViewModel
+@MainActor
+class ProfileSetupViewModel: ObservableObject {
+    @Published var selectedCountry: Country?
+    @Published var selectedCity: City?
+    @Published var selectedLanguages: [Language] = []
+    @Published var selectedHobbies: [Hobby] = []
+    @Published var selectedOccupation: Occupation?
+    
+    private let referenceData: ReferenceDataManagerProtocol
+    
+    init(referenceData: ReferenceDataManagerProtocol = ReferenceDataManager()) {
+        self.referenceData = referenceData
+    }
+    
+    // MARK: - Country Selection
+    func searchCountries(query: String) async -> [Country] {
+        do {
+            return try await referenceData.countriesService.search(query: query)
+        } catch {
+            print("Error searching countries: \(error)")
+            return []
+        }
+    }
+    
+    func selectCountry(_ country: Country) {
+        selectedCountry = country
+        selectedCity = nil // Reset city when country changes
+    }
+    
+    // MARK: - City Selection
+    func loadCitiesForSelectedCountry() async -> [City] {
+        guard let country = selectedCountry else { return [] }
+        
+        do {
+            return try await referenceData.citiesService.getByCountryCode(country.code)
+        } catch {
+            print("Error loading cities: \(error)")
+            return []
+        }
+    }
+    
+    // MARK: - Language Selection
+    func searchLanguages(query: String) async -> [Language] {
+        do {
+            return try await referenceData.languagesService.search(query: query)
+        } catch {
+            print("Error searching languages: \(error)")
+            return []
+        }
+    }
+    
+    func addLanguage(_ language: Language, proficiency: LanguageProficiency) {
+        // In a real implementation, you'd have a UserLanguage model
+        selectedLanguages.append(language)
+    }
+    
+    // MARK: - Hobby Selection
+    func getHobbiesByCategory(_ category: HobbyCategory) async -> [Hobby] {
+        do {
+            return try await referenceData.hobbiesService.getByCategory(category)
+        } catch {
+            print("Error loading hobbies: \(error)")
+            return []
+        }
+    }
+    
+    func toggleHobby(_ hobby: Hobby) {
+        if selectedHobbies.contains(hobby) {
+            selectedHobbies.removeAll { $0.id == hobby.id }
+        } else {
+            selectedHobbies.append(hobby)
+        }
+    }
+    
+    // MARK: - Occupation Selection
+    func searchOccupations(query: String) async -> [Occupation] {
+        do {
+            return try await referenceData.occupationsService.search(query: query)
+        } catch {
+            print("Error searching occupations: \(error)")
+            return []
+        }
+    }
+}
+```
+
+### **Dependency Injection Setup:**
+
+```swift
+// MARK: - Service Container Extension
+extension ServiceContainer {
+    func registerReferenceDataServices() {
+        // Register individual services
+        register(CountriesServiceProtocol.self) { _ in
+            CountriesService()
+        }
+        
+        register(CitiesServiceProtocol.self) { _ in
+            CitiesService()
+        }
+        
+        register(LanguagesServiceProtocol.self) { _ in
+            LanguagesService()
+        }
+        
+        register(HobbiesServiceProtocol.self) { _ in
+            HobbiesService()
+        }
+        
+        register(OccupationsServiceProtocol.self) { _ in
+            OccupationsService()
+        }
+        
+        // Register main manager
+        register(ReferenceDataManagerProtocol.self) { container in
+            ReferenceDataManager(
+                countriesService: container.resolve(CountriesServiceProtocol.self)!,
+                citiesService: container.resolve(CitiesServiceProtocol.self)!,
+                languagesService: container.resolve(LanguagesServiceProtocol.self)!,
+                hobbiesService: container.resolve(HobbiesServiceProtocol.self)!,
+                occupationsService: container.resolve(OccupationsServiceProtocol.self)!
+            )
+        }
+    }
+}
+
+// MARK: - App Initialization
+@main
+struct SkillTalkApp: App {
+    init() {
+        // Setup dependency injection
+        ServiceContainer.shared.registerReferenceDataServices()
+    }
+    
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+                .environmentObject(
+                    ServiceContainer.shared.resolve(ReferenceDataManagerProtocol.self)!
+                )
+        }
+    }
+}
+```
+
+---
+
+## ✅ **Implementation Summary**
+
+### **Completed Conversion:**
+1. **✅ Models** - 10 Swift structs with proper Codable implementation
+2. **✅ Protocols** - 10 service protocols with async/await interfaces
+3. **✅ Services** - 6 service implementations with caching and error handling
+4. **✅ File Structure** - Integrated into iOS project structure
+5. **✅ Usage Examples** - SwiftUI views, ViewModels, and dependency injection
+
+### **Key Features Implemented:**
+- **🚀 Performance** - Lazy loading, caching, and efficient search
+- **🔍 Search** - Relevance scoring and search suggestions
+- **📱 SwiftUI Ready** - ObservableObject and @Published properties
+- **🏗️ MVVM Architecture** - Clean separation of concerns
+- **⚡ Async/Await** - Modern Swift concurrency
+- **🛡️ Error Handling** - Comprehensive error management
+- **🧪 Testable** - Protocol-oriented design for easy mocking
+
+### **Database Coverage:**
+- **🌍 Countries**: 195 countries with flags and codes
+- **🏙️ Cities**: 1000+ major cities organized by country
+- **🗣️ Languages**: 300+ languages with native names and proficiency levels
+- **🎨 Hobbies**: 500+ hobbies across 14 categories
+- **💼 Occupations**: 600+ jobs across 13 professional categories
+
+### **Next Steps:**
+1. Create JSON data files from Flutter database
+2. Implement unit tests for all services
+3. Add localization support for multiple languages
+4. Integrate with existing SkillTalk features
+5. Performance testing and optimization
+
+--- 
+
+
+
+9. Shared Implementation Patterns
+- Multi-provider strategy, service usage tracking, fallback system, caching, and performance best practices.
+
+10. Placeholder Notes for Feature-Specific Content
+- For details on authentication and onboarding, see PRD 2: Auth & Onboarding.
+- For skills and matching, see PRD 3: Skills & Matching.
+- For chat and communication, see PRD 4: Chat Communication.
+- For posts and social feed, see PRD 5: Posts & Social Feed.
+- For VoiceRoom & LiveRoom, see PRD 6: VoiceRoom & LiveRoom.
+- For monetization and payment, see PRD 7: Monetization & Payment.
+- For profile and settings, see PRD 8: Profile & Settings.
+- For analytics and gamification, see PRD 9: Analytics & Gamification.
+- For moderation, safety, and localization, see PRD 10: Moderation, Safety & Localization. 

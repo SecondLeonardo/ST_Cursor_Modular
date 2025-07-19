@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_fashion_design",
+  "name": "패션 디자인",
+  "skills": [
+    {
+      "id": "skill_360",
+      "name": "액세서리 디자인",
+      "difficulty_level": 3,
+      "description": "Learn and master Accessory Design",
+      "tags": [
+        "accessory",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_361",
+      "name": "드레이핑",
+      "difficulty_level": 3,
+      "description": "Learn and master Draping",
+      "tags": [
+        "draping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_362",
+      "name": "패션 일러스트",
+      "difficulty_level": 3,
+      "description": "Learn and master Fashion Illustration",
+      "tags": [
+        "fashion",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_363",
+      "name": "패션 스타일링",
+      "difficulty_level": 2,
+      "description": "Learn and master Fashion Styling",
+      "tags": [
+        "fashion",
+        "styling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_364",
+      "name": "의류 건축",
+      "difficulty_level": 3,
+      "description": "Learn and master Garment Construction",
+      "tags": [
+        "garment",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_365",
+      "name": "패턴 제작",
+      "difficulty_level": 4,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_366",
+      "name": "재봉 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewing Techniques",
+      "tags": [
+        "sewing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_367",
+      "name": "지속 가능한 패션",
+      "difficulty_level": 5,
+      "description": "Learn and master Sustainable Fashion",
+      "tags": [
+        "sustainable",
+        "fashion",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_368",
+      "name": "섬유 지식",
+      "difficulty_level": 4,
+      "description": "Learn and master Textile Knowledge",
+      "tags": [
+        "textile",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_369",
+      "name": "추세 예측",
+      "difficulty_level": 4,
+      "description": "Learn and master Trend Forecasting",
+      "tags": [
+        "trend",
+        "forecasting",
+        "skill"
+      ]
+    }
+  ]
+}

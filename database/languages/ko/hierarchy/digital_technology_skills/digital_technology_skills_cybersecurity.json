@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_cybersecurity",
+  "name": "사이버 보안",
+  "skills": [
+    {
+      "id": "skill_2193",
+      "name": "사이버 위협 분석",
+      "difficulty_level": 5,
+      "description": "Learn and master Cyber Threat Analysis",
+      "tags": [
+        "cyber",
+        "threat",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_2194",
+      "name": "데이터 암호화",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Encryption",
+      "tags": [
+        "data",
+        "encryption",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2195",
+      "name": "윤리적 해킹 기본",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Hacking Basics",
+      "tags": [
+        "ethical",
+        "hacking",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2196",
+      "name": "방화벽 구성",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2197",
+      "name": "맬웨어 감지",
+      "difficulty_level": 5,
+      "description": "Learn and master Malware Detection",
+      "tags": [
+        "malware",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2198",
+      "name": "네트워크 보안 도구",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Security Tools",
+      "tags": [
+        "network",
+        "security",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2199",
+      "name": "비밀번호 보안",
+      "difficulty_level": 5,
+      "description": "Learn and master Password Security",
+      "tags": [
+        "password",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2200",
+      "name": "피싱 방지",
+      "difficulty_level": 1,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2201",
+      "name": "안전한 코딩 관행",
+      "difficulty_level": 3,
+      "description": "Learn and master Secure Coding Practices",
+      "tags": [
+        "secure",
+        "coding",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_2202",
+      "name": "2 단계 인증",
+      "difficulty_level": 4,
+      "description": "Learn and master Two-Factor Authentication",
+      "tags": [
+        "two-factor",
+        "authentication",
+        "skill"
+      ]
+    }
+  ]
+}

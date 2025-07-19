@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_martial_arts",
+  "name": "Seni bela diri",
+  "skills": [
+    {
+      "id": "skill_4008",
+      "name": "Aikido Locks",
+      "difficulty_level": 2,
+      "description": "Learn and master Aikido Locks",
+      "tags": [
+        "aikido",
+        "locks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4009",
+      "name": "Brazilian jiu-jitsu bergulat",
+      "difficulty_level": 2,
+      "description": "Learn and master Brazilian Jiu-Jitsu Grappling",
+      "tags": [
+        "brazilian",
+        "jiu-jitsu",
+        "grappling"
+      ]
+    },
+    {
+      "id": "skill_4010",
+      "name": "Judo melempar",
+      "difficulty_level": 1,
+      "description": "Learn and master Judo Throws",
+      "tags": [
+        "judo",
+        "throws",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4011",
+      "name": "Karate Katas",
+      "difficulty_level": 4,
+      "description": "Learn and master Karate Katas",
+      "tags": [
+        "karate",
+        "katas",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4012",
+      "name": "Kombo kickboxing",
+      "difficulty_level": 4,
+      "description": "Learn and master Kickboxing Combos",
+      "tags": [
+        "kickboxing",
+        "combos",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4013",
+      "name": "Kung Fu sikap",
+      "difficulty_level": 2,
+      "description": "Learn and master Kung Fu Stances",
+      "tags": [
+        "kung",
+        "stances",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4014",
+      "name": "Muay Thai Lutut",
+      "difficulty_level": 4,
+      "description": "Learn and master Muay Thai Knees",
+      "tags": [
+        "muay",
+        "thai",
+        "knees"
+      ]
+    },
+    {
+      "id": "skill_4015",
+      "name": "Manuver bela diri",
+      "difficulty_level": 4,
+      "description": "Learn and master Self-Defense Maneuvers",
+      "tags": [
+        "self-defense",
+        "maneuvers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4016",
+      "name": "Tendangan taekwondo",
+      "difficulty_level": 2,
+      "description": "Learn and master Taekwondo Kicks",
+      "tags": [
+        "taekwondo",
+        "kicks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4017",
+      "name": "Pin gulat",
+      "difficulty_level": 3,
+      "description": "Learn and master Wrestling Pins",
+      "tags": [
+        "wrestling",
+        "pins",
+        "skill"
+      ]
+    }
+  ]
+}

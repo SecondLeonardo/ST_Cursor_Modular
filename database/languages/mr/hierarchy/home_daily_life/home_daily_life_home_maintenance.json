@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_home_maintenance",
+  "name": "घरगुती देखभाल",
+  "skills": [
+    {
+      "id": "skill_2988",
+      "name": "मूलभूत सुतारकाम",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Carpentry",
+      "tags": [
+        "basic",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2989",
+      "name": "लाइट बल्ब बदलत आहे",
+      "difficulty_level": 4,
+      "description": "Learn and master Changing Light Bulbs",
+      "tags": [
+        "changing",
+        "light",
+        "bulbs"
+      ]
+    },
+    {
+      "id": "skill_2990",
+      "name": "विद्युत सुरक्षा मूलभूत गोष्टी",
+      "difficulty_level": 2,
+      "description": "Learn and master Electrical Safety Basics",
+      "tags": [
+        "electrical",
+        "safety",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2991",
+      "name": "गळती निश्चित करणे",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Leaks",
+      "tags": [
+        "fixing",
+        "leaks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2992",
+      "name": "हँगिंग शेल्फ्स",
+      "difficulty_level": 4,
+      "description": "Learn and master Hanging Shelves",
+      "tags": [
+        "hanging",
+        "shelves",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2993",
+      "name": "फिक्स्चर स्थापित करीत आहे",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Fixtures",
+      "tags": [
+        "installing",
+        "fixtures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2994",
+      "name": "पेंटिंग भिंती",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2995",
+      "name": "Unclogging नाले",
+      "difficulty_level": 5,
+      "description": "Learn and master Unclogging Drains",
+      "tags": [
+        "unclogging",
+        "drains",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2996",
+      "name": "उर्जा साधने वापरणे",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Power Tools",
+      "tags": [
+        "using",
+        "power",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2997",
+      "name": "भिंत पॅचिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    }
+  ]
+}

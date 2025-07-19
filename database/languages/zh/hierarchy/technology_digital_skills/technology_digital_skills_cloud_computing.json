@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_cloud_computing",
+  "name": "云计算",
+  "skills": [
+    {
+      "id": "skill_4676",
+      "name": "亚马逊网络服务（AWS）",
+      "difficulty_level": 1,
+      "description": "Learn and master Amazon Web Services (AWS)",
+      "tags": [
+        "amazon",
+        "services",
+        "(aws)"
+      ]
+    },
+    {
+      "id": "skill_4677",
+      "name": "CI/CD管道",
+      "difficulty_level": 1,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4678",
+      "name": "云安全基础知识",
+      "difficulty_level": 4,
+      "description": "Learn and master Cloud Security Basics",
+      "tags": [
+        "cloud",
+        "security",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4679",
+      "name": "云存储",
+      "difficulty_level": 1,
+      "description": "Learn and master Cloud Storage",
+      "tags": [
+        "cloud",
+        "storage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4680",
+      "name": "部署应用程序",
+      "difficulty_level": 1,
+      "description": "Learn and master Deploying Applications",
+      "tags": [
+        "deploying",
+        "applications",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4681",
+      "name": "Google云平台",
+      "difficulty_level": 5,
+      "description": "Learn and master Google Cloud Platform",
+      "tags": [
+        "google",
+        "cloud",
+        "platform"
+      ]
+    },
+    {
+      "id": "skill_4682",
+      "name": "混合云概念",
+      "difficulty_level": 3,
+      "description": "Learn and master Hybrid Cloud Concepts",
+      "tags": [
+        "hybrid",
+        "cloud",
+        "concepts"
+      ]
+    },
+    {
+      "id": "skill_4683",
+      "name": "Microsoft Azure",
+      "difficulty_level": 2,
+      "description": "Learn and master Microsoft Azure",
+      "tags": [
+        "microsoft",
+        "azure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4684",
+      "name": "无服务器体系结构",
+      "difficulty_level": 1,
+      "description": "Learn and master Serverless Architecture",
+      "tags": [
+        "serverless",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4685",
+      "name": "虚拟机",
+      "difficulty_level": 2,
+      "description": "Learn and master Virtual Machines",
+      "tags": [
+        "virtual",
+        "machines",
+        "skill"
+      ]
+    }
+  ]
+}

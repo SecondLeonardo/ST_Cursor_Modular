@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_sculpture",
+  "name": "Điêu khắc",
+  "skills": [
+    {
+      "id": "skill_410",
+      "name": "Bài điêu khắc in 3D",
+      "difficulty_level": 2,
+      "description": "Learn and master 3D Printing Sculpting",
+      "tags": [
+        "printing",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_411",
+      "name": "Mô hình đất sét",
+      "difficulty_level": 3,
+      "description": "Learn and master Clay Modeling",
+      "tags": [
+        "clay",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_412",
+      "name": "Cài đặt nghệ thuật",
+      "difficulty_level": 2,
+      "description": "Learn and master Installation Art",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_413",
+      "name": "Tác phẩm điêu khắc kim loại",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Sculpture",
+      "tags": [
+        "metal",
+        "sculpture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_414",
+      "name": "Điêu khắc thu nhỏ",
+      "difficulty_level": 1,
+      "description": "Learn and master Miniature Sculpting",
+      "tags": [
+        "miniature",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_415",
+      "name": "Tác phẩm điêu khắc truyền thông hỗn hợp",
+      "difficulty_level": 4,
+      "description": "Learn and master Mixed Media Sculpture",
+      "tags": [
+        "mixed",
+        "media",
+        "sculpture"
+      ]
+    },
+    {
+      "id": "skill_416",
+      "name": "Đúc thạch cao",
+      "difficulty_level": 3,
+      "description": "Learn and master Plaster Casting",
+      "tags": [
+        "plaster",
+        "casting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_417",
+      "name": "Khắc đá",
+      "difficulty_level": 3,
+      "description": "Learn and master Stone Carving",
+      "tags": [
+        "stone",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_418",
+      "name": "Dây nghệ thuật",
+      "difficulty_level": 2,
+      "description": "Learn and master Wire Art",
+      "tags": [
+        "wire",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_419",
+      "name": "Tác phẩm điêu khắc gỗ",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Sculpture",
+      "tags": [
+        "wood",
+        "sculpture",
+        "skill"
+      ]
+    }
+  ]
+}

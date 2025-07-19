@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_medical_skills",
+  "name": "Medizinische Fähigkeiten",
+  "skills": [
+    {
+      "id": "skill_2543",
+      "name": "Medikamente verwalten",
+      "difficulty_level": 4,
+      "description": "Learn and master Administering Medication",
+      "tags": [
+        "administering",
+        "medication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2544",
+      "name": "Grundanatomie",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Anatomy",
+      "tags": [
+        "basic",
+        "anatomy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2545",
+      "name": "CPR -Wissen",
+      "difficulty_level": 4,
+      "description": "Learn and master CPR Knowledge",
+      "tags": [
+        "knowledge",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2546",
+      "name": "Infektionskontrolle",
+      "difficulty_level": 1,
+      "description": "Learn and master Infection Control",
+      "tags": [
+        "infection",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2547",
+      "name": "Medizinische Dokumentation",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Documentation",
+      "tags": [
+        "medical",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2548",
+      "name": "Patientenkommunikation",
+      "difficulty_level": 2,
+      "description": "Learn and master Patient Communication",
+      "tags": [
+        "patient",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2549",
+      "name": "Vitalfunktionen nehmen",
+      "difficulty_level": 3,
+      "description": "Learn and master Taking Vital Signs",
+      "tags": [
+        "taking",
+        "vital",
+        "signs"
+      ]
+    },
+    {
+      "id": "skill_2550",
+      "name": "Verständnis der medizinischen Terminologie",
+      "difficulty_level": 2,
+      "description": "Learn and master Understanding Medical Terminology",
+      "tags": [
+        "understanding",
+        "medical",
+        "terminology"
+      ]
+    },
+    {
+      "id": "skill_2551",
+      "name": "Mit medizinischen Geräten",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Medical Equipment",
+      "tags": [
+        "using",
+        "medical",
+        "equipment"
+      ]
+    },
+    {
+      "id": "skill_2552",
+      "name": "Wundreinigung",
+      "difficulty_level": 1,
+      "description": "Learn and master Wound Cleaning",
+      "tags": [
+        "wound",
+        "cleaning",
+        "skill"
+      ]
+    }
+  ]
+}

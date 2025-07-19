@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_craftsmanship_repairs",
+  "name": "கைவினைத்திறன் மற்றும் பழுது",
+  "skills": [
+    {
+      "id": "skill_5065",
+      "name": "பயன்பாட்டு பழுது",
+      "difficulty_level": 4,
+      "description": "Learn and master Appliance Repair",
+      "tags": [
+        "appliance",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5066",
+      "name": "கசிந்த குழாய்களை சரிசெய்தல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Leaky Faucets",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucets"
+      ]
+    },
+    {
+      "id": "skill_5067",
+      "name": "தளபாடங்கள் மறுசீரமைப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Furniture Restoration",
+      "tags": [
+        "furniture",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5068",
+      "name": "ஒட்டுதல் நுட்பங்கள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Gluing Techniques",
+      "tags": [
+        "gluing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5069",
+      "name": "கீல்களை மாற்றுகிறது",
+      "difficulty_level": 1,
+      "description": "Learn and master Replacing Hinges",
+      "tags": [
+        "replacing",
+        "hinges",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5070",
+      "name": "தையல் பழுது",
+      "difficulty_level": 3,
+      "description": "Learn and master Sewing Repairs",
+      "tags": [
+        "sewing",
+        "repairs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5071",
+      "name": "கூர்மைப்படுத்தும் கருவிகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Sharpening Tools",
+      "tags": [
+        "sharpening",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5072",
+      "name": "ஓடு கூழ்",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Grouting",
+      "tags": [
+        "tile",
+        "grouting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5073",
+      "name": "சுவர் ஒட்டுதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5074",
+      "name": "ஜன்னல் முத்திரை",
+      "difficulty_level": 1,
+      "description": "Learn and master Window Sealing",
+      "tags": [
+        "window",
+        "sealing",
+        "skill"
+      ]
+    }
+  ]
+}

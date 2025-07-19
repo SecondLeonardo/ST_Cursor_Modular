@@ -1,0 +1,58 @@
+{
+  "id": "business_professional_skills",
+  "name": "Бизнес и профессиональные навыки",
+  "subcategories": [
+    {
+      "id": "business_professional_skills_business_communication",
+      "name": "Деловое общение"
+    },
+    {
+      "id": "business_professional_skills_customer_service",
+      "name": "Обслуживание клиентов"
+    },
+    {
+      "id": "business_professional_skills_entrepreneurship",
+      "name": "Предпринимательство"
+    },
+    {
+      "id": "business_professional_skills_finance_accounting",
+      "name": "Финансы и бухгалтерский учет"
+    },
+    {
+      "id": "business_professional_skills_human_resources",
+      "name": "Человеческие ресурсы"
+    },
+    {
+      "id": "business_professional_skills_leadership_management",
+      "name": "Лидерство и управление"
+    },
+    {
+      "id": "business_professional_skills_legal_compliance",
+      "name": "Юридическое и соблюдение"
+    },
+    {
+      "id": "business_professional_skills_marketing_branding",
+      "name": "Маркетинг и брендинг"
+    },
+    {
+      "id": "business_professional_skills_office_productivity",
+      "name": "Производительность офиса"
+    },
+    {
+      "id": "business_professional_skills_project_time_management",
+      "name": "Управление проектом и временем"
+    },
+    {
+      "id": "business_professional_skills_project_management",
+      "name": "Управление проектом"
+    },
+    {
+      "id": "business_professional_skills_sales_marketing",
+      "name": "Продажи и маркетинг"
+    },
+    {
+      "id": "business_professional_skills_sales_negotiation",
+      "name": "Продажи и переговоры"
+    }
+  ]
+}

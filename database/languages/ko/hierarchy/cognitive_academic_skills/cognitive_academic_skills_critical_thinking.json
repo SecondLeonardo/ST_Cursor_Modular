@@ -1,0 +1,116 @@
+{
+  "id": "cognitive_academic_skills_critical_thinking",
+  "name": "비판적 사고",
+  "skills": [
+    {
+      "id": "skill_1068",
+      "name": "논쟁 분석",
+      "difficulty_level": 1,
+      "description": "Learn and master Analyzing Arguments",
+      "tags": [
+        "analyzing",
+        "arguments",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1069",
+      "name": "토론 기술",
+      "difficulty_level": 1,
+      "description": "Learn and master Debate Skills",
+      "tags": [
+        "debate",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1070",
+      "name": "의사 결정 전략",
+      "difficulty_level": 4,
+      "description": "Learn and master Decision-Making Strategies",
+      "tags": [
+        "decision-making",
+        "strategies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1071",
+      "name": "증거 평가",
+      "difficulty_level": 5,
+      "description": "Learn and master Evaluating Evidence",
+      "tags": [
+        "evaluating",
+        "evidence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1072",
+      "name": "가정을 식별합니다",
+      "difficulty_level": 2,
+      "description": "Learn and master Identifying Assumptions",
+      "tags": [
+        "identifying",
+        "assumptions",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1073",
+      "name": "열린 마음의 훈련",
+      "difficulty_level": 1,
+      "description": "Learn and master Open-Mindedness Training",
+      "tags": [
+        "open-mindedness",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1074",
+      "name": "문제 프레임",
+      "difficulty_level": 5,
+      "description": "Learn and master Problem Framing",
+      "tags": [
+        "problem",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1075",
+      "name": "논리적 오류를 인식합니다",
+      "difficulty_level": 2,
+      "description": "Learn and master Recognizing Logical Fallacies",
+      "tags": [
+        "recognizing",
+        "logical",
+        "fallacies"
+      ]
+    },
+    {
+      "id": "skill_1076",
+      "name": "시나리오 분석",
+      "difficulty_level": 2,
+      "description": "Learn and master Scenario Analysis",
+      "tags": [
+        "scenario",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1077",
+      "name": "소크라테스 질문",
+      "difficulty_level": 5,
+      "description": "Learn and master Socratic Questioning",
+      "tags": [
+        "socratic",
+        "questioning",
+        "skill"
+      ]
+    }
+  ]
+}

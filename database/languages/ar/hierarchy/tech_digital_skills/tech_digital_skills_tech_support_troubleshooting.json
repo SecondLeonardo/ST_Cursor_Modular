@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_tech_support_troubleshooting",
+  "name": "الدعم الفني واستكشاف الأخطاء وإصلاحها",
+  "skills": [
+    {
+      "id": "skill_4486",
+      "name": "البرمجة النصية الأساسية",
+      "difficulty_level": 1,
+      "description": "Learn and master Basic Scripting",
+      "tags": [
+        "basic",
+        "scripting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4487",
+      "name": "اختبار توافق الجهاز",
+      "difficulty_level": 1,
+      "description": "Learn and master Device Compatibility Testing",
+      "tags": [
+        "device",
+        "compatibility",
+        "testing"
+      ]
+    },
+    {
+      "id": "skill_4488",
+      "name": "تشخيص مشكلات الأجهزة",
+      "difficulty_level": 1,
+      "description": "Learn and master Diagnosing Hardware Issues",
+      "tags": [
+        "diagnosing",
+        "hardware",
+        "issues"
+      ]
+    },
+    {
+      "id": "skill_4489",
+      "name": "تثبيت البرامج",
+      "difficulty_level": 5,
+      "description": "Learn and master Installing Software",
+      "tags": [
+        "installing",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4490",
+      "name": "إدارة حسابات المستخدم",
+      "difficulty_level": 2,
+      "description": "Learn and master Managing User Accounts",
+      "tags": [
+        "managing",
+        "user",
+        "accounts"
+      ]
+    },
+    {
+      "id": "skill_4491",
+      "name": "إعداد الطابعة",
+      "difficulty_level": 4,
+      "description": "Learn and master Printer Setup",
+      "tags": [
+        "printer",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4492",
+      "name": "إعادة التشغيل والإصلاح",
+      "difficulty_level": 4,
+      "description": "Learn and master Reboot and Repair",
+      "tags": [
+        "reboot",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4493",
+      "name": "الدعم الفني عن بُعد",
+      "difficulty_level": 2,
+      "description": "Learn and master Remote Tech Support",
+      "tags": [
+        "remote",
+        "tech",
+        "support"
+      ]
+    },
+    {
+      "id": "skill_4494",
+      "name": "معرفة ترخيص البرامج",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Licensing Knowledge",
+      "tags": [
+        "software",
+        "licensing",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_4495",
+      "name": "استرداد النظام",
+      "difficulty_level": 2,
+      "description": "Learn and master System Recovery",
+      "tags": [
+        "system",
+        "recovery",
+        "skill"
+      ]
+    }
+  ]
+}

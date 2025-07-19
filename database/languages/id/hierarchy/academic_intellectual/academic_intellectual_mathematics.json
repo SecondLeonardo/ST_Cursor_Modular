@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_mathematics",
+  "name": "Matematika",
+  "skills": [
+    {
+      "id": "skill_50",
+      "name": "Aljabar",
+      "difficulty_level": 3,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_51",
+      "name": "Kalkulus",
+      "difficulty_level": 1,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_52",
+      "name": "Persamaan diferensial",
+      "difficulty_level": 4,
+      "description": "Learn and master Differential Equations",
+      "tags": [
+        "differential",
+        "equations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_53",
+      "name": "Matematika diskrit",
+      "difficulty_level": 3,
+      "description": "Learn and master Discrete Math",
+      "tags": [
+        "discrete",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_54",
+      "name": "Geometri",
+      "difficulty_level": 2,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_55",
+      "name": "Aljabar linier",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_56",
+      "name": "Pemodelan Matematika",
+      "difficulty_level": 3,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_57",
+      "name": "Teori probabilitas",
+      "difficulty_level": 3,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_58",
+      "name": "Statistik",
+      "difficulty_level": 2,
+      "description": "Learn and master Statistics",
+      "tags": [
+        "statistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_59",
+      "name": "Trigonometri",
+      "difficulty_level": 5,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

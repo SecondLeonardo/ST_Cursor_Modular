@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "Здоровье и благополучие",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "Альтернативная медицина"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "Первая помощь и чрезвычайная ситуация"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "Фитнес -тренинги"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "Целостное здоровье"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "Медицинские знания"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "Медицинские навыки"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "Психическое здоровье"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "Практика психического здоровья"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "Осознанность и медитация"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "Питание и диета"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "Личная помощь"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "Физическая подготовка"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "Реабилитация и терапия"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "Репродуктивное здоровье"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "Самоупотребление и гигиена"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "Сон и выздоровление"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "Управление стрессом"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "Йога и медитация"
+    }
+  ]
+}

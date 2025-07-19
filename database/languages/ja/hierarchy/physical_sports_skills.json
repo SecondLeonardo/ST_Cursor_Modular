@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "物理的およびスポーツスキル",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "フィットネスと強さ"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "個々のスポーツ"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "武道"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "屋外＆アドベンチャー"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "レクリエーション活動"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "チームスポーツ"
+    }
+  ]
+}

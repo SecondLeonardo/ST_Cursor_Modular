@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_heavy_equipment_operation",
+  "name": "Fonctionnement de l'équipement lourd",
+  "skills": [
+    {
+      "id": "skill_5105",
+      "name": "Drive",
+      "difficulty_level": 1,
+      "description": "Learn and master Backhoe Driving",
+      "tags": [
+        "backhoe",
+        "driving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5106",
+      "name": "Opération de grue",
+      "difficulty_level": 1,
+      "description": "Learn and master Crane Operation",
+      "tags": [
+        "crane",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5107",
+      "name": "Contrôle de l'excavateur",
+      "difficulty_level": 2,
+      "description": "Learn and master Excavator Control",
+      "tags": [
+        "excavator",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5108",
+      "name": "Opération de chariot élévateur",
+      "difficulty_level": 5,
+      "description": "Learn and master Forklift Operation",
+      "tags": [
+        "forklift",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5109",
+      "name": "Opération guidée GPS",
+      "difficulty_level": 2,
+      "description": "Learn and master GPS Guided Operation",
+      "tags": [
+        "guided",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5110",
+      "name": "Équilibrage de charge",
+      "difficulty_level": 2,
+      "description": "Learn and master Load Balancing",
+      "tags": [
+        "load",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5111",
+      "name": "Inspections de sécurité",
+      "difficulty_level": 1,
+      "description": "Learn and master Safety Inspections",
+      "tags": [
+        "safety",
+        "inspections",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5112",
+      "name": "Navigation sur le site",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Navigation",
+      "tags": [
+        "site",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5113",
+      "name": "Utilisation de la brade de dérapage",
+      "difficulty_level": 3,
+      "description": "Learn and master Skid Steer Use",
+      "tags": [
+        "skid",
+        "steer",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5114",
+      "name": "Utilisation des tranchées",
+      "difficulty_level": 3,
+      "description": "Learn and master Trencher Use",
+      "tags": [
+        "trencher",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

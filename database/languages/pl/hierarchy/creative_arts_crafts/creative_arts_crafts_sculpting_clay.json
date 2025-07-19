@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_sculpting_clay",
+  "name": "Rzeźba i glina",
+  "skills": [
+    {
+      "id": "skill_1863",
+      "name": "Rzeźbienie 3D",
+      "difficulty_level": 3,
+      "description": "Learn and master 3D Sculpting",
+      "tags": [
+        "sculpting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1864",
+      "name": "Rzeźba gliny",
+      "difficulty_level": 2,
+      "description": "Learn and master Clay Sculpting",
+      "tags": [
+        "clay",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1865",
+      "name": "Tworzenie figurki",
+      "difficulty_level": 4,
+      "description": "Learn and master Figurine Creation",
+      "tags": [
+        "figurine",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1866",
+      "name": "Glina ręcznie budowlana",
+      "difficulty_level": 3,
+      "description": "Learn and master Hand Building Clay",
+      "tags": [
+        "hand",
+        "building",
+        "clay"
+      ]
+    },
+    {
+      "id": "skill_1867",
+      "name": "Kiln Foling",
+      "difficulty_level": 2,
+      "description": "Learn and master Kiln Firing",
+      "tags": [
+        "kiln",
+        "firing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1868",
+      "name": "Techniki formowania",
+      "difficulty_level": 5,
+      "description": "Learn and master Molding Techniques",
+      "tags": [
+        "molding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1869",
+      "name": "Przywrócenie rzeźby",
+      "difficulty_level": 2,
+      "description": "Learn and master Sculpture Restoration",
+      "tags": [
+        "sculpture",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1870",
+      "name": "Teksturowanie powierzchni",
+      "difficulty_level": 4,
+      "description": "Learn and master Surface Texturing",
+      "tags": [
+        "surface",
+        "texturing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1871",
+      "name": "Za pomocą gliny polimerowej",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Polymer Clay",
+      "tags": [
+        "using",
+        "polymer",
+        "clay"
+      ]
+    },
+    {
+      "id": "skill_1872",
+      "name": "Rzucanie kół",
+      "difficulty_level": 5,
+      "description": "Learn and master Wheel Throwing",
+      "tags": [
+        "wheel",
+        "throwing",
+        "skill"
+      ]
+    }
+  ]
+}

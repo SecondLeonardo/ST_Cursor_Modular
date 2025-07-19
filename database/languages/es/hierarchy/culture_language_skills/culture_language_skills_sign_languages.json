@@ -1,0 +1,119 @@
+{
+  "id": "culture_language_skills_sign_languages",
+  "name": "Lenguaje de firma",
+  "skills": [
+    {
+      "id": "skill_2003",
+      "name": "Lenguaje de señas americano (ASL)",
+      "difficulty_level": 4,
+      "description": "Learn and master American Sign Language (ASL)",
+      "tags": [
+        "american",
+        "sign",
+        "language",
+        "(asl)"
+      ]
+    },
+    {
+      "id": "skill_2004",
+      "name": "Fluidez de auslan",
+      "difficulty_level": 3,
+      "description": "Learn and master Auslan Fluency",
+      "tags": [
+        "auslan",
+        "fluency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2005",
+      "name": "Lenguaje de señas británico (BSL)",
+      "difficulty_level": 3,
+      "description": "Learn and master British Sign Language (BSL)",
+      "tags": [
+        "british",
+        "sign",
+        "language",
+        "(bsl)"
+      ]
+    },
+    {
+      "id": "skill_2006",
+      "name": "Comprensión de la cultura sorda",
+      "difficulty_level": 5,
+      "description": "Learn and master Deaf Culture Understanding",
+      "tags": [
+        "deaf",
+        "culture",
+        "understanding"
+      ]
+    },
+    {
+      "id": "skill_2007",
+      "name": "Comunicación de expresión facial",
+      "difficulty_level": 3,
+      "description": "Learn and master Facial Expression Communication",
+      "tags": [
+        "facial",
+        "expression",
+        "communication"
+      ]
+    },
+    {
+      "id": "skill_2008",
+      "name": "Pisoteo",
+      "difficulty_level": 2,
+      "description": "Learn and master Fingerspelling",
+      "tags": [
+        "fingerspelling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2009",
+      "name": "Competencia de signo internacional",
+      "difficulty_level": 2,
+      "description": "Learn and master International Sign Proficiency",
+      "tags": [
+        "international",
+        "sign",
+        "proficiency"
+      ]
+    },
+    {
+      "id": "skill_2010",
+      "name": "Interpretación de la votación de la votación",
+      "difficulty_level": 5,
+      "description": "Learn and master Sign-to-Voice Interpretation",
+      "tags": [
+        "sign-to-voice",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2011",
+      "name": "Inglés exacto firmado (ver)",
+      "difficulty_level": 4,
+      "description": "Learn and master Signed Exact English (SEE)",
+      "tags": [
+        "signed",
+        "exact",
+        "english",
+        "(see)"
+      ]
+    },
+    {
+      "id": "skill_2012",
+      "name": "Firma táctil",
+      "difficulty_level": 4,
+      "description": "Learn and master Tactile Signing",
+      "tags": [
+        "tactile",
+        "signing",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "Voedsel van verschillende landen",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "Italiaanse keuken"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "Japanse keuken"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "Mexicaanse keuken"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "Indiase keuken"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "Franse keuken"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "Chinese keuken"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "Midden -Oosterse keuken"
+    }
+  ]
+}

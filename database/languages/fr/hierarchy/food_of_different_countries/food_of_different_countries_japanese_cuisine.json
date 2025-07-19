@@ -1,0 +1,116 @@
+{
+  "id": "food_of_different_countries_japanese_cuisine",
+  "name": "Cuisine japonaise",
+  "skills": [
+    {
+      "id": "skill_5425",
+      "name": "Roulement de sushis",
+      "difficulty_level": 2,
+      "description": "Learn and master Sushi Rolling",
+      "tags": [
+        "sushi",
+        "rolling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5426",
+      "name": "Friture tempura",
+      "difficulty_level": 4,
+      "description": "Learn and master Tempura Frying",
+      "tags": [
+        "tempura",
+        "frying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5427",
+      "name": "Préparation de la soupe miso",
+      "difficulty_level": 1,
+      "description": "Learn and master Miso Soup Preparation",
+      "tags": [
+        "miso",
+        "soup",
+        "preparation"
+      ]
+    },
+    {
+      "id": "skill_5428",
+      "name": "Cuisson ramen",
+      "difficulty_level": 4,
+      "description": "Learn and master Ramen Cooking",
+      "tags": [
+        "ramen",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5429",
+      "name": "Coupure de sashimi",
+      "difficulty_level": 4,
+      "description": "Learn and master Sashimi Cutting",
+      "tags": [
+        "sashimi",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5430",
+      "name": "Fabrication de sauce teriyaki",
+      "difficulty_level": 4,
+      "description": "Learn and master Teriyaki Sauce Making",
+      "tags": [
+        "teriyaki",
+        "sauce",
+        "making"
+      ]
+    },
+    {
+      "id": "skill_5431",
+      "name": "Techniques de décapage",
+      "difficulty_level": 3,
+      "description": "Learn and master Pickling Techniques",
+      "tags": [
+        "pickling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5432",
+      "name": "Cuisson du riz",
+      "difficulty_level": 1,
+      "description": "Learn and master Rice Cooking",
+      "tags": [
+        "rice",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5433",
+      "name": "Talents de couteau",
+      "difficulty_level": 2,
+      "description": "Learn and master Knife Skills",
+      "tags": [
+        "knife",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5434",
+      "name": "Bases de la cérémonie de thé",
+      "difficulty_level": 3,
+      "description": "Learn and master Tea Ceremony Basics",
+      "tags": [
+        "ceremony",
+        "basics",
+        "skill"
+      ]
+    }
+  ]
+}

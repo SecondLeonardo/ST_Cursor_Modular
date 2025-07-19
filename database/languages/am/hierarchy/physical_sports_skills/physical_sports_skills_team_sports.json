@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_team_sports",
+  "name": "የቡድን ስፖርት",
+  "skills": [
+    {
+      "id": "skill_4038",
+      "name": "ቤዝቦል ማረም",
+      "difficulty_level": 1,
+      "description": "Learn and master Baseball Pitching",
+      "tags": [
+        "baseball",
+        "pitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4039",
+      "name": "የቅርጫት ኳስ እርባታ",
+      "difficulty_level": 4,
+      "description": "Learn and master Basketball Dribbling",
+      "tags": [
+        "basketball",
+        "dribbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4040",
+      "name": "ክሪኬት ድብደባ",
+      "difficulty_level": 2,
+      "description": "Learn and master Cricket Batting",
+      "tags": [
+        "cricket",
+        "batting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4041",
+      "name": "ሆኪኪ ዱላ አያያዝ",
+      "difficulty_level": 3,
+      "description": "Learn and master Hockey Stick Handling",
+      "tags": [
+        "hockey",
+        "stick",
+        "handling"
+      ]
+    },
+    {
+      "id": "skill_4042",
+      "name": "Rugby ማሸት",
+      "difficulty_level": 3,
+      "description": "Learn and master Rugby Tackling",
+      "tags": [
+        "rugby",
+        "tackling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4043",
+      "name": "እግር ኳስ ማለፍ",
+      "difficulty_level": 4,
+      "description": "Learn and master Soccer Passing",
+      "tags": [
+        "soccer",
+        "passing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4044",
+      "name": "ለስላሳ ኳስ መያዝ",
+      "difficulty_level": 3,
+      "description": "Learn and master Softball Catching",
+      "tags": [
+        "softball",
+        "catching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4045",
+      "name": "የቡድን ስትራቴጂንግ መረዳት",
+      "difficulty_level": 1,
+      "description": "Learn and master Team Strategy Understanding",
+      "tags": [
+        "team",
+        "strategy",
+        "understanding"
+      ]
+    },
+    {
+      "id": "skill_4046",
+      "name": "የመጨረሻው Frisbee መወርወር",
+      "difficulty_level": 3,
+      "description": "Learn and master Ultimate Frisbee Throwing",
+      "tags": [
+        "ultimate",
+        "frisbee",
+        "throwing"
+      ]
+    },
+    {
+      "id": "skill_4047",
+      "name": "ኳስ ኳስ ማገልገል",
+      "difficulty_level": 5,
+      "description": "Learn and master Volleyball Serving",
+      "tags": [
+        "volleyball",
+        "serving",
+        "skill"
+      ]
+    }
+  ]
+}

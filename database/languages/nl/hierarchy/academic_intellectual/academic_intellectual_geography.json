@@ -1,0 +1,117 @@
+{
+  "id": "academic_intellectual_geography",
+  "name": "Geografie",
+  "skills": [
+    {
+      "id": "skill_10",
+      "name": "Cartografie",
+      "difficulty_level": 5,
+      "description": "Learn and master Cartography",
+      "tags": [
+        "cartography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_11",
+      "name": "Klimatologie",
+      "difficulty_level": 5,
+      "description": "Learn and master Climatology",
+      "tags": [
+        "climatology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_12",
+      "name": "Milieugeografie",
+      "difficulty_level": 4,
+      "description": "Learn and master Environmental Geography",
+      "tags": [
+        "environmental",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_13",
+      "name": "Geografische informatiesystemen (GIS)",
+      "difficulty_level": 1,
+      "description": "Learn and master Geographical Information Systems (GIS)",
+      "tags": [
+        "geographical",
+        "information",
+        "systems",
+        "(gis)"
+      ]
+    },
+    {
+      "id": "skill_14",
+      "name": "Geospatiale analyse",
+      "difficulty_level": 4,
+      "description": "Learn and master Geospatial Analysis",
+      "tags": [
+        "geospatial",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_15",
+      "name": "Menselijke geografie",
+      "difficulty_level": 5,
+      "description": "Learn and master Human Geography",
+      "tags": [
+        "human",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_16",
+      "name": "Fysieke geografie",
+      "difficulty_level": 1,
+      "description": "Learn and master Physical Geography",
+      "tags": [
+        "physical",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_17",
+      "name": "Regionale studies",
+      "difficulty_level": 4,
+      "description": "Learn and master Regional Studies",
+      "tags": [
+        "regional",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_18",
+      "name": "Topografie",
+      "difficulty_level": 1,
+      "description": "Learn and master Topography",
+      "tags": [
+        "topography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_19",
+      "name": "Stedelijke geografie",
+      "difficulty_level": 2,
+      "description": "Learn and master Urban Geography",
+      "tags": [
+        "urban",
+        "geography",
+        "skill"
+      ]
+    }
+  ]
+}

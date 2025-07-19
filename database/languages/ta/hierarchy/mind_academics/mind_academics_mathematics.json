@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_mathematics",
+  "name": "கணிதம்",
+  "skills": [
+    {
+      "id": "skill_3608",
+      "name": "இயற்கணிதம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3609",
+      "name": "கால்குலஸ்",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3610",
+      "name": "வடிவியல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3611",
+      "name": "கணித சிக்கல் தீர்க்கும்",
+      "difficulty_level": 1,
+      "description": "Learn and master Math Problem Solving",
+      "tags": [
+        "math",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_3612",
+      "name": "நிதிக்கான கணிதம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Math for Finance",
+      "tags": [
+        "math",
+        "finance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3613",
+      "name": "கணித தர்க்கம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Mathematical Logic",
+      "tags": [
+        "mathematical",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3614",
+      "name": "மன கணிதம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3615",
+      "name": "எண் கோட்பாடு",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3616",
+      "name": "நிகழ்தகவு மற்றும் புள்ளிவிவரங்கள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Probability & Statistics",
+      "tags": [
+        "probability",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3617",
+      "name": "முக்கோணவியல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

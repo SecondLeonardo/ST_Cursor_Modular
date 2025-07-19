@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_gardening",
+  "name": "উদ্যান",
+  "skills": [
+    {
+      "id": "skill_5395",
+      "name": "রোপণ কৌশল",
+      "difficulty_level": 5,
+      "description": "Learn and master Planting Techniques",
+      "tags": [
+        "planting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5396",
+      "name": "মাটি প্রস্তুতি",
+      "difficulty_level": 3,
+      "description": "Learn and master Soil Preparation",
+      "tags": [
+        "soil",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5397",
+      "name": "কম্পোস্টিং",
+      "difficulty_level": 1,
+      "description": "Learn and master Composting",
+      "tags": [
+        "composting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5398",
+      "name": "ছাঁটাই",
+      "difficulty_level": 3,
+      "description": "Learn and master Pruning",
+      "tags": [
+        "pruning",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5399",
+      "name": "কীটপতঙ্গ নিয়ন্ত্রণ",
+      "difficulty_level": 3,
+      "description": "Learn and master Pest Control",
+      "tags": [
+        "pest",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5400",
+      "name": "জৈব উদ্যান",
+      "difficulty_level": 1,
+      "description": "Learn and master Organic Gardening",
+      "tags": [
+        "organic",
+        "gardening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5401",
+      "name": "জলবিদ্যুৎ",
+      "difficulty_level": 5,
+      "description": "Learn and master Hydroponics",
+      "tags": [
+        "hydroponics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5402",
+      "name": "মৌসুমী রোপণ",
+      "difficulty_level": 1,
+      "description": "Learn and master Seasonal Planting",
+      "tags": [
+        "seasonal",
+        "planting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5403",
+      "name": "বাগান নকশা",
+      "difficulty_level": 2,
+      "description": "Learn and master Garden Design",
+      "tags": [
+        "garden",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5404",
+      "name": "সেচ ব্যবস্থা",
+      "difficulty_level": 2,
+      "description": "Learn and master Irrigation Systems",
+      "tags": [
+        "irrigation",
+        "systems",
+        "skill"
+      ]
+    }
+  ]
+}

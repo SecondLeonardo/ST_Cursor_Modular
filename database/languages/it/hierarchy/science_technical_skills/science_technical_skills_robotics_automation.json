@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_robotics_automation",
+  "name": "Robotica e automazione",
+  "skills": [
+    {
+      "id": "skill_4238",
+      "name": "Programmazione Arduino",
+      "difficulty_level": 3,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4239",
+      "name": "Automazione con Raspberry Pi",
+      "difficulty_level": 4,
+      "description": "Learn and master Automation with Raspberry Pi",
+      "tags": [
+        "automation",
+        "with",
+        "raspberry"
+      ]
+    },
+    {
+      "id": "skill_4240",
+      "name": "Automazione industriale",
+      "difficulty_level": 1,
+      "description": "Learn and master Industrial Automation",
+      "tags": [
+        "industrial",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4241",
+      "name": "Linea seguendo i robot",
+      "difficulty_level": 4,
+      "description": "Learn and master Line Following Robots",
+      "tags": [
+        "line",
+        "following",
+        "robots"
+      ]
+    },
+    {
+      "id": "skill_4242",
+      "name": "Nozioni di base sul microcontrollore",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Basics",
+      "tags": [
+        "microcontroller",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4243",
+      "name": "Logica di evitamento degli ostacoli",
+      "difficulty_level": 1,
+      "description": "Learn and master Obstacle Avoidance Logic",
+      "tags": [
+        "obstacle",
+        "avoidance",
+        "logic"
+      ]
+    },
+    {
+      "id": "skill_4244",
+      "name": "Algoritmi di pathfinding",
+      "difficulty_level": 3,
+      "description": "Learn and master Pathfinding Algorithms",
+      "tags": [
+        "pathfinding",
+        "algorithms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4245",
+      "name": "Design del braccio robotico",
+      "difficulty_level": 5,
+      "description": "Learn and master Robot Arm Design",
+      "tags": [
+        "robot",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4246",
+      "name": "Integrazione del sensore",
+      "difficulty_level": 1,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4247",
+      "name": "Servo Motor Control",
+      "difficulty_level": 5,
+      "description": "Learn and master Servo Motor Control",
+      "tags": [
+        "servo",
+        "motor",
+        "control"
+      ]
+    }
+  ]
+}

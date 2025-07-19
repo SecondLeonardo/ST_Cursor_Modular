@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "शारीरिक और बाहरी कौशल",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "फिटनेस और कंडीशनिंग"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "मैनुअल श्रम और व्यापार"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "बाहरी मनोरंजन"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "आत्मरक्षा और मार्शल आर्ट"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "खेल और एथलेटिक्स"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "उत्तरजीविता और बुशक्राफ्ट"
+    }
+  ]
+}

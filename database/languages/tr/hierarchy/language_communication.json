@@ -1,0 +1,26 @@
+{
+  "id": "language_communication",
+  "name": "Dil ve İletişim",
+  "subcategories": [
+    {
+      "id": "language_communication_cross-cultural_communication",
+      "name": "Kültürlerarası iletişim"
+    },
+    {
+      "id": "language_communication_foreign_languages",
+      "name": "Yabancı diller"
+    },
+    {
+      "id": "language_communication_listening_comprehension",
+      "name": "Dinleme ve Anlama"
+    },
+    {
+      "id": "language_communication_translation_interpretation",
+      "name": "Çeviri ve Yorum"
+    },
+    {
+      "id": "language_communication_writing_skills",
+      "name": "Yazma becerileri"
+    }
+  ]
+}

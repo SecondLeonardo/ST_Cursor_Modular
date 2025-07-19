@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_alternative_medicine",
+  "name": "대체 의학",
+  "skills": [
+    {
+      "id": "skill_2493",
+      "name": "침술 기본",
+      "difficulty_level": 5,
+      "description": "Learn and master Acupuncture Basics",
+      "tags": [
+        "acupuncture",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2494",
+      "name": "아로마 테라피",
+      "difficulty_level": 2,
+      "description": "Learn and master Aromatherapy",
+      "tags": [
+        "aromatherapy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2495",
+      "name": "아유르베 다 개념",
+      "difficulty_level": 1,
+      "description": "Learn and master Ayurveda Concepts",
+      "tags": [
+        "ayurveda",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2496",
+      "name": "카이로 프랙틱 인식",
+      "difficulty_level": 2,
+      "description": "Learn and master Chiropractic Awareness",
+      "tags": [
+        "chiropractic",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2497",
+      "name": "결정 요법",
+      "difficulty_level": 4,
+      "description": "Learn and master Crystal Therapy",
+      "tags": [
+        "crystal",
+        "therapy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2498",
+      "name": "에너지 치유",
+      "difficulty_level": 4,
+      "description": "Learn and master Energy Healing",
+      "tags": [
+        "energy",
+        "healing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2499",
+      "name": "약초 치료",
+      "difficulty_level": 5,
+      "description": "Learn and master Herbal Remedies",
+      "tags": [
+        "herbal",
+        "remedies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2500",
+      "name": "동종 요법 사용",
+      "difficulty_level": 1,
+      "description": "Learn and master Homeopathy Use",
+      "tags": [
+        "homeopathy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2501",
+      "name": "마사지 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Massage Techniques",
+      "tags": [
+        "massage",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2502",
+      "name": "반사 요법",
+      "difficulty_level": 4,
+      "description": "Learn and master Reflexology",
+      "tags": [
+        "reflexology",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

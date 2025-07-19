@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_cybersecurity",
+  "name": "Cybersecurity",
+  "skills": [
+    {
+      "id": "skill_2193",
+      "name": "Cyberdreiging analyse",
+      "difficulty_level": 5,
+      "description": "Learn and master Cyber Threat Analysis",
+      "tags": [
+        "cyber",
+        "threat",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_2194",
+      "name": "Gegevenscodering",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Encryption",
+      "tags": [
+        "data",
+        "encryption",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2195",
+      "name": "Ethische hacking basics",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Hacking Basics",
+      "tags": [
+        "ethical",
+        "hacking",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2196",
+      "name": "Firewall -configuratie",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2197",
+      "name": "Malwaredetectie",
+      "difficulty_level": 5,
+      "description": "Learn and master Malware Detection",
+      "tags": [
+        "malware",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2198",
+      "name": "Netwerkbeveiligingshulpmiddelen",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Security Tools",
+      "tags": [
+        "network",
+        "security",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2199",
+      "name": "Wachtwoordbeveiliging",
+      "difficulty_level": 5,
+      "description": "Learn and master Password Security",
+      "tags": [
+        "password",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2200",
+      "name": "Phishing preventie",
+      "difficulty_level": 1,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2201",
+      "name": "Beveiligde coderingspraktijken",
+      "difficulty_level": 3,
+      "description": "Learn and master Secure Coding Practices",
+      "tags": [
+        "secure",
+        "coding",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_2202",
+      "name": "Tweefactorauthenticatie",
+      "difficulty_level": 4,
+      "description": "Learn and master Two-Factor Authentication",
+      "tags": [
+        "two-factor",
+        "authentication",
+        "skill"
+      ]
+    }
+  ]
+}

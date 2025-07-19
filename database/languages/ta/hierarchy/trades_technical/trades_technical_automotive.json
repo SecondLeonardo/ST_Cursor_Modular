@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_automotive",
+  "name": "தானியங்கி",
+  "skills": [
+    {
+      "id": "skill_5175",
+      "name": "சீரமைப்பு சோதனை",
+      "difficulty_level": 4,
+      "description": "Learn and master Alignment Checking",
+      "tags": [
+        "alignment",
+        "checking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5176",
+      "name": "பேட்டரி சோதனை",
+      "difficulty_level": 2,
+      "description": "Learn and master Battery Testing",
+      "tags": [
+        "battery",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5177",
+      "name": "பிரேக் மாற்று",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5178",
+      "name": "இயந்திர கண்டறிதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5179",
+      "name": "வெளியேற்ற அமைப்பு பழுது",
+      "difficulty_level": 5,
+      "description": "Learn and master Exhaust System Repair",
+      "tags": [
+        "exhaust",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_5180",
+      "name": "எண்ணெய் மாற்றம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5181",
+      "name": "இடைநீக்க பழுது",
+      "difficulty_level": 5,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5182",
+      "name": "டயர் சுழற்சி",
+      "difficulty_level": 5,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5183",
+      "name": "பரிமாற்ற பழுது",
+      "difficulty_level": 1,
+      "description": "Learn and master Transmission Repair",
+      "tags": [
+        "transmission",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5184",
+      "name": "வாகன ஆய்வு",
+      "difficulty_level": 5,
+      "description": "Learn and master Vehicle Inspection",
+      "tags": [
+        "vehicle",
+        "inspection",
+        "skill"
+      ]
+    }
+  ]
+}

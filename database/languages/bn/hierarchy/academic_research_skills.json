@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "একাডেমিক ও গবেষণা দক্ষতা",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "একাডেমিক উপস্থাপনা"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "ডেটা বিশ্লেষণ"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "ভাষা ও রচনা"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "গণিত ও পরিসংখ্যান"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "বৈজ্ঞানিক গবেষণা"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "অধ্যয়ন ও পরীক্ষার প্রস্তুতি"
+    }
+  ]
+}

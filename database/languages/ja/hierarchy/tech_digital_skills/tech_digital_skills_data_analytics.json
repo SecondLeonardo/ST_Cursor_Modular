@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_data_analytics",
+  "name": "データと分析",
+  "skills": [
+    {
+      "id": "skill_4386",
+      "name": "ビッグデータの基本",
+      "difficulty_level": 4,
+      "description": "Learn and master Big Data Basics",
+      "tags": [
+        "data",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4387",
+      "name": "ダッシュボードの作成",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Dashboards",
+      "tags": [
+        "creating",
+        "dashboards",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4388",
+      "name": "パンダによるデータクリーニング",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Cleaning with Pandas",
+      "tags": [
+        "data",
+        "cleaning",
+        "with",
+        "pandas"
+      ]
+    },
+    {
+      "id": "skill_4389",
+      "name": "データモデリング",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Modeling",
+      "tags": [
+        "data",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4390",
+      "name": "データの視覚化",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4391",
+      "name": "Excelデータ分析",
+      "difficulty_level": 5,
+      "description": "Learn and master Excel Data Analysis",
+      "tags": [
+        "excel",
+        "data",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4392",
+      "name": "探索的データ分析",
+      "difficulty_level": 5,
+      "description": "Learn and master Exploratory Data Analysis",
+      "tags": [
+        "exploratory",
+        "data",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4393",
+      "name": "SQLクエリ",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL Queries",
+      "tags": [
+        "queries",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4394",
+      "name": "時系列分析",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Series Analysis",
+      "tags": [
+        "time",
+        "series",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4395",
+      "name": "BIツールを使用します",
+      "difficulty_level": 1,
+      "description": "Learn and master Using BI Tools",
+      "tags": [
+        "using",
+        "tools",
+        "skill"
+      ]
+    }
+  ]
+}

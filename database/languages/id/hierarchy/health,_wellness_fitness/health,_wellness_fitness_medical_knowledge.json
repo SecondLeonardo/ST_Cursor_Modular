@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_medical_knowledge",
+  "name": "Pengetahuan Medis",
+  "skills": [
+    {
+      "id": "skill_2748",
+      "name": "Fundamental Anatomi",
+      "difficulty_level": 4,
+      "description": "Learn and master Anatomy Fundamentals",
+      "tags": [
+        "anatomy",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2749",
+      "name": "Pertolongan Pertama Dasar",
+      "difficulty_level": 1,
+      "description": "Learn and master Basic First Aid",
+      "tags": [
+        "basic",
+        "first",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2750",
+      "name": "Pelatihan CPR",
+      "difficulty_level": 1,
+      "description": "Learn and master CPR Training",
+      "tags": [
+        "training",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2751",
+      "name": "Kesadaran Penyakit Umum",
+      "difficulty_level": 3,
+      "description": "Learn and master Common Diseases Awareness",
+      "tags": [
+        "common",
+        "diseases",
+        "awareness"
+      ]
+    },
+    {
+      "id": "skill_2752",
+      "name": "Tanggap darurat",
+      "difficulty_level": 2,
+      "description": "Learn and master Emergency Response",
+      "tags": [
+        "emergency",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2753",
+      "name": "Komunikasi Kesehatan",
+      "difficulty_level": 3,
+      "description": "Learn and master Healthcare Communication",
+      "tags": [
+        "healthcare",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2754",
+      "name": "Terminologi Medis",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Terminology",
+      "tags": [
+        "medical",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2755",
+      "name": "Kebersihan pasien",
+      "difficulty_level": 3,
+      "description": "Learn and master Patient Hygiene",
+      "tags": [
+        "patient",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2756",
+      "name": "Pemantauan vital",
+      "difficulty_level": 2,
+      "description": "Learn and master Vitals Monitoring",
+      "tags": [
+        "vitals",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2757",
+      "name": "Perawatan luka",
+      "difficulty_level": 4,
+      "description": "Learn and master Wound Care",
+      "tags": [
+        "wound",
+        "care",
+        "skill"
+      ]
+    }
+  ]
+}

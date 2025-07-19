@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_data_science_ai",
+  "name": "Data Science & AI",
+  "skills": [
+    {
+      "id": "skill_4288",
+      "name": "Etyka AI",
+      "difficulty_level": 3,
+      "description": "Learn and master AI Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4289",
+      "name": "Narzędzia dużych zbiorów danych",
+      "difficulty_level": 3,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4290",
+      "name": "Czyszczenie danych",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4291",
+      "name": "Wizualizacja danych",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4292",
+      "name": "Modelowanie uczenia maszynowego",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning Modeling",
+      "tags": [
+        "machine",
+        "learning",
+        "modeling"
+      ]
+    },
+    {
+      "id": "skill_4293",
+      "name": "Przetwarzanie języka naturalnego",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4294",
+      "name": "Sieci neuronowe",
+      "difficulty_level": 3,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4295",
+      "name": "Analityka predykcyjna",
+      "difficulty_level": 1,
+      "description": "Learn and master Predictive Analytics",
+      "tags": [
+        "predictive",
+        "analytics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4296",
+      "name": "Python for Data Science",
+      "difficulty_level": 5,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_4297",
+      "name": "Zapytanie SQL",
+      "difficulty_level": 2,
+      "description": "Learn and master SQL Querying",
+      "tags": [
+        "querying",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

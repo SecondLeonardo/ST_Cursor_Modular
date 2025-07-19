@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_sculpture",
+  "name": "சிற்பம்",
+  "skills": [
+    {
+      "id": "skill_410",
+      "name": "3 டி அச்சிடும் சிற்பம்",
+      "difficulty_level": 2,
+      "description": "Learn and master 3D Printing Sculpting",
+      "tags": [
+        "printing",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_411",
+      "name": "களிமண் மாடலிங்",
+      "difficulty_level": 3,
+      "description": "Learn and master Clay Modeling",
+      "tags": [
+        "clay",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_412",
+      "name": "நிறுவல் கலை",
+      "difficulty_level": 2,
+      "description": "Learn and master Installation Art",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_413",
+      "name": "உலோக சிற்பம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Sculpture",
+      "tags": [
+        "metal",
+        "sculpture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_414",
+      "name": "மினியேச்சர் சிற்பம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Miniature Sculpting",
+      "tags": [
+        "miniature",
+        "sculpting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_415",
+      "name": "கலப்பு ஊடக சிற்பம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Mixed Media Sculpture",
+      "tags": [
+        "mixed",
+        "media",
+        "sculpture"
+      ]
+    },
+    {
+      "id": "skill_416",
+      "name": "பிளாஸ்டர் வார்ப்பு",
+      "difficulty_level": 3,
+      "description": "Learn and master Plaster Casting",
+      "tags": [
+        "plaster",
+        "casting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_417",
+      "name": "கல் செதுக்குதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Stone Carving",
+      "tags": [
+        "stone",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_418",
+      "name": "கம்பி கலை",
+      "difficulty_level": 2,
+      "description": "Learn and master Wire Art",
+      "tags": [
+        "wire",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_419",
+      "name": "மர சிற்பம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Sculpture",
+      "tags": [
+        "wood",
+        "sculpture",
+        "skill"
+      ]
+    }
+  ]
+}

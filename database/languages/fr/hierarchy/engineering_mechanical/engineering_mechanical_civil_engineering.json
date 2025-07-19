@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_civil_engineering",
+  "name": "Génie civil",
+  "skills": [
+    {
+      "id": "skill_2353",
+      "name": "Codes du bâtiment",
+      "difficulty_level": 3,
+      "description": "Learn and master Building Codes",
+      "tags": [
+        "building",
+        "codes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2354",
+      "name": "Rédaction civile",
+      "difficulty_level": 5,
+      "description": "Learn and master Civil Drafting",
+      "tags": [
+        "civil",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2355",
+      "name": "Gestion de la construction",
+      "difficulty_level": 3,
+      "description": "Learn and master Construction Management",
+      "tags": [
+        "construction",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2356",
+      "name": "Génie hydraulique",
+      "difficulty_level": 3,
+      "description": "Learn and master Hydraulic Engineering",
+      "tags": [
+        "hydraulic",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2357",
+      "name": "Conception en béton armé",
+      "difficulty_level": 1,
+      "description": "Learn and master Reinforced Concrete Design",
+      "tags": [
+        "reinforced",
+        "concrete",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_2358",
+      "name": "Conception de routes",
+      "difficulty_level": 4,
+      "description": "Learn and master Roadway Design",
+      "tags": [
+        "roadway",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2359",
+      "name": "Mécanique des sols",
+      "difficulty_level": 4,
+      "description": "Learn and master Soil Mechanics",
+      "tags": [
+        "soil",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2360",
+      "name": "Analyse structurelle",
+      "difficulty_level": 2,
+      "description": "Learn and master Structural Analysis",
+      "tags": [
+        "structural",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2361",
+      "name": "Arpentage",
+      "difficulty_level": 1,
+      "description": "Learn and master Surveying",
+      "tags": [
+        "surveying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2362",
+      "name": "Drainage urbain",
+      "difficulty_level": 5,
+      "description": "Learn and master Urban Drainage",
+      "tags": [
+        "urban",
+        "drainage",
+        "skill"
+      ]
+    }
+  ]
+}

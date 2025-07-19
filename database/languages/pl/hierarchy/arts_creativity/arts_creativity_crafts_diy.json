@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_crafts_diy",
+  "name": "Rzemiosło i majsterkowanie",
+  "skills": [
+    {
+      "id": "skill_430",
+      "name": "Wytwarzanie świecy",
+      "difficulty_level": 5,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_431",
+      "name": "Haftowe obręcze",
+      "difficulty_level": 3,
+      "description": "Learn and master Embroidery Hoops",
+      "tags": [
+        "embroidery",
+        "hoops",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_432",
+      "name": "Ręcznie robione prezenty",
+      "difficulty_level": 2,
+      "description": "Learn and master Handmade Gifts",
+      "tags": [
+        "handmade",
+        "gifts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_433",
+      "name": "Tworzenie biżuterii",
+      "difficulty_level": 2,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_434",
+      "name": "Origami",
+      "difficulty_level": 3,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_435",
+      "name": "Papierowe rzemiosło",
+      "difficulty_level": 1,
+      "description": "Learn and master Paper Crafting",
+      "tags": [
+        "paper",
+        "crafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_436",
+      "name": "Sztuka żywiczna",
+      "difficulty_level": 2,
+      "description": "Learn and master Resin Art",
+      "tags": [
+        "resin",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_437",
+      "name": "Scrapbooking",
+      "difficulty_level": 1,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_438",
+      "name": "Robienie mydła",
+      "difficulty_level": 4,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_439",
+      "name": "Rzemiosło drewna",
+      "difficulty_level": 3,
+      "description": "Learn and master Wood Crafting",
+      "tags": [
+        "wood",
+        "crafting",
+        "skill"
+      ]
+    }
+  ]
+}

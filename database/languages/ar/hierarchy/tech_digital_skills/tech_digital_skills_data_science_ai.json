@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_data_science_ai",
+  "name": "علم البيانات و AI",
+  "skills": [
+    {
+      "id": "skill_4396",
+      "name": "النموذج النموذج الذكاء الذكاء الاصطناعي",
+      "difficulty_level": 2,
+      "description": "Learn and master AI Model Deployment",
+      "tags": [
+        "model",
+        "deployment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4397",
+      "name": "أدوات البيانات الضخمة (Spark)",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Tools (Spark)",
+      "tags": [
+        "data",
+        "tools",
+        "(spark)"
+      ]
+    },
+    {
+      "id": "skill_4398",
+      "name": "رؤية الكمبيوتر",
+      "difficulty_level": 3,
+      "description": "Learn and master Computer Vision",
+      "tags": [
+        "computer",
+        "vision",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4399",
+      "name": "تحليل البيانات مع بيثون",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Analysis with Python",
+      "tags": [
+        "data",
+        "analysis",
+        "with",
+        "python"
+      ]
+    },
+    {
+      "id": "skill_4400",
+      "name": "تصور البيانات",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4401",
+      "name": "التعلم العميق",
+      "difficulty_level": 2,
+      "description": "Learn and master Deep Learning",
+      "tags": [
+        "deep",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4402",
+      "name": "التعلم الآلي",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning",
+      "tags": [
+        "machine",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4403",
+      "name": "مقاييس تقييم النموذج",
+      "difficulty_level": 2,
+      "description": "Learn and master Model Evaluation Metrics",
+      "tags": [
+        "model",
+        "evaluation",
+        "metrics"
+      ]
+    },
+    {
+      "id": "skill_4404",
+      "name": "معالجة اللغة الطبيعية",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4405",
+      "name": "Pandas & Numpy",
+      "difficulty_level": 5,
+      "description": "Learn and master Pandas & NumPy",
+      "tags": [
+        "pandas",
+        "numpy",
+        "skill"
+      ]
+    }
+  ]
+}

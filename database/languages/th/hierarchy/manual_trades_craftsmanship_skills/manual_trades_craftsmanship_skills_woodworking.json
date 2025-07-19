@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_woodworking",
+  "name": "งานไม้",
+  "skills": [
+    {
+      "id": "skill_3498",
+      "name": "การทำตู้",
+      "difficulty_level": 3,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3499",
+      "name": "เฟรมช่างไม้",
+      "difficulty_level": 3,
+      "description": "Learn and master Carpentry Framing",
+      "tags": [
+        "carpentry",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3500",
+      "name": "การดำเนินการเลื่อยไฟฟ้า",
+      "difficulty_level": 1,
+      "description": "Learn and master Chainsaw Operation",
+      "tags": [
+        "chainsaw",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3501",
+      "name": "การทำเฟอร์นิเจอร์",
+      "difficulty_level": 2,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3502",
+      "name": "การเชื่อมต่อ",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3503",
+      "name": "กลึงไม้เลี้ยว",
+      "difficulty_level": 1,
+      "description": "Learn and master Lathe Wood Turning",
+      "tags": [
+        "lathe",
+        "wood",
+        "turning"
+      ]
+    },
+    {
+      "id": "skill_3504",
+      "name": "การขัดและการตกแต่ง",
+      "difficulty_level": 3,
+      "description": "Learn and master Sanding & Finishing",
+      "tags": [
+        "sanding",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3505",
+      "name": "การใช้ไม้วีเนียร์",
+      "difficulty_level": 4,
+      "description": "Learn and master Veneering",
+      "tags": [
+        "veneering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3506",
+      "name": "แกะสลักไม้",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3507",
+      "name": "การย้อมสีไม้",
+      "difficulty_level": 5,
+      "description": "Learn and master Wood Staining",
+      "tags": [
+        "wood",
+        "staining",
+        "skill"
+      ]
+    }
+  ]
+}

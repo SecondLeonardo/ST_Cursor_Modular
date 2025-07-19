@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "機械的および技術的なスキル",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "自動車メンテナンス"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "エンジニアリングの基本"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "家の修理と設置"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "機械操作"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "ツールの使用と安全"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "木材＆メタルワーク"
+    }
+  ]
+}

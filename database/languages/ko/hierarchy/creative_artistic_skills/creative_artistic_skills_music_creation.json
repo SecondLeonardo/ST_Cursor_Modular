@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_music_creation",
+  "name": "음악 제작",
+  "skills": [
+    {
+      "id": "skill_1604",
+      "name": "오디오 믹싱",
+      "difficulty_level": 3,
+      "description": "Learn and master Audio Mixing",
+      "tags": [
+        "audio",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1605",
+      "name": "비트 제작",
+      "difficulty_level": 2,
+      "description": "Learn and master Beat Making",
+      "tags": [
+        "beat",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1606",
+      "name": "멜로디 작곡",
+      "difficulty_level": 3,
+      "description": "Learn and master Composing Melodies",
+      "tags": [
+        "composing",
+        "melodies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1607",
+      "name": "홈 레코딩",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Recording",
+      "tags": [
+        "home",
+        "recording",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1608",
+      "name": "루프 샘플링",
+      "difficulty_level": 1,
+      "description": "Learn and master Loop Sampling",
+      "tags": [
+        "loop",
+        "sampling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1609",
+      "name": "가사 작문",
+      "difficulty_level": 3,
+      "description": "Learn and master Lyric Writing",
+      "tags": [
+        "lyric",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1610",
+      "name": "음악 이론 기본",
+      "difficulty_level": 1,
+      "description": "Learn and master Music Theory Basics",
+      "tags": [
+        "music",
+        "theory",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1611",
+      "name": "기타 연주",
+      "difficulty_level": 1,
+      "description": "Learn and master Playing Guitar",
+      "tags": [
+        "playing",
+        "guitar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1612",
+      "name": "피아노 연주",
+      "difficulty_level": 1,
+      "description": "Learn and master Playing Piano",
+      "tags": [
+        "playing",
+        "piano",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1613",
+      "name": "작곡",
+      "difficulty_level": 1,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

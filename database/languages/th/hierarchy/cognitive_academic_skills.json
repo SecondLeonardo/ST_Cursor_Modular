@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "ทักษะความรู้ความเข้าใจและการศึกษา",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "การคิดเชิงวิพากษ์"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "ภาษาและภาษาศาสตร์"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "คณิตศาสตร์และตรรกะ"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "หน่วยความจำและโฟกัส"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "วิทยาศาสตร์และการวิจัย"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "ทักษะการเรียนและการเรียนรู้"
+    }
+  ]
+}

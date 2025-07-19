@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_carpentry",
+  "name": "Snickeri",
+  "skills": [
+    {
+      "id": "skill_5185",
+      "name": "Skåp",
+      "difficulty_level": 2,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5186",
+      "name": "Däckbyggnad",
+      "difficulty_level": 1,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5187",
+      "name": "Dörrhäng",
+      "difficulty_level": 2,
+      "description": "Learn and master Door Hanging",
+      "tags": [
+        "door",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5188",
+      "name": "Återställning av möbler",
+      "difficulty_level": 3,
+      "description": "Learn and master Furniture Restoration",
+      "tags": [
+        "furniture",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5189",
+      "name": "Handverktygsanvändning",
+      "difficulty_level": 5,
+      "description": "Learn and master Hand Tool Use",
+      "tags": [
+        "hand",
+        "tool",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5190",
+      "name": "Snickeri",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5191",
+      "name": "Triminstallation",
+      "difficulty_level": 2,
+      "description": "Learn and master Trim Installation",
+      "tags": [
+        "trim",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5192",
+      "name": "Fönsterramning",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Framing",
+      "tags": [
+        "window",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5193",
+      "name": "Träskärning",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Cutting",
+      "tags": [
+        "wood",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5194",
+      "name": "Träbehandling",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    }
+  ]
+}

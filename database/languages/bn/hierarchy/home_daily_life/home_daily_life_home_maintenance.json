@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_home_maintenance",
+  "name": "হোম রক্ষণাবেক্ষণ",
+  "skills": [
+    {
+      "id": "skill_2988",
+      "name": "বেসিক কার্পেন্ট্রি",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Carpentry",
+      "tags": [
+        "basic",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2989",
+      "name": "হালকা বাল্ব পরিবর্তন করা",
+      "difficulty_level": 4,
+      "description": "Learn and master Changing Light Bulbs",
+      "tags": [
+        "changing",
+        "light",
+        "bulbs"
+      ]
+    },
+    {
+      "id": "skill_2990",
+      "name": "বৈদ্যুতিক সুরক্ষা বেসিক",
+      "difficulty_level": 2,
+      "description": "Learn and master Electrical Safety Basics",
+      "tags": [
+        "electrical",
+        "safety",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2991",
+      "name": "ফিক্সিং ফাঁস",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Leaks",
+      "tags": [
+        "fixing",
+        "leaks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2992",
+      "name": "ঝুলন্ত তাক",
+      "difficulty_level": 4,
+      "description": "Learn and master Hanging Shelves",
+      "tags": [
+        "hanging",
+        "shelves",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2993",
+      "name": "ফিক্সচার ইনস্টল করা",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Fixtures",
+      "tags": [
+        "installing",
+        "fixtures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2994",
+      "name": "পেইন্টিং দেয়াল",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2995",
+      "name": "ড্রেন আনলগিং",
+      "difficulty_level": 5,
+      "description": "Learn and master Unclogging Drains",
+      "tags": [
+        "unclogging",
+        "drains",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2996",
+      "name": "পাওয়ার সরঞ্জাম ব্যবহার করে",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Power Tools",
+      "tags": [
+        "using",
+        "power",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2997",
+      "name": "প্রাচীর প্যাচিং",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    }
+  ]
+}

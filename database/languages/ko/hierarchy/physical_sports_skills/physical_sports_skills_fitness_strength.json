@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_fitness_strength",
+  "name": "피트니스 및 강도",
+  "skills": [
+    {
+      "id": "skill_3988",
+      "name": "보디 빌딩 기술",
+      "difficulty_level": 2,
+      "description": "Learn and master Bodybuilding Techniques",
+      "tags": [
+        "bodybuilding",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3989",
+      "name": "칼리스 닉 운동",
+      "difficulty_level": 4,
+      "description": "Learn and master Calisthenics Exercises",
+      "tags": [
+        "calisthenics",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3990",
+      "name": "심장 운동",
+      "difficulty_level": 3,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3991",
+      "name": "핵심 강화",
+      "difficulty_level": 5,
+      "description": "Learn and master Core Strengthening",
+      "tags": [
+        "core",
+        "strengthening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3992",
+      "name": "CrossFit 드릴",
+      "difficulty_level": 4,
+      "description": "Learn and master CrossFit Drills",
+      "tags": [
+        "crossfit",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3993",
+      "name": "플리오 메트릭 훈련",
+      "difficulty_level": 4,
+      "description": "Learn and master Plyometric Training",
+      "tags": [
+        "plyometric",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3994",
+      "name": "저항 밴드 운동",
+      "difficulty_level": 3,
+      "description": "Learn and master Resistance Band Workouts",
+      "tags": [
+        "resistance",
+        "band",
+        "workouts"
+      ]
+    },
+    {
+      "id": "skill_3995",
+      "name": "스트레칭 루틴",
+      "difficulty_level": 2,
+      "description": "Learn and master Stretching Routines",
+      "tags": [
+        "stretching",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3996",
+      "name": "역도 형태",
+      "difficulty_level": 4,
+      "description": "Learn and master Weightlifting Form",
+      "tags": [
+        "weightlifting",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3997",
+      "name": "요가 포즈",
+      "difficulty_level": 5,
+      "description": "Learn and master Yoga Poses",
+      "tags": [
+        "yoga",
+        "poses",
+        "skill"
+      ]
+    }
+  ]
+}

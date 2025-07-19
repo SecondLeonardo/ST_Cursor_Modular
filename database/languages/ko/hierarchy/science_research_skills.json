@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "과학 및 연구 기술",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "학문적 글쓰기"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "생물학적 과학"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "컴퓨터 및 데이터 과학"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "지구 및 환경 과학"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "엔지니어링 과학"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "수학 및 통계"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "의료 및 건강 과학"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "물리 과학"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "연구 방법"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "사회 과학"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_electrical_engineering",
+  "name": "전기 공학",
+  "skills": [
+    {
+      "id": "skill_4516",
+      "name": "Arduino 프로그래밍",
+      "difficulty_level": 2,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4517",
+      "name": "회로 설계",
+      "difficulty_level": 3,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4518",
+      "name": "디지털 로직 디자인",
+      "difficulty_level": 5,
+      "description": "Learn and master Digital Logic Design",
+      "tags": [
+        "digital",
+        "logic",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4519",
+      "name": "전기 안전 표준",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Safety Standards",
+      "tags": [
+        "electrical",
+        "safety",
+        "standards"
+      ]
+    },
+    {
+      "id": "skill_4520",
+      "name": "임베디드 시스템",
+      "difficulty_level": 3,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4521",
+      "name": "마이크로 컨트롤러 프로그래밍",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Programming",
+      "tags": [
+        "microcontroller",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4522",
+      "name": "오실로스코프 사용",
+      "difficulty_level": 4,
+      "description": "Learn and master Oscilloscope Usage",
+      "tags": [
+        "oscilloscope",
+        "usage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4523",
+      "name": "PCB 레이아웃 설계",
+      "difficulty_level": 4,
+      "description": "Learn and master PCB Layout Design",
+      "tags": [
+        "layout",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4524",
+      "name": "전력 분배",
+      "difficulty_level": 2,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4525",
+      "name": "신호 처리",
+      "difficulty_level": 1,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    }
+  ]
+}

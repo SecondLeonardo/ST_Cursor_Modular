@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_3d_modeling",
+  "name": "3D -моделирование",
+  "skills": [
+    {
+      "id": "skill_520",
+      "name": "3D текстурирование",
+      "difficulty_level": 1,
+      "description": "Learn and master 3D Texturing",
+      "tags": [
+        "texturing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_521",
+      "name": "Блендер Основы",
+      "difficulty_level": 5,
+      "description": "Learn and master Blender Basics",
+      "tags": [
+        "blender",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_522",
+      "name": "Моделирование персонажа",
+      "difficulty_level": 5,
+      "description": "Learn and master Character Modeling",
+      "tags": [
+        "character",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_523",
+      "name": "Моделирование окружающей среды",
+      "difficulty_level": 1,
+      "description": "Learn and master Environment Modeling",
+      "tags": [
+        "environment",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_524",
+      "name": "Твердое моделирование поверхности",
+      "difficulty_level": 5,
+      "description": "Learn and master Hard Surface Modeling",
+      "tags": [
+        "hard",
+        "surface",
+        "modeling"
+      ]
+    },
+    {
+      "id": "skill_525",
+      "name": "Низкая поли -дизайн",
+      "difficulty_level": 5,
+      "description": "Learn and master Low Poly Design",
+      "tags": [
+        "poly",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_526",
+      "name": "Рендеринг",
+      "difficulty_level": 1,
+      "description": "Learn and master Rendering",
+      "tags": [
+        "rendering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_527",
+      "name": "Оснастка",
+      "difficulty_level": 1,
+      "description": "Learn and master Rigging",
+      "tags": [
+        "rigging",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_528",
+      "name": "Скульптировать в Zbrush",
+      "difficulty_level": 3,
+      "description": "Learn and master Sculpting in ZBrush",
+      "tags": [
+        "sculpting",
+        "zbrush",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_529",
+      "name": "УФ -картирование",
+      "difficulty_level": 3,
+      "description": "Learn and master UV Mapping",
+      "tags": [
+        "mapping",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

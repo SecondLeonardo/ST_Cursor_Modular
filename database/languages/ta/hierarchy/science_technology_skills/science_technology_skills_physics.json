@@ -1,0 +1,105 @@
+{
+  "id": "science_technology_skills_physics",
+  "name": "இயற்பியல்",
+  "skills": [
+    {
+      "id": "skill_4338",
+      "name": "வானியற்பியல் அடிப்படைகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Astrophysics Basics",
+      "tags": [
+        "astrophysics",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4339",
+      "name": "கிளாசிக்கல் மெக்கானிக்ஸ்",
+      "difficulty_level": 5,
+      "description": "Learn and master Classical Mechanics",
+      "tags": [
+        "classical",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4340",
+      "name": "மின்காந்தவியல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Electromagnetism",
+      "tags": [
+        "electromagnetism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4341",
+      "name": "சோதனை இயற்பியல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Experimental Physics",
+      "tags": [
+        "experimental",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4342",
+      "name": "அணு இயற்பியல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Nuclear Physics",
+      "tags": [
+        "nuclear",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4343",
+      "name": "ஒளியியல் & ஒளி",
+      "difficulty_level": 2,
+      "description": "Learn and master Optics & Light",
+      "tags": [
+        "optics",
+        "light",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4344",
+      "name": "குவாண்டம் இயற்பியல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Quantum Physics",
+      "tags": [
+        "quantum",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4345",
+      "name": "சார்பியல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Relativity",
+      "tags": [
+        "relativity",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4346",
+      "name": "அலை கோட்பாடு",
+      "difficulty_level": 1,
+      "description": "Learn and master Wave Theory",
+      "tags": [
+        "wave",
+        "theory",
+        "skill"
+      ]
+    }
+  ]
+}

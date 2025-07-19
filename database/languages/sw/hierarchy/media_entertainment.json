@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "Media & Burudani",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "Uzalishaji wa video"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "Uzalishaji wa sauti"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "Upigaji picha"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "Ubunifu wa picha"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "Kaimu na utendaji"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "Kuandika na maandishi"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "Utangazaji"
+    }
+  ]
+}

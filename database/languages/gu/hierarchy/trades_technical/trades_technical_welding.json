@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_welding",
+  "name": "વેલ્ડી",
+  "skills": [
+    {
+      "id": "skill_5265",
+      "name": "ચાપ",
+      "difficulty_level": 5,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5266",
+      "name": "બ્લ્યુપ્રિન્ટ અર્થઘટન",
+      "difficulty_level": 4,
+      "description": "Learn and master Blueprint Interpretation",
+      "tags": [
+        "blueprint",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5267",
+      "name": "મિગ વેલ્ડીંગ",
+      "difficulty_level": 4,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5268",
+      "name": "ધાતુ -કાપ",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Cutting",
+      "tags": [
+        "metal",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5269",
+      "name": "પાઇપનું વેલ્ડીંગ",
+      "difficulty_level": 4,
+      "description": "Learn and master Pipe Welding",
+      "tags": [
+        "pipe",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5270",
+      "name": "ટિગ વેલ્ડીંગ",
+      "difficulty_level": 5,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5271",
+      "name": "વેલ્ડ નિરીક્ષણ",
+      "difficulty_level": 3,
+      "description": "Learn and master Weld Inspection",
+      "tags": [
+        "weld",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5272",
+      "name": "વેલ્ડીંગ બનાવટ",
+      "difficulty_level": 1,
+      "description": "Learn and master Welding Fabrication",
+      "tags": [
+        "welding",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5273",
+      "name": "વેલ્ડીંગ સલામતી",
+      "difficulty_level": 1,
+      "description": "Learn and master Welding Safety",
+      "tags": [
+        "welding",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5274",
+      "name": "વેલ્ડીંગ પ્રતીક વાંચન",
+      "difficulty_level": 5,
+      "description": "Learn and master Welding Symbol Reading",
+      "tags": [
+        "welding",
+        "symbol",
+        "reading"
+      ]
+    }
+  ]
+}

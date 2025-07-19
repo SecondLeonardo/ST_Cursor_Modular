@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_handmade_goods",
+  "name": "Bidhaa zilizotengenezwa kwa mikono",
+  "skills": [
+    {
+      "id": "skill_4885",
+      "name": "Kutengeneza mshumaa",
+      "difficulty_level": 5,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4886",
+      "name": "Glasi etching",
+      "difficulty_level": 2,
+      "description": "Learn and master Glass Etching",
+      "tags": [
+        "glass",
+        "etching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4887",
+      "name": "Kufunga waya wa vito",
+      "difficulty_level": 3,
+      "description": "Learn and master Jewelry Wire Wrapping",
+      "tags": [
+        "jewelry",
+        "wire",
+        "wrapping"
+      ]
+    },
+    {
+      "id": "skill_4888",
+      "name": "Kuweka misingi",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting Basics",
+      "tags": [
+        "knitting",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4889",
+      "name": "Magongo ya Macrame",
+      "difficulty_level": 4,
+      "description": "Learn and master Macrame Knots",
+      "tags": [
+        "macrame",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4890",
+      "name": "Kutengeneza sanaa ya resin",
+      "difficulty_level": 3,
+      "description": "Learn and master Making Resin Art",
+      "tags": [
+        "making",
+        "resin",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4891",
+      "name": "Matumizi ya gurudumu la ufinyanzi",
+      "difficulty_level": 4,
+      "description": "Learn and master Pottery Wheel Use",
+      "tags": [
+        "pottery",
+        "wheel",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4892",
+      "name": "Ufundi wa sabuni",
+      "difficulty_level": 3,
+      "description": "Learn and master Soap Crafting",
+      "tags": [
+        "soap",
+        "crafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4893",
+      "name": "Musa wa Tile",
+      "difficulty_level": 1,
+      "description": "Learn and master Tile Mosaics",
+      "tags": [
+        "tile",
+        "mosaics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4894",
+      "name": "Woodburning",
+      "difficulty_level": 5,
+      "description": "Learn and master Woodburning",
+      "tags": [
+        "woodburning",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

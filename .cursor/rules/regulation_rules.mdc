@@ -1,0 +1,194 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+You're asking a **very important** and very big question, so let's break it down clearly and simply. You want to build a social media app (like SkillTalk), and you’re wondering:
+
+* ✅ What **regulations** apply in the **EU**?
+* ✅ What **Apple** and **Google/Android** expect?
+* ✅ What **requirements** an app must meet to be accepted (on app stores)?
+* ✅ And you're starting from scratch, so you want a **full overview**.
+
+---
+
+## 🌍 1. EU Regulations for Social Media Apps
+
+If you offer your app in **Europe**, these are the **main regulations** you **must follow**:
+
+### ✅ A. **GDPR** (General Data Protection Regulation)
+
+* The most important law in the EU.
+* Applies to **all apps** that collect **personal data** from users in Europe.
+
+You MUST:
+
+* Ask for **explicit consent** to collect data.
+* Allow users to **access, delete, and export** their data.
+* Have a clear **Privacy Policy**.
+* Securely store and transmit personal data (e.g., encrypt it).
+* Get **parental consent** for users under 16 in many countries.
+* Appoint a **Data Protection Officer (DPO)** if needed (depends on your app scale).
+
+### ✅ B. **DSA** (Digital Services Act) – since 2024
+
+* Targets platforms like SkillTalk.
+* You must:
+
+  * Allow users to **report illegal content**.
+  * Respond **quickly to reports** and give feedback.
+  * Be **transparent** about algorithms (e.g., match or feed sorting).
+  * Let users control **personalized content/recommendations**.
+  * Prevent harmful or misleading information from spreading.
+  * Allow **opt-out from algorithmic recommendations**.
+
+### ✅ C. **ePrivacy Directive** (Cookie Law)
+
+* Applies if your app stores or accesses info on the device (e.g., cookies, analytics).
+* You must get **consent for tracking** (like Firebase Analytics or ads).
+
+---
+
+## 🍏 2. Apple App Store Regulations
+
+Apple has strict rules. If your app violates any of these, it will be **rejected**.
+
+### 📘 Apple’s Guidelines:
+
+Link: [App Store Review Guidelines](mdc:https:/developer.apple.com/app-store/review/guidelines)
+https://developer.apple.com/app-store/review/guidelines/
+
+
+Key points:
+
+### ✅ Privacy
+
+* Must follow **AppTrackingTransparency** (ask permission to track users).
+* Add **privacy labels** for your app (data you collect and how it's used).
+* Use **Sign in with Apple** if you offer other third-party login (e.g., Google, Facebook).
+
+### ✅ Security
+
+* Must use **HTTPS**.
+* Don’t store sensitive data unencrypted.
+* Apple **rejects** apps that crash, feel broken, or are “spammy.”
+
+### ✅ Content
+
+* No offensive, hateful, sexually explicit, or illegal content.
+* Must have a **moderation system** for user-generated content.
+
+### ✅ Age Restrictions
+
+* Must rate your app correctly (especially if minors are allowed).
+* If under 13: follow **COPPA** (US law, applies globally in practice).
+
+### ✅ In-App Purchases
+
+* You **must use Apple’s payment system** for digital goods (coins, gifts, VIP).
+* Can’t use PayPal, Stripe, etc. for digital items.
+
+---
+
+## 🤖 3. Google Play Store (Android) Regulations
+
+Google’s rules are very similar to Apple’s, but a bit more relaxed.
+
+### 📘 Google Policy Center:
+
+Link: [Google Play Developer Policy Center](mdc:https:/support.google.com/googleplay/android-developer/answer/113469#content)
+
+Key points:
+
+### ✅ Privacy
+
+* Must show a **Privacy Policy**.
+* Follow **Google Play Data Safety Section**.
+* If targeting EU, **comply with GDPR** and DSA.
+
+### ✅ Content Policies
+
+* No harmful or illegal content.
+* Must moderate user-generated content.
+* Must allow **user blocking**, **reporting**, and **content removal**.
+
+### ✅ In-App Purchases
+
+* Use **Google Play Billing** for digital goods.
+* No linking to outside payment systems for in-app items.
+
+---
+
+## 📋 4. What Features Must My Social App Have to Be Accepted?
+
+If you are building **SkillTalk** (social chat + matching), you need to include:
+
+### 🔐 LEGAL & PRIVACY
+
+* ✅ **Privacy Policy** and **Terms of Service** (we already generated this for you)
+* ✅ GDPR-compliant consent for data collection
+* ✅ Parental control or age verification
+* ✅ Option to delete account and all personal data
+
+### 🧰 MODERATION
+
+* ✅ “Report user” and “Block user” feature
+* ✅ Content filtering for offensive posts
+* ✅ Admin tools for handling abuse
+
+### 👮‍♂️ SECURITY
+
+* ✅ End-to-end or secure message transmission (we’re using Firebase)
+* ✅ Login with strong password or via OAuth (Google/Apple)
+* ✅ Email or phone recovery
+
+### 🛒 MONETIZATION
+
+* ✅ Use **Apple IAP** and **Google Billing** for coins/VIP
+* ❌ Don’t link to Stripe or PayPal for digital goods
+
+### 🧑‍💻 TRANSPARENCY & CONTROL
+
+* ✅ Settings to manage data, privacy, location, notification
+* ✅ Option to disable recommendations or tracking (for DSA)
+
+---
+
+## 🛠️ BONUS: Technical Requirements for Store Approval
+
+* ✅ App must **not crash**
+* ✅ Must have **basic onboarding**, explain purpose
+* ✅ Light and dark mode support (✅ you have it)
+* ✅ Screenshots, description, and demo video for app stores
+* ✅ Localized privacy settings if targeting multiple countries
+
+---
+
+## ✅ Summary (Checklist)
+
+| Requirement               | EU (GDPR/DSA) | Apple Store | Google Play    |
+| ------------------------- | ------------- | ----------- | -------------- |
+| Privacy Policy            | ✅             | ✅           | ✅              |
+| User data consent         | ✅             | ✅           | ✅              |
+| Data deletion option      | ✅             | ✅           | ✅              |
+| In-App Purchases (IAP)    | ✅ (indirect)  | ✅ Apple Pay | ✅ Play Billing |
+| Report/block user         | ✅ DSA         | ✅           | ✅              |
+| Age rating & child safety | ✅             | ✅           | ✅              |
+| Moderation system         | ✅             | ✅           | ✅              |
+| Secure data storage       | ✅             | ✅           | ✅              |
+| App Tracking Transparency | ❌             | ✅           | ❌              |
+| Algorithm transparency    | ✅ DSA         | ❌           | ❌              |
+
+---
+
+If you want, I can generate:
+
+* ✅ A full **GDPR consent flow**
+* ✅ Required **Privacy Policy**
+* ✅ App Store privacy labels
+* ✅ Google Play Data Safety form
+* ✅ Report/block system
+
+Just say: **“Make all EU + store compliance code and documents for SkillTalk”**, and I’ll build everything for you.
+
+Would you like me to do that now?

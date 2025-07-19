@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_fitness_training",
+  "name": "آموزش تناسب اندام",
+  "skills": [
+    {
+      "id": "skill_2513",
+      "name": "تمرینات وزن بدن",
+      "difficulty_level": 5,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2514",
+      "name": "تمرینات قلبی",
+      "difficulty_level": 3,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2515",
+      "name": "اصول اولیه",
+      "difficulty_level": 3,
+      "description": "Learn and master CrossFit Basics",
+      "tags": [
+        "crossfit",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2516",
+      "name": "تکنیک های دوچرخه سواری",
+      "difficulty_level": 4,
+      "description": "Learn and master Cycling Techniques",
+      "tags": [
+        "cycling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2517",
+      "name": "استقامت دویدن",
+      "difficulty_level": 2,
+      "description": "Learn and master Endurance Running",
+      "tags": [
+        "endurance",
+        "running",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2518",
+      "name": "آموزش انعطاف پذیری",
+      "difficulty_level": 3,
+      "description": "Learn and master Flexibility Training",
+      "tags": [
+        "flexibility",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2519",
+      "name": "سلام",
+      "difficulty_level": 1,
+      "description": "Learn and master HIIT",
+      "tags": [
+        "hiit",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2520",
+      "name": "آموزش باند مقاومت",
+      "difficulty_level": 5,
+      "description": "Learn and master Resistance Band Training",
+      "tags": [
+        "resistance",
+        "band",
+        "training"
+      ]
+    },
+    {
+      "id": "skill_2521",
+      "name": "تمرینات قدرتی",
+      "difficulty_level": 4,
+      "description": "Learn and master Strength Training",
+      "tags": [
+        "strength",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2522",
+      "name": "فرم وزنه برداری",
+      "difficulty_level": 4,
+      "description": "Learn and master Weightlifting Form",
+      "tags": [
+        "weightlifting",
+        "form",
+        "skill"
+      ]
+    }
+  ]
+}

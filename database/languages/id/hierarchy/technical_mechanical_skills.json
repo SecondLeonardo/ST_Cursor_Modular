@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "Keterampilan Teknis & Mekanik",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "Keterampilan otomotif"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "Konstruksi & Bangunan"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "Pekerjaan listrik"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "Energi & Lingkungan"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "Keterampilan industri"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "Perbaikan Mekanis"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_fitness_training",
+  "name": "ఫిట్‌నెస్ శిక్షణ",
+  "skills": [
+    {
+      "id": "skill_2513",
+      "name": "బాడీ వెయిట్ వ్యాయామాలు",
+      "difficulty_level": 5,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2514",
+      "name": "కార్డియో వర్కౌట్స్",
+      "difficulty_level": 3,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2515",
+      "name": "క్రాస్ ఫిట్ బేసిక్స్",
+      "difficulty_level": 3,
+      "description": "Learn and master CrossFit Basics",
+      "tags": [
+        "crossfit",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2516",
+      "name": "సైక్లింగ్ పద్ధతులు",
+      "difficulty_level": 4,
+      "description": "Learn and master Cycling Techniques",
+      "tags": [
+        "cycling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2517",
+      "name": "ఓర్పు రన్నింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Endurance Running",
+      "tags": [
+        "endurance",
+        "running",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2518",
+      "name": "వశ్యత శిక్షణ",
+      "difficulty_level": 3,
+      "description": "Learn and master Flexibility Training",
+      "tags": [
+        "flexibility",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2519",
+      "name": "HIIT",
+      "difficulty_level": 1,
+      "description": "Learn and master HIIT",
+      "tags": [
+        "hiit",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2520",
+      "name": "రెసిస్టెన్స్ బ్యాండ్ శిక్షణ",
+      "difficulty_level": 5,
+      "description": "Learn and master Resistance Band Training",
+      "tags": [
+        "resistance",
+        "band",
+        "training"
+      ]
+    },
+    {
+      "id": "skill_2521",
+      "name": "బలం శిక్షణ",
+      "difficulty_level": 4,
+      "description": "Learn and master Strength Training",
+      "tags": [
+        "strength",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2522",
+      "name": "వెయిట్ లిఫ్టింగ్ రూపం",
+      "difficulty_level": 4,
+      "description": "Learn and master Weightlifting Form",
+      "tags": [
+        "weightlifting",
+        "form",
+        "skill"
+      ]
+    }
+  ]
+}

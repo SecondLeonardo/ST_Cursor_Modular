@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_photography",
+  "name": "Photographie",
+  "skills": [
+    {
+      "id": "skill_600",
+      "name": "Paramètres de la caméra",
+      "difficulty_level": 3,
+      "description": "Learn and master Camera Settings",
+      "tags": [
+        "camera",
+        "settings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_601",
+      "name": "Flux de travail numérique",
+      "difficulty_level": 3,
+      "description": "Learn and master Digital Workflow",
+      "tags": [
+        "digital",
+        "workflow",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_602",
+      "name": "Photographie de paysage",
+      "difficulty_level": 4,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_603",
+      "name": "Techniques d'éclairage",
+      "difficulty_level": 2,
+      "description": "Learn and master Lighting Techniques",
+      "tags": [
+        "lighting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_604",
+      "name": "Composition photo",
+      "difficulty_level": 2,
+      "description": "Learn and master Photo Composition",
+      "tags": [
+        "photo",
+        "composition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_605",
+      "name": "Modification photo",
+      "difficulty_level": 2,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_606",
+      "name": "Photojournalisme",
+      "difficulty_level": 4,
+      "description": "Learn and master Photojournalism",
+      "tags": [
+        "photojournalism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_607",
+      "name": "Photographie de portrait",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_608",
+      "name": "Photographie de rue",
+      "difficulty_level": 5,
+      "description": "Learn and master Street Photography",
+      "tags": [
+        "street",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_609",
+      "name": "Photographie en studio",
+      "difficulty_level": 4,
+      "description": "Learn and master Studio Photography",
+      "tags": [
+        "studio",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

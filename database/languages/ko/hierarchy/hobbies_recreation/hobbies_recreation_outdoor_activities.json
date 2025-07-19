@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_outdoor_activities",
+  "name": "야외 활동",
+  "skills": [
+    {
+      "id": "skill_5365",
+      "name": "하이킹",
+      "difficulty_level": 4,
+      "description": "Learn and master Hiking",
+      "tags": [
+        "hiking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5366",
+      "name": "캠핑",
+      "difficulty_level": 5,
+      "description": "Learn and master Camping",
+      "tags": [
+        "camping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5367",
+      "name": "조류 관찰",
+      "difficulty_level": 4,
+      "description": "Learn and master Bird Watching",
+      "tags": [
+        "bird",
+        "watching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5368",
+      "name": "어업",
+      "difficulty_level": 3,
+      "description": "Learn and master Fishing",
+      "tags": [
+        "fishing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5369",
+      "name": "암벽 등반",
+      "difficulty_level": 3,
+      "description": "Learn and master Rock Climbing",
+      "tags": [
+        "rock",
+        "climbing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5370",
+      "name": "카약",
+      "difficulty_level": 2,
+      "description": "Learn and master Kayaking",
+      "tags": [
+        "kayaking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5371",
+      "name": "사이클링",
+      "difficulty_level": 4,
+      "description": "Learn and master Cycling",
+      "tags": [
+        "cycling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5372",
+      "name": "스타 게 징",
+      "difficulty_level": 4,
+      "description": "Learn and master Stargazing",
+      "tags": [
+        "stargazing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5373",
+      "name": "지오 캐싱",
+      "difficulty_level": 5,
+      "description": "Learn and master Geocaching",
+      "tags": [
+        "geocaching",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5374",
+      "name": "자연 사진",
+      "difficulty_level": 5,
+      "description": "Learn and master Nature Photography",
+      "tags": [
+        "nature",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

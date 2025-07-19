@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_individual_sports",
+  "name": "Отдельные виды спорта",
+  "skills": [
+    {
+      "id": "skill_3998",
+      "name": "Бадминтон разбивает",
+      "difficulty_level": 3,
+      "description": "Learn and master Badminton Smashing",
+      "tags": [
+        "badminton",
+        "smashing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3999",
+      "name": "Форма боулинга",
+      "difficulty_level": 5,
+      "description": "Learn and master Bowling Form",
+      "tags": [
+        "bowling",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4000",
+      "name": "Корбальная работа ног",
+      "difficulty_level": 5,
+      "description": "Learn and master Boxing Footwork",
+      "tags": [
+        "boxing",
+        "footwork",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4001",
+      "name": "Методы ограждения",
+      "difficulty_level": 3,
+      "description": "Learn and master Fencing Techniques",
+      "tags": [
+        "fencing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4002",
+      "name": "Качели в гольф",
+      "difficulty_level": 3,
+      "description": "Learn and master Golf Swing",
+      "tags": [
+        "golf",
+        "swing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4003",
+      "name": "Гимнастика падает",
+      "difficulty_level": 4,
+      "description": "Learn and master Gymnastics Tumbling",
+      "tags": [
+        "gymnastics",
+        "tumbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4004",
+      "name": "Плавание мазки",
+      "difficulty_level": 5,
+      "description": "Learn and master Swimming Strokes",
+      "tags": [
+        "swimming",
+        "strokes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4005",
+      "name": "Настольный теннис ралли",
+      "difficulty_level": 5,
+      "description": "Learn and master Table Tennis Rallying",
+      "tags": [
+        "table",
+        "tennis",
+        "rallying"
+      ]
+    },
+    {
+      "id": "skill_4006",
+      "name": "Теннис вперед",
+      "difficulty_level": 5,
+      "description": "Learn and master Tennis Forehand",
+      "tags": [
+        "tennis",
+        "forehand",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4007",
+      "name": "Трек спринтинг",
+      "difficulty_level": 2,
+      "description": "Learn and master Track Sprinting",
+      "tags": [
+        "track",
+        "sprinting",
+        "skill"
+      ]
+    }
+  ]
+}

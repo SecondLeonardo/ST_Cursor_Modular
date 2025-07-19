@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_data_science_ai",
+  "name": "데이터 과학 및 ai",
+  "skills": [
+    {
+      "id": "skill_4188",
+      "name": "AI 윤리",
+      "difficulty_level": 4,
+      "description": "Learn and master AI Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4189",
+      "name": "빅 데이터 컨셉",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Concepts",
+      "tags": [
+        "data",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4190",
+      "name": "데이터 청소",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4191",
+      "name": "데이터 시각화",
+      "difficulty_level": 2,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4192",
+      "name": "기계 학습 기본",
+      "difficulty_level": 4,
+      "description": "Learn and master Machine Learning Basics",
+      "tags": [
+        "machine",
+        "learning",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4193",
+      "name": "모델 평가",
+      "difficulty_level": 3,
+      "description": "Learn and master Model Evaluation",
+      "tags": [
+        "model",
+        "evaluation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4194",
+      "name": "자연어 처리",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4195",
+      "name": "신경망",
+      "difficulty_level": 4,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4196",
+      "name": "팬더스 & Numpy",
+      "difficulty_level": 5,
+      "description": "Learn and master Pandas & NumPy",
+      "tags": [
+        "pandas",
+        "numpy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4197",
+      "name": "데이터 과학을위한 파이썬",
+      "difficulty_level": 5,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    }
+  ]
+}

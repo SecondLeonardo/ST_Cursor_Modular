@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_woodworking",
+  "name": "목공",
+  "skills": [
+    {
+      "id": "skill_3498",
+      "name": "캐비닛 제작",
+      "difficulty_level": 3,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3499",
+      "name": "목공 프레임",
+      "difficulty_level": 3,
+      "description": "Learn and master Carpentry Framing",
+      "tags": [
+        "carpentry",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3500",
+      "name": "전기 톱 작동",
+      "difficulty_level": 1,
+      "description": "Learn and master Chainsaw Operation",
+      "tags": [
+        "chainsaw",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3501",
+      "name": "가구 만들기",
+      "difficulty_level": 2,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3502",
+      "name": "가구 만드는 일",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3503",
+      "name": "선반 나무 회전",
+      "difficulty_level": 1,
+      "description": "Learn and master Lathe Wood Turning",
+      "tags": [
+        "lathe",
+        "wood",
+        "turning"
+      ]
+    },
+    {
+      "id": "skill_3504",
+      "name": "샌딩 및 마무리",
+      "difficulty_level": 3,
+      "description": "Learn and master Sanding & Finishing",
+      "tags": [
+        "sanding",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3505",
+      "name": "베니어링",
+      "difficulty_level": 4,
+      "description": "Learn and master Veneering",
+      "tags": [
+        "veneering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3506",
+      "name": "나무 조각",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3507",
+      "name": "나무 염색",
+      "difficulty_level": 5,
+      "description": "Learn and master Wood Staining",
+      "tags": [
+        "wood",
+        "staining",
+        "skill"
+      ]
+    }
+  ]
+}

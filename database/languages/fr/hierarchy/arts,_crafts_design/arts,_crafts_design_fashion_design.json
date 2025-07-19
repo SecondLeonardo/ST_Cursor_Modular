@@ -1,0 +1,116 @@
+{
+  "id": "arts,_crafts_design_fashion_design",
+  "name": "Stylisme",
+  "skills": [
+    {
+      "id": "skill_650",
+      "name": "Construction de vêtements",
+      "difficulty_level": 2,
+      "description": "Learn and master Clothing Construction",
+      "tags": [
+        "clothing",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_651",
+      "name": "Drapage",
+      "difficulty_level": 1,
+      "description": "Learn and master Draping",
+      "tags": [
+        "draping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_652",
+      "name": "Logiciel de CAO de la mode",
+      "difficulty_level": 2,
+      "description": "Learn and master Fashion CAD Software",
+      "tags": [
+        "fashion",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_653",
+      "name": "Illustration de la mode",
+      "difficulty_level": 2,
+      "description": "Learn and master Fashion Illustration",
+      "tags": [
+        "fashion",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_654",
+      "name": "Style de mode",
+      "difficulty_level": 5,
+      "description": "Learn and master Fashion Styling",
+      "tags": [
+        "fashion",
+        "styling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_655",
+      "name": "Motifs",
+      "difficulty_level": 1,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_656",
+      "name": "Techniques de couture",
+      "difficulty_level": 5,
+      "description": "Learn and master Sewing Techniques",
+      "tags": [
+        "sewing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_657",
+      "name": "Esquisse des vêtements",
+      "difficulty_level": 1,
+      "description": "Learn and master Sketching Garments",
+      "tags": [
+        "sketching",
+        "garments",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_658",
+      "name": "Sélection textile",
+      "difficulty_level": 5,
+      "description": "Learn and master Textile Selection",
+      "tags": [
+        "textile",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_659",
+      "name": "Prévision des tendances",
+      "difficulty_level": 3,
+      "description": "Learn and master Trend Forecasting",
+      "tags": [
+        "trend",
+        "forecasting",
+        "skill"
+      ]
+    }
+  ]
+}

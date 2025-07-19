@@ -1,0 +1,116 @@
+{
+  "id": "technical_mechanical_skills_industrial_skills",
+  "name": "የኢንዱስትሪ ችሎታዎች",
+  "skills": [
+    {
+      "id": "skill_4596",
+      "name": "መሰረታዊ ያልተለመዱ ቴክኒኮች",
+      "difficulty_level": 4,
+      "description": "Learn and master Basic Welding Techniques",
+      "tags": [
+        "basic",
+        "welding",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_4597",
+      "name": "የ Onklift አሠራር",
+      "difficulty_level": 1,
+      "description": "Learn and master Forklift Operation",
+      "tags": [
+        "forklift",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4598",
+      "name": "የሃይድሮሜክስ ዕውቀት",
+      "difficulty_level": 2,
+      "description": "Learn and master Hydraulics Knowledge",
+      "tags": [
+        "hydraulics",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4599",
+      "name": "የስራ ማቅረቢያዎች",
+      "difficulty_level": 4,
+      "description": "Learn and master Operating Lathes",
+      "tags": [
+        "operating",
+        "lathes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4600",
+      "name": "የሳንባ ምች ስርዓቶች",
+      "difficulty_level": 2,
+      "description": "Learn and master Pneumatic Systems",
+      "tags": [
+        "pneumatic",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4601",
+      "name": "የመከላከያ ጥገና",
+      "difficulty_level": 5,
+      "description": "Learn and master Preventive Maintenance",
+      "tags": [
+        "preventive",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4602",
+      "name": "ቴክኒካዊ መመሪያዎችን በማንበብ",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Technical Manuals",
+      "tags": [
+        "reading",
+        "technical",
+        "manuals"
+      ]
+    },
+    {
+      "id": "skill_4603",
+      "name": "የደህንነት ሂደቶች",
+      "difficulty_level": 3,
+      "description": "Learn and master Safety Procedures",
+      "tags": [
+        "safety",
+        "procedures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4604",
+      "name": "የ CNC ማሽኖችን በመጠቀም",
+      "difficulty_level": 1,
+      "description": "Learn and master Using CNC Machines",
+      "tags": [
+        "using",
+        "machines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4605",
+      "name": "ከባድ መሳሪያዎችን በመጠቀም",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Heavy Equipment",
+      "tags": [
+        "using",
+        "heavy",
+        "equipment"
+      ]
+    }
+  ]
+}

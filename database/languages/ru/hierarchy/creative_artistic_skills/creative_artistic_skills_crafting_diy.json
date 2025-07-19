@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_crafting_diy",
+  "name": "Крафт и DIY",
+  "skills": [
+    {
+      "id": "skill_1453",
+      "name": "Приготовление свечей",
+      "difficulty_level": 4,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1454",
+      "name": "Создание ювелирных изделий",
+      "difficulty_level": 4,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1455",
+      "name": "Вязание",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1456",
+      "name": "Оригами",
+      "difficulty_level": 3,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1457",
+      "name": "Керамика",
+      "difficulty_level": 2,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1458",
+      "name": "Скрапбукинг",
+      "difficulty_level": 5,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1459",
+      "name": "Шить",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewing",
+      "tags": [
+        "sewing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1460",
+      "name": "Мыло",
+      "difficulty_level": 3,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1461",
+      "name": "Подъем",
+      "difficulty_level": 4,
+      "description": "Learn and master Upcycling",
+      "tags": [
+        "upcycling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1462",
+      "name": "Деревообработка",
+      "difficulty_level": 5,
+      "description": "Learn and master Woodworking",
+      "tags": [
+        "woodworking",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "அறிவியல் மற்றும் ஆராய்ச்சி திறன்",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "கல்வி எழுத்து"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "உயிரியல் அறிவியல்"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "கணினி மற்றும் தரவு அறிவியல்"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "பூமி மற்றும் சுற்றுச்சூழல் அறிவியல்"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "பொறியியல் அறிவியல்"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "கணிதம் மற்றும் புள்ளிவிவரங்கள்"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "மருத்துவ மற்றும் சுகாதார அறிவியல்"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "உடல் அறிவியல்"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "ஆராய்ச்சி முறைகள்"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "சமூக அறிவியல்"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_photography",
+  "name": "Nhiếp ảnh",
+  "skills": [
+    {
+      "id": "skill_600",
+      "name": "Cài đặt camera",
+      "difficulty_level": 3,
+      "description": "Learn and master Camera Settings",
+      "tags": [
+        "camera",
+        "settings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_601",
+      "name": "Quy trình công việc kỹ thuật số",
+      "difficulty_level": 3,
+      "description": "Learn and master Digital Workflow",
+      "tags": [
+        "digital",
+        "workflow",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_602",
+      "name": "Chụp ảnh phong cảnh",
+      "difficulty_level": 4,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_603",
+      "name": "Kỹ thuật chiếu sáng",
+      "difficulty_level": 2,
+      "description": "Learn and master Lighting Techniques",
+      "tags": [
+        "lighting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_604",
+      "name": "Thành phần ảnh",
+      "difficulty_level": 2,
+      "description": "Learn and master Photo Composition",
+      "tags": [
+        "photo",
+        "composition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_605",
+      "name": "Chỉnh sửa ảnh",
+      "difficulty_level": 2,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_606",
+      "name": "Phóng viên ảnh",
+      "difficulty_level": 4,
+      "description": "Learn and master Photojournalism",
+      "tags": [
+        "photojournalism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_607",
+      "name": "Chụp ảnh chân dung",
+      "difficulty_level": 1,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_608",
+      "name": "Nhiếp ảnh đường phố",
+      "difficulty_level": 5,
+      "description": "Learn and master Street Photography",
+      "tags": [
+        "street",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_609",
+      "name": "Studio Photography",
+      "difficulty_level": 4,
+      "description": "Learn and master Studio Photography",
+      "tags": [
+        "studio",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

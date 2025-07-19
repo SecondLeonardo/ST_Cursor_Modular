@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_philosophy",
+  "name": "철학",
+  "skills": [
+    {
+      "id": "skill_60",
+      "name": "미학",
+      "difficulty_level": 5,
+      "description": "Learn and master Aesthetics",
+      "tags": [
+        "aesthetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_61",
+      "name": "비판적 사고",
+      "difficulty_level": 5,
+      "description": "Learn and master Critical Thinking",
+      "tags": [
+        "critical",
+        "thinking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_62",
+      "name": "인식론",
+      "difficulty_level": 1,
+      "description": "Learn and master Epistemology",
+      "tags": [
+        "epistemology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_63",
+      "name": "윤리학",
+      "difficulty_level": 1,
+      "description": "Learn and master Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_64",
+      "name": "실존주의",
+      "difficulty_level": 2,
+      "description": "Learn and master Existentialism",
+      "tags": [
+        "existentialism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_65",
+      "name": "논리",
+      "difficulty_level": 3,
+      "description": "Learn and master Logic",
+      "tags": [
+        "logic",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_66",
+      "name": "형이상학",
+      "difficulty_level": 4,
+      "description": "Learn and master Metaphysics",
+      "tags": [
+        "metaphysics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_67",
+      "name": "마음의 철학",
+      "difficulty_level": 5,
+      "description": "Learn and master Philosophy of Mind",
+      "tags": [
+        "philosophy",
+        "mind",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_68",
+      "name": "과학의 철학",
+      "difficulty_level": 3,
+      "description": "Learn and master Philosophy of Science",
+      "tags": [
+        "philosophy",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_69",
+      "name": "정치 철학",
+      "difficulty_level": 5,
+      "description": "Learn and master Political Philosophy",
+      "tags": [
+        "political",
+        "philosophy",
+        "skill"
+      ]
+    }
+  ]
+}

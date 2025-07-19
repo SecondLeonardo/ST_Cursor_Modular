@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_cloud_computing",
+  "name": "Computación en la nube",
+  "skills": [
+    {
+      "id": "skill_4357",
+      "name": "AWS Fundaments",
+      "difficulty_level": 3,
+      "description": "Learn and master AWS Fundamentals",
+      "tags": [
+        "fundamentals",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4358",
+      "name": "Administración Azure",
+      "difficulty_level": 4,
+      "description": "Learn and master Azure Administration",
+      "tags": [
+        "azure",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4359",
+      "name": "Optimización de costos de nubes",
+      "difficulty_level": 5,
+      "description": "Learn and master Cloud Cost Optimization",
+      "tags": [
+        "cloud",
+        "cost",
+        "optimization"
+      ]
+    },
+    {
+      "id": "skill_4360",
+      "name": "Herramientas de monitoreo de la nube",
+      "difficulty_level": 1,
+      "description": "Learn and master Cloud Monitoring Tools",
+      "tags": [
+        "cloud",
+        "monitoring",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_4361",
+      "name": "Seguridad en la nube",
+      "difficulty_level": 5,
+      "description": "Learn and master Cloud Security",
+      "tags": [
+        "cloud",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4362",
+      "name": "Contenedores Docker",
+      "difficulty_level": 3,
+      "description": "Learn and master Docker Containers",
+      "tags": [
+        "docker",
+        "containers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4363",
+      "name": "Plataforma en la nube de Google",
+      "difficulty_level": 3,
+      "description": "Learn and master Google Cloud Platform",
+      "tags": [
+        "google",
+        "cloud",
+        "platform"
+      ]
+    },
+    {
+      "id": "skill_4364",
+      "name": "Kubernetes conceptos básicos",
+      "difficulty_level": 4,
+      "description": "Learn and master Kubernetes Basics",
+      "tags": [
+        "kubernetes",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4365",
+      "name": "Equilibrio de carga",
+      "difficulty_level": 4,
+      "description": "Learn and master Load Balancing",
+      "tags": [
+        "load",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4366",
+      "name": "Arquitectura sin servidor",
+      "difficulty_level": 3,
+      "description": "Learn and master Serverless Architecture",
+      "tags": [
+        "serverless",
+        "architecture",
+        "skill"
+      ]
+    }
+  ]
+}

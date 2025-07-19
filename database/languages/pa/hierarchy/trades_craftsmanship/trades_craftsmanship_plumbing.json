@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_plumbing",
+  "name": "ਪਲੰਬਿੰਗ",
+  "skills": [
+    {
+      "id": "skill_5005",
+      "name": "ਬੈਕਫਲੋ ਟੈਸਟਿੰਗ",
+      "difficulty_level": 1,
+      "description": "Learn and master Backflow Testing",
+      "tags": [
+        "backflow",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5006",
+      "name": "ਡਰਾਈਟ ਸਫਾਈ",
+      "difficulty_level": 4,
+      "description": "Learn and master Drain Cleaning",
+      "tags": [
+        "drain",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5007",
+      "name": "ਫਿਕਸਟਰ ਰਿਪਲੇਸਮੈਂਟ",
+      "difficulty_level": 3,
+      "description": "Learn and master Fixture Replacement",
+      "tags": [
+        "fixture",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5008",
+      "name": "ਲੀਕ ਖੋਜ",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5009",
+      "name": "ਪਾਈਪ ਇੰਸਟਾਲੇਸ਼ਨ",
+      "difficulty_level": 5,
+      "description": "Learn and master Pipe Installation",
+      "tags": [
+        "pipe",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5010",
+      "name": "ਪਲੰਬਿੰਗ ਕੋਡ ਗਿਆਨ",
+      "difficulty_level": 1,
+      "description": "Learn and master Plumbing Code Knowledge",
+      "tags": [
+        "plumbing",
+        "code",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5011",
+      "name": "ਸੀਵਰੇਜ ਲਾਈਨ ਦੀ ਦੇਖਭਾਲ",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewer Line Maintenance",
+      "tags": [
+        "sewer",
+        "line",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5012",
+      "name": "ਸੁੰਪ ਪੁੰਜ ਇੰਸਟਾਲੇਸ਼ਨ",
+      "difficulty_level": 3,
+      "description": "Learn and master Sump Pump Installation",
+      "tags": [
+        "sump",
+        "pump",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5013",
+      "name": "ਵਾਲਵ ਦੀ ਮੁਰੰਮਤ",
+      "difficulty_level": 1,
+      "description": "Learn and master Valve Repair",
+      "tags": [
+        "valve",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5014",
+      "name": "ਵਾਟਰ ਹੀਟਰ ਇੰਸਟਾਲੇਸ਼ਨ",
+      "difficulty_level": 5,
+      "description": "Learn and master Water Heater Installation",
+      "tags": [
+        "water",
+        "heater",
+        "installation"
+      ]
+    }
+  ]
+}

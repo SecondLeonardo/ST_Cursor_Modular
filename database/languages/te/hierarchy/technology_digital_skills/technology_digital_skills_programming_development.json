@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_programming_development",
+  "name": "ప్రోగ్రామింగ్ & అభివృద్ధి",
+  "skills": [
+    {
+      "id": "skill_4795",
+      "name": "అపిస్ & వెబ్‌హూక్స్",
+      "difficulty_level": 3,
+      "description": "Learn and master APIs & Webhooks",
+      "tags": [
+        "apis",
+        "webhooks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4796",
+      "name": "బ్యాకెండ్ అభివృద్ధి",
+      "difficulty_level": 2,
+      "description": "Learn and master Backend Development",
+      "tags": [
+        "backend",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4797",
+      "name": "కోడ్ డీబగ్గింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Code Debugging",
+      "tags": [
+        "code",
+        "debugging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4798",
+      "name": "ఆట అభివృద్ధి",
+      "difficulty_level": 5,
+      "description": "Learn and master Game Development",
+      "tags": [
+        "game",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4799",
+      "name": "HTML & CSS",
+      "difficulty_level": 3,
+      "description": "Learn and master HTML & CSS",
+      "tags": [
+        "html",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4800",
+      "name": "జావా",
+      "difficulty_level": 1,
+      "description": "Learn and master Java",
+      "tags": [
+        "java",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4801",
+      "name": "జావాస్క్రిప్ట్",
+      "difficulty_level": 3,
+      "description": "Learn and master JavaScript",
+      "tags": [
+        "javascript",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4802",
+      "name": "మొబైల్ అనువర్తన అభివృద్ధి",
+      "difficulty_level": 3,
+      "description": "Learn and master Mobile App Development",
+      "tags": [
+        "mobile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4803",
+      "name": "పైథాన్",
+      "difficulty_level": 1,
+      "description": "Learn and master Python",
+      "tags": [
+        "python",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4804",
+      "name": "సంస్కరణ నియంత్రణ (GIT)",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control (Git)",
+      "tags": [
+        "version",
+        "control",
+        "(git)"
+      ]
+    }
+  ]
+}

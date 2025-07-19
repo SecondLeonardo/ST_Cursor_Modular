@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_tech_support_troubleshooting",
+  "name": "Suporte técnico e solução de problemas",
+  "skills": [
+    {
+      "id": "skill_4486",
+      "name": "Script básico",
+      "difficulty_level": 1,
+      "description": "Learn and master Basic Scripting",
+      "tags": [
+        "basic",
+        "scripting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4487",
+      "name": "Teste de compatibilidade do dispositivo",
+      "difficulty_level": 1,
+      "description": "Learn and master Device Compatibility Testing",
+      "tags": [
+        "device",
+        "compatibility",
+        "testing"
+      ]
+    },
+    {
+      "id": "skill_4488",
+      "name": "Diagnosticando problemas de hardware",
+      "difficulty_level": 1,
+      "description": "Learn and master Diagnosing Hardware Issues",
+      "tags": [
+        "diagnosing",
+        "hardware",
+        "issues"
+      ]
+    },
+    {
+      "id": "skill_4489",
+      "name": "Instalando o software",
+      "difficulty_level": 5,
+      "description": "Learn and master Installing Software",
+      "tags": [
+        "installing",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4490",
+      "name": "Gerenciando contas de usuário",
+      "difficulty_level": 2,
+      "description": "Learn and master Managing User Accounts",
+      "tags": [
+        "managing",
+        "user",
+        "accounts"
+      ]
+    },
+    {
+      "id": "skill_4491",
+      "name": "Configuração da impressora",
+      "difficulty_level": 4,
+      "description": "Learn and master Printer Setup",
+      "tags": [
+        "printer",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4492",
+      "name": "Reinicie e repare",
+      "difficulty_level": 4,
+      "description": "Learn and master Reboot and Repair",
+      "tags": [
+        "reboot",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4493",
+      "name": "Suporte técnico remoto",
+      "difficulty_level": 2,
+      "description": "Learn and master Remote Tech Support",
+      "tags": [
+        "remote",
+        "tech",
+        "support"
+      ]
+    },
+    {
+      "id": "skill_4494",
+      "name": "Conhecimento de licenciamento de software",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Licensing Knowledge",
+      "tags": [
+        "software",
+        "licensing",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_4495",
+      "name": "Recuperação do sistema",
+      "difficulty_level": 2,
+      "description": "Learn and master System Recovery",
+      "tags": [
+        "system",
+        "recovery",
+        "skill"
+      ]
+    }
+  ]
+}

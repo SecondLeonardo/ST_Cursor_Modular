@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_networking_it",
+  "name": "Mạng & nó",
+  "skills": [
+    {
+      "id": "skill_4785",
+      "name": "Thiết lập phần cứng",
+      "difficulty_level": 1,
+      "description": "Learn and master Hardware Setup",
+      "tags": [
+        "hardware",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4786",
+      "name": "Địa chỉ IP",
+      "difficulty_level": 4,
+      "description": "Learn and master IP Addressing",
+      "tags": [
+        "addressing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4787",
+      "name": "Nó khắc phục sự cố",
+      "difficulty_level": 3,
+      "description": "Learn and master IT Troubleshooting",
+      "tags": [
+        "troubleshooting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4788",
+      "name": "Thiết lập LAN/WAN",
+      "difficulty_level": 1,
+      "description": "Learn and master LAN/WAN Setup",
+      "tags": [
+        "lan/wan",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4789",
+      "name": "Giám sát mạng",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Monitoring",
+      "tags": [
+        "network",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4790",
+      "name": "Giao thức mạng",
+      "difficulty_level": 3,
+      "description": "Learn and master Network Protocols",
+      "tags": [
+        "network",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4791",
+      "name": "Thiết lập truy cập từ xa",
+      "difficulty_level": 2,
+      "description": "Learn and master Remote Access Setup",
+      "tags": [
+        "remote",
+        "access",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4792",
+      "name": "Cấu hình bộ định tuyến",
+      "difficulty_level": 5,
+      "description": "Learn and master Router Configuration",
+      "tags": [
+        "router",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4793",
+      "name": "Bảo trì máy chủ",
+      "difficulty_level": 1,
+      "description": "Learn and master Server Maintenance",
+      "tags": [
+        "server",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4794",
+      "name": "Cấu hình VPN",
+      "difficulty_level": 1,
+      "description": "Learn and master VPN Configuration",
+      "tags": [
+        "configuration",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

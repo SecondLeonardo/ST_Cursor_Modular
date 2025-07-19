@@ -1,0 +1,30 @@
+{
+  "id": "communication_language_skills",
+  "name": "沟通和语言技能",
+  "subcategories": [
+    {
+      "id": "communication_language_skills_foreign_languages",
+      "name": "外语"
+    },
+    {
+      "id": "communication_language_skills_interpersonal_skills",
+      "name": "人际交往能力"
+    },
+    {
+      "id": "communication_language_skills_nonverbal_communication",
+      "name": "非语言交流"
+    },
+    {
+      "id": "communication_language_skills_presentation_storytelling",
+      "name": "演讲与讲故事"
+    },
+    {
+      "id": "communication_language_skills_public_speaking",
+      "name": "公开演讲"
+    },
+    {
+      "id": "communication_language_skills_writing_editing",
+      "name": "写作和编辑"
+    }
+  ]
+}

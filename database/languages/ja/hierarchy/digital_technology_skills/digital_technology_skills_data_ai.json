@@ -1,0 +1,118 @@
+{
+  "id": "digital_technology_skills_data_ai",
+  "name": "データ＆ai",
+  "skills": [
+    {
+      "id": "skill_2203",
+      "name": "AIプロンプトエンジニアリング",
+      "difficulty_level": 2,
+      "description": "Learn and master AI Prompt Engineering",
+      "tags": [
+        "prompt",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2204",
+      "name": "Excelによるデータ分析",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Analysis with Excel",
+      "tags": [
+        "data",
+        "analysis",
+        "with",
+        "excel"
+      ]
+    },
+    {
+      "id": "skill_2205",
+      "name": "データクリーニング手法",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning Techniques",
+      "tags": [
+        "data",
+        "cleaning",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2206",
+      "name": "Tableauによるデータ視覚化",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Visualization with Tableau",
+      "tags": [
+        "data",
+        "visualization",
+        "with",
+        "tableau"
+      ]
+    },
+    {
+      "id": "skill_2207",
+      "name": "機械学習の基本",
+      "difficulty_level": 5,
+      "description": "Learn and master Machine Learning Basics",
+      "tags": [
+        "machine",
+        "learning",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2208",
+      "name": "自然言語処理",
+      "difficulty_level": 5,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_2209",
+      "name": "データサイエンスのパンダ",
+      "difficulty_level": 3,
+      "description": "Learn and master Pandas for Data Science",
+      "tags": [
+        "pandas",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_2210",
+      "name": "データサイエンスのためのPython",
+      "difficulty_level": 3,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_2211",
+      "name": "データクエリのSQL",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL for Data Queries",
+      "tags": [
+        "data",
+        "queries",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2212",
+      "name": "AIの統計",
+      "difficulty_level": 1,
+      "description": "Learn and master Statistics for AI",
+      "tags": [
+        "statistics",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

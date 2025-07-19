@@ -1,0 +1,116 @@
+{
+  "id": "food_of_different_countries_japanese_cuisine",
+  "name": "일본 요리",
+  "skills": [
+    {
+      "id": "skill_5425",
+      "name": "초밥 롤링",
+      "difficulty_level": 2,
+      "description": "Learn and master Sushi Rolling",
+      "tags": [
+        "sushi",
+        "rolling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5426",
+      "name": "튀김 튀김",
+      "difficulty_level": 4,
+      "description": "Learn and master Tempura Frying",
+      "tags": [
+        "tempura",
+        "frying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5427",
+      "name": "된장 수프 준비",
+      "difficulty_level": 1,
+      "description": "Learn and master Miso Soup Preparation",
+      "tags": [
+        "miso",
+        "soup",
+        "preparation"
+      ]
+    },
+    {
+      "id": "skill_5428",
+      "name": "라면 요리",
+      "difficulty_level": 4,
+      "description": "Learn and master Ramen Cooking",
+      "tags": [
+        "ramen",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5429",
+      "name": "사시미 절단",
+      "difficulty_level": 4,
+      "description": "Learn and master Sashimi Cutting",
+      "tags": [
+        "sashimi",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5430",
+      "name": "테리야키 소스 제작",
+      "difficulty_level": 4,
+      "description": "Learn and master Teriyaki Sauce Making",
+      "tags": [
+        "teriyaki",
+        "sauce",
+        "making"
+      ]
+    },
+    {
+      "id": "skill_5431",
+      "name": "산세 기술",
+      "difficulty_level": 3,
+      "description": "Learn and master Pickling Techniques",
+      "tags": [
+        "pickling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5432",
+      "name": "쌀 요리",
+      "difficulty_level": 1,
+      "description": "Learn and master Rice Cooking",
+      "tags": [
+        "rice",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5433",
+      "name": "나이프 기술",
+      "difficulty_level": 2,
+      "description": "Learn and master Knife Skills",
+      "tags": [
+        "knife",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5434",
+      "name": "다 의도 기본",
+      "difficulty_level": 3,
+      "description": "Learn and master Tea Ceremony Basics",
+      "tags": [
+        "ceremony",
+        "basics",
+        "skill"
+      ]
+    }
+  ]
+}

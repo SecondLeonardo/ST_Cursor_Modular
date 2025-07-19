@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_visual_arts",
+  "name": "ভিজ্যুয়াল আর্টস",
+  "skills": [
+    {
+      "id": "skill_760",
+      "name": "এক্রাইলিক পেইন্টিং",
+      "difficulty_level": 1,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_761",
+      "name": "কাঠকয়লা অঙ্কন",
+      "difficulty_level": 2,
+      "description": "Learn and master Charcoal Drawing",
+      "tags": [
+        "charcoal",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_762",
+      "name": "রঙ তত্ত্ব",
+      "difficulty_level": 3,
+      "description": "Learn and master Color Theory",
+      "tags": [
+        "color",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_763",
+      "name": "চিত্র অঙ্কন",
+      "difficulty_level": 5,
+      "description": "Learn and master Figure Drawing",
+      "tags": [
+        "figure",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_764",
+      "name": "মিশ্র মিডিয়া আর্ট",
+      "difficulty_level": 2,
+      "description": "Learn and master Mixed Media Art",
+      "tags": [
+        "mixed",
+        "media",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_765",
+      "name": "দৃষ্টিভঙ্গি অঙ্কন",
+      "difficulty_level": 1,
+      "description": "Learn and master Perspective Drawing",
+      "tags": [
+        "perspective",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_766",
+      "name": "প্রতিকৃতি চিত্র",
+      "difficulty_level": 3,
+      "description": "Learn and master Portrait Illustration",
+      "tags": [
+        "portrait",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_767",
+      "name": "স্কেচিং",
+      "difficulty_level": 3,
+      "description": "Learn and master Sketching",
+      "tags": [
+        "sketching",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_768",
+      "name": "স্থির জীবন চিত্রকর্ম",
+      "difficulty_level": 1,
+      "description": "Learn and master Still Life Painting",
+      "tags": [
+        "still",
+        "life",
+        "painting"
+      ]
+    },
+    {
+      "id": "skill_769",
+      "name": "জলরঙের পেইন্টিং",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Painting",
+      "tags": [
+        "watercolor",
+        "painting",
+        "skill"
+      ]
+    }
+  ]
+}

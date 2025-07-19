@@ -1,0 +1,117 @@
+{
+  "id": "academic_intellectual_geography",
+  "name": "ਭੂਗੋਲ",
+  "skills": [
+    {
+      "id": "skill_10",
+      "name": "ਕਾਰਟੋਗ੍ਰਾਫੀ",
+      "difficulty_level": 5,
+      "description": "Learn and master Cartography",
+      "tags": [
+        "cartography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_11",
+      "name": "ਜਲਵਾਯੂ",
+      "difficulty_level": 5,
+      "description": "Learn and master Climatology",
+      "tags": [
+        "climatology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_12",
+      "name": "ਵਾਤਾਵਰਣ ਭੂਗੋਲ",
+      "difficulty_level": 4,
+      "description": "Learn and master Environmental Geography",
+      "tags": [
+        "environmental",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_13",
+      "name": "ਭੂਗੋਲਿਕ ਜਾਣਕਾਰੀ ਸਿਸਟਮ (ਜੈ)",
+      "difficulty_level": 1,
+      "description": "Learn and master Geographical Information Systems (GIS)",
+      "tags": [
+        "geographical",
+        "information",
+        "systems",
+        "(gis)"
+      ]
+    },
+    {
+      "id": "skill_14",
+      "name": "ਭੂਧਿਕ ਵਿਸ਼ਲੇਸ਼ਣ",
+      "difficulty_level": 4,
+      "description": "Learn and master Geospatial Analysis",
+      "tags": [
+        "geospatial",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_15",
+      "name": "ਮਨੁੱਖੀ ਭੂਗੋਲ",
+      "difficulty_level": 5,
+      "description": "Learn and master Human Geography",
+      "tags": [
+        "human",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_16",
+      "name": "ਸਰੀਰਕ ਭੂਗੋਲ",
+      "difficulty_level": 1,
+      "description": "Learn and master Physical Geography",
+      "tags": [
+        "physical",
+        "geography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_17",
+      "name": "ਖੇਤਰੀ ਅਧਿਐਨ",
+      "difficulty_level": 4,
+      "description": "Learn and master Regional Studies",
+      "tags": [
+        "regional",
+        "studies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_18",
+      "name": "ਟੌਪੋਗ੍ਰਾਫੀ",
+      "difficulty_level": 1,
+      "description": "Learn and master Topography",
+      "tags": [
+        "topography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_19",
+      "name": "ਸ਼ਹਿਰੀ ਭੂਗੋਲ",
+      "difficulty_level": 2,
+      "description": "Learn and master Urban Geography",
+      "tags": [
+        "urban",
+        "geography",
+        "skill"
+      ]
+    }
+  ]
+}

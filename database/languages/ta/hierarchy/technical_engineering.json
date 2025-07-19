@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "தொழில்நுட்ப மற்றும் பொறியியல்",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "சிவில் & கட்டமைப்பு"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "மின் பொறியியல்"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "உற்பத்தி மற்றும் புனைகதை"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "இயந்திர பொறியியல்"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "மென்பொருள் மற்றும் அமைப்புகள்"
+    }
+  ]
+}

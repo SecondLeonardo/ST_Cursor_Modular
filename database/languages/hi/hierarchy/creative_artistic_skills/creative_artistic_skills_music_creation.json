@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_music_creation",
+  "name": "संगीत निर्माण",
+  "skills": [
+    {
+      "id": "skill_1604",
+      "name": "श्रव्य मिश्रण",
+      "difficulty_level": 3,
+      "description": "Learn and master Audio Mixing",
+      "tags": [
+        "audio",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1605",
+      "name": "बीट मेकिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Beat Making",
+      "tags": [
+        "beat",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1606",
+      "name": "मेलोडीज की रचना",
+      "difficulty_level": 3,
+      "description": "Learn and master Composing Melodies",
+      "tags": [
+        "composing",
+        "melodies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1607",
+      "name": "गृह अभिलेखन",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Recording",
+      "tags": [
+        "home",
+        "recording",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1608",
+      "name": "लूप सैंपलिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Loop Sampling",
+      "tags": [
+        "loop",
+        "sampling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1609",
+      "name": "लिरिक लेखन",
+      "difficulty_level": 3,
+      "description": "Learn and master Lyric Writing",
+      "tags": [
+        "lyric",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1610",
+      "name": "संगीत सिद्धांत मूल बातें",
+      "difficulty_level": 1,
+      "description": "Learn and master Music Theory Basics",
+      "tags": [
+        "music",
+        "theory",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1611",
+      "name": "गिटार बजाना",
+      "difficulty_level": 1,
+      "description": "Learn and master Playing Guitar",
+      "tags": [
+        "playing",
+        "guitar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1612",
+      "name": "पियानो बजाना",
+      "difficulty_level": 1,
+      "description": "Learn and master Playing Piano",
+      "tags": [
+        "playing",
+        "piano",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1613",
+      "name": "गीत लेखन",
+      "difficulty_level": 1,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

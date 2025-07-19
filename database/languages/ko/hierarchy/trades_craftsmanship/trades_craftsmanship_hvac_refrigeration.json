@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_hvac_refrigeration",
+  "name": "HVAC 및 냉장",
+  "skills": [
+    {
+      "id": "skill_4965",
+      "name": "AC 설치",
+      "difficulty_level": 3,
+      "description": "Learn and master AC Installation",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4966",
+      "name": "에어 밸런싱",
+      "difficulty_level": 5,
+      "description": "Learn and master Air Balancing",
+      "tags": [
+        "balancing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4967",
+      "name": "압축기 문제 해결",
+      "difficulty_level": 3,
+      "description": "Learn and master Compressor Troubleshooting",
+      "tags": [
+        "compressor",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4968",
+      "name": "덕트 제작",
+      "difficulty_level": 4,
+      "description": "Learn and master Ductwork Fabrication",
+      "tags": [
+        "ductwork",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4969",
+      "name": "EPA 인증 지식",
+      "difficulty_level": 1,
+      "description": "Learn and master EPA Certification Knowledge",
+      "tags": [
+        "certification",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4970",
+      "name": "HVAC 유지 보수",
+      "difficulty_level": 2,
+      "description": "Learn and master HVAC Maintenance",
+      "tags": [
+        "hvac",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4971",
+      "name": "난방 시스템 수리",
+      "difficulty_level": 3,
+      "description": "Learn and master Heating System Repair",
+      "tags": [
+        "heating",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_4972",
+      "name": "냉매 취급",
+      "difficulty_level": 4,
+      "description": "Learn and master Refrigerant Handling",
+      "tags": [
+        "refrigerant",
+        "handling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4973",
+      "name": "냉장고 수리",
+      "difficulty_level": 3,
+      "description": "Learn and master Refrigerator Repair",
+      "tags": [
+        "refrigerator",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4974",
+      "name": "온도 조절기 배선",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermostat Wiring",
+      "tags": [
+        "thermostat",
+        "wiring",
+        "skill"
+      ]
+    }
+  ]
+}

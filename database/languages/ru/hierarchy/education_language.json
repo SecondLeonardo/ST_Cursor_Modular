@@ -1,0 +1,46 @@
+{
+  "id": "education_language",
+  "name": "Образование и язык",
+  "subcategories": [
+    {
+      "id": "education_language_academic_tutoring",
+      "name": "Академическое обучение"
+    },
+    {
+      "id": "education_language_early_childhood_education",
+      "name": "Раннее детское образование"
+    },
+    {
+      "id": "education_language_higher_education",
+      "name": "Высшее образование"
+    },
+    {
+      "id": "education_language_language_teaching",
+      "name": "Языковое обучение"
+    },
+    {
+      "id": "education_language_languages",
+      "name": "Языки"
+    },
+    {
+      "id": "education_language_learning_technologies",
+      "name": "Технологии обучения"
+    },
+    {
+      "id": "education_language_literacy_writing",
+      "name": "Грамотность и письмо"
+    },
+    {
+      "id": "education_language_special_education",
+      "name": "Специальное образование"
+    },
+    {
+      "id": "education_language_study_skills",
+      "name": "Учебные навыки"
+    },
+    {
+      "id": "education_language_test_prep",
+      "name": "Тестовый подготовка"
+    }
+  ]
+}

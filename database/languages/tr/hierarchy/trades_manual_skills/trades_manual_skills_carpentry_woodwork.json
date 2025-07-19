@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_carpentry_woodwork",
+  "name": "Marangozluk ve ahşap işleri",
+  "skills": [
+    {
+      "id": "skill_5035",
+      "name": "Plan okuma",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5036",
+      "name": "Kabine kurulumu",
+      "difficulty_level": 1,
+      "description": "Learn and master Cabinet Installation",
+      "tags": [
+        "cabinet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5037",
+      "name": "Güverte binası",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5038",
+      "name": "Çerçeveleme marangozluğu",
+      "difficulty_level": 5,
+      "description": "Learn and master Framing Carpentry",
+      "tags": [
+        "framing",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5039",
+      "name": "Mobilya yapımı",
+      "difficulty_level": 5,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5040",
+      "name": "Doğru teknikleri",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery Techniques",
+      "tags": [
+        "joinery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5041",
+      "name": "Araç güvenliği",
+      "difficulty_level": 5,
+      "description": "Learn and master Tool Safety",
+      "tags": [
+        "tool",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5042",
+      "name": "Marangozluk",
+      "difficulty_level": 4,
+      "description": "Learn and master Trim Carpentry",
+      "tags": [
+        "trim",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5043",
+      "name": "Ahşap kaplama",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5044",
+      "name": "Ahşap dönüşü",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Turning",
+      "tags": [
+        "wood",
+        "turning",
+        "skill"
+      ]
+    }
+  ]
+}

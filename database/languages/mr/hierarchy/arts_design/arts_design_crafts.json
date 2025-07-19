@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_crafts",
+  "name": "हस्तकला",
+  "skills": [
+    {
+      "id": "skill_540",
+      "name": "मणी",
+      "difficulty_level": 2,
+      "description": "Learn and master Beadwork",
+      "tags": [
+        "beadwork",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_541",
+      "name": "मेणबत्ती बनविणे",
+      "difficulty_level": 1,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_542",
+      "name": "दागिने बनविणे",
+      "difficulty_level": 4,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_543",
+      "name": "मॅक्रॅम",
+      "difficulty_level": 1,
+      "description": "Learn and master Macrame",
+      "tags": [
+        "macrame",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_544",
+      "name": "ओरिगामी",
+      "difficulty_level": 1,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_545",
+      "name": "पेपर मॅचे",
+      "difficulty_level": 2,
+      "description": "Learn and master Paper Mache",
+      "tags": [
+        "paper",
+        "mache",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_546",
+      "name": "मातीची भांडी",
+      "difficulty_level": 2,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_547",
+      "name": "स्क्रॅपबुकिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_548",
+      "name": "साबण बनविणे",
+      "difficulty_level": 4,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_549",
+      "name": "लाकूड हस्तकला",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Crafting",
+      "tags": [
+        "wood",
+        "crafting",
+        "skill"
+      ]
+    }
+  ]
+}

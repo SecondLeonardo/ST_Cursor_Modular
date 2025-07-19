@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "디지털 및 기술 기술",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "사이버 보안"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "데이터 및 ai"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "그것은 & 네트워킹"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "프로그래밍 및 개발"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "웹 및 모바일"
+    }
+  ]
+}

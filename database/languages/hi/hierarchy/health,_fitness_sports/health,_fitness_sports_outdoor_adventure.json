@@ -1,0 +1,116 @@
+{
+  "id": "health,_fitness_sports_outdoor_adventure",
+  "name": "घर के बाहर होने वाला साहसिक कार्य",
+  "skills": [
+    {
+      "id": "skill_2708",
+      "name": "कैम्पिंग सेटअप",
+      "difficulty_level": 1,
+      "description": "Learn and master Camping Setup",
+      "tags": [
+        "camping",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2709",
+      "name": "साइकिल चलाना धीरज",
+      "difficulty_level": 3,
+      "description": "Learn and master Cycling Endurance",
+      "tags": [
+        "cycling",
+        "endurance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2710",
+      "name": "मछली पकड़ने का कौशल",
+      "difficulty_level": 2,
+      "description": "Learn and master Fishing Skills",
+      "tags": [
+        "fishing",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2711",
+      "name": "हाइकिंग नेविगेशन",
+      "difficulty_level": 1,
+      "description": "Learn and master Hiking Navigation",
+      "tags": [
+        "hiking",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2712",
+      "name": "कयाकिंग तकनीक",
+      "difficulty_level": 3,
+      "description": "Learn and master Kayaking Techniques",
+      "tags": [
+        "kayaking",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2713",
+      "name": "ओरिएंटियरिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Orienteering",
+      "tags": [
+        "orienteering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2714",
+      "name": "रॉक क्लाइम्बिंग बेसिक्स",
+      "difficulty_level": 1,
+      "description": "Learn and master Rock Climbing Basics",
+      "tags": [
+        "rock",
+        "climbing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2715",
+      "name": "स्कूबा डाइविंग सेफ्टी",
+      "difficulty_level": 3,
+      "description": "Learn and master Scuba Diving Safety",
+      "tags": [
+        "scuba",
+        "diving",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_2716",
+      "name": "स्नोबोर्डिंग नियंत्रण",
+      "difficulty_level": 5,
+      "description": "Learn and master Snowboarding Control",
+      "tags": [
+        "snowboarding",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2717",
+      "name": "संघर्ष क्षमता",
+      "difficulty_level": 5,
+      "description": "Learn and master Survival Skills",
+      "tags": [
+        "survival",
+        "skills",
+        "skill"
+      ]
+    }
+  ]
+}

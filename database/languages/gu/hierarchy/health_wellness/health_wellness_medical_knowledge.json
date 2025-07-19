@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_medical_knowledge",
+  "name": "તબીબી જ્ knowledgeાન",
+  "skills": [
+    {
+      "id": "skill_2533",
+      "name": "મૂળભૂત પ્રથમ સહાય",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic First Aid",
+      "tags": [
+        "basic",
+        "first",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2534",
+      "name": "સીપીઆર પ્રમાણપત્ર",
+      "difficulty_level": 1,
+      "description": "Learn and master CPR Certification",
+      "tags": [
+        "certification",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2535",
+      "name": "રોગ નિવારણ",
+      "difficulty_level": 1,
+      "description": "Learn and master Disease Prevention",
+      "tags": [
+        "disease",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2536",
+      "name": "કટોકટી પ્રતિસાદ",
+      "difficulty_level": 2,
+      "description": "Learn and master Emergency Response",
+      "tags": [
+        "emergency",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2537",
+      "name": "આરોગ્ય પરિભાષા",
+      "difficulty_level": 3,
+      "description": "Learn and master Health Terminology",
+      "tags": [
+        "health",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2538",
+      "name": "ચેપ નિયંત્રણ",
+      "difficulty_level": 3,
+      "description": "Learn and master Infection Control",
+      "tags": [
+        "infection",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2539",
+      "name": "દવા સંચાલન",
+      "difficulty_level": 5,
+      "description": "Learn and master Medication Management",
+      "tags": [
+        "medication",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2540",
+      "name": "રસીકરણ જાગૃત",
+      "difficulty_level": 5,
+      "description": "Learn and master Vaccination Awareness",
+      "tags": [
+        "vaccination",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2541",
+      "name": "મહત્વપૂર્ણ સંકેતો દેખરેખ",
+      "difficulty_level": 5,
+      "description": "Learn and master Vital Signs Monitoring",
+      "tags": [
+        "vital",
+        "signs",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "skill_2542",
+      "name": "ઘા સંભાળ",
+      "difficulty_level": 5,
+      "description": "Learn and master Wound Care",
+      "tags": [
+        "wound",
+        "care",
+        "skill"
+      ]
+    }
+  ]
+}

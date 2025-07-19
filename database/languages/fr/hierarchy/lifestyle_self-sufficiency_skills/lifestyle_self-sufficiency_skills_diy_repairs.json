@@ -1,0 +1,116 @@
+{
+  "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+  "name": "Bricolage et réparations",
+  "skills": [
+    {
+      "id": "skill_3358",
+      "name": "Assemblage de meubles",
+      "difficulty_level": 2,
+      "description": "Learn and master Assembling Furniture",
+      "tags": [
+        "assembling",
+        "furniture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3359",
+      "name": "Entretien automobile de base",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Car Maintenance",
+      "tags": [
+        "basic",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3360",
+      "name": "Fixation d'un robinet qui fuit",
+      "difficulty_level": 5,
+      "description": "Learn and master Fixing a Leaky Faucet",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucet"
+      ]
+    },
+    {
+      "id": "skill_3361",
+      "name": "Installation d'une étagère",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing a Shelf",
+      "tags": [
+        "installing",
+        "shelf",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3362",
+      "name": "Peindre une pièce",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting a Room",
+      "tags": [
+        "painting",
+        "room",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3363",
+      "name": "Patchage de cloisons sèches",
+      "difficulty_level": 5,
+      "description": "Learn and master Patching Drywall",
+      "tags": [
+        "patching",
+        "drywall",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3364",
+      "name": "Remplacement d'un luminaire",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing a Light Fixture",
+      "tags": [
+        "replacing",
+        "light",
+        "fixture"
+      ]
+    },
+    {
+      "id": "skill_3365",
+      "name": "Coudre un bouton",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing a Button",
+      "tags": [
+        "sewing",
+        "button",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3366",
+      "name": "Déboucher",
+      "difficulty_level": 3,
+      "description": "Learn and master Unclogging a Drain",
+      "tags": [
+        "unclogging",
+        "drain",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3367",
+      "name": "En utilisant des outils électriques",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Power Tools",
+      "tags": [
+        "using",
+        "power",
+        "tools"
+      ]
+    }
+  ]
+}

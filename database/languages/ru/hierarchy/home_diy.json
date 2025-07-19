@@ -1,0 +1,46 @@
+{
+  "id": "home_diy",
+  "name": "Главная и DIY",
+  "subcategories": [
+    {
+      "id": "home_diy_appliance_maintenance",
+      "name": "Техническое обслуживание устройства"
+    },
+    {
+      "id": "home_diy_cleaning_organizing",
+      "name": "Уборка и организация"
+    },
+    {
+      "id": "home_diy_crafts_decor",
+      "name": "Ремесла и декор"
+    },
+    {
+      "id": "home_diy_electrical_work",
+      "name": "Электрическая работа"
+    },
+    {
+      "id": "home_diy_gardening_landscaping",
+      "name": "Садоводство и озеленение"
+    },
+    {
+      "id": "home_diy_home_automation",
+      "name": "Домашняя автоматизация"
+    },
+    {
+      "id": "home_diy_home_repair",
+      "name": "Ремонт дома"
+    },
+    {
+      "id": "home_diy_interior_design",
+      "name": "Дизайн интерьера"
+    },
+    {
+      "id": "home_diy_plumbing_basics",
+      "name": "Сантехника Основы"
+    },
+    {
+      "id": "home_diy_woodworking_carpentry",
+      "name": "Деревообработка и плотницы"
+    }
+  ]
+}

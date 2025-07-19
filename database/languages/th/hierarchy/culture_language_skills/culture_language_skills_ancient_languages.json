@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_ancient_languages",
+  "name": "ภาษาโบราณ",
+  "skills": [
+    {
+      "id": "skill_1933",
+      "name": "การถอดรหัส Akkadian",
+      "difficulty_level": 1,
+      "description": "Learn and master Akkadian Decoding",
+      "tags": [
+        "akkadian",
+        "decoding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1934",
+      "name": "อักษรอียิปต์โบราณของอียิปต์",
+      "difficulty_level": 4,
+      "description": "Learn and master Ancient Egyptian Hieroglyphics",
+      "tags": [
+        "ancient",
+        "egyptian",
+        "hieroglyphics"
+      ]
+    },
+    {
+      "id": "skill_1935",
+      "name": "ภาษาฮีบรูในพระคัมภีร์ไบเบิล",
+      "difficulty_level": 5,
+      "description": "Learn and master Biblical Hebrew",
+      "tags": [
+        "biblical",
+        "hebrew",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1936",
+      "name": "การวิเคราะห์ภาษาจีนคลาสสิก",
+      "difficulty_level": 3,
+      "description": "Learn and master Classical Chinese Analysis",
+      "tags": [
+        "classical",
+        "chinese",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_1937",
+      "name": "ไวยากรณ์กรีกคลาสสิก",
+      "difficulty_level": 2,
+      "description": "Learn and master Classical Greek Grammar",
+      "tags": [
+        "classical",
+        "greek",
+        "grammar"
+      ]
+    },
+    {
+      "id": "skill_1938",
+      "name": "พื้นฐานภาษาคอปติก",
+      "difficulty_level": 3,
+      "description": "Learn and master Coptic Language Basics",
+      "tags": [
+        "coptic",
+        "language",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1939",
+      "name": "การอ่านภาษาละติน",
+      "difficulty_level": 2,
+      "description": "Learn and master Latin Reading",
+      "tags": [
+        "latin",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1940",
+      "name": "การแปลภาษาอังกฤษแบบเก่า",
+      "difficulty_level": 2,
+      "description": "Learn and master Old English Translation",
+      "tags": [
+        "english",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1941",
+      "name": "การตีความนอร์สเก่า",
+      "difficulty_level": 1,
+      "description": "Learn and master Old Norse Interpretation",
+      "tags": [
+        "norse",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1942",
+      "name": "การเขียนภาษาสันสกฤต",
+      "difficulty_level": 2,
+      "description": "Learn and master Sanskrit Writing",
+      "tags": [
+        "sanskrit",
+        "writing",
+        "skill"
+      ]
+    }
+  ]
+}

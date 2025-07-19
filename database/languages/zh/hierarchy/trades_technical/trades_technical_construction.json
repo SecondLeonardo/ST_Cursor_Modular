@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_construction",
+  "name": "建造",
+  "skills": [
+    {
+      "id": "skill_5195",
+      "name": "蓝图阅读",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5196",
+      "name": "混凝土完成",
+      "difficulty_level": 3,
+      "description": "Learn and master Concrete Finishing",
+      "tags": [
+        "concrete",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5197",
+      "name": "拆除",
+      "difficulty_level": 5,
+      "description": "Learn and master Demolition",
+      "tags": [
+        "demolition",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5198",
+      "name": "石膏板悬挂",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Hanging",
+      "tags": [
+        "drywall",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5199",
+      "name": "框架",
+      "difficulty_level": 3,
+      "description": "Learn and master Framing",
+      "tags": [
+        "framing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5200",
+      "name": "绝缘安装",
+      "difficulty_level": 4,
+      "description": "Learn and master Insulation Installation",
+      "tags": [
+        "insulation",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5201",
+      "name": "屋顶安装",
+      "difficulty_level": 1,
+      "description": "Learn and master Roofing Installation",
+      "tags": [
+        "roofing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5202",
+      "name": "脚手架设置",
+      "difficulty_level": 3,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5203",
+      "name": "站点安全",
+      "difficulty_level": 3,
+      "description": "Learn and master Site Safety",
+      "tags": [
+        "site",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5204",
+      "name": "测量",
+      "difficulty_level": 4,
+      "description": "Learn and master Surveying",
+      "tags": [
+        "surveying",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_carpentry",
+  "name": "Stolarstwo",
+  "skills": [
+    {
+      "id": "skill_5185",
+      "name": "Robienie szafki",
+      "difficulty_level": 2,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5186",
+      "name": "Budynek pokładu",
+      "difficulty_level": 1,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5187",
+      "name": "Wiszące drzwi",
+      "difficulty_level": 2,
+      "description": "Learn and master Door Hanging",
+      "tags": [
+        "door",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5188",
+      "name": "Przywrócenie mebli",
+      "difficulty_level": 3,
+      "description": "Learn and master Furniture Restoration",
+      "tags": [
+        "furniture",
+        "restoration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5189",
+      "name": "Używanie narzędzia ręcznego",
+      "difficulty_level": 5,
+      "description": "Learn and master Hand Tool Use",
+      "tags": [
+        "hand",
+        "tool",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5190",
+      "name": "Stolarka",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5191",
+      "name": "Przypnij instalację",
+      "difficulty_level": 2,
+      "description": "Learn and master Trim Installation",
+      "tags": [
+        "trim",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5192",
+      "name": "Ramowanie okien",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Framing",
+      "tags": [
+        "window",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5193",
+      "name": "Cięcie drewna",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Cutting",
+      "tags": [
+        "wood",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5194",
+      "name": "Wykończenie drewna",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    }
+  ]
+}

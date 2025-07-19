@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_jewelry_making",
+  "name": "நகைகள் தயாரித்தல்",
+  "skills": [
+    {
+      "id": "skill_4975",
+      "name": "பீடிங்",
+      "difficulty_level": 5,
+      "description": "Learn and master Beading",
+      "tags": [
+        "beading",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4976",
+      "name": "நகைகளை வார்ப்பது",
+      "difficulty_level": 4,
+      "description": "Learn and master Casting Jewelry",
+      "tags": [
+        "casting",
+        "jewelry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4977",
+      "name": "சங்கிலி தயாரித்தல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Chain Making",
+      "tags": [
+        "chain",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4978",
+      "name": "பற்சிப்பி",
+      "difficulty_level": 3,
+      "description": "Learn and master Enameling",
+      "tags": [
+        "enameling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4979",
+      "name": "உலோக முத்திரை",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Stamping",
+      "tags": [
+        "metal",
+        "stamping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4980",
+      "name": "மெருகூட்டல் மற்றும் முடித்தல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Polishing & Finishing",
+      "tags": [
+        "polishing",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4981",
+      "name": "மோதிர மறுஅளவிடுதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Ring Resizing",
+      "tags": [
+        "ring",
+        "resizing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4982",
+      "name": "சாலிடரிங் நகைகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Soldering Jewelry",
+      "tags": [
+        "soldering",
+        "jewelry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4983",
+      "name": "கல் அமைப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Stone Setting",
+      "tags": [
+        "stone",
+        "setting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4984",
+      "name": "கம்பி மடக்குதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Wire Wrapping",
+      "tags": [
+        "wire",
+        "wrapping",
+        "skill"
+      ]
+    }
+  ]
+}

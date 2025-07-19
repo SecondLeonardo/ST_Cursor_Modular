@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "የተለያዩ ሀገሮች ምግብ",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "የጣሊያን ምግብ"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "የጃፓን ምግብ"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "የሜክሲኮ ምግብ"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "የህንድ ምግብ"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "የፈረንሳይ ምግብ"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "የቻይንኛ ምግብ"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "የመካከለኛው ምስራቅ ምግብ"
+    }
+  ]
+}

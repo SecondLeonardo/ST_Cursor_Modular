@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_project_management",
+  "name": "프로젝트 관리",
+  "skills": [
+    {
+      "id": "skill_1038",
+      "name": "민첩한 계획",
+      "difficulty_level": 1,
+      "description": "Learn and master Agile Planning",
+      "tags": [
+        "agile",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1039",
+      "name": "모돈 생성",
+      "difficulty_level": 1,
+      "description": "Learn and master Creating SOWs",
+      "tags": [
+        "creating",
+        "sows",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1040",
+      "name": "중요한 경로 분석",
+      "difficulty_level": 4,
+      "description": "Learn and master Critical Path Analysis",
+      "tags": [
+        "critical",
+        "path",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_1041",
+      "name": "프로젝트 수명주기 관리",
+      "difficulty_level": 5,
+      "description": "Learn and master Project Lifecycle Management",
+      "tags": [
+        "project",
+        "lifecycle",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_1042",
+      "name": "프로젝트 회고",
+      "difficulty_level": 3,
+      "description": "Learn and master Project Retrospectives",
+      "tags": [
+        "project",
+        "retrospectives",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1043",
+      "name": "위험 평가",
+      "difficulty_level": 3,
+      "description": "Learn and master Risk Assessment",
+      "tags": [
+        "risk",
+        "assessment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1044",
+      "name": "스크럼 방법론",
+      "difficulty_level": 2,
+      "description": "Learn and master SCRUM Methodology",
+      "tags": [
+        "scrum",
+        "methodology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1045",
+      "name": "스프린트 계획",
+      "difficulty_level": 2,
+      "description": "Learn and master Sprint Planning",
+      "tags": [
+        "sprint",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1046",
+      "name": "이해 관계자 커뮤니케이션",
+      "difficulty_level": 5,
+      "description": "Learn and master Stakeholder Communication",
+      "tags": [
+        "stakeholder",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1047",
+      "name": "간트 차트 사용",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Gantt Charts",
+      "tags": [
+        "using",
+        "gantt",
+        "charts"
+      ]
+    }
+  ]
+}

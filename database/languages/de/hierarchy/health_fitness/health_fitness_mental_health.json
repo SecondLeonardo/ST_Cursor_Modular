@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_mental_health",
+  "name": "Psychische Gesundheit",
+  "skills": [
+    {
+      "id": "skill_2463",
+      "name": "Bestätigungspraxis",
+      "difficulty_level": 3,
+      "description": "Learn and master Affirmation Practice",
+      "tags": [
+        "affirmation",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2464",
+      "name": "Angstverringerung",
+      "difficulty_level": 4,
+      "description": "Learn and master Anxiety Reduction",
+      "tags": [
+        "anxiety",
+        "reduction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2465",
+      "name": "Kognitive Verhaltenstools",
+      "difficulty_level": 1,
+      "description": "Learn and master Cognitive Behavioral Tools",
+      "tags": [
+        "cognitive",
+        "behavioral",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2466",
+      "name": "Digitales Wohlbefinden",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Wellness",
+      "tags": [
+        "digital",
+        "wellness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2467",
+      "name": "Journaling für geistige Klarheit",
+      "difficulty_level": 1,
+      "description": "Learn and master Journaling for Mental Clarity",
+      "tags": [
+        "journaling",
+        "mental",
+        "clarity"
+      ]
+    },
+    {
+      "id": "skill_2468",
+      "name": "Psychische Ruhepraktiken",
+      "difficulty_level": 1,
+      "description": "Learn and master Mental Rest Practices",
+      "tags": [
+        "mental",
+        "rest",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_2469",
+      "name": "Achtsamkeitsmeditation",
+      "difficulty_level": 3,
+      "description": "Learn and master Mindfulness Meditation",
+      "tags": [
+        "mindfulness",
+        "meditation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2470",
+      "name": "Schlafhygiene",
+      "difficulty_level": 1,
+      "description": "Learn and master Sleep Hygiene",
+      "tags": [
+        "sleep",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2471",
+      "name": "Stressmanagement",
+      "difficulty_level": 1,
+      "description": "Learn and master Stress Management",
+      "tags": [
+        "stress",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2472",
+      "name": "Therapeutische Techniken",
+      "difficulty_level": 3,
+      "description": "Learn and master Therapeutic Techniques",
+      "tags": [
+        "therapeutic",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

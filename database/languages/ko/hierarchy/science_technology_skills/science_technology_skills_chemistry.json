@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_chemistry",
+  "name": "화학",
+  "skills": [
+    {
+      "id": "skill_4268",
+      "name": "산-염기 화학",
+      "difficulty_level": 1,
+      "description": "Learn and master Acid-Base Chemistry",
+      "tags": [
+        "acid-base",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4269",
+      "name": "분석 화학",
+      "difficulty_level": 5,
+      "description": "Learn and master Analytical Chemistry",
+      "tags": [
+        "analytical",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4270",
+      "name": "화학 반응",
+      "difficulty_level": 2,
+      "description": "Learn and master Chemical Reactions",
+      "tags": [
+        "chemical",
+        "reactions",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4271",
+      "name": "크로마토 그래피",
+      "difficulty_level": 2,
+      "description": "Learn and master Chromatography",
+      "tags": [
+        "chromatography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4272",
+      "name": "무기 화학",
+      "difficulty_level": 1,
+      "description": "Learn and master Inorganic Chemistry",
+      "tags": [
+        "inorganic",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4273",
+      "name": "실험실 안전",
+      "difficulty_level": 3,
+      "description": "Learn and master Laboratory Safety",
+      "tags": [
+        "laboratory",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4274",
+      "name": "유기 합성",
+      "difficulty_level": 4,
+      "description": "Learn and master Organic Synthesis",
+      "tags": [
+        "organic",
+        "synthesis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4275",
+      "name": "주기적 테이블 숙달",
+      "difficulty_level": 1,
+      "description": "Learn and master Periodic Table Mastery",
+      "tags": [
+        "periodic",
+        "table",
+        "mastery"
+      ]
+    },
+    {
+      "id": "skill_4276",
+      "name": "열화학",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermochemistry",
+      "tags": [
+        "thermochemistry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4277",
+      "name": "적정 기술",
+      "difficulty_level": 1,
+      "description": "Learn and master Titration Techniques",
+      "tags": [
+        "titration",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

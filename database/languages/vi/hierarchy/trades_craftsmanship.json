@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "Giao dịch & nghề thủ công",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "Sửa chữa ô tô"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "Thợ mộc & chế biến gỗ"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "Xây dựng & Masonry"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "Công việc điện"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC & điện lạnh"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "Làm đồ trang sức"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "Metalwork & Hàn"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "Vẽ tranh & trang trí"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "Ống nước"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "May đo & may"
+    }
+  ]
+}

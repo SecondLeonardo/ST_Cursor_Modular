@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "Tech & Digital Skills",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "AI & Machine Learning"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "Cloud Computing"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "Cybersecurity"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "Data & Analytics"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "Data Science & AI"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "DevOps & Automation"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "Game Development"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "IT & Networking"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "IT Support & Networking"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "Mobile App Development"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "Programming & Software Development"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "Software Development"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "Tech Hardware & Repair"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "Tech Support & Troubleshooting"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "Web Development"
+    }
+  ]
+}

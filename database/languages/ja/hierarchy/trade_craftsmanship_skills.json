@@ -1,0 +1,30 @@
+{
+  "id": "trade_craftsmanship_skills",
+  "name": "貿易と職人のスキル",
+  "subcategories": [
+    {
+      "id": "trade_craftsmanship_skills_construction_carpentry",
+      "name": "建設と大工"
+    },
+    {
+      "id": "trade_craftsmanship_skills_electrical_plumbing",
+      "name": "電気＆配管"
+    },
+    {
+      "id": "trade_craftsmanship_skills_handmade_goods",
+      "name": "手作りの商品"
+    },
+    {
+      "id": "trade_craftsmanship_skills_metalwork_welding",
+      "name": "金属細工と溶接"
+    },
+    {
+      "id": "trade_craftsmanship_skills_textile_leathercraft",
+      "name": "テキスタイル＆レザークラフト"
+    },
+    {
+      "id": "trade_craftsmanship_skills_traditional_crafts",
+      "name": "伝統的な工芸品"
+    }
+  ]
+}

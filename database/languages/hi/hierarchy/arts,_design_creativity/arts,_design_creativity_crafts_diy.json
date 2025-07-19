@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_crafts_diy",
+  "name": "शिल्प और DIY",
+  "skills": [
+    {
+      "id": "skill_720",
+      "name": "मनोहर",
+      "difficulty_level": 1,
+      "description": "Learn and master Beading",
+      "tags": [
+        "beading",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_721",
+      "name": "मोमबत्ती बनाना",
+      "difficulty_level": 5,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_722",
+      "name": "कढ़ाई",
+      "difficulty_level": 3,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_723",
+      "name": "बुनना",
+      "difficulty_level": 2,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_724",
+      "name": "चमड़े का काम",
+      "difficulty_level": 5,
+      "description": "Learn and master Leatherworking",
+      "tags": [
+        "leatherworking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_725",
+      "name": "किनारी",
+      "difficulty_level": 5,
+      "description": "Learn and master Macramé",
+      "tags": [
+        "macramé",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_726",
+      "name": "origami",
+      "difficulty_level": 3,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_727",
+      "name": "scrapbooking",
+      "difficulty_level": 4,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_728",
+      "name": "साबुन",
+      "difficulty_level": 4,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_729",
+      "name": "लकड़ी की नक्काशी",
+      "difficulty_level": 5,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    }
+  ]
+}

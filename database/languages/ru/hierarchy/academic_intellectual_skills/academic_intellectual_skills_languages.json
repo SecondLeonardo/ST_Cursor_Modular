@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_languages",
+  "name": "Языки",
+  "skills": [
+    {
+      "id": "skill_140",
+      "name": "Английская грамматика",
+      "difficulty_level": 1,
+      "description": "Learn and master English Grammar",
+      "tags": [
+        "english",
+        "grammar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_141",
+      "name": "Основы французского языка",
+      "difficulty_level": 4,
+      "description": "Learn and master French Language Basics",
+      "tags": [
+        "french",
+        "language",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_142",
+      "name": "Немецкий словарь",
+      "difficulty_level": 2,
+      "description": "Learn and master German Vocabulary",
+      "tags": [
+        "german",
+        "vocabulary",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_143",
+      "name": "Языковое погружение",
+      "difficulty_level": 1,
+      "description": "Learn and master Language Immersion",
+      "tags": [
+        "language",
+        "immersion",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_144",
+      "name": "Мандарин произношение",
+      "difficulty_level": 3,
+      "description": "Learn and master Mandarin Pronunciation",
+      "tags": [
+        "mandarin",
+        "pronunciation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_145",
+      "name": "Многоязычное общение",
+      "difficulty_level": 5,
+      "description": "Learn and master Multilingual Communication",
+      "tags": [
+        "multilingual",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_146",
+      "name": "Навыки произношения",
+      "difficulty_level": 4,
+      "description": "Learn and master Pronunciation Skills",
+      "tags": [
+        "pronunciation",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_147",
+      "name": "Испанский беглость",
+      "difficulty_level": 5,
+      "description": "Learn and master Spanish Fluency",
+      "tags": [
+        "spanish",
+        "fluency",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_148",
+      "name": "Навыки перевода",
+      "difficulty_level": 5,
+      "description": "Learn and master Translation Skills",
+      "tags": [
+        "translation",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_149",
+      "name": "Развитие словарного запаса",
+      "difficulty_level": 5,
+      "description": "Learn and master Vocabulary Development",
+      "tags": [
+        "vocabulary",
+        "development",
+        "skill"
+      ]
+    }
+  ]
+}

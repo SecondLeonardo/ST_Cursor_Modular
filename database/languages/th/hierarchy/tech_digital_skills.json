@@ -1,0 +1,66 @@
+{
+  "id": "tech_digital_skills",
+  "name": "ทักษะด้านเทคโนโลยีและดิจิทัล",
+  "subcategories": [
+    {
+      "id": "tech_digital_skills_ai_machine_learning",
+      "name": "การเรียนรู้ AI & Machine"
+    },
+    {
+      "id": "tech_digital_skills_cloud_computing",
+      "name": "คลาวด์คอมพิวติ้ง"
+    },
+    {
+      "id": "tech_digital_skills_cybersecurity",
+      "name": "ความปลอดภัยทางไซเบอร์"
+    },
+    {
+      "id": "tech_digital_skills_data_analytics",
+      "name": "ข้อมูลและการวิเคราะห์"
+    },
+    {
+      "id": "tech_digital_skills_data_science_ai",
+      "name": "วิทยาศาสตร์ข้อมูลและ AI"
+    },
+    {
+      "id": "tech_digital_skills_devops_automation",
+      "name": "Devops & Automation"
+    },
+    {
+      "id": "tech_digital_skills_game_development",
+      "name": "การพัฒนาเกม"
+    },
+    {
+      "id": "tech_digital_skills_it_networking",
+      "name": "ไอทีและเครือข่าย"
+    },
+    {
+      "id": "tech_digital_skills_it_support_networking",
+      "name": "สนับสนุนและเครือข่าย"
+    },
+    {
+      "id": "tech_digital_skills_mobile_app_development",
+      "name": "การพัฒนาแอพมือถือ"
+    },
+    {
+      "id": "tech_digital_skills_programming_software_development",
+      "name": "การพัฒนาโปรแกรมและซอฟต์แวร์"
+    },
+    {
+      "id": "tech_digital_skills_software_development",
+      "name": "การพัฒนาซอฟต์แวร์"
+    },
+    {
+      "id": "tech_digital_skills_tech_hardware_repair",
+      "name": "ฮาร์ดแวร์และการซ่อมแซมเทคโนโลยี"
+    },
+    {
+      "id": "tech_digital_skills_tech_support_troubleshooting",
+      "name": "การสนับสนุนด้านเทคนิคและการแก้ไขปัญหา"
+    },
+    {
+      "id": "tech_digital_skills_web_development",
+      "name": "การพัฒนาเว็บ"
+    }
+  ]
+}

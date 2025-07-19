@@ -1,0 +1,30 @@
+{
+  "id": "language_communication_skills",
+  "name": "Sprach- und Kommunikationsfähigkeiten",
+  "subcategories": [
+    {
+      "id": "language_communication_skills_language_learning",
+      "name": "Sprachlernen"
+    },
+    {
+      "id": "language_communication_skills_non-verbal_communication",
+      "name": "Nonverbale Kommunikation"
+    },
+    {
+      "id": "language_communication_skills_public_speaking",
+      "name": "Öffentliches Sprechen"
+    },
+    {
+      "id": "language_communication_skills_storytelling_narration",
+      "name": "Geschichtenerzählen und Erzählung"
+    },
+    {
+      "id": "language_communication_skills_verbal_communication",
+      "name": "Verbale Kommunikation"
+    },
+    {
+      "id": "language_communication_skills_writing_editing",
+      "name": "Schreiben und Bearbeiten"
+    }
+  ]
+}

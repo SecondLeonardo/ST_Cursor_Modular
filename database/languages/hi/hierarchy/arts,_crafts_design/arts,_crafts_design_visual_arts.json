@@ -1,0 +1,116 @@
+{
+  "id": "arts,_crafts_design_visual_arts",
+  "name": "दृश्य कला",
+  "skills": [
+    {
+      "id": "skill_710",
+      "name": "ऐक्रेलिक पेंटिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_711",
+      "name": "कला -आलोचना",
+      "difficulty_level": 3,
+      "description": "Learn and master Art Critique",
+      "tags": [
+        "critique",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_712",
+      "name": "कला इतिहास का ज्ञान",
+      "difficulty_level": 4,
+      "description": "Learn and master Art History Knowledge",
+      "tags": [
+        "history",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_713",
+      "name": "चारकोल आरेखण",
+      "difficulty_level": 4,
+      "description": "Learn and master Charcoal Drawing",
+      "tags": [
+        "charcoal",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_714",
+      "name": "रंग सिद्धांत",
+      "difficulty_level": 5,
+      "description": "Learn and master Color Theory",
+      "tags": [
+        "color",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_715",
+      "name": "रचना कौशल",
+      "difficulty_level": 1,
+      "description": "Learn and master Composition Skills",
+      "tags": [
+        "composition",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_716",
+      "name": "आकृति चित्रण",
+      "difficulty_level": 5,
+      "description": "Learn and master Figure Drawing",
+      "tags": [
+        "figure",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_717",
+      "name": "मिश्रित मीडिया कला",
+      "difficulty_level": 2,
+      "description": "Learn and master Mixed Media Art",
+      "tags": [
+        "mixed",
+        "media",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_718",
+      "name": "तैल चित्र",
+      "difficulty_level": 1,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_719",
+      "name": "जल रंग तकनीक",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+  "name": "प्लंबिंग आणि हीटिंग",
+  "skills": [
+    {
+      "id": "skill_3478",
+      "name": "बॉयलर देखभाल",
+      "difficulty_level": 2,
+      "description": "Learn and master Boiler Maintenance",
+      "tags": [
+        "boiler",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3479",
+      "name": "ड्रेन क्लीनिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Drain Cleaning",
+      "tags": [
+        "drain",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3480",
+      "name": "गॅस लाइन काम",
+      "difficulty_level": 2,
+      "description": "Learn and master Gas Line Work",
+      "tags": [
+        "line",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3481",
+      "name": "गळती शोध",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3482",
+      "name": "पाईप फिटिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Pipe Fitting",
+      "tags": [
+        "pipe",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3483",
+      "name": "रेडिएटर रक्तस्त्राव",
+      "difficulty_level": 2,
+      "description": "Learn and master Radiator Bleeding",
+      "tags": [
+        "radiator",
+        "bleeding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3484",
+      "name": "गटार तपासणी",
+      "difficulty_level": 1,
+      "description": "Learn and master Sewer Inspection",
+      "tags": [
+        "sewer",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3485",
+      "name": "शॉवर फिटिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Shower Fitting",
+      "tags": [
+        "shower",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3486",
+      "name": "शौचालय स्थापना",
+      "difficulty_level": 5,
+      "description": "Learn and master Toilet Installation",
+      "tags": [
+        "toilet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3487",
+      "name": "वॉटर हीटर स्थापना",
+      "difficulty_level": 2,
+      "description": "Learn and master Water Heater Installation",
+      "tags": [
+        "water",
+        "heater",
+        "installation"
+      ]
+    }
+  ]
+}

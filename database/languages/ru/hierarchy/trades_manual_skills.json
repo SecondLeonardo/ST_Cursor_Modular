@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Сделки и ручные навыки",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Автомобильный ремонт"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Карпентка и изделия из дерева"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Строительство"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Строительство и плотницы"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Мастерство и ремонт"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Электротехник и механический"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Электрическая работа"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC и охлаждение"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Операция тяжелой техники"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Масонство и плитка"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Металл и изделия из дерева"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Живопись и отделка"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Сантехника"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Техническое обслуживание транспортных средств и машины"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Сварка и металлические работы"
+    }
+  ]
+}

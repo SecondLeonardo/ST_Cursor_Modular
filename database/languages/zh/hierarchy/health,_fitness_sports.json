@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "健康，健身与运动",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "健身训练"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "营养"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "户外冒险"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "运动技能"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "健康与恢复"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_film_video",
+  "name": "Película y video",
+  "skills": [
+    {
+      "id": "skill_560",
+      "name": "Cinematografía",
+      "difficulty_level": 2,
+      "description": "Learn and master Cinematography",
+      "tags": [
+        "cinematography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_561",
+      "name": "Corrección de color",
+      "difficulty_level": 3,
+      "description": "Learn and master Color Correction",
+      "tags": [
+        "color",
+        "correction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_562",
+      "name": "Dirigente",
+      "difficulty_level": 2,
+      "description": "Learn and master Directing",
+      "tags": [
+        "directing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_563",
+      "name": "Anotación de películas",
+      "difficulty_level": 4,
+      "description": "Learn and master Film Scoring",
+      "tags": [
+        "film",
+        "scoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_564",
+      "name": "Iluminación para la película",
+      "difficulty_level": 5,
+      "description": "Learn and master Lighting for Film",
+      "tags": [
+        "lighting",
+        "film",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_565",
+      "name": "Escritura de guiones",
+      "difficulty_level": 1,
+      "description": "Learn and master Scriptwriting",
+      "tags": [
+        "scriptwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_566",
+      "name": "Edición de sonido",
+      "difficulty_level": 3,
+      "description": "Learn and master Sound Editing",
+      "tags": [
+        "sound",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_567",
+      "name": "Guión gráfico",
+      "difficulty_level": 4,
+      "description": "Learn and master Storyboarding",
+      "tags": [
+        "storyboarding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_568",
+      "name": "Edición de video",
+      "difficulty_level": 2,
+      "description": "Learn and master Video Editing",
+      "tags": [
+        "video",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_569",
+      "name": "Efectos de video",
+      "difficulty_level": 3,
+      "description": "Learn and master Video Effects",
+      "tags": [
+        "video",
+        "effects",
+        "skill"
+      ]
+    }
+  ]
+}

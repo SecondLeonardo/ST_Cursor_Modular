@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "የአካል እና የውጪ ችሎታዎች",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "የአካል ብቃት እና ሁኔታ"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "የጉልበት ሥራ እና ነጋዴዎች"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "ከቤት ውጭ መዝናኛ"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "ራስን መከላከል እና ማርሻል አርት"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "ስፖርት እና አትሌቲክስ"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "ከጥፋት መትረፍ እና ቁጥቋጦ"
+    }
+  ]
+}

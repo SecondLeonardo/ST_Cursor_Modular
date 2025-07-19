@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "デジタルおよびテクノロジースキル",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "サイバーセキュリティ"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "データ＆ai"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "それとネットワーキング"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "プログラミングと開発"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "Web＆Mobile"
+    }
+  ]
+}

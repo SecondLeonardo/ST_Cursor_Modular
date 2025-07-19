@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_plumbing",
+  "name": "பிளம்பிங்",
+  "skills": [
+    {
+      "id": "skill_5005",
+      "name": "பேக்ஃப்ளோ சோதனை",
+      "difficulty_level": 1,
+      "description": "Learn and master Backflow Testing",
+      "tags": [
+        "backflow",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5006",
+      "name": "வடிகால் சுத்தம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Drain Cleaning",
+      "tags": [
+        "drain",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5007",
+      "name": "பொருத்துதல் மாற்று",
+      "difficulty_level": 3,
+      "description": "Learn and master Fixture Replacement",
+      "tags": [
+        "fixture",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5008",
+      "name": "கசிவு கண்டறிதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5009",
+      "name": "குழாய் நிறுவல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Pipe Installation",
+      "tags": [
+        "pipe",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5010",
+      "name": "பிளம்பிங் குறியீடு அறிவு",
+      "difficulty_level": 1,
+      "description": "Learn and master Plumbing Code Knowledge",
+      "tags": [
+        "plumbing",
+        "code",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5011",
+      "name": "கழிவுநீர் வரி பராமரிப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewer Line Maintenance",
+      "tags": [
+        "sewer",
+        "line",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5012",
+      "name": "சம்ப் பம்ப் நிறுவல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Sump Pump Installation",
+      "tags": [
+        "sump",
+        "pump",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5013",
+      "name": "வால்வு பழுது",
+      "difficulty_level": 1,
+      "description": "Learn and master Valve Repair",
+      "tags": [
+        "valve",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5014",
+      "name": "வாட்டர் ஹீட்டர் நிறுவல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Water Heater Installation",
+      "tags": [
+        "water",
+        "heater",
+        "installation"
+      ]
+    }
+  ]
+}

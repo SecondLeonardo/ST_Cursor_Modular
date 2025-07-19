@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_plumbing",
+  "name": "Сантехника",
+  "skills": [
+    {
+      "id": "skill_5145",
+      "name": "Снятие сногся",
+      "difficulty_level": 3,
+      "description": "Learn and master Clog Removal",
+      "tags": [
+        "clog",
+        "removal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5146",
+      "name": "Дренажные системы",
+      "difficulty_level": 3,
+      "description": "Learn and master Drainage Systems",
+      "tags": [
+        "drainage",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5147",
+      "name": "Установка приспособления",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixture Installation",
+      "tags": [
+        "fixture",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5148",
+      "name": "Системы серой воды",
+      "difficulty_level": 5,
+      "description": "Learn and master Greywater Systems",
+      "tags": [
+        "greywater",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5149",
+      "name": "Обнаружение утечки",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5150",
+      "name": "Установка PEX",
+      "difficulty_level": 1,
+      "description": "Learn and master PEX Installation",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5151",
+      "name": "Трубопровод",
+      "difficulty_level": 3,
+      "description": "Learn and master Pipe Fitting",
+      "tags": [
+        "pipe",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5152",
+      "name": "Пайки труб",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering Pipes",
+      "tags": [
+        "soldering",
+        "pipes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5153",
+      "name": "Ремонт туалета",
+      "difficulty_level": 4,
+      "description": "Learn and master Toilet Repair",
+      "tags": [
+        "toilet",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5154",
+      "name": "Установка водонагревателя",
+      "difficulty_level": 5,
+      "description": "Learn and master Water Heater Setup",
+      "tags": [
+        "water",
+        "heater",
+        "setup"
+      ]
+    }
+  ]
+}

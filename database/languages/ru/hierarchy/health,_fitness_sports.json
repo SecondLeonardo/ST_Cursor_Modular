@@ -1,0 +1,26 @@
+{
+  "id": "health,_fitness_sports",
+  "name": "Здоровье, фитнес и спорт",
+  "subcategories": [
+    {
+      "id": "health,_fitness_sports_fitness_training",
+      "name": "Фитнес -тренинги"
+    },
+    {
+      "id": "health,_fitness_sports_nutrition",
+      "name": "Питание"
+    },
+    {
+      "id": "health,_fitness_sports_outdoor_adventure",
+      "name": "Outdoor & Adventure"
+    },
+    {
+      "id": "health,_fitness_sports_sports_skills",
+      "name": "Спортивные навыки"
+    },
+    {
+      "id": "health,_fitness_sports_wellness_recovery",
+      "name": "Звиночное здоровье и восстановление"
+    }
+  ]
+}

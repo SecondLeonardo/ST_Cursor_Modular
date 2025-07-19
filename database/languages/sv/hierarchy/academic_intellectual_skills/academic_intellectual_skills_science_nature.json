@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_science_nature",
+  "name": "Vetenskap och natur",
+  "skills": [
+    {
+      "id": "skill_230",
+      "name": "Astronomi grunder",
+      "difficulty_level": 1,
+      "description": "Learn and master Astronomy Basics",
+      "tags": [
+        "astronomy",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_231",
+      "name": "Grundläggande fysikprinciper",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Physics Principles",
+      "tags": [
+        "basic",
+        "physics",
+        "principles"
+      ]
+    },
+    {
+      "id": "skill_232",
+      "name": "Biologi terminologi",
+      "difficulty_level": 5,
+      "description": "Learn and master Biology Terminology",
+      "tags": [
+        "biology",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_233",
+      "name": "Botanikidentifiering",
+      "difficulty_level": 2,
+      "description": "Learn and master Botany Identification",
+      "tags": [
+        "botany",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_234",
+      "name": "Kemi labbsäkerhet",
+      "difficulty_level": 5,
+      "description": "Learn and master Chemistry Lab Safety",
+      "tags": [
+        "chemistry",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_235",
+      "name": "Genomföra enkla experiment",
+      "difficulty_level": 3,
+      "description": "Learn and master Conducting Simple Experiments",
+      "tags": [
+        "conducting",
+        "simple",
+        "experiments"
+      ]
+    },
+    {
+      "id": "skill_236",
+      "name": "Jordskikt",
+      "difficulty_level": 4,
+      "description": "Learn and master Earth Science",
+      "tags": [
+        "earth",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_237",
+      "name": "Ekologisk medvetenhet",
+      "difficulty_level": 4,
+      "description": "Learn and master Ecological Awareness",
+      "tags": [
+        "ecological",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_238",
+      "name": "Läser vetenskapliga grafer",
+      "difficulty_level": 3,
+      "description": "Learn and master Reading Scientific Graphs",
+      "tags": [
+        "reading",
+        "scientific",
+        "graphs"
+      ]
+    },
+    {
+      "id": "skill_239",
+      "name": "Vetenskaplig metod",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    }
+  ]
+}

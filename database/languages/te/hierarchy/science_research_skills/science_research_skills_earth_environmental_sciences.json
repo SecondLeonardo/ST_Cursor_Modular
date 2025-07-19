@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_earth_environmental_sciences",
+  "name": "భూమి & పర్యావరణ శాస్త్రాలు",
+  "skills": [
+    {
+      "id": "skill_4078",
+      "name": "క్లైమాటాలజీ",
+      "difficulty_level": 1,
+      "description": "Learn and master Climatology",
+      "tags": [
+        "climatology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4079",
+      "name": "పర్యావరణ ప్రభావ అంచనా",
+      "difficulty_level": 4,
+      "description": "Learn and master Environmental Impact Assessment",
+      "tags": [
+        "environmental",
+        "impact",
+        "assessment"
+      ]
+    },
+    {
+      "id": "skill_4080",
+      "name": "GIS మ్యాపింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master GIS Mapping",
+      "tags": [
+        "mapping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4081",
+      "name": "భూగర్భ శాస్త్రం",
+      "difficulty_level": 1,
+      "description": "Learn and master Geology",
+      "tags": [
+        "geology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4082",
+      "name": "హైడ్రాలజీ",
+      "difficulty_level": 1,
+      "description": "Learn and master Hydrology",
+      "tags": [
+        "hydrology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4083",
+      "name": "వాతావరణ శాస్త్రం",
+      "difficulty_level": 3,
+      "description": "Learn and master Meteorology",
+      "tags": [
+        "meteorology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4084",
+      "name": "రిమోట్ సెన్సింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Remote Sensing",
+      "tags": [
+        "remote",
+        "sensing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4085",
+      "name": "నేల నమూనా",
+      "difficulty_level": 4,
+      "description": "Learn and master Soil Sampling",
+      "tags": [
+        "soil",
+        "sampling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4086",
+      "name": "వ్యర్థ పదార్థాల నిర్వహణ",
+      "difficulty_level": 5,
+      "description": "Learn and master Waste Management",
+      "tags": [
+        "waste",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4087",
+      "name": "వన్యప్రాణి ట్రాకింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Wildlife Tracking",
+      "tags": [
+        "wildlife",
+        "tracking",
+        "skill"
+      ]
+    }
+  ]
+}

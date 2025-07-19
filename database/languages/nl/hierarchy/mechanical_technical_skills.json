@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "Mechanische en technische vaardigheden",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "Automotive onderhoud"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "Engineering Basics"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "Huisreparatie en -installatie"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "Machine werking"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "Toolgebruik en veiligheid"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "Hout- en metaalwerk"
+    }
+  ]
+}

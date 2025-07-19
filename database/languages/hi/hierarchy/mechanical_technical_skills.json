@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "यांत्रिक और तकनीकी कौशल",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "मोटर वाहन रखरखाव"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "इंजीनियरी मूल -विज्ञान"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "घर की मरम्मत और स्थापना"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "मशीन का संचालन"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "उपकरण का उपयोग और सुरक्षा"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "लकड़ी और धातु का काम"
+    }
+  ]
+}

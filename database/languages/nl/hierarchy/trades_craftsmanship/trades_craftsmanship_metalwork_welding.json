@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_metalwork_welding",
+  "name": "Metaalwerk en lassen",
+  "skills": [
+    {
+      "id": "skill_4985",
+      "name": "Booglassen",
+      "difficulty_level": 3,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4986",
+      "name": "Blauwdruk lezen",
+      "difficulty_level": 2,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4987",
+      "name": "Basisprincipes smeden",
+      "difficulty_level": 5,
+      "description": "Learn and master Forging Basics",
+      "tags": [
+        "forging",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4988",
+      "name": "Draaibankbewerking",
+      "difficulty_level": 1,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4989",
+      "name": "Mig lassen",
+      "difficulty_level": 2,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4990",
+      "name": "Metalen snijden",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Cutting",
+      "tags": [
+        "metal",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4991",
+      "name": "Pijplassen",
+      "difficulty_level": 1,
+      "description": "Learn and master Pipe Welding",
+      "tags": [
+        "pipe",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4992",
+      "name": "Fabricage van plaatmetaal",
+      "difficulty_level": 1,
+      "description": "Learn and master Sheet Metal Fabrication",
+      "tags": [
+        "sheet",
+        "metal",
+        "fabrication"
+      ]
+    },
+    {
+      "id": "skill_4993",
+      "name": "Solderende metaal",
+      "difficulty_level": 4,
+      "description": "Learn and master Soldering Metal",
+      "tags": [
+        "soldering",
+        "metal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4994",
+      "name": "Tig lassen",
+      "difficulty_level": 1,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

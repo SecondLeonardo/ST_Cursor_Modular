@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_physical_training",
+  "name": "신체 훈련",
+  "skills": [
+    {
+      "id": "skill_2483",
+      "name": "체중 훈련",
+      "difficulty_level": 4,
+      "description": "Learn and master Bodyweight Training",
+      "tags": [
+        "bodyweight",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2484",
+      "name": "호흡 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Breathing Techniques",
+      "tags": [
+        "breathing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2485",
+      "name": "심장 운동",
+      "difficulty_level": 4,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2486",
+      "name": "지구력 훈련",
+      "difficulty_level": 3,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2487",
+      "name": "유연성 훈련",
+      "difficulty_level": 4,
+      "description": "Learn and master Flexibility Training",
+      "tags": [
+        "flexibility",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2488",
+      "name": "HIIT",
+      "difficulty_level": 3,
+      "description": "Learn and master HIIT",
+      "tags": [
+        "hiit",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2489",
+      "name": "이동성 훈련",
+      "difficulty_level": 2,
+      "description": "Learn and master Mobility Drills",
+      "tags": [
+        "mobility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2490",
+      "name": "실행 형태",
+      "difficulty_level": 1,
+      "description": "Learn and master Running Form",
+      "tags": [
+        "running",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2491",
+      "name": "강도 프로그래밍",
+      "difficulty_level": 2,
+      "description": "Learn and master Strength Programming",
+      "tags": [
+        "strength",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2492",
+      "name": "역도",
+      "difficulty_level": 3,
+      "description": "Learn and master Weightlifting",
+      "tags": [
+        "weightlifting",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

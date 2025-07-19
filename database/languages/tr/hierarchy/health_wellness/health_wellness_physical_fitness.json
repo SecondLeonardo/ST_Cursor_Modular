@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_physical_fitness",
+  "name": "Fiziksel uygunluk",
+  "skills": [
+    {
+      "id": "skill_2609",
+      "name": "Vücut ağırlığı egzersizleri",
+      "difficulty_level": 4,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2610",
+      "name": "Kardiyo Egzersizleri",
+      "difficulty_level": 2,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2611",
+      "name": "Dayanıklılık eğitimi",
+      "difficulty_level": 1,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2612",
+      "name": "HIIT rutinleri",
+      "difficulty_level": 4,
+      "description": "Learn and master HIIT Routines",
+      "tags": [
+        "hiit",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2613",
+      "name": "Hareketlilik matkapları",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobility Drills",
+      "tags": [
+        "mobility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2614",
+      "name": "Plyometrik",
+      "difficulty_level": 2,
+      "description": "Learn and master Plyometrics",
+      "tags": [
+        "plyometrics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2615",
+      "name": "Mukavemet",
+      "difficulty_level": 3,
+      "description": "Learn and master Strength Conditioning",
+      "tags": [
+        "strength",
+        "conditioning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2616",
+      "name": "Germe teknikleri",
+      "difficulty_level": 5,
+      "description": "Learn and master Stretching Techniques",
+      "tags": [
+        "stretching",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2617",
+      "name": "Ağırlık eğitimi",
+      "difficulty_level": 1,
+      "description": "Learn and master Weight Training",
+      "tags": [
+        "weight",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2618",
+      "name": "Yoga Uygulaması",
+      "difficulty_level": 3,
+      "description": "Learn and master Yoga Practice",
+      "tags": [
+        "yoga",
+        "practice",
+        "skill"
+      ]
+    }
+  ]
+}

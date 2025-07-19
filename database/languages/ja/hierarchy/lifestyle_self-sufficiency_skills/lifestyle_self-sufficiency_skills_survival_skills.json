@@ -1,0 +1,117 @@
+{
+  "id": "lifestyle_self-sufficiency_skills_survival_skills",
+  "name": "サバイバルスキル",
+  "skills": [
+    {
+      "id": "skill_3398",
+      "name": "シェルターの作成",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Shelter",
+      "tags": [
+        "creating",
+        "shelter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3399",
+      "name": "安全な飲料水を見つける",
+      "difficulty_level": 1,
+      "description": "Learn and master Finding Safe Drinking Water",
+      "tags": [
+        "finding",
+        "safe",
+        "drinking",
+        "water"
+      ]
+    },
+    {
+      "id": "skill_3400",
+      "name": "消防車",
+      "difficulty_level": 5,
+      "description": "Learn and master Fire Building",
+      "tags": [
+        "fire",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3401",
+      "name": "応急処置の基本",
+      "difficulty_level": 4,
+      "description": "Learn and master First Aid Basics",
+      "tags": [
+        "first",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3402",
+      "name": "食用植物の識別",
+      "difficulty_level": 3,
+      "description": "Learn and master Identifying Edible Plants",
+      "tags": [
+        "identifying",
+        "edible",
+        "plants"
+      ]
+    },
+    {
+      "id": "skill_3403",
+      "name": "GPSのないナビゲーション",
+      "difficulty_level": 5,
+      "description": "Learn and master Navigation Without GPS",
+      "tags": [
+        "navigation",
+        "without",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3404",
+      "name": "コンパスを読む",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading a Compass",
+      "tags": [
+        "reading",
+        "compass",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3405",
+      "name": "助けを求めるシグナリング",
+      "difficulty_level": 1,
+      "description": "Learn and master Signaling for Help",
+      "tags": [
+        "signaling",
+        "help",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3406",
+      "name": "結び目",
+      "difficulty_level": 4,
+      "description": "Learn and master Tying Knots",
+      "tags": [
+        "tying",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3407",
+      "name": "天気予報スキル",
+      "difficulty_level": 2,
+      "description": "Learn and master Weather Forecasting Skills",
+      "tags": [
+        "weather",
+        "forecasting",
+        "skills"
+      ]
+    }
+  ]
+}

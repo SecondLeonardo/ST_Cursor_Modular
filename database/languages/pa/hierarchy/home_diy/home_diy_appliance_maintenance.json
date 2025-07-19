@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_appliance_maintenance",
+  "name": "ਉਪਕਰਣ ਸੰਭਾਲ",
+  "skills": [
+    {
+      "id": "skill_2838",
+      "name": "ਏਸੀ ਫਿਲਟਰ ਤਬਦੀਲੀ",
+      "difficulty_level": 4,
+      "description": "Learn and master AC Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2839",
+      "name": "ਡੀ-ਸਕੇਲਿੰਗ ਕੌਫੀ ਮਸ਼ੀਨਾਂ",
+      "difficulty_level": 4,
+      "description": "Learn and master De-scaling Coffee Machines",
+      "tags": [
+        "de-scaling",
+        "coffee",
+        "machines"
+      ]
+    },
+    {
+      "id": "skill_2840",
+      "name": "ਡਿਸ਼ਵਾਸ਼ਰ ਫਿਲਟਰ ਸਫਾਈ",
+      "difficulty_level": 3,
+      "description": "Learn and master Dishwasher Filter Cleaning",
+      "tags": [
+        "dishwasher",
+        "filter",
+        "cleaning"
+      ]
+    },
+    {
+      "id": "skill_2841",
+      "name": "ਡ੍ਰਾਇਅਰ ਹਟਾਉਣ ਹਟਾਉਣ",
+      "difficulty_level": 3,
+      "description": "Learn and master Dryer Lint Removal",
+      "tags": [
+        "dryer",
+        "lint",
+        "removal"
+      ]
+    },
+    {
+      "id": "skill_2842",
+      "name": "ਮਾਈਕ੍ਰੋਵੇਵ ਸਫਾਈ",
+      "difficulty_level": 1,
+      "description": "Learn and master Microwave Cleaning",
+      "tags": [
+        "microwave",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2843",
+      "name": "ਓਵਨ ਕੈਲੀਬ੍ਰੇਸ਼ਨ",
+      "difficulty_level": 3,
+      "description": "Learn and master Oven Calibration",
+      "tags": [
+        "oven",
+        "calibration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2844",
+      "name": "ਫਰਿੱਜ ਸਫਾਈ",
+      "difficulty_level": 3,
+      "description": "Learn and master Refrigerator Cleaning",
+      "tags": [
+        "refrigerator",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2845",
+      "name": "ਛੋਟੀਆਂ ਉਪਕਰਣ ਸਮੱਸਿਆ-ਨਿਪਟਾਰਾ",
+      "difficulty_level": 4,
+      "description": "Learn and master Small Appliance Troubleshooting",
+      "tags": [
+        "small",
+        "appliance",
+        "troubleshooting"
+      ]
+    },
+    {
+      "id": "skill_2846",
+      "name": "ਵੈੱਕਯੁਮ ਮੁਰੰਮਤ",
+      "difficulty_level": 3,
+      "description": "Learn and master Vacuum Repair",
+      "tags": [
+        "vacuum",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2847",
+      "name": "ਵਾੱਸ਼ਰ ਰੱਖ ਰਖਾਵ",
+      "difficulty_level": 5,
+      "description": "Learn and master Washer Maintenance",
+      "tags": [
+        "washer",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

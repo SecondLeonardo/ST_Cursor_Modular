@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_creative_writing",
+  "name": "Творческое письмо",
+  "skills": [
+    {
+      "id": "skill_1803",
+      "name": "Развитие персонажа",
+      "difficulty_level": 4,
+      "description": "Learn and master Character Development",
+      "tags": [
+        "character",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1804",
+      "name": "Создание участков",
+      "difficulty_level": 5,
+      "description": "Learn and master Creating Plots",
+      "tags": [
+        "creating",
+        "plots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1805",
+      "name": "Редактирование и пересмотр",
+      "difficulty_level": 5,
+      "description": "Learn and master Editing & Revising",
+      "tags": [
+        "editing",
+        "revising",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1806",
+      "name": "Поэтическое письмо",
+      "difficulty_level": 1,
+      "description": "Learn and master Poetry Writing",
+      "tags": [
+        "poetry",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1807",
+      "name": "Скриптрансран",
+      "difficulty_level": 3,
+      "description": "Learn and master Scriptwriting",
+      "tags": [
+        "scriptwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1808",
+      "name": "Короткое написание рассказов",
+      "difficulty_level": 5,
+      "description": "Learn and master Short Story Writing",
+      "tags": [
+        "short",
+        "story",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_1809",
+      "name": "Мировое здание",
+      "difficulty_level": 3,
+      "description": "Learn and master World Building",
+      "tags": [
+        "world",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1810",
+      "name": "Написание диалога",
+      "difficulty_level": 3,
+      "description": "Learn and master Writing Dialogue",
+      "tags": [
+        "writing",
+        "dialogue",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1811",
+      "name": "Письменная фантастика",
+      "difficulty_level": 1,
+      "description": "Learn and master Writing Fiction",
+      "tags": [
+        "writing",
+        "fiction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1812",
+      "name": "Написание подсказок",
+      "difficulty_level": 1,
+      "description": "Learn and master Writing Prompts",
+      "tags": [
+        "writing",
+        "prompts",
+        "skill"
+      ]
+    }
+  ]
+}

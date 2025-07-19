@@ -1,0 +1,116 @@
+{
+  "id": "technical_mechanical_skills_industrial_skills",
+  "name": "Kỹ năng công nghiệp",
+  "skills": [
+    {
+      "id": "skill_4596",
+      "name": "Kỹ thuật hàn cơ bản",
+      "difficulty_level": 4,
+      "description": "Learn and master Basic Welding Techniques",
+      "tags": [
+        "basic",
+        "welding",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_4597",
+      "name": "Hoạt động xe nâng",
+      "difficulty_level": 1,
+      "description": "Learn and master Forklift Operation",
+      "tags": [
+        "forklift",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4598",
+      "name": "Kiến thức thủy lực",
+      "difficulty_level": 2,
+      "description": "Learn and master Hydraulics Knowledge",
+      "tags": [
+        "hydraulics",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4599",
+      "name": "Vận hành máy tiện",
+      "difficulty_level": 4,
+      "description": "Learn and master Operating Lathes",
+      "tags": [
+        "operating",
+        "lathes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4600",
+      "name": "Hệ thống khí nén",
+      "difficulty_level": 2,
+      "description": "Learn and master Pneumatic Systems",
+      "tags": [
+        "pneumatic",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4601",
+      "name": "Bảo trì phòng ngừa",
+      "difficulty_level": 5,
+      "description": "Learn and master Preventive Maintenance",
+      "tags": [
+        "preventive",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4602",
+      "name": "Đọc hướng dẫn kỹ thuật",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Technical Manuals",
+      "tags": [
+        "reading",
+        "technical",
+        "manuals"
+      ]
+    },
+    {
+      "id": "skill_4603",
+      "name": "Quy trình an toàn",
+      "difficulty_level": 3,
+      "description": "Learn and master Safety Procedures",
+      "tags": [
+        "safety",
+        "procedures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4604",
+      "name": "Sử dụng máy CNC",
+      "difficulty_level": 1,
+      "description": "Learn and master Using CNC Machines",
+      "tags": [
+        "using",
+        "machines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4605",
+      "name": "Sử dụng thiết bị nặng",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Heavy Equipment",
+      "tags": [
+        "using",
+        "heavy",
+        "equipment"
+      ]
+    }
+  ]
+}

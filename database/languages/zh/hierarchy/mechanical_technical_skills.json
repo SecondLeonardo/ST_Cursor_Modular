@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "机械技术技能",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "汽车维护"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "工程基础知识"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "家庭维修和安装"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "机器操作"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "工具使用与安全"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "木材和金属工作"
+    }
+  ]
+}

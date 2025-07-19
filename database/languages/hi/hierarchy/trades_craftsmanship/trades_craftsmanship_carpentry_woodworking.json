@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_carpentry_woodworking",
+  "name": "बढ़ईगीरी और लकड़ी का काम",
+  "skills": [
+    {
+      "id": "skill_4935",
+      "name": "कैबिनेट स्थापना",
+      "difficulty_level": 5,
+      "description": "Learn and master Cabinet Installation",
+      "tags": [
+        "cabinet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4936",
+      "name": "डेक भवन",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4937",
+      "name": "दरवाजा लटका हुआ",
+      "difficulty_level": 3,
+      "description": "Learn and master Door Hanging",
+      "tags": [
+        "door",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4938",
+      "name": "बढ़ईगीरी समाप्त करें",
+      "difficulty_level": 3,
+      "description": "Learn and master Finish Carpentry",
+      "tags": [
+        "finish",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4939",
+      "name": "फ्रेमिंग",
+      "difficulty_level": 4,
+      "description": "Learn and master Framing",
+      "tags": [
+        "framing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4940",
+      "name": "फर्नीचर बनाना",
+      "difficulty_level": 2,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4941",
+      "name": "जॉइनरी तकनीक",
+      "difficulty_level": 2,
+      "description": "Learn and master Joinery Techniques",
+      "tags": [
+        "joinery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4942",
+      "name": "टिम्बर फ्रेमिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Timber Framing",
+      "tags": [
+        "timber",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4943",
+      "name": "लकड़ी की नक्काशी",
+      "difficulty_level": 3,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4944",
+      "name": "लकड़ी खराद संचालन",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Lathe Operation",
+      "tags": [
+        "wood",
+        "lathe",
+        "operation"
+      ]
+    }
+  ]
+}

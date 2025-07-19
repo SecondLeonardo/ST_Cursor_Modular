@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_medical_knowledge",
+  "name": "دانش پزشکی",
+  "skills": [
+    {
+      "id": "skill_2533",
+      "name": "کمکهای اولیه اولیه",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic First Aid",
+      "tags": [
+        "basic",
+        "first",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2534",
+      "name": "گواهینامه CPR",
+      "difficulty_level": 1,
+      "description": "Learn and master CPR Certification",
+      "tags": [
+        "certification",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2535",
+      "name": "پیشگیری از بیماری",
+      "difficulty_level": 1,
+      "description": "Learn and master Disease Prevention",
+      "tags": [
+        "disease",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2536",
+      "name": "واکنش اضطراری",
+      "difficulty_level": 2,
+      "description": "Learn and master Emergency Response",
+      "tags": [
+        "emergency",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2537",
+      "name": "اصطلاحات سلامتی",
+      "difficulty_level": 3,
+      "description": "Learn and master Health Terminology",
+      "tags": [
+        "health",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2538",
+      "name": "کنترل عفونت",
+      "difficulty_level": 3,
+      "description": "Learn and master Infection Control",
+      "tags": [
+        "infection",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2539",
+      "name": "مدیریت دارو",
+      "difficulty_level": 5,
+      "description": "Learn and master Medication Management",
+      "tags": [
+        "medication",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2540",
+      "name": "آگاهی از واکسیناسیون",
+      "difficulty_level": 5,
+      "description": "Learn and master Vaccination Awareness",
+      "tags": [
+        "vaccination",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2541",
+      "name": "نظارت بر علائم حیاتی",
+      "difficulty_level": 5,
+      "description": "Learn and master Vital Signs Monitoring",
+      "tags": [
+        "vital",
+        "signs",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "skill_2542",
+      "name": "مراقبت از زخم",
+      "difficulty_level": 5,
+      "description": "Learn and master Wound Care",
+      "tags": [
+        "wound",
+        "care",
+        "skill"
+      ]
+    }
+  ]
+}

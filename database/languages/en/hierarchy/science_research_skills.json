@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Science & Research Skills",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Academic Writing"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Biological Sciences"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Computer & Data Science"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Earth & Environmental Sciences"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Engineering Sciences"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Mathematics & Statistics"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Medical & Health Sciences"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Physical Sciences"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Research Methods"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Social Sciences"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "Oficios y técnicos",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "Automotor"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "Carpintería"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "Construcción"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "Eléctrico"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "Albañilería"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "Mecánico"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "Pintura y decoración"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "Plomería"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "Soldadura"
+    }
+  ]
+}

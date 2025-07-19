@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_electronics",
+  "name": "ਇਲੈਕਟ੍ਰਾਨਿਕਸ",
+  "skills": [
+    {
+      "id": "skill_4308",
+      "name": "ਐਨਾਲਾਗ ਸਰਕਟ",
+      "difficulty_level": 4,
+      "description": "Learn and master Analog Circuits",
+      "tags": [
+        "analog",
+        "circuits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4309",
+      "name": "ਸਰਕਟ ਸਮੱਸਿਆ ਨਿਪਟਾਰਾ",
+      "difficulty_level": 5,
+      "description": "Learn and master Circuit Troubleshooting",
+      "tags": [
+        "circuit",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4310",
+      "name": "ਡਿਜੀਟਲ ਤਰਕ ਡਿਜ਼ਾਈਨ",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Logic Design",
+      "tags": [
+        "digital",
+        "logic",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4311",
+      "name": "ਏਮਬੇਡਡ ਸਿਸਟਮਸ",
+      "difficulty_level": 2,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4312",
+      "name": "ਮਾਈਕਰੋਕਾਟਰੋਲਰ ਪ੍ਰੋਗਰਾਮਿੰਗ",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Programming",
+      "tags": [
+        "microcontroller",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4313",
+      "name": "ਪੀਸੀਬੀ ਡਿਜ਼ਾਇਨ",
+      "difficulty_level": 4,
+      "description": "Learn and master PCB Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4314",
+      "name": "ਬਿਜਲੀ ਸਪਲਾਈ ਡਿਜ਼ਾਈਨ",
+      "difficulty_level": 1,
+      "description": "Learn and master Power Supply Design",
+      "tags": [
+        "power",
+        "supply",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4315",
+      "name": "ਸੈਂਸਰ ਏਕੀਕਰਣ",
+      "difficulty_level": 4,
+      "description": "Learn and master Sensor Integration",
+      "tags": [
+        "sensor",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4316",
+      "name": "ਸੰਕੇਤ ਪ੍ਰੋਸੈਸਿੰਗ",
+      "difficulty_level": 5,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4317",
+      "name": "ਸੋਲਡਿੰਗ ਹੁਨਰ",
+      "difficulty_level": 1,
+      "description": "Learn and master Soldering Skills",
+      "tags": [
+        "soldering",
+        "skills",
+        "skill"
+      ]
+    }
+  ]
+}

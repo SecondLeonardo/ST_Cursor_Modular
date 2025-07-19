@@ -1,0 +1,116 @@
+{
+  "id": "food_of_different_countries_mexican_cuisine",
+  "name": "Meksika mutfağı",
+  "skills": [
+    {
+      "id": "skill_5435",
+      "name": "Taco montajı",
+      "difficulty_level": 4,
+      "description": "Learn and master Taco Assembly",
+      "tags": [
+        "taco",
+        "assembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5436",
+      "name": "Salsa yapımı",
+      "difficulty_level": 4,
+      "description": "Learn and master Salsa Making",
+      "tags": [
+        "salsa",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5437",
+      "name": "Guacamole hazırlığı",
+      "difficulty_level": 3,
+      "description": "Learn and master Guacamole Preparation",
+      "tags": [
+        "guacamole",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5438",
+      "name": "Tamale yemek pişirme",
+      "difficulty_level": 3,
+      "description": "Learn and master Tamale Cooking",
+      "tags": [
+        "tamale",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5439",
+      "name": "Köstebek sosu yaratma",
+      "difficulty_level": 5,
+      "description": "Learn and master Mole Sauce Creation",
+      "tags": [
+        "mole",
+        "sauce",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_5440",
+      "name": "Biber kavurma",
+      "difficulty_level": 1,
+      "description": "Learn and master Chili Roasting",
+      "tags": [
+        "chili",
+        "roasting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5441",
+      "name": "Tortilla yapımı",
+      "difficulty_level": 2,
+      "description": "Learn and master Tortilla Making",
+      "tags": [
+        "tortilla",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5442",
+      "name": "Enchilada pişirme",
+      "difficulty_level": 1,
+      "description": "Learn and master Enchilada Baking",
+      "tags": [
+        "enchilada",
+        "baking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5443",
+      "name": "Ceviche Hazırlık",
+      "difficulty_level": 4,
+      "description": "Learn and master Ceviche Preparation",
+      "tags": [
+        "ceviche",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5444",
+      "name": "Baharat harmanlama",
+      "difficulty_level": 1,
+      "description": "Learn and master Spice Blending",
+      "tags": [
+        "spice",
+        "blending",
+        "skill"
+      ]
+    }
+  ]
+}

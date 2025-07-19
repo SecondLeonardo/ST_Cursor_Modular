@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+  "name": "હાથ -સાધન",
+  "skills": [
+    {
+      "id": "skill_3448",
+      "name": "છીણીનો ઉપયોગ",
+      "difficulty_level": 2,
+      "description": "Learn and master Chisel Use",
+      "tags": [
+        "chisel",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3449",
+      "name": "ક્લેમ્બ તકનીકો",
+      "difficulty_level": 4,
+      "description": "Learn and master Clamp Techniques",
+      "tags": [
+        "clamp",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3450",
+      "name": "ફાઇલ અને રાસપનો ઉપયોગ",
+      "difficulty_level": 5,
+      "description": "Learn and master File and Rasp Use",
+      "tags": [
+        "file",
+        "rasp",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3451",
+      "name": "ધણ નિયંત્રણ",
+      "difficulty_level": 1,
+      "description": "Learn and master Hammer Control",
+      "tags": [
+        "hammer",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3452",
+      "name": "હાથમાં કામગીરી",
+      "difficulty_level": 3,
+      "description": "Learn and master Hand Saw Operation",
+      "tags": [
+        "hand",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3453",
+      "name": "સ્તરીય",
+      "difficulty_level": 3,
+      "description": "Learn and master Leveling",
+      "tags": [
+        "leveling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3454",
+      "name": "ટેપ વાંચન માપવા",
+      "difficulty_level": 2,
+      "description": "Learn and master Measuring Tape Reading",
+      "tags": [
+        "measuring",
+        "tape",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_3455",
+      "name": "પેરીઅર ચોકસાઇ",
+      "difficulty_level": 1,
+      "description": "Learn and master Pliers Precision",
+      "tags": [
+        "pliers",
+        "precision",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3456",
+      "name": "સ્ક્રુડ્રાઈવર તકનીકો",
+      "difficulty_level": 4,
+      "description": "Learn and master Screwdriver Techniques",
+      "tags": [
+        "screwdriver",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3457",
+      "name": "રેંચ હેન્ડલિંગ",
+      "difficulty_level": 2,
+      "description": "Learn and master Wrench Handling",
+      "tags": [
+        "wrench",
+        "handling",
+        "skill"
+      ]
+    }
+  ]
+}

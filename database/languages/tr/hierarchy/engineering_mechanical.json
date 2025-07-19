@@ -1,0 +1,46 @@
+{
+  "id": "engineering_mechanical",
+  "name": "Mühendislik ve Mekanik",
+  "subcategories": [
+    {
+      "id": "engineering_mechanical_automotive_transportation",
+      "name": "Otomotiv ve Ulaşım"
+    },
+    {
+      "id": "engineering_mechanical_civil_engineering",
+      "name": "İnşaat mühendisliği"
+    },
+    {
+      "id": "engineering_mechanical_electrical_engineering",
+      "name": "Elektrik mühendisliği"
+    },
+    {
+      "id": "engineering_mechanical_energy_power_systems",
+      "name": "Enerji ve Güç Sistemleri"
+    },
+    {
+      "id": "engineering_mechanical_hvac_systems",
+      "name": "HVAC ve Sistemler"
+    },
+    {
+      "id": "engineering_mechanical_industrial_design",
+      "name": "Endüstriyel tasarım"
+    },
+    {
+      "id": "engineering_mechanical_manufacturing_production",
+      "name": "Üretim ve Üretim"
+    },
+    {
+      "id": "engineering_mechanical_mechanical_engineering",
+      "name": "Makine Mühendisliği"
+    },
+    {
+      "id": "engineering_mechanical_robotics_automation",
+      "name": "Robot ve Otomasyon"
+    },
+    {
+      "id": "engineering_mechanical_structural_design",
+      "name": "Yapısal tasarım"
+    }
+  ]
+}

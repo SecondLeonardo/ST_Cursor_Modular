@@ -1,0 +1,116 @@
+{
+  "id": "mechanical_technical_skills_engineering_basics",
+  "name": "エンジニアリングの基本",
+  "skills": [
+    {
+      "id": "skill_3518",
+      "name": "基本回路",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Circuitry",
+      "tags": [
+        "basic",
+        "circuitry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3519",
+      "name": "ブリッジデザインの基本",
+      "difficulty_level": 2,
+      "description": "Learn and master Bridge Design Basics",
+      "tags": [
+        "bridge",
+        "design",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_3520",
+      "name": "CADデザイン",
+      "difficulty_level": 3,
+      "description": "Learn and master CAD Design",
+      "tags": [
+        "design",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3521",
+      "name": "Fluid Mechanics Intro",
+      "difficulty_level": 4,
+      "description": "Learn and master Fluid Mechanics Intro",
+      "tags": [
+        "fluid",
+        "mechanics",
+        "intro"
+      ]
+    },
+    {
+      "id": "skill_3522",
+      "name": "ギアとプーリー",
+      "difficulty_level": 4,
+      "description": "Learn and master Gears & Pulleys",
+      "tags": [
+        "gears",
+        "pulleys",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3523",
+      "name": "青写真を読む",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Blueprints",
+      "tags": [
+        "reading",
+        "blueprints",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3524",
+      "name": "シンプルなマシン",
+      "difficulty_level": 1,
+      "description": "Learn and master Simple Machines",
+      "tags": [
+        "simple",
+        "machines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3525",
+      "name": "staticsの原則",
+      "difficulty_level": 5,
+      "description": "Learn and master Statics Principles",
+      "tags": [
+        "statics",
+        "principles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3526",
+      "name": "引張強度テスト",
+      "difficulty_level": 2,
+      "description": "Learn and master Tensile Strength Testing",
+      "tags": [
+        "tensile",
+        "strength",
+        "testing"
+      ]
+    },
+    {
+      "id": "skill_3527",
+      "name": "熱力学の概念",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermodynamics Concepts",
+      "tags": [
+        "thermodynamics",
+        "concepts",
+        "skill"
+      ]
+    }
+  ]
+}

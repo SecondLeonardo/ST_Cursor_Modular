@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_automotive_transportation",
+  "name": "Automotive & Transportation",
+  "skills": [
+    {
+      "id": "skill_2343",
+      "name": "Auto Electrical Systems",
+      "difficulty_level": 3,
+      "description": "Learn and master Auto Electrical Systems",
+      "tags": [
+        "auto",
+        "electrical",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_2344",
+      "name": "Oprogramowanie motoryzacyjne",
+      "difficulty_level": 3,
+      "description": "Learn and master Automotive Software",
+      "tags": [
+        "automotive",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2345",
+      "name": "Systemy hamulcowe",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Systems",
+      "tags": [
+        "brake",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2346",
+      "name": "Mechanika silnika",
+      "difficulty_level": 1,
+      "description": "Learn and master Engine Mechanics",
+      "tags": [
+        "engine",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2347",
+      "name": "Systemy paliwowe",
+      "difficulty_level": 1,
+      "description": "Learn and master Fuel Systems",
+      "tags": [
+        "fuel",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2348",
+      "name": "Pojazdy hybrydowe",
+      "difficulty_level": 1,
+      "description": "Learn and master Hybrid Vehicles",
+      "tags": [
+        "hybrid",
+        "vehicles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2349",
+      "name": "Strojenie zawieszenia",
+      "difficulty_level": 3,
+      "description": "Learn and master Suspension Tuning",
+      "tags": [
+        "suspension",
+        "tuning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2350",
+      "name": "Wyrównanie opon",
+      "difficulty_level": 1,
+      "description": "Learn and master Tire Alignment",
+      "tags": [
+        "tire",
+        "alignment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2351",
+      "name": "Systemy transmisji",
+      "difficulty_level": 3,
+      "description": "Learn and master Transmission Systems",
+      "tags": [
+        "transmission",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2352",
+      "name": "Diagnostyka pojazdów",
+      "difficulty_level": 1,
+      "description": "Learn and master Vehicle Diagnostics",
+      "tags": [
+        "vehicle",
+        "diagnostics",
+        "skill"
+      ]
+    }
+  ]
+}

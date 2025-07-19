@@ -1,0 +1,116 @@
+{
+  "id": "cognitive_academic_skills_study_learning_skills",
+  "name": "Keterampilan belajar & belajar",
+  "skills": [
+    {
+      "id": "skill_1118",
+      "name": "Penarikan aktif",
+      "difficulty_level": 3,
+      "description": "Learn and master Active Recall",
+      "tags": [
+        "active",
+        "recall",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1119",
+      "name": "Linking konsep",
+      "difficulty_level": 1,
+      "description": "Learn and master Concept Linking",
+      "tags": [
+        "concept",
+        "linking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1120",
+      "name": "Penetapan tujuan untuk pelajar",
+      "difficulty_level": 3,
+      "description": "Learn and master Goal Setting for Learners",
+      "tags": [
+        "goal",
+        "setting",
+        "learners"
+      ]
+    },
+    {
+      "id": "skill_1121",
+      "name": "Dinamika studi kelompok",
+      "difficulty_level": 4,
+      "description": "Learn and master Group Study Dynamics",
+      "tags": [
+        "group",
+        "study",
+        "dynamics"
+      ]
+    },
+    {
+      "id": "skill_1122",
+      "name": "Pemetaan pikiran",
+      "difficulty_level": 2,
+      "description": "Learn and master Mind Mapping",
+      "tags": [
+        "mind",
+        "mapping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1123",
+      "name": "Uji diri sendiri",
+      "difficulty_level": 5,
+      "description": "Learn and master Self-Testing",
+      "tags": [
+        "self-testing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1124",
+      "name": "Pengulangan spasi",
+      "difficulty_level": 2,
+      "description": "Learn and master Spaced Repetition",
+      "tags": [
+        "spaced",
+        "repetition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1125",
+      "name": "Pembacaan kecepatan",
+      "difficulty_level": 1,
+      "description": "Learn and master Speed Reading",
+      "tags": [
+        "speed",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1126",
+      "name": "Teknik peringkasan",
+      "difficulty_level": 5,
+      "description": "Learn and master Summarization Techniques",
+      "tags": [
+        "summarization",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1127",
+      "name": "Manajemen waktu untuk belajar",
+      "difficulty_level": 4,
+      "description": "Learn and master Time Management for Study",
+      "tags": [
+        "time",
+        "management",
+        "study"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_linguistics",
+  "name": "Linguistica",
+  "skills": [
+    {
+      "id": "skill_1993",
+      "name": "Grammatica descrittiva",
+      "difficulty_level": 2,
+      "description": "Learn and master Descriptive Grammar",
+      "tags": [
+        "descriptive",
+        "grammar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1994",
+      "name": "Teoria dell'acquisizione del linguaggio",
+      "difficulty_level": 4,
+      "description": "Learn and master Language Acquisition Theory",
+      "tags": [
+        "language",
+        "acquisition",
+        "theory"
+      ]
+    },
+    {
+      "id": "skill_1995",
+      "name": "Tipologia linguistica",
+      "difficulty_level": 1,
+      "description": "Learn and master Linguistic Typology",
+      "tags": [
+        "linguistic",
+        "typology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1996",
+      "name": "Morfologia",
+      "difficulty_level": 2,
+      "description": "Learn and master Morphology",
+      "tags": [
+        "morphology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1997",
+      "name": "Fonetica",
+      "difficulty_level": 3,
+      "description": "Learn and master Phonetics",
+      "tags": [
+        "phonetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1998",
+      "name": "Fonologia",
+      "difficulty_level": 4,
+      "description": "Learn and master Phonology",
+      "tags": [
+        "phonology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1999",
+      "name": "Pragmatico",
+      "difficulty_level": 5,
+      "description": "Learn and master Pragmatics",
+      "tags": [
+        "pragmatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2000",
+      "name": "Studio semantico",
+      "difficulty_level": 2,
+      "description": "Learn and master Semantic Study",
+      "tags": [
+        "semantic",
+        "study",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2001",
+      "name": "Sociolinguistica",
+      "difficulty_level": 3,
+      "description": "Learn and master Sociolinguistics",
+      "tags": [
+        "sociolinguistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2002",
+      "name": "Analisi della sintassi",
+      "difficulty_level": 4,
+      "description": "Learn and master Syntax Analysis",
+      "tags": [
+        "syntax",
+        "analysis",
+        "skill"
+      ]
+    }
+  ]
+}

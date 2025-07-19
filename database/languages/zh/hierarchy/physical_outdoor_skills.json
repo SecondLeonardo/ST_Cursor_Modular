@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "身体和室外技能",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "健身和调节"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "手动劳动和交易"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "户外娱乐"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "自卫和武术"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "运动与田径运动"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "生存和灌木丛"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_office_productivity",
+  "name": "Productivité du bureau",
+  "skills": [
+    {
+      "id": "skill_1018",
+      "name": "Systèmes de classement numérique",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Filing Systems",
+      "tags": [
+        "digital",
+        "filing",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_1019",
+      "name": "Formules excel",
+      "difficulty_level": 3,
+      "description": "Learn and master Excel Formulas",
+      "tags": [
+        "excel",
+        "formulas",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1020",
+      "name": "Organisation de dossiers",
+      "difficulty_level": 1,
+      "description": "Learn and master File Organization",
+      "tags": [
+        "file",
+        "organization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1021",
+      "name": "Utilisation de l'espace de travail Google",
+      "difficulty_level": 4,
+      "description": "Learn and master Google Workspace Usage",
+      "tags": [
+        "google",
+        "workspace",
+        "usage"
+      ]
+    },
+    {
+      "id": "skill_1022",
+      "name": "Raccourcis clavier",
+      "difficulty_level": 2,
+      "description": "Learn and master Keyboard Shortcuts",
+      "tags": [
+        "keyboard",
+        "shortcuts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1023",
+      "name": "Création de l'ordre du jour",
+      "difficulty_level": 2,
+      "description": "Learn and master Meeting Agenda Creation",
+      "tags": [
+        "meeting",
+        "agenda",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_1024",
+      "name": "Prise de notes efficacement",
+      "difficulty_level": 3,
+      "description": "Learn and master Note-Taking Effectively",
+      "tags": [
+        "note-taking",
+        "effectively",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1025",
+      "name": "Planification avec Outlook",
+      "difficulty_level": 2,
+      "description": "Learn and master Scheduling with Outlook",
+      "tags": [
+        "scheduling",
+        "with",
+        "outlook"
+      ]
+    },
+    {
+      "id": "skill_1026",
+      "name": "Outils de suivi du temps",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Tracking Tools",
+      "tags": [
+        "time",
+        "tracking",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_1027",
+      "name": "Bases de contrôle de version",
+      "difficulty_level": 5,
+      "description": "Learn and master Version Control Basics",
+      "tags": [
+        "version",
+        "control",
+        "basics"
+      ]
+    }
+  ]
+}

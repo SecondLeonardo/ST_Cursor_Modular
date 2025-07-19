@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "জ্ঞানীয় এবং একাডেমিক দক্ষতা",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "সমালোচনামূলক চিন্তাভাবনা"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "ভাষা ও ভাষাতত্ত্ব"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "গণিত ও যুক্তি"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "স্মৃতি এবং ফোকাস"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "বিজ্ঞান ও গবেষণা"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "অধ্যয়ন এবং শেখার দক্ষতা"
+    }
+  ]
+}

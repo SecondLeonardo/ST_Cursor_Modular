@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_yoga_meditation",
+  "name": "یوگا و مراقبه",
+  "skills": [
+    {
+      "id": "skill_2678",
+      "name": "تمرینات تنفسی",
+      "difficulty_level": 4,
+      "description": "Learn and master Breathing Exercises",
+      "tags": [
+        "breathing",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2679",
+      "name": "توازن چاکرا",
+      "difficulty_level": 4,
+      "description": "Learn and master Chakra Balancing",
+      "tags": [
+        "chakra",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2680",
+      "name": "مدیتیشن هدایت شده",
+      "difficulty_level": 1,
+      "description": "Learn and master Guided Meditation",
+      "tags": [
+        "guided",
+        "meditation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2681",
+      "name": "یوگا",
+      "difficulty_level": 2,
+      "description": "Learn and master Hatha Yoga",
+      "tags": [
+        "hatha",
+        "yoga",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2682",
+      "name": "برنامه ریزی مدیتیشن",
+      "difficulty_level": 1,
+      "description": "Learn and master Meditation Scheduling",
+      "tags": [
+        "meditation",
+        "scheduling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2683",
+      "name": "حرکات ذهنی",
+      "difficulty_level": 3,
+      "description": "Learn and master Mindful Movement",
+      "tags": [
+        "mindful",
+        "movement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2684",
+      "name": "جریان Vinyasa",
+      "difficulty_level": 4,
+      "description": "Learn and master Vinyasa Flow",
+      "tags": [
+        "vinyasa",
+        "flow",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2685",
+      "name": "یوگا نیدرا",
+      "difficulty_level": 5,
+      "description": "Learn and master Yoga Nidra",
+      "tags": [
+        "yoga",
+        "nidra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2686",
+      "name": "یوگا پوز (آسانا)",
+      "difficulty_level": 1,
+      "description": "Learn and master Yoga Poses (Asanas)",
+      "tags": [
+        "yoga",
+        "poses",
+        "(asanas)"
+      ]
+    },
+    {
+      "id": "skill_2687",
+      "name": "یوگا برای انعطاف پذیری",
+      "difficulty_level": 5,
+      "description": "Learn and master Yoga for Flexibility",
+      "tags": [
+        "yoga",
+        "flexibility",
+        "skill"
+      ]
+    }
+  ]
+}

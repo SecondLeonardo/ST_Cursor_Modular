@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_plumbing",
+  "name": "Plomería",
+  "skills": [
+    {
+      "id": "skill_5145",
+      "name": "Remoción de obstrucción",
+      "difficulty_level": 3,
+      "description": "Learn and master Clog Removal",
+      "tags": [
+        "clog",
+        "removal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5146",
+      "name": "Sistemas de drenaje",
+      "difficulty_level": 3,
+      "description": "Learn and master Drainage Systems",
+      "tags": [
+        "drainage",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5147",
+      "name": "Instalación del accesorio",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixture Installation",
+      "tags": [
+        "fixture",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5148",
+      "name": "Sistemas de aguas grises",
+      "difficulty_level": 5,
+      "description": "Learn and master Greywater Systems",
+      "tags": [
+        "greywater",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5149",
+      "name": "Detección de fugas",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5150",
+      "name": "Instalación de PEX",
+      "difficulty_level": 1,
+      "description": "Learn and master PEX Installation",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5151",
+      "name": "Ajuste de tuberías",
+      "difficulty_level": 3,
+      "description": "Learn and master Pipe Fitting",
+      "tags": [
+        "pipe",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5152",
+      "name": "Tuberías de soldadura",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering Pipes",
+      "tags": [
+        "soldering",
+        "pipes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5153",
+      "name": "Reparación del baño",
+      "difficulty_level": 4,
+      "description": "Learn and master Toilet Repair",
+      "tags": [
+        "toilet",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5154",
+      "name": "Configuración del calentador de agua",
+      "difficulty_level": 5,
+      "description": "Learn and master Water Heater Setup",
+      "tags": [
+        "water",
+        "heater",
+        "setup"
+      ]
+    }
+  ]
+}

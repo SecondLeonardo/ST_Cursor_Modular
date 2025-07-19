@@ -1,0 +1,120 @@
+{
+  "id": "food_of_different_countries_italian_cuisine",
+  "name": "इटालियन पाककृती",
+  "skills": [
+    {
+      "id": "skill_5415",
+      "name": "पास्ता बनविणे",
+      "difficulty_level": 4,
+      "description": "Learn and master Pasta Making",
+      "tags": [
+        "pasta",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5416",
+      "name": "पिझ्झा पीठ तयारी",
+      "difficulty_level": 2,
+      "description": "Learn and master Pizza Dough Preparation",
+      "tags": [
+        "pizza",
+        "dough",
+        "preparation"
+      ]
+    },
+    {
+      "id": "skill_5417",
+      "name": "रिसोट्टो पाककला",
+      "difficulty_level": 3,
+      "description": "Learn and master Risotto Cooking",
+      "tags": [
+        "risotto",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5418",
+      "name": "तिरामीसु निर्मिती",
+      "difficulty_level": 1,
+      "description": "Learn and master Tiramisu Creation",
+      "tags": [
+        "tiramisu",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5419",
+      "name": "सॉस मेकिंग (उदा. मरिनारा, अल्फ्रेडो)",
+      "difficulty_level": 1,
+      "description": "Learn and master Sauce Making (e.g., Marinara, Alfredo)",
+      "tags": [
+        "sauce",
+        "making",
+        "(e.g.,",
+        "marinara,",
+        "alfredo)"
+      ]
+    },
+    {
+      "id": "skill_5420",
+      "name": "अँटीपास्टो प्लेटिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Antipasto Plating",
+      "tags": [
+        "antipasto",
+        "plating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5421",
+      "name": "जिलाटो मेकिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Gelato Making",
+      "tags": [
+        "gelato",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5422",
+      "name": "इटालियन ब्रेड बेकिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Italian Bread Baking",
+      "tags": [
+        "italian",
+        "bread",
+        "baking"
+      ]
+    },
+    {
+      "id": "skill_5423",
+      "name": "औषधी वनस्पती वापर (उदा. तुळस, ओरेगॅनो)",
+      "difficulty_level": 2,
+      "description": "Learn and master Herb Usage (e.g., Basil, Oregano)",
+      "tags": [
+        "herb",
+        "usage",
+        "(e.g.,",
+        "basil,",
+        "oregano)"
+      ]
+    },
+    {
+      "id": "skill_5424",
+      "name": "वाइन जोडी",
+      "difficulty_level": 5,
+      "description": "Learn and master Wine Pairing",
+      "tags": [
+        "wine",
+        "pairing",
+        "skill"
+      ]
+    }
+  ]
+}

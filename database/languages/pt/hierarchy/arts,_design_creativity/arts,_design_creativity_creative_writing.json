@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_creative_writing",
+  "name": "Escrita criativa",
+  "skills": [
+    {
+      "id": "skill_730",
+      "name": "Escrita do blog",
+      "difficulty_level": 2,
+      "description": "Learn and master Blog Writing",
+      "tags": [
+        "blog",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_731",
+      "name": "Desenvolvimento de personagens",
+      "difficulty_level": 1,
+      "description": "Learn and master Character Development",
+      "tags": [
+        "character",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_732",
+      "name": "Edição de ficção",
+      "difficulty_level": 1,
+      "description": "Learn and master Fiction Editing",
+      "tags": [
+        "fiction",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_733",
+      "name": "Redação de memórias",
+      "difficulty_level": 1,
+      "description": "Learn and master Memoir Writing",
+      "tags": [
+        "memoir",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_734",
+      "name": "Dramaturgia",
+      "difficulty_level": 1,
+      "description": "Learn and master Playwriting",
+      "tags": [
+        "playwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_735",
+      "name": "Poesia",
+      "difficulty_level": 3,
+      "description": "Learn and master Poetry",
+      "tags": [
+        "poetry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_736",
+      "name": "Roteirista",
+      "difficulty_level": 2,
+      "description": "Learn and master Screenwriting",
+      "tags": [
+        "screenwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_737",
+      "name": "Escrita de história curta",
+      "difficulty_level": 4,
+      "description": "Learn and master Short Story Writing",
+      "tags": [
+        "short",
+        "story",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_738",
+      "name": "Composição",
+      "difficulty_level": 1,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_739",
+      "name": "Construção mundial",
+      "difficulty_level": 4,
+      "description": "Learn and master World-Building",
+      "tags": [
+        "world-building",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

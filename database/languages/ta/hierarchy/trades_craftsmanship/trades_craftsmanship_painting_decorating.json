@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_painting_decorating",
+  "name": "ஓவியம் மற்றும் அலங்கரித்தல்",
+  "skills": [
+    {
+      "id": "skill_4995",
+      "name": "வண்ண கலவை",
+      "difficulty_level": 5,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4996",
+      "name": "அலங்கார நுட்பங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Decorative Techniques",
+      "tags": [
+        "decorative",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4997",
+      "name": "வெளிப்புற ஓவியம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Exterior Painting",
+      "tags": [
+        "exterior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4998",
+      "name": "போலி முடித்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Faux Finishing",
+      "tags": [
+        "faux",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4999",
+      "name": "உள்துறை ஓவியம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Interior Painting",
+      "tags": [
+        "interior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5000",
+      "name": "ஓவியம் தெளிக்கவும்",
+      "difficulty_level": 3,
+      "description": "Learn and master Spray Painting",
+      "tags": [
+        "spray",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5001",
+      "name": "மேற்பரப்பு ப்ரைமிங்",
+      "difficulty_level": 3,
+      "description": "Learn and master Surface Priming",
+      "tags": [
+        "surface",
+        "priming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5002",
+      "name": "டிரிம் ஓவியம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Trim Painting",
+      "tags": [
+        "trim",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5003",
+      "name": "சுவர் தயாரிப்பு",
+      "difficulty_level": 4,
+      "description": "Learn and master Wall Preparation",
+      "tags": [
+        "wall",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5004",
+      "name": "வால்பேப்பர் பயன்பாடு",
+      "difficulty_level": 4,
+      "description": "Learn and master Wallpaper Application",
+      "tags": [
+        "wallpaper",
+        "application",
+        "skill"
+      ]
+    }
+  ]
+}

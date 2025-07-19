@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_plumbing",
+  "name": "管道",
+  "skills": [
+    {
+      "id": "skill_5255",
+      "name": "预防回流",
+      "difficulty_level": 4,
+      "description": "Learn and master Backflow Prevention",
+      "tags": [
+        "backflow",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5256",
+      "name": "排水系统",
+      "difficulty_level": 5,
+      "description": "Learn and master Drainage Systems",
+      "tags": [
+        "drainage",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5257",
+      "name": "固定装置",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixture Installation",
+      "tags": [
+        "fixture",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5258",
+      "name": "气体线安装",
+      "difficulty_level": 5,
+      "description": "Learn and master Gas Line Installation",
+      "tags": [
+        "line",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5259",
+      "name": "泄漏检测",
+      "difficulty_level": 3,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5260",
+      "name": "管道贴合",
+      "difficulty_level": 1,
+      "description": "Learn and master Pipefitting",
+      "tags": [
+        "pipefitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5261",
+      "name": "管道代码",
+      "difficulty_level": 2,
+      "description": "Learn and master Plumbing Codes",
+      "tags": [
+        "plumbing",
+        "codes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5262",
+      "name": "下水道线维护",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewer Line Maintenance",
+      "tags": [
+        "sewer",
+        "line",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5263",
+      "name": "厕所安装",
+      "difficulty_level": 5,
+      "description": "Learn and master Toilet Installation",
+      "tags": [
+        "toilet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5264",
+      "name": "热水器维修",
+      "difficulty_level": 4,
+      "description": "Learn and master Water Heater Repair",
+      "tags": [
+        "water",
+        "heater",
+        "repair"
+      ]
+    }
+  ]
+}

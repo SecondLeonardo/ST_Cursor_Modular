@@ -1,0 +1,43 @@
+1. Project Overview
+- Objective: SkillTalk is a platform designed to connect people based on complementary skills and similar languages. The goal is to match users with skill partners whose areas of expertise align with the skills they wish to learn, and vice versa.
+- Key Problems Solved:
+  - Connecting people with complementary skills.
+  - Helping learners find coaches and mentors.
+  - Helping professional teachers and tutors find students.
+  - Finding long-term learning partners.
+  - Connecting subject matter experts across borders.
+  - Facilitating peer-to-peer skill exchange.
+- Target Audience: Individuals looking to learn new skills and connect with others for mutual skill exchange.
+- Platform: iOS
+- Tech Stack: swift,
+**Architecture:** Use MVVM architecture, which works great with SwiftUI
+**iOS:**
+- Core UI parts with SwiftUI (profile, settings, matching list, posts)
+- Complex parts with UIKit (chat, voiceroom, media player)
+
+2. Technical Stack Overview
+- Data Collection: Firebase Firestore and MongoDB Atlas for database, Firebase Analytics, Google Cloud NLP API
+- Data Processing: Firestore, TensorFlow (for machine learning), Google Cloud Functions
+- Ad Integration: Google AdMob, Facebook Ads SDK, Custom Ad Server
+- User Authentication & Data Privacy: Firebase Authentication, Supabase authentication, OAuth, Encryption
+- Analytics: Firebase Analytics, Mixpanel
+- Real-Time Communication: Agora, Daily.co, Jitsi Meet
+- Media Storage: Firebase Storage, Cloudinary
+
+3. Backend Services Multi-Provider Strategy
+SkillTalk iOS app implements a comprehensive multi-provider architecture for maximum reliability and performance:
+
+| Service Layer | Primary Provider | Backup Provider | Purpose |
+|---------------|------------------|-----------------|---------|
+| Authentication | Firebase | Supabase | User login, registration, session management |
+| User Profile DB | Firestore | Supabase Postgres | User profiles, skills, preferences storage |
+| Chat Messaging | Realtime DB | Pusher/Ably | Real-time chat messages, typing indicators |
+| Media Uploads | Firebase Storage | Cloudflare R2 | Profile images, chat media, voice recordings |
+| Voice/Video Calls | Agora | Daily.co | One-on-one and group voice/video calls |
+| Voice Room | Agora RTM & RTC | 100ms.live | Live audio rooms, broadcasting features |
+| Translation | LibreTranslate | DeepL | Real-time message and content translation |
+| Push Notifications | FCM | OneSignal | Chat notifications, match alerts, system updates |
+| Coin & Subscriptions | RevenueCat + StoreKit | Google Play Billing | In-app purchases, premium subscriptions |
+| Post Feed | Firestore | Supabase | Social posts, comments, likes, user content |
+| User Matching | Supabase Edge Functions | Firebase Cloud Function | Skill-based matching algorithm and logic |
+

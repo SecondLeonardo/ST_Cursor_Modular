@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_legal_compliance",
+  "name": "Юридическое и соблюдение",
+  "skills": [
+    {
+      "id": "skill_998",
+      "name": "Бизнес -лицензирование",
+      "difficulty_level": 5,
+      "description": "Learn and master Business Licensing",
+      "tags": [
+        "business",
+        "licensing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_999",
+      "name": "Политики конфиденциальности данных",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Privacy Policies",
+      "tags": [
+        "data",
+        "privacy",
+        "policies"
+      ]
+    },
+    {
+      "id": "skill_1000",
+      "name": "Удержание документа",
+      "difficulty_level": 4,
+      "description": "Learn and master Document Retention",
+      "tags": [
+        "document",
+        "retention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1001",
+      "name": "Соответствие GDPR",
+      "difficulty_level": 3,
+      "description": "Learn and master GDPR Compliance",
+      "tags": [
+        "gdpr",
+        "compliance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1002",
+      "name": "Основы интеллектуальной собственности",
+      "difficulty_level": 5,
+      "description": "Learn and master Intellectual Property Basics",
+      "tags": [
+        "intellectual",
+        "property",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_1003",
+      "name": "Основы труда",
+      "difficulty_level": 5,
+      "description": "Learn and master Labor Law Basics",
+      "tags": [
+        "labor",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1004",
+      "name": "Соглашения о неразглашении",
+      "difficulty_level": 5,
+      "description": "Learn and master Non-Disclosure Agreements",
+      "tags": [
+        "non-disclosure",
+        "agreements",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1005",
+      "name": "Нормативные исследования",
+      "difficulty_level": 3,
+      "description": "Learn and master Regulatory Research",
+      "tags": [
+        "regulatory",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1006",
+      "name": "Аудит по соблюдению рисков",
+      "difficulty_level": 1,
+      "description": "Learn and master Risk Compliance Audits",
+      "tags": [
+        "risk",
+        "compliance",
+        "audits"
+      ]
+    },
+    {
+      "id": "skill_1007",
+      "name": "Понимание контрактов",
+      "difficulty_level": 1,
+      "description": "Learn and master Understanding Contracts",
+      "tags": [
+        "understanding",
+        "contracts",
+        "skill"
+      ]
+    }
+  ]
+}

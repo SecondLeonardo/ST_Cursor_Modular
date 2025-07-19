@@ -1,0 +1,116 @@
+{
+  "id": "arts,_crafts_design_graphic_design",
+  "name": "ግራፊክ ዲዛይን",
+  "skills": [
+    {
+      "id": "skill_660",
+      "name": "አዶቤ ምሳሌ",
+      "difficulty_level": 3,
+      "description": "Learn and master Adobe Illustrator",
+      "tags": [
+        "adobe",
+        "illustrator",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_661",
+      "name": "የምርት ስም ማንነት",
+      "difficulty_level": 5,
+      "description": "Learn and master Brand Identity",
+      "tags": [
+        "brand",
+        "identity",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_662",
+      "name": "የቀለም አቀማመጥ",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Grading",
+      "tags": [
+        "color",
+        "grading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_663",
+      "name": "አቀማመጥ ንድፍ",
+      "difficulty_level": 3,
+      "description": "Learn and master Layout Design",
+      "tags": [
+        "layout",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_664",
+      "name": "አርማ ዲዛይን",
+      "difficulty_level": 5,
+      "description": "Learn and master Logo Design",
+      "tags": [
+        "logo",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_665",
+      "name": "ማጭበርበር ፈጠራ",
+      "difficulty_level": 5,
+      "description": "Learn and master Mockup Creation",
+      "tags": [
+        "mockup",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_666",
+      "name": "የፖስታ ንድፍ",
+      "difficulty_level": 4,
+      "description": "Learn and master Poster Design",
+      "tags": [
+        "poster",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_667",
+      "name": "የመታሰቢያ ንድፍ ንድፍ",
+      "difficulty_level": 3,
+      "description": "Learn and master Typography Design",
+      "tags": [
+        "typography",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_668",
+      "name": "የ ctor ክተር ምሳሌ",
+      "difficulty_level": 3,
+      "description": "Learn and master Vector Illustration",
+      "tags": [
+        "vector",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_669",
+      "name": "የድር ግራፊክስ",
+      "difficulty_level": 3,
+      "description": "Learn and master Web Graphics",
+      "tags": [
+        "graphics",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

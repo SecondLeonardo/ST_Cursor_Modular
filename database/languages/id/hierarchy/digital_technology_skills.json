@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "Keterampilan Digital & Teknologi",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "Keamanan siber"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "Data & AI"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "IT & Networking"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "Pemrograman & Pengembangan"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "Web & seluler"
+    }
+  ]
+}

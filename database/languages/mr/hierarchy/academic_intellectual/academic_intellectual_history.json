@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_history",
+  "name": "इतिहास",
+  "skills": [
+    {
+      "id": "skill_20",
+      "name": "अमेरिकन इतिहास",
+      "difficulty_level": 5,
+      "description": "Learn and master American History",
+      "tags": [
+        "american",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_21",
+      "name": "प्राचीन सभ्यता",
+      "difficulty_level": 5,
+      "description": "Learn and master Ancient Civilizations",
+      "tags": [
+        "ancient",
+        "civilizations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_22",
+      "name": "सांस्कृतिक इतिहास",
+      "difficulty_level": 1,
+      "description": "Learn and master Cultural History",
+      "tags": [
+        "cultural",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_23",
+      "name": "आर्थिक इतिहास",
+      "difficulty_level": 3,
+      "description": "Learn and master Economic History",
+      "tags": [
+        "economic",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_24",
+      "name": "ऐतिहासिक संशोधन",
+      "difficulty_level": 4,
+      "description": "Learn and master Historical Research",
+      "tags": [
+        "historical",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_25",
+      "name": "विज्ञानाचा इतिहास",
+      "difficulty_level": 1,
+      "description": "Learn and master History of Science",
+      "tags": [
+        "history",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_26",
+      "name": "लष्करी इतिहास",
+      "difficulty_level": 3,
+      "description": "Learn and master Military History",
+      "tags": [
+        "military",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_27",
+      "name": "आधुनिक इतिहास",
+      "difficulty_level": 1,
+      "description": "Learn and master Modern History",
+      "tags": [
+        "modern",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_28",
+      "name": "राजकीय इतिहास",
+      "difficulty_level": 4,
+      "description": "Learn and master Political History",
+      "tags": [
+        "political",
+        "history",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_29",
+      "name": "जागतिक इतिहास",
+      "difficulty_level": 4,
+      "description": "Learn and master World History",
+      "tags": [
+        "world",
+        "history",
+        "skill"
+      ]
+    }
+  ]
+}

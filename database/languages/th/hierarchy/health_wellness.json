@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "สุขภาพและสุขภาพ",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "ยาทางเลือก"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "การปฐมพยาบาลและฉุกเฉิน"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "การฝึกออกกำลังกาย"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "สุขภาพแบบองค์รวม"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "ความรู้ทางการแพทย์"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "ทักษะการแพทย์"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "สุขภาพจิต"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "การปฏิบัติสุขภาพจิต"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "สติและการทำสมาธิ"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "โภชนาการและอาหาร"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "การดูแลส่วนตัว"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "สมรรถภาพทางกาย"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "การฟื้นฟูและบำบัด"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "สุขภาพการเจริญพันธุ์"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "การดูแลตนเองและสุขอนามัย"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "การนอนหลับและการกู้คืน"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "การจัดการความเครียด"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "โยคะและการทำสมาธิ"
+    }
+  ]
+}

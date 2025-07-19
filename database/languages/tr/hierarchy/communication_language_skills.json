@@ -1,0 +1,30 @@
+{
+  "id": "communication_language_skills",
+  "name": "İletişim ve Dil Becerileri",
+  "subcategories": [
+    {
+      "id": "communication_language_skills_foreign_languages",
+      "name": "Yabancı diller"
+    },
+    {
+      "id": "communication_language_skills_interpersonal_skills",
+      "name": "Kişilerarası beceriler"
+    },
+    {
+      "id": "communication_language_skills_nonverbal_communication",
+      "name": "Sözsüz iletişim"
+    },
+    {
+      "id": "communication_language_skills_presentation_storytelling",
+      "name": "Sunum ve hikaye anlatımı"
+    },
+    {
+      "id": "communication_language_skills_public_speaking",
+      "name": "Topluluk önünde konuşma"
+    },
+    {
+      "id": "communication_language_skills_writing_editing",
+      "name": "Yazma ve Düzenleme"
+    }
+  ]
+}

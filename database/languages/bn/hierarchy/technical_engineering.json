@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "প্রযুক্তিগত ও প্রকৌশল",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "সিভিল এবং স্ট্রাকচারাল"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "বৈদ্যুতিক প্রকৌশল"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "উত্পাদন ও বানোয়াট"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "মেকানিকাল ইঞ্জিনিয়ারিং"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "সফ্টওয়্যার এবং সিস্টেম"
+    }
+  ]
+}

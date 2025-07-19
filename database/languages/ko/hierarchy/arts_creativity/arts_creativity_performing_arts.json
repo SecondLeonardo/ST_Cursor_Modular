@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_performing_arts",
+  "name": "공연 예술",
+  "skills": [
+    {
+      "id": "skill_490",
+      "name": "연기 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Acting Techniques",
+      "tags": [
+        "acting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_491",
+      "name": "댄스 안무",
+      "difficulty_level": 3,
+      "description": "Learn and master Dance Choreography",
+      "tags": [
+        "dance",
+        "choreography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_492",
+      "name": "즉흥",
+      "difficulty_level": 5,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_493",
+      "name": "몸짓 광대극",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_494",
+      "name": "뮤지컬 극장",
+      "difficulty_level": 3,
+      "description": "Learn and master Musical Theater",
+      "tags": [
+        "musical",
+        "theater",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_495",
+      "name": "대중 연설",
+      "difficulty_level": 1,
+      "description": "Learn and master Public Speaking",
+      "tags": [
+        "public",
+        "speaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_496",
+      "name": "무대 전투",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Combat",
+      "tags": [
+        "stage",
+        "combat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_497",
+      "name": "무대 존재",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_498",
+      "name": "극장 방향",
+      "difficulty_level": 3,
+      "description": "Learn and master Theater Direction",
+      "tags": [
+        "theater",
+        "direction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_499",
+      "name": "음성 훈련",
+      "difficulty_level": 3,
+      "description": "Learn and master Voice Training",
+      "tags": [
+        "voice",
+        "training",
+        "skill"
+      ]
+    }
+  ]
+}

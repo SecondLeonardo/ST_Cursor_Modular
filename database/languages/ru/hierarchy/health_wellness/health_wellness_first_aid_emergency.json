@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_first_aid_emergency",
+  "name": "Первая помощь и чрезвычайная ситуация",
+  "skills": [
+    {
+      "id": "skill_2503",
+      "name": "Методы перевязки",
+      "difficulty_level": 2,
+      "description": "Learn and master Bandaging Techniques",
+      "tags": [
+        "bandaging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2504",
+      "name": "Базовый CPR",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic CPR",
+      "tags": [
+        "basic",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2505",
+      "name": "Контроль кровотечения",
+      "difficulty_level": 2,
+      "description": "Learn and master Bleeding Control",
+      "tags": [
+        "bleeding",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2506",
+      "name": "Сжигать лечение",
+      "difficulty_level": 2,
+      "description": "Learn and master Burn Treatment",
+      "tags": [
+        "burn",
+        "treatment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2507",
+      "name": "Призыв к помощи",
+      "difficulty_level": 5,
+      "description": "Learn and master Calling for Help",
+      "tags": [
+        "calling",
+        "help",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2508",
+      "name": "Удушающий ответ",
+      "difficulty_level": 2,
+      "description": "Learn and master Choking Response",
+      "tags": [
+        "choking",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2509",
+      "name": "Аварийное планирование",
+      "difficulty_level": 5,
+      "description": "Learn and master Emergency Planning",
+      "tags": [
+        "emergency",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2510",
+      "name": "Использование комплекта первой помощи",
+      "difficulty_level": 4,
+      "description": "Learn and master First Aid Kit Use",
+      "tags": [
+        "first",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2511",
+      "name": "Управление шоком",
+      "difficulty_level": 3,
+      "description": "Learn and master Shock Management",
+      "tags": [
+        "shock",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2512",
+      "name": "Шпинтинговые травмы",
+      "difficulty_level": 4,
+      "description": "Learn and master Splinting Injuries",
+      "tags": [
+        "splinting",
+        "injuries",
+        "skill"
+      ]
+    }
+  ]
+}

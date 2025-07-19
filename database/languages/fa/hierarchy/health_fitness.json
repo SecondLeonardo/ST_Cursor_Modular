@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "سلامتی و تناسب اندام",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "مراقبت از بدن و سلامتی"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "کمک های اولیه و ایمنی"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "سلامت روانی"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "تغذیه و رژیم غذایی"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "تمرین بدنی"
+    }
+  ]
+}

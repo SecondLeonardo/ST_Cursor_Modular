@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_automotive_repair",
+  "name": "Gyara motoci",
+  "skills": [
+    {
+      "id": "skill_3408",
+      "name": "Tsarin lantarki na mota",
+      "difficulty_level": 1,
+      "description": "Learn and master Auto Electrical Systems",
+      "tags": [
+        "auto",
+        "electrical",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_3409",
+      "name": "Sauya baturin",
+      "difficulty_level": 5,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3410",
+      "name": "Gyara birki",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Repair",
+      "tags": [
+        "brake",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3411",
+      "name": "Dokar Injin",
+      "difficulty_level": 3,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3412",
+      "name": "Gyara tsarin gyara",
+      "difficulty_level": 5,
+      "description": "Learn and master Exhaust System Repair",
+      "tags": [
+        "exhaust",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_3413",
+      "name": "Canjin mai",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3414",
+      "name": "Aikin gidan radator",
+      "difficulty_level": 4,
+      "description": "Learn and master Radiator Maintenance",
+      "tags": [
+        "radiator",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3415",
+      "name": "Daidaita daidaitawa",
+      "difficulty_level": 5,
+      "description": "Learn and master Tire Balancing",
+      "tags": [
+        "tire",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3416",
+      "name": "Ba da izini",
+      "difficulty_level": 3,
+      "description": "Learn and master Transmission Servicing",
+      "tags": [
+        "transmission",
+        "servicing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3417",
+      "name": "Ƙafa ja",
+      "difficulty_level": 5,
+      "description": "Learn and master Wheel Alignment",
+      "tags": [
+        "wheel",
+        "alignment",
+        "skill"
+      ]
+    }
+  ]
+}

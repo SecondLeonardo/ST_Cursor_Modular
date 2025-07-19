@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "Kỹ năng thể chất & thể thao",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "Thể hình & sức mạnh"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "Thể thao cá nhân"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "Võ thuật"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "Ngoài trời & phiêu lưu"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "Hoạt động giải trí"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "Thể thao đồng đội"
+    }
+  ]
+}

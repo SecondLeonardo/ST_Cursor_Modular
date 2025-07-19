@@ -1,0 +1,118 @@
+{
+  "id": "digital_technology_skills_data_ai",
+  "name": "Data & AI",
+  "skills": [
+    {
+      "id": "skill_2203",
+      "name": "AI Prompt Engineering",
+      "difficulty_level": 2,
+      "description": "Learn and master AI Prompt Engineering",
+      "tags": [
+        "prompt",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2204",
+      "name": "Gegevensanalyse met Excel",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Analysis with Excel",
+      "tags": [
+        "data",
+        "analysis",
+        "with",
+        "excel"
+      ]
+    },
+    {
+      "id": "skill_2205",
+      "name": "Gegevensreinigingstechnieken",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning Techniques",
+      "tags": [
+        "data",
+        "cleaning",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2206",
+      "name": "Datavisualisatie met Tableau",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Visualization with Tableau",
+      "tags": [
+        "data",
+        "visualization",
+        "with",
+        "tableau"
+      ]
+    },
+    {
+      "id": "skill_2207",
+      "name": "Basics voor machine learning",
+      "difficulty_level": 5,
+      "description": "Learn and master Machine Learning Basics",
+      "tags": [
+        "machine",
+        "learning",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2208",
+      "name": "Natuurlijke taalverwerking",
+      "difficulty_level": 5,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_2209",
+      "name": "Panda's voor data science",
+      "difficulty_level": 3,
+      "description": "Learn and master Pandas for Data Science",
+      "tags": [
+        "pandas",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_2210",
+      "name": "Python voor data science",
+      "difficulty_level": 3,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_2211",
+      "name": "SQL voor gegevensquery's",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL for Data Queries",
+      "tags": [
+        "data",
+        "queries",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2212",
+      "name": "Statistieken voor AI",
+      "difficulty_level": 1,
+      "description": "Learn and master Statistics for AI",
+      "tags": [
+        "statistics",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

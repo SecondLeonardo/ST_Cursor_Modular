@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_personal_care",
+  "name": "Persönliche Fürsorge",
+  "skills": [
+    {
+      "id": "skill_2599",
+      "name": "Körperpflegeprodukte",
+      "difficulty_level": 4,
+      "description": "Learn and master Body Care Products",
+      "tags": [
+        "body",
+        "care",
+        "products"
+      ]
+    },
+    {
+      "id": "skill_2600",
+      "name": "Pflegegewohnheiten",
+      "difficulty_level": 3,
+      "description": "Learn and master Grooming Habits",
+      "tags": [
+        "grooming",
+        "habits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2601",
+      "name": "Haarpflegetechniken",
+      "difficulty_level": 2,
+      "description": "Learn and master Haircare Techniques",
+      "tags": [
+        "haircare",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2602",
+      "name": "Make -up -Grundlagen",
+      "difficulty_level": 2,
+      "description": "Learn and master Makeup Basics",
+      "tags": [
+        "makeup",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2603",
+      "name": "Nagelpflege",
+      "difficulty_level": 2,
+      "description": "Learn and master Nail Care",
+      "tags": [
+        "nail",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2604",
+      "name": "Mundpflege",
+      "difficulty_level": 3,
+      "description": "Learn and master Oral Care",
+      "tags": [
+        "oral",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2605",
+      "name": "Persönliche Hygiene",
+      "difficulty_level": 4,
+      "description": "Learn and master Personal Hygiene",
+      "tags": [
+        "personal",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2606",
+      "name": "Routineplanung",
+      "difficulty_level": 2,
+      "description": "Learn and master Routine Scheduling",
+      "tags": [
+        "routine",
+        "scheduling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2607",
+      "name": "Rasieren und Trimmen",
+      "difficulty_level": 3,
+      "description": "Learn and master Shaving & Trimming",
+      "tags": [
+        "shaving",
+        "trimming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2608",
+      "name": "Hautpflege -Routine",
+      "difficulty_level": 4,
+      "description": "Learn and master Skincare Routine",
+      "tags": [
+        "skincare",
+        "routine",
+        "skill"
+      ]
+    }
+  ]
+}

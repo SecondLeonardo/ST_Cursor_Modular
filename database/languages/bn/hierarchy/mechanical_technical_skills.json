@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "যান্ত্রিক ও প্রযুক্তিগত দক্ষতা",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "স্বয়ংচালিত রক্ষণাবেক্ষণ"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "ইঞ্জিনিয়ারিং বেসিক"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "হোম মেরামত ও ইনস্টলেশন"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "মেশিন অপারেশন"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "সরঞ্জাম ব্যবহার এবং সুরক্ষা"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "কাঠ ও ধাতব কাজ"
+    }
+  ]
+}

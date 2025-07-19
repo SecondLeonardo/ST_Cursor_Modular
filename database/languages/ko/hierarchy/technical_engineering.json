@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "기술 및 엔지니어링",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "민사 및 구조"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "전기 공학"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "제조 및 제조"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "기계 공학"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "소프트웨어 및 시스템"
+    }
+  ]
+}

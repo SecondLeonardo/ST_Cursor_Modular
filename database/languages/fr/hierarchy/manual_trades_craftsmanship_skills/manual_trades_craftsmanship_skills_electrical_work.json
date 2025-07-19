@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_electrical_work",
+  "name": "Travail électrique",
+  "skills": [
+    {
+      "id": "skill_3428",
+      "name": "Configuration du panneau de disjoncteur",
+      "difficulty_level": 1,
+      "description": "Learn and master Breaker Panel Setup",
+      "tags": [
+        "breaker",
+        "panel",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_3429",
+      "name": "Tests de circuit",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Testing",
+      "tags": [
+        "circuit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3430",
+      "name": "Flexion des conduits",
+      "difficulty_level": 4,
+      "description": "Learn and master Conduit Bending",
+      "tags": [
+        "conduit",
+        "bending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3431",
+      "name": "Câblage à domicile",
+      "difficulty_level": 3,
+      "description": "Learn and master Home Automation Wiring",
+      "tags": [
+        "home",
+        "automation",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_3432",
+      "name": "Systèmes d'éclairage",
+      "difficulty_level": 2,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3433",
+      "name": "Remplacement de sortie",
+      "difficulty_level": 1,
+      "description": "Learn and master Outlet Replacement",
+      "tags": [
+        "outlet",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3434",
+      "name": "Configuration du détecteur de fumée",
+      "difficulty_level": 2,
+      "description": "Learn and master Smoke Detector Setup",
+      "tags": [
+        "smoke",
+        "detector",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_3435",
+      "name": "Installation du panneau solaire",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Installation",
+      "tags": [
+        "solar",
+        "panel",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_3436",
+      "name": "Protection contre les surtensions",
+      "difficulty_level": 2,
+      "description": "Learn and master Surge Protection",
+      "tags": [
+        "surge",
+        "protection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3437",
+      "name": "Installation de câblage",
+      "difficulty_level": 3,
+      "description": "Learn and master Wiring Installation",
+      "tags": [
+        "wiring",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

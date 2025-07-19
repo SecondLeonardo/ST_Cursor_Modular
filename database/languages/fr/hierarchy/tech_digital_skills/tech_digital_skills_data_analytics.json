@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_data_analytics",
+  "name": "Données et analyses",
+  "skills": [
+    {
+      "id": "skill_4386",
+      "name": "Big Data Basics",
+      "difficulty_level": 4,
+      "description": "Learn and master Big Data Basics",
+      "tags": [
+        "data",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4387",
+      "name": "Création de tableaux de bord",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Dashboards",
+      "tags": [
+        "creating",
+        "dashboards",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4388",
+      "name": "Nettoyage des données avec des pandas",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Cleaning with Pandas",
+      "tags": [
+        "data",
+        "cleaning",
+        "with",
+        "pandas"
+      ]
+    },
+    {
+      "id": "skill_4389",
+      "name": "Modélisation des données",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Modeling",
+      "tags": [
+        "data",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4390",
+      "name": "Visualisation des données",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4391",
+      "name": "Analyse des données Excel",
+      "difficulty_level": 5,
+      "description": "Learn and master Excel Data Analysis",
+      "tags": [
+        "excel",
+        "data",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4392",
+      "name": "Analyse des données exploratoires",
+      "difficulty_level": 5,
+      "description": "Learn and master Exploratory Data Analysis",
+      "tags": [
+        "exploratory",
+        "data",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4393",
+      "name": "Requêtes SQL",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL Queries",
+      "tags": [
+        "queries",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4394",
+      "name": "Analyse des séries chronologiques",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Series Analysis",
+      "tags": [
+        "time",
+        "series",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4395",
+      "name": "Utilisation d'outils BI",
+      "difficulty_level": 1,
+      "description": "Learn and master Using BI Tools",
+      "tags": [
+        "using",
+        "tools",
+        "skill"
+      ]
+    }
+  ]
+}

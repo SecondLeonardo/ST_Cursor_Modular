@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "డిజిటల్ & టెక్నాలజీ నైపుణ్యాలు",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "సైబర్‌ సెక్యూరిటీ"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "డేటా & AI"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "ఇది & నెట్‌వర్కింగ్"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "ప్రోగ్రామింగ్ & అభివృద్ధి"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "వెబ్ & మొబైల్"
+    }
+  ]
+}

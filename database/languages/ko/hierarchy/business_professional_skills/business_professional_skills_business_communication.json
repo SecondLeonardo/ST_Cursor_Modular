@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_business_communication",
+  "name": "비즈니스 커뮤니케이션",
+  "skills": [
+    {
+      "id": "skill_914",
+      "name": "비즈니스 서신",
+      "difficulty_level": 1,
+      "description": "Learn and master Business Correspondence",
+      "tags": [
+        "business",
+        "correspondence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_915",
+      "name": "비즈니스 제안 생성",
+      "difficulty_level": 2,
+      "description": "Learn and master Business Proposal Creation",
+      "tags": [
+        "business",
+        "proposal",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_916",
+      "name": "문화 간 의사 소통",
+      "difficulty_level": 4,
+      "description": "Learn and master Cross-Cultural Communication",
+      "tags": [
+        "cross-cultural",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_917",
+      "name": "내부 커뮤니케이션 도구",
+      "difficulty_level": 3,
+      "description": "Learn and master Internal Communication Tools",
+      "tags": [
+        "internal",
+        "communication",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_918",
+      "name": "회의록 녹음",
+      "difficulty_level": 4,
+      "description": "Learn and master Meeting Minutes Recording",
+      "tags": [
+        "meeting",
+        "minutes",
+        "recording"
+      ]
+    },
+    {
+      "id": "skill_919",
+      "name": "프레젠테이션 빌딩",
+      "difficulty_level": 5,
+      "description": "Learn and master Presentation Building",
+      "tags": [
+        "presentation",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_920",
+      "name": "전문 이메일 쓰기",
+      "difficulty_level": 2,
+      "description": "Learn and master Professional Email Writing",
+      "tags": [
+        "professional",
+        "email",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_921",
+      "name": "대중 연설",
+      "difficulty_level": 5,
+      "description": "Learn and master Public Speaking",
+      "tags": [
+        "public",
+        "speaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_922",
+      "name": "보고서 작성",
+      "difficulty_level": 5,
+      "description": "Learn and master Report Writing",
+      "tags": [
+        "report",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_923",
+      "name": "쓰기 메모",
+      "difficulty_level": 5,
+      "description": "Learn and master Writing Memos",
+      "tags": [
+        "writing",
+        "memos",
+        "skill"
+      ]
+    }
+  ]
+}

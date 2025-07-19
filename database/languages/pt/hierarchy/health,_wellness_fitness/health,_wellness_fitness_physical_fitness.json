@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_physical_fitness",
+  "name": "Aptidão física",
+  "skills": [
+    {
+      "id": "skill_2788",
+      "name": "Exercícios de peso corporal",
+      "difficulty_level": 1,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2789",
+      "name": "Exercícios cardio",
+      "difficulty_level": 5,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2790",
+      "name": "Treinamento de resistência",
+      "difficulty_level": 4,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2791",
+      "name": "Planejamento de fitness",
+      "difficulty_level": 2,
+      "description": "Learn and master Fitness Planning",
+      "tags": [
+        "fitness",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2792",
+      "name": "Movimento funcional",
+      "difficulty_level": 3,
+      "description": "Learn and master Functional Movement",
+      "tags": [
+        "functional",
+        "movement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2793",
+      "name": "Rotinas HIIT",
+      "difficulty_level": 5,
+      "description": "Learn and master HIIT Routines",
+      "tags": [
+        "hiit",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2794",
+      "name": "Exercícios de kettlebell",
+      "difficulty_level": 5,
+      "description": "Learn and master Kettlebell Workouts",
+      "tags": [
+        "kettlebell",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2795",
+      "name": "Pliometria",
+      "difficulty_level": 2,
+      "description": "Learn and master Plyometrics",
+      "tags": [
+        "plyometrics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2796",
+      "name": "Treinamento de força",
+      "difficulty_level": 1,
+      "description": "Learn and master Strength Training",
+      "tags": [
+        "strength",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2797",
+      "name": "Técnicas de alongamento",
+      "difficulty_level": 4,
+      "description": "Learn and master Stretching Techniques",
+      "tags": [
+        "stretching",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

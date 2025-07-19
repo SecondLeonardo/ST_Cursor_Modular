@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_medical_knowledge",
+  "name": "Ujuzi wa matibabu",
+  "skills": [
+    {
+      "id": "skill_2533",
+      "name": "Msaada wa kwanza wa kwanza",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic First Aid",
+      "tags": [
+        "basic",
+        "first",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2534",
+      "name": "Uthibitisho wa CPR",
+      "difficulty_level": 1,
+      "description": "Learn and master CPR Certification",
+      "tags": [
+        "certification",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2535",
+      "name": "Kuzuia ugonjwa",
+      "difficulty_level": 1,
+      "description": "Learn and master Disease Prevention",
+      "tags": [
+        "disease",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2536",
+      "name": "Jibu la dharura",
+      "difficulty_level": 2,
+      "description": "Learn and master Emergency Response",
+      "tags": [
+        "emergency",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2537",
+      "name": "Istilahi ya afya",
+      "difficulty_level": 3,
+      "description": "Learn and master Health Terminology",
+      "tags": [
+        "health",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2538",
+      "name": "Udhibiti wa maambukizi",
+      "difficulty_level": 3,
+      "description": "Learn and master Infection Control",
+      "tags": [
+        "infection",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2539",
+      "name": "Usimamizi wa dawa",
+      "difficulty_level": 5,
+      "description": "Learn and master Medication Management",
+      "tags": [
+        "medication",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2540",
+      "name": "Uhamasishaji wa chanjo",
+      "difficulty_level": 5,
+      "description": "Learn and master Vaccination Awareness",
+      "tags": [
+        "vaccination",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2541",
+      "name": "Ufuatiliaji wa ishara muhimu",
+      "difficulty_level": 5,
+      "description": "Learn and master Vital Signs Monitoring",
+      "tags": [
+        "vital",
+        "signs",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "skill_2542",
+      "name": "Utunzaji wa jeraha",
+      "difficulty_level": 5,
+      "description": "Learn and master Wound Care",
+      "tags": [
+        "wound",
+        "care",
+        "skill"
+      ]
+    }
+  ]
+}

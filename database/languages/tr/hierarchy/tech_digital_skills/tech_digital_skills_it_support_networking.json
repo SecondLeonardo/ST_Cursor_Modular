@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_it_support_networking",
+  "name": "BT Destek ve Ağ",
+  "skills": [
+    {
+      "id": "skill_4436",
+      "name": "DNS ve DHCP",
+      "difficulty_level": 1,
+      "description": "Learn and master DNS & DHCP",
+      "tags": [
+        "dhcp",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4437",
+      "name": "E -posta Sunucusu Yapılandırması",
+      "difficulty_level": 5,
+      "description": "Learn and master Email Server Configuration",
+      "tags": [
+        "email",
+        "server",
+        "configuration"
+      ]
+    },
+    {
+      "id": "skill_4438",
+      "name": "Yardım Masa Yönetimi",
+      "difficulty_level": 4,
+      "description": "Learn and master Help Desk Management",
+      "tags": [
+        "help",
+        "desk",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_4439",
+      "name": "Linux Sistem Yöneticisi",
+      "difficulty_level": 3,
+      "description": "Learn and master Linux System Admin",
+      "tags": [
+        "linux",
+        "system",
+        "admin"
+      ]
+    },
+    {
+      "id": "skill_4440",
+      "name": "Ağ Yapılandırması",
+      "difficulty_level": 3,
+      "description": "Learn and master Network Configuration",
+      "tags": [
+        "network",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4441",
+      "name": "Yazıcı Sorun Giderme",
+      "difficulty_level": 2,
+      "description": "Learn and master Printer Troubleshooting",
+      "tags": [
+        "printer",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4442",
+      "name": "Uzak Destek Araçları",
+      "difficulty_level": 3,
+      "description": "Learn and master Remote Support Tools",
+      "tags": [
+        "remote",
+        "support",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_4443",
+      "name": "Sorun Giderme Donanımı",
+      "difficulty_level": 2,
+      "description": "Learn and master Troubleshooting Hardware",
+      "tags": [
+        "troubleshooting",
+        "hardware",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4444",
+      "name": "VPN kurulumu",
+      "difficulty_level": 1,
+      "description": "Learn and master VPN Setup",
+      "tags": [
+        "setup",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4445",
+      "name": "Windows Sistem Yöneticisi",
+      "difficulty_level": 1,
+      "description": "Learn and master Windows System Admin",
+      "tags": [
+        "windows",
+        "system",
+        "admin"
+      ]
+    }
+  ]
+}

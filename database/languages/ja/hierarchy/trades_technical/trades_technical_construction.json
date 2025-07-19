@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_construction",
+  "name": "工事",
+  "skills": [
+    {
+      "id": "skill_5195",
+      "name": "ブループリントの読書",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5196",
+      "name": "コンクリート仕上げ",
+      "difficulty_level": 3,
+      "description": "Learn and master Concrete Finishing",
+      "tags": [
+        "concrete",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5197",
+      "name": "解体",
+      "difficulty_level": 5,
+      "description": "Learn and master Demolition",
+      "tags": [
+        "demolition",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5198",
+      "name": "ドライウォールぶら下がっています",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Hanging",
+      "tags": [
+        "drywall",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5199",
+      "name": "フレーミング",
+      "difficulty_level": 3,
+      "description": "Learn and master Framing",
+      "tags": [
+        "framing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5200",
+      "name": "断熱材の設置",
+      "difficulty_level": 4,
+      "description": "Learn and master Insulation Installation",
+      "tags": [
+        "insulation",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5201",
+      "name": "屋根の設置",
+      "difficulty_level": 1,
+      "description": "Learn and master Roofing Installation",
+      "tags": [
+        "roofing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5202",
+      "name": "足場セットアップ",
+      "difficulty_level": 3,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5203",
+      "name": "サイトの安全",
+      "difficulty_level": 3,
+      "description": "Learn and master Site Safety",
+      "tags": [
+        "site",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5204",
+      "name": "測量",
+      "difficulty_level": 4,
+      "description": "Learn and master Surveying",
+      "tags": [
+        "surveying",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

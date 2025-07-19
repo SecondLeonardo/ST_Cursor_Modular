@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "বিজ্ঞান ও প্রযুক্তিগত দক্ষতা",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "জ্যোতির্বিজ্ঞান"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "জীববিজ্ঞান ও জীবন বিজ্ঞান"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "রসায়ন"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "কম্পিউটার বিজ্ঞান"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "ডেটা সায়েন্স এবং এআই"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "পৃথিবী ও পরিবেশগত বিজ্ঞান"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "ইঞ্জিনিয়ারিং শাখা"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "গণিত ও পরিসংখ্যান"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "পদার্থবিজ্ঞান এবং মেকানিক্স"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "রোবোটিক্স এবং অটোমেশন"
+    }
+  ]
+}

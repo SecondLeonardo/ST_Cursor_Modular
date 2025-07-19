@@ -1,0 +1,116 @@
+{
+  "id": "life_everyday_skills_home_maintenance",
+  "name": "घर का रखरखाव",
+  "skills": [
+    {
+      "id": "skill_3258",
+      "name": "बुनियादी विद्युत निर्धारण",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Electrical Fixes",
+      "tags": [
+        "basic",
+        "electrical",
+        "fixes"
+      ]
+    },
+    {
+      "id": "skill_3259",
+      "name": "बुनियादी नलसाजी",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Plumbing",
+      "tags": [
+        "basic",
+        "plumbing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3260",
+      "name": "लीक नल को ठीक करना",
+      "difficulty_level": 4,
+      "description": "Learn and master Fixing Leaky Faucets",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucets"
+      ]
+    },
+    {
+      "id": "skill_3261",
+      "name": "फर्नीचर असेंबली",
+      "difficulty_level": 1,
+      "description": "Learn and master Furniture Assembly",
+      "tags": [
+        "furniture",
+        "assembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3262",
+      "name": "लटकी अलमारियों",
+      "difficulty_level": 4,
+      "description": "Learn and master Hanging Shelves",
+      "tags": [
+        "hanging",
+        "shelves",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3263",
+      "name": "होम सेफ्टी चेक",
+      "difficulty_level": 5,
+      "description": "Learn and master Home Safety Checks",
+      "tags": [
+        "home",
+        "safety",
+        "checks"
+      ]
+    },
+    {
+      "id": "skill_3264",
+      "name": "प्रकाश बल्ब प्रतिस्थापन",
+      "difficulty_level": 1,
+      "description": "Learn and master Light Bulb Replacement",
+      "tags": [
+        "light",
+        "bulb",
+        "replacement"
+      ]
+    },
+    {
+      "id": "skill_3265",
+      "name": "टाइल मरम्मत",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Repair",
+      "tags": [
+        "tile",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3266",
+      "name": "नालियों को खोलना",
+      "difficulty_level": 5,
+      "description": "Learn and master Unclogging Drains",
+      "tags": [
+        "unclogging",
+        "drains",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3267",
+      "name": "दीवार चित्रकला तकनीक",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Painting Techniques",
+      "tags": [
+        "wall",
+        "painting",
+        "techniques"
+      ]
+    }
+  ]
+}

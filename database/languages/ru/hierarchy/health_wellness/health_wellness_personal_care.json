@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_personal_care",
+  "name": "Личная помощь",
+  "skills": [
+    {
+      "id": "skill_2599",
+      "name": "Продукты по уходу за телом",
+      "difficulty_level": 4,
+      "description": "Learn and master Body Care Products",
+      "tags": [
+        "body",
+        "care",
+        "products"
+      ]
+    },
+    {
+      "id": "skill_2600",
+      "name": "Привычки ухода",
+      "difficulty_level": 3,
+      "description": "Learn and master Grooming Habits",
+      "tags": [
+        "grooming",
+        "habits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2601",
+      "name": "Методы ухода за волосами",
+      "difficulty_level": 2,
+      "description": "Learn and master Haircare Techniques",
+      "tags": [
+        "haircare",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2602",
+      "name": "Основы макияжа",
+      "difficulty_level": 2,
+      "description": "Learn and master Makeup Basics",
+      "tags": [
+        "makeup",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2603",
+      "name": "Уход за ногтями",
+      "difficulty_level": 2,
+      "description": "Learn and master Nail Care",
+      "tags": [
+        "nail",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2604",
+      "name": "Уход за полостью рта",
+      "difficulty_level": 3,
+      "description": "Learn and master Oral Care",
+      "tags": [
+        "oral",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2605",
+      "name": "Личная гигиена",
+      "difficulty_level": 4,
+      "description": "Learn and master Personal Hygiene",
+      "tags": [
+        "personal",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2606",
+      "name": "Рутинное планирование",
+      "difficulty_level": 2,
+      "description": "Learn and master Routine Scheduling",
+      "tags": [
+        "routine",
+        "scheduling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2607",
+      "name": "Бритье и обрезка",
+      "difficulty_level": 3,
+      "description": "Learn and master Shaving & Trimming",
+      "tags": [
+        "shaving",
+        "trimming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2608",
+      "name": "Рутина по уходу за кожей",
+      "difficulty_level": 4,
+      "description": "Learn and master Skincare Routine",
+      "tags": [
+        "skincare",
+        "routine",
+        "skill"
+      ]
+    }
+  ]
+}

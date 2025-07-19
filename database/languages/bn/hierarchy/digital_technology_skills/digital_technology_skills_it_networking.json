@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_it_networking",
+  "name": "এটি এবং নেটওয়ার্কিং",
+  "skills": [
+    {
+      "id": "skill_2213",
+      "name": "ক্লাউড স্টোরেজ ম্যানেজমেন্ট",
+      "difficulty_level": 5,
+      "description": "Learn and master Cloud Storage Management",
+      "tags": [
+        "cloud",
+        "storage",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_2214",
+      "name": "কম্পিউটার হার্ডওয়্যার সেটআপ",
+      "difficulty_level": 4,
+      "description": "Learn and master Computer Hardware Setup",
+      "tags": [
+        "computer",
+        "hardware",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_2215",
+      "name": "ডিএনএস পরিচালনা",
+      "difficulty_level": 1,
+      "description": "Learn and master DNS Management",
+      "tags": [
+        "management",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2216",
+      "name": "এটি বেসিক সমর্থন",
+      "difficulty_level": 5,
+      "description": "Learn and master IT Support Basics",
+      "tags": [
+        "support",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2217",
+      "name": "লিনাক্স কমান্ড লাইন",
+      "difficulty_level": 1,
+      "description": "Learn and master Linux Command Line",
+      "tags": [
+        "linux",
+        "command",
+        "line"
+      ]
+    },
+    {
+      "id": "skill_2218",
+      "name": "নেটওয়ার্ক কনফিগারেশন",
+      "difficulty_level": 3,
+      "description": "Learn and master Network Configuration",
+      "tags": [
+        "network",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2219",
+      "name": "নেটওয়ার্ক সমস্যা সমাধান",
+      "difficulty_level": 1,
+      "description": "Learn and master Network Troubleshooting",
+      "tags": [
+        "network",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2220",
+      "name": "সিস্টেম প্রশাসন",
+      "difficulty_level": 2,
+      "description": "Learn and master System Administration",
+      "tags": [
+        "system",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2221",
+      "name": "ভার্চুয়ালাইজেশন",
+      "difficulty_level": 3,
+      "description": "Learn and master Virtualization",
+      "tags": [
+        "virtualization",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2222",
+      "name": "ওয়াই-ফাই অপ্টিমাইজেশন",
+      "difficulty_level": 2,
+      "description": "Learn and master Wi-Fi Optimization",
+      "tags": [
+        "wi-fi",
+        "optimization",
+        "skill"
+      ]
+    }
+  ]
+}

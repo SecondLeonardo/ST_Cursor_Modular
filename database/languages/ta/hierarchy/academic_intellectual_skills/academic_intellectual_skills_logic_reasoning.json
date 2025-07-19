@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_logic_reasoning",
+  "name": "தர்க்கம் & பகுத்தறிவு",
+  "skills": [
+    {
+      "id": "skill_160",
+      "name": "சுருக்க பகுத்தறிவு",
+      "difficulty_level": 4,
+      "description": "Learn and master Abstract Reasoning",
+      "tags": [
+        "abstract",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_161",
+      "name": "விலக்கு பகுத்தறிவு",
+      "difficulty_level": 1,
+      "description": "Learn and master Deductive Reasoning",
+      "tags": [
+        "deductive",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_162",
+      "name": "வீழ்ச்சி அடையாளம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Fallacy Identification",
+      "tags": [
+        "fallacy",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_163",
+      "name": "தூண்டல் தர்க்கம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Inductive Logic",
+      "tags": [
+        "inductive",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_164",
+      "name": "தர்க்க புதிர்கள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Logic Puzzles",
+      "tags": [
+        "logic",
+        "puzzles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_165",
+      "name": "கணித தர்க்கம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Mathematical Logic",
+      "tags": [
+        "mathematical",
+        "logic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_166",
+      "name": "முறை அங்கீகாரம்",
+      "difficulty_level": 3,
+      "description": "Learn and master Pattern Recognition",
+      "tags": [
+        "pattern",
+        "recognition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_167",
+      "name": "சிக்கல் சிதைவு",
+      "difficulty_level": 4,
+      "description": "Learn and master Problem Decomposition",
+      "tags": [
+        "problem",
+        "decomposition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_168",
+      "name": "புதிர் தீர்க்கும்",
+      "difficulty_level": 2,
+      "description": "Learn and master Puzzle Solving",
+      "tags": [
+        "puzzle",
+        "solving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_169",
+      "name": "அமைப்புகள் சிந்தனை",
+      "difficulty_level": 2,
+      "description": "Learn and master Systems Thinking",
+      "tags": [
+        "systems",
+        "thinking",
+        "skill"
+      ]
+    }
+  ]
+}

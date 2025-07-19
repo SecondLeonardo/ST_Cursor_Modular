@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "तांत्रिक आणि अभियांत्रिकी",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "नागरी आणि स्ट्रक्चरल"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "इलेक्ट्रिकल अभियांत्रिकी"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "उत्पादन आणि बनावट"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "यांत्रिकी अभियांत्रिकी"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "सॉफ्टवेअर आणि सिस्टम"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_performing_arts",
+  "name": "পারফর্মিং আর্টস",
+  "skills": [
+    {
+      "id": "skill_750",
+      "name": "কোরিওগ্রাফি",
+      "difficulty_level": 1,
+      "description": "Learn and master Choreography",
+      "tags": [
+        "choreography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_751",
+      "name": "নাচের অভিনয়",
+      "difficulty_level": 1,
+      "description": "Learn and master Dance Performance",
+      "tags": [
+        "dance",
+        "performance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_752",
+      "name": "ইম্প্রোভ কমেডি",
+      "difficulty_level": 3,
+      "description": "Learn and master Improv Comedy",
+      "tags": [
+        "improv",
+        "comedy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_753",
+      "name": "মাইম",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_754",
+      "name": "পুতুল",
+      "difficulty_level": 1,
+      "description": "Learn and master Puppetry",
+      "tags": [
+        "puppetry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_755",
+      "name": "মঞ্চ পরিচালনা",
+      "difficulty_level": 5,
+      "description": "Learn and master Stage Directing",
+      "tags": [
+        "stage",
+        "directing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_756",
+      "name": "মঞ্চ উপস্থিতি",
+      "difficulty_level": 1,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_757",
+      "name": "গল্প বলা",
+      "difficulty_level": 2,
+      "description": "Learn and master Storytelling",
+      "tags": [
+        "storytelling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_758",
+      "name": "থিয়েটার অভিনয়",
+      "difficulty_level": 2,
+      "description": "Learn and master Theater Acting",
+      "tags": [
+        "theater",
+        "acting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_759",
+      "name": "ভয়েস অভিনয়",
+      "difficulty_level": 5,
+      "description": "Learn and master Voice Acting",
+      "tags": [
+        "voice",
+        "acting",
+        "skill"
+      ]
+    }
+  ]
+}

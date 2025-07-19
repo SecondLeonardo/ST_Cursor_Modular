@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_language_linguistics",
+  "name": "Язык и лингвистика",
+  "skills": [
+    {
+      "id": "skill_130",
+      "name": "Основной перевод",
+      "difficulty_level": 1,
+      "description": "Learn and master Basic Translation",
+      "tags": [
+        "basic",
+        "translation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_131",
+      "name": "Творческое письмо",
+      "difficulty_level": 2,
+      "description": "Learn and master Creative Writing",
+      "tags": [
+        "creative",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_132",
+      "name": "Структура эссе",
+      "difficulty_level": 4,
+      "description": "Learn and master Essay Structure",
+      "tags": [
+        "essay",
+        "structure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_133",
+      "name": "Грамматические правила",
+      "difficulty_level": 3,
+      "description": "Learn and master Grammar Rules",
+      "tags": [
+        "grammar",
+        "rules",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_134",
+      "name": "Изучение иностранных алфавитов",
+      "difficulty_level": 2,
+      "description": "Learn and master Learning Foreign Alphabets",
+      "tags": [
+        "learning",
+        "foreign",
+        "alphabets"
+      ]
+    },
+    {
+      "id": "skill_135",
+      "name": "Фонетическая практика",
+      "difficulty_level": 3,
+      "description": "Learn and master Phonetics Practice",
+      "tags": [
+        "phonetics",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_136",
+      "name": "Публичные выступления",
+      "difficulty_level": 3,
+      "description": "Learn and master Public Speaking",
+      "tags": [
+        "public",
+        "speaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_137",
+      "name": "Понимание прочитанного",
+      "difficulty_level": 3,
+      "description": "Learn and master Reading Comprehension",
+      "tags": [
+        "reading",
+        "comprehension",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_138",
+      "name": "Речевая артикуляция",
+      "difficulty_level": 3,
+      "description": "Learn and master Speech Articulation",
+      "tags": [
+        "speech",
+        "articulation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_139",
+      "name": "Словарный запас",
+      "difficulty_level": 2,
+      "description": "Learn and master Vocabulary Building",
+      "tags": [
+        "vocabulary",
+        "building",
+        "skill"
+      ]
+    }
+  ]
+}

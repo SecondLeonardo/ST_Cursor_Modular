@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+  "name": "Penguasaan Alat Tangan",
+  "skills": [
+    {
+      "id": "skill_3448",
+      "name": "Penggunaan pahat",
+      "difficulty_level": 2,
+      "description": "Learn and master Chisel Use",
+      "tags": [
+        "chisel",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3449",
+      "name": "Teknik penjepit",
+      "difficulty_level": 4,
+      "description": "Learn and master Clamp Techniques",
+      "tags": [
+        "clamp",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3450",
+      "name": "File dan penggunaan serak",
+      "difficulty_level": 5,
+      "description": "Learn and master File and Rasp Use",
+      "tags": [
+        "file",
+        "rasp",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3451",
+      "name": "Kontrol palu",
+      "difficulty_level": 1,
+      "description": "Learn and master Hammer Control",
+      "tags": [
+        "hammer",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3452",
+      "name": "Operasi gergaji tangan",
+      "difficulty_level": 3,
+      "description": "Learn and master Hand Saw Operation",
+      "tags": [
+        "hand",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3453",
+      "name": "Penyamarataan",
+      "difficulty_level": 3,
+      "description": "Learn and master Leveling",
+      "tags": [
+        "leveling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3454",
+      "name": "Mengukur pembacaan pita",
+      "difficulty_level": 2,
+      "description": "Learn and master Measuring Tape Reading",
+      "tags": [
+        "measuring",
+        "tape",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_3455",
+      "name": "Presisi tang",
+      "difficulty_level": 1,
+      "description": "Learn and master Pliers Precision",
+      "tags": [
+        "pliers",
+        "precision",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3456",
+      "name": "Teknik obeng",
+      "difficulty_level": 4,
+      "description": "Learn and master Screwdriver Techniques",
+      "tags": [
+        "screwdriver",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3457",
+      "name": "Penanganan kunci pas",
+      "difficulty_level": 2,
+      "description": "Learn and master Wrench Handling",
+      "tags": [
+        "wrench",
+        "handling",
+        "skill"
+      ]
+    }
+  ]
+}

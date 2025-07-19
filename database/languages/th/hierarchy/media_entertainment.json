@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "สื่อและความบันเทิง",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "การผลิตวิดีโอ"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "การผลิตเสียง"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "การถ่ายภาพ"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "การออกแบบกราฟิก"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "การแสดงและประสิทธิภาพ"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "การเขียนและการเขียนบท"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "การออกอากาศ"
+    }
+  ]
+}

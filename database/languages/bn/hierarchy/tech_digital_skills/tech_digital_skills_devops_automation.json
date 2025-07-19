@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_devops_automation",
+  "name": "ডিভোপস এবং অটোমেশন",
+  "skills": [
+    {
+      "id": "skill_4406",
+      "name": "স্বয়ংক্রিয় পরীক্ষা",
+      "difficulty_level": 3,
+      "description": "Learn and master Automated Testing",
+      "tags": [
+        "automated",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4407",
+      "name": "সিআই/সিডি পাইপলাইন",
+      "difficulty_level": 5,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4408",
+      "name": "ক্লাউড ডিপ্লোয়মেন্ট অটোমেশন",
+      "difficulty_level": 4,
+      "description": "Learn and master Cloud Deployment Automation",
+      "tags": [
+        "cloud",
+        "deployment",
+        "automation"
+      ]
+    },
+    {
+      "id": "skill_4409",
+      "name": "ডকার বেসিক",
+      "difficulty_level": 3,
+      "description": "Learn and master Docker Basics",
+      "tags": [
+        "docker",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4410",
+      "name": "গিটলাব সিআই",
+      "difficulty_level": 1,
+      "description": "Learn and master GitLab CI",
+      "tags": [
+        "gitlab",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4411",
+      "name": "কোড হিসাবে অবকাঠামো",
+      "difficulty_level": 3,
+      "description": "Learn and master Infrastructure as Code",
+      "tags": [
+        "infrastructure",
+        "code",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4412",
+      "name": "জেনকিন্স অটোমেশন",
+      "difficulty_level": 1,
+      "description": "Learn and master Jenkins Automation",
+      "tags": [
+        "jenkins",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4413",
+      "name": "পর্যবেক্ষণ এবং লগিং",
+      "difficulty_level": 3,
+      "description": "Learn and master Monitoring & Logging",
+      "tags": [
+        "monitoring",
+        "logging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4414",
+      "name": "রিলিজ ম্যানেজমেন্ট",
+      "difficulty_level": 4,
+      "description": "Learn and master Release Management",
+      "tags": [
+        "release",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4415",
+      "name": "টেরফর্ম",
+      "difficulty_level": 5,
+      "description": "Learn and master Terraform",
+      "tags": [
+        "terraform",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

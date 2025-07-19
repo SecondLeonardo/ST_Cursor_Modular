@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_software_systems",
+  "name": "Программное обеспечение и системы",
+  "skills": [
+    {
+      "id": "skill_4546",
+      "name": "API и интеграция",
+      "difficulty_level": 1,
+      "description": "Learn and master APIs and Integration",
+      "tags": [
+        "apis",
+        "integration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4547",
+      "name": "Agile Development Practices",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Development Practices",
+      "tags": [
+        "agile",
+        "development",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4548",
+      "name": "CI/CD трубопроводы",
+      "difficulty_level": 1,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4549",
+      "name": "Облачная инфраструктура (AWS/GCP)",
+      "difficulty_level": 3,
+      "description": "Learn and master Cloud Infrastructure (AWS/GCP)",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "(aws/gcp)"
+      ]
+    },
+    {
+      "id": "skill_4550",
+      "name": "Методы отладки",
+      "difficulty_level": 1,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4551",
+      "name": "Основы тестирования программного обеспечения",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Testing Basics",
+      "tags": [
+        "software",
+        "testing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4552",
+      "name": "Системная архитектура дизайн",
+      "difficulty_level": 1,
+      "description": "Learn and master System Architecture Design",
+      "tags": [
+        "system",
+        "architecture",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4553",
+      "name": "Техническая документация",
+      "difficulty_level": 1,
+      "description": "Learn and master Technical Documentation",
+      "tags": [
+        "technical",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4554",
+      "name": "UML -диаграмма",
+      "difficulty_level": 5,
+      "description": "Learn and master UML Diagramming",
+      "tags": [
+        "diagramming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4555",
+      "name": "Управление версией с GIT",
+      "difficulty_level": 3,
+      "description": "Learn and master Version Control with Git",
+      "tags": [
+        "version",
+        "control",
+        "with"
+      ]
+    }
+  ]
+}

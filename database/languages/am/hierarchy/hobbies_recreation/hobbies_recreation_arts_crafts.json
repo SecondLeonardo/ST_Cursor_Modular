@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_arts_crafts",
+  "name": "ሥነጥበብ እና የእጅ ሥራዎች",
+  "skills": [
+    {
+      "id": "skill_5345",
+      "name": "ሥዕል",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5346",
+      "name": "ስዕል",
+      "difficulty_level": 1,
+      "description": "Learn and master Drawing",
+      "tags": [
+        "drawing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5347",
+      "name": "መቅረጽ",
+      "difficulty_level": 2,
+      "description": "Learn and master Sculpting",
+      "tags": [
+        "sculpting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5348",
+      "name": "ሹራብ",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5349",
+      "name": "መከርከም",
+      "difficulty_level": 4,
+      "description": "Learn and master Crocheting",
+      "tags": [
+        "crocheting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5350",
+      "name": "መጸዳጃ ቤት",
+      "difficulty_level": 1,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5351",
+      "name": "ኦሪሚኒ",
+      "difficulty_level": 5,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5352",
+      "name": "የሸክላ ዕቃ",
+      "difficulty_level": 3,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5353",
+      "name": "ጥሪ",
+      "difficulty_level": 5,
+      "description": "Learn and master Calligraphy",
+      "tags": [
+        "calligraphy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5354",
+      "name": "የጌጣጌጥ ሥራ",
+      "difficulty_level": 5,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    }
+  ]
+}

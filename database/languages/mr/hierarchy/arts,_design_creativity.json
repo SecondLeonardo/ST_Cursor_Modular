@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "कला, डिझाइन आणि सर्जनशीलता",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "हस्तकला आणि डीआयवाय"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "सर्जनशील लेखन"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "डिझाइन आणि डिजिटल कला"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "परफॉर्मिंग आर्ट्स"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "व्हिज्युअल आर्ट्स"
+    }
+  ]
+}

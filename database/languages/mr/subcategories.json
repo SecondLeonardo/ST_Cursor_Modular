@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "अर्थशास्त्र"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "भूगोल"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "इतिहास"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "भाषा आणि भाषाशास्त्र"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "साहित्य"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "गणित"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "तत्वज्ञान"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "मानसशास्त्र"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "विज्ञान"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "समाजशास्त्र"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "गंभीर विचार"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "इतिहास आणि संस्कृती"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "इतिहास आणि सामाजिक विज्ञान"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "भाषा आणि भाषाशास्त्र"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "भाषा"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "साहित्य आणि लेखन"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "तर्कशास्त्र आणि तर्क"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "गणित"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "तत्वज्ञान आणि गंभीर विचारसरणी"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "सार्वजनिक भाषण आणि वादविवाद"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "संशोधन आणि विश्लेषण"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "विज्ञान"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "विज्ञान आणि निसर्ग"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "अभ्यासाची तंत्रे"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "तंत्रज्ञान आणि संगणन"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "शैक्षणिक सादरीकरण"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "डेटा विश्लेषण"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "भाषा आणि लेखन"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "गणित आणि आकडेवारी"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "वैज्ञानिक संशोधन"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "अभ्यास आणि चाचणी तयारी"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "अ‍ॅनिमेशन"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "हस्तकला आणि डीआयवाय"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "सर्जनशील लेखन"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "रेखांकन आणि स्पष्टीकरण"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "फॅशन डिझाइन"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "चित्रकला"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "परफॉर्मिंग आर्ट्स"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "शिल्प"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "अ‍ॅनिमेशन आणि मोशन ग्राफिक्स"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "हस्तकला आणि डीआयवाय"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "रेखांकन आणि स्पष्टीकरण"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "फॅशन आणि कापड कला"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "चित्रपट आणि व्हिडिओ"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "चित्रकला आणि मिश्रित मीडिया"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "परफॉर्मिंग आर्ट्स"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "लेखन आणि साहित्य"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3 डी मॉडेलिंग"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "आर्किटेक्चर डिझाइन"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "हस्तकला"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "फॅशन आणि कापड"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "चित्रपट आणि व्हिडिओ"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "अंतर्गत डिझाइन"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "परफॉर्मिंग आर्ट्स"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "व्हिज्युअल आर्ट्स"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "कॅलिग्राफी"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "हस्तकला"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "डिजिटल कला आणि अ‍ॅनिमेशन"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "फॅशन डिझाइन"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "स्पष्टीकरण आणि रेखांकन"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "अंतर्गत डिझाइन"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "कापड कला"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "व्हिज्युअल आर्ट्स"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "हस्तकला आणि डीआयवाय"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "सर्जनशील लेखन"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "डिझाइन आणि डिजिटल कला"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "परफॉर्मिंग आर्ट्स"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "व्हिज्युअल आर्ट्स"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "लेखा"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "व्यवसाय धोरण"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "ग्राहक समर्थन"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "ई-कॉमर्स"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "उद्योजकता"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "वित्त"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "वित्त आणि लेखा"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "एचआर आणि भरती"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "मानवी संसाधने"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "गुंतवणूक आणि व्यापार"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "नेतृत्व आणि व्यवस्थापन"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "विपणन आणि विक्री"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "प्रकल्प व्यवस्थापन"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "विक्री आणि सीआरएम"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "व्यवसाय संप्रेषण"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "ग्राहक सेवा"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "उद्योजकता"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "वित्त आणि लेखा"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "मानवी संसाधने"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "नेतृत्व आणि व्यवस्थापन"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "कायदेशीर आणि अनुपालन"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "विपणन आणि ब्रँडिंग"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "कार्यालय उत्पादकता"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "प्रकल्प आणि वेळ व्यवस्थापन"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "प्रकल्प व्यवस्थापन"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "विक्री आणि विपणन"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "विक्री आणि वाटाघाटी"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "गंभीर विचार"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "भाषा आणि भाषाशास्त्र"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "गणित आणि तर्कशास्त्र"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "मेमरी आणि फोकस"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "विज्ञान आणि संशोधन"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "अभ्यास आणि शिकण्याची कौशल्ये"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "एकाग्रता आणि फोकस"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "गंभीर विचार"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "माहिती प्रक्रिया"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "शिकण्याची रणनीती"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "मेमरी आणि धारणा"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "समस्या सोडवणे"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "परदेशी भाषा"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "परस्पर कौशल्य"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "नॉनव्हेर्बल कम्युनिकेशन"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "सादरीकरण आणि कथाकथन"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "सार्वजनिक बोलणे"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "लेखन आणि संपादन"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "हस्तकला आणि डीआयवाय"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "सर्जनशील विचार"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "डिझाइन आणि सौंदर्यशास्त्र"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "फॅशन आणि स्टाईलिंग"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "चित्रपट आणि व्हिडिओ"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "गेम डिझाइन आणि वर्ल्डबिल्डिंग"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "संगीत आणि आवाज"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "संगीत अभिनय"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "संगीत निर्मिती"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "परफॉर्मिंग आर्ट्स"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "छायाचित्रण आणि व्हिडिओग्राफी"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "व्हिज्युअल आर्ट्स"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "लेखन आणि साहित्य"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "अभिनय आणि कामगिरी"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "अ‍ॅनिमेशन"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "क्राफ्टिंग आणि डीआयवाय"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "हस्तकला आणि डीआयवाय"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "हस्तकला आणि हस्तनिर्मित कला"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "क्रिएटिव्ह टेक"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "सर्जनशील लेखन"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "पाक कला"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "डिझाइन आणि सौंदर्यशास्त्र"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "रेखांकन आणि स्पष्टीकरण"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "फॅशन आणि स्टाईलिंग"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "फॅशन आणि कापड कला"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "चित्रपट निर्मिती आणि व्हिडिओ"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "अंतर्गत आणि फुलांचा डिझाइन"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "संगीत आणि साधने"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "संगीत निर्मिती"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "चित्रकला"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "चित्रकला आणि ललित कला"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "परफॉर्मिंग आर्ट्स"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "छायाचित्रण आणि व्हिडिओग्राफी"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "शिल्पकला आणि 3 डी कला"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "व्हिज्युअल आर्ट्स"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "लेखन आणि कथाकथन"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3 डी आणि अ‍ॅनिमेशन"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "Ui/ux"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "व्हिडिओ उत्पादन"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "कॅलिग्राफी आणि हँड लेटरिंग"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "क्राफ्टिंग आणि डीआयवाय"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "सर्जनशील लेखन"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "रेखांकन आणि स्पष्टीकरण"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "दागिने बनविणे"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "चित्रकला"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "स्क्रॅपबुकिंग आणि कोलाज"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "शिल्पकला आणि चिकणमाती"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "कापड आणि फायबर आर्ट्स"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "हस्तकला आणि डीआयवाय"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "डिजिटल कला आणि अ‍ॅनिमेशन"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "अंतर्गत आणि फॅशन"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "व्हिज्युअल आर्ट्स"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "प्राचीन भाषा"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "सांस्कृतिक जागरूकता"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "बोली कोचिंग"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "आंतर सांस्कृतिक संप्रेषण"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "भाषा शिकण्याची तंत्रे"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "भाषा"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "भाषाशास्त्र"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "भाषा साइन इन करा"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "भाषांतर आणि व्याख्या"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "लेखन प्रणाली"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3 डी मॉडेलिंग आणि अ‍ॅनिमेशन"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "ब्रँडिंग आणि ओळख"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "उदाहरण"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "यूएक्स/यूआय डिझाइन"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3 डी आणि अ‍ॅनिमेशन"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "सामग्री निर्मिती"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "डिजिटल विपणन"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "सोशल मीडिया"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "प्रवाह आणि प्रसारण"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "यूआय/यूएक्स डिझाइन"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "व्हिडिओ उत्पादन"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "वेब आणि अॅप डिझाइन"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "सायबरसुरिटी"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "डेटा आणि एआय"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "आयटी आणि नेटवर्किंग"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "प्रोग्रामिंग आणि विकास"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "वेब आणि मोबाइल"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "शैक्षणिक शिकवणी"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "लवकर बालपण शिक्षण"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "उच्च शिक्षण"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "भाषा शिकवणे"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "भाषा"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "तंत्रज्ञान शिकणे"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "साक्षरता आणि लेखन"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "विशेष शिक्षण"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "अभ्यास कौशल्य"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "चाचणी तयारी"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "ऑटोमोटिव्ह आणि वाहतूक"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "सिव्हिल अभियांत्रिकी"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "इलेक्ट्रिकल अभियांत्रिकी"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "ऊर्जा आणि उर्जा प्रणाली"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "एचव्हीएसी आणि सिस्टम"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "औद्योगिक डिझाइन"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "उत्पादन आणि उत्पादन"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "यांत्रिकी अभियांत्रिकी"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "रोबोटिक्स आणि ऑटोमेशन"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "स्ट्रक्चरल डिझाइन"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "शरीर काळजी आणि निरोगीपणा"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "प्रथमोपचार आणि सुरक्षा"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "मानसिक आरोग्य"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "पोषण आणि आहार"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "शारीरिक प्रशिक्षण"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "वैकल्पिक औषध"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "प्रथमोपचार आणि आणीबाणी"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "फिटनेस प्रशिक्षण"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "समग्र आरोग्य"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "वैद्यकीय ज्ञान"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "वैद्यकीय कौशल्ये"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "मानसिक आरोग्य"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "मानसिक आरोग्य पद्धती"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "मानसिकता आणि ध्यान"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "पोषण आणि आहार"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "वैयक्तिक काळजी"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "शारीरिक तंदुरुस्ती"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "पुनर्वसन आणि थेरपी"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "पुनरुत्पादक आरोग्य"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "स्वत: ची काळजी आणि स्वच्छता"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "झोप आणि पुनर्प्राप्ती"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "तणाव व्यवस्थापन"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "योग आणि ध्यान"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "फिटनेस प्रशिक्षण"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "पोषण"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "मैदानी आणि साहसी"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "क्रीडा कौशल्ये"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "निरोगीपणा आणि पुनर्प्राप्ती"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "वैकल्पिक औषध"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "वैद्यकीय ज्ञान"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "मानसिक आरोग्य"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "पोषण"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "वैयक्तिक प्रशिक्षण"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "शारीरिक तंदुरुस्ती"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "पुनर्वसन आणि थेरपी"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "क्रीडा कोचिंग"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "वेलनेस कोचिंग"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "योग आणि मानसिकता"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "उपकरण देखभाल"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "साफसफाई आणि आयोजन"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "हस्तकला आणि सजावट"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "विद्युत काम"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "बागकाम आणि लँडस्केपींग"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "होम ऑटोमेशन"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "मुख्यपृष्ठ दुरुस्ती"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "अंतर्गत डिझाइन"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "प्लंबिंग बेसिक्स"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "लाकूडकाम आणि सुतारकाम"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "अर्थसंकल्प आणि घरगुती वित्त"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "चाईल्ड केअर"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "पाककला आणि जेवणाची तयारी"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "किराणा खरेदी"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "मुख्यपृष्ठ साफसफाई"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "घरगुती देखभाल"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "लॉन्ड्री आणि कपड्यांची काळजी"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "आयोजन आणि डिक्लटरिंग"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "पाळीव प्राणी काळजी"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "वेळ व्यवस्थापन"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "क्रॉस-सांस्कृतिक संप्रेषण"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "परदेशी भाषा"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "ऐकणे आणि आकलन"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "भाषांतर आणि व्याख्या"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "लेखन कौशल्ये"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "भाषा शिक्षण"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "गैर-शाब्दिक संप्रेषण"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "सार्वजनिक बोलणे"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "कथाकथन आणि कथन"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "तोंडी संप्रेषण"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "लेखन आणि संपादन"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "भाषा शिक्षण"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "गणित"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "विज्ञान आणि संशोधन"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "अभ्यासाची तंत्रे"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "चाचणी तयारी"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "शैक्षणिक शिकवणी"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "शैक्षणिक साधने आणि कौशल्ये"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "भाषा शिक्षण"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "आजीवन शिक्षण"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "चाचणी तयारी"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "स्वयंपाक आणि अन्न"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "घरगुती देखभाल"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "वैयक्तिक वित्त"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "वेळ व्यवस्थापन"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "प्रवास आणि नेव्हिगेशन"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "संप्रेषण आणि संबंध"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "भावनिक बुद्धिमत्ता"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "लवचिकता आणि वाढ"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "स्वत: ची शिस्त"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "वेळ आणि ध्येय व्यवस्थापन"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "पाककला आणि अन्नाची तयारी"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY आणि दुरुस्ती"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "बागकाम आणि टिकाव"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "गृह व्यवस्थापन"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "वैयक्तिक वित्त"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "सर्व्हायव्हल कौशल्ये"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "ऑटोमोटिव्ह दुरुस्ती"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "बांधकाम व्यवहार"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "विद्युत काम"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "फर्निचर आणि अपहोल्स्ट्री"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "हाताचे साधन प्रभुत्व"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "मुख्य नूतनीकरण"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "धातूचे काम"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "प्लंबिंग आणि हीटिंग"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "कापड आणि लेदरक्राफ्ट"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "लाकूडकाम"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "ऑटोमोटिव्ह देखभाल"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "अभियांत्रिकी मूलभूत गोष्टी"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "मुख्यपृष्ठ दुरुस्ती आणि स्थापना"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "मशीन ऑपरेशन"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "साधन वापर आणि सुरक्षा"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "लाकूड आणि धातूचे काम"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "गंभीर विचार"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "भूगोल आणि वातावरण"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "इतिहास आणि संस्कृती"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "भाषा"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "गणित"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "मेमरी आणि शिकण्याची कौशल्ये"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "तत्वज्ञान आणि नीतिशास्त्र"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "मानसशास्त्र आणि वर्तन"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "विज्ञान आणि संशोधन"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "अभ्यासाची तंत्रे"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "संज्ञानात्मक लवचिकता"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "गंभीर विचार"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "भाषा शिक्षण"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "मेमरी आणि फोकस"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "अभ्यास कौशल्य"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "आत्मविश्वास आणि स्वाभिमान"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "भावनिक बुद्धिमत्ता"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "ध्येय सेटिंग आणि नियोजन"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "सवयी आणि शिस्त"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "परस्पर कौशल्य"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "नेतृत्व आणि प्रभाव"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "माइंडफुलनेस आणि कल्याण"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "सार्वजनिक बोलणे"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "स्वत: ची प्रतिबिंब"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "वेळ आणि उत्पादकता"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "नेतृत्व"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "मानसिक निरोगीपणा"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "उत्पादकता"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "सार्वजनिक बोलणे"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "स्वत: ची सुधारणा"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "भावनिक बुद्धिमत्ता"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "ध्येय सेटिंग आणि यश"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "सवयी आणि उत्पादकता"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "मानसिकता आणि निरोगीपणा"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "सार्वजनिक बोलणे आणि संप्रेषण"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "स्वत: ची शिस्त आणि फोकस"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "फिटनेस आणि कंडिशनिंग"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "मॅन्युअल लेबर आणि ट्रेड"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "मैदानी मनोरंजन"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "स्वत: ची संरक्षण आणि मार्शल आर्ट्स"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "क्रीडा आणि let थलेटिक्स"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "सर्व्हायव्हल आणि बुशक्राफ्ट"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "फिटनेस आणि सामर्थ्य"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "वैयक्तिक खेळ"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "मार्शल आर्ट्स"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "मैदानी आणि साहसी"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "मनोरंजक क्रियाकलाप"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "संघ खेळ"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "शैक्षणिक लेखन"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "जैविक विज्ञान"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "संगणक आणि डेटा विज्ञान"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "पृथ्वी आणि पर्यावरण विज्ञान"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "अभियांत्रिकी विज्ञान"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "गणित आणि आकडेवारी"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "वैद्यकीय आणि आरोग्य विज्ञान"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "भौतिक विज्ञान"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "संशोधन पद्धती"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "सामाजिक विज्ञान"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "खगोलशास्त्र"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "जीवशास्त्र आणि जीवन विज्ञान"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "रसायनशास्त्र"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "संगणक विज्ञान"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "डेटा विज्ञान आणि एआय"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "पृथ्वी आणि पर्यावरण विज्ञान"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "अभियांत्रिकी शिस्त"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "गणित आणि आकडेवारी"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "भौतिकशास्त्र आणि यांत्रिकी"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "रोबोटिक्स आणि ऑटोमेशन"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "खगोलशास्त्र"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "बायोटेक्नॉलॉजी"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "रसायनशास्त्र"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "संगणक विज्ञान"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "डेटा विज्ञान आणि एआय"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "पृथ्वी आणि पर्यावरण विज्ञान"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "इलेक्ट्रॉनिक्स"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "अभियांत्रिकी"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "गणित आणि आकडेवारी"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "भौतिकशास्त्र"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "एआय आणि मशीन लर्निंग"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "क्लाऊड कंप्यूटिंग"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "सायबरसुरिटी"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "डेटा आणि विश्लेषणे"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "डेटा विज्ञान आणि एआय"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "डेव्हप्स आणि ऑटोमेशन"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "खेळ विकास"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "आयटी आणि नेटवर्किंग"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "आयटी समर्थन आणि नेटवर्किंग"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "मोबाइल अॅप विकास"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "प्रोग्रामिंग आणि सॉफ्टवेअर डेव्हलपमेंट"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "सॉफ्टवेअर विकास"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "टेक हार्डवेअर आणि दुरुस्ती"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "टेक समर्थन आणि समस्यानिवारण"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "वेब विकास"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "नागरी आणि स्ट्रक्चरल"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "इलेक्ट्रिकल अभियांत्रिकी"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "उत्पादन आणि बनावट"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "यांत्रिकी अभियांत्रिकी"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "सॉफ्टवेअर आणि सिस्टम"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "ऑटोमोटिव्ह कौशल्ये"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "बांधकाम आणि इमारत"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "विद्युत काम"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "ऊर्जा आणि वातावरण"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "औद्योगिक कौशल्ये"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "यांत्रिक दुरुस्ती"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "सायबरसुरिटी"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "डेटा आणि एआय"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "डिजिटल विपणन"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "आयटी आणि नेटवर्किंग"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "सॉफ्टवेअर विकास"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "कृत्रिम बुद्धिमत्ता"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "क्लाऊड कंप्यूटिंग"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "संगणक मूलभूत गोष्टी"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "सायबरसुरिटी"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "डेटा आणि एआय"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "डेटा आणि विश्लेषणे"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "डिजिटल साक्षरता"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "डिजिटल विपणन"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "उदयोन्मुख तंत्रज्ञान"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "हार्डवेअर आणि इलेक्ट्रॉनिक्स"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "आयटी आणि नेटवर्किंग"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "नेटवर्किंग आणि ते"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "प्रोग्रामिंग आणि विकास"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "प्रोग्रामिंग आणि सॉफ्टवेअर डेव्हलपमेंट"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "सॉफ्टवेअर साधने"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "टेक उत्पादकता"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "टेक समर्थन आणि देखभाल"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "टेक समर्थन आणि समस्यानिवारण"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "वेब आणि अॅप विकास"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "बांधकाम आणि सुतारकाम"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "इलेक्ट्रिकल आणि प्लंबिंग"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "हस्तनिर्मित वस्तू"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "मेटलवर्क आणि वेल्डिंग"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "कापड आणि लेदरक्राफ्ट"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "पारंपारिक हस्तकला"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "ऑटोमोटिव्ह दुरुस्ती"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "सुतारकाम आणि लाकूडकाम"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "बांधकाम आणि चिनाई"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "विद्युत काम"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "एचव्हीएसी आणि रेफ्रिजरेशन"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "दागिने बनविणे"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "मेटलवर्क आणि वेल्डिंग"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "चित्रकला आणि सजावट"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "प्लंबिंग"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "टेलरिंग आणि शिवणकाम"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "ऑटोमोटिव्ह दुरुस्ती"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "सुतारकाम आणि लाकूडकाम"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "बांधकाम"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "बांधकाम आणि सुतारकाम"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "कारागिरी आणि दुरुस्ती"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "इलेक्ट्रिकल आणि मेकॅनिकल"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "विद्युत काम"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "एचव्हीएसी आणि रेफ्रिजरेशन"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "अवजड उपकरणे ऑपरेशन"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "चिनाई आणि टाइलिंग"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "धातू आणि लाकूडकाम"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "पेंटिंग आणि फिनिशिंग"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "प्लंबिंग"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "वाहन आणि मशीन देखभाल"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "वेल्डिंग आणि मेटलवर्क"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "ऑटोमोटिव्ह"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "सुतारकाम"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "बांधकाम"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "विद्युत"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "एचव्हीएसी"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "चिनाई"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "यांत्रिक"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "चित्रकला आणि सजावट"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "प्लंबिंग"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "वेल्डिंग"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "व्हिडिओ उत्पादन"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "ऑडिओ उत्पादन"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "छायाचित्रण"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "ग्राफिक डिझाइन"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "अभिनय आणि कामगिरी"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "लेखन आणि पटकथा लिहिणे"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "प्रसारण"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "कला आणि हस्तकला"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "संगीत आणि साधने"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "मैदानी क्रियाकलाप"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "गोळा करणे"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "तंदुरुस्ती आणि निरोगीपणा"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "बागकाम"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "डीआयवाय प्रकल्प"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "इटालियन पाककृती"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "जपानी पाककृती"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "मेक्सिकन पाककृती"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "भारतीय पाककृती"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "फ्रेंच पाककृती"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "चिनी पाककृती"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "मध्य पूर्व पाककृती"
+  }
+]

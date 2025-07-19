@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_fitness_training",
+  "name": "피트니스 훈련",
+  "skills": [
+    {
+      "id": "skill_2513",
+      "name": "체중 운동",
+      "difficulty_level": 5,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2514",
+      "name": "심장 운동",
+      "difficulty_level": 3,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2515",
+      "name": "CrossFit 기본 사항",
+      "difficulty_level": 3,
+      "description": "Learn and master CrossFit Basics",
+      "tags": [
+        "crossfit",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2516",
+      "name": "사이클링 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Cycling Techniques",
+      "tags": [
+        "cycling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2517",
+      "name": "지구력 달리기",
+      "difficulty_level": 2,
+      "description": "Learn and master Endurance Running",
+      "tags": [
+        "endurance",
+        "running",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2518",
+      "name": "유연성 훈련",
+      "difficulty_level": 3,
+      "description": "Learn and master Flexibility Training",
+      "tags": [
+        "flexibility",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2519",
+      "name": "HIIT",
+      "difficulty_level": 1,
+      "description": "Learn and master HIIT",
+      "tags": [
+        "hiit",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2520",
+      "name": "저항 밴드 훈련",
+      "difficulty_level": 5,
+      "description": "Learn and master Resistance Band Training",
+      "tags": [
+        "resistance",
+        "band",
+        "training"
+      ]
+    },
+    {
+      "id": "skill_2521",
+      "name": "근력 훈련",
+      "difficulty_level": 4,
+      "description": "Learn and master Strength Training",
+      "tags": [
+        "strength",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2522",
+      "name": "역도 형태",
+      "difficulty_level": 4,
+      "description": "Learn and master Weightlifting Form",
+      "tags": [
+        "weightlifting",
+        "form",
+        "skill"
+      ]
+    }
+  ]
+}

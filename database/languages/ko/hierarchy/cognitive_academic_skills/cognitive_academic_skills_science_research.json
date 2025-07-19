@@ -1,0 +1,116 @@
+{
+  "id": "cognitive_academic_skills_science_research",
+  "name": "과학 및 연구",
+  "skills": [
+    {
+      "id": "skill_1108",
+      "name": "데이터 수집 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Collection Techniques",
+      "tags": [
+        "data",
+        "collection",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_1109",
+      "name": "윤리적 연구 관행",
+      "difficulty_level": 4,
+      "description": "Learn and master Ethical Research Practices",
+      "tags": [
+        "ethical",
+        "research",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_1110",
+      "name": "실험 제어",
+      "difficulty_level": 4,
+      "description": "Learn and master Experimental Controls",
+      "tags": [
+        "experimental",
+        "controls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1111",
+      "name": "현장 관찰",
+      "difficulty_level": 2,
+      "description": "Learn and master Field Observation",
+      "tags": [
+        "field",
+        "observation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1112",
+      "name": "가설 테스트",
+      "difficulty_level": 5,
+      "description": "Learn and master Hypothesis Testing",
+      "tags": [
+        "hypothesis",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1113",
+      "name": "실험실 실험 설계",
+      "difficulty_level": 2,
+      "description": "Learn and master Lab Experiment Design",
+      "tags": [
+        "experiment",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1114",
+      "name": "과학 저널을 읽습니다",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Scientific Journals",
+      "tags": [
+        "reading",
+        "scientific",
+        "journals"
+      ]
+    },
+    {
+      "id": "skill_1115",
+      "name": "연구 작문",
+      "difficulty_level": 1,
+      "description": "Learn and master Research Writing",
+      "tags": [
+        "research",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1116",
+      "name": "과학적 그림",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Drawing",
+      "tags": [
+        "scientific",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1117",
+      "name": "과학적 방법 적용",
+      "difficulty_level": 4,
+      "description": "Learn and master Scientific Method Application",
+      "tags": [
+        "scientific",
+        "method",
+        "application"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "academic_research_skills_mathematics_statistics",
+  "name": "గణితం & గణాంకాలు",
+  "skills": [
+    {
+      "id": "skill_290",
+      "name": "బీజగణిత తారుమారు",
+      "difficulty_level": 4,
+      "description": "Learn and master Algebraic Manipulation",
+      "tags": [
+        "algebraic",
+        "manipulation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_291",
+      "name": "గ్రాఫ్‌లు & చార్ట్‌లను సృష్టించడం",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Graphs & Charts",
+      "tags": [
+        "creating",
+        "graphs",
+        "charts"
+      ]
+    },
+    {
+      "id": "skill_292",
+      "name": "వివరణాత్మక గణాంకాలు",
+      "difficulty_level": 2,
+      "description": "Learn and master Descriptive Statistics",
+      "tags": [
+        "descriptive",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_293",
+      "name": "అనుమితి గణాంకాలు",
+      "difficulty_level": 3,
+      "description": "Learn and master Inferential Statistics",
+      "tags": [
+        "inferential",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_294",
+      "name": "సరళ బీజగణిత భావనలు",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra Concepts",
+      "tags": [
+        "linear",
+        "algebra",
+        "concepts"
+      ]
+    },
+    {
+      "id": "skill_295",
+      "name": "గణిత రుజువులు",
+      "difficulty_level": 4,
+      "description": "Learn and master Mathematical Proofs",
+      "tags": [
+        "mathematical",
+        "proofs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_296",
+      "name": "కాలిక్యులస్ సమస్యలను పరిష్కరించడం",
+      "difficulty_level": 2,
+      "description": "Learn and master Solving Calculus Problems",
+      "tags": [
+        "solving",
+        "calculus",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_297",
+      "name": "గణాంక సాఫ్ట్‌వేర్ ఉపయోగం",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Software Use",
+      "tags": [
+        "statistical",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_298",
+      "name": "సంభావ్యతను అర్థం చేసుకోవడం",
+      "difficulty_level": 2,
+      "description": "Learn and master Understanding Probability",
+      "tags": [
+        "understanding",
+        "probability",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_299",
+      "name": "గ్రాఫింగ్ కాలిక్యులేటర్లను ఉపయోగించడం",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Graphing Calculators",
+      "tags": [
+        "using",
+        "graphing",
+        "calculators"
+      ]
+    }
+  ]
+}

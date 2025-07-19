@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_game_development",
+  "name": "खेल विकास",
+  "skills": [
+    {
+      "id": "skill_4416",
+      "name": "2 डी गेम डिजाइन",
+      "difficulty_level": 4,
+      "description": "Learn and master 2D Game Design",
+      "tags": [
+        "game",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4417",
+      "name": "3 डी गेम डिजाइन",
+      "difficulty_level": 4,
+      "description": "Learn and master 3D Game Design",
+      "tags": [
+        "game",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4418",
+      "name": "खेल एनीमेशन",
+      "difficulty_level": 3,
+      "description": "Learn and master Game Animation",
+      "tags": [
+        "game",
+        "animation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4419",
+      "name": "खेल यांत्रिकी डिजाइन",
+      "difficulty_level": 2,
+      "description": "Learn and master Game Mechanics Design",
+      "tags": [
+        "game",
+        "mechanics",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4420",
+      "name": "खेल स्क्रिप्टिंग (c#)",
+      "difficulty_level": 3,
+      "description": "Learn and master Game Scripting (C#)",
+      "tags": [
+        "game",
+        "scripting",
+        "(c#)"
+      ]
+    },
+    {
+      "id": "skill_4421",
+      "name": "स्तरीय डिजाइन",
+      "difficulty_level": 2,
+      "description": "Learn and master Level Design",
+      "tags": [
+        "level",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4422",
+      "name": "मल्टीप्लेयर गेम देव",
+      "difficulty_level": 3,
+      "description": "Learn and master Multiplayer Game Dev",
+      "tags": [
+        "multiplayer",
+        "game",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4423",
+      "name": "एकता विकास",
+      "difficulty_level": 2,
+      "description": "Learn and master Unity Development",
+      "tags": [
+        "unity",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4424",
+      "name": "अवास्तविक इंजन",
+      "difficulty_level": 5,
+      "description": "Learn and master Unreal Engine",
+      "tags": [
+        "unreal",
+        "engine",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4425",
+      "name": "वीआर खेल विकास",
+      "difficulty_level": 2,
+      "description": "Learn and master VR Game Development",
+      "tags": [
+        "game",
+        "development",
+        "skill"
+      ]
+    }
+  ]
+}

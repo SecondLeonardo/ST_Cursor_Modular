@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_construction_masonry",
+  "name": "నిర్మాణం & రాతి",
+  "skills": [
+    {
+      "id": "skill_4945",
+      "name": "బ్రిక్లేయింగ్",
+      "difficulty_level": 4,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4946",
+      "name": "కాంక్రీట్ మిక్సింగ్",
+      "difficulty_level": 4,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4947",
+      "name": "ప్లాస్టార్ బోర్డ్ సంస్థాపన",
+      "difficulty_level": 5,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4948",
+      "name": "ఫౌండేషన్ పని",
+      "difficulty_level": 2,
+      "description": "Learn and master Foundation Work",
+      "tags": [
+        "foundation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4949",
+      "name": "బ్లూప్రింట్లు చదవడం",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Blueprints",
+      "tags": [
+        "reading",
+        "blueprints",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4950",
+      "name": "రీబార్ ప్లేస్‌మెంట్",
+      "difficulty_level": 4,
+      "description": "Learn and master Rebar Placement",
+      "tags": [
+        "rebar",
+        "placement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4951",
+      "name": "పరంజా సెటప్",
+      "difficulty_level": 5,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4952",
+      "name": "రాతి తాపీపని",
+      "difficulty_level": 4,
+      "description": "Learn and master Stone Masonry",
+      "tags": [
+        "stone",
+        "masonry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4953",
+      "name": "గార అప్లికేషన్",
+      "difficulty_level": 5,
+      "description": "Learn and master Stucco Application",
+      "tags": [
+        "stucco",
+        "application",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4954",
+      "name": "టైల్ సెట్టింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Setting",
+      "tags": [
+        "tile",
+        "setting",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+1. VoiceRoom & LiveRoom Overview
+- Public & private voice rooms for group discussions
+- Live streaming for skill practice and academic discussions
+- Technologies: WebRTC, Agora, cloud-based audio streaming
+
+2. Room Data Models
+- VoiceRoomModel: roomId, hostId, participants, isPrivate, createdAt
+- LiveRoomModel: roomId, hostId, topic, members, createdAt, isLive
+
+3. Room API Contracts
+- Create Room: POST /api/voicerooms
+- Join Room: POST /api/voicerooms/{roomId}/join
+
+4. 
+
+### 4.30 Live Room Shopping Center
+- **Description**: Interface for purchasing virtual goods in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark theme with black background, teal buttons, and gold currency icons.
+  - **Elements & Layout**:
+    - **Category Tabs**: Popular, Bubbles, Gift Banner, Profile.
+    - **Item Cards**: Displays items with pricing and "Buy" button.
+    - **In-app Currency Display**: Shows user's balance.
+  - **Functionality & UX Flow**:
+    - **Shopping Actions**: Browsing categories, purchasing items, and topping up currency.
+
+### 4.31 Live Room Settings
+- **Description**: Settings menu for live room features.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark theme with black background and white text/icons.
+  - **Elements & Layout**:
+    - **Settings Grid**: Features like camera, mic, share, goodie bag, poll.
+    - **Room Title & Topic Settings**: Editable fields.
+  - **Functionality & UX Flow**:
+    - **Settings Management**: Toggling features, managing room settings, and audience engagement.
+
+### 4.32 Liveroom My Targetlist Popup
+- **Description**: Popup for managing targetlist items in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark Teal gradient with black background and white text/icons.
+  - **Elements & Layout**:
+    - **Targetlist Items**: Scrollable cards with gift icons and progress counters.
+    - **Modify Button**: Allows editing targetlist items.
+  - **Functionality & UX Flow**:
+    - **Targetlist Management**: Adding, editing, and tracking targetlist items.
+
+### 4.33 Liveroom Share File Popup
+- **Description**: Popup for sharing files in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark theme with black background and white text.
+  - **Elements & Layout**:
+    - **File Sharing Options**: Whiteboard and Files icons.
+  - **Functionality & UX Flow**:
+    - **File Sharing Actions**: Opening collaborative whiteboard or uploading files.
+
+### 4.35 Live Room End Popup
+- **Description**: Confirmation popup for ending live room sessions.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark semi-transparent background with white text.
+  - **Elements & Layout**:
+    - **Confirmation Message**: Warns users about ending the event.
+    - **Action Buttons**: Cancel and End Live Event.
+  - **Functionality & UX Flow**:
+    - **Ending Session**: Confirms session end and removes participants.
+
+### 4.36 Live Room End Page
+- **Description**: Summary page after ending a live room session.
+- **UI/UX Design**:
+  - **Colors & Theme**: Gradient dark background with white text and teal button.
+  - **Elements & Layout**:
+    - **Event Summary**: Displays session stats and host information.
+    - **Host Center Button**: Encourages further engagement.
+  - **Functionality & UX Flow**:
+    - **Post-Session Actions**: Viewing detailed analytics and sharing results.
+
+### 4.37 Live Room Participation
+- **Description**: Interface for participating in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark Teal theme with gradient buttons.
+  - **Elements & Layout**:
+    - **Video Feeds**: Host and guest sections with status indicators.
+    - **Interactive Elements**: Chat options, quick responses, and engagement icons.
+  - **Functionality & UX Flow**:
+    - **User Interaction**: Engaging with hosts, sending gifts, and participating in discussions.
+
+### 4.38 Live Room Profile Popup
+- **Description**: Profile popup for live room hosts.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark gradient background with white text and teal button.
+  - **Elements & Layout**:
+    - **Profile Information**: Displays host details, targetlist, and interests.
+    - **Send Gift Button**: Encourages direct engagement.
+  - **Functionality & UX Flow**:
+    - **Profile Interaction**: Viewing host information and sending gifts.
+
+### 4.39 Liveroom Gift Ranking Popup
+- **Description**: Popup displaying gift rankings in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark theme with white text and teal button.
+  - **Elements & Layout**:
+    - **Ranking List**: Displays ranked users with medals and engagement stats.
+    - **Send Gift Button**: Provides direct interaction.
+  - **Functionality & UX Flow**:
+    - **Ranking Interaction**: Viewing rankings and supporting streamers.
+
+### 4.40 Live Room 3-Dot Popup
+- **Description**: Popup for additional options in live rooms.
+- **UI/UX Design**:
+  - **Colors & Theme**: Dark background with light text/icons.
+  - **Elements & Layout**:
+    - **Profile Cards**: Displays ongoing live rooms with viewer counts.
+    - **Go Live Button**: Encourages starting a live session.
+  - **Functionality & UX Flow**:
+    - **Room Management**: Discovering and joining live rooms or starting new sessions.
+
+
+
+5. Implementation Patterns
+- Service/provider pattern, multi-provider strategy, usage tracking, fallback system
+
+6. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 

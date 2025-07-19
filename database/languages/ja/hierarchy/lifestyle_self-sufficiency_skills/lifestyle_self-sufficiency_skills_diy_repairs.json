@@ -1,0 +1,116 @@
+{
+  "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+  "name": "DIY＆修理",
+  "skills": [
+    {
+      "id": "skill_3358",
+      "name": "家具の組み立て",
+      "difficulty_level": 2,
+      "description": "Learn and master Assembling Furniture",
+      "tags": [
+        "assembling",
+        "furniture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3359",
+      "name": "基本的な車のメンテナンス",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Car Maintenance",
+      "tags": [
+        "basic",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3360",
+      "name": "漏れやすい蛇口の修正",
+      "difficulty_level": 5,
+      "description": "Learn and master Fixing a Leaky Faucet",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucet"
+      ]
+    },
+    {
+      "id": "skill_3361",
+      "name": "棚の設置",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing a Shelf",
+      "tags": [
+        "installing",
+        "shelf",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3362",
+      "name": "部屋を描く",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting a Room",
+      "tags": [
+        "painting",
+        "room",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3363",
+      "name": "乾式壁のパッチング",
+      "difficulty_level": 5,
+      "description": "Learn and master Patching Drywall",
+      "tags": [
+        "patching",
+        "drywall",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3364",
+      "name": "照明器具の交換",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing a Light Fixture",
+      "tags": [
+        "replacing",
+        "light",
+        "fixture"
+      ]
+    },
+    {
+      "id": "skill_3365",
+      "name": "ボタンを縫う",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing a Button",
+      "tags": [
+        "sewing",
+        "button",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3366",
+      "name": "排水溝の詰まりを取り除きます",
+      "difficulty_level": 3,
+      "description": "Learn and master Unclogging a Drain",
+      "tags": [
+        "unclogging",
+        "drain",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3367",
+      "name": "電動工具の使用",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Power Tools",
+      "tags": [
+        "using",
+        "power",
+        "tools"
+      ]
+    }
+  ]
+}

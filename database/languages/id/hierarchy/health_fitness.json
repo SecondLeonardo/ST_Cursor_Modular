@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "Kesehatan & Kebugaran",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "Perawatan Tubuh & Kesehatan"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "Pertolongan Pertama & Keselamatan"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "Kesehatan mental"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "Nutrisi & Diet"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "Pelatihan fisik"
+    }
+  ]
+}

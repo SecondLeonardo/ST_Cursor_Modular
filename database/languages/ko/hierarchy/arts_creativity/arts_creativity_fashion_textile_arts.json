@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_fashion_textile_arts",
+  "name": "패션 및 섬유 예술",
+  "skills": [
+    {
+      "id": "skill_450",
+      "name": "액세서리 디자인",
+      "difficulty_level": 5,
+      "description": "Learn and master Accessory Design",
+      "tags": [
+        "accessory",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_451",
+      "name": "의상 디자인",
+      "difficulty_level": 1,
+      "description": "Learn and master Costume Design",
+      "tags": [
+        "costume",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_452",
+      "name": "자수 디자인",
+      "difficulty_level": 5,
+      "description": "Learn and master Embroidery Design",
+      "tags": [
+        "embroidery",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_453",
+      "name": "직물 선택",
+      "difficulty_level": 1,
+      "description": "Learn and master Fabric Selection",
+      "tags": [
+        "fabric",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_454",
+      "name": "패션 드레이핑",
+      "difficulty_level": 4,
+      "description": "Learn and master Fashion Draping",
+      "tags": [
+        "fashion",
+        "draping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_455",
+      "name": "패션 일러스트",
+      "difficulty_level": 5,
+      "description": "Learn and master Fashion Illustration",
+      "tags": [
+        "fashion",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_456",
+      "name": "의류 건축",
+      "difficulty_level": 4,
+      "description": "Learn and master Garment Construction",
+      "tags": [
+        "garment",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_457",
+      "name": "패턴 제작",
+      "difficulty_level": 2,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_458",
+      "name": "재봉 기본",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewing Basics",
+      "tags": [
+        "sewing",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_459",
+      "name": "섬유 인쇄",
+      "difficulty_level": 2,
+      "description": "Learn and master Textile Printing",
+      "tags": [
+        "textile",
+        "printing",
+        "skill"
+      ]
+    }
+  ]
+}

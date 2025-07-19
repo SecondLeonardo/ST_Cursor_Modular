@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_tech_support_troubleshooting",
+  "name": "技术支持和故障排除",
+  "skills": [
+    {
+      "id": "skill_4486",
+      "name": "基本脚本",
+      "difficulty_level": 1,
+      "description": "Learn and master Basic Scripting",
+      "tags": [
+        "basic",
+        "scripting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4487",
+      "name": "设备兼容性测试",
+      "difficulty_level": 1,
+      "description": "Learn and master Device Compatibility Testing",
+      "tags": [
+        "device",
+        "compatibility",
+        "testing"
+      ]
+    },
+    {
+      "id": "skill_4488",
+      "name": "诊断硬件问题",
+      "difficulty_level": 1,
+      "description": "Learn and master Diagnosing Hardware Issues",
+      "tags": [
+        "diagnosing",
+        "hardware",
+        "issues"
+      ]
+    },
+    {
+      "id": "skill_4489",
+      "name": "安装软件",
+      "difficulty_level": 5,
+      "description": "Learn and master Installing Software",
+      "tags": [
+        "installing",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4490",
+      "name": "管理用户帐户",
+      "difficulty_level": 2,
+      "description": "Learn and master Managing User Accounts",
+      "tags": [
+        "managing",
+        "user",
+        "accounts"
+      ]
+    },
+    {
+      "id": "skill_4491",
+      "name": "打印机设置",
+      "difficulty_level": 4,
+      "description": "Learn and master Printer Setup",
+      "tags": [
+        "printer",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4492",
+      "name": "重新启动和维修",
+      "difficulty_level": 4,
+      "description": "Learn and master Reboot and Repair",
+      "tags": [
+        "reboot",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4493",
+      "name": "远程技术支持",
+      "difficulty_level": 2,
+      "description": "Learn and master Remote Tech Support",
+      "tags": [
+        "remote",
+        "tech",
+        "support"
+      ]
+    },
+    {
+      "id": "skill_4494",
+      "name": "软件许可知识",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Licensing Knowledge",
+      "tags": [
+        "software",
+        "licensing",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_4495",
+      "name": "系统恢复",
+      "difficulty_level": 2,
+      "description": "Learn and master System Recovery",
+      "tags": [
+        "system",
+        "recovery",
+        "skill"
+      ]
+    }
+  ]
+}

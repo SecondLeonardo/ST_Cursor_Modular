@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_home_repair",
+  "name": "Hemreparation",
+  "skills": [
+    {
+      "id": "skill_2898",
+      "name": "Grundläggande verktygsanvändning",
+      "difficulty_level": 4,
+      "description": "Learn and master Basic Tool Use",
+      "tags": [
+        "basic",
+        "tool",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2899",
+      "name": "Tätning",
+      "difficulty_level": 4,
+      "description": "Learn and master Caulking",
+      "tags": [
+        "caulking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2900",
+      "name": "Dörrgångjärnsfästning",
+      "difficulty_level": 2,
+      "description": "Learn and master Door Hinge Fixing",
+      "tags": [
+        "door",
+        "hinge",
+        "fixing"
+      ]
+    },
+    {
+      "id": "skill_2901",
+      "name": "Gipsinstallation",
+      "difficulty_level": 2,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2902",
+      "name": "Golvplatta reparation",
+      "difficulty_level": 5,
+      "description": "Learn and master Floorboard Repair",
+      "tags": [
+        "floorboard",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2903",
+      "name": "Möbelreparation",
+      "difficulty_level": 5,
+      "description": "Learn and master Furniture Repair",
+      "tags": [
+        "furniture",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2904",
+      "name": "Målningsväggar",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2905",
+      "name": "Takläckage",
+      "difficulty_level": 3,
+      "description": "Learn and master Roof Leak Patching",
+      "tags": [
+        "roof",
+        "leak",
+        "patching"
+      ]
+    },
+    {
+      "id": "skill_2906",
+      "name": "Väggplåster",
+      "difficulty_level": 4,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2907",
+      "name": "Fönstertätningsfästning",
+      "difficulty_level": 3,
+      "description": "Learn and master Window Seal Fixing",
+      "tags": [
+        "window",
+        "seal",
+        "fixing"
+      ]
+    }
+  ]
+}

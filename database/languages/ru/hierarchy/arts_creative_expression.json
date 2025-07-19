@@ -1,0 +1,46 @@
+{
+  "id": "arts_creative_expression",
+  "name": "Искусство и творческое выражение",
+  "subcategories": [
+    {
+      "id": "arts_creative_expression_animation",
+      "name": "Анимация"
+    },
+    {
+      "id": "arts_creative_expression_crafts_diy",
+      "name": "Ремесла и DIY"
+    },
+    {
+      "id": "arts_creative_expression_creative_writing",
+      "name": "Творческое письмо"
+    },
+    {
+      "id": "arts_creative_expression_drawing_illustration",
+      "name": "Рисунок и иллюстрация"
+    },
+    {
+      "id": "arts_creative_expression_fashion_design",
+      "name": "Дизайн одежды"
+    },
+    {
+      "id": "arts_creative_expression_graphic_design",
+      "name": "Графический дизайн"
+    },
+    {
+      "id": "arts_creative_expression_painting",
+      "name": "Рисование"
+    },
+    {
+      "id": "arts_creative_expression_performing_arts",
+      "name": "Исполнительское искусство"
+    },
+    {
+      "id": "arts_creative_expression_photography",
+      "name": "Фотография"
+    },
+    {
+      "id": "arts_creative_expression_sculpture",
+      "name": "Скульптура"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_cloud_computing",
+  "name": "கிளவுட் கம்ப்யூட்டிங்",
+  "skills": [
+    {
+      "id": "skill_4676",
+      "name": "அமேசான் வலை சேவைகள் (AWS)",
+      "difficulty_level": 1,
+      "description": "Learn and master Amazon Web Services (AWS)",
+      "tags": [
+        "amazon",
+        "services",
+        "(aws)"
+      ]
+    },
+    {
+      "id": "skill_4677",
+      "name": "சிஐ/சிடி பைப்லைன்கள்",
+      "difficulty_level": 1,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4678",
+      "name": "கிளவுட் பாதுகாப்பு அடிப்படைகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Cloud Security Basics",
+      "tags": [
+        "cloud",
+        "security",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4679",
+      "name": "மேகக்கணி சேமிப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Cloud Storage",
+      "tags": [
+        "cloud",
+        "storage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4680",
+      "name": "விண்ணப்பங்களை வரிசைப்படுத்துதல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Deploying Applications",
+      "tags": [
+        "deploying",
+        "applications",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4681",
+      "name": "கூகிள் கிளவுட் இயங்குதளம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Google Cloud Platform",
+      "tags": [
+        "google",
+        "cloud",
+        "platform"
+      ]
+    },
+    {
+      "id": "skill_4682",
+      "name": "கலப்பின மேகக்கணி கருத்துக்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Hybrid Cloud Concepts",
+      "tags": [
+        "hybrid",
+        "cloud",
+        "concepts"
+      ]
+    },
+    {
+      "id": "skill_4683",
+      "name": "மைக்ரோசாஃப்ட் அஸூர்",
+      "difficulty_level": 2,
+      "description": "Learn and master Microsoft Azure",
+      "tags": [
+        "microsoft",
+        "azure",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4684",
+      "name": "சேவையகமற்ற கட்டமைப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master Serverless Architecture",
+      "tags": [
+        "serverless",
+        "architecture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4685",
+      "name": "மெய்நிகர் இயந்திரங்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Virtual Machines",
+      "tags": [
+        "virtual",
+        "machines",
+        "skill"
+      ]
+    }
+  ]
+}

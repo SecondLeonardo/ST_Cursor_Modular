@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_music_production",
+  "name": "Produkcja muzyczna",
+  "skills": [
+    {
+      "id": "skill_1352",
+      "name": "Mieszanie audio",
+      "difficulty_level": 2,
+      "description": "Learn and master Audio Mixing",
+      "tags": [
+        "audio",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1353",
+      "name": "Robienie rytmu",
+      "difficulty_level": 4,
+      "description": "Learn and master Beat Making",
+      "tags": [
+        "beat",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1354",
+      "name": "Użycie DAW (np. Ableton)",
+      "difficulty_level": 5,
+      "description": "Learn and master DAW Use (e.g., Ableton)",
+      "tags": [
+        "(e.g.,",
+        "ableton)",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1355",
+      "name": "Tworzenie pętli",
+      "difficulty_level": 3,
+      "description": "Learn and master Loop Creation",
+      "tags": [
+        "loop",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1356",
+      "name": "Programowanie MIDI",
+      "difficulty_level": 5,
+      "description": "Learn and master MIDI Programming",
+      "tags": [
+        "midi",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1357",
+      "name": "Mastering",
+      "difficulty_level": 4,
+      "description": "Learn and master Mastering",
+      "tags": [
+        "mastering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1358",
+      "name": "Techniki nagrywania",
+      "difficulty_level": 4,
+      "description": "Learn and master Recording Techniques",
+      "tags": [
+        "recording",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1359",
+      "name": "Próbowanie",
+      "difficulty_level": 2,
+      "description": "Learn and master Sampling",
+      "tags": [
+        "sampling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1360",
+      "name": "Projektowanie dźwięku",
+      "difficulty_level": 3,
+      "description": "Learn and master Sound Design",
+      "tags": [
+        "sound",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1361",
+      "name": "Przetwarzanie wokalne",
+      "difficulty_level": 2,
+      "description": "Learn and master Vocal Processing",
+      "tags": [
+        "vocal",
+        "processing",
+        "skill"
+      ]
+    }
+  ]
+}

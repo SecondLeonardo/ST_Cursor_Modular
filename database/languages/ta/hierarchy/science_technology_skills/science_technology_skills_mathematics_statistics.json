@@ -1,0 +1,116 @@
+{
+  "id": "science_technology_skills_mathematics_statistics",
+  "name": "கணிதம் மற்றும் புள்ளிவிவரங்கள்",
+  "skills": [
+    {
+      "id": "skill_4328",
+      "name": "கால்குலஸ்",
+      "difficulty_level": 5,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4329",
+      "name": "தனித்துவமான கணிதம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Discrete Math",
+      "tags": [
+        "discrete",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4330",
+      "name": "விளையாட்டுக் கோட்பாடு",
+      "difficulty_level": 1,
+      "description": "Learn and master Game Theory",
+      "tags": [
+        "game",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4331",
+      "name": "வரைபடக் கோட்பாடு",
+      "difficulty_level": 5,
+      "description": "Learn and master Graph Theory",
+      "tags": [
+        "graph",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4332",
+      "name": "நேரியல் இயற்கணிதம்",
+      "difficulty_level": 1,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4333",
+      "name": "கணித ஆதாரம் எழுத்து",
+      "difficulty_level": 5,
+      "description": "Learn and master Mathematical Proof Writing",
+      "tags": [
+        "mathematical",
+        "proof",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_4334",
+      "name": "எண் கோட்பாடு",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4335",
+      "name": "நிகழ்தகவு கோட்பாடு",
+      "difficulty_level": 1,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4336",
+      "name": "பின்னடைவு பகுப்பாய்வு",
+      "difficulty_level": 3,
+      "description": "Learn and master Regression Analysis",
+      "tags": [
+        "regression",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4337",
+      "name": "புள்ளிவிவர மாடலிங்",
+      "difficulty_level": 5,
+      "description": "Learn and master Statistical Modeling",
+      "tags": [
+        "statistical",
+        "modeling",
+        "skill"
+      ]
+    }
+  ]
+}

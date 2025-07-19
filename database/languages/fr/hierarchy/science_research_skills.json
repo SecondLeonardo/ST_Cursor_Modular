@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Sciences et compétences en recherche",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Écriture académique"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Sciences biologiques"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Science des ordinateurs et des données"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Sciences de la Terre et de l'environnement"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Sciences de l'ingénierie"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Mathématiques et statistiques"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Sciences médicales et de la santé"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Sciences physiques"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Méthodes de recherche"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Sciences sociales"
+    }
+  ]
+}

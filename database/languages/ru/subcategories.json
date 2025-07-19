@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "Экономика"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "География"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "История"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "Язык и лингвистика"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "Литература"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "Математика"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "Философия"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "Психология"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "Наука"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "Социология"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "Критическое мышление"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "История и культура"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "История и социальные науки"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "Язык и лингвистика"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "Языки"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "Литература и письмо"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "Логика и рассуждения"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "Математика"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "Философия и критическое мышление"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "Публичные выступления и дебаты"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "Исследования и анализ"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "Наука"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "Наука и природа"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "Методы исследования"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "Технология и вычисления"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "Академическая презентация"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "Анализ данных"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "Язык и письмо"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "Математика и статистика"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "Научные исследования"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "Подготовка к изучению и тестированию"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "Анимация"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "Ремесла и DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "Творческое письмо"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "Рисунок и иллюстрация"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "Дизайн одежды"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "Рисование"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "Исполнительское искусство"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "Скульптура"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "Анимация и движения графика"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "Ремесла и DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "Рисунок и иллюстрация"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "Мода и текстильное искусство"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "Фильм и видео"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "Живопись и смешанные медиа"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "Исполнительское искусство"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "Написание и литература"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3D -моделирование"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "Архитектура дизайн"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "Ремесла"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "Мода и текстиль"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "Фильм и видео"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "Дизайн интерьера"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "Исполнительское искусство"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "Визуальное искусство"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "Каллиграфия"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "Ремесла"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "Цифровое искусство и анимация"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "Дизайн одежды"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "Иллюстрация и рисунок"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "Дизайн интерьера"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "Текстильное искусство"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "Визуальное искусство"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "Ремесла и DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "Творческое письмо"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "Дизайн и цифровое искусство"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "Исполнительское искусство"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "Визуальное искусство"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "Бухгалтерский учет"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "Бизнес -стратегия"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "Поддержка клиентов"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "Электронная коммерция"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "Предпринимательство"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "Финансы"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "Финансы и бухгалтерский учет"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "HR & Recruiting"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "Человеческие ресурсы"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "Инвестиции и торговля"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "Лидерство и управление"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "Маркетинг и продажи"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "Управление проектом"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "Продажи и CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "Деловое общение"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "Обслуживание клиентов"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "Предпринимательство"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "Финансы и бухгалтерский учет"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "Человеческие ресурсы"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "Лидерство и управление"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "Юридическое и соблюдение"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "Маркетинг и брендинг"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "Производительность офиса"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "Управление проектом и временем"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "Управление проектом"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "Продажи и маркетинг"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "Продажи и переговоры"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "Критическое мышление"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "Язык и лингвистика"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "Математика и логика"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "Память и фокус"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "Наука и исследования"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "Навыки обучения и обучения"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "Концентрация и фокус"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "Критическое мышление"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "Обработка информации"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "Стратегии обучения"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "Память и удержание"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "Решение проблем"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "Иностранные языки"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "Межличностные навыки"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "Невербальное общение"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "Презентация и рассказывание историй"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "Публичные выступления"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "Написание и редактирование"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "Ремесла и DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "Творческое мышление"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "Дизайн и эстетика"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "Мода и стиль"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "Фильм и видео"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "Игровой дизайн и миростроительство"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "Музыка и звук"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "Музыкальное исполнение"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "Музыкальное производство"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "Исполнительское искусство"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "Фотография и видеография"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "Визуальное искусство"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "Написание и литература"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "Актерская игра и производительность"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "Анимация"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "Крафт и DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "Ремесла и DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "Ремесла и искусство ручной работы"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "Творческая технология"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "Творческое письмо"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "Кулинарное искусство"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "Дизайн и эстетика"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "Рисунок и иллюстрация"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "Мода и стиль"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "Мода и текстильное искусство"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "Кинопроизводство и видео"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "Интерьер и цветочный дизайн"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "Музыка и инструменты"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "Создание музыки"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "Рисование"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "Живопись и изобразительное искусство"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "Исполнительское искусство"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "Фотография и видеография"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "Скульптура и 3D -искусство"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "Визуальное искусство"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "Написание и рассказывание историй"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D & анимация"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "UI/UX"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "Видеопроизводство"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "Каллиграфия и ручная надпись"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "Крафт и DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "Творческое письмо"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "Рисунок и иллюстрация"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "Создание ювелирных изделий"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "Рисование"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "ScrapBooking & Collage"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "Скульптура и глина"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "Текстильное и волокно искусство"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "Ремесла и DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "Цифровое искусство и анимация"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "Интерьер и мода"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "Визуальное искусство"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "Древние языки"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "Культурное осознание"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "Диалект коучинг"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "Межкультурное общение"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "Методы изучения языка"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "Языки"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "Лингвистика"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "Знак языков"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "Перевод и интерпретация"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "Письменные системы"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3D -моделирование и анимация"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "Брендинг и личность"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "Иллюстрация"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "UX/дизайн пользовательского интерфейса"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D & анимация"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "Создание контента"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "Цифровой маркетинг"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "Социальные сети"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "Потоковая передача и вещание"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "UI/UX Design"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "Видеопроизводство"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "Дизайн веб -приложений и приложений"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "Кибербезопасность"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "Данные и AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "Это и сетевое взаимодействие"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "Программирование и разработка"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "Web & Mobile"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "Академическое обучение"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "Раннее детское образование"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "Высшее образование"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "Языковое обучение"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "Языки"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "Технологии обучения"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "Грамотность и письмо"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "Специальное образование"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "Учебные навыки"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "Тестовый подготовка"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "Автомобиль и транспорт"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "Гражданское строительство"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "Электротехника"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "Энергетические и энергетические системы"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC & Systems"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "Промышленный дизайн"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "Производство и производство"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "Машиностроение"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "Робототехника и автоматизация"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "Структурный дизайн"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "Уход за телом и благополучие"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "Первая помощь и безопасность"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "Психическое здоровье"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "Питание и диета"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "Физическая подготовка"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "Альтернативная медицина"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "Первая помощь и чрезвычайная ситуация"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "Фитнес -тренинги"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "Целостное здоровье"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "Медицинские знания"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "Медицинские навыки"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "Психическое здоровье"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "Практика психического здоровья"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "Осознанность и медитация"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "Питание и диета"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "Личная помощь"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "Физическая подготовка"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "Реабилитация и терапия"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "Репродуктивное здоровье"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "Самоупотребление и гигиена"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "Сон и выздоровление"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "Управление стрессом"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "Йога и медитация"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "Фитнес -тренинги"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "Питание"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "Outdoor & Adventure"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "Спортивные навыки"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "Звиночное здоровье и восстановление"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "Альтернативная медицина"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "Медицинские знания"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "Психическое здоровье"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "Питание"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "Личное обучение"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "Физическая подготовка"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "Реабилитация и терапия"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "Спортивная тренировка"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "Оздоровительное обучение"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "Йога и осознанность"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "Техническое обслуживание устройства"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "Уборка и организация"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "Ремесла и декор"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "Электрическая работа"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "Садоводство и озеленение"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "Домашняя автоматизация"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "Ремонт дома"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "Дизайн интерьера"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "Сантехника Основы"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "Деревообработка и плотницы"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "Бюджетирование и финансирование домохозяйств"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "Уход за детьми"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "Приготовление пищи и приготовления еды"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "Продуктовые магазины"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "Домашняя уборка"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "Домашнее обслуживание"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "Прачечная и уход за одеждой"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "Организация и декларирование"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "Уход за домашними животными"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "Управление временем"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "Межкультурное общение"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "Иностранные языки"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "Прослушивание и понимание"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "Перевод и интерпретация"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "Навыки письма"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "Изучение языка"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "Невербальное общение"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "Публичные выступления"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "Рассказывание историй и повествование"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "Устное общение"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "Написание и редактирование"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "Изучение языка"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "Математика"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "Наука и исследования"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "Методы исследования"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "Подготовка теста"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "Академическое обучение"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "Образовательные инструменты и навыки"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "Изучение языка"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "Пожизненное обучение"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "Подготовка теста"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "Приготовление пищи и еда"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "Домашнее обслуживание"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "Личные финансы"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "Управление временем"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "Путешествие и навигация"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "Общение и отношения"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "Эмоциональный интеллект"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "Устойчивость и рост"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "Самодисциплина"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "Управление временем и целями"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "Приготовление пищи и питания"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY и ремонт"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "Садоводство и устойчивость"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "Управление домом"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "Личные финансы"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "Навыки выживания"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "Автомобильный ремонт"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "Строительные сделки"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "Электрическая работа"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "Мебель и обивка"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "Мастерство ручного инструмента"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "Ремонт дома"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "Металлообработка"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "Сантехника и отопление"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "Текстиль и кожа"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "Деревообработка"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "Автомобильное обслуживание"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "Инженерные основы"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "Ремонт и установка дома"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "Машина"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "Использование инструмента и безопасность"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "Деревянная и металлическая работа"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "Критическое мышление"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "География и окружающая среда"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "История и культура"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "Языки"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "Математика"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "Навыки памяти и обучения"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "Философия и этика"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "Психология и поведение"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "Наука и исследования"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "Методы исследования"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "Когнитивная гибкость"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "Критическое мышление"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "Изучение языка"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "Память и фокус"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "Учебные навыки"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "Уверенность и самооценка"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "Эмоциональный интеллект"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "Постановка целей и планирование"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "Привычки и дисциплина"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "Межличностные навыки"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "Лидерство и влияние"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "Внимательность и благополучие"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "Публичные выступления"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "Саморефлексии"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "Время и производительность"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "Лидерство"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "Психическое здоровье"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "Производительность"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "Публичные выступления"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "Самосовершенствование"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "Эмоциональный интеллект"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "Постановка целей и достижения"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "Привычки и производительность"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "Осознанность и благополучие"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "Публичные выступления и общение"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "Самодисциплина и фокус"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "Фитнес и кондиционирование"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "Ручной труд и сделки"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "Отдых на открытом воздухе"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "Самооборона и боевые искусства"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "Спорт и легкая атлетика"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "Выживание и Бушкрафт"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "Фитнес и сила"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "Отдельные виды спорта"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "Боевые искусства"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "Outdoor & Adventure"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "Развлекательная деятельность"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "Командные виды спорта"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "Академическое письмо"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "Биологические науки"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "Компьютер и наука о данных"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "Земля и экологические науки"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "Инженерные науки"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "Математика и статистика"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "Медицинские и медицинские науки"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "Физические науки"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "Методы исследования"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "Социальные науки"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "Астрономия"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "Биология и науки о жизни"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "Химия"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "Информатика"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "Data Science & AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "Земля и экологические науки"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "Инженерные дисциплины"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "Математика и статистика"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "Физика и механика"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "Робототехника и автоматизация"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "Астрономия"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "Биотехнология"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "Химия"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "Информатика"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "Data Science & AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "Земля и экологическая наука"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "Электроника"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "Инженерный"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "Математика и статистика"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "Физика"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "ИИ и машинное обучение"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "Облачные вычисления"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "Кибербезопасность"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "Данные и аналитика"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "Data Science & AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps & Automation"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "Разработка игры"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "Это и сетевое взаимодействие"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "ИТ -поддержка и общение"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "Разработка мобильных приложений"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "Программирование и разработка программного обеспечения"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "Разработка программного обеспечения"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "Технологическое оборудование и ремонт"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "Техническая поддержка и устранение неполадок"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "Веб -разработка"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "Гражданский и структурный"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "Электротехника"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "Производство и изготовление"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "Машиностроение"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "Программное обеспечение и системы"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "Автомобильные навыки"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "Строительство и здание"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "Электрическая работа"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "Энергия и окружающая среда"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "Промышленные навыки"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "Механический ремонт"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "Кибербезопасность"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "Данные и AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "Цифровой маркетинг"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "Это и сетевое взаимодействие"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "Разработка программного обеспечения"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "Искусственный интеллект"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "Облачные вычисления"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "Основы компьютера"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "Кибербезопасность"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "Данные и AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "Данные и аналитика"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "Цифровая грамотность"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "Цифровой маркетинг"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "Новая технология"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "Аппаратное обеспечение и электроника"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "Это и сетевое взаимодействие"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "Сеть и это"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "Программирование и разработка"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "Программирование и разработка программного обеспечения"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "Программные инструменты"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "Технологическая производительность"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "Техническая поддержка и техническое обслуживание"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "Техническая поддержка и устранение неполадок"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "Разработка веб -приложений и приложений"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "Строительство и плотницы"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "Электрика и сантехника"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "Товары ручной работы"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "Металл и сварка"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "Текстиль и кожа"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "Традиционные поделки"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "Автомобильный ремонт"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "Плотницы и деревообработка"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "Строительство и каменная кладка"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "Электрическая работа"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC и охлаждение"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "Создание ювелирных изделий"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "Металл и сварка"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "Живопись и украшение"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "Сантехника"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "Пошив и шитье"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "Автомобильный ремонт"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "Карпентка и изделия из дерева"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "Строительство"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "Строительство и плотницы"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "Мастерство и ремонт"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "Электротехник и механический"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "Электрическая работа"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC и охлаждение"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "Операция тяжелой техники"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "Масонство и плитка"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "Металл и изделия из дерева"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "Живопись и отделка"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "Сантехника"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "Техническое обслуживание транспортных средств и машины"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "Сварка и металлические работы"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "Автомобиль"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "Плотница"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "Строительство"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "Электрический"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "Масонство"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "Механический"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "Живопись и украшение"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "Сантехника"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "Сварка"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "Видеопроизводство"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "Аудиопроизводство"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "Фотография"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "Графический дизайн"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "Актерская игра и производительность"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "Написание и написание сценариев"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "Вещание"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "Искусство и ремесла"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "Музыка и инструменты"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "На открытом воздухе"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "Сбор"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "Фитнес и здоровье"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "Садоводство"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "DIY проекты"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "Итальянская кухня"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "Японская кухня"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "Мексиканская кухня"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "Индийская кухня"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "Французская кухня"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "Китайская кухня"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "Ближняя восточная кухня"
+  }
+]

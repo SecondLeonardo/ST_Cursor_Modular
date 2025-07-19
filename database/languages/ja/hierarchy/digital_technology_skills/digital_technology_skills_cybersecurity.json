@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_cybersecurity",
+  "name": "サイバーセキュリティ",
+  "skills": [
+    {
+      "id": "skill_2193",
+      "name": "サイバー脅威分析",
+      "difficulty_level": 5,
+      "description": "Learn and master Cyber Threat Analysis",
+      "tags": [
+        "cyber",
+        "threat",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_2194",
+      "name": "データ暗号化",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Encryption",
+      "tags": [
+        "data",
+        "encryption",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2195",
+      "name": "倫理的なハッキングの基本",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Hacking Basics",
+      "tags": [
+        "ethical",
+        "hacking",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2196",
+      "name": "ファイアウォール構成",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2197",
+      "name": "マルウェア検出",
+      "difficulty_level": 5,
+      "description": "Learn and master Malware Detection",
+      "tags": [
+        "malware",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2198",
+      "name": "ネットワークセキュリティツール",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Security Tools",
+      "tags": [
+        "network",
+        "security",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2199",
+      "name": "パスワードセキュリティ",
+      "difficulty_level": 5,
+      "description": "Learn and master Password Security",
+      "tags": [
+        "password",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2200",
+      "name": "フィッシング予防",
+      "difficulty_level": 1,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2201",
+      "name": "安全なコーディングプラクティス",
+      "difficulty_level": 3,
+      "description": "Learn and master Secure Coding Practices",
+      "tags": [
+        "secure",
+        "coding",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_2202",
+      "name": "二因子認証",
+      "difficulty_level": 4,
+      "description": "Learn and master Two-Factor Authentication",
+      "tags": [
+        "two-factor",
+        "authentication",
+        "skill"
+      ]
+    }
+  ]
+}

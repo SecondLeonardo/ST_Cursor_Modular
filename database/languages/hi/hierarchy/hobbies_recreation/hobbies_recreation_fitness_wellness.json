@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_fitness_wellness",
+  "name": "फिटनेस और कल्याण",
+  "skills": [
+    {
+      "id": "skill_5385",
+      "name": "योग",
+      "difficulty_level": 2,
+      "description": "Learn and master Yoga",
+      "tags": [
+        "yoga",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5386",
+      "name": "पिलेट्स",
+      "difficulty_level": 5,
+      "description": "Learn and master Pilates",
+      "tags": [
+        "pilates",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5387",
+      "name": "ध्यान",
+      "difficulty_level": 1,
+      "description": "Learn and master Meditation",
+      "tags": [
+        "meditation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5388",
+      "name": "दौड़ना",
+      "difficulty_level": 1,
+      "description": "Learn and master Running",
+      "tags": [
+        "running",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5389",
+      "name": "भारोत्तोलन",
+      "difficulty_level": 3,
+      "description": "Learn and master Weightlifting",
+      "tags": [
+        "weightlifting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5390",
+      "name": "वायु -संबंधी",
+      "difficulty_level": 3,
+      "description": "Learn and master Aerobics",
+      "tags": [
+        "aerobics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5391",
+      "name": "साइकिल चलाना",
+      "difficulty_level": 2,
+      "description": "Learn and master Cycling",
+      "tags": [
+        "cycling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5392",
+      "name": "तैरना",
+      "difficulty_level": 2,
+      "description": "Learn and master Swimming",
+      "tags": [
+        "swimming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5393",
+      "name": "ज़ुम्बा",
+      "difficulty_level": 3,
+      "description": "Learn and master Zumba",
+      "tags": [
+        "zumba",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5394",
+      "name": "ताई ची",
+      "difficulty_level": 5,
+      "description": "Learn and master Tai Chi",
+      "tags": [
+        "skill",
+        "learning",
+        "education"
+      ]
+    }
+  ]
+}

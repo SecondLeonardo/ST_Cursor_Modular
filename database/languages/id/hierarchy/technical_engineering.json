@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "Teknis & Teknik",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "Sipil & Struktural"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "Teknik Listrik"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "Manufaktur & Fabrikasi"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "Teknik Mesin"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "Perangkat Lunak & Sistem"
+    }
+  ]
+}

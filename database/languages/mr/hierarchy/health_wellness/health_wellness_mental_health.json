@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_mental_health",
+  "name": "मानसिक आरोग्य",
+  "skills": [
+    {
+      "id": "skill_2553",
+      "name": "चिंताग्रस्त कौशल्ये",
+      "difficulty_level": 2,
+      "description": "Learn and master Anxiety Coping Skills",
+      "tags": [
+        "anxiety",
+        "coping",
+        "skills"
+      ]
+    },
+    {
+      "id": "skill_2554",
+      "name": "संज्ञानात्मक वर्तनात्मक तंत्रे",
+      "difficulty_level": 2,
+      "description": "Learn and master Cognitive Behavioral Techniques",
+      "tags": [
+        "cognitive",
+        "behavioral",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2555",
+      "name": "संकट नियोजन",
+      "difficulty_level": 4,
+      "description": "Learn and master Crisis Planning",
+      "tags": [
+        "crisis",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2556",
+      "name": "औदासिन्य व्यवस्थापन",
+      "difficulty_level": 2,
+      "description": "Learn and master Depression Management",
+      "tags": [
+        "depression",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2557",
+      "name": "भावनिक नियमन",
+      "difficulty_level": 3,
+      "description": "Learn and master Emotional Regulation",
+      "tags": [
+        "emotional",
+        "regulation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2558",
+      "name": "मानसिक आरोग्य जर्नलिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Mental Health Journaling",
+      "tags": [
+        "mental",
+        "health",
+        "journaling"
+      ]
+    },
+    {
+      "id": "skill_2559",
+      "name": "मानसिकता शिफ्टिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Mindset Shifting",
+      "tags": [
+        "mindset",
+        "shifting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2560",
+      "name": "आत्म-जागरूकता सराव",
+      "difficulty_level": 1,
+      "description": "Learn and master Self-awareness Practice",
+      "tags": [
+        "self-awareness",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2561",
+      "name": "समर्थन गट सुविधा",
+      "difficulty_level": 3,
+      "description": "Learn and master Support Group Facilitation",
+      "tags": [
+        "support",
+        "group",
+        "facilitation"
+      ]
+    },
+    {
+      "id": "skill_2562",
+      "name": "थेरपी साधने",
+      "difficulty_level": 2,
+      "description": "Learn and master Therapy Tools",
+      "tags": [
+        "therapy",
+        "tools",
+        "skill"
+      ]
+    }
+  ]
+}

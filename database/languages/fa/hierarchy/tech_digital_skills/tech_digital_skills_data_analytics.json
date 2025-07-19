@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_data_analytics",
+  "name": "داده ها و تجزیه و تحلیل",
+  "skills": [
+    {
+      "id": "skill_4386",
+      "name": "مبانی داده های بزرگ",
+      "difficulty_level": 4,
+      "description": "Learn and master Big Data Basics",
+      "tags": [
+        "data",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4387",
+      "name": "ایجاد داشبورد",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Dashboards",
+      "tags": [
+        "creating",
+        "dashboards",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4388",
+      "name": "تمیز کردن داده ها با پاندا",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Cleaning with Pandas",
+      "tags": [
+        "data",
+        "cleaning",
+        "with",
+        "pandas"
+      ]
+    },
+    {
+      "id": "skill_4389",
+      "name": "مدل سازی داده ها",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Modeling",
+      "tags": [
+        "data",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4390",
+      "name": "تجسم داده ها",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4391",
+      "name": "تجزیه و تحلیل داده های اکسل",
+      "difficulty_level": 5,
+      "description": "Learn and master Excel Data Analysis",
+      "tags": [
+        "excel",
+        "data",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4392",
+      "name": "تجزیه و تحلیل داده های اکتشافی",
+      "difficulty_level": 5,
+      "description": "Learn and master Exploratory Data Analysis",
+      "tags": [
+        "exploratory",
+        "data",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4393",
+      "name": "نمایش داده شد",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL Queries",
+      "tags": [
+        "queries",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4394",
+      "name": "تجزیه و تحلیل سری زمانی",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Series Analysis",
+      "tags": [
+        "time",
+        "series",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_4395",
+      "name": "با استفاده از ابزارهای BI",
+      "difficulty_level": 1,
+      "description": "Learn and master Using BI Tools",
+      "tags": [
+        "using",
+        "tools",
+        "skill"
+      ]
+    }
+  ]
+}

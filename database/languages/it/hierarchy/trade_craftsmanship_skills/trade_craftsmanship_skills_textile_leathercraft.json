@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_textile_leathercraft",
+  "name": "Tessile e cuoio",
+  "skills": [
+    {
+      "id": "skill_4905",
+      "name": "Installazione dei pulsanti",
+      "difficulty_level": 3,
+      "description": "Learn and master Button Installation",
+      "tags": [
+        "button",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4906",
+      "name": "Motivi di taglio",
+      "difficulty_level": 3,
+      "description": "Learn and master Cutting Patterns",
+      "tags": [
+        "cutting",
+        "patterns",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4907",
+      "name": "Pelle tintura",
+      "difficulty_level": 3,
+      "description": "Learn and master Dyeing Leather",
+      "tags": [
+        "dyeing",
+        "leather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4908",
+      "name": "Selezione del tessuto",
+      "difficulty_level": 5,
+      "description": "Learn and master Fabric Selection",
+      "tags": [
+        "fabric",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4909",
+      "name": "Cuciture a mano",
+      "difficulty_level": 5,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4910",
+      "name": "Intaglio in pelle",
+      "difficulty_level": 3,
+      "description": "Learn and master Leather Carving",
+      "tags": [
+        "leather",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4911",
+      "name": "Creazione di pattern",
+      "difficulty_level": 1,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4912",
+      "name": "Funzionamento della macchina da cucire",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing Machine Operation",
+      "tags": [
+        "sewing",
+        "machine",
+        "operation"
+      ]
+    },
+    {
+      "id": "skill_4913",
+      "name": "Pelle per utensili",
+      "difficulty_level": 5,
+      "description": "Learn and master Tooling Leather",
+      "tags": [
+        "tooling",
+        "leather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4914",
+      "name": "Sostituzione con cerniera",
+      "difficulty_level": 4,
+      "description": "Learn and master Zipper Replacement",
+      "tags": [
+        "zipper",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

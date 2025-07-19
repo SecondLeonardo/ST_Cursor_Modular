@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_automotive_transportation",
+  "name": "Автомобиль и транспорт",
+  "skills": [
+    {
+      "id": "skill_2343",
+      "name": "Авто электрические системы",
+      "difficulty_level": 3,
+      "description": "Learn and master Auto Electrical Systems",
+      "tags": [
+        "auto",
+        "electrical",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_2344",
+      "name": "Автомобильное программное обеспечение",
+      "difficulty_level": 3,
+      "description": "Learn and master Automotive Software",
+      "tags": [
+        "automotive",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2345",
+      "name": "Тормозные системы",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Systems",
+      "tags": [
+        "brake",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2346",
+      "name": "Механика двигателя",
+      "difficulty_level": 1,
+      "description": "Learn and master Engine Mechanics",
+      "tags": [
+        "engine",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2347",
+      "name": "Топливные системы",
+      "difficulty_level": 1,
+      "description": "Learn and master Fuel Systems",
+      "tags": [
+        "fuel",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2348",
+      "name": "Гибридные транспортные средства",
+      "difficulty_level": 1,
+      "description": "Learn and master Hybrid Vehicles",
+      "tags": [
+        "hybrid",
+        "vehicles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2349",
+      "name": "Настройка подвески",
+      "difficulty_level": 3,
+      "description": "Learn and master Suspension Tuning",
+      "tags": [
+        "suspension",
+        "tuning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2350",
+      "name": "Выравнивание шин",
+      "difficulty_level": 1,
+      "description": "Learn and master Tire Alignment",
+      "tags": [
+        "tire",
+        "alignment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2351",
+      "name": "Системы передачи",
+      "difficulty_level": 3,
+      "description": "Learn and master Transmission Systems",
+      "tags": [
+        "transmission",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2352",
+      "name": "Диагностика транспортных средств",
+      "difficulty_level": 1,
+      "description": "Learn and master Vehicle Diagnostics",
+      "tags": [
+        "vehicle",
+        "diagnostics",
+        "skill"
+      ]
+    }
+  ]
+}

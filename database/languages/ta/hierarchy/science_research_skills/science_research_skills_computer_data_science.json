@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_computer_data_science",
+  "name": "கணினி மற்றும் தரவு அறிவியல்",
+  "skills": [
+    {
+      "id": "skill_4068",
+      "name": "பெரிய தரவு கருவிகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4069",
+      "name": "தரவு சுத்தம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4070",
+      "name": "தரவு நெறிமுறைகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Ethics",
+      "tags": [
+        "data",
+        "ethics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4071",
+      "name": "தரவு சுரங்க",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Mining",
+      "tags": [
+        "data",
+        "mining",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4072",
+      "name": "தரவு கிடங்கு",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Warehousing",
+      "tags": [
+        "data",
+        "warehousing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4073",
+      "name": "தரவுத்தள வினவல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Database Querying",
+      "tags": [
+        "database",
+        "querying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4074",
+      "name": "இயந்திர கற்றல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Machine Learning",
+      "tags": [
+        "machine",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4075",
+      "name": "இயற்கை மொழி செயலாக்கம்",
+      "difficulty_level": 5,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4076",
+      "name": "பைதான் நிரலாக்க",
+      "difficulty_level": 4,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4077",
+      "name": "புள்ளிவிவர கணினி",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Computing",
+      "tags": [
+        "statistical",
+        "computing",
+        "skill"
+      ]
+    }
+  ]
+}

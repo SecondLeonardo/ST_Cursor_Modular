@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_mental_health",
+  "name": "Mental hälsa",
+  "skills": [
+    {
+      "id": "skill_2463",
+      "name": "Bekräftelse",
+      "difficulty_level": 3,
+      "description": "Learn and master Affirmation Practice",
+      "tags": [
+        "affirmation",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2464",
+      "name": "Ångestreduktion",
+      "difficulty_level": 4,
+      "description": "Learn and master Anxiety Reduction",
+      "tags": [
+        "anxiety",
+        "reduction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2465",
+      "name": "Kognitiva beteendeverktyg",
+      "difficulty_level": 1,
+      "description": "Learn and master Cognitive Behavioral Tools",
+      "tags": [
+        "cognitive",
+        "behavioral",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2466",
+      "name": "Digital Wellness",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Wellness",
+      "tags": [
+        "digital",
+        "wellness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2467",
+      "name": "Journalföring för mental tydlighet",
+      "difficulty_level": 1,
+      "description": "Learn and master Journaling for Mental Clarity",
+      "tags": [
+        "journaling",
+        "mental",
+        "clarity"
+      ]
+    },
+    {
+      "id": "skill_2468",
+      "name": "Mental vilopraxis",
+      "difficulty_level": 1,
+      "description": "Learn and master Mental Rest Practices",
+      "tags": [
+        "mental",
+        "rest",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_2469",
+      "name": "Mindfulness meditation",
+      "difficulty_level": 3,
+      "description": "Learn and master Mindfulness Meditation",
+      "tags": [
+        "mindfulness",
+        "meditation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2470",
+      "name": "Sömnhygien",
+      "difficulty_level": 1,
+      "description": "Learn and master Sleep Hygiene",
+      "tags": [
+        "sleep",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2471",
+      "name": "Stresshantering",
+      "difficulty_level": 1,
+      "description": "Learn and master Stress Management",
+      "tags": [
+        "stress",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2472",
+      "name": "Terapeutiska tekniker",
+      "difficulty_level": 3,
+      "description": "Learn and master Therapeutic Techniques",
+      "tags": [
+        "therapeutic",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

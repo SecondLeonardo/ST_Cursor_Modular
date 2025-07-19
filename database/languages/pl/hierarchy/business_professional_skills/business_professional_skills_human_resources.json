@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_human_resources",
+  "name": "Zasoby ludzkie",
+  "skills": [
+    {
+      "id": "skill_970",
+      "name": "Administracja świadczeń",
+      "difficulty_level": 4,
+      "description": "Learn and master Benefits Administration",
+      "tags": [
+        "benefits",
+        "administration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_971",
+      "name": "Przeprowadzanie wywiadów",
+      "difficulty_level": 1,
+      "description": "Learn and master Conducting Interviews",
+      "tags": [
+        "conducting",
+        "interviews",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_972",
+      "name": "Praktyki różnorodności i włączenia",
+      "difficulty_level": 3,
+      "description": "Learn and master Diversity & Inclusion Practices",
+      "tags": [
+        "diversity",
+        "inclusion",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_973",
+      "name": "Zaangażowanie pracowników",
+      "difficulty_level": 3,
+      "description": "Learn and master Employee Engagement",
+      "tags": [
+        "employee",
+        "engagement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_974",
+      "name": "Pracownicy na pokładzie",
+      "difficulty_level": 4,
+      "description": "Learn and master Employee Onboarding",
+      "tags": [
+        "employee",
+        "onboarding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_975",
+      "name": "Wypuszczenie wywiadów",
+      "difficulty_level": 1,
+      "description": "Learn and master Exit Interviews",
+      "tags": [
+        "exit",
+        "interviews",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_976",
+      "name": "Zgodność HR",
+      "difficulty_level": 3,
+      "description": "Learn and master HR Compliance",
+      "tags": [
+        "compliance",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_977",
+      "name": "Zastosowanie HRI",
+      "difficulty_level": 3,
+      "description": "Learn and master HRIS Usage",
+      "tags": [
+        "hris",
+        "usage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_978",
+      "name": "Recenzje wydajności",
+      "difficulty_level": 5,
+      "description": "Learn and master Performance Reviews",
+      "tags": [
+        "performance",
+        "reviews",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_979",
+      "name": "Talent rekrutacyjny",
+      "difficulty_level": 3,
+      "description": "Learn and master Recruiting Talent",
+      "tags": [
+        "recruiting",
+        "talent",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "health,_wellness_fitness",
+  "name": "สุขภาพสุขภาพและการออกกำลังกาย",
+  "subcategories": [
+    {
+      "id": "health,_wellness_fitness_alternative_medicine",
+      "name": "ยาทางเลือก"
+    },
+    {
+      "id": "health,_wellness_fitness_medical_knowledge",
+      "name": "ความรู้ทางการแพทย์"
+    },
+    {
+      "id": "health,_wellness_fitness_mental_health",
+      "name": "สุขภาพจิต"
+    },
+    {
+      "id": "health,_wellness_fitness_nutrition",
+      "name": "โภชนาการ"
+    },
+    {
+      "id": "health,_wellness_fitness_personal_training",
+      "name": "การฝึกอบรมส่วนตัว"
+    },
+    {
+      "id": "health,_wellness_fitness_physical_fitness",
+      "name": "สมรรถภาพทางกาย"
+    },
+    {
+      "id": "health,_wellness_fitness_rehabilitation_therapy",
+      "name": "การฟื้นฟูและบำบัด"
+    },
+    {
+      "id": "health,_wellness_fitness_sports_coaching",
+      "name": "การฝึกกีฬา"
+    },
+    {
+      "id": "health,_wellness_fitness_wellness_coaching",
+      "name": "การฝึกสอนสุขภาพ"
+    },
+    {
+      "id": "health,_wellness_fitness_yoga_mindfulness",
+      "name": "โยคะและสติ"
+    }
+  ]
+}

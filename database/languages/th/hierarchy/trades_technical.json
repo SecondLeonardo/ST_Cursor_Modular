@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "การค้าและเทคนิค",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "เกี่ยวกับยานยนต์"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "ช่างไม้"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "การก่อสร้าง"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "เกี่ยวกับไฟฟ้า"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "การก่ออิฐ"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "เกี่ยวกับกลไก"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "ภาพวาดและตกแต่ง"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "ประปา"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "การเชื่อม"
+    }
+  ]
+}

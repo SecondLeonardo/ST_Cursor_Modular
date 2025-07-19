@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_music_instruments",
+  "name": "সংগীত ও যন্ত্র",
+  "skills": [
+    {
+      "id": "skill_5355",
+      "name": "গিটার বাজানো",
+      "difficulty_level": 2,
+      "description": "Learn and master Guitar Playing",
+      "tags": [
+        "guitar",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5356",
+      "name": "পিয়ানো বাজছে",
+      "difficulty_level": 3,
+      "description": "Learn and master Piano Playing",
+      "tags": [
+        "piano",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5357",
+      "name": "ড্রামিং",
+      "difficulty_level": 4,
+      "description": "Learn and master Drumming",
+      "tags": [
+        "drumming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5358",
+      "name": "গাইছে",
+      "difficulty_level": 2,
+      "description": "Learn and master Singing",
+      "tags": [
+        "singing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5359",
+      "name": "সংগীত তত্ত্ব",
+      "difficulty_level": 2,
+      "description": "Learn and master Music Theory",
+      "tags": [
+        "music",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5360",
+      "name": "গীতিকার",
+      "difficulty_level": 2,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5361",
+      "name": "সংগীত উত্পাদন",
+      "difficulty_level": 4,
+      "description": "Learn and master Music Production",
+      "tags": [
+        "music",
+        "production",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5362",
+      "name": "ডিজেং",
+      "difficulty_level": 2,
+      "description": "Learn and master DJing",
+      "tags": [
+        "djing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5363",
+      "name": "বেহালা বাজছে",
+      "difficulty_level": 1,
+      "description": "Learn and master Violin Playing",
+      "tags": [
+        "violin",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5364",
+      "name": "দর্শন পড়া",
+      "difficulty_level": 2,
+      "description": "Learn and master Sight Reading",
+      "tags": [
+        "sight",
+        "reading",
+        "skill"
+      ]
+    }
+  ]
+}

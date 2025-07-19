@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_fashion_textiles",
+  "name": "패션 및 섬유",
+  "skills": [
+    {
+      "id": "skill_550",
+      "name": "액세서리 디자인",
+      "difficulty_level": 4,
+      "description": "Learn and master Accessory Design",
+      "tags": [
+        "accessory",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_551",
+      "name": "드레이핑",
+      "difficulty_level": 3,
+      "description": "Learn and master Draping",
+      "tags": [
+        "draping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_552",
+      "name": "자수",
+      "difficulty_level": 2,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_553",
+      "name": "직물 염색",
+      "difficulty_level": 2,
+      "description": "Learn and master Fabric Dyeing",
+      "tags": [
+        "fabric",
+        "dyeing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_554",
+      "name": "패션 일러스트",
+      "difficulty_level": 3,
+      "description": "Learn and master Fashion Illustration",
+      "tags": [
+        "fashion",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_555",
+      "name": "의류 건축",
+      "difficulty_level": 3,
+      "description": "Learn and master Garment Construction",
+      "tags": [
+        "garment",
+        "construction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_556",
+      "name": "편물",
+      "difficulty_level": 3,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_557",
+      "name": "패턴 제작",
+      "difficulty_level": 4,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_558",
+      "name": "재봉",
+      "difficulty_level": 5,
+      "description": "Learn and master Sewing",
+      "tags": [
+        "sewing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_559",
+      "name": "추세 예측",
+      "difficulty_level": 5,
+      "description": "Learn and master Trend Forecasting",
+      "tags": [
+        "trend",
+        "forecasting",
+        "skill"
+      ]
+    }
+  ]
+}

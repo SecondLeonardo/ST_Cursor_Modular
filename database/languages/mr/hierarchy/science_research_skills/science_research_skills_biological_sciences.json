@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_biological_sciences",
+  "name": "जैविक विज्ञान",
+  "skills": [
+    {
+      "id": "skill_4058",
+      "name": "बायोस्टॅटिस्टिक्स",
+      "difficulty_level": 4,
+      "description": "Learn and master Biostatistics",
+      "tags": [
+        "biostatistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4059",
+      "name": "वनस्पतिशास्त्र",
+      "difficulty_level": 1,
+      "description": "Learn and master Botany",
+      "tags": [
+        "botany",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4060",
+      "name": "सेल संस्कृती",
+      "difficulty_level": 3,
+      "description": "Learn and master Cell Culture",
+      "tags": [
+        "cell",
+        "culture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4061",
+      "name": "पर्यावरणशास्त्र",
+      "difficulty_level": 5,
+      "description": "Learn and master Ecology",
+      "tags": [
+        "ecology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4062",
+      "name": "फील्ड रिसर्च",
+      "difficulty_level": 5,
+      "description": "Learn and master Field Research",
+      "tags": [
+        "field",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4063",
+      "name": "अनुवांशिक",
+      "difficulty_level": 4,
+      "description": "Learn and master Genetics",
+      "tags": [
+        "genetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4064",
+      "name": "लॅब सेफ्टी प्रोटोकॉल",
+      "difficulty_level": 3,
+      "description": "Learn and master Lab Safety Protocols",
+      "tags": [
+        "safety",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4065",
+      "name": "मायक्रोबायोलॉजी",
+      "difficulty_level": 2,
+      "description": "Learn and master Microbiology",
+      "tags": [
+        "microbiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4066",
+      "name": "आण्विक जीवशास्त्र",
+      "difficulty_level": 2,
+      "description": "Learn and master Molecular Biology",
+      "tags": [
+        "molecular",
+        "biology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4067",
+      "name": "प्राणीशास्त्र",
+      "difficulty_level": 1,
+      "description": "Learn and master Zoology",
+      "tags": [
+        "zoology",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "business_finance_project_management",
+  "name": "Usimamizi wa Mradi",
+  "skills": [
+    {
+      "id": "skill_894",
+      "name": "Mbinu za Agile",
+      "difficulty_level": 2,
+      "description": "Learn and master Agile Methodologies",
+      "tags": [
+        "agile",
+        "methodologies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_895",
+      "name": "Chati za Gantt",
+      "difficulty_level": 5,
+      "description": "Learn and master Gantt Charts",
+      "tags": [
+        "gantt",
+        "charts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_896",
+      "name": "Bajeti ya Mradi",
+      "difficulty_level": 4,
+      "description": "Learn and master Project Budgeting",
+      "tags": [
+        "project",
+        "budgeting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_897",
+      "name": "Nyaraka za Mradi",
+      "difficulty_level": 3,
+      "description": "Learn and master Project Documentation",
+      "tags": [
+        "project",
+        "documentation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_898",
+      "name": "Usimamizi wa hatari",
+      "difficulty_level": 2,
+      "description": "Learn and master Risk Management",
+      "tags": [
+        "risk",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_899",
+      "name": "Mfumo wa Scrum",
+      "difficulty_level": 3,
+      "description": "Learn and master Scrum Framework",
+      "tags": [
+        "scrum",
+        "framework",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_900",
+      "name": "Mawasiliano ya wadau",
+      "difficulty_level": 1,
+      "description": "Learn and master Stakeholder Communication",
+      "tags": [
+        "stakeholder",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_901",
+      "name": "Ratiba ya kazi",
+      "difficulty_level": 3,
+      "description": "Learn and master Task Scheduling",
+      "tags": [
+        "task",
+        "scheduling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_902",
+      "name": "Trello & Asana",
+      "difficulty_level": 1,
+      "description": "Learn and master Trello & Asana",
+      "tags": [
+        "trello",
+        "asana",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_903",
+      "name": "Upangaji wa Mradi wa Maji",
+      "difficulty_level": 1,
+      "description": "Learn and master Waterfall Project Planning",
+      "tags": [
+        "waterfall",
+        "project",
+        "planning"
+      ]
+    }
+  ]
+}

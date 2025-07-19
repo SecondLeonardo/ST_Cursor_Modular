@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Wissenschafts- und Forschungsfähigkeiten",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Akademisches Schreiben"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Biologische Wissenschaften"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Computer- und Datenwissenschaft"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Erde und Umweltwissenschaften"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Ingenieurwissenschaften"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Mathematik und Statistik"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Medizin- und Gesundheitswissenschaften"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Physikalische Wissenschaften"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Forschungsmethoden"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Sozialwissenschaften"
+    }
+  ]
+}

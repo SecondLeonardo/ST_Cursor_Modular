@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_mechanical",
+  "name": "机械的",
+  "skills": [
+    {
+      "id": "skill_5235",
+      "name": "装配线工作",
+      "difficulty_level": 5,
+      "description": "Learn and master Assembly Line Work",
+      "tags": [
+        "assembly",
+        "line",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_5236",
+      "name": "轴承安装",
+      "difficulty_level": 2,
+      "description": "Learn and master Bearing Installation",
+      "tags": [
+        "bearing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5237",
+      "name": "齿轮系统",
+      "difficulty_level": 2,
+      "description": "Learn and master Gear Systems",
+      "tags": [
+        "gear",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5238",
+      "name": "液压",
+      "difficulty_level": 3,
+      "description": "Learn and master Hydraulics",
+      "tags": [
+        "hydraulics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5239",
+      "name": "润滑技术",
+      "difficulty_level": 5,
+      "description": "Learn and master Lubrication Techniques",
+      "tags": [
+        "lubrication",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5240",
+      "name": "机器维护",
+      "difficulty_level": 4,
+      "description": "Learn and master Machine Maintenance",
+      "tags": [
+        "machine",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5241",
+      "name": "机械绘画阅读",
+      "difficulty_level": 2,
+      "description": "Learn and master Mechanical Drawing Reading",
+      "tags": [
+        "mechanical",
+        "drawing",
+        "reading"
+      ]
+    },
+    {
+      "id": "skill_5242",
+      "name": "气动",
+      "difficulty_level": 5,
+      "description": "Learn and master Pneumatics",
+      "tags": [
+        "pneumatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5243",
+      "name": "轴对准",
+      "difficulty_level": 4,
+      "description": "Learn and master Shaft Alignment",
+      "tags": [
+        "shaft",
+        "alignment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5244",
+      "name": "工具维护",
+      "difficulty_level": 1,
+      "description": "Learn and master Tool Maintenance",
+      "tags": [
+        "tool",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_manufacturing_fabrication",
+  "name": "Производство и изготовление",
+  "skills": [
+    {
+      "id": "skill_4526",
+      "name": "Оптимизация сборочной линии",
+      "difficulty_level": 2,
+      "description": "Learn and master Assembly Line Optimization",
+      "tags": [
+        "assembly",
+        "line",
+        "optimization"
+      ]
+    },
+    {
+      "id": "skill_4527",
+      "name": "Управление машиной с ЧПУ",
+      "difficulty_level": 1,
+      "description": "Learn and master CNC Machine Operation",
+      "tags": [
+        "machine",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4528",
+      "name": "Заводская безопасность пола",
+      "difficulty_level": 5,
+      "description": "Learn and master Factory Floor Safety",
+      "tags": [
+        "factory",
+        "floor",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_4529",
+      "name": "Основы литья под давлением",
+      "difficulty_level": 5,
+      "description": "Learn and master Injection Molding Basics",
+      "tags": [
+        "injection",
+        "molding",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4530",
+      "name": "Принципы бережливого производства",
+      "difficulty_level": 4,
+      "description": "Learn and master Lean Manufacturing Principles",
+      "tags": [
+        "lean",
+        "manufacturing",
+        "principles"
+      ]
+    },
+    {
+      "id": "skill_4531",
+      "name": "Процессы обработки",
+      "difficulty_level": 4,
+      "description": "Learn and master Machining Processes",
+      "tags": [
+        "machining",
+        "processes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4532",
+      "name": "Стандарты обеспечения качества",
+      "difficulty_level": 4,
+      "description": "Learn and master Quality Assurance Standards",
+      "tags": [
+        "quality",
+        "assurance",
+        "standards"
+      ]
+    },
+    {
+      "id": "skill_4533",
+      "name": "Чтение технических рисунков",
+      "difficulty_level": 1,
+      "description": "Learn and master Reading Technical Drawings",
+      "tags": [
+        "reading",
+        "technical",
+        "drawings"
+      ]
+    },
+    {
+      "id": "skill_4534",
+      "name": "Инструмент и умирание",
+      "difficulty_level": 5,
+      "description": "Learn and master Tool and Die Making",
+      "tags": [
+        "tool",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4535",
+      "name": "Сварки",
+      "difficulty_level": 5,
+      "description": "Learn and master Welding Techniques",
+      "tags": [
+        "welding",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

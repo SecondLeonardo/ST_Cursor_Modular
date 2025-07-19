@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_electrical_engineering",
+  "name": "Teknik Listrik",
+  "skills": [
+    {
+      "id": "skill_2363",
+      "name": "Desain analog",
+      "difficulty_level": 1,
+      "description": "Learn and master Analog Design",
+      "tags": [
+        "analog",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2364",
+      "name": "Analisis Sirkuit",
+      "difficulty_level": 3,
+      "description": "Learn and master Circuit Analysis",
+      "tags": [
+        "circuit",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2365",
+      "name": "Rekayasa Kontrol",
+      "difficulty_level": 4,
+      "description": "Learn and master Control Engineering",
+      "tags": [
+        "control",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2366",
+      "name": "Elektronik Digital",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Electronics",
+      "tags": [
+        "digital",
+        "electronics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2367",
+      "name": "Motor listrik",
+      "difficulty_level": 3,
+      "description": "Learn and master Electric Motors",
+      "tags": [
+        "electric",
+        "motors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2368",
+      "name": "Sistem tertanam",
+      "difficulty_level": 2,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2369",
+      "name": "Distribusi daya",
+      "difficulty_level": 2,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2370",
+      "name": "Elektronik daya",
+      "difficulty_level": 5,
+      "description": "Learn and master Power Electronics",
+      "tags": [
+        "power",
+        "electronics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2371",
+      "name": "Perangkat semikonduktor",
+      "difficulty_level": 1,
+      "description": "Learn and master Semiconductor Devices",
+      "tags": [
+        "semiconductor",
+        "devices",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2372",
+      "name": "Pemrosesan sinyal",
+      "difficulty_level": 4,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    }
+  ]
+}

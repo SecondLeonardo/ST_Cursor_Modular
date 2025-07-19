@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_pet_care",
+  "name": "ペットケア",
+  "skills": [
+    {
+      "id": "skill_3018",
+      "name": "ペット薬の投与",
+      "difficulty_level": 3,
+      "description": "Learn and master Administering Pet Meds",
+      "tags": [
+        "administering",
+        "meds",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3019",
+      "name": "ペットの生息地の掃除",
+      "difficulty_level": 2,
+      "description": "Learn and master Cleaning Pet Habitats",
+      "tags": [
+        "cleaning",
+        "habitats",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3020",
+      "name": "犬の散歩",
+      "difficulty_level": 3,
+      "description": "Learn and master Dog Walking",
+      "tags": [
+        "walking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3021",
+      "name": "緊急ペットケア",
+      "difficulty_level": 4,
+      "description": "Learn and master Emergency Pet Care",
+      "tags": [
+        "emergency",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3022",
+      "name": "ペットを養う",
+      "difficulty_level": 3,
+      "description": "Learn and master Feeding Pets",
+      "tags": [
+        "feeding",
+        "pets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3023",
+      "name": "ペットのグルーミング",
+      "difficulty_level": 2,
+      "description": "Learn and master Grooming Pets",
+      "tags": [
+        "grooming",
+        "pets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3024",
+      "name": "ごみ箱のメンテナンス",
+      "difficulty_level": 2,
+      "description": "Learn and master Litter Box Maintenance",
+      "tags": [
+        "litter",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3025",
+      "name": "ペット入浴",
+      "difficulty_level": 2,
+      "description": "Learn and master Pet Bathing",
+      "tags": [
+        "bathing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3026",
+      "name": "自宅でのペットの安全",
+      "difficulty_level": 2,
+      "description": "Learn and master Pet Safety at Home",
+      "tags": [
+        "safety",
+        "home",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3027",
+      "name": "基本コマンドのトレーニング",
+      "difficulty_level": 4,
+      "description": "Learn and master Training Basic Commands",
+      "tags": [
+        "training",
+        "basic",
+        "commands"
+      ]
+    }
+  ]
+}

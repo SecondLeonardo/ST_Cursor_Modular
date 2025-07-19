@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_construction",
+  "name": "建造",
+  "skills": [
+    {
+      "id": "skill_5045",
+      "name": "混凝土倒入",
+      "difficulty_level": 3,
+      "description": "Learn and master Concrete Pouring",
+      "tags": [
+        "concrete",
+        "pouring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5046",
+      "name": "拆除技术",
+      "difficulty_level": 4,
+      "description": "Learn and master Demolition Techniques",
+      "tags": [
+        "demolition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5047",
+      "name": "石膏板安装",
+      "difficulty_level": 4,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5048",
+      "name": "基础工作",
+      "difficulty_level": 4,
+      "description": "Learn and master Foundation Work",
+      "tags": [
+        "foundation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5049",
+      "name": "材料估计",
+      "difficulty_level": 1,
+      "description": "Learn and master Material Estimation",
+      "tags": [
+        "material",
+        "estimation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5050",
+      "name": "屋顶框架",
+      "difficulty_level": 2,
+      "description": "Learn and master Roof Framing",
+      "tags": [
+        "roof",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5051",
+      "name": "安全带使用",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Harness Use",
+      "tags": [
+        "safety",
+        "harness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5052",
+      "name": "脚手架设置",
+      "difficulty_level": 2,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5053",
+      "name": "站点管理",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Management",
+      "tags": [
+        "site",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5054",
+      "name": "窗口安装",
+      "difficulty_level": 3,
+      "description": "Learn and master Window Installation",
+      "tags": [
+        "window",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

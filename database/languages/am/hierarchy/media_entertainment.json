@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "ሚዲያ እና መዝናኛ",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "የቪዲዮ ምርት"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "የድምፅ ማምረት"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "ፎቶግራፍ"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "ግራፊክ ዲዛይን"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "እርምጃ እና አፈፃፀም"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "ጽሑፍ እና ስክሪፕትሪፕት"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "ስርጭት"
+    }
+  ]
+}

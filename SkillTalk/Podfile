@@ -1,0 +1,83 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '15.1'
+
+target 'SkillTalk' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks! :linkage => :static
+
+  # Pods for SkillTalk
+  
+  # Firebase Core Services
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  
+  # Social Authentication
+  pod 'GoogleSignIn'
+  pod 'FBSDKLoginKit'
+  pod 'GoogleUtilities', '~> 8.1'  # Required for Firebase 11.15.0
+
+  # pod 'Firebase/Storage'
+  # pod 'Firebase/RemoteConfig'
+  # pod 'Firebase/Analytics'
+  # pod 'Firebase/Crashlytics'
+  # pod 'Firebase/Messaging'
+  # pod 'Firebase/Database'
+  
+  # Supabase will be added via Swift Package Manager
+  # pod 'Supabase' # Not available via CocoaPods
+  
+  # UI and Networking
+  pod 'Alamofire', '~> 5.0'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'SnapKit', '~> 5.0'
+  
+  # Audio/Video Services
+  # pod 'AgoraRtcEngine_iOS', '~> 4.0'  # Temporarily disabled due to sandbox issues
+  
+  # Utilities
+  pod 'SwiftyJSON', '~> 5.0'
+  pod 'KeychainAccess', '~> 4.0'
+  
+  # Minimal dependency to create Pods framework
+  pod 'SwiftLint', '~> 0.54.0'  # Development dependency only
+  
+  # Add a minimal pod to ensure Pods_SkillTalk framework is created
+  pod 'SwiftGen', '~> 6.6'  # Development dependency only
+  
+  target 'SkillTalkTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SkillTalkUITests' do
+    # Pods for testing
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.1'
+      # Disable code signing for pods
+      config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      # Add any needed compiler flags
+      config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['$(inherited)', '-Xfrontend -warn-concurrency']
+      
+      # Fix sandbox permission issues
+      config.build_settings['ENABLE_USER_SCRIPT_SANDBOXING'] = 'NO'
+      config.build_settings['ENABLE_STRICT_OBJC_MSGSEND'] = 'NO'
+    end
+  end
+  
+  # Completely remove the problematic resource copying script
+  installer.pods_project.targets.each do |target|
+    if target.name == 'Pods-SkillTalk'
+      # Remove the resource copying script phase entirely
+      target.build_phases.delete_if do |build_phase|
+        build_phase.is_a?(Xcodeproj::Project::Object::PBXShellScriptBuildPhase) && 
+           build_phase.name == '[CP] Copy Pods Resources'
+      end
+    end
+  end
+end 

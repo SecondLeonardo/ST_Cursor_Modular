@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_cybersecurity",
+  "name": "An ninh mạng",
+  "skills": [
+    {
+      "id": "skill_2193",
+      "name": "Phân tích mối đe dọa mạng",
+      "difficulty_level": 5,
+      "description": "Learn and master Cyber Threat Analysis",
+      "tags": [
+        "cyber",
+        "threat",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_2194",
+      "name": "Mã hóa dữ liệu",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Encryption",
+      "tags": [
+        "data",
+        "encryption",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2195",
+      "name": "Khái niệm cơ bản về hack đạo đức",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Hacking Basics",
+      "tags": [
+        "ethical",
+        "hacking",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2196",
+      "name": "Cấu hình tường lửa",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2197",
+      "name": "Phát hiện phần mềm độc hại",
+      "difficulty_level": 5,
+      "description": "Learn and master Malware Detection",
+      "tags": [
+        "malware",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2198",
+      "name": "Công cụ bảo mật mạng",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Security Tools",
+      "tags": [
+        "network",
+        "security",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2199",
+      "name": "Bảo mật mật khẩu",
+      "difficulty_level": 5,
+      "description": "Learn and master Password Security",
+      "tags": [
+        "password",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2200",
+      "name": "Phòng chống lừa đảo",
+      "difficulty_level": 1,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2201",
+      "name": "Thực hành mã hóa an toàn",
+      "difficulty_level": 3,
+      "description": "Learn and master Secure Coding Practices",
+      "tags": [
+        "secure",
+        "coding",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_2202",
+      "name": "Xác thực hai yếu tố",
+      "difficulty_level": 4,
+      "description": "Learn and master Two-Factor Authentication",
+      "tags": [
+        "two-factor",
+        "authentication",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_traditional_crafts",
+  "name": "Traditionele ambachten",
+  "skills": [
+    {
+      "id": "skill_4915",
+      "name": "Mand weven",
+      "difficulty_level": 2,
+      "description": "Learn and master Basket Weaving",
+      "tags": [
+        "basket",
+        "weaving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4916",
+      "name": "Bookbinding",
+      "difficulty_level": 2,
+      "description": "Learn and master Bookbinding",
+      "tags": [
+        "bookbinding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4917",
+      "name": "Kalligrafie",
+      "difficulty_level": 3,
+      "description": "Learn and master Calligraphy",
+      "tags": [
+        "calligraphy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4918",
+      "name": "Borduurwerk",
+      "difficulty_level": 3,
+      "description": "Learn and master Embroidery",
+      "tags": [
+        "embroidery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4919",
+      "name": "Papier maken",
+      "difficulty_level": 2,
+      "description": "Learn and master Paper Making",
+      "tags": [
+        "paper",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4920",
+      "name": "Quiltend",
+      "difficulty_level": 4,
+      "description": "Learn and master Quilting",
+      "tags": [
+        "quilting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4921",
+      "name": "Spinning garen",
+      "difficulty_level": 1,
+      "description": "Learn and master Spinning Yarn",
+      "tags": [
+        "spinning",
+        "yarn",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4922",
+      "name": "Gebrandschilderde glazen montage",
+      "difficulty_level": 1,
+      "description": "Learn and master Stained Glass Assembly",
+      "tags": [
+        "stained",
+        "glass",
+        "assembly"
+      ]
+    },
+    {
+      "id": "skill_4923",
+      "name": "Tapijtcreatie",
+      "difficulty_level": 5,
+      "description": "Learn and master Tapestry Creation",
+      "tags": [
+        "tapestry",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4924",
+      "name": "Weefmorend basics weven",
+      "difficulty_level": 3,
+      "description": "Learn and master Weaving Loom Basics",
+      "tags": [
+        "weaving",
+        "loom",
+        "basics"
+      ]
+    }
+  ]
+}

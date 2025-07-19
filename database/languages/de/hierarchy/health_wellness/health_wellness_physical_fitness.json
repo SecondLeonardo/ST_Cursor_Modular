@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_physical_fitness",
+  "name": "Körperliche Fitness",
+  "skills": [
+    {
+      "id": "skill_2609",
+      "name": "Körpergewichtsübungen",
+      "difficulty_level": 4,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2610",
+      "name": "Cardio -Workouts",
+      "difficulty_level": 2,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2611",
+      "name": "Ausdauertraining",
+      "difficulty_level": 1,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2612",
+      "name": "HIIT -Routinen",
+      "difficulty_level": 4,
+      "description": "Learn and master HIIT Routines",
+      "tags": [
+        "hiit",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2613",
+      "name": "Mobilität Drills",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobility Drills",
+      "tags": [
+        "mobility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2614",
+      "name": "Plyometrie",
+      "difficulty_level": 2,
+      "description": "Learn and master Plyometrics",
+      "tags": [
+        "plyometrics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2615",
+      "name": "Kraftkonditionierung",
+      "difficulty_level": 3,
+      "description": "Learn and master Strength Conditioning",
+      "tags": [
+        "strength",
+        "conditioning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2616",
+      "name": "Stretching -Techniken",
+      "difficulty_level": 5,
+      "description": "Learn and master Stretching Techniques",
+      "tags": [
+        "stretching",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2617",
+      "name": "Krafttraining",
+      "difficulty_level": 1,
+      "description": "Learn and master Weight Training",
+      "tags": [
+        "weight",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2618",
+      "name": "Yoga -Praxis",
+      "difficulty_level": 3,
+      "description": "Learn and master Yoga Practice",
+      "tags": [
+        "yoga",
+        "practice",
+        "skill"
+      ]
+    }
+  ]
+}

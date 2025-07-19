@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_pet_care",
+  "name": "Chăm sóc thú cưng",
+  "skills": [
+    {
+      "id": "skill_3018",
+      "name": "Quản lý thuốc PET",
+      "difficulty_level": 3,
+      "description": "Learn and master Administering Pet Meds",
+      "tags": [
+        "administering",
+        "meds",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3019",
+      "name": "Làm sạch môi trường sống của thú cưng",
+      "difficulty_level": 2,
+      "description": "Learn and master Cleaning Pet Habitats",
+      "tags": [
+        "cleaning",
+        "habitats",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3020",
+      "name": "Chó đi bộ",
+      "difficulty_level": 3,
+      "description": "Learn and master Dog Walking",
+      "tags": [
+        "walking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3021",
+      "name": "Chăm sóc thú cưng khẩn cấp",
+      "difficulty_level": 4,
+      "description": "Learn and master Emergency Pet Care",
+      "tags": [
+        "emergency",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3022",
+      "name": "Vật nuôi cho ăn",
+      "difficulty_level": 3,
+      "description": "Learn and master Feeding Pets",
+      "tags": [
+        "feeding",
+        "pets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3023",
+      "name": "Chăm sóc vật nuôi",
+      "difficulty_level": 2,
+      "description": "Learn and master Grooming Pets",
+      "tags": [
+        "grooming",
+        "pets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3024",
+      "name": "Bảo trì hộp xả rác",
+      "difficulty_level": 2,
+      "description": "Learn and master Litter Box Maintenance",
+      "tags": [
+        "litter",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3025",
+      "name": "Tắm cho thú cưng",
+      "difficulty_level": 2,
+      "description": "Learn and master Pet Bathing",
+      "tags": [
+        "bathing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3026",
+      "name": "An toàn cho thú cưng ở nhà",
+      "difficulty_level": 2,
+      "description": "Learn and master Pet Safety at Home",
+      "tags": [
+        "safety",
+        "home",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3027",
+      "name": "Đào tạo các lệnh cơ bản",
+      "difficulty_level": 4,
+      "description": "Learn and master Training Basic Commands",
+      "tags": [
+        "training",
+        "basic",
+        "commands"
+      ]
+    }
+  ]
+}

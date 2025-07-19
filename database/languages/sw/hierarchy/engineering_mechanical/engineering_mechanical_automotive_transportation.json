@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_automotive_transportation",
+  "name": "Magari na Usafiri",
+  "skills": [
+    {
+      "id": "skill_2343",
+      "name": "Mifumo ya umeme ya kiotomatiki",
+      "difficulty_level": 3,
+      "description": "Learn and master Auto Electrical Systems",
+      "tags": [
+        "auto",
+        "electrical",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_2344",
+      "name": "Programu ya magari",
+      "difficulty_level": 3,
+      "description": "Learn and master Automotive Software",
+      "tags": [
+        "automotive",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2345",
+      "name": "Mifumo ya Brake",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Systems",
+      "tags": [
+        "brake",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2346",
+      "name": "Mechanics ya injini",
+      "difficulty_level": 1,
+      "description": "Learn and master Engine Mechanics",
+      "tags": [
+        "engine",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2347",
+      "name": "Mifumo ya Mafuta",
+      "difficulty_level": 1,
+      "description": "Learn and master Fuel Systems",
+      "tags": [
+        "fuel",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2348",
+      "name": "Magari ya mseto",
+      "difficulty_level": 1,
+      "description": "Learn and master Hybrid Vehicles",
+      "tags": [
+        "hybrid",
+        "vehicles",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2349",
+      "name": "Kusimamishwa kwa kusimamishwa",
+      "difficulty_level": 3,
+      "description": "Learn and master Suspension Tuning",
+      "tags": [
+        "suspension",
+        "tuning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2350",
+      "name": "Alignment ya tairi",
+      "difficulty_level": 1,
+      "description": "Learn and master Tire Alignment",
+      "tags": [
+        "tire",
+        "alignment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2351",
+      "name": "Mifumo ya maambukizi",
+      "difficulty_level": 3,
+      "description": "Learn and master Transmission Systems",
+      "tags": [
+        "transmission",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2352",
+      "name": "Utambuzi wa gari",
+      "difficulty_level": 1,
+      "description": "Learn and master Vehicle Diagnostics",
+      "tags": [
+        "vehicle",
+        "diagnostics",
+        "skill"
+      ]
+    }
+  ]
+}

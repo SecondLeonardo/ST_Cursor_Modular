@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_construction_trades",
+  "name": "Intercambios de construcción",
+  "skills": [
+    {
+      "id": "skill_3418",
+      "name": "Lectura de planos",
+      "difficulty_level": 5,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3419",
+      "name": "Albañil",
+      "difficulty_level": 5,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3420",
+      "name": "Acabado de concreto",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Finishing",
+      "tags": [
+        "concrete",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3421",
+      "name": "Seguridad del sitio de construcción",
+      "difficulty_level": 2,
+      "description": "Learn and master Construction Site Safety",
+      "tags": [
+        "construction",
+        "site",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3422",
+      "name": "Paneles de yeso colgando",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Hanging",
+      "tags": [
+        "drywall",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3423",
+      "name": "Foundation y",
+      "difficulty_level": 3,
+      "description": "Learn and master Foundation Laying",
+      "tags": [
+        "foundation",
+        "laying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3424",
+      "name": "Trabajo de aislamiento",
+      "difficulty_level": 4,
+      "description": "Learn and master Insulation Work",
+      "tags": [
+        "insulation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3425",
+      "name": "Albañilería",
+      "difficulty_level": 2,
+      "description": "Learn and master Masonry",
+      "tags": [
+        "masonry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3426",
+      "name": "Instalación de techado",
+      "difficulty_level": 5,
+      "description": "Learn and master Roofing Installation",
+      "tags": [
+        "roofing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3427",
+      "name": "Andamio",
+      "difficulty_level": 2,
+      "description": "Learn and master Scaffolding",
+      "tags": [
+        "scaffolding",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

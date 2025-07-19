@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "فنی و مهندسی",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "مدنی و ساختاری"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "مهندسی برق"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "ساخت و ساخت"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "مهندسی مکانیکی"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "نرم افزاری و سیستم ها"
+    }
+  ]
+}

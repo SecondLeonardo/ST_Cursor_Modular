@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "Bilişsel ve Akademik Beceriler",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "Eleştirel düşünme"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "Dil ve Dilbilim"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "Matematik ve Mantık"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "Hafıza ve Odaklanma"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "Bilim ve Araştırma"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "Çalışma ve Öğrenme Becerileri"
+    }
+  ]
+}

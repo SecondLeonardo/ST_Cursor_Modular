@@ -1,0 +1,116 @@
+{
+  "id": "cognitive_academic_skills_science_research",
+  "name": "அறிவியல் மற்றும் ஆராய்ச்சி",
+  "skills": [
+    {
+      "id": "skill_1108",
+      "name": "தரவு சேகரிப்பு நுட்பங்கள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Collection Techniques",
+      "tags": [
+        "data",
+        "collection",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_1109",
+      "name": "நெறிமுறை ஆராய்ச்சி நடைமுறைகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Ethical Research Practices",
+      "tags": [
+        "ethical",
+        "research",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_1110",
+      "name": "சோதனை கட்டுப்பாடுகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Experimental Controls",
+      "tags": [
+        "experimental",
+        "controls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1111",
+      "name": "புல கவனிப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Field Observation",
+      "tags": [
+        "field",
+        "observation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1112",
+      "name": "கருதுகோள் சோதனை",
+      "difficulty_level": 5,
+      "description": "Learn and master Hypothesis Testing",
+      "tags": [
+        "hypothesis",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1113",
+      "name": "ஆய்வக சோதனை வடிவமைப்பு",
+      "difficulty_level": 2,
+      "description": "Learn and master Lab Experiment Design",
+      "tags": [
+        "experiment",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1114",
+      "name": "அறிவியல் பத்திரிகைகளைப் படித்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading Scientific Journals",
+      "tags": [
+        "reading",
+        "scientific",
+        "journals"
+      ]
+    },
+    {
+      "id": "skill_1115",
+      "name": "ஆராய்ச்சி எழுத்து",
+      "difficulty_level": 1,
+      "description": "Learn and master Research Writing",
+      "tags": [
+        "research",
+        "writing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1116",
+      "name": "அறிவியல் வரைதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Drawing",
+      "tags": [
+        "scientific",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1117",
+      "name": "அறிவியல் முறை பயன்பாடு",
+      "difficulty_level": 4,
+      "description": "Learn and master Scientific Method Application",
+      "tags": [
+        "scientific",
+        "method",
+        "application"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_pet_care",
+  "name": "Perawatan hewan peliharaan",
+  "skills": [
+    {
+      "id": "skill_3018",
+      "name": "Pemberian obat hewan peliharaan",
+      "difficulty_level": 3,
+      "description": "Learn and master Administering Pet Meds",
+      "tags": [
+        "administering",
+        "meds",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3019",
+      "name": "Membersihkan habitat hewan peliharaan",
+      "difficulty_level": 2,
+      "description": "Learn and master Cleaning Pet Habitats",
+      "tags": [
+        "cleaning",
+        "habitats",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3020",
+      "name": "Berjalan anjing",
+      "difficulty_level": 3,
+      "description": "Learn and master Dog Walking",
+      "tags": [
+        "walking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3021",
+      "name": "Perawatan hewan peliharaan darurat",
+      "difficulty_level": 4,
+      "description": "Learn and master Emergency Pet Care",
+      "tags": [
+        "emergency",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3022",
+      "name": "Memberi makan hewan peliharaan",
+      "difficulty_level": 3,
+      "description": "Learn and master Feeding Pets",
+      "tags": [
+        "feeding",
+        "pets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3023",
+      "name": "Perawatan hewan peliharaan",
+      "difficulty_level": 2,
+      "description": "Learn and master Grooming Pets",
+      "tags": [
+        "grooming",
+        "pets",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3024",
+      "name": "Pemeliharaan kotak sampah",
+      "difficulty_level": 2,
+      "description": "Learn and master Litter Box Maintenance",
+      "tags": [
+        "litter",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3025",
+      "name": "Mandi hewan peliharaan",
+      "difficulty_level": 2,
+      "description": "Learn and master Pet Bathing",
+      "tags": [
+        "bathing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3026",
+      "name": "Keselamatan hewan peliharaan di rumah",
+      "difficulty_level": 2,
+      "description": "Learn and master Pet Safety at Home",
+      "tags": [
+        "safety",
+        "home",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3027",
+      "name": "Melatih perintah dasar",
+      "difficulty_level": 4,
+      "description": "Learn and master Training Basic Commands",
+      "tags": [
+        "training",
+        "basic",
+        "commands"
+      ]
+    }
+  ]
+}

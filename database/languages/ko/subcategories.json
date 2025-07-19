@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "경제학"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "지리학"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "역사"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "언어 및 언어학"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "문학"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "수학"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "철학"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "심리학"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "과학"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "사회학"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "비판적 사고"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "역사와 문화"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "역사 및 사회 과학"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "언어 및 언어학"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "언어"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "문학 및 글쓰기"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "논리 및 추론"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "수학"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "철학과 비판적 사고"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "대중 연설 및 토론"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "연구 및 분석"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "과학"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "과학 및 자연"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "공부 기술"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "기술 및 컴퓨팅"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "학문적 프레젠테이션"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "데이터 분석"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "언어 및 글쓰기"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "수학 및 통계"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "과학적 연구"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "연구 및 시험 준비"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "생기"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "공예품 및 DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "창의적인 글쓰기"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "그림 및 일러스트레이션"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "패션 디자인"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "그림"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "공연 예술"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "조각품"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "애니메이션 및 모션 그래픽"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "공예품 및 DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "그림 및 일러스트레이션"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "패션 및 섬유 예술"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "영화 및 비디오"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "회화 및 혼합 매체"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "공연 예술"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "글쓰기 및 문학"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3D 모델링"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "건축 디자인"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "공예"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "패션 및 섬유"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "영화 및 비디오"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "인테리어 디자인"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "공연 예술"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "시각 예술"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "달필"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "공예"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "디지털 아트 및 애니메이션"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "패션 디자인"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "그림 및 그림"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "인테리어 디자인"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "섬유 예술"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "시각 예술"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "공예품 및 DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "창의적인 글쓰기"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "디자인 및 디지털 아트"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "공연 예술"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "시각 예술"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "회계"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "비즈니스 전략"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "고객 지원"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "전자 상거래"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "기업가 정신"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "재원"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "금융 및 회계"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "HR & 채용"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "인적 자원"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "투자 및 거래"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "리더십 및 관리"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "마케팅 및 판매"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "프로젝트 관리"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "영업 및 CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "비즈니스 커뮤니케이션"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "고객 서비스"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "기업가 정신"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "금융 및 회계"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "인적 자원"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "리더십 및 관리"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "법률 및 준수"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "마케팅 및 브랜딩"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "사무실 생산성"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "프로젝트 및 시간 관리"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "프로젝트 관리"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "영업 및 마케팅"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "영업 및 협상"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "비판적 사고"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "언어 및 언어학"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "수학 및 논리"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "메모리 및 초점"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "과학 및 연구"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "학습 및 학습 기술"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "집중 및 초점"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "비판적 사고"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "정보 처리"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "학습 전략"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "메모리 및 유지"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "문제 해결"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "외국어"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "대인 관계 기술"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "비언어적 의사 소통"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "프레젠테이션 및 스토리 텔링"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "대중 연설"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "쓰기 및 편집"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "공예품 및 DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "창의적 사고"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "디자인 및 미학"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "패션 및 스타일링"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "영화 및 비디오"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "게임 디자인 및 월드 빌딩"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "음악 및 사운드"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "음악 공연"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "음악 제작"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "공연 예술"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "사진 및 비디오"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "시각 예술"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "글쓰기 및 문학"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "연기 및 성능"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "생기"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "제작 및 DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "공예품 및 DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "공예 및 수제 예술"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "창의적인 기술"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "창의적인 글쓰기"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "요리 예술"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "디자인 및 미학"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "그림 및 일러스트레이션"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "패션 및 스타일링"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "패션 및 섬유 아트"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "영화 제작 및 비디오"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "내부 및 꽃 디자인"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "음악 및 악기"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "음악 제작"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "그림"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "그림과 미술"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "공연 예술"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "사진 및 비디오"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "조각 및 3D 아트"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "시각 예술"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "쓰기 및 스토리 텔링"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D & 애니메이션"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "UI/UX"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "비디오 제작"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "서예 및 핸드 레터링"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "제작 및 DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "창의적인 글쓰기"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "그림 및 일러스트레이션"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "보석 제작"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "그림"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "스크랩북 및 콜라주"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "조각 및 점토"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "섬유 및 섬유 예술"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "공예품 및 DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "디지털 예술 및 애니메이션"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "인테리어 & 패션"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "시각 예술"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "고대 언어"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "문화적 인식"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "방언 코칭"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "문화 간 의사 소통"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "언어 학습 기술"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "언어"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "언어학"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "수화"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "번역 및 해석"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "작문 시스템"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3D 모델링 및 애니메이션"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "브랜딩 및 아이덴티티"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "삽화"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "UX/UI 디자인"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D & 애니메이션"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "콘텐츠 생성"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "디지털 마케팅"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "소셜 미디어"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "스트리밍 및 방송"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "UI/UX 디자인"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "비디오 제작"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "웹 및 앱 디자인"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "사이버 보안"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "데이터 및 ai"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "그것은 & 네트워킹"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "프로그래밍 및 개발"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "웹 및 모바일"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "학업지도"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "유아 교육"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "고등 교육"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "언어 교육"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "언어"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "학습 기술"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "문해력과 글쓰기"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "특수 교육"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "학습 기술"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "시험 준비"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "자동차 및 운송"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "토목 공학"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "전기 공학"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "에너지 및 전력 시스템"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC 및 시스템"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "산업 디자인"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "제조 및 생산"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "기계 공학"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "로봇 공학 및 자동화"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "구조 설계"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "바디 케어 및 웰빙"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "응급 처치 및 안전"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "정신 건강"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "영양 및 다이어트"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "신체 훈련"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "대체 의학"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "응급 처치 및 비상"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "피트니스 훈련"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "전체적인 건강"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "의학적 지식"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "의료 기술"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "정신 건강"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "정신 건강 관행"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "마음 챙김 및 명상"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "영양 및 다이어트"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "개인 관리"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "체력"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "재활 및 치료"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "생식 건강"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "자기 관리 및 위생"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "수면 및 회복"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "스트레스 관리"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "요가 및 명상"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "피트니스 훈련"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "영양물 섭취"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "야외 및 모험"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "스포츠 기술"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "웰빙 및 회복"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "대체 의학"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "의학적 지식"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "정신 건강"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "영양물 섭취"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "개인 훈련"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "체력"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "재활 및 치료"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "스포츠 코칭"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "웰빙 코칭"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "요가 및 마음 챙김"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "어플라이언스 유지 보수"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "청소 및 조직"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "공예 및 장식"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "전기 작업"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "원예 및 조경"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "홈 자동화"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "가정 수리"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "인테리어 디자인"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "배관 기본"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "목공 및 목공"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "예산 및 가계 금융"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "보육"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "요리 및 식사 준비"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "식료품 쇼핑"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "가정 청소"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "가정 유지 보수"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "세탁 및 의류 관리"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "조직 및 정리"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "애완 동물 관리"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "시간 관리"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "문화 간 의사 소통"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "외국어"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "듣기 및 이해력"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "번역 및 해석"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "작문 기술"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "언어 학습"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "비언어적 의사 소통"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "대중 연설"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "스토리 텔링 및 나레이션"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "언어 의사 소통"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "쓰기 및 편집"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "언어 학습"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "수학"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "과학 및 연구"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "공부 기술"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "테스트 준비"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "학업지도"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "교육 도구 및 기술"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "언어 학습"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "평생 학습"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "테스트 준비"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "요리 및 음식"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "가정 유지 보수"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "개인 금융"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "시간 관리"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "여행 및 탐색"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "의사 소통 및 관계"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "감성 지능"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "탄력성과 성장"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "자기 훈련"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "시간 및 목표 관리"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "요리 및 음식 준비"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY & 수리"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "원예 및 지속 가능성"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "가정 관리"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "개인 금융"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "생존 기술"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "자동차 수리"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "건설 거래"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "전기 작업"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "가구 및 장식품"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "핸드 툴 마스터리"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "주택 리노베이션"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "금속 가공"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "배관 및 난방"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "섬유 및 가죽 크래프트"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "목공"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "자동차 유지 보수"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "엔지니어링 기본"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "주택 수리 및 설치"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "기계 작동"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "도구 사용 및 안전"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "목재 및 금속 작업"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "비판적 사고"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "지리 및 환경"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "역사와 문화"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "언어"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "수학"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "기억 및 학습 기술"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "철학과 윤리"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "심리학 및 행동"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "과학 및 연구"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "공부 기술"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "인지 적 유연성"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "비판적 사고"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "언어 학습"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "메모리 및 초점"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "학습 기술"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "자신감과 자부심"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "감성 지능"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "목표 설정 및 계획"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "습관과 훈련"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "대인 관계 기술"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "리더십 및 영향"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "마음 챙김과 복지"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "대중 연설"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "자기 반성"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "시간 및 생산성"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "지도"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "정신 건강"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "생산력"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "대중 연설"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "자기 개선"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "감성 지능"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "목표 설정 및 성취"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "습관 및 생산성"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "마음 챙김과 건강"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "대중 연설 및 커뮤니케이션"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "자기 훈련 및 초점"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "피트니스 및 컨디셔닝"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "수동 노동 및 거래"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "야외 레크리에이션"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "자기 방어 및 무술"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "스포츠 및 운동"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "생존 및 부시 크래프트"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "피트니스 및 강도"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "개별 스포츠"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "무술"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "야외 및 모험"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "레크리에이션 활동"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "팀 스포츠"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "학문적 글쓰기"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "생물학적 과학"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "컴퓨터 및 데이터 과학"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "지구 및 환경 과학"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "엔지니어링 과학"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "수학 및 통계"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "의료 및 건강 과학"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "물리 과학"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "연구 방법"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "사회 과학"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "천문학"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "생물학 및 생명 과학"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "화학"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "컴퓨터 과학"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "데이터 과학 및 ai"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "지구 및 환경 과학"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "엔지니어링 분야"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "수학 및 통계"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "물리 및 역학"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "로봇 공학 및 자동화"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "천문학"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "생명 공학"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "화학"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "컴퓨터 과학"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "데이터 과학 및 ai"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "지구 및 환경 과학"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "전자 장치"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "공학"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "수학 및 통계"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "물리학"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI & 머신 러닝"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "클라우드 컴퓨팅"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "사이버 보안"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "데이터 및 분석"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "데이터 과학 및 ai"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps & 자동화"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "게임 개발"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "그것은 & 네트워킹"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "지원 및 네트워킹"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "모바일 앱 개발"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "프로그래밍 및 소프트웨어 개발"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "소프트웨어 개발"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "기술 하드웨어 및 수리"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "기술 지원 및 문제 해결"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "웹 개발"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "민사 및 구조"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "전기 공학"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "제조 및 제조"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "기계 공학"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "소프트웨어 및 시스템"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "자동차 기술"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "건축 및 건물"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "전기 작업"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "에너지 및 환경"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "산업 기술"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "기계적 수리"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "사이버 보안"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "데이터 및 ai"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "디지털 마케팅"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "그것은 & 네트워킹"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "소프트웨어 개발"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "인공 지능"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "클라우드 컴퓨팅"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "컴퓨터 기본"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "사이버 보안"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "데이터 및 ai"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "데이터 및 분석"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "디지털 문해력"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "디지털 마케팅"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "새로운 기술"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "하드웨어 및 전자 장치"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "그것은 & 네트워킹"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "네트워킹 및 IT"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "프로그래밍 및 개발"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "프로그래밍 및 소프트웨어 개발"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "소프트웨어 도구"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "기술 생산성"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "기술 지원 및 유지 보수"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "기술 지원 및 문제 해결"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "웹 및 앱 개발"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "건설 및 목공"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "전기 및 배관"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "수제 상품"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "금속 공사 및 용접"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "섬유 및 가죽 크래프트"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "전통 공예품"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "자동차 수리"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "목공 및 목공"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "건축 및 벽돌"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "전기 작업"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC 및 냉장"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "보석 제작"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "금속 공사 및 용접"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "그림과 장식"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "연관"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "맞춤 및 재봉"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "자동차 수리"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "목공 및 목공"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "건설"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "건설 및 목공"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "장인 정신과 수리"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "전기 및 기계"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "전기 작업"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC 및 냉장"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "중장비 작동"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "벽돌 및 타일링"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "금속 및 목공"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "그림과 마무리"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "연관"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "차량 및 기계 유지 보수"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "용접 및 금속 가공"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "자동차"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "목공"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "건설"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "전기 같은"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "벽돌공 직"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "기계적"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "그림과 장식"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "연관"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "용접"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "비디오 제작"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "오디오 제작"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "사진술"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "그래픽 디자인"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "연기 및 성능"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "쓰기 및 스크립트 작성"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "방송"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "예술 및 공예품"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "음악 및 악기"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "야외 활동"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "수집"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "피트니스 및 건강"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "원예"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "DIY 프로젝트"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "이탈리아 요리"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "일본 요리"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "멕시코 요리"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "인도 요리"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "프랑스 요리"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "중국 요리"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "중동 요리"
+  }
+]

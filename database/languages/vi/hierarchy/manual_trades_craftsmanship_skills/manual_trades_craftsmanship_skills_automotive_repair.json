@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_automotive_repair",
+  "name": "Sửa chữa ô tô",
+  "skills": [
+    {
+      "id": "skill_3408",
+      "name": "Hệ thống điện tự động",
+      "difficulty_level": 1,
+      "description": "Learn and master Auto Electrical Systems",
+      "tags": [
+        "auto",
+        "electrical",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_3409",
+      "name": "Thay pin",
+      "difficulty_level": 5,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3410",
+      "name": "Sửa chữa phanh",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Repair",
+      "tags": [
+        "brake",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3411",
+      "name": "Chẩn đoán động cơ",
+      "difficulty_level": 3,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3412",
+      "name": "Sửa chữa hệ thống ống xả",
+      "difficulty_level": 5,
+      "description": "Learn and master Exhaust System Repair",
+      "tags": [
+        "exhaust",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_3413",
+      "name": "Thay dầu",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3414",
+      "name": "Bảo trì bộ tản nhiệt",
+      "difficulty_level": 4,
+      "description": "Learn and master Radiator Maintenance",
+      "tags": [
+        "radiator",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3415",
+      "name": "Cân bằng lốp",
+      "difficulty_level": 5,
+      "description": "Learn and master Tire Balancing",
+      "tags": [
+        "tire",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3416",
+      "name": "Phục vụ truyền tải",
+      "difficulty_level": 3,
+      "description": "Learn and master Transmission Servicing",
+      "tags": [
+        "transmission",
+        "servicing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3417",
+      "name": "Căn chỉnh bánh xe",
+      "difficulty_level": 5,
+      "description": "Learn and master Wheel Alignment",
+      "tags": [
+        "wheel",
+        "alignment",
+        "skill"
+      ]
+    }
+  ]
+}

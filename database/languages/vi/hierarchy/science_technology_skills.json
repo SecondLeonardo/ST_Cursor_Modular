@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "Kỹ năng khoa học & công nghệ",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "Thiên văn học"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "Công nghệ sinh học"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "Hoá học"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "Khoa học máy tính"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "Khoa học dữ liệu & AI"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "Khoa học Trái đất & Môi trường"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "Điện tử"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "Kỹ thuật"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "Toán học & Thống kê"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "Vật lý"
+    }
+  ]
+}

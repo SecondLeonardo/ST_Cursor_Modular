@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_home_maintenance",
+  "name": "Ev bakımı",
+  "skills": [
+    {
+      "id": "skill_2988",
+      "name": "Temel Marangozluk",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Carpentry",
+      "tags": [
+        "basic",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2989",
+      "name": "Ampulleri Değiştirme",
+      "difficulty_level": 4,
+      "description": "Learn and master Changing Light Bulbs",
+      "tags": [
+        "changing",
+        "light",
+        "bulbs"
+      ]
+    },
+    {
+      "id": "skill_2990",
+      "name": "Elektrik Güvenliği Temelleri",
+      "difficulty_level": 2,
+      "description": "Learn and master Electrical Safety Basics",
+      "tags": [
+        "electrical",
+        "safety",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2991",
+      "name": "Sızıntıları düzeltmek",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Leaks",
+      "tags": [
+        "fixing",
+        "leaks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2992",
+      "name": "Asılı Raflar",
+      "difficulty_level": 4,
+      "description": "Learn and master Hanging Shelves",
+      "tags": [
+        "hanging",
+        "shelves",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2993",
+      "name": "Armatürleri yükleme",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Fixtures",
+      "tags": [
+        "installing",
+        "fixtures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2994",
+      "name": "Boyama Duvarları",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2995",
+      "name": "Drenajları engelleme",
+      "difficulty_level": 5,
+      "description": "Learn and master Unclogging Drains",
+      "tags": [
+        "unclogging",
+        "drains",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2996",
+      "name": "Elektrikli aletler kullanma",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Power Tools",
+      "tags": [
+        "using",
+        "power",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2997",
+      "name": "Duvar yaması",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    }
+  ]
+}

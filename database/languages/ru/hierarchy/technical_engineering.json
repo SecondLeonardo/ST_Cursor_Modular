@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "Техническая и инженерия",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "Гражданский и структурный"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "Электротехника"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "Производство и изготовление"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "Машиностроение"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "Программное обеспечение и системы"
+    }
+  ]
+}

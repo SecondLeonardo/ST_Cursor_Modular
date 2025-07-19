@@ -1,0 +1,26 @@
+{
+  "id": "digital_technology_skills",
+  "name": "डिजिटल आणि तंत्रज्ञान कौशल्य",
+  "subcategories": [
+    {
+      "id": "digital_technology_skills_cybersecurity",
+      "name": "सायबरसुरिटी"
+    },
+    {
+      "id": "digital_technology_skills_data_ai",
+      "name": "डेटा आणि एआय"
+    },
+    {
+      "id": "digital_technology_skills_it_networking",
+      "name": "आयटी आणि नेटवर्किंग"
+    },
+    {
+      "id": "digital_technology_skills_programming_development",
+      "name": "प्रोग्रामिंग आणि विकास"
+    },
+    {
+      "id": "digital_technology_skills_web_mobile",
+      "name": "वेब आणि मोबाइल"
+    }
+  ]
+}

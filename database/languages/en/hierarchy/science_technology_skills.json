@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "Science & Technology Skills",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "Astronomy"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "Biotechnology"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "Chemistry"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "Computer Science"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "Data Science & AI"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "Earth & Environmental Science"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "Electronics"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "Engineering"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "Mathematics & Statistics"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "Physics"
+    }
+  ]
+}

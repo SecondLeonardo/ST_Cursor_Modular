@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Ujuzi wa Sayansi na Utafiti",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Uandishi wa kitaaluma"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Sayansi ya Biolojia"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Sayansi ya Kompyuta na Takwimu"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Sayansi ya Dunia na Mazingira"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Sayansi ya Uhandisi"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Hisabati na Takwimu"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Sayansi ya Matibabu na Afya"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Sayansi ya Kimwili"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Njia za utafiti"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Sayansi ya Jamii"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_writing_systems",
+  "name": "Tsarin rubutu",
+  "skills": [
+    {
+      "id": "skill_2023",
+      "name": "Rubutun rubutun larabci",
+      "difficulty_level": 2,
+      "description": "Learn and master Arabic Script Writing",
+      "tags": [
+        "arabic",
+        "script",
+        "writing"
+      ]
+    },
+    {
+      "id": "skill_2024",
+      "name": "Haruffa na kasar Sin (Hanzi)",
+      "difficulty_level": 5,
+      "description": "Learn and master Chinese Characters (Hanzi)",
+      "tags": [
+        "chinese",
+        "characters",
+        "(hanzi)"
+      ]
+    },
+    {
+      "id": "skill_2025",
+      "name": "Harafin haruffan hoto",
+      "difficulty_level": 1,
+      "description": "Learn and master Cyrillic Alphabet Proficiency",
+      "tags": [
+        "cyrillic",
+        "alphabet",
+        "proficiency"
+      ]
+    },
+    {
+      "id": "skill_2026",
+      "name": "Devanagari",
+      "difficulty_level": 4,
+      "description": "Learn and master Devanagari Practice",
+      "tags": [
+        "devanagari",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2027",
+      "name": "Harafin Georgia",
+      "difficulty_level": 3,
+      "description": "Learn and master Georgian Alphabet",
+      "tags": [
+        "georgian",
+        "alphabet",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2028",
+      "name": "A haruffa Girkanci",
+      "difficulty_level": 4,
+      "description": "Learn and master Greek Alphabet",
+      "tags": [
+        "greek",
+        "alphabet",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2029",
+      "name": "Masarautar Hangul",
+      "difficulty_level": 4,
+      "description": "Learn and master Hangul Mastery",
+      "tags": [
+        "hangul",
+        "mastery",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2030",
+      "name": "Scriwen Rubutun magana",
+      "difficulty_level": 4,
+      "description": "Learn and master Hebrew Script Fluency",
+      "tags": [
+        "hebrew",
+        "script",
+        "fluency"
+      ]
+    },
+    {
+      "id": "skill_2031",
+      "name": "Japanese Kana (HiraGana / Katakana)",
+      "difficulty_level": 2,
+      "description": "Learn and master Japanese Kana (Hiragana/Katakana)",
+      "tags": [
+        "japanese",
+        "kana",
+        "(hiragana/katakana)"
+      ]
+    },
+    {
+      "id": "skill_2032",
+      "name": "Rubutun rubutun Thai",
+      "difficulty_level": 5,
+      "description": "Learn and master Thai Script Reading",
+      "tags": [
+        "thai",
+        "script",
+        "reading"
+      ]
+    }
+  ]
+}

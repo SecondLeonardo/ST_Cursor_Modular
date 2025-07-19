@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_tech_hardware_repair",
+  "name": "ハイテクハードウェアと修理",
+  "skills": [
+    {
+      "id": "skill_4476",
+      "name": "BIOS構成",
+      "difficulty_level": 3,
+      "description": "Learn and master BIOS Configuration",
+      "tags": [
+        "bios",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4477",
+      "name": "バッテリーの交換",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4478",
+      "name": "ケーブル管理",
+      "difficulty_level": 2,
+      "description": "Learn and master Cable Management",
+      "tags": [
+        "cable",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4479",
+      "name": "コンピューターアセンブリ",
+      "difficulty_level": 1,
+      "description": "Learn and master Computer Assembly",
+      "tags": [
+        "computer",
+        "assembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4480",
+      "name": "ディスプレイの修理",
+      "difficulty_level": 5,
+      "description": "Learn and master Display Repair",
+      "tags": [
+        "display",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4481",
+      "name": "ハードドライブクローニング",
+      "difficulty_level": 2,
+      "description": "Learn and master Hard Drive Cloning",
+      "tags": [
+        "hard",
+        "drive",
+        "cloning"
+      ]
+    },
+    {
+      "id": "skill_4482",
+      "name": "ラップトップの分解",
+      "difficulty_level": 1,
+      "description": "Learn and master Laptop Disassembly",
+      "tags": [
+        "laptop",
+        "disassembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4483",
+      "name": "マザーボード診断",
+      "difficulty_level": 1,
+      "description": "Learn and master Motherboard Diagnostics",
+      "tags": [
+        "motherboard",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4484",
+      "name": "末梢テスト",
+      "difficulty_level": 3,
+      "description": "Learn and master Peripheral Testing",
+      "tags": [
+        "peripheral",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4485",
+      "name": "サーマルペーストアプリケーション",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermal Paste Application",
+      "tags": [
+        "thermal",
+        "paste",
+        "application"
+      ]
+    }
+  ]
+}

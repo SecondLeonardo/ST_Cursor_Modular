@@ -1,0 +1,116 @@
+{
+  "id": "mind_academics_critical_thinking",
+  "name": "비판적 사고",
+  "skills": [
+    {
+      "id": "skill_3568",
+      "name": "인수 평가",
+      "difficulty_level": 5,
+      "description": "Learn and master Argument Evaluation",
+      "tags": [
+        "argument",
+        "evaluation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3569",
+      "name": "편향 탐지",
+      "difficulty_level": 5,
+      "description": "Learn and master Bias Detection",
+      "tags": [
+        "bias",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3570",
+      "name": "인지 편견 인식",
+      "difficulty_level": 2,
+      "description": "Learn and master Cognitive Bias Awareness",
+      "tags": [
+        "cognitive",
+        "bias",
+        "awareness"
+      ]
+    },
+    {
+      "id": "skill_3571",
+      "name": "토론 기술",
+      "difficulty_level": 3,
+      "description": "Learn and master Debate Skills",
+      "tags": [
+        "debate",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3572",
+      "name": "의사 결정",
+      "difficulty_level": 2,
+      "description": "Learn and master Decision Making",
+      "tags": [
+        "decision",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3573",
+      "name": "윤리적 추론",
+      "difficulty_level": 2,
+      "description": "Learn and master Ethical Reasoning",
+      "tags": [
+        "ethical",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3574",
+      "name": "증거 분석",
+      "difficulty_level": 3,
+      "description": "Learn and master Evidence Analysis",
+      "tags": [
+        "evidence",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3575",
+      "name": "논리적 추론",
+      "difficulty_level": 2,
+      "description": "Learn and master Logical Reasoning",
+      "tags": [
+        "logical",
+        "reasoning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3576",
+      "name": "문제 분석",
+      "difficulty_level": 4,
+      "description": "Learn and master Problem Analysis",
+      "tags": [
+        "problem",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3577",
+      "name": "시스템 사고",
+      "difficulty_level": 1,
+      "description": "Learn and master Systems Thinking",
+      "tags": [
+        "systems",
+        "thinking",
+        "skill"
+      ]
+    }
+  ]
+}

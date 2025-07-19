@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_structural_design",
+  "name": "Thiết kế kết cấu",
+  "skills": [
+    {
+      "id": "skill_2433",
+      "name": "Thiết kế cầu",
+      "difficulty_level": 3,
+      "description": "Learn and master Bridge Design",
+      "tags": [
+        "bridge",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2434",
+      "name": "Kỹ thuật động đất",
+      "difficulty_level": 3,
+      "description": "Learn and master Earthquake Engineering",
+      "tags": [
+        "earthquake",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2435",
+      "name": "Thiết kế nền tảng",
+      "difficulty_level": 5,
+      "description": "Learn and master Foundation Design",
+      "tags": [
+        "foundation",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2436",
+      "name": "Tính toán tải",
+      "difficulty_level": 1,
+      "description": "Learn and master Load Calculations",
+      "tags": [
+        "load",
+        "calculations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2437",
+      "name": "Cấu trúc Masonry",
+      "difficulty_level": 2,
+      "description": "Learn and master Masonry Structures",
+      "tags": [
+        "masonry",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2438",
+      "name": "Giữ lại thiết kế tường",
+      "difficulty_level": 5,
+      "description": "Learn and master Retaining Wall Design",
+      "tags": [
+        "retaining",
+        "wall",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_2439",
+      "name": "Vì kèo trên mái nhà",
+      "difficulty_level": 3,
+      "description": "Learn and master Roof Trusses",
+      "tags": [
+        "roof",
+        "trusses",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2440",
+      "name": "Cấu trúc thép",
+      "difficulty_level": 2,
+      "description": "Learn and master Steel Structures",
+      "tags": [
+        "steel",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2441",
+      "name": "An toàn cấu trúc",
+      "difficulty_level": 4,
+      "description": "Learn and master Structural Safety",
+      "tags": [
+        "structural",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2442",
+      "name": "Phân tích tải gió",
+      "difficulty_level": 4,
+      "description": "Learn and master Wind Load Analysis",
+      "tags": [
+        "wind",
+        "load",
+        "analysis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_electrical",
+  "name": "ኤሌክትሪክ",
+  "skills": [
+    {
+      "id": "skill_5205",
+      "name": "የወረዳ ዲዛይን",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5206",
+      "name": "የኤሌክትሪክ ደህንነት ማክበር",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Safety Compliance",
+      "tags": [
+        "electrical",
+        "safety",
+        "compliance"
+      ]
+    },
+    {
+      "id": "skill_5207",
+      "name": "የኤሌክትሪክ ችግር",
+      "difficulty_level": 1,
+      "description": "Learn and master Electrical Troubleshooting",
+      "tags": [
+        "electrical",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5208",
+      "name": "የቤት አውቶማቲክ ማዋቀር",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Automation Setup",
+      "tags": [
+        "home",
+        "automation",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_5209",
+      "name": "የመብራት ስርዓቶች",
+      "difficulty_level": 4,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5210",
+      "name": "ፓነል ማሻሻል",
+      "difficulty_level": 1,
+      "description": "Learn and master Panel Upgrading",
+      "tags": [
+        "panel",
+        "upgrading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5211",
+      "name": "የኃይል ስርጭት",
+      "difficulty_level": 3,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5212",
+      "name": "የንባብ እቅዶች",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Schematics",
+      "tags": [
+        "reading",
+        "schematics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5213",
+      "name": "የፀሐይ ፓነል ጭነት",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Installation",
+      "tags": [
+        "solar",
+        "panel",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5214",
+      "name": "የመጫኛ ጭነት",
+      "difficulty_level": 4,
+      "description": "Learn and master Wiring Installation",
+      "tags": [
+        "wiring",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

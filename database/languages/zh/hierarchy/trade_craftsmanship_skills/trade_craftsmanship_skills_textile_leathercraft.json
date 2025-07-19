@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_textile_leathercraft",
+  "name": "纺织品和皮革",
+  "skills": [
+    {
+      "id": "skill_4905",
+      "name": "按钮安装",
+      "difficulty_level": 3,
+      "description": "Learn and master Button Installation",
+      "tags": [
+        "button",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4906",
+      "name": "切割模式",
+      "difficulty_level": 3,
+      "description": "Learn and master Cutting Patterns",
+      "tags": [
+        "cutting",
+        "patterns",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4907",
+      "name": "染色皮革",
+      "difficulty_level": 3,
+      "description": "Learn and master Dyeing Leather",
+      "tags": [
+        "dyeing",
+        "leather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4908",
+      "name": "织物选择",
+      "difficulty_level": 5,
+      "description": "Learn and master Fabric Selection",
+      "tags": [
+        "fabric",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4909",
+      "name": "手工缝制",
+      "difficulty_level": 5,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4910",
+      "name": "皮革雕刻",
+      "difficulty_level": 3,
+      "description": "Learn and master Leather Carving",
+      "tags": [
+        "leather",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4911",
+      "name": "模式制作",
+      "difficulty_level": 1,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4912",
+      "name": "缝纫机操作",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing Machine Operation",
+      "tags": [
+        "sewing",
+        "machine",
+        "operation"
+      ]
+    },
+    {
+      "id": "skill_4913",
+      "name": "工具皮革",
+      "difficulty_level": 5,
+      "description": "Learn and master Tooling Leather",
+      "tags": [
+        "tooling",
+        "leather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4914",
+      "name": "拉链更换",
+      "difficulty_level": 4,
+      "description": "Learn and master Zipper Replacement",
+      "tags": [
+        "zipper",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_science",
+  "name": "विज्ञान",
+  "skills": [
+    {
+      "id": "skill_80",
+      "name": "खगोल",
+      "difficulty_level": 2,
+      "description": "Learn and master Astronomy",
+      "tags": [
+        "astronomy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_81",
+      "name": "जीवविज्ञान",
+      "difficulty_level": 1,
+      "description": "Learn and master Biology",
+      "tags": [
+        "biology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_82",
+      "name": "वनस्पति विज्ञान",
+      "difficulty_level": 5,
+      "description": "Learn and master Botany",
+      "tags": [
+        "botany",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_83",
+      "name": "रसायन विज्ञान",
+      "difficulty_level": 3,
+      "description": "Learn and master Chemistry",
+      "tags": [
+        "chemistry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_84",
+      "name": "भू - विज्ञान",
+      "difficulty_level": 4,
+      "description": "Learn and master Earth Science",
+      "tags": [
+        "earth",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_85",
+      "name": "परिस्थितिकी",
+      "difficulty_level": 2,
+      "description": "Learn and master Ecology",
+      "tags": [
+        "ecology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_86",
+      "name": "आनुवंशिकी",
+      "difficulty_level": 4,
+      "description": "Learn and master Genetics",
+      "tags": [
+        "genetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_87",
+      "name": "भौतिक विज्ञान",
+      "difficulty_level": 4,
+      "description": "Learn and master Physics",
+      "tags": [
+        "physics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_88",
+      "name": "वैज्ञानिक पद्धति",
+      "difficulty_level": 1,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_89",
+      "name": "जूलॉजी",
+      "difficulty_level": 4,
+      "description": "Learn and master Zoology",
+      "tags": [
+        "zoology",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

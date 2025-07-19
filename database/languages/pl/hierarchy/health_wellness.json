@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "Zdrowie i dobre samopoczucie",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "Medycyna alternatywna"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "Pierwsza pomoc i awaria"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "Trening fitness"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "Holistyczne zdrowie"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "Wiedza medyczna"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "Umiejętności medyczne"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "Zdrowie psychiczne"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "Praktyki zdrowia psychicznego"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "Uważność i medytacja"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "Odżywianie i dieta"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "Habition"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "Sprawność fizyczna"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "Rehabilitacja i terapia"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "Zdrowie reprodukcyjne"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "Self-Care & Higiene"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "Sen i powrót do zdrowia"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "Zarządzanie stresem"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "Joga i medytacja"
+    }
+  ]
+}

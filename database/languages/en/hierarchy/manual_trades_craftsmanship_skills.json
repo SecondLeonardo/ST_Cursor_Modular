@@ -1,0 +1,46 @@
+{
+  "id": "manual_trades_craftsmanship_skills",
+  "name": "Manual Trades & Craftsmanship Skills",
+  "subcategories": [
+    {
+      "id": "manual_trades_craftsmanship_skills_automotive_repair",
+      "name": "Automotive Repair"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_construction_trades",
+      "name": "Construction Trades"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_electrical_work",
+      "name": "Electrical Work"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+      "name": "Furniture & Upholstery"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+      "name": "Hand Tool Mastery"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_home_renovation",
+      "name": "Home Renovation"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_metalworking",
+      "name": "Metalworking"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+      "name": "Plumbing & Heating"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+      "name": "Textile & Leathercraft"
+    },
+    {
+      "id": "manual_trades_craftsmanship_skills_woodworking",
+      "name": "Woodworking"
+    }
+  ]
+}

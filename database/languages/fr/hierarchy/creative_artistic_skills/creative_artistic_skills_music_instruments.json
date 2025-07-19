@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_music_instruments",
+  "name": "Musique et instruments",
+  "skills": [
+    {
+      "id": "skill_1594",
+      "name": "DJ",
+      "difficulty_level": 1,
+      "description": "Learn and master DJing",
+      "tags": [
+        "djing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1595",
+      "name": "Tambour",
+      "difficulty_level": 1,
+      "description": "Learn and master Drumming",
+      "tags": [
+        "drumming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1596",
+      "name": "Joueur de guitare",
+      "difficulty_level": 3,
+      "description": "Learn and master Guitar Playing",
+      "tags": [
+        "guitar",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1597",
+      "name": "Composition musicale",
+      "difficulty_level": 4,
+      "description": "Learn and master Music Composition",
+      "tags": [
+        "music",
+        "composition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1598",
+      "name": "Production musicale",
+      "difficulty_level": 5,
+      "description": "Learn and master Music Production",
+      "tags": [
+        "music",
+        "production",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1599",
+      "name": "Piano jouant",
+      "difficulty_level": 3,
+      "description": "Learn and master Piano Playing",
+      "tags": [
+        "piano",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1600",
+      "name": "Jouer du violon",
+      "difficulty_level": 2,
+      "description": "Learn and master Playing Violin",
+      "tags": [
+        "playing",
+        "violin",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1601",
+      "name": "Feuilles de lecture",
+      "difficulty_level": 3,
+      "description": "Learn and master Reading Sheet Music",
+      "tags": [
+        "reading",
+        "sheet",
+        "music"
+      ]
+    },
+    {
+      "id": "skill_1602",
+      "name": "Chant",
+      "difficulty_level": 5,
+      "description": "Learn and master Singing",
+      "tags": [
+        "singing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1603",
+      "name": "Écriture",
+      "difficulty_level": 4,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

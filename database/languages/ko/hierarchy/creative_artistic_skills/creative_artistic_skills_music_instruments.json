@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_music_instruments",
+  "name": "음악 및 악기",
+  "skills": [
+    {
+      "id": "skill_1594",
+      "name": "DJing",
+      "difficulty_level": 1,
+      "description": "Learn and master DJing",
+      "tags": [
+        "djing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1595",
+      "name": "드럼 연주",
+      "difficulty_level": 1,
+      "description": "Learn and master Drumming",
+      "tags": [
+        "drumming",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1596",
+      "name": "기타 연주",
+      "difficulty_level": 3,
+      "description": "Learn and master Guitar Playing",
+      "tags": [
+        "guitar",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1597",
+      "name": "음악 구성",
+      "difficulty_level": 4,
+      "description": "Learn and master Music Composition",
+      "tags": [
+        "music",
+        "composition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1598",
+      "name": "음악 제작",
+      "difficulty_level": 5,
+      "description": "Learn and master Music Production",
+      "tags": [
+        "music",
+        "production",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1599",
+      "name": "피아노 연주",
+      "difficulty_level": 3,
+      "description": "Learn and master Piano Playing",
+      "tags": [
+        "piano",
+        "playing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1600",
+      "name": "바이올린 연주",
+      "difficulty_level": 2,
+      "description": "Learn and master Playing Violin",
+      "tags": [
+        "playing",
+        "violin",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1601",
+      "name": "악보 읽기",
+      "difficulty_level": 3,
+      "description": "Learn and master Reading Sheet Music",
+      "tags": [
+        "reading",
+        "sheet",
+        "music"
+      ]
+    },
+    {
+      "id": "skill_1602",
+      "name": "명음",
+      "difficulty_level": 5,
+      "description": "Learn and master Singing",
+      "tags": [
+        "singing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1603",
+      "name": "작곡",
+      "difficulty_level": 4,
+      "description": "Learn and master Songwriting",
+      "tags": [
+        "songwriting",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

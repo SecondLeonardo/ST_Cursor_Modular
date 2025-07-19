@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_textile_leathercraft",
+  "name": "Meji & Glop",
+  "skills": [
+    {
+      "id": "skill_4905",
+      "name": "Fifi sori ẹrọ",
+      "difficulty_level": 3,
+      "description": "Learn and master Button Installation",
+      "tags": [
+        "button",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4906",
+      "name": "Awọn ilana gige",
+      "difficulty_level": 3,
+      "description": "Learn and master Cutting Patterns",
+      "tags": [
+        "cutting",
+        "patterns",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4907",
+      "name": "Ọwọ alawọ",
+      "difficulty_level": 3,
+      "description": "Learn and master Dyeing Leather",
+      "tags": [
+        "dyeing",
+        "leather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4908",
+      "name": "Yiyan aṣọ",
+      "difficulty_level": 5,
+      "description": "Learn and master Fabric Selection",
+      "tags": [
+        "fabric",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4909",
+      "name": "Ọwọ gbigbe",
+      "difficulty_level": 5,
+      "description": "Learn and master Hand Stitching",
+      "tags": [
+        "hand",
+        "stitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4910",
+      "name": "Gbigbe awọ",
+      "difficulty_level": 3,
+      "description": "Learn and master Leather Carving",
+      "tags": [
+        "leather",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4911",
+      "name": "Ṣiṣeto ilana",
+      "difficulty_level": 1,
+      "description": "Learn and master Pattern Making",
+      "tags": [
+        "pattern",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4912",
+      "name": "Ṣiṣẹpọ ẹrọ ẹrọ",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing Machine Operation",
+      "tags": [
+        "sewing",
+        "machine",
+        "operation"
+      ]
+    },
+    {
+      "id": "skill_4913",
+      "name": "Ọwọ irinṣẹ",
+      "difficulty_level": 5,
+      "description": "Learn and master Tooling Leather",
+      "tags": [
+        "tooling",
+        "leather",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4914",
+      "name": "Rirọpo zipper",
+      "difficulty_level": 4,
+      "description": "Learn and master Zipper Replacement",
+      "tags": [
+        "zipper",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

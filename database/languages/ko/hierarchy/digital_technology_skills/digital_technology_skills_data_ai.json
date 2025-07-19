@@ -1,0 +1,118 @@
+{
+  "id": "digital_technology_skills_data_ai",
+  "name": "데이터 및 ai",
+  "skills": [
+    {
+      "id": "skill_2203",
+      "name": "AI 프롬프트 엔지니어링",
+      "difficulty_level": 2,
+      "description": "Learn and master AI Prompt Engineering",
+      "tags": [
+        "prompt",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2204",
+      "name": "Excel을 사용한 데이터 분석",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Analysis with Excel",
+      "tags": [
+        "data",
+        "analysis",
+        "with",
+        "excel"
+      ]
+    },
+    {
+      "id": "skill_2205",
+      "name": "데이터 청소 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning Techniques",
+      "tags": [
+        "data",
+        "cleaning",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2206",
+      "name": "Tableau를 사용한 데이터 시각화",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Visualization with Tableau",
+      "tags": [
+        "data",
+        "visualization",
+        "with",
+        "tableau"
+      ]
+    },
+    {
+      "id": "skill_2207",
+      "name": "기계 학습 기본",
+      "difficulty_level": 5,
+      "description": "Learn and master Machine Learning Basics",
+      "tags": [
+        "machine",
+        "learning",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2208",
+      "name": "자연어 처리",
+      "difficulty_level": 5,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_2209",
+      "name": "데이터 과학을위한 팬더",
+      "difficulty_level": 3,
+      "description": "Learn and master Pandas for Data Science",
+      "tags": [
+        "pandas",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_2210",
+      "name": "데이터 과학을위한 파이썬",
+      "difficulty_level": 3,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_2211",
+      "name": "데이터 쿼리 용 SQL",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL for Data Queries",
+      "tags": [
+        "data",
+        "queries",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2212",
+      "name": "AI에 대한 통계",
+      "difficulty_level": 1,
+      "description": "Learn and master Statistics for AI",
+      "tags": [
+        "statistics",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

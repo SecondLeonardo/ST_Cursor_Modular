@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "Mídia e entretenimento",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "Produção de vídeo"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "Produção de áudio"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "Fotografia"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "Design gráfico"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "Atuação e performance"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "Redação e scriptwriting"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "Radiodifusão"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_3d_modeling",
+  "name": "3D建模",
+  "skills": [
+    {
+      "id": "skill_520",
+      "name": "3D纹理",
+      "difficulty_level": 1,
+      "description": "Learn and master 3D Texturing",
+      "tags": [
+        "texturing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_521",
+      "name": "搅拌器基础",
+      "difficulty_level": 5,
+      "description": "Learn and master Blender Basics",
+      "tags": [
+        "blender",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_522",
+      "name": "字符建模",
+      "difficulty_level": 5,
+      "description": "Learn and master Character Modeling",
+      "tags": [
+        "character",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_523",
+      "name": "环境建模",
+      "difficulty_level": 1,
+      "description": "Learn and master Environment Modeling",
+      "tags": [
+        "environment",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_524",
+      "name": "硬表面建模",
+      "difficulty_level": 5,
+      "description": "Learn and master Hard Surface Modeling",
+      "tags": [
+        "hard",
+        "surface",
+        "modeling"
+      ]
+    },
+    {
+      "id": "skill_525",
+      "name": "低poly设计",
+      "difficulty_level": 5,
+      "description": "Learn and master Low Poly Design",
+      "tags": [
+        "poly",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_526",
+      "name": "渲染",
+      "difficulty_level": 1,
+      "description": "Learn and master Rendering",
+      "tags": [
+        "rendering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_527",
+      "name": "操纵",
+      "difficulty_level": 1,
+      "description": "Learn and master Rigging",
+      "tags": [
+        "rigging",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_528",
+      "name": "在Zbrush中雕刻",
+      "difficulty_level": 3,
+      "description": "Learn and master Sculpting in ZBrush",
+      "tags": [
+        "sculpting",
+        "zbrush",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_529",
+      "name": "紫外线映射",
+      "difficulty_level": 3,
+      "description": "Learn and master UV Mapping",
+      "tags": [
+        "mapping",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

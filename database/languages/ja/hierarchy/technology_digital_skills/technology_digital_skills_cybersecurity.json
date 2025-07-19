@@ -1,0 +1,215 @@
+{
+  "id": "technology_digital_skills_cybersecurity",
+  "name": "サイバーセキュリティ",
+  "skills": [
+    {
+      "id": "skill_4696",
+      "name": "暗号化",
+      "difficulty_level": 4,
+      "description": "Learn and master Cryptography",
+      "tags": [
+        "cryptography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4697",
+      "name": "データ暗号化",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Encryption",
+      "tags": [
+        "data",
+        "encryption",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4698",
+      "name": "デジタルフォレンジック",
+      "difficulty_level": 2,
+      "description": "Learn and master Digital Forensics",
+      "tags": [
+        "digital",
+        "forensics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4699",
+      "name": "デジタルアイデンティティ保護",
+      "difficulty_level": 2,
+      "description": "Learn and master Digital Identity Protection",
+      "tags": [
+        "digital",
+        "identity",
+        "protection"
+      ]
+    },
+    {
+      "id": "skill_4700",
+      "name": "倫理的ハッキング",
+      "difficulty_level": 4,
+      "description": "Learn and master Ethical Hacking",
+      "tags": [
+        "ethical",
+        "hacking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4701",
+      "name": "ファイアウォール構成",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4702",
+      "name": "ファイアウォールとVPN",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewalls & VPNs",
+      "tags": [
+        "firewalls",
+        "vpns",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4703",
+      "name": "インシデント応答",
+      "difficulty_level": 3,
+      "description": "Learn and master Incident Response",
+      "tags": [
+        "incident",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4704",
+      "name": "マルウェア分析",
+      "difficulty_level": 1,
+      "description": "Learn and master Malware Analysis",
+      "tags": [
+        "malware",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4705",
+      "name": "ネットワークセキュリティ",
+      "difficulty_level": 1,
+      "description": "Learn and master Network Security",
+      "tags": [
+        "network",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4706",
+      "name": "ネットワークセキュリティの基本",
+      "difficulty_level": 3,
+      "description": "Learn and master Network Security Basics",
+      "tags": [
+        "network",
+        "security",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4707",
+      "name": "パスワードクラッキングテクニック",
+      "difficulty_level": 5,
+      "description": "Learn and master Password Cracking Techniques",
+      "tags": [
+        "password",
+        "cracking",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_4708",
+      "name": "パスワード管理",
+      "difficulty_level": 5,
+      "description": "Learn and master Password Management",
+      "tags": [
+        "password",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4709",
+      "name": "浸透テスト",
+      "difficulty_level": 2,
+      "description": "Learn and master Penetration Testing",
+      "tags": [
+        "penetration",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4710",
+      "name": "フィッシング予防",
+      "difficulty_level": 5,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4711",
+      "name": "安全なコーディング",
+      "difficulty_level": 3,
+      "description": "Learn and master Secure Coding",
+      "tags": [
+        "secure",
+        "coding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4712",
+      "name": "セキュリティ監査",
+      "difficulty_level": 1,
+      "description": "Learn and master Security Audits",
+      "tags": [
+        "security",
+        "audits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4713",
+      "name": "セキュリティ認識",
+      "difficulty_level": 5,
+      "description": "Learn and master Security Awareness",
+      "tags": [
+        "security",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4714",
+      "name": "脅威の検出",
+      "difficulty_level": 5,
+      "description": "Learn and master Threat Detection",
+      "tags": [
+        "threat",
+        "detection",
+        "skill"
+      ]
+    }
+  ]
+}

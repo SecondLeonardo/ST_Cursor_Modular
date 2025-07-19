@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "Физические и навыки на открытом воздухе",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "Фитнес и кондиционирование"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "Ручной труд и сделки"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "Отдых на открытом воздухе"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "Самооборона и боевые искусства"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "Спорт и легкая атлетика"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "Выживание и Бушкрафт"
+    }
+  ]
+}

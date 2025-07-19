@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "المهارات المعرفية والأكاديمية",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "التفكير النقدي"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "اللغة واللغويات"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "الرياضيات والمنطق"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "الذاكرة والتركيز"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "العلوم والبحث"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "مهارات الدراسة والتعلم"
+    }
+  ]
+}

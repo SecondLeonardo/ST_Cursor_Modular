@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_physical_training",
+  "name": "تمرین بدنی",
+  "skills": [
+    {
+      "id": "skill_2483",
+      "name": "آموزش وزن بدن",
+      "difficulty_level": 4,
+      "description": "Learn and master Bodyweight Training",
+      "tags": [
+        "bodyweight",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2484",
+      "name": "تکنیک های تنفسی",
+      "difficulty_level": 5,
+      "description": "Learn and master Breathing Techniques",
+      "tags": [
+        "breathing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2485",
+      "name": "تمرینات قلبی",
+      "difficulty_level": 4,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2486",
+      "name": "آموزش استقامتی",
+      "difficulty_level": 3,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2487",
+      "name": "آموزش انعطاف پذیری",
+      "difficulty_level": 4,
+      "description": "Learn and master Flexibility Training",
+      "tags": [
+        "flexibility",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2488",
+      "name": "سلام",
+      "difficulty_level": 3,
+      "description": "Learn and master HIIT",
+      "tags": [
+        "hiit",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2489",
+      "name": "مته های تحرک",
+      "difficulty_level": 2,
+      "description": "Learn and master Mobility Drills",
+      "tags": [
+        "mobility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2490",
+      "name": "فرم دویدن",
+      "difficulty_level": 1,
+      "description": "Learn and master Running Form",
+      "tags": [
+        "running",
+        "form",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2491",
+      "name": "برنامه نویسی قدرت",
+      "difficulty_level": 2,
+      "description": "Learn and master Strength Programming",
+      "tags": [
+        "strength",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2492",
+      "name": "وزنه برداری",
+      "difficulty_level": 3,
+      "description": "Learn and master Weightlifting",
+      "tags": [
+        "weightlifting",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "life_everyday_skills_home_maintenance",
+  "name": "가정 유지 보수",
+  "skills": [
+    {
+      "id": "skill_3258",
+      "name": "기본 전기 수정",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Electrical Fixes",
+      "tags": [
+        "basic",
+        "electrical",
+        "fixes"
+      ]
+    },
+    {
+      "id": "skill_3259",
+      "name": "기본 배관",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Plumbing",
+      "tags": [
+        "basic",
+        "plumbing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3260",
+      "name": "새는 수도꼭지 고정",
+      "difficulty_level": 4,
+      "description": "Learn and master Fixing Leaky Faucets",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucets"
+      ]
+    },
+    {
+      "id": "skill_3261",
+      "name": "가구 조립",
+      "difficulty_level": 1,
+      "description": "Learn and master Furniture Assembly",
+      "tags": [
+        "furniture",
+        "assembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3262",
+      "name": "교수형 선반",
+      "difficulty_level": 4,
+      "description": "Learn and master Hanging Shelves",
+      "tags": [
+        "hanging",
+        "shelves",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3263",
+      "name": "가정 안전 점검",
+      "difficulty_level": 5,
+      "description": "Learn and master Home Safety Checks",
+      "tags": [
+        "home",
+        "safety",
+        "checks"
+      ]
+    },
+    {
+      "id": "skill_3264",
+      "name": "전구 교체",
+      "difficulty_level": 1,
+      "description": "Learn and master Light Bulb Replacement",
+      "tags": [
+        "light",
+        "bulb",
+        "replacement"
+      ]
+    },
+    {
+      "id": "skill_3265",
+      "name": "타일 ​​수리",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Repair",
+      "tags": [
+        "tile",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3266",
+      "name": "배수구를 풀고",
+      "difficulty_level": 5,
+      "description": "Learn and master Unclogging Drains",
+      "tags": [
+        "unclogging",
+        "drains",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3267",
+      "name": "벽화 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Painting Techniques",
+      "tags": [
+        "wall",
+        "painting",
+        "techniques"
+      ]
+    }
+  ]
+}

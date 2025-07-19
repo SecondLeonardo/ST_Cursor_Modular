@@ -1,0 +1,1959 @@
+---
+description: Guidelines for creating and maintaining Cursor rules to ensure consistency and effectiveness.
+globs: .cursor/rules/*.mdc
+alwaysApply: true
+---
+# Cursor Rules for SkillTalk Development
+
+## UIUX Document Rule
+
+**R0.0 MANDATORY UIUX Document Reference**
+- **ALWAYS REFERENCE UIUX DOCUMENTS**: Before implementing any UI/UX feature, MUST check relevant UIUX0-19.md documents
+- **Document Mapping:**
+  - UIUX0-1.md: Overall app structure, navigation, user flow, welcome screens
+  - UIUX2-5.md: Chat/SkillTalk page designs, conversation screens, stickers
+  - UIUX6-8.md: Match page designs, filters, boost center, user cards
+  - UIUX9-11.md: Posts page, search, notifications, gamification
+  - UIUX12-14.md: Voice/Live room designs, room creation, host interfaces
+  - UIUX15-17.md: Profile pages, streak tracking, VIP systems, shopping
+  - UIUX18-19.md: Settings pages, privacy controls, storage management
+
+**Implementation Protocol:**
+1. **Always start with**: "Checking UIUX[X].md document for [feature] design specifications..."
+2. **Extract design elements**: Colors, layouts, spacing, typography, icons
+3. **Follow exact specifications**: Pill-shaped buttons, rounded corners, color schemes
+4. **Match component hierarchy**: Header -> Content -> Navigation structure
+5. **Implement specified interactions**: Popups, filters, navigation flows
+
+**Required for ALL UI tasks**: Navigation bars, buttons, screens, modals, cards, forms, settings
+
+## File Creation Workflow Rule
+
+**R0.1 New File Creation Protocol**
+- When I need to create a new file, 
+- First develop a numbered outline with clear sections. Then fill in each section sequentially in small chunks
+- for editing a file edit the file in small chunks
+- Then I will fill the file with the complete code implementation
+- This prevents tool delays and ensures smooth development flow
+
+**Format for file creation requests:**
+```
+Please create this file: 
+Path: [exact/file/path/filename.dart]
+Description: [brief description of what this file will contain]
+```
+
+## iOS Deployment Target Rule
+
+**R0.2 iOS 14.0 Deployment Target**
+- All iOS-related configuration files must use iOS 14.0 as minimum deployment target
+- This includes Podfile, AppFrameworkInfo.plist, and project settings
+- Required for compatibility with current Firebase and voice room dependencies
+- Prevents build errors related to unsupported compiler flags
+
+**Files to update:**
+- `ios/Podfile`: `platform :ios, '14.0'`
+- `ios/Flutter/AppFrameworkInfo.plist`: `<string>14.0</string>`
+- Any new iOS configuration files must follow this standard
+
+## Error Resolution Rule
+
+**R0.3 MANDATORY Error Resolution After Task Completion**
+- **AFTER EVERY TASK COMPLETION**: MUST fix all linter errors, build errors, and warnings before proceeding to next task
+- **NO EXCEPTIONS**: Never move to the next task with unresolved errors
+- **Error Fixing Protocol:**
+  1. **Run analysis**: `flutter analyze` or check for linter errors
+  2. **Identify all errors**: List each error type and location
+  3. **Fix systematically**: Address each error one by one
+  4. **Verify resolution**: Re-run analysis to confirm all errors are resolved
+  5. **Document fixes**: Briefly explain what was fixed if complex
+
+**Error Priority:**
+- **Critical**: Build errors, syntax errors, undefined references
+- **High**: Import errors, type mismatches, missing dependencies
+- **Medium**: Linter warnings, deprecated usage, style issues
+- **Low**: Documentation warnings, formatting issues
+
+**Required Actions:**
+- Fix ALL critical and high priority errors immediately
+- Address medium priority errors before task completion
+- Document any intentionally ignored low priority issues
+
+## Minimal Change Debugging Rule
+
+**R0.4 MANDATORY Minimal Change Debugging Protocol**
+- **ALWAYS USE MINIMAL CHANGES**: When debugging issues, make the smallest possible changes to fix the problem
+- **NO OVER-ENGINEERING**: Resist the urge to refactor or improve unrelated code during debugging
+- **SYSTEMATIC APPROACH**: Follow a structured debugging process to identify root cause before making changes
+
+**Debugging Process:**
+1. **Identify the exact problem**: Read error messages carefully, understand what's failing
+2. **Locate the root cause**: Find the specific line/function/component causing the issue
+3. **Make minimal fix**: Change only what's necessary to resolve the immediate problem
+4. **Verify the fix**: Test that the specific issue is resolved
+5. **Document the solution**: Add comments explaining why the fix was needed
+
+**Examples of Minimal Changes:**
+```swift
+// ✅ DO: Fix only the immediate issue
+// Problem: JSON parsing error due to wrong structure
+let tasks = data["tasks"] // Fix: Access correct key
+
+// ❌ DON'T: Over-engineer during debugging
+// Don't rewrite entire JSON parsing system when only key access is wrong
+```
+
+**Common Debugging Scenarios:**
+- **JSON Structure Issues**: Fix key access, don't rewrite parser
+- **Missing Files**: Generate missing files, don't restructure entire system
+- **API Errors**: Fix endpoint/parameters, don't rebuild API client
+- **UI Layout Issues**: Adjust specific constraints, don't redesign entire view
+- **Build Errors**: Fix specific import/dependency, don't upgrade entire toolchain
+
+**Task Master Example (Real Issue Fixed):**
+- **Problem**: Task Master tools failing with JSON parsing error
+- **Root Cause**: tasks.json had nested structure under "master" key
+- **Minimal Fix**: Extract tasks array to root level, preserve all data
+- **Result**: Fixed with single Python command, no system rewrite needed
+
+## iPhone Simulator Build Rule
+
+**R0.8 MANDATORY iPhone 16 Pro Max Simulator Target**
+- **ALWAYS BUILD ON IPHONE 16 PRO MAX**: When building or testing the SkillTalk iOS app, always use iPhone 16 Pro Max iOS 18.4 simulator
+- **REQUIRED BUILD COMMAND**: `xcodebuild -project SkillTalk.xcodeproj -scheme SkillTalk -destination 'platform=iOS Simulator,name=iPhone 16 Pro Max' build`
+- **TESTING TARGET**: Use iPhone 16 Pro Max for all UI testing and device-specific optimizations
+- **SCREEN SPECS**: Design for 6.9" display with appropriate safe areas and layout constraints
+
+**Implementation Protocol:**
+1. **Always specify destination**: Include `-destination 'platform=iOS Simulator,name=iPhone 16 Pro Max'` in all build commands
+2. **UI Layout Testing**: Verify all layouts work correctly on large screen format
+3. **Performance Testing**: Test on this specific simulator configuration
+4. **Debug Configuration**: Use this simulator for all debugging and development testing
+
+**Required for ALL builds**: Development testing, UI verification, performance analysis, debugging sessions
+
+## Existing Rules
+
+- **Required Rule Structure:**
+  ```markdown
+  ---
+  description: Clear, one-line description of what the rule enforces
+  globs: path/to/files/*.ext, other/path/**/*
+  alwaysApply: boolean
+  ---
+
+  - **Main Points in Bold**
+    - Sub-points with details
+    - Examples and explanations
+  ```
+
+- **File References:**
+  - Use `[filename](mdc:path/to/file)` ([filename](mdc:filename)) to reference files
+  - Example: [prisma.mdc](mdc:.cursor/rules/prisma.mdc) for rule references
+  - Example: [schema.prisma](mdc:prisma/schema.prisma) for code references
+
+- **Code Examples:**
+  - Use language-specific code blocks
+  ```typescript
+  // ✅ DO: Show good examples
+  const goodExample = true;
+  
+  // ❌ DON'T: Show anti-patterns
+  const badExample = false;
+  ```
+
+- **Rule Content Guidelines:**
+  - Start with high-level overview
+  - Include specific, actionable requirements
+  - Show examples of correct implementation
+  - Reference existing code when possible
+  - Keep rules DRY by referencing other rules
+
+- **Rule Maintenance:**
+  - Update rules when new patterns emerge
+  - Add examples from actual codebase
+  - Remove outdated patterns
+  - Cross-reference related rules
+
+- **Best Practices:**
+  - Use bullet points for clarity
+  - Keep descriptions concise
+  - Include both DO and DON'T examples
+  - Reference actual code over theoretical examples
+  - Use consistent formatting across rules 
+
+  Brief description of your app idea (1-2 paragraphs)
+
+SkillTalk – App Purpose
+SkillTalk is a platform designed to connect people based on complementary skills and similar languages. The goal is to match users with skill partners whose areas of expertise align with the skills they wish to learn, and vice versa.
+In other words, if User A wants to learn a skill that User B is proficient in, and User B wants to learn a skill that User A excels at, SkillTalk brings them together for mutual skill exchange and learning.
+
+
+
+Development Best Practices
+When continuing development of other features:
+	1	Follow the multi-provider pattern for all service implementations
+	2	Use the service tracker for monitoring usage
+	3	Implement optimization for all user-generated content
+	4	Maintain naming consistency especially for skills (targetSkill vs wishSkill)
+	5	Integrate with monitoring for production visibility
+Next Steps
+To continue developing the application with these improvements:
+	1	Include the auto-scaling service manager in your app initialization
+	2	Integrate the image optimization service for all content uploads
+	3	Add performance monitoring to critical user flows
+	4	Use the service monitoring dashboard for system visibility
+
+
+# rules you have to fallow
+always add debug logs & components in the code for easier debug& readability
+everytime you choose to apply a rule(s), explicitly state the rule(s) in the output. you can abbreviate the rule description to a single word or phrase.
+
+
+# SkillTalk iOS App - Swift MVVM File Structure
+
+**Applied Rules**: R0.6 (Dart to Swift Conversion), R0.7 (Swift Best Practices), R0.0 (UIUX Reference)
+
+## Project Overview
+Converting Flutter/Dart SkillTalk app to native iOS using Swift with MVVM architecture, following iOS design patterns and best practices.
+
+---
+
+## 1. Project Foundation & Configuration
+
+```
+SkillTalk.xcodeproj/                    # Xcode project file
+SkillTalk.xcworkspace/                  # CocoaPods workspace
+Podfile                                 # CocoaPods dependencies
+Package.swift                           # Swift Package Manager (if used)
+
+SkillTalk/                              # Main app target
+├── Application/                        # App lifecycle & configuration
+│   ├── AppDelegate.swift              # App delegate (UIKit lifecycle)
+│   ├── SceneDelegate.swift            # Scene delegate (iOS 13+)
+│   ├── SkillTalkApp.swift             # SwiftUI app entry point
+│   ├── AppConfiguration.swift         # App-wide configuration
+│   │
+│   ├── Info.plist                         # App configuration
+│   ├── Entitlements.plist                 # App capabilities
+│   └── GoogleService-Info.plist           # Firebase configuration
+```
+
+### Key Configuration Files:
+
+**AppDelegate.swift** - Handles app lifecycle, Firebase setup, push notifications
+**SceneDelegate.swift** - Manages app scenes and UI lifecycle  
+**SkillTalkApp.swift** - SwiftUI app entry point with dependency injection
+**AppConfiguration.swift** - Constants, API endpoints, feature flags
+
+---
+
+## 2. Core Architecture (MVVM Components)
+
+```
+SkillTalk/
+├── Core/                               # Core architecture components
+│   ├── Base/                          # Base classes and protocols
+│   │   ├── BaseViewModel.swift        # Base view model with common functionality
+│   │   ├── BaseViewController.swift   # Base UIKit view controller
+│   │   ├── BaseView.swift            # Base SwiftUI view protocols
+│   │   └── ViewModelProtocol.swift   # View model protocol definition
+│   │
+│   ├── Coordinator/                   # Navigation coordination
+│   │   ├── Coordinator.swift         # Base coordinator protocol
+│   │   ├── AppCoordinator.swift      # Main app coordinator
+│   │   ├── AuthCoordinator.swift     # Authentication flow coordinator
+│   │   ├── MainTabCoordinator.swift  # Main tab navigation coordinator
+│   │   └── OnboardingCoordinator.swift # Onboarding flow coordinator
+│   │
+│   ├── DependencyInjection/          # Dependency injection container
+│   │   ├── DIContainer.swift         # Main DI container
+│   │   ├── ServiceRegistry.swift     # Service registration
+│   │   └── ViewModelFactory.swift    # View model factory
+│   │
+│   └── Extensions/                    # Core extensions
+│       ├── Foundation+Extensions.swift
+│       ├── UIKit+Extensions.swift
+│       ├── SwiftUI+Extensions.swift
+│       └── Combine+Extensions.swift
+```
+
+### MVVM Architecture Principles:
+
+**Models** - Data structures and business logic (Codable structs)
+**Views** - SwiftUI views and UIKit view controllers (UI only)
+**ViewModels** - ObservableObject classes handling business logic and state
+**Coordinators** - Navigation flow management (replacing Flutter navigation)
+
+---
+
+## 3. Data Layer (Models & Services)
+
+```
+SkillTalk/
+├── Data/                              # Data layer components
+│   ├── Models/                        # Data models (converted from Dart)
+│   │   ├── User/
+│   │   │   ├── UserModel.swift       # Main user model
+│   │   │   ├── UserProfile.swift     # User profile details
+│   │   │   ├── UserSkill.swift       # User-skill relationships
+│   │   │   └── UserPreferences.swift # User settings/preferences
+│   │   │
+│   │   ├── Skills/
+│   │   │   ├── SkillModel.swift      # Core skill model
+│   │   │   ├── SkillCategory.swift   # Skill categories
+│   │   │   ├── SkillSubcategory.swift # Skill subcategories
+│   │   │   ├── SkillRelationship.swift # Skill relationships
+│   │   │   └── SkillMatchResult.swift # Matching results
+│   │   │
+│   │   ├── Chat/
+│   │   │   ├── ChatModel.swift       # Chat room model
+│   │   │   ├── MessageModel.swift    # Chat message model
+│   │   │   ├── ChatMediaModel.swift  # Media attachments
+│   │   │   └── StickerModel.swift    # Chat stickers
+│   │   │
+│   │   ├── Posts/
+│   │   │   ├── PostModel.swift       # Social post model
+│   │   │   ├── CommentModel.swift    # Post comments
+│   │   │   └── PostBoostModel.swift  # Post boosting
+│   │   │
+│   │   ├── VoiceRoom/
+│   │   │   ├── VoiceRoomModel.swift  # Voice room model
+│   │   │   ├── LiveRoomModel.swift   # Live streaming room
+│   │   │   └── CallModel.swift       # Voice/video calls
+│   │   │
+│   │   ├── Matching/
+│   │   │   ├── MatchModel.swift      # Match data model
+│   │   │   ├── MatchFilter.swift     # Match filters
+│   │   │   └── UserMatchModel.swift  # User match results
+│   │   │
+│   │   └── Common/
+│   │       ├── APIResponse.swift     # Generic API response
+│   │       ├── ErrorModel.swift      # Error handling models
+│   │       └── PaginationModel.swift # Pagination support
+│   │
+│   ├── Services/                      # Service layer (multi-provider strategy)
+│   │   ├── Protocols/                # Service interfaces
+│   │   │   ├── AuthServiceProtocol.swift
+│   │   │   ├── DatabaseServiceProtocol.swift
+│   │   │   ├── StorageServiceProtocol.swift
+│   │   │   ├── ChatServiceProtocol.swift
+│   │   │   ├── MatchServiceProtocol.swift
+│   │   │   ├── PostServiceProtocol.swift
+│   │   │   ├── VoiceRoomServiceProtocol.swift
+│   │   │   ├── TranslationServiceProtocol.swift
+│   │   │   └── NotificationServiceProtocol.swift
+│   │   │
+│   │   ├── Implementation/           # Service implementations
+│   │   │   ├── Auth/
+│   │   │   │   ├── SupabaseAuthService.swift    # Primary auth
+│   │   │   │   └── FirebaseAuthService.swift    # Fallback auth
+│   │   │   │
+│   │   │   ├── Database/
+│   │   │   │   ├── SupabaseDBService.swift      # Primary database
+│   │   │   │   └── FirestoreDBService.swift     # Fallback database
+│   │   │   │
+│   │   │   ├── Storage/
+│   │   │   │   ├── CloudflareR2Service.swift    # Primary storage
+│   │   │   │   └── FirebaseStorageService.swift # Fallback storage
+│   │   │   │
+│   │   │   ├── Chat/
+│   │   │   │   ├── PusherChatService.swift      # Primary chat
+│   │   │   │   └── AblyChatService.swift        # Fallback chat
+│   │   │   │
+│   │   │   ├── VoiceRoom/
+│   │   │   │   ├── HundredMSService.swift       # Primary voice/video
+│   │   │   │   └── DailyCoService.swift         # Fallback voice/video
+│   │   │   │
+│   │   │   ├── Translation/
+│   │   │   │   ├── DeepLService.swift           # Primary translation
+│   │   │   │   └── LibreTranslateService.swift  # Fallback translation
+│   │   │   │
+│   │   │   └── Notifications/
+│   │   │       ├── OneSignalService.swift       # Primary notifications
+│   │   │       └── FCMService.swift             # Fallback notifications
+│   │   │
+│   │   ├── MultiProvider/            # Multi-provider strategy
+│   │   │   ├── MultiAuthService.swift
+│   │   │   ├── MultiDatabaseService.swift
+│   │   │   ├── MultiStorageService.swift
+│   │   │   ├── MultiChatService.swift
+│   │   │   └── ServiceFailoverManager.swift
+│   │   │
+│   │   └── ServiceContainer.swift    # Service dependency injection
+│   │
+│   ├── Repositories/                 # Repository pattern (data access)
+│   │   ├── UserRepository.swift
+│   │   ├── SkillRepository.swift
+│   │   ├── ChatRepository.swift
+│   │   ├── PostRepository.swift
+│   │   ├── MatchRepository.swift
+│   │   └── VoiceRoomRepository.swift
+│   │
+│   └── Cache/                        # Local caching
+│       ├── CoreDataStack.swift       # Core Data setup
+│       ├── UserDefaultsManager.swift # Simple key-value storage
+│       ├── ImageCache.swift          # Image caching
+│       └── OfflineDataManager.swift  # Offline data handling
+```
+
+### Data Layer Principles:
+
+**Models** - Codable structs with proper Swift naming conventions
+**Services** - Protocol-oriented with multi-provider fallback strategy  
+**Repositories** - Abstract data access layer between ViewModels and Services
+**Cache** - Local storage for offline functionality and performance
+
+### Swift Implementation for Optimized Skill Database:
+
+```swift
+// MARK: - Skill Database Service Protocol
+protocol SkillDatabaseServiceProtocol {
+    func loadAvailableLanguages() async throws -> [String]
+    func loadCategories(for language: String) async throws -> [SkillCategory]
+    func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory]
+    func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill]
+    func searchSkills(query: String, language: String) async throws -> [Skill]
+    func getSkillsByDifficulty(_ difficulty: SkillDifficulty) async throws -> [Skill]
+    func getPopularSkills(limit: Int) async throws -> [Skill]
+}
+
+// MARK: - Optimized Skill Database Service
+class OptimizedSkillDatabaseService: SkillDatabaseServiceProtocol {
+    private let cacheManager: CacheManager
+    private let bundleLoader: BundleResourceLoader
+    
+    init(cacheManager: CacheManager = .shared, bundleLoader: BundleResourceLoader = .shared) {
+        self.cacheManager = cacheManager
+        self.bundleLoader = bundleLoader
+    }
+    
+    // MARK: - Lazy Loading Implementation
+    func loadCategories(for language: String) async throws -> [SkillCategory] {
+        let cacheKey = "categories_\(language)"
+        let cacheTTL: TimeInterval = 86400 // 24 hours
+        
+        return try await loadWithCache(
+            key: cacheKey,
+            path: "Database/Languages/\(language)/categories.json",
+            ttl: cacheTTL,
+            type: [SkillCategory].self
+        )
+    }
+    
+    func loadSubcategories(for categoryId: String, language: String) async throws -> [SkillSubcategory] {
+        let cacheKey = "subcategories_\(categoryId)_\(language)"
+        let cacheTTL: TimeInterval = 86400 // 24 hours
+        
+        return try await loadWithCache(
+            key: cacheKey,
+            path: "Database/Languages/\(language)/hierarchy/\(categoryId).json",
+            ttl: cacheTTL,
+            type: CategoryHierarchy.self
+        ).subcategories
+    }
+    
+    func loadSkills(for subcategoryId: String, categoryId: String, language: String) async throws -> [Skill] {
+        let cacheKey = "skills_\(subcategoryId)_\(language)"
+        let cacheTTL: TimeInterval = 3600 // 1 hour
+        
+        return try await loadWithCache(
+            key: cacheKey,
+            path: "Database/Languages/\(language)/hierarchy/\(categoryId)/\(subcategoryId).json",
+            ttl: cacheTTL,
+            type: SubcategoryHierarchy.self
+        ).skills
+    }
+    
+    // MARK: - Performance Optimized Search
+    func searchSkills(query: String, language: String) async throws -> [Skill] {
+        // Use tag index for faster search
+        let tagIndex = try await loadTagIndex()
+        let matchingSkillIds = tagIndex.search(query: query)
+        
+        // Load only matching skills
+        return try await loadSkillsByIds(matchingSkillIds, language: language)
+    }
+    
+    // MARK: - Index-Based Queries
+    func getSkillsByDifficulty(_ difficulty: SkillDifficulty) async throws -> [Skill] {
+        let difficultyIndex = try await loadDifficultyIndex()
+        let skillIds = difficultyIndex.skills(for: difficulty)
+        return try await loadSkillsByIds(skillIds, language: getCurrentLanguage())
+    }
+    
+    func getPopularSkills(limit: Int) async throws -> [Skill] {
+        let popularityIndex = try await loadPopularityIndex()
+        let topSkillIds = popularityIndex.topSkills(limit: limit)
+        return try await loadSkillsByIds(topSkillIds, language: getCurrentLanguage())
+    }
+}
+
+// MARK: - Cache Management Extension
+extension OptimizedSkillDatabaseService {
+    private func loadWithCache<T: Codable>(
+        key: String,
+        path: String,
+        ttl: TimeInterval,
+        type: T.Type
+    ) async throws -> T {
+        // Check cache first
+        if let cachedData = await cacheManager.get(key: key, type: type),
+           !cacheManager.isExpired(key: key, ttl: ttl) {
+            return cachedData
+        }
+        
+        // Load from bundle if not in cache or expired
+        let data = try await bundleLoader.loadJSON(from: path, type: type)
+        await cacheManager.set(key: key, value: data)
+        
+        return data
+    }
+    
+    private func loadTagIndex() async throws -> TagIndex {
+        return try await loadWithCache(
+            key: "tag_index",
+            path: "Database/Indexes/tag_index.json",
+            ttl: 86400, // 24 hours
+            type: TagIndex.self
+        )
+    }
+    
+    private func loadDifficultyIndex() async throws -> DifficultyIndex {
+        return try await loadWithCache(
+            key: "difficulty_index",
+            path: "Database/Indexes/difficulty_index.json",
+            ttl: 86400, // 24 hours
+            type: DifficultyIndex.self
+        )
+    }
+    
+    private func loadPopularityIndex() async throws -> PopularityIndex {
+        return try await loadWithCache(
+            key: "popularity_index",
+            path: "Database/Indexes/popularity_index.json",
+            ttl: 3600, // 1 hour
+            type: PopularityIndex.self
+        )
+    }
+}
+
+// MARK: - Supporting Models
+struct CategoryHierarchy: Codable {
+    let category: SkillCategory
+    let subcategories: [SkillSubcategory]
+}
+
+struct SubcategoryHierarchy: Codable {
+    let subcategory: SkillSubcategory
+    let skills: [Skill]
+}
+
+struct TagIndex: Codable {
+    let tags: [String: [String]] // tag -> skill IDs
+    
+    func search(query: String) -> [String] {
+        let lowercaseQuery = query.lowercased()
+        return tags.compactMap { key, skillIds in
+            key.lowercased().contains(lowercaseQuery) ? skillIds : nil
+        }.flatMap { $0 }
+    }
+}
+
+struct DifficultyIndex: Codable {
+    let difficulties: [String: [String]] // difficulty -> skill IDs
+    
+    func skills(for difficulty: SkillDifficulty) -> [String] {
+        return difficulties[difficulty.rawValue] ?? []
+    }
+}
+
+struct PopularityIndex: Codable {
+    let rankings: [String] // skill IDs ordered by popularity
+    
+    func topSkills(limit: Int) -> [String] {
+        return Array(rankings.prefix(limit))
+    }
+}
+```
+
+### Usage Example in ViewModels:
+
+```swift
+class SkillSelectionViewModel: ObservableObject {
+    @Published var categories: [SkillCategory] = []
+    @Published var subcategories: [SkillSubcategory] = []
+    @Published var skills: [Skill] = []
+    @Published var isLoading = false
+    
+    private let skillService = OptimizedSkillDatabaseService()
+    
+    func loadData() async {
+        // Loads only English categories (not all 30 languages!)
+        categories = try await skillService.loadCategories(for: "en")
+    }
+}
+```
+
+---
+
+## 4. Feature Modules (MVVM Structure)
+
+```
+SkillTalk/
+├── Features/                          # Feature-based modules
+│   ├── Authentication/               # Auth feature module
+│   │   ├── Views/                    # SwiftUI views
+│   │   │   ├── WelcomeView.swift
+│   │   │   ├── LoginView.swift
+│   │   │   ├── SignUpView.swift
+│   │   │   └── ForgotPasswordView.swift
+│   │   │
+│   │   ├── ViewModels/               # View models
+│   │   │   ├── AuthenticationViewModel.swift
+│   │   │   ├── LoginViewModel.swift
+│   │   │   ├── SignUpViewModel.swift
+│   │   │   └── ForgotPasswordViewModel.swift
+│   │   │
+│   │   ├── Components/               # Reusable UI components
+│   │   │   ├── AuthButton.swift
+│   │   │   ├── AuthTextField.swift
+│   │   │   └── SocialLoginButton.swift
+│   │   │
+│   │   └── Coordinator/
+│   │       └── AuthCoordinator.swift
+│   │
+│   ├── Onboarding/                   # Onboarding flow
+│   │   ├── Views/
+│   │   │   ├── BasicInfoView.swift
+│   │   │   ├── CountrySelectionView.swift
+│   │   │   ├── LanguageSelectionView.swift
+│   │   │   ├── SkillSelectionView.swift
+│   │   │   ├── ProfilePictureView.swift
+│   │   │   └── OnboardingCompleteView.swift
+│   │   │
+│   │   ├── ViewModels/
+│   │   │   ├── OnboardingViewModel.swift
+│   │   │   ├── BasicInfoViewModel.swift
+│   │   │   ├── CountrySelectionViewModel.swift
+│   │   │   ├── LanguageSelectionViewModel.swift
+│   │   │   └── SkillSelectionViewModel.swift
+│   │   │
+│   │   ├── Components/
+│   │   │   ├── OnboardingProgressBar.swift
+│   │   │   ├── CountryPickerView.swift
+│   │   │   ├── LanguagePickerView.swift
+│   │   │   └── SkillPickerView.swift
+│   │   │
+│   │   └── Coordinator/
+│   │       └── OnboardingCoordinator.swift
+│   │
+│   ├── Chat/                         # Chat & messaging
+│   │   ├── Views/
+│   │   │   ├── ChatListView.swift
+│   │   │   ├── ChatConversationView.swift
+│   │   │   ├── GroupChatView.swift
+│   │   │   ├── CallsView.swift
+│   │   │   └── ChatSettingsView.swift
+│   │   │
+│   │   ├── ViewModels/
+│   │   │   ├── ChatListViewModel.swift
+│   │   │   ├── ChatConversationViewModel.swift
+│   │   │   ├── GroupChatViewModel.swift
+│   │   │   └── CallsViewModel.swift
+│   │   │
+│   │   ├── Components/
+│   │   │   ├── MessageBubbleView.swift
+│   │   │   ├── ChatInputView.swift
+│   │   │   ├── VoiceMessagePlayer.swift
+│   │   │   ├── StickerGalleryView.swift
+│   │   │   └── AttachmentOptionsView.swift
+│   │   │
+│   │   └── Coordinator/
+│   │       └── ChatCoordinator.swift
+│   │
+│   ├── Matching/                     # User matching
+│   │   ├── Views/
+│   │   │   ├── MatchView.swift
+│   │   │   ├── SearchFilterView.swift
+│   │   │   ├── BoostCenterView.swift
+│   │   │   └── UserCardView.swift
+│   │   │
+│   │   ├── ViewModels/
+│   │   │   ├── MatchViewModel.swift
+│   │   │   ├── SearchFilterViewModel.swift
+│   │   │   └── BoostViewModel.swift
+│   │   │
+│   │   ├── Components/
+│   │   │   ├── UserMatchCard.swift
+│   │   │   ├── FilterTabView.swift
+│   │   │   ├── MatchOfDayCard.swift
+│   │   │   └── BoostSelectionView.swift
+│   │   │
+│   │   └── Coordinator/
+│   │       └── MatchCoordinator.swift
+│   │
+│   ├── Posts/                        # Social posts & feed
+│   │   ├── Views/
+│   │   │   ├── PostsFeedView.swift
+│   │   │   ├── CreatePostView.swift
+│   │   │   ├── PostDetailView.swift
+│   │   │   └── PostSearchView.swift
+│   │   │
+│   │   ├── ViewModels/
+│   │   │   ├── PostsFeedViewModel.swift
+│   │   │   ├── CreatePostViewModel.swift
+│   │   │   └── PostDetailViewModel.swift
+│   │   │
+│   │   ├── Components/
+│   │   │   ├── PostListItem.swift
+│   │   │   ├── PostCommentItem.swift
+│   │   │   ├── PostActionMenu.swift
+│   │   │   └── ActivityRankingView.swift
+│   │   │
+│   │   └── Coordinator/
+│   │       └── PostsCoordinator.swift
+│   │
+│   ├── VoiceRoom/                    # Voice & live rooms
+│   │   ├── Views/
+│   │   │   ├── VoiceRoomListView.swift
+│   │   │   ├── VoiceRoomView.swift
+│   │   │   ├── CreateVoiceRoomView.swift
+│   │   │   ├── LiveRoomView.swift
+│   │   │   └── HostCenterView.swift
+│   │   │
+│   │   ├── ViewModels/
+│   │   │   ├── VoiceRoomListViewModel.swift
+│   │   │   ├── VoiceRoomViewModel.swift
+│   │   │   ├── LiveRoomViewModel.swift
+│   │   │   └── HostCenterViewModel.swift
+│   │   │
+│   │   ├── Components/
+│   │   │   ├── VoiceRoomControls.swift
+│   │   │   ├── ParticipantView.swift
+│   │   │   ├── LiveRoomChat.swift
+│   │   │   └── GiftEffectsView.swift
+│   │   │
+│   │   └── Coordinator/
+│   │       └── VoiceRoomCoordinator.swift
+│   │
+│   ├── Profile/                      # User profile & settings
+│   │   ├── Views/
+│   │   │   ├── ProfileView.swift
+│   │   │   ├── EditProfileView.swift
+│   │   │   ├── SettingsView.swift
+│   │   │   ├── StreakView.swift
+│   │   │   └── VIPSubscriptionView.swift
+│   │   │
+│   │   ├── ViewModels/
+│   │   │   ├── ProfileViewModel.swift
+│   │   │   ├── EditProfileViewModel.swift
+│   │   │   ├── SettingsViewModel.swift
+│   │   │   └── VIPSubscriptionViewModel.swift
+│   │   │
+│   │   ├── Components/
+│   │   │   ├── ProfileStatItem.swift
+│   │   │   ├── SkillDisplayView.swift
+│   │   │   ├── VIPFeaturesCard.swift
+│   │   │   └── SettingsItem.swift
+│   │   │
+│   │   └── Coordinator/
+│   │       └── ProfileCoordinator.swift
+│   │
+│   └── Skills/                       # Skill management
+│       ├── Views/
+│       │   ├── SkillSearchView.swift
+│       │   ├── SkillDetailView.swift
+│       │   ├── CategorySelectionView.swift
+│       │   └── SkillCompatibilityView.swift
+│       │
+│       ├── ViewModels/
+│       │   ├── SkillSearchViewModel.swift
+│       │   ├── SkillDetailViewModel.swift
+│       │   └── CategorySelectionViewModel.swift
+│       │
+│       ├── Components/
+│       │   ├── SkillTileView.swift
+│       │   ├── CategoryTileView.swift
+│       │   ├── ProficiencySelector.swift
+│       │   └── CompatibilityIndicator.swift
+│       │
+│       └── Coordinator/
+│           └── SkillsCoordinator.swift
+```
+
+### Feature Module Principles:
+
+**MVVM Structure** - Each feature follows consistent View/ViewModel/Components pattern
+**Coordinator Pattern** - Navigation handled by dedicated coordinators
+**Component Reusability** - Shared UI components within each feature
+**Clear Separation** - Business logic in ViewModels, UI logic in Views
+
+---
+
+## 5. Shared Components & Utilities
+
+```
+SkillTalk/
+├── Shared/                            # Shared components across features
+│   ├── UI/                           # Reusable UI components
+│   │   ├── Components/               # Generic UI components
+│   │   │   ├── Buttons/
+│   │   │   │   ├── PrimaryButton.swift
+│   │   │   │   ├── SecondaryButton.swift
+│   │   │   │   ├── IconButton.swift
+│   │   │   │   └── FloatingActionButton.swift
+│   │   │   │
+│   │   │   ├── Cards/
+│   │   │   │   ├── BaseCard.swift
+│   │   │   │   ├── InfoCard.swift
+│   │   │   │   └── ActionCard.swift
+│   │   │   │
+│   │   │   ├── Navigation/
+│   │   │   │   ├── TabBarView.swift
+│   │   │   │   ├── NavigationBarView.swift
+│   │   │   │   └── BackButton.swift
+│   │   │   │
+│   │   │   ├── Input/
+│   │   │   │   ├── CustomTextField.swift
+│   │   │   │   ├── SearchBar.swift
+│   │   │   │   ├── PickerView.swift
+│   │   │   │   └── SliderView.swift
+│   │   │   │
+│   │   │   ├── Loading/
+│   │   │   │   ├── LoadingView.swift
+│   │   │   │   ├── ShimmerView.swift
+│   │   │   │   ├── ProgressView.swift
+│   │   │   │   └── PullToRefresh.swift
+│   │   │   │
+│   │   │   ├── Alerts/
+│   │   │   │   ├── CustomAlert.swift
+│   │   │   │   ├── ToastView.swift
+│   │   │   │   ├── ActionSheet.swift
+│   │   │   │   └── ErrorView.swift
+│   │   │   │
+│   │   │   └── Media/
+│   │   │       ├── AsyncImageView.swift
+│   │   │       ├── VideoPlayerView.swift
+│   │   │       ├── AudioPlayerView.swift
+│   │   │       └── ImagePickerView.swift
+│   │   │
+│   │   ├── Modifiers/                # SwiftUI view modifiers
+│   │   │   ├── CornerRadiusModifier.swift
+│   │   │   ├── ShadowModifier.swift
+│   │   │   ├── BorderModifier.swift
+│   │   │   └── AnimationModifier.swift
+│   │   │
+│   │   └── Styles/                   # Custom styles
+│   │       ├── ButtonStyles.swift
+│   │       ├── TextFieldStyles.swift
+│   │       ├── ProgressViewStyles.swift
+│   │       └── NavigationStyles.swift
+│   │
+│   ├── Theme/                        # App theming system
+│   │   ├── AppTheme.swift           # Main theme configuration
+│   │   ├── Colors.swift             # Color palette
+│   │   ├── Typography.swift         # Font styles
+│   │   ├── Spacing.swift            # Layout spacing
+│   │   ├── Shadows.swift            # Shadow definitions
+│   │   └── Animations.swift         # Animation configurations
+│   │
+│   ├── Utils/                        # Utility functions
+│   │   ├── Validation/
+│   │   │   ├── EmailValidator.swift
+│   │   │   ├── PasswordValidator.swift
+│   │   │   ├── PhoneValidator.swift
+│   │   │   └── FormValidator.swift
+│   │   │
+│   │   ├── Formatters/
+│   │   │   ├── DateFormatter+Extensions.swift
+│   │   │   ├── NumberFormatter+Extensions.swift
+│   │   │   ├── StringFormatter.swift
+│   │   │   └── CurrencyFormatter.swift
+│   │   │
+│   │   ├── Helpers/
+│   │   │   ├── KeychainHelper.swift
+│   │   │   ├── BiometricHelper.swift
+│   │   │   ├── LocationHelper.swift
+│   │   │   ├── CameraHelper.swift
+│   │   │   ├── ContactsHelper.swift
+│   │   │   └── ShareHelper.swift
+│   │   │
+│   │   ├── Networking/
+│   │   │   ├── NetworkMonitor.swift
+│   │   │   ├── APIClient.swift
+│   │   │   ├── RequestBuilder.swift
+│   │   │   └── ResponseHandler.swift
+│   │   │
+│   │   └── Performance/
+│   │       ├── ImageOptimizer.swift
+│   │       ├── MemoryManager.swift
+│   │       ├── CacheManager.swift
+│   │       └── PerformanceMonitor.swift
+│   │
+│   ├── Constants/                    # App-wide constants
+│   │   ├── AppConstants.swift       # General app constants
+│   │   ├── APIConstants.swift       # API endpoints and keys
+│   │   ├── UserDefaultsKeys.swift   # UserDefaults keys
+│   │   ├── NotificationNames.swift  # Notification center names
+│   │   └── AnalyticsEvents.swift    # Analytics event names
+│   │
+│   └── Protocols/                    # Shared protocols
+│       ├── Identifiable+Extensions.swift
+│       ├── Codable+Extensions.swift
+│       ├── Equatable+Extensions.swift
+│       └── Hashable+Extensions.swift
+```
+
+### Shared Components Principles:
+
+**Reusability** - Components designed for use across multiple features
+**Consistency** - Unified design system and theming
+**Performance** - Optimized components with proper memory management
+**Accessibility** - VoiceOver and accessibility support built-in
+
+---
+
+## 6. Resources & Assets
+
+```
+SkillTalk/
+├── Resources/                         # App resources and assets
+│   ├── Assets.xcassets/              # Asset catalog
+│   │   ├── AppIcon.appiconset/       # App icons
+│   │   ├── LaunchImage.launchimage/  # Launch images
+│   │   ├── Colors/                   # Color assets
+│   │   │   ├── Primary.colorset/
+│   │   │   ├── Secondary.colorset/
+│   │   │   ├── Background.colorset/
+│   │   │   └── Text.colorset/
+│   │   │
+│   │   ├── Images/                   # Image assets
+│   │   │   ├── Icons/
+│   │   │   │   ├── tab-chat.imageset/
+│   │   │   │   ├── tab-match.imageset/
+│   │   │   │   ├── tab-posts.imageset/
+│   │   │   │   ├── tab-voice.imageset/
+│   │   │   │   └── tab-profile.imageset/
+│   │   │   │
+│   │   │   ├── Illustrations/
+│   │   │   │   ├── onboarding-1.imageset/
+│   │   │   │   ├── onboarding-2.imageset/
+│   │   │   │   ├── empty-state.imageset/
+│   │   │   │   └── error-state.imageset/
+│   │   │   │
+│   │   │   └── Backgrounds/
+│   │   │       ├── gradient-bg.imageset/
+│   │   │       ├── pattern-bg.imageset/
+│   │   │       └── splash-bg.imageset/
+│   │   │
+│   │   └── Data/                     # Data assets
+│   │       ├── countries.dataset/
+│   │       ├── languages.dataset/
+│   │       ├── skills.dataset/
+│   │       └── currencies.dataset/
+│   │
+│   ├── Fonts/                        # Custom fonts
+│   │   ├── Inter-Regular.ttf
+│   │   ├── Inter-Medium.ttf
+│   │   ├── Inter-SemiBold.ttf
+│   │   ├── Inter-Bold.ttf
+│   │   └── SF-Pro-Display.ttf
+│   │
+│   ├── Sounds/                       # Audio files
+│   │   ├── Notifications/
+│   │   │   ├── message-received.wav
+│   │   │   ├── match-found.wav
+│   │   │   └── call-incoming.wav
+│   │   │
+│   │   ├── UI/
+│   │   │   ├── button-tap.wav
+│   │   │   ├── swipe-action.wav
+│   │   │   └── success-chime.wav
+│   │   │
+│   │   └── Voice/
+│   │       ├── join-room.wav
+│   │       ├── leave-room.wav
+│   │       └── mute-toggle.wav
+│   │
+│   ├── Localizations/                # Localization files
+│   │   ├── en.lproj/
+│   │   │   ├── Localizable.strings
+│   │   │   ├── InfoPlist.strings
+│   │   │   └── LaunchScreen.storyboard
+│   │   │
+│   │   ├── es.lproj/
+│   │   │   ├── Localizable.strings
+│   │   │   ├── InfoPlist.strings
+│   │   │   └── LaunchScreen.storyboard
+│   │   │
+│   │   ├── fr.lproj/
+│   │   │   └── [same structure]
+│   │   │
+│   │   ├── de.lproj/
+│   │   │   └── [same structure]
+│   │   │
+│   │   ├── zh-Hans.lproj/
+│   │   │   └── [same structure]
+│   │   │
+│   │   ├── ja.lproj/
+│   │   │   └── [same structure]
+│   │   │
+│   │   └── ko.lproj/
+│   │       └── [same structure]
+│   │
+│   ├── Storyboards/                  # Interface Builder files
+│   │   ├── LaunchScreen.storyboard   # Launch screen
+│   │   └── Main.storyboard           # Main storyboard (if using UIKit)
+│   │
+│   ├── Configuration/                # Configuration files
+│   │   ├── Info.plist               # App information
+│   │   ├── SkillTalk-Debug.plist    # Debug configuration
+│   │   ├── SkillTalk-Release.plist  # Release configuration
+│   │   └── Entitlements.plist       # App entitlements
+│   │
+│   └── Database/                     # Optimized skill database (5,484 skills, 30+ languages)
+│       ├── Core/                     # Core data (no translations)
+│       │   ├── categories.json       # Core category data (IDs, relationships, metadata)
+│       │   ├── subcategories.json    # Core subcategory data
+│       │   └── skills.json           # Core skill data
+│       │
+│       ├── Languages/                # Language-specific translations
+│       │   ├── en/                   # English translations
+│       │   │   ├── categories.json   # Category name translations
+│       │   │   ├── subcategories.json # Subcategory name translations
+│       │   │   ├── skills.json       # Skill name/description translations
+│       │   │   └── hierarchy/        # Hierarchical lazy loading structure
+│       │   │       ├── category_1.json    # Category with subcategories
+│       │   │       ├── category_2.json    # Category with subcategories
+│       │   │       ├── category_1/         # Subcategory folders
+│       │   │       │   ├── subcategory_1.json # Subcategory with skills
+│       │   │       │   └── subcategory_2.json # Subcategory with skills
+│       │   │       └── category_2/
+│       │   │           ├── subcategory_3.json
+│       │   │           └── subcategory_4.json
+│       │   │
+│       │   ├── es/                   # Spanish translations
+│       │   │   ├── categories.json
+│       │   │   ├── subcategories.json
+│       │   │   ├── skills.json
+│       │   │   └── hierarchy/        # Same structure as English
+│       │   │       └── [same structure]
+│       │   │
+│       │   ├── fr/                   # French translations
+│       │   │   └── [same structure]
+│       │   │
+│       │   ├── de/                   # German translations
+│       │   │   └── [same structure]
+│       │   │
+│       │   ├── zh-Hans/              # Simplified Chinese translations
+│       │   │   └── [same structure]
+│       │   │
+│       │   ├── ja/                   # Japanese translations
+│       │   │   └── [same structure]
+│       │   │
+│       │   ├── ko/                   # Korean translations
+│       │   │   └── [same structure]
+│       │   │
+│       │   └── [other_languages]/   # Additional language support
+│       │       └── [same structure]
+│       │
+│       ├── Indexes/                  # Performance optimization indexes
+│       │   ├── difficulty_index.json # Skills grouped by difficulty level
+│       │   ├── popularity_index.json # Skills grouped by popularity/usage
+│       │   ├── tag_index.json       # Skills grouped by tags/keywords
+│       │   └── category_tree.json   # Complete hierarchical structure index
+│       │
+│       ├── Reference/                # Reference data (non-skill related)
+│       │   ├── countries.json        # Country list and codes
+│       │   ├── currencies.json       # Currency information
+│       │   └── timezones.json        # Timezone data
+│       │
+│       ├── Configuration/            # Database configuration
+│       │   ├── cache_config.json     # Caching settings and TTL values
+│       │   ├── languages.json        # Available language codes and metadata
+│       │   ├── metadata.json         # Database version, update info
+│       │   └── api_docs.json         # Database API documentation
+│       │
+│       └── Cache/                    # Local cache storage
+│           ├── user-cache.json       # User-specific cached data
+│           ├── match-cache.json      # Match results cache
+│           ├── skill-cache.json      # Recently accessed skills cache
+│           └── language-cache.json   # Current language data cache
+```
+
+### Resource Management Principles:
+
+**Asset Organization** - Logical grouping by type and usage
+**Localization Ready** - Multi-language support structure
+**Performance Optimized** - Appropriate asset formats and sizes
+**Dark Mode Support** - Color assets with light/dark variants 
+
+---
+
+## 7. Testing Structure
+
+```
+SkillTalkTests/                        # Unit tests target
+├── Core/                             # Core component tests
+│   ├── Models/
+│   │   ├── UserModelTests.swift
+│   │   ├── SkillModelTests.swift
+│   │   ├── ChatModelTests.swift
+│   │   ├── PostModelTests.swift
+│   │   └── MatchModelTests.swift
+│   │
+│   ├── Services/
+│   │   ├── Authentication/
+│   │   │   ├── AuthServiceTests.swift
+│   │   │   ├── BiometricServiceTests.swift
+│   │   │   └── KeychainServiceTests.swift
+│   │   │
+│   │   ├── Networking/
+│   │   │   ├── APIClientTests.swift
+│   │   │   ├── NetworkMonitorTests.swift
+│   │   │   └── RequestBuilderTests.swift
+│   │   │
+│   │   ├── Database/
+│   │   │   ├── CoreDataServiceTests.swift
+│   │   │   ├── CacheServiceTests.swift
+│   │   │   └── UserDefaultsServiceTests.swift
+│   │   │
+│   │   └── External/
+│   │       ├── SupabaseServiceTests.swift
+│   │       ├── PusherServiceTests.swift
+│   │       ├── CloudflareServiceTests.swift
+│   │       └── DeepLServiceTests.swift
+│   │
+│   └── Utils/
+│       ├── Validation/
+│       │   ├── EmailValidatorTests.swift
+│       │   ├── PasswordValidatorTests.swift
+│       │   └── FormValidatorTests.swift
+│       │
+│       ├── Formatters/
+│       │   ├── DateFormatterTests.swift
+│       │   ├── NumberFormatterTests.swift
+│       │   └── CurrencyFormatterTests.swift
+│       │
+│       └── Helpers/
+│           ├── LocationHelperTests.swift
+│           ├── CameraHelperTests.swift
+│           └── ShareHelperTests.swift
+│
+├── Features/                         # Feature-specific tests
+│   ├── Authentication/
+│   │   ├── ViewModels/
+│   │   │   ├── LoginViewModelTests.swift
+│   │   │   ├── SignUpViewModelTests.swift
+│   │   │   └── ForgotPasswordViewModelTests.swift
+│   │   │
+│   │   └── Coordinators/
+│   │       └── AuthCoordinatorTests.swift
+│   │
+│   ├── Profile/
+│   │   ├── ViewModels/
+│   │   │   ├── ProfileViewModelTests.swift
+│   │   │   ├── EditProfileViewModelTests.swift
+│   │   │   └── SettingsViewModelTests.swift
+│   │   │
+│   │   └── Coordinators/
+│   │       └── ProfileCoordinatorTests.swift
+│   │
+│   ├── Chat/
+│   │   ├── ViewModels/
+│   │   │   ├── ChatListViewModelTests.swift
+│   │   │   ├── ConversationViewModelTests.swift
+│   │   │   └── VoiceCallViewModelTests.swift
+│   │   │
+│   │   └── Coordinators/
+│   │       └── ChatCoordinatorTests.swift
+│   │
+│   ├── Matching/
+│   │   ├── ViewModels/
+│   │   │   ├── MatchViewModelTests.swift
+│   │   │   ├── FilterViewModelTests.swift
+│   │   │   └── BoostViewModelTests.swift
+│   │   │
+│   │   └── Coordinators/
+│   │       └── MatchCoordinatorTests.swift
+│   │
+│   ├── Posts/
+│   │   ├── ViewModels/
+│   │   │   ├── FeedViewModelTests.swift
+│   │   │   ├── CreatePostViewModelTests.swift
+│   │   │   └── PostDetailViewModelTests.swift
+│   │   │
+│   │   └── Coordinators/
+│   │       └── PostsCoordinatorTests.swift
+│   │
+│   └── VoiceRoom/
+│       ├── ViewModels/
+│       │   ├── VoiceRoomListViewModelTests.swift
+│       │   ├── VoiceRoomViewModelTests.swift
+│   │   │   └── CreateRoomViewModelTests.swift
+│   │   │
+│   │   └── Coordinators/
+│   │       └── VoiceRoomCoordinatorTests.swift
+│   │
+│   ├── Mocks/                            # Mock objects for testing
+│   │   ├── Services/
+│   │   │   ├── MockAuthService.swift
+│   │   │   ├── MockNetworkService.swift
+│   │   │   ├── MockDatabaseService.swift
+│   │   │   └── MockLocationService.swift
+│   │   │
+│   │   ├── Models/
+│   │   │   ├── MockUserModel.swift
+│   │   │   ├── MockChatModel.swift
+│   │   │   ├── MockPostModel.swift
+│   │   │   └── MockSkillModel.swift
+│   │   │
+│   │   └── Coordinators/
+│   │       ├── MockAuthCoordinator.swift
+│   │       ├── MockChatCoordinator.swift
+│   │       └── MockProfileCoordinator.swift
+│   │
+│   └── TestHelpers/                      # Test utility classes
+│       ├── XCTestCase+Extensions.swift
+│       ├── TestDataFactory.swift
+│       ├── AsyncTestHelper.swift
+│       └── NetworkTestHelper.swift
+
+SkillTalkUITests/                     # UI tests target
+├── Authentication/
+│   ├── LoginUITests.swift
+│   ├── SignUpUITests.swift
+│   └── OnboardingUITests.swift
+│
+├── Core/
+│   ├── NavigationUITests.swift
+│   ├── TabBarUITests.swift
+│   └── SettingsUITests.swift
+│
+├── Features/
+│   ├── ChatUITests.swift
+│   ├── MatchingUITests.swift
+│   ├── PostsUITests.swift
+│   ├── ProfileUITests.swift
+│   └── VoiceRoomUITests.swift
+│
+├── Accessibility/
+│   ├── VoiceOverTests.swift
+│   ├── DynamicTypeTests.swift
+│   └── ColorContrastTests.swift
+│
+└── Performance/
+    ├── LaunchTimeTests.swift
+    ├── ScrollPerformanceTests.swift
+    └── MemoryUsageTests.swift
+
+SkillTalkSnapshotTests/               # Snapshot tests target
+├── Views/
+│   ├── AuthenticationSnapshotTests.swift
+│   ├── ProfileSnapshotTests.swift
+│   ├── ChatSnapshotTests.swift
+│   ├── MatchingSnapshotTests.swift
+│   └── PostsSnapshotTests.swift
+│
+└── Components/
+    ├── ButtonSnapshotTests.swift
+    ├── CardSnapshotTests.swift
+    └── InputSnapshotTests.swift
+```
+
+### Testing Strategy Principles:
+
+**Comprehensive Coverage** - Unit, integration, UI, and snapshot tests
+**Mock-Driven** - Isolated testing with proper mocking
+**Async Testing** - Proper testing of async/await operations
+**Accessibility Testing** - VoiceOver and accessibility compliance
+
+---
+
+## 8. Configuration & Build Files
+
+```
+Project Root/
+├── SkillTalk.xcodeproj/              # Xcode project
+├── SkillTalk.xcworkspace/            # CocoaPods workspace
+├── Podfile                           # CocoaPods dependencies
+├── Podfile.lock                      # Locked dependency versions
+├── Package.swift                     # Swift Package Manager
+├── Package.resolved                  # SPM resolved versions
+│
+├── Configuration/                    # Build configurations
+│   ├── Debug.xcconfig               # Debug configuration
+│   ├── Release.xcconfig             # Release configuration
+│   ├── Staging.xcconfig             # Staging configuration
+│   └── Common.xcconfig              # Shared configuration
+│
+├── Scripts/                          # Build scripts
+│   ├── build-phases/
+│   │   ├── swiftlint.sh            # SwiftLint script
+│   │   ├── code-signing.sh         # Code signing script
+│   │   └── version-bump.sh         # Version bumping script
+│   │
+│   ├── deployment/
+│   │   ├── deploy-testflight.sh    # TestFlight deployment
+│   │   ├── deploy-appstore.sh      # App Store deployment
+│   │   └── generate-ipa.sh         # IPA generation
+│   │
+│   └── utilities/
+│       ├── clean-build.sh          # Clean build script
+│       ├── update-dependencies.sh  # Dependency updates
+│       └── generate-docs.sh        # Documentation generation
+│
+├── Fastlane/                         # Fastlane automation
+│   ├── Fastfile                    # Fastlane configuration
+│   ├── Appfile                     # App configuration
+│   ├── Deliverfile                 # Delivery configuration
+│   └── Matchfile                   # Code signing configuration
+│
+├── Documentation/                    # Project documentation
+│   ├── README.md                   # Project overview
+│   ├── ARCHITECTURE.md             # Architecture documentation
+│   ├── API.md                      # API documentation
+│   ├── CONTRIBUTING.md             # Contribution guidelines
+│   ├── CHANGELOG.md                # Version changelog
+│   └── DEPLOYMENT.md               # Deployment guide
+│
+├── Tools/                            # Development tools
+│   ├── .swiftlint.yml              # SwiftLint configuration
+│   ├── .swiftformat                # SwiftFormat configuration
+│   ├── .gitignore                  # Git ignore rules
+│   └── .github/                    # GitHub workflows
+│       └── workflows/
+│           ├── ci.yml              # Continuous integration
+│           ├── release.yml         # Release workflow
+│           └── pr-checks.yml       # Pull request checks
+│
+└── Certificates/                     # Code signing (gitignored)
+    ├── development/
+    ├── distribution/
+    └── provisioning-profiles/
+```
+
+---
+
+## **Summary: Key Architectural Decisions**
+
+### **MVVM Implementation**
+- **Views**: SwiftUI for modern UI, UIKit for complex components
+- **ViewModels**: ObservableObject with @Published properties
+- **Models**: Codable structs for data representation
+- **Coordinators**: Navigation and flow management
+
+### **Multi-Provider Backend Strategy**
+- **Authentication**: Supabase (primary) + Firebase (fallback)
+- **Database**: Supabase Postgres + Firestore backup
+- **Real-time**: Pusher/Ably for chat + WebSocket fallbacks
+- **Media**: Cloudflare R2 + Firebase Storage
+- **Voice/Video**: Daily.co + 100ms.live for rooms
+
+### **Development Principles**
+- **Protocol-Oriented**: Dependency injection with protocols
+- **Async/Await**: Modern concurrency throughout
+- **Combine**: Reactive programming for data flow
+- **SwiftUI + UIKit**: Hybrid approach for optimal UX
+
+### **Quality Assurance**
+- **Testing**: Unit, UI, snapshot, and accessibility tests
+- **Code Quality**: SwiftLint, SwiftFormat, and code reviews
+- **CI/CD**: Automated testing and deployment pipelines
+- **Monitoring**: Crash reporting and performance tracking
+
+### **Localization & Accessibility**
+- **Multi-language**: Support for 8+ languages
+- **Accessibility**: VoiceOver, Dynamic Type, and contrast support
+- **Dark Mode**: Full dark mode implementation
+- **Performance**: Optimized for all device sizes
+
+**Applied Rules**: R0.6 (Dart to Swift Conversion), R0.7 (Swift Best Practices), R0.0 (UIUX Reference), R0.3 (Error Resolution)
+
+---
+
+This structure provides a solid foundation for building the SkillTalk iOS app with proper MVVM architecture, comprehensive testing, and scalable organization. Each section can be implemented incrementally while maintaining clean separation of concerns and following iOS best practices.
+
+# tech stack: 
+swift | iOS
+
+I'll help create comprehensive naming convention rules for SkillTalk, following Swift best practices and incorporating the app's specific needs. I'll structure this into clear categories with explanations.
+
+## 📁 Naming Conventions for SkillTalk
+
+### 1. Files and Directories
+
+| Rule | Description | Example |
+|------|-------------|---------|
+| **R1.1 Use snake_case for files** | All file names should use lowercase with underscores | `chat_screen.dart`, `user_profile_widget.dart` |
+| **R1.2 Feature-based directory structure** | Group files by feature, not type | `features/chat/screens/`, `features/match/widgets/` |
+| **R1.3 Suffix files by type** | Add descriptive suffixes to indicate file purpose | `_screen.dart`, `_widget.dart`, `_provider.dart`, `_model.dart` |
+| **R1.4 Service files naming** | Services should be prefixed with their type | `firebase_auth_service.dart`, `multi_chat_service.dart` |
+| **R1.5 Test files naming** | Test files should mirror the file they test with `_test` suffix | `chat_screen_test.dart`, `user_model_test.dart` |
+
+### 2. Classes and Types
+
+| Rule | Description | Example |
+|------|-------------|---------|
+| **R2.1 Use PascalCase for classes** | All class names should use PascalCase | `ChatScreen`, `UserProfileWidget` |
+| **R2.2 Suffix classes by type** | Add descriptive suffixes to indicate class purpose | `ChatScreen`, `UserModel`, `AuthProvider` |
+| **R2.3 Interface naming** | Interfaces should be prefixed with 'I' | `IAuthService`, `IChatRepository` |
+| **R2.4 Abstract class naming** | Abstract classes should be prefixed with 'Base' or 'Abstract' | `BaseChatService`, `AbstractUserModel` |
+| **R2.5 Enum naming** | Enums should be singular and descriptive | `UserStatus`, `MessageType` |
+| **R2.6 Mixin naming** | Mixins should be suffixed with 'Mixin' | `ValidationMixin`, `LoadingStateMixin` |
+
+### 3. Code Organization
+
+| Rule | Description | Example |
+|------|-------------|---------|
+| **R3.1 Group imports** | Organize imports in this order: | ```dart
+// 1. Flutter/Dart imports
+import 'package:flutter/material.dart';
+
+// 2. Third-party packages
+import 'package:riverpod/riverpod.dart';
+
+// 3. Local imports (relative)
+import '../widgets/chat_bubble.dart';
+
+// 4. Local imports (absolute)
+import 'package:skilltalk/core/models/user.dart';
+``` |
+| **R3.2 Class member ordering** | Order class members in this sequence: | ```dart
+class ChatScreen extends StatelessWidget {
+  // 1. Static members
+  static const String routeName = '/chat';
+  
+  // 2. Constants
+  final String chatId;
+  
+  // 3. Public variables
+  final ChatController controller;
+  
+  // 4. Private variables
+  final _scrollController = ScrollController();
+  
+  // 5. Constructor
+  const ChatScreen({required this.chatId});
+  
+  // 6. Public methods
+  void sendMessage() {}
+  
+  // 7. Private methods
+  void _handleScroll() {}
+  
+  // 8. Build method
+  @override
+  Widget build(BuildContext context) {}
+}
+``` |
+| **R3.3 Widget organization** | Organize widget files in this order: | ```dart
+// 1. Imports
+
+// 2. Constants
+const double _kPadding = 16.0;
+
+// 3. Widget class
+class ChatBubble extends StatelessWidget {
+  // 4. Properties
+  // 5. Constructor
+  // 6. Methods
+  // 7. Build method
+}
+
+// 8. Private widgets
+class _ChatBubbleContent extends StatelessWidget {}
+``` |
+| **R3.4 Provider organization** | Organize provider files in this order: | ```dart
+// 1. Imports
+
+// 2. Provider definitions
+final chatProvider = StateNotifierProvider<ChatNotifier, ChatState>((ref) {
+  return ChatNotifier(ref);
+});
+
+// 3. State class
+class ChatState {}
+
+// 4. Notifier class
+class ChatNotifier extends StateNotifier<ChatState> {}
+``` |
+
+### 4. Special Cases for SkillTalk
+
+| Rule | Description | Example |
+|------|-------------|---------|
+| **R4.1 Skill-related naming** | Use consistent prefixes for skill-related classes | `SkillModel`, `SkillProvider`, `SkillSearchScreen` |
+| **R4.2 Match-related naming** | Use consistent prefixes for matching features | `MatchFilter`, `MatchResult`, `MatchScreen` |
+| **R4.3 Chat-related naming** | Use consistent prefixes for chat features | `ChatMessage`, `ChatRoom`, `ChatService` |
+| **R4.4 Feature flag naming** | Use consistent prefixes for feature flags | `FF_ENABLE_AI_CHAT`, `FF_PREMIUM_FEATURES` |
+| **R4.5 Analytics event naming** | Use consistent format for analytics events | `chat_message_sent`, `skill_match_completed` |
+
+### 5. Documentation and Comments
+
+| Rule | Description | Example |
+|------|-------------|---------|
+| **R5.1 Document public APIs** | Use /// for documentation comments | ```dart
+/// A service that handles chat operations including sending
+/// and receiving messages, managing chat rooms, and handling
+/// real-time updates.
+class ChatService {
+  /// Sends a message to the specified chat room.
+  /// Returns [MessageId] if successful, throws [ChatException] if failed.
+  Future<MessageId> sendMessage(Message message) async {}
+}
+``` |
+| **R5.2 Group related code** | Use section comments to group related code | ```dart
+// region Chat Operations
+  void sendMessage() {}
+  void receiveMessage() {}
+// endregion
+``` |
+
+These naming conventions are designed to:
+1. Maintain consistency across the SkillTalk codebase
+2. Improve code readability and maintainability
+3. Make it easier for new developers to understand the codebase
+4. Support the app's complex feature set while keeping code organized
+5. Follow Flutter/Dart best practices while adding SkillTalk-specific rules
+
+----
+
+## ✅ **SkillTalk Flutter Development Rules & Best Practices**
+
+----
+
+### 🔧 1. **State Management Rules**
+
+| Rule                                                             | Description                                                                                                                         |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **R1.1 Use Riverpod 2.0 or Bloc for core state**                 | Use `flutter_riverpod` or `flutter_bloc` to handle business logic (chat, match engine, posts) to ensure testability and modularity. |
+| **R1.2 Separate UI from Logic**                                  | Maintain `View`, `Controller/ViewModel`, and `Service` separation (MVVM-ish) for every feature page.                                |
+| **R1.3 Use `StateNotifier` or `AsyncNotifier` for dynamic data** | Match page, chat threads, voice room lists, etc., should use `AsyncNotifier` with `autoDispose`.                                    |
+| **R1.4 Local caching uses Hive or SharedPreferences**            | Use Hive for structured offline state and SharedPreferences for flags like dark mode, onboarding completed, etc.                    |
+
+---
+
+### 🚀 2. **Performance Optimization Rules**
+
+| Rule                                                            | Description                                                                                                     |
+| --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **R2.1 Use `ListView.builder` with pagination**                 | For feeds, match lists, post history – always implement lazy loading with `ScrollController`.                   |
+| **R2.2 Optimize image loading with `cached_network_image`**     | Use low-resolution thumbnails in feed and load full-res on tap.                                                 |
+| **R2.3 Use Firestore indexes and shallow queries**              | Minimize `.get()` and use `.limit()` and `.startAfterDocument()` for infinite scroll.                           |
+| **R2.4 Minimize rebuilds with `const` widgets & selectors**     | Especially in profile and post trees; mark reusable widgets with `const` and use `Selector`/`Consumer` widgets. |
+| **R2.5 Use `flutter_image_compress` and `image_picker` wisely** | Compress images before upload, reduce resolution based on DPI and platform (WebP preferred).                    |
+| **R2.6 Avoid unnecessary setState**                             | Use state management instead of `setState` in all but the smallest widgets.                                     |
+
+---
+
+### 🧬 3. **Flutter Lifecycle & Resource Management**
+
+| Rule                                                           | Description                                                                                              |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **R3.1 Use `WidgetsBindingObserver` for app lifecycle events** | Track online/offline status, pause streams, or delay heavy jobs.                                         |
+| **R3.2 Dispose everything manually**                           | Dispose `ScrollController`, `TextEditingController`, `StreamSubscriptions`, etc., to avoid memory leaks. |
+| **R3.3 Use `initState()` for Firestore stream subscriptions**  | Start only lightweight real-time listeners in `initState`, and cancel them in `dispose()`.               |
+| **R3.4 Use `didChangeDependencies()` for async asset loads**   | For translations, user preferences, or theme loading that depends on `BuildContext`.                     |
+
+---
+
+### 🧠 4. **AI, Search & Matching Integration Rules**
+
+| Rule                                                                | Description                                                                                                       |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **R4.1 Offload AI calls to cloud functions or dedicated API layer** | Keep Flutter frontend light. Use `Firebase Functions` or `Supabase Edge Functions` to call OpenAI or Google APIs. |
+| **R4.2 Handle AI latency with shimmer loaders & placeholders**      | For translated chats or post-enhancement, show loading state instead of freezing UI.                              |
+| **R4.3 Debounce search queries**                                    | Use `debounce()` or `Timer` to prevent excessive Firestore reads when filtering users or searching posts.         |
+| **R4.4 Local cache AI-enhanced data**                               | Cache AI-modified bios or captions in Hive or SharedPreferences to avoid repeated API costs.                      |
+
+---
+
+### 🗂️ 5. **Firestore, Query & Storage Rules**
+
+| Rule                                                       | Description                                                                                            |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **R5.1 Structure Firestore data with scalability in mind** | Use subcollections (e.g., `users/{uid}/messages`) and avoid nested reads.                              |
+| **R5.2 Enable Firestore offline persistence**              | Set `FirebaseFirestore.instance.settings = Settings(persistenceEnabled: true)` early in `main.dart`.   |
+| **R5.3 Use Firestore rules for user data privacy**         | Lock down collections to `request.auth.uid == resource.data.uid` wherever possible.                    |
+| **R5.4 Avoid client-side writes for sensitive data**       | For example, match scores and engagement data should be computed on a secure server or Cloud Function. |
+
+---
+
+### 🔒 6. **Security, Privacy & Abuse Prevention Rules**
+
+| Rule                                               | Description                                                                                     |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **R6.1 Obfuscate & minify builds for release**     | Use `flutter build apk --obfuscate --split-debug-info=dir/` for added code protection.          |
+| **R6.2 Implement profanity filters on chat input** | Use client-side filtering to instantly catch slurs or spam before sending to Firestore.         |
+| **R6.3 Hash user content for moderation triggers** | Implement MD5/SHA check for offensive image content if AI moderation isn't in place.            |
+| **R6.4 Secure API keys**                           | Never store OpenAI/Google credentials in Flutter. Use Firebase Functions for proxying requests. |
+
+---
+
+### 🌐 7. **Networking & Data Handling**
+
+| Rule                                                             | Description                                                                                            |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **R7.1 Use Dio + Retry + Timeout**                               | For any RESTful or external API usage (e.g., translation), use Dio with retry and timeout interceptor. |
+| **R7.2 Isolate heavy logic with `compute()`**                    | Parse JSON, analyze bios, or rank match results in an isolated isolate using `compute()`.              |
+| **R7.3 Use `connectivity_plus` to check network before writing** | For sending messages/posts or making purchases, check for connection. Queue unsent actions locally.    |
+
+---
+
+### 📱 8. **UI/UX & Animation Best Practices**
+
+| Rule                                                                     | Description                                                                          |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| **R8.1 Use Lottie or Flare animations for loading states**               | For chat typing, loading posts, or AI-thinking screens.                              |
+| **R8.2 Use animated transitions with `go_router` or `PageRouteBuilder`** | Apply smooth transitions between tabs and detail pages.                              |
+| **R8.3 Follow Material 3 or Cupertino styling depending on platform**    | Match platform UX standards with `Platform.isIOS` or use `flutter_platform_widgets`. |
+| **R8.4 Match brand guidelines**                                          | Use #2fb0c7 as the primary CTA color across buttons, tabs, and highlights.           |
+
+---
+
+### 🧩 9. **Feature Flags & Hidden Features**
+
+| Rule                                                 | Description                                                                                             |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **R9.1 Implement feature flags via Remote Config**   | Use Firebase Remote Config to enable/disable AI, voice room filters, or promotions.                     |
+| **R9.2 Log all user engagement for A/B testing**     | Use Firebase Analytics or Mixpanel for screen time, feature use, post interactions.                     |
+| **R9.3 Preload first match intelligently on signup** | Use `Cloud Function` or server logic to precompute a high-quality match immediately after registration. |
+
+---
+
+Would you like this structured into a PDF or Markdown document for documentation within your project folder? I can generate it for you.
+
+
+databases
+
+Note:** The SkillTalk skill database is already fully implemented and lives in the `/database` directory. No new implementation is required—this section documents the actual system for Task Master and all developers. All access to the skill database must use the service/provider pattern as described below.
+The SkillTalk app implements five core reference databases that provide consistent access to structured data, Note:** The following five reference databases are already fully implemented and live in the `lib/feature/references_data ` directory. No new implementation is required—this section documents the actual system for Task Master and all developers. All access should use the static utility classes and ReferenceDataProvider as described below.
+
+/Users/applemacmini/SkillTalk/my_skilltalk_app/skilltalk/database
+/Users/applemacmini/SkillTalk/my_skilltalk_app/skilltalk/lib/references_data
+
+
+# Flutter/Dart to Swift Conversion Rule
+
+**R0.6 MANDATORY Flutter/Dart to Swift Conversion**
+- **ALWAYS CONVERT DART TO SWIFT**: When encountering Flutter/Dart code in this project, automatically convert it to equivalent Swift/iOS patterns
+- **MAINTAIN FUNCTIONALITY**: Preserve all business logic, data structures, and functionality while adapting to Swift/iOS conventions
+- **FOLLOW iOS PATTERNS**: Use proper iOS architecture patterns (MVVM, Coordinator, etc.) instead of Flutter patterns
+
+**Conversion Mapping Guide:**
+
+## 1. **Language Syntax Conversion**
+
+| Dart Pattern | Swift Equivalent | Notes |
+|--------------|------------------|-------|
+| `class MyClass {` | `class MyClass {` or `struct MyClass {` | Use struct for value types, class for reference types |
+| `final String name;` | `let name: String` | Immutable properties |
+| `String? name;` | `var name: String?` | Optional types |
+| `List<String>` | `[String]` | Array syntax |
+| `Map<String, dynamic>` | `[String: Any]` | Dictionary syntax |
+| `enum MyEnum { value1, value2 }` | `enum MyEnum { case value1, value2 }` | Enum cases |
+| `@immutable` | `struct` or `let` properties | Immutability |
+| `required this.property` | Constructor parameters | Use init() methods |
+
+## 2. **Data Models Conversion**
+
+**Dart Model Pattern:**
+```dart
+@immutable
+class UserModel {
+  const UserModel({
+    required this.id,
+    required this.name,
+    this.email,
+  });
+  
+  final String id;
+  final String name;
+  final String? email;
+  
+  UserModel copyWith({String? name, String? email}) {
+    return UserModel(
+      id: id,
+      name: name ?? this.name,
+      email: email ?? this.email,
+    );
+  }
+  
+  Map<String, dynamic> toJson() => {
+    'id': id,
+    'name': name,
+    'email': email,
+  };
+  
+  factory UserModel.fromJson(Map<String, dynamic> json) {
+    return UserModel(
+      id: json['id'] as String,
+      name: json['name'] as String,
+      email: json['email'] as String?,
+    );
+  }
+}
+```
+
+**Swift Equivalent:**
+```swift
+struct UserModel: Codable, Equatable {
+    let id: String
+    let name: String
+    let email: String?
+    
+    init(id: String, name: String, email: String? = nil) {
+        self.id = id
+        self.name = name
+        self.email = email
+    }
+    
+    // Swift structs get copy-with functionality through memberwise init
+    func copyWith(name: String? = nil, email: String? = nil) -> UserModel {
+        return UserModel(
+            id: self.id,
+            name: name ?? self.name,
+            email: email ?? self.email
+        )
+    }
+}
+```
+
+## 3. **State Management Conversion**
+
+**Dart Provider Pattern:**
+```dart
+class AuthProvider extends ChangeNotifier {
+  bool _isLoading = false;
+  String? _errorMessage;
+  
+  bool get isLoading => _isLoading;
+  String? get errorMessage => _errorMessage;
+  
+  void setLoading(bool loading) {
+    _isLoading = loading;
+    notifyListeners();
+  }
+}
+```
+
+**Swift ObservableObject:**
+```swift
+class AuthViewModel: ObservableObject {
+    @Published var isLoading = false
+    @Published var errorMessage: String?
+    
+    func setLoading(_ loading: Bool) {
+        isLoading = loading
+    }
+}
+```
+
+## 4. **UI Components Conversion**
+
+**Dart Widget:**
+```dart
+class CustomButton extends StatelessWidget {
+  const CustomButton({
+    Key? key,
+    required this.title,
+    required this.onPressed,
+  }) : super(key: key);
+  
+  final String title;
+  final VoidCallback onPressed;
+  
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton(
+      onPressed: onPressed,
+      child: Text(title),
+    );
+  }
+}
+```
+
+**Swift SwiftUI View:**
+```swift
+struct CustomButton: View {
+    let title: String
+    let onPressed: () -> Void
+    
+    var body: some View {
+        Button(title) {
+            onPressed()
+        }
+        .buttonStyle(.borderedProminent)
+    }
+}
+```
+
+## 5. **Async Operations Conversion**
+
+**Dart Future/async:**
+```dart
+Future<UserModel> fetchUser(String id) async {
+  try {
+    final response = await http.get(Uri.parse('/users/$id'));
+    return UserModel.fromJson(jsonDecode(response.body));
+  } catch (e) {
+    throw Exception('Failed to fetch user: $e');
+  }
+}
+```
+
+**Swift async/await:**
+```swift
+func fetchUser(id: String) async throws -> UserModel {
+    let url = URL(string: "/users/\(id)")!
+    let (data, _) = try await URLSession.shared.data(from: url)
+    return try JSONDecoder().decode(UserModel.self, from: data)
+}
+```
+
+## 6. **Navigation Conversion**
+
+**Dart Navigation:**
+```dart
+Navigator.of(context).pushNamed('/profile', arguments: userId);
+```
+
+**Swift Navigation:**
+```swift
+// Using NavigationStack (iOS 16+)
+NavigationLink(destination: ProfileView(userId: userId)) {
+    Text("Go to Profile")
+}
+
+// Or programmatic navigation
+@State private var path = NavigationPath()
+path.append(ProfileDestination.profile(userId))
+```
+
+## 7. **Dependency Injection Conversion**
+
+**Dart Provider/GetIt:**
+```dart
+final authService = Provider.of<AuthService>(context);
+```
+
+**Swift Environment/Dependency:**
+```swift
+@EnvironmentObject var authService: AuthService
+// or
+@StateObject private var authService = AuthService()
+```
+
+## 8. **File Structure Conversion**
+
+**Dart Structure:**
+```
+lib/
+├── core/
+│   ├── models/
+│   ├── services/
+│   └── utils/
+├── features/
+│   ├── auth/
+│   │   ├── screens/
+│   │   ├── widgets/
+│   │   └── providers/
+```
+
+**Swift Structure:**
+```
+Sources/
+├── Core/
+│   ├── Models/
+│   ├── Services/
+│   └── Utils/
+├── Features/
+│   ├── Auth/
+│   │   ├── Views/
+│   │   ├── ViewModels/
+│   │   └── Components/
+```
+
+## 9. **Error Handling Conversion**
+
+**Dart try-catch:**
+```dart
+try {
+  final result = await someOperation();
+  return result;
+} catch (e) {
+  print('Error: $e');
+  rethrow;
+}
+```
+
+**Swift do-catch:**
+```swift
+do {
+    let result = try await someOperation()
+    return result
+} catch {
+    print("Error: \(error)")
+    throw error
+}
+```
+
+## 10. **Enum Conversion**
+
+**Dart Enum:**
+```dart
+enum UserStatus {
+  online,
+  offline,
+  away;
+  
+  String get displayName {
+    switch (this) {
+      case UserStatus.online:
+        return 'Online';
+      case UserStatus.offline:
+        return 'Offline';
+      case UserStatus.away:
+        return 'Away';
+    }
+  }
+}
+```
+
+**Swift Enum:**
+```swift
+enum UserStatus: String, CaseIterable {
+    case online
+    case offline
+    case away
+    
+    var displayName: String {
+        switch self {
+        case .online:
+            return "Online"
+        case .offline:
+            return "Offline"
+        case .away:
+            return "Away"
+        }
+    }
+}
+```
+
+**Implementation Protocol:**
+1. **Identify Dart Pattern**: Recognize the Flutter/Dart code pattern
+2. **Map to Swift**: Use the conversion table above to find Swift equivalent
+3. **Adapt Architecture**: Convert Flutter patterns to iOS architecture (MVVM, Coordinator, etc.)
+4. **Maintain Logic**: Preserve all business logic and functionality
+5. **Follow iOS Conventions**: Use proper Swift naming conventions and iOS patterns
+6. **Add iOS-specific Features**: Leverage iOS-specific capabilities where appropriate
+
+**Required for ALL conversions**: Models, ViewModels, Views, Services, Navigation, State Management, Error Handling
+
+**Applied Rules**: R0.6 (Dart to Swift Conversion), R0.0 (UIUX Reference), R0.3 (Error Resolution)
+
+
+
+

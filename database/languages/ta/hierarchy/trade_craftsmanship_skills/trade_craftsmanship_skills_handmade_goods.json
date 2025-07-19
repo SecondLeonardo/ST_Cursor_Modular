@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_handmade_goods",
+  "name": "கையால் செய்யப்பட்ட பொருட்கள்",
+  "skills": [
+    {
+      "id": "skill_4885",
+      "name": "மெழுகுவர்த்தி தயாரித்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4886",
+      "name": "கண்ணாடி பொறித்தல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Glass Etching",
+      "tags": [
+        "glass",
+        "etching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4887",
+      "name": "நகை கம்பி மடக்குதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Jewelry Wire Wrapping",
+      "tags": [
+        "jewelry",
+        "wire",
+        "wrapping"
+      ]
+    },
+    {
+      "id": "skill_4888",
+      "name": "பின்னல் அடிப்படைகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting Basics",
+      "tags": [
+        "knitting",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4889",
+      "name": "காந்த முடிச்சுகள்",
+      "difficulty_level": 4,
+      "description": "Learn and master Macrame Knots",
+      "tags": [
+        "macrame",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4890",
+      "name": "பிசின் கலையை உருவாக்குதல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Making Resin Art",
+      "tags": [
+        "making",
+        "resin",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4891",
+      "name": "மட்பாண்ட சக்கர பயன்பாடு",
+      "difficulty_level": 4,
+      "description": "Learn and master Pottery Wheel Use",
+      "tags": [
+        "pottery",
+        "wheel",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4892",
+      "name": "சோப்பு கைவினை",
+      "difficulty_level": 3,
+      "description": "Learn and master Soap Crafting",
+      "tags": [
+        "soap",
+        "crafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4893",
+      "name": "ஓடு மொசைக்ஸ்",
+      "difficulty_level": 1,
+      "description": "Learn and master Tile Mosaics",
+      "tags": [
+        "tile",
+        "mosaics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4894",
+      "name": "வூட்பர்னிங்",
+      "difficulty_level": 5,
+      "description": "Learn and master Woodburning",
+      "tags": [
+        "woodburning",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_ai_machine_learning",
+  "name": "এআই ও মেশিন লার্নিং",
+  "skills": [
+    {
+      "id": "skill_4347",
+      "name": "এমএল জন্য ডেটা প্রিপ্রোসেসিং",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Preprocessing for ML",
+      "tags": [
+        "data",
+        "preprocessing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4348",
+      "name": "এআই মডেল স্থাপন করা",
+      "difficulty_level": 3,
+      "description": "Learn and master Deploying AI Models",
+      "tags": [
+        "deploying",
+        "models",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4349",
+      "name": "চিত্র স্বীকৃতি",
+      "difficulty_level": 5,
+      "description": "Learn and master Image Recognition",
+      "tags": [
+        "image",
+        "recognition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4350",
+      "name": "মডেল মূল্যায়ন",
+      "difficulty_level": 2,
+      "description": "Learn and master Model Evaluation",
+      "tags": [
+        "model",
+        "evaluation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4351",
+      "name": "নিউরাল নেটওয়ার্ক বেসিক",
+      "difficulty_level": 5,
+      "description": "Learn and master Neural Network Basics",
+      "tags": [
+        "neural",
+        "network",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4352",
+      "name": "তদারকি করা বনাম নিরীক্ষণ করা শেখা",
+      "difficulty_level": 2,
+      "description": "Learn and master Supervised vs Unsupervised Learning",
+      "tags": [
+        "supervised",
+        "unsupervised",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4353",
+      "name": "পাঠ্য শ্রেণিবিন্যাস",
+      "difficulty_level": 4,
+      "description": "Learn and master Text Classification",
+      "tags": [
+        "text",
+        "classification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4354",
+      "name": "প্রশিক্ষণ এমএল মডেল",
+      "difficulty_level": 3,
+      "description": "Learn and master Training ML Models",
+      "tags": [
+        "training",
+        "models",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4355",
+      "name": "সিকিট-লার্ন ব্যবহার করে",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Scikit-learn",
+      "tags": [
+        "using",
+        "scikit-learn",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4356",
+      "name": "টেনসরফ্লো ব্যবহার করে",
+      "difficulty_level": 4,
+      "description": "Learn and master Using TensorFlow",
+      "tags": [
+        "using",
+        "tensorflow",
+        "skill"
+      ]
+    }
+  ]
+}

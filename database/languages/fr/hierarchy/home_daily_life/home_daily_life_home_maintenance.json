@@ -1,0 +1,116 @@
+{
+  "id": "home_daily_life_home_maintenance",
+  "name": "Entretien domestique",
+  "skills": [
+    {
+      "id": "skill_2988",
+      "name": "Menuiserie de base",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Carpentry",
+      "tags": [
+        "basic",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2989",
+      "name": "Changer les ampoules",
+      "difficulty_level": 4,
+      "description": "Learn and master Changing Light Bulbs",
+      "tags": [
+        "changing",
+        "light",
+        "bulbs"
+      ]
+    },
+    {
+      "id": "skill_2990",
+      "name": "Bases de sécurité électrique",
+      "difficulty_level": 2,
+      "description": "Learn and master Electrical Safety Basics",
+      "tags": [
+        "electrical",
+        "safety",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2991",
+      "name": "Fixation des fuites",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixing Leaks",
+      "tags": [
+        "fixing",
+        "leaks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2992",
+      "name": "Étagères suspendues",
+      "difficulty_level": 4,
+      "description": "Learn and master Hanging Shelves",
+      "tags": [
+        "hanging",
+        "shelves",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2993",
+      "name": "Installation de luminaires",
+      "difficulty_level": 3,
+      "description": "Learn and master Installing Fixtures",
+      "tags": [
+        "installing",
+        "fixtures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2994",
+      "name": "Peinture murs",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2995",
+      "name": "Écoute de débouchage",
+      "difficulty_level": 5,
+      "description": "Learn and master Unclogging Drains",
+      "tags": [
+        "unclogging",
+        "drains",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2996",
+      "name": "En utilisant des outils électriques",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Power Tools",
+      "tags": [
+        "using",
+        "power",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2997",
+      "name": "Patchage",
+      "difficulty_level": 5,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    }
+  ]
+}

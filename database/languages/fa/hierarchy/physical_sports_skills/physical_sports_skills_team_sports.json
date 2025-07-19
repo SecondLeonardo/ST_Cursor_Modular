@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_team_sports",
+  "name": "ورزش تیمی",
+  "skills": [
+    {
+      "id": "skill_4038",
+      "name": "گودال بیس بال",
+      "difficulty_level": 1,
+      "description": "Learn and master Baseball Pitching",
+      "tags": [
+        "baseball",
+        "pitching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4039",
+      "name": "دریبل بسکتبال",
+      "difficulty_level": 4,
+      "description": "Learn and master Basketball Dribbling",
+      "tags": [
+        "basketball",
+        "dribbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4040",
+      "name": "کریکت",
+      "difficulty_level": 2,
+      "description": "Learn and master Cricket Batting",
+      "tags": [
+        "cricket",
+        "batting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4041",
+      "name": "دست زدن به چوب هاکی",
+      "difficulty_level": 3,
+      "description": "Learn and master Hockey Stick Handling",
+      "tags": [
+        "hockey",
+        "stick",
+        "handling"
+      ]
+    },
+    {
+      "id": "skill_4042",
+      "name": "مقابله با راگبی",
+      "difficulty_level": 3,
+      "description": "Learn and master Rugby Tackling",
+      "tags": [
+        "rugby",
+        "tackling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4043",
+      "name": "در حال گذر از فوتبال",
+      "difficulty_level": 4,
+      "description": "Learn and master Soccer Passing",
+      "tags": [
+        "soccer",
+        "passing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4044",
+      "name": "صید سافت بال",
+      "difficulty_level": 3,
+      "description": "Learn and master Softball Catching",
+      "tags": [
+        "softball",
+        "catching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4045",
+      "name": "درک استراتژی تیمی",
+      "difficulty_level": 1,
+      "description": "Learn and master Team Strategy Understanding",
+      "tags": [
+        "team",
+        "strategy",
+        "understanding"
+      ]
+    },
+    {
+      "id": "skill_4046",
+      "name": "پرتاب نهایی فریزبی",
+      "difficulty_level": 3,
+      "description": "Learn and master Ultimate Frisbee Throwing",
+      "tags": [
+        "ultimate",
+        "frisbee",
+        "throwing"
+      ]
+    },
+    {
+      "id": "skill_4047",
+      "name": "خدمت والیبال",
+      "difficulty_level": 5,
+      "description": "Learn and master Volleyball Serving",
+      "tags": [
+        "volleyball",
+        "serving",
+        "skill"
+      ]
+    }
+  ]
+}

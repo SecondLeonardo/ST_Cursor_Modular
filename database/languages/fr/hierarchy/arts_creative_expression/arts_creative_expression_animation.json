@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_animation",
+  "name": "Animation",
+  "skills": [
+    {
+      "id": "skill_320",
+      "name": "Animation 2D",
+      "difficulty_level": 2,
+      "description": "Learn and master 2D Animation",
+      "tags": [
+        "animation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_321",
+      "name": "Animation 3D",
+      "difficulty_level": 5,
+      "description": "Learn and master 3D Animation",
+      "tags": [
+        "animation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_322",
+      "name": "Utilisation du logiciel d'animation",
+      "difficulty_level": 5,
+      "description": "Learn and master Animation Software Use",
+      "tags": [
+        "animation",
+        "software",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_323",
+      "name": "Timing d'animation",
+      "difficulty_level": 5,
+      "description": "Learn and master Animation Timing",
+      "tags": [
+        "animation",
+        "timing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_324",
+      "name": "Gréement de caractère",
+      "difficulty_level": 3,
+      "description": "Learn and master Character Rigging",
+      "tags": [
+        "character",
+        "rigging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_325",
+      "name": "Animation de synchronisation des lèvres",
+      "difficulty_level": 2,
+      "description": "Learn and master Lip Sync Animation",
+      "tags": [
+        "sync",
+        "animation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_326",
+      "name": "Graphiques animés",
+      "difficulty_level": 3,
+      "description": "Learn and master Motion Graphics",
+      "tags": [
+        "motion",
+        "graphics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_327",
+      "name": "Motion d'arrêt",
+      "difficulty_level": 3,
+      "description": "Learn and master Stop Motion",
+      "tags": [
+        "stop",
+        "motion",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_328",
+      "name": "Storyboard",
+      "difficulty_level": 5,
+      "description": "Learn and master Storyboarding",
+      "tags": [
+        "storyboarding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_329",
+      "name": "Effets visuels",
+      "difficulty_level": 1,
+      "description": "Learn and master Visual Effects",
+      "tags": [
+        "visual",
+        "effects",
+        "skill"
+      ]
+    }
+  ]
+}

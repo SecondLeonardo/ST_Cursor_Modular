@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Kỹ năng giao dịch & thủ công",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Sửa chữa ô tô"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Thợ mộc & đồ gỗ"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Sự thi công"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Xây dựng & Nghề mộc"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Nghề thủ công & sửa chữa"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Điện & Cơ khí"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Công việc điện"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC & điện lạnh"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Hoạt động thiết bị nặng"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Masonry & ốp lát"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Kim loại & đồ gỗ"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Tranh & Hoàn thiện"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Ống nước"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Bảo dưỡng xe và máy"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Hàn & kim loại"
+    }
+  ]
+}

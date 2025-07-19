@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "取引とマニュアルスキル",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "自動車修理"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "大工＆木工"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "工事"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "建設と大工"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "職人技と修理"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "電気および機械"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "電気工事"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC＆冷蔵"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "重機の操作"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "石工＆タイル"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "金属＆木工"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "絵画と仕上げ"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "配管"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "車両と機械のメンテナンス"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "溶接と金属細工"
+    }
+  ]
+}

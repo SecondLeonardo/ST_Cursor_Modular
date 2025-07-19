@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_construction_trades",
+  "name": "निर्माण ट्रेड",
+  "skills": [
+    {
+      "id": "skill_3418",
+      "name": "ब्लूप्रिंट रीडिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3419",
+      "name": "ईंट",
+      "difficulty_level": 5,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3420",
+      "name": "ठोस परिष्करण",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Finishing",
+      "tags": [
+        "concrete",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3421",
+      "name": "निर्माण स्थल सुरक्षा",
+      "difficulty_level": 2,
+      "description": "Learn and master Construction Site Safety",
+      "tags": [
+        "construction",
+        "site",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3422",
+      "name": "ड्राईवॉल हैंगिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Hanging",
+      "tags": [
+        "drywall",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3423",
+      "name": "नींव बिछाना",
+      "difficulty_level": 3,
+      "description": "Learn and master Foundation Laying",
+      "tags": [
+        "foundation",
+        "laying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3424",
+      "name": "इन्सुलेशन कार्य",
+      "difficulty_level": 4,
+      "description": "Learn and master Insulation Work",
+      "tags": [
+        "insulation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3425",
+      "name": "चिनाई",
+      "difficulty_level": 2,
+      "description": "Learn and master Masonry",
+      "tags": [
+        "masonry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3426",
+      "name": "छत की स्थापना",
+      "difficulty_level": 5,
+      "description": "Learn and master Roofing Installation",
+      "tags": [
+        "roofing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3427",
+      "name": "मचान",
+      "difficulty_level": 2,
+      "description": "Learn and master Scaffolding",
+      "tags": [
+        "scaffolding",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

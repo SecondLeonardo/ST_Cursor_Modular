@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_construction_trades",
+  "name": "建筑行业",
+  "skills": [
+    {
+      "id": "skill_3418",
+      "name": "蓝图阅读",
+      "difficulty_level": 5,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3419",
+      "name": "瓦工",
+      "difficulty_level": 5,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3420",
+      "name": "混凝土完成",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Finishing",
+      "tags": [
+        "concrete",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3421",
+      "name": "建筑工地安全",
+      "difficulty_level": 2,
+      "description": "Learn and master Construction Site Safety",
+      "tags": [
+        "construction",
+        "site",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_3422",
+      "name": "石膏板悬挂",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Hanging",
+      "tags": [
+        "drywall",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3423",
+      "name": "基础铺设",
+      "difficulty_level": 3,
+      "description": "Learn and master Foundation Laying",
+      "tags": [
+        "foundation",
+        "laying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3424",
+      "name": "绝缘工作",
+      "difficulty_level": 4,
+      "description": "Learn and master Insulation Work",
+      "tags": [
+        "insulation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3425",
+      "name": "石工",
+      "difficulty_level": 2,
+      "description": "Learn and master Masonry",
+      "tags": [
+        "masonry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3426",
+      "name": "屋顶安装",
+      "difficulty_level": 5,
+      "description": "Learn and master Roofing Installation",
+      "tags": [
+        "roofing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3427",
+      "name": "脚手架",
+      "difficulty_level": 2,
+      "description": "Learn and master Scaffolding",
+      "tags": [
+        "scaffolding",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

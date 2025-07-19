@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "Mekaniska och tekniska färdigheter",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "Fordonsunderhåll"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "Grunders grunder"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "Hemreparation och installation"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "Maskinoperation"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "Verktygsanvändning och säkerhet"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "Trä- och metallarbete"
+    }
+  ]
+}

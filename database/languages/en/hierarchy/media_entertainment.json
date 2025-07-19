@@ -1,0 +1,34 @@
+{
+  "id": "media_entertainment",
+  "name": "Media & Entertainment",
+  "subcategories": [
+    {
+      "id": "media_entertainment_video_production",
+      "name": "Video Production"
+    },
+    {
+      "id": "media_entertainment_audio_production",
+      "name": "Audio Production"
+    },
+    {
+      "id": "media_entertainment_photography",
+      "name": "Photography"
+    },
+    {
+      "id": "media_entertainment_graphic_design",
+      "name": "Graphic Design"
+    },
+    {
+      "id": "media_entertainment_acting_performance",
+      "name": "Acting & Performance"
+    },
+    {
+      "id": "media_entertainment_writing_scriptwriting",
+      "name": "Writing & Scriptwriting"
+    },
+    {
+      "id": "media_entertainment_broadcasting",
+      "name": "Broadcasting"
+    }
+  ]
+}

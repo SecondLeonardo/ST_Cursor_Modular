@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "Affärer och tekniska",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "Bil"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "Snickeri"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "Konstruktion"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "Elektrisk"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "Hvac"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "Murverk"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "Mekanisk"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "Målning och dekorering"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "Rörledare"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "Svetsning"
+    }
+  ]
+}

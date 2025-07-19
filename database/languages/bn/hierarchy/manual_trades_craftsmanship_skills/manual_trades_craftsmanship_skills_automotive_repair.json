@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_automotive_repair",
+  "name": "স্বয়ংচালিত মেরামত",
+  "skills": [
+    {
+      "id": "skill_3408",
+      "name": "অটো বৈদ্যুতিক সিস্টেম",
+      "difficulty_level": 1,
+      "description": "Learn and master Auto Electrical Systems",
+      "tags": [
+        "auto",
+        "electrical",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_3409",
+      "name": "ব্যাটারি প্রতিস্থাপন",
+      "difficulty_level": 5,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3410",
+      "name": "ব্রেক মেরামত",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Repair",
+      "tags": [
+        "brake",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3411",
+      "name": "ইঞ্জিন ডায়াগনস্টিকস",
+      "difficulty_level": 3,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3412",
+      "name": "নিষ্কাশন সিস্টেম মেরামত",
+      "difficulty_level": 5,
+      "description": "Learn and master Exhaust System Repair",
+      "tags": [
+        "exhaust",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_3413",
+      "name": "তেল পরিবর্তন",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3414",
+      "name": "রেডিয়েটার রক্ষণাবেক্ষণ",
+      "difficulty_level": 4,
+      "description": "Learn and master Radiator Maintenance",
+      "tags": [
+        "radiator",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3415",
+      "name": "টায়ার ভারসাম্য",
+      "difficulty_level": 5,
+      "description": "Learn and master Tire Balancing",
+      "tags": [
+        "tire",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3416",
+      "name": "ট্রান্সমিশন সার্ভিসিং",
+      "difficulty_level": 3,
+      "description": "Learn and master Transmission Servicing",
+      "tags": [
+        "transmission",
+        "servicing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3417",
+      "name": "চাকা প্রান্তিককরণ",
+      "difficulty_level": 5,
+      "description": "Learn and master Wheel Alignment",
+      "tags": [
+        "wheel",
+        "alignment",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_welding_metalwork",
+  "name": "جوشکاری و فلزکاری",
+  "skills": [
+    {
+      "id": "skill_5165",
+      "name": "جوش قوس",
+      "difficulty_level": 1,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5166",
+      "name": "تفسیر طرح",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Interpretation",
+      "tags": [
+        "blueprint",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5167",
+      "name": "برش مشعل",
+      "difficulty_level": 2,
+      "description": "Learn and master Cutting Torch Use",
+      "tags": [
+        "cutting",
+        "torch",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5168",
+      "name": "جوش میگ",
+      "difficulty_level": 1,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5169",
+      "name": "سنگ زنی فلزی",
+      "difficulty_level": 3,
+      "description": "Learn and master Metal Grinding",
+      "tags": [
+        "metal",
+        "grinding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5170",
+      "name": "استفاده از دنده ایمنی",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Gear Use",
+      "tags": [
+        "safety",
+        "gear",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5171",
+      "name": "ساخت فلزی ورق",
+      "difficulty_level": 4,
+      "description": "Learn and master Sheet Metal Fabrication",
+      "tags": [
+        "sheet",
+        "metal",
+        "fabrication"
+      ]
+    },
+    {
+      "id": "skill_5172",
+      "name": "جوش",
+      "difficulty_level": 1,
+      "description": "Learn and master Stick Welding",
+      "tags": [
+        "stick",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5173",
+      "name": "جوش تیگ",
+      "difficulty_level": 5,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5174",
+      "name": "بازرسی جوش",
+      "difficulty_level": 4,
+      "description": "Learn and master Weld Inspection",
+      "tags": [
+        "weld",
+        "inspection",
+        "skill"
+      ]
+    }
+  ]
+}

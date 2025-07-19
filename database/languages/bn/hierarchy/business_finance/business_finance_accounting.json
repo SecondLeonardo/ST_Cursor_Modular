@@ -1,0 +1,116 @@
+{
+  "id": "business_finance_accounting",
+  "name": "অ্যাকাউন্টিং",
+  "skills": [
+    {
+      "id": "skill_770",
+      "name": "অ্যাকাউন্টগুলি প্রদানযোগ্য/গ্রহণযোগ্য",
+      "difficulty_level": 1,
+      "description": "Learn and master Accounts Payable/Receivable",
+      "tags": [
+        "accounts",
+        "payable/receivable",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_771",
+      "name": "আদায় বনাম নগদ অ্যাকাউন্টিং",
+      "difficulty_level": 3,
+      "description": "Learn and master Accrual vs. Cash Accounting",
+      "tags": [
+        "accrual",
+        "cash",
+        "accounting"
+      ]
+    },
+    {
+      "id": "skill_772",
+      "name": "অডিটিং ফান্ডামেন্টাল",
+      "difficulty_level": 2,
+      "description": "Learn and master Auditing Fundamentals",
+      "tags": [
+        "auditing",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_773",
+      "name": "ব্যয় অ্যাকাউন্টিং বেসিক",
+      "difficulty_level": 3,
+      "description": "Learn and master Cost Accounting Basics",
+      "tags": [
+        "cost",
+        "accounting",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_774",
+      "name": "ডাবল-এন্ট্রি বুককিপিং",
+      "difficulty_level": 5,
+      "description": "Learn and master Double-Entry Bookkeeping",
+      "tags": [
+        "double-entry",
+        "bookkeeping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_775",
+      "name": "আর্থিক প্রতিবেদন",
+      "difficulty_level": 1,
+      "description": "Learn and master Financial Reporting",
+      "tags": [
+        "financial",
+        "reporting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_776",
+      "name": "চালান পরিচালনা করা",
+      "difficulty_level": 5,
+      "description": "Learn and master Managing Invoices",
+      "tags": [
+        "managing",
+        "invoices",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_777",
+      "name": "ব্যাংক বিবৃতি পুনর্মিলন",
+      "difficulty_level": 2,
+      "description": "Learn and master Reconciling Bank Statements",
+      "tags": [
+        "reconciling",
+        "bank",
+        "statements"
+      ]
+    },
+    {
+      "id": "skill_778",
+      "name": "ট্রায়াল ভারসাম্য সৃষ্টি",
+      "difficulty_level": 1,
+      "description": "Learn and master Trial Balance Creation",
+      "tags": [
+        "trial",
+        "balance",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_779",
+      "name": "কুইকবুক ব্যবহার করে",
+      "difficulty_level": 1,
+      "description": "Learn and master Using QuickBooks",
+      "tags": [
+        "using",
+        "quickbooks",
+        "skill"
+      ]
+    }
+  ]
+}

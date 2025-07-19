@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+  "name": "Muebles y tapicería",
+  "skills": [
+    {
+      "id": "skill_3438",
+      "name": "Fabricación de cojines",
+      "difficulty_level": 2,
+      "description": "Learn and master Cushion Making",
+      "tags": [
+        "cushion",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3439",
+      "name": "Estiramiento de tela",
+      "difficulty_level": 1,
+      "description": "Learn and master Fabric Stretching",
+      "tags": [
+        "fabric",
+        "stretching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3440",
+      "name": "Corte de espuma",
+      "difficulty_level": 4,
+      "description": "Learn and master Foam Cutting",
+      "tags": [
+        "foam",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3441",
+      "name": "Reparación de marco",
+      "difficulty_level": 4,
+      "description": "Learn and master Frame Repair",
+      "tags": [
+        "frame",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3442",
+      "name": "Mobiliario de renovación",
+      "difficulty_level": 4,
+      "description": "Learn and master Furniture Refinishing",
+      "tags": [
+        "furniture",
+        "refinishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3443",
+      "name": "Creación",
+      "difficulty_level": 4,
+      "description": "Learn and master Slipcover Making",
+      "tags": [
+        "slipcover",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3444",
+      "name": "Técnicas de grapado",
+      "difficulty_level": 4,
+      "description": "Learn and master Stapling Techniques",
+      "tags": [
+        "stapling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3445",
+      "name": "Selección textil",
+      "difficulty_level": 3,
+      "description": "Learn and master Textile Selection",
+      "tags": [
+        "textile",
+        "selection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3446",
+      "name": "Mechón",
+      "difficulty_level": 1,
+      "description": "Learn and master Tufting",
+      "tags": [
+        "tufting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3447",
+      "name": "Reparación de tapicería",
+      "difficulty_level": 5,
+      "description": "Learn and master Upholstery Repair",
+      "tags": [
+        "upholstery",
+        "repair",
+        "skill"
+      ]
+    }
+  ]
+}

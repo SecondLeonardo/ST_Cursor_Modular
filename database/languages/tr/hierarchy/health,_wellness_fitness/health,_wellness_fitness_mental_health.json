@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_mental_health",
+  "name": "Akıl sağlığı",
+  "skills": [
+    {
+      "id": "skill_2758",
+      "name": "Kaygı azaltma",
+      "difficulty_level": 2,
+      "description": "Learn and master Anxiety Reduction",
+      "tags": [
+        "anxiety",
+        "reduction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2759",
+      "name": "Bilişsel davranış teknikleri",
+      "difficulty_level": 3,
+      "description": "Learn and master Cognitive Behavioral Techniques",
+      "tags": [
+        "cognitive",
+        "behavioral",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2760",
+      "name": "Duygusal zeka",
+      "difficulty_level": 4,
+      "description": "Learn and master Emotional Intelligence",
+      "tags": [
+        "emotional",
+        "intelligence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2761",
+      "name": "Akıl sağlığı için günlüğe kaydetme",
+      "difficulty_level": 3,
+      "description": "Learn and master Journaling for Mental Health",
+      "tags": [
+        "journaling",
+        "mental",
+        "health"
+      ]
+    },
+    {
+      "id": "skill_2762",
+      "name": "Zihinsel esneklik eğitimi",
+      "difficulty_level": 5,
+      "description": "Learn and master Mental Resilience Training",
+      "tags": [
+        "mental",
+        "resilience",
+        "training"
+      ]
+    },
+    {
+      "id": "skill_2763",
+      "name": "Farkındalık Uygulamaları",
+      "difficulty_level": 5,
+      "description": "Learn and master Mindfulness Practices",
+      "tags": [
+        "mindfulness",
+        "practices",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2764",
+      "name": "Pozitif Psikoloji Araçları",
+      "difficulty_level": 3,
+      "description": "Learn and master Positive Psychology Tools",
+      "tags": [
+        "positive",
+        "psychology",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2765",
+      "name": "Öz-Farkındalık Egzersizleri",
+      "difficulty_level": 2,
+      "description": "Learn and master Self-awareness Exercises",
+      "tags": [
+        "self-awareness",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2766",
+      "name": "Stres yönetimi",
+      "difficulty_level": 5,
+      "description": "Learn and master Stress Management",
+      "tags": [
+        "stress",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2767",
+      "name": "Terapötik dinleme",
+      "difficulty_level": 4,
+      "description": "Learn and master Therapeutic Listening",
+      "tags": [
+        "therapeutic",
+        "listening",
+        "skill"
+      ]
+    }
+  ]
+}

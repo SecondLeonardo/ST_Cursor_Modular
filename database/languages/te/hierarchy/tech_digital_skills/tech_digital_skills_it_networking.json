@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_it_networking",
+  "name": "ఇది & నెట్‌వర్కింగ్",
+  "skills": [
+    {
+      "id": "skill_4426",
+      "name": "DNS నిర్వహణ",
+      "difficulty_level": 2,
+      "description": "Learn and master DNS Management",
+      "tags": [
+        "management",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4427",
+      "name": "ఫైర్‌వాల్ కాన్ఫిగరేషన్",
+      "difficulty_level": 5,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4428",
+      "name": "విండోస్ సర్వర్లను నిర్వహించడం",
+      "difficulty_level": 2,
+      "description": "Learn and master Managing Windows Servers",
+      "tags": [
+        "managing",
+        "windows",
+        "servers"
+      ]
+    },
+    {
+      "id": "skill_4429",
+      "name": "నెట్‌వర్క్ భద్రతా ప్రాథమిక అంశాలు",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Security Basics",
+      "tags": [
+        "network",
+        "security",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4430",
+      "name": "రిమోట్ డెస్క్‌టాప్ సెటప్",
+      "difficulty_level": 4,
+      "description": "Learn and master Remote Desktop Setup",
+      "tags": [
+        "remote",
+        "desktop",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4431",
+      "name": "రౌటర్లను ఏర్పాటు చేయడం",
+      "difficulty_level": 5,
+      "description": "Learn and master Setting Up Routers",
+      "tags": [
+        "setting",
+        "routers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4432",
+      "name": "సిస్టమ్ కాన్ఫిగరేషన్",
+      "difficulty_level": 2,
+      "description": "Learn and master System Configuration",
+      "tags": [
+        "system",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4433",
+      "name": "ట్రబుల్షూటింగ్ నెట్‌వర్క్‌లు",
+      "difficulty_level": 5,
+      "description": "Learn and master Troubleshooting Networks",
+      "tags": [
+        "troubleshooting",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4434",
+      "name": "IP చిరునామాను అర్థం చేసుకోవడం",
+      "difficulty_level": 1,
+      "description": "Learn and master Understanding IP Addressing",
+      "tags": [
+        "understanding",
+        "addressing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4435",
+      "name": "కమాండ్ లైన్ సాధనాలను ఉపయోగించడం",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Command Line Tools",
+      "tags": [
+        "using",
+        "command",
+        "line",
+        "tools"
+      ]
+    }
+  ]
+}

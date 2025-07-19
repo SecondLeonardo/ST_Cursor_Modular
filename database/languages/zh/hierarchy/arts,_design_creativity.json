@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "艺术，设计和创造力",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "手工艺品和DIY"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "创意写作"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "设计与数字艺术"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "表演艺术"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "视觉艺术"
+    }
+  ]
+}

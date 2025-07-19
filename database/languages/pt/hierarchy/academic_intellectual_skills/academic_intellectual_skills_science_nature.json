@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_science_nature",
+  "name": "Ciência e Natureza",
+  "skills": [
+    {
+      "id": "skill_230",
+      "name": "Básico da astronomia",
+      "difficulty_level": 1,
+      "description": "Learn and master Astronomy Basics",
+      "tags": [
+        "astronomy",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_231",
+      "name": "Princípios básicos da física",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Physics Principles",
+      "tags": [
+        "basic",
+        "physics",
+        "principles"
+      ]
+    },
+    {
+      "id": "skill_232",
+      "name": "Terminologia de Biologia",
+      "difficulty_level": 5,
+      "description": "Learn and master Biology Terminology",
+      "tags": [
+        "biology",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_233",
+      "name": "Identificação de botânica",
+      "difficulty_level": 2,
+      "description": "Learn and master Botany Identification",
+      "tags": [
+        "botany",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_234",
+      "name": "Segurança do laboratório de química",
+      "difficulty_level": 5,
+      "description": "Learn and master Chemistry Lab Safety",
+      "tags": [
+        "chemistry",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_235",
+      "name": "Conduzindo experimentos simples",
+      "difficulty_level": 3,
+      "description": "Learn and master Conducting Simple Experiments",
+      "tags": [
+        "conducting",
+        "simple",
+        "experiments"
+      ]
+    },
+    {
+      "id": "skill_236",
+      "name": "Ciência da terra",
+      "difficulty_level": 4,
+      "description": "Learn and master Earth Science",
+      "tags": [
+        "earth",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_237",
+      "name": "Consciência ecológica",
+      "difficulty_level": 4,
+      "description": "Learn and master Ecological Awareness",
+      "tags": [
+        "ecological",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_238",
+      "name": "Lendo gráficos científicos",
+      "difficulty_level": 3,
+      "description": "Learn and master Reading Scientific Graphs",
+      "tags": [
+        "reading",
+        "scientific",
+        "graphs"
+      ]
+    },
+    {
+      "id": "skill_239",
+      "name": "Método científico",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    }
+  ]
+}

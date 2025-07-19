@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_construction",
+  "name": "నిర్మాణం",
+  "skills": [
+    {
+      "id": "skill_5045",
+      "name": "కాంక్రీట్ పోయడం",
+      "difficulty_level": 3,
+      "description": "Learn and master Concrete Pouring",
+      "tags": [
+        "concrete",
+        "pouring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5046",
+      "name": "కూల్చివేత పద్ధతులు",
+      "difficulty_level": 4,
+      "description": "Learn and master Demolition Techniques",
+      "tags": [
+        "demolition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5047",
+      "name": "ప్లాస్టార్ బోర్డ్ సంస్థాపన",
+      "difficulty_level": 4,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5048",
+      "name": "ఫౌండేషన్ పని",
+      "difficulty_level": 4,
+      "description": "Learn and master Foundation Work",
+      "tags": [
+        "foundation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5049",
+      "name": "పదార్థ అంచనా",
+      "difficulty_level": 1,
+      "description": "Learn and master Material Estimation",
+      "tags": [
+        "material",
+        "estimation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5050",
+      "name": "పైకప్పు ఫ్రేమింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Roof Framing",
+      "tags": [
+        "roof",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5051",
+      "name": "భద్రతా జీను ఉపయోగం",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Harness Use",
+      "tags": [
+        "safety",
+        "harness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5052",
+      "name": "పరంజా సెటప్",
+      "difficulty_level": 2,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5053",
+      "name": "సైట్ నిర్వహణ",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Management",
+      "tags": [
+        "site",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5054",
+      "name": "విండో ఇన్‌స్టాలేషన్",
+      "difficulty_level": 3,
+      "description": "Learn and master Window Installation",
+      "tags": [
+        "window",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

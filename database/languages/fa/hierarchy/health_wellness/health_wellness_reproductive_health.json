@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_reproductive_health",
+  "name": "سلامت تولید مثل",
+  "skills": [
+    {
+      "id": "skill_2629",
+      "name": "روشهای کنترل تولد",
+      "difficulty_level": 1,
+      "description": "Learn and master Birth Control Methods",
+      "tags": [
+        "birth",
+        "control",
+        "methods"
+      ]
+    },
+    {
+      "id": "skill_2630",
+      "name": "آگاهی باروری",
+      "difficulty_level": 3,
+      "description": "Learn and master Fertility Awareness",
+      "tags": [
+        "fertility",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2631",
+      "name": "آگاهی هورمونی",
+      "difficulty_level": 4,
+      "description": "Learn and master Hormonal Awareness",
+      "tags": [
+        "hormonal",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2632",
+      "name": "ارتباط صمیمیت",
+      "difficulty_level": 3,
+      "description": "Learn and master Intimacy Communication",
+      "tags": [
+        "intimacy",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2633",
+      "name": "ردیابی چرخه قاعدگی",
+      "difficulty_level": 3,
+      "description": "Learn and master Menstrual Cycle Tracking",
+      "tags": [
+        "menstrual",
+        "cycle",
+        "tracking"
+      ]
+    },
+    {
+      "id": "skill_2634",
+      "name": "اصول مراقبت از بارداری",
+      "difficulty_level": 5,
+      "description": "Learn and master Pregnancy Care Basics",
+      "tags": [
+        "pregnancy",
+        "care",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2635",
+      "name": "تمرینات قبل از تولد",
+      "difficulty_level": 3,
+      "description": "Learn and master Prenatal Exercises",
+      "tags": [
+        "prenatal",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2636",
+      "name": "پیشگیری از STD",
+      "difficulty_level": 3,
+      "description": "Learn and master STD Prevention",
+      "tags": [
+        "prevention",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2637",
+      "name": "آموزش ایمن آموزش",
+      "difficulty_level": 4,
+      "description": "Learn and master Safe Practices Education",
+      "tags": [
+        "safe",
+        "practices",
+        "education"
+      ]
+    },
+    {
+      "id": "skill_2638",
+      "name": "اقدامات بهداشت جنسی",
+      "difficulty_level": 2,
+      "description": "Learn and master Sexual Health Practices",
+      "tags": [
+        "sexual",
+        "health",
+        "practices"
+      ]
+    }
+  ]
+}

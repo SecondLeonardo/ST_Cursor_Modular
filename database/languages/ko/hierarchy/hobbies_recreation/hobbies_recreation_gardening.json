@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_gardening",
+  "name": "원예",
+  "skills": [
+    {
+      "id": "skill_5395",
+      "name": "심기 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Planting Techniques",
+      "tags": [
+        "planting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5396",
+      "name": "토양 준비",
+      "difficulty_level": 3,
+      "description": "Learn and master Soil Preparation",
+      "tags": [
+        "soil",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5397",
+      "name": "퇴비",
+      "difficulty_level": 1,
+      "description": "Learn and master Composting",
+      "tags": [
+        "composting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5398",
+      "name": "전정",
+      "difficulty_level": 3,
+      "description": "Learn and master Pruning",
+      "tags": [
+        "pruning",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5399",
+      "name": "해충 통제",
+      "difficulty_level": 3,
+      "description": "Learn and master Pest Control",
+      "tags": [
+        "pest",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5400",
+      "name": "유기농 원예",
+      "difficulty_level": 1,
+      "description": "Learn and master Organic Gardening",
+      "tags": [
+        "organic",
+        "gardening",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5401",
+      "name": "수경법",
+      "difficulty_level": 5,
+      "description": "Learn and master Hydroponics",
+      "tags": [
+        "hydroponics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5402",
+      "name": "계절 식재",
+      "difficulty_level": 1,
+      "description": "Learn and master Seasonal Planting",
+      "tags": [
+        "seasonal",
+        "planting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5403",
+      "name": "정원 디자인",
+      "difficulty_level": 2,
+      "description": "Learn and master Garden Design",
+      "tags": [
+        "garden",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5404",
+      "name": "관개 시스템",
+      "difficulty_level": 2,
+      "description": "Learn and master Irrigation Systems",
+      "tags": [
+        "irrigation",
+        "systems",
+        "skill"
+      ]
+    }
+  ]
+}

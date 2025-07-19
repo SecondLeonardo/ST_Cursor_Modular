@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_plumbing",
+  "name": "Ống nước",
+  "skills": [
+    {
+      "id": "skill_5005",
+      "name": "Kiểm tra dòng chảy",
+      "difficulty_level": 1,
+      "description": "Learn and master Backflow Testing",
+      "tags": [
+        "backflow",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5006",
+      "name": "Làm sạch để thoát nước",
+      "difficulty_level": 4,
+      "description": "Learn and master Drain Cleaning",
+      "tags": [
+        "drain",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5007",
+      "name": "Thay thế vật cố",
+      "difficulty_level": 3,
+      "description": "Learn and master Fixture Replacement",
+      "tags": [
+        "fixture",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5008",
+      "name": "Phát hiện rò rỉ",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5009",
+      "name": "Cài đặt ống",
+      "difficulty_level": 5,
+      "description": "Learn and master Pipe Installation",
+      "tags": [
+        "pipe",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5010",
+      "name": "Kiến thức mã ống nước",
+      "difficulty_level": 1,
+      "description": "Learn and master Plumbing Code Knowledge",
+      "tags": [
+        "plumbing",
+        "code",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5011",
+      "name": "Bảo trì đường cống",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewer Line Maintenance",
+      "tags": [
+        "sewer",
+        "line",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5012",
+      "name": "Lắp đặt máy bơm bể phốt",
+      "difficulty_level": 3,
+      "description": "Learn and master Sump Pump Installation",
+      "tags": [
+        "sump",
+        "pump",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_5013",
+      "name": "Sửa chữa van",
+      "difficulty_level": 1,
+      "description": "Learn and master Valve Repair",
+      "tags": [
+        "valve",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5014",
+      "name": "Lắp đặt nước nóng",
+      "difficulty_level": 5,
+      "description": "Learn and master Water Heater Installation",
+      "tags": [
+        "water",
+        "heater",
+        "installation"
+      ]
+    }
+  ]
+}

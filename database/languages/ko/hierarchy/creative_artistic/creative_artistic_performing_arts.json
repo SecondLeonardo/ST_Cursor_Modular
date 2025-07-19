@@ -1,0 +1,182 @@
+{
+  "id": "creative_artistic_performing_arts",
+  "name": "공연 예술",
+  "skills": [
+    {
+      "id": "skill_1362",
+      "name": "연기",
+      "difficulty_level": 3,
+      "description": "Learn and master Acting",
+      "tags": [
+        "acting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1363",
+      "name": "광대",
+      "difficulty_level": 2,
+      "description": "Learn and master Clowning",
+      "tags": [
+        "clowning",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1364",
+      "name": "댄스 안무",
+      "difficulty_level": 1,
+      "description": "Learn and master Dance Choreography",
+      "tags": [
+        "dance",
+        "choreography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1365",
+      "name": "댄스 기술",
+      "difficulty_level": 5,
+      "description": "Learn and master Dance Techniques",
+      "tags": [
+        "dance",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1366",
+      "name": "즉흥",
+      "difficulty_level": 2,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1367",
+      "name": "몸짓 광대극",
+      "difficulty_level": 4,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1368",
+      "name": "독백 전달",
+      "difficulty_level": 1,
+      "description": "Learn and master Monologue Delivery",
+      "tags": [
+        "monologue",
+        "delivery",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1369",
+      "name": "무언극",
+      "difficulty_level": 4,
+      "description": "Learn and master Pantomime",
+      "tags": [
+        "pantomime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1370",
+      "name": "대중 연설",
+      "difficulty_level": 5,
+      "description": "Learn and master Public Speaking",
+      "tags": [
+        "public",
+        "speaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1371",
+      "name": "인형",
+      "difficulty_level": 5,
+      "description": "Learn and master Puppeteering",
+      "tags": [
+        "puppeteering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1372",
+      "name": "무대 전투",
+      "difficulty_level": 2,
+      "description": "Learn and master Stage Combat",
+      "tags": [
+        "stage",
+        "combat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1373",
+      "name": "무대 운동",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Movement",
+      "tags": [
+        "stage",
+        "movement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1374",
+      "name": "무대 존재",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1375",
+      "name": "극장 공연",
+      "difficulty_level": 5,
+      "description": "Learn and master Theater Performance",
+      "tags": [
+        "theater",
+        "performance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1376",
+      "name": "극장 제작",
+      "difficulty_level": 5,
+      "description": "Learn and master Theater Production",
+      "tags": [
+        "theater",
+        "production",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1377",
+      "name": "음성 연기",
+      "difficulty_level": 5,
+      "description": "Learn and master Voice Acting",
+      "tags": [
+        "voice",
+        "acting",
+        "skill"
+      ]
+    }
+  ]
+}

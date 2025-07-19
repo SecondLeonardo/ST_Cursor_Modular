@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "Торги и мастерство",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "Автомобильный ремонт"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "Плотницы и деревообработка"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "Строительство и каменная кладка"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "Электрическая работа"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC и охлаждение"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "Создание ювелирных изделий"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "Металл и сварка"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "Живопись и украшение"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "Сантехника"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "Пошив и шитье"
+    }
+  ]
+}

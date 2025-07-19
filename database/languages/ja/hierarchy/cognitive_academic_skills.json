@@ -1,0 +1,30 @@
+{
+  "id": "cognitive_academic_skills",
+  "name": "認知スキルと学問的スキル",
+  "subcategories": [
+    {
+      "id": "cognitive_academic_skills_critical_thinking",
+      "name": "批判的思考"
+    },
+    {
+      "id": "cognitive_academic_skills_language_linguistics",
+      "name": "言語と言語学"
+    },
+    {
+      "id": "cognitive_academic_skills_mathematics_logic",
+      "name": "数学と論理"
+    },
+    {
+      "id": "cognitive_academic_skills_memory_focus",
+      "name": "メモリとフォーカス"
+    },
+    {
+      "id": "cognitive_academic_skills_science_research",
+      "name": "科学と研究"
+    },
+    {
+      "id": "cognitive_academic_skills_study_learning_skills",
+      "name": "学習スキルと学習スキル"
+    }
+  ]
+}

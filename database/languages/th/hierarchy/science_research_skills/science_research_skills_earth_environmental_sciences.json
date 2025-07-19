@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_earth_environmental_sciences",
+  "name": "วิทยาศาสตร์โลกและสิ่งแวดล้อม",
+  "skills": [
+    {
+      "id": "skill_4078",
+      "name": "ภูมิอากาศ",
+      "difficulty_level": 1,
+      "description": "Learn and master Climatology",
+      "tags": [
+        "climatology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4079",
+      "name": "การประเมินผลกระทบสิ่งแวดล้อม",
+      "difficulty_level": 4,
+      "description": "Learn and master Environmental Impact Assessment",
+      "tags": [
+        "environmental",
+        "impact",
+        "assessment"
+      ]
+    },
+    {
+      "id": "skill_4080",
+      "name": "การทำแผนที่ GIS",
+      "difficulty_level": 2,
+      "description": "Learn and master GIS Mapping",
+      "tags": [
+        "mapping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4081",
+      "name": "ธรณีวิทยา",
+      "difficulty_level": 1,
+      "description": "Learn and master Geology",
+      "tags": [
+        "geology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4082",
+      "name": "อุทกวิทยา",
+      "difficulty_level": 1,
+      "description": "Learn and master Hydrology",
+      "tags": [
+        "hydrology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4083",
+      "name": "อุตุนิยมวิทยา",
+      "difficulty_level": 3,
+      "description": "Learn and master Meteorology",
+      "tags": [
+        "meteorology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4084",
+      "name": "การสำรวจระยะไกล",
+      "difficulty_level": 2,
+      "description": "Learn and master Remote Sensing",
+      "tags": [
+        "remote",
+        "sensing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4085",
+      "name": "การสุ่มตัวอย่างดิน",
+      "difficulty_level": 4,
+      "description": "Learn and master Soil Sampling",
+      "tags": [
+        "soil",
+        "sampling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4086",
+      "name": "การจัดการขยะ",
+      "difficulty_level": 5,
+      "description": "Learn and master Waste Management",
+      "tags": [
+        "waste",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4087",
+      "name": "การติดตามสัตว์ป่า",
+      "difficulty_level": 2,
+      "description": "Learn and master Wildlife Tracking",
+      "tags": [
+        "wildlife",
+        "tracking",
+        "skill"
+      ]
+    }
+  ]
+}

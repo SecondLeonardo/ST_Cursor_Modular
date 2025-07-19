@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_medical_knowledge",
+  "name": "চিকিত্সা জ্ঞান",
+  "skills": [
+    {
+      "id": "skill_2748",
+      "name": "অ্যানাটমি ফান্ডামেন্টালস",
+      "difficulty_level": 4,
+      "description": "Learn and master Anatomy Fundamentals",
+      "tags": [
+        "anatomy",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2749",
+      "name": "বেসিক প্রাথমিক চিকিত্সা",
+      "difficulty_level": 1,
+      "description": "Learn and master Basic First Aid",
+      "tags": [
+        "basic",
+        "first",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2750",
+      "name": "সিপিআর প্রশিক্ষণ",
+      "difficulty_level": 1,
+      "description": "Learn and master CPR Training",
+      "tags": [
+        "training",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2751",
+      "name": "সাধারণ রোগ সচেতনতা",
+      "difficulty_level": 3,
+      "description": "Learn and master Common Diseases Awareness",
+      "tags": [
+        "common",
+        "diseases",
+        "awareness"
+      ]
+    },
+    {
+      "id": "skill_2752",
+      "name": "জরুরী প্রতিক্রিয়া",
+      "difficulty_level": 2,
+      "description": "Learn and master Emergency Response",
+      "tags": [
+        "emergency",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2753",
+      "name": "স্বাস্থ্যসেবা যোগাযোগ",
+      "difficulty_level": 3,
+      "description": "Learn and master Healthcare Communication",
+      "tags": [
+        "healthcare",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2754",
+      "name": "চিকিত্সা পরিভাষা",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Terminology",
+      "tags": [
+        "medical",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2755",
+      "name": "রোগী স্বাস্থ্যবিধি",
+      "difficulty_level": 3,
+      "description": "Learn and master Patient Hygiene",
+      "tags": [
+        "patient",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2756",
+      "name": "ভিটালস মনিটরিং",
+      "difficulty_level": 2,
+      "description": "Learn and master Vitals Monitoring",
+      "tags": [
+        "vitals",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2757",
+      "name": "ক্ষত যত্ন",
+      "difficulty_level": 4,
+      "description": "Learn and master Wound Care",
+      "tags": [
+        "wound",
+        "care",
+        "skill"
+      ]
+    }
+  ]
+}

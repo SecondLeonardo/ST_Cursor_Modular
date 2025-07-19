@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "기술 및 디지털",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "사이버 보안"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "데이터 및 ai"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "디지털 마케팅"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "그것은 & 네트워킹"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "소프트웨어 개발"
+    }
+  ]
+}

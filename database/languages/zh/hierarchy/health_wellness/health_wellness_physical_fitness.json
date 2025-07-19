@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_physical_fitness",
+  "name": "身体素质",
+  "skills": [
+    {
+      "id": "skill_2609",
+      "name": "体重运动",
+      "difficulty_level": 4,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2610",
+      "name": "有氧运动",
+      "difficulty_level": 2,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2611",
+      "name": "耐力训练",
+      "difficulty_level": 1,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2612",
+      "name": "HIIT例程",
+      "difficulty_level": 4,
+      "description": "Learn and master HIIT Routines",
+      "tags": [
+        "hiit",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2613",
+      "name": "流动训练",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobility Drills",
+      "tags": [
+        "mobility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2614",
+      "name": "胶质测量法",
+      "difficulty_level": 2,
+      "description": "Learn and master Plyometrics",
+      "tags": [
+        "plyometrics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2615",
+      "name": "力量调节",
+      "difficulty_level": 3,
+      "description": "Learn and master Strength Conditioning",
+      "tags": [
+        "strength",
+        "conditioning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2616",
+      "name": "拉伸技术",
+      "difficulty_level": 5,
+      "description": "Learn and master Stretching Techniques",
+      "tags": [
+        "stretching",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2617",
+      "name": "体重训练",
+      "difficulty_level": 1,
+      "description": "Learn and master Weight Training",
+      "tags": [
+        "weight",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2618",
+      "name": "瑜伽练习",
+      "difficulty_level": 3,
+      "description": "Learn and master Yoga Practice",
+      "tags": [
+        "yoga",
+        "practice",
+        "skill"
+      ]
+    }
+  ]
+}

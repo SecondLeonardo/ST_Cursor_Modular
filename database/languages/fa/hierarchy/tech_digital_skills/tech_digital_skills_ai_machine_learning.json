@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_ai_machine_learning",
+  "name": "هوش مصنوعی و یادگیری ماشین",
+  "skills": [
+    {
+      "id": "skill_4347",
+      "name": "پیش پردازش داده برای ML",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Preprocessing for ML",
+      "tags": [
+        "data",
+        "preprocessing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4348",
+      "name": "استقرار مدل های AI",
+      "difficulty_level": 3,
+      "description": "Learn and master Deploying AI Models",
+      "tags": [
+        "deploying",
+        "models",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4349",
+      "name": "شناخت تصویر",
+      "difficulty_level": 5,
+      "description": "Learn and master Image Recognition",
+      "tags": [
+        "image",
+        "recognition",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4350",
+      "name": "ارزیابی مدل",
+      "difficulty_level": 2,
+      "description": "Learn and master Model Evaluation",
+      "tags": [
+        "model",
+        "evaluation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4351",
+      "name": "اصول اولیه شبکه عصبی",
+      "difficulty_level": 5,
+      "description": "Learn and master Neural Network Basics",
+      "tags": [
+        "neural",
+        "network",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4352",
+      "name": "تحت نظارت و یادگیری بدون نظارت",
+      "difficulty_level": 2,
+      "description": "Learn and master Supervised vs Unsupervised Learning",
+      "tags": [
+        "supervised",
+        "unsupervised",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4353",
+      "name": "طبقه بندی متن",
+      "difficulty_level": 4,
+      "description": "Learn and master Text Classification",
+      "tags": [
+        "text",
+        "classification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4354",
+      "name": "آموزش مدلهای ML",
+      "difficulty_level": 3,
+      "description": "Learn and master Training ML Models",
+      "tags": [
+        "training",
+        "models",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4355",
+      "name": "با استفاده از Scikit-Learn",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Scikit-learn",
+      "tags": [
+        "using",
+        "scikit-learn",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4356",
+      "name": "با استفاده از tensorflow",
+      "difficulty_level": 4,
+      "description": "Learn and master Using TensorFlow",
+      "tags": [
+        "using",
+        "tensorflow",
+        "skill"
+      ]
+    }
+  ]
+}

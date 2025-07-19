@@ -1,0 +1,116 @@
+{
+  "id": "culture_language_skills_linguistics",
+  "name": "Ngôn ngữ học",
+  "skills": [
+    {
+      "id": "skill_1993",
+      "name": "Ngữ pháp mô tả",
+      "difficulty_level": 2,
+      "description": "Learn and master Descriptive Grammar",
+      "tags": [
+        "descriptive",
+        "grammar",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1994",
+      "name": "Lý thuyết tiếp thu ngôn ngữ",
+      "difficulty_level": 4,
+      "description": "Learn and master Language Acquisition Theory",
+      "tags": [
+        "language",
+        "acquisition",
+        "theory"
+      ]
+    },
+    {
+      "id": "skill_1995",
+      "name": "Kiểu chữ ngôn ngữ",
+      "difficulty_level": 1,
+      "description": "Learn and master Linguistic Typology",
+      "tags": [
+        "linguistic",
+        "typology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1996",
+      "name": "Hình thái",
+      "difficulty_level": 2,
+      "description": "Learn and master Morphology",
+      "tags": [
+        "morphology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1997",
+      "name": "Ngữ âm",
+      "difficulty_level": 3,
+      "description": "Learn and master Phonetics",
+      "tags": [
+        "phonetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1998",
+      "name": "Âm vị học",
+      "difficulty_level": 4,
+      "description": "Learn and master Phonology",
+      "tags": [
+        "phonology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1999",
+      "name": "Thực dụng",
+      "difficulty_level": 5,
+      "description": "Learn and master Pragmatics",
+      "tags": [
+        "pragmatics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2000",
+      "name": "Nghiên cứu ngữ nghĩa",
+      "difficulty_level": 2,
+      "description": "Learn and master Semantic Study",
+      "tags": [
+        "semantic",
+        "study",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2001",
+      "name": "Xã hội học",
+      "difficulty_level": 3,
+      "description": "Learn and master Sociolinguistics",
+      "tags": [
+        "sociolinguistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2002",
+      "name": "Phân tích cú pháp",
+      "difficulty_level": 4,
+      "description": "Learn and master Syntax Analysis",
+      "tags": [
+        "syntax",
+        "analysis",
+        "skill"
+      ]
+    }
+  ]
+}

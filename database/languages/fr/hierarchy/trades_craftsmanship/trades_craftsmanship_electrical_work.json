@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_electrical_work",
+  "name": "Travail électrique",
+  "skills": [
+    {
+      "id": "skill_4955",
+      "name": "Installation de circuit",
+      "difficulty_level": 5,
+      "description": "Learn and master Circuit Installation",
+      "tags": [
+        "circuit",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4956",
+      "name": "Flexion des conduits",
+      "difficulty_level": 4,
+      "description": "Learn and master Conduit Bending",
+      "tags": [
+        "conduit",
+        "bending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4957",
+      "name": "Conformité du code électrique",
+      "difficulty_level": 5,
+      "description": "Learn and master Electrical Code Compliance",
+      "tags": [
+        "electrical",
+        "code",
+        "compliance"
+      ]
+    },
+    {
+      "id": "skill_4958",
+      "name": "Mises à niveau du panneau électrique",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Panel Upgrades",
+      "tags": [
+        "electrical",
+        "panel",
+        "upgrades"
+      ]
+    },
+    {
+      "id": "skill_4959",
+      "name": "Branchement du générateur",
+      "difficulty_level": 1,
+      "description": "Learn and master Generator Hookup",
+      "tags": [
+        "generator",
+        "hookup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4960",
+      "name": "Automatisation",
+      "difficulty_level": 1,
+      "description": "Learn and master Home Automation",
+      "tags": [
+        "home",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4961",
+      "name": "Installation d'éclairage",
+      "difficulty_level": 1,
+      "description": "Learn and master Lighting Installation",
+      "tags": [
+        "lighting",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4962",
+      "name": "Utilisation multimètre",
+      "difficulty_level": 2,
+      "description": "Learn and master Multimeter Use",
+      "tags": [
+        "multimeter",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4963",
+      "name": "Dépannage des circuits",
+      "difficulty_level": 1,
+      "description": "Learn and master Troubleshooting Circuits",
+      "tags": [
+        "troubleshooting",
+        "circuits",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4964",
+      "name": "Réparation de câblage",
+      "difficulty_level": 3,
+      "description": "Learn and master Wiring Repair",
+      "tags": [
+        "wiring",
+        "repair",
+        "skill"
+      ]
+    }
+  ]
+}

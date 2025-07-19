@@ -1,0 +1,246 @@
+[
+  {
+    "id": "academic_intellectual",
+    "name": "ਅਕਾਦਮਿਕ ਅਤੇ ਬੁੱਧੀਮਾਨ"
+  },
+  {
+    "id": "academic_intellectual_skills",
+    "name": "ਅਕਾਦਮਿਕ ਅਤੇ ਬੌਧਿਕ ਹੁਨਰ"
+  },
+  {
+    "id": "academic_research_skills",
+    "name": "ਅਕਾਦਮਿਕ ਅਤੇ ਖੋਜ ਹੁਨਰ"
+  },
+  {
+    "id": "arts_creative_expression",
+    "name": "ਕਲਾ ਅਤੇ ਕਰੀਏਟਿਵ ਸਮੀਕਰਨ"
+  },
+  {
+    "id": "arts_creativity",
+    "name": "ਕਲਾ ਅਤੇ ਰਚਨਾਤਮਕਤਾ"
+  },
+  {
+    "id": "arts_design",
+    "name": "ਕਲਾ ਅਤੇ ਡਿਜ਼ਾਈਨ"
+  },
+  {
+    "id": "arts,_crafts_design",
+    "name": "ਕਲਾ, ਸ਼ਿਲਪਕਾਰੀ ਅਤੇ ਡਿਜ਼ਾਈਨ"
+  },
+  {
+    "id": "arts,_design_creativity",
+    "name": "ਕਲਾ, ਡਿਜ਼ਾਈਨ ਅਤੇ ਰਚਨਾਤਮਕਤਾ"
+  },
+  {
+    "id": "business_finance",
+    "name": "ਵਪਾਰ ਅਤੇ ਵਿੱਤ"
+  },
+  {
+    "id": "business_professional_skills",
+    "name": "ਵਪਾਰ ਅਤੇ ਪੇਸ਼ੇਵਰ ਹੁਨਰ"
+  },
+  {
+    "id": "cognitive_academic_skills",
+    "name": "ਬੋਧਿਕ ਅਤੇ ਅਕਾਦਮਿਕ ਹੁਨਰ"
+  },
+  {
+    "id": "cognitive_learning_skills",
+    "name": "ਬੋਧਵਾਦੀ ਅਤੇ ਸਿੱਖਣ ਦੇ ਹੁਨਰ"
+  },
+  {
+    "id": "communication_language_skills",
+    "name": "ਸੰਚਾਰ ਅਤੇ ਭਾਸ਼ਾ ਦੇ ਹੁਨਰ"
+  },
+  {
+    "id": "creative_artistic",
+    "name": "ਰਚਨਾਤਮਕ ਅਤੇ ਕਲਾਤਮਕ"
+  },
+  {
+    "id": "creative_artistic_skills",
+    "name": "ਰਚਨਾਤਮਕ ਅਤੇ ਕਲਾਤਮਕ ਹੁਨਰ"
+  },
+  {
+    "id": "creative_design",
+    "name": "ਰਚਨਾਤਮਕ ਅਤੇ ਡਿਜ਼ਾਈਨ"
+  },
+  {
+    "id": "creative_arts_crafts",
+    "name": "ਰਚਨਾਤਮਕ ਕਲਾ ਅਤੇ ਸ਼ਿਲਪਕਾਰੀ"
+  },
+  {
+    "id": "creative_arts_design",
+    "name": "ਰਚਨਾਤਮਕ ਕਲਾ ਅਤੇ ਡਿਜ਼ਾਈਨ"
+  },
+  {
+    "id": "culture_language_skills",
+    "name": "ਸਭਿਆਚਾਰ ਅਤੇ ਭਾਸ਼ਾ ਦੇ ਹੁਨਰ"
+  },
+  {
+    "id": "design_visual_skills",
+    "name": "ਡਿਜ਼ਾਇਨ ਅਤੇ ਵਿਜ਼ੂਅਲ ਹੁਨਰ"
+  },
+  {
+    "id": "digital_media_skills",
+    "name": "ਡਿਜੀਟਲ ਅਤੇ ਮੀਡੀਆ ਹੁਨਰ"
+  },
+  {
+    "id": "digital_technology_skills",
+    "name": "ਡਿਜੀਟਲ ਅਤੇ ਟੈਕਨੋਲੋਜੀ ਹੁਨਰ"
+  },
+  {
+    "id": "education_language",
+    "name": "ਸਿੱਖਿਆ ਅਤੇ ਭਾਸ਼ਾ"
+  },
+  {
+    "id": "engineering_mechanical",
+    "name": "ਇੰਜੀਨੀਅਰਿੰਗ ਅਤੇ ਮਕੈਨੀਕਲ"
+  },
+  {
+    "id": "health_fitness",
+    "name": "ਸਿਹਤ ਅਤੇ ਤੰਦਰੁਸਤੀ"
+  },
+  {
+    "id": "health_wellness",
+    "name": "ਸਿਹਤ ਅਤੇ ਤੰਦਰੁਸਤੀ"
+  },
+  {
+    "id": "health,_fitness_sports",
+    "name": "ਸਿਹਤ, ਤੰਦਰੁਸਤੀ ਅਤੇ ਖੇਡਾਂ"
+  },
+  {
+    "id": "health,_wellness_fitness",
+    "name": "ਸਿਹਤ, ਤੰਦਰੁਸਤੀ ਅਤੇ ਤੰਦਰੁਸਤੀ"
+  },
+  {
+    "id": "home_diy",
+    "name": "ਘਰ ਅਤੇ DIY"
+  },
+  {
+    "id": "home_daily_life",
+    "name": "ਘਰ ਅਤੇ ਰੋਜ਼ਾਨਾ ਜ਼ਿੰਦਗੀ"
+  },
+  {
+    "id": "language_communication",
+    "name": "ਭਾਸ਼ਾ ਅਤੇ ਸੰਚਾਰ"
+  },
+  {
+    "id": "language_communication_skills",
+    "name": "ਭਾਸ਼ਾ ਅਤੇ ਸੰਚਾਰ ਹੁਨਰ"
+  },
+  {
+    "id": "learning_academic_skills",
+    "name": "ਸਿੱਖਣਾ ਅਤੇ ਅਕਾਦਮਿਕ ਹੁਨਰ"
+  },
+  {
+    "id": "learning,_language_education",
+    "name": "ਸਿੱਖਣ, ਭਾਸ਼ਾ ਅਤੇ ਸਿੱਖਿਆ"
+  },
+  {
+    "id": "life_everyday_skills",
+    "name": "ਜ਼ਿੰਦਗੀ ਅਤੇ ਹਰ ਰੋਜ਼ ਦੇ ਹੁਨਰ"
+  },
+  {
+    "id": "life_personal_development",
+    "name": "ਜ਼ਿੰਦਗੀ ਅਤੇ ਨਿੱਜੀ ਵਿਕਾਸ"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills",
+    "name": "ਜੀਵਨਸ਼ੈਲੀ ਅਤੇ ਸਵੈ-ਨਿਰਭਰਤਾ ਹੁਨਰ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills",
+    "name": "ਮੈਨੂਅਲ ਟਰੇਡਜ਼ ਅਤੇ ਕਾਰੀਗਰ ਹੁਨਰ"
+  },
+  {
+    "id": "mechanical_technical_skills",
+    "name": "ਮਕੈਨੀਕਲ ਅਤੇ ਤਕਨੀਕੀ ਹੁਨਰ"
+  },
+  {
+    "id": "mind_academics",
+    "name": "ਮਨ ਅਤੇ ਵਿਦਿਅਕ"
+  },
+  {
+    "id": "mind_learning_skills",
+    "name": "ਮਨ ਅਤੇ ਸਿੱਖਣ ਦੇ ਹੁਨਰ"
+  },
+  {
+    "id": "personal_development",
+    "name": "ਨਿੱਜੀ ਵਿਕਾਸ"
+  },
+  {
+    "id": "personal_development_mindset",
+    "name": "ਨਿੱਜੀ ਵਿਕਾਸ ਅਤੇ ਮਾਨਸਿਕਤਾ"
+  },
+  {
+    "id": "personal_development_mindset_skills",
+    "name": "ਨਿੱਜੀ ਵਿਕਾਸ ਅਤੇ ਮਾਨਸਿਕਤਾ ਹੁਨਰ"
+  },
+  {
+    "id": "physical_outdoor_skills",
+    "name": "ਸਰੀਰਕ ਅਤੇ ਬਾਹਰੀ ਹੁਨਰ"
+  },
+  {
+    "id": "physical_sports_skills",
+    "name": "ਸਰੀਰਕ ਅਤੇ ਖੇਡ ਹੁਨਰ"
+  },
+  {
+    "id": "science_research_skills",
+    "name": "ਵਿਗਿਆਨ ਅਤੇ ਖੋਜ ਹੁਨਰ"
+  },
+  {
+    "id": "science_technical_skills",
+    "name": "ਵਿਗਿਆਨ ਅਤੇ ਤਕਨੀਕੀ ਹੁਨਰ"
+  },
+  {
+    "id": "science_technology_skills",
+    "name": "ਵਿਗਿਆਨ ਅਤੇ ਤਕਨਾਲੋਜੀ ਦੇ ਹੁਨਰ"
+  },
+  {
+    "id": "tech_digital_skills",
+    "name": "ਤਕਨੀਕ ਅਤੇ ਡਿਜੀਟਲ ਹੁਨਰ"
+  },
+  {
+    "id": "technical_engineering",
+    "name": "ਤਕਨੀਕੀ ਅਤੇ ਇੰਜੀਨੀਅਰਿੰਗ"
+  },
+  {
+    "id": "technical_mechanical_skills",
+    "name": "ਤਕਨੀਕੀ ਅਤੇ ਮਕੈਨੀਕਲ ਹੁਨਰ"
+  },
+  {
+    "id": "technology_digital",
+    "name": "ਟੈਕਨੋਲੋਜੀ ਅਤੇ ਡਿਜੀਟਲ"
+  },
+  {
+    "id": "technology_digital_skills",
+    "name": "ਟੈਕਨੋਲੋਜੀ ਅਤੇ ਡਿਜੀਟਲ ਹੁਨਰ"
+  },
+  {
+    "id": "trade_craftsmanship_skills",
+    "name": "ਵਪਾਰ ਅਤੇ ਕਾਰੀਗਰੀ ਦੇ ਹੁਨਰ"
+  },
+  {
+    "id": "trades_craftsmanship",
+    "name": "ਵਪਾਰ ਅਤੇ ਕਾਰੀਗਰ"
+  },
+  {
+    "id": "trades_manual_skills",
+    "name": "ਵਪਾਰ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਹੁਨਰ"
+  },
+  {
+    "id": "trades_technical",
+    "name": "ਵਪਾਰ ਅਤੇ ਤਕਨੀਕੀ"
+  },
+  {
+    "id": "media_entertainment",
+    "name": "ਮੀਡੀਆ ਅਤੇ ਮਨੋਰੰਜਨ"
+  },
+  {
+    "id": "hobbies_recreation",
+    "name": "ਸ਼ੌਕ ਅਤੇ ਮਨੋਰੰਜਨ"
+  },
+  {
+    "id": "food_of_different_countries",
+    "name": "ਵੱਖ ਵੱਖ ਦੇਸ਼ਾਂ ਦਾ ਭੋਜਨ"
+  }
+]

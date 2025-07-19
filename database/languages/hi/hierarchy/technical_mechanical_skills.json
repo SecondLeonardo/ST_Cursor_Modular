@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "तकनीकी और यांत्रिक कौशल",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "मोटर वाहन कौशल"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "निर्माण बिल्डिंग"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "बिजली का काम"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "ऊर्जा और पर्यावरण"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "औद्योगिक कौशल"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "यांत्रिक मरम्मत"
+    }
+  ]
+}

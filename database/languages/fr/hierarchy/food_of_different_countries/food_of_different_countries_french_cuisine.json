@@ -1,0 +1,118 @@
+{
+  "id": "food_of_different_countries_french_cuisine",
+  "name": "Cuisine française",
+  "skills": [
+    {
+      "id": "skill_5455",
+      "name": "Faire de la sauce (par exemple, Béchamel, Hollandaise)",
+      "difficulty_level": 4,
+      "description": "Learn and master Sauce Making (e.g., Béchamel, Hollandaise)",
+      "tags": [
+        "sauce",
+        "making",
+        "(e.g.,",
+        "béchamel,",
+        "hollandaise)"
+      ]
+    },
+    {
+      "id": "skill_5456",
+      "name": "Pâtisserie",
+      "difficulty_level": 5,
+      "description": "Learn and master Pastry Baking",
+      "tags": [
+        "pastry",
+        "baking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5457",
+      "name": "Cuisine de crêpe",
+      "difficulty_level": 1,
+      "description": "Learn and master Crepe Cooking",
+      "tags": [
+        "crepe",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5458",
+      "name": "Préparation de soufflé",
+      "difficulty_level": 2,
+      "description": "Learn and master Soufflé Preparation",
+      "tags": [
+        "soufflé",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5459",
+      "name": "Réduction du vin",
+      "difficulty_level": 5,
+      "description": "Learn and master Wine Reduction",
+      "tags": [
+        "wine",
+        "reduction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5460",
+      "name": "Techniques de brais",
+      "difficulty_level": 2,
+      "description": "Learn and master Braising Techniques",
+      "tags": [
+        "braising",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5461",
+      "name": "Talents de couteau",
+      "difficulty_level": 4,
+      "description": "Learn and master Knife Skills",
+      "tags": [
+        "knife",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5462",
+      "name": "Association au fromage",
+      "difficulty_level": 3,
+      "description": "Learn and master Cheese Pairing",
+      "tags": [
+        "cheese",
+        "pairing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5463",
+      "name": "Pâte",
+      "difficulty_level": 1,
+      "description": "Learn and master Bread Baking",
+      "tags": [
+        "bread",
+        "baking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5464",
+      "name": "Placage de dessert",
+      "difficulty_level": 3,
+      "description": "Learn and master Dessert Plating",
+      "tags": [
+        "dessert",
+        "plating",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "tech_digital_skills_cybersecurity",
+  "name": "Segurança cibernética",
+  "skills": [
+    {
+      "id": "skill_4367",
+      "name": "Criptografia",
+      "difficulty_level": 5,
+      "description": "Learn and master Cryptography",
+      "tags": [
+        "cryptography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4368",
+      "name": "Inteligência de ameaças cibernéticas",
+      "difficulty_level": 3,
+      "description": "Learn and master Cyber Threat Intelligence",
+      "tags": [
+        "cyber",
+        "threat",
+        "intelligence"
+      ]
+    },
+    {
+      "id": "skill_4369",
+      "name": "Hacking ético",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Hacking",
+      "tags": [
+        "ethical",
+        "hacking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4370",
+      "name": "Firewalls & Ids",
+      "difficulty_level": 2,
+      "description": "Learn and master Firewalls & IDS",
+      "tags": [
+        "firewalls",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4371",
+      "name": "Resposta de incidentes",
+      "difficulty_level": 5,
+      "description": "Learn and master Incident Response",
+      "tags": [
+        "incident",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4372",
+      "name": "Análise de malware",
+      "difficulty_level": 5,
+      "description": "Learn and master Malware Analysis",
+      "tags": [
+        "malware",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4373",
+      "name": "Monitoramento da rede",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Monitoring",
+      "tags": [
+        "network",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4374",
+      "name": "Segurança de rede",
+      "difficulty_level": 5,
+      "description": "Learn and master Network Security",
+      "tags": [
+        "network",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4375",
+      "name": "Gerenciamento de senhas",
+      "difficulty_level": 2,
+      "description": "Learn and master Password Management",
+      "tags": [
+        "password",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4376",
+      "name": "Teste de penetração",
+      "difficulty_level": 5,
+      "description": "Learn and master Penetration Testing",
+      "tags": [
+        "penetration",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4377",
+      "name": "Noções básicas de teste de penetração",
+      "difficulty_level": 1,
+      "description": "Learn and master Penetration Testing Basics",
+      "tags": [
+        "penetration",
+        "testing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4378",
+      "name": "Identificação de phishing",
+      "difficulty_level": 4,
+      "description": "Learn and master Phishing Identification",
+      "tags": [
+        "phishing",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4379",
+      "name": "Prevenção de phishing",
+      "difficulty_level": 5,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4380",
+      "name": "Práticas de codificação segura",
+      "difficulty_level": 1,
+      "description": "Learn and master Secure Coding Practices",
+      "tags": [
+        "secure",
+        "coding",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_4381",
+      "name": "Desenvolvimento de software seguro",
+      "difficulty_level": 2,
+      "description": "Learn and master Secure Software Development",
+      "tags": [
+        "secure",
+        "software",
+        "development"
+      ]
+    },
+    {
+      "id": "skill_4382",
+      "name": "Conformidade de segurança",
+      "difficulty_level": 3,
+      "description": "Learn and master Security Compliance",
+      "tags": [
+        "security",
+        "compliance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4383",
+      "name": "Configurando 2fa",
+      "difficulty_level": 5,
+      "description": "Learn and master Setting Up 2FA",
+      "tags": [
+        "setting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4384",
+      "name": "Entendendo os tipos de malware",
+      "difficulty_level": 5,
+      "description": "Learn and master Understanding Malware Types",
+      "tags": [
+        "understanding",
+        "malware",
+        "types"
+      ]
+    },
+    {
+      "id": "skill_4385",
+      "name": "Avaliação de vulnerabilidade",
+      "difficulty_level": 5,
+      "description": "Learn and master Vulnerability Assessment",
+      "tags": [
+        "vulnerability",
+        "assessment",
+        "skill"
+      ]
+    }
+  ]
+}

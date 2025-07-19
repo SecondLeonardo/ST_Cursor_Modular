@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "거래 및 장인 정신",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "자동차 수리"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "목공 및 목공"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "건축 및 벽돌"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "전기 작업"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "HVAC 및 냉장"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "보석 제작"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "금속 공사 및 용접"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "그림과 장식"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "연관"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "맞춤 및 재봉"
+    }
+  ]
+}

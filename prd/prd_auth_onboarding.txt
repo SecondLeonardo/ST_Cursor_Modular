@@ -1,0 +1,95 @@
+1. Authentication Overview
+- Authentication methods: Apple, Google, Facebook, phone number, email/password
+- User Registration: POST /api/users/register
+- User Login: POST /api/users/login
+- Data privacy: OAuth, encryption, Firebase Authentication, Supabase authentication
+
+2. Onboarding Flow
+- App Introduction Screens: Welcome message & app features
+- Sign In: Options for Apple, Google, Facebook, or phone number
+- Language Setup: Choose native and second languages
+- Skill Configuration: Choose expert and target skills
+- Profile Creation: Enter name, username, phone number, country, age, Add a Profile Picture
+
+3. Onboarding UI/UX Design
+### 3.1 Welcome Page
+- **Description**: The initial screen users see when they open the app for the first time.
+- **UI/UX Design**:
+  - **Layout & Structure**: Clean, structured, and user-friendly with a focus on skill exchange.
+  - **Visual Elements**: Gradient background, bold app name, and tagline emphasizing global reach.
+  - **Functional Elements**: Sign-in options with recognizable brand colors, language greeting bubbles.
+  - **Interaction Flow**: Tapping sign-in options triggers respective authentication flows.
+
+### 3.2 Basic Info Page
+- **Description**: Collects essential user information during onboarding.
+- **UI/UX Design**:
+  - **Layout & Structure**: Minimalistic and user-friendly with a progress bar.
+  - **Visual Elements**: Light gradient background, bold text for emphasis.
+  - **Functional Elements**: Interactive fields for country, languages, expertise, and target skills.
+  - **User Experience**: Step-by-step onboarding with a disabled "Next" button until fields are filled.
+
+### 3.3 Country Selection
+- **Description**: Allows users to select their country during onboarding.
+- **UI/UX Design**:
+  - **Navigation & Header**: Back button and centered title.
+  - **Visual Elements**: Circular flag icons, alphabetical country list with A-Z index.
+  - **Functionality**: Tapping a country selects it, with a highlight effect.
+
+### 3.4 Native Language Page
+- **Description**: Enables users to select their native language.
+- **UI/UX Design**:
+  - **Language Selection List**: Alphabetically organized with native script.
+  - **Functionality**: Tapping a language updates selection with a checkmark.
+
+### 3.5 Second Language Page
+- **Description**: Allows users to select their second language and proficiency.
+- **UI/UX Design**:
+  - **Proficiency Selection**: Dropdown for proficiency levels with dot indicators.
+  - **Functionality**: Selection confirmed with a checkmark.
+
+### 5.6 Expertise Page
+- **Description**: Users select their areas of expertise.
+- **UI/UX Design**:
+  - **Category & Skill Selection**: Dropdowns for categories and skills.
+  - **Functionality**: Selection confirmed with a checkmark.
+
+### 3.7 Target Skill Page
+- **Description**: Users select skills they wish to learn.
+- **UI/UX Design**:
+  - **Category & Skill Selection**: Similar to expertise page.
+  - **Functionality**: Selection confirmed with a checkmark.
+
+### 3.8 Introduction Page
+- **Description**: Collects personal details like name, birthday, and gender.
+- **UI/UX Design**:
+  - **Form Elements**: Input fields for name and birthday, gender selection buttons.
+  - **Functionality**: Date picker for birthday, gender selection with visual feedback.
+
+### 3.9 Add a Profile Picture
+- **Description**: Final step in profile setup.
+- **UI/UX Design**:
+  - **Profile Picture Placeholder**: Circular area with an add button.
+  - **Functionality**: Image selection and cropping, enabling "Start Learning" button.
+
+### 3.10 How Did You Hear About SkillTalk?
+- **Description**: Gathers user insights on app discovery.
+- **UI/UX Design**:
+  - **Selection Options**: Rows with icons and checkboxes.
+  - **Functionality**: Selection activates "Start Learning" button.
+
+### 3.11 Allow Location Popup
+- **Description**: Requests location access for better partner recommendations.
+- **UI/UX Design**:
+  - **Pop-Up Box**: White rounded rectangle with map preview.
+  - **Functionality**: Options for allowing location access, affecting partner recommendations.
+
+
+4. Onboarding Data Models
+- UserModel: Contains userId, name, email, skills, languages, profilePicture, onboarding fields
+
+5. API Contracts (Onboarding)
+- User Registration: POST /api/users/register
+- User Login: POST /api/users/login
+
+6. Placeholder Notes for Shared Content
+- For terminology, color palette, and shared models, see PRD 1: Core Features. 

@@ -1,0 +1,120 @@
+{
+  "id": "technology_digital_data_ai",
+  "name": "Takwimu & AI",
+  "skills": [
+    {
+      "id": "skill_4626",
+      "name": "Zana kubwa za data",
+      "difficulty_level": 4,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4627",
+      "name": "Kusafisha data na pandas",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning with Pandas",
+      "tags": [
+        "data",
+        "cleaning",
+        "with",
+        "pandas"
+      ]
+    },
+    {
+      "id": "skill_4628",
+      "name": "Utazamaji wa data na matplotlib",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Visualization with Matplotlib",
+      "tags": [
+        "data",
+        "visualization",
+        "with",
+        "matplotlib"
+      ]
+    },
+    {
+      "id": "skill_4629",
+      "name": "Kujifunza kwa kina na Tensorflow",
+      "difficulty_level": 1,
+      "description": "Learn and master Deep Learning with TensorFlow",
+      "tags": [
+        "deep",
+        "learning",
+        "with",
+        "tensorflow"
+      ]
+    },
+    {
+      "id": "skill_4630",
+      "name": "Kujifunza kwa mashine na scikit-kujifunza",
+      "difficulty_level": 3,
+      "description": "Learn and master Machine Learning with Scikit-Learn",
+      "tags": [
+        "machine",
+        "learning",
+        "with",
+        "scikit-learn"
+      ]
+    },
+    {
+      "id": "skill_4631",
+      "name": "Usindikaji wa lugha asilia",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4632",
+      "name": "Mitandao ya Neural",
+      "difficulty_level": 3,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4633",
+      "name": "Mfano wa utabiri",
+      "difficulty_level": 2,
+      "description": "Learn and master Predictive Modeling",
+      "tags": [
+        "predictive",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4634",
+      "name": "SQL kwa uchambuzi wa data",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL for Data Analysis",
+      "tags": [
+        "data",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4635",
+      "name": "Takwimu za Sayansi ya Takwimu",
+      "difficulty_level": 1,
+      "description": "Learn and master Statistics for Data Science",
+      "tags": [
+        "statistics",
+        "data",
+        "science"
+      ]
+    }
+  ]
+}

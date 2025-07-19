@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "학업 및 연구 기술",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "학문적 프레젠테이션"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "데이터 분석"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "언어 및 글쓰기"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "수학 및 통계"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "과학적 연구"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "연구 및 시험 준비"
+    }
+  ]
+}

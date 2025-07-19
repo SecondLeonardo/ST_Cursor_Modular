@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "Fysieke en buitenvaardigheden",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "Fitness & conditionering"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "Handarbeid en transacties"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "Buitenrecreatie"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "Zelfverdediging en vechtsporten"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "Sport en atletiek"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "Survival & Bushcraft"
+    }
+  ]
+}

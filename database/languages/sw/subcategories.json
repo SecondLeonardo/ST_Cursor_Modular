@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "Uchumi"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "Jiografia"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "Historia"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "Lugha na lugha"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "Fasihi"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "Hisabati"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "Falsafa"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "Saikolojia"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "Sayansi"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "Sosholojia"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "Kufikiria muhimu"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "Historia na Utamaduni"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "Historia na Sayansi ya Jamii"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "Lugha na lugha"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "Lugha"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "Fasihi na uandishi"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "Mantiki na hoja"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "Hisabati"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "Falsafa na Kufikiria Mbaya"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "Kuzungumza kwa umma na mjadala"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "Utafiti na Uchambuzi"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "Sayansi"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "Sayansi na Asili"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "Mbinu za kusoma"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "Teknolojia na Kompyuta"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "Uwasilishaji wa kitaaluma"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "Uchambuzi wa data"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "Lugha na Uandishi"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "Hisabati na Takwimu"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "Utafiti wa kisayansi"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "Soma na Jaribio la Prep"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "Uhuishaji"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "Ufundi & DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "Uandishi wa ubunifu"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "Kuchora na Mchoro"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "Ubunifu wa mitindo"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "Uchoraji"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "Kufanya Sanaa"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "Sanamu"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "Uhuishaji na picha za mwendo"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "Ufundi & DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "Kuchora na Mchoro"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "Sanaa ya mitindo na nguo"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "Filamu na Video"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "Uchoraji na media iliyochanganywa"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "Kufanya Sanaa"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "Kuandika na Fasihi"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "Modeli ya 3D"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "Ubunifu wa usanifu"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "Ufundi"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "Mtindo na nguo"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "Filamu na Video"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "Ubunifu wa mambo ya ndani"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "Kufanya Sanaa"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "Sanaa ya kuona"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "Calligraphy"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "Ufundi"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "Sanaa ya Dijiti na Uhuishaji"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "Ubunifu wa mitindo"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "Mchoro na kuchora"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "Ubunifu wa mambo ya ndani"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "Sanaa ya nguo"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "Sanaa ya kuona"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "Ufundi & DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "Uandishi wa ubunifu"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "Ubunifu na Sanaa ya Dijiti"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "Kufanya Sanaa"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "Sanaa ya kuona"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "Uhasibu"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "Mkakati wa biashara"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "Msaada wa Wateja"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "E-commerce"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "Ujasiriamali"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "Fedha"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "Fedha na Uhasibu"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "HR & kuajiri"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "Rasilimali watu"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "Uwekezaji na biashara"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "Uongozi na Usimamizi"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "Uuzaji na Uuzaji"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "Usimamizi wa Mradi"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "Uuzaji na CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "Mawasiliano ya biashara"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "Huduma ya Wateja"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "Ujasiriamali"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "Fedha na Uhasibu"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "Rasilimali watu"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "Uongozi na Usimamizi"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "Kisheria na kufuata"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "Uuzaji na chapa"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "Uzalishaji wa ofisi"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "Mradi na Usimamizi wa Wakati"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "Usimamizi wa Mradi"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "Uuzaji na Uuzaji"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "Uuzaji na mazungumzo"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "Kufikiria muhimu"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "Lugha na lugha"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "Hisabati na mantiki"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "Kumbukumbu na Kuzingatia"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "Sayansi na Utafiti"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "Ujuzi na Ujuzi wa Kujifunza"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "Mkusanyiko na umakini"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "Kufikiria muhimu"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "Usindikaji wa habari"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "Mikakati ya kujifunza"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "Kumbukumbu na uhifadhi"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "Kutatua shida"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "Lugha za kigeni"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "Ujuzi wa kuingiliana"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "Mawasiliano yasiyokuwa ya maneno"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "Uwasilishaji na hadithi"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "Kuzungumza kwa umma"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "Kuandika na kuhariri"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "Ufundi & DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "Mawazo ya ubunifu"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "Ubunifu na aesthetics"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "Mtindo na maridadi"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "Filamu na Video"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "Ubunifu wa mchezo na ujenzi wa ulimwengu"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "Muziki na Sauti"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "Utendaji wa muziki"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "Uzalishaji wa muziki"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "Kufanya Sanaa"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "Upigaji picha na Videografia"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "Sanaa ya kuona"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "Kuandika na Fasihi"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "Kaimu na utendaji"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "Uhuishaji"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "Ufundi & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "Ufundi & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "Ufundi na Sanaa ya Handmade"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "Teknolojia ya ubunifu"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "Uandishi wa ubunifu"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "Sanaa ya Kitamaduni"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "Ubunifu na aesthetics"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "Kuchora na Mchoro"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "Mtindo na maridadi"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "Mtindo na sanaa ya nguo"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "Utengenezaji wa filamu na video"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "Mambo ya ndani na muundo wa maua"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "Muziki na vyombo"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "Uumbaji wa muziki"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "Uchoraji"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "Uchoraji na sanaa nzuri"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "Kufanya Sanaa"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "Upigaji picha na Videografia"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "Sanaa na Sanaa ya 3D"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "Sanaa ya kuona"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "Kuandika na hadithi"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D & Uhuishaji"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "Ui/ux"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "Uzalishaji wa video"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "Calligraphy & barua ya mkono"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "Ufundi & DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "Uandishi wa ubunifu"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "Kuchora na Mchoro"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "Kutengeneza vito"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "Uchoraji"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "Chakavu na collage"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "Sculpting & Clay"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "Sanaa ya nguo na nyuzi"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "Ufundi & DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "Sanaa ya Dijiti na Uhuishaji"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "Mambo ya ndani na mitindo"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "Sanaa ya kuona"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "Lugha za zamani"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "Ufahamu wa kitamaduni"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "Mafunzo ya lahaja"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "Mawasiliano ya kitamaduni"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "Mbinu za Kujifunza Lugha"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "Lugha"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "Lugha"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "Saini lugha"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "Tafsiri na Tafsiri"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "Mifumo ya uandishi"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3D Modeling & Uhuishaji"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "Chapa na kitambulisho"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "Mfano"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "UX/UI Design"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D & Uhuishaji"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "Uundaji wa yaliyomo"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "Uuzaji wa dijiti"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "Vyombo vya habari vya kijamii"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "Utiririshaji na utangazaji"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "UI/UX Design"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "Uzalishaji wa video"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "Ubunifu wa Wavuti na Programu"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "Cybersecurity"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "Takwimu & AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "Ni na mitandao"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "Programu na Maendeleo"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "Wavuti na Simu"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "Mafunzo ya kitaaluma"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "Elimu ya utoto wa mapema"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "Elimu ya juu"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "Mafundisho ya lugha"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "Lugha"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "Teknolojia za Kujifunza"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "Kujua kusoma na kuandika"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "Elimu maalum"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "Ujuzi wa kusoma"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "Prep prep"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "Magari na Usafiri"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "Uhandisi wa Kiraia"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "Uhandisi wa umeme"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "Mifumo ya Nishati na Nguvu"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC & SYSTEMS"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "Ubunifu wa Viwanda"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "Viwanda na Uzalishaji"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "Uhandisi wa mitambo"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "Robotiki na automatisering"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "Ubunifu wa muundo"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "Utunzaji wa mwili na ustawi"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "Msaada wa Kwanza na Usalama"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "Afya ya akili"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "Lishe na lishe"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "Mafunzo ya mwili"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "Dawa mbadala"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "Msaada wa Kwanza na Dharura"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "Mafunzo ya usawa"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "Afya ya jumla"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "Ujuzi wa matibabu"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "Ujuzi wa matibabu"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "Afya ya akili"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "Mazoea ya afya ya akili"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "Kuzingatia na kutafakari"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "Lishe na lishe"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "Utunzaji wa kibinafsi"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "Usawa wa mwili"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "Ukarabati na Tiba"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "Afya ya uzazi"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "Kujitunza na Usafi"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "Kulala na kupona"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "Usimamizi wa mafadhaiko"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "Yoga & Tafakari"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "Mafunzo ya usawa"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "Lishe"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "Nje na adventure"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "Ujuzi wa michezo"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "Ustawi na uokoaji"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "Dawa mbadala"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "Ujuzi wa matibabu"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "Afya ya akili"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "Lishe"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "Mafunzo ya kibinafsi"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "Usawa wa mwili"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "Ukarabati na Tiba"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "Mafunzo ya michezo"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "Mafunzo ya Wellness"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "Yoga & Akili"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "Matengenezo ya vifaa"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "Kusafisha na Kuandaa"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "Ufundi na mapambo"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "Kazi ya umeme"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "Bustani na Utunzaji wa Mazingira"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "Automatisering ya nyumbani"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "Urekebishaji wa nyumba"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "Ubunifu wa mambo ya ndani"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "Misingi ya mabomba"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "Woodworking & Useremala"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "Bajeti na Fedha za Kaya"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "Utunzaji wa watoto"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "Kupika na kula chakula"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "Ununuzi wa mboga"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "Kusafisha nyumbani"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "Matengenezo ya nyumba"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "Kufulia na utunzaji wa mavazi"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "Kuandaa na kupungua"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "Utunzaji wa wanyama"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "Usimamizi wa wakati"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "Mawasiliano ya kitamaduni"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "Lugha za kigeni"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "Kusikiliza na Uelewa"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "Tafsiri na Tafsiri"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "Ujuzi wa uandishi"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "Kujifunza lugha"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "Mawasiliano yasiyo ya maneno"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "Kuzungumza kwa umma"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "Hadithi na hadithi"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "Mawasiliano ya maneno"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "Kuandika na kuhariri"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "Kujifunza lugha"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "Hisabati"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "Sayansi na Utafiti"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "Mbinu za kusoma"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "Maandalizi ya mtihani"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "Mafunzo ya kitaaluma"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "Vyombo vya Kielimu na Ujuzi"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "Kujifunza lugha"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "Kujifunza kwa maisha yote"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "Maandalizi ya mtihani"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "Kupika na Chakula"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "Matengenezo ya nyumba"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "Fedha za kibinafsi"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "Usimamizi wa wakati"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "Kusafiri na Urambazaji"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "Mawasiliano na Mahusiano"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "Akili ya kihemko"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "Ustahimilivu na ukuaji"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "Nidhamu ya kibinafsi"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "Wakati na Usimamizi wa Lengo"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "Kupika na chakula cha mapema"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY & matengenezo"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "Bustani na Uendelevu"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "Usimamizi wa nyumba"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "Fedha za kibinafsi"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "Ujuzi wa kuishi"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "Urekebishaji wa Magari"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "Biashara ya ujenzi"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "Kazi ya umeme"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "Samani na upholstery"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "Utendaji wa zana ya mkono"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "Ukarabati wa nyumba"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "Kufanya kazi kwa chuma"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "Mabomba na inapokanzwa"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "Nguo na ngozi"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "Utengenezaji wa miti"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "Matengenezo ya magari"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "Misingi ya uhandisi"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "Urekebishaji wa nyumba na usanikishaji"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "Operesheni ya mashine"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "Matumizi ya zana na usalama"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "Kazi ya kuni na chuma"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "Kufikiria muhimu"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "Jiografia na Mazingira"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "Historia na Utamaduni"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "Lugha"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "Hisabati"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "Kumbukumbu na ustadi wa kujifunza"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "Falsafa na Maadili"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "Saikolojia na Tabia"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "Sayansi na Utafiti"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "Mbinu za kusoma"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "Kubadilika kwa utambuzi"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "Kufikiria muhimu"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "Kujifunza lugha"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "Kumbukumbu na Kuzingatia"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "Ujuzi wa kusoma"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "Kujiamini na kujithamini"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "Akili ya kihemko"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "Kuweka malengo na mipango"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "Tabia na Nidhamu"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "Ujuzi wa kuingiliana"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "Uongozi na Ushawishi"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "Kuzingatia na ustawi"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "Kuzungumza kwa umma"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "Kujitafakari"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "Wakati na tija"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "Uongozi"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "Ustawi wa akili"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "Uzalishaji"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "Kuzungumza kwa umma"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "Uboreshaji"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "Akili ya kihemko"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "Kuweka malengo na kufanikiwa"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "Tabia na Uzalishaji"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "Kuzingatia na Ustawi"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "Kuzungumza kwa umma na mawasiliano"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "Kujitegemea na kuzingatia"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "Usawa na hali"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "Kazi ya mwongozo na biashara"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "Burudani ya nje"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "Kujitetea na sanaa ya kijeshi"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "Michezo na riadha"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "Kupona na Bushcraft"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "Usawa na Nguvu"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "Michezo ya kibinafsi"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "Sanaa ya kijeshi"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "Nje na adventure"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "Shughuli za burudani"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "Michezo ya timu"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "Uandishi wa kitaaluma"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "Sayansi ya Biolojia"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "Sayansi ya Kompyuta na Takwimu"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "Sayansi ya Dunia na Mazingira"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "Sayansi ya Uhandisi"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "Hisabati na Takwimu"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "Sayansi ya Matibabu na Afya"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "Sayansi ya Kimwili"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "Njia za utafiti"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "Sayansi ya Jamii"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "Unajimu"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "Baiolojia na Sayansi ya Maisha"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "Kemia"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "Sayansi ya Kompyuta"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "Sayansi ya data & AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "Sayansi ya Dunia na Mazingira"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "Nidhamu za uhandisi"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "Hisabati na Takwimu"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "Fizikia na Mechanics"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "Robotiki na automatisering"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "Unajimu"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "Baiolojia"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "Kemia"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "Sayansi ya Kompyuta"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "Sayansi ya data & AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "Sayansi ya Dunia na Mazingira"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "Elektroniki"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "Uhandisi"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "Hisabati na Takwimu"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "Fizikia"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI & Mashine Kujifunza"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "Kompyuta ya wingu"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "Cybersecurity"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "Takwimu na Uchambuzi"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "Sayansi ya data & AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps & automatisering"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "Maendeleo ya mchezo"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "Ni na mitandao"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "IT Msaada na Mitandao"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "Ukuzaji wa programu ya rununu"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "Programu na maendeleo ya programu"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "Maendeleo ya programu"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "Vifaa vya Tech na Urekebishaji"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "Msaada wa Tech & Utatuzi"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "Maendeleo ya Wavuti"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "Kiraia na Miundo"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "Uhandisi wa umeme"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "Viwanda na upangaji"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "Uhandisi wa mitambo"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "Programu na mifumo"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "Ujuzi wa magari"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "Ujenzi na jengo"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "Kazi ya umeme"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "Nishati na Mazingira"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "Ujuzi wa Viwanda"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "Marekebisho ya mitambo"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "Cybersecurity"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "Takwimu & AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "Uuzaji wa dijiti"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "Ni na mitandao"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "Maendeleo ya programu"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "Akili ya bandia"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "Kompyuta ya wingu"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "Misingi ya kompyuta"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "Cybersecurity"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "Takwimu & AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "Takwimu na Uchambuzi"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "Kujua kusoma na kuandika kwa dijiti"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "Uuzaji wa dijiti"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "Teknolojia inayoibuka"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "Vifaa na vifaa vya elektroniki"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "Ni na mitandao"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "Mitandao na hiyo"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "Programu na Maendeleo"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "Programu na maendeleo ya programu"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "Zana za programu"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "Uzalishaji wa Tech"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "Msaada wa Teknolojia na Matengenezo"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "Msaada wa Tech & Utatuzi"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "Ukuzaji wa Wavuti na Programu"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "Ujenzi na useremala"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "Umeme na Mabomba"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "Bidhaa zilizotengenezwa kwa mikono"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "Metalwork & kulehemu"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "Nguo na ngozi"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "Ufundi wa jadi"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "Urekebishaji wa Magari"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "Carpenterry & Woodworking"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "Ujenzi na Uashi"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "Kazi ya umeme"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC & Jokofu"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "Kutengeneza vito"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "Metalwork & kulehemu"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "Uchoraji na mapambo"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "Mabomba"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "Kufunga na kushona"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "Urekebishaji wa Magari"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "Carpenterry & Woodwork"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "Ujenzi"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "Ujenzi na useremala"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "Ufundi na matengenezo"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "Umeme na mitambo"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "Kazi ya umeme"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC & Jokofu"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "Operesheni ya vifaa vizito"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "Uashi na tiling"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "Metal & Woodwork"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "Uchoraji na kumaliza"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "Mabomba"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "Matengenezo ya Gari na Mashine"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "Kulehemu & Metalwork"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "Magari"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "Useremala"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "Ujenzi"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "Umeme"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "Uashi"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "Mitambo"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "Uchoraji na mapambo"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "Mabomba"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "Kulehemu"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "Uzalishaji wa video"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "Uzalishaji wa sauti"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "Upigaji picha"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "Ubunifu wa picha"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "Kaimu na utendaji"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "Kuandika na maandishi"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "Utangazaji"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "Sanaa na Ufundi"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "Muziki na vyombo"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "Shughuli za nje"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "Kukusanya"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "Usawa na Ustawi"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "Bustani"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "Miradi ya DIY"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "Vyakula vya Italia"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "Vyakula vya Kijapani"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "Vyakula vya Mexico"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "Vyakula vya India"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "Vyakula vya Ufaransa"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "Vyakula vya Kichina"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "Vyakula vya Mashariki ya Kati"
+  }
+]

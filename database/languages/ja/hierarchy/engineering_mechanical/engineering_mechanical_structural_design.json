@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_structural_design",
+  "name": "構造設計",
+  "skills": [
+    {
+      "id": "skill_2433",
+      "name": "ブリッジデザイン",
+      "difficulty_level": 3,
+      "description": "Learn and master Bridge Design",
+      "tags": [
+        "bridge",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2434",
+      "name": "地震工学",
+      "difficulty_level": 3,
+      "description": "Learn and master Earthquake Engineering",
+      "tags": [
+        "earthquake",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2435",
+      "name": "基礎デザイン",
+      "difficulty_level": 5,
+      "description": "Learn and master Foundation Design",
+      "tags": [
+        "foundation",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2436",
+      "name": "読み込み計算",
+      "difficulty_level": 1,
+      "description": "Learn and master Load Calculations",
+      "tags": [
+        "load",
+        "calculations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2437",
+      "name": "石積み構造",
+      "difficulty_level": 2,
+      "description": "Learn and master Masonry Structures",
+      "tags": [
+        "masonry",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2438",
+      "name": "壁の設計を保持します",
+      "difficulty_level": 5,
+      "description": "Learn and master Retaining Wall Design",
+      "tags": [
+        "retaining",
+        "wall",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_2439",
+      "name": "屋根のトラス",
+      "difficulty_level": 3,
+      "description": "Learn and master Roof Trusses",
+      "tags": [
+        "roof",
+        "trusses",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2440",
+      "name": "鋼構造",
+      "difficulty_level": 2,
+      "description": "Learn and master Steel Structures",
+      "tags": [
+        "steel",
+        "structures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2441",
+      "name": "構造的安全",
+      "difficulty_level": 4,
+      "description": "Learn and master Structural Safety",
+      "tags": [
+        "structural",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2442",
+      "name": "風負荷分析",
+      "difficulty_level": 4,
+      "description": "Learn and master Wind Load Analysis",
+      "tags": [
+        "wind",
+        "load",
+        "analysis"
+      ]
+    }
+  ]
+}

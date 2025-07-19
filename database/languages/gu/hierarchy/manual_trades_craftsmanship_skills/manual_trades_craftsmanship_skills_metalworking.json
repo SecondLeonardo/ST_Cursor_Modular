@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_metalworking",
+  "name": "ધાતુકામ",
+  "skills": [
+    {
+      "id": "skill_3468",
+      "name": "લુહાર",
+      "difficulty_level": 5,
+      "description": "Learn and master Blacksmithing",
+      "tags": [
+        "blacksmithing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3469",
+      "name": "સી.એન.સી.",
+      "difficulty_level": 2,
+      "description": "Learn and master CNC Machining",
+      "tags": [
+        "machining",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3470",
+      "name": "લેથ કામગીરી",
+      "difficulty_level": 5,
+      "description": "Learn and master Lathe Operation",
+      "tags": [
+        "lathe",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3471",
+      "name": "ધાતુનો કસવો",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Casting",
+      "tags": [
+        "metal",
+        "casting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3472",
+      "name": "ધાતુની બનાવટ",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Fabrication",
+      "tags": [
+        "metal",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3473",
+      "name": "ધાતુ -પોલિશિંગ",
+      "difficulty_level": 5,
+      "description": "Learn and master Metal Polishing",
+      "tags": [
+        "metal",
+        "polishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3474",
+      "name": "ધાતુ -કામ",
+      "difficulty_level": 1,
+      "description": "Learn and master Sheet Metal Work",
+      "tags": [
+        "sheet",
+        "metal",
+        "work"
+      ]
+    },
+    {
+      "id": "skill_3475",
+      "name": "સોલ્ડર",
+      "difficulty_level": 1,
+      "description": "Learn and master Soldering",
+      "tags": [
+        "soldering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3476",
+      "name": "ટૂલ અને ડાઇ મેકિંગ",
+      "difficulty_level": 2,
+      "description": "Learn and master Tool & Die Making",
+      "tags": [
+        "tool",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3477",
+      "name": "વેલ્ડીંગ (મિગ/ટીઆઈજી/લાકડી)",
+      "difficulty_level": 5,
+      "description": "Learn and master Welding (MIG/TIG/Stick)",
+      "tags": [
+        "welding",
+        "(mig/tig/stick)",
+        "skill"
+      ]
+    }
+  ]
+}

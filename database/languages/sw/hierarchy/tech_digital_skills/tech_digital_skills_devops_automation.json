@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_devops_automation",
+  "name": "DevOps & automatisering",
+  "skills": [
+    {
+      "id": "skill_4406",
+      "name": "Upimaji wa kiotomatiki",
+      "difficulty_level": 3,
+      "description": "Learn and master Automated Testing",
+      "tags": [
+        "automated",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4407",
+      "name": "Bomba za CI/CD",
+      "difficulty_level": 5,
+      "description": "Learn and master CI/CD Pipelines",
+      "tags": [
+        "ci/cd",
+        "pipelines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4408",
+      "name": "Usambazaji wa wingu",
+      "difficulty_level": 4,
+      "description": "Learn and master Cloud Deployment Automation",
+      "tags": [
+        "cloud",
+        "deployment",
+        "automation"
+      ]
+    },
+    {
+      "id": "skill_4409",
+      "name": "Misingi ya Docker",
+      "difficulty_level": 3,
+      "description": "Learn and master Docker Basics",
+      "tags": [
+        "docker",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4410",
+      "name": "Gitlab ci",
+      "difficulty_level": 1,
+      "description": "Learn and master GitLab CI",
+      "tags": [
+        "gitlab",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4411",
+      "name": "Miundombinu kama nambari",
+      "difficulty_level": 3,
+      "description": "Learn and master Infrastructure as Code",
+      "tags": [
+        "infrastructure",
+        "code",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4412",
+      "name": "Jenkins automatisering",
+      "difficulty_level": 1,
+      "description": "Learn and master Jenkins Automation",
+      "tags": [
+        "jenkins",
+        "automation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4413",
+      "name": "Ufuatiliaji na ukataji miti",
+      "difficulty_level": 3,
+      "description": "Learn and master Monitoring & Logging",
+      "tags": [
+        "monitoring",
+        "logging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4414",
+      "name": "Usimamizi wa kutolewa",
+      "difficulty_level": 4,
+      "description": "Learn and master Release Management",
+      "tags": [
+        "release",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4415",
+      "name": "Terraform",
+      "difficulty_level": 5,
+      "description": "Learn and master Terraform",
+      "tags": [
+        "terraform",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

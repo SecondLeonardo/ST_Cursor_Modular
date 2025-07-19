@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "Fysiska och idrottsförmågor",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "Fitness och styrka"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "Individuella sporter"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "Kampsport"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "Utomhus- och äventyr"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "Fritidsaktiviteter"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "Lagsport"
+    }
+  ]
+}

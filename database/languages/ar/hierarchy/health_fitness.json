@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "الصحة واللياقة",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "رعاية الجسم والعافية"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "الإسعافات الأولية والسلامة"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "الصحة العقلية"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "التغذية والنظام الغذائي"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "التدريب البدني"
+    }
+  ]
+}

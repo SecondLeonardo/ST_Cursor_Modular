@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_physical_fitness",
+  "name": "শারীরিক সুস্থতা",
+  "skills": [
+    {
+      "id": "skill_2788",
+      "name": "বডিওয়েট অনুশীলন",
+      "difficulty_level": 1,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2789",
+      "name": "কার্ডিও ওয়ার্কআউট",
+      "difficulty_level": 5,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2790",
+      "name": "সহনশীলতা প্রশিক্ষণ",
+      "difficulty_level": 4,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2791",
+      "name": "ফিটনেস পরিকল্পনা",
+      "difficulty_level": 2,
+      "description": "Learn and master Fitness Planning",
+      "tags": [
+        "fitness",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2792",
+      "name": "কার্যকরী আন্দোলন",
+      "difficulty_level": 3,
+      "description": "Learn and master Functional Movement",
+      "tags": [
+        "functional",
+        "movement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2793",
+      "name": "এইচআইআইটি রুটিন",
+      "difficulty_level": 5,
+      "description": "Learn and master HIIT Routines",
+      "tags": [
+        "hiit",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2794",
+      "name": "কেটলবেল ওয়ার্কআউট",
+      "difficulty_level": 5,
+      "description": "Learn and master Kettlebell Workouts",
+      "tags": [
+        "kettlebell",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2795",
+      "name": "প্লাইওমেট্রিক্স",
+      "difficulty_level": 2,
+      "description": "Learn and master Plyometrics",
+      "tags": [
+        "plyometrics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2796",
+      "name": "শক্তি প্রশিক্ষণ",
+      "difficulty_level": 1,
+      "description": "Learn and master Strength Training",
+      "tags": [
+        "strength",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2797",
+      "name": "প্রসারিত কৌশল",
+      "difficulty_level": 4,
+      "description": "Learn and master Stretching Techniques",
+      "tags": [
+        "stretching",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+  "name": "DIY & 수리",
+  "skills": [
+    {
+      "id": "skill_3358",
+      "name": "가구 조립",
+      "difficulty_level": 2,
+      "description": "Learn and master Assembling Furniture",
+      "tags": [
+        "assembling",
+        "furniture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3359",
+      "name": "기본 자동차 유지 보수",
+      "difficulty_level": 5,
+      "description": "Learn and master Basic Car Maintenance",
+      "tags": [
+        "basic",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3360",
+      "name": "새는 수도꼭지 고정",
+      "difficulty_level": 5,
+      "description": "Learn and master Fixing a Leaky Faucet",
+      "tags": [
+        "fixing",
+        "leaky",
+        "faucet"
+      ]
+    },
+    {
+      "id": "skill_3361",
+      "name": "선반 설치",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing a Shelf",
+      "tags": [
+        "installing",
+        "shelf",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3362",
+      "name": "방을 그리는",
+      "difficulty_level": 1,
+      "description": "Learn and master Painting a Room",
+      "tags": [
+        "painting",
+        "room",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3363",
+      "name": "건식 벽체 패치",
+      "difficulty_level": 5,
+      "description": "Learn and master Patching Drywall",
+      "tags": [
+        "patching",
+        "drywall",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3364",
+      "name": "조명기구 교체",
+      "difficulty_level": 2,
+      "description": "Learn and master Replacing a Light Fixture",
+      "tags": [
+        "replacing",
+        "light",
+        "fixture"
+      ]
+    },
+    {
+      "id": "skill_3365",
+      "name": "버튼을 꿰매었다",
+      "difficulty_level": 2,
+      "description": "Learn and master Sewing a Button",
+      "tags": [
+        "sewing",
+        "button",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3366",
+      "name": "배수구를 풀기",
+      "difficulty_level": 3,
+      "description": "Learn and master Unclogging a Drain",
+      "tags": [
+        "unclogging",
+        "drain",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3367",
+      "name": "전동 공구 사용",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Power Tools",
+      "tags": [
+        "using",
+        "power",
+        "tools"
+      ]
+    }
+  ]
+}

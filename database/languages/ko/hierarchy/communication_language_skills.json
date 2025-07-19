@@ -1,0 +1,30 @@
+{
+  "id": "communication_language_skills",
+  "name": "커뮤니케이션 및 언어 기술",
+  "subcategories": [
+    {
+      "id": "communication_language_skills_foreign_languages",
+      "name": "외국어"
+    },
+    {
+      "id": "communication_language_skills_interpersonal_skills",
+      "name": "대인 관계 기술"
+    },
+    {
+      "id": "communication_language_skills_nonverbal_communication",
+      "name": "비언어적 의사 소통"
+    },
+    {
+      "id": "communication_language_skills_presentation_storytelling",
+      "name": "프레젠테이션 및 스토리 텔링"
+    },
+    {
+      "id": "communication_language_skills_public_speaking",
+      "name": "대중 연설"
+    },
+    {
+      "id": "communication_language_skills_writing_editing",
+      "name": "쓰기 및 편집"
+    }
+  ]
+}

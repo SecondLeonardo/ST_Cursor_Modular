@@ -1,0 +1,116 @@
+{
+  "id": "cognitive_academic_skills_mathematics_logic",
+  "name": "Toán học & Logic",
+  "skills": [
+    {
+      "id": "skill_1088",
+      "name": "Giải quyết vấn đề đại số",
+      "difficulty_level": 1,
+      "description": "Learn and master Algebra Problem Solving",
+      "tags": [
+        "algebra",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_1089",
+      "name": "Các dẫn xuất tính toán",
+      "difficulty_level": 4,
+      "description": "Learn and master Calculus Derivatives",
+      "tags": [
+        "calculus",
+        "derivatives",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1090",
+      "name": "Bằng chứng hình học",
+      "difficulty_level": 1,
+      "description": "Learn and master Geometry Proofs",
+      "tags": [
+        "geometry",
+        "proofs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1091",
+      "name": "Trò chơi logic",
+      "difficulty_level": 2,
+      "description": "Learn and master Logic Games",
+      "tags": [
+        "logic",
+        "games",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1092",
+      "name": "Giải câu đố toán",
+      "difficulty_level": 2,
+      "description": "Learn and master Math Puzzle Solving",
+      "tags": [
+        "math",
+        "puzzle",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_1093",
+      "name": "Mô hình toán học",
+      "difficulty_level": 1,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1094",
+      "name": "Kỹ thuật toán học tinh thần",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math Techniques",
+      "tags": [
+        "mental",
+        "math",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_1095",
+      "name": "Số lượng tăng cường ý nghĩa",
+      "difficulty_level": 3,
+      "description": "Learn and master Number Sense Enhancement",
+      "tags": [
+        "number",
+        "sense",
+        "enhancement"
+      ]
+    },
+    {
+      "id": "skill_1096",
+      "name": "Phân tích xác suất",
+      "difficulty_level": 5,
+      "description": "Learn and master Probability Analysis",
+      "tags": [
+        "probability",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1097",
+      "name": "Giải thích thống kê",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Interpretation",
+      "tags": [
+        "statistical",
+        "interpretation",
+        "skill"
+      ]
+    }
+  ]
+}

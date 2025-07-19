@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "आरोग्य आणि निरोगीपणा",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "वैकल्पिक औषध"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "प्रथमोपचार आणि आणीबाणी"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "फिटनेस प्रशिक्षण"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "समग्र आरोग्य"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "वैद्यकीय ज्ञान"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "वैद्यकीय कौशल्ये"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "मानसिक आरोग्य"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "मानसिक आरोग्य पद्धती"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "मानसिकता आणि ध्यान"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "पोषण आणि आहार"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "वैयक्तिक काळजी"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "शारीरिक तंदुरुस्ती"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "पुनर्वसन आणि थेरपी"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "पुनरुत्पादक आरोग्य"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "स्वत: ची काळजी आणि स्वच्छता"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "झोप आणि पुनर्प्राप्ती"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "तणाव व्यवस्थापन"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "योग आणि ध्यान"
+    }
+  ]
+}

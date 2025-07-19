@@ -1,0 +1,2667 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "category_id": "academic_intellectual",
+    "sort_order": 1
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "category_id": "academic_intellectual",
+    "sort_order": 2
+  },
+  {
+    "id": "academic_intellectual_history",
+    "category_id": "academic_intellectual",
+    "sort_order": 3
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "category_id": "academic_intellectual",
+    "sort_order": 4
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "category_id": "academic_intellectual",
+    "sort_order": 5
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "category_id": "academic_intellectual",
+    "sort_order": 6
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "category_id": "academic_intellectual",
+    "sort_order": 7
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "category_id": "academic_intellectual",
+    "sort_order": 8
+  },
+  {
+    "id": "academic_intellectual_science",
+    "category_id": "academic_intellectual",
+    "sort_order": 9
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "category_id": "academic_intellectual",
+    "sort_order": 10
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 11
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 12
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 13
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 14
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "category_id": "academic_intellectual_skills",
+    "sort_order": 15
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "category_id": "academic_research_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "category_id": "academic_research_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "category_id": "academic_research_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "category_id": "academic_research_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "category_id": "academic_research_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "category_id": "academic_research_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "category_id": "arts_creative_expression",
+    "sort_order": 1
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "category_id": "arts_creative_expression",
+    "sort_order": 2
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "category_id": "arts_creative_expression",
+    "sort_order": 3
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "category_id": "arts_creative_expression",
+    "sort_order": 4
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "category_id": "arts_creative_expression",
+    "sort_order": 5
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "category_id": "arts_creative_expression",
+    "sort_order": 6
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "category_id": "arts_creative_expression",
+    "sort_order": 7
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "category_id": "arts_creative_expression",
+    "sort_order": 8
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "category_id": "arts_creative_expression",
+    "sort_order": 9
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "category_id": "arts_creative_expression",
+    "sort_order": 10
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "category_id": "arts_creativity",
+    "sort_order": 1
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "category_id": "arts_creativity",
+    "sort_order": 2
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "category_id": "arts_creativity",
+    "sort_order": 3
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "category_id": "arts_creativity",
+    "sort_order": 4
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "category_id": "arts_creativity",
+    "sort_order": 5
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "category_id": "arts_creativity",
+    "sort_order": 6
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "category_id": "arts_creativity",
+    "sort_order": 7
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "category_id": "arts_creativity",
+    "sort_order": 8
+  },
+  {
+    "id": "arts_creativity_photography",
+    "category_id": "arts_creativity",
+    "sort_order": 9
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "category_id": "arts_creativity",
+    "sort_order": 10
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "category_id": "arts_design",
+    "sort_order": 1
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "category_id": "arts_design",
+    "sort_order": 2
+  },
+  {
+    "id": "arts_design_crafts",
+    "category_id": "arts_design",
+    "sort_order": 3
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "category_id": "arts_design",
+    "sort_order": 4
+  },
+  {
+    "id": "arts_design_film_video",
+    "category_id": "arts_design",
+    "sort_order": 5
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "category_id": "arts_design",
+    "sort_order": 6
+  },
+  {
+    "id": "arts_design_interior_design",
+    "category_id": "arts_design",
+    "sort_order": 7
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "category_id": "arts_design",
+    "sort_order": 8
+  },
+  {
+    "id": "arts_design_photography",
+    "category_id": "arts_design",
+    "sort_order": 9
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "category_id": "arts_design",
+    "sort_order": 10
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "category_id": "arts,_crafts_design",
+    "sort_order": 1
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "category_id": "arts,_crafts_design",
+    "sort_order": 2
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "category_id": "arts,_crafts_design",
+    "sort_order": 3
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "category_id": "arts,_crafts_design",
+    "sort_order": 4
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "category_id": "arts,_crafts_design",
+    "sort_order": 5
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "category_id": "arts,_crafts_design",
+    "sort_order": 6
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "category_id": "arts,_crafts_design",
+    "sort_order": 7
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "category_id": "arts,_crafts_design",
+    "sort_order": 8
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "category_id": "arts,_crafts_design",
+    "sort_order": 9
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "category_id": "arts,_crafts_design",
+    "sort_order": 10
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "category_id": "arts,_design_creativity",
+    "sort_order": 1
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "category_id": "arts,_design_creativity",
+    "sort_order": 2
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "category_id": "arts,_design_creativity",
+    "sort_order": 3
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "category_id": "arts,_design_creativity",
+    "sort_order": 4
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "category_id": "arts,_design_creativity",
+    "sort_order": 5
+  },
+  {
+    "id": "business_finance_accounting",
+    "category_id": "business_finance",
+    "sort_order": 1
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "category_id": "business_finance",
+    "sort_order": 2
+  },
+  {
+    "id": "business_finance_customer_support",
+    "category_id": "business_finance",
+    "sort_order": 3
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "category_id": "business_finance",
+    "sort_order": 4
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "category_id": "business_finance",
+    "sort_order": 5
+  },
+  {
+    "id": "business_finance_finance",
+    "category_id": "business_finance",
+    "sort_order": 6
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "category_id": "business_finance",
+    "sort_order": 7
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "category_id": "business_finance",
+    "sort_order": 8
+  },
+  {
+    "id": "business_finance_human_resources",
+    "category_id": "business_finance",
+    "sort_order": 9
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "category_id": "business_finance",
+    "sort_order": 10
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "category_id": "business_finance",
+    "sort_order": 11
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "category_id": "business_finance",
+    "sort_order": 12
+  },
+  {
+    "id": "business_finance_project_management",
+    "category_id": "business_finance",
+    "sort_order": 13
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "category_id": "business_finance",
+    "sort_order": 14
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "category_id": "business_professional_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "category_id": "business_professional_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "category_id": "business_professional_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "category_id": "business_professional_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "category_id": "business_professional_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "category_id": "business_professional_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "category_id": "business_professional_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "category_id": "business_professional_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "category_id": "business_professional_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "category_id": "business_professional_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "category_id": "business_professional_skills",
+    "sort_order": 11
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "category_id": "business_professional_skills",
+    "sort_order": 12
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "category_id": "business_professional_skills",
+    "sort_order": 13
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "category_id": "cognitive_academic_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "category_id": "cognitive_academic_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "category_id": "cognitive_academic_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "category_id": "cognitive_academic_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "category_id": "cognitive_academic_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "category_id": "cognitive_academic_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "category_id": "cognitive_learning_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "category_id": "cognitive_learning_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "category_id": "cognitive_learning_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "category_id": "cognitive_learning_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "category_id": "cognitive_learning_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "category_id": "cognitive_learning_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "category_id": "communication_language_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "category_id": "communication_language_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "category_id": "communication_language_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "category_id": "communication_language_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "category_id": "communication_language_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "category_id": "communication_language_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "category_id": "creative_artistic",
+    "sort_order": 1
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "category_id": "creative_artistic",
+    "sort_order": 2
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "category_id": "creative_artistic",
+    "sort_order": 3
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "category_id": "creative_artistic",
+    "sort_order": 4
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "category_id": "creative_artistic",
+    "sort_order": 5
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "category_id": "creative_artistic",
+    "sort_order": 6
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "category_id": "creative_artistic",
+    "sort_order": 7
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "category_id": "creative_artistic",
+    "sort_order": 8
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "category_id": "creative_artistic",
+    "sort_order": 9
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "category_id": "creative_artistic",
+    "sort_order": 10
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "category_id": "creative_artistic",
+    "sort_order": 11
+  },
+  {
+    "id": "creative_artistic_photography",
+    "category_id": "creative_artistic",
+    "sort_order": 12
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "category_id": "creative_artistic",
+    "sort_order": 13
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "category_id": "creative_artistic",
+    "sort_order": 14
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "category_id": "creative_artistic",
+    "sort_order": 15
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 11
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 12
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 13
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 14
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 15
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 16
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 17
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 18
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 19
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 20
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 21
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 22
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 23
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 24
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "category_id": "creative_artistic_skills",
+    "sort_order": 25
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "category_id": "creative_design",
+    "sort_order": 1
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "category_id": "creative_design",
+    "sort_order": 2
+  },
+  {
+    "id": "creative_design_photography",
+    "category_id": "creative_design",
+    "sort_order": 3
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "category_id": "creative_design",
+    "sort_order": 4
+  },
+  {
+    "id": "creative_design_video_production",
+    "category_id": "creative_design",
+    "sort_order": 5
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "category_id": "creative_arts_crafts",
+    "sort_order": 1
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "category_id": "creative_arts_crafts",
+    "sort_order": 2
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "category_id": "creative_arts_crafts",
+    "sort_order": 3
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "category_id": "creative_arts_crafts",
+    "sort_order": 4
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "category_id": "creative_arts_crafts",
+    "sort_order": 5
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "category_id": "creative_arts_crafts",
+    "sort_order": 6
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "category_id": "creative_arts_crafts",
+    "sort_order": 7
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "category_id": "creative_arts_crafts",
+    "sort_order": 8
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "category_id": "creative_arts_crafts",
+    "sort_order": 9
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "category_id": "creative_arts_crafts",
+    "sort_order": 10
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "category_id": "creative_arts_design",
+    "sort_order": 1
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "category_id": "creative_arts_design",
+    "sort_order": 2
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "category_id": "creative_arts_design",
+    "sort_order": 3
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "category_id": "creative_arts_design",
+    "sort_order": 4
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "category_id": "creative_arts_design",
+    "sort_order": 5
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "category_id": "culture_language_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "category_id": "culture_language_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "category_id": "culture_language_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "category_id": "culture_language_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "category_id": "culture_language_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "category_id": "culture_language_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "category_id": "culture_language_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "category_id": "culture_language_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "category_id": "culture_language_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "category_id": "culture_language_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "category_id": "design_visual_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "category_id": "design_visual_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "category_id": "design_visual_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "category_id": "design_visual_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "category_id": "design_visual_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "category_id": "design_visual_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "category_id": "digital_media_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "category_id": "digital_media_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "category_id": "digital_media_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "category_id": "digital_media_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "category_id": "digital_media_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "category_id": "digital_media_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "category_id": "digital_media_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "category_id": "digital_media_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "category_id": "digital_media_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "category_id": "digital_media_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "category_id": "digital_technology_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "category_id": "digital_technology_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "category_id": "digital_technology_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "category_id": "digital_technology_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "category_id": "digital_technology_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "category_id": "education_language",
+    "sort_order": 1
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "category_id": "education_language",
+    "sort_order": 2
+  },
+  {
+    "id": "education_language_higher_education",
+    "category_id": "education_language",
+    "sort_order": 3
+  },
+  {
+    "id": "education_language_language_teaching",
+    "category_id": "education_language",
+    "sort_order": 4
+  },
+  {
+    "id": "education_language_languages",
+    "category_id": "education_language",
+    "sort_order": 5
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "category_id": "education_language",
+    "sort_order": 6
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "category_id": "education_language",
+    "sort_order": 7
+  },
+  {
+    "id": "education_language_special_education",
+    "category_id": "education_language",
+    "sort_order": 8
+  },
+  {
+    "id": "education_language_study_skills",
+    "category_id": "education_language",
+    "sort_order": 9
+  },
+  {
+    "id": "education_language_test_prep",
+    "category_id": "education_language",
+    "sort_order": 10
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "category_id": "engineering_mechanical",
+    "sort_order": 1
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "category_id": "engineering_mechanical",
+    "sort_order": 2
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "category_id": "engineering_mechanical",
+    "sort_order": 3
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "category_id": "engineering_mechanical",
+    "sort_order": 4
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "category_id": "engineering_mechanical",
+    "sort_order": 5
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "category_id": "engineering_mechanical",
+    "sort_order": 6
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "category_id": "engineering_mechanical",
+    "sort_order": 7
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "category_id": "engineering_mechanical",
+    "sort_order": 8
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "category_id": "engineering_mechanical",
+    "sort_order": 9
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "category_id": "engineering_mechanical",
+    "sort_order": 10
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "category_id": "health_fitness",
+    "sort_order": 1
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "category_id": "health_fitness",
+    "sort_order": 2
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "category_id": "health_fitness",
+    "sort_order": 3
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "category_id": "health_fitness",
+    "sort_order": 4
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "category_id": "health_fitness",
+    "sort_order": 5
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "category_id": "health_wellness",
+    "sort_order": 1
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "category_id": "health_wellness",
+    "sort_order": 2
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "category_id": "health_wellness",
+    "sort_order": 3
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "category_id": "health_wellness",
+    "sort_order": 4
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "category_id": "health_wellness",
+    "sort_order": 5
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "category_id": "health_wellness",
+    "sort_order": 6
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "category_id": "health_wellness",
+    "sort_order": 7
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "category_id": "health_wellness",
+    "sort_order": 8
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "category_id": "health_wellness",
+    "sort_order": 9
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "category_id": "health_wellness",
+    "sort_order": 10
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "category_id": "health_wellness",
+    "sort_order": 11
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "category_id": "health_wellness",
+    "sort_order": 12
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "category_id": "health_wellness",
+    "sort_order": 13
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "category_id": "health_wellness",
+    "sort_order": 14
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "category_id": "health_wellness",
+    "sort_order": 15
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "category_id": "health_wellness",
+    "sort_order": 16
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "category_id": "health_wellness",
+    "sort_order": 17
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "category_id": "health_wellness",
+    "sort_order": 18
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "category_id": "health,_fitness_sports",
+    "sort_order": 1
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "category_id": "health,_fitness_sports",
+    "sort_order": 2
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "category_id": "health,_fitness_sports",
+    "sort_order": 3
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "category_id": "health,_fitness_sports",
+    "sort_order": 4
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "category_id": "health,_fitness_sports",
+    "sort_order": 5
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "category_id": "health,_wellness_fitness",
+    "sort_order": 1
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "category_id": "health,_wellness_fitness",
+    "sort_order": 2
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "category_id": "health,_wellness_fitness",
+    "sort_order": 3
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "category_id": "health,_wellness_fitness",
+    "sort_order": 4
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "category_id": "health,_wellness_fitness",
+    "sort_order": 5
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "category_id": "health,_wellness_fitness",
+    "sort_order": 6
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "category_id": "health,_wellness_fitness",
+    "sort_order": 7
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "category_id": "health,_wellness_fitness",
+    "sort_order": 8
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "category_id": "health,_wellness_fitness",
+    "sort_order": 9
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "category_id": "health,_wellness_fitness",
+    "sort_order": 10
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "category_id": "home_diy",
+    "sort_order": 1
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "category_id": "home_diy",
+    "sort_order": 2
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "category_id": "home_diy",
+    "sort_order": 3
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "category_id": "home_diy",
+    "sort_order": 4
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "category_id": "home_diy",
+    "sort_order": 5
+  },
+  {
+    "id": "home_diy_home_automation",
+    "category_id": "home_diy",
+    "sort_order": 6
+  },
+  {
+    "id": "home_diy_home_repair",
+    "category_id": "home_diy",
+    "sort_order": 7
+  },
+  {
+    "id": "home_diy_interior_design",
+    "category_id": "home_diy",
+    "sort_order": 8
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "category_id": "home_diy",
+    "sort_order": 9
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "category_id": "home_diy",
+    "sort_order": 10
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "category_id": "home_daily_life",
+    "sort_order": 1
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "category_id": "home_daily_life",
+    "sort_order": 2
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "category_id": "home_daily_life",
+    "sort_order": 3
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "category_id": "home_daily_life",
+    "sort_order": 4
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "category_id": "home_daily_life",
+    "sort_order": 5
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "category_id": "home_daily_life",
+    "sort_order": 6
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "category_id": "home_daily_life",
+    "sort_order": 7
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "category_id": "home_daily_life",
+    "sort_order": 8
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "category_id": "home_daily_life",
+    "sort_order": 9
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "category_id": "home_daily_life",
+    "sort_order": 10
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "category_id": "language_communication",
+    "sort_order": 1
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "category_id": "language_communication",
+    "sort_order": 2
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "category_id": "language_communication",
+    "sort_order": 3
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "category_id": "language_communication",
+    "sort_order": 4
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "category_id": "language_communication",
+    "sort_order": 5
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "category_id": "language_communication_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "category_id": "language_communication_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "category_id": "language_communication_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "category_id": "language_communication_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "category_id": "language_communication_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "category_id": "language_communication_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "category_id": "learning_academic_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "category_id": "learning_academic_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "category_id": "learning_academic_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "category_id": "learning_academic_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "category_id": "learning_academic_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "category_id": "learning,_language_education",
+    "sort_order": 1
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "category_id": "learning,_language_education",
+    "sort_order": 2
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "category_id": "learning,_language_education",
+    "sort_order": 3
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "category_id": "learning,_language_education",
+    "sort_order": 4
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "category_id": "learning,_language_education",
+    "sort_order": 5
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "category_id": "life_everyday_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "category_id": "life_everyday_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "category_id": "life_everyday_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "category_id": "life_everyday_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "category_id": "life_everyday_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "category_id": "life_personal_development",
+    "sort_order": 1
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "category_id": "life_personal_development",
+    "sort_order": 2
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "category_id": "life_personal_development",
+    "sort_order": 3
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "category_id": "life_personal_development",
+    "sort_order": 4
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "category_id": "life_personal_development",
+    "sort_order": 5
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "category_id": "lifestyle_self-sufficiency_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "category_id": "lifestyle_self-sufficiency_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "category_id": "lifestyle_self-sufficiency_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "category_id": "lifestyle_self-sufficiency_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "category_id": "lifestyle_self-sufficiency_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "category_id": "lifestyle_self-sufficiency_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "category_id": "manual_trades_craftsmanship_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "category_id": "manual_trades_craftsmanship_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "category_id": "manual_trades_craftsmanship_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "category_id": "manual_trades_craftsmanship_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "category_id": "manual_trades_craftsmanship_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "category_id": "manual_trades_craftsmanship_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "category_id": "manual_trades_craftsmanship_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "category_id": "manual_trades_craftsmanship_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "category_id": "manual_trades_craftsmanship_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "category_id": "manual_trades_craftsmanship_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "category_id": "mechanical_technical_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "category_id": "mechanical_technical_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "category_id": "mechanical_technical_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "category_id": "mechanical_technical_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "category_id": "mechanical_technical_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "category_id": "mechanical_technical_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "category_id": "mind_academics",
+    "sort_order": 1
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "category_id": "mind_academics",
+    "sort_order": 2
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "category_id": "mind_academics",
+    "sort_order": 3
+  },
+  {
+    "id": "mind_academics_languages",
+    "category_id": "mind_academics",
+    "sort_order": 4
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "category_id": "mind_academics",
+    "sort_order": 5
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "category_id": "mind_academics",
+    "sort_order": 6
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "category_id": "mind_academics",
+    "sort_order": 7
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "category_id": "mind_academics",
+    "sort_order": 8
+  },
+  {
+    "id": "mind_academics_science_research",
+    "category_id": "mind_academics",
+    "sort_order": 9
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "category_id": "mind_academics",
+    "sort_order": 10
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "category_id": "mind_learning_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "category_id": "mind_learning_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "category_id": "mind_learning_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "category_id": "mind_learning_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "category_id": "mind_learning_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "category_id": "personal_development",
+    "sort_order": 1
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "category_id": "personal_development",
+    "sort_order": 2
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "category_id": "personal_development",
+    "sort_order": 3
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "category_id": "personal_development",
+    "sort_order": 4
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "category_id": "personal_development",
+    "sort_order": 5
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "category_id": "personal_development",
+    "sort_order": 6
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "category_id": "personal_development",
+    "sort_order": 7
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "category_id": "personal_development",
+    "sort_order": 8
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "category_id": "personal_development",
+    "sort_order": 9
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "category_id": "personal_development",
+    "sort_order": 10
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "category_id": "personal_development_mindset",
+    "sort_order": 1
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "category_id": "personal_development_mindset",
+    "sort_order": 2
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "category_id": "personal_development_mindset",
+    "sort_order": 3
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "category_id": "personal_development_mindset",
+    "sort_order": 4
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "category_id": "personal_development_mindset",
+    "sort_order": 5
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "category_id": "personal_development_mindset_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "category_id": "personal_development_mindset_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "category_id": "personal_development_mindset_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "category_id": "personal_development_mindset_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "category_id": "personal_development_mindset_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "category_id": "personal_development_mindset_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "category_id": "physical_outdoor_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "category_id": "physical_outdoor_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "category_id": "physical_outdoor_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "category_id": "physical_outdoor_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "category_id": "physical_outdoor_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "category_id": "physical_outdoor_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "category_id": "physical_sports_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "category_id": "physical_sports_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "category_id": "physical_sports_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "category_id": "physical_sports_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "category_id": "physical_sports_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "category_id": "physical_sports_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "category_id": "science_research_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "category_id": "science_research_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "category_id": "science_research_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "category_id": "science_research_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "category_id": "science_research_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "category_id": "science_research_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "category_id": "science_research_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "category_id": "science_research_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "category_id": "science_research_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "category_id": "science_research_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "category_id": "science_technical_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "category_id": "science_technical_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "category_id": "science_technical_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "category_id": "science_technical_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "category_id": "science_technical_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "category_id": "science_technical_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "category_id": "science_technical_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "category_id": "science_technical_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "category_id": "science_technical_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "category_id": "science_technical_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "category_id": "science_technology_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "category_id": "science_technology_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "category_id": "science_technology_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "category_id": "science_technology_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "category_id": "science_technology_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "category_id": "science_technology_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "category_id": "science_technology_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "category_id": "science_technology_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "category_id": "science_technology_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "category_id": "science_technology_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "category_id": "tech_digital_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "category_id": "tech_digital_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "category_id": "tech_digital_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "category_id": "tech_digital_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "category_id": "tech_digital_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "category_id": "tech_digital_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "category_id": "tech_digital_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "category_id": "tech_digital_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "category_id": "tech_digital_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "category_id": "tech_digital_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "category_id": "tech_digital_skills",
+    "sort_order": 11
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "category_id": "tech_digital_skills",
+    "sort_order": 12
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "category_id": "tech_digital_skills",
+    "sort_order": 13
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "category_id": "tech_digital_skills",
+    "sort_order": 14
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "category_id": "tech_digital_skills",
+    "sort_order": 15
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "category_id": "technical_engineering",
+    "sort_order": 1
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "category_id": "technical_engineering",
+    "sort_order": 2
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "category_id": "technical_engineering",
+    "sort_order": 3
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "category_id": "technical_engineering",
+    "sort_order": 4
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "category_id": "technical_engineering",
+    "sort_order": 5
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "category_id": "technical_mechanical_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "category_id": "technical_mechanical_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "category_id": "technical_mechanical_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "category_id": "technical_mechanical_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "category_id": "technical_mechanical_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "category_id": "technical_mechanical_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "category_id": "technology_digital",
+    "sort_order": 1
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "category_id": "technology_digital",
+    "sort_order": 2
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "category_id": "technology_digital",
+    "sort_order": 3
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "category_id": "technology_digital",
+    "sort_order": 4
+  },
+  {
+    "id": "technology_digital_software_development",
+    "category_id": "technology_digital",
+    "sort_order": 5
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "category_id": "technology_digital_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "category_id": "technology_digital_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "category_id": "technology_digital_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "category_id": "technology_digital_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "category_id": "technology_digital_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "category_id": "technology_digital_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "category_id": "technology_digital_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "category_id": "technology_digital_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "category_id": "technology_digital_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "category_id": "technology_digital_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "category_id": "technology_digital_skills",
+    "sort_order": 11
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "category_id": "technology_digital_skills",
+    "sort_order": 12
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "category_id": "technology_digital_skills",
+    "sort_order": 13
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "category_id": "technology_digital_skills",
+    "sort_order": 14
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "category_id": "technology_digital_skills",
+    "sort_order": 15
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "category_id": "technology_digital_skills",
+    "sort_order": 16
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "category_id": "technology_digital_skills",
+    "sort_order": 17
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "category_id": "technology_digital_skills",
+    "sort_order": 18
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "category_id": "technology_digital_skills",
+    "sort_order": 19
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "category_id": "trade_craftsmanship_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "category_id": "trade_craftsmanship_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "category_id": "trade_craftsmanship_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "category_id": "trade_craftsmanship_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "category_id": "trade_craftsmanship_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "category_id": "trade_craftsmanship_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "category_id": "trades_craftsmanship",
+    "sort_order": 1
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "category_id": "trades_craftsmanship",
+    "sort_order": 2
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "category_id": "trades_craftsmanship",
+    "sort_order": 3
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "category_id": "trades_craftsmanship",
+    "sort_order": 4
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "category_id": "trades_craftsmanship",
+    "sort_order": 5
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "category_id": "trades_craftsmanship",
+    "sort_order": 6
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "category_id": "trades_craftsmanship",
+    "sort_order": 7
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "category_id": "trades_craftsmanship",
+    "sort_order": 8
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "category_id": "trades_craftsmanship",
+    "sort_order": 9
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "category_id": "trades_craftsmanship",
+    "sort_order": 10
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "category_id": "trades_manual_skills",
+    "sort_order": 1
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "category_id": "trades_manual_skills",
+    "sort_order": 2
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "category_id": "trades_manual_skills",
+    "sort_order": 3
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "category_id": "trades_manual_skills",
+    "sort_order": 4
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "category_id": "trades_manual_skills",
+    "sort_order": 5
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "category_id": "trades_manual_skills",
+    "sort_order": 6
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "category_id": "trades_manual_skills",
+    "sort_order": 7
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "category_id": "trades_manual_skills",
+    "sort_order": 8
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "category_id": "trades_manual_skills",
+    "sort_order": 9
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "category_id": "trades_manual_skills",
+    "sort_order": 10
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "category_id": "trades_manual_skills",
+    "sort_order": 11
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "category_id": "trades_manual_skills",
+    "sort_order": 12
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "category_id": "trades_manual_skills",
+    "sort_order": 13
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "category_id": "trades_manual_skills",
+    "sort_order": 14
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "category_id": "trades_manual_skills",
+    "sort_order": 15
+  },
+  {
+    "id": "trades_technical_automotive",
+    "category_id": "trades_technical",
+    "sort_order": 1
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "category_id": "trades_technical",
+    "sort_order": 2
+  },
+  {
+    "id": "trades_technical_construction",
+    "category_id": "trades_technical",
+    "sort_order": 3
+  },
+  {
+    "id": "trades_technical_electrical",
+    "category_id": "trades_technical",
+    "sort_order": 4
+  },
+  {
+    "id": "trades_technical_hvac",
+    "category_id": "trades_technical",
+    "sort_order": 5
+  },
+  {
+    "id": "trades_technical_masonry",
+    "category_id": "trades_technical",
+    "sort_order": 6
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "category_id": "trades_technical",
+    "sort_order": 7
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "category_id": "trades_technical",
+    "sort_order": 8
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "category_id": "trades_technical",
+    "sort_order": 9
+  },
+  {
+    "id": "trades_technical_welding",
+    "category_id": "trades_technical",
+    "sort_order": 10
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "category_id": "media_entertainment",
+    "sort_order": 1
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "category_id": "media_entertainment",
+    "sort_order": 2
+  },
+  {
+    "id": "media_entertainment_photography",
+    "category_id": "media_entertainment",
+    "sort_order": 3
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "category_id": "media_entertainment",
+    "sort_order": 4
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "category_id": "media_entertainment",
+    "sort_order": 5
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "category_id": "media_entertainment",
+    "sort_order": 6
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "category_id": "media_entertainment",
+    "sort_order": 7
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "category_id": "hobbies_recreation",
+    "sort_order": 1
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "category_id": "hobbies_recreation",
+    "sort_order": 2
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "category_id": "hobbies_recreation",
+    "sort_order": 3
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "category_id": "hobbies_recreation",
+    "sort_order": 4
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "category_id": "hobbies_recreation",
+    "sort_order": 5
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "category_id": "hobbies_recreation",
+    "sort_order": 6
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "category_id": "hobbies_recreation",
+    "sort_order": 7
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "category_id": "food_of_different_countries",
+    "sort_order": 1
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "category_id": "food_of_different_countries",
+    "sort_order": 2
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "category_id": "food_of_different_countries",
+    "sort_order": 3
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "category_id": "food_of_different_countries",
+    "sort_order": 4
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "category_id": "food_of_different_countries",
+    "sort_order": 5
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "category_id": "food_of_different_countries",
+    "sort_order": 6
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "category_id": "food_of_different_countries",
+    "sort_order": 7
+  }
+]

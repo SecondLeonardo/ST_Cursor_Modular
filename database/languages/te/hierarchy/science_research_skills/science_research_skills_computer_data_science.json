@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_computer_data_science",
+  "name": "కంప్యూటర్ & డేటా సైన్స్",
+  "skills": [
+    {
+      "id": "skill_4068",
+      "name": "పెద్ద డేటా సాధనాలు",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Tools",
+      "tags": [
+        "data",
+        "tools",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4069",
+      "name": "డేటా శుభ్రపరచడం",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4070",
+      "name": "డేటా నీతి",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Ethics",
+      "tags": [
+        "data",
+        "ethics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4071",
+      "name": "డేటా మైనింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Mining",
+      "tags": [
+        "data",
+        "mining",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4072",
+      "name": "డేటా గిడ్డంగి",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Warehousing",
+      "tags": [
+        "data",
+        "warehousing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4073",
+      "name": "డేటాబేస్ ప్రశ్న",
+      "difficulty_level": 2,
+      "description": "Learn and master Database Querying",
+      "tags": [
+        "database",
+        "querying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4074",
+      "name": "యంత్ర అభ్యాసం",
+      "difficulty_level": 5,
+      "description": "Learn and master Machine Learning",
+      "tags": [
+        "machine",
+        "learning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4075",
+      "name": "సహజ భాషా ప్రాసెసింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4076",
+      "name": "పైథాన్ ప్రోగ్రామింగ్",
+      "difficulty_level": 4,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4077",
+      "name": "గణాంక కంప్యూటింగ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Computing",
+      "tags": [
+        "statistical",
+        "computing",
+        "skill"
+      ]
+    }
+  ]
+}

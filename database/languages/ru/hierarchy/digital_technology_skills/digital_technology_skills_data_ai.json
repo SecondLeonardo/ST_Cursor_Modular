@@ -1,0 +1,118 @@
+{
+  "id": "digital_technology_skills_data_ai",
+  "name": "Данные и AI",
+  "skills": [
+    {
+      "id": "skill_2203",
+      "name": "Ай",
+      "difficulty_level": 2,
+      "description": "Learn and master AI Prompt Engineering",
+      "tags": [
+        "prompt",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2204",
+      "name": "Анализ данных с Excel",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Analysis with Excel",
+      "tags": [
+        "data",
+        "analysis",
+        "with",
+        "excel"
+      ]
+    },
+    {
+      "id": "skill_2205",
+      "name": "Методы очистки данных",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Cleaning Techniques",
+      "tags": [
+        "data",
+        "cleaning",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2206",
+      "name": "Визуализация данных с таблицей",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Visualization with Tableau",
+      "tags": [
+        "data",
+        "visualization",
+        "with",
+        "tableau"
+      ]
+    },
+    {
+      "id": "skill_2207",
+      "name": "Основы машинного обучения",
+      "difficulty_level": 5,
+      "description": "Learn and master Machine Learning Basics",
+      "tags": [
+        "machine",
+        "learning",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2208",
+      "name": "Обработка естественного языка",
+      "difficulty_level": 5,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_2209",
+      "name": "Панды для науки о данных",
+      "difficulty_level": 3,
+      "description": "Learn and master Pandas for Data Science",
+      "tags": [
+        "pandas",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_2210",
+      "name": "Python для науки о данных",
+      "difficulty_level": 3,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    },
+    {
+      "id": "skill_2211",
+      "name": "SQL для запросов данных",
+      "difficulty_level": 5,
+      "description": "Learn and master SQL for Data Queries",
+      "tags": [
+        "data",
+        "queries",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2212",
+      "name": "Статистика для ИИ",
+      "difficulty_level": 1,
+      "description": "Learn and master Statistics for AI",
+      "tags": [
+        "statistics",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "education_language_academic_tutoring",
+  "name": "అకాడెమిక్ ట్యూటరింగ్",
+  "skills": [
+    {
+      "id": "skill_2243",
+      "name": "బయాలజీ ట్యూటరింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Biology Tutoring",
+      "tags": [
+        "biology",
+        "tutoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2244",
+      "name": "కెమిస్ట్రీ ప్రాక్టీస్",
+      "difficulty_level": 1,
+      "description": "Learn and master Chemistry Practice",
+      "tags": [
+        "chemistry",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2245",
+      "name": "పౌర బోధన",
+      "difficulty_level": 2,
+      "description": "Learn and master Civics Teaching",
+      "tags": [
+        "civics",
+        "teaching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2246",
+      "name": "భౌగోళిక మద్దతు",
+      "difficulty_level": 3,
+      "description": "Learn and master Geography Support",
+      "tags": [
+        "geography",
+        "support",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2247",
+      "name": "చరిత్ర వివరణ",
+      "difficulty_level": 5,
+      "description": "Learn and master History Explanation",
+      "tags": [
+        "history",
+        "explanation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2248",
+      "name": "హోంవర్క్ సహాయం",
+      "difficulty_level": 2,
+      "description": "Learn and master Homework Assistance",
+      "tags": [
+        "homework",
+        "assistance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2249",
+      "name": "సాహిత్య విశ్లేషణ",
+      "difficulty_level": 4,
+      "description": "Learn and master Literature Analysis",
+      "tags": [
+        "literature",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2250",
+      "name": "గణిత ట్యూటరింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Math Tutoring",
+      "tags": [
+        "math",
+        "tutoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2251",
+      "name": "భౌతిక భావనలు",
+      "difficulty_level": 5,
+      "description": "Learn and master Physics Concepts",
+      "tags": [
+        "physics",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2252",
+      "name": "సైన్స్ సహాయం",
+      "difficulty_level": 2,
+      "description": "Learn and master Science Help",
+      "tags": [
+        "science",
+        "help",
+        "skill"
+      ]
+    }
+  ]
+}

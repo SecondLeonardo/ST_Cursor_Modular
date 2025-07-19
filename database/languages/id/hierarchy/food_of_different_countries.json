@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "Makanan di berbagai negara",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "Masakan Italia"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "Masakan Jepang"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "Masakan Meksiko"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "Masakan India"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "Masakan Prancis"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "Masakan Cina"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "Masakan Timur Tengah"
+    }
+  ]
+}

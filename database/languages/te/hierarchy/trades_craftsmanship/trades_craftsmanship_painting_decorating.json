@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_painting_decorating",
+  "name": "పెయింటింగ్ & డెకరేటింగ్",
+  "skills": [
+    {
+      "id": "skill_4995",
+      "name": "రంగు మిక్సింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4996",
+      "name": "అలంకార పద్ధతులు",
+      "difficulty_level": 3,
+      "description": "Learn and master Decorative Techniques",
+      "tags": [
+        "decorative",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4997",
+      "name": "బాహ్య పెయింటింగ్",
+      "difficulty_level": 2,
+      "description": "Learn and master Exterior Painting",
+      "tags": [
+        "exterior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4998",
+      "name": "ఫాక్స్ ఫినిషింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Faux Finishing",
+      "tags": [
+        "faux",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4999",
+      "name": "ఇంటీరియర్ పెయింటింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Interior Painting",
+      "tags": [
+        "interior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5000",
+      "name": "స్ప్రే పెయింటింగ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Spray Painting",
+      "tags": [
+        "spray",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5001",
+      "name": "ఉపరితల ప్రైమింగ్",
+      "difficulty_level": 3,
+      "description": "Learn and master Surface Priming",
+      "tags": [
+        "surface",
+        "priming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5002",
+      "name": "ట్రిమ్ పెయింటింగ్",
+      "difficulty_level": 5,
+      "description": "Learn and master Trim Painting",
+      "tags": [
+        "trim",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5003",
+      "name": "గోడ తయారీ",
+      "difficulty_level": 4,
+      "description": "Learn and master Wall Preparation",
+      "tags": [
+        "wall",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5004",
+      "name": "వాల్పేపర్ అప్లికేషన్",
+      "difficulty_level": 4,
+      "description": "Learn and master Wallpaper Application",
+      "tags": [
+        "wallpaper",
+        "application",
+        "skill"
+      ]
+    }
+  ]
+}

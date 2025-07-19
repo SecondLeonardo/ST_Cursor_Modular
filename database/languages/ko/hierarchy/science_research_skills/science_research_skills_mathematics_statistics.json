@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_mathematics_statistics",
+  "name": "수학 및 통계",
+  "skills": [
+    {
+      "id": "skill_4098",
+      "name": "베이지안 추론",
+      "difficulty_level": 1,
+      "description": "Learn and master Bayesian Inference",
+      "tags": [
+        "bayesian",
+        "inference",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4099",
+      "name": "계산법",
+      "difficulty_level": 1,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4100",
+      "name": "조합",
+      "difficulty_level": 4,
+      "description": "Learn and master Combinatorics",
+      "tags": [
+        "combinatorics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4101",
+      "name": "데이터 시각화",
+      "difficulty_level": 5,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4102",
+      "name": "선형 대수",
+      "difficulty_level": 4,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4103",
+      "name": "수학적 모델링",
+      "difficulty_level": 1,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4104",
+      "name": "숫자 이론",
+      "difficulty_level": 5,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4105",
+      "name": "확률 이론",
+      "difficulty_level": 4,
+      "description": "Learn and master Probability Theory",
+      "tags": [
+        "probability",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4106",
+      "name": "회귀 분석",
+      "difficulty_level": 1,
+      "description": "Learn and master Regression Analysis",
+      "tags": [
+        "regression",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4107",
+      "name": "통계 분석",
+      "difficulty_level": 4,
+      "description": "Learn and master Statistical Analysis",
+      "tags": [
+        "statistical",
+        "analysis",
+        "skill"
+      ]
+    }
+  ]
+}

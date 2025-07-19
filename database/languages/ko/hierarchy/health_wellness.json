@@ -1,0 +1,78 @@
+{
+  "id": "health_wellness",
+  "name": "건강 및 건강",
+  "subcategories": [
+    {
+      "id": "health_wellness_alternative_medicine",
+      "name": "대체 의학"
+    },
+    {
+      "id": "health_wellness_first_aid_emergency",
+      "name": "응급 처치 및 비상"
+    },
+    {
+      "id": "health_wellness_fitness_training",
+      "name": "피트니스 훈련"
+    },
+    {
+      "id": "health_wellness_holistic_health",
+      "name": "전체적인 건강"
+    },
+    {
+      "id": "health_wellness_medical_knowledge",
+      "name": "의학적 지식"
+    },
+    {
+      "id": "health_wellness_medical_skills",
+      "name": "의료 기술"
+    },
+    {
+      "id": "health_wellness_mental_health",
+      "name": "정신 건강"
+    },
+    {
+      "id": "health_wellness_mental_health_practices",
+      "name": "정신 건강 관행"
+    },
+    {
+      "id": "health_wellness_mindfulness_meditation",
+      "name": "마음 챙김 및 명상"
+    },
+    {
+      "id": "health_wellness_nutrition_diet",
+      "name": "영양 및 다이어트"
+    },
+    {
+      "id": "health_wellness_personal_care",
+      "name": "개인 관리"
+    },
+    {
+      "id": "health_wellness_physical_fitness",
+      "name": "체력"
+    },
+    {
+      "id": "health_wellness_rehabilitation_therapy",
+      "name": "재활 및 치료"
+    },
+    {
+      "id": "health_wellness_reproductive_health",
+      "name": "생식 건강"
+    },
+    {
+      "id": "health_wellness_self-care_hygiene",
+      "name": "자기 관리 및 위생"
+    },
+    {
+      "id": "health_wellness_sleep_recovery",
+      "name": "수면 및 회복"
+    },
+    {
+      "id": "health_wellness_stress_management",
+      "name": "스트레스 관리"
+    },
+    {
+      "id": "health_wellness_yoga_meditation",
+      "name": "요가 및 명상"
+    }
+  ]
+}

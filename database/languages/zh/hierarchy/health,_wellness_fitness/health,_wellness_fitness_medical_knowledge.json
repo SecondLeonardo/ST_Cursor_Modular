@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_medical_knowledge",
+  "name": "医学知识",
+  "skills": [
+    {
+      "id": "skill_2748",
+      "name": "解剖基础",
+      "difficulty_level": 4,
+      "description": "Learn and master Anatomy Fundamentals",
+      "tags": [
+        "anatomy",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2749",
+      "name": "基本急救",
+      "difficulty_level": 1,
+      "description": "Learn and master Basic First Aid",
+      "tags": [
+        "basic",
+        "first",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2750",
+      "name": "CPR培训",
+      "difficulty_level": 1,
+      "description": "Learn and master CPR Training",
+      "tags": [
+        "training",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2751",
+      "name": "常见疾病意识",
+      "difficulty_level": 3,
+      "description": "Learn and master Common Diseases Awareness",
+      "tags": [
+        "common",
+        "diseases",
+        "awareness"
+      ]
+    },
+    {
+      "id": "skill_2752",
+      "name": "紧急响应",
+      "difficulty_level": 2,
+      "description": "Learn and master Emergency Response",
+      "tags": [
+        "emergency",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2753",
+      "name": "医疗保健沟通",
+      "difficulty_level": 3,
+      "description": "Learn and master Healthcare Communication",
+      "tags": [
+        "healthcare",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2754",
+      "name": "医学术语",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Terminology",
+      "tags": [
+        "medical",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2755",
+      "name": "患者卫生",
+      "difficulty_level": 3,
+      "description": "Learn and master Patient Hygiene",
+      "tags": [
+        "patient",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2756",
+      "name": "生命线监测",
+      "difficulty_level": 2,
+      "description": "Learn and master Vitals Monitoring",
+      "tags": [
+        "vitals",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2757",
+      "name": "伤口护理",
+      "difficulty_level": 4,
+      "description": "Learn and master Wound Care",
+      "tags": [
+        "wound",
+        "care",
+        "skill"
+      ]
+    }
+  ]
+}

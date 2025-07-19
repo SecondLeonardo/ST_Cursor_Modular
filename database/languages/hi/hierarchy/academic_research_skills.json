@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "अकादमिक और अनुसंधान कौशल",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "शैक्षणिक प्रस्तुति"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "डेटा विश्लेषण"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "भाषा और लेखन"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "गणित और सांख्यिकी"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "वैज्ञानिक अनुसंधान"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "अध्ययन और परीक्षण प्रस्तुत करना"
+    }
+  ]
+}

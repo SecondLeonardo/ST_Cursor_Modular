@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_science_nature",
+  "name": "Wissenschaft und Natur",
+  "skills": [
+    {
+      "id": "skill_230",
+      "name": "Astronomie -Grundlagen",
+      "difficulty_level": 1,
+      "description": "Learn and master Astronomy Basics",
+      "tags": [
+        "astronomy",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_231",
+      "name": "Grundlegende Physikprinzipien",
+      "difficulty_level": 2,
+      "description": "Learn and master Basic Physics Principles",
+      "tags": [
+        "basic",
+        "physics",
+        "principles"
+      ]
+    },
+    {
+      "id": "skill_232",
+      "name": "Biologie -Terminologie",
+      "difficulty_level": 5,
+      "description": "Learn and master Biology Terminology",
+      "tags": [
+        "biology",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_233",
+      "name": "Botanik -Identifizierung",
+      "difficulty_level": 2,
+      "description": "Learn and master Botany Identification",
+      "tags": [
+        "botany",
+        "identification",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_234",
+      "name": "Sicherheit des Chemielabors",
+      "difficulty_level": 5,
+      "description": "Learn and master Chemistry Lab Safety",
+      "tags": [
+        "chemistry",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_235",
+      "name": "Einfache Experimente durchführen",
+      "difficulty_level": 3,
+      "description": "Learn and master Conducting Simple Experiments",
+      "tags": [
+        "conducting",
+        "simple",
+        "experiments"
+      ]
+    },
+    {
+      "id": "skill_236",
+      "name": "Erdwissenschaft",
+      "difficulty_level": 4,
+      "description": "Learn and master Earth Science",
+      "tags": [
+        "earth",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_237",
+      "name": "Ökologisches Bewusstsein",
+      "difficulty_level": 4,
+      "description": "Learn and master Ecological Awareness",
+      "tags": [
+        "ecological",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_238",
+      "name": "Lesen wissenschaftlicher Diagramme",
+      "difficulty_level": 3,
+      "description": "Learn and master Reading Scientific Graphs",
+      "tags": [
+        "reading",
+        "scientific",
+        "graphs"
+      ]
+    },
+    {
+      "id": "skill_239",
+      "name": "Wissenschaftliche Methode",
+      "difficulty_level": 3,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    }
+  ]
+}

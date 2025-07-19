@@ -1,0 +1,117 @@
+{
+  "id": "lifestyle_self-sufficiency_skills_survival_skills",
+  "name": "Überlebensfähigkeiten",
+  "skills": [
+    {
+      "id": "skill_3398",
+      "name": "Schutz schaffen",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Shelter",
+      "tags": [
+        "creating",
+        "shelter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3399",
+      "name": "Sicheres Trinkwasser finden",
+      "difficulty_level": 1,
+      "description": "Learn and master Finding Safe Drinking Water",
+      "tags": [
+        "finding",
+        "safe",
+        "drinking",
+        "water"
+      ]
+    },
+    {
+      "id": "skill_3400",
+      "name": "Feuergebäude",
+      "difficulty_level": 5,
+      "description": "Learn and master Fire Building",
+      "tags": [
+        "fire",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3401",
+      "name": "Erste -Hilfe -Grundlagen",
+      "difficulty_level": 4,
+      "description": "Learn and master First Aid Basics",
+      "tags": [
+        "first",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3402",
+      "name": "Identifizierung von essbaren Pflanzen",
+      "difficulty_level": 3,
+      "description": "Learn and master Identifying Edible Plants",
+      "tags": [
+        "identifying",
+        "edible",
+        "plants"
+      ]
+    },
+    {
+      "id": "skill_3403",
+      "name": "Navigation ohne GPS",
+      "difficulty_level": 5,
+      "description": "Learn and master Navigation Without GPS",
+      "tags": [
+        "navigation",
+        "without",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3404",
+      "name": "Einen Kompass lesen",
+      "difficulty_level": 5,
+      "description": "Learn and master Reading a Compass",
+      "tags": [
+        "reading",
+        "compass",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3405",
+      "name": "Hilfe signalisieren",
+      "difficulty_level": 1,
+      "description": "Learn and master Signaling for Help",
+      "tags": [
+        "signaling",
+        "help",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3406",
+      "name": "Knoten binden",
+      "difficulty_level": 4,
+      "description": "Learn and master Tying Knots",
+      "tags": [
+        "tying",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3407",
+      "name": "Wettervorhersagefähigkeiten",
+      "difficulty_level": 2,
+      "description": "Learn and master Weather Forecasting Skills",
+      "tags": [
+        "weather",
+        "forecasting",
+        "skills"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_electrical_work",
+  "name": "کار برقی",
+  "skills": [
+    {
+      "id": "skill_3428",
+      "name": "تنظیم پنل شکن",
+      "difficulty_level": 1,
+      "description": "Learn and master Breaker Panel Setup",
+      "tags": [
+        "breaker",
+        "panel",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_3429",
+      "name": "تست مدار",
+      "difficulty_level": 2,
+      "description": "Learn and master Circuit Testing",
+      "tags": [
+        "circuit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3430",
+      "name": "خم شدن مجرای",
+      "difficulty_level": 4,
+      "description": "Learn and master Conduit Bending",
+      "tags": [
+        "conduit",
+        "bending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3431",
+      "name": "سیم کشی اتوماسیون خانگی",
+      "difficulty_level": 3,
+      "description": "Learn and master Home Automation Wiring",
+      "tags": [
+        "home",
+        "automation",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_3432",
+      "name": "سیستم های روشنایی",
+      "difficulty_level": 2,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3433",
+      "name": "تعویض خروجی",
+      "difficulty_level": 1,
+      "description": "Learn and master Outlet Replacement",
+      "tags": [
+        "outlet",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3434",
+      "name": "تنظیم ردیاب دود",
+      "difficulty_level": 2,
+      "description": "Learn and master Smoke Detector Setup",
+      "tags": [
+        "smoke",
+        "detector",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_3435",
+      "name": "نصب پنل خورشیدی",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Installation",
+      "tags": [
+        "solar",
+        "panel",
+        "installation"
+      ]
+    },
+    {
+      "id": "skill_3436",
+      "name": "حفاظت",
+      "difficulty_level": 2,
+      "description": "Learn and master Surge Protection",
+      "tags": [
+        "surge",
+        "protection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3437",
+      "name": "نصب سیم کشی",
+      "difficulty_level": 3,
+      "description": "Learn and master Wiring Installation",
+      "tags": [
+        "wiring",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

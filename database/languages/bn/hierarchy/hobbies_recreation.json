@@ -1,0 +1,34 @@
+{
+  "id": "hobbies_recreation",
+  "name": "শখ এবং বিনোদন",
+  "subcategories": [
+    {
+      "id": "hobbies_recreation_arts_crafts",
+      "name": "আর্টস এবং কারুশিল্প"
+    },
+    {
+      "id": "hobbies_recreation_music_instruments",
+      "name": "সংগীত ও যন্ত্র"
+    },
+    {
+      "id": "hobbies_recreation_outdoor_activities",
+      "name": "বহিরঙ্গন কার্যক্রম"
+    },
+    {
+      "id": "hobbies_recreation_collecting",
+      "name": "সংগ্রহ"
+    },
+    {
+      "id": "hobbies_recreation_fitness_wellness",
+      "name": "ফিটনেস এবং সুস্থতা"
+    },
+    {
+      "id": "hobbies_recreation_gardening",
+      "name": "উদ্যান"
+    },
+    {
+      "id": "hobbies_recreation_diy_projects",
+      "name": "ডিআইওয়াই প্রকল্প"
+    }
+  ]
+}

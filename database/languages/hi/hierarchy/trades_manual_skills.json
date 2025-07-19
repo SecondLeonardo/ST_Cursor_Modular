@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "ट्रेड और मैनुअल कौशल",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "मोटर वाहन मरम्मत"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "बढ़ईगीरी और लकड़ी का काम"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "निर्माण"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "निर्माण और बढ़ईगीरी"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "शिल्पकारता और मरम्मत"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "विद्युत और यांत्रिक"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "बिजली का काम"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "एचवीएसी और प्रशीतन"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "भारी उपस्कर संचालन"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "चिनाई और टाइलिंग"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "धातु और लकड़ी का काम"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "पेंटिंग और परिष्करण"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "पाइपलाइन"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "वाहन और मशीन रखरखाव"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "वेल्डिंग और धातु -कार्य"
+    }
+  ]
+}

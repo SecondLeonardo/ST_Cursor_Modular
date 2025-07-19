@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "Ekonomika"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "Geografia"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "Historia"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "Język i językoznawstwo"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "Literatura"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "Matematyka"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "Filozofia"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "Psychologia"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "Nauka"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "Socjologia"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "Krytyczne myślenie"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "Historia i kultura"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "Historia i nauki społeczne"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "Język i językoznawstwo"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "Języki"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "Literatura i pisanie"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "Logika i rozumowanie"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "Matematyka"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "Filozofia i krytyczne myślenie"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "Wystąpienia publiczne i debata"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "Badania i analiza"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "Nauka"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "Nauka i natura"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "Techniki badań"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "Technologia i obliczenia"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "Prezentacja akademicka"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "Analiza danych"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "Język i pisanie"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "Matematyka i statystyki"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "Badania naukowe"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "Badania i przygotowanie do testu"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "Ożywienie"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "Rzemiosło i majsterkowanie"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "Kreatywne pisanie"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "Rysunek i ilustracja"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "Projekt mody"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "Malarstwo"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "Performing Arts"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "Rzeźba"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "Grafika animacji i ruchu"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "Rzemiosło i majsterkowanie"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "Rysunek i ilustracja"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "Sztuka mody i tekstylnych"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "Film i wideo"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "Malowanie i mieszane media"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "Performing Arts"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "Pisanie i literatura"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "Modelowanie 3D"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "Projekt architektury"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "Rzemieślnictwo"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "Moda i tekstylia"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "Film i wideo"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "Architektura wnętrz"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "Performing Arts"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "Sztuki wizualne"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "Kaligrafia"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "Rzemieślnictwo"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "Sztuka i animacja cyfrowa"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "Projekt mody"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "Ilustracja i rysunek"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "Architektura wnętrz"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "Sztuki tekstylne"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "Sztuki wizualne"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "Rzemiosło i majsterkowanie"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "Kreatywne pisanie"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "Projektowanie i sztuka cyfrowa"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "Performing Arts"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "Sztuki wizualne"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "Rachunkowość"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "Strategia biznesowa"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "Obsługa klienta"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "E-commerce"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "Przedsiębiorczość"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "Finanse"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "Finanse i rachunkowość"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "HR i rekrutacja"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "Zasoby ludzkie"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "Inwestycje i handel"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "Przywództwo i zarządzanie"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "Marketing i sprzedaż"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "Zarządzanie projektem"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "Sprzedaż i CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "Komunikacja biznesowa"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "Obsługa klienta"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "Przedsiębiorczość"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "Finanse i rachunkowość"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "Zasoby ludzkie"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "Przywództwo i zarządzanie"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "Legalna i zgodność"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "Marketing i branding"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "Wydajność biura"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "Zarządzanie projektem i czasem"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "Zarządzanie projektem"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "Sprzedaż i marketing"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "Sprzedaż i negocjacje"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "Krytyczne myślenie"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "Język i językoznawstwo"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "Matematyka i logika"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "Pamięć i skupienie"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "Nauka i badania"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "Umiejętności nauki i uczenia się"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "Koncentracja i skupienie"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "Krytyczne myślenie"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "Przetwarzanie informacji"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "Strategie uczenia się"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "Pamięć i retencja"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "Rozwiązywanie problemów"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "Języki obce"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "Umiejętności interpersonalne"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "Komunikacja niewerbalna"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "Prezentacja i opowiadanie historii"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "Wystąpienie publiczne"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "Pisanie i edycja"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "Rzemiosło i majsterkowanie"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "Kreatywne myślenie"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "Projektowanie i estetyka"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "Moda i stylizacja"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "Film i wideo"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "Projektowanie gier i budowanie światów"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "Muzyka i dźwięk"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "Muzyka"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "Produkcja muzyczna"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "Performing Arts"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "Fotografia i wideografia"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "Sztuki wizualne"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "Pisanie i literatura"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "Aktorstwo i wydajność"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "Ożywienie"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "Crafting & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "Rzemiosło i majsterkowanie"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "Rzemiosło i ręcznie robione sztuki"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "Technologia kreatywna"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "Kreatywne pisanie"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "Sztuka kulinarna"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "Projektowanie i estetyka"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "Rysunek i ilustracja"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "Moda i stylizacja"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "Sztuka mody i tekstyliów"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "Tworzenie filmów i wideo"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "Projekt wnętrz i kwiatowy"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "Muzyka i instrumenty"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "Tworzenie muzyki"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "Malarstwo"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "Malarstwo i sztuka"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "Performing Arts"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "Fotografia i wideografia"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "Rzeźba i sztuka 3D"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "Sztuki wizualne"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "Pisanie i opowiadanie historii"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D i animacja"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "UI/UX"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "Produkcja wideo"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "Kaligrafia i napis ręczny"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "Crafting & DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "Kreatywne pisanie"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "Rysunek i ilustracja"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "Tworzenie biżuterii"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "Malarstwo"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "Notatnik i kolaż"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "Rzeźba i glina"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "Tekstylia i sztuka światłowodowa"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "Rzemiosło i majsterkowanie"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "Sztuka cyfrowa i animacja"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "Wnętrza i moda"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "Sztuki wizualne"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "Starożytne języki"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "Świadomość kulturowa"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "Coaching dialektów"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "Komunikacja międzykulturowa"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "Techniki uczenia się języka"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "Języki"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "Językoznawstwo"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "Języki migowe"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "Tłumaczenie i interpretacja"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "Systemy pisania"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "Modelowanie i animacja 3D"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "Branding i tożsamość"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "Ilustracja"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "Projekt UX/UI"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D i animacja"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "Tworzenie treści"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "Marketing cyfrowy"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "Media społecznościowe"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "Streaming & Broadcasting"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "Projekt UI/UX"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "Produkcja wideo"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "Projektowanie sieci i aplikacji"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "Cyberbezpieczeństwo"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "Dane i AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "IT i sieci"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "Programowanie i rozwój"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "Internet i telefon komórkowy"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "Korepetycje akademickie"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "Edukacja we wczesnym dzieciństwie"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "Szkolnictwo wyższe"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "Nauczanie języka"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "Języki"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "Technologie uczenia się"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "Umiejętność czytania i pisania"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "Edukacja specjalna"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "Umiejętności nauki"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "Test Prep"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "Automotive & Transportation"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "Inżynieria lądowa"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "Inżynieria elektryczna"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "Systemy energii i zasilania"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC i systemy"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "Projekt przemysłowy"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "Produkcja i produkcja"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "Inżynieria mechaniczna"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "Robotyka i automatyzacja"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "Projekt konstrukcyjny"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "Opieka nad ciałem i dobre samopoczucie"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "Pierwsza pomoc i bezpieczeństwo"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "Zdrowie psychiczne"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "Odżywianie i dieta"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "Trening fizyczny"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "Medycyna alternatywna"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "Pierwsza pomoc i awaria"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "Trening fitness"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "Holistyczne zdrowie"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "Wiedza medyczna"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "Umiejętności medyczne"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "Zdrowie psychiczne"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "Praktyki zdrowia psychicznego"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "Uważność i medytacja"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "Odżywianie i dieta"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "Habition"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "Sprawność fizyczna"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "Rehabilitacja i terapia"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "Zdrowie reprodukcyjne"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "Self-Care & Higiene"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "Sen i powrót do zdrowia"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "Zarządzanie stresem"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "Joga i medytacja"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "Trening fitness"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "Odżywianie"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "Outdoor i przygoda"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "Umiejętności sportowe"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "Wellness & Recovery"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "Medycyna alternatywna"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "Wiedza medyczna"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "Zdrowie psychiczne"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "Odżywianie"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "Szkolenie osobiste"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "Sprawność fizyczna"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "Rehabilitacja i terapia"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "Coaching sportowy"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "Coaching Wellness"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "Joga i uważność"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "Konserwacja urządzeń"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "Czyszczenie i organizowanie"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "Rzemiosła i wystrój"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "Praca elektryczna"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "Ogrodnictwo i kształtowanie krajobrazu"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "Automatyzacja domu"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "Naprawa domu"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "Architektura wnętrz"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "Podstawy hydrauliczne"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "Obróbka drewna i stolarka"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "Budżetowanie i finanse gospodarstw domowych"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "Opieka nad dziećmi"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "Gotowanie i przygotowanie posiłków"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "Zakupy spożywcze"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "Czyszczenie domu"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "Konserwacja domu"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "Opieka pralni i odzieży"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "Organizowanie i odrzucanie"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "Opieka zwierząt domowych"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "Zarządzanie czasem"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "Komunikacja międzykulturowa"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "Języki obce"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "Słuchanie i zrozumienie"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "Tłumaczenie i interpretacja"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "Umiejętności pisania"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "Uczenie się języka"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "Komunikacja niewerbalna"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "Wystąpienie publiczne"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "Opowiadanie i narracja"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "Komunikacja werbalna"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "Pisanie i edycja"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "Uczenie się języka"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "Matematyka"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "Nauka i badania"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "Techniki badań"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "Przygotowanie testu"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "Korepetycje akademickie"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "Narzędzia edukacyjne i umiejętności"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "Uczenie się języka"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "Uczenie się przez całe życie"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "Przygotowanie testu"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "Gotowanie i jedzenie"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "Konserwacja domu"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "Finanse osobiste"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "Zarządzanie czasem"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "Podróż i nawigacja"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "Komunikacja i relacje"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "Inteligencja emocjonalna"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "Odporność i wzrost"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "Samodyscyplina"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "Zarządzanie czasem i celami"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "Gotowanie i przygotowanie do jedzenia"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY i naprawy"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "Ogrodnictwo i zrównoważony rozwój"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "Zarządzanie domem"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "Finanse osobiste"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "Umiejętności przetrwania"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "Naprawa samochodowa"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "Transakcje budowlane"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "Praca elektryczna"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "Meble i tapicerka"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "Mistrzostwo narzędzia ręcznego"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "Renowacja domu"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "Obróbka metali"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "Handlowe i ogrzewanie"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "Tekstylia i skóra"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "Obróbka drewna"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "Konserwacja motoryzacyjna"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "Podstawy inżynieryjne"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "Naprawa i instalacja domu"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "Działanie maszyny"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "Używanie narzędzia i bezpieczeństwo"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "Praca drewna i metalu"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "Krytyczne myślenie"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "Geografia i środowisko"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "Historia i kultura"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "Języki"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "Matematyka"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "Umiejętności pamięci i uczenia się"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "Filozofia i etyka"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "Psychologia i zachowanie"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "Nauka i badania"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "Techniki badań"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "Elastyczność poznawcza"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "Krytyczne myślenie"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "Uczenie się języka"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "Pamięć i skupienie"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "Umiejętności nauki"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "Zaufanie i samoocena"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "Inteligencja emocjonalna"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "Ustanowienie i planowanie celów"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "Nawyki i dyscyplina"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "Umiejętności interpersonalne"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "Przywództwo i wpływ"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "Uważność i dobre samopoczucie"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "Wystąpienie publiczne"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "Autorefleksja"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "Czas i produktywność"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "Przywództwo"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "Mental Wellness"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "Wydajność"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "Wystąpienie publiczne"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "Samodoskonalenie"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "Inteligencja emocjonalna"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "Ustanowienie i osiągnięcie celów"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "Nawyki i wydajność"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "Uważność i dobre samopoczucie"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "Wystąpienia publiczne i komunikacja"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "Samodyscyplina i skupienie"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "Fitness i kondycja"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "Partia Pracy Ręczysta i transakcje"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "Rekreacja na świeżym powietrzu"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "Samoobrona i sztuki walki"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "Sport i lekkoatletyka"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "Survival & Bushcraft"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "Fitness i siła"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "Indywidualne sporty"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "Sztuki walki"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "Outdoor i przygoda"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "Zajęcia rekreacyjne"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "Sporty zespołowe"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "Pismo akademickie"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "Nauki biologiczne"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "Nauka komputerowa i danych"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "Nauk o ziemi i środowiska"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "Nauki inżynieryjne"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "Matematyka i statystyki"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "Nauk o medycynie i zdrowia"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "Nauki fizyczne"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "Metody badawcze"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "Nauki społeczne"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "Astronomia"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "Biologia i nauki o życiu"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "Chemia"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "Informatyka"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "Data Science & AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "Nauk o ziemi i środowiska"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "Dyscypliny inżynierskie"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "Matematyka i statystyki"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "Fizyka i mechanika"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "Robotyka i automatyzacja"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "Astronomia"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "Biotechnologia"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "Chemia"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "Informatyka"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "Data Science & AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "Nauka o ziemi i środowiska"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "Elektronika"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "Inżynieria"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "Matematyka i statystyki"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "Fizyka"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI i uczenie maszynowe"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "Przetwarzanie w chmurze"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "Cyberbezpieczeństwo"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "Dane i analityka"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "Data Science & AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps & Automation"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "Rozwój gry"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "IT i sieci"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "Wsparcie i tworzenie sieci"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "Opracowywanie aplikacji mobilnych"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "Programowanie i tworzenie oprogramowania"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "Rozwój oprogramowania"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "Sprzęt i naprawa technologiczna"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "Wsparcie techniczne i rozwiązywanie problemów"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "Opracowywanie stron internetowych"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "Civil & Structural"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "Inżynieria elektryczna"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "Produkcja i wytwarzanie"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "Inżynieria mechaniczna"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "Oprogramowanie i systemy"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "Umiejętności motoryzacyjne"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "Budowa i budynek"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "Praca elektryczna"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "Energia i środowisko"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "Umiejętności przemysłowe"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "Naprawy mechaniczne"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "Cyberbezpieczeństwo"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "Dane i AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "Marketing cyfrowy"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "IT i sieci"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "Rozwój oprogramowania"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "Sztuczna inteligencja"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "Przetwarzanie w chmurze"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "Podstawy komputerowe"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "Cyberbezpieczeństwo"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "Dane i AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "Dane i analityka"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "Literactwo cyfrowe"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "Marketing cyfrowy"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "Pojawiająca się technologia"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "Sprzęt i elektronika"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "IT i sieci"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "Networking i IT"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "Programowanie i rozwój"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "Programowanie i tworzenie oprogramowania"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "Narzędzia programowe"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "Wydajność technologii"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "Wsparcie techniczne i konserwacja"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "Wsparcie techniczne i rozwiązywanie problemów"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "Opracowywanie sieci i aplikacji"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "Konstrukcja i stolarka"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "Elektryczna i hydrauliczna"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "Ręcznie robione towary"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "Metalowanie i spawanie"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "Tekstylia i skóra"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "Tradycyjne rzemiosła"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "Naprawa samochodowa"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "Stolarka i obróbka drewna"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "Konstrukcja i mur"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "Praca elektryczna"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC i chłodzenie"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "Tworzenie biżuterii"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "Metalowanie i spawanie"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "Malowanie i dekorowanie"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "Instalacja wodociągowa"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "Dostosowanie i szycie"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "Naprawa samochodowa"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "Stolarka i stolarka"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "Budowa"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "Konstrukcja i stolarka"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "Rzućty i naprawy"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "Elektryczne i mechaniczne"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "Praca elektryczna"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC i chłodzenie"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "Ciężkie działanie sprzętu"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "Mur i płytki"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "Metal i stolarka"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "Malowanie i wykończenie"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "Instalacja wodociągowa"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "Konserwacja pojazdu i maszyny"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "Spawanie i metalowe"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "Automobilowy"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "Stolarstwo"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "Budowa"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "Elektryczny"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "HVAC"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "Kamieniarstwo"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "Mechaniczny"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "Malowanie i dekorowanie"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "Instalacja wodociągowa"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "Spawalniczy"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "Produkcja wideo"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "Produkcja dźwięku"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "Fotografia"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "Projekt graficzny"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "Aktorstwo i wydajność"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "Pisanie i pisanie scenariuszy"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "Nadawczy"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "Sztuka i rzemiosło"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "Muzyka i instrumenty"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "Zajęcia na świeżym powietrzu"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "Zbieranie"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "Fitness i Wellness"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "Ogrodnictwo"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "Projekty DIY"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "Kuchnia włoska"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "Kuchnia japońska"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "Kuchnia meksykańska"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "Kuchnia indyjska"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "Kuchnia francuska"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "Kuchnia chińska"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "Kuchnia Bliskiego Wschodu"
+  }
+]

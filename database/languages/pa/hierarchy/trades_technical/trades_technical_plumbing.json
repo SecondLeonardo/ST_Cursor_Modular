@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_plumbing",
+  "name": "ਪਲੰਬਿੰਗ",
+  "skills": [
+    {
+      "id": "skill_5255",
+      "name": "ਬੈਕਫਲੋ ਰੋਕਥਾਮ",
+      "difficulty_level": 4,
+      "description": "Learn and master Backflow Prevention",
+      "tags": [
+        "backflow",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5256",
+      "name": "ਡਰੇਨੇਜ ਸਿਸਟਮ",
+      "difficulty_level": 5,
+      "description": "Learn and master Drainage Systems",
+      "tags": [
+        "drainage",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5257",
+      "name": "ਫਿਕਸਡ ਇੰਸਟਾਲੇਸ਼ਨ",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixture Installation",
+      "tags": [
+        "fixture",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5258",
+      "name": "ਗੈਸ ਲਾਈਨ ਇੰਸਟਾਲੇਸ਼ਨ",
+      "difficulty_level": 5,
+      "description": "Learn and master Gas Line Installation",
+      "tags": [
+        "line",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5259",
+      "name": "ਲੀਕ ਖੋਜ",
+      "difficulty_level": 3,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5260",
+      "name": "ਪਾਈਪਫਿਟਿੰਗ",
+      "difficulty_level": 1,
+      "description": "Learn and master Pipefitting",
+      "tags": [
+        "pipefitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5261",
+      "name": "ਪਲੰਬਿੰਗ ਕੋਡ",
+      "difficulty_level": 2,
+      "description": "Learn and master Plumbing Codes",
+      "tags": [
+        "plumbing",
+        "codes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5262",
+      "name": "ਸੀਵਰੇਜ ਲਾਈਨ ਦੀ ਦੇਖਭਾਲ",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewer Line Maintenance",
+      "tags": [
+        "sewer",
+        "line",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "skill_5263",
+      "name": "ਟਾਇਲਟ ਇੰਸਟਾਲੇਸ਼ਨ",
+      "difficulty_level": 5,
+      "description": "Learn and master Toilet Installation",
+      "tags": [
+        "toilet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5264",
+      "name": "ਵਾਟਰ ਹੀਟਰ ਦੀ ਮੁਰੰਮਤ",
+      "difficulty_level": 4,
+      "description": "Learn and master Water Heater Repair",
+      "tags": [
+        "water",
+        "heater",
+        "repair"
+      ]
+    }
+  ]
+}

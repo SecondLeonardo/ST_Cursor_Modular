@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_photography",
+  "name": "사진술",
+  "skills": [
+    {
+      "id": "skill_500",
+      "name": "흑백 사진",
+      "difficulty_level": 4,
+      "description": "Learn and master Black & White Photography",
+      "tags": [
+        "black",
+        "white",
+        "photography"
+      ]
+    },
+    {
+      "id": "skill_501",
+      "name": "카메라 설정 숙달",
+      "difficulty_level": 1,
+      "description": "Learn and master Camera Settings Mastery",
+      "tags": [
+        "camera",
+        "settings",
+        "mastery"
+      ]
+    },
+    {
+      "id": "skill_502",
+      "name": "구성 및 프레임",
+      "difficulty_level": 2,
+      "description": "Learn and master Composition & Framing",
+      "tags": [
+        "composition",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_503",
+      "name": "풍경 사진",
+      "difficulty_level": 4,
+      "description": "Learn and master Landscape Photography",
+      "tags": [
+        "landscape",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_504",
+      "name": "조명 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Lighting Techniques",
+      "tags": [
+        "lighting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_505",
+      "name": "사진 편집",
+      "difficulty_level": 1,
+      "description": "Learn and master Photo Editing",
+      "tags": [
+        "photo",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_506",
+      "name": "초상화 사진",
+      "difficulty_level": 3,
+      "description": "Learn and master Portrait Photography",
+      "tags": [
+        "portrait",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_507",
+      "name": "제품 사진",
+      "difficulty_level": 2,
+      "description": "Learn and master Product Photography",
+      "tags": [
+        "product",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_508",
+      "name": "거리 사진",
+      "difficulty_level": 3,
+      "description": "Learn and master Street Photography",
+      "tags": [
+        "street",
+        "photography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_509",
+      "name": "웨딩 사진",
+      "difficulty_level": 2,
+      "description": "Learn and master Wedding Photography",
+      "tags": [
+        "wedding",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

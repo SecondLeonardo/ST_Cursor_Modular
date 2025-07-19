@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_construction_carpentry",
+  "name": "निर्माण और बढ़ईगीरी",
+  "skills": [
+    {
+      "id": "skill_4865",
+      "name": "ब्लूप्रिंट रीडिंग",
+      "difficulty_level": 1,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4866",
+      "name": "ठोस मिश्रण",
+      "difficulty_level": 2,
+      "description": "Learn and master Concrete Mixing",
+      "tags": [
+        "concrete",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4867",
+      "name": "ड्राईवॉल इंस्टॉलेशन",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4868",
+      "name": "फ्रेमिंग दीवारें",
+      "difficulty_level": 3,
+      "description": "Learn and master Framing Walls",
+      "tags": [
+        "framing",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4869",
+      "name": "ट्रिम स्थापित करना",
+      "difficulty_level": 2,
+      "description": "Learn and master Installing Trim",
+      "tags": [
+        "installing",
+        "trim",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4870",
+      "name": "मापने और काटने की लंबाई",
+      "difficulty_level": 3,
+      "description": "Learn and master Measuring and Cutting Lumber",
+      "tags": [
+        "measuring",
+        "cutting",
+        "lumber"
+      ]
+    },
+    {
+      "id": "skill_4871",
+      "name": "छत निर्माण मूल बातें",
+      "difficulty_level": 1,
+      "description": "Learn and master Roof Construction Basics",
+      "tags": [
+        "roof",
+        "construction",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4872",
+      "name": "सीढ़ी निर्माण",
+      "difficulty_level": 4,
+      "description": "Learn and master Stair Building",
+      "tags": [
+        "stair",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4873",
+      "name": "एक नेल गन का उपयोग करना",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Nail Gun",
+      "tags": [
+        "using",
+        "nail",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4874",
+      "name": "खिड़की के फ्रेमिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Framing",
+      "tags": [
+        "window",
+        "framing",
+        "skill"
+      ]
+    }
+  ]
+}

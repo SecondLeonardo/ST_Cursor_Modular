@@ -1,0 +1,34 @@
+{
+  "id": "hobbies_recreation",
+  "name": "Hobbies e recreação",
+  "subcategories": [
+    {
+      "id": "hobbies_recreation_arts_crafts",
+      "name": "Artes e artesanato"
+    },
+    {
+      "id": "hobbies_recreation_music_instruments",
+      "name": "Música e instrumentos"
+    },
+    {
+      "id": "hobbies_recreation_outdoor_activities",
+      "name": "Atividades ao ar livre"
+    },
+    {
+      "id": "hobbies_recreation_collecting",
+      "name": "Coleta"
+    },
+    {
+      "id": "hobbies_recreation_fitness_wellness",
+      "name": "Fitness & Wellness"
+    },
+    {
+      "id": "hobbies_recreation_gardening",
+      "name": "Jardinagem"
+    },
+    {
+      "id": "hobbies_recreation_diy_projects",
+      "name": "Projetos de bricolage"
+    }
+  ]
+}

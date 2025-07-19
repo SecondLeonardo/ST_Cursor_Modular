@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_mental_health",
+  "name": "الصحة العقلية",
+  "skills": [
+    {
+      "id": "skill_2553",
+      "name": "مهارات التعامل مع القلق",
+      "difficulty_level": 2,
+      "description": "Learn and master Anxiety Coping Skills",
+      "tags": [
+        "anxiety",
+        "coping",
+        "skills"
+      ]
+    },
+    {
+      "id": "skill_2554",
+      "name": "التقنيات السلوكية المعرفية",
+      "difficulty_level": 2,
+      "description": "Learn and master Cognitive Behavioral Techniques",
+      "tags": [
+        "cognitive",
+        "behavioral",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_2555",
+      "name": "تخطيط الأزمات",
+      "difficulty_level": 4,
+      "description": "Learn and master Crisis Planning",
+      "tags": [
+        "crisis",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2556",
+      "name": "إدارة الاكتئاب",
+      "difficulty_level": 2,
+      "description": "Learn and master Depression Management",
+      "tags": [
+        "depression",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2557",
+      "name": "التنظيم العاطفي",
+      "difficulty_level": 3,
+      "description": "Learn and master Emotional Regulation",
+      "tags": [
+        "emotional",
+        "regulation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2558",
+      "name": "صحيفة الصحة العقلية",
+      "difficulty_level": 3,
+      "description": "Learn and master Mental Health Journaling",
+      "tags": [
+        "mental",
+        "health",
+        "journaling"
+      ]
+    },
+    {
+      "id": "skill_2559",
+      "name": "تحول العقلية",
+      "difficulty_level": 3,
+      "description": "Learn and master Mindset Shifting",
+      "tags": [
+        "mindset",
+        "shifting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2560",
+      "name": "ممارسة الوعي الذاتي",
+      "difficulty_level": 1,
+      "description": "Learn and master Self-awareness Practice",
+      "tags": [
+        "self-awareness",
+        "practice",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2561",
+      "name": "تيسير مجموعة الدعم",
+      "difficulty_level": 3,
+      "description": "Learn and master Support Group Facilitation",
+      "tags": [
+        "support",
+        "group",
+        "facilitation"
+      ]
+    },
+    {
+      "id": "skill_2562",
+      "name": "أدوات العلاج",
+      "difficulty_level": 2,
+      "description": "Learn and master Therapy Tools",
+      "tags": [
+        "therapy",
+        "tools",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_reproductive_health",
+  "name": "Sức khỏe sinh sản",
+  "skills": [
+    {
+      "id": "skill_2629",
+      "name": "Phương pháp kiểm soát sinh sản",
+      "difficulty_level": 1,
+      "description": "Learn and master Birth Control Methods",
+      "tags": [
+        "birth",
+        "control",
+        "methods"
+      ]
+    },
+    {
+      "id": "skill_2630",
+      "name": "Nhận thức về khả năng sinh sản",
+      "difficulty_level": 3,
+      "description": "Learn and master Fertility Awareness",
+      "tags": [
+        "fertility",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2631",
+      "name": "Nhận thức về nội tiết tố",
+      "difficulty_level": 4,
+      "description": "Learn and master Hormonal Awareness",
+      "tags": [
+        "hormonal",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2632",
+      "name": "Giao tiếp thân mật",
+      "difficulty_level": 3,
+      "description": "Learn and master Intimacy Communication",
+      "tags": [
+        "intimacy",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2633",
+      "name": "Theo dõi chu kỳ kinh nguyệt",
+      "difficulty_level": 3,
+      "description": "Learn and master Menstrual Cycle Tracking",
+      "tags": [
+        "menstrual",
+        "cycle",
+        "tracking"
+      ]
+    },
+    {
+      "id": "skill_2634",
+      "name": "Những điều cơ bản về chăm sóc mang thai",
+      "difficulty_level": 5,
+      "description": "Learn and master Pregnancy Care Basics",
+      "tags": [
+        "pregnancy",
+        "care",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2635",
+      "name": "Bài tập trước khi sinh",
+      "difficulty_level": 3,
+      "description": "Learn and master Prenatal Exercises",
+      "tags": [
+        "prenatal",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2636",
+      "name": "Phòng ngừa STD",
+      "difficulty_level": 3,
+      "description": "Learn and master STD Prevention",
+      "tags": [
+        "prevention",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2637",
+      "name": "Giáo dục thực hành an toàn",
+      "difficulty_level": 4,
+      "description": "Learn and master Safe Practices Education",
+      "tags": [
+        "safe",
+        "practices",
+        "education"
+      ]
+    },
+    {
+      "id": "skill_2638",
+      "name": "Thực hành sức khỏe tình dục",
+      "difficulty_level": 2,
+      "description": "Learn and master Sexual Health Practices",
+      "tags": [
+        "sexual",
+        "health",
+        "practices"
+      ]
+    }
+  ]
+}

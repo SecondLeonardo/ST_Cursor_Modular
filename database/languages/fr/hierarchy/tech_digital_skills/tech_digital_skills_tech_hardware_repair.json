@@ -1,0 +1,116 @@
+{
+  "id": "tech_digital_skills_tech_hardware_repair",
+  "name": "Matériel technologique et réparation",
+  "skills": [
+    {
+      "id": "skill_4476",
+      "name": "Configuration du BIOS",
+      "difficulty_level": 3,
+      "description": "Learn and master BIOS Configuration",
+      "tags": [
+        "bios",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4477",
+      "name": "Remplacement de la batterie",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4478",
+      "name": "Gestion du câble",
+      "difficulty_level": 2,
+      "description": "Learn and master Cable Management",
+      "tags": [
+        "cable",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4479",
+      "name": "Assemblage informatique",
+      "difficulty_level": 1,
+      "description": "Learn and master Computer Assembly",
+      "tags": [
+        "computer",
+        "assembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4480",
+      "name": "Réparation d'affichage",
+      "difficulty_level": 5,
+      "description": "Learn and master Display Repair",
+      "tags": [
+        "display",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4481",
+      "name": "Clonage du disque dur",
+      "difficulty_level": 2,
+      "description": "Learn and master Hard Drive Cloning",
+      "tags": [
+        "hard",
+        "drive",
+        "cloning"
+      ]
+    },
+    {
+      "id": "skill_4482",
+      "name": "Démontage des ordinateurs portables",
+      "difficulty_level": 1,
+      "description": "Learn and master Laptop Disassembly",
+      "tags": [
+        "laptop",
+        "disassembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4483",
+      "name": "Diagnostic de carte mère",
+      "difficulty_level": 1,
+      "description": "Learn and master Motherboard Diagnostics",
+      "tags": [
+        "motherboard",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4484",
+      "name": "Tests périphériques",
+      "difficulty_level": 3,
+      "description": "Learn and master Peripheral Testing",
+      "tags": [
+        "peripheral",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4485",
+      "name": "Application de pâte thermique",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermal Paste Application",
+      "tags": [
+        "thermal",
+        "paste",
+        "application"
+      ]
+    }
+  ]
+}

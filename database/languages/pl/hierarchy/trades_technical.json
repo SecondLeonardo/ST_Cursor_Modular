@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "Trade i techniczne",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "Automobilowy"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "Stolarstwo"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "Budowa"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "Elektryczny"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "HVAC"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "Kamieniarstwo"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "Mechaniczny"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "Malowanie i dekorowanie"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "Instalacja wodociągowa"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "Spawalniczy"
+    }
+  ]
+}

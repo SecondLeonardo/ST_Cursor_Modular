@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "Ekonomi"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "Geografi"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "Sejarah"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "Bahasa & Linguistik"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "Literatur"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "Matematika"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "Filsafat"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "Psikologi"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "Sains"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "Sosiologi"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "Pemikiran kritis"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "Sejarah & Budaya"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "Sejarah & Ilmu Sosial"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "Bahasa & Linguistik"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "Bahasa"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "Sastra & Menulis"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "Logika & Penalaran"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "Matematika"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "Filsafat & Pemikiran Kritis"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "Berbicara di depan umum & debat"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "Penelitian & Analisis"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "Sains"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "Sains & Alam"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "Teknik belajar"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "Teknologi & Komputasi"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "Presentasi Akademik"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "Analisis Data"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "Bahasa & Menulis"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "Matematika & Statistik"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "Riset ilmiah"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "Studi & Persiapan Tes"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "Animasi"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "Kerajinan & DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "Menulis kreatif"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "Menggambar & Ilustrasi"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "Desain mode"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "Lukisan"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "Pentas seni"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "Patung"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "Grafik Animasi & Gerak"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "Kerajinan & DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "Menggambar & Ilustrasi"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "Fashion & Tekstil Seni"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "Film & Video"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "Lukisan & Media Campuran"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "Pentas seni"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "Menulis & Sastra"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "Pemodelan 3D"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "Desain Arsitektur"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "Kerajinan"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "Fashion & Tekstil"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "Film & Video"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "Desain Interior"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "Pentas seni"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "Seni Visual"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "Kaligrafi"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "Kerajinan"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "Seni Digital & Animasi"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "Desain mode"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "Ilustrasi & Gambar"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "Desain Interior"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "Seni Tekstil"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "Seni Visual"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "Kerajinan & DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "Menulis kreatif"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "Desain & Seni Digital"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "Pentas seni"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "Seni Visual"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "Akuntansi"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "Strategi bisnis"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "Dukungan pelanggan"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "E-commerce"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "Kewiraswastaan"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "Keuangan"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "Keuangan & Akuntansi"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "SDM & perekrutan"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "Sumber daya manusia"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "Investasi & Perdagangan"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "Kepemimpinan & Manajemen"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "Pemasaran & Penjualan"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "Manajemen Proyek"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "Penjualan & CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "Komunikasi Bisnis"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "Pelayanan pelanggan"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "Kewiraswastaan"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "Keuangan & Akuntansi"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "Sumber daya manusia"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "Kepemimpinan & Manajemen"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "Hukum & Kepatuhan"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "Pemasaran & Branding"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "Produktivitas kantor"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "Proyek & Manajemen Waktu"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "Manajemen Proyek"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "Penjualan & Pemasaran"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "Penjualan & Negosiasi"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "Pemikiran kritis"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "Bahasa & Linguistik"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "Matematika & Logika"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "Memori & Fokus"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "Sains & Penelitian"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "Keterampilan belajar & belajar"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "Konsentrasi & fokus"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "Pemikiran kritis"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "Pemrosesan Informasi"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "Strategi pembelajaran"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "Memori & retensi"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "Pemecahan masalah"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "Bahasa asing"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "Keterampilan interpersonal"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "Komunikasi nonverbal"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "Presentasi & Bercerita"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "Berbicara di depan umum"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "Menulis & Editing"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "Kerajinan & DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "Pemikiran kreatif"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "Desain & Estetika"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "Fashion & Styling"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "Film & Video"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "Desain Game & Pembangunan Dunia"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "Musik & suara"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "Pertunjukan musik"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "Produksi musik"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "Pentas seni"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "Fotografi & Videografi"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "Seni Visual"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "Menulis & Sastra"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "Akting & kinerja"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "Animasi"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "Kerajinan & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "Kerajinan & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "Kerajinan & Seni Tangan"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "Teknologi Kreatif"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "Menulis kreatif"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "Seni Kuliner"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "Desain & Estetika"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "Menggambar & Ilustrasi"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "Fashion & Styling"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "Fashion & Seni Tekstil"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "Pembuatan Film & Video"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "Desain Interior & Bunga"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "Musik & Instrumen"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "Penciptaan musik"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "Lukisan"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "Lukisan & Seni Rupa"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "Pentas seni"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "Fotografi & Videografi"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "Patung & Seni 3D"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "Seni Visual"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "Menulis & Bercerita"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3D & Animasi"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "Ui/ux"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "Produksi video"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "Kaligrafi & huruf tangan"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "Kerajinan & DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "Menulis kreatif"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "Menggambar & Ilustrasi"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "Pembuatan perhiasan"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "Lukisan"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "Scrapbooking & Collage"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "Patung & tanah liat"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "Tekstil & Seni Serat"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "Kerajinan & DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "Seni Digital & Animasi"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "Interior & Fashion"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "Seni Visual"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "Bahasa kuno"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "Kesadaran budaya"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "Pelatihan dialek"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "Komunikasi antar budaya"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "Teknik Pembelajaran Bahasa"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "Bahasa"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "Ilmu bahasa"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "Bahasa isyarat"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "Terjemahan & interpretasi"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "Sistem Penulisan"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "Pemodelan & Animasi 3D"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "Branding & Identitas"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "Ilustrasi"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "Desain UX/UI"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3D & Animasi"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "Pembuatan konten"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "Pemasaran Digital"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "Media sosial"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "Streaming & Penyiaran"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "Desain UI/UX"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "Produksi video"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "Desain Web & Aplikasi"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "Keamanan siber"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "Data & AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "IT & Networking"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "Pemrograman & Pengembangan"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "Web & seluler"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "Bimbingan akademik"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "Pendidikan Anak Usia Dini"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "Pendidikan tinggi"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "Pengajaran bahasa"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "Bahasa"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "Teknologi Belajar"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "Literasi & Penulisan"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "Pendidikan luar biasa"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "Keterampilan belajar"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "Persiapan tes"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "Otomotif & Transportasi"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "Teknik Sipil"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "Teknik Listrik"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "Sistem Energi & Daya"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC & Sistem"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "Desain Industri"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "Pabrikan & Produksi"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "Teknik Mesin"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "Robotika & Otomatisasi"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "Desain Struktural"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "Perawatan Tubuh & Kesehatan"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "Pertolongan Pertama & Keselamatan"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "Kesehatan mental"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "Nutrisi & Diet"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "Pelatihan fisik"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "Obat alternatif"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "Pertolongan Pertama & Darurat"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "Pelatihan kebugaran"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "Kesehatan holistik"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "Pengetahuan Medis"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "Keterampilan medis"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "Kesehatan mental"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "Praktik kesehatan mental"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "Mindfulness & Meditasi"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "Nutrisi & Diet"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "Perawatan pribadi"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "Kebugaran fisik"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "Rehabilitasi & Terapi"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "Kesehatan reproduksi"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "Perawatan diri & Kebersihan"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "Tidur & Pemulihan"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "Manajemen stres"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "Yoga & Meditasi"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "Pelatihan kebugaran"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "Nutrisi"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "Outdoor & Adventure"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "Keterampilan olahraga"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "Kesehatan & Pemulihan"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "Obat alternatif"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "Pengetahuan Medis"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "Kesehatan mental"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "Nutrisi"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "Pelatihan pribadi"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "Kebugaran fisik"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "Rehabilitasi & Terapi"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "Pelatihan olahraga"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "Pelatihan kesehatan"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "Yoga & Mindfulness"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "Pemeliharaan alat"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "Pembersihan & Pengorganisasian"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "Kerajinan & dekorasi"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "Pekerjaan listrik"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "Berkebun & Lansekap"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "Otomatisasi Rumah"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "Perbaikan rumah"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "Desain Interior"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "Dasar -dasar Plumbing"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "Woodworking & Pertukangan"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "Penganggaran & Keuangan Rumah Tangga"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "Penitipan anak"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "Persiapan memasak & makan"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "Belanja bahan makanan"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "Pembersihan rumah"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "Pemeliharaan rumah"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "Perawatan Binatu & Pakaian"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "Mengorganisir & mendeklarasikan"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "Perawatan hewan peliharaan"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "Manajemen waktu"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "Komunikasi lintas budaya"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "Bahasa asing"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "Mendengarkan & Pemahaman"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "Terjemahan & interpretasi"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "Keterampilan menulis"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "Pembelajaran Bahasa"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "Komunikasi non-verbal"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "Berbicara di depan umum"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "Bercerita & narasi"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "Komunikasi verbal"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "Menulis & Editing"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "Pembelajaran Bahasa"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "Matematika"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "Sains & Penelitian"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "Teknik belajar"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "Persiapan tes"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "Bimbingan akademik"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "Alat & Keterampilan Pendidikan"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "Pembelajaran Bahasa"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "Pembelajaran seumur hidup"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "Persiapan tes"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "Memasak & Makanan"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "Pemeliharaan rumah"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "Keuangan Pribadi"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "Manajemen waktu"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "Perjalanan & Navigasi"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "Komunikasi & Hubungan"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "Kecerdasan emosional"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "Ketahanan & pertumbuhan"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "Disiplin diri"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "Manajemen Waktu & Tujuan"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "Persiapan memasak & makanan"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY & Perbaikan"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "Berkebun & Keberlanjutan"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "Manajemen rumah"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "Keuangan Pribadi"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "Keterampilan bertahan hidup"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "Perbaikan Otomotif"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "Perdagangan konstruksi"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "Pekerjaan listrik"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "Furnitur & Pelapis"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "Penguasaan Alat Tangan"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "Renovasi rumah"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "Metalworking"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "Plumbing & Heating"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "Tekstil & Leathercraft"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "Woodworking"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "Pemeliharaan otomotif"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "Dasar -dasar Teknik"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "Perbaikan & Pemasangan Rumah"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "Operasi mesin"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "Penggunaan Alat & Keamanan"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "Pekerjaan kayu & logam"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "Pemikiran kritis"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "Geografi & Lingkungan"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "Sejarah & Budaya"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "Bahasa"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "Matematika"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "Keterampilan Memori & Belajar"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "Filsafat & Etika"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "Psikologi & Perilaku"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "Sains & Penelitian"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "Teknik belajar"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "Fleksibilitas kognitif"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "Pemikiran kritis"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "Pembelajaran Bahasa"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "Memori & Fokus"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "Keterampilan belajar"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "Keyakinan & harga diri"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "Kecerdasan emosional"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "Penetapan & Perencanaan Tujuan"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "Kebiasaan & Disiplin"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "Keterampilan interpersonal"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "Kepemimpinan & Pengaruh"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "Mindfulness & Wellbeing"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "Berbicara di depan umum"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "Refleksi diri"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "Waktu & Produktivitas"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "Kepemimpinan"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "Kesehatan mental"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "Produktivitas"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "Berbicara di depan umum"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "Perluasan Diri"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "Kecerdasan emosional"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "Penetapan & pencapaian tujuan"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "Kebiasaan & Produktivitas"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "Mindfulness & Wellness"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "Berbicara di depan umum & komunikasi"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "Disiplin diri & fokus"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "Kebugaran & pengkondisian"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "Tenaga kerja & perdagangan manual"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "Rekreasi Luar Ruang"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "Bela Diri & Seni Bela Diri"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "Olahraga & Atletik"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "Kelangsungan Hidup & Bushcraft"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "Kebugaran & Kekuatan"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "Olahraga individu"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "Seni bela diri"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "Outdoor & Adventure"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "Kegiatan rekreasi"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "Olahraga Tim"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "Penulisan Akademik"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "Ilmu Biologi"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "Komputer & Ilmu Data"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "Ilmu Bumi & Lingkungan"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "Ilmu Teknik"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "Matematika & Statistik"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "Ilmu Medis & Kesehatan"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "Ilmu Fisik"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "Metode penelitian"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "Ilmu sosial"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "Astronomi"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "Biologi & Ilmu Hidup"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "Kimia"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "Ilmu Komputer"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "Ilmu Data & AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "Ilmu Bumi & Lingkungan"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "Disiplin teknik"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "Matematika & Statistik"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "Fisika & Mekanik"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "Robotika & Otomatisasi"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "Astronomi"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "Bioteknologi"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "Kimia"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "Ilmu Komputer"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "Ilmu Data & AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "Ilmu Bumi & Lingkungan"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "Elektronik"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "Rekayasa"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "Matematika & Statistik"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "Fisika"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI & Pembelajaran Mesin"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "Komputasi awan"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "Keamanan siber"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "Data & Analisis"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "Ilmu Data & AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "DevOps & Automation"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "Pengembangan game"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "IT & Networking"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "Dukungan & Jaringan TI"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "Pengembangan aplikasi seluler"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "Pemrograman & Pengembangan Perangkat Lunak"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "Pengembangan Perangkat Lunak"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "Perangkat Keras & Perbaikan Teknologi"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "Dukungan & Pemecahan Masalah Teknis"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "Pengembangan Web"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "Sipil & Struktural"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "Teknik Listrik"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "Manufaktur & Fabrikasi"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "Teknik Mesin"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "Perangkat Lunak & Sistem"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "Keterampilan otomotif"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "Konstruksi & Bangunan"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "Pekerjaan listrik"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "Energi & Lingkungan"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "Keterampilan industri"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "Perbaikan Mekanis"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "Keamanan siber"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "Data & AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "Pemasaran Digital"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "IT & Networking"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "Pengembangan Perangkat Lunak"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "Kecerdasan buatan"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "Komputasi awan"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "Dasar -dasar Komputer"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "Keamanan siber"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "Data & AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "Data & Analisis"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "Literasi Digital"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "Pemasaran Digital"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "Teknologi Muncul"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "Perangkat Keras & Elektronik"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "IT & Networking"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "Jaringan & IT"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "Pemrograman & Pengembangan"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "Pemrograman & Pengembangan Perangkat Lunak"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "Perangkat Perangkat Lunak"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "Produktivitas teknologi"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "Dukungan & Pemeliharaan Teknis"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "Dukungan & Pemecahan Masalah Teknis"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "Pengembangan Web & Aplikasi"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "Konstruksi & Pertukangan"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "Listrik & Plumbing"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "Barang buatan tangan"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "Metal & Pengelasan"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "Tekstil & Leathercraft"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "Kerajinan tradisional"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "Perbaikan Otomotif"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "Pertukangan & kayu"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "Konstruksi & Masonry"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "Pekerjaan listrik"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC & Refrigerasi"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "Pembuatan perhiasan"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "Metal & Pengelasan"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "Lukisan & Dekorasi"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "Pipa saluran air"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "Menjahit & menjahit"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "Perbaikan Otomotif"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "Pertukangan & kayu"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "Konstruksi"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "Konstruksi & Pertukangan"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "Keahlian & perbaikan"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "Listrik & Mekanik"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "Pekerjaan listrik"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC & Refrigerasi"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "Operasi alat berat"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "Masonry & Tiling"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "Logam & Woodwork"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "Lukisan & Finishing"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "Pipa saluran air"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "Perawatan Kendaraan & Mesin"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "Pengelasan & logam"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "Otomotif"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "Pekerjaan tukang kayu"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "Konstruksi"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "Listrik"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "Hvac"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "Batu"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "Mekanis"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "Lukisan & Dekorasi"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "Pipa saluran air"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "Pengelasan"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "Produksi video"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "Produksi audio"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "Fotografi"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "Desain Grafis"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "Akting & kinerja"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "Menulis & Penulisan Skrip"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "Penyiaran"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "Seni & Kerajinan"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "Musik & Instrumen"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "Aktivitas luar ruangan"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "Mengumpulkan"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "Kebugaran & Kesehatan"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "Berkebun"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "Proyek DIY"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "Masakan Italia"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "Masakan Jepang"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "Masakan Meksiko"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "Masakan India"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "Masakan Prancis"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "Masakan Cina"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "Masakan Timur Tengah"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_programming_software_development",
+  "name": "Programmering en softwareontwikkeling",
+  "skills": [
+    {
+      "id": "skill_4805",
+      "name": "API -ontwikkeling",
+      "difficulty_level": 4,
+      "description": "Learn and master API Development",
+      "tags": [
+        "development",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4806",
+      "name": "Wendbare ontwikkeling",
+      "difficulty_level": 3,
+      "description": "Learn and master Agile Development",
+      "tags": [
+        "agile",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4807",
+      "name": "C ++ ontwikkeling",
+      "difficulty_level": 5,
+      "description": "Learn and master C++ Development",
+      "tags": [
+        "development",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4808",
+      "name": "Debugging -technieken",
+      "difficulty_level": 4,
+      "description": "Learn and master Debugging Techniques",
+      "tags": [
+        "debugging",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4809",
+      "name": "Functioneel programmeren",
+      "difficulty_level": 1,
+      "description": "Learn and master Functional Programming",
+      "tags": [
+        "functional",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4810",
+      "name": "Java -programmering",
+      "difficulty_level": 4,
+      "description": "Learn and master Java Programming",
+      "tags": [
+        "java",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4811",
+      "name": "Objectgeoriënteerd programmeren",
+      "difficulty_level": 2,
+      "description": "Learn and master Object-Oriented Programming",
+      "tags": [
+        "object-oriented",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4812",
+      "name": "Python -programmering",
+      "difficulty_level": 5,
+      "description": "Learn and master Python Programming",
+      "tags": [
+        "python",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4813",
+      "name": "Eenheidstest",
+      "difficulty_level": 4,
+      "description": "Learn and master Unit Testing",
+      "tags": [
+        "unit",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4814",
+      "name": "Versiebesturing (git)",
+      "difficulty_level": 4,
+      "description": "Learn and master Version Control (Git)",
+      "tags": [
+        "version",
+        "control",
+        "(git)"
+      ]
+    }
+  ]
+}

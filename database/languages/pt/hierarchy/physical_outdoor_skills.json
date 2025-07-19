@@ -1,0 +1,30 @@
+{
+  "id": "physical_outdoor_skills",
+  "name": "Habilidades físicas e ao ar livre",
+  "subcategories": [
+    {
+      "id": "physical_outdoor_skills_fitness_conditioning",
+      "name": "Fitness e condicionamento"
+    },
+    {
+      "id": "physical_outdoor_skills_manual_labor_trades",
+      "name": "Trabalho e Comércio Manual"
+    },
+    {
+      "id": "physical_outdoor_skills_outdoor_recreation",
+      "name": "Recreação ao ar livre"
+    },
+    {
+      "id": "physical_outdoor_skills_self-defense_martial_arts",
+      "name": "Autodefesa e artes marciais"
+    },
+    {
+      "id": "physical_outdoor_skills_sports_athletics",
+      "name": "Esportes e atletismo"
+    },
+    {
+      "id": "physical_outdoor_skills_survival_bushcraft",
+      "name": "Sobrevivência e Bushcraft"
+    }
+  ]
+}

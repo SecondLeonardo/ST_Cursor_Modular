@@ -1,0 +1,116 @@
+{
+  "id": "creative_artistic_skills_crafting_diy",
+  "name": "கைவினை & diy",
+  "skills": [
+    {
+      "id": "skill_1453",
+      "name": "மெழுகுவர்த்தி தயாரித்தல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1454",
+      "name": "நகைகள் தயாரித்தல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Jewelry Making",
+      "tags": [
+        "jewelry",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1455",
+      "name": "பின்னல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1456",
+      "name": "ஓரிகமி",
+      "difficulty_level": 3,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1457",
+      "name": "மட்பாண்டங்கள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Pottery",
+      "tags": [
+        "pottery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1458",
+      "name": "ஸ்கிராப்புக்கிங்",
+      "difficulty_level": 5,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1459",
+      "name": "தையல்",
+      "difficulty_level": 4,
+      "description": "Learn and master Sewing",
+      "tags": [
+        "sewing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1460",
+      "name": "சோப்பு தயாரித்தல்",
+      "difficulty_level": 3,
+      "description": "Learn and master Soap Making",
+      "tags": [
+        "soap",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1461",
+      "name": "உயர்வு",
+      "difficulty_level": 4,
+      "description": "Learn and master Upcycling",
+      "tags": [
+        "upcycling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1462",
+      "name": "மரவேலை",
+      "difficulty_level": 5,
+      "description": "Learn and master Woodworking",
+      "tags": [
+        "woodworking",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_technology_computing",
+  "name": "தொழில்நுட்பம் மற்றும் கணினி",
+  "skills": [
+    {
+      "id": "skill_250",
+      "name": "அடிப்படை நிரலாக்க தர்க்கம்",
+      "difficulty_level": 4,
+      "description": "Learn and master Basic Programming Logic",
+      "tags": [
+        "basic",
+        "programming",
+        "logic"
+      ]
+    },
+    {
+      "id": "skill_251",
+      "name": "விளக்கக்காட்சிகளை உருவாக்குதல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Creating Presentations",
+      "tags": [
+        "creating",
+        "presentations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_252",
+      "name": "இணைய பாதுகாப்பு விழிப்புணர்வு",
+      "difficulty_level": 5,
+      "description": "Learn and master Cybersecurity Awareness",
+      "tags": [
+        "cybersecurity",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_253",
+      "name": "AI க்கு அறிமுகம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Intro to AI",
+      "tags": [
+        "intro",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_254",
+      "name": "ஆன்லைன் ஆராய்ச்சி",
+      "difficulty_level": 1,
+      "description": "Learn and master Online Research",
+      "tags": [
+        "online",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_255",
+      "name": "தொழில்நுட்ப சிக்கல்களை சரிசெய்தல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Troubleshooting Tech Issues",
+      "tags": [
+        "troubleshooting",
+        "tech",
+        "issues"
+      ]
+    },
+    {
+      "id": "skill_256",
+      "name": "தட்டச்சு திறன்",
+      "difficulty_level": 4,
+      "description": "Learn and master Typing Skills",
+      "tags": [
+        "typing",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_257",
+      "name": "வழிமுறைகளைப் புரிந்துகொள்வது",
+      "difficulty_level": 3,
+      "description": "Learn and master Understanding Algorithms",
+      "tags": [
+        "understanding",
+        "algorithms",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_258",
+      "name": "கல்வி கருவிகளைப் பயன்படுத்துதல்",
+      "difficulty_level": 1,
+      "description": "Learn and master Using Educational Tools",
+      "tags": [
+        "using",
+        "educational",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_259",
+      "name": "விரிதாள்களைப் பயன்படுத்துதல்",
+      "difficulty_level": 5,
+      "description": "Learn and master Using Spreadsheets",
+      "tags": [
+        "using",
+        "spreadsheets",
+        "skill"
+      ]
+    }
+  ]
+}

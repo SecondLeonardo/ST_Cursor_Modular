@@ -1,0 +1,26 @@
+{
+  "id": "arts,_design_creativity",
+  "name": "ศิลปะการออกแบบและความคิดสร้างสรรค์",
+  "subcategories": [
+    {
+      "id": "arts,_design_creativity_crafts_diy",
+      "name": "งานฝีมือและ DIY"
+    },
+    {
+      "id": "arts,_design_creativity_creative_writing",
+      "name": "การเขียนเชิงสร้างสรรค์"
+    },
+    {
+      "id": "arts,_design_creativity_design_digital_art",
+      "name": "การออกแบบและศิลปะดิจิทัล"
+    },
+    {
+      "id": "arts,_design_creativity_performing_arts",
+      "name": "ศิลปะการแสดง"
+    },
+    {
+      "id": "arts,_design_creativity_visual_arts",
+      "name": "ทัศนศิลป์"
+    }
+  ]
+}

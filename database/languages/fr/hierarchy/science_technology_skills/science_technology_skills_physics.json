@@ -1,0 +1,105 @@
+{
+  "id": "science_technology_skills_physics",
+  "name": "Physique",
+  "skills": [
+    {
+      "id": "skill_4338",
+      "name": "Astrophysics Basics",
+      "difficulty_level": 4,
+      "description": "Learn and master Astrophysics Basics",
+      "tags": [
+        "astrophysics",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4339",
+      "name": "Mécanique classique",
+      "difficulty_level": 5,
+      "description": "Learn and master Classical Mechanics",
+      "tags": [
+        "classical",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4340",
+      "name": "Électromagnétisme",
+      "difficulty_level": 1,
+      "description": "Learn and master Electromagnetism",
+      "tags": [
+        "electromagnetism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4341",
+      "name": "Physique expérimentale",
+      "difficulty_level": 3,
+      "description": "Learn and master Experimental Physics",
+      "tags": [
+        "experimental",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4342",
+      "name": "Physique nucléaire",
+      "difficulty_level": 5,
+      "description": "Learn and master Nuclear Physics",
+      "tags": [
+        "nuclear",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4343",
+      "name": "Optique et lumière",
+      "difficulty_level": 2,
+      "description": "Learn and master Optics & Light",
+      "tags": [
+        "optics",
+        "light",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4344",
+      "name": "Physique quantique",
+      "difficulty_level": 2,
+      "description": "Learn and master Quantum Physics",
+      "tags": [
+        "quantum",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4345",
+      "name": "Relativité",
+      "difficulty_level": 3,
+      "description": "Learn and master Relativity",
+      "tags": [
+        "relativity",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4346",
+      "name": "Théorie des vagues",
+      "difficulty_level": 1,
+      "description": "Learn and master Wave Theory",
+      "tags": [
+        "wave",
+        "theory",
+        "skill"
+      ]
+    }
+  ]
+}

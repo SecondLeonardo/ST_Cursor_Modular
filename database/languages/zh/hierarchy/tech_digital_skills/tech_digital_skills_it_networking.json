@@ -1,0 +1,117 @@
+{
+  "id": "tech_digital_skills_it_networking",
+  "name": "IT和网络",
+  "skills": [
+    {
+      "id": "skill_4426",
+      "name": "DNS管理",
+      "difficulty_level": 2,
+      "description": "Learn and master DNS Management",
+      "tags": [
+        "management",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4427",
+      "name": "防火墙配置",
+      "difficulty_level": 5,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4428",
+      "name": "管理Windows服务器",
+      "difficulty_level": 2,
+      "description": "Learn and master Managing Windows Servers",
+      "tags": [
+        "managing",
+        "windows",
+        "servers"
+      ]
+    },
+    {
+      "id": "skill_4429",
+      "name": "网络安全基础知识",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Security Basics",
+      "tags": [
+        "network",
+        "security",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4430",
+      "name": "远程桌面设置",
+      "difficulty_level": 4,
+      "description": "Learn and master Remote Desktop Setup",
+      "tags": [
+        "remote",
+        "desktop",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_4431",
+      "name": "设置路由器",
+      "difficulty_level": 5,
+      "description": "Learn and master Setting Up Routers",
+      "tags": [
+        "setting",
+        "routers",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4432",
+      "name": "系统配置",
+      "difficulty_level": 2,
+      "description": "Learn and master System Configuration",
+      "tags": [
+        "system",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4433",
+      "name": "故障排除网络",
+      "difficulty_level": 5,
+      "description": "Learn and master Troubleshooting Networks",
+      "tags": [
+        "troubleshooting",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4434",
+      "name": "了解IP地址",
+      "difficulty_level": 1,
+      "description": "Learn and master Understanding IP Addressing",
+      "tags": [
+        "understanding",
+        "addressing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4435",
+      "name": "使用命令行工具",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Command Line Tools",
+      "tags": [
+        "using",
+        "command",
+        "line",
+        "tools"
+      ]
+    }
+  ]
+}

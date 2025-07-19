@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "বিভিন্ন দেশের খাদ্য",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "ইতালিয়ান খাবার"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "জাপানি খাবার"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "মেক্সিকান খাবার"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "ভারতীয় খাবার"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "ফরাসি খাবার"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "চাইনিজ খাবার"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "মধ্য প্রাচ্যের খাবার"
+    }
+  ]
+}

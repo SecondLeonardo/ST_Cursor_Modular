@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_film_video",
+  "name": "Filamu na Video",
+  "skills": [
+    {
+      "id": "skill_560",
+      "name": "Sinema",
+      "difficulty_level": 2,
+      "description": "Learn and master Cinematography",
+      "tags": [
+        "cinematography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_561",
+      "name": "Marekebisho ya rangi",
+      "difficulty_level": 3,
+      "description": "Learn and master Color Correction",
+      "tags": [
+        "color",
+        "correction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_562",
+      "name": "Kuelekeza",
+      "difficulty_level": 2,
+      "description": "Learn and master Directing",
+      "tags": [
+        "directing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_563",
+      "name": "Bao la filamu",
+      "difficulty_level": 4,
+      "description": "Learn and master Film Scoring",
+      "tags": [
+        "film",
+        "scoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_564",
+      "name": "Taa kwa filamu",
+      "difficulty_level": 5,
+      "description": "Learn and master Lighting for Film",
+      "tags": [
+        "lighting",
+        "film",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_565",
+      "name": "Maandishi",
+      "difficulty_level": 1,
+      "description": "Learn and master Scriptwriting",
+      "tags": [
+        "scriptwriting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_566",
+      "name": "Uhariri wa sauti",
+      "difficulty_level": 3,
+      "description": "Learn and master Sound Editing",
+      "tags": [
+        "sound",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_567",
+      "name": "Uandishi wa hadithi",
+      "difficulty_level": 4,
+      "description": "Learn and master Storyboarding",
+      "tags": [
+        "storyboarding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_568",
+      "name": "Uhariri wa video",
+      "difficulty_level": 2,
+      "description": "Learn and master Video Editing",
+      "tags": [
+        "video",
+        "editing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_569",
+      "name": "Athari za video",
+      "difficulty_level": 3,
+      "description": "Learn and master Video Effects",
+      "tags": [
+        "video",
+        "effects",
+        "skill"
+      ]
+    }
+  ]
+}

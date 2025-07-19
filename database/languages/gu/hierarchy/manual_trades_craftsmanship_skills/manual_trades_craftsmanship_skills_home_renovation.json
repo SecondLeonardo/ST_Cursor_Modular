@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_home_renovation",
+  "name": "ઘરનું નવીનીકરણ",
+  "skills": [
+    {
+      "id": "skill_3458",
+      "name": "ભોંયત",
+      "difficulty_level": 1,
+      "description": "Learn and master Basement Finishing",
+      "tags": [
+        "basement",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3459",
+      "name": "સીલ -સીલ",
+      "difficulty_level": 4,
+      "description": "Learn and master Caulking & Sealing",
+      "tags": [
+        "caulking",
+        "sealing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3460",
+      "name": "તૂતક મકાન",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3461",
+      "name": "સૂકરાની મરામત",
+      "difficulty_level": 3,
+      "description": "Learn and master Drywall Repair",
+      "tags": [
+        "drywall",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3462",
+      "name": "રસોડું ફરીથી બનાવટ",
+      "difficulty_level": 1,
+      "description": "Learn and master Kitchen Remodeling",
+      "tags": [
+        "kitchen",
+        "remodeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3463",
+      "name": "લેમિનેટ ફ્લોરિંગ",
+      "difficulty_level": 2,
+      "description": "Learn and master Laminate Flooring",
+      "tags": [
+        "laminate",
+        "flooring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3464",
+      "name": "પેઇન્ટિંગ અને સુશોભન",
+      "difficulty_level": 2,
+      "description": "Learn and master Painting & Decorating",
+      "tags": [
+        "painting",
+        "decorating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3465",
+      "name": "ટાઇલ નાખવી",
+      "difficulty_level": 2,
+      "description": "Learn and master Tile Laying",
+      "tags": [
+        "tile",
+        "laying",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3466",
+      "name": "વ wallpaper લપેપર અટકી",
+      "difficulty_level": 2,
+      "description": "Learn and master Wallpaper Hanging",
+      "tags": [
+        "wallpaper",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3467",
+      "name": "ફેરબદલ",
+      "difficulty_level": 2,
+      "description": "Learn and master Window Replacement",
+      "tags": [
+        "window",
+        "replacement",
+        "skill"
+      ]
+    }
+  ]
+}

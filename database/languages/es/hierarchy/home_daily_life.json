@@ -1,0 +1,46 @@
+{
+  "id": "home_daily_life",
+  "name": "Hogar y vida diaria",
+  "subcategories": [
+    {
+      "id": "home_daily_life_budgeting_household_finance",
+      "name": "Presupuesto y finanzas para el hogar"
+    },
+    {
+      "id": "home_daily_life_childcare",
+      "name": "Cuidado de los niños"
+    },
+    {
+      "id": "home_daily_life_cooking_meal_prep",
+      "name": "Preparación de cocción y comida"
+    },
+    {
+      "id": "home_daily_life_grocery_shopping",
+      "name": "Compras de comestibles"
+    },
+    {
+      "id": "home_daily_life_home_cleaning",
+      "name": "Limpieza del hogar"
+    },
+    {
+      "id": "home_daily_life_home_maintenance",
+      "name": "Mantenimiento del hogar"
+    },
+    {
+      "id": "home_daily_life_laundry_clothing_care",
+      "name": "Care de lavandería y ropa"
+    },
+    {
+      "id": "home_daily_life_organizing_decluttering",
+      "name": "Organización y desordenamiento"
+    },
+    {
+      "id": "home_daily_life_pet_care",
+      "name": "Cuidado de mascotas"
+    },
+    {
+      "id": "home_daily_life_time_management",
+      "name": "Gestión del tiempo"
+    }
+  ]
+}

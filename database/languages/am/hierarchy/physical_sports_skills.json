@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "የአካል እና የስፖርት ችሎታ",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "የአካል ብቃት እና ጥንካሬ"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "የግለሰብ ስፖርት"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "የማርሻል አርት"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "ከቤት ውጭ እና ጀብዱ"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "መዝናኛ እንቅስቃሴዎች"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "የቡድን ስፖርት"
+    }
+  ]
+}

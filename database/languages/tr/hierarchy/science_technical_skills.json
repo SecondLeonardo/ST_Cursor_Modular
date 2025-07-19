@@ -1,0 +1,46 @@
+{
+  "id": "science_technical_skills",
+  "name": "Bilim ve Teknik Beceriler",
+  "subcategories": [
+    {
+      "id": "science_technical_skills_astronomy",
+      "name": "Astronomi"
+    },
+    {
+      "id": "science_technical_skills_biology_life_sciences",
+      "name": "Biyoloji ve Yaşam Bilimleri"
+    },
+    {
+      "id": "science_technical_skills_chemistry",
+      "name": "Kimya"
+    },
+    {
+      "id": "science_technical_skills_computer_science",
+      "name": "Bilgisayar Bilimi"
+    },
+    {
+      "id": "science_technical_skills_data_science_ai",
+      "name": "Veri Bilimi ve AI"
+    },
+    {
+      "id": "science_technical_skills_earth_environmental_sciences",
+      "name": "Dünya ve Çevre Bilimleri"
+    },
+    {
+      "id": "science_technical_skills_engineering_disciplines",
+      "name": "Mühendislik Disiplinleri"
+    },
+    {
+      "id": "science_technical_skills_mathematics_statistics",
+      "name": "Matematik ve İstatistik"
+    },
+    {
+      "id": "science_technical_skills_physics_mechanics",
+      "name": "Fizik ve Mekanik"
+    },
+    {
+      "id": "science_technical_skills_robotics_automation",
+      "name": "Robot ve Otomasyon"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_hvac_refrigeration",
+  "name": "HVAC و یخچال",
+  "skills": [
+    {
+      "id": "skill_5095",
+      "name": "تعمیر تهویه هوا",
+      "difficulty_level": 1,
+      "description": "Learn and master Air Conditioner Repair",
+      "tags": [
+        "conditioner",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5096",
+      "name": "تست کیفیت هوا",
+      "difficulty_level": 3,
+      "description": "Learn and master Air Quality Testing",
+      "tags": [
+        "quality",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5097",
+      "name": "تشخیص کمپرسور",
+      "difficulty_level": 5,
+      "description": "Learn and master Compressor Diagnosis",
+      "tags": [
+        "compressor",
+        "diagnosis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5098",
+      "name": "نصب مجرای",
+      "difficulty_level": 1,
+      "description": "Learn and master Ductwork Installation",
+      "tags": [
+        "ductwork",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5099",
+      "name": "عیب یابی HVAC",
+      "difficulty_level": 1,
+      "description": "Learn and master HVAC Troubleshooting",
+      "tags": [
+        "hvac",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5100",
+      "name": "نگهداری بخاری",
+      "difficulty_level": 1,
+      "description": "Learn and master Heater Maintenance",
+      "tags": [
+        "heater",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5101",
+      "name": "دست زدن به مبرد",
+      "difficulty_level": 5,
+      "description": "Learn and master Refrigerant Handling",
+      "tags": [
+        "refrigerant",
+        "handling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5102",
+      "name": "دانش چرخه تبرید",
+      "difficulty_level": 4,
+      "description": "Learn and master Refrigeration Cycle Knowledge",
+      "tags": [
+        "refrigeration",
+        "cycle",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5103",
+      "name": "تعادل سیستم",
+      "difficulty_level": 1,
+      "description": "Learn and master System Balancing",
+      "tags": [
+        "system",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5104",
+      "name": "نصب ترموستات",
+      "difficulty_level": 5,
+      "description": "Learn and master Thermostat Installation",
+      "tags": [
+        "thermostat",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

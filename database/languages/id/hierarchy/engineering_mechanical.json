@@ -1,0 +1,46 @@
+{
+  "id": "engineering_mechanical",
+  "name": "Teknik & Mekanik",
+  "subcategories": [
+    {
+      "id": "engineering_mechanical_automotive_transportation",
+      "name": "Otomotif & Transportasi"
+    },
+    {
+      "id": "engineering_mechanical_civil_engineering",
+      "name": "Teknik Sipil"
+    },
+    {
+      "id": "engineering_mechanical_electrical_engineering",
+      "name": "Teknik Listrik"
+    },
+    {
+      "id": "engineering_mechanical_energy_power_systems",
+      "name": "Sistem Energi & Daya"
+    },
+    {
+      "id": "engineering_mechanical_hvac_systems",
+      "name": "HVAC & Sistem"
+    },
+    {
+      "id": "engineering_mechanical_industrial_design",
+      "name": "Desain Industri"
+    },
+    {
+      "id": "engineering_mechanical_manufacturing_production",
+      "name": "Pabrikan & Produksi"
+    },
+    {
+      "id": "engineering_mechanical_mechanical_engineering",
+      "name": "Teknik Mesin"
+    },
+    {
+      "id": "engineering_mechanical_robotics_automation",
+      "name": "Robotika & Otomatisasi"
+    },
+    {
+      "id": "engineering_mechanical_structural_design",
+      "name": "Desain Struktural"
+    }
+  ]
+}

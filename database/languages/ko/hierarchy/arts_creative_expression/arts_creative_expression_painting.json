@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_painting",
+  "name": "그림",
+  "skills": [
+    {
+      "id": "skill_380",
+      "name": "추상화",
+      "difficulty_level": 5,
+      "description": "Learn and master Abstract Painting",
+      "tags": [
+        "abstract",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_381",
+      "name": "아크릴 그림",
+      "difficulty_level": 3,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_382",
+      "name": "브러시 기술",
+      "difficulty_level": 3,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_383",
+      "name": "캔버스 준비",
+      "difficulty_level": 3,
+      "description": "Learn and master Canvas Preparation",
+      "tags": [
+        "canvas",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_384",
+      "name": "컬러 믹싱",
+      "difficulty_level": 1,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_385",
+      "name": "인상주의",
+      "difficulty_level": 2,
+      "description": "Learn and master Impressionism",
+      "tags": [
+        "impressionism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_386",
+      "name": "유화",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_387",
+      "name": "플레인 에어 페인팅",
+      "difficulty_level": 1,
+      "description": "Learn and master Plein Air Painting",
+      "tags": [
+        "plein",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_388",
+      "name": "초상화 그림",
+      "difficulty_level": 2,
+      "description": "Learn and master Portrait Painting",
+      "tags": [
+        "portrait",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_389",
+      "name": "수채화 기술",
+      "difficulty_level": 2,
+      "description": "Learn and master Watercolor Techniques",
+      "tags": [
+        "watercolor",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

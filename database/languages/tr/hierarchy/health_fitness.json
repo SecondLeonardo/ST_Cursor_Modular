@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "Sağlık ve Fitness",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "Vücut Bakımı ve Sağlık"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "İlk Yardım ve Güvenlik"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "Akıl sağlığı"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "Beslenme ve Diyet"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "Beden eğitimi"
+    }
+  ]
+}

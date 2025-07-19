@@ -1,0 +1,116 @@
+{
+  "id": "technical_mechanical_skills_industrial_skills",
+  "name": "産業スキル",
+  "skills": [
+    {
+      "id": "skill_4596",
+      "name": "基本的な溶接技術",
+      "difficulty_level": 4,
+      "description": "Learn and master Basic Welding Techniques",
+      "tags": [
+        "basic",
+        "welding",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_4597",
+      "name": "フォークリフト操作",
+      "difficulty_level": 1,
+      "description": "Learn and master Forklift Operation",
+      "tags": [
+        "forklift",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4598",
+      "name": "油圧知識",
+      "difficulty_level": 2,
+      "description": "Learn and master Hydraulics Knowledge",
+      "tags": [
+        "hydraulics",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4599",
+      "name": "操作旋盤",
+      "difficulty_level": 4,
+      "description": "Learn and master Operating Lathes",
+      "tags": [
+        "operating",
+        "lathes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4600",
+      "name": "空気圧システム",
+      "difficulty_level": 2,
+      "description": "Learn and master Pneumatic Systems",
+      "tags": [
+        "pneumatic",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4601",
+      "name": "予防保守",
+      "difficulty_level": 5,
+      "description": "Learn and master Preventive Maintenance",
+      "tags": [
+        "preventive",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4602",
+      "name": "技術マニュアルを読む",
+      "difficulty_level": 2,
+      "description": "Learn and master Reading Technical Manuals",
+      "tags": [
+        "reading",
+        "technical",
+        "manuals"
+      ]
+    },
+    {
+      "id": "skill_4603",
+      "name": "安全手順",
+      "difficulty_level": 3,
+      "description": "Learn and master Safety Procedures",
+      "tags": [
+        "safety",
+        "procedures",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4604",
+      "name": "CNCマシンの使用",
+      "difficulty_level": 1,
+      "description": "Learn and master Using CNC Machines",
+      "tags": [
+        "using",
+        "machines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4605",
+      "name": "重機の使用",
+      "difficulty_level": 2,
+      "description": "Learn and master Using Heavy Equipment",
+      "tags": [
+        "using",
+        "heavy",
+        "equipment"
+      ]
+    }
+  ]
+}

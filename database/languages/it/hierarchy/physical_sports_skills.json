@@ -1,0 +1,30 @@
+{
+  "id": "physical_sports_skills",
+  "name": "Abilità fisiche e sportive",
+  "subcategories": [
+    {
+      "id": "physical_sports_skills_fitness_strength",
+      "name": "Fitness e forza"
+    },
+    {
+      "id": "physical_sports_skills_individual_sports",
+      "name": "Sport individuali"
+    },
+    {
+      "id": "physical_sports_skills_martial_arts",
+      "name": "Arti marziali"
+    },
+    {
+      "id": "physical_sports_skills_outdoor_adventure",
+      "name": "Outdoor & Adventure"
+    },
+    {
+      "id": "physical_sports_skills_recreational_activities",
+      "name": "Attività ricreative"
+    },
+    {
+      "id": "physical_sports_skills_team_sports",
+      "name": "Sport di squadra"
+    }
+  ]
+}

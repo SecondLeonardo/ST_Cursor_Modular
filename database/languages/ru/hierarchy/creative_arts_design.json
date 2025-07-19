@@ -1,0 +1,26 @@
+{
+  "id": "creative_arts_design",
+  "name": "Творческое искусство и дизайн",
+  "subcategories": [
+    {
+      "id": "creative_arts_design_crafts_diy",
+      "name": "Ремесла и DIY"
+    },
+    {
+      "id": "creative_arts_design_digital_arts_animation",
+      "name": "Цифровое искусство и анимация"
+    },
+    {
+      "id": "creative_arts_design_graphic_design",
+      "name": "Графический дизайн"
+    },
+    {
+      "id": "creative_arts_design_interior_fashion",
+      "name": "Интерьер и мода"
+    },
+    {
+      "id": "creative_arts_design_visual_arts",
+      "name": "Визуальное искусство"
+    }
+  ]
+}

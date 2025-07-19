@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_office_productivity",
+  "name": "அலுவலக உற்பத்தித்திறன்",
+  "skills": [
+    {
+      "id": "skill_1018",
+      "name": "டிஜிட்டல் தாக்கல் அமைப்புகள்",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Filing Systems",
+      "tags": [
+        "digital",
+        "filing",
+        "systems"
+      ]
+    },
+    {
+      "id": "skill_1019",
+      "name": "எக்செல் சூத்திரங்கள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Excel Formulas",
+      "tags": [
+        "excel",
+        "formulas",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1020",
+      "name": "கோப்பு அமைப்பு",
+      "difficulty_level": 1,
+      "description": "Learn and master File Organization",
+      "tags": [
+        "file",
+        "organization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1021",
+      "name": "கூகிள் பணியிட பயன்பாடு",
+      "difficulty_level": 4,
+      "description": "Learn and master Google Workspace Usage",
+      "tags": [
+        "google",
+        "workspace",
+        "usage"
+      ]
+    },
+    {
+      "id": "skill_1022",
+      "name": "விசைப்பலகை குறுக்குவழிகள்",
+      "difficulty_level": 2,
+      "description": "Learn and master Keyboard Shortcuts",
+      "tags": [
+        "keyboard",
+        "shortcuts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1023",
+      "name": "நிகழ்ச்சி நிரல் உருவாக்கம்",
+      "difficulty_level": 2,
+      "description": "Learn and master Meeting Agenda Creation",
+      "tags": [
+        "meeting",
+        "agenda",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_1024",
+      "name": "குறிப்பு எடுப்பது திறம்பட",
+      "difficulty_level": 3,
+      "description": "Learn and master Note-Taking Effectively",
+      "tags": [
+        "note-taking",
+        "effectively",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1025",
+      "name": "அவுட்லுக்குடன் திட்டமிடல்",
+      "difficulty_level": 2,
+      "description": "Learn and master Scheduling with Outlook",
+      "tags": [
+        "scheduling",
+        "with",
+        "outlook"
+      ]
+    },
+    {
+      "id": "skill_1026",
+      "name": "நேர கண்காணிப்பு கருவிகள்",
+      "difficulty_level": 3,
+      "description": "Learn and master Time Tracking Tools",
+      "tags": [
+        "time",
+        "tracking",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_1027",
+      "name": "பதிப்பு கட்டுப்பாட்டு அடிப்படைகள்",
+      "difficulty_level": 5,
+      "description": "Learn and master Version Control Basics",
+      "tags": [
+        "version",
+        "control",
+        "basics"
+      ]
+    }
+  ]
+}

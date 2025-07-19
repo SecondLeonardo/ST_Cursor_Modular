@@ -1,0 +1,72 @@
+[
+  {
+    "id": "technology",
+    "englishName": "Technology",
+    "icon": "laptopcomputer",
+    "sortOrder": 1,
+    "translations": null
+  },
+  {
+    "id": "arts_creativity",
+    "englishName": "Arts & Creativity",
+    "icon": "paintbrush",
+    "sortOrder": 2,
+    "translations": null
+  },
+  {
+    "id": "business_finance",
+    "englishName": "Business & Finance",
+    "icon": "chart.line.uptrend.xyaxis",
+    "sortOrder": 3,
+    "translations": null
+  },
+  {
+    "id": "health_fitness",
+    "englishName": "Health & Fitness",
+    "icon": "heart.fill",
+    "sortOrder": 4,
+    "translations": null
+  },
+  {
+    "id": "language_communication",
+    "englishName": "Language & Communication",
+    "icon": "message",
+    "sortOrder": 5,
+    "translations": null
+  },
+  {
+    "id": "science_research",
+    "englishName": "Science & Research",
+    "icon": "atom",
+    "sortOrder": 6,
+    "translations": null
+  },
+  {
+    "id": "education_learning",
+    "englishName": "Education & Learning",
+    "icon": "book.fill",
+    "sortOrder": 7,
+    "translations": null
+  },
+  {
+    "id": "personal_development",
+    "englishName": "Personal Development",
+    "icon": "person.fill",
+    "sortOrder": 8,
+    "translations": null
+  },
+  {
+    "id": "home_diy",
+    "englishName": "Home & DIY",
+    "icon": "house.fill",
+    "sortOrder": 9,
+    "translations": null
+  },
+  {
+    "id": "sports_recreation",
+    "englishName": "Sports & Recreation",
+    "icon": "figure.run",
+    "sortOrder": 10,
+    "translations": null
+  }
+] 

@@ -1,0 +1,46 @@
+{
+  "id": "education_language",
+  "name": "విద్య & భాష",
+  "subcategories": [
+    {
+      "id": "education_language_academic_tutoring",
+      "name": "అకాడెమిక్ ట్యూటరింగ్"
+    },
+    {
+      "id": "education_language_early_childhood_education",
+      "name": "బాల్య విద్య"
+    },
+    {
+      "id": "education_language_higher_education",
+      "name": "ఉన్నత విద్య"
+    },
+    {
+      "id": "education_language_language_teaching",
+      "name": "భాషా బోధన"
+    },
+    {
+      "id": "education_language_languages",
+      "name": "భాషలు"
+    },
+    {
+      "id": "education_language_learning_technologies",
+      "name": "అభ్యాస సాంకేతికతలు"
+    },
+    {
+      "id": "education_language_literacy_writing",
+      "name": "అక్షరాస్యత & రచన"
+    },
+    {
+      "id": "education_language_special_education",
+      "name": "ప్రత్యేక విద్య"
+    },
+    {
+      "id": "education_language_study_skills",
+      "name": "అధ్యయన నైపుణ్యాలు"
+    },
+    {
+      "id": "education_language_test_prep",
+      "name": "టెస్ట్ ప్రిపరేషన్"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_engineering_sciences",
+  "name": "العلوم الهندسية",
+  "skills": [
+    {
+      "id": "skill_4088",
+      "name": "نمذجة CAD",
+      "difficulty_level": 5,
+      "description": "Learn and master CAD Modeling",
+      "tags": [
+        "modeling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4089",
+      "name": "تصميم الدائرة",
+      "difficulty_level": 1,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4090",
+      "name": "أنظمة التحكم",
+      "difficulty_level": 3,
+      "description": "Learn and master Control Systems",
+      "tags": [
+        "control",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4091",
+      "name": "ديناميات السوائل",
+      "difficulty_level": 1,
+      "description": "Learn and master Fluid Dynamics",
+      "tags": [
+        "fluid",
+        "dynamics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4092",
+      "name": "عمليات التصنيع",
+      "difficulty_level": 3,
+      "description": "Learn and master Manufacturing Processes",
+      "tags": [
+        "manufacturing",
+        "processes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4093",
+      "name": "اختبار المواد",
+      "difficulty_level": 3,
+      "description": "Learn and master Material Testing",
+      "tags": [
+        "material",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4094",
+      "name": "الصياغة الميكانيكية",
+      "difficulty_level": 4,
+      "description": "Learn and master Mechanical Drafting",
+      "tags": [
+        "mechanical",
+        "drafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4095",
+      "name": "هندسة الروبوتات",
+      "difficulty_level": 2,
+      "description": "Learn and master Robotics Engineering",
+      "tags": [
+        "robotics",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4096",
+      "name": "التحليل الهيكلي",
+      "difficulty_level": 1,
+      "description": "Learn and master Structural Analysis",
+      "tags": [
+        "structural",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4097",
+      "name": "هندسة الديناميكا الحرارية",
+      "difficulty_level": 1,
+      "description": "Learn and master Thermodynamics Engineering",
+      "tags": [
+        "thermodynamics",
+        "engineering",
+        "skill"
+      ]
+    }
+  ]
+}

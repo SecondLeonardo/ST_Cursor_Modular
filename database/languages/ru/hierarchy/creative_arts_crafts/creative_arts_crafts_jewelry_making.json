@@ -1,0 +1,116 @@
+{
+  "id": "creative_arts_crafts_jewelry_making",
+  "name": "Создание ювелирных изделий",
+  "skills": [
+    {
+      "id": "skill_1823",
+      "name": "Бисера",
+      "difficulty_level": 3,
+      "description": "Learn and master Beading",
+      "tags": [
+        "beading",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1824",
+      "name": "Серьговый дизайн",
+      "difficulty_level": 1,
+      "description": "Learn and master Earring Design",
+      "tags": [
+        "earring",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1825",
+      "name": "Ремонт ювелирных изделий",
+      "difficulty_level": 4,
+      "description": "Learn and master Jewelry Repair",
+      "tags": [
+        "jewelry",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1826",
+      "name": "Металлическая штамповка",
+      "difficulty_level": 4,
+      "description": "Learn and master Metal Stamping",
+      "tags": [
+        "metal",
+        "stamping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1827",
+      "name": "Создание ожерелья",
+      "difficulty_level": 5,
+      "description": "Learn and master Necklace Making",
+      "tags": [
+        "necklace",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1828",
+      "name": "Методы полировки",
+      "difficulty_level": 3,
+      "description": "Learn and master Polishing Techniques",
+      "tags": [
+        "polishing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1829",
+      "name": "Смоловые украшения",
+      "difficulty_level": 3,
+      "description": "Learn and master Resin Jewelry",
+      "tags": [
+        "resin",
+        "jewelry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1830",
+      "name": "Пайрь",
+      "difficulty_level": 1,
+      "description": "Learn and master Soldering",
+      "tags": [
+        "soldering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_1831",
+      "name": "Использование ювелирных инструментов",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Jewelry Tools",
+      "tags": [
+        "using",
+        "jewelry",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_1832",
+      "name": "Проводная упаковка",
+      "difficulty_level": 5,
+      "description": "Learn and master Wire Wrapping",
+      "tags": [
+        "wire",
+        "wrapping",
+        "skill"
+      ]
+    }
+  ]
+}

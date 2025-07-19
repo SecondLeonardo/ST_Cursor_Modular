@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "உடல்நலம் மற்றும் உடற்பயிற்சி",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "உடல் பராமரிப்பு & ஆரோக்கியம்"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "முதலுதவி மற்றும் பாதுகாப்பு"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "மன ஆரோக்கியம்"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "ஊட்டச்சத்து & உணவு"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "உடல் பயிற்சி"
+    }
+  ]
+}

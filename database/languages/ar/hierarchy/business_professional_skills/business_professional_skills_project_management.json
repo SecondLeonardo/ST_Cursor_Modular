@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_project_management",
+  "name": "إدارة المشروع",
+  "skills": [
+    {
+      "id": "skill_1038",
+      "name": "تخطيط رشيق",
+      "difficulty_level": 1,
+      "description": "Learn and master Agile Planning",
+      "tags": [
+        "agile",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1039",
+      "name": "خلق الأزرار",
+      "difficulty_level": 1,
+      "description": "Learn and master Creating SOWs",
+      "tags": [
+        "creating",
+        "sows",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1040",
+      "name": "تحليل المسار الحرج",
+      "difficulty_level": 4,
+      "description": "Learn and master Critical Path Analysis",
+      "tags": [
+        "critical",
+        "path",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_1041",
+      "name": "إدارة دورة حياة المشروع",
+      "difficulty_level": 5,
+      "description": "Learn and master Project Lifecycle Management",
+      "tags": [
+        "project",
+        "lifecycle",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_1042",
+      "name": "المشروع بأثر رجعي",
+      "difficulty_level": 3,
+      "description": "Learn and master Project Retrospectives",
+      "tags": [
+        "project",
+        "retrospectives",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1043",
+      "name": "تقييم المخاطر",
+      "difficulty_level": 3,
+      "description": "Learn and master Risk Assessment",
+      "tags": [
+        "risk",
+        "assessment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1044",
+      "name": "منهجية scrum",
+      "difficulty_level": 2,
+      "description": "Learn and master SCRUM Methodology",
+      "tags": [
+        "scrum",
+        "methodology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1045",
+      "name": "تخطيط العدو",
+      "difficulty_level": 2,
+      "description": "Learn and master Sprint Planning",
+      "tags": [
+        "sprint",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1046",
+      "name": "اتصالات أصحاب المصلحة",
+      "difficulty_level": 5,
+      "description": "Learn and master Stakeholder Communication",
+      "tags": [
+        "stakeholder",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1047",
+      "name": "باستخدام مخططات Gantt",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Gantt Charts",
+      "tags": [
+        "using",
+        "gantt",
+        "charts"
+      ]
+    }
+  ]
+}

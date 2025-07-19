@@ -1,0 +1,46 @@
+{
+  "id": "home_diy",
+  "name": "Strona główna i majsterkowicz",
+  "subcategories": [
+    {
+      "id": "home_diy_appliance_maintenance",
+      "name": "Konserwacja urządzeń"
+    },
+    {
+      "id": "home_diy_cleaning_organizing",
+      "name": "Czyszczenie i organizowanie"
+    },
+    {
+      "id": "home_diy_crafts_decor",
+      "name": "Rzemiosła i wystrój"
+    },
+    {
+      "id": "home_diy_electrical_work",
+      "name": "Praca elektryczna"
+    },
+    {
+      "id": "home_diy_gardening_landscaping",
+      "name": "Ogrodnictwo i kształtowanie krajobrazu"
+    },
+    {
+      "id": "home_diy_home_automation",
+      "name": "Automatyzacja domu"
+    },
+    {
+      "id": "home_diy_home_repair",
+      "name": "Naprawa domu"
+    },
+    {
+      "id": "home_diy_interior_design",
+      "name": "Architektura wnętrz"
+    },
+    {
+      "id": "home_diy_plumbing_basics",
+      "name": "Podstawy hydrauliczne"
+    },
+    {
+      "id": "home_diy_woodworking_carpentry",
+      "name": "Obróbka drewna i stolarka"
+    }
+  ]
+}

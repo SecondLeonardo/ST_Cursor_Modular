@@ -1,0 +1,116 @@
+{
+  "id": "health_wellness_physical_fitness",
+  "name": "Usawa wa mwili",
+  "skills": [
+    {
+      "id": "skill_2609",
+      "name": "Mazoezi ya uzani wa mwili",
+      "difficulty_level": 4,
+      "description": "Learn and master Bodyweight Exercises",
+      "tags": [
+        "bodyweight",
+        "exercises",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2610",
+      "name": "Workout ya Cardio",
+      "difficulty_level": 2,
+      "description": "Learn and master Cardio Workouts",
+      "tags": [
+        "cardio",
+        "workouts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2611",
+      "name": "Mafunzo ya uvumilivu",
+      "difficulty_level": 1,
+      "description": "Learn and master Endurance Training",
+      "tags": [
+        "endurance",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2612",
+      "name": "Njia za HIIT",
+      "difficulty_level": 4,
+      "description": "Learn and master HIIT Routines",
+      "tags": [
+        "hiit",
+        "routines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2613",
+      "name": "Uhamaji wa uhamaji",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobility Drills",
+      "tags": [
+        "mobility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2614",
+      "name": "Plyometri",
+      "difficulty_level": 2,
+      "description": "Learn and master Plyometrics",
+      "tags": [
+        "plyometrics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2615",
+      "name": "Hali ya nguvu",
+      "difficulty_level": 3,
+      "description": "Learn and master Strength Conditioning",
+      "tags": [
+        "strength",
+        "conditioning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2616",
+      "name": "Mbinu za kunyoosha",
+      "difficulty_level": 5,
+      "description": "Learn and master Stretching Techniques",
+      "tags": [
+        "stretching",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2617",
+      "name": "Mafunzo ya Uzito",
+      "difficulty_level": 1,
+      "description": "Learn and master Weight Training",
+      "tags": [
+        "weight",
+        "training",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2618",
+      "name": "Mazoezi ya yoga",
+      "difficulty_level": 3,
+      "description": "Learn and master Yoga Practice",
+      "tags": [
+        "yoga",
+        "practice",
+        "skill"
+      ]
+    }
+  ]
+}

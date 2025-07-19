@@ -1,0 +1,30 @@
+{
+  "id": "communication_language_skills",
+  "name": "Навыки общения и языка",
+  "subcategories": [
+    {
+      "id": "communication_language_skills_foreign_languages",
+      "name": "Иностранные языки"
+    },
+    {
+      "id": "communication_language_skills_interpersonal_skills",
+      "name": "Межличностные навыки"
+    },
+    {
+      "id": "communication_language_skills_nonverbal_communication",
+      "name": "Невербальное общение"
+    },
+    {
+      "id": "communication_language_skills_presentation_storytelling",
+      "name": "Презентация и рассказывание историй"
+    },
+    {
+      "id": "communication_language_skills_public_speaking",
+      "name": "Публичные выступления"
+    },
+    {
+      "id": "communication_language_skills_writing_editing",
+      "name": "Написание и редактирование"
+    }
+  ]
+}

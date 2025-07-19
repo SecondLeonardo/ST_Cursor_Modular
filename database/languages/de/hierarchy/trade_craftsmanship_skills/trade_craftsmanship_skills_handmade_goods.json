@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_handmade_goods",
+  "name": "Handgefertigte Waren",
+  "skills": [
+    {
+      "id": "skill_4885",
+      "name": "Kerzenherstellung",
+      "difficulty_level": 5,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4886",
+      "name": "Glaseide",
+      "difficulty_level": 2,
+      "description": "Learn and master Glass Etching",
+      "tags": [
+        "glass",
+        "etching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4887",
+      "name": "Schmuckdrahtverpackung",
+      "difficulty_level": 3,
+      "description": "Learn and master Jewelry Wire Wrapping",
+      "tags": [
+        "jewelry",
+        "wire",
+        "wrapping"
+      ]
+    },
+    {
+      "id": "skill_4888",
+      "name": "Strickgrundlagen",
+      "difficulty_level": 1,
+      "description": "Learn and master Knitting Basics",
+      "tags": [
+        "knitting",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4889",
+      "name": "Makrame -Knoten",
+      "difficulty_level": 4,
+      "description": "Learn and master Macrame Knots",
+      "tags": [
+        "macrame",
+        "knots",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4890",
+      "name": "Harzkunst machen",
+      "difficulty_level": 3,
+      "description": "Learn and master Making Resin Art",
+      "tags": [
+        "making",
+        "resin",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4891",
+      "name": "Gebrauch von Keramikrad",
+      "difficulty_level": 4,
+      "description": "Learn and master Pottery Wheel Use",
+      "tags": [
+        "pottery",
+        "wheel",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4892",
+      "name": "Seifenverarbeitung",
+      "difficulty_level": 3,
+      "description": "Learn and master Soap Crafting",
+      "tags": [
+        "soap",
+        "crafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4893",
+      "name": "Fliesenmosaiken",
+      "difficulty_level": 1,
+      "description": "Learn and master Tile Mosaics",
+      "tags": [
+        "tile",
+        "mosaics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4894",
+      "name": "Holzburn",
+      "difficulty_level": 5,
+      "description": "Learn and master Woodburning",
+      "tags": [
+        "woodburning",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

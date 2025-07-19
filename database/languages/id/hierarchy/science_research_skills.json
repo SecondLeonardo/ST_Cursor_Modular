@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "Keterampilan Sains & Penelitian",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "Penulisan Akademik"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "Ilmu Biologi"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "Komputer & Ilmu Data"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "Ilmu Bumi & Lingkungan"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "Ilmu Teknik"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "Matematika & Statistik"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "Ilmu Medis & Kesehatan"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "Ilmu Fisik"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "Metode penelitian"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "Ilmu sosial"
+    }
+  ]
+}

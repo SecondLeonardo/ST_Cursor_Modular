@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "Trades & Manuelle Fähigkeiten",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "Automobilreparatur"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "Tischlerei & Holzarbeiten"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "Konstruktion"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "Bau & Schreinerei"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "Handwerkskunst & Reparaturen"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "Elektrisch und mechanisch"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "Elektrische Arbeit"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC & Kühlung"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "Betrieb von schwerer Ausrüstung"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "Mauerwerk & Fliesen"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "Metall & Holzarbeiten"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "Malerei & Fertigstellung"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "Sanitär"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "Fahrzeug- und Maschinenwartung"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "Schweißen und Metallarbeiten"
+    }
+  ]
+}

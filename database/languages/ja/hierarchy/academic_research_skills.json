@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "アカデミックおよび研究スキル",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "アカデミックプレゼンテーション"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "データ分析"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "言語と執筆"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "数学と統計"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "科学研究"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "研究とテストの準備"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_jewelry_making",
+  "name": "جواهرات",
+  "skills": [
+    {
+      "id": "skill_4975",
+      "name": "مهره",
+      "difficulty_level": 5,
+      "description": "Learn and master Beading",
+      "tags": [
+        "beading",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4976",
+      "name": "جواهرات ریخته گری",
+      "difficulty_level": 4,
+      "description": "Learn and master Casting Jewelry",
+      "tags": [
+        "casting",
+        "jewelry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4977",
+      "name": "زنجیره",
+      "difficulty_level": 2,
+      "description": "Learn and master Chain Making",
+      "tags": [
+        "chain",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4978",
+      "name": "مینا",
+      "difficulty_level": 3,
+      "description": "Learn and master Enameling",
+      "tags": [
+        "enameling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4979",
+      "name": "تمبر فلزی",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Stamping",
+      "tags": [
+        "metal",
+        "stamping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4980",
+      "name": "پرداخت و اتمام",
+      "difficulty_level": 4,
+      "description": "Learn and master Polishing & Finishing",
+      "tags": [
+        "polishing",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4981",
+      "name": "تغییر اندازه حلقه",
+      "difficulty_level": 3,
+      "description": "Learn and master Ring Resizing",
+      "tags": [
+        "ring",
+        "resizing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4982",
+      "name": "جواهرات لحیم کاری",
+      "difficulty_level": 5,
+      "description": "Learn and master Soldering Jewelry",
+      "tags": [
+        "soldering",
+        "jewelry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4983",
+      "name": "سنگی",
+      "difficulty_level": 4,
+      "description": "Learn and master Stone Setting",
+      "tags": [
+        "stone",
+        "setting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4984",
+      "name": "بسته بندی سیم",
+      "difficulty_level": 2,
+      "description": "Learn and master Wire Wrapping",
+      "tags": [
+        "wire",
+        "wrapping",
+        "skill"
+      ]
+    }
+  ]
+}

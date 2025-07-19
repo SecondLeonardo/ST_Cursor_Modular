@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "Akademiska och forskningsfärdigheter",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "Akademisk presentation"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "Dataanalys"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "Språk och skrivande"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "Matematik och statistik"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "Vetenskaplig forskning"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "Studie & Test Prep"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_construction",
+  "name": "Konstruksi",
+  "skills": [
+    {
+      "id": "skill_5045",
+      "name": "Tuang beton",
+      "difficulty_level": 3,
+      "description": "Learn and master Concrete Pouring",
+      "tags": [
+        "concrete",
+        "pouring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5046",
+      "name": "Teknik pembongkaran",
+      "difficulty_level": 4,
+      "description": "Learn and master Demolition Techniques",
+      "tags": [
+        "demolition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5047",
+      "name": "Instalasi drywall",
+      "difficulty_level": 4,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5048",
+      "name": "Pekerjaan Yayasan",
+      "difficulty_level": 4,
+      "description": "Learn and master Foundation Work",
+      "tags": [
+        "foundation",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5049",
+      "name": "Estimasi material",
+      "difficulty_level": 1,
+      "description": "Learn and master Material Estimation",
+      "tags": [
+        "material",
+        "estimation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5050",
+      "name": "Pembingkaian atap",
+      "difficulty_level": 2,
+      "description": "Learn and master Roof Framing",
+      "tags": [
+        "roof",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5051",
+      "name": "Penggunaan harness keselamatan",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Harness Use",
+      "tags": [
+        "safety",
+        "harness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5052",
+      "name": "Pengaturan perancah",
+      "difficulty_level": 2,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5053",
+      "name": "Manajemen situs",
+      "difficulty_level": 5,
+      "description": "Learn and master Site Management",
+      "tags": [
+        "site",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5054",
+      "name": "Instalasi Jendela",
+      "difficulty_level": 3,
+      "description": "Learn and master Window Installation",
+      "tags": [
+        "window",
+        "installation",
+        "skill"
+      ]
+    }
+  ]
+}

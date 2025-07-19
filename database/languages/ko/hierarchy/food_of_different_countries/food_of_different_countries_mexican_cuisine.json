@@ -1,0 +1,116 @@
+{
+  "id": "food_of_different_countries_mexican_cuisine",
+  "name": "멕시코 요리",
+  "skills": [
+    {
+      "id": "skill_5435",
+      "name": "타코 어셈블리",
+      "difficulty_level": 4,
+      "description": "Learn and master Taco Assembly",
+      "tags": [
+        "taco",
+        "assembly",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5436",
+      "name": "살사 제작",
+      "difficulty_level": 4,
+      "description": "Learn and master Salsa Making",
+      "tags": [
+        "salsa",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5437",
+      "name": "아보카도 소스 준비",
+      "difficulty_level": 3,
+      "description": "Learn and master Guacamole Preparation",
+      "tags": [
+        "guacamole",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5438",
+      "name": "타 말레 요리",
+      "difficulty_level": 3,
+      "description": "Learn and master Tamale Cooking",
+      "tags": [
+        "tamale",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5439",
+      "name": "두더지 소스 생성",
+      "difficulty_level": 5,
+      "description": "Learn and master Mole Sauce Creation",
+      "tags": [
+        "mole",
+        "sauce",
+        "creation"
+      ]
+    },
+    {
+      "id": "skill_5440",
+      "name": "칠리 로스팅",
+      "difficulty_level": 1,
+      "description": "Learn and master Chili Roasting",
+      "tags": [
+        "chili",
+        "roasting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5441",
+      "name": "옥수수 제작",
+      "difficulty_level": 2,
+      "description": "Learn and master Tortilla Making",
+      "tags": [
+        "tortilla",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5442",
+      "name": "엔칠 라다 베이킹",
+      "difficulty_level": 1,
+      "description": "Learn and master Enchilada Baking",
+      "tags": [
+        "enchilada",
+        "baking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5443",
+      "name": "세비체 준비",
+      "difficulty_level": 4,
+      "description": "Learn and master Ceviche Preparation",
+      "tags": [
+        "ceviche",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5444",
+      "name": "향신료 블렌딩",
+      "difficulty_level": 1,
+      "description": "Learn and master Spice Blending",
+      "tags": [
+        "spice",
+        "blending",
+        "skill"
+      ]
+    }
+  ]
+}

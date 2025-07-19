@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_crafts_diy",
+  "name": "Artesanato e DIY",
+  "skills": [
+    {
+      "id": "skill_330",
+      "name": "Fazendo velas",
+      "difficulty_level": 4,
+      "description": "Learn and master Candle Making",
+      "tags": [
+        "candle",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_331",
+      "name": "Crochê",
+      "difficulty_level": 4,
+      "description": "Learn and master Crochet",
+      "tags": [
+        "crochet",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_332",
+      "name": "Decoração de casa DIY",
+      "difficulty_level": 5,
+      "description": "Learn and master DIY Home Decor",
+      "tags": [
+        "home",
+        "decor",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_333",
+      "name": "Tricô",
+      "difficulty_level": 4,
+      "description": "Learn and master Knitting",
+      "tags": [
+        "knitting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_334",
+      "name": "Macramé",
+      "difficulty_level": 2,
+      "description": "Learn and master Macramé",
+      "tags": [
+        "macramé",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_335",
+      "name": "Origami",
+      "difficulty_level": 4,
+      "description": "Learn and master Origami",
+      "tags": [
+        "origami",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_336",
+      "name": "Criação de papel",
+      "difficulty_level": 2,
+      "description": "Learn and master Paper Crafting",
+      "tags": [
+        "paper",
+        "crafting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_337",
+      "name": "Scrapbooking",
+      "difficulty_level": 1,
+      "description": "Learn and master Scrapbooking",
+      "tags": [
+        "scrapbooking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_338",
+      "name": "Projetos de costura",
+      "difficulty_level": 5,
+      "description": "Learn and master Sewing Projects",
+      "tags": [
+        "sewing",
+        "projects",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_339",
+      "name": "Woodcrafts",
+      "difficulty_level": 2,
+      "description": "Learn and master Woodcrafts",
+      "tags": [
+        "woodcrafts",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

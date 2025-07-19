@@ -1,0 +1,26 @@
+{
+  "id": "technical_engineering",
+  "name": "Técnico e Engenharia",
+  "subcategories": [
+    {
+      "id": "technical_engineering_civil_structural",
+      "name": "Civil e estrutural"
+    },
+    {
+      "id": "technical_engineering_electrical_engineering",
+      "name": "Engenharia Elétrica"
+    },
+    {
+      "id": "technical_engineering_manufacturing_fabrication",
+      "name": "Fabricação e fabricação"
+    },
+    {
+      "id": "technical_engineering_mechanical_engineering",
+      "name": "Engenharia Mecânica"
+    },
+    {
+      "id": "technical_engineering_software_systems",
+      "name": "Software e sistemas"
+    }
+  ]
+}

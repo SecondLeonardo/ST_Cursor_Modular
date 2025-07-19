@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_gardening_landscaping",
+  "name": "원예 및 조경",
+  "skills": [
+    {
+      "id": "skill_2878",
+      "name": "퇴비",
+      "difficulty_level": 5,
+      "description": "Learn and master Composting",
+      "tags": [
+        "composting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2879",
+      "name": "온실 유지 보수",
+      "difficulty_level": 2,
+      "description": "Learn and master Greenhouse Maintenance",
+      "tags": [
+        "greenhouse",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2880",
+      "name": "헤지 트리밍",
+      "difficulty_level": 2,
+      "description": "Learn and master Hedge Trimming",
+      "tags": [
+        "hedge",
+        "trimming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2881",
+      "name": "관개 설정",
+      "difficulty_level": 5,
+      "description": "Learn and master Irrigation Setup",
+      "tags": [
+        "irrigation",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2882",
+      "name": "조경 디자인",
+      "difficulty_level": 2,
+      "description": "Learn and master Landscape Design",
+      "tags": [
+        "landscape",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2883",
+      "name": "잔디 관리",
+      "difficulty_level": 2,
+      "description": "Learn and master Lawn Care",
+      "tags": [
+        "lawn",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2884",
+      "name": "정원의 해충 통제",
+      "difficulty_level": 5,
+      "description": "Learn and master Pest Control in Gardens",
+      "tags": [
+        "pest",
+        "control",
+        "gardens"
+      ]
+    },
+    {
+      "id": "skill_2885",
+      "name": "토양 테스트",
+      "difficulty_level": 3,
+      "description": "Learn and master Soil Testing",
+      "tags": [
+        "soil",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2886",
+      "name": "나무 가지 치기",
+      "difficulty_level": 1,
+      "description": "Learn and master Tree Pruning",
+      "tags": [
+        "tree",
+        "pruning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2887",
+      "name": "야채 원예",
+      "difficulty_level": 1,
+      "description": "Learn and master Vegetable Gardening",
+      "tags": [
+        "vegetable",
+        "gardening",
+        "skill"
+      ]
+    }
+  ]
+}

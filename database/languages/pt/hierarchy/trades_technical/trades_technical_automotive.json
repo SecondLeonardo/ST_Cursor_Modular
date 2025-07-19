@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_automotive",
+  "name": "Automotivo",
+  "skills": [
+    {
+      "id": "skill_5175",
+      "name": "Verificação de alinhamento",
+      "difficulty_level": 4,
+      "description": "Learn and master Alignment Checking",
+      "tags": [
+        "alignment",
+        "checking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5176",
+      "name": "Teste de bateria",
+      "difficulty_level": 2,
+      "description": "Learn and master Battery Testing",
+      "tags": [
+        "battery",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5177",
+      "name": "Substituição do freio",
+      "difficulty_level": 4,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5178",
+      "name": "Diagnóstico do motor",
+      "difficulty_level": 3,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5179",
+      "name": "Reparo do sistema de escape",
+      "difficulty_level": 5,
+      "description": "Learn and master Exhaust System Repair",
+      "tags": [
+        "exhaust",
+        "system",
+        "repair"
+      ]
+    },
+    {
+      "id": "skill_5180",
+      "name": "Mudança de óleo",
+      "difficulty_level": 5,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5181",
+      "name": "Reparo de suspensão",
+      "difficulty_level": 5,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5182",
+      "name": "Rotação dos pneus",
+      "difficulty_level": 5,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5183",
+      "name": "Reparo de transmissão",
+      "difficulty_level": 1,
+      "description": "Learn and master Transmission Repair",
+      "tags": [
+        "transmission",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5184",
+      "name": "Inspeção do veículo",
+      "difficulty_level": 5,
+      "description": "Learn and master Vehicle Inspection",
+      "tags": [
+        "vehicle",
+        "inspection",
+        "skill"
+      ]
+    }
+  ]
+}

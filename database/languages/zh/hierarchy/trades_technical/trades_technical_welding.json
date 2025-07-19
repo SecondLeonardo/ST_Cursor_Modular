@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_welding",
+  "name": "焊接",
+  "skills": [
+    {
+      "id": "skill_5265",
+      "name": "电弧焊接",
+      "difficulty_level": 5,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5266",
+      "name": "蓝图解释",
+      "difficulty_level": 4,
+      "description": "Learn and master Blueprint Interpretation",
+      "tags": [
+        "blueprint",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5267",
+      "name": "MIG焊接",
+      "difficulty_level": 4,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5268",
+      "name": "金属切割",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Cutting",
+      "tags": [
+        "metal",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5269",
+      "name": "管道焊接",
+      "difficulty_level": 4,
+      "description": "Learn and master Pipe Welding",
+      "tags": [
+        "pipe",
+        "welding",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5270",
+      "name": "提格焊接",
+      "difficulty_level": 5,
+      "description": "Learn and master TIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5271",
+      "name": "焊接检查",
+      "difficulty_level": 3,
+      "description": "Learn and master Weld Inspection",
+      "tags": [
+        "weld",
+        "inspection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5272",
+      "name": "焊接制造",
+      "difficulty_level": 1,
+      "description": "Learn and master Welding Fabrication",
+      "tags": [
+        "welding",
+        "fabrication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5273",
+      "name": "焊接安全",
+      "difficulty_level": 1,
+      "description": "Learn and master Welding Safety",
+      "tags": [
+        "welding",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5274",
+      "name": "焊接符号阅读",
+      "difficulty_level": 5,
+      "description": "Learn and master Welding Symbol Reading",
+      "tags": [
+        "welding",
+        "symbol",
+        "reading"
+      ]
+    }
+  ]
+}

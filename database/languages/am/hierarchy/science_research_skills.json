@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "የሳይንስ እና የምርምር ችሎታዎች",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "አካዴሚያዊ ጽሑፍ"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "ባዮሎጂያዊ ሳይንስ"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "የኮምፒተር እና የውሂብ ሳይንስ"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "ምድር እና አካባቢያዊ ሳይንስ"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "የምህንድስና ሳይንስ"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "ሂሳብ እና ስታቲስቲክስ"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "የህክምና እና የጤና ሳይንስ"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "አካላዊ ሳይንስ"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "የምርምር ዘዴዎች"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "ማህበራዊ ሳይንስ"
+    }
+  ]
+}

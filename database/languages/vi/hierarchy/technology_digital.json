@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "Công nghệ & kỹ thuật số",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "An ninh mạng"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "Dữ liệu & AI"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "Tiếp thị kỹ thuật số"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "Nó & mạng"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "Phát triển phần mềm"
+    }
+  ]
+}

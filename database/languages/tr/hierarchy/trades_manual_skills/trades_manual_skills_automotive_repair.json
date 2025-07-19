@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_automotive_repair",
+  "name": "Otomotiv onarımı",
+  "skills": [
+    {
+      "id": "skill_5025",
+      "name": "Klima onarımı",
+      "difficulty_level": 3,
+      "description": "Learn and master Air Conditioning Repair",
+      "tags": [
+        "conditioning",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5026",
+      "name": "Pil Değiştirme",
+      "difficulty_level": 3,
+      "description": "Learn and master Battery Replacement",
+      "tags": [
+        "battery",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5027",
+      "name": "Fren değiştirme",
+      "difficulty_level": 2,
+      "description": "Learn and master Brake Replacement",
+      "tags": [
+        "brake",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5028",
+      "name": "Motor Teşhisi",
+      "difficulty_level": 4,
+      "description": "Learn and master Engine Diagnostics",
+      "tags": [
+        "engine",
+        "diagnostics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5029",
+      "name": "Akışkan kontrolleri",
+      "difficulty_level": 5,
+      "description": "Learn and master Fluid Checks",
+      "tags": [
+        "fluid",
+        "checks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5030",
+      "name": "Yağ değişimi",
+      "difficulty_level": 4,
+      "description": "Learn and master Oil Change",
+      "tags": [
+        "change",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5031",
+      "name": "Buji değiştirme",
+      "difficulty_level": 2,
+      "description": "Learn and master Spark Plug Replacement",
+      "tags": [
+        "spark",
+        "plug",
+        "replacement"
+      ]
+    },
+    {
+      "id": "skill_5032",
+      "name": "Süspansiyon",
+      "difficulty_level": 3,
+      "description": "Learn and master Suspension Repair",
+      "tags": [
+        "suspension",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5033",
+      "name": "Lastik dönüşü",
+      "difficulty_level": 2,
+      "description": "Learn and master Tire Rotation",
+      "tags": [
+        "tire",
+        "rotation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5034",
+      "name": "Şanzıman bakımı",
+      "difficulty_level": 2,
+      "description": "Learn and master Transmission Maintenance",
+      "tags": [
+        "transmission",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

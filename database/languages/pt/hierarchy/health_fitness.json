@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "Saúde e Fitness",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "Cuidado com o corpo e bem -estar"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "Primeiros socorros e segurança"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "Saúde mental"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "Nutrição e dieta"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "Treinamento físico"
+    }
+  ]
+}

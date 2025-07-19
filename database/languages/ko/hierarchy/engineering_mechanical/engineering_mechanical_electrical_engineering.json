@@ -1,0 +1,116 @@
+{
+  "id": "engineering_mechanical_electrical_engineering",
+  "name": "전기 공학",
+  "skills": [
+    {
+      "id": "skill_2363",
+      "name": "아날로그 디자인",
+      "difficulty_level": 1,
+      "description": "Learn and master Analog Design",
+      "tags": [
+        "analog",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2364",
+      "name": "회로 분석",
+      "difficulty_level": 3,
+      "description": "Learn and master Circuit Analysis",
+      "tags": [
+        "circuit",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2365",
+      "name": "제어 엔지니어링",
+      "difficulty_level": 4,
+      "description": "Learn and master Control Engineering",
+      "tags": [
+        "control",
+        "engineering",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2366",
+      "name": "디지털 전자 장치",
+      "difficulty_level": 1,
+      "description": "Learn and master Digital Electronics",
+      "tags": [
+        "digital",
+        "electronics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2367",
+      "name": "전기 모터",
+      "difficulty_level": 3,
+      "description": "Learn and master Electric Motors",
+      "tags": [
+        "electric",
+        "motors",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2368",
+      "name": "임베디드 시스템",
+      "difficulty_level": 2,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2369",
+      "name": "전력 분배",
+      "difficulty_level": 2,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2370",
+      "name": "전력 전자 장치",
+      "difficulty_level": 5,
+      "description": "Learn and master Power Electronics",
+      "tags": [
+        "power",
+        "electronics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2371",
+      "name": "반도체 장치",
+      "difficulty_level": 1,
+      "description": "Learn and master Semiconductor Devices",
+      "tags": [
+        "semiconductor",
+        "devices",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2372",
+      "name": "신호 처리",
+      "difficulty_level": 4,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    }
+  ]
+}

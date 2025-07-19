@@ -1,0 +1,116 @@
+{
+  "id": "health_fitness_body_care_wellness",
+  "name": "Care del corpo e benessere",
+  "skills": [
+    {
+      "id": "skill_2443",
+      "name": "Terapia fredda",
+      "difficulty_level": 2,
+      "description": "Learn and master Cold Therapy",
+      "tags": [
+        "cold",
+        "therapy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2444",
+      "name": "Allungamento quotidiano",
+      "difficulty_level": 5,
+      "description": "Learn and master Daily Stretching",
+      "tags": [
+        "daily",
+        "stretching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2445",
+      "name": "Sollievo a tensione oculare",
+      "difficulty_level": 1,
+      "description": "Learn and master Eye Strain Relief",
+      "tags": [
+        "strain",
+        "relief",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2446",
+      "name": "Rotolamento in schiuma",
+      "difficulty_level": 1,
+      "description": "Learn and master Foam Rolling",
+      "tags": [
+        "foam",
+        "rolling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2447",
+      "name": "Tecniche di massaggio",
+      "difficulty_level": 2,
+      "description": "Learn and master Massage Techniques",
+      "tags": [
+        "massage",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2448",
+      "name": "Cura delle unghie",
+      "difficulty_level": 4,
+      "description": "Learn and master Nail Care",
+      "tags": [
+        "nail",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2449",
+      "name": "Igiene orale",
+      "difficulty_level": 3,
+      "description": "Learn and master Oral Hygiene",
+      "tags": [
+        "oral",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2450",
+      "name": "Correzione della postura",
+      "difficulty_level": 5,
+      "description": "Learn and master Posture Correction",
+      "tags": [
+        "posture",
+        "correction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2451",
+      "name": "Uso della sauna",
+      "difficulty_level": 4,
+      "description": "Learn and master Sauna Use",
+      "tags": [
+        "sauna",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2452",
+      "name": "Routine di cura della pelle",
+      "difficulty_level": 2,
+      "description": "Learn and master Skincare Routine",
+      "tags": [
+        "skincare",
+        "routine",
+        "skill"
+      ]
+    }
+  ]
+}

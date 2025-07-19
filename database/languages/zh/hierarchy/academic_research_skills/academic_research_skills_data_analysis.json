@@ -1,0 +1,117 @@
+{
+  "id": "academic_research_skills_data_analysis",
+  "name": "数据分析",
+  "skills": [
+    {
+      "id": "skill_270",
+      "name": "相关与因果关系",
+      "difficulty_level": 4,
+      "description": "Learn and master Correlation vs Causation",
+      "tags": [
+        "correlation",
+        "causation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_271",
+      "name": "创建枢轴表",
+      "difficulty_level": 3,
+      "description": "Learn and master Creating Pivot Tables",
+      "tags": [
+        "creating",
+        "pivot",
+        "tables"
+      ]
+    },
+    {
+      "id": "skill_272",
+      "name": "数据清洁",
+      "difficulty_level": 3,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_273",
+      "name": "数据可视化",
+      "difficulty_level": 1,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_274",
+      "name": "从数据中得出结论",
+      "difficulty_level": 5,
+      "description": "Learn and master Drawing Conclusions from Data",
+      "tags": [
+        "drawing",
+        "conclusions",
+        "from",
+        "data"
+      ]
+    },
+    {
+      "id": "skill_275",
+      "name": "解释图",
+      "difficulty_level": 1,
+      "description": "Learn and master Interpreting Graphs",
+      "tags": [
+        "interpreting",
+        "graphs",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_276",
+      "name": "统计解释",
+      "difficulty_level": 3,
+      "description": "Learn and master Statistical Interpretation",
+      "tags": [
+        "statistical",
+        "interpretation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_277",
+      "name": "使用Excel进行数据",
+      "difficulty_level": 4,
+      "description": "Learn and master Using Excel for Data",
+      "tags": [
+        "using",
+        "excel",
+        "data"
+      ]
+    },
+    {
+      "id": "skill_278",
+      "name": "使用R进行分析",
+      "difficulty_level": 1,
+      "description": "Learn and master Using R for Analysis",
+      "tags": [
+        "using",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_279",
+      "name": "使用SPSS",
+      "difficulty_level": 4,
+      "description": "Learn and master Using SPSS",
+      "tags": [
+        "using",
+        "spss",
+        "skill"
+      ]
+    }
+  ]
+}

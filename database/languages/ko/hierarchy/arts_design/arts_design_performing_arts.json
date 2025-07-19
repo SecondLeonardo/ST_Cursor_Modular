@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_performing_arts",
+  "name": "공연 예술",
+  "skills": [
+    {
+      "id": "skill_590",
+      "name": "오디션 준비",
+      "difficulty_level": 2,
+      "description": "Learn and master Audition Preparation",
+      "tags": [
+        "audition",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_591",
+      "name": "캐릭터 개발",
+      "difficulty_level": 3,
+      "description": "Learn and master Character Development",
+      "tags": [
+        "character",
+        "development",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_592",
+      "name": "안무",
+      "difficulty_level": 3,
+      "description": "Learn and master Choreography",
+      "tags": [
+        "choreography",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_593",
+      "name": "즉흥",
+      "difficulty_level": 1,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_594",
+      "name": "몸짓 광대극",
+      "difficulty_level": 5,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_595",
+      "name": "독백 전달",
+      "difficulty_level": 3,
+      "description": "Learn and master Monologue Delivery",
+      "tags": [
+        "monologue",
+        "delivery",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_596",
+      "name": "무대 관리",
+      "difficulty_level": 4,
+      "description": "Learn and master Stage Management",
+      "tags": [
+        "stage",
+        "management",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_597",
+      "name": "무대 존재",
+      "difficulty_level": 1,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_598",
+      "name": "극장 연기",
+      "difficulty_level": 4,
+      "description": "Learn and master Theater Acting",
+      "tags": [
+        "theater",
+        "acting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_599",
+      "name": "음성 투영",
+      "difficulty_level": 3,
+      "description": "Learn and master Voice Projection",
+      "tags": [
+        "voice",
+        "projection",
+        "skill"
+      ]
+    }
+  ]
+}

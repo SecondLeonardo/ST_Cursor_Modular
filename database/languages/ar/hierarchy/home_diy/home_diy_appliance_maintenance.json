@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_appliance_maintenance",
+  "name": "صيانة الأجهزة",
+  "skills": [
+    {
+      "id": "skill_2838",
+      "name": "استبدال مرشح AC",
+      "difficulty_level": 4,
+      "description": "Learn and master AC Filter Replacement",
+      "tags": [
+        "filter",
+        "replacement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2839",
+      "name": "إزالة آلات القهوة",
+      "difficulty_level": 4,
+      "description": "Learn and master De-scaling Coffee Machines",
+      "tags": [
+        "de-scaling",
+        "coffee",
+        "machines"
+      ]
+    },
+    {
+      "id": "skill_2840",
+      "name": "تنظيف مرشح غسالة الصحون",
+      "difficulty_level": 3,
+      "description": "Learn and master Dishwasher Filter Cleaning",
+      "tags": [
+        "dishwasher",
+        "filter",
+        "cleaning"
+      ]
+    },
+    {
+      "id": "skill_2841",
+      "name": "إزالة الوبر المجفف",
+      "difficulty_level": 3,
+      "description": "Learn and master Dryer Lint Removal",
+      "tags": [
+        "dryer",
+        "lint",
+        "removal"
+      ]
+    },
+    {
+      "id": "skill_2842",
+      "name": "تنظيف الميكروويف",
+      "difficulty_level": 1,
+      "description": "Learn and master Microwave Cleaning",
+      "tags": [
+        "microwave",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2843",
+      "name": "معايرة الفرن",
+      "difficulty_level": 3,
+      "description": "Learn and master Oven Calibration",
+      "tags": [
+        "oven",
+        "calibration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2844",
+      "name": "تنظيف الثلاجة",
+      "difficulty_level": 3,
+      "description": "Learn and master Refrigerator Cleaning",
+      "tags": [
+        "refrigerator",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2845",
+      "name": "أجهزة صغيرة استكشاف الأخطاء وإصلاحها",
+      "difficulty_level": 4,
+      "description": "Learn and master Small Appliance Troubleshooting",
+      "tags": [
+        "small",
+        "appliance",
+        "troubleshooting"
+      ]
+    },
+    {
+      "id": "skill_2846",
+      "name": "إصلاح فراغ",
+      "difficulty_level": 3,
+      "description": "Learn and master Vacuum Repair",
+      "tags": [
+        "vacuum",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2847",
+      "name": "صيانة الغسالة",
+      "difficulty_level": 5,
+      "description": "Learn and master Washer Maintenance",
+      "tags": [
+        "washer",
+        "maintenance",
+        "skill"
+      ]
+    }
+  ]
+}

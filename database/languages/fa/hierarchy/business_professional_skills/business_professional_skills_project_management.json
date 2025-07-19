@@ -1,0 +1,116 @@
+{
+  "id": "business_professional_skills_project_management",
+  "name": "مدیریت پروژه",
+  "skills": [
+    {
+      "id": "skill_1038",
+      "name": "برنامه ریزی چابک",
+      "difficulty_level": 1,
+      "description": "Learn and master Agile Planning",
+      "tags": [
+        "agile",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1039",
+      "name": "ایجاد گاو",
+      "difficulty_level": 1,
+      "description": "Learn and master Creating SOWs",
+      "tags": [
+        "creating",
+        "sows",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1040",
+      "name": "تجزیه و تحلیل مسیر بحرانی",
+      "difficulty_level": 4,
+      "description": "Learn and master Critical Path Analysis",
+      "tags": [
+        "critical",
+        "path",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_1041",
+      "name": "مدیریت چرخه عمر پروژه",
+      "difficulty_level": 5,
+      "description": "Learn and master Project Lifecycle Management",
+      "tags": [
+        "project",
+        "lifecycle",
+        "management"
+      ]
+    },
+    {
+      "id": "skill_1042",
+      "name": "گذشته نگر پروژه",
+      "difficulty_level": 3,
+      "description": "Learn and master Project Retrospectives",
+      "tags": [
+        "project",
+        "retrospectives",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1043",
+      "name": "ارزیابی خطر",
+      "difficulty_level": 3,
+      "description": "Learn and master Risk Assessment",
+      "tags": [
+        "risk",
+        "assessment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1044",
+      "name": "روش شناسی",
+      "difficulty_level": 2,
+      "description": "Learn and master SCRUM Methodology",
+      "tags": [
+        "scrum",
+        "methodology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1045",
+      "name": "برنامه ریزی اسپرینت",
+      "difficulty_level": 2,
+      "description": "Learn and master Sprint Planning",
+      "tags": [
+        "sprint",
+        "planning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1046",
+      "name": "ارتباط ذینفعان",
+      "difficulty_level": 5,
+      "description": "Learn and master Stakeholder Communication",
+      "tags": [
+        "stakeholder",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_1047",
+      "name": "با استفاده از نمودارهای گانت",
+      "difficulty_level": 3,
+      "description": "Learn and master Using Gantt Charts",
+      "tags": [
+        "using",
+        "gantt",
+        "charts"
+      ]
+    }
+  ]
+}

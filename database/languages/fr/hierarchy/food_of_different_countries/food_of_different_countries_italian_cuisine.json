@@ -1,0 +1,120 @@
+{
+  "id": "food_of_different_countries_italian_cuisine",
+  "name": "Cuisine italienne",
+  "skills": [
+    {
+      "id": "skill_5415",
+      "name": "Faire des pâtes",
+      "difficulty_level": 4,
+      "description": "Learn and master Pasta Making",
+      "tags": [
+        "pasta",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5416",
+      "name": "Préparation de la pâte à pizza",
+      "difficulty_level": 2,
+      "description": "Learn and master Pizza Dough Preparation",
+      "tags": [
+        "pizza",
+        "dough",
+        "preparation"
+      ]
+    },
+    {
+      "id": "skill_5417",
+      "name": "Cuisson à risotto",
+      "difficulty_level": 3,
+      "description": "Learn and master Risotto Cooking",
+      "tags": [
+        "risotto",
+        "cooking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5418",
+      "name": "Création de tiramisu",
+      "difficulty_level": 1,
+      "description": "Learn and master Tiramisu Creation",
+      "tags": [
+        "tiramisu",
+        "creation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5419",
+      "name": "Faire de la sauce (par exemple, Marinara, Alfredo)",
+      "difficulty_level": 1,
+      "description": "Learn and master Sauce Making (e.g., Marinara, Alfredo)",
+      "tags": [
+        "sauce",
+        "making",
+        "(e.g.,",
+        "marinara,",
+        "alfredo)"
+      ]
+    },
+    {
+      "id": "skill_5420",
+      "name": "Placage antipasto",
+      "difficulty_level": 1,
+      "description": "Learn and master Antipasto Plating",
+      "tags": [
+        "antipasto",
+        "plating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5421",
+      "name": "Gelato",
+      "difficulty_level": 2,
+      "description": "Learn and master Gelato Making",
+      "tags": [
+        "gelato",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5422",
+      "name": "Cuisson au pain italien",
+      "difficulty_level": 1,
+      "description": "Learn and master Italian Bread Baking",
+      "tags": [
+        "italian",
+        "bread",
+        "baking"
+      ]
+    },
+    {
+      "id": "skill_5423",
+      "name": "Utilisation des herbes (par exemple, basilic, oregan)",
+      "difficulty_level": 2,
+      "description": "Learn and master Herb Usage (e.g., Basil, Oregano)",
+      "tags": [
+        "herb",
+        "usage",
+        "(e.g.,",
+        "basil,",
+        "oregano)"
+      ]
+    },
+    {
+      "id": "skill_5424",
+      "name": "Paires de vins",
+      "difficulty_level": 5,
+      "description": "Learn and master Wine Pairing",
+      "tags": [
+        "wine",
+        "pairing",
+        "skill"
+      ]
+    }
+  ]
+}

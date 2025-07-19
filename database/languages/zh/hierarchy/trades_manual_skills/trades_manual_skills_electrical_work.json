@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_electrical_work",
+  "name": "电气工作",
+  "skills": [
+    {
+      "id": "skill_5085",
+      "name": "断路器面板设置",
+      "difficulty_level": 1,
+      "description": "Learn and master Breaker Panel Setup",
+      "tags": [
+        "breaker",
+        "panel",
+        "setup"
+      ]
+    },
+    {
+      "id": "skill_5086",
+      "name": "电路安装",
+      "difficulty_level": 5,
+      "description": "Learn and master Circuit Installation",
+      "tags": [
+        "circuit",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5087",
+      "name": "导管弯曲",
+      "difficulty_level": 2,
+      "description": "Learn and master Conduit Bending",
+      "tags": [
+        "conduit",
+        "bending",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5088",
+      "name": "电代码知识",
+      "difficulty_level": 2,
+      "description": "Learn and master Electrical Code Knowledge",
+      "tags": [
+        "electrical",
+        "code",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "skill_5089",
+      "name": "照明系统",
+      "difficulty_level": 5,
+      "description": "Learn and master Lighting Systems",
+      "tags": [
+        "lighting",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5090",
+      "name": "出口安装",
+      "difficulty_level": 5,
+      "description": "Learn and master Outlet Installation",
+      "tags": [
+        "outlet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5091",
+      "name": "安全协议",
+      "difficulty_level": 2,
+      "description": "Learn and master Safety Protocols",
+      "tags": [
+        "safety",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5092",
+      "name": "太阳能电池板接线",
+      "difficulty_level": 2,
+      "description": "Learn and master Solar Panel Wiring",
+      "tags": [
+        "solar",
+        "panel",
+        "wiring"
+      ]
+    },
+    {
+      "id": "skill_5093",
+      "name": "电压测试",
+      "difficulty_level": 3,
+      "description": "Learn and master Voltage Testing",
+      "tags": [
+        "voltage",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5094",
+      "name": "接线和重新布线",
+      "difficulty_level": 4,
+      "description": "Learn and master Wiring & Rewiring",
+      "tags": [
+        "wiring",
+        "rewiring",
+        "skill"
+      ]
+    }
+  ]
+}

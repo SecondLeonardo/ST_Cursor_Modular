@@ -1,0 +1,30 @@
+{
+  "id": "technical_mechanical_skills",
+  "name": "Umiejętności techniczne i mechaniczne",
+  "subcategories": [
+    {
+      "id": "technical_mechanical_skills_automotive_skills",
+      "name": "Umiejętności motoryzacyjne"
+    },
+    {
+      "id": "technical_mechanical_skills_construction_building",
+      "name": "Budowa i budynek"
+    },
+    {
+      "id": "technical_mechanical_skills_electrical_work",
+      "name": "Praca elektryczna"
+    },
+    {
+      "id": "technical_mechanical_skills_energy_environment",
+      "name": "Energia i środowisko"
+    },
+    {
+      "id": "technical_mechanical_skills_industrial_skills",
+      "name": "Umiejętności przemysłowe"
+    },
+    {
+      "id": "technical_mechanical_skills_mechanical_repairs",
+      "name": "Naprawy mechaniczne"
+    }
+  ]
+}

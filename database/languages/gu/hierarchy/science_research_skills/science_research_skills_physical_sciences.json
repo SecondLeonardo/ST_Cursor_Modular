@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_physical_sciences",
+  "name": "શારીરિક વિજ્ scાન",
+  "skills": [
+    {
+      "id": "skill_4118",
+      "name": "વિશ્લેષણાત્મક રસાયણશાસ્ત્ર",
+      "difficulty_level": 5,
+      "description": "Learn and master Analytical Chemistry",
+      "tags": [
+        "analytical",
+        "chemistry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4119",
+      "name": "રાસાયણિક સંશ્લેષણ",
+      "difficulty_level": 4,
+      "description": "Learn and master Chemical Synthesis",
+      "tags": [
+        "chemical",
+        "synthesis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4120",
+      "name": "રસાયણશાસ્ત્ર પ્રયોગ",
+      "difficulty_level": 1,
+      "description": "Learn and master Chemistry Lab Work",
+      "tags": [
+        "chemistry",
+        "work",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4121",
+      "name": "વીજળીવાદ",
+      "difficulty_level": 2,
+      "description": "Learn and master Electromagnetism",
+      "tags": [
+        "electromagnetism",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4122",
+      "name": "ભૌતિક વિજ્ scienceાન",
+      "difficulty_level": 3,
+      "description": "Learn and master Material Science",
+      "tags": [
+        "material",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4123",
+      "name": "વિભિન્ન ભૌતિકવિજ્icsાન",
+      "difficulty_level": 5,
+      "description": "Learn and master Nuclear Physics",
+      "tags": [
+        "nuclear",
+        "physics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4124",
+      "name": "ભૌતિકશાસ્ત્ર ખ્યાલો",
+      "difficulty_level": 3,
+      "description": "Learn and master Physics Concepts",
+      "tags": [
+        "physics",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4125",
+      "name": "જથ્થાબંધ મિકેનિક",
+      "difficulty_level": 2,
+      "description": "Learn and master Quantum Mechanics",
+      "tags": [
+        "quantum",
+        "mechanics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4126",
+      "name": "વર્ણપત્ર",
+      "difficulty_level": 5,
+      "description": "Learn and master Spectroscopy",
+      "tags": [
+        "spectroscopy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4127",
+      "name": "ઉષ્ણકટિબંધશાસ્ત્ર",
+      "difficulty_level": 4,
+      "description": "Learn and master Thermodynamics",
+      "tags": [
+        "thermodynamics",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

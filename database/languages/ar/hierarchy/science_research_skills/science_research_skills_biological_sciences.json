@@ -1,0 +1,116 @@
+{
+  "id": "science_research_skills_biological_sciences",
+  "name": "العلوم البيولوجية",
+  "skills": [
+    {
+      "id": "skill_4058",
+      "name": "الإحصاء الحيوي",
+      "difficulty_level": 4,
+      "description": "Learn and master Biostatistics",
+      "tags": [
+        "biostatistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4059",
+      "name": "علم النبات",
+      "difficulty_level": 1,
+      "description": "Learn and master Botany",
+      "tags": [
+        "botany",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4060",
+      "name": "ثقافة الخلايا",
+      "difficulty_level": 3,
+      "description": "Learn and master Cell Culture",
+      "tags": [
+        "cell",
+        "culture",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4061",
+      "name": "علم البيئة",
+      "difficulty_level": 5,
+      "description": "Learn and master Ecology",
+      "tags": [
+        "ecology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4062",
+      "name": "البحوث الميدانية",
+      "difficulty_level": 5,
+      "description": "Learn and master Field Research",
+      "tags": [
+        "field",
+        "research",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4063",
+      "name": "علم الوراثة",
+      "difficulty_level": 4,
+      "description": "Learn and master Genetics",
+      "tags": [
+        "genetics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4064",
+      "name": "بروتوكولات سلامة المختبر",
+      "difficulty_level": 3,
+      "description": "Learn and master Lab Safety Protocols",
+      "tags": [
+        "safety",
+        "protocols",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4065",
+      "name": "علم الأحياء الدقيقة",
+      "difficulty_level": 2,
+      "description": "Learn and master Microbiology",
+      "tags": [
+        "microbiology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4066",
+      "name": "البيولوجيا الجزيئية",
+      "difficulty_level": 2,
+      "description": "Learn and master Molecular Biology",
+      "tags": [
+        "molecular",
+        "biology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4067",
+      "name": "علم الحيوان",
+      "difficulty_level": 1,
+      "description": "Learn and master Zoology",
+      "tags": [
+        "zoology",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "வெவ்வேறு நாடுகளின் உணவு",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "இத்தாலிய உணவு"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "ஜப்பானிய உணவு"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "மெக்சிகன் உணவு"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "இந்திய உணவு"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "பிரஞ்சு உணவு"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "சீன உணவு"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "மத்திய கிழக்கு உணவு"
+    }
+  ]
+}

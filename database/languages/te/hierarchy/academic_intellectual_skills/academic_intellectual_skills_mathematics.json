@@ -1,0 +1,226 @@
+{
+  "id": "academic_intellectual_skills_mathematics",
+  "name": "గణితం",
+  "skills": [
+    {
+      "id": "skill_170",
+      "name": "బీజగణితం",
+      "difficulty_level": 1,
+      "description": "Learn and master Algebra",
+      "tags": [
+        "algebra",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_171",
+      "name": "బీజగణిత సమీకరణాలు",
+      "difficulty_level": 3,
+      "description": "Learn and master Algebraic Equations",
+      "tags": [
+        "algebraic",
+        "equations",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_172",
+      "name": "ప్రాథమిక అంకగణితం",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Arithmetic",
+      "tags": [
+        "basic",
+        "arithmetic",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_173",
+      "name": "కాలిక్యులస్",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus",
+      "tags": [
+        "calculus",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_174",
+      "name": "కాలిక్యులస్ ఫండమెంటల్స్",
+      "difficulty_level": 3,
+      "description": "Learn and master Calculus Fundamentals",
+      "tags": [
+        "calculus",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_175",
+      "name": "భిన్నాలు & దశాంశాలు",
+      "difficulty_level": 1,
+      "description": "Learn and master Fractions & Decimals",
+      "tags": [
+        "fractions",
+        "decimals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_176",
+      "name": "జ్యామితి",
+      "difficulty_level": 5,
+      "description": "Learn and master Geometry",
+      "tags": [
+        "geometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_177",
+      "name": "జ్యామితి భావనలు",
+      "difficulty_level": 4,
+      "description": "Learn and master Geometry Concepts",
+      "tags": [
+        "geometry",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_178",
+      "name": "లీనియర్ బీజగణితం",
+      "difficulty_level": 5,
+      "description": "Learn and master Linear Algebra",
+      "tags": [
+        "linear",
+        "algebra",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_179",
+      "name": "గణిత సమస్య పరిష్కారం",
+      "difficulty_level": 1,
+      "description": "Learn and master Math Problem Solving",
+      "tags": [
+        "math",
+        "problem",
+        "solving"
+      ]
+    },
+    {
+      "id": "skill_180",
+      "name": "గణిత పద సమస్యలు",
+      "difficulty_level": 5,
+      "description": "Learn and master Math Word Problems",
+      "tags": [
+        "math",
+        "word",
+        "problems"
+      ]
+    },
+    {
+      "id": "skill_181",
+      "name": "గణిత మోడలింగ్",
+      "difficulty_level": 1,
+      "description": "Learn and master Mathematical Modeling",
+      "tags": [
+        "mathematical",
+        "modeling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_182",
+      "name": "మానసిక గణితం",
+      "difficulty_level": 4,
+      "description": "Learn and master Mental Math",
+      "tags": [
+        "mental",
+        "math",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_183",
+      "name": "మానసిక గణిత ఉపాయాలు",
+      "difficulty_level": 2,
+      "description": "Learn and master Mental Math Tricks",
+      "tags": [
+        "mental",
+        "math",
+        "tricks"
+      ]
+    },
+    {
+      "id": "skill_184",
+      "name": "సంఖ్య సిద్ధాంతం",
+      "difficulty_level": 2,
+      "description": "Learn and master Number Theory",
+      "tags": [
+        "number",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_185",
+      "name": "సంభావ్యత & గణాంకాలు",
+      "difficulty_level": 2,
+      "description": "Learn and master Probability & Statistics",
+      "tags": [
+        "probability",
+        "statistics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_186",
+      "name": "సరళ సమీకరణాలను పరిష్కరించడం",
+      "difficulty_level": 5,
+      "description": "Learn and master Solving Linear Equations",
+      "tags": [
+        "solving",
+        "linear",
+        "equations"
+      ]
+    },
+    {
+      "id": "skill_187",
+      "name": "గణాంకాలు",
+      "difficulty_level": 2,
+      "description": "Learn and master Statistics",
+      "tags": [
+        "statistics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_188",
+      "name": "త్రికోణమితి",
+      "difficulty_level": 4,
+      "description": "Learn and master Trigonometry",
+      "tags": [
+        "trigonometry",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_189",
+      "name": "గ్రాఫింగ్ కాలిక్యులేటర్ ఉపయోగించి",
+      "difficulty_level": 3,
+      "description": "Learn and master Using a Graphing Calculator",
+      "tags": [
+        "using",
+        "graphing",
+        "calculator"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_plumbing",
+  "name": "ประปา",
+  "skills": [
+    {
+      "id": "skill_5145",
+      "name": "การกำจัดสิ่งอุดตัน",
+      "difficulty_level": 3,
+      "description": "Learn and master Clog Removal",
+      "tags": [
+        "clog",
+        "removal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5146",
+      "name": "ระบบระบายน้ำ",
+      "difficulty_level": 3,
+      "description": "Learn and master Drainage Systems",
+      "tags": [
+        "drainage",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5147",
+      "name": "การติดตั้งติดตั้ง",
+      "difficulty_level": 1,
+      "description": "Learn and master Fixture Installation",
+      "tags": [
+        "fixture",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5148",
+      "name": "ระบบ Greywater",
+      "difficulty_level": 5,
+      "description": "Learn and master Greywater Systems",
+      "tags": [
+        "greywater",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5149",
+      "name": "การตรวจจับการรั่วไหล",
+      "difficulty_level": 5,
+      "description": "Learn and master Leak Detection",
+      "tags": [
+        "leak",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5150",
+      "name": "การติดตั้ง PEX",
+      "difficulty_level": 1,
+      "description": "Learn and master PEX Installation",
+      "tags": [
+        "installation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5151",
+      "name": "การติดตั้งท่อ",
+      "difficulty_level": 3,
+      "description": "Learn and master Pipe Fitting",
+      "tags": [
+        "pipe",
+        "fitting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5152",
+      "name": "ท่อบัดกรี",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering Pipes",
+      "tags": [
+        "soldering",
+        "pipes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5153",
+      "name": "ซ่อมแซมห้องน้ำ",
+      "difficulty_level": 4,
+      "description": "Learn and master Toilet Repair",
+      "tags": [
+        "toilet",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5154",
+      "name": "การตั้งค่าเครื่องทำน้ำอุ่น",
+      "difficulty_level": 5,
+      "description": "Learn and master Water Heater Setup",
+      "tags": [
+        "water",
+        "heater",
+        "setup"
+      ]
+    }
+  ]
+}

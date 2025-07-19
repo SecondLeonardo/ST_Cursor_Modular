@@ -1,0 +1,46 @@
+{
+  "id": "trades_technical",
+  "name": "Perdagangan & Teknis",
+  "subcategories": [
+    {
+      "id": "trades_technical_automotive",
+      "name": "Otomotif"
+    },
+    {
+      "id": "trades_technical_carpentry",
+      "name": "Pekerjaan tukang kayu"
+    },
+    {
+      "id": "trades_technical_construction",
+      "name": "Konstruksi"
+    },
+    {
+      "id": "trades_technical_electrical",
+      "name": "Listrik"
+    },
+    {
+      "id": "trades_technical_hvac",
+      "name": "Hvac"
+    },
+    {
+      "id": "trades_technical_masonry",
+      "name": "Batu"
+    },
+    {
+      "id": "trades_technical_mechanical",
+      "name": "Mekanis"
+    },
+    {
+      "id": "trades_technical_painting_decorating",
+      "name": "Lukisan & Dekorasi"
+    },
+    {
+      "id": "trades_technical_plumbing",
+      "name": "Pipa saluran air"
+    },
+    {
+      "id": "trades_technical_welding",
+      "name": "Pengelasan"
+    }
+  ]
+}

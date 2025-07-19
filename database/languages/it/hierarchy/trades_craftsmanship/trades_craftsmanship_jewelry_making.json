@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_jewelry_making",
+  "name": "Gioielli",
+  "skills": [
+    {
+      "id": "skill_4975",
+      "name": "Perline",
+      "difficulty_level": 5,
+      "description": "Learn and master Beading",
+      "tags": [
+        "beading",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4976",
+      "name": "Gioielli di fusione",
+      "difficulty_level": 4,
+      "description": "Learn and master Casting Jewelry",
+      "tags": [
+        "casting",
+        "jewelry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4977",
+      "name": "Making Chain",
+      "difficulty_level": 2,
+      "description": "Learn and master Chain Making",
+      "tags": [
+        "chain",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4978",
+      "name": "Smalto",
+      "difficulty_level": 3,
+      "description": "Learn and master Enameling",
+      "tags": [
+        "enameling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4979",
+      "name": "Stamping in metallo",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Stamping",
+      "tags": [
+        "metal",
+        "stamping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4980",
+      "name": "Lucidare e finire",
+      "difficulty_level": 4,
+      "description": "Learn and master Polishing & Finishing",
+      "tags": [
+        "polishing",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4981",
+      "name": "Ridimensionamento dell'anello",
+      "difficulty_level": 3,
+      "description": "Learn and master Ring Resizing",
+      "tags": [
+        "ring",
+        "resizing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4982",
+      "name": "Gioielli di saldatura",
+      "difficulty_level": 5,
+      "description": "Learn and master Soldering Jewelry",
+      "tags": [
+        "soldering",
+        "jewelry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4983",
+      "name": "Ambiente in pietra",
+      "difficulty_level": 4,
+      "description": "Learn and master Stone Setting",
+      "tags": [
+        "stone",
+        "setting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4984",
+      "name": "Avvolgimento del filo",
+      "difficulty_level": 2,
+      "description": "Learn and master Wire Wrapping",
+      "tags": [
+        "wire",
+        "wrapping",
+        "skill"
+      ]
+    }
+  ]
+}

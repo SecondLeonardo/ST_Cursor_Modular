@@ -1,0 +1,46 @@
+{
+  "id": "home_daily_life",
+  "name": "خانه و زندگی روزمره",
+  "subcategories": [
+    {
+      "id": "home_daily_life_budgeting_household_finance",
+      "name": "بودجه بندی و تأمین مالی خانوار"
+    },
+    {
+      "id": "home_daily_life_childcare",
+      "name": "مراقبت از کودکان"
+    },
+    {
+      "id": "home_daily_life_cooking_meal_prep",
+      "name": "پخت و پز و وعده غذایی"
+    },
+    {
+      "id": "home_daily_life_grocery_shopping",
+      "name": "خرید مواد غذایی"
+    },
+    {
+      "id": "home_daily_life_home_cleaning",
+      "name": "نظافت"
+    },
+    {
+      "id": "home_daily_life_home_maintenance",
+      "name": "نگهداری در منزل"
+    },
+    {
+      "id": "home_daily_life_laundry_clothing_care",
+      "name": "مراقبت از لباس و لباس"
+    },
+    {
+      "id": "home_daily_life_organizing_decluttering",
+      "name": "سازماندهی و تجزیه"
+    },
+    {
+      "id": "home_daily_life_pet_care",
+      "name": "مراقبت از حیوانات خانگی"
+    },
+    {
+      "id": "home_daily_life_time_management",
+      "name": "مدیریت زمان"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_home_repair",
+  "name": "Riparazione in casa",
+  "skills": [
+    {
+      "id": "skill_2898",
+      "name": "Utilizzo dello strumento di base",
+      "difficulty_level": 4,
+      "description": "Learn and master Basic Tool Use",
+      "tags": [
+        "basic",
+        "tool",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2899",
+      "name": "Calacciatura",
+      "difficulty_level": 4,
+      "description": "Learn and master Caulking",
+      "tags": [
+        "caulking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2900",
+      "name": "Fissaggio della cerniera della porta",
+      "difficulty_level": 2,
+      "description": "Learn and master Door Hinge Fixing",
+      "tags": [
+        "door",
+        "hinge",
+        "fixing"
+      ]
+    },
+    {
+      "id": "skill_2901",
+      "name": "Installazione del muro a secco",
+      "difficulty_level": 2,
+      "description": "Learn and master Drywall Installation",
+      "tags": [
+        "drywall",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2902",
+      "name": "Riparazione del pavimento",
+      "difficulty_level": 5,
+      "description": "Learn and master Floorboard Repair",
+      "tags": [
+        "floorboard",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2903",
+      "name": "Riparazione di mobili",
+      "difficulty_level": 5,
+      "description": "Learn and master Furniture Repair",
+      "tags": [
+        "furniture",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2904",
+      "name": "Muri di pittura",
+      "difficulty_level": 4,
+      "description": "Learn and master Painting Walls",
+      "tags": [
+        "painting",
+        "walls",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2905",
+      "name": "Patch per le perdite del tetto",
+      "difficulty_level": 3,
+      "description": "Learn and master Roof Leak Patching",
+      "tags": [
+        "roof",
+        "leak",
+        "patching"
+      ]
+    },
+    {
+      "id": "skill_2906",
+      "name": "Patching murale",
+      "difficulty_level": 4,
+      "description": "Learn and master Wall Patching",
+      "tags": [
+        "wall",
+        "patching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2907",
+      "name": "Fissaggio del sigillo della finestra",
+      "difficulty_level": 3,
+      "description": "Learn and master Window Seal Fixing",
+      "tags": [
+        "window",
+        "seal",
+        "fixing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "technology_digital",
+  "name": "தொழில்நுட்பம் & டிஜிட்டல்",
+  "subcategories": [
+    {
+      "id": "technology_digital_cybersecurity",
+      "name": "இணைய பாதுகாப்பு"
+    },
+    {
+      "id": "technology_digital_data_ai",
+      "name": "தரவு & AI"
+    },
+    {
+      "id": "technology_digital_digital_marketing",
+      "name": "டிஜிட்டல் சந்தைப்படுத்தல்"
+    },
+    {
+      "id": "technology_digital_it_networking",
+      "name": "இது & நெட்வொர்க்கிங்"
+    },
+    {
+      "id": "technology_digital_software_development",
+      "name": "மென்பொருள் மேம்பாடு"
+    }
+  ]
+}

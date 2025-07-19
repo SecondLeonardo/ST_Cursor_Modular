@@ -1,0 +1,26 @@
+{
+  "id": "life_everyday_skills",
+  "name": "जीवन आणि दररोजची कौशल्ये",
+  "subcategories": [
+    {
+      "id": "life_everyday_skills_cooking_food",
+      "name": "स्वयंपाक आणि अन्न"
+    },
+    {
+      "id": "life_everyday_skills_home_maintenance",
+      "name": "घरगुती देखभाल"
+    },
+    {
+      "id": "life_everyday_skills_personal_finance",
+      "name": "वैयक्तिक वित्त"
+    },
+    {
+      "id": "life_everyday_skills_time_management",
+      "name": "वेळ व्यवस्थापन"
+    },
+    {
+      "id": "life_everyday_skills_travel_navigation",
+      "name": "प्रवास आणि नेव्हिगेशन"
+    }
+  ]
+}

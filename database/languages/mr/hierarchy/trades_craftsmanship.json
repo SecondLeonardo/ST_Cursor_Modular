@@ -1,0 +1,46 @@
+{
+  "id": "trades_craftsmanship",
+  "name": "व्यापार आणि कारागिरी",
+  "subcategories": [
+    {
+      "id": "trades_craftsmanship_automotive_repair",
+      "name": "ऑटोमोटिव्ह दुरुस्ती"
+    },
+    {
+      "id": "trades_craftsmanship_carpentry_woodworking",
+      "name": "सुतारकाम आणि लाकूडकाम"
+    },
+    {
+      "id": "trades_craftsmanship_construction_masonry",
+      "name": "बांधकाम आणि चिनाई"
+    },
+    {
+      "id": "trades_craftsmanship_electrical_work",
+      "name": "विद्युत काम"
+    },
+    {
+      "id": "trades_craftsmanship_hvac_refrigeration",
+      "name": "एचव्हीएसी आणि रेफ्रिजरेशन"
+    },
+    {
+      "id": "trades_craftsmanship_jewelry_making",
+      "name": "दागिने बनविणे"
+    },
+    {
+      "id": "trades_craftsmanship_metalwork_welding",
+      "name": "मेटलवर्क आणि वेल्डिंग"
+    },
+    {
+      "id": "trades_craftsmanship_painting_decorating",
+      "name": "चित्रकला आणि सजावट"
+    },
+    {
+      "id": "trades_craftsmanship_plumbing",
+      "name": "प्लंबिंग"
+    },
+    {
+      "id": "trades_craftsmanship_tailoring_sewing",
+      "name": "टेलरिंग आणि शिवणकाम"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "manual_trades_craftsmanship_skills_woodworking",
+  "name": "Carpintería",
+  "skills": [
+    {
+      "id": "skill_3498",
+      "name": "Fabricación de gabinetes",
+      "difficulty_level": 3,
+      "description": "Learn and master Cabinet Making",
+      "tags": [
+        "cabinet",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3499",
+      "name": "Marco de carpintería",
+      "difficulty_level": 3,
+      "description": "Learn and master Carpentry Framing",
+      "tags": [
+        "carpentry",
+        "framing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3500",
+      "name": "Operación de motosierra",
+      "difficulty_level": 1,
+      "description": "Learn and master Chainsaw Operation",
+      "tags": [
+        "chainsaw",
+        "operation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3501",
+      "name": "Fabricación de muebles",
+      "difficulty_level": 2,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3502",
+      "name": "Carpintería",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery",
+      "tags": [
+        "joinery",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3503",
+      "name": "Torno de madera",
+      "difficulty_level": 1,
+      "description": "Learn and master Lathe Wood Turning",
+      "tags": [
+        "lathe",
+        "wood",
+        "turning"
+      ]
+    },
+    {
+      "id": "skill_3504",
+      "name": "Lijado y acabado",
+      "difficulty_level": 3,
+      "description": "Learn and master Sanding & Finishing",
+      "tags": [
+        "sanding",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3505",
+      "name": "Encogimiento",
+      "difficulty_level": 4,
+      "description": "Learn and master Veneering",
+      "tags": [
+        "veneering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_3506",
+      "name": "Talla de madera",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Carving",
+      "tags": [
+        "wood",
+        "carving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3507",
+      "name": "Manchas de madera",
+      "difficulty_level": 5,
+      "description": "Learn and master Wood Staining",
+      "tags": [
+        "wood",
+        "staining",
+        "skill"
+      ]
+    }
+  ]
+}

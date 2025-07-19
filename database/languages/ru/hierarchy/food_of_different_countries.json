@@ -1,0 +1,34 @@
+{
+  "id": "food_of_different_countries",
+  "name": "Еда разных стран",
+  "subcategories": [
+    {
+      "id": "food_of_different_countries_italian_cuisine",
+      "name": "Итальянская кухня"
+    },
+    {
+      "id": "food_of_different_countries_japanese_cuisine",
+      "name": "Японская кухня"
+    },
+    {
+      "id": "food_of_different_countries_mexican_cuisine",
+      "name": "Мексиканская кухня"
+    },
+    {
+      "id": "food_of_different_countries_indian_cuisine",
+      "name": "Индийская кухня"
+    },
+    {
+      "id": "food_of_different_countries_french_cuisine",
+      "name": "Французская кухня"
+    },
+    {
+      "id": "food_of_different_countries_chinese_cuisine",
+      "name": "Китайская кухня"
+    },
+    {
+      "id": "food_of_different_countries_middle_eastern_cuisine",
+      "name": "Ближняя восточная кухня"
+    }
+  ]
+}

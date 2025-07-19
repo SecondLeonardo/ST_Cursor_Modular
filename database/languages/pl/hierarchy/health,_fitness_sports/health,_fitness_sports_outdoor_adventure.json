@@ -1,0 +1,116 @@
+{
+  "id": "health,_fitness_sports_outdoor_adventure",
+  "name": "Outdoor i przygoda",
+  "skills": [
+    {
+      "id": "skill_2708",
+      "name": "Konfiguracja kempingu",
+      "difficulty_level": 1,
+      "description": "Learn and master Camping Setup",
+      "tags": [
+        "camping",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2709",
+      "name": "Cylling Endurance",
+      "difficulty_level": 3,
+      "description": "Learn and master Cycling Endurance",
+      "tags": [
+        "cycling",
+        "endurance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2710",
+      "name": "Umiejętności połowowe",
+      "difficulty_level": 2,
+      "description": "Learn and master Fishing Skills",
+      "tags": [
+        "fishing",
+        "skills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2711",
+      "name": "Nawigacja piesza",
+      "difficulty_level": 1,
+      "description": "Learn and master Hiking Navigation",
+      "tags": [
+        "hiking",
+        "navigation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2712",
+      "name": "Techniki kajakowe",
+      "difficulty_level": 3,
+      "description": "Learn and master Kayaking Techniques",
+      "tags": [
+        "kayaking",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2713",
+      "name": "Orientacja",
+      "difficulty_level": 5,
+      "description": "Learn and master Orienteering",
+      "tags": [
+        "orienteering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2714",
+      "name": "Podstawy wspinaczki",
+      "difficulty_level": 1,
+      "description": "Learn and master Rock Climbing Basics",
+      "tags": [
+        "rock",
+        "climbing",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2715",
+      "name": "Bezpieczeństwo nurkowania",
+      "difficulty_level": 3,
+      "description": "Learn and master Scuba Diving Safety",
+      "tags": [
+        "scuba",
+        "diving",
+        "safety"
+      ]
+    },
+    {
+      "id": "skill_2716",
+      "name": "Kontrola snowboardu",
+      "difficulty_level": 5,
+      "description": "Learn and master Snowboarding Control",
+      "tags": [
+        "snowboarding",
+        "control",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2717",
+      "name": "Umiejętności przetrwania",
+      "difficulty_level": 5,
+      "description": "Learn and master Survival Skills",
+      "tags": [
+        "survival",
+        "skills",
+        "skill"
+      ]
+    }
+  ]
+}

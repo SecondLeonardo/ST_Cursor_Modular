@@ -1,0 +1,46 @@
+{
+  "id": "science_research_skills",
+  "name": "పరిశోధన నైపుణ్యాలు",
+  "subcategories": [
+    {
+      "id": "science_research_skills_academic_writing",
+      "name": "విద్యా రచన"
+    },
+    {
+      "id": "science_research_skills_biological_sciences",
+      "name": "జీవ శాస్త్రాలు"
+    },
+    {
+      "id": "science_research_skills_computer_data_science",
+      "name": "కంప్యూటర్ & డేటా సైన్స్"
+    },
+    {
+      "id": "science_research_skills_earth_environmental_sciences",
+      "name": "భూమి & పర్యావరణ శాస్త్రాలు"
+    },
+    {
+      "id": "science_research_skills_engineering_sciences",
+      "name": "ఇంజనీరింగ్ శాస్త్రాలు"
+    },
+    {
+      "id": "science_research_skills_mathematics_statistics",
+      "name": "గణితం & గణాంకాలు"
+    },
+    {
+      "id": "science_research_skills_medical_health_sciences",
+      "name": "వైద్య & ఆరోగ్య శాస్త్రాలు"
+    },
+    {
+      "id": "science_research_skills_physical_sciences",
+      "name": "భౌతిక శాస్త్రాలు"
+    },
+    {
+      "id": "science_research_skills_research_methods",
+      "name": "పరిశోధన పద్ధతులు"
+    },
+    {
+      "id": "science_research_skills_social_sciences",
+      "name": "సాంఘిక శాస్త్రాలు"
+    }
+  ]
+}

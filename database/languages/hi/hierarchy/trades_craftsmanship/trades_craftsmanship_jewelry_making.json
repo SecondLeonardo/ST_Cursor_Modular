@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_jewelry_making",
+  "name": "गहने बनाना",
+  "skills": [
+    {
+      "id": "skill_4975",
+      "name": "मनोहर",
+      "difficulty_level": 5,
+      "description": "Learn and master Beading",
+      "tags": [
+        "beading",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4976",
+      "name": "कास्टिंग गहने",
+      "difficulty_level": 4,
+      "description": "Learn and master Casting Jewelry",
+      "tags": [
+        "casting",
+        "jewelry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4977",
+      "name": "चेन -मेकिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Chain Making",
+      "tags": [
+        "chain",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4978",
+      "name": "तामचीनी",
+      "difficulty_level": 3,
+      "description": "Learn and master Enameling",
+      "tags": [
+        "enameling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4979",
+      "name": "धातु की मोहर लगाना",
+      "difficulty_level": 2,
+      "description": "Learn and master Metal Stamping",
+      "tags": [
+        "metal",
+        "stamping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4980",
+      "name": "पॉलिश और परिष्करण",
+      "difficulty_level": 4,
+      "description": "Learn and master Polishing & Finishing",
+      "tags": [
+        "polishing",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4981",
+      "name": "रिंग का आकार",
+      "difficulty_level": 3,
+      "description": "Learn and master Ring Resizing",
+      "tags": [
+        "ring",
+        "resizing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4982",
+      "name": "टांका लगाने वाले गहने",
+      "difficulty_level": 5,
+      "description": "Learn and master Soldering Jewelry",
+      "tags": [
+        "soldering",
+        "jewelry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4983",
+      "name": "पत्थर की स्थापना",
+      "difficulty_level": 4,
+      "description": "Learn and master Stone Setting",
+      "tags": [
+        "stone",
+        "setting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4984",
+      "name": "वायर रैपिंग",
+      "difficulty_level": 2,
+      "description": "Learn and master Wire Wrapping",
+      "tags": [
+        "wire",
+        "wrapping",
+        "skill"
+      ]
+    }
+  ]
+}

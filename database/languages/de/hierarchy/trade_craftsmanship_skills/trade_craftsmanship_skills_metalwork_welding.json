@@ -1,0 +1,116 @@
+{
+  "id": "trade_craftsmanship_skills_metalwork_welding",
+  "name": "Metallarbeiten und Schweißen",
+  "skills": [
+    {
+      "id": "skill_4895",
+      "name": "Lichtbogenschweißen",
+      "difficulty_level": 2,
+      "description": "Learn and master Arc Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4896",
+      "name": "Metall mahlen",
+      "difficulty_level": 5,
+      "description": "Learn and master Grinding Metal",
+      "tags": [
+        "grinding",
+        "metal",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4897",
+      "name": "Wärmebehandlungstahl",
+      "difficulty_level": 5,
+      "description": "Learn and master Heat Treating Steel",
+      "tags": [
+        "heat",
+        "treating",
+        "steel"
+      ]
+    },
+    {
+      "id": "skill_4898",
+      "name": "MIG -Schweißen",
+      "difficulty_level": 2,
+      "description": "Learn and master MIG Welding",
+      "tags": [
+        "welding",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4899",
+      "name": "Metallmessung und Markierung",
+      "difficulty_level": 4,
+      "description": "Learn and master Metal Measuring & Marking",
+      "tags": [
+        "metal",
+        "measuring",
+        "marking"
+      ]
+    },
+    {
+      "id": "skill_4900",
+      "name": "Plasmaabschneiden",
+      "difficulty_level": 4,
+      "description": "Learn and master Plasma Cutting",
+      "tags": [
+        "plasma",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4901",
+      "name": "Blechbiegung",
+      "difficulty_level": 4,
+      "description": "Learn and master Sheet Metal Bending",
+      "tags": [
+        "sheet",
+        "metal",
+        "bending"
+      ]
+    },
+    {
+      "id": "skill_4902",
+      "name": "Löttechniken",
+      "difficulty_level": 3,
+      "description": "Learn and master Soldering Techniques",
+      "tags": [
+        "soldering",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4903",
+      "name": "Verwenden einer Winkelschleife",
+      "difficulty_level": 5,
+      "description": "Learn and master Using an Angle Grinder",
+      "tags": [
+        "using",
+        "angle",
+        "grinder"
+      ]
+    },
+    {
+      "id": "skill_4904",
+      "name": "Schweißverbindungen",
+      "difficulty_level": 3,
+      "description": "Learn and master Welding Joint Types",
+      "tags": [
+        "welding",
+        "joint",
+        "types"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "academic_intellectual_economics",
+  "name": "Wirtschaft",
+  "skills": [
+    {
+      "id": "skill_1",
+      "name": "Verhaltensökonomie",
+      "difficulty_level": 1,
+      "description": "Learn and master Behavioral Economics",
+      "tags": [
+        "behavioral",
+        "economics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2",
+      "name": "Entwicklungsökonomie",
+      "difficulty_level": 3,
+      "description": "Learn and master Development Economics",
+      "tags": [
+        "development",
+        "economics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3",
+      "name": "Wirtschaftspolitik",
+      "difficulty_level": 4,
+      "description": "Learn and master Economic Policy",
+      "tags": [
+        "economic",
+        "policy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4",
+      "name": "Spieltheorie",
+      "difficulty_level": 1,
+      "description": "Learn and master Game Theory",
+      "tags": [
+        "game",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5",
+      "name": "Internationaler Handel",
+      "difficulty_level": 2,
+      "description": "Learn and master International Trade",
+      "tags": [
+        "international",
+        "trade",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_6",
+      "name": "Arbeitsökonomie",
+      "difficulty_level": 2,
+      "description": "Learn and master Labor Economics",
+      "tags": [
+        "labor",
+        "economics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_7",
+      "name": "Makroökonomie",
+      "difficulty_level": 2,
+      "description": "Learn and master Macroeconomics",
+      "tags": [
+        "macroeconomics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_8",
+      "name": "Mikroökonomie",
+      "difficulty_level": 5,
+      "description": "Learn and master Microeconomics",
+      "tags": [
+        "microeconomics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_9",
+      "name": "Geldwirtschaft",
+      "difficulty_level": 4,
+      "description": "Learn and master Monetary Economics",
+      "tags": [
+        "monetary",
+        "economics",
+        "skill"
+      ]
+    }
+  ]
+}

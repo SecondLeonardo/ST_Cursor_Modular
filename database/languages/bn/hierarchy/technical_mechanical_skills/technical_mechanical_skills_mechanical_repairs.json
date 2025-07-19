@@ -1,0 +1,116 @@
+{
+  "id": "technical_mechanical_skills_mechanical_repairs",
+  "name": "যান্ত্রিক মেরামত",
+  "skills": [
+    {
+      "id": "skill_4606",
+      "name": "সরঞ্জাম বিচ্ছিন্ন করা",
+      "difficulty_level": 2,
+      "description": "Learn and master Disassembling Equipment",
+      "tags": [
+        "disassembling",
+        "equipment",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4607",
+      "name": "তৈলাক্তকরণ মেশিন",
+      "difficulty_level": 3,
+      "description": "Learn and master Lubricating Machines",
+      "tags": [
+        "lubricating",
+        "machines",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4608",
+      "name": "ধাতব কাটিয়া কৌশল",
+      "difficulty_level": 1,
+      "description": "Learn and master Metal Cutting Techniques",
+      "tags": [
+        "metal",
+        "cutting",
+        "techniques"
+      ]
+    },
+    {
+      "id": "skill_4609",
+      "name": "নির্ভুলতা পরিমাপ",
+      "difficulty_level": 2,
+      "description": "Learn and master Precision Measurement",
+      "tags": [
+        "precision",
+        "measurement",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4610",
+      "name": "ছোট ইঞ্জিনগুলি মেরামত করা",
+      "difficulty_level": 1,
+      "description": "Learn and master Repairing Small Engines",
+      "tags": [
+        "repairing",
+        "small",
+        "engines"
+      ]
+    },
+    {
+      "id": "skill_4611",
+      "name": "বিয়ারিং প্রতিস্থাপন",
+      "difficulty_level": 3,
+      "description": "Learn and master Replacing Bearings",
+      "tags": [
+        "replacing",
+        "bearings",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4612",
+      "name": "যান্ত্রিক ডিভাইসগুলির সমস্যা সমাধান করা",
+      "difficulty_level": 1,
+      "description": "Learn and master Troubleshooting Mechanical Devices",
+      "tags": [
+        "troubleshooting",
+        "mechanical",
+        "devices"
+      ]
+    },
+    {
+      "id": "skill_4613",
+      "name": "গিয়ার বোঝা",
+      "difficulty_level": 4,
+      "description": "Learn and master Understanding Gears",
+      "tags": [
+        "understanding",
+        "gears",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4614",
+      "name": "একটি মাল্টিমিটার ব্যবহার করে",
+      "difficulty_level": 2,
+      "description": "Learn and master Using a Multimeter",
+      "tags": [
+        "using",
+        "multimeter",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4615",
+      "name": "একটি টর্ক রেঞ্চ ব্যবহার করে",
+      "difficulty_level": 5,
+      "description": "Learn and master Using a Torque Wrench",
+      "tags": [
+        "using",
+        "torque",
+        "wrench"
+      ]
+    }
+  ]
+}

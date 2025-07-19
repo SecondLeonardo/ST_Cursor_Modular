@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_painting_decorating",
+  "name": "पेंटिंग और सजा",
+  "skills": [
+    {
+      "id": "skill_5245",
+      "name": "ब्रश तकनीक",
+      "difficulty_level": 1,
+      "description": "Learn and master Brush Techniques",
+      "tags": [
+        "brush",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5246",
+      "name": "रंग मिश्रण",
+      "difficulty_level": 4,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5247",
+      "name": "सजावटी चित्रकला",
+      "difficulty_level": 5,
+      "description": "Learn and master Decorative Painting",
+      "tags": [
+        "decorative",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5248",
+      "name": "बाहरी चित्रकला",
+      "difficulty_level": 2,
+      "description": "Learn and master Exterior Painting",
+      "tags": [
+        "exterior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5249",
+      "name": "आंतरिक चित्रकला",
+      "difficulty_level": 3,
+      "description": "Learn and master Interior Painting",
+      "tags": [
+        "interior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5250",
+      "name": "पेंट फिनिशिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Paint Finishing",
+      "tags": [
+        "paint",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5251",
+      "name": "स्प्रे पेंटिंग",
+      "difficulty_level": 3,
+      "description": "Learn and master Spray Painting",
+      "tags": [
+        "spray",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5252",
+      "name": "दाग वाली लकड़ी",
+      "difficulty_level": 5,
+      "description": "Learn and master Staining Wood",
+      "tags": [
+        "staining",
+        "wood",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5253",
+      "name": "सतह तैयार करना",
+      "difficulty_level": 1,
+      "description": "Learn and master Surface Preparation",
+      "tags": [
+        "surface",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5254",
+      "name": "वॉलपेपर हैंगिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Wallpaper Hanging",
+      "tags": [
+        "wallpaper",
+        "hanging",
+        "skill"
+      ]
+    }
+  ]
+}

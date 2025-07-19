@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_sports_athletics",
+  "name": "Sport e atletica leggera",
+  "skills": [
+    {
+      "id": "skill_3968",
+      "name": "Esercitazioni di agilità",
+      "difficulty_level": 4,
+      "description": "Learn and master Agility Drills",
+      "tags": [
+        "agility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3969",
+      "name": "Scatto di basket",
+      "difficulty_level": 2,
+      "description": "Learn and master Basketball Shooting",
+      "tags": [
+        "basketball",
+        "shooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3970",
+      "name": "Tecniche di ciclismo",
+      "difficulty_level": 1,
+      "description": "Learn and master Cycling Techniques",
+      "tags": [
+        "cycling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3971",
+      "name": "Enduria",
+      "difficulty_level": 1,
+      "description": "Learn and master Running Endurance",
+      "tags": [
+        "running",
+        "endurance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3972",
+      "name": "Dribblaggio del calcio",
+      "difficulty_level": 3,
+      "description": "Learn and master Soccer Dribbling",
+      "tags": [
+        "soccer",
+        "dribbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3973",
+      "name": "Colpi di nuoto",
+      "difficulty_level": 3,
+      "description": "Learn and master Swimming Strokes",
+      "tags": [
+        "swimming",
+        "strokes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3974",
+      "name": "Servizio di tennis",
+      "difficulty_level": 2,
+      "description": "Learn and master Tennis Serving",
+      "tags": [
+        "tennis",
+        "serving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3975",
+      "name": "Eventi di atletica leggera",
+      "difficulty_level": 1,
+      "description": "Learn and master Track & Field Events",
+      "tags": [
+        "track",
+        "field",
+        "events"
+      ]
+    },
+    {
+      "id": "skill_3976",
+      "name": "Impostazione di pallavolo",
+      "difficulty_level": 1,
+      "description": "Learn and master Volleyball Setting",
+      "tags": [
+        "volleyball",
+        "setting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3977",
+      "name": "Allenamento con i pesi",
+      "difficulty_level": 2,
+      "description": "Learn and master Weight Training",
+      "tags": [
+        "weight",
+        "training",
+        "skill"
+      ]
+    }
+  ]
+}

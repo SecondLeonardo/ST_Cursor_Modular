@@ -1,0 +1,116 @@
+{
+  "id": "trades_technical_construction",
+  "name": "Konstruksi",
+  "skills": [
+    {
+      "id": "skill_5195",
+      "name": "Bacaan cetak biru",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5196",
+      "name": "Finishing beton",
+      "difficulty_level": 3,
+      "description": "Learn and master Concrete Finishing",
+      "tags": [
+        "concrete",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5197",
+      "name": "Pembongkaran",
+      "difficulty_level": 5,
+      "description": "Learn and master Demolition",
+      "tags": [
+        "demolition",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5198",
+      "name": "Drywall gantung",
+      "difficulty_level": 1,
+      "description": "Learn and master Drywall Hanging",
+      "tags": [
+        "drywall",
+        "hanging",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5199",
+      "name": "Pembingkaian",
+      "difficulty_level": 3,
+      "description": "Learn and master Framing",
+      "tags": [
+        "framing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5200",
+      "name": "Instalasi isolasi",
+      "difficulty_level": 4,
+      "description": "Learn and master Insulation Installation",
+      "tags": [
+        "insulation",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5201",
+      "name": "Instalasi Atap",
+      "difficulty_level": 1,
+      "description": "Learn and master Roofing Installation",
+      "tags": [
+        "roofing",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5202",
+      "name": "Pengaturan perancah",
+      "difficulty_level": 3,
+      "description": "Learn and master Scaffolding Setup",
+      "tags": [
+        "scaffolding",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5203",
+      "name": "Keamanan Situs",
+      "difficulty_level": 3,
+      "description": "Learn and master Site Safety",
+      "tags": [
+        "site",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5204",
+      "name": "Survei",
+      "difficulty_level": 4,
+      "description": "Learn and master Surveying",
+      "tags": [
+        "surveying",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

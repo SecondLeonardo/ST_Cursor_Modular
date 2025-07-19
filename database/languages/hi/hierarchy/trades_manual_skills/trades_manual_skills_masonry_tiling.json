@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_masonry_tiling",
+  "name": "चिनाई और टाइलिंग",
+  "skills": [
+    {
+      "id": "skill_5115",
+      "name": "ईंट",
+      "difficulty_level": 3,
+      "description": "Learn and master Bricklaying",
+      "tags": [
+        "bricklaying",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5116",
+      "name": "सीमेंट मिश्रण",
+      "difficulty_level": 4,
+      "description": "Learn and master Cement Mixing",
+      "tags": [
+        "cement",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5117",
+      "name": "कंक्रीट ब्लॉक बिछाना",
+      "difficulty_level": 5,
+      "description": "Learn and master Concrete Block Laying",
+      "tags": [
+        "concrete",
+        "block",
+        "laying"
+      ]
+    },
+    {
+      "id": "skill_5118",
+      "name": "गड़गड़ाहट",
+      "difficulty_level": 3,
+      "description": "Learn and master Grouting",
+      "tags": [
+        "grouting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5119",
+      "name": "चिनाई मरम्मत",
+      "difficulty_level": 1,
+      "description": "Learn and master Masonry Repair",
+      "tags": [
+        "masonry",
+        "repair",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5120",
+      "name": "बाहरी चिनाई",
+      "difficulty_level": 1,
+      "description": "Learn and master Outdoor Masonry",
+      "tags": [
+        "outdoor",
+        "masonry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5121",
+      "name": "पत्थर की स्थापना",
+      "difficulty_level": 5,
+      "description": "Learn and master Stone Setting",
+      "tags": [
+        "stone",
+        "setting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5122",
+      "name": "सतह समतलन",
+      "difficulty_level": 5,
+      "description": "Learn and master Surface Leveling",
+      "tags": [
+        "surface",
+        "leveling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5123",
+      "name": "टाइल कटिंग",
+      "difficulty_level": 5,
+      "description": "Learn and master Tile Cutting",
+      "tags": [
+        "tile",
+        "cutting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5124",
+      "name": "टाइल पैटर्न",
+      "difficulty_level": 4,
+      "description": "Learn and master Tile Patterns",
+      "tags": [
+        "tile",
+        "patterns",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_sports_athletics",
+  "name": "Спорт и легкая атлетика",
+  "skills": [
+    {
+      "id": "skill_3968",
+      "name": "Учения ловкости",
+      "difficulty_level": 4,
+      "description": "Learn and master Agility Drills",
+      "tags": [
+        "agility",
+        "drills",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3969",
+      "name": "Баскетбольная стрельба",
+      "difficulty_level": 2,
+      "description": "Learn and master Basketball Shooting",
+      "tags": [
+        "basketball",
+        "shooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3970",
+      "name": "Велосипедные методы",
+      "difficulty_level": 1,
+      "description": "Learn and master Cycling Techniques",
+      "tags": [
+        "cycling",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3971",
+      "name": "Бег на выносливость",
+      "difficulty_level": 1,
+      "description": "Learn and master Running Endurance",
+      "tags": [
+        "running",
+        "endurance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3972",
+      "name": "Футбольный дриблинг",
+      "difficulty_level": 3,
+      "description": "Learn and master Soccer Dribbling",
+      "tags": [
+        "soccer",
+        "dribbling",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3973",
+      "name": "Плавание мазки",
+      "difficulty_level": 3,
+      "description": "Learn and master Swimming Strokes",
+      "tags": [
+        "swimming",
+        "strokes",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3974",
+      "name": "Теннис",
+      "difficulty_level": 2,
+      "description": "Learn and master Tennis Serving",
+      "tags": [
+        "tennis",
+        "serving",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3975",
+      "name": "События по легкой атлетике",
+      "difficulty_level": 1,
+      "description": "Learn and master Track & Field Events",
+      "tags": [
+        "track",
+        "field",
+        "events"
+      ]
+    },
+    {
+      "id": "skill_3976",
+      "name": "Настройка волейбола",
+      "difficulty_level": 1,
+      "description": "Learn and master Volleyball Setting",
+      "tags": [
+        "volleyball",
+        "setting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3977",
+      "name": "Силовые тренировки",
+      "difficulty_level": 2,
+      "description": "Learn and master Weight Training",
+      "tags": [
+        "weight",
+        "training",
+        "skill"
+      ]
+    }
+  ]
+}

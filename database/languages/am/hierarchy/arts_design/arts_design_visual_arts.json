@@ -1,0 +1,116 @@
+{
+  "id": "arts_design_visual_arts",
+  "name": "የእይታ ጥበባት",
+  "skills": [
+    {
+      "id": "skill_610",
+      "name": "የጥበብ ፅንሰ-ሀሳብ",
+      "difficulty_level": 1,
+      "description": "Learn and master Art Theory",
+      "tags": [
+        "theory",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_611",
+      "name": "ጥሪ",
+      "difficulty_level": 3,
+      "description": "Learn and master Calligraphy",
+      "tags": [
+        "calligraphy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_612",
+      "name": "የቀለም ንድፈ ሀሳብ",
+      "difficulty_level": 2,
+      "description": "Learn and master Color Theory",
+      "tags": [
+        "color",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_613",
+      "name": "የግንብ ግምጦች ቴክኒኮችን",
+      "difficulty_level": 2,
+      "description": "Learn and master Composition Techniques",
+      "tags": [
+        "composition",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_614",
+      "name": "ስዕል",
+      "difficulty_level": 5,
+      "description": "Learn and master Drawing",
+      "tags": [
+        "drawing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_615",
+      "name": "ምሳሌ",
+      "difficulty_level": 2,
+      "description": "Learn and master Illustration",
+      "tags": [
+        "illustration",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_616",
+      "name": "የተደባለቀ ሚዲያ",
+      "difficulty_level": 5,
+      "description": "Learn and master Mixed Media",
+      "tags": [
+        "mixed",
+        "media",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_617",
+      "name": "ሥዕል",
+      "difficulty_level": 5,
+      "description": "Learn and master Painting",
+      "tags": [
+        "painting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_618",
+      "name": "ማተም",
+      "difficulty_level": 5,
+      "description": "Learn and master Printmaking",
+      "tags": [
+        "printmaking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_619",
+      "name": "ቅርፃቅርፅ",
+      "difficulty_level": 4,
+      "description": "Learn and master Sculpture",
+      "tags": [
+        "sculpture",
+        "skill",
+        "learning"
+      ]
+    }
+  ]
+}

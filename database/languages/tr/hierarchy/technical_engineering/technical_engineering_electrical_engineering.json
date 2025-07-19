@@ -1,0 +1,116 @@
+{
+  "id": "technical_engineering_electrical_engineering",
+  "name": "Elektrik mühendisliği",
+  "skills": [
+    {
+      "id": "skill_4516",
+      "name": "Arduino programlama",
+      "difficulty_level": 2,
+      "description": "Learn and master Arduino Programming",
+      "tags": [
+        "arduino",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4517",
+      "name": "Devre tasarımı",
+      "difficulty_level": 3,
+      "description": "Learn and master Circuit Design",
+      "tags": [
+        "circuit",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4518",
+      "name": "Dijital mantık tasarımı",
+      "difficulty_level": 5,
+      "description": "Learn and master Digital Logic Design",
+      "tags": [
+        "digital",
+        "logic",
+        "design"
+      ]
+    },
+    {
+      "id": "skill_4519",
+      "name": "Elektrik Güvenliği Standartları",
+      "difficulty_level": 3,
+      "description": "Learn and master Electrical Safety Standards",
+      "tags": [
+        "electrical",
+        "safety",
+        "standards"
+      ]
+    },
+    {
+      "id": "skill_4520",
+      "name": "Gömülü sistemler",
+      "difficulty_level": 3,
+      "description": "Learn and master Embedded Systems",
+      "tags": [
+        "embedded",
+        "systems",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4521",
+      "name": "Mikrodenetleme programlama",
+      "difficulty_level": 4,
+      "description": "Learn and master Microcontroller Programming",
+      "tags": [
+        "microcontroller",
+        "programming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4522",
+      "name": "Osiloskop kullanımı",
+      "difficulty_level": 4,
+      "description": "Learn and master Oscilloscope Usage",
+      "tags": [
+        "oscilloscope",
+        "usage",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4523",
+      "name": "PCB Düzen Tasarımı",
+      "difficulty_level": 4,
+      "description": "Learn and master PCB Layout Design",
+      "tags": [
+        "layout",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4524",
+      "name": "Güç dağıtımı",
+      "difficulty_level": 2,
+      "description": "Learn and master Power Distribution",
+      "tags": [
+        "power",
+        "distribution",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4525",
+      "name": "Sinyal işleme",
+      "difficulty_level": 1,
+      "description": "Learn and master Signal Processing",
+      "tags": [
+        "signal",
+        "processing",
+        "skill"
+      ]
+    }
+  ]
+}

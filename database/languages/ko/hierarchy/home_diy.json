@@ -1,0 +1,46 @@
+{
+  "id": "home_diy",
+  "name": "홈 & DIY",
+  "subcategories": [
+    {
+      "id": "home_diy_appliance_maintenance",
+      "name": "어플라이언스 유지 보수"
+    },
+    {
+      "id": "home_diy_cleaning_organizing",
+      "name": "청소 및 조직"
+    },
+    {
+      "id": "home_diy_crafts_decor",
+      "name": "공예 및 장식"
+    },
+    {
+      "id": "home_diy_electrical_work",
+      "name": "전기 작업"
+    },
+    {
+      "id": "home_diy_gardening_landscaping",
+      "name": "원예 및 조경"
+    },
+    {
+      "id": "home_diy_home_automation",
+      "name": "홈 자동화"
+    },
+    {
+      "id": "home_diy_home_repair",
+      "name": "가정 수리"
+    },
+    {
+      "id": "home_diy_interior_design",
+      "name": "인테리어 디자인"
+    },
+    {
+      "id": "home_diy_plumbing_basics",
+      "name": "배관 기본"
+    },
+    {
+      "id": "home_diy_woodworking_carpentry",
+      "name": "목공 및 목공"
+    }
+  ]
+}

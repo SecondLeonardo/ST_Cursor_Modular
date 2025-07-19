@@ -1,0 +1,116 @@
+{
+  "id": "health,_wellness_fitness_medical_knowledge",
+  "name": "Conhecimento médico",
+  "skills": [
+    {
+      "id": "skill_2748",
+      "name": "Fundamentos de anatomia",
+      "difficulty_level": 4,
+      "description": "Learn and master Anatomy Fundamentals",
+      "tags": [
+        "anatomy",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2749",
+      "name": "Primeiros socorros básicos",
+      "difficulty_level": 1,
+      "description": "Learn and master Basic First Aid",
+      "tags": [
+        "basic",
+        "first",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2750",
+      "name": "Treinamento de RCP",
+      "difficulty_level": 1,
+      "description": "Learn and master CPR Training",
+      "tags": [
+        "training",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2751",
+      "name": "Consciência de doenças comuns",
+      "difficulty_level": 3,
+      "description": "Learn and master Common Diseases Awareness",
+      "tags": [
+        "common",
+        "diseases",
+        "awareness"
+      ]
+    },
+    {
+      "id": "skill_2752",
+      "name": "Resposta de emergência",
+      "difficulty_level": 2,
+      "description": "Learn and master Emergency Response",
+      "tags": [
+        "emergency",
+        "response",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2753",
+      "name": "Comunicação de assistência médica",
+      "difficulty_level": 3,
+      "description": "Learn and master Healthcare Communication",
+      "tags": [
+        "healthcare",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2754",
+      "name": "Terminologia Médica",
+      "difficulty_level": 3,
+      "description": "Learn and master Medical Terminology",
+      "tags": [
+        "medical",
+        "terminology",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2755",
+      "name": "Higiene do paciente",
+      "difficulty_level": 3,
+      "description": "Learn and master Patient Hygiene",
+      "tags": [
+        "patient",
+        "hygiene",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2756",
+      "name": "Monitoramento dos vitais",
+      "difficulty_level": 2,
+      "description": "Learn and master Vitals Monitoring",
+      "tags": [
+        "vitals",
+        "monitoring",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2757",
+      "name": "Cuidado com feridas",
+      "difficulty_level": 4,
+      "description": "Learn and master Wound Care",
+      "tags": [
+        "wound",
+        "care",
+        "skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "science_technical_skills_data_science_ai",
+  "name": "Khoa học dữ liệu & AI",
+  "skills": [
+    {
+      "id": "skill_4188",
+      "name": "Đạo đức AI",
+      "difficulty_level": 4,
+      "description": "Learn and master AI Ethics",
+      "tags": [
+        "ethics",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4189",
+      "name": "Khái niệm dữ liệu lớn",
+      "difficulty_level": 1,
+      "description": "Learn and master Big Data Concepts",
+      "tags": [
+        "data",
+        "concepts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4190",
+      "name": "Làm sạch dữ liệu",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Cleaning",
+      "tags": [
+        "data",
+        "cleaning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4191",
+      "name": "Trực quan hóa dữ liệu",
+      "difficulty_level": 2,
+      "description": "Learn and master Data Visualization",
+      "tags": [
+        "data",
+        "visualization",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4192",
+      "name": "Khái niệm cơ bản về máy học",
+      "difficulty_level": 4,
+      "description": "Learn and master Machine Learning Basics",
+      "tags": [
+        "machine",
+        "learning",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4193",
+      "name": "Đánh giá mô hình",
+      "difficulty_level": 3,
+      "description": "Learn and master Model Evaluation",
+      "tags": [
+        "model",
+        "evaluation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4194",
+      "name": "Xử lý ngôn ngữ tự nhiên",
+      "difficulty_level": 1,
+      "description": "Learn and master Natural Language Processing",
+      "tags": [
+        "natural",
+        "language",
+        "processing"
+      ]
+    },
+    {
+      "id": "skill_4195",
+      "name": "Mạng lưới thần kinh",
+      "difficulty_level": 4,
+      "description": "Learn and master Neural Networks",
+      "tags": [
+        "neural",
+        "networks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4196",
+      "name": "Gandas & Numpy",
+      "difficulty_level": 5,
+      "description": "Learn and master Pandas & NumPy",
+      "tags": [
+        "pandas",
+        "numpy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4197",
+      "name": "Python cho khoa học dữ liệu",
+      "difficulty_level": 5,
+      "description": "Learn and master Python for Data Science",
+      "tags": [
+        "python",
+        "data",
+        "science"
+      ]
+    }
+  ]
+}

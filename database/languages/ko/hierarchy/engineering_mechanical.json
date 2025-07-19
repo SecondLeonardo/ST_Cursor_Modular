@@ -1,0 +1,46 @@
+{
+  "id": "engineering_mechanical",
+  "name": "엔지니어링 및 기계",
+  "subcategories": [
+    {
+      "id": "engineering_mechanical_automotive_transportation",
+      "name": "자동차 및 운송"
+    },
+    {
+      "id": "engineering_mechanical_civil_engineering",
+      "name": "토목 공학"
+    },
+    {
+      "id": "engineering_mechanical_electrical_engineering",
+      "name": "전기 공학"
+    },
+    {
+      "id": "engineering_mechanical_energy_power_systems",
+      "name": "에너지 및 전력 시스템"
+    },
+    {
+      "id": "engineering_mechanical_hvac_systems",
+      "name": "HVAC 및 시스템"
+    },
+    {
+      "id": "engineering_mechanical_industrial_design",
+      "name": "산업 디자인"
+    },
+    {
+      "id": "engineering_mechanical_manufacturing_production",
+      "name": "제조 및 생산"
+    },
+    {
+      "id": "engineering_mechanical_mechanical_engineering",
+      "name": "기계 공학"
+    },
+    {
+      "id": "engineering_mechanical_robotics_automation",
+      "name": "로봇 공학 및 자동화"
+    },
+    {
+      "id": "engineering_mechanical_structural_design",
+      "name": "구조 설계"
+    }
+  ]
+}

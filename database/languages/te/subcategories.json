@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "academic_intellectual_economics",
+    "name": "ఆర్థిక శాస్త్రం"
+  },
+  {
+    "id": "academic_intellectual_geography",
+    "name": "భౌగోళికం"
+  },
+  {
+    "id": "academic_intellectual_history",
+    "name": "చరిత్ర"
+  },
+  {
+    "id": "academic_intellectual_language_linguistics",
+    "name": "భాష & భాషాశాస్త్రం"
+  },
+  {
+    "id": "academic_intellectual_literature",
+    "name": "సాహిత్యం"
+  },
+  {
+    "id": "academic_intellectual_mathematics",
+    "name": "గణితం"
+  },
+  {
+    "id": "academic_intellectual_philosophy",
+    "name": "తత్వశాస్త్రం"
+  },
+  {
+    "id": "academic_intellectual_psychology",
+    "name": "మనస్తత్వశాస్త్రం"
+  },
+  {
+    "id": "academic_intellectual_science",
+    "name": "సైన్స్"
+  },
+  {
+    "id": "academic_intellectual_sociology",
+    "name": "సోషియాలజీ"
+  },
+  {
+    "id": "academic_intellectual_skills_critical_thinking",
+    "name": "విమర్శనాత్మక ఆలోచన"
+  },
+  {
+    "id": "academic_intellectual_skills_history_culture",
+    "name": "చరిత్ర & సంస్కృతి"
+  },
+  {
+    "id": "academic_intellectual_skills_history_social_sciences",
+    "name": "చరిత్ర & సామాజిక శాస్త్రాలు"
+  },
+  {
+    "id": "academic_intellectual_skills_language_linguistics",
+    "name": "భాష & భాషాశాస్త్రం"
+  },
+  {
+    "id": "academic_intellectual_skills_languages",
+    "name": "భాషలు"
+  },
+  {
+    "id": "academic_intellectual_skills_literature_writing",
+    "name": "సాహిత్యం & రచన"
+  },
+  {
+    "id": "academic_intellectual_skills_logic_reasoning",
+    "name": "లాజిక్ & రీజనింగ్"
+  },
+  {
+    "id": "academic_intellectual_skills_mathematics",
+    "name": "గణితం"
+  },
+  {
+    "id": "academic_intellectual_skills_philosophy_critical_thinking",
+    "name": "ఫిలాసఫీ & క్రిటికల్ థింకింగ్"
+  },
+  {
+    "id": "academic_intellectual_skills_public_speaking_debate",
+    "name": "బహిరంగ ప్రసంగం & చర్చ"
+  },
+  {
+    "id": "academic_intellectual_skills_research_analysis",
+    "name": "పరిశోధన & విశ్లేషణ"
+  },
+  {
+    "id": "academic_intellectual_skills_science",
+    "name": "సైన్స్"
+  },
+  {
+    "id": "academic_intellectual_skills_science_nature",
+    "name": "సైన్స్ & నేచర్"
+  },
+  {
+    "id": "academic_intellectual_skills_study_techniques",
+    "name": "అధ్యయన పద్ధతులు"
+  },
+  {
+    "id": "academic_intellectual_skills_technology_computing",
+    "name": "టెక్నాలజీ & కంప్యూటింగ్"
+  },
+  {
+    "id": "academic_research_skills_academic_presentation",
+    "name": "విద్యా ప్రదర్శన"
+  },
+  {
+    "id": "academic_research_skills_data_analysis",
+    "name": "డేటా విశ్లేషణ"
+  },
+  {
+    "id": "academic_research_skills_language_writing",
+    "name": "భాష & రచన"
+  },
+  {
+    "id": "academic_research_skills_mathematics_statistics",
+    "name": "గణితం & గణాంకాలు"
+  },
+  {
+    "id": "academic_research_skills_scientific_research",
+    "name": "శాస్త్రీయ పరిశోధన"
+  },
+  {
+    "id": "academic_research_skills_study_test_prep",
+    "name": "స్టడీ & టెస్ట్ ప్రిపరేషన్"
+  },
+  {
+    "id": "arts_creative_expression_animation",
+    "name": "యానిమేషన్"
+  },
+  {
+    "id": "arts_creative_expression_crafts_diy",
+    "name": "హస్తకళలు & DIY"
+  },
+  {
+    "id": "arts_creative_expression_creative_writing",
+    "name": "సృజనాత్మక రచన"
+  },
+  {
+    "id": "arts_creative_expression_drawing_illustration",
+    "name": "డ్రాయింగ్ & ఇలస్ట్రేషన్"
+  },
+  {
+    "id": "arts_creative_expression_fashion_design",
+    "name": "ఫ్యాషన్ డిజైన్"
+  },
+  {
+    "id": "arts_creative_expression_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "arts_creative_expression_painting",
+    "name": "పెయింటింగ్"
+  },
+  {
+    "id": "arts_creative_expression_performing_arts",
+    "name": "ప్రదర్శన కళలు"
+  },
+  {
+    "id": "arts_creative_expression_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "arts_creative_expression_sculpture",
+    "name": "శిల్పం"
+  },
+  {
+    "id": "arts_creativity_animation_motion_graphics",
+    "name": "యానిమతి"
+  },
+  {
+    "id": "arts_creativity_crafts_diy",
+    "name": "హస్తకళలు & DIY"
+  },
+  {
+    "id": "arts_creativity_drawing_illustration",
+    "name": "డ్రాయింగ్ & ఇలస్ట్రేషన్"
+  },
+  {
+    "id": "arts_creativity_fashion_textile_arts",
+    "name": "ఫ్యాషన్ & టెక్స్‌టైల్ ఆర్ట్స్"
+  },
+  {
+    "id": "arts_creativity_film_video",
+    "name": "ఫిల్మ్ & వీడియో"
+  },
+  {
+    "id": "arts_creativity_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "arts_creativity_painting_mixed_media",
+    "name": "పెయింటింగ్ & మిక్స్డ్ మీడియా"
+  },
+  {
+    "id": "arts_creativity_performing_arts",
+    "name": "ప్రదర్శన కళలు"
+  },
+  {
+    "id": "arts_creativity_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "arts_creativity_writing_literature",
+    "name": "రచన & సాహిత్యం"
+  },
+  {
+    "id": "arts_design_3d_modeling",
+    "name": "3 డి మోడలింగ్"
+  },
+  {
+    "id": "arts_design_architecture_design",
+    "name": "ఆర్కిటెక్చర్ డిజైన్"
+  },
+  {
+    "id": "arts_design_crafts",
+    "name": "హస్తకళలు"
+  },
+  {
+    "id": "arts_design_fashion_textiles",
+    "name": "ఫ్యాషన్ & వస్త్రాలు"
+  },
+  {
+    "id": "arts_design_film_video",
+    "name": "ఫిల్మ్ & వీడియో"
+  },
+  {
+    "id": "arts_design_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "arts_design_interior_design",
+    "name": "ఇంటీరియర్ డిజైన్"
+  },
+  {
+    "id": "arts_design_performing_arts",
+    "name": "ప్రదర్శన కళలు"
+  },
+  {
+    "id": "arts_design_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "arts_design_visual_arts",
+    "name": "విజువల్ ఆర్ట్స్"
+  },
+  {
+    "id": "arts,_crafts_design_calligraphy",
+    "name": "కాలిగ్రాఫి"
+  },
+  {
+    "id": "arts,_crafts_design_crafts",
+    "name": "హస్తకళలు"
+  },
+  {
+    "id": "arts,_crafts_design_digital_art_animation",
+    "name": "డిజిటల్ ఆర్ట్ & యానిమేషన్"
+  },
+  {
+    "id": "arts,_crafts_design_fashion_design",
+    "name": "ఫ్యాషన్ డిజైన్"
+  },
+  {
+    "id": "arts,_crafts_design_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "arts,_crafts_design_illustration_drawing",
+    "name": "ఇలస్ట్రేషన్ & డ్రాయింగ్"
+  },
+  {
+    "id": "arts,_crafts_design_interior_design",
+    "name": "ఇంటీరియర్ డిజైన్"
+  },
+  {
+    "id": "arts,_crafts_design_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "arts,_crafts_design_textile_arts",
+    "name": "వస్త్ర కళలు"
+  },
+  {
+    "id": "arts,_crafts_design_visual_arts",
+    "name": "విజువల్ ఆర్ట్స్"
+  },
+  {
+    "id": "arts,_design_creativity_crafts_diy",
+    "name": "హస్తకళలు & DIY"
+  },
+  {
+    "id": "arts,_design_creativity_creative_writing",
+    "name": "సృజనాత్మక రచన"
+  },
+  {
+    "id": "arts,_design_creativity_design_digital_art",
+    "name": "డిజైన్ & డిజిటల్ కళ"
+  },
+  {
+    "id": "arts,_design_creativity_performing_arts",
+    "name": "ప్రదర్శన కళలు"
+  },
+  {
+    "id": "arts,_design_creativity_visual_arts",
+    "name": "విజువల్ ఆర్ట్స్"
+  },
+  {
+    "id": "business_finance_accounting",
+    "name": "అకౌంటింగ్"
+  },
+  {
+    "id": "business_finance_business_strategy",
+    "name": "వ్యాపార వ్యూహం"
+  },
+  {
+    "id": "business_finance_customer_support",
+    "name": "కస్టమర్ మద్దతు"
+  },
+  {
+    "id": "business_finance_e-commerce",
+    "name": "ఇ-కామర్స్"
+  },
+  {
+    "id": "business_finance_entrepreneurship",
+    "name": "వ్యవస్థాపకత"
+  },
+  {
+    "id": "business_finance_finance",
+    "name": "ఫైనాన్స్"
+  },
+  {
+    "id": "business_finance_finance_accounting",
+    "name": "ఫైనాన్స్ & అకౌంటింగ్"
+  },
+  {
+    "id": "business_finance_hr_recruiting",
+    "name": "హెచ్ఆర్ & రిక్రూటింగ్"
+  },
+  {
+    "id": "business_finance_human_resources",
+    "name": "మానవ వనరులు"
+  },
+  {
+    "id": "business_finance_investment_trading",
+    "name": "పెట్టుబడి & ట్రేడింగ్"
+  },
+  {
+    "id": "business_finance_leadership_management",
+    "name": "నాయకత్వం & నిర్వహణ"
+  },
+  {
+    "id": "business_finance_marketing_sales",
+    "name": "మార్కెటింగ్ & అమ్మకాలు"
+  },
+  {
+    "id": "business_finance_project_management",
+    "name": "ప్రాజెక్ట్ నిర్వహణ"
+  },
+  {
+    "id": "business_finance_sales_crm",
+    "name": "అమ్మకాలు & CRM"
+  },
+  {
+    "id": "business_professional_skills_business_communication",
+    "name": "వ్యాపార సంభాషణ"
+  },
+  {
+    "id": "business_professional_skills_customer_service",
+    "name": "కస్టమర్ సేవ"
+  },
+  {
+    "id": "business_professional_skills_entrepreneurship",
+    "name": "వ్యవస్థాపకత"
+  },
+  {
+    "id": "business_professional_skills_finance_accounting",
+    "name": "ఫైనాన్స్ & అకౌంటింగ్"
+  },
+  {
+    "id": "business_professional_skills_human_resources",
+    "name": "మానవ వనరులు"
+  },
+  {
+    "id": "business_professional_skills_leadership_management",
+    "name": "నాయకత్వం & నిర్వహణ"
+  },
+  {
+    "id": "business_professional_skills_legal_compliance",
+    "name": "చట్టపరమైన & సమ్మతి"
+  },
+  {
+    "id": "business_professional_skills_marketing_branding",
+    "name": "మార్కెటింగ్ & బ్రాండింగ్"
+  },
+  {
+    "id": "business_professional_skills_office_productivity",
+    "name": "కార్యాలయ ఉత్పాదకత"
+  },
+  {
+    "id": "business_professional_skills_project_time_management",
+    "name": "ప్రాజెక్ట్ & టైమ్ మేనేజ్‌మెంట్"
+  },
+  {
+    "id": "business_professional_skills_project_management",
+    "name": "ప్రాజెక్ట్ నిర్వహణ"
+  },
+  {
+    "id": "business_professional_skills_sales_marketing",
+    "name": "అమ్మకాలు & మార్కెటింగ్"
+  },
+  {
+    "id": "business_professional_skills_sales_negotiation",
+    "name": "అమ్మకాలు & చర్చలు"
+  },
+  {
+    "id": "cognitive_academic_skills_critical_thinking",
+    "name": "విమర్శనాత్మక ఆలోచన"
+  },
+  {
+    "id": "cognitive_academic_skills_language_linguistics",
+    "name": "భాష & భాషాశాస్త్రం"
+  },
+  {
+    "id": "cognitive_academic_skills_mathematics_logic",
+    "name": "గణితం & తర్కం"
+  },
+  {
+    "id": "cognitive_academic_skills_memory_focus",
+    "name": "మెమరీ & ఫోకస్"
+  },
+  {
+    "id": "cognitive_academic_skills_science_research",
+    "name": "సైన్స్ & రీసెర్చ్"
+  },
+  {
+    "id": "cognitive_academic_skills_study_learning_skills",
+    "name": "అధ్యయనం & అభ్యాస నైపుణ్యాలు"
+  },
+  {
+    "id": "cognitive_learning_skills_concentration_focus",
+    "name": "ఏకాగ్రత & దృష్టి"
+  },
+  {
+    "id": "cognitive_learning_skills_critical_thinking",
+    "name": "విమర్శనాత్మక ఆలోచన"
+  },
+  {
+    "id": "cognitive_learning_skills_information_processing",
+    "name": "సమాచార ప్రాసెసింగ్"
+  },
+  {
+    "id": "cognitive_learning_skills_learning_strategies",
+    "name": "అభ్యాస వ్యూహాలు"
+  },
+  {
+    "id": "cognitive_learning_skills_memory_retention",
+    "name": "మెమరీ & నిలుపుదల"
+  },
+  {
+    "id": "cognitive_learning_skills_problem_solving",
+    "name": "సమస్య పరిష్కారం"
+  },
+  {
+    "id": "communication_language_skills_foreign_languages",
+    "name": "విదేశీ భాషలు"
+  },
+  {
+    "id": "communication_language_skills_interpersonal_skills",
+    "name": "ఇంటర్ పర్సనల్ స్కిల్స్"
+  },
+  {
+    "id": "communication_language_skills_nonverbal_communication",
+    "name": "అశాబ్దిక కమ్యూనికేషన్"
+  },
+  {
+    "id": "communication_language_skills_presentation_storytelling",
+    "name": "ప్రదర్శన & కథ చెప్పడం"
+  },
+  {
+    "id": "communication_language_skills_public_speaking",
+    "name": "బహిరంగ ప్రసంగం"
+  },
+  {
+    "id": "communication_language_skills_writing_editing",
+    "name": "రైటింగ్ & ఎడిటింగ్"
+  },
+  {
+    "id": "creative_artistic_crafts_diy",
+    "name": "హస్తకళలు & DIY"
+  },
+  {
+    "id": "creative_artistic_creative_thinking",
+    "name": "సృజనాత్మక ఆలోచన"
+  },
+  {
+    "id": "creative_artistic_design_aesthetics",
+    "name": "డిజైన్ & సౌందర్యం"
+  },
+  {
+    "id": "creative_artistic_fashion_styling",
+    "name": "ఫ్యాషన్ & స్టైలింగ్"
+  },
+  {
+    "id": "creative_artistic_film_video",
+    "name": "ఫిల్మ్ & వీడియో"
+  },
+  {
+    "id": "creative_artistic_game_design_worldbuilding",
+    "name": "ఆట రూపకల్పన & ప్రపంచ నిర్మాణము"
+  },
+  {
+    "id": "creative_artistic_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "creative_artistic_music_sound",
+    "name": "సంగీతం & ధ్వని"
+  },
+  {
+    "id": "creative_artistic_music_performance",
+    "name": "సంగీత ప్రదర్శన"
+  },
+  {
+    "id": "creative_artistic_music_production",
+    "name": "సంగీత ఉత్పత్తి"
+  },
+  {
+    "id": "creative_artistic_performing_arts",
+    "name": "ప్రదర్శన కళలు"
+  },
+  {
+    "id": "creative_artistic_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "creative_artistic_photography_videography",
+    "name": "ఫోటోగ్రఫీ & వీడియోగ్రఫీ"
+  },
+  {
+    "id": "creative_artistic_visual_arts",
+    "name": "విజువల్ ఆర్ట్స్"
+  },
+  {
+    "id": "creative_artistic_writing_literature",
+    "name": "రచన & సాహిత్యం"
+  },
+  {
+    "id": "creative_artistic_skills_acting_performance",
+    "name": "నటన & పనితీరు"
+  },
+  {
+    "id": "creative_artistic_skills_animation",
+    "name": "యానిమేషన్"
+  },
+  {
+    "id": "creative_artistic_skills_crafting_diy",
+    "name": "క్రాఫ్టింగ్ & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_diy",
+    "name": "హస్తకళలు & DIY"
+  },
+  {
+    "id": "creative_artistic_skills_crafts_handmade_arts",
+    "name": "హస్తకళలు & చేతితో తయారు చేసిన కళలు"
+  },
+  {
+    "id": "creative_artistic_skills_creative_tech",
+    "name": "క్రియేటివ్ టెక్"
+  },
+  {
+    "id": "creative_artistic_skills_creative_writing",
+    "name": "సృజనాత్మక రచన"
+  },
+  {
+    "id": "creative_artistic_skills_culinary_arts",
+    "name": "పాక కళలు"
+  },
+  {
+    "id": "creative_artistic_skills_design_aesthetics",
+    "name": "డిజైన్ & సౌందర్యం"
+  },
+  {
+    "id": "creative_artistic_skills_drawing_illustration",
+    "name": "డ్రాయింగ్ & ఇలస్ట్రేషన్"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_styling",
+    "name": "ఫ్యాషన్ & స్టైలింగ్"
+  },
+  {
+    "id": "creative_artistic_skills_fashion_textile_art",
+    "name": "ఫ్యాషన్ & వస్త్ర కళ"
+  },
+  {
+    "id": "creative_artistic_skills_filmmaking_video",
+    "name": "ఫిల్మ్ మేకింగ్ & వీడియో"
+  },
+  {
+    "id": "creative_artistic_skills_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "creative_artistic_skills_interior_floral_design",
+    "name": "ఇంటీరియర్ & ఫ్లోరల్ డిజైన్"
+  },
+  {
+    "id": "creative_artistic_skills_music_instruments",
+    "name": "సంగీతం & వాయిద్యాలు"
+  },
+  {
+    "id": "creative_artistic_skills_music_creation",
+    "name": "సంగీత సృష్టి"
+  },
+  {
+    "id": "creative_artistic_skills_painting",
+    "name": "పెయింటింగ్"
+  },
+  {
+    "id": "creative_artistic_skills_painting_fine_art",
+    "name": "పెయింటింగ్ & ఫైన్ ఆర్ట్"
+  },
+  {
+    "id": "creative_artistic_skills_performing_arts",
+    "name": "ప్రదర్శన కళలు"
+  },
+  {
+    "id": "creative_artistic_skills_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "creative_artistic_skills_photography_videography",
+    "name": "ఫోటోగ్రఫీ & వీడియోగ్రఫీ"
+  },
+  {
+    "id": "creative_artistic_skills_sculpture_3d_art",
+    "name": "శిల్పం & 3D కళ"
+  },
+  {
+    "id": "creative_artistic_skills_visual_arts",
+    "name": "విజువల్ ఆర్ట్స్"
+  },
+  {
+    "id": "creative_artistic_skills_writing_storytelling",
+    "name": "రచన & కథ"
+  },
+  {
+    "id": "creative_design_3d_animation",
+    "name": "3 డి & యానిమేషన్"
+  },
+  {
+    "id": "creative_design_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "creative_design_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "creative_design_ui/ux",
+    "name": "Ui/ux"
+  },
+  {
+    "id": "creative_design_video_production",
+    "name": "వీడియో ఉత్పత్తి"
+  },
+  {
+    "id": "creative_arts_crafts_calligraphy_hand_lettering",
+    "name": "కాలిగ్రాఫి & హ్యాండ్ లెటరింగ్"
+  },
+  {
+    "id": "creative_arts_crafts_crafting_diy",
+    "name": "క్రాఫ్టింగ్ & DIY"
+  },
+  {
+    "id": "creative_arts_crafts_creative_writing",
+    "name": "సృజనాత్మక రచన"
+  },
+  {
+    "id": "creative_arts_crafts_drawing_illustration",
+    "name": "డ్రాయింగ్ & ఇలస్ట్రేషన్"
+  },
+  {
+    "id": "creative_arts_crafts_jewelry_making",
+    "name": "ఆభరణాల తయారీ"
+  },
+  {
+    "id": "creative_arts_crafts_painting",
+    "name": "పెయింటింగ్"
+  },
+  {
+    "id": "creative_arts_crafts_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "creative_arts_crafts_scrapbooking_collage",
+    "name": "స్క్రాప్‌బుకింగ్ & కోల్లెజ్"
+  },
+  {
+    "id": "creative_arts_crafts_sculpting_clay",
+    "name": "శిల్పం & క్లే"
+  },
+  {
+    "id": "creative_arts_crafts_textile_fiber_arts",
+    "name": "టెక్స్‌టైల్ & ఫైబర్ ఆర్ట్స్"
+  },
+  {
+    "id": "creative_arts_design_crafts_diy",
+    "name": "హస్తకళలు & DIY"
+  },
+  {
+    "id": "creative_arts_design_digital_arts_animation",
+    "name": "డిజిటల్ ఆర్ట్స్ & యానిమేషన్"
+  },
+  {
+    "id": "creative_arts_design_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "creative_arts_design_interior_fashion",
+    "name": "ఇంటీరియర్ & ఫ్యాషన్"
+  },
+  {
+    "id": "creative_arts_design_visual_arts",
+    "name": "విజువల్ ఆర్ట్స్"
+  },
+  {
+    "id": "culture_language_skills_ancient_languages",
+    "name": "పురాతన భాషలు"
+  },
+  {
+    "id": "culture_language_skills_cultural_awareness",
+    "name": "సాంస్కృతిక అవగాహన"
+  },
+  {
+    "id": "culture_language_skills_dialect_coaching",
+    "name": "మాండలికం కోచింగ్"
+  },
+  {
+    "id": "culture_language_skills_intercultural_communication",
+    "name": "ఇంటర్‌కల్చరల్ కమ్యూనికేషన్"
+  },
+  {
+    "id": "culture_language_skills_language_learning_techniques",
+    "name": "భాషా అభ్యాస పద్ధతులు"
+  },
+  {
+    "id": "culture_language_skills_languages",
+    "name": "భాషలు"
+  },
+  {
+    "id": "culture_language_skills_linguistics",
+    "name": "భాషాశాస్త్రం"
+  },
+  {
+    "id": "culture_language_skills_sign_languages",
+    "name": "సంకేత భాషలు"
+  },
+  {
+    "id": "culture_language_skills_translation_interpretation",
+    "name": "అనువాదం & వ్యాఖ్యానం"
+  },
+  {
+    "id": "culture_language_skills_writing_systems",
+    "name": "రచన వ్యవస్థలు"
+  },
+  {
+    "id": "design_visual_skills_3d_modeling_animation",
+    "name": "3D మోడలింగ్ & యానిమేషన్"
+  },
+  {
+    "id": "design_visual_skills_branding_identity",
+    "name": "బ్రాండింగ్ & ఐడెంటిటీ"
+  },
+  {
+    "id": "design_visual_skills_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "design_visual_skills_illustration",
+    "name": "ఉదాహరణ"
+  },
+  {
+    "id": "design_visual_skills_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "design_visual_skills_ux/ui_design",
+    "name": "UX/UI డిజైన్"
+  },
+  {
+    "id": "digital_media_skills_3d_animation",
+    "name": "3 డి & యానిమేషన్"
+  },
+  {
+    "id": "digital_media_skills_content_creation",
+    "name": "కంటెంట్ సృష్టి"
+  },
+  {
+    "id": "digital_media_skills_digital_marketing",
+    "name": "డిజిటల్ మార్కెటింగ్"
+  },
+  {
+    "id": "digital_media_skills_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "digital_media_skills_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "digital_media_skills_social_media",
+    "name": "సోషల్ మీడియా"
+  },
+  {
+    "id": "digital_media_skills_streaming_broadcasting",
+    "name": "స్ట్రీమింగ్ & ప్రసారం"
+  },
+  {
+    "id": "digital_media_skills_ui/ux_design",
+    "name": "UI/UX డిజైన్"
+  },
+  {
+    "id": "digital_media_skills_video_production",
+    "name": "వీడియో ఉత్పత్తి"
+  },
+  {
+    "id": "digital_media_skills_web_app_design",
+    "name": "వెబ్ & అనువర్తన రూపకల్పన"
+  },
+  {
+    "id": "digital_technology_skills_cybersecurity",
+    "name": "సైబర్‌ సెక్యూరిటీ"
+  },
+  {
+    "id": "digital_technology_skills_data_ai",
+    "name": "డేటా & AI"
+  },
+  {
+    "id": "digital_technology_skills_it_networking",
+    "name": "ఇది & నెట్‌వర్కింగ్"
+  },
+  {
+    "id": "digital_technology_skills_programming_development",
+    "name": "ప్రోగ్రామింగ్ & అభివృద్ధి"
+  },
+  {
+    "id": "digital_technology_skills_web_mobile",
+    "name": "వెబ్ & మొబైల్"
+  },
+  {
+    "id": "education_language_academic_tutoring",
+    "name": "అకాడెమిక్ ట్యూటరింగ్"
+  },
+  {
+    "id": "education_language_early_childhood_education",
+    "name": "బాల్య విద్య"
+  },
+  {
+    "id": "education_language_higher_education",
+    "name": "ఉన్నత విద్య"
+  },
+  {
+    "id": "education_language_language_teaching",
+    "name": "భాషా బోధన"
+  },
+  {
+    "id": "education_language_languages",
+    "name": "భాషలు"
+  },
+  {
+    "id": "education_language_learning_technologies",
+    "name": "అభ్యాస సాంకేతికతలు"
+  },
+  {
+    "id": "education_language_literacy_writing",
+    "name": "అక్షరాస్యత & రచన"
+  },
+  {
+    "id": "education_language_special_education",
+    "name": "ప్రత్యేక విద్య"
+  },
+  {
+    "id": "education_language_study_skills",
+    "name": "అధ్యయన నైపుణ్యాలు"
+  },
+  {
+    "id": "education_language_test_prep",
+    "name": "టెస్ట్ ప్రిపరేషన్"
+  },
+  {
+    "id": "engineering_mechanical_automotive_transportation",
+    "name": "ఆటోమోటివ్ & రవాణా"
+  },
+  {
+    "id": "engineering_mechanical_civil_engineering",
+    "name": "సివిల్ ఇంజనీరింగ్"
+  },
+  {
+    "id": "engineering_mechanical_electrical_engineering",
+    "name": "ఎలక్ట్రికల్ ఇంజనీరింగ్"
+  },
+  {
+    "id": "engineering_mechanical_energy_power_systems",
+    "name": "శక్తి & శక్తి వ్యవస్థలు"
+  },
+  {
+    "id": "engineering_mechanical_hvac_systems",
+    "name": "HVAC & సిస్టమ్స్"
+  },
+  {
+    "id": "engineering_mechanical_industrial_design",
+    "name": "పారిశ్రామిక రూపకల్పన"
+  },
+  {
+    "id": "engineering_mechanical_manufacturing_production",
+    "name": "తయారీ & ఉత్పత్తి"
+  },
+  {
+    "id": "engineering_mechanical_mechanical_engineering",
+    "name": "మెకానికల్ ఇంజనీరింగ్"
+  },
+  {
+    "id": "engineering_mechanical_robotics_automation",
+    "name": "రోబోటిక్స్ & ఆటోమేషన్"
+  },
+  {
+    "id": "engineering_mechanical_structural_design",
+    "name": "నిర్మాణ రూపకల్పన"
+  },
+  {
+    "id": "health_fitness_body_care_wellness",
+    "name": "శరీర సంరక్షణ & ఆరోగ్యం"
+  },
+  {
+    "id": "health_fitness_first_aid_safety",
+    "name": "ప్రథమ చికిత్స & భద్రత"
+  },
+  {
+    "id": "health_fitness_mental_health",
+    "name": "మానసిక ఆరోగ్యం"
+  },
+  {
+    "id": "health_fitness_nutrition_diet",
+    "name": "పోషకాహారం & ఆహారం"
+  },
+  {
+    "id": "health_fitness_physical_training",
+    "name": "శారీరక శిక్షణ"
+  },
+  {
+    "id": "health_wellness_alternative_medicine",
+    "name": "ప్రత్యామ్నాయ medicine షధం"
+  },
+  {
+    "id": "health_wellness_first_aid_emergency",
+    "name": "ప్రథమ చికిత్స & అత్యవసర పరిస్థితి"
+  },
+  {
+    "id": "health_wellness_fitness_training",
+    "name": "ఫిట్‌నెస్ శిక్షణ"
+  },
+  {
+    "id": "health_wellness_holistic_health",
+    "name": "సంపూర్ణ ఆరోగ్యం"
+  },
+  {
+    "id": "health_wellness_medical_knowledge",
+    "name": "వైద్య పరిజ్ఞానం"
+  },
+  {
+    "id": "health_wellness_medical_skills",
+    "name": "వైద్య నైపుణ్యాలు"
+  },
+  {
+    "id": "health_wellness_mental_health",
+    "name": "మానసిక ఆరోగ్యం"
+  },
+  {
+    "id": "health_wellness_mental_health_practices",
+    "name": "మానసిక ఆరోగ్య పద్ధతులు"
+  },
+  {
+    "id": "health_wellness_mindfulness_meditation",
+    "name": "మైండ్‌ఫుల్‌నెస్ & మెడిటేషన్"
+  },
+  {
+    "id": "health_wellness_nutrition_diet",
+    "name": "పోషకాహారం & ఆహారం"
+  },
+  {
+    "id": "health_wellness_personal_care",
+    "name": "వ్యక్తిగత సంరక్షణ"
+  },
+  {
+    "id": "health_wellness_physical_fitness",
+    "name": "శారీరక దృ itness త్వం"
+  },
+  {
+    "id": "health_wellness_rehabilitation_therapy",
+    "name": "పునరావాసం & చికిత్స"
+  },
+  {
+    "id": "health_wellness_reproductive_health",
+    "name": "పునరుత్పత్తి ఆరోగ్యం"
+  },
+  {
+    "id": "health_wellness_self-care_hygiene",
+    "name": "స్వీయ సంరక్షణ & పరిశుభ్రత"
+  },
+  {
+    "id": "health_wellness_sleep_recovery",
+    "name": "నిద్ర & పునరుద్ధరణ"
+  },
+  {
+    "id": "health_wellness_stress_management",
+    "name": "ఒత్తిడి నిర్వహణ"
+  },
+  {
+    "id": "health_wellness_yoga_meditation",
+    "name": "యోగా & ధ్యానం"
+  },
+  {
+    "id": "health,_fitness_sports_fitness_training",
+    "name": "ఫిట్‌నెస్ శిక్షణ"
+  },
+  {
+    "id": "health,_fitness_sports_nutrition",
+    "name": "పోషకాహారం"
+  },
+  {
+    "id": "health,_fitness_sports_outdoor_adventure",
+    "name": "అవుట్డోర్ & అడ్వెంచర్"
+  },
+  {
+    "id": "health,_fitness_sports_sports_skills",
+    "name": "క్రీడా నైపుణ్యాలు"
+  },
+  {
+    "id": "health,_fitness_sports_wellness_recovery",
+    "name": "వెల్నెస్ & రికవరీ"
+  },
+  {
+    "id": "health,_wellness_fitness_alternative_medicine",
+    "name": "ప్రత్యామ్నాయ medicine షధం"
+  },
+  {
+    "id": "health,_wellness_fitness_medical_knowledge",
+    "name": "వైద్య పరిజ్ఞానం"
+  },
+  {
+    "id": "health,_wellness_fitness_mental_health",
+    "name": "మానసిక ఆరోగ్యం"
+  },
+  {
+    "id": "health,_wellness_fitness_nutrition",
+    "name": "పోషకాహారం"
+  },
+  {
+    "id": "health,_wellness_fitness_personal_training",
+    "name": "వ్యక్తిగత శిక్షణ"
+  },
+  {
+    "id": "health,_wellness_fitness_physical_fitness",
+    "name": "శారీరక దృ itness త్వం"
+  },
+  {
+    "id": "health,_wellness_fitness_rehabilitation_therapy",
+    "name": "పునరావాసం & చికిత్స"
+  },
+  {
+    "id": "health,_wellness_fitness_sports_coaching",
+    "name": "స్పోర్ట్స్ కోచింగ్"
+  },
+  {
+    "id": "health,_wellness_fitness_wellness_coaching",
+    "name": "వెల్నెస్ కోచింగ్"
+  },
+  {
+    "id": "health,_wellness_fitness_yoga_mindfulness",
+    "name": "యోగా & మైండ్‌ఫుల్‌నెస్"
+  },
+  {
+    "id": "home_diy_appliance_maintenance",
+    "name": "ఉపకరణం నిర్వహణ"
+  },
+  {
+    "id": "home_diy_cleaning_organizing",
+    "name": "శుభ్రపరచడం & ఆర్గనైజింగ్"
+  },
+  {
+    "id": "home_diy_crafts_decor",
+    "name": "క్రాఫ్ట్స్ & డెకర్"
+  },
+  {
+    "id": "home_diy_electrical_work",
+    "name": "విద్యుత్ పని"
+  },
+  {
+    "id": "home_diy_gardening_landscaping",
+    "name": "తోటపని & ల్యాండ్ స్కేపింగ్"
+  },
+  {
+    "id": "home_diy_home_automation",
+    "name": "హోమ్ ఆటోమేషన్"
+  },
+  {
+    "id": "home_diy_home_repair",
+    "name": "ఇంటి మరమ్మత్తు"
+  },
+  {
+    "id": "home_diy_interior_design",
+    "name": "ఇంటీరియర్ డిజైన్"
+  },
+  {
+    "id": "home_diy_plumbing_basics",
+    "name": "ప్లంబింగ్ బేసిక్స్"
+  },
+  {
+    "id": "home_diy_woodworking_carpentry",
+    "name": "చెక్క పని & వడ్రంగి"
+  },
+  {
+    "id": "home_daily_life_budgeting_household_finance",
+    "name": "బడ్జెట్ & గృహ ఫైనాన్స్"
+  },
+  {
+    "id": "home_daily_life_childcare",
+    "name": "పిల్లల సంరక్షణ"
+  },
+  {
+    "id": "home_daily_life_cooking_meal_prep",
+    "name": "వంట & భోజనం ప్రిపరేషన్"
+  },
+  {
+    "id": "home_daily_life_grocery_shopping",
+    "name": "కిరాణా షాపింగ్"
+  },
+  {
+    "id": "home_daily_life_home_cleaning",
+    "name": "హోమ్ క్లీనింగ్"
+  },
+  {
+    "id": "home_daily_life_home_maintenance",
+    "name": "ఇంటి నిర్వహణ"
+  },
+  {
+    "id": "home_daily_life_laundry_clothing_care",
+    "name": "లాండ్రీ & దుస్తులు సంరక్షణ"
+  },
+  {
+    "id": "home_daily_life_organizing_decluttering",
+    "name": "ఆర్గనైజింగ్ & డిక్లూటరింగ్"
+  },
+  {
+    "id": "home_daily_life_pet_care",
+    "name": "పెంపుడు జంతువుల సంరక్షణ"
+  },
+  {
+    "id": "home_daily_life_time_management",
+    "name": "సమయ నిర్వహణ"
+  },
+  {
+    "id": "language_communication_cross-cultural_communication",
+    "name": "క్రాస్-కల్చరల్ కమ్యూనికేషన్"
+  },
+  {
+    "id": "language_communication_foreign_languages",
+    "name": "విదేశీ భాషలు"
+  },
+  {
+    "id": "language_communication_listening_comprehension",
+    "name": "లిజనింగ్ & కాంప్రహెన్షన్"
+  },
+  {
+    "id": "language_communication_translation_interpretation",
+    "name": "అనువాదం & వ్యాఖ్యానం"
+  },
+  {
+    "id": "language_communication_writing_skills",
+    "name": "రచన నైపుణ్యాలు"
+  },
+  {
+    "id": "language_communication_skills_language_learning",
+    "name": "భాషా అభ్యాసం"
+  },
+  {
+    "id": "language_communication_skills_non-verbal_communication",
+    "name": "అశాబ్దిక కమ్యూనికేషన్"
+  },
+  {
+    "id": "language_communication_skills_public_speaking",
+    "name": "బహిరంగ ప్రసంగం"
+  },
+  {
+    "id": "language_communication_skills_storytelling_narration",
+    "name": "కథ చెప్పడం & కథనం"
+  },
+  {
+    "id": "language_communication_skills_verbal_communication",
+    "name": "శబ్ద సంభాషణ"
+  },
+  {
+    "id": "language_communication_skills_writing_editing",
+    "name": "రైటింగ్ & ఎడిటింగ్"
+  },
+  {
+    "id": "learning_academic_skills_language_learning",
+    "name": "భాషా అభ్యాసం"
+  },
+  {
+    "id": "learning_academic_skills_mathematics",
+    "name": "గణితం"
+  },
+  {
+    "id": "learning_academic_skills_science_research",
+    "name": "సైన్స్ & రీసెర్చ్"
+  },
+  {
+    "id": "learning_academic_skills_study_techniques",
+    "name": "అధ్యయన పద్ధతులు"
+  },
+  {
+    "id": "learning_academic_skills_test_preparation",
+    "name": "పరీక్ష తయారీ"
+  },
+  {
+    "id": "learning,_language_education_academic_tutoring",
+    "name": "అకాడెమిక్ ట్యూటరింగ్"
+  },
+  {
+    "id": "learning,_language_education_educational_tools_skills",
+    "name": "విద్యా సాధనాలు & నైపుణ్యాలు"
+  },
+  {
+    "id": "learning,_language_education_language_learning",
+    "name": "భాషా అభ్యాసం"
+  },
+  {
+    "id": "learning,_language_education_lifelong_learning",
+    "name": "జీవితకాల అభ్యాసం"
+  },
+  {
+    "id": "learning,_language_education_test_preparation",
+    "name": "పరీక్ష తయారీ"
+  },
+  {
+    "id": "life_everyday_skills_cooking_food",
+    "name": "వంట & ఆహారం"
+  },
+  {
+    "id": "life_everyday_skills_home_maintenance",
+    "name": "ఇంటి నిర్వహణ"
+  },
+  {
+    "id": "life_everyday_skills_personal_finance",
+    "name": "వ్యక్తిగత ఫైనాన్స్"
+  },
+  {
+    "id": "life_everyday_skills_time_management",
+    "name": "సమయ నిర్వహణ"
+  },
+  {
+    "id": "life_everyday_skills_travel_navigation",
+    "name": "ప్రయాణం & నావిగేషన్"
+  },
+  {
+    "id": "life_personal_development_communication_relationships",
+    "name": "కమ్యూనికేషన్ & సంబంధాలు"
+  },
+  {
+    "id": "life_personal_development_emotional_intelligence",
+    "name": "భావోద్వేగ మేధస్సు"
+  },
+  {
+    "id": "life_personal_development_resilience_growth",
+    "name": "స్థితిస్థాపకత & పెరుగుదల"
+  },
+  {
+    "id": "life_personal_development_self-discipline",
+    "name": "స్వీయ క్రమశిక్షణ"
+  },
+  {
+    "id": "life_personal_development_time_goal_management",
+    "name": "సమయం & లక్ష్యం నిర్వహణ"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_cooking_food_prep",
+    "name": "వంట & ఫుడ్ ప్రిపరేషన్"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_diy_repairs",
+    "name": "DIY & మరమ్మతులు"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_gardening_sustainability",
+    "name": "తోటపని & సుస్థిరత"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_home_management",
+    "name": "గృహ నిర్వహణ"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_personal_finance",
+    "name": "వ్యక్తిగత ఫైనాన్స్"
+  },
+  {
+    "id": "lifestyle_self-sufficiency_skills_survival_skills",
+    "name": "మనుగడ నైపుణ్యాలు"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_automotive_repair",
+    "name": "ఆటోమోటివ్ మరమ్మత్తు"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_construction_trades",
+    "name": "నిర్మాణ ట్రేడ్స్"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_electrical_work",
+    "name": "విద్యుత్ పని"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_furniture_upholstery",
+    "name": "ఫర్నిచర్ & అప్హోల్స్టరీ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_hand_tool_mastery",
+    "name": "చేతి సాధనం పాండిత్యం"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_home_renovation",
+    "name": "ఇంటి పునరుద్ధరణ"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_metalworking",
+    "name": "మెటల్ వర్కింగ్"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_plumbing_heating",
+    "name": "ప్లంబింగ్ & తాపన"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_textile_leathercraft",
+    "name": "వస్త్ర & లెదర్‌క్రాఫ్ట్"
+  },
+  {
+    "id": "manual_trades_craftsmanship_skills_woodworking",
+    "name": "చెక్క పని"
+  },
+  {
+    "id": "mechanical_technical_skills_automotive_maintenance",
+    "name": "ఆటోమోటివ్ నిర్వహణ"
+  },
+  {
+    "id": "mechanical_technical_skills_engineering_basics",
+    "name": "ఇంజనీరింగ్ బేసిక్స్"
+  },
+  {
+    "id": "mechanical_technical_skills_home_repair_installation",
+    "name": "ఇంటి మరమ్మత్తు & సంస్థాపన"
+  },
+  {
+    "id": "mechanical_technical_skills_machine_operation",
+    "name": "యంత్ర ఆపరేషన్"
+  },
+  {
+    "id": "mechanical_technical_skills_tool_use_safety",
+    "name": "సాధన ఉపయోగం & భద్రత"
+  },
+  {
+    "id": "mechanical_technical_skills_wood_metal_work",
+    "name": "వుడ్ & మెటల్ వర్క్"
+  },
+  {
+    "id": "mind_academics_critical_thinking",
+    "name": "విమర్శనాత్మక ఆలోచన"
+  },
+  {
+    "id": "mind_academics_geography_environment",
+    "name": "భౌగోళికం & పర్యావరణం"
+  },
+  {
+    "id": "mind_academics_history_culture",
+    "name": "చరిత్ర & సంస్కృతి"
+  },
+  {
+    "id": "mind_academics_languages",
+    "name": "భాషలు"
+  },
+  {
+    "id": "mind_academics_mathematics",
+    "name": "గణితం"
+  },
+  {
+    "id": "mind_academics_memory_learning_skills",
+    "name": "మెమరీ & లెర్నింగ్ స్కిల్స్"
+  },
+  {
+    "id": "mind_academics_philosophy_ethics",
+    "name": "తత్వశాస్త్రం & నీతి"
+  },
+  {
+    "id": "mind_academics_psychology_behavior",
+    "name": "సైకాలజీ & బిహేవియర్"
+  },
+  {
+    "id": "mind_academics_science_research",
+    "name": "సైన్స్ & రీసెర్చ్"
+  },
+  {
+    "id": "mind_academics_study_techniques",
+    "name": "అధ్యయన పద్ధతులు"
+  },
+  {
+    "id": "mind_learning_skills_cognitive_flexibility",
+    "name": "అభిజ్ఞా వశ్యత"
+  },
+  {
+    "id": "mind_learning_skills_critical_thinking",
+    "name": "విమర్శనాత్మక ఆలోచన"
+  },
+  {
+    "id": "mind_learning_skills_language_learning",
+    "name": "భాషా అభ్యాసం"
+  },
+  {
+    "id": "mind_learning_skills_memory_focus",
+    "name": "మెమరీ & ఫోకస్"
+  },
+  {
+    "id": "mind_learning_skills_study_skills",
+    "name": "అధ్యయన నైపుణ్యాలు"
+  },
+  {
+    "id": "personal_development_confidence_self-esteem",
+    "name": "విశ్వాసం & ఆత్మగౌరవం"
+  },
+  {
+    "id": "personal_development_emotional_intelligence",
+    "name": "భావోద్వేగ మేధస్సు"
+  },
+  {
+    "id": "personal_development_goal_setting_planning",
+    "name": "గోల్ సెట్టింగ్ & ప్లానింగ్"
+  },
+  {
+    "id": "personal_development_habits_discipline",
+    "name": "అలవాట్లు & క్రమశిక్షణ"
+  },
+  {
+    "id": "personal_development_interpersonal_skills",
+    "name": "ఇంటర్ పర్సనల్ స్కిల్స్"
+  },
+  {
+    "id": "personal_development_leadership_influence",
+    "name": "నాయకత్వం & ప్రభావం"
+  },
+  {
+    "id": "personal_development_mindfulness_wellbeing",
+    "name": "మైండ్‌ఫుల్‌నెస్ & శ్రేయస్సు"
+  },
+  {
+    "id": "personal_development_public_speaking",
+    "name": "బహిరంగ ప్రసంగం"
+  },
+  {
+    "id": "personal_development_self-reflection",
+    "name": "స్వీయ ప్రతిబింబం"
+  },
+  {
+    "id": "personal_development_time_productivity",
+    "name": "సమయం & ఉత్పాదకత"
+  },
+  {
+    "id": "personal_development_mindset_leadership",
+    "name": "నాయకత్వం"
+  },
+  {
+    "id": "personal_development_mindset_mental_wellness",
+    "name": "మానసిక ఆరోగ్యం"
+  },
+  {
+    "id": "personal_development_mindset_productivity",
+    "name": "ఉత్పాదకత"
+  },
+  {
+    "id": "personal_development_mindset_public_speaking",
+    "name": "బహిరంగ ప్రసంగం"
+  },
+  {
+    "id": "personal_development_mindset_self-improvement",
+    "name": "స్వీయ-అభివృద్ధి"
+  },
+  {
+    "id": "personal_development_mindset_skills_emotional_intelligence",
+    "name": "భావోద్వేగ మేధస్సు"
+  },
+  {
+    "id": "personal_development_mindset_skills_goal_setting_achievement",
+    "name": "గోల్ సెట్టింగ్ & అచీవ్‌మెంట్"
+  },
+  {
+    "id": "personal_development_mindset_skills_habits_productivity",
+    "name": "అలవాట్లు & ఉత్పాదకత"
+  },
+  {
+    "id": "personal_development_mindset_skills_mindfulness_wellness",
+    "name": "మైండ్‌ఫుల్‌నెస్ & వెల్నెస్"
+  },
+  {
+    "id": "personal_development_mindset_skills_public_speaking_communication",
+    "name": "పబ్లిక్ స్పీకింగ్ & కమ్యూనికేషన్"
+  },
+  {
+    "id": "personal_development_mindset_skills_self-discipline_focus",
+    "name": "స్వీయ-క్రమశిక్షణ & దృష్టి"
+  },
+  {
+    "id": "physical_outdoor_skills_fitness_conditioning",
+    "name": "ఫిట్‌నెస్ & కండిషనింగ్"
+  },
+  {
+    "id": "physical_outdoor_skills_manual_labor_trades",
+    "name": "మాన్యువల్ లేబర్ & ట్రేడ్స్"
+  },
+  {
+    "id": "physical_outdoor_skills_outdoor_recreation",
+    "name": "బహిరంగ వినోదం"
+  },
+  {
+    "id": "physical_outdoor_skills_self-defense_martial_arts",
+    "name": "ఆత్మరక్షణ & యుద్ధ కళలు"
+  },
+  {
+    "id": "physical_outdoor_skills_sports_athletics",
+    "name": "స్పోర్ట్స్ & అథ్లెటిక్స్"
+  },
+  {
+    "id": "physical_outdoor_skills_survival_bushcraft",
+    "name": "మనుగడ & బుష్‌క్రాఫ్ట్"
+  },
+  {
+    "id": "physical_sports_skills_fitness_strength",
+    "name": "ఫిట్‌నెస్ & బలం"
+  },
+  {
+    "id": "physical_sports_skills_individual_sports",
+    "name": "వ్యక్తిగత క్రీడలు"
+  },
+  {
+    "id": "physical_sports_skills_martial_arts",
+    "name": "మార్షల్ ఆర్ట్స్"
+  },
+  {
+    "id": "physical_sports_skills_outdoor_adventure",
+    "name": "అవుట్డోర్ & అడ్వెంచర్"
+  },
+  {
+    "id": "physical_sports_skills_recreational_activities",
+    "name": "వినోద కార్యకలాపాలు"
+  },
+  {
+    "id": "physical_sports_skills_team_sports",
+    "name": "జట్టు క్రీడలు"
+  },
+  {
+    "id": "science_research_skills_academic_writing",
+    "name": "విద్యా రచన"
+  },
+  {
+    "id": "science_research_skills_biological_sciences",
+    "name": "జీవ శాస్త్రాలు"
+  },
+  {
+    "id": "science_research_skills_computer_data_science",
+    "name": "కంప్యూటర్ & డేటా సైన్స్"
+  },
+  {
+    "id": "science_research_skills_earth_environmental_sciences",
+    "name": "భూమి & పర్యావరణ శాస్త్రాలు"
+  },
+  {
+    "id": "science_research_skills_engineering_sciences",
+    "name": "ఇంజనీరింగ్ శాస్త్రాలు"
+  },
+  {
+    "id": "science_research_skills_mathematics_statistics",
+    "name": "గణితం & గణాంకాలు"
+  },
+  {
+    "id": "science_research_skills_medical_health_sciences",
+    "name": "వైద్య & ఆరోగ్య శాస్త్రాలు"
+  },
+  {
+    "id": "science_research_skills_physical_sciences",
+    "name": "భౌతిక శాస్త్రాలు"
+  },
+  {
+    "id": "science_research_skills_research_methods",
+    "name": "పరిశోధన పద్ధతులు"
+  },
+  {
+    "id": "science_research_skills_social_sciences",
+    "name": "సాంఘిక శాస్త్రాలు"
+  },
+  {
+    "id": "science_technical_skills_astronomy",
+    "name": "ఖగోళ శాస్త్రం"
+  },
+  {
+    "id": "science_technical_skills_biology_life_sciences",
+    "name": "జీవశాస్త్రం"
+  },
+  {
+    "id": "science_technical_skills_chemistry",
+    "name": "కెమిస్ట్రీ"
+  },
+  {
+    "id": "science_technical_skills_computer_science",
+    "name": "కంప్యూటర్ సైన్స్"
+  },
+  {
+    "id": "science_technical_skills_data_science_ai",
+    "name": "డేటా సైన్స్ & AI"
+  },
+  {
+    "id": "science_technical_skills_earth_environmental_sciences",
+    "name": "భూమి & పర్యావరణ శాస్త్రాలు"
+  },
+  {
+    "id": "science_technical_skills_engineering_disciplines",
+    "name": "ఇంజనీరింగ్ విభాగాలు"
+  },
+  {
+    "id": "science_technical_skills_mathematics_statistics",
+    "name": "గణితం & గణాంకాలు"
+  },
+  {
+    "id": "science_technical_skills_physics_mechanics",
+    "name": "ఫిజిక్స్ & మెకానిక్స్"
+  },
+  {
+    "id": "science_technical_skills_robotics_automation",
+    "name": "రోబోటిక్స్ & ఆటోమేషన్"
+  },
+  {
+    "id": "science_technology_skills_astronomy",
+    "name": "ఖగోళ శాస్త్రం"
+  },
+  {
+    "id": "science_technology_skills_biotechnology",
+    "name": "బయోటెక్నాలజీ"
+  },
+  {
+    "id": "science_technology_skills_chemistry",
+    "name": "కెమిస్ట్రీ"
+  },
+  {
+    "id": "science_technology_skills_computer_science",
+    "name": "కంప్యూటర్ సైన్స్"
+  },
+  {
+    "id": "science_technology_skills_data_science_ai",
+    "name": "డేటా సైన్స్ & AI"
+  },
+  {
+    "id": "science_technology_skills_earth_environmental_science",
+    "name": "భూమి & పర్యావరణ శాస్త్రం"
+  },
+  {
+    "id": "science_technology_skills_electronics",
+    "name": "ఎలక్ట్రానిక్స్"
+  },
+  {
+    "id": "science_technology_skills_engineering",
+    "name": "ఇంజనీరింగ్"
+  },
+  {
+    "id": "science_technology_skills_mathematics_statistics",
+    "name": "గణితం & గణాంకాలు"
+  },
+  {
+    "id": "science_technology_skills_physics",
+    "name": "భౌతికశాస్త్రం"
+  },
+  {
+    "id": "tech_digital_skills_ai_machine_learning",
+    "name": "AI & మెషిన్ లెర్నింగ్"
+  },
+  {
+    "id": "tech_digital_skills_cloud_computing",
+    "name": "క్లౌడ్ కంప్యూటింగ్"
+  },
+  {
+    "id": "tech_digital_skills_cybersecurity",
+    "name": "సైబర్‌ సెక్యూరిటీ"
+  },
+  {
+    "id": "tech_digital_skills_data_analytics",
+    "name": "డేటా & అనలిటిక్స్"
+  },
+  {
+    "id": "tech_digital_skills_data_science_ai",
+    "name": "డేటా సైన్స్ & AI"
+  },
+  {
+    "id": "tech_digital_skills_devops_automation",
+    "name": "డెవోప్స్ & ఆటోమేషన్"
+  },
+  {
+    "id": "tech_digital_skills_game_development",
+    "name": "ఆట అభివృద్ధి"
+  },
+  {
+    "id": "tech_digital_skills_it_networking",
+    "name": "ఇది & నెట్‌వర్కింగ్"
+  },
+  {
+    "id": "tech_digital_skills_it_support_networking",
+    "name": "ఇది మద్దతు & నెట్‌వర్కింగ్"
+  },
+  {
+    "id": "tech_digital_skills_mobile_app_development",
+    "name": "మొబైల్ అనువర్తన అభివృద్ధి"
+  },
+  {
+    "id": "tech_digital_skills_programming_software_development",
+    "name": "ప్రోగ్రామింగ్ & సాఫ్ట్‌వేర్ అభివృద్ధి"
+  },
+  {
+    "id": "tech_digital_skills_software_development",
+    "name": "సాఫ్ట్‌వేర్ అభివృద్ధి"
+  },
+  {
+    "id": "tech_digital_skills_tech_hardware_repair",
+    "name": "టెక్ హార్డ్‌వేర్ & మరమ్మత్తు"
+  },
+  {
+    "id": "tech_digital_skills_tech_support_troubleshooting",
+    "name": "టెక్ సపోర్ట్ & ట్రబుల్షూటింగ్"
+  },
+  {
+    "id": "tech_digital_skills_web_development",
+    "name": "వెబ్ అభివృద్ధి"
+  },
+  {
+    "id": "technical_engineering_civil_structural",
+    "name": "సివిల్ & స్ట్రక్చరల్"
+  },
+  {
+    "id": "technical_engineering_electrical_engineering",
+    "name": "ఎలక్ట్రికల్ ఇంజనీరింగ్"
+  },
+  {
+    "id": "technical_engineering_manufacturing_fabrication",
+    "name": "తయారీ & కల్పన"
+  },
+  {
+    "id": "technical_engineering_mechanical_engineering",
+    "name": "మెకానికల్ ఇంజనీరింగ్"
+  },
+  {
+    "id": "technical_engineering_software_systems",
+    "name": "సాఫ్ట్‌వేర్ & సిస్టమ్స్"
+  },
+  {
+    "id": "technical_mechanical_skills_automotive_skills",
+    "name": "ఆటోమోటివ్ నైపుణ్యాలు"
+  },
+  {
+    "id": "technical_mechanical_skills_construction_building",
+    "name": "నిర్మాణం & భవనం"
+  },
+  {
+    "id": "technical_mechanical_skills_electrical_work",
+    "name": "విద్యుత్ పని"
+  },
+  {
+    "id": "technical_mechanical_skills_energy_environment",
+    "name": "శక్తి & పర్యావరణం"
+  },
+  {
+    "id": "technical_mechanical_skills_industrial_skills",
+    "name": "పారిశ్రామిక నైపుణ్యాలు"
+  },
+  {
+    "id": "technical_mechanical_skills_mechanical_repairs",
+    "name": "యాంత్రిక మరమ్మతులు"
+  },
+  {
+    "id": "technology_digital_cybersecurity",
+    "name": "సైబర్‌ సెక్యూరిటీ"
+  },
+  {
+    "id": "technology_digital_data_ai",
+    "name": "డేటా & AI"
+  },
+  {
+    "id": "technology_digital_digital_marketing",
+    "name": "డిజిటల్ మార్కెటింగ్"
+  },
+  {
+    "id": "technology_digital_it_networking",
+    "name": "ఇది & నెట్‌వర్కింగ్"
+  },
+  {
+    "id": "technology_digital_software_development",
+    "name": "సాఫ్ట్‌వేర్ అభివృద్ధి"
+  },
+  {
+    "id": "technology_digital_skills_artificial_intelligence",
+    "name": "కృత్రిమ మేధస్సు"
+  },
+  {
+    "id": "technology_digital_skills_cloud_computing",
+    "name": "క్లౌడ్ కంప్యూటింగ్"
+  },
+  {
+    "id": "technology_digital_skills_computer_basics",
+    "name": "కంప్యూటర్ బేసిక్స్"
+  },
+  {
+    "id": "technology_digital_skills_cybersecurity",
+    "name": "సైబర్‌ సెక్యూరిటీ"
+  },
+  {
+    "id": "technology_digital_skills_data_ai",
+    "name": "డేటా & AI"
+  },
+  {
+    "id": "technology_digital_skills_data_analytics",
+    "name": "డేటా & అనలిటిక్స్"
+  },
+  {
+    "id": "technology_digital_skills_digital_literacy",
+    "name": "డిజిటల్ అక్షరాస్యత"
+  },
+  {
+    "id": "technology_digital_skills_digital_marketing",
+    "name": "డిజిటల్ మార్కెటింగ్"
+  },
+  {
+    "id": "technology_digital_skills_emerging_tech",
+    "name": "ఎమర్జింగ్ టెక్"
+  },
+  {
+    "id": "technology_digital_skills_hardware_electronics",
+    "name": "హార్డ్వేర్ & ఎలక్ట్రానిక్స్"
+  },
+  {
+    "id": "technology_digital_skills_it_networking",
+    "name": "ఇది & నెట్‌వర్కింగ్"
+  },
+  {
+    "id": "technology_digital_skills_networking_it",
+    "name": "నెట్‌వర్కింగ్ & ఐటి"
+  },
+  {
+    "id": "technology_digital_skills_programming_development",
+    "name": "ప్రోగ్రామింగ్ & అభివృద్ధి"
+  },
+  {
+    "id": "technology_digital_skills_programming_software_development",
+    "name": "ప్రోగ్రామింగ్ & సాఫ్ట్‌వేర్ అభివృద్ధి"
+  },
+  {
+    "id": "technology_digital_skills_software_tools",
+    "name": "సాఫ్ట్‌వేర్ సాధనాలు"
+  },
+  {
+    "id": "technology_digital_skills_tech_productivity",
+    "name": "టెక్ ఉత్పాదకత"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_maintenance",
+    "name": "టెక్ మద్దతు & నిర్వహణ"
+  },
+  {
+    "id": "technology_digital_skills_tech_support_troubleshooting",
+    "name": "టెక్ సపోర్ట్ & ట్రబుల్షూటింగ్"
+  },
+  {
+    "id": "technology_digital_skills_web_app_development",
+    "name": "వెబ్ & అనువర్తన అభివృద్ధి"
+  },
+  {
+    "id": "trade_craftsmanship_skills_construction_carpentry",
+    "name": "నిర్మాణం & వడ్రంగి"
+  },
+  {
+    "id": "trade_craftsmanship_skills_electrical_plumbing",
+    "name": "ఎలక్ట్రికల్ & ప్లంబింగ్"
+  },
+  {
+    "id": "trade_craftsmanship_skills_handmade_goods",
+    "name": "చేతితో తయారు చేసిన వస్తువులు"
+  },
+  {
+    "id": "trade_craftsmanship_skills_metalwork_welding",
+    "name": "మెటల్ వర్క్ & వెల్డింగ్"
+  },
+  {
+    "id": "trade_craftsmanship_skills_textile_leathercraft",
+    "name": "వస్త్ర & లెదర్‌క్రాఫ్ట్"
+  },
+  {
+    "id": "trade_craftsmanship_skills_traditional_crafts",
+    "name": "సాంప్రదాయ హస్తకళలు"
+  },
+  {
+    "id": "trades_craftsmanship_automotive_repair",
+    "name": "ఆటోమోటివ్ మరమ్మత్తు"
+  },
+  {
+    "id": "trades_craftsmanship_carpentry_woodworking",
+    "name": "వడ్రంగి & చెక్క పని"
+  },
+  {
+    "id": "trades_craftsmanship_construction_masonry",
+    "name": "నిర్మాణం & రాతి"
+  },
+  {
+    "id": "trades_craftsmanship_electrical_work",
+    "name": "విద్యుత్ పని"
+  },
+  {
+    "id": "trades_craftsmanship_hvac_refrigeration",
+    "name": "HVAC & శీతలీకరణ"
+  },
+  {
+    "id": "trades_craftsmanship_jewelry_making",
+    "name": "ఆభరణాల తయారీ"
+  },
+  {
+    "id": "trades_craftsmanship_metalwork_welding",
+    "name": "మెటల్ వర్క్ & వెల్డింగ్"
+  },
+  {
+    "id": "trades_craftsmanship_painting_decorating",
+    "name": "పెయింటింగ్ & డెకరేటింగ్"
+  },
+  {
+    "id": "trades_craftsmanship_plumbing",
+    "name": "ప్లంబింగ్"
+  },
+  {
+    "id": "trades_craftsmanship_tailoring_sewing",
+    "name": "టైలరింగ్ & కుట్టు"
+  },
+  {
+    "id": "trades_manual_skills_automotive_repair",
+    "name": "ఆటోమోటివ్ మరమ్మత్తు"
+  },
+  {
+    "id": "trades_manual_skills_carpentry_woodwork",
+    "name": "వడ్రంగి & చెక్క పని"
+  },
+  {
+    "id": "trades_manual_skills_construction",
+    "name": "నిర్మాణం"
+  },
+  {
+    "id": "trades_manual_skills_construction_carpentry",
+    "name": "నిర్మాణం & వడ్రంగి"
+  },
+  {
+    "id": "trades_manual_skills_craftsmanship_repairs",
+    "name": "హస్తకళ & మరమ్మతులు"
+  },
+  {
+    "id": "trades_manual_skills_electrical_mechanical",
+    "name": "ఎలక్ట్రికల్ & మెకానికల్"
+  },
+  {
+    "id": "trades_manual_skills_electrical_work",
+    "name": "విద్యుత్ పని"
+  },
+  {
+    "id": "trades_manual_skills_hvac_refrigeration",
+    "name": "HVAC & శీతలీకరణ"
+  },
+  {
+    "id": "trades_manual_skills_heavy_equipment_operation",
+    "name": "భారీ పరికరాల ఆపరేషన్"
+  },
+  {
+    "id": "trades_manual_skills_masonry_tiling",
+    "name": "తాపీపని & టైలింగ్"
+  },
+  {
+    "id": "trades_manual_skills_metal_woodwork",
+    "name": "మెటల్ & వుడ్ వర్క్"
+  },
+  {
+    "id": "trades_manual_skills_painting_finishing",
+    "name": "పెయింటింగ్ & ఫినిషింగ్"
+  },
+  {
+    "id": "trades_manual_skills_plumbing",
+    "name": "ప్లంబింగ్"
+  },
+  {
+    "id": "trades_manual_skills_vehicle_machine_maintenance",
+    "name": "వాహనం & యంత్ర నిర్వహణ"
+  },
+  {
+    "id": "trades_manual_skills_welding_metalwork",
+    "name": "వెల్డింగ్ & మెటల్ వర్క్"
+  },
+  {
+    "id": "trades_technical_automotive",
+    "name": "ఆటోమోటివ్"
+  },
+  {
+    "id": "trades_technical_carpentry",
+    "name": "వడ్రంగి"
+  },
+  {
+    "id": "trades_technical_construction",
+    "name": "నిర్మాణం"
+  },
+  {
+    "id": "trades_technical_electrical",
+    "name": "విద్యుత్"
+  },
+  {
+    "id": "trades_technical_hvac",
+    "name": "Hvac"
+  },
+  {
+    "id": "trades_technical_masonry",
+    "name": "తాపీపని"
+  },
+  {
+    "id": "trades_technical_mechanical",
+    "name": "యాంత్రిక"
+  },
+  {
+    "id": "trades_technical_painting_decorating",
+    "name": "పెయింటింగ్ & డెకరేటింగ్"
+  },
+  {
+    "id": "trades_technical_plumbing",
+    "name": "ప్లంబింగ్"
+  },
+  {
+    "id": "trades_technical_welding",
+    "name": "వెల్డింగ్"
+  },
+  {
+    "id": "media_entertainment_video_production",
+    "name": "వీడియో ఉత్పత్తి"
+  },
+  {
+    "id": "media_entertainment_audio_production",
+    "name": "ఆడియో ఉత్పత్తి"
+  },
+  {
+    "id": "media_entertainment_photography",
+    "name": "ఫోటోగ్రఫీ"
+  },
+  {
+    "id": "media_entertainment_graphic_design",
+    "name": "గ్రాఫిక్ డిజైన్"
+  },
+  {
+    "id": "media_entertainment_acting_performance",
+    "name": "నటన & పనితీరు"
+  },
+  {
+    "id": "media_entertainment_writing_scriptwriting",
+    "name": "రైటింగ్ & స్క్రిప్ట్ రైటింగ్"
+  },
+  {
+    "id": "media_entertainment_broadcasting",
+    "name": "ప్రసారం"
+  },
+  {
+    "id": "hobbies_recreation_arts_crafts",
+    "name": "ఆర్ట్స్ & క్రాఫ్ట్స్"
+  },
+  {
+    "id": "hobbies_recreation_music_instruments",
+    "name": "సంగీతం & వాయిద్యాలు"
+  },
+  {
+    "id": "hobbies_recreation_outdoor_activities",
+    "name": "బహిరంగ కార్యకలాపాలు"
+  },
+  {
+    "id": "hobbies_recreation_collecting",
+    "name": "సేకరించడం"
+  },
+  {
+    "id": "hobbies_recreation_fitness_wellness",
+    "name": "ఫిట్‌నెస్ & వెల్నెస్"
+  },
+  {
+    "id": "hobbies_recreation_gardening",
+    "name": "తోటపని"
+  },
+  {
+    "id": "hobbies_recreation_diy_projects",
+    "name": "DIY ప్రాజెక్టులు"
+  },
+  {
+    "id": "food_of_different_countries_italian_cuisine",
+    "name": "ఇటాలియన్ వంటకాలు"
+  },
+  {
+    "id": "food_of_different_countries_japanese_cuisine",
+    "name": "జపనీస్ వంటకాలు"
+  },
+  {
+    "id": "food_of_different_countries_mexican_cuisine",
+    "name": "మెక్సికన్ వంటకాలు"
+  },
+  {
+    "id": "food_of_different_countries_indian_cuisine",
+    "name": "భారతీయ వంటకాలు"
+  },
+  {
+    "id": "food_of_different_countries_french_cuisine",
+    "name": "ఫ్రెంచ్ వంటకాలు"
+  },
+  {
+    "id": "food_of_different_countries_chinese_cuisine",
+    "name": "చైనీస్ వంటకాలు"
+  },
+  {
+    "id": "food_of_different_countries_middle_eastern_cuisine",
+    "name": "మధ్యప్రాచ్య వంటకాలు"
+  }
+]

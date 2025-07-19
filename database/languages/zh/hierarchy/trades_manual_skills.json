@@ -1,0 +1,66 @@
+{
+  "id": "trades_manual_skills",
+  "name": "交易和手动技能",
+  "subcategories": [
+    {
+      "id": "trades_manual_skills_automotive_repair",
+      "name": "汽车维修"
+    },
+    {
+      "id": "trades_manual_skills_carpentry_woodwork",
+      "name": "木工和木制品"
+    },
+    {
+      "id": "trades_manual_skills_construction",
+      "name": "建造"
+    },
+    {
+      "id": "trades_manual_skills_construction_carpentry",
+      "name": "建筑与木工"
+    },
+    {
+      "id": "trades_manual_skills_craftsmanship_repairs",
+      "name": "工艺和维修"
+    },
+    {
+      "id": "trades_manual_skills_electrical_mechanical",
+      "name": "电气和机械"
+    },
+    {
+      "id": "trades_manual_skills_electrical_work",
+      "name": "电气工作"
+    },
+    {
+      "id": "trades_manual_skills_hvac_refrigeration",
+      "name": "HVAC和制冷"
+    },
+    {
+      "id": "trades_manual_skills_heavy_equipment_operation",
+      "name": "重型设备操作"
+    },
+    {
+      "id": "trades_manual_skills_masonry_tiling",
+      "name": "砌体和瓷砖"
+    },
+    {
+      "id": "trades_manual_skills_metal_woodwork",
+      "name": "金属和木制品"
+    },
+    {
+      "id": "trades_manual_skills_painting_finishing",
+      "name": "绘画和精加工"
+    },
+    {
+      "id": "trades_manual_skills_plumbing",
+      "name": "管道"
+    },
+    {
+      "id": "trades_manual_skills_vehicle_machine_maintenance",
+      "name": "车辆和机器维护"
+    },
+    {
+      "id": "trades_manual_skills_welding_metalwork",
+      "name": "焊接和金属制品"
+    }
+  ]
+}

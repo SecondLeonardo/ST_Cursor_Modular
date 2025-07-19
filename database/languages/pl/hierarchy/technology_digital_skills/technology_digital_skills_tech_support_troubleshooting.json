@@ -1,0 +1,116 @@
+{
+  "id": "technology_digital_skills_tech_support_troubleshooting",
+  "name": "Wsparcie techniczne i rozwiązywanie problemów",
+  "skills": [
+    {
+      "id": "skill_4845",
+      "name": "Aplikacja rozbija diagnozę",
+      "difficulty_level": 3,
+      "description": "Learn and master App Crashes Diagnosis",
+      "tags": [
+        "crashes",
+        "diagnosis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4846",
+      "name": "Niebieski ekran poprawki",
+      "difficulty_level": 2,
+      "description": "Learn and master Blue Screen Fixes",
+      "tags": [
+        "blue",
+        "screen",
+        "fixes"
+      ]
+    },
+    {
+      "id": "skill_4847",
+      "name": "Kontrole kompatybilności urządzenia",
+      "difficulty_level": 3,
+      "description": "Learn and master Device Compatibility Checks",
+      "tags": [
+        "device",
+        "compatibility",
+        "checks"
+      ]
+    },
+    {
+      "id": "skill_4848",
+      "name": "Rozwiązywanie problemów mobilnych",
+      "difficulty_level": 1,
+      "description": "Learn and master Mobile Troubleshooting",
+      "tags": [
+        "mobile",
+        "troubleshooting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4849",
+      "name": "Ponowna instalacja systemu operacyjnego",
+      "difficulty_level": 4,
+      "description": "Learn and master Operating System Reinstallation",
+      "tags": [
+        "operating",
+        "system",
+        "reinstallation"
+      ]
+    },
+    {
+      "id": "skill_4850",
+      "name": "Rozwiązywanie problemów z komputerem",
+      "difficulty_level": 3,
+      "description": "Learn and master PC Troubleshooting",
+      "tags": [
+        "troubleshooting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4851",
+      "name": "Konfiguracja drukarki i problemy",
+      "difficulty_level": 1,
+      "description": "Learn and master Printer Setup & Issues",
+      "tags": [
+        "printer",
+        "setup",
+        "issues"
+      ]
+    },
+    {
+      "id": "skill_4852",
+      "name": "Konflikty oprogramowania",
+      "difficulty_level": 1,
+      "description": "Learn and master Software Conflicts",
+      "tags": [
+        "software",
+        "conflicts",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4853",
+      "name": "Szkolenie i dokumentacja użytkownika",
+      "difficulty_level": 3,
+      "description": "Learn and master User Training & Documentation",
+      "tags": [
+        "user",
+        "training",
+        "documentation"
+      ]
+    },
+    {
+      "id": "skill_4854",
+      "name": "Problemy z łącznością Wi-Fi",
+      "difficulty_level": 3,
+      "description": "Learn and master Wi-Fi Connectivity Issues",
+      "tags": [
+        "wi-fi",
+        "connectivity",
+        "issues"
+      ]
+    }
+  ]
+}

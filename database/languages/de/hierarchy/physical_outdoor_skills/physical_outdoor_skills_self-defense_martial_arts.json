@@ -1,0 +1,116 @@
+{
+  "id": "physical_outdoor_skills_self-defense_martial_arts",
+  "name": "Selbstverteidigung und Kampfkunst",
+  "skills": [
+    {
+      "id": "skill_3958",
+      "name": "Grundlegende Jiu-Jitsu",
+      "difficulty_level": 3,
+      "description": "Learn and master Basic Jiu-Jitsu",
+      "tags": [
+        "basic",
+        "jiu-jitsu",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3959",
+      "name": "Boxtechniken",
+      "difficulty_level": 3,
+      "description": "Learn and master Boxing Techniques",
+      "tags": [
+        "boxing",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3960",
+      "name": "Breakfall -Techniken",
+      "difficulty_level": 3,
+      "description": "Learn and master Breakfall Techniques",
+      "tags": [
+        "breakfall",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3961",
+      "name": "Karate Kata",
+      "difficulty_level": 1,
+      "description": "Learn and master Karate Kata",
+      "tags": [
+        "karate",
+        "kata",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3962",
+      "name": "Kick -Verteidigung",
+      "difficulty_level": 4,
+      "description": "Learn and master Kick Defense",
+      "tags": [
+        "kick",
+        "defense",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3963",
+      "name": "Krav Maga -Grundlagen",
+      "difficulty_level": 5,
+      "description": "Learn and master Krav Maga Basics",
+      "tags": [
+        "krav",
+        "maga",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_3964",
+      "name": "Muay Thai tritt",
+      "difficulty_level": 3,
+      "description": "Learn and master Muay Thai Kicks",
+      "tags": [
+        "muay",
+        "thai",
+        "kicks"
+      ]
+    },
+    {
+      "id": "skill_3965",
+      "name": "Selbstverteidigungsbewusstsein",
+      "difficulty_level": 3,
+      "description": "Learn and master Self-Defense Awareness",
+      "tags": [
+        "self-defense",
+        "awareness",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3966",
+      "name": "Takedown -Verteidigung",
+      "difficulty_level": 3,
+      "description": "Learn and master Takedown Defense",
+      "tags": [
+        "takedown",
+        "defense",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_3967",
+      "name": "Handgelenkschloss entkommt",
+      "difficulty_level": 5,
+      "description": "Learn and master Wrist Lock Escapes",
+      "tags": [
+        "wrist",
+        "lock",
+        "escapes"
+      ]
+    }
+  ]
+}

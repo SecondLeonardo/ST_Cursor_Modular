@@ -1,0 +1,116 @@
+{
+  "id": "digital_technology_skills_cybersecurity",
+  "name": "সাইবারসিকিউরিটি",
+  "skills": [
+    {
+      "id": "skill_2193",
+      "name": "সাইবার হুমকি বিশ্লেষণ",
+      "difficulty_level": 5,
+      "description": "Learn and master Cyber Threat Analysis",
+      "tags": [
+        "cyber",
+        "threat",
+        "analysis"
+      ]
+    },
+    {
+      "id": "skill_2194",
+      "name": "ডেটা এনক্রিপশন",
+      "difficulty_level": 4,
+      "description": "Learn and master Data Encryption",
+      "tags": [
+        "data",
+        "encryption",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2195",
+      "name": "নৈতিক হ্যাকিং বেসিক",
+      "difficulty_level": 3,
+      "description": "Learn and master Ethical Hacking Basics",
+      "tags": [
+        "ethical",
+        "hacking",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_2196",
+      "name": "ফায়ারওয়াল কনফিগারেশন",
+      "difficulty_level": 3,
+      "description": "Learn and master Firewall Configuration",
+      "tags": [
+        "firewall",
+        "configuration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2197",
+      "name": "ম্যালওয়্যার সনাক্তকরণ",
+      "difficulty_level": 5,
+      "description": "Learn and master Malware Detection",
+      "tags": [
+        "malware",
+        "detection",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2198",
+      "name": "নেটওয়ার্ক সুরক্ষা সরঞ্জাম",
+      "difficulty_level": 4,
+      "description": "Learn and master Network Security Tools",
+      "tags": [
+        "network",
+        "security",
+        "tools"
+      ]
+    },
+    {
+      "id": "skill_2199",
+      "name": "পাসওয়ার্ড সুরক্ষা",
+      "difficulty_level": 5,
+      "description": "Learn and master Password Security",
+      "tags": [
+        "password",
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2200",
+      "name": "ফিশিং প্রতিরোধ",
+      "difficulty_level": 1,
+      "description": "Learn and master Phishing Prevention",
+      "tags": [
+        "phishing",
+        "prevention",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2201",
+      "name": "সুরক্ষিত কোডিং অনুশীলন",
+      "difficulty_level": 3,
+      "description": "Learn and master Secure Coding Practices",
+      "tags": [
+        "secure",
+        "coding",
+        "practices"
+      ]
+    },
+    {
+      "id": "skill_2202",
+      "name": "দ্বি-গুণক প্রমাণীকরণ",
+      "difficulty_level": 4,
+      "description": "Learn and master Two-Factor Authentication",
+      "tags": [
+        "two-factor",
+        "authentication",
+        "skill"
+      ]
+    }
+  ]
+}

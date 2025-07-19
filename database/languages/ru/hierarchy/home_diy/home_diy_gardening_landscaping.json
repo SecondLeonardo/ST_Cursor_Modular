@@ -1,0 +1,116 @@
+{
+  "id": "home_diy_gardening_landscaping",
+  "name": "Садоводство и озеленение",
+  "skills": [
+    {
+      "id": "skill_2878",
+      "name": "Компостирование",
+      "difficulty_level": 5,
+      "description": "Learn and master Composting",
+      "tags": [
+        "composting",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2879",
+      "name": "Тепличное обслуживание",
+      "difficulty_level": 2,
+      "description": "Learn and master Greenhouse Maintenance",
+      "tags": [
+        "greenhouse",
+        "maintenance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2880",
+      "name": "Хеджирование обрезки",
+      "difficulty_level": 2,
+      "description": "Learn and master Hedge Trimming",
+      "tags": [
+        "hedge",
+        "trimming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2881",
+      "name": "Настройка орошения",
+      "difficulty_level": 5,
+      "description": "Learn and master Irrigation Setup",
+      "tags": [
+        "irrigation",
+        "setup",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2882",
+      "name": "Ландшафтный дизайн",
+      "difficulty_level": 2,
+      "description": "Learn and master Landscape Design",
+      "tags": [
+        "landscape",
+        "design",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2883",
+      "name": "Уход за газоном",
+      "difficulty_level": 2,
+      "description": "Learn and master Lawn Care",
+      "tags": [
+        "lawn",
+        "care",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2884",
+      "name": "Борьба с вредителями в садах",
+      "difficulty_level": 5,
+      "description": "Learn and master Pest Control in Gardens",
+      "tags": [
+        "pest",
+        "control",
+        "gardens"
+      ]
+    },
+    {
+      "id": "skill_2885",
+      "name": "Испытание на почву",
+      "difficulty_level": 3,
+      "description": "Learn and master Soil Testing",
+      "tags": [
+        "soil",
+        "testing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2886",
+      "name": "Обрезка деревьев",
+      "difficulty_level": 1,
+      "description": "Learn and master Tree Pruning",
+      "tags": [
+        "tree",
+        "pruning",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2887",
+      "name": "Овощное садоводство",
+      "difficulty_level": 1,
+      "description": "Learn and master Vegetable Gardening",
+      "tags": [
+        "vegetable",
+        "gardening",
+        "skill"
+      ]
+    }
+  ]
+}

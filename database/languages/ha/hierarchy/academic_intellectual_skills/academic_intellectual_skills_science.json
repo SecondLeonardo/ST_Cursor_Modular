@@ -1,0 +1,116 @@
+{
+  "id": "academic_intellectual_skills_science",
+  "name": "Ilmin kimiyya",
+  "skills": [
+    {
+      "id": "skill_220",
+      "name": "Ilmin taurari",
+      "difficulty_level": 1,
+      "description": "Learn and master Astronomy",
+      "tags": [
+        "astronomy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_221",
+      "name": "Ilimin ilimin halitta",
+      "difficulty_level": 1,
+      "description": "Learn and master Biology Knowledge",
+      "tags": [
+        "biology",
+        "knowledge",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_222",
+      "name": "Kayan sunadarai",
+      "difficulty_level": 3,
+      "description": "Learn and master Chemistry Basics",
+      "tags": [
+        "chemistry",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_223",
+      "name": "Kimiyyar muhalli",
+      "difficulty_level": 3,
+      "description": "Learn and master Environmental Science",
+      "tags": [
+        "environmental",
+        "science",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_224",
+      "name": "Ilmin duwatsu",
+      "difficulty_level": 3,
+      "description": "Learn and master Geology",
+      "tags": [
+        "geology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_225",
+      "name": "Anan jikin mutum",
+      "difficulty_level": 5,
+      "description": "Learn and master Human Anatomy",
+      "tags": [
+        "human",
+        "anatomy",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_226",
+      "name": "Fasahohin dakin gwaje-gwaje",
+      "difficulty_level": 1,
+      "description": "Learn and master Laboratory Techniques",
+      "tags": [
+        "laboratory",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_227",
+      "name": "Kashin Asali",
+      "difficulty_level": 4,
+      "description": "Learn and master Physics Fundamentals",
+      "tags": [
+        "physics",
+        "fundamentals",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_228",
+      "name": "Sanarwar kimiyya",
+      "difficulty_level": 3,
+      "description": "Learn and master Science Communication",
+      "tags": [
+        "science",
+        "communication",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_229",
+      "name": "Hanyar kimiyya",
+      "difficulty_level": 4,
+      "description": "Learn and master Scientific Method",
+      "tags": [
+        "scientific",
+        "method",
+        "skill"
+      ]
+    }
+  ]
+}

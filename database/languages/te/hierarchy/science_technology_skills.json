@@ -1,0 +1,46 @@
+{
+  "id": "science_technology_skills",
+  "name": "సైన్స్ & టెక్నాలజీ నైపుణ్యాలు",
+  "subcategories": [
+    {
+      "id": "science_technology_skills_astronomy",
+      "name": "ఖగోళ శాస్త్రం"
+    },
+    {
+      "id": "science_technology_skills_biotechnology",
+      "name": "బయోటెక్నాలజీ"
+    },
+    {
+      "id": "science_technology_skills_chemistry",
+      "name": "కెమిస్ట్రీ"
+    },
+    {
+      "id": "science_technology_skills_computer_science",
+      "name": "కంప్యూటర్ సైన్స్"
+    },
+    {
+      "id": "science_technology_skills_data_science_ai",
+      "name": "డేటా సైన్స్ & AI"
+    },
+    {
+      "id": "science_technology_skills_earth_environmental_science",
+      "name": "భూమి & పర్యావరణ శాస్త్రం"
+    },
+    {
+      "id": "science_technology_skills_electronics",
+      "name": "ఎలక్ట్రానిక్స్"
+    },
+    {
+      "id": "science_technology_skills_engineering",
+      "name": "ఇంజనీరింగ్"
+    },
+    {
+      "id": "science_technology_skills_mathematics_statistics",
+      "name": "గణితం & గణాంకాలు"
+    },
+    {
+      "id": "science_technology_skills_physics",
+      "name": "భౌతికశాస్త్రం"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "health,_wellness_fitness_alternative_medicine",
+  "name": "Medicina Alternativa",
+  "skills": [
+    {
+      "id": "skill_2738",
+      "name": "Técnicas de acupressão",
+      "difficulty_level": 5,
+      "description": "Learn and master Acupressure Techniques",
+      "tags": [
+        "acupressure",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2739",
+      "name": "Aromaterapia",
+      "difficulty_level": 5,
+      "description": "Learn and master Aromatherapy",
+      "tags": [
+        "aromatherapy",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2740",
+      "name": "Dieta ayurvédica",
+      "difficulty_level": 5,
+      "description": "Learn and master Ayurvedic Dieting",
+      "tags": [
+        "ayurvedic",
+        "dieting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2741",
+      "name": "Balanceamento de chakra",
+      "difficulty_level": 4,
+      "description": "Learn and master Chakra Balancing",
+      "tags": [
+        "chakra",
+        "balancing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2742",
+      "name": "Cura de cristal",
+      "difficulty_level": 1,
+      "description": "Learn and master Crystal Healing",
+      "tags": [
+        "crystal",
+        "healing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2743",
+      "name": "Remédios à base de plantas",
+      "difficulty_level": 1,
+      "description": "Learn and master Herbal Remedies",
+      "tags": [
+        "herbal",
+        "remedies",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2744",
+      "name": "Homeopatia básica",
+      "difficulty_level": 5,
+      "description": "Learn and master Homeopathy Basics",
+      "tags": [
+        "homeopathy",
+        "basics",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_2745",
+      "name": "Reflexologia",
+      "difficulty_level": 1,
+      "description": "Learn and master Reflexology",
+      "tags": [
+        "reflexology",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_2746",
+      "name": "Cura de energia de Reiki",
+      "difficulty_level": 4,
+      "description": "Learn and master Reiki Energy Healing",
+      "tags": [
+        "reiki",
+        "energy",
+        "healing"
+      ]
+    },
+    {
+      "id": "skill_2747",
+      "name": "Conceitos tradicionais de medicina chinesa",
+      "difficulty_level": 2,
+      "description": "Learn and master Traditional Chinese Medicine Concepts",
+      "tags": [
+        "traditional",
+        "chinese",
+        "medicine",
+        "concepts"
+      ]
+    }
+  ]
+}

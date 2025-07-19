@@ -1,0 +1,26 @@
+{
+  "id": "health_fitness",
+  "name": "આરોગ્ય અને તંદુરસ્તી",
+  "subcategories": [
+    {
+      "id": "health_fitness_body_care_wellness",
+      "name": "શારીરિક સંભાળ અને સુખાકારી"
+    },
+    {
+      "id": "health_fitness_first_aid_safety",
+      "name": "પ્રાથમિક સહાય"
+    },
+    {
+      "id": "health_fitness_mental_health",
+      "name": "માનસિક સ્વાસ્થ્ય"
+    },
+    {
+      "id": "health_fitness_nutrition_diet",
+      "name": "પોષણ અને આહાર"
+    },
+    {
+      "id": "health_fitness_physical_training",
+      "name": "વાસ્તવિક તાલીમ"
+    }
+  ]
+}

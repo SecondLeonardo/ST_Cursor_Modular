@@ -1,0 +1,30 @@
+{
+  "id": "mechanical_technical_skills",
+  "name": "Kỹ năng cơ học & kỹ thuật",
+  "subcategories": [
+    {
+      "id": "mechanical_technical_skills_automotive_maintenance",
+      "name": "Bảo trì ô tô"
+    },
+    {
+      "id": "mechanical_technical_skills_engineering_basics",
+      "name": "Cơ bản kỹ thuật"
+    },
+    {
+      "id": "mechanical_technical_skills_home_repair_installation",
+      "name": "Sửa chữa & Cài đặt tại nhà"
+    },
+    {
+      "id": "mechanical_technical_skills_machine_operation",
+      "name": "Hoạt động máy"
+    },
+    {
+      "id": "mechanical_technical_skills_tool_use_safety",
+      "name": "Sử dụng công cụ & An toàn"
+    },
+    {
+      "id": "mechanical_technical_skills_wood_metal_work",
+      "name": "Công việc gỗ và kim loại"
+    }
+  ]
+}

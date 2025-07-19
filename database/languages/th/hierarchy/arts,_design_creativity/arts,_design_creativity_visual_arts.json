@@ -1,0 +1,116 @@
+{
+  "id": "arts,_design_creativity_visual_arts",
+  "name": "ทัศนศิลป์",
+  "skills": [
+    {
+      "id": "skill_760",
+      "name": "ภาพวาดอะคริลิค",
+      "difficulty_level": 1,
+      "description": "Learn and master Acrylic Painting",
+      "tags": [
+        "acrylic",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_761",
+      "name": "การวาดถ่าน",
+      "difficulty_level": 2,
+      "description": "Learn and master Charcoal Drawing",
+      "tags": [
+        "charcoal",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_762",
+      "name": "ทฤษฎีสี",
+      "difficulty_level": 3,
+      "description": "Learn and master Color Theory",
+      "tags": [
+        "color",
+        "theory",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_763",
+      "name": "การวาดรูป",
+      "difficulty_level": 5,
+      "description": "Learn and master Figure Drawing",
+      "tags": [
+        "figure",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_764",
+      "name": "ศิลปะสื่อผสม",
+      "difficulty_level": 2,
+      "description": "Learn and master Mixed Media Art",
+      "tags": [
+        "mixed",
+        "media",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_765",
+      "name": "การวาดมุมมอง",
+      "difficulty_level": 1,
+      "description": "Learn and master Perspective Drawing",
+      "tags": [
+        "perspective",
+        "drawing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_766",
+      "name": "ภาพประกอบภาพบุคคล",
+      "difficulty_level": 3,
+      "description": "Learn and master Portrait Illustration",
+      "tags": [
+        "portrait",
+        "illustration",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_767",
+      "name": "การร่าง",
+      "difficulty_level": 3,
+      "description": "Learn and master Sketching",
+      "tags": [
+        "sketching",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_768",
+      "name": "ภาพวาดชีวิตยังคงอยู่",
+      "difficulty_level": 1,
+      "description": "Learn and master Still Life Painting",
+      "tags": [
+        "still",
+        "life",
+        "painting"
+      ]
+    },
+    {
+      "id": "skill_769",
+      "name": "ภาพวาดสีน้ำ",
+      "difficulty_level": 4,
+      "description": "Learn and master Watercolor Painting",
+      "tags": [
+        "watercolor",
+        "painting",
+        "skill"
+      ]
+    }
+  ]
+}

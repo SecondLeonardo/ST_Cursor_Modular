@@ -1,0 +1,116 @@
+{
+  "id": "arts_creativity_performing_arts",
+  "name": "Artes cênicas",
+  "skills": [
+    {
+      "id": "skill_490",
+      "name": "Técnicas de atuação",
+      "difficulty_level": 4,
+      "description": "Learn and master Acting Techniques",
+      "tags": [
+        "acting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_491",
+      "name": "Coreografia de dança",
+      "difficulty_level": 3,
+      "description": "Learn and master Dance Choreography",
+      "tags": [
+        "dance",
+        "choreography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_492",
+      "name": "Improvisação",
+      "difficulty_level": 5,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_493",
+      "name": "MIME",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_494",
+      "name": "Teatro musical",
+      "difficulty_level": 3,
+      "description": "Learn and master Musical Theater",
+      "tags": [
+        "musical",
+        "theater",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_495",
+      "name": "Falar em público",
+      "difficulty_level": 1,
+      "description": "Learn and master Public Speaking",
+      "tags": [
+        "public",
+        "speaking",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_496",
+      "name": "Combate em estágio",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Combat",
+      "tags": [
+        "stage",
+        "combat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_497",
+      "name": "Presença de estágio",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_498",
+      "name": "Direção do teatro",
+      "difficulty_level": 3,
+      "description": "Learn and master Theater Direction",
+      "tags": [
+        "theater",
+        "direction",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_499",
+      "name": "Treinamento de voz",
+      "difficulty_level": 3,
+      "description": "Learn and master Voice Training",
+      "tags": [
+        "voice",
+        "training",
+        "skill"
+      ]
+    }
+  ]
+}

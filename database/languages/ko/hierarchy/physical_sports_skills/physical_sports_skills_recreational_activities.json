@@ -1,0 +1,116 @@
+{
+  "id": "physical_sports_skills_recreational_activities",
+  "name": "레크리에이션 활동",
+  "skills": [
+    {
+      "id": "skill_4028",
+      "name": "프리즈 비 잡음",
+      "difficulty_level": 4,
+      "description": "Learn and master Frisbee Catching",
+      "tags": [
+        "frisbee",
+        "catching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4029",
+      "name": "해커 자루 플레이",
+      "difficulty_level": 4,
+      "description": "Learn and master Hacky Sack Play",
+      "tags": [
+        "hacky",
+        "sack",
+        "play"
+      ]
+    },
+    {
+      "id": "skill_4030",
+      "name": "훌라 후프",
+      "difficulty_level": 5,
+      "description": "Learn and master Hula Hooping",
+      "tags": [
+        "hula",
+        "hooping",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4031",
+      "name": "점프 밧줄 기술",
+      "difficulty_level": 1,
+      "description": "Learn and master Jump Rope Skills",
+      "tags": [
+        "jump",
+        "rope",
+        "skills"
+      ]
+    },
+    {
+      "id": "skill_4032",
+      "name": "Parkour가 움직입니다",
+      "difficulty_level": 1,
+      "description": "Learn and master Parkour Moves",
+      "tags": [
+        "parkour",
+        "moves",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4033",
+      "name": "탁구 기본 사항",
+      "difficulty_level": 4,
+      "description": "Learn and master Ping Pong Basics",
+      "tags": [
+        "ping",
+        "pong",
+        "basics"
+      ]
+    },
+    {
+      "id": "skill_4034",
+      "name": "롤러 스케이팅",
+      "difficulty_level": 1,
+      "description": "Learn and master Roller Skating",
+      "tags": [
+        "roller",
+        "skating",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4035",
+      "name": "스쿠 팅",
+      "difficulty_level": 4,
+      "description": "Learn and master Scootering",
+      "tags": [
+        "scootering",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_4036",
+      "name": "스케이트 보드 트릭",
+      "difficulty_level": 2,
+      "description": "Learn and master Skateboarding Tricks",
+      "tags": [
+        "skateboarding",
+        "tricks",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4037",
+      "name": "트램폴린 기술",
+      "difficulty_level": 4,
+      "description": "Learn and master Trampoline Techniques",
+      "tags": [
+        "trampoline",
+        "techniques",
+        "skill"
+      ]
+    }
+  ]
+}

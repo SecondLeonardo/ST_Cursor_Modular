@@ -1,0 +1,116 @@
+{
+  "id": "hobbies_recreation_outdoor_activities",
+  "name": "Atividades ao ar livre",
+  "skills": [
+    {
+      "id": "skill_5365",
+      "name": "Caminhada",
+      "difficulty_level": 4,
+      "description": "Learn and master Hiking",
+      "tags": [
+        "hiking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5366",
+      "name": "Camping",
+      "difficulty_level": 5,
+      "description": "Learn and master Camping",
+      "tags": [
+        "camping",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5367",
+      "name": "Observação de pássaros",
+      "difficulty_level": 4,
+      "description": "Learn and master Bird Watching",
+      "tags": [
+        "bird",
+        "watching",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5368",
+      "name": "Pesca",
+      "difficulty_level": 3,
+      "description": "Learn and master Fishing",
+      "tags": [
+        "fishing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5369",
+      "name": "Escalada",
+      "difficulty_level": 3,
+      "description": "Learn and master Rock Climbing",
+      "tags": [
+        "rock",
+        "climbing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5370",
+      "name": "Caiaque",
+      "difficulty_level": 2,
+      "description": "Learn and master Kayaking",
+      "tags": [
+        "kayaking",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5371",
+      "name": "Ciclismo",
+      "difficulty_level": 4,
+      "description": "Learn and master Cycling",
+      "tags": [
+        "cycling",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5372",
+      "name": "Starganting",
+      "difficulty_level": 4,
+      "description": "Learn and master Stargazing",
+      "tags": [
+        "stargazing",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5373",
+      "name": "Geocaching",
+      "difficulty_level": 5,
+      "description": "Learn and master Geocaching",
+      "tags": [
+        "geocaching",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_5374",
+      "name": "Fotografia da natureza",
+      "difficulty_level": 5,
+      "description": "Learn and master Nature Photography",
+      "tags": [
+        "nature",
+        "photography",
+        "skill"
+      ]
+    }
+  ]
+}

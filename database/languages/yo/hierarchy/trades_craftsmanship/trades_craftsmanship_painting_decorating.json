@@ -1,0 +1,116 @@
+{
+  "id": "trades_craftsmanship_painting_decorating",
+  "name": "Kikun & ọṣọ",
+  "skills": [
+    {
+      "id": "skill_4995",
+      "name": "Dapọ awọ",
+      "difficulty_level": 5,
+      "description": "Learn and master Color Mixing",
+      "tags": [
+        "color",
+        "mixing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4996",
+      "name": "Awọn imọ-ẹrọ ọṣọ",
+      "difficulty_level": 3,
+      "description": "Learn and master Decorative Techniques",
+      "tags": [
+        "decorative",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4997",
+      "name": "Kikun kikun",
+      "difficulty_level": 2,
+      "description": "Learn and master Exterior Painting",
+      "tags": [
+        "exterior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4998",
+      "name": "Faux pari",
+      "difficulty_level": 5,
+      "description": "Learn and master Faux Finishing",
+      "tags": [
+        "faux",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_4999",
+      "name": "Kikun kikun",
+      "difficulty_level": 1,
+      "description": "Learn and master Interior Painting",
+      "tags": [
+        "interior",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5000",
+      "name": "Fun agbejade kikun",
+      "difficulty_level": 3,
+      "description": "Learn and master Spray Painting",
+      "tags": [
+        "spray",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5001",
+      "name": "Oju ilẹ",
+      "difficulty_level": 3,
+      "description": "Learn and master Surface Priming",
+      "tags": [
+        "surface",
+        "priming",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5002",
+      "name": "Apọju kikun",
+      "difficulty_level": 5,
+      "description": "Learn and master Trim Painting",
+      "tags": [
+        "trim",
+        "painting",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5003",
+      "name": "Igbaradi Odi",
+      "difficulty_level": 4,
+      "description": "Learn and master Wall Preparation",
+      "tags": [
+        "wall",
+        "preparation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5004",
+      "name": "Ohun elo ogiri",
+      "difficulty_level": 4,
+      "description": "Learn and master Wallpaper Application",
+      "tags": [
+        "wallpaper",
+        "application",
+        "skill"
+      ]
+    }
+  ]
+}

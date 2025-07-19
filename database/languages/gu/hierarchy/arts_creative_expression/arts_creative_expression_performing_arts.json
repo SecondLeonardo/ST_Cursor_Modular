@@ -1,0 +1,116 @@
+{
+  "id": "arts_creative_expression_performing_arts",
+  "name": "કામ કરવાની કળા",
+  "skills": [
+    {
+      "id": "skill_390",
+      "name": "કાર્યકારી તકનીક",
+      "difficulty_level": 2,
+      "description": "Learn and master Acting Techniques",
+      "tags": [
+        "acting",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_391",
+      "name": "નૃત્ય નિર્દેશન",
+      "difficulty_level": 2,
+      "description": "Learn and master Dance Choreography",
+      "tags": [
+        "dance",
+        "choreography",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_392",
+      "name": "વક્રમાક્ષા",
+      "difficulty_level": 5,
+      "description": "Learn and master Improvisation",
+      "tags": [
+        "improvisation",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_393",
+      "name": "જીવંત થિયેટર નિર્માણ",
+      "difficulty_level": 2,
+      "description": "Learn and master Live Theatre Production",
+      "tags": [
+        "live",
+        "theatre",
+        "production"
+      ]
+    },
+    {
+      "id": "skill_394",
+      "name": "મામૂલી",
+      "difficulty_level": 3,
+      "description": "Learn and master Mime",
+      "tags": [
+        "mime",
+        "skill",
+        "learning"
+      ]
+    },
+    {
+      "id": "skill_395",
+      "name": "એકલ -કામગીરી",
+      "difficulty_level": 4,
+      "description": "Learn and master Monologue Performance",
+      "tags": [
+        "monologue",
+        "performance",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_396",
+      "name": "લિપિ -વિશ્લેષણ",
+      "difficulty_level": 3,
+      "description": "Learn and master Script Analysis",
+      "tags": [
+        "script",
+        "analysis",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_397",
+      "name": "તટસ્થ લડાઇ",
+      "difficulty_level": 3,
+      "description": "Learn and master Stage Combat",
+      "tags": [
+        "stage",
+        "combat",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_398",
+      "name": "નાટ્ય હાજરી",
+      "difficulty_level": 4,
+      "description": "Learn and master Stage Presence",
+      "tags": [
+        "stage",
+        "presence",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_399",
+      "name": "અવાજ -મોડ્યુલેશન",
+      "difficulty_level": 4,
+      "description": "Learn and master Voice Modulation",
+      "tags": [
+        "voice",
+        "modulation",
+        "skill"
+      ]
+    }
+  ]
+}

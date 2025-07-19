@@ -1,0 +1,116 @@
+{
+  "id": "trades_manual_skills_carpentry_woodwork",
+  "name": "Carpenterry & Woodwork",
+  "skills": [
+    {
+      "id": "skill_5035",
+      "name": "Usomaji wa Blueprint",
+      "difficulty_level": 3,
+      "description": "Learn and master Blueprint Reading",
+      "tags": [
+        "blueprint",
+        "reading",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5036",
+      "name": "Ufungaji wa baraza la mawaziri",
+      "difficulty_level": 1,
+      "description": "Learn and master Cabinet Installation",
+      "tags": [
+        "cabinet",
+        "installation",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5037",
+      "name": "Jengo la staha",
+      "difficulty_level": 3,
+      "description": "Learn and master Deck Building",
+      "tags": [
+        "deck",
+        "building",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5038",
+      "name": "Kutengeneza useremala",
+      "difficulty_level": 5,
+      "description": "Learn and master Framing Carpentry",
+      "tags": [
+        "framing",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5039",
+      "name": "Kutengeneza fanicha",
+      "difficulty_level": 5,
+      "description": "Learn and master Furniture Making",
+      "tags": [
+        "furniture",
+        "making",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5040",
+      "name": "Mbinu za kujiunga",
+      "difficulty_level": 5,
+      "description": "Learn and master Joinery Techniques",
+      "tags": [
+        "joinery",
+        "techniques",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5041",
+      "name": "Usalama wa zana",
+      "difficulty_level": 5,
+      "description": "Learn and master Tool Safety",
+      "tags": [
+        "tool",
+        "safety",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5042",
+      "name": "Kupunguza useremala",
+      "difficulty_level": 4,
+      "description": "Learn and master Trim Carpentry",
+      "tags": [
+        "trim",
+        "carpentry",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5043",
+      "name": "Kumaliza kuni",
+      "difficulty_level": 1,
+      "description": "Learn and master Wood Finishing",
+      "tags": [
+        "wood",
+        "finishing",
+        "skill"
+      ]
+    },
+    {
+      "id": "skill_5044",
+      "name": "Kugeuka kwa kuni",
+      "difficulty_level": 4,
+      "description": "Learn and master Wood Turning",
+      "tags": [
+        "wood",
+        "turning",
+        "skill"
+      ]
+    }
+  ]
+}

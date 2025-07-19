@@ -1,0 +1,30 @@
+{
+  "id": "academic_research_skills",
+  "name": "Akademik ve Araştırma Becerileri",
+  "subcategories": [
+    {
+      "id": "academic_research_skills_academic_presentation",
+      "name": "Akademik sunum"
+    },
+    {
+      "id": "academic_research_skills_data_analysis",
+      "name": "Veri analizi"
+    },
+    {
+      "id": "academic_research_skills_language_writing",
+      "name": "Dil ve Yazma"
+    },
+    {
+      "id": "academic_research_skills_mathematics_statistics",
+      "name": "Matematik ve İstatistik"
+    },
+    {
+      "id": "academic_research_skills_scientific_research",
+      "name": "Bilimsel araştırma"
+    },
+    {
+      "id": "academic_research_skills_study_test_prep",
+      "name": "Çalışma ve Test Hazırlığı"
+    }
+  ]
+}
