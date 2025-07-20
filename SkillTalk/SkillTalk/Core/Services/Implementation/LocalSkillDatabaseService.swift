@@ -34,42 +34,87 @@ class LocalSkillDatabaseService: SkillDatabaseServiceProtocol {
     func loadCategories(for language: String) async throws -> [SkillCategory] {
         log("🏠 Loading categories from local mock data for language: \(language)")
         
-        // Return mock categories
+        // Return mock categories with comprehensive translations
         let mockCategories = [
             SkillCategory(
                 id: "tech",
                 englishName: "Technology",
                 icon: "laptopcomputer",
                 sortOrder: 1,
-                translations: ["en": "Technology", "es": "Tecnología", "fr": "Technologie"]
+                translations: [
+                    "en": "Technology", "es": "Tecnología", "fr": "Technologie", "de": "Technologie",
+                    "it": "Tecnologia", "pt": "Tecnologia", "ru": "Технологии", "zh": "技术",
+                    "ja": "テクノロジー", "ko": "기술", "ar": "التكنولوجيا", "hi": "प्रौद्योगिकी",
+                    "bn": "প্রযুক্তি", "ur": "ٹیکنالوجی", "tr": "Teknoloji", "nl": "Technologie",
+                    "sv": "Teknologi", "no": "Teknologi", "da": "Teknologi", "fi": "Teknologia",
+                    "pl": "Technologia", "cs": "Technologie", "hu": "Technológia", "ro": "Tehnologie",
+                    "bg": "Технологии", "hr": "Tehnologija", "sk": "Technológia", "sl": "Tehnologija",
+                    "et": "Tehnoloogia", "lv": "Tehnoloģija"
+                ]
             ),
             SkillCategory(
                 id: "language",
                 englishName: "Languages",
                 icon: "globe",
                 sortOrder: 2,
-                translations: ["en": "Languages", "es": "Idiomas", "fr": "Langues"]
+                translations: [
+                    "en": "Languages", "es": "Idiomas", "fr": "Langues", "de": "Sprachen",
+                    "it": "Lingue", "pt": "Idiomas", "ru": "Языки", "zh": "语言",
+                    "ja": "言語", "ko": "언어", "ar": "اللغات", "hi": "भाषाएं",
+                    "bn": "ভাষা", "ur": "زبانیں", "tr": "Diller", "nl": "Talen",
+                    "sv": "Språk", "no": "Språk", "da": "Sprog", "fi": "Kielet",
+                    "pl": "Języki", "cs": "Jazyky", "hu": "Nyelvek", "ro": "Limbi",
+                    "bg": "Езици", "hr": "Jezici", "sk": "Jazyky", "sl": "Jeziki",
+                    "et": "Keeled", "lv": "Valodas"
+                ]
             ),
             SkillCategory(
                 id: "business",
                 englishName: "Business",
                 icon: "briefcase",
                 sortOrder: 3,
-                translations: ["en": "Business", "es": "Negocios", "fr": "Affaires"]
+                translations: [
+                    "en": "Business", "es": "Negocios", "fr": "Affaires", "de": "Geschäft",
+                    "it": "Affari", "pt": "Negócios", "ru": "Бизнес", "zh": "商业",
+                    "ja": "ビジネス", "ko": "비즈니스", "ar": "الأعمال", "hi": "व्यवसाय",
+                    "bn": "ব্যবসা", "ur": "کاروبار", "tr": "İş", "nl": "Zakelijk",
+                    "sv": "Företag", "no": "Forretning", "da": "Forretning", "fi": "Liiketoiminta",
+                    "pl": "Biznes", "cs": "Podnikání", "hu": "Üzlet", "ro": "Afaceri",
+                    "bg": "Бизнес", "hr": "Posao", "sk": "Podnikanie", "sl": "Posel",
+                    "et": "Äri", "lv": "Bizness"
+                ]
             ),
             SkillCategory(
                 id: "creative",
                 englishName: "Creative Arts",
                 icon: "paintbrush",
                 sortOrder: 4,
-                translations: ["en": "Creative Arts", "es": "Artes Creativas", "fr": "Arts Créatifs"]
+                translations: [
+                    "en": "Creative Arts", "es": "Artes Creativas", "fr": "Arts Créatifs", "de": "Kreative Künste",
+                    "it": "Arti Creative", "pt": "Artes Criativas", "ru": "Творческие искусства", "zh": "创意艺术",
+                    "ja": "クリエイティブアート", "ko": "창의 예술", "ar": "الفنون الإبداعية", "hi": "रचनात्मक कला",
+                    "bn": "সৃজনশীল শিল্প", "ur": "تخلیقی فنون", "tr": "Yaratıcı Sanatlar", "nl": "Creatieve Kunsten",
+                    "sv": "Kreativa Konster", "no": "Kreative Kunster", "da": "Kreative Kunster", "fi": "Luovat Taiteet",
+                    "pl": "Sztuki Kreatywne", "cs": "Kreativní Umění", "hu": "Kreatív Művészetek", "ro": "Arte Creative",
+                    "bg": "Креативни Изкуства", "hr": "Kreativne Umjetnosti", "sk": "Kreatívne Umenie", "sl": "Ustvarjalne Umetnosti",
+                    "et": "Loomingulised Kunstid", "lv": "Radošās Mākslas"
+                ]
             ),
             SkillCategory(
                 id: "sports",
                 englishName: "Sports & Fitness",
                 icon: "figure.run",
                 sortOrder: 5,
-                translations: ["en": "Sports & Fitness", "es": "Deportes y Fitness", "fr": "Sports et Fitness"]
+                translations: [
+                    "en": "Sports & Fitness", "es": "Deportes y Fitness", "fr": "Sports et Fitness", "de": "Sport & Fitness",
+                    "it": "Sport e Fitness", "pt": "Esportes e Fitness", "ru": "Спорт и Фитнес", "zh": "运动健身",
+                    "ja": "スポーツ＆フィットネス", "ko": "스포츠 & 피트니스", "ar": "الرياضة واللياقة", "hi": "खेल और फिटनेस",
+                    "bn": "ক্রীড়া ও ফিটনেস", "ur": "کھیل اور فٹنس", "tr": "Spor ve Fitness", "nl": "Sport & Fitness",
+                    "sv": "Sport & Fitness", "no": "Sport & Fitness", "da": "Sport & Fitness", "fi": "Urheilu & Kuntoilu",
+                    "pl": "Sport i Fitness", "cs": "Sport a Fitness", "hu": "Sport és Fitness", "ro": "Sport și Fitness",
+                    "bg": "Спорт и Фитнес", "hr": "Sport i Fitness", "sk": "Šport a Fitness", "sl": "Šport in Fitness",
+                    "et": "Sport ja Fitness", "lv": "Sports un Fitnesa"
+                ]
             )
         ]
         
@@ -190,7 +235,12 @@ class LocalSkillDatabaseService: SkillDatabaseServiceProtocol {
     func getSupportedLanguages() async throws -> [String] {
         log("🏠 Getting supported languages from local mock data")
         
-        let supportedLanguages = ["en", "es", "fr", "de", "zh", "ja", "ko"]
+        // Support for 30 languages as mentioned in requirements
+        let supportedLanguages = [
+            "en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko",
+            "ar", "hi", "bn", "ur", "tr", "nl", "sv", "no", "da", "fi",
+            "pl", "cs", "hu", "ro", "bg", "hr", "sk", "sl", "et", "lv"
+        ]
         log("✅ Found \(supportedLanguages.count) supported languages")
         return supportedLanguages
     }

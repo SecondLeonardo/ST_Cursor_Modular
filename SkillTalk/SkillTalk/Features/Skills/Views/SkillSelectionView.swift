@@ -8,6 +8,7 @@ struct SkillSelectionView: View {
     let category: SkillCategory
     let subcategory: SkillSubcategory
     @StateObject private var viewModel: SkillSelectionViewModel
+    @StateObject private var languageService = LanguageService()
     @State private var selectedSkill: Skill?
     @State private var showingProficiencySelector = false
     @State private var searchText = ""
@@ -19,7 +20,7 @@ struct SkillSelectionView: View {
         self.subcategory = subcategory
         self._viewModel = StateObject(wrappedValue: SkillSelectionViewModel(
             skillType: .target, 
-            language: "en", 
+            language: Locale.current.languageCode ?? "en", 
             skillRepository: SkillRepository(), // Uses multi-provider service by default
             referenceDataRepository: ReferenceDataRepository()
         ))
@@ -74,12 +75,12 @@ struct SkillSelectionView: View {
                 Spacer()
                 
                 VStack(spacing: 4) {
-                    Text(subcategory.name)
+                    Text(subcategory.localizedName(using: languageService))
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(.primary)
                     
-                    Text(category.name)
+                    Text(category.localizedName(using: languageService))
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
