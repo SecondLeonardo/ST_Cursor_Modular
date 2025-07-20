@@ -8,7 +8,7 @@ struct SkillSelectionView: View {
     let category: SkillCategory
     let subcategory: SkillSubcategory
     @StateObject private var viewModel: SkillSelectionViewModel
-    @StateObject private var languageService = LanguageService()
+    private let languageService = LanguageService.shared
     @State private var selectedSkill: Skill?
     @State private var showingProficiencySelector = false
     @State private var searchText = ""
@@ -75,12 +75,12 @@ struct SkillSelectionView: View {
                 Spacer()
                 
                 VStack(spacing: 4) {
-                    Text(subcategory.localizedName(using: languageService))
+                    Text(subcategory.localizedName(for: languageService.getCurrentLanguage()))
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(.primary)
                     
-                    Text(category.localizedName(using: languageService))
+                    Text(category.localizedName(for: languageService.getCurrentLanguage()))
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }

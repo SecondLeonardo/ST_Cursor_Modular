@@ -103,6 +103,8 @@ class TwilioSMSService: ObservableObject {
                     if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any] {
                         if let status = json["status"] as? String, status == "queued" {
                             print("✅ SMS sent successfully to \(phoneNumber)")
+                            // Store OTP for verification
+                            self?.storeOTP(otp, for: phoneNumber)
                             completion(.success(otp))
                         } else {
                             let errorMessage = json["message"] as? String ?? "Unknown error"

@@ -155,8 +155,11 @@ class LanguageService: LanguageServiceProtocol {
     }
     
     func getSupportedLanguages() -> [String] {
+        // Support for 30 languages as mentioned in requirements
         return [
-            "en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko", "ar", "hi", "bn", "tr", "nl", "pl", "sv", "vi", "th", "id", "fa", "pa", "sw", "ha", "am", "yo", "te", "mr", "ta", "gu"
+            "en", "es", "fr", "de", "it", "pt", "ru", "zh", "ja", "ko",
+            "ar", "hi", "bn", "ur", "tr", "nl", "sv", "no", "da", "fi",
+            "pl", "cs", "hu", "ro", "bg", "hr", "sk", "sl", "et", "lv"
         ]
     }
     
@@ -189,12 +192,84 @@ class LanguageService: LanguageServiceProtocol {
         let nativeNames: [String: String] = [
             "en": "English", "es": "Español", "fr": "Français", "de": "Deutsch", "it": "Italiano", "pt": "Português",
             "ru": "Русский", "zh": "中文", "ja": "日本語", "ko": "한국어", "ar": "العربية", "hi": "हिन्दी",
-            "bn": "বাংলা", "tr": "Türkçe", "nl": "Nederlands", "pl": "Polski", "sv": "Svenska", "vi": "Tiếng Việt",
-            "th": "ไทย", "id": "Bahasa Indonesia", "fa": "فارسی", "pa": "ਪੰਜਾਬੀ", "sw": "Kiswahili", "ha": "Hausa",
-            "am": "አማርኛ", "yo": "Yorùbá", "te": "తెలుగు", "mr": "मराठी", "ta": "தமிழ்", "gu": "ગુજરાતી"
+            "bn": "বাংলা", "ur": "اردو", "tr": "Türkçe", "nl": "Nederlands", "sv": "Svenska", "no": "Norsk",
+            "da": "Dansk", "fi": "Suomi", "pl": "Polski", "cs": "Čeština", "hu": "Magyar", "ro": "Română",
+            "bg": "Български", "hr": "Hrvatski", "sk": "Slovenčina", "sl": "Slovenščina", "et": "Eesti", "lv": "Latviešu"
         ]
         
         return nativeNames[languageCode] ?? languageCode.uppercased()
+    }
+    
+    // MARK: - Localization Helpers
+    
+    /// Get localized text with fallback
+    /// - Parameters:
+    ///   - translations: Dictionary of language codes to translated text
+    ///   - language: Preferred language code
+    ///   - fallback: Fallback text if translation not found
+    /// - Returns: Localized text
+    func getLocalizedText(translations: [String: String]?, language: String? = nil, fallback: String) -> String {
+        let targetLanguage = language ?? currentLanguage
+        
+        // Try preferred language first
+        if let translation = translations?[targetLanguage] {
+            return translation
+        }
+        
+        // Try English as fallback
+        if targetLanguage != "en", let englishTranslation = translations?["en"] {
+            return englishTranslation
+        }
+        
+        // Return fallback text
+        return fallback
+    }
+    
+    /// Get localized name for a skill category
+    /// - Parameters:
+    ///   - category: Skill category with translations
+    ///   - language: Preferred language code
+    /// - Returns: Localized name
+    func getLocalizedCategoryName(_ category: SkillCategory, language: String? = nil) -> String {
+        return getLocalizedText(
+            translations: category.translations,
+            language: language,
+            fallback: category.englishName
+        )
+    }
+    
+    /// Get localized name for a skill subcategory
+    /// - Parameters:
+    ///   - subcategory: Skill subcategory with translations
+    ///   - language: Preferred language code
+    /// - Returns: Localized name
+    func getLocalizedSubcategoryName(_ subcategory: SkillSubcategory, language: String? = nil) -> String {
+        return getLocalizedText(
+            translations: subcategory.translations,
+            language: language,
+            fallback: subcategory.englishName
+        )
+    }
+    
+    /// Get localized name for a skill
+    /// - Parameters:
+    ///   - skill: Skill with translations
+    ///   - language: Preferred language code
+    /// - Returns: Localized name
+    func getLocalizedSkillName(_ skill: Skill, language: String? = nil) -> String {
+        return getLocalizedText(
+            translations: skill.translations,
+            language: language,
+            fallback: skill.englishName
+        )
+    }
+    
+    /// Check if the current language is right-to-left (RTL)
+    /// - Parameter language: Language code to check
+    /// - Returns: True if RTL language
+    func isRTL(_ language: String? = nil) -> Bool {
+        let targetLanguage = language ?? currentLanguage
+        return targetLanguage == "ar" || targetLanguage == "ur"
     }
     
     // MARK: - Private Methods

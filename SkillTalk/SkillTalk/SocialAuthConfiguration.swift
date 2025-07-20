@@ -1,8 +1,8 @@
 import Foundation
 import UIKit
 import GoogleSignIn
-// import FBSDKCoreKit  // Temporarily disabled due to missing module
-// import FBSDKLoginKit  // Temporarily disabled due to missing module
+import FBSDKCoreKit
+import FBSDKLoginKit
 
 /// Configuration manager for social authentication providers
 /// 
@@ -83,12 +83,7 @@ class SocialAuthConfiguration {
     }
     
     /// Configure Facebook SDK
-    func configureFacebookSDK() {
-        // Temporarily disabled due to missing module
-        print("⚠️ WARNING: Facebook SDK temporarily disabled due to missing module")
-        
-        // Original implementation commented out:
-        /*
+    func configureFacebookSDK(application: UIApplication? = nil, launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) {
         guard facebookAppId != ConfigKeys.facebookAppId else {
             print("⚠️ WARNING: Facebook App ID not configured. Please update Info.plist with your actual Facebook App ID.")
             return
@@ -99,13 +94,14 @@ class SocialAuthConfiguration {
         settings.clientToken = facebookClientToken
         settings.displayName = "SkillTalk"
         
+        // Use the provided application or fall back to shared
+        let app = application ?? UIApplication.shared
         FBSDKCoreKit.ApplicationDelegate.shared.application(
-            UIApplication.shared,
-            didFinishLaunchingWithOptions: nil
+            app,
+            didFinishLaunchingWithOptions: launchOptions
         )
         
-        print("✅ Facebook SDK configured successfully")
-        */
+        print("✅ Facebook SDK configured successfully with App ID: \(facebookAppId)")
     }
     
     /// Configure all social authentication providers
@@ -127,8 +123,6 @@ class SocialAuthConfiguration {
         }
         
         // Handle Facebook Login
-        // Temporarily disabled due to missing module
-        /*
         if FBSDKCoreKit.ApplicationDelegate.shared.application(
             UIApplication.shared,
             open: url,
@@ -137,7 +131,6 @@ class SocialAuthConfiguration {
         ) {
             handled = true
         }
-        */
         
         return handled
     }
@@ -187,8 +180,9 @@ class SocialAuthConfiguration {
 extension SocialAuthConfiguration {
     
     /// Call this in your AppDelegate's didFinishLaunchingWithOptions
-    func applicationDidFinishLaunching() {
-        configureAllProviders()
+    func applicationDidFinishLaunching(application: UIApplication? = nil, launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) {
+        configureGoogleSignIn()
+        configureFacebookSDK(application: application, launchOptions: launchOptions)
         printConfigurationStatus()
     }
     

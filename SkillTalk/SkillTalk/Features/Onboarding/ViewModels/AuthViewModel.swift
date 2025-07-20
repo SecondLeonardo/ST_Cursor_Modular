@@ -125,11 +125,15 @@ class AuthViewModel: ObservableObject {
         isLoading = true
         defer { isLoading = false }
         
-        do {
-            _ = try await smsService.sendOTP(to: phoneNumber)
-        } catch {
-            handleError(error)
-            throw error
+        return try await withCheckedThrowingContinuation { continuation in
+            smsService.sendOTP(to: phoneNumber) { result in
+                switch result {
+                case .success(_):
+                    continuation.resume()
+                case .failure(let error):
+                    continuation.resume(throwing: error)
+                }
+            }
         }
     }
     
@@ -137,20 +141,26 @@ class AuthViewModel: ObservableObject {
         isLoading = true
         defer { isLoading = false }
         
-        do {
-            let isValid = try await smsService.verifyOTP(phoneNumber: phoneNumber, code: code)
-            if isValid {
-                // Create or sign in user with phone number
-                let user = try await authService.signInWithPhone(phoneNumber: phoneNumber, otp: code)
-                currentUser = user
-                isAuthenticated = true
-                return user
-            } else {
-                throw AuthError.invalidCredential
+        // First, get the stored OTP for this phone number
+        let storedOTP = UserDefaults.standard.string(forKey: "otp_\(phoneNumber)")
+        guard let expectedOTP = storedOTP else {
+            throw AuthError.invalidCredential
+        }
+        
+        let isValid = try await withCheckedThrowingContinuation { continuation in
+            smsService.verifyOTP(inputOTP: code, expectedOTP: expectedOTP) { isValid in
+                continuation.resume(returning: isValid)
             }
-        } catch {
-            handleError(error)
-            throw error
+        }
+        
+        if isValid {
+            // Create or sign in user with phone number
+            let user = try await authService.signInWithPhone(phoneNumber: phoneNumber, otp: code)
+            currentUser = user
+            isAuthenticated = true
+            return user
+        } else {
+            throw AuthError.invalidCredential
         }
     }
     

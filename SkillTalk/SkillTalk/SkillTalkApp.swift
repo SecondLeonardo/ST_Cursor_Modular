@@ -26,14 +26,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         // Configure Firebase
         FirebaseApp.configure()
         
-        // Configure Facebook SDK
-        FBSDKCoreKit.ApplicationDelegate.shared.application(
-            application,
-            didFinishLaunchingWithOptions: launchOptions
-        )
-        
-        // Configure social authentication
-        SocialAuthConfiguration.shared.applicationDidFinishLaunching()
+        // Configure social authentication (this will configure both Google and Facebook SDKs)
+        SocialAuthConfiguration.shared.applicationDidFinishLaunching(application: application, launchOptions: launchOptions)
         
         return true
     }
