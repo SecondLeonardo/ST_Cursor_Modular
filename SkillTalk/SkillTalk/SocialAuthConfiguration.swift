@@ -1,6 +1,6 @@
 import Foundation
 import UIKit
-// import GoogleSignIn  // Temporarily disabled due to configuration issues
+import GoogleSignIn
 // import FBSDKCoreKit  // Temporarily disabled due to missing module
 // import FBSDKLoginKit  // Temporarily disabled due to missing module
 
@@ -45,28 +45,22 @@ class SocialAuthConfiguration {
     
     // MARK: - Configuration Properties
     var googleClientId: String {
-        // In production, this should be loaded from a secure configuration
-        // For now, we'll use the placeholder that needs to be replaced
-        return ConfigKeys.googleClientId
+        // Read from Info.plist
+        return Bundle.main.object(forInfoDictionaryKey: "GIDClientID") as? String ?? ConfigKeys.googleClientId
     }
     
     var facebookAppId: String {
-        return ConfigKeys.facebookAppId
+        return Bundle.main.object(forInfoDictionaryKey: "FacebookAppID") as? String ?? ConfigKeys.facebookAppId
     }
     
     var facebookClientToken: String {
-        return ConfigKeys.facebookClientToken
+        return Bundle.main.object(forInfoDictionaryKey: "FacebookClientToken") as? String ?? ConfigKeys.facebookClientToken
     }
     
     // MARK: - Setup Methods
     
     /// Configure Google Sign-In
     func configureGoogleSignIn() {
-        // Temporarily disabled due to missing module
-        print("⚠️ WARNING: Google Sign-In temporarily disabled due to missing module")
-        
-        // Original implementation commented out:
-        /*
         guard googleClientId != ConfigKeys.googleClientId else {
             print("⚠️ WARNING: Google Client ID not configured. Please update Info.plist with your actual Google Client ID.")
             return
@@ -74,7 +68,6 @@ class SocialAuthConfiguration {
         
         GIDSignIn.sharedInstance.configuration = GIDConfiguration(clientID: googleClientId)
         print("✅ Google Sign-In configured successfully")
-        */
     }
     
     /// Configure Facebook SDK
@@ -117,12 +110,9 @@ class SocialAuthConfiguration {
         var handled = false
         
         // Handle Google Sign-In
-        // Temporarily disabled due to missing module
-        /*
         if GIDSignIn.sharedInstance.handle(url) {
             handled = true
         }
-        */
         
         // Handle Facebook Login
         // Temporarily disabled due to missing module
