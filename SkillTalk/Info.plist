@@ -63,9 +63,25 @@
 	
 	<!-- Google Sign-In Configuration -->
 	<key>GIDClientID</key>
-	<string>628210244031-sgdimrpf3jafh53miuk7p38l4jirgmg1.apps.googleusercontent.com</string>
+	<string>628210244031-4eqhchqp2ehp12qm9itdjn1bta93dcv2.apps.googleusercontent.com</string>
+	
+	<!-- Facebook Configuration -->
+	<key>FacebookAppID</key>
+	<string>739648135668695</string>
+	<key>FacebookClientToken</key>
+	<string>c91e86807a00994e7418ad93c975043c</string>
+	<key>FacebookDisplayName</key>
+	<string>SkillTalk</string>
 	
 	<!-- URL Schemes for Social Authentication -->
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -81,7 +97,7 @@
 			<string>GoogleSignIn</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.628210244031-sgdimrpf3jafh53miuk7p38l4jirgmg1</string>
+				<string>com.googleusercontent.apps.628210244031-4eqhchqp2ehp12qm9itdjn1bta93dcv2</string>
 			</array>
 		</dict>
 	</array>
