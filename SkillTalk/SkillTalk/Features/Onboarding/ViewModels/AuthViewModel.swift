@@ -18,7 +18,7 @@ class AuthViewModel: ObservableObject {
     // MARK: - Properties
     
     private let authService = FirebaseAuthService()
-    private let smsService = TwilioSMSService()
+    private let smsService = TwilioSMSService.shared
     private var cancellables = Set<AnyCancellable>()
     
     // MARK: - Published Properties
@@ -125,35 +125,45 @@ class AuthViewModel: ObservableObject {
         isLoading = true
         defer { isLoading = false }
         
-        return try await withCheckedThrowingContinuation { continuation in
-            smsService.sendOTP(to: phoneNumber) { result in
-                switch result {
-                case .success(_):
-                    continuation.resume()
-                case .failure(let error):
-                    continuation.resume(throwing: error)
-                }
-            }
-        }
+        // Generate OTP
+        let otp = String(format: "%06d", Int.random(in: 100000...999999))
+        
+        // Store OTP for verification
+        UserDefaults.standard.set(otp, forKey: "otp_\(phoneNumber)")
+        UserDefaults.standard.set(Date(), forKey: "otp_timestamp_\(phoneNumber)")
+        
+        // Send OTP via SMS
+        try await smsService.sendOTP(to: phoneNumber, otp: otp)
     }
     
     func verifyOTP(phoneNumber: String, code: String) async throws -> AuthUser {
         isLoading = true
         defer { isLoading = false }
         
-        // First, get the stored OTP for this phone number
+        // Get the stored OTP for this phone number
         let storedOTP = UserDefaults.standard.string(forKey: "otp_\(phoneNumber)")
-        guard let expectedOTP = storedOTP else {
+        let timestamp = UserDefaults.standard.object(forKey: "otp_timestamp_\(phoneNumber)") as? Date
+        
+        guard let expectedOTP = storedOTP,
+              let timestamp = timestamp else {
             throw AuthError.invalidCredential
         }
         
-        let isValid = try await withCheckedThrowingContinuation { continuation in
-            smsService.verifyOTP(inputOTP: code, expectedOTP: expectedOTP) { isValid in
-                continuation.resume(returning: isValid)
-            }
+        // Check if OTP is expired (10 minutes)
+        let now = Date()
+        if now.timeIntervalSince(timestamp) > 600 {
+            // Clear expired OTP
+            UserDefaults.standard.removeObject(forKey: "otp_\(phoneNumber)")
+            UserDefaults.standard.removeObject(forKey: "otp_timestamp_\(phoneNumber)")
+            throw AuthError.invalidCredential
         }
         
-        if isValid {
+        // Verify OTP
+        if code == expectedOTP {
+            // Clear OTP after successful verification
+            UserDefaults.standard.removeObject(forKey: "otp_\(phoneNumber)")
+            UserDefaults.standard.removeObject(forKey: "otp_timestamp_\(phoneNumber)")
+            
             // Create or sign in user with phone number
             let user = try await authService.signInWithPhone(phoneNumber: phoneNumber, otp: code)
             currentUser = user

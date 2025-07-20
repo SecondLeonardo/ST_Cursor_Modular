@@ -7,234 +7,209 @@
 //
 
 import Foundation
-import UIKit
 
-/// Twilio SMS Service for OTP authentication
-/// 
-/// SETUP INSTRUCTIONS:
-/// 1. Get your Twilio credentials from: https://console.twilio.com/
-/// 2. Replace the placeholder values below with your actual credentials
-/// 3. Ensure your Twilio account has SMS capabilities enabled
-class TwilioSMSService: ObservableObject {
+/// Twilio SMS Service for OTP verification
+/// Uses the Twilio API to send SMS messages for phone number verification
+class TwilioSMSService {
     
-    // MARK: - Properties
-    @Published var isLoading = false
-    @Published var errorMessage: String?
-    
-    // Twilio credentials for SMS OTP service
-    // Get these from your Twilio Console: https://console.twilio.com/
+    // MARK: - Configuration
     private let accountSID = "ACc6fb998b91b006e17c189d03561c02df"
     private let authToken = "8c74879027334242d277a5c2df753135"
-    private let fromNumber = "+13239917734"
+    private let fromPhoneNumber = "+13239917734"
     private let baseURL = "https://api.twilio.com/2010-04-01/Accounts"
     
-    // MARK: - OTP Generation
-    private func generateOTP() -> String {
-        return String(format: "%06d", Int.random(in: 100000...999999))
-    }
+    // MARK: - Shared Instance
+    static let shared = TwilioSMSService()
+    
+    private init() {}
     
     // MARK: - SMS Methods
     
-    /// Send OTP via SMS
+    /// Send OTP SMS to a phone number
     /// - Parameters:
-    ///   - phoneNumber: The phone number to send OTP to (with country code)
-    ///   - completion: Completion handler with success status and OTP
-    func sendOTP(to phoneNumber: String, completion: @escaping (Result<String, Error>) -> Void) {
-        DispatchQueue.main.async {
-            self.isLoading = true
-            self.errorMessage = nil
-        }
-        
-        let otp = generateOTP()
+    ///   - phoneNumber: The recipient phone number (with country code)
+    ///   - otp: The OTP code to send
+    ///   - completion: Completion handler with success/failure result
+    func sendOTP(to phoneNumber: String, otp: String, completion: @escaping (Result<Void, Error>) -> Void) {
         let message = "Your SkillTalk verification code is: \(otp). Valid for 10 minutes."
         
+        sendSMS(to: phoneNumber, message: message) { result in
+            switch result {
+            case .success:
+                completion(.success(()))
+            case .failure(let error):
+                completion(.failure(error))
+            }
+        }
+    }
+    
+    /// Send a generic SMS message
+    /// - Parameters:
+    ///   - phoneNumber: The recipient phone number (with country code)
+    ///   - message: The message to send
+    ///   - completion: Completion handler with success/failure result
+    func sendSMS(to phoneNumber: String, message: String, completion: @escaping (Result<Void, Error>) -> Void) {
         // Create the request URL
         let urlString = "\(baseURL)/\(accountSID)/Messages.json"
         guard let url = URL(string: urlString) else {
-            DispatchQueue.main.async {
-                self.isLoading = false
-                self.errorMessage = "Invalid URL"
-            }
             completion(.failure(TwilioError.invalidURL))
             return
         }
         
-        // Create request
+        // Create the request body
+        let body = [
+            "To": phoneNumber,
+            "From": fromPhoneNumber,
+            "Body": message
+        ]
+        
+        // Convert body to URL-encoded string
+        let bodyString = body.map { "\($0.key)=\($0.value)" }.joined(separator: "&")
+        
+        // Create the request
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
+        request.httpBody = bodyString.data(using: .utf8)
         request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         
         // Add basic authentication
         let credentials = "\(accountSID):\(authToken)"
         guard let credentialsData = credentials.data(using: .utf8) else {
-            DispatchQueue.main.async {
-                self.isLoading = false
-                self.errorMessage = "Authentication error"
-            }
             completion(.failure(TwilioError.authenticationError))
             return
         }
         let base64Credentials = credentialsData.base64EncodedString()
         request.setValue("Basic \(base64Credentials)", forHTTPHeaderField: "Authorization")
         
-        // Create request body
-        let body = "To=\(phoneNumber)&From=\(fromNumber)&Body=\(message)"
-        request.httpBody = body.data(using: .utf8)
-        
         // Make the request
-        URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
+        URLSession.shared.dataTask(with: request) { data, response, error in
             DispatchQueue.main.async {
-                self?.isLoading = false
-                
                 if let error = error {
-                    self?.errorMessage = "Network error: \(error.localizedDescription)"
                     completion(.failure(error))
                     return
                 }
                 
-                guard let data = data else {
-                    self?.errorMessage = "No data received"
-                    completion(.failure(TwilioError.noData))
+                guard let httpResponse = response as? HTTPURLResponse else {
+                    completion(.failure(TwilioError.invalidResponse))
                     return
                 }
                 
-                // Parse response
-                do {
-                    if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any] {
-                        if let status = json["status"] as? String, status == "queued" {
-                            print("✅ SMS sent successfully to \(phoneNumber)")
-                            // Store OTP for verification
-                            self?.storeOTP(otp, for: phoneNumber)
-                            completion(.success(otp))
-                        } else {
-                            let errorMessage = json["message"] as? String ?? "Unknown error"
-                            self?.errorMessage = "SMS error: \(errorMessage)"
-                            completion(.failure(TwilioError.smsError(errorMessage)))
-                        }
+                if httpResponse.statusCode == 200 || httpResponse.statusCode == 201 {
+                    completion(.success(()))
+                } else {
+                    // Parse error response
+                    if let data = data,
+                       let errorResponse = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
+                       let errorMessage = errorResponse["message"] as? String {
+                        completion(.failure(TwilioError.apiError(errorMessage)))
                     } else {
-                        self?.errorMessage = "Invalid response format"
-                        completion(.failure(TwilioError.invalidResponse))
+                        completion(.failure(TwilioError.httpError(httpResponse.statusCode)))
                     }
-                } catch {
-                    self?.errorMessage = "Response parsing error: \(error.localizedDescription)"
-                    completion(.failure(error))
                 }
             }
         }.resume()
     }
     
-    /// Verify OTP
-    /// - Parameters:
-    ///   - inputOTP: The OTP entered by user
-    ///   - expectedOTP: The OTP that was sent
-    ///   - completion: Completion handler with verification result
-    func verifyOTP(inputOTP: String, expectedOTP: String, completion: @escaping (Bool) -> Void) {
-        DispatchQueue.main.async {
-            self.isLoading = true
-            self.errorMessage = nil
-        }
+    /// Verify if a phone number is valid (basic format check)
+    /// - Parameter phoneNumber: The phone number to validate
+    /// - Returns: True if the phone number format is valid
+    func isValidPhoneNumber(_ phoneNumber: String) -> Bool {
+        // Remove all non-digit characters
+        let digitsOnly = phoneNumber.replacingOccurrences(of: "[^0-9]", with: "", options: .regularExpression)
         
-        // Simulate network delay for better UX
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            DispatchQueue.main.async {
-                self.isLoading = false
-                
-                let isValid = inputOTP == expectedOTP
-                if !isValid {
-                    self.errorMessage = "Invalid verification code"
-                }
-                completion(isValid)
-            }
-        }
+        // Check if it's a valid international phone number (7-15 digits)
+        return digitsOnly.count >= 7 && digitsOnly.count <= 15
     }
     
     /// Format phone number for display
-    /// - Parameter phoneNumber: Raw phone number
-    /// - Returns: Formatted phone number
+    /// - Parameter phoneNumber: The raw phone number
+    /// - Returns: Formatted phone number string
     func formatPhoneNumber(_ phoneNumber: String) -> String {
         // Remove all non-digit characters
-        let digits = phoneNumber.replacingOccurrences(of: "[^0-9]", with: "", options: .regularExpression)
+        let digitsOnly = phoneNumber.replacingOccurrences(of: "[^0-9]", with: "", options: .regularExpression)
         
-        // Format based on length
-        if digits.count == 10 {
-            // US number: (123) 456-7890
-            let index = digits.index(digits.startIndex, offsetBy: 3)
-            let areaCode = String(digits[..<index])
-            let prefix = String(digits[index..<digits.index(index, offsetBy: 3)])
-            let lineNumber = String(digits[digits.index(index, offsetBy: 3)...])
+        // Basic formatting for US numbers (you can extend this for other countries)
+        if digitsOnly.hasPrefix("1") && digitsOnly.count == 11 {
+            // US number: +1 (XXX) XXX-XXXX
+            let areaCode = String(digitsOnly.dropFirst().prefix(3))
+            let prefix = String(digitsOnly.dropFirst(4).prefix(3))
+            let lineNumber = String(digitsOnly.dropFirst(7))
+            return "+1 (\(areaCode)) \(prefix)-\(lineNumber)"
+        } else if digitsOnly.count == 10 {
+            // US number without country code: (XXX) XXX-XXXX
+            let areaCode = String(digitsOnly.prefix(3))
+            let prefix = String(digitsOnly.dropFirst(3).prefix(3))
+            let lineNumber = String(digitsOnly.dropFirst(6))
             return "(\(areaCode)) \(prefix)-\(lineNumber)"
-        } else if digits.count == 11 && digits.hasPrefix("1") {
-            // US number with country code: +1 (123) 456-7890
-            let withoutCountry = String(digits.dropFirst())
-            return "+1 \(formatPhoneNumber(withoutCountry))"
-        } else {
-            // International number: +XX XXX XXX XXXX
-            return "+\(digits)"
         }
-    }
-    
-    /// Validate phone number format
-    /// - Parameter phoneNumber: Phone number to validate
-    /// - Returns: True if valid format
-    func isValidPhoneNumber(_ phoneNumber: String) -> Bool {
-        let digits = phoneNumber.replacingOccurrences(of: "[^0-9]", with: "", options: .regularExpression)
-        return digits.count >= 10 && digits.count <= 15
+        
+        // Return as-is if no specific formatting applies
+        return phoneNumber
     }
 }
 
 // MARK: - Twilio Errors
+
 enum TwilioError: Error, LocalizedError {
     case invalidURL
     case authenticationError
-    case noData
     case invalidResponse
-    case smsError(String)
+    case httpError(Int)
+    case apiError(String)
     
     var errorDescription: String? {
         switch self {
         case .invalidURL:
-            return "Invalid URL"
+            return "Invalid Twilio API URL"
         case .authenticationError:
-            return "Authentication failed"
-        case .noData:
-            return "No data received"
+            return "Twilio authentication failed"
         case .invalidResponse:
-            return "Invalid response format"
-        case .smsError(let message):
-            return "SMS error: \(message)"
+            return "Invalid response from Twilio API"
+        case .httpError(let code):
+            return "HTTP error: \(code)"
+        case .apiError(let message):
+            return "Twilio API error: \(message)"
         }
     }
 }
 
-// MARK: - OTP Storage
+// MARK: - Async Wrapper
+
 extension TwilioSMSService {
     
-    /// Store OTP temporarily (for demo purposes)
-    /// In production, use secure storage like Keychain
-    private func storeOTP(_ otp: String, for phoneNumber: String) {
-        UserDefaults.standard.set(otp, forKey: "otp_\(phoneNumber)")
-        UserDefaults.standard.set(Date(), forKey: "otp_timestamp_\(phoneNumber)")
-    }
-    
-    /// Retrieve stored OTP
-    private func getStoredOTP(for phoneNumber: String) -> String? {
-        let timestamp = UserDefaults.standard.object(forKey: "otp_timestamp_\(phoneNumber)") as? Date
-        let now = Date()
-        
-        // OTP expires after 10 minutes
-        if let timestamp = timestamp, now.timeIntervalSince(timestamp) < 600 {
-            return UserDefaults.standard.string(forKey: "otp_\(phoneNumber)")
+    /// Async wrapper for sendOTP
+    /// - Parameters:
+    ///   - phoneNumber: The recipient phone number
+    ///   - otp: The OTP code to send
+    /// - Returns: Void on success, throws error on failure
+    func sendOTP(to phoneNumber: String, otp: String) async throws {
+        return try await withCheckedThrowingContinuation { continuation in
+            sendOTP(to: phoneNumber, otp: otp) { result in
+                switch result {
+                case .success:
+                    continuation.resume()
+                case .failure(let error):
+                    continuation.resume(throwing: error)
+                }
+            }
         }
-        
-        // Clear expired OTP
-        UserDefaults.standard.removeObject(forKey: "otp_\(phoneNumber)")
-        UserDefaults.standard.removeObject(forKey: "otp_timestamp_\(phoneNumber)")
-        return nil
     }
     
-    /// Clear stored OTP
-    private func clearStoredOTP(for phoneNumber: String) {
-        UserDefaults.standard.removeObject(forKey: "otp_\(phoneNumber)")
-        UserDefaults.standard.removeObject(forKey: "otp_timestamp_\(phoneNumber)")
+    /// Async wrapper for sendSMS
+    /// - Parameters:
+    ///   - phoneNumber: The recipient phone number
+    ///   - message: The message to send
+    /// - Returns: Void on success, throws error on failure
+    func sendSMS(to phoneNumber: String, message: String) async throws {
+        return try await withCheckedThrowingContinuation { continuation in
+            sendSMS(to: phoneNumber, message: message) { result in
+                switch result {
+                case .success:
+                    continuation.resume()
+                case .failure(let error):
+                    continuation.resume(throwing: error)
+                }
+            }
+        }
     }
 } 

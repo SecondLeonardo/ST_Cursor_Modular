@@ -33,9 +33,9 @@ class SocialAuthConfiguration {
     
     // MARK: - Configuration Keys
     private enum ConfigKeys {
-        static let googleClientId = "628210244031-4eqhchqp2ehp12qm9itdjn1bta93dcv2.apps.googleusercontent.com"
-        static let facebookAppId = "739648135668695"
-        static let facebookClientToken = "c91e86807a00994e7418ad93c975043c"
+        static let googleClientId = "YOUR_GOOGLE_CLIENT_ID"
+        static let facebookAppId = "YOUR_FACEBOOK_APP_ID"
+        static let facebookClientToken = "YOUR_FACEBOOK_CLIENT_TOKEN"
     }
     
     // MARK: - Shared Instance
@@ -89,12 +89,12 @@ class SocialAuthConfiguration {
             return
         }
         
-        let settings = FBSDKCoreKit.Settings()
-        settings.appID = facebookAppId
-        settings.clientToken = facebookClientToken
-        settings.displayName = "SkillTalk"
+        // Configure Facebook SDK settings
+        FBSDKCoreKit.Settings.shared.appID = facebookAppId
+        FBSDKCoreKit.Settings.shared.clientToken = facebookClientToken
+        FBSDKCoreKit.Settings.shared.displayName = "SkillTalk"
         
-        // Use the provided application or fall back to shared
+        // Initialize Facebook SDK with the application
         let app = application ?? UIApplication.shared
         FBSDKCoreKit.ApplicationDelegate.shared.application(
             app,

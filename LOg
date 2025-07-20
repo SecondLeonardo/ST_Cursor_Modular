@@ -4,14 +4,14 @@
 📦 Bundle: ST.SkillTalk
 === LocalSkillService Test ===
 === Proficiency Options Test ===
-✅ Available proficiency levels: 4
 [LocalSkillService] 📁 Loading categories from local JSON for language: en
+✅ Available proficiency levels: 4
    - Beginner
    - Intermediate
    - Advanced
    - Expert
 === Proficiency test completed ===
-[LocalSkillService] 📄 Found categories.json at: /Users/applemacmini/Library/Developer/CoreSimulator/Devices/684912F2-7832-4346-840C-5A63AA0BEACA/data/Containers/Bundle/Application/BC4E29FB-1F38-4921-B3A2-B25F6C9B5C05/SkillTalk.app/categories.json
+[LocalSkillService] 📄 Found categories.json at: /Users/applemacmini/Library/Developer/CoreSimulator/Devices/684912F2-7832-4346-840C-5A63AA0BEACA/data/Containers/Bundle/Application/F5D92BF0-44C8-4C83-B64C-B3A5B403A719/SkillTalk.app/categories.json
 [LocalSkillService] 📄 Loaded 1512 bytes from categories.json
 [LocalSkillService] ✅ Loaded 10 categories for language: en
 ✅ Categories loaded: 10 categories
@@ -42,11 +42,13 @@
 1. Google Sign-In: https://console.cloud.google.com/
 2. Facebook Login: https://developers.facebook.com/
 3. Update Info.plist with your actual credentials
-load_eligibility_plist: Failed to open /Users/applemacmini/Library/Developer/CoreSimulator/Devices/684912F2-7832-4346-840C-5A63AA0BEACA/data/Containers/Data/Application/BD80A505-F70C-4C72-9CEE-E29C643C4596/private/var/db/eligibilityd/eligibility.plist: No such file or directory(2)
-🚀 App launched - isOnboardingCompleted: false
+load_eligibility_plist: Failed to open /Users/applemacmini/Library/Developer/CoreSimulator/Devices/684912F2-7832-4346-840C-5A63AA0BEACA/data/Containers/Data/Application/891C55EC-8B61-4E8D-9056-C89820E53510/private/var/db/eligibilityd/eligibility.plist: No such file or directory(2)
 11.15.0 - [FirebaseAnalytics][I-ACS023007] Analytics v.11.15.0 started
 11.15.0 - [FirebaseAnalytics][I-ACS023008] To enable debug logging set the following application argument: -FIRAnalyticsDebugEnabled (see http://goo.gl/RfcP7r)
+🚀 App launched - isOnboardingCompleted: false
 11.15.0 - [FirebaseAnalytics][I-ACS800023] No pending snapshot to activate. SDK name: app_measurement
+11.15.0 - [FirebaseAnalytics][I-ACS023012] Analytics collection enabled
+11.15.0 - [FirebaseAnalytics][I-ACS023220] Analytics screen reporting is enabled. Call Analytics.logEvent(AnalyticsEventScreenView, parameters: [...]) to log a screen view event. To disable automatic screen reporting, set the flag FirebaseAutomaticScreenReportingEnabled to NO (boolean) in the Info.plist
 🚀 Quick Multi-Provider Service Test
 🏠 [LocalSkillDatabaseService] 🏠 LocalSkillDatabaseService initialized
 🏠 [LocalSkillDatabaseService] 🏠 Loading categories from local mock data for language: en
@@ -62,15 +64,7 @@ load_eligibility_plist: Failed to open /Users/applemacmini/Library/Developer/Cor
 ❌ Failed to load subcategories: typeMismatch(Swift.Array<Any>, Swift.DecodingError.Context(codingPath: [], debugDescription: "Expected to decode Array<Any> but found a dictionary instead.", underlyingError: nil))
 📋 Testing skills loading...
 ❌ Failed to load skills: keyNotFound(CodingKeys(stringValue: "categoryId", intValue: nil), Swift.DecodingError.Context(codingPath: [CodingKeys(stringValue: "subcategory", intValue: nil)], debugDescription: "No value associated with key CodingKeys(stringValue: \"categoryId\", intValue: nil) (\"categoryId\").", underlyingError: nil))
-11.15.0 - [FirebaseAnalytics][I-ACS023012] Analytics collection enabled
-11.15.0 - [FirebaseAnalytics][I-ACS023220] Analytics screen reporting is enabled. Call Analytics.logEvent(AnalyticsEventScreenView, parameters: [...]) to log a screen view event. To disable automatic screen reporting, set the flag FirebaseAutomaticScreenReportingEnabled to NO (boolean) in the Info.plist
-nw_connection_copy_connected_local_endpoint_block_invoke [C2] Connection has no local endpoint
-nw_connection_copy_connected_local_endpoint_block_invoke [C2] Connection has no local endpoint
-quic_conn_change_current_path [C2.1.1.1:2] [-e5501a6ef9c9c314] tried to change paths, but no alternatives were found
-nw_connection_copy_connected_local_endpoint_block_invoke [C2] Connection has no local endpoint
-nw_protocol_implementation_lookup_path [C2.1.1.1:2] No path found for e77e0f42644d1f7c
-0x106901218 2 Server protocol violation 0x02
-0x106901218 2 Control stream closed but connection is alive
+11.15.0 - [FirebaseAnalytics][I-ACS023130] Configuration not found. Using default configuration
 11.15.0 - [FirebaseInstallations][I-FIS002003] Firebase Installation registration failed for app with name: __FIRAPP_DEFAULT, error:
 The server responded with an error: 
  - URL: https://firebaseinstallations.googleapis.com/v1/projects/st-cursur-swift-modular/installations/ 
@@ -84,189 +78,74 @@ The server responded with an error:
 }
 
 Please make sure you use valid GoogleService-Info.plist
-nw_connection_copy_connected_local_endpoint_block_invoke [C4] Connection has no local endpoint
-nw_connection_copy_connected_local_endpoint_block_invoke [C4] Connection has no local endpoint
-quic_conn_change_current_path [C4.1.1.1:2] [-e512f2607c4891b1] tried to change paths, but no alternatives were found
-nw_connection_copy_connected_local_endpoint_block_invoke [C4] Connection has no local endpoint
-nw_protocol_implementation_lookup_path [C4.1.1.1:2] No path found for f4f5ebee6a7961df
-0x1068ffe18 4 Server protocol violation 0x02
-0x1068ffe18 4 Control stream closed but connection is alive
-nw_connection_copy_connected_local_endpoint_block_invoke [C6] Connection has no local endpoint
-nw_connection_copy_connected_local_endpoint_block_invoke [C6] Connection has no local endpoint
-quic_conn_change_current_path [C6.1.1.1:2] [-ec947f675bf7a6e6] tried to change paths, but no alternatives were found
-nw_protocol_implementation_lookup_path [C6.1.1.1:2] No path found for d75d312b52f2fe95
-Task <4B687BCB-F400-4161-A77A-34FBB76F67DE>.<1> HTTP load failed, 334/0 bytes (error code: -1017 [4:-1])
-nw_endpoint_flow_fillout_data_transfer_snapshot copy_info() returned NULL
-nw_connection_copy_connected_local_endpoint_block_invoke [C6] Connection has no local endpoint
-0x1060c6a18 6 Server protocol violation 0x02
-0x1060c6a18 6 Control stream closed but connection is alive
-Task <4B687BCB-F400-4161-A77A-34FBB76F67DE>.<1> finished with error [-1017] Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c01530 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002133480 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalDownloadTask <4B687BCB-F400-4161-A77A-34FBB76F67DE>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalDownloadTask <4B687BCB-F400-4161-A77A-34FBB76F67DE>.<1>"
-), NSLocalizedDescription=cannot parse response, NSErrorFailingURLStringKey=https://app-analytics-services.com/config/app/1%3A628210244031%3Aios%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, NSErrorFailingURLKey=https://app-analytics-services.com/config/app/1%3A628210244031%3Aios%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, _kCFStreamErrorDomainKey=4}
-11.15.0 - [FirebaseAnalytics][I-ACS901017] Encounter network error. Code, error: -1017, Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c01530 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002133480 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalDownloadTask <4B687BCB-F400-4161-A77A-34FBB76F67DE>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalDownloadTask <4B687BCB-F400-4161-A77A-34FBB76F67DE>.<1>"
-), NSLocalizedDescription=cannot parse response, NSErrorFailingURLStringKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, NSErrorFailingURLKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, _kCFStreamErrorDomainKey=4}
-11.15.0 - [FirebaseAnalytics][I-ACS023128] Network request failed to fetch remote config. Code, Error: 0, Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c01530 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002133480 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalDownloadTask <4B687BCB-F400-4161-A77A-34FBB76F67DE>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalDownloadTask <4B687BCB-F400-4161-A77A-34FBB76F67DE>.<1>"
-), NSLocalizedDescription=cannot parse response, NSErrorFailingURLStringKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, NSErrorFailingURLKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, _kCFStreamErrorDomainKey=4}
-11.15.0 - [FirebaseAnalytics][I-ACS023129] Network fetch failed. Will retry later. Code, error: 0, Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c01530 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002133480 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalDownloadTask <4B687BCB-F400-4161-A77A-34FBB76F67DE>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalDownloadTask <4B687BCB-F400-4161-A77A-34FBB76F67DE>.<1>"
-), NSLocalizedDescription=cannot parse response, NSErrorFailingURLStringKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, NSErrorFailingURLKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, _kCFStreamErrorDomainKey=4}
+nw_connection_copy_connected_local_endpoint_block_invoke [C5] Connection has no local endpoint
+nw_connection_copy_connected_local_endpoint_block_invoke [C5] Connection has no local endpoint
+quic_conn_change_current_path [C5.1.1.1:2] [-fb65f4b6060a5e0c] tried to change paths, but no alternatives were found
+nw_flow_service_writes Failing write request <nw_write_request> [57: Socket is not connected]
+nw_write_request_report [C5] Send failed with error "Socket is not connected"
+Task <B0785589-B1F6-4E4F-9D51-A31289CB0EC8>.<1> HTTP load failed, 149/0 bytes (error code: -1005 [4:-4])
+nw_connection_copy_connected_local_endpoint_block_invoke [C5] Connection has no local endpoint
+nw_protocol_implementation_lookup_path [C5.1.1.1:2] No path found for 3a31caf5bc6900c6
+0x103092a18 5 Server protocol violation 0x02
+0x103092a18 5 Control stream closed but connection is alive
+Task <B0785589-B1F6-4E4F-9D51-A31289CB0EC8>.<1> finished with error [-1005] Error Domain=NSURLErrorDomain Code=-1005 "The network connection was lost." UserInfo={_kCFStreamErrorCodeKey=-4, NSUnderlyingError=0x600000c146f0 {Error Domain=kCFErrorDomainCFNetwork Code=-1005 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x60000215e850 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efac94e0000000000000000}, _kCFStreamErrorCodeKey=-4, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalUploadTask <B0785589-B1F6-4E4F-9D51-A31289CB0EC8>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
+    "LocalUploadTask <B0785589-B1F6-4E4F-9D51-A31289CB0EC8>.<1>"
+), NSLocalizedDescription=The network connection was lost., NSErrorFailingURLStringKey=https://app-analytics-services.com/a, NSErrorFailingURLKey=https://app-analytics-services.com/a, _kCFStreamErrorDomainKey=4}
+11.15.0 - [FirebaseAnalytics][I-ACS901017] Encounter network error. Code, error: -1005, Error Domain=NSURLErrorDomain Code=-1005 "The network connection was lost." UserInfo={_kCFStreamErrorCodeKey=-4, NSUnderlyingError=0x600000c146f0 {Error Domain=kCFErrorDomainCFNetwork Code=-1005 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x60000215e850 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efac94e0000000000000000}, _kCFStreamErrorCodeKey=-4, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalUploadTask <B0785589-B1F6-4E4F-9D51-A31289CB0EC8>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
+    "LocalUploadTask <B0785589-B1F6-4E4F-9D51-A31289CB0EC8>.<1>"
+), NSLocalizedDescription=The network connection was lost., NSErrorFailingURLStringKey=https://app-analytics-services.com/a, NSErrorFailingURLKey=https://app-analytics-services.com/a, _kCFStreamErrorDomainKey=4}
+11.15.0 - [FirebaseAnalytics][I-ACS012054] The number of upload retries exceeds the limit. Will remain unchanged.
 🔄 [OnboardingCoordinator] nextStep() called. Current step: welcome
 ➡️ [OnboardingCoordinator] Moving from welcome to signIn
-nw_connection_copy_connected_local_endpoint_block_invoke [C8] Connection has no local endpoint
-nw_connection_copy_connected_local_endpoint_block_invoke [C8] Connection has no local endpoint
-quic_conn_change_current_path [C8.1.1.1:2] [-f15a301cbe5887ea] tried to change paths, but no alternatives were found
+🔐 Starting Google Sign-In...
+❌ Google Sign-In not configured
+❌ Authentication error: Configuration error: Google Sign-In not configured. Please check your configuration.
+nw_connection_copy_connected_local_endpoint_block_invoke [C7] Connection has no local endpoint
+nw_connection_copy_connected_local_endpoint_block_invoke [C7] Connection has no local endpoint
+quic_conn_change_current_path [C7.1.1.1:2] [-e7756a853edfcb78] tried to change paths, but no alternatives were found
 nw_flow_service_writes Failing write request <nw_write_request> [57: Socket is not connected]
-nw_write_request_report [C8] Send failed with error "Socket is not connected"
-Task <8C64F179-8CA0-4DDE-A120-DF54EF047E4D>.<1> HTTP load failed, 152/0 bytes (error code: -1017 [4:-1])
-nw_connection_copy_connected_local_endpoint_block_invoke [C8] Connection has no local endpoint
-Task <8C64F179-8CA0-4DDE-A120-DF54EF047E4D>.<1> finished with error [-1017] Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c748d0 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002190b40 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalUploadTask <8C64F179-8CA0-4DDE-A120-DF54EF047E4D>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalUploadTask <8C64F179-8CA0-4DDE-A120-DF54EF047E4D>.<1>"
+nw_write_request_report [C7] Send failed with error "Socket is not connected"
+Task <76E8E4A6-691C-48EB-8DE5-11A599309658>.<1> HTTP load failed, 152/0 bytes (error code: -1017 [4:-1])
+nw_connection_copy_connected_local_endpoint_block_invoke [C7] Connection has no local endpoint
+Task <76E8E4A6-691C-48EB-8DE5-11A599309658>.<1> finished with error [-1017] Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c16730 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002134a00 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efac94e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalUploadTask <76E8E4A6-691C-48EB-8DE5-11A599309658>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
+    "LocalUploadTask <76E8E4A6-691C-48EB-8DE5-11A599309658>.<1>"
 ), NSLocalizedDescription=cannot parse response, NSErrorFailingURLStringKey=https://app-analytics-services.com/sdk-exp, NSErrorFailingURLKey=https://app-analytics-services.com/sdk-exp, _kCFStreamErrorDomainKey=4}
-<Google/Utilities/Network/ERROR> Encounter network error. Code, error: -1017, Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c748d0 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002190b40 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalUploadTask <8C64F179-8CA0-4DDE-A120-DF54EF047E4D>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalUploadTask <8C64F179-8CA0-4DDE-A120-DF54EF047E4D>.<1>"
+nw_protocol_implementation_lookup_path [C7.1.1.1:2] No path found for d82b759c7f3784d6
+<Google/Utilities/Network/ERROR> Encounter network error. Code, error: -1017, Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c16730 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002134a00 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efac94e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalUploadTask <76E8E4A6-691C-48EB-8DE5-11A599309658>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
+    "LocalUploadTask <76E8E4A6-691C-48EB-8DE5-11A599309658>.<1>"
 ), NSLocalizedDescription=cannot parse response, NSErrorFailingURLStringKey=https://app-analytics-services.com/sdk-exp, NSErrorFailingURLKey=https://app-analytics-services.com/sdk-exp, _kCFStreamErrorDomainKey=4}
-nw_protocol_implementation_lookup_path [C8.1.1.1:2] No path found for 9028f536407e751d
-0x105812618 8 Server protocol violation 0x02
-0x105812618 8 Control stream closed but connection is alive
-11.15.0 - [GULNetwork][I-NET901017] <Google/Utilities/Network/ERROR> Encounter network error. Code, error: -1017, Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c748d0 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002190b40 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalUploadTask <8C64F179-8CA0-4DDE-A120-DF54EF047E4D>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalUploadTask <8C64F179-8CA0-4DDE-A120-DF54EF047E4D>.<1>"
+0x103875a18 7 Server protocol violation 0x02
+0x103875a18 7 Control stream closed but connection is alive
+11.15.0 - [GULNetwork][I-NET901017] <Google/Utilities/Network/ERROR> Encounter network error. Code, error: -1017, Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c16730 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002134a00 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efac94e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalUploadTask <76E8E4A6-691C-48EB-8DE5-11A599309658>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
+    "LocalUploadTask <76E8E4A6-691C-48EB-8DE5-11A599309658>.<1>"
 ), NSLocalizedDescription=cannot parse response, NSErrorFailingURLStringKey=https://app-analytics-services.com/sdk-exp, NSErrorFailingURLKey=https://app-analytics-services.com/sdk-exp, _kCFStreamErrorDomainKey=4}
-11.15.0 - [FirebaseAnalytics][I-ACS820002] Network fetch failed. Will retry later. Code, error: 0, Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c748d0 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002190b40 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalUploadTask <8C64F179-8CA0-4DDE-A120-DF54EF047E4D>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalUploadTask <8C64F179-8CA0-4DDE-A120-DF54EF047E4D>.<1>"
+11.15.0 - [FirebaseAnalytics][I-ACS820002] Network fetch failed. Will retry later. Code, error: 0, Error Domain=NSURLErrorDomain Code=-1017 "cannot parse response" UserInfo={_kCFStreamErrorCodeKey=-1, NSUnderlyingError=0x600000c16730 {Error Domain=kCFErrorDomainCFNetwork Code=-1017 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x600002134a00 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efac94e0000000000000000}, _kCFStreamErrorCodeKey=-1, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalUploadTask <76E8E4A6-691C-48EB-8DE5-11A599309658>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
+    "LocalUploadTask <76E8E4A6-691C-48EB-8DE5-11A599309658>.<1>"
 ), NSLocalizedDescription=cannot parse response, NSErrorFailingURLStringKey=https://app-analytics-services.com/sdk-exp, NSErrorFailingURLKey=https://app-analytics-services.com/sdk-exp, _kCFStreamErrorDomainKey=4}
-<0x107809760> Gesture: System gesture gate timed out.
-Unable to simultaneously satisfy constraints.
-	Probably at least one of the constraints in the following list is one you don't want. 
-	Try this: 
-		(1) look at each constraint and try to figure out which you don't expect; 
-		(2) find the code that added the unwanted constraint or constraints and fix it. 
-(
-    "<NSLayoutConstraint:0x600002126a80 'accessoryView.bottom' _UIRemoteKeyboardPlaceholderView:0x10574cdb0.bottom == _UIKBCompatInputView:0x10783fb50.top   (active)>",
-    "<NSLayoutConstraint:0x600002136f30 'assistantHeight' SystemInputAssistantView.height == 72   (active, names: SystemInputAssistantView:0x10565a380 )>",
-    "<NSLayoutConstraint:0x600002138320 'assistantView.bottom' SystemInputAssistantView.bottom == _UIKBCompatInputView:0x10783fb50.top   (active, names: SystemInputAssistantView:0x10565a380 )>",
-    "<NSLayoutConstraint:0x60000213b570 'assistantView.top' V:[_UIRemoteKeyboardPlaceholderView:0x10574cdb0]-(0)-[SystemInputAssistantView]   (active, names: SystemInputAssistantView:0x10565a380 )>"
-)
-
-Will attempt to recover by breaking constraint 
-<NSLayoutConstraint:0x600002136f30 'assistantHeight' SystemInputAssistantView.height == 72   (active, names: SystemInputAssistantView:0x10565a380 )>
-
-Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
-The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
-Unable to simultaneously satisfy constraints.
-	Probably at least one of the constraints in the following list is one you don't want. 
-	Try this: 
-		(1) look at each constraint and try to figure out which you don't expect; 
-		(2) find the code that added the unwanted constraint or constraints and fix it. 
-(
-    "<NSLayoutConstraint:0x600002140d70 'accessoryView.bottom' _UIRemoteKeyboardPlaceholderView:0x10574cdb0.bottom == _UIKBCompatInputView:0x10783fb50.top   (active)>",
-    "<NSLayoutConstraint:0x60000218ab70 'assistantHeight' SystemInputAssistantView.height == 72   (active, names: SystemInputAssistantView:0x10565a380 )>",
-    "<NSLayoutConstraint:0x600002138320 'assistantView.bottom' SystemInputAssistantView.bottom == _UIKBCompatInputView:0x10783fb50.top   (active, names: SystemInputAssistantView:0x10565a380 )>",
-    "<NSLayoutConstraint:0x60000213b570 'assistantView.top' V:[_UIRemoteKeyboardPlaceholderView:0x10574cdb0]-(0)-[SystemInputAssistantView]   (active, names: SystemInputAssistantView:0x10565a380 )>"
-)
-
-Will attempt to recover by breaking constraint 
-<NSLayoutConstraint:0x60000218ab70 'assistantHeight' SystemInputAssistantView.height == 72   (active, names: SystemInputAssistantView:0x10565a380 )>
-
-Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
-The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
-Unable to simultaneously satisfy constraints.
-	Probably at least one of the constraints in the following list is one you don't want. 
-	Try this: 
-		(1) look at each constraint and try to figure out which you don't expect; 
-		(2) find the code that added the unwanted constraint or constraints and fix it. 
-(
-    "<NSLayoutConstraint:0x600002195ea0 'accessoryView.bottom' _UIRemoteKeyboardPlaceholderView:0x1078731c0.bottom == _UIKBCompatInputView:0x10783fb50.top   (active)>",
-    "<NSLayoutConstraint:0x600002196b70 'assistantHeight' SystemInputAssistantView.height == 72   (active, names: SystemInputAssistantView:0x10565a380 )>",
-    "<NSLayoutConstraint:0x600002138320 'assistantView.bottom' SystemInputAssistantView.bottom == _UIKBCompatInputView:0x10783fb50.top   (active, names: SystemInputAssistantView:0x10565a380 )>",
-    "<NSLayoutConstraint:0x6000021963f0 'assistantView.top' V:[_UIRemoteKeyboardPlaceholderView:0x1078731c0]-(0)-[SystemInputAssistantView]   (active, names: SystemInputAssistantView:0x10565a380 )>"
-)
-
-Will attempt to recover by breaking constraint 
-<NSLayoutConstraint:0x600002196b70 'assistantHeight' SystemInputAssistantView.height == 72   (active, names: SystemInputAssistantView:0x10565a380 )>
-
-Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
-The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
-❌ Authentication error: The given sign-in provider is disabled for this Firebase project. Enable it in the Firebase console, under the sign-in method tab of the Auth section.
--[RTIInputSystemClient remoteTextInputSessionWithID:performInputOperation:]  perform input operation requires a valid sessionID. inputModality = Keyboard, inputOperation = <null selector>, customInfoType = UIEmojiSearchOperations
-nw_connection_copy_connected_local_endpoint_block_invoke [C11] Connection has no local endpoint
-nw_connection_copy_connected_local_endpoint_block_invoke [C11] Connection has no local endpoint
-quic_conn_change_current_path [C11.1.1.1:2] [-e46d1da0a82c09f8] tried to change paths, but no alternatives were found
-nw_connection_copy_connected_local_endpoint_block_invoke [C11] Connection has no local endpoint
-nw_protocol_implementation_lookup_path [C11.1.1.1:2] No path found for b2e9755e920608c1
-0x10682a218 11 Server protocol violation 0x02
-0x10682a218 11 Control stream closed but connection is alive
-nw_connection_copy_connected_local_endpoint_block_invoke [C13] Connection has no local endpoint
-nw_connection_copy_connected_local_endpoint_block_invoke [C13] Connection has no local endpoint
-quic_conn_change_current_path [C13.1.1.1:2] [-ed31fecbec587966] tried to change paths, but no alternatives were found
-nw_connection_copy_connected_local_endpoint_block_invoke [C13] Connection has no local endpoint
-nw_protocol_implementation_lookup_path [C13.1.1.1:2] No path found for 76f9038ead94112c
-0x10682a218 13 Server protocol violation 0x02
-0x10682a218 13 Control stream closed but connection is alive
-nw_connection_copy_connected_local_endpoint_block_invoke [C15] Connection has no local endpoint
-nw_connection_copy_connected_local_endpoint_block_invoke [C15] Connection has no local endpoint
-quic_conn_change_current_path [C15.1.1.1:2] [-f0a638684384ce49] tried to change paths, but no alternatives were found
-Task <84B0D500-78D7-48E4-9F52-C982AFB15D83>.<1> HTTP load failed, 334/0 bytes (error code: -1005 [4:-4])
-nw_connection_copy_connected_local_endpoint_block_invoke [C15] Connection has no local endpoint
-Task <84B0D500-78D7-48E4-9F52-C982AFB15D83>.<1> finished with error [-1005] Error Domain=NSURLErrorDomain Code=-1005 "The network connection was lost." UserInfo={_kCFStreamErrorCodeKey=-4, NSUnderlyingError=0x600000cda010 {Error Domain=kCFErrorDomainCFNetwork Code=-1005 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x60000213ac10 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-4, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalDownloadTask <84B0D500-78D7-48E4-9F52-C982AFB15D83>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalDownloadTask <84B0D500-78D7-48E4-9F52-C982AFB15D83>.<1>"
-), NSLocalizedDescription=The network connection was lost., NSErrorFailingURLStringKey=https://app-analytics-services.com/config/app/1%3A628210244031%3Aios%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, NSErrorFailingURLKey=https://app-analytics-services.com/config/app/1%3A628210244031%3Aios%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, _kCFStreamErrorDomainKey=4}
-nw_protocol_implementation_lookup_path [C15.1.1.1:2] No path found for 67130f8a1bae4263
-11.15.0 - [FirebaseAnalytics][I-ACS901017] Encounter network error. Code, error: -1005, Error Domain=NSURLErrorDomain Code=-1005 "The network connection was lost." UserInfo={_kCFStreamErrorCodeKey=-4, NSUnderlyingError=0x600000cda010 {Error Domain=kCFErrorDomainCFNetwork Code=-1005 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x60000213ac10 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-4, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalDownloadTask <84B0D500-78D7-48E4-9F52-C982AFB15D83>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalDownloadTask <84B0D500-78D7-48E4-9F52-C982AFB15D83>.<1>"
-), NSLocalizedDescription=The network connection was lost., NSErrorFailingURLStringKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, NSErrorFailingURLKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, _kCFStreamErrorDomainKey=4}
-0x1070e8a18 15 Server protocol violation 0x02
-0x1070e8a18 15 Control stream closed but connection is alive
-11.15.0 - [FirebaseAnalytics][I-ACS023128] Network request failed to fetch remote config. Code, Error: 0, Error Domain=NSURLErrorDomain Code=-1005 "The network connection was lost." UserInfo={_kCFStreamErrorCodeKey=-4, NSUnderlyingError=0x600000cda010 {Error Domain=kCFErrorDomainCFNetwork Code=-1005 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x60000213ac10 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-4, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalDownloadTask <84B0D500-78D7-48E4-9F52-C982AFB15D83>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalDownloadTask <84B0D500-78D7-48E4-9F52-C982AFB15D83>.<1>"
-), NSLocalizedDescription=The network connection was lost., NSErrorFailingURLStringKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, NSErrorFailingURLKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, _kCFStreamErrorDomainKey=4}
-11.15.0 - [FirebaseAnalytics][I-ACS023129] Network fetch failed. Will retry later. Code, error: 0, Error Domain=NSURLErrorDomain Code=-1005 "The network connection was lost." UserInfo={_kCFStreamErrorCodeKey=-4, NSUnderlyingError=0x600000cda010 {Error Domain=kCFErrorDomainCFNetwork Code=-1005 "(null)" UserInfo={NSErrorPeerAddressKey=<CFData 0x60000213ac10 [0x1e6ebb4f0]>{length = 16, capacity = 16, bytes = 0x100201bb8efab90e0000000000000000}, _kCFStreamErrorCodeKey=-4, _kCFStreamErrorDomainKey=4}}, _NSURLErrorFailingURLSessionTaskErrorKey=LocalDownloadTask <84B0D500-78D7-48E4-9F52-C982AFB15D83>.<1>, _NSURLErrorRelatedURLSessionTaskErrorKey=(
-    "LocalDownloadTask <84B0D500-78D7-48E4-9F52-C982AFB15D83>.<1>"
-), NSLocalizedDescription=The network connection was lost., NSErrorFailingURLStringKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, NSErrorFailingURLKey=https://app-analytics-services.com/config/app/1%%3A628210244031%%3Aios%%3A44bc2a6da3?platform=ios&runtime_version=0&gmp_version=111500, _kCFStreamErrorDomainKey=4}
--[RTIInputSystemClient remoteTextInputSessionWithID:performInputOperation:]  perform input operation requires a valid sessionID. inputModality = Keyboard, inputOperation = <null selector>, customInfoType = UIEmojiSearchOperations
--[RTIInputSystemClient remoteTextInputSessionWithID:performInputOperation:]  perform input operation requires a valid sessionID. inputModality = Keyboard, inputOperation = <null selector>, customInfoType = UIEmojiSearchOperations
-Unable to simultaneously satisfy constraints.
-	Probably at least one of the constraints in the following list is one you don't want. 
-	Try this: 
-		(1) look at each constraint and try to figure out which you don't expect; 
-		(2) find the code that added the unwanted constraint or constraints and fix it. 
-(
-    "<NSLayoutConstraint:0x6000021a5db0 'accessoryView.bottom' _UIRemoteKeyboardPlaceholderView:0x107951ec0.bottom == _UIKBCompatInputView:0x10783fb50.top   (active)>",
-    "<NSLayoutConstraint:0x6000021a4640 'assistantHeight' SystemInputAssistantView.height == 72   (active, names: SystemInputAssistantView:0x10565a380 )>",
-    "<NSLayoutConstraint:0x60000214f430 'assistantView.bottom' SystemInputAssistantView.bottom == _UIKBCompatInputView:0x10783fb50.top   (active, names: SystemInputAssistantView:0x10565a380 )>",
-    "<NSLayoutConstraint:0x6000021a63f0 'assistantView.top' V:[_UIRemoteKeyboardPlaceholderView:0x107951ec0]-(0)-[SystemInputAssistantView]   (active, names: SystemInputAssistantView:0x10565a380 )>"
-)
-
-Will attempt to recover by breaking constraint 
-<NSLayoutConstraint:0x6000021a4640 'assistantHeight' SystemInputAssistantView.height == 72   (active, names: SystemInputAssistantView:0x10565a380 )>
-
-Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
-The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
 *** Terminating app due to uncaught exception 'InvalidOperationException', reason: 'App ID not found. Add a string value with your app ID for the key FacebookAppID to the Info.plist or call Settings.shared.appID.'
 *** First throw call stack:
 (
 	0   CoreFoundation                      0x00000001804c88c0 __exceptionPreprocess + 172
 	1   libobjc.A.dylib                     0x00000001800937cc objc_exception_throw + 72
-	2   FBSDKCoreKit                        0x00000001050a079c -[FBSDKInternalUtility validateRequiredClientAccessToken] + 0
-	3   FBSDKCoreKit                        0x00000001050a08f0 -[FBSDKInternalUtility validateURLSchemes] + 36
-	4   FBSDKLoginKit                       0x0000000104dc5f20 $s13FBSDKLoginKit12LoginManagerC15logInParameters13configuration12loggingToken20authenticationMethodSDyS2SGSgAA0C13ConfigurationCSg_SSSgSStF + 420
-	5   FBSDKLoginKit                       0x0000000104dc383c $s13FBSDKLoginKit12LoginManagerC19performBrowserLogIn33_C218275A97333B874EDDFE627110566CLL7handleryySb_s5Error_pSgtcSg_tF + 1072
-	6   FBSDKLoginKit                       0x0000000104dce470 $s13FBSDKLoginKit12LoginManagerC5logIn33_C218275A97333B874EDDFE627110566CLL11permissions7handleryShyAA12FBPermissionCG_yAA0cdC6ResultCSg_s5Error_pSgtcSgtFTf4dnn_n + 492
-	7   FBSDKLoginKit                       0x0000000104dc24fc $s13FBSDKLoginKit12LoginManagerC11commonLogIn33_C218275A97333B874EDDFE627110566CLL4from13configuration10completionySo16UIViewControllerCSg_AA0C13ConfigurationCSgyAA0cdC6ResultCSg_s5Error_pSgtcSgt	8   FBSDKLoginKit                       0x0000000104dc2ea0 $s13FBSDKLoginKit12LoginManagerC5logIn11permissions4from7handlerySaySSG_So16UIViewControllerCSgyAA0cdC6ResultCSg_s5Error_pSgtcSgtF + 472
-	9   SkillTalk.debug.dylib               0x0000000111a33d6c $s9SkillTalk19FirebaseAuthServiceC18signInWithFacebookAA0D4UserVyYaKFyScCy13FBSDKLoginKit012LoginManagerM6ResultCs5Error_pGXEfU_ + 440
+	2   FBSDKCoreKit                        0x0000000101a2479c -[FBSDKInternalUtility validateRequiredClientAccessToken] + 0
+	3   FBSDKCoreKit                        0x0000000101a248f0 -[FBSDKInternalUtility validateURLSchemes] + 36
+	4   FBSDKLoginKit                       0x0000000101669f20 $s13FBSDKLoginKit12LoginManagerC15logInParameters13configuration12loggingToken20authenticationMethodSDyS2SGSgAA0C13ConfigurationCSg_SSSgSStF + 420
+	5   FBSDKLoginKit                       0x000000010166783c $s13FBSDKLoginKit12LoginManagerC19performBrowserLogIn33_C218275A97333B874EDDFE627110566CLL7handleryySb_s5Error_pSgtcSg_tF + 1072
+	6   FBSDKLoginKit                       0x0000000101672470 $s13FBSDKLoginKit12LoginManagerC5logIn33_C218275A97333B874EDDFE627110566CLL11permissions7handleryShyAA12FBPermissionCG_yAA0cdC6ResultCSg_s5Error_pSgtcSgtFTf4dnn_n + 492
+	7   FBSDKLoginKit                       0x00000001016664fc $s13FBSDKLoginKit12LoginManagerC11commonLogIn33_C218275A97333B874EDDFE627110566CLL4from13configuration10completionySo16UIViewControllerCSg_AA0C13ConfigurationCSgyAA0cdC6ResultCSg_s5Error_pSgtcSgt	8   FBSDKLoginKit                       0x0000000101666ea0 $s13FBSDKLoginKit12LoginManagerC5logIn11permissions4from7handlerySaySSG_So16UIViewControllerCSgyAA0cdC6ResultCSg_s5Error_pSgtcSgtF + 472
+	9   SkillTalk.debug.dylib               0x000000010e3b7d6c $s9SkillTalk19FirebaseAuthServiceC18signInWithFacebookAA0D4UserVyYaKFyScCy13FBSDKLoginKit012LoginManagerM6ResultCs5Error_pGXEfU_ + 440
 	10  libswift_Concurrency.dylib          0x000000024a2d3518 $ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFyBcXEfU_Tm + 92
 	11  libswift_Concurrency.dylib          0x000000024a2d3600 $ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTY0_ + 92
-	12  SkillTalk.debug.dylib               0x0000000111a00c15 $ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTwbTQ1_ + 1
-	13  SkillTalk.debug.dylib               0x0000000111a334b5 $s9SkillTalk19FirebaseAuthServiceC18signInWithFacebookAA0D4UserVyYaKFTQ1_ + 1
-	14  SkillTalk.debug.dylib               0x0000000111d7aabd $s9SkillTalk13AuthViewModelC18signInWithFacebookAA0C4UserVyYaKFTQ1_ + 1
-	15  SkillTalk.debug.dylib               0x00000001118c42ed $s9SkillTalk10SignInViewV04signD12WithFacebook33_4CD07F48CFA104754485B2D93A757707LLyyYaFTQ1_ + 1
-	16  SkillTalk.debug.dylib               0x00000001118c4031 $s9SkillTalk10SignInViewV4bodyQrvg7SwiftUI05TupleE0VyAE06ScrollE0VyAE0E0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAkEEALyQrAP_ATtFQOyAE6VStackVyAGyAC13headerSection33_4CD07F48CFA	17  SkillTalk.debug.dylib               0x00000001118dddc9 $s9SkillTalk10SignInViewV4bodyQrvg7SwiftUI05TupleE0VyAE06ScrollE0VyAE0E0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAkEEALyQrAP_ATtFQOyAE6VStackVyAGyAC13headerSection33_4CD07F48CFA	18  SkillTalk.debug.dylib               0x000000011189e759 $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTQ0_ + 1
-	19  SkillTalk.debug.dylib               0x00000001118b729d $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTATQ0_ + 1
+	12  SkillTalk.debug.dylib               0x000000010e384c15 $ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTwbTQ1_ + 1
+	13  SkillTalk.debug.dylib               0x000000010e3b74b5 $s9SkillTalk19FirebaseAuthServiceC18signInWithFacebookAA0D4UserVyYaKFTQ1_ + 1
+	14  SkillTalk.debug.dylib               0x000000010e6feabd $s9SkillTalk13AuthViewModelC18signInWithFacebookAA0C4UserVyYaKFTQ1_ + 1
+	15  SkillTalk.debug.dylib               0x000000010e2482ed $s9SkillTalk10SignInViewV04signD12WithFacebook33_4CD07F48CFA104754485B2D93A757707LLyyYaFTQ1_ + 1
+	16  SkillTalk.debug.dylib               0x000000010e248031 $s9SkillTalk10SignInViewV4bodyQrvg7SwiftUI05TupleE0VyAE06ScrollE0VyAE0E0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAkEEALyQrAP_ATtFQOyAE6VStackVyAGyAC13headerSection33_4CD07F48CFA	17  SkillTalk.debug.dylib               0x000000010e261dc9 $s9SkillTalk10SignInViewV4bodyQrvg7SwiftUI05TupleE0VyAE06ScrollE0VyAE0E0PAEE7paddingyQrAE4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAkEEALyQrAP_ATtFQOyAE6VStackVyAGyAC13headerSection33_4CD07F48CFA	18  SkillTalk.debug.dylib               0x000000010e222759 $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTQ0_ + 1
+	19  SkillTalk.debug.dylib               0x000000010e23b29d $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTATQ0_ + 1
 	20  libswift_Concurrency.dylib          0x000000024a3159c9 _ZL23completeTaskWithClosurePN5swift12AsyncContextEPNS_10SwiftErrorE + 1
 )
 libc++abi: terminating due to uncaught exception of type NSException
 *** Terminating app due to uncaught exception 'InvalidOperationException', reason: 'App ID not found. Add a string value with your app ID for the key FacebookAppID to the Info.plist or call Settings.shared.appID.'
 terminating due to uncaught exception of type NSException
 CoreSimulator 1010.10 - Device: iPhone 16 Pro Max (684912F2-7832-4346-840C-5A63AA0BEACA) - Runtime: iOS 18.4 (22E238) - DeviceType: iPhone 16 Pro Max
-Can't show file for stack frame : <DBGLLDBStackFrame: 0x335e753b0> - stackNumber:10 - name:-[FBSDKInternalUtility validateAppID]. The file path does not exist on the file system: /FBSDKCoreKit/FBSDKCoreKit/FBSDKInternalUtility.mMessage from debugger: killed
+Can't show file for stack frame : <DBGLLDBStackFrame: 0x33d3c0100> - stackNumber:13 - name:LoginManager.performBrowserLogIn(handler:). The file path does not exist on the file system: /FBSDKLoginKit/FBSDKLoginKit/LoginManager.swiftCan't show file for stack frame : <DBGLLDBStackFrame: 0x33d3c0100> - stackNumber:13 - name:LoginManager.performBrowserLogIn(handler:). The file path does not exist on the file system: /FBSDKLoginKit/FBSDKLoginKit/LoginManager.swiftCan't show file for stack frame : <DBGLLDBStackFrame: 0x33d3c0100> - stackNumber:13 - name:LoginManager.performBrowserLogIn(handler:). The file path does not exist on the file system: /FBSDKLoginKit/FBSDKLoginKit/LoginManager.swift
