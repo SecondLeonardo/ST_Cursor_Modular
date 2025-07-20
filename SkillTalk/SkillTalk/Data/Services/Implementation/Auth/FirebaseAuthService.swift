@@ -84,26 +84,53 @@ final class FirebaseAuthService: AuthServiceProtocol {
     }
     
     func signInWithGoogle() async throws -> AuthUser {
+        print("🔐 Starting Google Sign-In...")
+        
+        // Check if Google Sign-In is configured
+        guard GIDSignIn.sharedInstance.configuration != nil else {
+            print("❌ Google Sign-In not configured")
+            throw AuthError.configurationError("Google Sign-In not configured. Please check your configuration.")
+        }
+        
         guard let windowScene = await UIApplication.shared.connectedScenes.first as? UIWindowScene,
               let window = await windowScene.windows.first else {
+            print("❌ No window available for Google Sign-In")
             throw AuthError.presentationError
         }
         
-        let result = try await GIDSignIn.sharedInstance.signIn(withPresenting: window.rootViewController ?? UIViewController())
+        print("🔐 Attempting Google Sign-In with window...")
         
-        guard let idToken = result.user.idToken?.tokenString else {
-            throw AuthError.invalidCredential
+        do {
+            let result = try await GIDSignIn.sharedInstance.signIn(withPresenting: window.rootViewController ?? UIViewController())
+            
+            guard let idToken = result.user.idToken?.tokenString else {
+                print("❌ No ID token received from Google")
+                throw AuthError.invalidCredential
+            }
+            
+            print("🔐 Got Google ID token, creating Firebase credential...")
+            
+            let credential = GoogleAuthProvider.credential(
+                withIDToken: idToken,
+                accessToken: result.user.accessToken.tokenString
+            )
+            
+            print("🔐 Signing in to Firebase with Google credential...")
+            
+            let authResult = try await auth.signIn(with: credential)
+            let user = convertFirebaseUser(authResult.user)
+            currentUser = user
+            
+            print("✅ Google Sign-In successful: \(user.displayName ?? user.email)")
+            return user
+            
+        } catch let error as AuthError {
+            print("❌ Google Sign-In failed with AuthError: \(error)")
+            throw error
+        } catch {
+            print("❌ Google Sign-In failed with error: \(error.localizedDescription)")
+            throw AuthError.socialLoginFailed(error.localizedDescription)
         }
-        
-        let credential = GoogleAuthProvider.credential(
-            withIDToken: idToken,
-            accessToken: result.user.accessToken.tokenString
-        )
-        
-        let authResult = try await auth.signIn(with: credential)
-        let user = convertFirebaseUser(authResult.user)
-        currentUser = user
-        return user
     }
     
     func signInWithFacebook() async throws -> AuthUser {
@@ -336,6 +363,7 @@ enum AuthError: LocalizedError {
     case invalidCredential
     case presentationError
     case socialLoginFailed(String)
+    case configurationError(String)
     case cancelled
     case phoneVerificationFailed(String)
     case otpRequired
@@ -352,6 +380,8 @@ enum AuthError: LocalizedError {
             return "Unable to present authentication"
         case .socialLoginFailed(let message):
             return "Social login failed: \(message)"
+        case .configurationError(let message):
+            return "Configuration error: \(message)"
         case .cancelled:
             return "Authentication was cancelled"
         case .phoneVerificationFailed(let message):

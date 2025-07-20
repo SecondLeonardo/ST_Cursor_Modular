@@ -66,8 +66,20 @@ class SocialAuthConfiguration {
             return
         }
         
+        // Configure Google Sign-In with the client ID
         GIDSignIn.sharedInstance.configuration = GIDConfiguration(clientID: googleClientId)
-        print("✅ Google Sign-In configured successfully")
+        
+        // Restore previous sign-in state if available
+        Task {
+            do {
+                let result = try await GIDSignIn.sharedInstance.restorePreviousSignIn()
+                print("✅ Google Sign-In restored previous session for user: \(result.profile?.email ?? "unknown")")
+            } catch {
+                print("ℹ️ No previous Google Sign-In session to restore")
+            }
+        }
+        
+        print("✅ Google Sign-In configured successfully with client ID: \(googleClientId)")
     }
     
     /// Configure Facebook SDK
