@@ -133,7 +133,16 @@ class AuthViewModel: ObservableObject {
         UserDefaults.standard.set(Date(), forKey: "otp_timestamp_\(phoneNumber)")
         
         // Send OTP via SMS
-        try await smsService.sendOTP(to: phoneNumber, otp: otp)
+        try await withCheckedThrowingContinuation { continuation in
+            smsService.sendOTP(to: phoneNumber) { result in
+                switch result {
+                case .success:
+                    continuation.resume()
+                case .failure(let error):
+                    continuation.resume(throwing: error)
+                }
+            }
+        }
     }
     
     func verifyOTP(phoneNumber: String, code: String) async throws -> AuthUser {

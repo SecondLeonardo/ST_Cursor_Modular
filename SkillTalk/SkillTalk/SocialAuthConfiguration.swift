@@ -33,9 +33,9 @@ class SocialAuthConfiguration {
     
     // MARK: - Configuration Keys
     private enum ConfigKeys {
-        static let googleClientId = "YOUR_GOOGLE_CLIENT_ID"
-        static let facebookAppId = "YOUR_FACEBOOK_APP_ID"
-        static let facebookClientToken = "YOUR_FACEBOOK_CLIENT_TOKEN"
+        static let googleClientId = "628210244031-4eqhchqp2ehp12qm9itdjn1bta93dcv2.apps.googleusercontent.com"
+        static let facebookAppId = "739648135668695"
+        static let facebookClientToken = "c91e86807a00994e7418ad93c975043c"
     }
     
     // MARK: - Shared Instance
