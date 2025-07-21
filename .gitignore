@@ -164,3 +164,7 @@ client_secret_628210244031-ag6h70kk5afmuk6p2or5dt85tqengkdg.apps.googleuserconte
 SkillTalk/SkillTalk/Config/GoogleWebClientConfig.swift
 API-configurations
 API-configurations
+
+# Ignore environment variable files
+.env
+API_config
