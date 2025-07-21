@@ -29,6 +29,14 @@ import FBSDKLoginKit
 /// 3. APPLE SIGN-IN:
 ///    - No additional setup required (uses system framework)
 ///    - Ensure "Sign In with Apple" capability is enabled in Xcode
+///
+/// GOOGLE OAUTH CLIENT ID USAGE:
+/// - iOS Client ID (Info.plist: GIDClientID): Used for in-app Google Sign-In (GIDSignIn)
+/// - Web Client ID/Secret (see GoogleWebClientConfig.swift): Used for backend/REST API verification
+///   - Do NOT use Web Client ID for iOS sign-in
+///   - Safelist iOS Client ID in Firebase Console for trust
+///
+/// See GoogleWebClientConfig.swift for backend/REST API usage.
 class SocialAuthConfiguration {
     
     // MARK: - Configuration Keys
