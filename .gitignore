@@ -159,3 +159,8 @@ firebase-adminsdk-*.json
 # These are external data files that should not be committed to git
 database/ 
 client_secret_628210244031-ag6h70kk5afmuk6p2or5dt85tqengkdg.apps.googleusercontent.com.json
+
+# SkillTalk secrets
+SkillTalk/SkillTalk/Config/GoogleWebClientConfig.swift
+API-configurations
+API-configurations
